@@ -1,6 +1,6 @@
 ROturkishRE
 ============================
-Project created by zackdreaver @2015
+Project created by BigLord @2018
 
 Kore Ragnarok Online için bir Turkce çeviri projesi. Öğelerin ve becerilerin tercümesi üzerinde duruldu.
 
