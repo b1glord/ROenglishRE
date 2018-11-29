@@ -1,7 +1,7 @@
-ROenglishRE
+ROturkishRE
 ============================
 Project created by zackdreaver @2015
 
-An english translation project for Korea Ragnarok Online. Focused on translating items and skills.
+Kore Ragnarok Online için bir Turkce çeviri projesi. Öğelerin ve becerilerin tercümesi üzerinde duruldu.
 
-Note: this project should be considered as educational purpose, any commercial or illegal use by people or group aren't author's responsible.
+Not: Bu proje eğitim amaçlı olarak düşünülmelidir, kişi veya grup tarafından herhangi bir ticari veya yasa dışı kullanım, yazarın sorumluluğu altında değildir.
