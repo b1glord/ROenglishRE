@@ -1,139 +1,73 @@
-/savechat  :  save the contents of the chat window
+/ savechat: sohbet penceresinin içeriğini kaydedin
 #
-Hold the ctrl key and press the * key to toggle the minimap between opaque and semi-transparent 
+Ctrl tuşunu basılı tutun ve minimapı opak ve yarı saydam arasında değiştirmek için * tuşuna basın.
 #
-Hold the shift key and drag with the right mouse button to adjust the viewing angle. To restore the original angle, hold the shift key and double-click the right mouse button 
+Vardiya tuşunu basılı tutun ve görüş açısını ayarlamak için sağ fare tuşuyla sürükleyin. Orijinal açıyı geri yüklemek için, shift tuşunu basılı tutun ve farenin sağ tuşuna çift tıklayın.
 #
-Hold the ctrl key and drag with the right mouse button to zoom in and out. To restore the original zoom, hold the ctrl key and double click the right mouse button. The mouse wheel can also be used to zoom in and out
+Ctrl tuşunu basılı tutun ve yakınlaştırmak ve uzaklaştırmak için farenin sağ tuşuyla sürükleyin. Orijinal yakınlaştırmayı geri yüklemek için, ctrl tuşunu basılı tutun ve farenin sağ tuşuna çift tıklayın. Fare tekerleği yakınlaştırmak ve uzaklaştırmak için de kullanılabilir
 #
-When you move the mouse cursor over monsters, it will change to a sword and you can then attack
+Fare imlecini canavarlar üzerinde hareket ettirdiğinizde, bir kılıça dönüşecek ve daha sonra saldırabilirsiniz.
 #
-Experience gained from killing a monster is proportional to the damage done to the monster. *When more than one player attack the same monster, the first player to attack will get more experience
+Bir canavarı öldürmekten kazanılan deneyim, canavara verilen zararla orantılıdır. * Birden fazla oyuncu aynı canavara saldırdığında, saldırıya geçen ilk oyuncu daha fazla tecrübe kazanacak
 #
-Hold the ctrl key and attack a monster to lock-on attack status which will automatically attack the target untill the monster is killed. To cancel automatic attack, just click anywhere else
+Ctrl tuşunu basılı tutun ve canavarın öldürülmesine kadar otomatik olarak hedefe saldıracak saldırı durumuna geçmek için bir canavara saldırın. Otomatik saldırıyı iptal etmek için, sadece başka bir yere tıklayın
 #
-[Left click] on a item on the ground to pick it up. Items that you picked up will show in the inventory
+Almak için yere bir öğe üzerinde [Sol tıklama]. Aldığınız öğeler envanterde gösterilecek
 #
-[Right click] on an item to see a description of the item
+Öğenin açıklamasını görmek için bir öğeye [sağ tıklama]
 #
-The two bars below your feet are the HP and SP. The green is the HP and the blue is the SP. The player dies when HP drops to 0. To act as a warning, the HP bar will turn to red when player's HP is at or below 25%
+Ayaklarınızın altındaki iki çubuk, HP ve SP'dir. Yeşil HP ve mavi SP'dir. HP, 0'a düştüğünde oyuncu ölüyor. Bir uyarı olarak hareket etmek için, oynatıcının HP'si% 25'in altında veya altında olduğunda HP çubuğu kırmızıya dönecektir.
 #
-When the EXP bar is full (100%), base level will rise, and player is awarded with Status Points to invest freely in the desired attributes
+EXP çubuğu dolduğunda (% 100), taban seviyesi yükselecek ve oyuncu istenen niteliklere serbestçe yatırım yapmak için Durum Puanı ile ödüllendirilecektir.
 #
-When the JOBEXP bar below the EXP bar is full (100%), job level will rise, and player is awarded with skill point to invest freely in the desired skill
+EXP çubuğunun altındaki JOBEXP çubuğu dolduğunda (% 100), iş seviyesi yükselecek ve oyuncu istenen beceriye serbestçe yatırım yapacak yetenekle ödüllendirilecektir.
 #
-HP and SP recovers slowly when players stand still. *The recoversy speed doubles when players are sitting. However, when the player carries more than 50% on weight, then HP and SP cannot be recovered automatically
+Oyuncular durduklarında HP ve SP yavaşça iyileşir. * Oyuncular oturduğunda geri dönüş hızı ikiye katlanır. Ancak, oyuncu ağırlıkça% 50'den fazla taşıdığında, HP ve SP otomatik olarak kurtarılamaz.
 #
-Weight : displayed as carried weight and maximum loading weight. Players cannot carry the items more than maximum loading weight. Carried weight will turn red if it exceeds half of the maximum loading weight, and HP and SP auto recovery will stop. When carried weight exceeds 90% of maximum loading weight, the player will not be able to attack or use skills
+Ağırlık: Taşınan ağırlık ve maksimum yükleme ağırlığı olarak gösterilir. Oyuncular, öğeleri maksimum yükleme ağırlığından daha fazla taşıyamaz. Maksimum yükleme ağırlığının yarısını aşarsa, taşınan ağırlık kırmızıya döner ve HP ve SP otomatik kurtarma işlemi duracaktır. Taşınan yükün maksimum yükleme ağırlığının% 90'ını aşması durumunda, oyuncu saldırıya veya beceriye sahip olmayacaktır.
 #
-Zeny : this is the currency used in Ragnarok Online. *It is automatically deducted when players trade or make purchases
+Zeny: Bu, Ragnarok Online'da kullanılan para birimidir. * Oyuncular ticaret yaptıkları veya alım yaptıkları zaman otomatik olarak düşülür
 #
-When base level rises, players are awarded with Status Points which can be invested in their attributes
+Baz seviyesi yükseldiğinde, oyunculara kendi niteliklerine yatırılabilen Durum Puanı verilir.
 #
-STR (strength) : directly affects the player's attack. The higher the strength the more items one can carry. Increasing strength increases attack
+STR (kuvvet): oyuncunun saldırısını doğrudan etkiler. Mukavemeti ne kadar yüksek olursa, o kadar fazla eşya taşıyabilir. Artan güç, saldırıyı artırır
 #
-DEX (dexterity) : directly affects the use of weapons. The higher the dexterity, the more efficient that weapons will become. When using bow and arrow, increasing DEX increases attack and accuracy; it also influences spell cast speed
+DEX (el becerisi): doğrudan silah kullanımını etkiler. El becerisi ne kadar yüksek olursa, silahlar o kadar verimli olur. Yay ve ok kullanırken, DEX'in artırılması saldırı ve doğruluğu artırır; ayrıca yazım hızını etkiler
 #
-AGI (agility) : directly related to the player's agility. Increasing agility increases possibility of dodging enemy attacks; and the attack speed of various weapons will also rise
+AGI (çeviklik): doğrudan oyuncunun çevikliğiyle ilgilidir. Artan çeviklik, düşman saldırılarını kaçırma olasılığını artırır; ve çeşitli silahların saldırı hızı da artacak
 #
-VIT (vitality) : directly related to the player's defence and HP. Higher VIT increases defence and decreses damage taken when attacked; it also increases maximum HP and HP recovery rate
+VIT (canlılık): doğrudan oyuncunun savunması ve HP ile ilgilidir. Yüksek VIT, savunmayı artırır ve saldırıya uğradığı zaman verilen zararı azaltır; ayrıca maksimum HP ve HP kurtarma oranını artırır
 #
-INT (intelligence) : directly related to the player's SP. Higher INT increases magic attack (MATK) and magic defence (MDEF)
+INT (istihbarat): doğrudan oyuncunun SP'si ile ilgilidir. Daha yüksek INT sihirli saldırı (MATK) ve sihirli savunma (MDEF) artırır
 #
-LUK (luck) : luck is direcly related to various things, increasing LUK affects mainly the probability of critical hits and lucky (dodging enemy attacks purely by luck)
+LUK (şans): Şans, çeşitli şeylerle direk olarak ilişkilidir, artan LUK, kritik isabetlerin ve şanslı olma olasılığını (sadece şansla tamamen düşman saldırılarını kaçmak) etkiler.
 #
-[Print Screen] or [Scroll Lock] : take a screenshot. Screenshots will be saved in the [ScreenShot] files
+[Print Screen] veya [Scroll Lock]: ekran görüntüsü al. Ekran görüntüleri [ScreenShot] dosyalarına kaydedilecek
 #
-[F10] : adjust the size of the chat window
+[F10]: sohbet penceresinin boyutunu ayarlayın
 #
-[F11] : keep only the basic information window and chat window; closes all other windows
+[F11]: sadece temel bilgi penceresini ve sohbet penceresini saklayın; diğer tüm pencereleri kapatır
 #
-[F12] : open/close the hot key bar. *Drag frequently used items or skills onto the F1-F9 keys, then press the corresponding key for quick access
+[F12]: kısayol çubuğunu açar / kapatır. * Sık kullanılan öğeleri veya becerileri F1-F9 tuşlarına sürükleyin, ardından hızlı erişim için karşılık gelen tuşa basın
 #
-[INSERT] : sit or stand *Equivalent to entering [/sit] or [/stand] in the chat window. HP and SP recovery is twice as fast sitting than standing
+[INSERT]: Oturun veya ayakta durun * Sohbet penceresine [/ sit] veya [/ stand] girmeye eşdeğerdir. HP ve SP kurtarma, beklemeden iki kat daha hızlı oturur
 #
-[Alt] + [End] : toggle the [HP/SP] bars beneath the character on/off
+[Alt] + [Son]: karakterin altındaki [HP / SP] çubuklarını açar / kapatır
 #
-[Alt] + [Home] : toggle indication of accessible areas on the minimap on/off
+[Alt] + [Ana Sayfa]: mini haritadaki erişilebilir alanların geçiş göstergesi açık / kapalı
 #
-[Alt] + [=] : toggle input status between double-byte and single-byte input. Commands entered in double-byte characters will not be executed; only single-byte commands will be executed
+[Alt] + [=]: giriş durumunu çift bayt ve tek bayt giriş arasında değiştirir. Çift baytlı karakterler halinde girilen komutlar yürütülmez; sadece tek bayt komutları çalıştırılacak
 #
-[Alt] + [F10] : toggle chat window on/off
+[Alt] + [F10]: sohbet penceresini aç / kapat
 #
-[Alt] + [1~9] , [Ctrl] + [-,=,w] :[Alt] + [1~9] uses the following emotions: exclamation, question mark, music, heart, sweat, light bulb, anger, cloud, money, eclipse. [Ctrl] + [-,=,w] : scissors, stone and paper 
-
-/WHO : display the number of players online of the server
+[Alt] + [1 ~ 9], [Ctrl] + [-, =, w]: [Alt] + [1 ~ 9] şu duyguları kullanır: ünlem, soru işareti, müzik, kalp, ter, ampul, öfke, bulut, para, tutulma. [Ctrl] + [-, =, w]: makas, taş ve kağıt
 #
-/WHERE : display information and coordinate of player's current location
+/ WHO: sunucunun çevrimiçi oyuncu sayısını gösterir
 #
-/H : display descriptions of basic commands
+/ NEREDE: oyuncunun mevcut konum bilgisini ve koordinatını göster
 #
-/BGM : toggle background music on/off. *Can also be done in the windows by pressing [Alt] + [0]
+/ H: temel komutların açıklamalarını görüntüleme
 #
-/SOUND : toggle sound effects on/off. *Can also be done in the windows by pressing [Alt] + [0]
+/ BGM: Arkaplan müziğini aç / kapat. * Pencerelerde [Alt] + [0] tuşlarına basarak da yapılabilir.
 #
-/EFFECT : toggle various graphical effects in the game on/off. *The game will run smoother when turn the effects off
-#
-/SKIP : toggle screen synchronization on/off
-#
-/EX [character name] : ignore all 1:1 chat coming from the said player
-/IN [character name] : accept 1:1 chat coming from the said player
-#
-/EXALL : ignore all conversation coming from any player
-/INALL : accept conversation coming from any player
-#
-/EX : display a list of players being ignored
-#
-/ORGANIZE [party name] : to form a party. *Captains of parties may invite other players to join
-#
-Right click on the player you want to invite and choose the "Invite into party" to invite the player to join
-#
-/LEAVE : leave your current party. *There will be no additional confirmation if you use this command
-#
-/EXPEL [character name] : the party captain may expel a specific member from the party. *There will be no additional confirmation if you use this command
-#
-Click the [circle] on the bottom right corner of the chat window and choose "party channel" to use the party channel and chat with party members
-#
-%  : add % at the beginning of a message to chat in the party channel directly; or hold the ctrl key and then press enter to send the message directly to party members  
-#
-the minimap on the top right-hand corner will show the position of all the party members
-#
-1:1 Chat : input character name on the left of the chat window and the message on the right; toggle between the two fields quickly by using the TAB key
-#
-the minimap keys [+/-] will zoom in/out on the map 
-#
-[MVP system] : when fighting Boss level monsters, to protect the rights of the player dealing the most damage, the Boss's MVP item will be dropped automatically in the MVP player's inventory; if the Boss monster did not drop MVP items, then the player is compensated with 50% of the experience
-#
-The game window can be moved when playing in windowed mode. Hold [Alt] + [Space] and press the [m] key, then use the direction arrows or the mouse to move the game window
-#
-/fog : toggle fog effect on/off. Fog effects better represent the weather of various maps. For players with lower-end computers, this increases the computing load. If the game halts or exits abnormally, we recommend players to turn off fog effect. Fog can be turned on/off permanently in Config
-#
-Items found on monsters are unidentified; use magnifying glasses bought from tool shops to identify and verify the effects and usage of items
-#
-If Hunters want to use the Trap series of skills, they must have the�mBooby Trap�nitem on them
-#
-One Emperium is required to make a guild (union); the command is /GUILD [guild name] , the name cannot contain special characters or spaces. Alt + G opens the guild window
-#
-Guild members may use /GC [message] or $ [message] or press Alt + Enter for guild chat
-#
-To insert a card to a slot on the equipment, first un-equip the item, then double click on the card. A list of items available for the card will appear for selection
-#
-Description of courtesy point system   
---Novices may use this starting from Basic Skills level 8
---Right click on a player and choose to give courtesy point
-#
-Description of some abnormal status
---Stun : when stunned, players will not be able to move
---Darkness : screen turns dark; for monsters, this means a shorter radius of vision
---Frozen : unable to move; recovers only when attacked
-#
-Experience values will be deducted at death. After using skills or a battle, a 5-second delay is forced before you may go offline
-#
-Query the Kapra staff for access to storage, save points and leasing pushcarts.
-#
-[Alt] + [J] : Can use to see the adopt pet's
-#
-Function follow people : Click the key [Shift] + [right click]
-#
-[Alt] + [L] : Use for emotion bar, click  Alt+M or Alt+L to choose your prefer emotion.
-#
+/ SOUND: geçiş sesi
