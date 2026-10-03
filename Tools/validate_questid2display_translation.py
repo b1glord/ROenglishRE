@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # Dosya Yolu: /ROenglishRE/Tools/validate_questid2display_translation.py
-# Amac: questid2display.txt cevirisinin kayit yapisini bozmadigini dogrular
+# Amac: questid2display.txt cevirisinin byte ve kayit yapisini dogrular
 # Modul: Tool - Python
-# Version: 1.0.0
-# Aciklama: Quest ID, teknik header alanlari, satir konumu ve # ayirac yapisini upstream ile karsilastirir
+# Version: 1.1.0
+# Aciklama: Legacy encoding'i decode etmeden ID/header/# yapisini ve degisen satirlarin ASCII olmasini kontrol eder
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -14,7 +14,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-HEADER_RE = re.compile(r"^(\d+)#([^#]*)#([^#]*)#([^#]*)#$")
+HEADER_RE = re.compile(rb"^(\d+)#([^#]*)#([^#]*)#([^#]*)#$")
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -27,20 +27,20 @@ def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
     if result.returncode != 0:
         sys.stderr.buffer.write(result.stderr)
         raise SystemExit(2)
-    return result.stdout.replace(b"\r\n", b"\n")
+    return result.stdout
 
 
-def structural_line(line: str) -> str:
+def structural_line(line: bytes) -> bytes:
     match = HEADER_RE.match(line)
     if match:
         quest_id, _title, icon, image = match.groups()
-        return f"{quest_id}##{icon}#{image}#"
+        return quest_id + b"##" + icon + b"#" + image + b"#"
 
-    if line == "":
-        return ""
+    if line == b"":
+        return b""
 
-    if line.endswith("#"):
-        return "#"
+    if line.endswith(b"#"):
+        return b"#"
 
     return line
 
@@ -68,47 +68,52 @@ def main() -> int:
         else script_path.parent.parent
     )
 
-    upstream_raw = git_show(repo_root, args.upstream_ref, args.path)
-    translated_raw = git_show(repo_root, args.translation_ref, args.path)
-
-    upstream = upstream_raw.decode("utf-8").split("\n")
-    translated = translated_raw.decode("utf-8").split("\n")
+    upstream = git_show(repo_root, args.upstream_ref, args.path).split(b"\n")
+    translated = git_show(repo_root, args.translation_ref, args.path).split(b"\n")
 
     if len(upstream) != len(translated):
         print(
-            f"Satir sayisi farkli: upstream={len(upstream)}, translation={len(translated)}",
+            f"Satir sayisi farkli: upstream={len(upstream)}, "
+            f"translation={len(translated)}",
             file=sys.stderr,
         )
         return 1
 
     changed_lines = 0
-    changed_non_ascii = []
+    changed_non_ascii: list[tuple[int, bytes]] = []
 
-    for index, (source, target) in enumerate(zip(upstream, translated), start=1):
+    for index, (source, target) in enumerate(
+        zip(upstream, translated), start=1
+    ):
         if structural_line(source) != structural_line(target):
             print(
                 f"Quest yapisi degisti, satir {index}:\n"
-                f"  upstream: {source}\n"
-                f"  turkce:   {target}",
+                f"  upstream: {source!r}\n"
+                f"  turkce:   {target!r}",
                 file=sys.stderr,
             )
             return 1
 
         if source != target:
             changed_lines += 1
-            try:
-                target.encode("ascii")
-            except UnicodeEncodeError:
+            if any(byte >= 0x80 for byte in target):
                 changed_non_ascii.append((index, target))
 
     if changed_non_ascii:
-        print("Degistirilen quest satirlarinda ASCII disi karakter bulundu:", file=sys.stderr)
+        print(
+            "Degistirilen quest satirlarinda ASCII disi byte bulundu:",
+            file=sys.stderr,
+        )
         for index, line in changed_non_ascii[:20]:
-            print(f"  {index}: {line}", file=sys.stderr)
+            print(f"  {index}: {line!r}", file=sys.stderr)
         return 1
 
-    upstream_headers = sum(1 for line in upstream if HEADER_RE.match(line))
-    translated_headers = sum(1 for line in translated if HEADER_RE.match(line))
+    upstream_headers = sum(
+        1 for line in upstream if HEADER_RE.match(line)
+    )
+    translated_headers = sum(
+        1 for line in translated if HEADER_RE.match(line)
+    )
     if upstream_headers != translated_headers:
         print(
             f"Quest header sayisi farkli: upstream={upstream_headers}, "
@@ -117,7 +122,7 @@ def main() -> int:
         )
         return 1
 
-    print("questid2display structure: OK")
+    print("questid2display byte structure: OK")
     print(f"Quest record count: {translated_headers}")
     print(f"Changed lines: {changed_lines}")
     return 0
