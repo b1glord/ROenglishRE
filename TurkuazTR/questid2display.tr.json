@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.1.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4306-4324 Korece Raccoon Destek Ekibi gorev zinciri dahil",
+    "version": "4.2.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4344-4364 Paskalya ve Santa etkinlik gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4367,6 +4367,56 @@
       "title": "Raccoon Destek Ekibi",
       "description": "10003 Raccoon'a cok fazla yardim ettin.",
       "goal": "Raccoon'a cok yardim ettin"
+    },
+    "4344": {
+      "title": "Tavsan Deliklerini Bul",
+      "description": "Hugel cevresinde tavsan hirsizlarinin saklandigi birkac cukur var.",
+      "goal": "Tavsan deliklerini bul"
+    },
+    "4345": {
+      "title": "Paskalya Bekleme Suresi",
+      "description": "Tekrar denemek icin bekleme suresinin dolmasini bekle.",
+      "goal": "Bekleme suresini tamamla"
+    },
+    "4357": {
+      "title": "Santa Lunatic Avi",
+      "description": "Prontera ve Geffen yakinlarindaki alanlarda 3 Santa Lunatic yen.",
+      "goal": "3 Santa Lunatic yen"
+    },
+    "4358": {
+      "title": "Santa Goblin Avi",
+      "description": "Geffen'in guney tarafinda 3 Santa Goblin yen.",
+      "goal": "3 Santa Goblin yen"
+    },
+    "4359": {
+      "title": "Santa Orc Avi",
+      "description": "Guney Geffen ve Orc Field'da bulunan 3 Santa Orc yen.",
+      "goal": "3 Santa Orc yen"
+    },
+    "4360": {
+      "title": "Santa Jackk Avi",
+      "description": "Geffen Tower ikinci katta 3 Santa Jackk yen.",
+      "goal": "3 Santa Jackk yen"
+    },
+    "4361": {
+      "title": "Santa Lunatic Bekleme Suresi",
+      "description": "Gorevi tekrar almak icin 24 saat bekle.",
+      "goal": "24 saat bekle"
+    },
+    "4362": {
+      "title": "Santa Goblin Bekleme Suresi",
+      "description": "Gorevi tekrar almak icin 24 saat bekle.",
+      "goal": "24 saat bekle"
+    },
+    "4363": {
+      "title": "Santa Orc Bekleme Suresi",
+      "description": "Gorevi tekrar almak icin 24 saat bekle.",
+      "goal": "24 saat bekle"
+    },
+    "4364": {
+      "title": "Santa Jakk Bekleme Suresi",
+      "description": "Gorevi tekrar almak icin 24 saat bekle.",
+      "goal": "24 saat bekle"
     }
   }
 }
