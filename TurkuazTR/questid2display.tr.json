@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5341-5370 Memory Record ve Dr. Fresa gorev zinciri dahil",
+    "version": "6.0.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5374-5390 acil belge, istila ve Scaraba boss gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5627,6 +5627,91 @@
       "title": "Memory Record",
       "description": "Memory Record kullanilan yolculugu basariyla tamamladin.",
       "goal": "Yolculuk tamamlandi"
+    },
+    "5374": {
+      "title": "Acil Durum",
+      "description": "Tehlikeli belgeleri Rune Midgarts Guard'a teslim ettin.",
+      "goal": "Belgeler teslim edildi"
+    },
+    "5375": {
+      "title": "Ozel Askerleri Yen - Bekleme (Premium)",
+      "description": "Gorevi yeniden yapmak icin 12 saat beklemelisin.",
+      "goal": "Bekleme suresi: 12 saat"
+    },
+    "5376": {
+      "title": "Ozel Askerleri Yen - Bekleme",
+      "description": "Ozel askerleri yenme gorevini yeniden yapmak icin 24 saat beklemelisin.",
+      "goal": "Bekleme suresi: 24 saat"
+    },
+    "5377": {
+      "title": "Robert Insect'leri Yen",
+      "description": "200 Robert Insect yen. Prontera Field 0, 1 ve 5 ile Geffen Field 0'da bulunabilirler.",
+      "goal": "200 Robert Insect yen"
+    },
+    "5378": {
+      "title": "Hawkeye Insect'leri Yen",
+      "description": "200 Hawkeye Insect yen. Prontera Field 0, 1 ve 5 ile Geffen Field 0'da bulunabilirler.",
+      "goal": "200 Hawkeye Insect yen"
+    },
+    "5379": {
+      "title": "The Giant Insect'leri Yen",
+      "description": "200 The Giant yen. Prontera Field 0, 1 ve 5 ile Geffen Field 0'da bulunabilirler.",
+      "goal": "200 The Giant yen"
+    },
+    "5380": {
+      "title": "Elite Askerleri Yen - Bekleme (Premium)",
+      "description": "Gorevi yeniden yapmak icin 12 saat beklemelisin.",
+      "goal": "Bekleme suresi: 12 saat"
+    },
+    "5381": {
+      "title": "Elite Askerleri Yen - Bekleme",
+      "description": "Gorevi yeniden yapmak icin 24 saat beklemelisin.",
+      "goal": "Bekleme suresi: 24 saat"
+    },
+    "5382": {
+      "title": "Gabor'u Yen",
+      "description": "Bastirma gorevi: Mjolnir Field 1-10 haritalarini istila eden 200 Gabor'u yen.",
+      "goal": "200 Gabor yen"
+    },
+    "5383": {
+      "title": "Bay'i Yen",
+      "description": "Bastirma gorevi: Mjolnir Field 1-10 haritalarini istila eden 200 Bay'i yen.",
+      "goal": "200 Bay yen"
+    },
+    "5384": {
+      "title": "Havlock'u Yen",
+      "description": "Bastirma gorevi: Mjolnir Field 1-10 haritalarini istila eden 200 Havlock'u yen.",
+      "goal": "200 Havlock yen"
+    },
+    "5385": {
+      "title": "Boss'u Yen - Bekleme (Premium)",
+      "description": "Gorevi yeniden yapmak icin 12 saat beklemelisin.",
+      "goal": "Bekleme suresi: 12 saat"
+    },
+    "5386": {
+      "title": "Boss'u Yen - Bekleme",
+      "description": "Boss gorevini yeniden yapmak icin 24 saat beklemelisin.",
+      "goal": "Bekleme suresi: 24 saat"
+    },
+    "5387": {
+      "title": "Boss'u Yen",
+      "description": "Bastirma gorevi: 20 Boss Horn Scaraba yen.",
+      "goal": "20 Boss Horn Scaraba yen"
+    },
+    "5388": {
+      "title": "Boss'u Yen",
+      "description": "Bastirma gorevi: 20 Boss 2Horns Scaraba yen.",
+      "goal": "20 Boss 2Horns Scaraba yen"
+    },
+    "5389": {
+      "title": "Boss'u Yen",
+      "description": "Bastirma gorevi: 20 Boss Rake Scaraba yen.",
+      "goal": "20 Boss Rake Scaraba yen"
+    },
+    "5390": {
+      "title": "Boss'u Yen",
+      "description": "Bastirma gorevi: 20 Boss Antler Scaraba yen.",
+      "goal": "20 Boss Antler Scaraba yen"
     }
   }
 }
