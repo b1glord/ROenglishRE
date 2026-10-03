@@ -1,0 +1,74 @@
+# Dosya Yolu: /ROenglishRE/.github/workflows/quest-display-rebuild.yml
+# Amac: questid2display.txt dosyasini upstream legacy byte encoding'ini koruyarak yeniden uretir
+# Modul: Tool - YAML
+# Version: 1.0.0
+# Aciklama: TurkuazTR quest patch JSON'ini byte-seviyesi patcher ile uygular ve generated dosyayi translation/tr dalina yazar
+# Bagimli Oldugu Katman: Tool
+
+name: Quest Display Rebuild
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - "translation/tr"
+    paths:
+      - "TurkuazTR/questid2display.tr.json"
+      - "Tools/apply_questid2display_translation.py"
+      - ".github/workflows/quest-display-rebuild.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quest-display-rebuild-translation-tr
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translation branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch upstream source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin \
+            '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest'
+
+      - name: Apply byte-safe quest translations
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/apply_questid2display_translation.py \
+            --source-ref refs/remotes/origin/upstream/latest
+
+      - name: Verify generated change scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          git diff --numstat -- Translation/Renewal/data/questid2display.txt
+
+      - name: Commit generated quest display
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- Translation/Renewal/data/questid2display.txt; then
+            echo "questid2display.txt already matches byte-safe patch output."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add Translation/Renewal/data/questid2display.txt
+          git commit -m "chore: rebuild byte-safe quest display localization"
+          git push origin HEAD:translation/tr
