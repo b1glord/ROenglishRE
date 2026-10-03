@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.1.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5391-5400 Private ve Elite katliam gorevleri dahil",
+    "version": "6.2.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5402-5414 Richard ailesi Warrior Discipline gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5762,6 +5762,71 @@
       "title": "Elite Katliami",
       "description": "Bastirma gorevi: 50 Elite Rake Scaraba yen.",
       "goal": "50 Elite Rake Scaraba yen"
+    },
+    "5402": {
+      "title": "Kraliyet Richard Ailesi",
+      "description": "Richard ailesinin lideri Po ile gorusmek icin randevu aldin. Po'yu ziyaret et.",
+      "goal": "Richard ailesinin lideri Po ile gorus"
+    },
+    "5403": {
+      "title": "Kraliyet Richard Ailesi",
+      "description": "Po, Richard ailesinin egitim programina katilmani istedi. Programi tamamlarsan odul alacaksin.",
+      "goal": "Richard ailesi egitimine katil"
+    },
+    "5404": {
+      "title": "Savasci Disiplini - Human",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Human tipi canavar avla.",
+      "goal": "50 Human tipi canavar avla"
+    },
+    "5405": {
+      "title": "Savasci Disiplini - Brute",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Brute tipi canavar avla.",
+      "goal": "50 Brute tipi canavar avla"
+    },
+    "5406": {
+      "title": "Savasci Disiplini - Insect",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Insect tipi canavar avla.",
+      "goal": "50 Insect tipi canavar avla"
+    },
+    "5407": {
+      "title": "Savasci Disiplini - Fish",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Fish tipi canavar avla.",
+      "goal": "50 Fish tipi canavar avla"
+    },
+    "5408": {
+      "title": "Savasci Disiplini - Plant",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Plant tipi canavar avla.",
+      "goal": "50 Plant tipi canavar avla"
+    },
+    "5409": {
+      "title": "Savasci Disiplini - Demon",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Demon tipi canavar avla.",
+      "goal": "50 Demon tipi canavar avla"
+    },
+    "5410": {
+      "title": "Savasci Disiplini - Angel",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Angel tipi canavar avla.",
+      "goal": "50 Angel tipi canavar avla"
+    },
+    "5411": {
+      "title": "Savasci Disiplini - Undead",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Undead tipi canavar avla.",
+      "goal": "50 Undead tipi canavar avla"
+    },
+    "5412": {
+      "title": "Savasci Disiplini - Formless",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Formless tipi canavar avla.",
+      "goal": "50 Formless tipi canavar avla"
+    },
+    "5413": {
+      "title": "Savasci Disiplini - Dragon",
+      "description": "Richard ailesinin Warrior Discipline programi icin 50 Dragon tipi canavar avla.",
+      "goal": "50 Dragon tipi canavar avla"
+    },
+    "5414": {
+      "title": "Savasci Disiplini - Bekleme",
+      "description": "Richard ailesinin egitimine yarin sabah yeniden katilabilirsin.",
+      "goal": "Yenilenme saati: 04:00"
     }
   }
 }
