@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.3.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Expedition report zinciri dahil",
+    "version": "2.4.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Consolidating Heavy Debt zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -2985,6 +2985,56 @@
       "title": "Kitaya Rapor - Expedition'a Donus",
       "description": "Rapor teslimatlarini tamamladin. Commander'a geri don ve sonucu bildir.",
       "goal": "Commander'a geri don"
+    },
+    "3100": {
+      "title": "Agir Borcu Birlestirmek - Kayip Borc Senedi",
+      "description": "Comodo'daki Muff, nehir yakinindaki Papuchicha Forest'ta kaybettigi borc senedini bulmak icin yardim istiyor.",
+      "goal": "Kayip borc senedini ara"
+    },
+    "3101": {
+      "title": "Agir Borcu Birlestirmek - Tuhaf Toprak Yigini",
+      "description": "Tuhaf bir toprak yigini buldun. Daha yakindan incele.",
+      "goal": "Toprak yiginini incele"
+    },
+    "3102": {
+      "title": "Agir Borcu Birlestirmek - Borc Senedi Bulundu Ama...",
+      "description": "Borc senedini buldun fakat islak ve yirtilmis. Yine de Muff'a gotur.",
+      "goal": "Borc senedini Muff'a gotur"
+    },
+    "3103": {
+      "title": "Agir Borcu Birlestirmek - Mucit Dorian",
+      "description": "Izlude'daki Inventor Dorian, Magic Dryer kullanarak borc senedini onarabilir.",
+      "goal": "Dorian ile konus"
+    },
+    "3104": {
+      "title": "Agir Borcu Birlestirmek - Magic Dryer Onarim Malzemeleri",
+      "description": "Dorian, Magic Dryer'i kullanmak istiyorsan onarimina yardim etmeni istiyor.",
+      "goal": "20 Rusty Screw, 10 Iron Ore, 5 Steel, 2 Ruby ve 10 Red Gemstone getir"
+    },
+    "3105": {
+      "title": "Agir Borcu Birlestirmek - Magic Dryer Onarimi",
+      "description": "Dorian, Magic Dryer'in nasil onarilacagini anlatti ve isi sana birakti. Dikkatlice onar.",
+      "goal": "Magic Dryer'i onar"
+    },
+    "3106": {
+      "title": "Agir Borcu Birlestirmek - Magic Dryer Onarimi Basarisiz",
+      "description": "Onarim basarisiz oldu. Dorian'a sonucu bildir.",
+      "goal": "Dorian ile konus"
+    },
+    "3107": {
+      "title": "Agir Borcu Birlestirmek - Magic Dryer Onarimi Basarili",
+      "description": "Onarim basarili oldu. Dorian'a sonucu bildir.",
+      "goal": "Dorian ile konus"
+    },
+    "3108": {
+      "title": "Agir Borcu Birlestirmek - Magic Dryer'i Calistir",
+      "description": "Magic Dryer kullanarak borc senedini eski haline getir.",
+      "goal": "Magic Dryer'i kullan"
+    },
+    "3109": {
+      "title": "Agir Borcu Birlestirmek - Borc Senedini Yenile",
+      "description": "Borc senedi tamamen onarildi. Muff'a geri gotur.",
+      "goal": "Borc senedini Muff'a gotur"
     }
   }
 }
