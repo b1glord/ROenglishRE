@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.6.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Z Gang Wanted zinciri dahil",
+    "version": "2.7.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Nidhoggur ve Wandering Purple Dragon gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3160,6 +3160,26 @@
       "title": "Z Gang Araniyor - Temizlik Tamam",
       "description": "Z Gang'i yakaladin ve Book of Forbidden Mystery elde ettin. Prontera'daki Retired Soldier'a geri don.",
       "goal": "Retired Soldier ile konus"
+    },
+    "3135": {
+      "title": "Nidhoggur's Nest",
+      "description": "Nidhoggur uyandigi icin yer sarsiliyor. Dungeon'a yeniden girebilmek icin bekleme suresinin dolmasini bekle.",
+      "goal": ""
+    },
+    "3136": {
+      "title": "Nidhoggur's Nest Sure Siniri",
+      "description": "Nidhoggur's Shadow'u yenmek icin 4 saatin var. Memorial Dungeon yok edilirse yeniden giremezsin.",
+      "goal": "Nidhoggur's Shadow'u 4 saat icinde yen"
+    },
+    "3137": {
+      "title": "Nidhoggur's Shadow",
+      "description": "Nidhoggur's Shadow'u avla.",
+      "goal": "Nidhoggur's Shadow'u avla"
+    },
+    "3138": {
+      "title": "Gezgin Purple Dragon",
+      "description": "Hazy Forest'taki Wandering Purple Dragon'u avla.",
+      "goal": "Wandering Purple Dragon'u avla"
     }
   }
 }
