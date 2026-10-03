@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Ceviri durum aracinin ana localization dosyalarini ve structural validation kapsamlarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
@@ -47,6 +47,10 @@
     {
       "name": "sign_data",
       "path": "Translation/Renewal/SystemEN/Sign_Data.lub"
+    },
+    {
+      "name": "navi_data",
+      "path": "Translation/Renewal/SystemEN/Navi_Data.lub"
     }
   ],
   "intentional_english_path": "TurkuazTR/intentional-english.json"
