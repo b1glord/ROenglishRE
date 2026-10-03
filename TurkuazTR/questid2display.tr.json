@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
     "dependency_layer": "Config"
   },
@@ -1525,6 +1525,286 @@
       "title": "Yanlis Giden Gecmis",
       "description": "Airship murettebatindan Kain Himere, kayip esyayi Einbroch Hotel'de kalan musterisine teslim etmeni istiyor.",
       "goal": "Kayip esyayi Einbroch Hotel'e teslim et"
+    },
+    "2080": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Hotel'de karsilastigin Elle Cherno, hotelin arkasindaki evine gidip annesiyle gorusmeni istiyor.",
+      "goal": "Tarsha Cherno ile bulus"
+    },
+    "2081": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Tarsha Cherno kayip babasinin bir madenci oldugunu soyluyor. Babasini bulacagina soz verip evden ayriliyorsun.",
+      "goal": "Tarsha Cherno'nun babasi olabilecek kisiyi bul"
+    },
+    "2082": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Tarsha ile Kain'in aile oldugunu kanitlamak icin delil gerekiyor. Kain Himere, esinin gunlugunun yardimci olabilecegini soyluyor.",
+      "goal": "Tarsha'nin annesinin gunlugunu kontrol et"
+    },
+    "2083": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Annesinin gunlugunu kontrol ettikten sonra Tarsha'ya gotur.",
+      "goal": "Tarsha Cherno ile konus"
+    },
+    "2084": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Tarsha Cherno tesekkur ediyor, repair machine'i ucretsiz kullanmana izin veriyor ve kizini tekrar ziyaret etmeni istiyor.",
+      "goal": "Elle Cherno ile bulus"
+    },
+    "2085": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Elle Cherno'nun buyukbabasi icin hazirladigi resimli mesaji aldin.",
+      "goal": "Kain Himere'ye geri don"
+    },
+    "2086": {
+      "title": "The Enterprise",
+      "description": "Ne zamandir oldugunu bilmiyorsun ama isitsel halusinasyonlar duymaya basladin.",
+      "goal": "Isitsel halusinasyonu arastir"
+    },
+    "2087": {
+      "title": "The Enterprise",
+      "description": "Bir yaslinin yardimiyla tuhaf ruhun seni Rekenber Corporation'a yonlendirdigini anladin.",
+      "goal": "Rekenber Corporation'a gir"
+    },
+    "2088": {
+      "title": "The Enterprise",
+      "description": "Rekenber receptionist, sirketin tarihini library'de bulabilecegini soyluyor.",
+      "goal": "Rekenber Library'deki librarian ile konus"
+    },
+    "2089": {
+      "title": "The Enterprise",
+      "description": "Rekenber'in tarihi hakkinda kitaplardan ve librarian'lardan bilgi edin.",
+      "goal": "Rekenber hakkinda daha fazla bilgi al"
+    },
+    "2090": {
+      "title": "The Enterprise",
+      "description": "Rekenber arastirmacisi Wolfchev parlak ve yuvarlak bir sey istiyor.",
+      "goal": "Wolfchev'in istedigi seyi getir ve konus"
+    },
+    "2091": {
+      "title": "The Enterprise",
+      "description": "Rekenber ile iliskili birinin gecmisinden kalan, acilmamis eski bir pendant elde ettin.",
+      "goal": "Pendant'i acmanin yolunu bul"
+    },
+    "2092": {
+      "title": "The Enterprise",
+      "description": "Yasli, pendant uzerindeki laneti kaldirmak icin 5 Holy Water ve 1 Bouquet istiyor.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2093": {
+      "title": "The Enterprise",
+      "description": "Yaslinin yardimiyla pendant'i actin. Resimde sandalyede oturan bir kiz ve kardesine benzeyen bir adam var.",
+      "goal": "Pendant'in kime ait oldugunu bul"
+    },
+    "2094": {
+      "title": "The Enterprise",
+      "description": "Tum lanetlerin ana nedeninin Rekenber olduguna karar verdin. Gercegi ogrenmek icin yeniden Rekenber'e git.",
+      "goal": "Rekenber gorevlileriyle konus"
+    },
+    "2095": {
+      "title": "The Enterprise",
+      "description": "Rekenber sekreteri Sueii Slierre, Wolfchev'in emekli oldugunu ve dosyanin kapandigini soyluyor.",
+      "goal": "Wolfchev'in emekli oldugunu dogrula"
+    },
+    "2109": {
+      "title": "Ice Cave'deki Mage",
+      "description": "Urstialla sana necklace'i Maheo'ya goturup eski parlakligina kavusturmani istiyor. Boylece tanrica Freya'ya uygun bir adak olacak.",
+      "goal": "Arcane Mage Maheo'yu bul"
+    },
+    "2110": {
+      "title": "Ice Cave'deki Mage",
+      "description": "Maheo, ustasinin onu buz hapishanesinden kurtarmanin yolunu bilecegini dusunuyor. Freya's Spring yakinindaki ustasini bul.",
+      "goal": "Maheo'nun ustasini bul"
+    },
+    "2111": {
+      "title": "Ice Cave'deki Mage",
+      "description": "Hamion buyulu buzu kirmak icin bir artifact yapacak. 5 Rough Wind, 1 Hammer ve 1 Blank Scroll getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2112": {
+      "title": "Ice Cave'deki Mage",
+      "description": "Wind Hammer'i aldin. Yalnizca bir kez calisacak; buyulu buzu dogru sekilde kirip Maheo'yu kurtar.",
+      "goal": "Wind Hammer ile Maheo'yu kurtar"
+    },
+    "2113": {
+      "title": "Ice Cave'deki Mage",
+      "description": "Maheo ayrilirken bir hediye veriyor ve kendini buza hapsettigini kimseye anlatmamani istiyor.",
+      "goal": "Sparkling Necklace'i Urstialla'ya getir"
+    },
+    "2114": {
+      "title": "Thor Volcano Base Camp",
+      "description": "High Priest Zhed, uluslararasi barisi korumak icin Thor Volcano kampina gizlice girip High Priest Vildt'in odasina sizmani istiyor.",
+      "goal": ""
+    },
+    "2115": {
+      "title": "Thor Volcano Base Camp",
+      "description": "High Priest Vildt'in odasinda bir file folder buldun. Rachel'daki High Priest Zhed'e geri gotur.",
+      "goal": "High Priest Zhed ile konus"
+    },
+    "2116": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Thor Volcano arastirmasindan sorumlu geologist'i bul.",
+      "goal": ""
+    },
+    "2117": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Geologist Gio, kendi yerine Thor Volcano geology camp'a gidip sicaklik olcmeni istiyor. Once ofisindeki masadan pyrometer ve report'u al.",
+      "goal": ""
+    },
+    "2118": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Ilk sicaklik degerini rapora kaydettin. Diger sicak yuzeyleri bul ve sonuclari kaydet.",
+      "goal": ""
+    },
+    "2119": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Baska bir sicak yuzey bulup rapora kaydettin. Diger sicak yuzeyleri bulmaya devam et.",
+      "goal": ""
+    },
+    "2120": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Bir sicak yuzey daha bulup rapora kaydettin. Bu kadar veri geology camp'a rapor vermek icin yeterli olmali.",
+      "goal": ""
+    },
+    "2121": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Guard, train station'in hemen guneyindeki airship'te Sahedi'yi bulup yardim istemeni soyluyor.",
+      "goal": "Sahedi'yi bul"
+    },
+    "2122": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Sahedi, Volcano kaynakli bir felaketi onlemek icin kamp cevresini kontrol etmeni istiyor.",
+      "goal": ""
+    },
+    "2123": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Soldier training'in ilk bolumu icin Colonel Vito'nun sorularini cevapla.",
+      "goal": ""
+    },
+    "2124": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Sonraki egitime gecmeden once Colonel Vito, binanin kuzeyindeki pipe zone makinelerini kontrol etmeni istiyor.",
+      "goal": ""
+    },
+    "2125": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Sorunsuz calisan bir control panel buldun. Her seyin duzgun calistigini Colonel Vito'ya bildir.",
+      "goal": ""
+    },
+    "2126": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Ikinci egitim icin Colonel Vito practice dummy'ye 10 kez vurmani istiyor.",
+      "goal": ""
+    },
+    "2127": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Egitimi tamamlamis gorunuyorsun. Soldier olarak tanindigin icin artik daha ozgur arastirma yapabilirsin.",
+      "goal": ""
+    },
+    "2128": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Schwaltzvalt Republic damgali kutular tasindigini gordun; bunlar kampin military supplies'i olmali. Sahedi'ye don ve Volcano'nun durumunu bildir.",
+      "goal": "Sahedi ile konus"
+    },
+    "2129": {
+      "title": "Arunafeltz Icin",
+      "description": "Yabanci bir ulkeden gelen merchant, Oasis cevresinde ortaya cikan bir saticinin sattigi icecek yuzunden aci cekiyor.",
+      "goal": "Oasis cevresindeki icecek saticisini bul"
+    },
+    "2130": {
+      "title": "Arunafeltz Icin",
+      "description": "Taninmis icecegi aldin. Ilk karsilastigin yabanci merchant'a geri don.",
+      "goal": "Yabanci merchant ile konus"
+    },
+    "2131": {
+      "title": "Arunafeltz Icin",
+      "description": "Yabanci merchant'tan Zhed'in telegram'ini aldin.",
+      "goal": "Rachel'daki High Priest Zhed ile konus"
+    },
+    "2132": {
+      "title": "Arunafeltz Icin",
+      "description": "High Priest Zhed, Pope'un gucunden yararlanmak icin Niren'in yardimina ihtiyaci oldugunu soyluyor.",
+      "goal": "High Priestess Niren ile konus"
+    },
+    "2133": {
+      "title": "Arunafeltz Icin",
+      "description": "Niren, High Priest'e karsi guclu bir guvensizlik duydugunu belirtiyor.",
+      "goal": "Zhed'e geri don"
+    },
+    "2134": {
+      "title": "Arunafeltz Icin",
+      "description": "Jed'den Niren'e verilmek uzere bir mektup aldin.",
+      "goal": "Zhed'in mektubunu Niren'e teslim et"
+    },
+    "2135": {
+      "title": "Arunafeltz Icin",
+      "description": "Niren, Pope ile gorusup yeni atanan gorevli hakkinda dikkatlice bilgi toplamani istiyor.",
+      "goal": "Pope ile konus"
+    },
+    "2136": {
+      "title": "Arunafeltz Icin",
+      "description": "Uzun suredir gormedigin Pope, yeni gorevliler nedeniyle ailesini uzun sure gorememekten rahatsiz.",
+      "goal": "Niren'e geri don"
+    },
+    "2137": {
+      "title": "Arunafeltz Icin",
+      "description": "Niren belgeleri verip kuzeydeki yerli koyunde yasayan Ismael'e teslim etmeni istiyor.",
+      "goal": "Ismael ile konus"
+    },
+    "2138": {
+      "title": "Arunafeltz Icin",
+      "description": "Ismael yazim araclarini kaybettigini ve yeniden yapmak icin malzemeye ihtiyaci oldugunu soyluyor.",
+      "goal": "1 Sardonyx getir"
+    },
+    "2139": {
+      "title": "Arunafeltz Icin",
+      "description": "Ismael'den sahte izin belgesini de iceren dokumani aldin.",
+      "goal": "Niren'e geri don"
+    },
+    "2140": {
+      "title": "Arunafeltz Icin",
+      "description": "Niren tum hazirliklarin tamamlandigini soyluyor. Zhed ile birlikte Pope'un bulundugu sky garden'a git.",
+      "goal": "Zhed ile konustuktan sonra sky garden'a git"
+    },
+    "2141": {
+      "title": "Arunafeltz Icin",
+      "description": "Pope, genc bir hukumdar maskesini birakip dini ulkenin olgun lideri olarak tavrini ortaya koyuyor.",
+      "goal": "Niren ile konus"
+    },
+    "2142": {
+      "title": "Arunafeltz Icin",
+      "description": "Niren, Zhed ile birlikte Pope'u korurken suskunlugunu gozden gecirecegine soz veriyor.",
+      "goal": "Zhed ile konus"
+    },
+    "2143": {
+      "title": "Guild Dungeon Event",
+      "description": "Gergoth'un goruntusune tanik oldun. Ardindan Pierrot Piel ile konus.",
+      "goal": ""
+    },
+    "2144": {
+      "title": "Guild Dungeon Event",
+      "description": "Morestone'un ricasini kabul ettin ve sana buldugu gizemli yeri anlatti.",
+      "goal": ""
+    },
+    "2147": {
+      "title": "New World'e Yaklasim",
+      "description": "Zoologist Rumis Block, Ash Vacuum'daki canavarlardan korktugu icin arastirmayi birakmak istiyor. 1 Nepenthes yen ve 1 Strong Vine getirerek o kadar korkutucu olmadiklarini goster.",
+      "goal": "1 Strong Vine getir"
+    },
+    "2148": {
+      "title": "New World'e Yaklasim",
+      "description": "Rumis specimen araclarini hazirlamak icin 1 Empty Bottle, 5 Holy Water ve 30 Sticky Mucus istiyor.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2149": {
+      "title": "New World'e Yaklasim",
+      "description": "Rumis, Nepenthes Specimen'i kampin dogu ucundaki kardesi Terris'e goturmeni istiyor.",
+      "goal": "Botanist Terris ile konus"
+    },
+    "2150": {
+      "title": "New World'e Yaklasim",
+      "description": "Terris, sol taraftaki koprunun karsisindaki kizlarla konusmani istiyor.",
+      "goal": "30 Pinguicula yen"
     }
   }
 }
