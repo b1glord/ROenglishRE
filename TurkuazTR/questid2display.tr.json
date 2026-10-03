@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.1.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4015-4033 maceraci degerlendirme ve prens gorusme zinciri dahil",
+    "version": "3.2.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4133-4166 Anori, Eden, Homunculus S ve uzman quiz gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3525,6 +3525,91 @@
       "title": "Ahrum'un Olumu",
       "description": "Prens Ahrum, Ernst tarafindan yenildi. Durumu hemen bildir.",
       "goal": "Durumu hemen bildir"
+    },
+    "4133": {
+      "title": "Anori'nin Arindirma Iksiri",
+      "description": "Purification Potion yapmak icin 20 Heart of Mermaid, 10 Leopard Claw ve 3 Ancient Lip topla.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4134": {
+      "title": "Iara",
+      "description": "Hikayenin geri kalani atlanmistir.",
+      "goal": ""
+    },
+    "4135": {
+      "title": "Anori'nin Arindirma Iksiri",
+      "description": "Anori baska islerle mesgul gorunuyor. Sure dolduktan sonra ona tekrar yardim edebilirsin.",
+      "goal": "Surenin dolmasini bekle"
+    },
+    "4150": {
+      "title": "Eden Group'a Katil",
+      "description": "Eden Group'a katil.",
+      "goal": "Eden Group'a katil"
+    },
+    "4154": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Lighthalzen'da guclu Evolved Homunculus'unu mutasyona ugratmak icin Viorel'den yardim istiyorsun.",
+      "goal": "Viorel ile konus"
+    },
+    "4155": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Amacina devam etmek icin Viorel'in gizli laboratuvarina git.",
+      "goal": "Viorel'in gizli laboratuvarina git"
+    },
+    "4156": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Bilinen Homunculus mutasyonlari hakkinda daha fazla bilgi edinmek icin Jeyna ile konus.",
+      "goal": "Jeyna ile konus"
+    },
+    "4157": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Belirli mutasyonlari okumak icin Jeyna'nin arkasindaki Magic Board'u incele.",
+      "goal": "Magic Board'u incele"
+    },
+    "4158": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Mutasyonlari okudun. Ogrendiklerini dogrulamak icin Jeyna ile konus.",
+      "goal": "Jeyna ile konus"
+    },
+    "4159": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Homunculus'un Strange Embryo olarak yeniden dogdu. Onu hayata dondurmesi icin Viorel'e gotur.",
+      "goal": "Strange Embryo'yu Viorel'e gotur"
+    },
+    "4160": {
+      "title": "Homunculus S Mutasyonu",
+      "description": "Viorel sonunda Homunculus'unu mutasyona ugratmana yardim edecek. Bu onemli bir karar.",
+      "goal": "Viorel ile konus"
+    },
+    "4161": {
+      "title": "Kusatma Uzmani",
+      "description": "Eden Group Headquarters ikinci kattaki Siege Expert ile konus ve testini gec.",
+      "goal": "Siege Expert ile konus"
+    },
+    "4162": {
+      "title": "Parti Kurma Uzmani",
+      "description": "Eden Group Headquarters ikinci kattaki Party Recruiting Expert ile konus ve testini gec.",
+      "goal": "Party Recruiting Expert ile konus"
+    },
+    "4163": {
+      "title": "Battleground Uzmani",
+      "description": "Eden Group Headquarters ikinci kattaki Battleground Expert ile konus ve testini gec.",
+      "goal": "Battleground Expert ile konus"
+    },
+    "4164": {
+      "title": "Memorial Dungeon Uzmani",
+      "description": "Eden Group Headquarters ikinci kattaki Memorial Dungeon Expert ile konus ve testini gec.",
+      "goal": "Memorial Dungeon Expert ile konus"
+    },
+    "4165": {
+      "title": "Harita Uzmani",
+      "description": "Eden Group Headquarters ikinci kattaki Map Expert ile konus ve testini gec.",
+      "goal": "Map Expert ile konus"
+    },
+    "4166": {
+      "title": "Gecer Notlar",
+      "description": "Tum uzmanlarin testlerini gectin. Simdi ^006400Tutorial Goal^000000 gorevlisini bul ve konus.",
+      "goal": "Tutorial Goal ile konus"
     }
   }
 }
