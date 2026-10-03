@@ -3755,7 +3755,7 @@ achievement_tbl = {
 		title = "Muazzam Guc!",
 		content = {
 			summary = "Base STR 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base STR degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base STR 90 degerine ulas" } },
 		reward = {},
@@ -3769,7 +3769,7 @@ achievement_tbl = {
 		title = "Tasan Buyu!",
 		content = {
 			summary = "Base INT 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base INT degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base INT 90 degerine ulas" } },
 		reward = {},
@@ -3783,7 +3783,7 @@ achievement_tbl = {
 		title = "Saglam Beden ve Zihin!",
 		content = {
 			summary = "Base VIT 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base VIT degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base VIT 90 degerine ulas" } },
 		reward = {},
@@ -3797,7 +3797,7 @@ achievement_tbl = {
 		title = "Isik Hizi",
 		content = {
 			summary = "Base AGI 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base AGI degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base AGI 90 degerine ulas" } },
 		reward = {},
@@ -3811,7 +3811,7 @@ achievement_tbl = {
 		title = "Sahin Gozleri",
 		content = {
 			summary = "Base DEX 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base DEX degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base DEX 90 degerine ulas" } },
 		reward = {},
@@ -3825,7 +3825,7 @@ achievement_tbl = {
 		title = "Maksimum Sans",
 		content = {
 			summary = "Base LUK 90 degerine ulas",
-			details = "Base 90 degerini 90";
+			details = "Base LUK degerini 90 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base LUK 90 degerine ulas" } },
 		reward = {},
@@ -3839,7 +3839,7 @@ achievement_tbl = {
 		title = "Ejderha Gucu!",
 		content = {
 			summary = "Base STR 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base STR degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base STR 125 degerine ulas" } },
 		reward = { buff = 319 },
@@ -3853,7 +3853,7 @@ achievement_tbl = {
 		title = "Buyu Cilginligi",
 		content = {
 			summary = "Base INT 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base INT degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base INT 125 degerine ulas" } },
 		reward = { buff = 611 },
@@ -3867,7 +3867,7 @@ achievement_tbl = {
 		title = "Kaya Sertligi",
 		content = {
 			summary = "Base VIT 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base VIT degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base VIT 125 degerine ulas" } },
 		reward = { buff = 293 },
@@ -3881,7 +3881,7 @@ achievement_tbl = {
 		title = "Isik Hizi",
 		content = {
 			summary = "Base AGI 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base AGI degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base AGI 125 degerine ulas" } },
 		reward = { buff = 296 },
@@ -3895,7 +3895,7 @@ achievement_tbl = {
 		title = "Falcon Gozleri",
 		content = {
 			summary = "Base DEX 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base DEX degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base DEX 125 degerine ulas" } },
 		reward = { buff = 295 },
@@ -3909,7 +3909,7 @@ achievement_tbl = {
 		title = "Sans Atesi",
 		content = {
 			summary = "Base LUK 125 degerine ulas",
-			details = "Base 125 degerini 125";
+			details = "Base LUK degerini 125 veya daha yuksek yap."
 		},
 		resource = { [1] = { text = "Base LUK 125 degerine ulas" } },
 		reward = { buff = 21 },
