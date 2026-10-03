@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.0.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5101-5108 Angel ve Devil taraf gorevleri dahil",
+    "version": "5.1.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5109-5125 Wolfchev laboratuvari ve Shelter boss gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4907,6 +4907,91 @@
       "title": "(Seytan Tarafi) Sabotaj!",
       "description": "Melek Tarafi, Angel Messenger gonderdi. Onlari durdur.",
       "goal": "7 Messenger of Angel yen"
+    },
+    "5109": {
+      "title": "Ciddi Soylenti",
+      "description": "Lighthalzen'da insan deneyleri yapildigina dair bir soylenti var. Nerede yapildigini bulmak icin arastir.",
+      "goal": "Insan deneylerinin yapildigi yeri bul"
+    },
+    "5110": {
+      "title": "Soylenti",
+      "description": "Insan deneyleri soylentisinin arkasindaki kisi Wolfchev'i buldun.",
+      "goal": "Wolfchev'i takip et"
+    },
+    "5111": {
+      "title": "Laboratuvara...",
+      "description": "Human Guinea Pig'lerden kacinmak icin Wolfchev'in laboratuvarina git. Laboratuvar saat 12 yonunde.",
+      "goal": "Wolfchev'in laboratuvarina git"
+    },
+    "5112": {
+      "title": "Laboratuvara Sinirli Erisim",
+      "description": "Laboratuvar giris sistemine erisim kisitli.",
+      "goal": "Girmek icin bekle"
+    },
+    "5113": {
+      "title": "(Shelter) Lord Knight",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Lord Knight Seyren'i durdur"
+    },
+    "5114": {
+      "title": "(Shelter) Paladin",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Paladin Randel'i durdur"
+    },
+    "5115": {
+      "title": "(Shelter) High Priest",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "High Priest Margaretha'yi durdur"
+    },
+    "5116": {
+      "title": "(Shelter) Champion",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Champion Chen'i durdur"
+    },
+    "5117": {
+      "title": "(Shelter) High Wizard",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "High Wizard Kathryne'i durdur"
+    },
+    "5118": {
+      "title": "(Shelter) Professor",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Professor Celia'yi durdur"
+    },
+    "5119": {
+      "title": "(Shelter) Whitesmith",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Whitesmith Howard'i durdur"
+    },
+    "5120": {
+      "title": "(Shelter) Creator",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Creator Flamel'i durdur"
+    },
+    "5121": {
+      "title": "(Shelter) Assassin Cross",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Assassin Cross Eremes'i durdur"
+    },
+    "5122": {
+      "title": "(Shelter) Stalker",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Stalker Gertie'yi durdur"
+    },
+    "5123": {
+      "title": "(Shelter) Sniper",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Sniper Cecile'i durdur"
+    },
+    "5124": {
+      "title": "(Shelter) Crown",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Crown Alphochio'yu durdur"
+    },
+    "5125": {
+      "title": "(Shelter) Gypsy",
+      "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
+      "goal": "Gypsy Trentini'yi durdur"
     }
   }
 }
