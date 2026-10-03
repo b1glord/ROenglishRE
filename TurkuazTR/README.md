@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.1.0
+Version: 1.2.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -19,3 +19,14 @@ Bu fork artik upstream'in birebir kopyasi olarak degil, Turkce localization cali
 - `sync/upstream-2026-09`: guncel upstream ustune yeniden tasinan Turkce calisma.
 
 Upstream dosyalari Turkce dosyalarla korlemesine ezilmez. Yeni upstream satirlari Ingilizce kalir ve sonraki ceviri turunda ele alinir.
+
+
+## Durum kontrolu
+
+Tum branch referanslari local repoda fetch edildikten sonra:
+
+```bash
+python3 Tools/turkuaz_translation_status.py
+```
+
+CI ayni kontrolu `translation/tr` dalindaki ilgili degisikliklerde otomatik calistirir. `needs-review` durumu upstream dosyasinin son senkrondan sonra degistigini ve Turkce karsiligin yeniden kontrol edilmesi gerektigini belirtir.
