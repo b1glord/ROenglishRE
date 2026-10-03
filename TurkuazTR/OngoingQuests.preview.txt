@@ -1,0 +1,1215 @@
+# 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/OngoingQuests.preview.txt
+# 📌 Amac: OngoingQuests.lub legacy kaynak dosyasinin UTF-8 inceleme raporu
+# 📌 Generated Report - TXT
+# Version: 1.0.0
+# Aciklama: Kaynak dosyaya dokunmadan satir numarali onizleme saglar
+# Bagimli Oldugu Katman: Tool
+
+source_path=Translation/Renewal/SystemEN/OngoingQuests.lub
+source_ref=HEAD
+detected_encoding=latin-1
+source_bytes=2989335
+source_lines=88786
+preview_start_line=1
+preview_end_line=1200
+
+0000001: -- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+0000002: -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+0000003: -- This file can be distributed, used and modified freely
+0000004: -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+0000005: -- Last updated: 20260511
+0000006: -- ToDo: Globalize `[Standby]` instead of anything else for cooldown quests, will be done when I sync all of them.
+0000007: 
+0000008: QuestInfoList = {}
+0000009: QuestInfoList = {
+0000010: 	[1] = {
+0000011: 		Title = "Ransom",
+0000012: 		Description = {
+0000013: 			"Turtle"
+0000014: 		},
+0000015: 		Summary = "Carapace"
+0000016: 	},
+0000017: 	[101] = {
+0000018: 		Title = "Introduction to the Professor",
+0000019: 		Description = {
+0000020: 			"Head up to the Great Hall and speak to the professor to check in for class."
+0000021: 		},
+0000022: 		Summary = ""
+0000023: 	},
+0000024: 	[102] = {
+0000025: 		Title = "Looking for Instructors",
+0000026: 		Description = {
+0000027: 			"Look for the Battle Instructor, Adept Adventure and Attribute Expert here at Criatura Academy and take their classes."
+0000028: 		},
+0000029: 		Summary = ""
+0000030: 	},
+0000031: 	[103] = {
+0000032: 		Title = "Battle Instructor",
+0000033: 		Description = {
+0000034: 			"You have spoken to the Academy Battle Instructor"
+0000035: 		},
+0000036: 		Summary = ""
+0000037: 	},
+0000038: 	[104] = {
+0000039: 		Title = "Adept Adventurer",
+0000040: 		Description = {
+0000041: 			"You have spoken to the Academy Adept Adventurer"
+0000042: 		},
+0000043: 		Summary = ""
+0000044: 	},
+0000045: 	[105] = {
+0000046: 		Title = "Attribute Expert",
+0000047: 		Description = {
+0000048: 			"You have spoken to the Academy Attribute Expert"
+0000049: 		},
+0000050: 		Summary = ""
+0000051: 	},
+0000052: 	[106] = {
+0000053: 		Title = "Find The Heaviest Things in Midgarts",
+0000054: 		Description = {
+0000055: 			"Look for the book in the Criatura Academy that describes the heaviest things in Rune-Midgarts"
+0000056: 		},
+0000057: 		Summary = ""
+0000058: 	},
+0000059: 	[107] = {
+0000060: 		Title = "The Heaviest Things in Midgarts",
+0000061: 		Description = {
+0000062: 			"You almost got smashed by the book but you survived. Bring it back to the Professor."
+0000063: 		},
+0000064: 		Summary = ""
+0000065: 	},
+0000066: 	[108] = {
+0000067: 		Title = "Dispensary Therapist",
+0000068: 		Description = {
+0000069: 			"Talk to the Therapist at the dispensary in the southwestern room of the first floor of the Academy"
+0000070: 		},
+0000071: 		Summary = ""
+0000072: 	},
+0000073: 	[109] = {
+0000074: 		Title = "Therapist",
+0000075: 		Description = {
+0000076: 			"You have spoken to the Academy Therapist"
+0000077: 		},
+0000078: 		Summary = ""
+0000079: 	},
+0000080: 	[110] = {
+0000081: 		Title = "Criatura Academy Principal",
+0000082: 		Description = {
+0000083: 			"Find and speak to the Criatura Academy Principal"
+0000084: 		},
+0000085: 		Summary = ""
+0000086: 	},
+0000087: 	[1000] = {
+0000088: 		Title = "Transcendent",
+0000089: 		Description = {
+0000090: 			"Find the Hall of Honor in Valkyrie. There, you will become a new hero of Valkyrie."
+0000091: 		},
+0000092: 		Summary = ""
+0000093: 	},
+0000094: 	[1001] = {
+0000095: 		Title = "Job Change to Acolyte",
+0000096: 		Description = {
+0000097: 			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Rubalkabara^000000, who has been Practicing Asceticism near the Relics, Northeast of Prontera City."
+0000098: 		},
+0000099: 		Summary = "Talk to Father Rubalkabara",
+0000100: 		NpcSpr = "4_M_ORIENT02",
+0000101: 		NpcNavi = "prt_fild03",
+0000102: 		NpcPosX = 365,
+0000103: 		NpcPosY = 255
+0000104: 	},
+0000105: 	[1002] = {
+0000106: 		Title = "Job Change to Acolyte",
+0000107: 		Description = {
+0000108: 			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFMother Mathilda^000000, who has been Practicing Asceticism near Morroc Town, located Southwest of Prontera City."
+0000109: 		},
+0000110: 		Summary = "Talk to Mother Mathilda",
+0000111: 		NpcSpr = "4_F_SISTER",
+0000112: 		NpcNavi = "moc_fild07",
+0000113: 		NpcPosX = 41,
+0000114: 		NpcPosY = 218
+0000115: 	},
+0000116: 	[1003] = {
+0000117: 		Title = "Job Change to Acolyte",
+0000118: 		Description = {
+0000119: 			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Yosuke^000000, who has been Practicing Asceticism near a bridge, located Northwest of Prontera."
+0000120: 		},
+0000121: 		Summary = "Talk to Father Yosuke",
+0000122: 		NpcSpr = "4W_M_02",
+0000123: 		NpcNavi = "prt_fild00",
+0000124: 		NpcPosX = 208,
+0000125: 		NpcPosY = 355
+0000126: 	},
+0000127: 	[1004] = {
+0000128: 		Title = "Job Change to Archer",
+0000129: 		Description = {
+0000130: 			"In order to become an Archer, you must receive a grade of at least ^0000FF25^000000 points out of 40. You can get Trunk from <NAVI>Willow<INFO>WILOW,0,0,3,-222,0</INFO></NAVI> monster. Be careful, though. They can be tough monsters."
+0000131: 		},
+0000132: 		Summary = "Collect Trunks"
+0000133: 	},
+0000134: 	[1005] = {
+0000135: 		Title = "Job Change to Mage",
+0000136: 		Description = {
+0000137: 			"The Mage Guildsman has ordered you to make a Mixed Solution No.1 in order to become a Mage.",
+0000138: 			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+0000139: 		},
+0000140: 		Summary = "Mixed Solution No.1"
+0000141: 	},
+0000142: 	[1006] = {
+0000143: 		Title = "Job Change to Mage",
+0000144: 		Description = {
+0000145: 			"The Mage Guildsman has ordered you to make a Mixed Solution No.2 in order to become a Mage.",
+0000146: 			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+0000147: 		},
+0000148: 		Summary = "Mixed Solution No.2"
+0000149: 	},
+0000150: 	[1007] = {
+0000151: 		Title = "Job Change to Mage",
+0000152: 		Description = {
+0000153: 			"The Mage Guildsman has ordered you to make a Mixed Solution No.3 in order to become a Mage.",
+0000154: 			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+0000155: 		},
+0000156: 		Summary = "Mixed Solution No.3"
+0000157: 	},
+0000158: 	[1008] = {
+0000159: 		Title = "Job Change to Mage",
+0000160: 		Description = {
+0000161: 			"The Mage Guildsman has ordered you to make a Mixed Solution No.4 in order to become a Mage.",
+0000162: 			"You can look up the ingredients you'll need to make the Solution inside the Guide Book in this Guild."
+0000163: 		},
+0000164: 		Summary = "Mixed Solution No.4"
+0000165: 	},
+0000166: 	[1009] = {
+0000167: 		Title = "Job Change to Merchant",
+0000168: 		Description = {
+0000169: 			"Get the delivery package from the storehouse, then go to the former Swordman's Association in Prontera. When you get there, visit the Kafra Employee stationed there. Her name is Blossom."
+0000170: 		},
+0000171: 		Summary = "Deliver package to Prontera"
+0000172: 	},
+0000173: 	[1010] = {
+0000174: 		Title = "Job Change to Merchant",
+0000175: 		Description = {
+0000176: 			"Get the delivery package from the storehouse, and then go to the Mage Guild in Geffen. When you get there, visit the Mage Guildsman in charge"
+0000177: 		},
+0000178: 		Summary = "Deliver package to Mage Guild in Geffen"
+0000179: 	},
+0000180: 	[1011] = {
+0000181: 		Title = "Job Change to Merchant",
+0000182: 		Description = {
+0000183: 			"Get the delivery package from the storehouse, and then go to Morroc. There you must find Java Dullihan, the dyemaker. He's a bit forgetful, so you should probably give the package to one of his students."
+0000184: 		},
+0000185: 		Summary = "Deliver package to the Dyemaker in Morroc"
+0000186: 	},
+0000187: 	[1012] = {
+0000188: 		Title = "Job Change to Merchant",
+0000189: 		Description = {
+0000190: 			"Get the delivery package from the storehouse, and then give it to the Kafra Employee stationed on Byalan Island."
+0000191: 		},
+0000192: 		Summary = "Deliver package and message to the Kafra Girl on Byalan island"
+0000193: 	},
+0000194: 	[1013] = {
+0000195: 		Title = "Job Change to Thief",
+0000196: 		Description = {
+0000197: 			"Steal Mushrooms from Shibu's farm. Gather 2 kinds of Mushrooms: ^0000FFOrange Net Mushroom^000000 for 3 points and ^0000FFOrange Gooey Mushroom^000000 for 1 point. You need a total of 25 points to pass the test. Head toward the Eastern Field of the Pyramids."
+0000198: 		},
+0000199: 		Summary = "Gather Mushrooms"
+0000200: 	},
+0000201: 	[1014] = {
+0000202: 		Title = "Job Change to Swordman",
+0000203: 		Description = {
+0000204: 			"The purpose of this test is to confirm whether or not you are qualified to be a Swordman. Now, the conditions for completing this test are very simple. You will travel through three courses and must reach the final checkpoint within ^FF000010 minutes^000000."
+0000205: 		},
+0000206: 		Summary = "Reach the final checkpoint"
+0000207: 	},
+0000208: 	[1015] = {
+0000209: 		Title = "Your first quest",
+0000210: 		Description = {
+0000211: 			"You have received a Bao. It is a tasty Bun that eastern scholars traditionally eat before studying. Recently, these scholars have found that a full stomach of Bao is the sum of all logic."
+0000212: 		},
+0000213: 		Summary = "Talk to Quest Guide Tutor Cicero and make sure you still have the Bao"
+0000214: 	},
+0000215: 	[1016] = {
+0000216: 		Title = "Gaining base levels",
+0000217: 		Description = {
+0000218: 			"Gain 2 base levels to complete your Field Combat Training by defeating as many monsters are you can. Make sure to talk to the staff at the North after you increase your base level by 2."
+0000219: 		},
+0000220: 		Summary = ""
+0000221: 	},
+0000222: 	[1100] = {
+0000223: 		Title = "Soloing the Sphinx Dungeon!",
+0000224: 		Description = {
+0000225: 			"Train in the Sphinx Dungeon by hunting 20 Zerom."
+0000226: 		},
+0000227: 		Summary = "Hunt 20 Zeroms"
+0000228: 	},
+0000229: 	[1101] = {
+0000230: 		Title = "Soloing Sphinx Dungeon!",
+0000231: 		Description = {
+0000232: 			"Train in the Sphinx Dungeon by hunting 20 Requiem."
+0000233: 		},
+0000234: 		Summary = "Hunt 20 Requiems"
+0000235: 	},
+0000236: 	[1102] = {
+0000237: 		Title = "Soloing Clock Tower!",
+0000238: 		Description = {
+0000239: 			"Train in the Clock Tower by hunting 40 Arclouse."
+0000240: 		},
+0000241: 		Summary = "Hunt 40 Arclouses"
+0000242: 	},
+0000243: 	[1103] = {
+0000244: 		Title = "Soloing Clock Tower!",
+0000245: 		Description = {
+0000246: 			"Train in the Clock Tower by hunting 30 High Orcs"
+0000247: 		},
+0000248: 		Summary = "Hunt 30 High Orcs"
+0000249: 	},
+0000250: 	[1104] = {
+0000251: 		Title = "Soloing Louyang Dungeon!",
+0000252: 		Description = {
+0000253: 			"Train at Louyang by hunting 20 Green Maidens."
+0000254: 		},
+0000255: 		Summary = "Hunt 20 Green Maidens"
+0000256: 	},
+0000257: 	[1105] = {
+0000258: 		Title = "Soloing Louyang Dungeon!",
+0000259: 		Description = {
+0000260: 			"Train at Louyang by hunting 50 Civil Servants."
+0000261: 		},
+0000262: 		Summary = "Hunt 50 Civil Servants"
+0000263: 	},
+0000264: 	[1106] = {
+0000265: 		Title = "Soloing Amatsu Dungeon!",
+0000266: 		Description = {
+0000267: 			"Train at Amatsu Dungeon by hunting 20 The Papers."
+0000268: 		},
+0000269: 		Summary = "Hunt 20 The Papers"
+0000270: 	},
+0000271: 	[1107] = {
+0000272: 		Title = "Soloing Amatsu Dungeon!",
+0000273: 		Description = {
+0000274: 			"Train at Amatsu Dungeon by hunting 40 Antique Firelocks."
+0000275: 		},
+0000276: 		Summary = "Hunt 40 Antique Firelocks"
+0000277: 	},
+0000278: 	[1108] = {
+0000279: 		Title = "Soloing Louyang Dungeon!",
+0000280: 		Description = {
+0000281: 			"Third play alone training given by \"Hondal\"."
+0000282: 		},
+0000283: 		Summary = "Hunt 20 Chung e"
+0000284: 	},
+0000285: 	[1109] = {
+0000286: 		Title = "Lope and Euridi - Survivors of the Fog Forest",
+0000287: 		IconName = "ico_ep.bmp",
+0000288: 		Description = {
+0000289: 			"Meet <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>, a traveler at the Mora Village Inn, and ask about Lope's whereabouts."
+0000290: 		},
+0000291: 		Summary = "Talk to Pitt and ask where Lope is."
+0000292: 	},
+0000293: 	[1110] = {
+0000294: 		Title = "Lope and Euridi - Victims of the fog",
+0000295: 		IconName = "ico_ep.bmp",
+0000296: 		Description = {
+0000297: 			"You found someone named Pitt who says that Lope should be alive somewhere but not sure where. Go back to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and tell her what you've discovered."
+0000298: 		},
+0000299: 		Summary = "Go back to Euridi"
+0000300: 	},
+0000301: 	[1111] = {
+0000302: 		Title = "Lope and Euridi - The Fog Forest",
+0000303: 		IconName = "ico_ep.bmp",
+0000304: 		Description = {
+0000305: 			"Look for ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and bring them to <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>. If you gather 30 it should be enough."
+0000306: 		},
+0000307: 		Summary = "Enter the Hazy Forest and gather 30 Lope's Clue"
+0000308: 	},
+0000309: 	[1112] = {
+0000310: 		Title = "Lope and Euridi - Labyrinth",
+0000311: 		IconName = "ico_ep.bmp",
+0000312: 		Description = {
+0000313: 			"Pitt isn't helping much. You should bring Lope's Clues over to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and see if she can do something with them."
+0000314: 		},
+0000315: 		Summary = "Bring Lope's Clue to Euridi"
+0000316: 	},
+0000317: 	[1113] = {
+0000318: 		Title = "Lope and Euridi - A broken Promise",
+0000319: 		IconName = "ico_ep.bmp",
+0000320: 		Description = {
+0000321: 			"After piecing the clues together, <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI> had to have something to do with what happened to Lope."
+0000322: 		},
+0000323: 		Summary = "Go to Pitt and interrogate him"
+0000324: 	},
+0000325: 	[1114] = {
+0000326: 		Title = "Lope and Euridi - The Price of Sacrifice",
+0000327: 		IconName = "ico_ep.bmp",
+0000328: 		Description = {
+0000329: 			"Pitt has given you Lope's Ring and confessed to what he did. You should tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> what happened."
+0000330: 		},
+0000331: 		Summary = "Go back to Euridi"
+0000332: 	},
+0000333: 	[1115] = {
+0000334: 		Title = "Lope and Euridi - Song of the Abyss",
+0000335: 		IconName = "ico_ep.bmp",
+0000336: 		Description = {
+0000337: 			"As Euridi sings a song for Lope, Euridi's friend said that she heard of a <NAVI>[Suspicious Man]<INFO>bif_fild01,132,338,0,101,0</INFO></NAVI> near the entrance to the Hazy Forest."
+0000338: 		},
+0000339: 		Summary = "Find the Suspicious Man"
+0000340: 	},
+0000341: 	[1116] = {
+0000342: 		Title = "Lope and Euridi - Song of the Dead",
+0000343: 		IconName = "ico_ep.bmp",
+0000344: 		Description = {
+0000345: 			"You have found Lope but he tells you to tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> that he has turned to dust. He can no longer be with her in the way that they hoped."
+0000346: 		},
+0000347: 		Summary = "Deliver Lope's last words to Euridi"
+0000348: 	},
+0000349: 	[1117] = {
+0000350: 		Title = "Lope and Euridi - Promise of Eternity",
+0000351: 		IconName = "ico_ep.bmp",
+0000352: 		Description = {
+0000353: 			"I hope this isn't the end... Let's go to <NAVI>[Euridi's Friend]<INFO>mora,115,68,0,101,0</INFO></NAVI>."
+0000354: 		},
+0000355: 		Summary = "Talk to Euridi's Friend"
+0000356: 	},
+0000357: 	[1118] = {
+0000358: 		Title = "Knights of the Neighborhood",
+0000359: 		IconName = "ico_ep.bmp",
+0000360: 		Description = {
+0000361: 			"Collect 30 ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and return to the <NAVI>[Knights of the Neighborhood Leader]<INFO>mora,114,163,0,101,0</INFO></NAVI>."
+0000362: 		},
+0000363: 		Summary = "After collecting Lope's clues, go to the Knights of the Neighborhood Leader"
+0000364: 	},
+0000365: 	[1119] = {
+0000366: 		Title = "Knights of the Neighborhood",
+0000367: 		IconName = "ico_dq.bmp",
+0000368: 		Description = {
+0000369: 			"You have finished a job for the Knights of the Neighborhood Leader. Wait for the timer to expire before trying to help him again."
+0000370: 		},
+0000371: 		Summary = "Reset at 04:00",
+0000372: 		CoolTimeQuest = 1
+0000373: 	},
+0000374: 	[1120] = {
+0000375: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000376: 		Description = {
+0000377: 			"Receive Grilled Rice Cake from travel guide in Izlude."
+0000378: 		},
+0000379: 		Summary = "Talk to travel guide"
+0000380: 	},
+0000381: 	[1121] = {
+0000382: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000383: 		Description = {
+0000384: 			"Deliver Grilled Rice Cake to Belte Malang in Payon."
+0000385: 		},
+0000386: 		Summary = "Talk to Belte Malang"
+0000387: 	},
+0000388: 	[1122] = {
+0000389: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000390: 		Description = {
+0000391: 			"Find Ingeolmi eating monkeys! Slay 50 Yoyos in vicinity of Ayothaya."
+0000392: 		},
+0000393: 		Summary = "Talk to Belte Malang"
+0000394: 	},
+0000395: 	[1123] = {
+0000396: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000397: 		Description = {
+0000398: 			"Stop looking for hometown."
+0000399: 		},
+0000400: 		Summary = "Able to request again after 1 day"
+0000401: 	},
+0000402: 	[1124] = {
+0000403: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000404: 		Description = {
+0000405: 			"Meet Ganggangsulae Expert in Kunlun!"
+0000406: 		},
+0000407: 		Summary = "Talk to Ganggangsulae Expert"
+0000408: 	},
+0000409: 	[1125] = {
+0000410: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000411: 		Description = {
+0000412: 			"Talk to Ganggangsulae Expert after collecting 50 festival masks."
+0000413: 		},
+0000414: 		Summary = "Talk to Ganggangsulae Expert"
+0000415: 	},
+0000416: 	[1126] = {
+0000417: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000418: 		Description = {
+0000419: 			"Acquire information on homeless cat duo. Would it be related to Belte & Hamel Malang?"
+0000420: 		},
+0000421: 		Summary = "Talk to Belte Malang"
+0000422: 	},
+0000423: 	[1127] = {
+0000424: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000425: 		Description = {
+0000426: 			"Investigate scribblings on Tiger Statue in Longzhicheng."
+0000427: 		},
+0000428: 		Summary = "Investigate Tiger Statue"
+0000429: 	},
+0000430: 	[1128] = {
+0000431: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000432: 		Description = {
+0000433: 			"It seems like Dancing Janitor has cleened up the scribblings. Ask him about the scribblings."
+0000434: 		},
+0000435: 		Summary = "Talk to Dancing Janitor"
+0000436: 	},
+0000437: 	[1129] = {
+0000438: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000439: 		Description = {
+0000440: 			"Erase a scribble near A boy beside fences inside Longzhicheng."
+0000441: 		},
+0000442: 		Summary = "Investigate around A boy beside fences"
+0000443: 	},
+0000444: 	[1130] = {
+0000445: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000446: 		Description = {
+0000447: 			"Erased a scribble telling that rice cake basket has been deliver to Longzhicheng Pub."
+0000448: 		},
+0000449: 		Summary = "Talk to Dancing Janitor"
+0000450: 	},
+0000451: 	[1131] = {
+0000452: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000453: 		Description = {
+0000454: 			"Erase a scribble near A Bull beside an old tree inside Longzhicheng."
+0000455: 		},
+0000456: 		Summary = "Investigate around A Bull beside an old tree"
+0000457: 	},
+0000458: 	[1132] = {
+0000459: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000460: 		Description = {
+0000461: 			"Erased a scribble conspiring to steal rice cake basket."
+0000462: 		},
+0000463: 		Summary = "Talk to Dancing Janitor"
+0000464: 	},
+0000465: 	[1133] = {
+0000466: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000467: 		Description = {
+0000468: 			"Erase a scribble near Wall Fairy inside Longzhicheng."
+0000469: 		},
+0000470: 		Summary = "Invetigate around Wall Fairy"
+0000471: 	},
+0000472: 	[1134] = {
+0000473: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000474: 		Description = {
+0000475: 			"Erased a scribble telling to meet in front of Tiger Statue at midnight to steal rice cake basket."
+0000476: 		},
+0000477: 		Summary = "Talk to Dancing Janitor"
+0000478: 	},
+0000479: 	[1135] = {
+0000480: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000481: 		Description = {
+0000482: 			"Erase a scribble near Gate Captain."
+0000483: 		},
+0000484: 		Summary = "Investigate aroung Gate Captain"
+0000485: 	},
+0000486: 	[1136] = {
+0000487: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000488: 		Description = {
+0000489: 			"Erased a scribble written \"Why haven't you shown up, I'll proceed with the plan by myself\"."
+0000490: 		},
+0000491: 		Summary = "Talk to Dancing Janitor"
+0000492: 	},
+0000493: 	[1137] = {
+0000494: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000495: 		Description = {
+0000496: 			"Erase a scribble in the back of Enlightened One's head."
+0000497: 		},
+0000498: 		Summary = "Investigate the back of Enlightened One's head"
+0000499: 	},
+0000500: 	[1138] = {
+0000501: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000502: 		Description = {
+0000503: 			"Erased a scribble resenting the traitor."
+0000504: 		},
+0000505: 		Summary = "Talk to Dancing Janitor"
+0000506: 	},
+0000507: 	[1139] = {
+0000508: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000509: 		Description = {
+0000510: 			"Found out the hidden past of homeless cat duo. But for everlasting friendship between them, decided to bury the truth."
+0000511: 		},
+0000512: 		Summary = "Final report to Belte Malang"
+0000513: 	},
+0000514: 	[1140] = {
+0000515: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000516: 		Description = {
+0000517: 			"Finished looking for hometown of Belte Malang."
+0000518: 		},
+0000519: 		Summary = "Able to request again after 1 day"
+0000520: 	},
+0000521: 	[1141] = {
+0000522: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000523: 		Description = {
+0000524: 			"Festival mask delivery completed. Go back to Kunlun and talk to Ganggangsulae Expert."
+0000525: 		},
+0000526: 		Summary = "Talk to Ganggangsulae Expert"
+0000527: 	},
+0000528: 	[1142] = {
+0000529: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000530: 		Description = {
+0000531: 			"Thanksgiving Event completed once."
+0000532: 		},
+0000533: 		Summary = ""
+0000534: 	},
+0000535: 	[1143] = {
+0000536: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000537: 		Description = {
+0000538: 			"Thanksgiving Event completed twice."
+0000539: 		},
+0000540: 		Summary = ""
+0000541: 	},
+0000542: 	[1144] = {
+0000543: 		Title = "Somewhere far, far away, where Belte Malang was born!",
+0000544: 		Description = {
+0000545: 			"Cute pet reward."
+0000546: 		},
+0000547: 		Summary = ""
+0000548: 	},
+0000549: 	[1145] = {
+0000550: 		Title = "Help the Bad Cats in Danger!",
+0000551: 		IconName = "ico_nq.bmp",
+0000552: 		Description = {
+0000553: 			"Do a favor for Gobong who's stomach is upset. Go to the port and try to listen to the <NAVI>[suspicious conversation]<INFO>malangdo,196,120,0,101,0</INFO></NAVI>."
+0000554: 		},
+0000555: 		Summary = "Near the Foolish Cat"
+0000556: 	},
+0000557: 	[1146] = {
+0000558: 		Title = "Help the Bad Cats in Danger!",
+0000559: 		IconName = "ico_nq.bmp",
+0000560: 		Description = {
+0000561: 			"From the suspicious dealers, you listened on the conversation about the hidden object. Check the area <NAVI>[around]<INFO>malangdo,155,179,0,101,0</INFO></NAVI> the balloon bag which is north of ship Navi."
+0000562: 		},
+0000563: 		Summary = ""
+0000564: 	},
+0000565: 	[1147] = {
+0000566: 		Title = "Help the Bad Cats in Danger!",
+0000567: 		IconName = "ico_nq.bmp",
+0000568: 		Description = {
+0000569: 			"The only thing you found is a useless memo. Go to listen to the <NAVI>[dealers]<INFO>malangdo,196,120,0,101,0</INFO></NAVI> a bit more."
+0000570: 		},
+0000571: 		Summary = "Near the Foolish Cat"
+0000572: 	},
+0000573: 	[1148] = {
+0000574: 		Title = "Help the Bad Cats in Danger!",
+0000575: 		IconName = "ico_nq.bmp",
+0000576: 		Description = {
+0000577: 			"Through the conversation of the suspicious dealers, you realised that the hidden place is ship Navi itself. Find another <NAVI>[suspicious cat]<INFO>malangdo,171,163,0,101,0</INFO></NAVI> on the deck of ship Navi."
+0000578: 		},
+0000579: 		Summary = "Deck of ship Navi"
+0000580: 	},
+0000581: 	[1149] = {
+0000582: 		Title = "Help the Bad Cats in Danger!",
+0000583: 		IconName = "ico_nq.bmp",
+0000584: 		Description = {
+0000585: 			"According to the Awfully suspicious dealer, you decided to look <NAVI>[around]<INFO>mal_in02,184,77,0,101,0</INFO></NAVI> Gozangee."
+0000586: 		},
+0000587: 		Summary = "Ship Navi lounge"
+0000588: 	},
+0000589: 	[1150] = {
+0000590: 		Title = "Help the Bad Cats in Danger!",
+0000591: 		IconName = "ico_nq.bmp",
+0000592: 		Description = {
+0000593: 			"You found a <ITEM>Poor Can Sack<INFO>6427</INFO></ITEM> on the deck of ship Navi. You need to see the <NAVI>[Awfully Suspicious Dealer]<INFO>malangdo,171,163,0,101,0</INFO></NAVI> again."
+0000594: 		},
+0000595: 		Summary = "Deck of ship Navi"
+0000596: 	},
+0000597: 	[1151] = {
+0000598: 		Title = "Help the Bad Cats in Danger!",
+0000599: 		IconName = "ico_nq.bmp",
+0000600: 		Description = {
+0000601: 			"Gather 30 <ITEM>Poor Can<INFO>6426</INFO></ITEM> from <NAVI>Red Eruma<INFO>RED_ERUMA,0,0,3,-222,0</INFO></NAVI> in Starry Coral Area and go back to <NAVI>[Gobonge]<INFO>malangdo,175,206,0,101,0</INFO></NAVI>."
+0000602: 		},
+0000603: 		Summary = ""
+0000604: 	},
+0000605: 	[1152] = {
+0000606: 		Title = "[Standby] Help the Bad Cats in Danger!",
+0000607: 		IconName = "ico_dq.bmp",
+0000608: 		Description = {
+0000609: 			"This quest is a daily quest, and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Gobonge]<INFO>malangdo,175,206,0,101,0</INFO></NAVI>."
+0000610: 		},
+0000611: 		Summary = "Reset at 04:00",
+0000612: 		CoolTimeQuest = 1
+0000613: 	},
+0000614: 	[1153] = {
+0000615: 		Title = "Help the Bad Cats in Danger!",
+0000616: 		IconName = "ico_nq.bmp",
+0000617: 		Description = {
+0000618: 			"Go to see <NAVI>[Patrol Leader]<INFO>malangdo,125,147,0,101,0,</INFO></NAVI> and say hello for Gobonge."
+0000619: 		},
+0000620: 		Summary = "Patrol Leader"
+0000621: 	},
+0000622: 	[1154] = {
+0000623: 		Title = "Help the Bad Cats in Danger!",
+0000624: 		IconName = "ico_nq.bmp",
+0000625: 		Description = {
+0000626: 			"After cleaning up 20 <NAVI>Red Eruma<INFO>RED_ERUMA,0,0,3,-222,0</INFO></NAVI> in Starry Coral Area, report that to <NAVI>[Patrol Leader]<INFO>malangdo,125,147,0,101,0,</INFO></NAVI>."
+0000627: 		},
+0000628: 		Summary = "Patrol Leader"
+0000629: 	},
+0000630: 	[1155] = {
+0000631: 		Title = "Help the Bad Cats in Danger!",
+0000632: 		IconName = "ico_nq.bmp",
+0000633: 		Description = {
+0000634: 			"Report the rogue activity to <NAVI>[Gobonge]<INFO>malangdo,175,206,0,101,0</INFO></NAVI>."
+0000635: 		},
+0000636: 		Summary = "Gobonge"
+0000637: 	},
+0000638: 	[1156] = {
+0000639: 		Title = "Agitated Neighborhood Choir!",
+0000640: 		Description = {
+0000641: 			"First mission - (Babyhouse baby) The dad of the restaurant stopped the rehearsal without hesitation. Let's listen."
+0000642: 		},
+0000643: 		Summary = "Talk to 'Daddy at the Restaurant' in Aldebaran"
+0000644: 	},
+0000645: 	[1157] = {
+0000646: 		Title = "Agitated Neighborhood Choir!",
+0000647: 		Description = {
+0000648: 			"Let's find the mother of the restaurant near the publicity agent in the west passage of Izlude."
+0000649: 		},
+0000650: 		Summary = "Talk to 'Mother at the House' in Izlude"
+0000651: 	},
+0000652: 	[1158] = {
+0000653: 		Title = "Agitated Neighborhood Choir!",
+0000654: 		Description = {
+0000655: 			"Listen carefully to the conversation between the mother and the father of the restaurant, and choose a helpful answer."
+0000656: 		},
+0000657: 		Summary = "Talk to 'Mother at the House' in Izlude"
+0000658: 	},
+0000659: 	[1159] = {
+0000660: 		Title = "Agitated Neighborhood Choir!",
+0000661: 		Description = {
+0000662: 			"Let's go to the ocean man, a lullaby song expert who will bring lullabies to the baby at the restaurant."
+0000663: 		},
+0000664: 		Summary = "Talk to the 'Ocean Man' next to the Kafra on Byalan Island."
+0000665: 	},
+0000666: 	[1160] = {
+0000667: 		Title = "Agitated Neighborhood Choir!",
+0000668: 		Description = {
+0000669: 			"Completed the first mission. Reservations for a lullaby song have been booked to the man. Report to the local choir director, or to the dad at the restaurant."
+0000670: 		},
+0000671: 		Summary = "Report to the director of the local choir in Aldebaran, or to the father of the restaurant."
+0000672: 	},
+0000673: 	[1161] = {
+0000674: 		Title = "Agitated Neighborhood Choir!",
+0000675: 		Description = {
+0000676: 			"Second mission - (Verbal Thoughts) The girl of Go shoes stopped rehearsing without hesitation. Let's listen."
+0000677: 		},
+0000678: 		Summary = "Talk to 'Go Go Girl' in Aldebaran"
+0000679: 	},
+0000680: 	[1162] = {
+0000681: 		Title = "Agitated Neighborhood Choir!",
+0000682: 		Description = {
+0000683: 			"Let's find the Go shoes delivery manager in front of the Prontera Knights."
+0000684: 		},
+0000685: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000686: 	},
+0000687: 	[1163] = {
+0000688: 		Title = "Agitated Neighborhood Choir!",
+0000689: 		Description = {
+0000690: 			"Let's help the collection quest to prepare a ride for Go shoes delivery staff. Collect seven colorful back shells that Steiner drops, then return to Go Shoes."
+0000691: 		},
+0000692: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000693: 	},
+0000694: 	[1164] = {
+0000695: 		Title = "Agitated Neighborhood Choir!",
+0000696: 		Description = {
+0000697: 			"Let's help the collection quest to prepare a ride for Go shoes delivery staff. Collect the seven wild boar mane hairs that Savage drops, and return to the Go Shoe Delivery Manager."
+0000698: 		},
+0000699: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000700: 	},
+0000701: 	[1165] = {
+0000702: 		Title = "Agitated Neighborhood Choir!",
+0000703: 		Description = {
+0000704: 			"Completed the second mission. Go shoes delivery staff who can prepare a vehicle and leave for Yuno. Report to the local choir director or Go Go girl."
+0000705: 		},
+0000706: 		Summary = "Report to the director of a local choir in Aldebaran, or a girl in Go shoes."
+0000707: 	},
+0000708: 	[1166] = {
+0000709: 		Title = "Agitated Neighborhood Choir!",
+0000710: 		Description = {
+0000711: 			"Third mission -(Papa and coloring) Eventually, rehearsal was stopped again. Let's listen to the story of a boy crying without hesitation."
+0000712: 		},
+0000713: 		Summary = "Talk to 'Coloring Boy' in Aldebaran"
+0000714: 	},
+0000715: 	[1167] = {
+0000716: 		Title = "Agitated Neighborhood Choir!",
+0000717: 		Description = {
+0000718: 			"I need new colors to soothe the boys. But where do you get it right now? Fortunately, a girl in Go shoes seems to be helping."
+0000719: 		},
+0000720: 		Summary = "Talk to 'Go Go Girl' in Aldebaran"
+0000721: 	},
+0000722: 	[1168] = {
+0000723: 		Title = "Agitated Neighborhood Choir!",
+0000724: 		Description = {
+0000725: 			"I need to deliver additional orders to the Go shoes delivery manager. Let's hurry to the front of the Knights of Prontera before he leaves for Yuno."
+0000726: 		},
+0000727: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000728: 	},
+0000729: 	[1169] = {
+0000730: 		Title = "Agitated Neighborhood Choir!",
+0000731: 		Description = {
+0000732: 			"The 2nd to help my brother who is struggling to fulfill his sister's wish. Collect the three pointed needles of the cactus that Muka drops and return to the go-to shoes."
+0000733: 		},
+0000734: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000735: 	},
+0000736: 	[1170] = {
+0000737: 		Title = "Agitated Neighborhood Choir!",
+0000738: 		Description = {
+0000739: 			"Part 2 of helping an older brother who is struggling to fulfill his sister's wishes. Collect the 3 skins of the Earthworm that the Horde is dropping, and return to Go Shoes Delivery."
+0000740: 		},
+0000741: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000742: 	},
+0000743: 	[1171] = {
+0000744: 		Title = "Agitated Neighborhood Choir!",
+0000745: 		Description = {
+0000746: 			"Substitute the delivery quest of the Go shoes delivery manager. Give the grandson's gift to the old grandmother in Comodo."
+0000747: 		},
+0000748: 		Summary = "Talk to 'The Curvy Grandmother' in Comodo"
+0000749: 	},
+0000750: 	[1172] = {
+0000751: 		Title = "Agitated Neighborhood Choir!",
+0000752: 		Description = {
+0000753: 			"Delivery to the curvey grandmother completed."
+0000754: 		},
+0000755: 		Summary = "Talk to 'Go Shoes Delivery Manager' in Prontera"
+0000756: 	},
+0000757: 	[1173] = {
+0000758: 		Title = "Agitated Neighborhood Choir!",
+0000759: 		Description = {
+0000760: 			"Completed the third mission. We are in charge of delivery of Go shoes that will bring all the colors and additional orders. Let's go to the Go Go girl for the final report."
+0000761: 		},
+0000762: 		Summary = "Talk to 'Go Go Girl' in Aldebaran"
+0000763: 	},
+0000764: 	[1174] = {
+0000765: 		Title = "Rumor, Time and Legend",
+0000766: 		Description = {
+0000767: 			"Bring back the Slate Piece from Old Man's Granddaughter at the north port of Malaya."
+0000768: 		},
+0000769: 		Summary = "Talk to Old Man's Granddaughter"
+0000770: 	},
+0000771: 	[1175] = {
+0000772: 		Title = "Rumor, Time and Legend",
+0000773: 		Description = {
+0000774: 			"Deliver the Slate Piece to Old Legend Teller."
+0000775: 		},
+0000776: 		Summary = "Talk to Old Legend Teller"
+0000777: 	},
+0000778: 	[1176] = {
+0000779: 		Title = "Rumor, Time and Legend",
+0000780: 		Description = {
+0000781: 			"Meet Malaya Immigrant at the northwest of the forest and track down the Wandering Merchant."
+0000782: 		},
+0000783: 		Summary = "Talk to Malaya Immigrant"
+0000784: 	},
+0000785: 	[1177] = {
+0000786: 		Title = "Rumor, Time and Legend",
+0000787: 		Description = {
+0000788: 			"Meet Malaya Immigrant in the Baryo Mahiwaga village and track down the Wandering Merchant."
+0000789: 		},
+0000790: 		Summary = "Talk to Malaya Immigrant"
+0000791: 	},
+0000792: 	[1178] = {
+0000793: 		Title = "Rumor, Time and Legend",
+0000794: 		Description = {
+0000795: 			"Investigate the records engraved on the Baryo Mahiwaga village rock."
+0000796: 		},
+0000797: 		Summary = "Investigate the rock"
+0000798: 	},
+0000799: 	[1179] = {
+0000800: 		Title = "Rumor, Time and Legend",
+0000801: 		Description = {
+0000802: 			"The truth of the legend and the identity of the old woman's son are revealed. Return to Malaya to report back to Old Legend Teller."
+0000803: 		},
+0000804: 		Summary = "Talk to Old Legend Teller"
+0000805: 	},
+0000806: 	[1180] = {
+0000807: 		Title = "Get Rid of Bakonawa",
+0000808: 		Description = {
+0000809: 			"Retrieve 2 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Father."
+0000810: 		},
+0000811: 		Summary = "Talk to Missing Person's Father"
+0000812: 	},
+0000813: 	[1181] = {
+0000814: 		Title = "Get Rid of Bakonawa",
+0000815: 		Description = {
+0000816: 			"Retrieve 7 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Friend."
+0000817: 		},
+0000818: 		Summary = "Talk to Missing Person's Friend"
+0000819: 	},
+0000820: 	[1182] = {
+0000821: 		Title = "Get Rid of Bakonawa",
+0000822: 		Description = {
+0000823: 			"Retrieve 3 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Son."
+0000824: 		},
+0000825: 		Summary = "Talk to Missing Person's Son"
+0000826: 	},
+0000827: 	[1183] = {
+0000828: 		Title = "Get Rid of Bakonawa",
+0000829: 		Description = {
+0000830: 			"Retrieve 5 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to the Missing Person's Mother."
+0000831: 		},
+0000832: 		Summary = "Talk to Missing Person's Mother"
+0000833: 	},
+0000834: 	[1184] = {
+0000835: 		Title = "Get Rid of Bakonawa",
+0000836: 		Description = {
+0000837: 			"Completed finding the Missing Person. Report to the Village Chief."
+0000838: 		},
+0000839: 		Summary = "Talk to Village Chief"
+0000840: 	},
+0000841: 	[1185] = {
+0000842: 		Title = "Get Rid of Bakonawa",
+0000843: 		Description = {
+0000844: 			"Young Fortune Teller is asking for help. Let's go."
+0000845: 		},
+0000846: 		Summary = "Talk to Young Fortune teller"
+0000847: 	},
+0000848: 	[1186] = {
+0000849: 		Title = "Get Rid of Bakonawa",
+0000850: 		Description = {
+0000851: 			"Defeat 15 Tikbalangs in the Baryo Mahiwaga field. Talk to Young Fortune Teller when you've completed the mission."
+0000852: 		},
+0000853: 		Summary = "Defeat 15 Tikbalangs"
+0000854: 	},
+0000855: 	[1187] = {
+0000856: 		Title = "Get Rid of Bakonawa",
+0000857: 		Description = {
+0000858: 			"Report this request from the Young Fortune teller to Village Chief."
+0000859: 		},
+0000860: 		Summary = "Talk to Village Chief"
+0000861: 	},
+0000862: 	[1188] = {
+0000863: 		Title = "Get Rid of Bakonawa",
+0000864: 		Description = {
+0000865: 			"Go meet the Gruffy Worker in the Baryo Mahiwaga field nearby the Port Malaya entrance to install a trap together."
+0000866: 		},
+0000867: 		Summary = "Investigate nearby the \"Gruffy Worker\""
+0000868: 	},
+0000869: 	[1189] = {
+0000870: 		Title = "Get Rid of Bakonawa",
+0000871: 		Description = {
+0000872: 			"Go meet the Grumpy Worker in the Baryo Mahiwaga field nearby the Bakonawa Lake entrance to install a trap together."
+0000873: 		},
+0000874: 		Summary = "Investigate nearby the \"Grumpy Worker\""
+0000875: 	},
+0000876: 	[1190] = {
+0000877: 		Title = "Get Rid of Bakonawa",
+0000878: 		Description = {
+0000879: 			"Go meet the Cowardly Worker nearby the Bakonawa Lake entrance to install a trap together."
+0000880: 		},
+0000881: 		Summary = "Investigate nearby the \"Cowardly Worker\""
+0000882: 	},
+0000883: 	[1191] = {
+0000884: 		Title = "Get Rid of Bakonawa",
+0000885: 		Description = {
+0000886: 			"Go meet the Gloomy Worker nearby the Bakonawa Lake to install a trap together."
+0000887: 		},
+0000888: 		Summary = "Investigate nearby the \"Gloomy Worker\""
+0000889: 	},
+0000890: 	[1192] = {
+0000891: 		Title = "Get Rid of Bakonawa",
+0000892: 		Description = {
+0000893: 			"Go meet the Sentimental Worker nearby the Bakonawa Lake to install a trap together."
+0000894: 		},
+0000895: 		Summary = "Investigate nearby the \"Sentimental Worker\""
+0000896: 	},
+0000897: 	[1193] = {
+0000898: 		Title = "Get Rid of Bakonawa",
+0000899: 		Description = {
+0000900: 			"Set up the trap. Report back to the Village Chief."
+0000901: 		},
+0000902: 		Summary = "Talk to Village Chief"
+0000903: 	},
+0000904: 	[1194] = {
+0000905: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000906: 		Description = {
+0000907: 			"Collect 10 pieces of red fabric, by catching raccoon socks hurray team in field."
+0000908: 		},
+0000909: 		Summary = "Talk to \"Quercus\", Raccoon Hurray Team Member in Prontera square"
+0000910: 	},
+0000911: 	[1195] = {
+0000912: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000913: 		Description = {
+0000914: 			"Time to consider what a sock-like as a storage for present is. Find Castanea, the raccoon who's busy with dating in Geffen square."
+0000915: 		},
+0000916: 		Summary = "Talk to \"Castanea\", Raccoon Hurray Team Member in Geffen square"
+0000917: 	},
+0000918: 	[1196] = {
+0000919: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000920: 		Description = {
+0000921: 			"Street stalls at the end of east Geffen. Find the gift from the corner of the Ghez(Young Woman) behind."
+0000922: 		},
+0000923: 		Summary = "Street stalls at the end of east Geffen. Near by the raccoon, \"Bean\""
+0000924: 	},
+0000925: 	[1197] = {
+0000926: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000927: 		Description = {
+0000928: 			"Found out the gift, striped socks. Let's go back to Castanea."
+0000929: 		},
+0000930: 		Summary = "Talk to \"Castanea\", Raccoon Hurray Team Member in Geffen square"
+0000931: 	},
+0000932: 	[1198] = {
+0000933: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000934: 		Description = {
+0000935: 			"After finding the gift wrapper in wooden pail of flower garden at the end of west Geffen, wrap the gift."
+0000936: 		},
+0000937: 		Summary = "In west Geffen. Near by the raccoon, \"Pinus\""
+0000938: 	},
+0000939: 	[1199] = {
+0000940: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000941: 		Description = {
+0000942: 			"Wrapping compeleted! Let's back to Castanea."
+0000943: 		},
+0000944: 		Summary = "Talk to \"Castanea\", Raccoon Hurray Team Member in Geffen square"
+0000945: 	},
+0000946: 	[1200] = {
+0000947: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000948: 		Description = {
+0000949: 			"Got shining colorful beads from Castanea. Let's back to \"Quercus\"."
+0000950: 		},
+0000951: 		Summary = "Talk to \"Quercus\", Raccoon Hurray Team Member in Prontera square"
+0000952: 	},
+0000953: 	[1201] = {
+0000954: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000955: 		Description = {
+0000956: 			"Time to consider what a sock-like as a storage for present is. Find \"Pyrus\", the raccoon who's unstable with love in Geffen square."
+0000957: 		},
+0000958: 		Summary = "Talk to \"Pyrus\", Raccoon Hurray Team Member in Geffen square"
+0000959: 	},
+0000960: 	[1202] = {
+0000961: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000962: 		Description = {
+0000963: 			"Worried about the raccoon couple arguing. Let's catch Raccoon Hurray Team members in field and collect 5 pieces of stolen candies and stolen cookies each."
+0000964: 		},
+0000965: 		Summary = "Talk to \"Pyrus\", Raccoon Hurray Team Member in Geffen square"
+0000966: 	},
+0000967: 	[1203] = {
+0000968: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000969: 		Description = {
+0000970: 			"Get the clothes from \"Citrus\" nearby \"Sage Welshyun\" in north Geffen."
+0000971: 		},
+0000972: 		Summary = "Talk to \"Citrus\", Raccoon Hurray Team Member in north Geffen"
+0000973: 	},
+0000974: 	[1204] = {
+0000975: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000976: 		Description = {
+0000977: 			"Got a red package from \"Citrus\". Let's deliver this to raccoon, \"Kaki\"."
+0000978: 		},
+0000979: 		Summary = "Talk to \"Kaki\", Raccoon Hurray Team Member in Geffen square"
+0000980: 	},
+0000981: 	[1205] = {
+0000982: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000983: 		Description = {
+0000984: 			"Got the star shape decoration. Let's back to \"Quercus\"."
+0000985: 		},
+0000986: 		Summary = "Talk to \"Quercus\", Raccoon Hurray Team Member in Prontera square"
+0000987: 	},
+0000988: 	[1206] = {
+0000989: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000990: 		Description = {
+0000991: 			"Quercus ordering reliable investigation into the gift to be received. Let's go Santa's home in Lutie and meet up with the Little Santa."
+0000992: 		},
+0000993: 		Summary = "Talk to the Little Santa at Santa's home in Lutie"
+0000994: 	},
+0000995: 	[1207] = {
+0000996: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0000997: 		Description = {
+0000998: 			"The Santa's assistant saying the gift for raccoons is chosen as nice sweet popatoes. Let's feed the raccons protesting outside of the house."
+0000999: 		},
+0001000: 		Summary = "Talk to the Santa's assistant at Santa's home in Lutie"
+0001001: 	},
+0001002: 	[1208] = {
+0001003: 		Title = "Look out the window, Raccoon Raiders!",
+0001004: 		Description = {
+0001005: 			"Feed raccoons with fried chestnuts."
+0001006: 		},
+0001007: 		Summary = "Feeding sweet potato and chestnuts to Raccoons"
+0001008: 	},
+0001009: 	[1209] = {
+0001010: 		Title = "Look out the window, Raccoon Raiders!",
+0001011: 		Description = {
+0001012: 			"Feed raccoons with cedar and chestnuts."
+0001013: 		},
+0001014: 		Summary = "Feeding sweet potato and chestnuts to Raccoons"
+0001015: 	},
+0001016: 	[1210] = {
+0001017: 		Title = "Look out the window, Raccoon Raiders!",
+0001018: 		Description = {
+0001019: 			"Feed raccoons with wisteria and sweet potatoes."
+0001020: 		},
+0001021: 		Summary = "Feeding sweet potato and chestnuts to Raccoons"
+0001022: 	},
+0001023: 	[1211] = {
+0001024: 		Title = "Look out the window, Raccoon Raiders!",
+0001025: 		Description = {
+0001026: 			"Feed raccoons chestnuts and sweet potatoes."
+0001027: 		},
+0001028: 		Summary = "Feeding sweet potato and chestnuts to Raccoons"
+0001029: 	},
+0001030: 	[1212] = {
+0001031: 		Title = "Look out the window, Raccoon Raiders!",
+0001032: 		Description = {
+0001033: 			"Feed raccoons at the cherry tree with sweet potatoes."
+0001034: 		},
+0001035: 		Summary = "Feeding sweet potato and chestnuts to Raccoons"
+0001036: 	},
+0001037: 	[1213] = {
+0001038: 		Title = "Look out the window, Cheers for Raccoon Hurray team!",
+0001039: 		Description = {
+0001040: 			"Seems the raccoons are satisfied enough with the nice sweet popatoes gift. Let's give this message to Quercus."
+0001041: 		},
+0001042: 		Summary = "Talk to \"Quercus\", Raccoon Hurray Team Member in Prontera square"
+0001043: 	},
+0001044: 	[1214] = {
+0001045: 		Title = "Finding Professor Worm's Memory",
+0001046: 		IconName = "ico_ep.bmp",
+0001047: 		Description = {
+0001048: 			"Find Professor Worm's portrait by investigating the bookshelves on the 4th floor of Bifrost Tower. The bookshelves seem to be on both <NAVI>[this side]<INFO>ecl_tdun04,21,41,0,101,0</INFO></NAVI> and <NAVI>[that side]<INFO>ecl_tdun04,37,21,0,101,0</INFO></NAVI>."
+0001049: 		},
+0001050: 		Summary = "Investigate the bookshelves on the 4th floor of Bifrost Tower"
+0001051: 	},
+0001052: 	[1215] = {
+0001053: 		Title = "Finding Professor Worm's Memory",
+0001054: 		IconName = "ico_ep.bmp",
+0001055: 		Description = {
+0001056: 			"Professor Worm's portrait was found. Take it to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI>."
+0001057: 		},
+0001058: 		Summary = "Talk to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> on the 4th floor of Bifrost Tower"
+0001059: 	},
+0001060: 	[1216] = {
+0001061: 		Title = "Finding Professor Worm's Memory",
+0001062: 		IconName = "ico_ep.bmp",
+0001063: 		Description = {
+0001064: 			"You need to hunt the petals from the flowered land, collect 20 <ITEM>[Star Shape Mushroom]<INFO>6542</INFO></ITEM>, and talk to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI>."
+0001065: 		},
+0001066: 		Summary = "Talk to Professor Worm on the 4th floor of Bifrost Tower"
+0001067: 	},
+0001068: 	[1217] = {
+0001069: 		Title = "Finding Professor Worm's Memory",
+0001070: 		IconName = "ico_ep.bmp",
+0001071: 		Description = {
+0001072: 			"Talk to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> on the 4th floor of Bifrost Tower after investigating records on 5 walls. You have to look closely at the map."
+0001073: 		},
+0001074: 		Summary = "Investigate Professor Worm's records on walls of Bifrost Tower."
+0001075: 	},
+0001076: 	[1218] = {
+0001077: 		Title = "Finding Professor Worm's Memory",
+0001078: 		IconName = "ico_ep.bmp",
+0001079: 		Description = {
+0001080: 			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+0001081: 		},
+0001082: 		Summary = "Read the first record"
+0001083: 	},
+0001084: 	[1219] = {
+0001085: 		Title = "Finding Professor Worm's Memory",
+0001086: 		IconName = "ico_ep.bmp",
+0001087: 		Description = {
+0001088: 			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+0001089: 		},
+0001090: 		Summary = "Read the second record"
+0001091: 	},
+0001092: 	[1220] = {
+0001093: 		Title = "Finding Professor Worm's Memory",
+0001094: 		IconName = "ico_ep.bmp",
+0001095: 		Description = {
+0001096: 			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+0001097: 		},
+0001098: 		Summary = "Read the third record"
+0001099: 	},
+0001100: 	[1221] = {
+0001101: 		Title = "Finding Professor Worm's Memory",
+0001102: 		IconName = "ico_ep.bmp",
+0001103: 		Description = {
+0001104: 			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+0001105: 		},
+0001106: 		Summary = "Read the fourth record"
+0001107: 	},
+0001108: 	[1222] = {
+0001109: 		Title = "Finding Professor Worm's Memory",
+0001110: 		IconName = "ico_ep.bmp",
+0001111: 		Description = {
+0001112: 			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+0001113: 		},
+0001114: 		Summary = "Read the fifth record"
+0001115: 	},
+0001116: 	[1223] = {
+0001117: 		Title = "Finding Professor Worm's Memory",
+0001118: 		IconName = "ico_ep.bmp",
+0001119: 		Description = {
+0001120: 			"Find <NAVI>[Diary Frog No. 3]<INFO>ecl_tdun03,21,69,0,101,0</INFO></NAVI> on the 3rd floor of Bifrost Tower."
+0001121: 		},
+0001122: 		Summary = "Talk to Diary Frog No. 3"
+0001123: 	},
+0001124: 	[1224] = {
+0001125: 		Title = "Finding Professor Worm's Memory",
+0001126: 		IconName = "ico_ep.bmp",
+0001127: 		Description = {
+0001128: 			"Find <NAVI>[Diary Frog No. 6]<INFO>ecl_tdun01,23,79,0,101,0</INFO></NAVI> on the 1st floor of Bifrost Tower."
+0001129: 		},
+0001130: 		Summary = "Talk to Diary Frog No. 6"
+0001131: 	},
+0001132: 	[1225] = {
+0001133: 		Title = "Finding Professor Worm's Memory",
+0001134: 		IconName = "ico_ep.bmp",
+0001135: 		Description = {
+0001136: 			"Defeat 15 Lichterns (Blue) on the 1st floor of Bifrost Tower and report to <NAVI>[Diary Frog No. 6]<INFO>ecl_tdun01,23,79,0,101,0</INFO></NAVI>."
+0001137: 		},
+0001138: 		Summary = "Talk to Diary Frog No. 6 after subjugation"
+0001139: 	},
+0001140: 	[1226] = {
+0001141: 		Title = "Finding Professor Worm's Memory",
+0001142: 		IconName = "ico_ep.bmp",
+0001143: 		Description = {
+0001144: 			"Find <NAVI>[Diary Frog No. 30]<INFO>ecl_fild01,173,95,0,101,0</INFO></NAVI> outside of Bifrost Tower."
+0001145: 		},
+0001146: 		Summary = "Talk to Diary Frog No. 30"
+0001147: 	},
+0001148: 	[1227] = {
+0001149: 		Title = "Finding Professor Worm's Memory",
+0001150: 		IconName = "ico_ep.bmp",
+0001151: 		Description = {
+0001152: 			"You need to hunt the Petals from the flowered land, collect 10 <ITEM>[Star Shape Mushroom]<INFO>6542</INFO></ITEM> and bring them to <NAVI>[Diary Frog No. 30]<INFO>ecl_fild01,173,95,0,101,0</INFO></NAVI>."
+0001153: 		},
+0001154: 		Summary = "Talk to Diary Frog No. 30"
+0001155: 	},
+0001156: 	[1228] = {
+0001157: 		Title = "Finding Professor Worm's Memory",
+0001158: 		IconName = "ico_ep.bmp",
+0001159: 		Description = {
+0001160: 			"You must return to <NAVI>[Professor Worm]<INFO>ecl_tdun04,26,39,0,101,0</INFO></NAVI> in the Bifrost Tower."
+0001161: 		},
+0001162: 		Summary = "Talk to Professor Worm"
+0001163: 	},
+0001164: 	[1229] = {
+0001165: 		Title = "Swordsman training",
+0001166: 		Description = {
+0001167: 			"Start the Swordsman training. Equip the Swordsman Manual and test the skills."
+0001168: 		},
+0001169: 		Summary = "Talk to trainer Adric"
+0001170: 	},
+0001171: 	[1230] = {
+0001172: 		Title = "Swordsman training",
+0001173: 		Description = {
+0001174: 			"You heard the explanations about the Swordsman Class. Ask about the other courses from trainer Adric."
+0001175: 		},
+0001176: 		Summary = "Talk to trainer Adric"
+0001177: 	},
+0001178: 	[1233] = {
+0001179: 		Title = "Swordsman training",
+0001180: 		Description = {
+0001181: 			"The Swordsman training with the Swordsman Ecarto of Izlude Swordsman guild."
+0001182: 		},
+0001183: 		Summary = "Talk to Swordsman Ecarto"
+0001184: 	},
+0001185: 	[1234] = {
+0001186: 		Title = "Swordsman training",
+0001187: 		Description = {
+0001188: 			"The Swordsman training with the Swordsman Ecarto! Go into the advanced course"
+0001189: 		},
+0001190: 		Summary = "Talk to Swordsman Ecarto"
+0001191: 	},
+0001192: 	[1235] = {
+0001193: 		Title = "Swordsman training",
+0001194: 		Description = {
+0001195: 			"After hunting 10 Tarous at the underground waterway of the west of Prontera, report to the Swordsman Ecarto."
+0001196: 		},
+0001197: 		Summary = "Talk to Swordsman Ecarto"
+0001198: 	},
+0001199: 	[1236] = {
+0001200: 		Title = "Swordsman training",
