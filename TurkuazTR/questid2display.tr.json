@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.2.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Kids in Veins zinciri dahil",
+    "version": "2.3.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Expedition report zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -2935,6 +2935,56 @@
       "title": "Veins'teki Cocuklar - Mr. Lockenlock'un Anahtari",
       "description": "Curdie guvenle kasabaya dondu. Bu yer Rachel Army ile ilgili buyuk bir sir sakliyor olabilir. Kasabaya donup cocuklarla konus.",
       "goal": "Cocuklarla konus"
+    },
+    "3085": {
+      "title": "Komutandan Cagri",
+      "description": "Staff Officer Abidal'in sana soyleyecekleri var. Expedition Commander onemli bir gorev vermek istiyor.",
+      "goal": "Abidal ve Commander ile konus"
+    },
+    "3086": {
+      "title": "Komutanin Gorevi",
+      "description": "Commander, expedition raporlarini Rune Midgard'daki 3 ulkeye teslim etmeni istiyor. Gorevin ayrintilarini ondan ogren.",
+      "goal": "Commander ile konus"
+    },
+    "3087": {
+      "title": "Rune Midgard'a Rapor",
+      "description": "Teslimat gorevini aldin. Dimensional Gap'teki messenger ile konus ve raporlari teslim etmeye hazirlan.",
+      "goal": "Dimensional Gap'teki messenger ile konus"
+    },
+    "3088": {
+      "title": "Kitaya Rapor - Kaza",
+      "description": "Dimensional Gap cevresinde saldiriya ugradin ve raporu kaybettin. Commander'a geri donup olanlari anlat.",
+      "goal": "Commander'a geri don"
+    },
+    "3089": {
+      "title": "Kitaya Rapor - Raporu Yeniden Hazirlama",
+      "description": "Commander, raporu Abidal ile birlikte yeniden hazirlamani emretti.",
+      "goal": "Abidal ile konus"
+    },
+    "3090": {
+      "title": "Kitaya Rapor - Raporlarin Yeri",
+      "description": "Ash Vacuum'a dagilmis rapor parcalarini ara. Canavarlar almis olabilir; cevredeki scoutlardan bilgi edin.",
+      "goal": "Scoutlarla konus ve raporlari ara"
+    },
+    "3091": {
+      "title": "Kitaya Rapor - Raporlarin Yeri",
+      "description": "Ash Vacuum'a dagilmis rapor parcalarini ara. Canavarlar almis olabilir; cevredeki scoutlardan bilgi edin.",
+      "goal": "Scoutlarla konus ve raporlari ara"
+    },
+    "3092": {
+      "title": "Kitaya Rapor - Yeniden Hazirlandi",
+      "description": "Abidal ile rapor taslagini sonunda yeniden hazirladin. Commander'a gidip rapor ver.",
+      "goal": "Commander'a rapor ver"
+    },
+    "3093": {
+      "title": "Kitaya Rapor - Teslimat",
+      "description": "3 raporu 3 ulkeye teslim et. Alicilar Prontera'da Laur, Rachel'da Nuria ve Schwartzvald Republic'te Gerhart.",
+      "goal": "Uc raporu ilgili alicilara teslim et"
+    },
+    "3094": {
+      "title": "Kitaya Rapor - Expedition'a Donus",
+      "description": "Rapor teslimatlarini tamamladin. Commander'a geri don ve sonucu bildir.",
+      "goal": "Commander'a geri don"
     }
   }
 }
