@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.2.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5131-5146 Ninja klan hikayesi ve dort test zinciri dahil",
+    "version": "5.3.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5147-5159 Gunslinger, refine ve enchant egitimleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5072,6 +5072,71 @@
       "title": "Savas Testi",
       "description": "Simdi Battle testine giriyorsun.",
       "goal": "Clan Secret hedefini yen"
+    },
+    "5147": {
+      "title": "Gunslinger Temel Egitimi (1)",
+      "description": "Louie Gunslinger'in temellerini ogretecek. Derse katil.",
+      "goal": "Louie ile konus"
+    },
+    "5148": {
+      "title": "Gunslinger Temel Egitimi (2)",
+      "description": "Ucretsiz temel ucusla Izlude'daki Criatura Academy'ye git ve Lusa'dan savas egitimi al.",
+      "goal": "Lusa ile konus"
+    },
+    "5149": {
+      "title": "Savas Egitimi Talebi A",
+      "description": "Kasabadaki cocuklar disarida rahat oynayabilmek icin Hornet avlanmasini istiyor.",
+      "goal": "10 Hornet avla"
+    },
+    "5150": {
+      "title": "Savas Egitimi Talebi B",
+      "description": "Bir sakin, kurbaga sesleri yuzunden uyuyamadigi icin calisamiyor.",
+      "goal": "10 Roda Frog avla"
+    },
+    "5151": {
+      "title": "Savas Egitimi Talebi C",
+      "description": "Bir evcillestirme adayi, deneme yapabilmek icin Savage Bebe yakalanmasini istiyor.",
+      "goal": "10 Savage Bebe avla"
+    },
+    "5152": {
+      "title": "Savas Egitimi Talebi D",
+      "description": "Sarkici adayi, kendisinden daha iyi sarki soyleyen Rocker'larin temizlenmesini istiyor.",
+      "goal": "10 Rocker avla"
+    },
+    "5153": {
+      "title": "Refine Egitimi (1)",
+      "description": "Wagjak refine makinesiyle seviye 1 silahlari +7'ye kadar refine etmeyi saglayan ucretsiz kupon.",
+      "goal": "Refine hizmeti icin ucretsiz kuponu kullan"
+    },
+    "5154": {
+      "title": "Refine Egitimi (2)",
+      "description": "Izlude refine tesisindeki Mr. Tadde'den silah seviyeleri ve guvenli refine hakkinda bilgi al.",
+      "goal": "Silah seviyesi ve guvenli refine aciklamasini dinle"
+    },
+    "5155": {
+      "title": "Refine Egitimi (3)",
+      "description": "Izlude eritme tesisindeki Mr. Locas'tan refine etkisi ve masraflari hakkinda bilgi al.",
+      "goal": "Refine etkisi ve masraflarini ogren"
+    },
+    "5156": {
+      "title": "Refine Egitimi (4)",
+      "description": "Refine egitimi tamamlandi.",
+      "goal": "Refine egitimi tamamlandi"
+    },
+    "5157": {
+      "title": "Enchant Egitimi (1)",
+      "description": "Enchant hakkinda bilgi edinmek icin Izlude Enchant Guild'deki Enchanter Mounds'u ziyaret et.",
+      "goal": "Enchant deneyim kuponunu al"
+    },
+    "5158": {
+      "title": "Enchant Egitimi (2)",
+      "description": "Socket enchant deneyimi icin Cotton Shirt gerekiyor. Magazadan kolayca alinabilen Cotton Shirt getir.",
+      "goal": "Cotton Shirt getir"
+    },
+    "5159": {
+      "title": "Enchant Egitimi (3)",
+      "description": "Socket enchant uygulanmis Cotton Shirt'i kusan ve hidden enchant icin Almond J'ye git.",
+      "goal": "Almond J'ye git"
     }
   }
 }
