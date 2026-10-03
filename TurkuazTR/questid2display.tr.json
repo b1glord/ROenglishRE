@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.6.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5052-5057 Geleneksel Silah ve Local Rising gorevleri dahil",
+    "version": "4.7.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5058-5070 Nyang ve Cat Gamers gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4657,6 +4657,66 @@
       "title": "Yerel Hareket - Festival Hazirligi",
       "description": "Heaven's Recruit Board 71-85 festival hazirliklarina yardim etmeni istiyor.",
       "goal": "30 gerekli esya topla ve 71-85 panosuna rapor ver"
+    },
+    "5058": {
+      "title": "Oyuncularin Morali (1)",
+      "description": "Cat Gamers Director, 10 maclik maglubiyet serisinden cikmak icin oyuncularin durumunu merak ediyor.",
+      "goal": "Nyang Gamers oyuncularinin moralini Director Cat'e sor"
+    },
+    "5059": {
+      "title": "Oyuncularin Morali (2)",
+      "description": "Oyuncularin durumunu Director Cat'ten ogrendin.",
+      "goal": "Cat Gamers Director'a rapor ver"
+    },
+    "5060": {
+      "title": "Kedi Soku",
+      "description": "Cat Gamers Director duyduklarina cok sasirdi.",
+      "goal": "Cat Gamers Director'a dusunmesi icin zaman ver"
+    },
+    "5061": {
+      "title": "Benden Korkuyorlar mi?",
+      "description": "Cat Gamers Director, ayrilan kedilerin kendisinden korkup korkmadigini merak ediyor. Eryu, Stew, Ketchup ve Eff'i bul.",
+      "goal": "Ayrilan kedileri bul ve durumu ogren"
+    },
+    "5062": {
+      "title": "Eryu ile Bulustum",
+      "description": "Eryu ile bulustun.",
+      "goal": "Eryu ile bulustun"
+    },
+    "5063": {
+      "title": "Stew ile Bulustum",
+      "description": "Stew ile bulustun.",
+      "goal": "Stew ile bulustun"
+    },
+    "5064": {
+      "title": "Ketchup ile Bulustum",
+      "description": "Ketchup ile bulustun.",
+      "goal": "Ketchup ile bulustun"
+    },
+    "5066": {
+      "title": "Korkutucu Imge (1)",
+      "description": "Cat Gamers Director korkutucu imajini degistirmek istiyor.",
+      "goal": "Director Cat'e ne yapilabilecegini sor"
+    },
+    "5067": {
+      "title": "Korkutucu Imge (2)",
+      "description": "Director Cat, korkutucu imaji degistirmenin zor oldugunu soyluyor. Sikayetleri toplamak icin bir kutu fikrini Cat Gamers Director'a ilet.",
+      "goal": "Cat Gamers Director'a sikayet kutusu fikrini ilet"
+    },
+    "5068": {
+      "title": "Sikayet Toplama",
+      "description": "Nyang Gamers oyuncularindan sikayet toplaniyor.",
+      "goal": "Sikayet toplama suresi 20 saat"
+    },
+    "5069": {
+      "title": "Onur Nisani",
+      "description": "Nyang teknik ekibinin emegi ve zorlugu anmak icin bir onur nisani hazirlaniyor.",
+      "goal": "1 saat sonra Cat Gamers Director'dan onur nisanini al"
+    },
+    "5070": {
+      "title": "Tas Kagit Makas Antrenmani",
+      "description": "Nyang Gamers oyuncusuyla tas-kagit-makas antrenman maci yaptin.",
+      "goal": "Sonraki antrenman 24 saat sonra"
     }
   }
 }
