@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/validate_achievement_translation.py
 # Amac: achievements.lub cevirisinin Lua yapisini degistirmedigini dogrular
 # Modul: Tool - Python
-# Version: 1.1.0
+# Version: 1.2.0
 # Aciklama: Upstream ve Turkce dosyada quoted string iceriklerini maskeleyip kalan yapinin birebir ayni oldugunu kontrol eder
 # Bagimli Oldugu Katman: Tool
 
@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 
 STRING_RE = re.compile(rb'"(?:\\.|[^"\\])*"')
+LONG_STRING_RE = re.compile(rb'\[(=*)\[(.*?)\]\1\]', re.DOTALL)
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -32,7 +33,8 @@ def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
 
 
 def mask_strings(content: bytes) -> bytes:
-    masked = STRING_RE.sub(b'""', content)
+    masked = LONG_STRING_RE.sub(b"[[]]", content)
+    masked = STRING_RE.sub(b'""', masked)
     return b"\n".join(line.rstrip() for line in masked.split(b"\n"))
 
 
@@ -103,8 +105,8 @@ def main() -> int:
             print(line, file=sys.stderr)
         return 1
 
-    upstream_strings = len(STRING_RE.findall(upstream))
-    translated_strings = len(STRING_RE.findall(translated))
+    upstream_strings = len(STRING_RE.findall(upstream)) + len(LONG_STRING_RE.findall(upstream))
+    translated_strings = len(STRING_RE.findall(translated)) + len(LONG_STRING_RE.findall(translated))
     if upstream_strings != translated_strings:
         print(
             f"Quoted string sayisi farkli: upstream={upstream_strings}, "
