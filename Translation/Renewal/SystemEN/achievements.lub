@@ -13,9 +13,9 @@ achievement_tbl = {
 		title = "Bu saatte yemek yemek kilo aldirmaz",
 		content = {
 			summary = "Gece 1 - Gece atistirmasi zamani.",
-			details = "Bigfoot’un istedigi yemegi getir ve hirsli bir bakis acisi kazan."
+			details = "Bigfoot'un istedigi yemegi getir ve hirsli bir bakis acisi kazan."
 		},
-		resource = { [1] = { text = "Bigfoot’un istedigi yemegi getir ve hirsli bir bakis acisi kazan." } },
+		resource = { [1] = { text = "Bigfoot'un istedigi yemegi getir ve hirsli bir bakis acisi kazan." } },
 		reward = {},
 		score = 10
 	},
@@ -2574,7 +2574,7 @@ achievement_tbl = {
 			summary = "Morocc Necromancer'i yok et",
 			details = "Dungeon sonuna kadar ilerle"
 		},
-		resource = { [1] = { text = "1 Morocc necromancer yok et", count = 1 } },
+		resource = { [1] = { text = "1 Morocc Necromancer yok et", count = 1 } },
 		reward = {},
 		score = 10
 	},
@@ -2611,7 +2611,7 @@ achievement_tbl = {
 		group = "BATTLE",
 		major = 5,
 		minor = 0,
-		title = "Kraliceyle Goruşme",
+		title = "Kraliceyle Gorusme",
 		content = {
 			summary = "Faceworm Queen'i yok et",
 			details = "Dungeon sonuna kadar ilerle"
