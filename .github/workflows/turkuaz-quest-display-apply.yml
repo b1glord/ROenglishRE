@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-quest-display-apply.yml
 # 📌 Amac: Quest ID bazli Turkce patchleri legacy byte yapisini koruyarak questid2display.txt dosyasina uygular
 # 📌 Tool - YAML
-# Version: 1.3.1
+# Version: 1.3.2
 # Aciklama: Patch kaynagi veya uygulayici degistiginde dosyayi byte-safe uretir, Git attribute korumasini dogrular ve translation/tr dalina commit eder
 # Bagimli Oldugu Katman: Tool
 
@@ -24,7 +24,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: turkuaz-quest-display-apply-translation-tr
+  group: turkuaz-translation-generated-files-translation-tr
   cancel-in-progress: false
 
 jobs:

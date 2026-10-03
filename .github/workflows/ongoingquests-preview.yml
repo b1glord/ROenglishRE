@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/ongoingquests-preview.yml
 # 📌 Amac: OngoingQuests.lub legacy dosyasindan guvenli UTF-8 inceleme raporu uretir
 # 📌 Tool - YAML
-# Version: 1.0.1
+# Version: 1.0.2
 # Aciklama: Kaynak legacy dosyayi degistirmez; yalnizca TurkuazTR altinda UTF-8 preview olusturup commit eder
 # Bagimli Oldugu Katman: Tool
 
@@ -30,7 +30,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ongoingquests-preview-translation-tr
+  group: turkuaz-translation-generated-files-translation-tr
   cancel-in-progress: false
 
 jobs:
