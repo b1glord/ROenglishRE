@@ -3403,7 +3403,7 @@ achievement_tbl = {
 		group = "ADVENTURE",
 		major = 2,
 		minor = 4,
-		title = "Localizing fields explorer",
+		title = "Bolgesel Alan Kasifi",
 		content = {
 			summary = "Alan kesfi hedeflerini tamamla",
 			details = "Localizing fields cevresindeki kesifleri tamamla"
@@ -3449,13 +3449,13 @@ achievement_tbl = {
 			details = "Dogu ve bati saraylarindaki yedi Kraliyet Ailesini ziyaret et."
 		},
 		resource = {
-			[1] = { text = "Visit Heine Royal Family and start conversation" },
-			[2] = { text = "Visit Nerius Royal Family and start conversation" },
-			[3] = { text = "Visit Walter Royal Family and start conversation" },
-			[4] = { text = "Visit Wigner Royal Family and start conversation" },
-			[5] = { text = "Visit Richard Royal Family and start conversation" },
-			[6] = { text = "Visit Gaebolg Royal Family and start conversation" },
-			[7] = { text = "Visit Lugenburg Royal Family and start conversation" }
+			[1] = { text = "Heine Royal Family'yi ziyaret et ve konusma baslat" },
+			[2] = { text = "Nerius Royal Family'yi ziyaret et ve konusma baslat" },
+			[3] = { text = "Walter Royal Family'yi ziyaret et ve konusma baslat" },
+			[4] = { text = "Wigner Royal Family'yi ziyaret et ve konusma baslat" },
+			[5] = { text = "Richard Royal Family'yi ziyaret et ve konusma baslat" },
+			[6] = { text = "Gaebolg Royal Family'yi ziyaret et ve konusma baslat" },
+			[7] = { text = "Lugenburg Royal Family'yi ziyaret et ve konusma baslat" }
 		},
 		reward = { title = 1034 },
 		score = 10
@@ -3481,12 +3481,12 @@ achievement_tbl = {
 		group = "HEAR",
 		major = 4,
 		minor = 0,
-		title = "Song chamber is not an accident",
+		title = "Sarki Odasi Tesaduf Degil",
 		content = {
-			summary = "Listening the secret song of court musician",
-			details = "Listen the secret song of five recomended court musician"
+			summary = "Saray muzisyeninin gizli sarkisini dinle",
+			details = "Bes saray muzisyeninin gizli sarkisini dinle"
 		},
-		resource = { [1] = { text = "Listen the secret song of five recomended court musician" } },
+		resource = { [1] = { text = "Bes saray muzisyeninin gizli sarkisini dinle" } },
 		reward = {},
 		score = 10
 	},
@@ -3495,16 +3495,16 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 4,
 		minor = 1,
-		title = "Alliance workers of merchant city",
+		title = "Ticaret Sehri Ittifak Calisani",
 		content = {
-			summary = "Alliance workers in the great city of merchant",
-			details = "Do you want to challenge all requests of Merchant city alliance? Then work harder! merchant city is not place for pushy."
+			summary = "Buyuk ticaret sehrinin ittifak calisani",
+			details = "Merchant City Alliance'in tum isteklerini tamamlamak istiyorsan daha cok calis!"
 		},
 		resource = {
-			[1] = { text = "Novice Amethyst class", count = 1 },
-			[2] = { text = "Expert Sardonyx class", count = 10 },
-			[3] = { text = "Competence Person Aquamarine class", count = 30 },
-			[4] = { text = "Sparkling Diamond class", count = 100 }
+			[1] = { text = "Acemi Amethyst sinifi", count = 1 },
+			[2] = { text = "Uzman Sardonyx sinifi", count = 10 },
+			[3] = { text = "Yetkin Aquamarine sinifi", count = 30 },
+			[4] = { text = "Parlayan Diamond sinifi", count = 100 }
 		},
 		reward = {},
 		score = 50
@@ -3684,10 +3684,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "Transcendent! (1)",
 		content = {
-			summary = "Job change to 3-1 classes after transcendent",
+			summary = "Transcendent sonrasi 3-1 siniflarina gec",
 			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger after transcendent."
 		},
-		resource = { [1] = { text = "Job change to 3-1 classes after transcendent" } },
+		resource = { [1] = { text = "Transcendent sonrasi 3-1 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
@@ -3712,10 +3712,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "Transcendent! (2)",
 		content = {
-			summary = "Job change to 3-2 classes after transcendent",
+			summary = "Transcendent sonrasi 3-2 siniflarina gec",
 			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer after transcendent."
 		},
-		resource = { [1] = { text = "Job change to 3-2 classes after transcendent" } },
+		resource = { [1] = { text = "Transcendent sonrasi 3-2 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
 		score = 60
 	},
@@ -3922,10 +3922,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "Sevgi ve Nefretin Vucut Bulmus Hali",
 		content = {
-			summary = "Achieve 99 Base Level as Novice",
-			details = "Achieve 99 Base Level as Novice class."
+			summary = "Novice olarak Base Level 99'a ulas",
+			details = "Novice sinifi olarak Base Level 99'a ulas."
 		},
-		resource = { [1] = { text = "Achieve 99 Base Level as Novice" } },
+		resource = { [1] = { text = "Novice olarak Base Level 99'a ulas" } },
 		reward = { buff = 10, item = 16483 },
 		score = 30
 	},
@@ -3936,10 +3936,10 @@ achievement_tbl = {
 		minor = 0,
 		title = "Bunu Gercekten Seviyorum!",
 		content = {
-			summary = "Achieve 99 Base Level as 1st classes",
-			details = "Achieve 99 Base Level as 1st classes."
+			summary = "1. sinif olarak Base Level 99'a ulas",
+			details = "1. sinif olarak Base Level 99'a ulas."
 		},
-		resource = { [1] = { text = "Achieve 99 Base Level as 1st classes" } },
+		resource = { [1] = { text = "1. sinif olarak Base Level 99'a ulas" } },
 		reward = { buff = 10, item = 101948 },
 		score = 30
 	},
@@ -3951,7 +3951,7 @@ achievement_tbl = {
 		title = "Valhalla'da Yeniden Dog!",
 		content = {
 			summary = "Transcendent Novice sinifina gec",
-			details = "Talk with Valkyrie to job change to transcendent Novice."
+			details = "Transcendent Novice olmak icin Valkyrie ile konus."
 		},
 		resource = { [1] = { text = "Transcendent Novice sinifina gec" } },
 		reward = { buff = 12, item = 22808 },
@@ -4009,7 +4009,7 @@ achievement_tbl = {
 			summary = "Base Lv 200 seviyesine ulas!",
 			details = "Base Level 200 seviyesine ulas."
 		},
-		resource = {[1] = { text = "Base Level 200" } },
+		resource = {[1] = { text = "Base Level 200'e ulas" } },
 		reward = { buff = 10, item = 400124 },
 		score = 100
 	},
@@ -4024,10 +4024,10 @@ achievement_tbl = {
 			details = "Gercek bir Poring tutkunusun!"
 		},
 		resource = {
-			[1] = { text = "Complete 'Poring - taming' challenge", shortcut = 230101 },
-			[2] = { text = "Complete 'Drops - taming' challenge", shortcut = 230102 },
-			[3] = { text = "Complete 'Poporing - taming' challenge", shortcut = 230103 },
-			[4] = { text = "Complete 'Novice Poring - taming' challenge", shortcut = 230104 }
+			[1] = { text = "'Poring - evcillestirme' basarimini tamamla", shortcut = 230101 },
+			[2] = { text = "'Drops - evcillestirme' basarimini tamamla", shortcut = 230102 },
+			[3] = { text = "'Poporing - evcillestirme' basarimini tamamla", shortcut = 230103 },
+			[4] = { text = "'Novice Poring - evcillestirme' basarimini tamamla", shortcut = 230104 }
 		},
 		reward = { title = 1025, buff = 12 },
 		score = 50
@@ -4037,18 +4037,18 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Entomologist",
+		title = "Entomolog",
 		content = {
 			summary = "Tum hedef gorevlerini tamamla",
-			details = "You're awakened with the idea of collecting bugs to become a true Entomologist!"
+			details = "Gercek bir Entomolog olmak icin bocek toplamaya karar verdin!"
 		},
 		resource = {
-			[1] = { text = "Complete 'Chonchon - taming' challenge", shortcut = 230111 },
-			[2] = { text = "Complete 'Steel Chonchon - taming' challenge", shortcut = 230112 },
-			[3] = { text = "Complete 'Hunter Fly - taming' challenge", shortcut = 230113 },
-			[4] = { text = "Complete 'Rocker - taming' challenge", shortcut = 230114 },
-			[5] = { text = "Complete 'Spore - taming' challenge", shortcut = 230115 },
-			[6] = { text = "Complete 'Poison Spore - taming' challenge", shortcut = 230116 }
+			[1] = { text = "'Chonchon - evcillestirme' basarimini tamamla", shortcut = 230111 },
+			[2] = { text = "'Steel Chonchon - evcillestirme' basarimini tamamla", shortcut = 230112 },
+			[3] = { text = "'Hunter Fly - evcillestirme' basarimini tamamla", shortcut = 230113 },
+			[4] = { text = "'Rocker - evcillestirme' basarimini tamamla", shortcut = 230114 },
+			[5] = { text = "'Spore - evcillestirme' basarimini tamamla", shortcut = 230115 },
+			[6] = { text = "'Poison Spore - evcillestirme' basarimini tamamla", shortcut = 230116 }
 		},
 		reward = { title = 1026, buff = 12 },
 		score = 50
@@ -4058,20 +4058,20 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Animals are our friend",
+		title = "Hayvanlar Dostumuzdur",
 		content = {
 			summary = "Tum hedef gorevlerini tamamla",
-			details = "You're awakened with the idea of becoming the true animal lover!"
+			details = "Gercek bir hayvan dostu olmaya karar verdin!"
 		},
 		resource = {
-			[1] = { text = "Complete 'Lunatic - taming' challenge", shortcut = 230121 },
-			[2] = { text = "Complete 'Picky - taming' challenge", shortcut = 230122 },
-			[3] = { text = "Complete 'Savage Bebe - taming' challenge", shortcut = 230123 },
-			[4] = { text = "Complete 'Baby Desert Wolf - taming' challenge", shortcut = 230124 },
-			[5] = { text = "Complete 'Smokie - taming' challenge", shortcut = 230125 },
-			[6] = { text = "Complete 'Yoyo - taming' challenge", shortcut = 230126 },
-			[7] = { text = "Complete 'Peco Peco - taming' challenge", shortcut = 230127 },
-			[8] = { text = "Complete 'Petite - taming' challenge", shortcut = 230128 }
+			[1] = { text = "'Lunatic - evcillestirme' basarimini tamamla", shortcut = 230121 },
+			[2] = { text = "'Picky - evcillestirme' basarimini tamamla", shortcut = 230122 },
+			[3] = { text = "'Savage Bebe - evcillestirme' basarimini tamamla", shortcut = 230123 },
+			[4] = { text = "'Baby Desert Wolf - evcillestirme' basarimini tamamla", shortcut = 230124 },
+			[5] = { text = "'Smokie - evcillestirme' basarimini tamamla", shortcut = 230125 },
+			[6] = { text = "'Yoyo - evcillestirme' basarimini tamamla", shortcut = 230126 },
+			[7] = { text = "'Peco Peco - evcillestirme' basarimini tamamla", shortcut = 230127 },
+			[8] = { text = "'Petite - evcillestirme' basarimini tamamla", shortcut = 230128 }
 		},
 		reward = { title = 1027, buff = 12 },
 		score = 50
@@ -4081,19 +4081,19 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Monster Girls Unite!!",
+		title = "Monster Girls Birlesin!!",
 		content = {
 			summary = "Tum hedef gorevlerini tamamla",
-			details = "You're awakened with the idea of becoming the producer of monster girls!"
+			details = "Monster Girls ekibini kurmaya karar verdin!"
 		},
 		resource = {
-			[1] = { text = "Complete 'Munak - taming' challenge", shortcut = 230141 },
-			[2] = { text = "Complete 'Isis - taming' challenge", shortcut = 230142 },
-			[3] = { text = "Complete 'Sohee - taming' challenge", shortcut = 230143 },
-			[4] = { text = "Complete 'Zherlthsh - taming' challenge", shortcut = 230144 },
-			[5] = { text = "Complete 'Alice - taming' challenge", shortcut = 230145 },
-			[6] = { text = "Complete 'Succubus - taming' challenge", shortcut = 230146 },
-			[7] = { text = "Complete 'Loli Ruri - taming' challenge", shortcut = 230147 }
+			[1] = { text = "'Munak - evcillestirme' basarimini tamamla", shortcut = 230141 },
+			[2] = { text = "'Isis - evcillestirme' basarimini tamamla", shortcut = 230142 },
+			[3] = { text = "'Sohee - evcillestirme' basarimini tamamla", shortcut = 230143 },
+			[4] = { text = "'Zherlthsh - evcillestirme' basarimini tamamla", shortcut = 230144 },
+			[5] = { text = "'Alice - evcillestirme' basarimini tamamla", shortcut = 230145 },
+			[6] = { text = "'Succubus - evcillestirme' basarimini tamamla", shortcut = 230146 },
+			[7] = { text = "'Loli Ruri - evcillestirme' basarimini tamamla", shortcut = 230147 }
 		},
 		reward = { title = 1029, buff = 12 },
 		score = 50
@@ -4103,12 +4103,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poring - taming",
+		title = "Poring - evcillestirme",
 		content = {
 			summary = "Successfully tame a Poring",
-			details = "Let's get a Poring pet. You can use 'Unripe Apple'."
+			details = "Poring pet edin. 'Unripe Apple' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Poring" } },
+		resource = { [1] = { text = "Poring basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4117,12 +4117,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Drops - taming",
+		title = "Drops - evcillestirme",
 		content = {
 			summary = "Successfully tame a Drops",
-			details = "Let's get a Drops pet. You can use 'Orange Juice'."
+			details = "Drops pet edin. 'Orange Juice' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Drops" } },
+		resource = { [1] = { text = "Drops basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4131,12 +4131,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poporing - taming",
+		title = "Poporing - evcillestirme",
 		content = {
 			summary = "Successfully tame a Poporing",
-			details = "Let's get a Poporing pet. You can use 'Bitter Herb'."
+			details = "Poporing pet edin. 'Bitter Herb' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Poporing" } },
+		resource = { [1] = { text = "Poporing basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4145,12 +4145,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Novice Poring - taming",
+		title = "Novice Poring - evcillestirme",
 		content = {
 			summary = "Successfully tame a Novice Poring",
-			details = "Let's get a Novice Poring pet. You can use 'Little Unripe Apple'."
+			details = "Novice Poring pet edin. 'Little Unripe Apple' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Novice Poring" } },
+		resource = { [1] = { text = "Novice Poring basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4159,12 +4159,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Chonchon - taming",
+		title = "Chonchon - evcillestirme",
 		content = {
 			summary = "Successfully tame a Chonchon",
-			details = "Let's get a Chonchon pet. You can use 'Rotten Fish'."
+			details = "Chonchon pet edin. 'Rotten Fish' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Chonchon" } },
+		resource = { [1] = { text = "Chonchon basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4173,12 +4173,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Steel Chonchon - taming",
+		title = "Steel Chonchon - evcillestirme",
 		content = {
 			summary = "Successfully tame a Steel Chonchon",
-			details = "Let's get a Steel Chonchon pet. You can use 'Rusty Iron'."
+			details = "Steel Chonchon pet edin. 'Rusty Iron' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Steel Chonchon" } },
+		resource = { [1] = { text = "Steel Chonchon basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4187,12 +4187,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Hunter Fly - taming",
+		title = "Hunter Fly - evcillestirme",
 		content = {
 			summary = "Successfully tame a Hunter Fly",
-			details = "Let's get a Hunter Fly pet. You can use 'Monster Juice'."
+			details = "Hunter Fly pet edin. 'Monster Juice' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Hunter Fly" } },
+		resource = { [1] = { text = "Hunter Fly basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4201,12 +4201,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Rocker - taming",
+		title = "Rocker - evcillestirme",
 		content = {
 			summary = "Successfully tame a Rocker",
-			details = "Let's get a Rocker pet. You can use 'Singing Flower'."
+			details = "Rocker pet edin. 'Singing Flower' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Rocker" } },
+		resource = { [1] = { text = "Rocker basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4215,12 +4215,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Spore - taming",
+		title = "Spore - evcillestirme",
 		content = {
 			summary = "Successfully tame a Spore",
-			details = "Let's get a Spore pet. You can use 'Dew Laden Moss'."
+			details = "Spore pet edin. 'Dew Laden Moss' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Spore" } },
+		resource = { [1] = { text = "Spore basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4229,12 +4229,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Poison Spore - taming",
+		title = "Poison Spore - evcillestirme",
 		content = {
 			summary = "Successfully tame a Poison Spore",
-			details = "Let's get a Poison Spore pet. You can use 'Deadly Noxious Herb'."
+			details = "Poison Spore pet edin. 'Deadly Noxious Herb' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Poison Spore" } },
+		resource = { [1] = { text = "Poison Spore basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4243,12 +4243,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Lunatic - taming",
+		title = "Lunatic - evcillestirme",
 		content = {
 			summary = "Successfully tame a Lunatic",
-			details = "Let's get a Lunatic pet. You can use 'Rainbow Carrot'."
+			details = "Lunatic pet edin. 'Rainbow Carrot' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Lunatic" } },
+		resource = { [1] = { text = "Lunatic basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4257,12 +4257,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Picky - taming",
+		title = "Picky - evcillestirme",
 		content = {
 			summary = "Successfully tame a Picky",
-			details = "Let's get a Picky pet. You can use 'Earthworm the Dude'."
+			details = "Picky pet edin. 'Earthworm the Dude' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Picky" } },
+		resource = { [1] = { text = "Picky basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4271,12 +4271,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Savage Bebe - taming",
+		title = "Savage Bebe - evcillestirme",
 		content = {
 			summary = "Successfully tame a Savage Bebe",
-			details = "Let's get a Savage Bebe pet. You can use 'Sweet Milk'."
+			details = "Savage Bebe pet edin. 'Sweet Milk' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Savage Bebe" } },
+		resource = { [1] = { text = "Savage Bebe basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4285,12 +4285,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Baby Desert Wolf - taming",
+		title = "Baby Desert Wolf - evcillestirme",
 		content = {
 			summary = "Successfully tame a Baby Desert Wolf",
-			details = "Let's get a Baby Desert Wolf pet. You can use 'Well-Dried Bone'."
+			details = "Baby Desert Wolf pet edin. 'Well-Dried Bone' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Baby Desert Wolf" } },
+		resource = { [1] = { text = "Baby Desert Wolf basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4299,12 +4299,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Smokie - taming",
+		title = "Smokie - evcillestirme",
 		content = {
 			summary = "Successfully tame a Smokie",
-			details = "Let's get a Smokie pet. You can use 'Baked Yam'."
+			details = "Smokie pet edin. 'Baked Yam' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Smokie" } },
+		resource = { [1] = { text = "Smokie basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4313,12 +4313,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Yoyo - taming",
+		title = "Yoyo - evcillestirme",
 		content = {
 			summary = "Successfully tame a Yoyo",
-			details = "Let's get a Yoyo pet. You can use 'Tropical Banana'."
+			details = "Yoyo pet edin. 'Tropical Banana' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Yoyo" } },
+		resource = { [1] = { text = "Yoyo basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4327,12 +4327,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Peco Peco - taming",
+		title = "Peco Peco - evcillestirme",
 		content = {
 			summary = "Successfully tame a Peco Peco",
-			details = "Let's get a Peco Peco pet. You can use 'Fatty Chubby Earthworm'."
+			details = "Peco Peco pet edin. 'Fatty Chubby Earthworm' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Peco Peco" } },
+		resource = { [1] = { text = "Peco Peco basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4341,12 +4341,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Petite - taming",
+		title = "Petite - evcillestirme",
 		content = {
 			summary = "Successfully tame a Petite",
-			details = "Let's get a Petite pet. You can use 'Shining Stone'."
+			details = "Petite pet edin. 'Shining Stone' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Petite" } },
+		resource = { [1] = { text = "Petite basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4355,12 +4355,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Munak - taming",
+		title = "Munak - evcillestirme",
 		content = {
 			summary = "Successfully tame a Munak",
-			details = "Let's get a Munak pet. You can use 'No Recipient'."
+			details = "Munak pet edin. 'No Recipient' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Munak" } },
+		resource = { [1] = { text = "Munak basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4369,12 +4369,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Isis - taming",
+		title = "Isis - evcillestirme",
 		content = {
 			summary = "Successfully tame an Isis",
-			details = "Let's get an Isis pet. You can use 'Armlet of Obedience'."
+			details = "Isis pet edin. 'Armlet of Obedience' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame an Isis" } },
+		resource = { [1] = { text = "Isis basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4383,12 +4383,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Sohee - taming",
+		title = "Sohee - evcillestirme",
 		content = {
 			summary = "Successfully tame a Sohee",
-			details = "Let's get a Sohee pet. You can use 'Silver Knife of Chastity'."
+			details = "Sohee pet edin. 'Silver Knife of Chastity' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Sohee" } },
+		resource = { [1] = { text = "Sohee basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4397,12 +4397,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Zherlthsh - taming",
+		title = "Zherlthsh - evcillestirme",
 		content = {
 			summary = "Successfully tame a Zherlthsh",
-			details = "Let's get a Zherlthsh pet. You can use 'Forbidden Red Candle'."
+			details = "Zherlthsh pet edin. 'Forbidden Red Candle' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Zherlthsh" } },
+		resource = { [1] = { text = "Zherlthsh basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4411,12 +4411,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Alice - taming",
+		title = "Alice - evcillestirme",
 		content = {
 			summary = "Successfully tame an Alice",
-			details = "Let's get an Alice pet. You can use 'Soft Apron'."
+			details = "Alice pet edin. 'Soft Apron' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame an Alice" } },
+		resource = { [1] = { text = "Alice basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4425,12 +4425,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Succubus - taming",
+		title = "Succubus - evcillestirme",
 		content = {
 			summary = "Successfully tame a Succubus",
-			details = "Let's get a Succubus pet. You can use 'Boy's Pure Heart'."
+			details = "Succubus pet edin. 'Boy's Pure Heart' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Succubus" } },
+		resource = { [1] = { text = "Succubus basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4439,12 +4439,12 @@ achievement_tbl = {
 		group = "TAMING",
 		major = 3,
 		minor = 1,
-		title = "Loli Ruri - taming",
+		title = "Loli Ruri - evcillestirme",
 		content = {
 			summary = "Successfully tame a Loli Ruri",
-			details = "Let's get a Loli Ruri pet. You can use 'Very Red Juice'."
+			details = "Loli Ruri pet edin. 'Very Red Juice' kullanabilirsin."
 		},
-		resource = { [1] = { text = "Successfully tame a Loli Ruri" } },
+		resource = { [1] = { text = "Loli Ruri basariyla evcillestir" } },
 		reward = {},
 		score = 10
 	},
@@ -4453,12 +4453,12 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 1,
 		minor = 2,
-		title = "Start Community",
+		title = "Topluluga Basla",
 		content = {
-			summary = "Create a chatroom",
-			details = "Let's create a chatroom. Press keyboard shortcut Alt+C."
+			summary = "Sohbet odasi olustur",
+			details = "Bir sohbet odasi olustur. Kisayol: Alt+C."
 		},
-		resource = { [1] = { text = "Create a chatroom" } },
+		resource = { [1] = { text = "Sohbet odasi olustur" } },
 		reward = {},
 		score = 10
 	},
@@ -4467,12 +4467,12 @@ achievement_tbl = {
 		group = "CHATTING_DYING",
 		major = 1,
 		minor = 2,
-		title = "Grim Chatterbox",
+		title = "Oluyken Bile Sohbet",
 		content = {
-			summary = "Create a chatroom when KO'ed",
-			details = "Create a chatroom when KO'ed. Press keyboard shortcut Alt+C."
+			summary = "KO durumundayken sohbet odasi olustur",
+			details = "KO durumundayken sohbet odasi olustur. Kisayol: Alt+C."
 		},
-		resource = { [1] = { text = "Create a chatroom when KO'ed" } },
+		resource = { [1] = { text = "KO durumundayken sohbet odasi olustur" } },
 		reward = {},
 		score = 10
 	},
@@ -4481,12 +4481,12 @@ achievement_tbl = {
 		group = "CHATTING20",
 		major = 1,
 		minor = 2,
-		title = "Chattering Away",
+		title = "Sohbet Kalabaligi",
 		content = {
-			summary = "Fill the chatroom with 20 people",
-			details = "Gather people and start chatting. Fill the chatroom with 20 people."
+			summary = "Sohbet odasini 20 kisiyle doldur",
+			details = "Insanlari topla ve sohbet odasini 20 kisiyle doldur."
 		},
-		resource = { [1] = { text = "Fill the chatroom with 20 people" } },
+		resource = { [1] = { text = "Sohbet odasini 20 kisiyle doldur" } },
 		reward = {},
 		score = 10
 	},
@@ -4495,12 +4495,12 @@ achievement_tbl = {
 		group = "ADD_FRIEND",
 		major = 1,
 		minor = 2,
-		title = "Friend~ Friend~",
+		title = "Arkadas~ Arkadas~",
 		content = {
-			summary = "Add 1 person as a friend",
-			details = "Let's recruit a friend and start a journey together. Add 1 person as a friend."
+			summary = "1 kisiyi arkadas olarak ekle",
+			details = "Bir arkadas edin ve yolculuga birlikte baslayin."
 		},
-		resource = { [1] = { text = "Add 1 person as a friend" } },
+		resource = { [1] = { text = "1 kisiyi arkadas olarak ekle" } },
 		reward = {},
 		score = 10
 	},
@@ -4509,12 +4509,12 @@ achievement_tbl = {
 		group = "ADD_FRIEND",
 		major = 1,
 		minor = 2,
-		title = "Popular person",
+		title = "Populer Kisi",
 		content = {
-			summary = "Add 10 person as a friend",
-			details = "Let's recruit a friend and start a journey together. Add 10 person as a friend."
+			summary = "10 kisiyi arkadas olarak ekle",
+			details = "Arkadas listene 10 kisi ekle ve birlikte maceraya cik."
 		},
-		resource = { [1] = { text = "Add 10 person as a friend" } },
+		resource = { [1] = { text = "10 kisiyi arkadas olarak ekle" } },
 		reward = {},
 		score = 10
 	},
@@ -4523,12 +4523,12 @@ achievement_tbl = {
 		group = "PARTY",
 		major = 1,
 		minor = 2,
-		title = "Let's Party~",
+		title = "Parti Kuralim~",
 		content = {
-			summary = "Create a party",
-			details = "Adventuring alone is tough! Let's create a party."
+			summary = "Bir parti olustur",
+			details = "Tek basina macera zor! Bir parti olustur."
 		},
-		resource = { [1] = { text = "Create a party" } },
+		resource = { [1] = { text = "Bir parti olustur" } },
 		reward = {},
 		score = 10
 	},
@@ -4537,12 +4537,12 @@ achievement_tbl = {
 		group = "MARRY",
 		major = 1,
 		minor = 2,
-		title = "Did you marry..?",
+		title = "Evlendin mi..?",
 		content = {
-			summary = "Succeed on marriage",
-			details = "Living in this world is tough, let's fill it with love. Let's get married with someone you love."
+			summary = "Evlen",
+			details = "Bu dunyayi sevgiyle doldur. Sevdigin kisiyle evlen."
 		},
-		resource = { [1] = { text = "Succeed on marriage" } },
+		resource = { [1] = { text = "Evlen" } },
 		reward = { title = 1022 },
 		score = 20
 	},
@@ -4551,12 +4551,12 @@ achievement_tbl = {
 		group = "BABY",
 		major = 1,
 		minor = 2,
-		title = "Can you raise me?",
+		title = "Beni Buyutur musun?",
 		content = {
-			summary = "Adopted by parent",
-			details = "Overcome the tough world with the help of parents."
+			summary = "Bir aile tarafindan evlat edinil",
+			details = "Ailenin yardimiyla zorlu dunyanin ustesinden gel."
 		},
-		resource = { [1] = { text = "Adopted by parent" } },
+		resource = { [1] = { text = "Bir aile tarafindan evlat edinil" } },
 		reward = { title = 1032 },
 		score = 20
 	},
@@ -4565,12 +4565,12 @@ achievement_tbl = {
 		group = "BABY",
 		major = 1,
 		minor = 2,
-		title = "Being a parent",
+		title = "Ebeveyn Olmak",
 		content = {
-			summary = "Adopt a child",
-			details = "Get a happy child and create a beautiful family story through adoption."
+			summary = "Bir cocuk evlat edin",
+			details = "Bir cocuk evlat edin ve guzel bir aile hikayesi olustur."
 		},
-		resource = { [1] = { text = "Adopt a child" } },
+		resource = { [1] = { text = "Bir cocuk evlat edin" } },
 		reward = { title = 1033 },
 		score = 20
 	},
@@ -4579,12 +4579,12 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Activate market economy (1)",
+		title = "Piyasa Ekonomisini Canlandir (1)",
 		content = {
-			summary = "Spend 10,000 zeny on vending merchant",
-			details = "This is a form of money-spinning process. Spend 10,000 zeny on vending merchant."
+			summary = "Vending dukkaninda 10,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 10,000 Zeny harca."
 		},
-		resource = { [1] = { text = "Spend 10,000 zeny on vending merchant", count = 10000 } },
+		resource = { [1] = { text = "Vending dukkaninda 10,000 Zeny harca", count = 10000 } },
 		reward = {},
 		score = 10
 	},
@@ -4593,12 +4593,12 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Activate market economy (2)",
+		title = "Piyasa Ekonomisini Canlandir (2)",
 		content = {
-			summary = "Spend 100,000 zeny on vending merchant",
-			details = "This is a form of money-spinning process. Spend 100,000 zeny on vending merchant."
+			summary = "Vending dukkaninda 100,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 100,000 Zeny harca."
 		},
-		resource = { [1] = { text = "Spend 100,000 zeny on vending merchant", count = 100000 } },
+		resource = { [1] = { text = "Vending dukkaninda 100,000 Zeny harca", count = 100000 } },
 		reward = {},
 		score = 15
 	},
@@ -4607,12 +4607,12 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Activate market economy (3)",
+		title = "Piyasa Ekonomisini Canlandir (3)",
 		content = {
-			summary = "Spend 500,000 zeny on vending merchant",
-			details = "This is a form of money-spinning process. Spend 500,000 zeny on vending merchant."
+			summary = "Vending dukkaninda 500,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 500,000 Zeny harca."
 		},
-		resource = { [1] = { text = "Spend 500,000 zeny on vending merchant", count = 500000 } },
+		resource = { [1] = { text = "Vending dukkaninda 500,000 Zeny harca", count = 500000 } },
 		reward = {},
 		score = 20
 	},
@@ -4621,12 +4621,12 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Activate market economy (4)",
+		title = "Piyasa Ekonomisini Canlandir (4)",
 		content = {
-			summary = "Spend 1,000,000 zeny on vending merchant",
-			details = "This is a form of money-spinning process. Spend 1,000,000 zeny on vending merchant."
+			summary = "Vending dukkaninda 1,000,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 1,000,000 Zeny harca."
 		},
-		resource = { [1] = { text = "Spend 1,000,000 zeny on vending merchant", count = 1000000 } },
+		resource = { [1] = { text = "Vending dukkaninda 1,000,000 Zeny harca", count = 1000000 } },
 		reward = {},
 		score = 30
 	},
@@ -4635,12 +4635,12 @@ achievement_tbl = {
 		group = "SPEND_ZENY",
 		major = 1,
 		minor = 1,
-		title = "Activate market economy (5)",
+		title = "Piyasa Ekonomisini Canlandir (5)",
 		content = {
-			summary = "Spend 5,000,000 zeny on vending merchant",
-			details = "This is a form of money-spinning process. Spend 5,000,000 zeny on vending merchant."
+			summary = "Vending dukkaninda 5,000,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 5,000,000 Zeny harca."
 		},
-		resource = { [1] = { text = "Spend 5,000,000 zeny on vending merchant", count = 5000000 } },
+		resource = { [1] = { text = "Vending dukkaninda 5,000,000 Zeny harca", count = 5000000 } },
 		reward = {},
 		score = 50
 	},
@@ -4649,12 +4649,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (1)",
+		title = "Refine Etmeden Duramiyorum! (1)",
 		content = {
-			summary = "Successfully refine a level 1 weapon to +7",
-			details = "Where is my luck? Successfully refine a level 1 weapon to +7."
+			summary = "Seviye 1 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 1 silahi basariyla +7 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 1 weapon to +7" } },
+		resource = { [1] = { text = "Seviye 1 silahi basariyla +7 refine et" } },
 		reward = {},
 		score = 10
 	},
@@ -4663,12 +4663,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (2)",
+		title = "Refine Etmeden Duramiyorum! (2)",
 		content = {
-			summary = "Successfully refine a level 1 weapon to +12",
-			details = "Where is my luck? Successfully refine a level 1 weapon to +12."
+			summary = "Seviye 1 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 1 silahi basariyla +12 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 1 weapon to +12" } },
+		resource = { [1] = { text = "Seviye 1 silahi basariyla +12 refine et" } },
 		reward = {},
 		score = 15
 	},
@@ -4677,12 +4677,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (3)",
+		title = "Refine Etmeden Duramiyorum! (3)",
 		content = {
-			summary = "Successfully refine a level 2 weapon to +7",
-			details = "Where is my luck? Successfully refine a level 2 weapon to +7."
+			summary = "Seviye 2 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 2 silahi basariyla +7 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 2 weapon to +7" } },
+		resource = { [1] = { text = "Seviye 2 silahi basariyla +7 refine et" } },
 		reward = {},
 		score = 10
 	},
@@ -4691,12 +4691,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (4)",
+		title = "Refine Etmeden Duramiyorum! (4)",
 		content = {
-			summary = "Successfully refine a level 2 weapon to +12",
-			details = "Where is my luck? Successfully refine a level 2 weapon to +12."
+			summary = "Seviye 2 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 2 silahi basariyla +12 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 2 weapon to +12" } },
+		resource = { [1] = { text = "Seviye 2 silahi basariyla +12 refine et" } },
 		reward = {},
 		score = 15
 	},
@@ -4705,12 +4705,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (5)",
+		title = "Refine Etmeden Duramiyorum! (5)",
 		content = {
-			summary = "Successfully refine a level 3 weapon to +7",
-			details = "Where is my luck? Successfully refine a level 3 weapon to +7."
+			summary = "Seviye 3 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 3 silahi basariyla +7 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 3 weapon to +7" } },
+		resource = { [1] = { text = "Seviye 3 silahi basariyla +7 refine et" } },
 		reward = {},
 		score = 15
 	},
@@ -4719,12 +4719,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (6)",
+		title = "Refine Etmeden Duramiyorum! (6)",
 		content = {
-			summary = "Successfully refine a level 3 weapon to +12",
-			details = "Where is my luck? Successfully refine a level 3 weapon to +12."
+			summary = "Seviye 3 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 3 silahi basariyla +12 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 3 weapon to +12" } },
+		resource = { [1] = { text = "Seviye 3 silahi basariyla +12 refine et" } },
 		reward = {},
 		score = 20
 	},
@@ -4733,12 +4733,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (7)",
+		title = "Refine Etmeden Duramiyorum! (7)",
 		content = {
-			summary = "Successfully refine a level 4 weapon to +7",
-			details = "Where is my luck? Successfully refine a level 4 weapon to +7."
+			summary = "Seviye 4 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 4 silahi basariyla +7 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 4 weapon to +7" } },
+		resource = { [1] = { text = "Seviye 4 silahi basariyla +7 refine et" } },
 		reward = {},
 		score = 20
 	},
@@ -4747,12 +4747,12 @@ achievement_tbl = {
 		group = "ENCHANT_SUCCESS",
 		major = 1,
 		minor = 1,
-		title = "I can't quit from refining! (8)",
+		title = "Refine Etmeden Duramiyorum! (8)",
 		content = {
-			summary = "Successfully refine a level 4 weapon to +12",
-			details = "Where is my luck? Successfully refine a level 4 weapon to +12."
+			summary = "Seviye 4 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 4 silahi basariyla +12 refine et."
 		},
-		resource = { [1] = { text = "Successfully refine a level 4 weapon to +12" } },
+		resource = { [1] = { text = "Seviye 4 silahi basariyla +12 refine et" } },
 		reward = {},
 		score = 30
 	},
