@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.0.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4295-4305 Wandering Bard ve PC Cafe gorevleri dahil",
+    "version": "4.1.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4306-4324 Korece Raccoon Destek Ekibi gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4272,6 +4272,101 @@
       "title": "PC Cafe Etkinligi",
       "description": "Ucuncu teslim tamamlandi. Hediyeyi almak icin yarin tekrar gel.",
       "goal": "Yarin tekrar gel"
+    },
+    "4306": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Prontera'daki Ipari'ye 5 Carrot getir.",
+      "goal": "Ipari'ye 5 Carrot getir"
+    },
+    "4307": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Geffen cevresinde 10 Chonchon avla, sonra Geffen'deki Eolcheogi'ye geri don.",
+      "goal": "10 Chonchon avla ve Eolcheogi'ye don"
+    },
+    "4308": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "10 Smokie avla, sonra Payon'daki Sanbari'ye geri don.",
+      "goal": "10 Smokie avla ve Sanbari'ye don"
+    },
+    "4309": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Alberta'daki Subongi'ye 10 Scell getir.",
+      "goal": "Subongi'ye 10 Scell getir"
+    },
+    "4310": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Aldebaran'daki Urami'ye 10 Acorn getir.",
+      "goal": "Urami'ye 10 Acorn getir"
+    },
+    "4311": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Comodo'daki Riuri'ye 1 Clam Flesh getir.",
+      "goal": "Riuri'ye 1 Clam Flesh getir"
+    },
+    "4312": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Morocc'taki Chidori'ye 1 Grape Juice getir.",
+      "goal": "Chidori'ye 1 Grape Juice getir"
+    },
+    "4313": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Juno'daki Parangi ile konusmayi tamamla.",
+      "goal": "Parangi ile konus"
+    },
+    "4314": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Hugel'in disindaki alanda 5 Crab avla ve Hugel'deki Jiugi'ye geri don.",
+      "goal": "5 Crab avla ve Jiugi'ye don"
+    },
+    "4315": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Einbroch'taki Susuri'ye 1 Coal getir.",
+      "goal": "Susuri'ye 1 Coal getir"
+    },
+    "4316": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Lighthalzen'daki Hanari ile konusmayi tamamla.",
+      "goal": "Hanari ile konus"
+    },
+    "4317": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Rachel'deki Irumi ile konusmayi tamamla.",
+      "goal": "Irumi ile konus"
+    },
+    "4318": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Veins'teki Samdori'ye 5 Jellopy getir.",
+      "goal": "Samdori'ye 5 Jellopy getir"
+    },
+    "4319": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Songjongi ile konusmayi tamamla.",
+      "goal": "Songjongi ile konus"
+    },
+    "4320": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "Modori'den ilk odulunu aldin.",
+      "goal": "Ilk odul alindi"
+    },
+    "4321": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "10003 Raccoon ile daha once hic karsilasmadin.",
+      "goal": "Raccoon ile henuz karsilasmadin"
+    },
+    "4322": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "10003 Raccoon ile daha once karsilastin.",
+      "goal": "Raccoon ile karsilastin"
+    },
+    "4323": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "10003 Raccoon'a biraz yardim ettin.",
+      "goal": "Raccoon'a biraz yardim ettin"
+    },
+    "4324": {
+      "title": "Raccoon Destek Ekibi",
+      "description": "10003 Raccoon'a cok fazla yardim ettin.",
+      "goal": "Raccoon'a cok yardim ettin"
     }
   }
 }
