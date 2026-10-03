@@ -2,8 +2,8 @@
 # Dosya Yolu: /ROenglishRE/Tools/turkuaz_translation_status.py
 # Amac: Turkce ceviri dosyalarinin upstream karsisindaki durumunu raporlar
 # Modul: Tool - Python
-# Version: 1.0.1
-# Aciklama: Pinned upstream, guncel upstream ve Turkce dal iceriklerini karsilastirir
+# Version: 1.1.0
+# Aciklama: Dosya durumuna ek olarak msgstringtable satir kapsamasi ve bilincli Ingilizce satirlari raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -58,6 +59,45 @@ def resolve_status(
     return "needs-review"
 
 
+def audit_msgstringtable(
+    upstream_content: bytes,
+    translation_content: bytes,
+    intentional_lines: set[bytes],
+) -> tuple[int, int, int, int]:
+    upstream_lines = upstream_content.replace(b"\r\n", b"\n").split(b"\n")
+    translation_lines = translation_content.replace(b"\r\n", b"\n").split(b"\n")
+
+    translated = 0
+    intentional = 0
+    review = 0
+    comparable = min(len(upstream_lines), len(translation_lines))
+
+    for upstream_line, translation_line in zip(upstream_lines, translation_lines):
+        if upstream_line != translation_line:
+            translated += 1
+            continue
+
+        if not re.search(rb"[A-Za-z]{4,}", upstream_line):
+            continue
+
+        if (
+            upstream_line.startswith(b"MSI_")
+            or upstream_line.startswith(b"http://")
+            or upstream_line.startswith(b"https://")
+            or upstream_line.startswith(b"ftp://")
+            or re.match(rb"^/[A-Za-z0-9]", upstream_line)
+        ):
+            intentional += 1
+            continue
+
+        if upstream_line in intentional_lines:
+            intentional += 1
+        else:
+            review += 1
+
+    return comparable, translated, intentional, review
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="TurkuazTR translation status reporter."
@@ -79,11 +119,21 @@ def main() -> int:
     )
 
     config_path = repo_root / "TurkuazTR" / "tracking.json"
+    intentional_path = repo_root / "TurkuazTR" / "intentional-english.json"
+
     if not config_path.is_file():
         print(f"Config bulunamadi: {config_path}", file=sys.stderr)
         return 2
+    if not intentional_path.is_file():
+        print(f"Intentional English config bulunamadi: {intentional_path}", file=sys.stderr)
+        return 2
 
     config = json.loads(config_path.read_text(encoding="utf-8"))
+    intentional_config = json.loads(intentional_path.read_text(encoding="utf-8"))
+    intentional_lines = {
+        line.encode("utf-8") for line in intentional_config.get("exact_lines", [])
+    }
+
     base_ref = config["sync_base_sha"]
     upstream_ref = args.upstream_ref or config["default_upstream_ref"]
     translation_ref = args.translation_ref or config["default_translation_ref"]
@@ -99,6 +149,7 @@ def main() -> int:
 
     missing_count = 0
     review_count = 0
+    msg_audit = None
 
     for item in config["files"]:
         path = item["path"]
@@ -125,9 +176,29 @@ def main() -> int:
             content_hash(translation_content).ljust(14),
         )
 
+        if (
+            item["name"] == "msgstringtable"
+            and upstream_content is not None
+            and translation_content is not None
+        ):
+            msg_audit = audit_msgstringtable(
+                upstream_content,
+                translation_content,
+                intentional_lines,
+            )
+
     print()
     print(f"Review gereken dosya: {review_count}")
     print(f"Eksik dosya/ref: {missing_count}")
+
+    if msg_audit is not None:
+        comparable, translated, intentional, review = msg_audit
+        print()
+        print("msgstringtable satir denetimi:")
+        print(f"  Karsilastirilabilir satir: {comparable}")
+        print(f"  Turkcelestirilmis/uyarlanmis: {translated}")
+        print(f"  Bilincli Ingilizce/teknik: {intentional}")
+        print(f"  Gercek ceviri incelemesi gereken: {review}")
 
     return 1 if missing_count else 0
 
