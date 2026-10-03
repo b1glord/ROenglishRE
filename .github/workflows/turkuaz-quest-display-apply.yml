@@ -1,7 +1,7 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-quest-display-apply.yml
 # Amac: Quest ID bazli Turkce patchleri legacy byte yapisini koruyarak questid2display.txt dosyasina uygular
 # Modul: Tool - YAML
-# Version: 1.1.0
+# Version: 1.2.0
 # Aciklama: Patch kaynagi veya uygulayici degistiginde dosyayi yeniden uretir, dogrular ve translation/tr dalina commit eder
 # Bagimli Oldugu Katman: Tool
 
@@ -68,7 +68,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          if git diff --quiet -- Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json; then
+          if [ -z "$(git status --porcelain -- Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json)" ]; then
             echo "Quest display and pending report already up to date."
             exit 0
           fi
