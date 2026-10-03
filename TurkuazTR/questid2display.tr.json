@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5092-5100 Super Novice potansiyel gorev zinciri dahil",
+    "version": "5.0.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5101-5108 Angel ve Devil taraf gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4867,6 +4867,46 @@
       "title": "Super Novice Potansiyelini Acmak",
       "description": "Comodo'daki Nodor'a geri don ve gercek potansiyelini ac. Yol acildiginda Nodor sana yararli Novice ekipmanlari verecek.",
       "goal": "Comodo'daki Nodor'a geri don"
+    },
+    "5101": {
+      "title": "Melek Tarafini Sectin",
+      "description": "Melek, Alberta'da saat 11 yonundeki Inn'in onunde.",
+      "goal": "Melek Tarafi'ndaki Melek ile konus"
+    },
+    "5102": {
+      "title": "Seytan Tarafini Sectin",
+      "description": "Seytan, Alberta'da saat 7 yonundeki Merchant Guild'in onunde.",
+      "goal": "Seytan Tarafi'ndaki Seytan ile konus"
+    },
+    "5103": {
+      "title": "(Melek) Lutfen Bekle!",
+      "description": "Melek Tarafi gorevini tamamlayali henuz 1 saat olmadi.",
+      "goal": "Goreve 1 saat sonra baslayabilirsin"
+    },
+    "5104": {
+      "title": "(Melek Tarafi) Genisle!",
+      "description": "Sembolunu takarak Messenger of Devil yen. Hate Much elde edebilirsin; tarafin genislemesine yardim etmek icin bunlari getir.",
+      "goal": "20 Hate Crate topla ve getir"
+    },
+    "5105": {
+      "title": "(Melek Tarafi) Sabotaj!",
+      "description": "Seytan Tarafi, Messenger of Devil gonderdi. Onlari durdur.",
+      "goal": "7 Messenger of Devil durdur"
+    },
+    "5106": {
+      "title": "(Seytan) Bekle!",
+      "description": "Seytan Tarafi gorevini tamamlayali henuz 1 saat olmadi.",
+      "goal": "Goreve 1 saat sonra baslayabilirsin"
+    },
+    "5107": {
+      "title": "(Seytan Tarafi) Genisle!",
+      "description": "Melekler taraflarini genisletiyor. Sembolunu tak ve Angel Messenger'lari yen. Love Much elde edip bunlari getir.",
+      "goal": "20 Love Lumps topla ve getir"
+    },
+    "5108": {
+      "title": "(Seytan Tarafi) Sabotaj!",
+      "description": "Melek Tarafi, Angel Messenger gonderdi. Onlari durdur.",
+      "goal": "7 Messenger of Angel yen"
     }
   }
 }
