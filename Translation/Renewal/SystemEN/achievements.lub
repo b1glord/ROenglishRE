@@ -3429,11 +3429,11 @@ achievement_tbl = {
 		minor = 0,
 		title = "Glast Heim Challenge Mode",
 		content = {
-			summary = "Completed the Glast Heim Challenge Mode.",
-			details = "Complete the Memorial Dungeon to the end"
+			summary = "Glast Heim Challenge Mode tamamlandi.",
+			details = "Memorial Dungeon sonuna kadar tamamla"
 		},
 		resource = {
-			[1] = { text = "Amount of successful challenges", count = 100 }
+			[1] = { text = "Basarili challenge sayisi", count = 100 }
 		},
 		reward = { title = 1045 },
 		score = 10
@@ -3443,10 +3443,10 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 4,
 		minor = 0,
-		title = "Socialite debut",
+		title = "Sosyete Ilk Cikisi",
 		content = {
-			summary = "Visit the Seven Royal Family",
-			details = "Visit the seven Royal Family in the east and west detached palace."
+			summary = "Yedi Kraliyet Ailesini ziyaret et",
+			details = "Dogu ve bati saraylarindaki yedi Kraliyet Ailesini ziyaret et."
 		},
 		resource = {
 			[1] = { text = "Visit Heine Royal Family and start conversation" },
@@ -3465,13 +3465,13 @@ achievement_tbl = {
 		group = "CHATTING",
 		major = 4,
 		minor = 0,
-		title = "The One Who Made Kings",
+		title = "Krallari Yaratan Kisi",
 		content = {
-			summary = "The king I created",
-			details = "Restore the glory of Terra Gloria and crown its protagonists."
+			summary = "Benim yarattigim kral",
+			details = "Terra Gloria'nin ihtisamini geri getir ve kahramanlarini taclandir."
 		},
 		resource = {
-			[1] = { text = "Attend the coronation ceremony of the new king of Rune-Midgards" }
+			[1] = { text = "Rune-Midgards'in yeni kralinin tac giyme torenine katil" }
 		},
 		reward = { title = 1046 },
 		score = 10
@@ -3514,12 +3514,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Acquire the first aura!",
+		title = "Ilk Aurayi Kazan!",
 		content = {
-			summary = "Achieve Base Level 99!",
-			details = "Achieve Base Level 99."
+			summary = "Base Level 99 seviyesine ulas!",
+			details = "Base Level 99 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Base Level 99" } },
+		resource = { [1] = { text = "Base Level 99 seviyesine ulas" } },
 		reward = { title = 1000, buff = 10, item = 12549 },
 		score = 50
 	},
@@ -3528,12 +3528,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Acquire the second aura!",
+		title = "Ikinci Aurayi Kazan!",
 		content = {
-			summary = "Achieve Base Level 150!",
-			details = "Achieve Base Level 150."
+			summary = "Base Level 150 seviyesine ulas!",
+			details = "Base Level 150 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Base Level 150" } },
+		resource = { [1] = { text = "Base Level 150 seviyesine ulas" } },
 		reward = { title = 1001, buff = 10, item = 5364 },
 		score = 60
 	},
@@ -3542,12 +3542,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Acquire the third aura!",
+		title = "Ucuncu Aurayi Kazan!",
 		content = {
-			summary = "Achieve Base Level 175!",
-			details = "Achieve Base Level 175."
+			summary = "Base Level 175 seviyesine ulas!",
+			details = "Base Level 175 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Base Level 175" } },
+		resource = { [1] = { text = "Base Level 175 seviyesine ulas" } },
 		reward = { title = 1002, buff = 10, item = 18880 },
 		score = 70
 	},
@@ -3556,12 +3556,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Master Job level!",
+		title = "Usta Job Seviyesi!",
 		content = {
-			summary = "Achieve Job Level 50!",
-			details = "Achieve job level 50."
+			summary = "Job Level 50 seviyesine ulas!",
+			details = "Job Level 50 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Job level 50" } },
+		resource = { [1] = { text = "Job Level 50 seviyesine ulas" } },
 		reward = { title = 1003, buff = 10, item = 617 },
 		score = 30
 	},
@@ -3570,12 +3570,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Grandmaster Job level!",
+		title = "Buyuk Usta Job Seviyesi!",
 		content = {
-			summary = "Achieve Job Level 70!",
-			details = "Achieve job level 70."
+			summary = "Job Level 70 seviyesine ulas!",
+			details = "Job Level 70 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Job level 70" } },
+		resource = { [1] = { text = "Job Level 70 seviyesine ulas" } },
 		reward = { title = 1004, buff = 10, item = 12817 },
 		score = 50
 	},
@@ -3584,12 +3584,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Official Adventurer",
+		title = "Resmi Maceraci",
 		content = {
-			summary = "Job change to first class.",
+			summary = "1. sinifa gec.",
 			details = "Acolyte, Merchant, Swordman, Mage, Thief or Archer."
 		},
-		resource = { [1] = { text = "Job change to first class" } },
+		resource = { [1] = { text = "1. sinifa gec" } },
 		reward = { buff = 12 },
 		score = 10
 	},
@@ -3598,12 +3598,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "First step of job change!",
+		title = "Job Degisiminin Ilk Adimi!",
 		content = {
-			summary = "First step of job change",
+			summary = "Job degisiminin ilk adimi",
 			details = "Acolyte, Merchant, Swordman, Mage, Thief or Archer."
 		},
-		resource = { [1] = { text = "First step of job change" } },
+		resource = { [1] = { text = "Job degisiminin ilk adimi" } },
 		reward = { buff = 12 },
 		score = 20
 	},
@@ -3612,12 +3612,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Veteran Adventurer! (1)",
+		title = "Deneyimli Maceraci! (1)",
 		content = {
-			summary = "Job change to 2-1 classes",
+			summary = "2-1 siniflarina gec",
 			details = "Knight, Blacksmith, Assassin, Wizard, Priest or Hunter."
 		},
-		resource = { [1] = { text = "Job change to 2-1 classes" } },
+		resource = { [1] = { text = "2-1 siniflarina gec" } },
 		reward = { buff = 12 },
 		score = 25
 	},
@@ -3626,12 +3626,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Veteran Adventurer! (2)",
+		title = "Deneyimli Maceraci! (2)",
 		content = {
-			summary = "Job change to 2-2 classes",
+			summary = "2-2 siniflarina gec",
 			details = "Crusader, Alchemist, Rogue, Sage, Monk, Bard or Dancer."
 		},
-		resource = { [1] = { text = "Job change to 2-2 classes" } },
+		resource = { [1] = { text = "2-2 siniflarina gec" } },
 		reward = { buff = 12 },
 		score = 25
 	},
@@ -3640,12 +3640,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Warrior (1)",
+		title = "Savasci (1)",
 		content = {
-			summary = "Job change to transcendent 2-1 classes",
+			summary = "Transcendent 2-1 siniflarina gec",
 			details = "Lord Knight, White Smith, Assassin Cross, High Wizard, High Priest or Sniper."
 		},
-		resource = { [1] = { text = "Job change to transcendent 2-1 classes" } },
+		resource = { [1] = { text = "Transcendent 2-1 siniflarina gec" } },
 		reward = { buff = 12 },
 		score = 30
 	},
@@ -3654,12 +3654,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Warrior (2)",
+		title = "Savasci (2)",
 		content = {
-			summary = "Job change to transcendent 2-2 classes",
+			summary = "Transcendent 2-2 siniflarina gec",
 			details = "Paladin, Creator, Stalker, Professor, Champion, Clown or Gypsy."
 		},
-		resource = { [1] = { text = "Job change to transcendent 2-2 classes" } },
+		resource = { [1] = { text = "Transcendent 2-2 siniflarina gec" } },
 		reward = { buff = 12 },
 		score = 30
 	},
@@ -3668,12 +3668,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Elite Adventurer! (1)",
+		title = "Elit Maceraci! (1)",
 		content = {
-			summary = "Job change to 3-1 classes",
+			summary = "3-1 siniflarina gec",
 			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger."
 		},
-		resource = { [1] = { text = "Job change to 3-1 classes" } },
+		resource = { [1] = { text = "3-1 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
@@ -3682,7 +3682,7 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Transcendentaler! (1)",
+		title = "Transcendent! (1)",
 		content = {
 			summary = "Job change to 3-1 classes after transcendent",
 			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger after transcendent."
@@ -3696,12 +3696,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Elite Adventurer! (2)",
+		title = "Elit Maceraci! (2)",
 		content = {
-			summary = "Job change to 3-2 classes",
+			summary = "3-2 siniflarina gec",
 			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer."
 		},
-		resource = { [1] = { text = "Job change to 3-2 classes" } },
+		resource = { [1] = { text = "3-2 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
 		score = 50
 	},
@@ -3710,7 +3710,7 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Transcendentaler! (2)",
+		title = "Transcendent! (2)",
 		content = {
 			summary = "Job change to 3-2 classes after transcendent",
 			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer after transcendent."
@@ -3724,12 +3724,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "The way of exceptional character",
+		title = "Ozel Karakterin Yolu",
 		content = {
-			summary = "Job change to expanded classes",
+			summary = "Expanded siniflara gec",
 			details = "Taekwon, Gunslinger, Super Novice, Ninja or Druid."
 		},
-		resource = { [1] = { text = "Job change to expanded classes" } },
+		resource = { [1] = { text = "Expanded siniflara gec" } },
 		reward = { buff = 12 },
 		score = 10
 	},
@@ -3738,12 +3738,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "This is My way!",
+		title = "Benim Yolum Bu!",
 		content = {
-			summary = "Job change to expanded 2nd classes",
+			summary = "Expanded 2. siniflara gec",
 			details = "Soul Linker, Star Gladiator, Rebellion, Oboro/Kagerou or Karnos."
 		},
-		resource = { [1] = { text = "Expanded 2nd classes" } },
+		resource = { [1] = { text = "Expanded 2. siniflar" } },
 		reward = { buff = 12, item = 16483 },
 		score = 20
 	},
@@ -3752,12 +3752,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Bearish Power!",
+		title = "Muazzam Guc!",
 		content = {
-			summary = "Achieve base STR 90",
-			details = "Achieve 90 base STR or higher."
+			summary = "Base STR 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base STR 90" } },
+		resource = { [1] = { text = "Base STR 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3766,12 +3766,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Overflowing Magic!",
+		title = "Tasan Buyu!",
 		content = {
-			summary = "Achieve base INT 90",
-			details = "Achieve 90 base INT or higher."
+			summary = "Base INT 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base INT 90" } },
+		resource = { [1] = { text = "Base INT 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3780,12 +3780,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Healthy Body and Mental Health!",
+		title = "Saglam Beden ve Zihin!",
 		content = {
-			summary = "Achieve base VIT 90",
-			details = "Achieve 90 base VIT or higher."
+			summary = "Base VIT 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base VIT 90" } },
+		resource = { [1] = { text = "Base VIT 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3794,12 +3794,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Speed of Light",
+		title = "Isik Hizi",
 		content = {
-			summary = "Achieve base AGI 90",
-			details = "Achieve 90 base AGI or higher."
+			summary = "Base AGI 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base AGI 90" } },
+		resource = { [1] = { text = "Base AGI 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3808,12 +3808,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Hawk Eyes",
+		title = "Sahin Gozleri",
 		content = {
-			summary = "Achieve base DEX 90",
-			details = "Achieve 90 base DEX or higher."
+			summary = "Base DEX 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base DEX 90" } },
+		resource = { [1] = { text = "Base DEX 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3822,12 +3822,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Maximum Luck",
+		title = "Maksimum Sans",
 		content = {
-			summary = "Achieve base LUK 90",
-			details = "Achieve 90 base LUK or higher."
+			summary = "Base LUK 90 degerine ulas",
+			details = "Base 90 degerini 90";
 		},
-		resource = { [1] = { text = "Achieve base LUK 90" } },
+		resource = { [1] = { text = "Base LUK 90 degerine ulas" } },
 		reward = {},
 		score = 10
 	},
@@ -3836,12 +3836,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Dragonlike Power!",
+		title = "Ejderha Gucu!",
 		content = {
-			summary = "Achieve base STR 125",
-			details = "Achieve 125 base STR or higher."
+			summary = "Base STR 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base STR 125" } },
+		resource = { [1] = { text = "Base STR 125 degerine ulas" } },
 		reward = { buff = 319 },
 		score = 20
 	},
@@ -3850,12 +3850,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Magic Insanity",
+		title = "Buyu Cilginligi",
 		content = {
-			summary = "Achieve base INT 125",
-			details = "Achieve 125 base INT or higher."
+			summary = "Base INT 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base INT 125" } },
+		resource = { [1] = { text = "Base INT 125 degerine ulas" } },
 		reward = { buff = 611 },
 		score = 20
 	},
@@ -3864,12 +3864,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Rock Alloy",
+		title = "Kaya Sertligi",
 		content = {
-			summary = "Achieve base VIT 125",
-			details = "Achieve 125 base VIT or higher."
+			summary = "Base VIT 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base VIT 125" } },
+		resource = { [1] = { text = "Base VIT 125 degerine ulas" } },
 		reward = { buff = 293 },
 		score = 20
 	},
@@ -3878,12 +3878,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Speed of Light",
+		title = "Isik Hizi",
 		content = {
-			summary = "Achieve base AGI 125",
-			details = "Achieve 125 base AGI or higher."
+			summary = "Base AGI 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base AGI 125" } },
+		resource = { [1] = { text = "Base AGI 125 degerine ulas" } },
 		reward = { buff = 296 },
 		score = 20
 	},
@@ -3892,12 +3892,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Falcon's Eyes",
+		title = "Falcon Gozleri",
 		content = {
-			summary = "Achieve base DEX 125",
-			details = "Achieve 125 base DEX or higher."
+			summary = "Base DEX 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base DEX 125" } },
+		resource = { [1] = { text = "Base DEX 125 degerine ulas" } },
 		reward = { buff = 295 },
 		score = 20
 	},
@@ -3906,12 +3906,12 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Lucky Fever",
+		title = "Sans Atesi",
 		content = {
-			summary = "Achieve base LUK 125",
-			details = "Achieve 125 base LUK or higher."
+			summary = "Base LUK 125 degerine ulas",
+			details = "Base 125 degerini 125";
 		},
-		resource = { [1] = { text = "Achieve base LUK 125" } },
+		resource = { [1] = { text = "Base LUK 125 degerine ulas" } },
 		reward = { buff = 21 },
 		score = 20
 	},
@@ -3920,7 +3920,7 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "Incarnation of Love and Hate",
+		title = "Sevgi ve Nefretin Vucut Bulmus Hali",
 		content = {
 			summary = "Achieve 99 Base Level as Novice",
 			details = "Achieve 99 Base Level as Novice class."
@@ -3934,7 +3934,7 @@ achievement_tbl = {
 		group = "GOAL_STATUS",
 		major = 1,
 		minor = 0,
-		title = "I really love it!",
+		title = "Bunu Gercekten Seviyorum!",
 		content = {
 			summary = "Achieve 99 Base Level as 1st classes",
 			details = "Achieve 99 Base Level as 1st classes."
@@ -3948,12 +3948,12 @@ achievement_tbl = {
 		group = "JOB_CHANGE",
 		major = 1,
 		minor = 0,
-		title = "Reborn in Valhalla!",
+		title = "Valhalla'da Yeniden Dog!",
 		content = {
-			summary = "Job change to transcendent Novice",
+			summary = "Transcendent Novice sinifina gec",
 			details = "Talk with Valkyrie to job change to transcendent Novice."
 		},
-		resource = { [1] = { text = "Job change to transcendent Novice" } },
+		resource = { [1] = { text = "Transcendent Novice sinifina gec" } },
 		reward = { buff = 12, item = 22808 },
 		score = 10
 	},
@@ -3962,12 +3962,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "The start of another adventure!",
+		title = "Yeni Bir Maceranin Baslangici!",
 		content = {
-			summary = "Achieve Base Lv 100!",
-			details = "Achieve Base Lv 100." 
+			summary = "Base Lv 100 seviyesine ulas!",
+			details = "Base Level 100 seviyesine ulas."
 		},
-		resource = { [1] = { text = "Base Level 100" } },
+		resource = { [1] = { text = "Base Level 100 seviyesine ulas" } },
 		reward = { item = 23585 },
 		score = 10
 	},
@@ -3976,12 +3976,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "New determination!(1)",
+		title = "Yeni Kararlilik! (1)",
 		content = {
-			summary = "Achieve Base Lv 170 as 3-1 classes!",
-			details = "Achieve Base Lv 170 as 3-1 classes."
+			summary = "Base Lv 170 seviyesine ulas (3-1 classes)!",
+			details = "Base Level 170 seviyesine ulas (3-1 classes)."
 		},
-		resource = { [1] = { text = "Base Level 170" } },
+		resource = { [1] = { text = "Base Level 170 seviyesine ulas" } },
 		reward = { item = 6959 },
 		score = 50
 	},
@@ -3990,12 +3990,12 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "New determination!(2)",
+		title = "Yeni Kararlilik! (2)",
 		content = {
-			summary = "Achieve Base Lv 170 as 3-2 classes!",
-			details = "Achieve Base Lv 170 as 3-2 classes."
+			summary = "Base Lv 170 seviyesine ulas (3-2 classes)!",
+			details = "Base Level 170 seviyesine ulas (3-2 classes)."
 		},
-		resource = { [1] = { text = "Base Level 170" } },
+		resource = { [1] = { text = "Base Level 170 seviyesine ulas" } },
 		reward = { item = 6959 },
 		score = 50
 	},
@@ -4004,10 +4004,10 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 1,
 		minor = 0,
-		title = "Achieved Level 200!",
+		title = "Seviye 200'e Ulasildi!",
 		content = {
-			summary = "Achieve Base Lv 200!",
-			details = "Achieve Base Lv 200."
+			summary = "Base Lv 200 seviyesine ulas!",
+			details = "Base Level 200 seviyesine ulas."
 		},
 		resource = {[1] = { text = "Base Level 200" } },
 		reward = { buff = 10, item = 400124 },
@@ -4018,10 +4018,10 @@ achievement_tbl = {
 		group = "GOAL_LEVEL",
 		major = 3,
 		minor = 1,
-		title = "Poring is Love",
+		title = "Poring Sevgidir",
 		content = {
-			summary = "Complete all objective tasks",
-			details = "You're the true enthusiast of Poring things!"
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Gercek bir Poring tutkunusun!"
 		},
 		resource = {
 			[1] = { text = "Complete 'Poring - taming' challenge", shortcut = 230101 },
@@ -4039,7 +4039,7 @@ achievement_tbl = {
 		minor = 1,
 		title = "Entomologist",
 		content = {
-			summary = "Complete all objective tasks",
+			summary = "Tum hedef gorevlerini tamamla",
 			details = "You're awakened with the idea of collecting bugs to become a true Entomologist!"
 		},
 		resource = {
@@ -4060,7 +4060,7 @@ achievement_tbl = {
 		minor = 1,
 		title = "Animals are our friend",
 		content = {
-			summary = "Complete all objective tasks",
+			summary = "Tum hedef gorevlerini tamamla",
 			details = "You're awakened with the idea of becoming the true animal lover!"
 		},
 		resource = {
@@ -4083,7 +4083,7 @@ achievement_tbl = {
 		minor = 1,
 		title = "Monster Girls Unite!!",
 		content = {
-			summary = "Complete all objective tasks",
+			summary = "Tum hedef gorevlerini tamamla",
 			details = "You're awakened with the idea of becoming the producer of monster girls!"
 		},
 		resource = {
@@ -4959,7 +4959,7 @@ achievement_tbl = {
 		minor = 1,
 		title = "Poring seeker",
 		content = {
-			summary = "Complete all objective tasks",
+			summary = "Tum hedef gorevlerini tamamla",
 			details = "Poring is a strange creature, neither plant nor animal. To learn more about Poring, the best way is to experience face-to-face interaction."
 		},
 		resource = {
