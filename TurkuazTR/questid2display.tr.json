@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.8.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4254-4265 Eclage gorev zinciri dahil",
+    "version": "3.8.1",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4254-4265 Eclage gorev zinciri ve ASCII duzeltmesi dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4049,7 +4049,7 @@
       "goal": "Chung-Myo"
     },
     "4254": {
-      "title": "Karnı Agrıyan Peri",
+      "title": "Karni Agriyan Peri",
       "description": "Perilerin bile karni agrir. Periye 10 Green Herb getirerek yardim et.",
       "goal": "10 Green Herb getir"
     },
