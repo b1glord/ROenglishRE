@@ -1,7 +1,7 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # Amac: Turkce localization takip araclarini ve Lua ceviri yapisini CI uzerinde dogrular
 # Modul: Tool - YAML
-# Version: 1.4.0
+# Version: 1.5.0
 # Aciklama: Translation status, Python syntax ve achievements.lub structural validation calistirir
 # Bagimli Oldugu Katman: Tool
 
@@ -94,6 +94,16 @@ jobs:
           set -euo pipefail
           python3 Tools/validate_achievement_translation.py \
             --path Translation/Renewal/SystemEN/Sign_Data.lub \
+            --allow-non-ascii \
+            --translation-ref HEAD \
+            --upstream-ref refs/remotes/origin/upstream/latest
+
+      - name: Validate navigation data Lua structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/validate_achievement_translation.py \
+            --path Translation/Renewal/SystemEN/Navi_Data.lub \
             --allow-non-ascii \
             --translation-ref HEAD \
             --upstream-ref refs/remotes/origin/upstream/latest
