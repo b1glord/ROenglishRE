@@ -9930,37 +9930,37 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[5016] = {
-		Title = "Bring me Research Tools",
+		Title = "Arastirma Aletlerini Getir",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Raffle Researcher said that he was attacked by an unidentified creature in the bathroom and had his <ITEM>[Research Tool Bag]<INFO>6385</INFO></ITEM> were stolen from him.",
 			" ",
 			"Retrieve the Research Tool Bag from the unidentified creature and take it to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Arastirma aletlerini geri al"
 	},
 	[5017] = {
-		Title = "Researcher's Revenge",
+		Title = "Arastirmacinin Intikami",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"It is said that assistants should help researchers conduct research with a comfortable mindset. Let's harass the unidentified creature only 3 times.",
 			" ",
 			"Bully the unknown creature in the bathroom 3 times and report it to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Kimligi belirsiz yaratigi 3 kez rahatsiz et"
 	},
 	[5018] = {
-		Title = "Researcher's Revenge",
+		Title = "Arastirmacinin Intikami",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"I bullied an unidentified creature in the bathroom 3 times.",
 			" ",
 			"Let's go back to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Raffle Researcher'a geri don"
 	},
 	[5019] = {
-		Title = "Bath Research Sampling",
+		Title = "Banyo Arastirmasi Numunesi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Research specimens are required for research! Go to the Bathtub and collect 10 <ITEM>[Bath Water Sample]<INFO>6386</INFO></ITEM>.",
@@ -9968,21 +9968,21 @@ QuestInfoList = {
 			"¤ Samples can be obtained at the Bathtub.",
 			"When you get all the specimens, take them to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Bathtub'dan 10 test numunesi topla"
 	},
 	[5020] = {
-		Title = "[Standby] Scanning the Sample",
+		Title = "Numune Taramasi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Researchers are conducting a basic examination of <ITEM>[Bath Water Sample]<INFO>6386</INFO></ITEM>.",
 			" ",
 			"After the inspection time, go see <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Let's go back to the researchers after 24 hours",
+		Summary = "24 saat sonra arastirmacilara geri don",
 		CoolTimeQuest = 1
 	},
 	[5021] = {
-		Title = "Samples Collected",
+		Title = "Numuneler Toplandi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The Bathtub research found that the test-subject has interesting DNA.",
@@ -9991,10 +9991,10 @@ QuestInfoList = {
 			"¤ Samples can be obtained from the Bathtub",
 			"When you get all the specimens, take them to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Bathtub'dan dis numunesi topla"
 	},
 	[5022] = {
-		Title = "Samples Collected",
+		Title = "Numuneler Toplandi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The Bathtub research found that the test-subject has interesting DNA.",
@@ -10003,19 +10003,19 @@ QuestInfoList = {
 			"¤ Samples can be obtained from the Bathtub",
 			"When you get all the specimens, take them to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Bathtub'dan pul numunesi topla"
 	},
 	[5023] = {
-		Title = "[Standby] During Sample Inspection",
+		Title = "Testteki Numune",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"<NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI> is comparing the samples you've picked up to find interesting DNA."
 		},
-		Summary = "Reset after 6 hours",
+		Summary = "6 saat sonra arastirmacilara geri don",
 		CoolTimeQuest = 1
 	},
 	[5024] = {
-		Title = "East Pool Investigation",
+		Title = "Dogu Havuzu Arastirmasi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The researchers are saying that there are even more curious after finding the interesting DNA.",
@@ -10024,10 +10024,10 @@ QuestInfoList = {
 			"Collect the eastern <ITEM>[Sample of Puddle Research]<INFO>6389</INFO></ITEM>.",
 			"Then go back to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "East Pool'dan numune topla"
 	},
 	[5025] = {
-		Title = "West Pool Investigation",
+		Title = "Bati Havuzu Arastirmasi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The researchers are saying that there are even more curious after finding the interesting DNA.",
@@ -10036,10 +10036,10 @@ QuestInfoList = {
 			"Collect the western <ITEM>[Sample of Puddle Research]<INFO>6389</INFO></ITEM>.",
 			"Then go back to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "West Pool'dan numune topla"
 	},
 	[5026] = {
-		Title = "South Pool Investigation",
+		Title = "Guney Havuzu Arastirmasi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The researchers are saying that there are even more curious after finding the interesting DNA.",
@@ -10048,10 +10048,10 @@ QuestInfoList = {
 			"Collect the southern <ITEM>[Sample of Puddle Research]<INFO>6389</INFO></ITEM>.",
 			"Then go back to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "South Pool'dan numune topla"
 	},
 	[5027] = {
-		Title = "North Pool Investigation",
+		Title = "Kuzey Havuzu Arastirmasi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"The researchers are saying that there are even more curious after finding the interesting DNA.",
@@ -10060,76 +10060,76 @@ QuestInfoList = {
 			"Collect the northern <ITEM>[Sample of Puddle Research]<INFO>6389</INFO></ITEM>.",
 			"Then go back to <NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "North Pool'dan numune topla"
 	},
 	[5028] = {
-		Title = "[Standby] During Sample Inspection",
+		Title = "Testteki Numune",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"We have reached the end of our research.",
 			"<NAVI>[Raffle Researcher]<INFO>mora,31,138,0,101,0</INFO></NAVI> is examining samples from four pools."
 		},
-		Summary = "Reset after 12 hours",
+		Summary = "12 saat sonra arastirmacilara geri don",
 		CoolTimeQuest = 1
 	},
 	[5029] = {
-		Title = "[Standby] Unidentified creature",
+		Title = "Kimligi Belirsiz Yaratik",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"He fought a battle with an unidentified creature.",
 			"Let's heal the body and mind exhausted from battle."
 		},
-		Summary = "Reset after 60 minutes",
+		Summary = "1 saat dinlen",
 		CoolTimeQuest = 1
 	},
 	[5030] = {
-		Title = "The creature's family",
+		Title = "Yaratigin Ailesi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Fishee has not been able to see his family for a while and is wondering how they are doing.",
 			" ",
 			"Go to the pool outside of the village and find Fishee's family."
 		},
-		Summary = "Find Fishee's family"
+		Summary = "Fishee'nin ailesini bul"
 	},
 	[5031] = {
-		Title = "The creature's family",
+		Title = "Yaratigin Ailesi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Fishee has not been able to see his family for a while and is wondering how they are doing.",
 			" ",
 			"Go to the pool outside of the village and find Fishee's family."
 		},
-		Summary = "Find Fishee's family"
+		Summary = "Fishee'nin ailesini bul"
 	},
 	[5032] = {
-		Title = "The creature's family",
+		Title = "Yaratigin Ailesi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Fishee has not been able to see his family for a while and is wondering how they are doing.",
 			" ",
 			"Go to the pool outside of the village and find Fishee's family."
 		},
-		Summary = "Find Fishee's family"
+		Summary = "Fishee'nin ailesini bul"
 	},
 	[5033] = {
-		Title = "The creature's family",
+		Title = "Yaratigin Ailesi",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Fishee has not been able to see his family for a while and is wondering how they are doing.",
 			" ",
 			"Go to the pool outside of the village and find Fishee's family."
 		},
-		Summary = "Find Fishee's family"
+		Summary = "Fishee'nin ailesini bul"
 	},
 	[5034] = {
-		Title = "News from the family",
+		Title = "Aileden Haber",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"You found Fishee's family in a puddle outside the village.",
 			"Let's go tell Fishee."
 		},
-		Summary = "Go to Fishee of the Bathtub and tell him your news"
+		Summary = "Bathtub'daki Fishee'ye haber ver"
 	},
 	[5035] = {
 		Title = "Help the old man!",
