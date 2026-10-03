@@ -1,11 +1,11 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-quest-display-apply.yml
-# 📌 Amac: Quest ID bazli Turkce patchleri legacy byte yapisini koruyarak questid2display.txt dosyasina uygular
+# 📌 Amac: Quest patch kaynagindan questid2display ve OngoingQuests generated dosyalarini tek atomik commit ile uretir
 # 📌 Tool - YAML
-# Version: 1.3.2
-# Aciklama: Patch kaynagi veya uygulayici degistiginde dosyayi byte-safe uretir, Git attribute korumasini dogrular ve translation/tr dalina commit eder
+# Version: 2.0.0
+# Aciklama: Legacy byte yapisini korur, quest display ile Ongoing Title/Summary cevirilerini dogrular ve birlikte commit eder
 # Bagimli Oldugu Katman: Tool
 
-name: Turkuaz Quest Display Apply
+name: Turkuaz Translation Generated Apply
 
 on:
   workflow_dispatch:
@@ -17,6 +17,9 @@ on:
       - "TurkuazTR/questid2display.tr.json"
       - "Tools/apply_questid2display_translation.py"
       - "Tools/validate_questid2display_translation.py"
+      - "Tools/export_questid2display_candidates.py"
+      - "Tools/apply_ongoingquests_translation.py"
+      - "Tools/validate_ongoingquests_translation.py"
       - ".gitattributes"
       - ".github/workflows/turkuaz-quest-display-apply.yml"
 
@@ -24,7 +27,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: turkuaz-translation-generated-files-translation-tr
+  group: turkuaz-translation-generated-apply-translation-tr
   cancel-in-progress: false
 
 jobs:
@@ -52,15 +55,23 @@ jobs:
           python3 -m py_compile \
             Tools/apply_questid2display_translation.py \
             Tools/validate_questid2display_translation.py \
-            Tools/export_questid2display_candidates.py
+            Tools/export_questid2display_candidates.py \
+            Tools/apply_ongoingquests_translation.py \
+            Tools/validate_ongoingquests_translation.py
 
-      - name: Verify quest display Git attributes
+      - name: Verify generated file Git attributes
         shell: bash
         run: |
           set -euo pipefail
-          attr="$(git check-attr text -- Translation/Renewal/data/questid2display.txt)"
-          echo "$attr"
-          printf '%s\n' "$attr" | grep -Fq ': text: unset'
+
+          quest_attr="$(git check-attr text -- Translation/Renewal/data/questid2display.txt)"
+          ongoing_attr="$(git check-attr text -- Translation/Renewal/SystemEN/OngoingQuests.lub)"
+
+          echo "$quest_attr"
+          echo "$ongoing_attr"
+
+          printf '%s\n' "$quest_attr" | grep -Fq ': text: unset'
+          printf '%s\n' "$ongoing_attr" | grep -Fq ': text: unset'
 
       - name: Apply quest display patches
         shell: bash
@@ -84,19 +95,40 @@ jobs:
           python3 Tools/export_questid2display_candidates.py \
             --source-ref refs/remotes/origin/upstream/latest
 
-      - name: Commit generated quest display
+      - name: Apply OngoingQuests Title and Summary patches
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/apply_ongoingquests_translation.py \
+            --source-ref refs/remotes/origin/upstream/latest
+
+      - name: Validate generated OngoingQuests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/validate_ongoingquests_translation.py \
+            --working-tree \
+            --upstream-ref refs/remotes/origin/upstream/latest
+
+      - name: Commit generated translation files
         shell: bash
         run: |
           set -euo pipefail
 
-          if [ -z "$(git status --porcelain -- Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json)" ]; then
-            echo "Quest display and pending report already up to date."
+          generated_files=(
+            "Translation/Renewal/data/questid2display.txt"
+            "TurkuazTR/questid2display.pending.json"
+            "Translation/Renewal/SystemEN/OngoingQuests.lub"
+          )
+
+          if [ -z "$(git status --porcelain -- "${generated_files[@]}")" ]; then
+            echo "Generated translation files already up to date."
             exit 0
           fi
 
           git config user.name "Turkuaz Translation Bot"
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
 
-          git add Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json
-          git commit -m "chore: apply Turkish quest display patches"
+          git add -- "${generated_files[@]}"
+          git commit -m "chore: apply generated Turkish quest translations"
           git push origin HEAD:translation/tr

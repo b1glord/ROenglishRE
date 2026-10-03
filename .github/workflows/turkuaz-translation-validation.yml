@@ -1,8 +1,8 @@
-# Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
-# Amac: Turkce localization takip araclarini ve Lua ceviri yapisini CI uzerinde dogrular
-# Modul: Tool - YAML
-# Version: 1.7.0
-# Aciklama: Translation status, Python syntax ve achievements.lub structural validation calistirir
+# 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
+# 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
+# 📌 Tool - YAML
+# Version: 1.8.0
+# Aciklama: Translation status, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -20,6 +20,8 @@ on:
       - "Tools/validate_achievement_translation.py"
       - "Tools/validate_questid2display_translation.py"
       - "Tools/apply_questid2display_translation.py"
+      - "Tools/validate_ongoingquests_translation.py"
+      - "Tools/apply_ongoingquests_translation.py"
       - ".github/workflows/turkuaz-translation-validation.yml"
 
   pull_request:
@@ -28,6 +30,10 @@ on:
       - "TurkuazTR/**"
       - "Tools/turkuaz_translation_status.py"
       - "Tools/validate_achievement_translation.py"
+      - "Tools/validate_questid2display_translation.py"
+      - "Tools/apply_questid2display_translation.py"
+      - "Tools/validate_ongoingquests_translation.py"
+      - "Tools/apply_ongoingquests_translation.py"
       - ".github/workflows/turkuaz-translation-validation.yml"
 
 jobs:
@@ -56,7 +62,9 @@ jobs:
             Tools/turkuaz_translation_status.py \
             Tools/validate_achievement_translation.py \
             Tools/validate_questid2display_translation.py \
-            Tools/apply_questid2display_translation.py
+            Tools/apply_questid2display_translation.py \
+            Tools/validate_ongoingquests_translation.py \
+            Tools/apply_ongoingquests_translation.py
 
       - name: Report translation status
         shell: bash
@@ -112,7 +120,7 @@ jobs:
             --translation-ref HEAD \
             --upstream-ref refs/remotes/origin/upstream/latest
 
-      - name: Validate quest display structure
+      - name: Validate quest display byte structure
         shell: bash
         run: |
           set -euo pipefail
@@ -120,3 +128,10 @@ jobs:
             --translation-ref HEAD \
             --upstream-ref refs/remotes/origin/upstream/latest
 
+      - name: Validate OngoingQuests byte scope
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/validate_ongoingquests_translation.py \
+            --translation-ref HEAD \
+            --upstream-ref refs/remotes/origin/upstream/latest
