@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.0.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5374-5390 acil belge, istila ve Scaraba boss gorevleri dahil",
+    "version": "6.1.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5391-5400 Private ve Elite katliam gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5712,6 +5712,56 @@
       "title": "Boss'u Yen",
       "description": "Bastirma gorevi: 20 Boss Antler Scaraba yen.",
       "goal": "20 Boss Antler Scaraba yen"
+    },
+    "5391": {
+      "title": "Private Katliami - Bekleme (Premium)",
+      "description": "Gorevi yeniden yapmak icin 12 saat beklemelisin.",
+      "goal": "Bekleme suresi: 12 saat"
+    },
+    "5392": {
+      "title": "Private Katliami - Bekleme",
+      "description": "Private Katliami gorevini yeniden yapmak icin 24 saat beklemelisin.",
+      "goal": "Bekleme suresi: 24 saat"
+    },
+    "5393": {
+      "title": "Private Katliami",
+      "description": "Bastirma gorevi: 50 Private Deniro yen.",
+      "goal": "50 Private Deniro yen"
+    },
+    "5394": {
+      "title": "Private Katliami",
+      "description": "Bastirma gorevi: 50 Private Vitata yen.",
+      "goal": "50 Private Vitata yen"
+    },
+    "5395": {
+      "title": "Private Katliami",
+      "description": "Bastirma gorevi: 50 Private Andre yen.",
+      "goal": "50 Private Andre yen"
+    },
+    "5396": {
+      "title": "Elite Katliami - Bekleme (Premium)",
+      "description": "Gorevi yeniden yapmak icin 12 saat beklemelisin.",
+      "goal": "Bekleme suresi: 12 saat"
+    },
+    "5397": {
+      "title": "Elite Katliami - Bekleme",
+      "description": "Gorevi yeniden yapmak icin 24 saat beklemelisin.",
+      "goal": "Bekleme suresi: 24 saat"
+    },
+    "5398": {
+      "title": "Elite Katliami",
+      "description": "Bastirma gorevi: 50 Elite Horn Scaraba yen.",
+      "goal": "50 Elite Horn Scaraba yen"
+    },
+    "5399": {
+      "title": "Elite Katliami",
+      "description": "Bastirma gorevi: 50 Elite 2 Horns Scaraba yen.",
+      "goal": "50 Elite 2 Horns Scaraba yen"
+    },
+    "5400": {
+      "title": "Elite Katliami",
+      "description": "Bastirma gorevi: 50 Elite Rake Scaraba yen.",
+      "goal": "50 Elite Rake Scaraba yen"
     }
   }
 }
