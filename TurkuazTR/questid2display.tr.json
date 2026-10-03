@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.8.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5304-5318 Phantasmagorika polis gorev zinciri dahil",
+    "version": "5.9.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5341-5370 Memory Record ve Dr. Fresa gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5477,6 +5477,156 @@
       "title": "Yarin Geri Gel",
       "description": "Daha fazla is icin yarin Phantasmagorika Police Chief'e geri don.",
       "goal": "Bekleme suresi: 23 saat"
+    },
+    "5341": {
+      "title": "Yolculugun Siniri",
+      "description": "Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer.",
+      "goal": "Sure siniri: 22 saat"
+    },
+    "5342": {
+      "title": "Ona Yardim Et",
+      "description": "Bunker Sayhu, tek basina calisan Dr. Fresa'ya yardim etmeni istedi.",
+      "goal": "Dr. Fresa'ya yardim et"
+    },
+    "5343": {
+      "title": "Personel Sayimi",
+      "description": "Dr. Fresa, Bioengineer personelinin mevcut sayisini belirlemeye yardim etmeni istedi.",
+      "goal": "Bioengineer sayisini ogren"
+    },
+    "5344": {
+      "title": "Personel Sayimi",
+      "description": "Dr. Fresa, Mechanician personelinin mevcut sayisini belirlemeye yardim etmeni istedi.",
+      "goal": "Mechanician sayisini ogren"
+    },
+    "5345": {
+      "title": "Personel Sayimi",
+      "description": "Dr. Fresa, Facility Manager personelinin mevcut sayisini belirlemeye yardim etmeni istedi.",
+      "goal": "Facility Manager sayisini ogren"
+    },
+    "5346": {
+      "title": "Personel Sayimi",
+      "description": "Dr. Fresa, Chemical Substance Specialist personelinin mevcut sayisini belirlemeye yardim etmeni istedi.",
+      "goal": "Chemical Substance Specialist sayisini ogren"
+    },
+    "5347": {
+      "title": "Personel Sayimi",
+      "description": "Bioengineer Touring'den Bioengineer sayisini ogrendin. Dr. Fresa'ya rapor ver.",
+      "goal": "Dr. Fresa'ya rapor ver"
+    },
+    "5348": {
+      "title": "Personel Sayimi Tamamlandi",
+      "description": "Mechanician Al'dan Mechanician sayisini ogrendin. Dr. Fresa'ya rapor ver.",
+      "goal": "Dr. Fresa'ya rapor ver"
+    },
+    "5349": {
+      "title": "Personel Sayimi Tamamlandi",
+      "description": "Facility Manager Remodeling'den Facility Manager sayisini ogrendin. Dr. Fresa'ya rapor ver.",
+      "goal": "Dr. Fresa'ya rapor ver"
+    },
+    "5350": {
+      "title": "Personel Sayimi Tamamlandi",
+      "description": "Chemical Substance Specialist Karsten'den uzman sayisini ogrendin. Dr. Fresa'ya rapor ver.",
+      "goal": "Dr. Fresa'ya rapor ver"
+    },
+    "5351": {
+      "title": "Yolculugun Siniri",
+      "description": "Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer.",
+      "goal": "Sure siniri: 22 saat"
+    },
+    "5352": {
+      "title": "Hava Temizleme Unitesi",
+      "description": "Hava temizleme unitelerini Facility Manager'larin bekledigi bes noktaya gotur: C-0, F-1, F-2, I-0 ve Z-0.",
+      "goal": "Bes hava temizleme unitesini teslim et"
+    },
+    "5353": {
+      "title": "C-0 Teslimati Tamamlandi",
+      "description": "Hava temizleme unitesini C-0 bolgesindeki Facility Manager'a teslim ettin.",
+      "goal": "C-0 teslimati tamamlandi"
+    },
+    "5354": {
+      "title": "F-1 Teslimati Tamamlandi",
+      "description": "Hava temizleme unitesini F-1 bolgesindeki Facility Manager'a teslim ettin.",
+      "goal": "F-1 teslimati tamamlandi"
+    },
+    "5355": {
+      "title": "F-2 Teslimati Tamamlandi",
+      "description": "Hava temizleme unitesini F-2 bolgesindeki Facility Manager'a teslim ettin.",
+      "goal": "F-2 teslimati tamamlandi"
+    },
+    "5356": {
+      "title": "I-0 Teslimati Tamamlandi",
+      "description": "Hava temizleme unitesini I-0 bolgesindeki Facility Manager'a teslim ettin.",
+      "goal": "I-0 teslimati tamamlandi"
+    },
+    "5357": {
+      "title": "Z-0 Teslimati Tamamlandi",
+      "description": "Hava temizleme unitesini Z-0 bolgesindeki Facility Manager'a teslim ettin.",
+      "goal": "Z-0 teslimati tamamlandi"
+    },
+    "5358": {
+      "title": "Yolculugun Siniri",
+      "description": "Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer.",
+      "goal": "Sure siniri: 22 saat"
+    },
+    "5359": {
+      "title": "Uzum Hasadi",
+      "description": "Bir Grape Box 30 salkim uzum aliyor. Ciftlikten 30 taze uzum salkimi topla.",
+      "goal": "30 taze uzum salkimi topla"
+    },
+    "5360": {
+      "title": "Uzum Teslimati",
+      "description": "Yeni toplanan uzumleri Mechanician Al'a teslim et.",
+      "goal": "Mechanician Al'a teslim et"
+    },
+    "5361": {
+      "title": "Uzum Teslimati",
+      "description": "Yeni toplanan uzumleri Facility Manager Remodeling'e teslim et.",
+      "goal": "Facility Manager Remodeling'e teslim et"
+    },
+    "5362": {
+      "title": "Uzum Teslimati",
+      "description": "Yeni toplanan uzumleri Chemical Substance Specialist Karsten'e teslim et.",
+      "goal": "Karsten'e teslim et"
+    },
+    "5363": {
+      "title": "Yolculugun Siniri",
+      "description": "Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer.",
+      "goal": "Sure siniri: 22 saat"
+    },
+    "5364": {
+      "title": "Kasintili Hastalari Bastir",
+      "description": "Nurse, gecici klinikte kasinti belirtileri gosteren hastalari kontrol altina almani istedi.",
+      "goal": "Hastalari kontrol altina al"
+    },
+    "5365": {
+      "title": "Acil Haber",
+      "description": "Kasinti belirtileri gosteren hasta sayisindaki ani artisi Dr. Fresa'ya bildir.",
+      "goal": "Dr. Fresa'ya rapor ver"
+    },
+    "5366": {
+      "title": "Yolculugun Siniri",
+      "description": "Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer.",
+      "goal": "Sure siniri: 22 saat"
+    },
+    "5367": {
+      "title": "Ihtiyac Malzemelerini Tasi",
+      "description": "Mallari Z-2 bolgesine tasi, sonra Mechanician Al'a su mesaji ilet: ^0000FFSizi aptallar! Yeterli malzeme yok, bu kadar cok makine yapmayi birakin!^000000",
+      "goal": "Mallari tasi ve mesaji ilet"
+    },
+    "5368": {
+      "title": "Mal Teslimati Tamamlandi",
+      "description": "Istenen mallari Z-2 bolgesine teslim ettin.",
+      "goal": "Z-2 teslimati tamamlandi"
+    },
+    "5369": {
+      "title": "Mesaj Teslimati Tamamlandi",
+      "description": "Istenen mesaji Mechanician Al'a ilettin.",
+      "goal": "Mesaj teslimati tamamlandi"
+    },
+    "5370": {
+      "title": "Memory Record",
+      "description": "Memory Record kullanilan yolculugu basariyla tamamladin.",
+      "goal": "Yolculuk tamamlandi"
     }
   }
 }
