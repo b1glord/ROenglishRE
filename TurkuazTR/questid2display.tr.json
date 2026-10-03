@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Eden gorev paketi 3250-3265 guvenli kayitlari dahil",
+    "version": "3.0.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Hunter job-change 4000-4013 ve NAVI-korumali Ongoing description sablonlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -199,52 +199,62 @@
     "1109": {
       "title": "Lope ve Euridi - Orman Sisinden Kurtulanlar",
       "description": "Mora Village Inn'i bul ve Lope'un nerede oldugunu sor.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Mora Village Inn'deki gezgin {{NAVI1}} ile bulus ve Lope'un nerede oldugunu sor."
     },
     "1110": {
       "title": "Lope ve Euridi - Sis Kurbanlari",
       "description": "Pitt adinda biri Lope'un bir yerlerde hayatta olmasi gerektigini, ancak nerede oldugunu bilmedigini soyluyor. Euridi'ye don ve ogrendiklerini anlat.",
-      "goal": "Euridi'ye geri don"
+      "goal": "Euridi'ye geri don",
+      "ongoing_description": "Pitt, Lope'un bir yerlerde hayatta olmasi gerektigini fakat nerede oldugunu bilmedigini soyluyor. {{NAVI1}}'ye geri don ve ogrendiklerini anlat."
     },
     "1111": {
       "title": "Lope ve Euridi - Orman Sisi",
       "description": "Ormanda ^0000FFLope's Clue^000000 ara ve Pitt'e getir. 30 tane toplamak yeterli olmali.",
-      "goal": "30 Lope's Clue topla"
+      "goal": "30 Lope's Clue topla",
+      "ongoing_description": "{{NAVI1}} icinde ^0000FFLope's Clue^000000 ara ve bunlari {{NAVI2}}'e getir. 30 tane toplaman yeterli olmali."
     },
     "1112": {
       "title": "Lope ve Euridi - Labirent",
       "description": "Pitt pek yardimci olmuyor. Lope's Clue'lari Euridi'ye gotur ve bir sey yapip yapamayacagina bak.",
-      "goal": "Lope's Clue'lari Euridi'ye getir"
+      "goal": "Lope's Clue'lari Euridi'ye getir",
+      "ongoing_description": "Pitt pek yardimci olmuyor. Lope's Clue'lari {{NAVI1}}'ye gotur ve bir sey yapip yapamayacagina bak."
     },
     "1113": {
       "title": "Lope ve Euridi - Parcalanmis Soz",
       "description": "Ipuclarini birlestirdiginde Pitt'in Lope'a olanlarla bir ilgisi oldugu anlasiliyor...",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Ipuclarini birlestirdiginde {{NAVI1}}'in Lope'a olanlarla bir ilgisi oldugu anlasiliyor."
     },
     "1114": {
       "title": "Lope ve Euridi - Fedakarligin Bedeli",
       "description": "Pitt sana Lope's Ring'i verdi ve yaptiklarini itiraf etti. Euridi'ye neler oldugunu anlat.",
-      "goal": "Euridi'ye geri don"
+      "goal": "Euridi'ye geri don",
+      "ongoing_description": "Pitt sana Lope's Ring'i verdi ve yaptiklarini itiraf etti. {{NAVI1}}'ye neler oldugunu anlat."
     },
     "1115": {
       "title": "Lope ve Euridi - Ucurumun Sarkisi",
       "description": "Euridi Lope icin sarki soylerken arkadasi, orman girisi yakininda supheli bir adam duydugunu soyledi.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Euridi Lope icin sarki soylerken arkadasi, Hazy Forest girisi yakininda bir {{NAVI1}} duydugunu soyledi."
     },
     "1116": {
       "title": "Lope ve Euridi - Olulerin Sarkisi",
       "description": "Lope'u buldun ama Euridi'ye toza donustugunu soylemeni istiyor. Artik umduklarinin aksine onunla birlikte olamaz.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Lope'u buldun ama {{NAVI1}}'ye toza donustugunu soylemeni istiyor. Artik umduklarinin aksine onunla birlikte olamaz."
     },
     "1117": {
       "title": "Lope ve Euridi - Sonsuzluk Sozu",
       "description": "Euridi, Lope's Ring'i verirken Lope hakkindaki haberi dogal olarak cok agir karsiladi...",
-      "goal": "Euridi'nin Arkadasi ile konus"
+      "goal": "Euridi'nin Arkadasi ile konus",
+      "ongoing_description": "Umarim bu son degildir... {{NAVI1}}'ne gidelim."
     },
     "1118": {
       "title": "Mahalle Sovalyeleri",
       "description": "30 Lope's Clue topla ve Order of the Knights Head'e don.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "{{NAVI1}} icinde 30 ^0000FFLope's Clue^000000 topla ve {{NAVI2}}'ne geri don."
     },
     "1119": {
       "title": "Mahalle Sovalyeleri",
@@ -3355,6 +3365,76 @@
       "title": "Talep - Kayip Gizem Meraklisi",
       "description": "Bir talep merkezinden gelen istek. Geffen Dungeon birinci katta kayip cocugu buldun; rapor vermek icin talep merkezine geri don.",
       "goal": "Talep merkezine rapor ver"
+    },
+    "4000": {
+      "title": "Sherin'in Is Gorusmesi",
+      "description": "Bir adim ileri gitmek icin Sherin'in sinavini gecmelisin.",
+      "goal": ""
+    },
+    "4001": {
+      "title": "Hunter Job Degisimi",
+      "description": "Sinava devam etmek icin Hunter Guildsman ile bulus.",
+      "goal": "Hunter Guildsman ile bulus"
+    },
+    "4002": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 5 Wolf Claw, 5 Trunk, 3 White Herb.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4003": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 3 Bill of Birds, 5 Skel-bone, 3 Green Herb.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4004": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 3 Venom Canine, 3 Animal Skin, 5 Red Herb.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4005": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 3 Dokkaebi Horn, 3 Piece of Egg Shell, 10 Fluff.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4006": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 9 Shell, 9 Worm Peeling, 9 Yellow Herb.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4007": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 3 Tooth of Bat, 1 Sticky Mucus, 1 Bear's Footskin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4008": {
+      "title": "Hunter Job Degisimi",
+      "description": "Demon Hunter'in istedigi malzemeleri topla: 2 Porcupine Quill, 1 Yoyo Tail, 1 Acorn.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "4009": {
+      "title": "Hunter Job Degisimi",
+      "description": "Payon Central Palace'taki Guildmaster'a git.",
+      "goal": "Payon'daki Guildmaster ile bulus"
+    },
+    "4010": {
+      "title": "Hunter Job Degisimi",
+      "description": "Archer Guild'deki Guildmaster ile konus.",
+      "goal": "Archer Guild'deki Guildmaster ile bulus"
+    },
+    "4011": {
+      "title": "Hunter Job Degisimi - Sinav",
+      "description": "Tum ^ff0000Job Change Monster^000000 canavarlarini yen; switch gorunecek. Switch'i yok et ve saat 12 yonundeki cikistan kac.",
+      "goal": "Job Change Monster canavarlarini yen"
+    },
+    "4012": {
+      "title": "Hunter Job Degisimi",
+      "description": "Sinavi gectigini Hunter Guild Master'a bildir.",
+      "goal": "Hunter Guild Master'a rapor ver"
+    },
+    "4013": {
+      "title": "Hunter Job Degisimi",
+      "description": "Hunter Guild'e geri don ve sinavi gectigini bildir.",
+      "goal": "Hunter Guild'e rapor ver"
     }
   }
 }
