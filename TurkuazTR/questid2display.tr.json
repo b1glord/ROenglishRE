@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.4.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Consolidating Heavy Debt zinciri dahil",
+    "version": "2.5.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Stolen Diamond zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3035,6 +3035,51 @@
       "title": "Agir Borcu Birlestirmek - Borc Senedini Yenile",
       "description": "Borc senedi tamamen onarildi. Muff'a geri gotur.",
       "goal": "Borc senedini Muff'a gotur"
+    },
+    "3110": {
+      "title": "Calinan Elmas - Elmasin Pesinde",
+      "description": "Calinan elmasi bul. Once Alberta'daki Jhonnita, Payon'daki Kimeunbang ve Geffen'deki Leblo ile konus; nerede oldugunu biliyor olabilirler.",
+      "goal": "Jhonnita, Kimeunbang ve Leblo ile konus"
+    },
+    "3111": {
+      "title": "Calinan Elmas - Leblo'nun Iyiligi",
+      "description": "Leblo bilgi vermek icin Payon'daki Doctor Wola'dan ilac getirmeni istiyor.",
+      "goal": "Wola ile konus"
+    },
+    "3112": {
+      "title": "Calinan Elmas - Doctor Wola",
+      "description": "Wola ilac yapamiyor cunku kazani bozuk. Onarmasi icin gerekli malzemeleri getir.",
+      "goal": "20 Fine Sand, 10 Brigan, 10 Soft Leaf ve 5 Empty Bottle getir"
+    },
+    "3113": {
+      "title": "Calinan Elmas - Doctor Wola",
+      "description": "Kazan sonunda onarildi. Wola'ya Leblo icin gereken ilaci hatirlat.",
+      "goal": "Wola ile konus"
+    },
+    "3114": {
+      "title": "Calinan Elmas - Doctor Wola",
+      "description": "Wola, Geffen'deki Leblo icin ilaci zaten hazirladigini ve kisa surede gonderecegini soyluyor.",
+      "goal": "Leblo'ya geri don"
+    },
+    "3115": {
+      "title": "Calinan Elmas - Leblo'nun Bilgisi",
+      "description": "Elmasi muhtemelen Z Gang caldi. Rogue Guild'den Z Gang hakkinda bilgi topla.",
+      "goal": "Rogue Guild'den bilgi al"
+    },
+    "3116": {
+      "title": "Calinan Elmas - Rogue Investigator Bilgisi",
+      "description": "Rogue Investigator'a para verince Z Gang'in eski siginaginin Comodo'daki buyuk bir depo oldugunu ogreniyorsun.",
+      "goal": "Comodo'daki depoyu arastir"
+    },
+    "3117": {
+      "title": "Calinan Elmas - Tuhaf Dugmeler",
+      "description": "Comodo'daki depoyu ararken tuhaf dugmeler buldun. Daha fazla incele.",
+      "goal": "Dugmeleri incele"
+    },
+    "3118": {
+      "title": "Calinan Elmas - Elmas Bulundu",
+      "description": "Depodaki tuhaf makineleri etkinlestirerek Ibrahim'in Diamond of Destruction esyasini buldun. Hemen Ibrahim'e gotur.",
+      "goal": "Diamond of Destruction'i Ibrahim'e gotur"
     }
   }
 }
