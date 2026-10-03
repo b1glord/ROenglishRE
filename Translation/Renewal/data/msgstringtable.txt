@@ -803,8 +803,8 @@ Bazi Windows sistem dosyalari hasar gormus. Lutfen Internet Explorer’i yeniden
 'Game Guard guncelleme sunucusuna baglanilamadi. Lutfen daha sonra tekrar deneyin veya internet / guvenlik duvari ayarlarinizi kontrol edin.'#
 'Game Guard guncelleme islemi tamamlanamadi. Lutfen bilgisayarinizi bir antivirüs programi ile tarayin veya kullandiginiz sistem yonetim aracinin ayarlarini kontrol edin.'#
 /notrade: Ticaret tekliflerini otomatik reddet. Ac | Kapat#
-Automatically decline deal requests. [/nt ON]#
-Allow deal requests. [/nt OFF]#
+Takas isteklerini otomatik olarak reddet. [/nt ON]#
+Takas isteklerine izin ver. [/nt OFF]#
 Bir seferde 30.000 adetten fazla esya satin alamazsiniz.#
 Yeterli malzeme yok.#
 Giris bilgileri %s uzerinde saklaniyor.#
@@ -812,11 +812,11 @@ Hesap, hack arastirmasi nedeniyle kilitlendi. Daha fazla bilgi icin GM Ekibiyle 
 Bu hesap, bug arastirmasi nedeniyle gecici olarak girise kapatilmistir.#
 Tamir edilebilir esyalar#
 Esya basariyla tamir edildi.#
-You have failed to repair this item.  Please check if you have the necessary materials.#
+Bu esyayi onaramadiniz. Gerekli malzemelere sahip oldugunuzu kontrol edin.#
 Sistem islemleri etkin [GM modu] [/sc AC]#
 Sistem islemleri devre disi [GM modu] [/sc KAPALI]#
 /systemcheck: Sistem islemlerini kontrol et [GM modu] Ac | Kapat#
-(%s) wishes to be friends with you. Will you accept?#
+(%s) sizinle arkadas olmak istiyor. Kabul ediyor musunuz?#
 Arkadas listesi dolu.#
 (%s)'nin arkadas listesi dolu.#
 (%s) ile arkadas oldunuz.#
@@ -898,51 +898,51 @@ Savunmaniz on saniye boyunca artmis olarak kalacak.#
 Saldiri gucunuz bir dakika boyunca artacak.#
 Isabet ve Kacis oraniniz bir dakika boyunca artacak.#
 Birden fazla cocuk evlat edinemezsiniz.#
-You must be at least character level 70 in order to adopt someone.#
-[Point] You have been rewarded with %d Blacksmith rank points. Your point total is %d.#
-[Point] You have been rewarded with %d Alchemist rank points. Your point total is %d.#
+Birini evlat edinmek icin karakter seviyeniz en az 70 olmalidir.#
+[Puan] %d Blacksmith siralama puani kazandiniz. Toplam puaniniz %d.#
+[Puan] %d Alchemist siralama puani kazandiniz. Toplam puaniniz %d.#
 Sevgili melek, sesimi duyabiliyor musun?#
 Ben #
 Super Novice~#
 Yardim et bana~ Lutfen~ T_T#
 /notalkmsg2: Hides chat messages(including guild chat). On Off#
-Show chat messages. [/nm2 ON]#
-Hide chat messages(including guild chat) [/nm2 OFF]#
-Upgradeable weapons#
-Refined weapon: %s#
-Refined weapon: %s#
-You cannot upgrade %s until you level up your Upgrade Weapon skill.#
-%s is required to upgrade this weapon.#
-Full Divestment cannot pierce the target. The target is fully shielded.#
-You cannot adopt a married person.#
-This name is not registered in your Friend List. Please check the name again.#
+Sohbet mesajlarini goster. [/nm2 ON]#
+Lonca sohbeti dahil sohbet mesajlarini gizle. [/nm2 OFF]#
+Gelisitirilebilir silahlar#
+Gelisitirilmis silah: %s#
+Gelisitirilmis silah: %s#
+Upgrade Weapon becerinizi gelistirmeden %s esyasini gelistiremezsiniz.#
+Bu silahi gelistirmek icin %s gereklidir.#
+Full Divestment hedefi delemedi. Hedef tamamen korunuyor.#
+Evli bir kisiyi evlat edinemezsiniz.#
+Bu isim Arkadas Listenizde kayitli degil. Lutfen ismi tekrar kontrol edin.#
 /hi or /hi message: Send greetings to people who are online and registered on your Friend List.#
-This character is not your guildsman. Please check the name again.#
-Please be aware that the maximum selling price is fixed at 2 Billion. You cannot sell an item for a higher price than that.#
-Whispers from friends are displayed as [ Friend ], and ones from guildsmen are displayed as [ Member ].#
-( From character name: ) is from an anonymous character who is neither your friend nor guildsman.#
+Bu karakter loncanizin uyesi degil. Lutfen ismi tekrar kontrol edin.#
+Maksimum satis fiyatinin 2 Milyar olarak sinirlandirildigini unutmayin. Bir esyayi bundan daha yuksek fiyata satamazsiniz.#
+Arkadaslardan gelen ozel mesajlar [ Friend ], lonca uyelerinden gelenler ise [ Member ] olarak gosterilir.#
+( Karakter adindan: ) mesaji, ne arkadasiniz ne de lonca uyeniz olan bir karakterden gelmistir.#
 /blacksmith: Shows top 10 Blacksmiths in the server.#
 /alchemist: Shows top 10 Alchemists in the server.#
-ALT+Y: Opens a window which allows you to use various commands with ease.#
-[POINT] You have been rewarded with %d Tae-Kwon Mission rank points. Your point total is %d.#
-[Taekwon Mission] Target Monster: %s (%d%%)#
-Error - Failed to initialize GameGuard: %lu#
-Speed Hack has been detected.#
-The illegal program, (%s) has been detected.#
-The Game or Gameguard has been cracked.#
-GameGuard is currently running. Please wait for sometime and restart the game.#
-The Game or GameGuard is already running. Please close the game and restart the game.#
-Failed to intialize GameGuard. Please try again after rebooting the system or closing other programs.#
-Failed to load the scan module of virus and hacking tool. It's caused by lack of memory or PC virus infection.#
-Homunculus Info#
-Homunculus Skill List#
-Please give your Homunculus a name no longer than 23 letters.#
-You can name a Homunculus only once. You have entered the name, ^0000ff%s^000000. Would you like to continue?#
-(Away)#
-[Automated Message]#
-Send an automated message while you are away.#
-Cancel automated away message.#
-Please enter Away Message.#
+ALT+Y: Cesitli komutlari kolayca kullanabileceginiz bir pencere acar.#
+[PUAN] %d Tae-Kwon Mission siralama puani kazandiniz. Toplam puaniniz %d.#
+[Taekwon Mission] Hedef Canavar: %s (%d%%)#
+Hata - GameGuard baslatilamadi: %lu#
+Speed Hack tespit edildi.#
+Yasakli program (%s) tespit edildi.#
+Oyun veya GameGuard degistirilmis/bozulmus gorunuyor.#
+GameGuard su anda calisiyor. Bir sure bekleyip oyunu yeniden baslatin.#
+Oyun veya GameGuard zaten calisiyor. Oyunu kapatip yeniden baslatin.#
+GameGuard baslatilamadi. Sistemi yeniden baslattiktan veya diger programlari kapattiktan sonra tekrar deneyin.#
+Virus ve hile tarama modulu yuklenemedi. Bunun nedeni yetersiz bellek veya bilgisayara bulasan bir virus olabilir.#
+Homunculus Bilgileri#
+Homunculus Beceri Listesi#
+Homunculus'unuza en fazla 23 karakterden olusan bir isim verin.#
+Bir Homunculus'a yalnizca bir kez isim verebilirsiniz. ^0000ff%s^000000 adini girdiniz. Devam etmek istiyor musunuz?#
+(Uzakta)#
+[Otomatik Mesaj]#
+Uzakta oldugunuzda otomatik mesaj gonder.#
+Otomatik uzakta mesajini iptal et.#
+Lutfen uzakta mesajini girin.#
 /fsh#
 /spin#
 /sigh#
@@ -951,11 +951,11 @@ Please enter Away Message.#
 /desp#
 /dice#
 /pk: Shows top 10 Slayers in the server.#
-[POINT] You have been rewarded with %d Slayer rank points. Your point total is %d.#
-Evolution Available#
-You have decided to delete this Homunculus ^ff0000^ff0000. When deleted, the homunculus and its history will be deleted and they cannot be restored in the future. Would you like to continue?#
-Save Homunculus status as a file.#
-Do not save Homunculus status as a file.#
+[PUAN] %d Slayer siralama puani kazandiniz. Toplam puaniniz %d.#
+Evrim Kullanilabilir#
+Bu Homunculus'u silmeye karar verdiniz ^ff0000^ff0000. Silindiginde Homunculus ve gecmisi tamamen silinir ve daha sonra geri getirilemez. Devam etmek istiyor musunuz?#
+Homunculus durumunu dosya olarak kaydet.#
+Homunculus durumunu dosya olarak kaydetme.#
 Crusader#
 Monk#
 Sage#
@@ -1006,45 +1006,45 @@ Professor#
 Stalker#
 Creator#
 Gypsy#
-You have not set a password yet. Would you like to create one now?#
-You have incorrectly entered the password 3 times. Please try again later.#
-Password creation has failed.#
-Password must be 4~8 letters long.#
-Password#
-New Password#
-Confirm Password#
-Password has been changed.#
-Password does not match.#
-Enter Password#
-Your Homunculus is starving. Please feed it, otherwise it will leave you.#
+Henuz bir sifre belirlemediniz. Simdi olusturmak ister misiniz?#
+Sifreyi 3 kez hatali girdiniz. Lutfen daha sonra tekrar deneyin.#
+Sifre olusturulamadi.#
+Sifre 4~8 karakter uzunlugunda olmalidir.#
+Sifre#
+New Sifre#
+Confirm Sifre#
+Sifre degistirildi.#
+Sifreler eslesmiyor.#
+Enter Sifre#
+Homunculus'unuz acliktan bitkin durumda. Lutfen besleyin, aksi halde sizi terk eder.#
 Deneyim (EXP)#
-[EVENT] You have won an event prize. Please claim your prize in game.#
+[ETKINLIK] Bir etkinlik odulu kazandiniz. Lutfen odulunuzu oyun icinde alin.#
 Hate#
 Hate with a Passion#
-Homunculus has been customized.#
-Homunculus has been activated with the basic AI.#
-Mail List#
-Write Mail#
-Read Mail#
-You cannot change a map's designation once it is designated. Are you sure that you want to designate this map?#
-Item has been added in the Item Window.#
-You have failed to add the item in the Item Window.#
-You have successfully mailed a message.#
-You have failed to mail a message. Recipient does not exist.#
-[Solar, Lunar and Stellar Angel] Designated places and monsters have been reset.#
-The minimum starting bid for auctions is 10,000,000 zeny.#
-You have successfully started a new auction.#
-The auction has been canceled.#
-An auction with at least one bidder cannot be canceled.#
-Mail has been successfully deleted.#
-You have failed to delete the mail.#
-You have equipped throwing daggers.#
-%s has logged in.#
-%s has logged out.#
+Homunculus ozellestirildi.#
+Homunculus temel AI ile etkinlestirildi.#
+Posta Listesi#
+Posta Yaz#
+Postayi Oku#
+Bir harita belirlendikten sonra secimini degistiremezsiniz. Bu haritayi belirlemek istediginize emin misiniz?#
+Esya, Esya Penceresine eklendi.#
+Esya, Esya Penceresine eklenemedi.#
+Mesaj basariyla gonderildi.#
+Mesaj gonderilemedi. Alici mevcut degil.#
+[Solar, Lunar and Stellar Angel] Belirlenen yerler ve canavarlar sifirlandi.#
+Acik artirmalarda minimum baslangic teklifi 10.000.000 Zeny'dir.#
+Yeni acik artirma basariyla baslatildi.#
+Acik artirma iptal edildi.#
+En az bir teklif alan acik artirma iptal edilemez.#
+Posta basariyla silindi.#
+Posta silinemedi.#
+Firlatma hancerlerini kusandiniz.#
+%s oyuna girdi.#
+%s oyundan cikti.#
 /loginout: Shows guildsmen and friends online status. On Off#
-Display online status of friends in Chat Window. [/li ON]#
-Do not display online status of friends in Chat Window. [/li OFF]#
-It is already running.#
+Arkadaslarin cevrimici durumunu Sohbet Penceresinde goster. [/li ON]#
+Arkadaslarin cevrimici durumunu Sohbet Penceresinde gosterme. [/li OFF]#
+Zaten calisiyor.#
 Use of Macro program has been detected.#
 Use of Speed hack has been detected.#
 API Hooking has been detected.#
@@ -3410,7 +3410,7 @@ Hide#
 Display small quest window#
 Input time#
 Save ID#
-Password#
+Sifre#
 ID#
 Sign Up#
 Leader#
