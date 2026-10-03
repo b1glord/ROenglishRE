@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Guardian, World Championship ve Valentine paketleri dahil",
+    "version": "2.0.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Bard, Crusader ve Monk job-change zincirleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -2590,6 +2590,161 @@
       "title": "2015 Valentine Gunu",
       "description": "15 Handmade Chocolate, 15 White Handmade Chocolate, 15 Chocolate Drink, 15 Chocolate Tart, 15 Strawberry Chocolate ve 1 Flame Heart teslim et; ayrica 1 silver satin al.",
       "goal": "Sweet Chocolate teslim et"
+    },
+    "3000": {
+      "title": "Bard Job Degisimi",
+      "description": "Guzel bir sarki soyleyen Bard ile tanistin. Bard olmak istiyorsan ona nasil Bard olunacagini sor.",
+      "goal": "Bard Lalo ile konus"
+    },
+    "3001": {
+      "title": "Bard Job Degisimi",
+      "description": "Bard Lalo, bir sarki ogretme karsiliginda ozel bir cicek getirmeni istiyor.",
+      "goal": "Lalo icin ozel cicegi getir"
+    },
+    "3002": {
+      "title": "Bard Job Degisimi",
+      "description": "Bard olmanin ilk adimi: Lutie'de konusan Snowman'i bul ve ondan bir hediye al.",
+      "goal": "Lutie'deki Snowman'i bul"
+    },
+    "3003": {
+      "title": "Bard Job Degisimi",
+      "description": "Bard Lalo'nun soyledigi sarkiyi aynen tekrar et. Dogru soylersen Bard olmaya bir adim daha yaklasacaksin.",
+      "goal": "Lalo'nun sarkisini dogru tekrar et"
+    },
+    "3004": {
+      "title": "Bard Job Degisimi",
+      "description": "Son test icin Bard Lalo 60 Trunk toplamani istiyor. Getirirsen Bard olacaksin ve bir hatira alacaksin.",
+      "goal": "60 Trunk getir"
+    },
+    "3006": {
+      "title": "Crusader Job Degisimi",
+      "description": "Yeterliligini kanitlamak icin 10 Decayed Nail, 10 Stinky Scale, 10 Worn-out Prison Uniform ve 10 Daenggie getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3007": {
+      "title": "Crusader Job Degisimi",
+      "description": "Yeterliligini kanitlamak icin 10 Skel-Bone, 10 Orc Claw, 10 Manacles ve 10 Short Daenggie getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3008": {
+      "title": "Crusader Job Degisimi",
+      "description": "Yeterliligini kanitlamak icin 10 Horrendous Mouth, 10 Rotten Bandage, 10 Lantern ve 10 Jack o'Pumpkin getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3009": {
+      "title": "Crusader Job Degisimi",
+      "description": "Crusader olma potansiyelin var. Prontera Castle'in yeralti hapishanesindeki Moorenak Miyol ile konus.",
+      "goal": "Moorenak Miyol ile konus"
+    },
+    "3010": {
+      "title": "Crusader Job Degisimi",
+      "description": "Crusader icin dayaniklilik ve sabir onemlidir. Koridorun sonuna kadar ilerle ama sana saldirsalar bile hicbir canavari yenme.",
+      "goal": "Koridorun sonuna canavar yenmeden ulas"
+    },
+    "3011": {
+      "title": "Crusader Job Degisimi",
+      "description": "Prontera Sanctuary'deki Gabriel Valentine ile konus. Siradaki testi o verecek.",
+      "goal": "Gabriel Valentine ile konus"
+    },
+    "3012": {
+      "title": "Crusader Job Degisimi",
+      "description": "Crusader olmak icin gerekli bilgi konusunda biraz daha calisman gerekiyor. Hazir oldugunda geri don.",
+      "goal": "Bilgi testine hazirlan"
+    },
+    "3013": {
+      "title": "Crusader Job Degisimi",
+      "description": "Bilgi testini gectin. Prontera Castle'a git ve siradaki test icin Bliant Piyord ile konus.",
+      "goal": "Bliant Piyord ile konus"
+    },
+    "3014": {
+      "title": "Crusader Job Degisimi",
+      "description": "Son test bir savas testi. Teste girmeden once 1 Holy Water getir.",
+      "goal": "1 Holy Water getir"
+    },
+    "3015": {
+      "title": "Crusader Job Degisimi",
+      "description": "Tum testleri tamamladin. Icerideki Senior Crusader ile konus ve Holy War icin hazirlan.",
+      "goal": "Senior Crusader ile konus"
+    },
+    "3016": {
+      "title": "Monk Job Degisimi",
+      "description": "Monk olmak istiyorsan iceri gir ve Sensei Moohae ile konus. Sana yol gosterecek.",
+      "goal": "Sensei Moohae ile konus"
+    },
+    "3017": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 5 Sticky Mucus, 10 Earthworm Peeling ve 20 Green Herb getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3018": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 20 Yoyo Tail, 5 Iron Ore ve 3 Blue Herb getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3019": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 30 Stem, 5 Jellopy ve 10 Worm Peeling getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3020": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 5 Solid Shell, 20 Shell ve 5 Zargon getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3021": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 5 Cyfar, 10 White Herb ve 10 Yellow Herb getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3022": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 10 Tooth of Bat, 5 Bear's Footskin ve 20 Poison Spore getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3023": {
+      "title": "Monk Job Degisimi",
+      "description": "Ilk gorev: 5 Porcupine Quill, 20 Cobweb ve 10 Bug Leg getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3024": {
+      "title": "Monk Job Degisimi",
+      "description": "Siradaki Monk Touha. Buradan kuzeye git ve mezarlikta onu bul.",
+      "goal": "Touha ile konus"
+    },
+    "3025": {
+      "title": "Monk Job Degisimi",
+      "description": "Touha sana Monk yolunu, gerekli zihinsel tutumu ve ogretileri anlatacak. Soylediklerini dikkatle dinle ve ezberle.",
+      "goal": "Monk ogretilerini ezberle"
+    },
+    "3026": {
+      "title": "Monk Job Degisimi",
+      "description": "Touha'nin testini gectin. Siradaki test icin Sir Boohae ile konus.",
+      "goal": "Boohae ile konus"
+    },
+    "3027": {
+      "title": "Monk Job Degisimi",
+      "description": "Dayanikliligini sinamak icin Abbey'de Mushroom topla. Hazir oldugunda teste basla.",
+      "goal": "Abbey'de Mushroom topla"
+    },
+    "3028": {
+      "title": "Monk Job Degisimi - Maraton",
+      "description": "Maraton testi sinirlarini asman icin. Abbey'nin merkezindeki binaya git ve gerekli turlari kos.",
+      "goal": "Maraton testinde turlari tamamla"
+    },
+    "3029": {
+      "title": "Monk Job Degisimi - Son Test",
+      "description": "Maratonu tamamladin. Abbey'nin merkezindeki binanin en derin kisminda Monk Tomoon'u bul.",
+      "goal": "Tomoon ile konus"
+    },
+    "3031": {
+      "title": "Monk Job Degisimi - Ruhsal Egitim",
+      "description": "Son test ruhsal egitimdir. Yoluna cikan dusmanlari yenerek ilerle.",
+      "goal": "Ruhsal egitim testini tamamla"
+    },
+    "3032": {
+      "title": "Monk Job Degisimi - Monk Ol",
+      "description": "Tum testleri tamamladin. Gizli iksiri aldiktan sonra Sensei Moohae'ye geri don ve Monk ol.",
+      "goal": "Sensei Moohae ile konus"
     }
   }
 }
