@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.1.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5109-5125 Wolfchev laboratuvari ve Shelter boss gorevleri dahil",
+    "version": "5.2.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5131-5146 Ninja klan hikayesi ve dort test zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4992,6 +4992,86 @@
       "title": "(Shelter) Gypsy",
       "description": "Ofkeli Human Guinea Pig'leri durdurmak icin boss canavari yenmelisin.",
       "goal": "Gypsy Trentini'yi durdur"
+    },
+    "5131": {
+      "title": "Garip Konusma",
+      "description": "Az once cok garip bir konusma yasadin. Gizli yer mi? Duvar mi? Bir testin parcasi mi? Bunlar ne anlama geliyor?",
+      "goal": "Ninja kalesinin duvarlarini incele"
+    },
+    "5132": {
+      "title": "Klan Hikayesi (1)",
+      "description": "Garip yasli adamdan kadim klan hikayesini dinle.",
+      "goal": "Yasli adamin hikayesini dinle"
+    },
+    "5133": {
+      "title": "Klan Hikayesi (2)",
+      "description": "Garip yasli adamdan kadim klan hikayesini dinlemeye devam et.",
+      "goal": "Hikayeyi dinlemeye devam et"
+    },
+    "5134": {
+      "title": "Yeni Yol",
+      "description": "Yeni yolu bulmaya hazir misin?",
+      "goal": "Leader Gion'a geri don"
+    },
+    "5135": {
+      "title": "4 Test",
+      "description": "Yeni yolu bulmak icin Knowledge, Survival, Weapons ve Battle olmak uzere toplam 4 testi gecmelisin.",
+      "goal": "4 testi gec"
+    },
+    "5136": {
+      "title": "Bilgi Testi",
+      "description": "Simdi Knowledge testine giriyorsun.",
+      "goal": "10 sorudan en az 9'unu dogru cevapla"
+    },
+    "5137": {
+      "title": "Hayatta Kalma Testi",
+      "description": "Simdi Survival testine giriyorsun.",
+      "goal": "Tum LP'ni kaybetmeden bitis noktasina ulas"
+    },
+    "5138": {
+      "title": "Silah Testi",
+      "description": "Simdi Weapons testine giriyorsun.",
+      "goal": "Seni tatmin edecek bir silah yap"
+    },
+    "5139": {
+      "title": "Bu Adam Tanidik!",
+      "description": "Knowledge test alaninda Kuuga ile karsilastin.",
+      "goal": "Kuuga'nin Knowledge sorularini gec"
+    },
+    "5140": {
+      "title": "Belirsiz Urperti",
+      "description": "Survival test alanina ulastin ve birden tuhaf bir urperti hissettin.",
+      "goal": "Acele et ve kac"
+    },
+    "5141": {
+      "title": "Lanetlendin!",
+      "description": "Kotu hislerin dogru cikti; lanetlendin.",
+      "goal": "Lanet yaklasik 2 dakika surecek"
+    },
+    "5142": {
+      "title": "Prototip (1)",
+      "description": "Crafting Tool kullanarak Iron Ore, Iron, Steel, Phracon, Emveretarcon, Rough Oridecon ve Rough Elunium eritip yeni silah prototipi yap.",
+      "goal": "Eritilmis malzemeyi bile ve sertlestir"
+    },
+    "5143": {
+      "title": "Prototip (2)",
+      "description": "Dagger prototipini yaptin.",
+      "goal": "Prototipi Red Leopard Joe'ya getir"
+    },
+    "5144": {
+      "title": "Prototip (2)",
+      "description": "Huuma Shuriken prototipini yaptin.",
+      "goal": "Prototipi Red Leopard Joe'ya getir"
+    },
+    "5145": {
+      "title": "Prototip (3)",
+      "description": "Prototipi refine etmen gerekiyor.",
+      "goal": "Basariyla refine edilmis prototipi Red Leopard Joe'ya getir"
+    },
+    "5146": {
+      "title": "Savas Testi",
+      "description": "Simdi Battle testine giriyorsun.",
+      "goal": "Clan Secret hedefini yen"
     }
   }
 }
