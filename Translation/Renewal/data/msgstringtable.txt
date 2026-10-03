@@ -905,24 +905,24 @@ Sevgili melek, sesimi duyabiliyor musun?#
 Ben #
 Super Novice~#
 Yardim et bana~ Lutfen~ T_T#
-/notalkmsg2: Hides chat messages(including guild chat). On Off#
+/notalkmsg2: Lonca sohbeti dahil sohbet mesajlarini gizler. Acik Kapali#
 Sohbet mesajlarini goster. [/nm2 ON]#
 Lonca sohbeti dahil sohbet mesajlarini gizle. [/nm2 OFF]#
-Gelisitirilebilir silahlar#
-Gelisitirilmis silah: %s#
-Gelisitirilmis silah: %s#
+Gelistirilebilir silahlar#
+Gelistirilmis silah: %s#
+Gelistirilmis silah: %s#
 Upgrade Weapon becerinizi gelistirmeden %s esyasini gelistiremezsiniz.#
 Bu silahi gelistirmek icin %s gereklidir.#
 Full Divestment hedefi delemedi. Hedef tamamen korunuyor.#
 Evli bir kisiyi evlat edinemezsiniz.#
 Bu isim Arkadas Listenizde kayitli degil. Lutfen ismi tekrar kontrol edin.#
-/hi or /hi message: Send greetings to people who are online and registered on your Friend List.#
+/hi veya /hi mesaj: Cevrimici ve Arkadas Listenizde kayitli kisilere selam gonderir.#
 Bu karakter loncanizin uyesi degil. Lutfen ismi tekrar kontrol edin.#
 Maksimum satis fiyatinin 2 Milyar olarak sinirlandirildigini unutmayin. Bir esyayi bundan daha yuksek fiyata satamazsiniz.#
 Arkadaslardan gelen ozel mesajlar [ Friend ], lonca uyelerinden gelenler ise [ Member ] olarak gosterilir.#
 ( Karakter adindan: ) mesaji, ne arkadasiniz ne de lonca uyeniz olan bir karakterden gelmistir.#
-/blacksmith: Shows top 10 Blacksmiths in the server.#
-/alchemist: Shows top 10 Alchemists in the server.#
+/blacksmith: Sunucudaki en iyi 10 Blacksmith'i gosterir.#
+/alchemist: Sunucudaki en iyi 10 Alchemist'i gosterir.#
 ALT+Y: Cesitli komutlari kolayca kullanabileceginiz bir pencere acar.#
 [PUAN] %d Tae-Kwon Mission siralama puani kazandiniz. Toplam puaniniz %d.#
 [Taekwon Mission] Hedef Canavar: %s (%d%%)#
@@ -950,7 +950,7 @@ Lutfen uzakta mesajini girin.#
 /crwd#
 /desp#
 /dice#
-/pk: Shows top 10 Slayers in the server.#
+/pk: Sunucudaki en iyi 10 Slayer'i gosterir.#
 [PUAN] %d Slayer siralama puani kazandiniz. Toplam puaniniz %d.#
 Evrim Kullanilabilir#
 Bu Homunculus'u silmeye karar verdiniz ^ff0000^ff0000. Silindiginde Homunculus ve gecmisi tamamen silinir ve daha sonra geri getirilemez. Devam etmek istiyor musunuz?#
@@ -1011,11 +1011,11 @@ Sifreyi 3 kez hatali girdiniz. Lutfen daha sonra tekrar deneyin.#
 Sifre olusturulamadi.#
 Sifre 4~8 karakter uzunlugunda olmalidir.#
 Sifre#
-New Sifre#
-Confirm Sifre#
+Yeni Sifre#
+Sifreyi Onayla#
 Sifre degistirildi.#
 Sifreler eslesmiyor.#
-Enter Sifre#
+Sifre Girin#
 Homunculus'unuz acliktan bitkin durumda. Lutfen besleyin, aksi halde sizi terk eder.#
 Deneyim (EXP)#
 [ETKINLIK] Bir etkinlik odulu kazandiniz. Lutfen odulunuzu oyun icinde alin.#
@@ -1041,78 +1041,78 @@ Posta silinemedi.#
 Firlatma hancerlerini kusandiniz.#
 %s oyuna girdi.#
 %s oyundan cikti.#
-/loginout: Shows guildsmen and friends online status. On Off#
+/loginout: Lonca uyeleri ve arkadaslarin cevrimici durumunu gosterir. Acik Kapali#
 Arkadaslarin cevrimici durumunu Sohbet Penceresinde goster. [/li ON]#
 Arkadaslarin cevrimici durumunu Sohbet Penceresinde gosterme. [/li OFF]#
 Zaten calisiyor.#
-Use of Macro program has been detected.#
-Use of Speed hack has been detected.#
-API Hooking has been detected.#
-Message Hooking has been detected.#
-Module has been modified or damaged or its version does not match.#
-(Thailand) You have logged in game with Internet cafe payment.#
-Prev#
-Next#
-Auction#
-Product List#
+Makro programi kullanimi tespit edildi.#
+Speed Hack kullanimi tespit edildi.#
+API Hooking tespit edildi.#
+Message Hooking tespit edildi.#
+Modul degistirilmis, hasar gormus veya surumu uyusmuyor.#
+(Thailand) Internet kafe odemesiyle oyuna giris yaptiniz.#
+Onceki#
+Sonraki#
+Acik Artirma#
+Urun Listesi#
 Kayit Ol#
-Sale Status#
-Purchase Status#
+Satis Durumu#
+Satin Alma Durumu#
 Item#
 Isim#
-Current Bid / Max Bid#
-Seller#
-Buyer#
-End Time#
+Guncel Teklif / Maks. Teklif#
+Satici#
+Alici#
+Bitis Zamani#
 %m %d %H#
-Time (Hr)#
-Fee#
-No items found in auction search.#
-Your Sale List is empty.#
-Your Purchase List is empty.#
-Auction Information is incorrect or incomplete.#
-You must drag and drop an item from your Inventory into the Register Window to begin a new auction.#
-The auction has already been registered.#
-Starting Bid#
-Current Bid#
-Buy Now Price#
-Your Current Zeny#
-Highest Bid#
-Previous Bid#
-Next Bid#
-Buy it now?#
-Would you like to sell this item?#
-Place Bid#
-Buy Now#
-End the Auction#
-Place another Bid#
-You have placed a bid.#
-You have failed to place a bid.#
+Sure (Saat)#
+Ucret#
+Acik artirma aramasinda esya bulunamadi.#
+Satis Listeniz bos.#
+Satin Alma Listeniz bos.#
+Acik artirma bilgileri hatali veya eksik.#
+Yeni bir acik artirma baslatmak icin Envanterinizden bir esyayi Kayit Penceresine surukleyip birakmalisiniz.#
+Acik artirma zaten kaydedilmis.#
+Baslangic Teklifi#
+Guncel Teklif#
+Hemen Al Fiyati#
+Mevcut Zeny'niz#
+En Yuksek Teklif#
+Onceki Teklif#
+Sonraki Teklif#
+Simdi satin almak istiyor musunuz?#
+Bu esyayi satmak istiyor musunuz?#
+Teklif Ver#
+Hemen Al#
+Acik Artirmayi Bitir#
+Baska Bir Teklif Ver#
+Teklif verdiniz.#
+Teklif verilemedi.#
 Yeterli Zeny'niz yok.#
-Armor#
-Card#
-Etc.#
-Bid#
-Search#
-You have ended the auction.#
-You cannot end the auction.#
-Bid Number is incorrect.#
-To#
+Zirh#
+Kart#
+Diger#
+Teklif#
+Ara#
+Acik artirmayi bitirdiniz.#
+Acik artirmayi bitiremezsiniz.#
+Teklif numarasi hatali.#
+Alici#
 Baslik#
-You have received a message in the mail.#
-Searching...#
-You cannot register more than 5 items in an auction at a time.#
-You cannot place more than 5 bids at a time.#
-Please accept all items from your mail before deleting.#
-Please enter a title.#
-/shopping: Enables you to open a shop with a single left-click and close your shop with a single right-click. On Off#
-You can now open a shop with a single left-click and close your shop with a single right-click. [sh ON].#
-You can open a shop by double-clicking. [/sh OFF]#
-Please enter zeny amount before sending mail.#
-You do not have enough zeny to pay the Auction Fee.#
-View Status#
-Feed#
-Stand By#
+Postayla yeni bir mesaj aldiniz.#
+Araniyor...#
+Ayni anda acik artirmaya 5'ten fazla esya kaydedemezsiniz.#
+Ayni anda 5'ten fazla teklif veremezsiniz.#
+Silmeye calismadan once postadaki tum esyalari alin.#
+Lutfen bir baslik girin.#
+/shopping: Sol tikla dukkan acmanizi, sag tikla dukkani kapatmanizi saglar. Acik Kapali#
+Artik sol tikla dukkan acabilir, sag tikla dukkani kapatabilirsiniz. [sh ON].#
+Dukkani cift tiklayarak acabilirsiniz. [/sh OFF]#
+Postayi gondermeden once Zeny miktarini girin.#
+Acik Artirma Ucretini odemek icin yeterli Zeny'niz yok.#
+Durumu Goruntule#
+Besle#
+Bekle#
 Super Novice#
 Super Novice#
 Taekwon Boy#
@@ -1121,22 +1121,22 @@ Star Gladiator#
 Star Gladiator#
 Soul Linker#
 Soul Linker#
-Please check the connection, more than 2 accounts are connected with Internet Cafe Time Plan.#
-Your account is using monthly payment. (Remaining day: %d day)#
-Your account is using time limited. (Remaining time: %d hour %d minute %d second)#
-This item cannot be mailed.#
-You cannot accept any more items. Please try again later.#
-Male#
-Female#
-New User.#
-E-mail address is required to delete a character.#
-Please enter the correct information.#
-Please use this key.#
-Please enter the correct card password.#
+Baglantiyi kontrol edin. Internet Cafe Time Plan ile 2'den fazla hesap bagli.#
+Hesabiniz aylik odeme kullaniyor. (Kalan gun: %d gun)#
+Hesabiniz sure sinirli kullanimda. (Kalan sure: %d saat %d dakika %d saniye)#
+Bu esya postayla gonderilemez.#
+Daha fazla esya alamazsiniz. Lutfen daha sonra tekrar deneyin.#
+Erkek#
+Kadin#
+Yeni Kullanici.#
+Bir karakteri silmek icin e-posta adresi gereklidir.#
+Lutfen dogru bilgileri girin.#
+Lutfen bu anahtari kullanin.#
+Lutfen dogru kart sifresini girin.#
 PT Info#
 PT_ID is %s#
 NUM_ID is %s#
-Please don't forget this information.#
+Lutfen bu bilgileri unutmayin.#
 1001#
 1002#
 1003#
@@ -1296,12 +1296,12 @@ Read#
 Auto Read#
 Bookmark#
 Previous#
-Next#
+Sonraki#
 Close#
 [%s]'s equipment has been damaged.#
 [%s]'s %s has been damaged.#
 Weapon#
-Armor#
+Zirh#
 Insufficient Skill Level for joining a Party#
 [%s]'s Free Cash: %d Cash#
 Use Free Cash: #
@@ -1468,7 +1468,7 @@ Cash#
 Armors#
 Silahlar#
 Ammo#
-Card#
+Kart#
 Etc#
 Client response time has passed so connection is terminated#
 Incorrect version of hack shield file. Please reinstall the client#
@@ -2194,7 +2194,7 @@ Rewards#
 Required Items#
 Time Limit#
 Deadline#
-Search#
+Ara#
 Navigation#
 Back to Navigation#
 View List#
@@ -3151,7 +3151,7 @@ Your monthly subscribsion will expire in %s#
 Unable to find replay file#
 Costumes#
 Headgear#
-Armor#
+Zirh#
 Garment#
 Aksesuar#
 Costume#
@@ -3364,7 +3364,7 @@ Dungeon#
 MD#
 Paradise#
 Other#
-Search#
+Ara#
 Reset#
 Registration for Party#
 Purpose#
@@ -3547,7 +3547,7 @@ Validate#
 Notice#
 General#
 Return#
-Search#
+Ara#
 Failed to feed the pet. Pet in a state that can't be fed.#
 Failed to feed the homunculus. Homunculus in a state that can't be fed.#
 money#
@@ -3775,7 +3775,7 @@ Requires %d Servant Weapons#
 https://member.gnjoy.com.tw/billing.aspx#
 Descending#
 #
-Search#
+Ara#
 The Research Report Status will be displayed.#
 The Research Report Status has been cleared.#
 Successful manufacturing.#
@@ -3788,7 +3788,7 @@ The Attack Device has been activated.#
 The Attack Device has been disabled.#
 DEF and RES increased.#
 The Defense Device has been disabled.#
-Search#
+Ara#
 You can now use Ensemble skills alone.#
 The Sonata of Kvasir effect has been canceled.#
 The effect of Mystic Symphony has been granted.#
