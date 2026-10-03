@@ -1,8 +1,8 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
-# Amac: Turkce localization takip aracini ve ref durumunu CI uzerinde dogrular
+# Amac: Turkce localization takip araclarini ve Lua ceviri yapisini CI uzerinde dogrular
 # Modul: Tool - YAML
-# Version: 1.1.0
-# Aciklama: Python syntax kontrolu yapar ve upstream/translation dosya durum raporunu uretir
+# Version: 1.2.0
+# Aciklama: Translation status, Python syntax ve achievements.lub structural validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -25,6 +25,7 @@ on:
       - "Translation/**"
       - "TurkuazTR/**"
       - "Tools/turkuaz_translation_status.py"
+      - "Tools/validate_achievement_translation.py"
       - ".github/workflows/turkuaz-translation-validation.yml"
 
 jobs:
@@ -41,16 +42,30 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin             '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest'             '+refs/heads/translation/tr:refs/remotes/origin/translation-tr'
+          git fetch origin \
+            '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest' \
+            '+refs/heads/translation/tr:refs/remotes/origin/translation-tr'
 
       - name: Validate Python syntax
         shell: bash
         run: |
           set -euo pipefail
-          python3 -m py_compile Tools/turkuaz_translation_status.py
+          python3 -m py_compile \
+            Tools/turkuaz_translation_status.py \
+            Tools/validate_achievement_translation.py
 
       - name: Report translation status
         shell: bash
         run: |
           set -euo pipefail
-          python3 Tools/turkuaz_translation_status.py             --translation-ref HEAD             --upstream-ref refs/remotes/origin/upstream/latest
+          python3 Tools/turkuaz_translation_status.py \
+            --translation-ref HEAD \
+            --upstream-ref refs/remotes/origin/upstream/latest
+
+      - name: Validate achievement Lua structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/validate_achievement_translation.py \
+            --translation-ref HEAD \
+            --upstream-ref refs/remotes/origin/upstream/latest
