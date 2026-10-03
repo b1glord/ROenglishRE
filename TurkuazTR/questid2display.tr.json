@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4268-4285 Ninja egitim zinciri dahil",
+    "version": "3.9.1",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Ninja reset ve son test kayitlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4108,6 +4108,16 @@
       "description": "Kitapliktaki kitaplari okuma izni aldin.",
       "goal": "Kitapligi kullan"
     },
+    "4266": {
+      "title": "Skill Sifirlama Tamamlandi",
+      "description": "",
+      "goal": "Skill sifirlama tamamlandi"
+    },
+    "4267": {
+      "title": "Stat Sifirlama Tamamlandi",
+      "description": "",
+      "goal": "Stat sifirlama tamamlandi"
+    },
     "4268": {
       "title": "Ninja Egitmeni",
       "description": "Ninja egitmeniyle bulus.",
@@ -4197,6 +4207,16 @@
       "title": "Ninja Egitimi - Gercek Savas 1",
       "description": "10 Wormtail avladiktan sonra geri don.",
       "goal": "10 Wormtail"
+    },
+    "4286": {
+      "title": "Ninja Egitimi - Test",
+      "description": "Duvarin arka tarafinda buyu saldirilarina bagisik 4 Poring'i yok et.",
+      "goal": "4 Poring yok et"
+    },
+    "4287": {
+      "title": "Ninja Egitimi - Test",
+      "description": "Duvarin arka tarafinda fiziksel saldirilara bagisik 4 Poring'i yok et.",
+      "goal": "4 Poring yok et"
     }
   }
 }
