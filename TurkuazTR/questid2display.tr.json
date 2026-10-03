@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.8.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Rune Knight job-change zinciri 3200-3220 dahil",
+    "version": "2.9.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Eden gorev paketi 3250-3265 guvenli kayitlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3285,6 +3285,76 @@
       "title": "Rune Knight Job Degisimi",
       "description": "Sinavi gecemezsen tekrar denemeden once 10 dakika beklemelisin. Yeniden denemeden once sure sinirinin dolmasini bekle.",
       "goal": "10 dakika bekle"
+    },
+    "3250": {
+      "title": "Bu Bandaj Ne?",
+      "description": "30 Mummy avla ve 20 Rotten Bandage topla. Istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Mummy avla ve 20 Rotten Bandage topla"
+    },
+    "3251": {
+      "title": "Tehlikeli Timsahlar",
+      "description": "Sahil yakininda insanlara saldiran Alligator'lari avla. 30 Alligator avla ve istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Alligator avla"
+    },
+    "3252": {
+      "title": "Bu Bir Denizkizi Degildi...",
+      "description": "Bilinmeyen bir musteriden gelen istek. Byalan Dungeon'da 30 Merman avla ve istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Merman avla"
+    },
+    "3254": {
+      "title": "Ulkem Beni Cagiriyor!",
+      "description": "Morocc'ta Sandman avlayarak 10 Fine Sand ve 30 Grit topla. Istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "10 Fine Sand ve 30 Grit topla"
+    },
+    "3255": {
+      "title": "Yaban Domuzu Avi",
+      "description": "Payon Belediye Binasindan gelen istek. Ekinleri korumak icin 30 Savage avla ve istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Savage avla"
+    },
+    "3256": {
+      "title": "Yaza Hazirlik",
+      "description": "Blacksmith Aragham, Thara Frog'lardan 30 Sticky Webfoot toplamani istiyor. Istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Sticky Webfoot topla"
+    },
+    "3257": {
+      "title": "Bir Kadinin Kini",
+      "description": "Izlude'daki Inventor Dorian'dan gelen istek. Payon Cave'de 30 Sohee avla ve istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Sohee avla"
+    },
+    "3258": {
+      "title": "Ozel Malzemeler",
+      "description": "Payon'daki Wallah'tan gelen istek. Ozel ilac yapmasina yardim etmek icin 40 Huge Leaf topla ve Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "40 Huge Leaf topla"
+    },
+    "3259": {
+      "title": "Kukla Ustasinin Istirabi",
+      "description": "Geffen'deki Woonute'tan gelen istek. 30 Marionette avla, 30 Golden Hair topla ve Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Marionette avla ve 30 Golden Hair topla"
+    },
+    "3260": {
+      "title": "Biktirici Sinekler",
+      "description": "Prontera'daki bir hasere yok ediciden gelen istek. Geffen Tower'da 30 Hunter Fly avla ve Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "30 Hunter Fly avla"
+    },
+    "3261": {
+      "title": "Tehlikeli Munak",
+      "description": "Payon'daki Cheese Dongja, Payon Cave'de 30 Munak avlamani istiyor.",
+      "goal": "30 Munak avla"
+    },
+    "3262": {
+      "title": "Dunyayi Yesillendir",
+      "description": "Morocc'taki bir mucevher saticisindan gelen istek. Comodo'daki Flora'lardan 40 Maneater Blossom topla ve Eden Group'taki Sparkle'a rapor ver.",
+      "goal": "40 Maneater Blossom topla"
+    },
+    "3263": {
+      "title": "Sihirli Degnek",
+      "description": "Blacksmith Antonio'dan gelen istek. 30 Dokebi Horn ve 30 Trunk toplarsan Magic Wand'ini bir kez kullanmana izin verecek.",
+      "goal": "30 Trunk ve 30 Dokebi Horn topla"
+    },
+    "3265": {
+      "title": "Talep - Kayip Gizem Meraklisi",
+      "description": "Bir talep merkezinden gelen istek. Geffen Dungeon birinci katta kayip cocugu buldun; rapor vermek icin talep merkezine geri don.",
+      "goal": "Talep merkezine rapor ver"
     }
   }
 }
