@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.7.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4230-4253 Hayata Geri Donenler gorev zinciri dahil",
+    "version": "3.8.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4254-4265 Eclage gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4047,6 +4047,66 @@
       "title": "Hayata Geri Donenler",
       "description": "Konusma tamamlandi.",
       "goal": "Chung-Myo"
+    },
+    "4254": {
+      "title": "Karnı Agrıyan Peri",
+      "description": "Perilerin bile karni agrir. Periye 10 Green Herb getirerek yardim et.",
+      "goal": "10 Green Herb getir"
+    },
+    "4255": {
+      "title": "Intikam!",
+      "description": "Eclage'de bir hirsiz mi? Intikam almak isleri duzeltir mi?",
+      "goal": "20 Menblatt avla"
+    },
+    "4256": {
+      "title": "Suc Ortakligi?",
+      "description": "Farkinda olmadan suc ortagi oldun. Kaybolan esyalari yerine koy: bir deste Acorn, Worn-out Bookshelf ve Mold Powder; her birinden 10 tane.",
+      "goal": "Kayip esyalari tamamla"
+    },
+    "4257": {
+      "title": "Komplo",
+      "description": "Eirinn ve Bourbon ile bulusup hikayelerini dinle.",
+      "goal": "Eirinn ve Bourbon ile konus"
+    },
+    "4258": {
+      "title": "Eirinn",
+      "description": "Eirinn ile bulus.",
+      "goal": "Eirinn ile konus"
+    },
+    "4259": {
+      "title": "Bourbon",
+      "description": "Bourbon ile bulus.",
+      "goal": "Bourbon ile konus"
+    },
+    "4260": {
+      "title": "Bee",
+      "description": "Onda garip bir sey var. Once Cecilia'ya rapor ver.",
+      "goal": "Cecilia"
+    },
+    "4261": {
+      "title": "Karsi Saldiri (1)",
+      "description": "Eirinn karsi saldiriya hazirlaniyor.",
+      "goal": "Green Herb, Stem"
+    },
+    "4262": {
+      "title": "Karsi Saldiri (2)",
+      "description": "Bunlar karsi saldiri icin ise yarar mi? Kitapligin yakinina biraz ot ek.",
+      "goal": "Meydandaki kitaplik"
+    },
+    "4263": {
+      "title": "Karsi Taarruz (1)",
+      "description": "Bourbon karsi taarruz icin cok istekli.",
+      "goal": "2 Rat's Tail"
+    },
+    "4264": {
+      "title": "Karsi Taarruz (2)",
+      "description": "Bunlar karsi taarruz icin ise yarar mi? Dominic'in yaninda fareleri serbest birak.",
+      "goal": "Dominic"
+    },
+    "4265": {
+      "title": "Kitaplik Kullanimi",
+      "description": "Kitapliktaki kitaplari okuma izni aldin.",
+      "goal": "Kitapligi kullan"
     }
   }
 }
