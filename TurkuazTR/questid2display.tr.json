@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.2.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4133-4166 Anori, Eden, Homunculus S ve uzman quiz gorevleri dahil",
+    "version": "3.3.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; ikinci NAVI-korumali Ongoing description paketi dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -89,7 +89,8 @@
     "1004": {
       "title": "Archer Job Degisimi",
       "description": "Archer olmak icin 40 puan uzerinden en az ^0000FF25^000000 puan almalisin. Trunk esyasini \"Willow\" canavarindan elde edebilirsin. Dikkatli ol; guclu olabilirler.",
-      "goal": "40 Trunk topla"
+      "goal": "40 Trunk topla",
+      "ongoing_description": "Archer olmak icin 40 puan uzerinden en az ^0000FF25^000000 puan almalisin. Trunk esyasini {{NAVI1}} canavarindan elde edebilirsin. Dikkatli ol; guclu olabilirler."
     },
     "1005": {
       "title": "Mage Job Degisimi",
@@ -389,27 +390,32 @@
     "1145": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Midesi bozulan Gobong'a yardim et. Limana git ve supheli konusmayi dinlemeye calis.",
-      "goal": "Foolish Cat yakinina git"
+      "goal": "Foolish Cat yakinina git",
+      "ongoing_description": "Midesi bozulan Gobong'a yardim et. Limana git ve {{NAVI1}} dinlemeye calis."
     },
     "1146": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Supheli saticilarin gizli bir nesne hakkindaki konusmasini duydun. Ship Navi'nin kuzeyindeki balloon bag cevresini kontrol et.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Supheli saticilarin gizli bir nesne hakkindaki konusmasini duydun. Ship Navi'nin kuzeyindeki balon cantasinin {{NAVI1}} kontrol et."
     },
     "1147": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Buldugun tek sey ise yaramaz bir not. Saticilari biraz daha dinle.",
-      "goal": "Foolish Cat yakinina git"
+      "goal": "Foolish Cat yakinina git",
+      "ongoing_description": "Buldugun tek sey ise yaramaz bir not. {{NAVI1}} biraz daha dinle."
     },
     "1148": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Supheli saticilarin konusmasindan gizli yerin Ship Navi oldugunu anladin. Ship Navi guvertesinde baska bir supheli kedi bul.",
-      "goal": "Ship Navi guvertesine git"
+      "goal": "Ship Navi guvertesine git",
+      "ongoing_description": "Supheli saticilarin konusmasindan gizli yerin Ship Navi oldugunu anladin. Ship Navi guvertesinde baska bir {{NAVI1}} bul."
     },
     "1149": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Awfully Suspicious Dealer'in soyledigine gore Gozangee cevresine bakmaya karar verdin.",
-      "goal": "Ship Navi salonuna git"
+      "goal": "Ship Navi salonuna git",
+      "ongoing_description": "Awfully Suspicious Dealer'in soyledigine gore Gozangee {{NAVI1}} bakmaya karar verdin."
     },
     "1150": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
@@ -424,22 +430,26 @@
     "1152": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Kotu kedilere yardim gorevi tamamlandi. 1 gun sonra yeniden yardim edebilirsin.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Bu gunluk bir gorevdir ve bekleme suresi doldugunda tekrar yapabilirsin. Gorevi {{NAVI1}} uzerinden yeniden alabilirsin."
     },
     "1153": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Patrol Leader'i gor ve Gobonge adina selam ver.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "{{NAVI1}} ile gorus ve Gobonge adina selam ver."
     },
     "1154": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Starry Coral Area'da 20 Red Eruma temizledikten sonra Patrol Leader'a rapor ver.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Starry Coral Area'da 20 {{NAVI1}} temizledikten sonra {{NAVI2}}'a rapor ver."
     },
     "1155": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Kotu davranisi Gobonge'a bildir.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Kotu davranisi {{NAVI1}}'a bildir."
     },
     "1174": {
       "title": "Soyleenti, Zaman ve Efsane",
