@@ -1,0 +1,670 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
+    "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
+    "module": "Config - JSON",
+    "version": "1.0.0",
+    "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
+    "dependency_layer": "Config"
+  },
+  "source_path": "Translation/Renewal/data/questid2display.txt",
+  "source_ref": "upstream/latest",
+  "encoding_policy": "byte-preserving; translated fields must be ASCII",
+  "patches": {
+    "1": {
+      "title": "Fidye",
+      "description": "Turtle",
+      "goal": "Carapace"
+    },
+    "101": {
+      "title": "Professorle Tanisma",
+      "description": "Great Hall'a git ve derse kaydolmak icin professorle konus.",
+      "goal": ""
+    },
+    "102": {
+      "title": "Egitmenleri Bul",
+      "description": "Criatura Academy'deki Battle Instructor, Adept Adventurer ve Attribute Expert'i bul ve derslerine katil.",
+      "goal": ""
+    },
+    "103": {
+      "title": "Battle Instructor",
+      "description": "Academy Battle Instructor ile konustun.",
+      "goal": ""
+    },
+    "104": {
+      "title": "Adept Adventurer",
+      "description": "Academy Adept Adventurer ile konustun.",
+      "goal": ""
+    },
+    "105": {
+      "title": "Attribute Expert",
+      "description": "Academy Attribute Expert ile konustun.",
+      "goal": ""
+    },
+    "106": {
+      "title": "Midgard'in En Agir Seylerini Bul",
+      "description": "Criatura Academy'de Rune Midgard'in en agir seylerini anlatan kitabi bul.",
+      "goal": ""
+    },
+    "107": {
+      "title": "Midgard'in En Agir Seyleri",
+      "description": "Kitap neredeyse seni ezdi ama kurtuldun. Kitabi Professore geri gotur.",
+      "goal": ""
+    },
+    "108": {
+      "title": "Revir Terapisti",
+      "description": "Academy'nin birinci katinin guneybati odasindaki revirde Therapist ile konus.",
+      "goal": ""
+    },
+    "109": {
+      "title": "Therapist",
+      "description": "Academy Therapist ile konustun.",
+      "goal": ""
+    },
+    "110": {
+      "title": "Criatura Academy Muduru",
+      "description": "Criatura Academy Principal'i bul ve konus.",
+      "goal": ""
+    },
+    "1000": {
+      "title": "Transcendent",
+      "description": "Valkyrie'deki Hall of Honor'i bul. Orada Valkyrie'nin yeni bir kahramani olacaksin.",
+      "goal": ""
+    },
+    "1001": {
+      "title": "Acolyte Job Degisimi",
+      "description": "Acolyte olmak icin Father Mareusis ile konustun. Prontera City'nin kuzeydogusundaki Relics yakininda inzivaya cekilmis ^000077Father Rubalkabara^000000'yi ziyaret etmeni istedi.",
+      "goal": "Father Rubalkabara ile konus"
+    },
+    "1002": {
+      "title": "Acolyte Job Degisimi",
+      "description": "Acolyte olmak icin Father Mareusis ile konustun. Prontera City'nin guneybatisindaki Morocc Town yakininda inzivaya cekilmis ^000077Mother Mathilda^000000'yi ziyaret etmeni istedi.",
+      "goal": "Mother Mathilda ile konus"
+    },
+    "1003": {
+      "title": "Acolyte Job Degisimi",
+      "description": "Acolyte olmak icin Father Mareusis ile konustun. Prontera'nin kuzeybatisindaki bir kopru yakininda inzivaya cekilmis ^000077Father Yosuke^000000'yi ziyaret etmeni istedi.",
+      "goal": "Father Yosuke ile konus"
+    },
+    "1004": {
+      "title": "Archer Job Degisimi",
+      "description": "Archer olmak icin 40 puan uzerinden en az ^0000FF25^000000 puan almalisin. Trunk esyasini \"Willow\" canavarindan elde edebilirsin. Dikkatli ol; guclu olabilirler.",
+      "goal": "40 Trunk topla"
+    },
+    "1005": {
+      "title": "Mage Job Degisimi",
+      "description": "Mage Guildsman, Mage olmak icin Mixed Solution No.1 hazirlamani istedi. Gerekli malzemeleri Guild icindeki Guide Book'tan ogrenebilirsin.",
+      "goal": "Mixed Solution No.1"
+    },
+    "1006": {
+      "title": "Mage Job Degisimi",
+      "description": "Mage Guildsman, Mage olmak icin Mixed Solution No.2 hazirlamani istedi. Gerekli malzemeleri Guild icindeki Guide Book'tan ogrenebilirsin.",
+      "goal": "Mixed Solution No.2"
+    },
+    "1007": {
+      "title": "Mage Job Degisimi",
+      "description": "Mage Guildsman, Mage olmak icin Mixed Solution No.3 hazirlamani istedi. Gerekli malzemeleri Guild icindeki Guide Book'tan ogrenebilirsin.",
+      "goal": "Mixed Solution No.3"
+    },
+    "1008": {
+      "title": "Mage Job Degisimi",
+      "description": "Mage Guildsman, Mage olmak icin Mixed Solution No.4 hazirlamani istedi. Gerekli malzemeleri Guild icindeki Guide Book'tan ogrenebilirsin.",
+      "goal": "Mixed Solution No.4"
+    },
+    "1009": {
+      "title": "Merchant Job Degisimi",
+      "description": "Teslimat paketini depodan al ve Prontera'daki eski Swordman's Association'a git. Oradaki Kafra Employee Blossom'a paketi teslim et.",
+      "goal": "Paketi Prontera'ya teslim et"
+    },
+    "1010": {
+      "title": "Merchant Job Degisimi",
+      "description": "Teslimat paketini depodan al ve Geffen'deki Mage Guild'e git. Oradaki sorumlu Mage Guildsman'i bul.",
+      "goal": "Paketi Geffen Mage Guild'e teslim et"
+    },
+    "1011": {
+      "title": "Merchant Job Degisimi",
+      "description": "Teslimat paketini depodan al ve Morocc'a git. Boyaci Java Dullihan'i bul; biraz unutkan oldugu icin paketi ogrencilerinden birine vermen gerekebilir.",
+      "goal": "Paketi Morocc'taki boyaciya teslim et"
+    },
+    "1012": {
+      "title": "Merchant Job Degisimi",
+      "description": "Teslimat paketini depodan al ve Byalan Island'daki Kafra Employee'a teslim et.",
+      "goal": "Paketi ve mesaji Byalan Island'daki Kafra Girl'e teslim et"
+    },
+    "1013": {
+      "title": "Thief Job Degisimi",
+      "description": "Shibu'nun ciftliginden Mushroom cal. Iki tur Mushroom topla: ^0000FFOrange Net Mushroom^000000 3 puan, ^0000FFOrange Gooey Mushroom^000000 1 puan degerindedir. Sinavi gecmek icin toplam 25 puan gerekir. Pyramids'in dogu alanina git.",
+      "goal": "Mushroom topla"
+    },
+    "1014": {
+      "title": "Swordman Job Degisimi",
+      "description": "Bu test Swordman olmaya uygun olup olmadigini belirler. Uc parkuru gecip son kontrol noktasina ^FF000010 dakika^000000 icinde ulasmalisin.",
+      "goal": "Son kontrol noktasina ulas"
+    },
+    "1015": {
+      "title": "Ilk Gorevin",
+      "description": "Bir Bao aldin. Dogulu bilginlerin ders calismadan once geleneksel olarak yedigi lezzetli bir bun. Soylentiye gore dolu bir mide mantigin temelidir.",
+      "goal": "Quest Guide Tutor Cicero ile konus ve Bao'nun hala sende oldugundan emin ol"
+    },
+    "1016": {
+      "title": "Base Level Kazanma",
+      "description": "Field Combat Training'i tamamlamak icin canavar yenerek 2 Base Level kazan. Base Level'in 2 arttiktan sonra kuzeydeki gorevliyle konus.",
+      "goal": ""
+    },
+    "1100": {
+      "title": "Sphinx Dungeon Tek Basina!",
+      "description": "Sphinx Dungeon'da 20 Zerom avlayarak egitim yap.",
+      "goal": "20 Zerom avla"
+    },
+    "1101": {
+      "title": "Sphinx Dungeon Tek Basina!",
+      "description": "Sphinx Dungeon'da 20 Requiem avlayarak egitim yap.",
+      "goal": "20 Requiem avla"
+    },
+    "1102": {
+      "title": "Clock Tower Tek Basina!",
+      "description": "Clock Tower'da 40 Arclouse avlayarak egitim yap.",
+      "goal": "40 Arclouse avla"
+    },
+    "1103": {
+      "title": "Clock Tower Tek Basina!",
+      "description": "Clock Tower'da 30 High Orc avlayarak egitim yap.",
+      "goal": "30 High Orc avla"
+    },
+    "1104": {
+      "title": "Louyang Dungeon Tek Basina!",
+      "description": "Louyang'da 20 Green Maiden avlayarak egitim yap.",
+      "goal": "20 Green Maiden avla"
+    },
+    "1105": {
+      "title": "Louyang Dungeon Tek Basina!",
+      "description": "Louyang'da 50 Civil Servant avlayarak egitim yap.",
+      "goal": "50 Civil Servant avla"
+    },
+    "1106": {
+      "title": "Amatsu Dungeon Tek Basina!",
+      "description": "Amatsu Dungeon'da 20 The Paper avlayarak egitim yap.",
+      "goal": "20 The Paper avla"
+    },
+    "1107": {
+      "title": "Amatsu Dungeon Tek Basina!",
+      "description": "Amatsu Dungeon'da 40 Antique Firelock avlayarak egitim yap.",
+      "goal": "40 Antique Firelock avla"
+    },
+    "1108": {
+      "title": "Louyang Dungeon Tek Basina!",
+      "description": "\"Hondal\" tarafindan verilen ucuncu tek basina egitimi.",
+      "goal": "20 Chung E avla"
+    },
+    "1109": {
+      "title": "Lope ve Euridi - Orman Sisinden Kurtulanlar",
+      "description": "Mora Village Inn'i bul ve Lope'un nerede oldugunu sor.",
+      "goal": ""
+    },
+    "1110": {
+      "title": "Lope ve Euridi - Sis Kurbanlari",
+      "description": "Pitt adinda biri Lope'un bir yerlerde hayatta olmasi gerektigini, ancak nerede oldugunu bilmedigini soyluyor. Euridi'ye don ve ogrendiklerini anlat.",
+      "goal": "Euridi'ye geri don"
+    },
+    "1111": {
+      "title": "Lope ve Euridi - Orman Sisi",
+      "description": "Ormanda ^0000FFLope's Clue^000000 ara ve Pitt'e getir. 30 tane toplamak yeterli olmali.",
+      "goal": "30 Lope's Clue topla"
+    },
+    "1112": {
+      "title": "Lope ve Euridi - Labirent",
+      "description": "Pitt pek yardimci olmuyor. Lope's Clue'lari Euridi'ye gotur ve bir sey yapip yapamayacagina bak.",
+      "goal": "Lope's Clue'lari Euridi'ye getir"
+    },
+    "1113": {
+      "title": "Lope ve Euridi - Parcalanmis Soz",
+      "description": "Ipuclarini birlestirdiginde Pitt'in Lope'a olanlarla bir ilgisi oldugu anlasiliyor...",
+      "goal": ""
+    },
+    "1114": {
+      "title": "Lope ve Euridi - Fedakarligin Bedeli",
+      "description": "Pitt sana Lope's Ring'i verdi ve yaptiklarini itiraf etti. Euridi'ye neler oldugunu anlat.",
+      "goal": "Euridi'ye geri don"
+    },
+    "1115": {
+      "title": "Lope ve Euridi - Ucurumun Sarkisi",
+      "description": "Euridi Lope icin sarki soylerken arkadasi, orman girisi yakininda supheli bir adam duydugunu soyledi.",
+      "goal": ""
+    },
+    "1116": {
+      "title": "Lope ve Euridi - Olulerin Sarkisi",
+      "description": "Lope'u buldun ama Euridi'ye toza donustugunu soylemeni istiyor. Artik umduklarinin aksine onunla birlikte olamaz.",
+      "goal": ""
+    },
+    "1117": {
+      "title": "Lope ve Euridi - Sonsuzluk Sozu",
+      "description": "Euridi, Lope's Ring'i verirken Lope hakkindaki haberi dogal olarak cok agir karsiladi...",
+      "goal": "Euridi'nin Arkadasi ile konus"
+    },
+    "1118": {
+      "title": "Mahalle Sovalyeleri",
+      "description": "30 Lope's Clue topla ve Order of the Knights Head'e don.",
+      "goal": ""
+    },
+    "1119": {
+      "title": "Mahalle Sovalyeleri",
+      "description": "Knights of the Neighborhood Boss icin bir isi tamamladin. Tekrar yardim etmeden once sayacin dolmasini bekle.",
+      "goal": ""
+    },
+    "1120": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Izlude'daki travel guide'dan Grilled Rice Cake al.",
+      "goal": "Travel guide ile konus"
+    },
+    "1121": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Grilled Rice Cake'i Payon'daki Belte Malang'a teslim et.",
+      "goal": "Belte Malang ile konus"
+    },
+    "1122": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Ingeolmi yiyen maymunlari bul! Ayothaya civarinda 50 Yoyo avla.",
+      "goal": "Belte Malang ile konus"
+    },
+    "1123": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Memleket aramayi simdilik birak.",
+      "goal": "1 gun sonra tekrar istenebilir"
+    },
+    "1124": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Kunlun'daki Ganggangsulae Expert ile bulus!",
+      "goal": "Ganggangsulae Expert ile konus"
+    },
+    "1125": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "50 festival mask topladiktan sonra Ganggangsulae Expert ile konus.",
+      "goal": "Ganggangsulae Expert ile konus"
+    },
+    "1126": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Evsiz kedi ikilisi hakkinda bilgi edin. Belte ve Hamel Malang ile ilgili olabilir mi?",
+      "goal": "Belte Malang ile konus"
+    },
+    "1127": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Longzhicheng'deki Tiger Statue uzerindeki karalamalari incele.",
+      "goal": "Tiger Statue'yu incele"
+    },
+    "1128": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Dancing Janitor karalamalari temizlemis gibi gorunuyor. Ona karalamalari sor.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1129": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Longzhicheng'de citle yakin duran cocugun civarindaki karalamayi sil.",
+      "goal": "Citle yakin cocugun cevresini incele"
+    },
+    "1130": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Rice cake sepetinin Longzhicheng Pub'a teslim edildigini soyleyen bir karalamayi sildin.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1131": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Longzhicheng'deki yasli agacin yanindaki Bull civarindaki karalamayi sil.",
+      "goal": "Yasli agacin yanindaki Bull cevresini incele"
+    },
+    "1132": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Rice cake sepetini calma planini anlatan bir karalamayi sildin.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1133": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Longzhicheng'deki Wall Fairy yakinindaki karalamayi sil.",
+      "goal": "Wall Fairy cevresini incele"
+    },
+    "1134": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Rice cake sepetini calmak icin gece yarisi Tiger Statue onunde bulusmayi soyleyen karalamayi sildin.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1135": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Gate Captain yakinindaki karalamayi sil.",
+      "goal": "Gate Captain cevresini incele"
+    },
+    "1136": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "\"Neden gelmedin, plana tek basima devam edecegim\" yazan karalamayi sildin.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1137": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Enlightened One'in basinin arkasindaki karalamayi sil.",
+      "goal": "Enlightened One'in basinin arkasini incele"
+    },
+    "1138": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Haine duyulan ofkeyi anlatan karalamayi sildin.",
+      "goal": "Dancing Janitor ile konus"
+    },
+    "1139": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Evsiz kedi ikilisinin gizli gecmisini ogrendin. Aralarindaki sonsuz dostluk icin gercegi gizlemeye karar verdin.",
+      "goal": "Belte Malang'a son raporu ver"
+    },
+    "1140": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Belte Malang'in memleketini arama isi tamamlandi.",
+      "goal": "1 gun sonra tekrar istenebilir"
+    },
+    "1141": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Festival mask teslimati tamamlandi. Kunlun'a don ve Ganggangsulae Expert ile konus.",
+      "goal": "Ganggangsulae Expert ile konus"
+    },
+    "1142": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Thanksgiving Event bir kez tamamlandi.",
+      "goal": ""
+    },
+    "1143": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Thanksgiving Event iki kez tamamlandi.",
+      "goal": ""
+    },
+    "1144": {
+      "title": "Belte Malang'in Dogdugu Cok Uzaklarda!",
+      "description": "Sevimli pet odulu.",
+      "goal": ""
+    },
+    "1145": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Midesi bozulan Gobong'a yardim et. Limana git ve supheli konusmayi dinlemeye calis.",
+      "goal": "Foolish Cat yakinina git"
+    },
+    "1146": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Supheli saticilarin gizli bir nesne hakkindaki konusmasini duydun. Ship Navi'nin kuzeyindeki balloon bag cevresini kontrol et.",
+      "goal": ""
+    },
+    "1147": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Buldugun tek sey ise yaramaz bir not. Saticilari biraz daha dinle.",
+      "goal": "Foolish Cat yakinina git"
+    },
+    "1148": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Supheli saticilarin konusmasindan gizli yerin Ship Navi oldugunu anladin. Ship Navi guvertesinde baska bir supheli kedi bul.",
+      "goal": "Ship Navi guvertesine git"
+    },
+    "1149": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Awfully Suspicious Dealer'in soyledigine gore Gozangee cevresine bakmaya karar verdin.",
+      "goal": "Ship Navi salonuna git"
+    },
+    "1150": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Ship Navi guvertesinde Poor Can Sack buldun. Awfully Suspicious Dealer ile yeniden gorus.",
+      "goal": "Ship Navi guvertesine git"
+    },
+    "1151": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Starry Coral Area'daki Red Eruma'lardan 30 Poor Can topla ve Gobonge'a geri don.",
+      "goal": ""
+    },
+    "1152": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Kotu kedilere yardim gorevi tamamlandi. 1 gun sonra yeniden yardim edebilirsin.",
+      "goal": ""
+    },
+    "1153": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Patrol Leader'i gor ve Gobonge adina selam ver.",
+      "goal": ""
+    },
+    "1154": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Starry Coral Area'da 20 Red Eruma temizledikten sonra Patrol Leader'a rapor ver.",
+      "goal": ""
+    },
+    "1155": {
+      "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
+      "description": "Kotu davranisi Gobonge'a bildir.",
+      "goal": ""
+    },
+    "1174": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Malaya'nin kuzey limanindaki Old Man's Granddaughter'dan Slate Piece'i geri al.",
+      "goal": "Old Man's Granddaughter ile konus"
+    },
+    "1175": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Slate Piece'i Old Legend Teller'a teslim et.",
+      "goal": "Old Legend Teller ile konus"
+    },
+    "1176": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Ormanin kuzeybatisindaki Malaya Immigrant ile bulus ve Wandering Merchant'in izini sur.",
+      "goal": "Malaya Immigrant ile konus"
+    },
+    "1177": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Baryo Mahiwaga koyundeki Malaya Immigrant ile bulus ve Wandering Merchant'in izini sur.",
+      "goal": "Malaya Immigrant ile konus"
+    },
+    "1178": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Baryo Mahiwaga koyundeki kayaya kazinmis kayitlari incele.",
+      "goal": "Kayayi incele"
+    },
+    "1179": {
+      "title": "Soyleenti, Zaman ve Efsane",
+      "description": "Efsanenin gercegi ve yasli kadinin oglunun kimligi ortaya cikti. Malaya'ya don ve Old Legend Teller'a rapor ver.",
+      "goal": "Old Legend Teller ile konus"
+    },
+    "1180": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 2 Lost Belonging al ve Missing Person's Father'a teslim et.",
+      "goal": "Missing Person's Father ile konus"
+    },
+    "1181": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 7 Lost Belonging al ve Missing Person's Friend'e teslim et.",
+      "goal": "Missing Person's Friend ile konus"
+    },
+    "1182": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 3 Lost Belonging al ve Missing Person's Son'a teslim et.",
+      "goal": "Missing Person's Son ile konus"
+    },
+    "1183": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 5 Lost Belonging al ve Missing Person's Mother'a teslim et.",
+      "goal": "Missing Person's Mother ile konus"
+    },
+    "1184": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Kayip kisiyi bulma tamamlandi. Village Chief'e rapor ver.",
+      "goal": "Village Chief ile konus"
+    },
+    "1185": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Young Fortune Teller yardim istiyor. Yanina git.",
+      "goal": "Young Fortune Teller ile konus"
+    },
+    "1186": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Baryo Mahiwaga alaninda 15 Tikbalang yen. Gorev bitince Young Fortune Teller ile konus.",
+      "goal": "15 Tikbalang yen"
+    },
+    "1187": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Young Fortune Teller'in istegini Village Chief'e bildir.",
+      "goal": "Village Chief ile konus"
+    },
+    "1188": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Birlikte tuzak kurmak icin Baryo Mahiwaga alaninda Port Malaya girisi yakinindaki Gruffy Worker ile bulus.",
+      "goal": "Gruffy Worker cevresini incele"
+    },
+    "1189": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Birlikte tuzak kurmak icin Baryo Mahiwaga alaninda Bakonawa Lake girisi yakinindaki Grumpy Worker ile bulus.",
+      "goal": "Grumpy Worker cevresini incele"
+    },
+    "1190": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Birlikte tuzak kurmak icin Bakonawa Lake girisi yakinindaki Cowardly Worker ile bulus.",
+      "goal": "Cowardly Worker cevresini incele"
+    },
+    "1191": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Birlikte tuzak kurmak icin Bakonawa Lake yakinindaki Gloomy Worker ile bulus.",
+      "goal": "Gloomy Worker cevresini incele"
+    },
+    "1192": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Birlikte tuzak kurmak icin Bakonawa Lake yakinindaki Sentimental Worker ile bulus.",
+      "goal": "Sentimental Worker cevresini incele"
+    },
+    "1193": {
+      "title": "Bakonawa'dan Kurtul",
+      "description": "Tuzagi kurdun. Village Chief'e geri don ve rapor ver.",
+      "goal": "Village Chief ile konus"
+    },
+    "1194": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Alandaki Raccoon Hurray Team uyelerini yakalayarak 10 parca kirmizi kumas topla.",
+      "goal": "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
+    },
+    "1195": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Hediye saklamak icin corap benzeri ne kullanilabilecegini dusunme zamani. Geffen meydaninda randevuyla mesgul olan Raccoon Castanea'yi bul.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
+    },
+    "1196": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Dogu Geffen'in sonundaki sokak tezgahlarinda, Ghez'in arkasindaki koseden hediyeyi bul.",
+      "goal": "Dogu Geffen'in sonundaki Raccoon Bean'in yakinina git"
+    },
+    "1197": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Hediyeyi, cizgili coraplari buldun. Castanea'ya geri don.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
+    },
+    "1198": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Bati Geffen'in sonundaki cicek bahcesinin tahta kovasinda hediye kagidini bul ve hediyeyi paketle.",
+      "goal": "Bati Geffen'deki Raccoon Pinus'un yakinina git"
+    },
+    "1199": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Paketleme tamamlandi! Castanea'ya geri don.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
+    },
+    "1200": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Castanea'dan parlayan renkli boncuklar aldin. Quercus'a geri don.",
+      "goal": "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
+    },
+    "1201": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Hediye saklamak icin corap benzeri ne kullanilabilecegini dusunme zamani. Geffen meydaninda ask konusunda huzursuz olan Raccoon Pyrus'u bul.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Pyrus ile konus"
+    },
+    "1202": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Tartisan Raccoon cifti icin endiselisin. Alandaki Raccoon Hurray Team uyelerini yakala ve 5'er Stolen Candy ile Stolen Cookie topla.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Pyrus ile konus"
+    },
+    "1203": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Kuzey Geffen'de Sage Welshyun yakinindaki Citrus'tan kiyafetleri al.",
+      "goal": "Kuzey Geffen'deki Raccoon Hurray Team uyesi Citrus ile konus"
+    },
+    "1204": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Citrus'tan kirmizi bir paket aldin. Bunu Raccoon Kaki'ye teslim et.",
+      "goal": "Geffen meydanindaki Raccoon Hurray Team uyesi Kaki ile konus"
+    },
+    "1205": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Yildiz seklindeki suslemeyi aldin. Quercus'a geri don.",
+      "goal": "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
+    },
+    "1206": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Quercus alinacak hediyenin guvenilir bicimde arastirilmasini istiyor. Lutie'deki Santa'nin evine git ve Little Santa ile bulus.",
+      "goal": "Lutie'deki Santa'nin evinde Little Santa ile konus"
+    },
+    "1207": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Little Santa, Raccoon'lar icin hediyenin guzel tatli patatesler olarak secildigini soyluyor. Evin disinda protesto eden Raccoon'lari besle.",
+      "goal": "Lutie'deki Santa'nin evinde Little Santa ile konus"
+    },
+    "1213": {
+      "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
+      "description": "Raccoon'lar tatli patates hediyesinden yeterince memnun gorunuyor. Bu haberi Quercus'a ilet.",
+      "goal": "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
+    },
+    "1214": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Bifrost Tower'in 4. katindaki kitapliklari inceleyerek Professor Worm'un portresini bul.",
+      "goal": "Bifrost Tower 4. kattaki kitapliklari incele"
+    },
+    "1215": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Professor Worm'un portresi bulundu. Professor Worm'a gotur.",
+      "goal": "Bifrost Tower 4. katta Professor Worm ile konus"
+    },
+    "1216": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Cicek acan topraklardan Petal elde et, 20 Star Shape Mushroom topla ve Professor Worm ile konus.",
+      "goal": "Bifrost Tower 4. katta Professor Worm ile konus"
+    },
+    "1217": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Bifrost Tower duvarlarindaki Professor Worm kayitlarini incele.",
+      "goal": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus"
+    },
+    "1218": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus.",
+      "goal": "Ilk kaydi oku"
+    },
+    "1219": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus.",
+      "goal": "Ikinci kaydi oku"
+    },
+    "1220": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus.",
+      "goal": "Ucuncu kaydi oku"
+    },
+    "1221": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus.",
+      "goal": "Dorduncu kaydi oku"
+    },
+    "1222": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus.",
+      "goal": "Besinci kaydi oku"
+    },
+    "1223": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Bifrost Tower'in 3. katinda Diary Frog No. 3'u bul.",
+      "goal": "Bifrost Tower 3. katta Diary Frog No. 3 ile konus"
+    },
+    "1224": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Bifrost Tower'in 1. katinda Diary Frog No. 6'yi bul.",
+      "goal": "Bifrost Tower 1. katta Diary Frog No. 6 ile konus"
+    },
+    "1225": {
+      "title": "Professor Worm'un Hafizasini Geri Getir",
+      "description": "Bifrost Tower'in 1. katinda 15 Lichtern (blue) yen.",
+      "goal": "Bifrost Tower 1. katta Diary Frog No. 6 ile konus"
+    }
+  }
+}
