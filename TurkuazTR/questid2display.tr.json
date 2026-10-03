@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.4.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4167-4196 Eden av gorevleri dahil",
+    "version": "3.5.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4197-4227 Eden av cooldown kayitlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3770,6 +3770,161 @@
       "title": "Disguise Avi",
       "description": "Nifflheim'da 30 Disguise avla ve Eden Group Headquarters ikinci kata geri don.",
       "goal": "30 Disguise avla"
+    },
+    "4197": {
+      "title": "Octopus",
+      "description": "Octopus her 3 saatte bir ortaya cikar.",
+      "goal": "Sonraki ortaya cikisa 3 saat"
+    },
+    "4198": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Dragon Tail Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Dragon Tail Avi"
+    },
+    "4199": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Spring Rabbit Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Spring Rabbit Avi"
+    },
+    "4200": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Pest Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Pest Avi"
+    },
+    "4201": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Bathory Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Bathory Avi"
+    },
+    "4202": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Alarm Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Alarm Avi"
+    },
+    "4203": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Baba Yaga Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Baba Yaga Avi"
+    },
+    "4204": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Yao Jun Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Yao Jun Avi"
+    },
+    "4205": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Firelock Soldier Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Firelock Soldier Avi"
+    },
+    "4206": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Zipper Bear Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Zipper Bear Avi"
+    },
+    "4207": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Ground Petite Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Ground Petite Avi"
+    },
+    "4208": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Rafflesia Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Rafflesia Avi"
+    },
+    "4209": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Venomous Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Venomous Avi"
+    },
+    "4210": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Pitman Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Pitman Avi"
+    },
+    "4211": {
+      "title": "86-90 Gorev Panosu Bekleme Suresi",
+      "description": "Yellow Novus Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Yellow Novus Avi"
+    },
+    "4212": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Solider Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Solider Avi"
+    },
+    "4213": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Freezer Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Freezer Avi"
+    },
+    "4214": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Heater Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Heater Avi"
+    },
+    "4215": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Injustice Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Injustice Avi"
+    },
+    "4216": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Rybio Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Rybio Avi"
+    },
+    "4217": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Dark Priest Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Dark Priest Avi"
+    },
+    "4218": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Stapo Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Stapo Avi"
+    },
+    "4219": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Roween Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Roween Avi"
+    },
+    "4220": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Siroma Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Siroma Avi"
+    },
+    "4221": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Shinobi Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Shinobi Avi"
+    },
+    "4222": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Evil Nymph Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Evil Nymph Avi"
+    },
+    "4223": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Deviruchi Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Deviruchi Avi"
+    },
+    "4224": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Mineral Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Mineral Avi"
+    },
+    "4225": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Kaho Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Kaho Avi"
+    },
+    "4226": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Neraid Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Neraid Avi"
+    },
+    "4227": {
+      "title": "91-99 Gorev Panosu Bekleme Suresi",
+      "description": "Disguise Avi gorevini tekrar almadan once 3 saat beklemelisin.",
+      "goal": "Disguise Avi"
     }
   }
 }
