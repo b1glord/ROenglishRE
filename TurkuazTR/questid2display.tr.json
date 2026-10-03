@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.6.0",
-    "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
+    "version": "1.7.0",
+    "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; Christmas, 8th Anniversary ve Buwaya paketleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -2155,6 +2155,161 @@
       "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
       "description": "Christmas Angel'in ilk testi: Desert Wolf avla.",
       "goal": "4 Desert Wolf avla"
+    },
+    "2251": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: 4 Snowier avla.",
+      "goal": "4 Snowier avla"
+    },
+    "2252": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: 4 Kobold (mace) avla.",
+      "goal": "4 Kobold (mace) avla"
+    },
+    "2253": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: 4 Kobold (hammer) avla.",
+      "goal": "4 Kobold (hammer) avla"
+    },
+    "2254": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ikinci testi: Dunyanin bir yerindeki 1 Antonio'yu bul ve yen.",
+      "goal": "1 Antonio bul ve yen"
+    },
+    "2255": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ucuncu testi: Hicbir Christmas Crystal yenmeden acgozlulukten uzak dur.",
+      "goal": ""
+    },
+    "2256": {
+      "title": "8. Yil Donumu",
+      "description": "Archaeology Guild'in bir hazine buldugundan suphelenen yasli bir adamla tanistin. Guild faaliyetlerini ogrenmek icin Metz'in asistanini bul.",
+      "goal": "Prontera'da 263,279 civarindaki binada Metz'in asistanini bul"
+    },
+    "2257": {
+      "title": "8. Yil Donumu",
+      "description": "Zella konusmadan once arastirma yetenegini gostermeni istiyor. Arkasindaki kitaplari oku, ipuclarini birlestir ve bilmecesini coz.",
+      "goal": "'Mr. Metz'in cocukluk kizaginin adi neydi?' - Zella"
+    },
+    "2258": {
+      "title": "8. Yil Donumu",
+      "description": "Alberta'daki Zella'nin kardesi Einrich ile konus. Eserlerin bulundugu sehirlerdeki kazi ekiplerini koordine ediyor.",
+      "goal": "Einrich ile konus"
+    },
+    "2259": {
+      "title": "8. Yil Donumu",
+      "description": "Einrich'i buldun. Alberta'daki ticaret saticisindan alabilecegin bazi esyalari getirmeni istiyor.",
+      "goal": "1 Branch rifle ve 10 Bloody Shell getir"
+    },
+    "2260": {
+      "title": "8. Yil Donumu",
+      "description": "Ilk eser Louyang'da bulundu. Oradaki Dig Crew Leader'i bul.",
+      "goal": "Louyang'daki Dig Crew Leader'i bul"
+    },
+    "2261": {
+      "title": "8. Yil Donumu",
+      "description": "Archaeology Guild'in kazmaya calistigi eser ve kalintilarin cevresinde Guardian canavarlari var.",
+      "goal": "60 Mi Gao ve 40 Mantis Guardian avla"
+    },
+    "2262": {
+      "title": "8. Yil Donumu",
+      "description": "Dug-up Rune'a Mage sinifi bir parti uyesi getir. Mage yoksa buyuyu bozmak icin 50 Red Gemstone getirebilirsin.",
+      "goal": "Buyuyu bozduktan sonra Dig Crew Leader'a rapor ver"
+    },
+    "2263": {
+      "title": "8. Yil Donumu",
+      "description": "Ayothaya'ya git ve baska bir Dug-up Rune'u kazan Dig Crew Leader'i bul.",
+      "goal": "Ayothaya'daki Dig Crew Leader'i bul"
+    },
+    "2264": {
+      "title": "8. Yil Donumu",
+      "description": "Ayothaya'daki uc yarali kazi ekibi uyesini bul ve iyilestirmenin yolunu ara. Sonra kaleye gidip Ayothaya Princess ile konus.",
+      "goal": "Yarali kazi ekibini iyilestir ve Princess ile konus"
+    },
+    "2265": {
+      "title": "8. Yil Donumu",
+      "description": "Ayothaya'daki Dug-up Rune'a Acolyte sinifi bir parti uyesi getir. Acolyte yoksa buyuyu bozmak icin 50 Yellow Gemstone getirebilirsin.",
+      "goal": "Dug-up Rune buyusunu boz"
+    },
+    "2266": {
+      "title": "8. Yil Donumu",
+      "description": "Kunlun'a git ve baska bir Dug-up Rune'u kazan Dig Crew Leader'i bul.",
+      "goal": "Kunlun'daki Dig Crew Leader'i bul"
+    },
+    "2267": {
+      "title": "8. Yil Donumu",
+      "description": "Kunlun'un guneybati bolgesindeki Dug-up Rune'u bul ve uyuyan kazi ekibinin gizemini cozmesine yardim et.",
+      "goal": "Dug-up Rune'u incele"
+    },
+    "2268": {
+      "title": "8. Yil Donumu",
+      "description": "Toplam 3 Rock Shard topladin. Zella ve Einrich bunlari ariyor; kime verecegin sana kalmis.",
+      "goal": "Rock Shard'lari Prontera'daki Zella'ya veya Alberta'daki Einrich'e ver"
+    },
+    "2269": {
+      "title": "8. Yil Donumu",
+      "description": "^0000FFPayon'un eski anilarina^000000 acilan gecidin anahtarini aldin. Anahtarin uzerinde bir seyler yaziyor.",
+      "goal": "Payon'un eski anilarina acilan gecidi bul"
+    },
+    "2270": {
+      "title": "8. Yil Donumu",
+      "description": "Anniversary gorevini tekrarlamak istersen sure dolduktan sonra Prontera'daki Old Man ile konusabilirsin.",
+      "goal": ""
+    },
+    "2271": {
+      "title": "Ormandaki Sir",
+      "description": "Port Malaya muhafizi, koylulerin bir hazine hakkinda konustugunu soyledi.",
+      "goal": "Toplanan Port Malaya koyluleriyle konus"
+    },
+    "2272": {
+      "title": "Ormandaki Sir",
+      "description": "Bir koylunun anlattigina gore Inn'deki Totoy hazinenin yerini biliyor olabilir.",
+      "goal": "Totoy ile konus"
+    },
+    "2273": {
+      "title": "Ormandaki Sir",
+      "description": "Crafts Store'daki Master of Hunting canavar hakkinda bilgi sahibi olabilir.",
+      "goal": "Master of Hunting ile konus"
+    },
+    "2274": {
+      "title": "Ormandaki Sir",
+      "description": "Master of Hunting, Totoy'un canavari gordugu yerden 10 Animal Sample toplamani istedi.",
+      "goal": "10 Animal Sample topla"
+    },
+    "2275": {
+      "title": "Ormandaki Sir",
+      "description": "Zorlukla topladigin ornekleri Master of Hunting ile incele.",
+      "goal": "Master of Hunting ile konus"
+    },
+    "2276": {
+      "title": "Ormandaki Sir",
+      "description": "Totoy korkunc Buwaya'yi gordu. Bunu muhafiza bildir.",
+      "goal": "Guard Leader ile konus"
+    },
+    "2277": {
+      "title": "Ormandaki Sir",
+      "description": "Muhafiz, koylulerin guvenligi icin Buwaya'nin gorundugu yere smoke bomb atmani istiyor.",
+      "goal": "Buwaya'nin gorundugu yeri bul ve smoke bomb kullan"
+    },
+    "2278": {
+      "title": "Ormandaki Sir",
+      "description": "Gorev tamamlandi. Once Ed'i Totoy'a geri gotur.",
+      "goal": "Totoy ile konus"
+    },
+    "2279": {
+      "title": "Ormandaki Sir",
+      "description": "Totoy sana tesekkur etti ve odulunu almak icin kisa bir sureligine ayrildi.",
+      "goal": "Totoy ile tekrar konus"
+    },
+    "2280": {
+      "title": "Ormandaki Sir",
+      "description": "Totoy ile isin bitti. Simdi Buwaya hakkinda Guard Leader ile konus.",
+      "goal": "Guard Leader ile konus"
+    },
+    "2281": {
+      "title": "Buwaya'yi Yok Et",
+      "description": "Buwaya Cave'de Buwaya'yi yen ve Guard Leader'a geri don.",
+      "goal": "Buwaya'yi yok et"
     }
   }
 }
