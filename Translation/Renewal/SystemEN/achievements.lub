@@ -32,11 +32,11 @@ achievement_tbl = {
 		resource = {
 			[1] = { text = "Yanggatjip Kyusu" },
 			[2] = { text = "Fine Anak" },
-			[3] = { text = "The Atmospheric Lad" },
-			[4] = { text = "A beautiful wife" },
-			[5] = { text = "Bachelor of Lower Village" },
-			[6] = { text = "Best Anak of Action" },
-			[7] = { text = "The best bachelor of combat power" }
+			[3] = { text = "Havali Delikanli" },
+			[4] = { text = "Guzel Bir Es" },
+			[5] = { text = "Asagi Koyun Bekari" },
+			[6] = { text = "Aksiyonun En Iyi Anak'i" },
+			[7] = { text = "Savas Gucunun En Iyi Bekari" }
 		},
 		reward = {},
 		score = 10
@@ -3587,7 +3587,7 @@ achievement_tbl = {
 		title = "Resmi Maceraci",
 		content = {
 			summary = "1. sinifa gec.",
-			details = "Acolyte, Merchant, Swordman, Mage, Thief or Archer."
+			details = "Acolyte, Merchant, Swordman, Mage, Thief veya Archer."
 		},
 		resource = { [1] = { text = "1. sinifa gec" } },
 		reward = { buff = 12 },
@@ -3601,7 +3601,7 @@ achievement_tbl = {
 		title = "Job Degisiminin Ilk Adimi!",
 		content = {
 			summary = "Job degisiminin ilk adimi",
-			details = "Acolyte, Merchant, Swordman, Mage, Thief or Archer."
+			details = "Acolyte, Merchant, Swordman, Mage, Thief veya Archer."
 		},
 		resource = { [1] = { text = "Job degisiminin ilk adimi" } },
 		reward = { buff = 12 },
@@ -3615,7 +3615,7 @@ achievement_tbl = {
 		title = "Deneyimli Maceraci! (1)",
 		content = {
 			summary = "2-1 siniflarina gec",
-			details = "Knight, Blacksmith, Assassin, Wizard, Priest or Hunter."
+			details = "Knight, Blacksmith, Assassin, Wizard, Priest veya Hunter."
 		},
 		resource = { [1] = { text = "2-1 siniflarina gec" } },
 		reward = { buff = 12 },
@@ -3629,7 +3629,7 @@ achievement_tbl = {
 		title = "Deneyimli Maceraci! (2)",
 		content = {
 			summary = "2-2 siniflarina gec",
-			details = "Crusader, Alchemist, Rogue, Sage, Monk, Bard or Dancer."
+			details = "Crusader, Alchemist, Rogue, Sage, Monk, Bard veya Dancer."
 		},
 		resource = { [1] = { text = "2-2 siniflarina gec" } },
 		reward = { buff = 12 },
@@ -3643,7 +3643,7 @@ achievement_tbl = {
 		title = "Savasci (1)",
 		content = {
 			summary = "Transcendent 2-1 siniflarina gec",
-			details = "Lord Knight, White Smith, Assassin Cross, High Wizard, High Priest or Sniper."
+			details = "Lord Knight, White Smith, Assassin Cross, High Wizard, High Priest veya Sniper."
 		},
 		resource = { [1] = { text = "Transcendent 2-1 siniflarina gec" } },
 		reward = { buff = 12 },
@@ -3657,7 +3657,7 @@ achievement_tbl = {
 		title = "Savasci (2)",
 		content = {
 			summary = "Transcendent 2-2 siniflarina gec",
-			details = "Paladin, Creator, Stalker, Professor, Champion, Clown or Gypsy."
+			details = "Paladin, Creator, Stalker, Professor, Champion, Clown veya Gypsy."
 		},
 		resource = { [1] = { text = "Transcendent 2-2 siniflarina gec" } },
 		reward = { buff = 12 },
@@ -3671,7 +3671,7 @@ achievement_tbl = {
 		title = "Elit Maceraci! (1)",
 		content = {
 			summary = "3-1 siniflarina gec",
-			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger."
+			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop veya Ranger."
 		},
 		resource = { [1] = { text = "3-1 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
@@ -3685,7 +3685,7 @@ achievement_tbl = {
 		title = "Transcendent! (1)",
 		content = {
 			summary = "Transcendent sonrasi 3-1 siniflarina gec",
-			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop or Ranger after transcendent."
+			details = "Transcendent sonrasi Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop veya Ranger."
 		},
 		resource = { [1] = { text = "Transcendent sonrasi 3-1 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
@@ -3699,7 +3699,7 @@ achievement_tbl = {
 		title = "Elit Maceraci! (2)",
 		content = {
 			summary = "3-2 siniflarina gec",
-			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer."
+			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel veya Wanderer."
 		},
 		resource = { [1] = { text = "3-2 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
@@ -3713,7 +3713,7 @@ achievement_tbl = {
 		title = "Transcendent! (2)",
 		content = {
 			summary = "Transcendent sonrasi 3-2 siniflarina gec",
-			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel or Wanderer after transcendent."
+			details = "Transcendent sonrasi Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel veya Wanderer."
 		},
 		resource = { [1] = { text = "Transcendent sonrasi 3-2 siniflarina gec" } },
 		reward = { buff = 12, item = 16483 },
@@ -3727,7 +3727,7 @@ achievement_tbl = {
 		title = "Ozel Karakterin Yolu",
 		content = {
 			summary = "Expanded siniflara gec",
-			details = "Taekwon, Gunslinger, Super Novice, Ninja or Druid."
+			details = "Taekwon, Gunslinger, Super Novice, Ninja veya Druid."
 		},
 		resource = { [1] = { text = "Expanded siniflara gec" } },
 		reward = { buff = 12 },
@@ -3741,7 +3741,7 @@ achievement_tbl = {
 		title = "Benim Yolum Bu!",
 		content = {
 			summary = "Expanded 2. siniflara gec",
-			details = "Soul Linker, Star Gladiator, Rebellion, Oboro/Kagerou or Karnos."
+			details = "Soul Linker, Star Gladiator, Rebellion, Oboro/Kagerou veya Karnos."
 		},
 		resource = { [1] = { text = "Expanded 2. siniflar" } },
 		reward = { buff = 12, item = 16483 },
@@ -5023,7 +5023,7 @@ achievement_tbl = {
 		resource = {
 			[1] = { text = "5 Metalring avla", count = 5 },
 			[2] = { text = "5 Heavy Metalring avla", count = 5 },
-			[3] = { text = "Hunt 5 Magmaring", count = 5 } },
+			[3] = { text = "5 Magmaring avla", count = 5 } },
 		reward = {},
 		score = 20
 	},
