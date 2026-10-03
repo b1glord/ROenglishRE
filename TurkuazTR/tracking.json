@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.0.0",
-    "description": "Ceviri durum aracinin kullandigi ref, pin ve dosya listesini tek noktada tutar",
+    "version": "1.1.0",
+    "description": "Ceviri durum aracinin ref, dosya ve bilincli Ingilizce politikasini takip etmesini saglar",
     "dependency_layer": "Config"
   },
   "locale": "tr-TR",
@@ -36,5 +36,6 @@
       "name": "achievements",
       "path": "Translation/Renewal/SystemEN/achievements.lub"
     }
-  ]
+  ],
+  "intentional_english_path": "TurkuazTR/intentional-english.json"
 }
