@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.0.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Hunter job-change 4000-4013 ve NAVI-korumali Ongoing description sablonlari dahil",
+    "version": "3.1.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4015-4033 maceraci degerlendirme ve prens gorusme zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3435,6 +3435,96 @@
       "title": "Hunter Job Degisimi",
       "description": "Hunter Guild'e geri don ve sinavi gectigini bildir.",
       "goal": "Hunter Guild'e rapor ver"
+    },
+    "4015": {
+      "title": "Maceraci Degerlendiricisi Olmak",
+      "description": "Krallik mufettisiyle bulus ve maceraci degerlendiricisi ol.",
+      "goal": "Krallik mufettisiyle bulus"
+    },
+    "4016": {
+      "title": "Yeterlilik Kaniti",
+      "description": "2 Reins getirerek gucunu kanitla.",
+      "goal": "2 Reins getir"
+    },
+    "4017": {
+      "title": "Yeterlilik Sinavi",
+      "description": "Yetenek sinavini gec ve tam yeterlilik kazan.",
+      "goal": "Yeterlilik sinavini gec"
+    },
+    "4018": {
+      "title": "Prenslerle Bulusma Hazirligi",
+      "description": "Mufettisle tekrar konus ve prenslerle bulusmaya hazirlan.",
+      "goal": "Mufettisle konus"
+    },
+    "4020": {
+      "title": "Prensle Gorusme",
+      "description": "Gaebolg Ailesinden prensle konus.",
+      "goal": "Gaebolg prensiyle konus"
+    },
+    "4021": {
+      "title": "Prensle Gorusme",
+      "description": "Walter Ailesinden prensle konus.",
+      "goal": "Walter prensiyle konus"
+    },
+    "4022": {
+      "title": "Prensle Gorusme",
+      "description": "Rechard Ailesinden prensle konus.",
+      "goal": "Rechard prensiyle konus"
+    },
+    "4023": {
+      "title": "Prensle Gorusme",
+      "description": "Heine Ailesinden prensle konus.",
+      "goal": "Heine prensiyle konus"
+    },
+    "4024": {
+      "title": "Prensle Gorusme",
+      "description": "Wigner Ailesinden prensle konus.",
+      "goal": "Wigner prensiyle konus"
+    },
+    "4025": {
+      "title": "Prensle Gorusme",
+      "description": "Roewenburg Ailesinden prensle konus.",
+      "goal": "Roewenburg prensiyle konus"
+    },
+    "4026": {
+      "title": "Prensle Gorusme",
+      "description": "Nerius Ailesinden prensle konus.",
+      "goal": "Nerius prensiyle konus"
+    },
+    "4027": {
+      "title": "Prensle Gorusme",
+      "description": "Hikayenin devamini dinle.",
+      "goal": "Hikayeyi dinlemeye devam et"
+    },
+    "4028": {
+      "title": "Prens Peter'in Ricasi",
+      "description": "Prens Peter'a mektup yazan kizi bul ve ona cicek ver.",
+      "goal": "Kizi bul ve cicegi ver"
+    },
+    "4029": {
+      "title": "Kizin Ricasi",
+      "description": "Kizin verdigi cicegi Peter'a teslim et.",
+      "goal": "Cicegi Peter'a teslim et"
+    },
+    "4030": {
+      "title": "Ahrum ve Ernst'in Hikayesi",
+      "description": "Ahrum ve Ernst'in hikayesini dinle.",
+      "goal": "Hikayeyi dinle"
+    },
+    "4031": {
+      "title": "Ahrum ve Ernst'in Hikayesi",
+      "description": "Walter Ailesinden birinin burada oldugunu duydun. Neden burada oldugunu ogren.",
+      "goal": "Durumu arastir"
+    },
+    "4032": {
+      "title": "Iki Ailenin Komplosu",
+      "description": "Walter ve Rechard Aileleri arasinda bir komplo var. Bunu yetkili birine bildir.",
+      "goal": "Komployu bildir"
+    },
+    "4033": {
+      "title": "Ahrum'un Olumu",
+      "description": "Prens Ahrum, Ernst tarafindan yenildi. Durumu hemen bildir.",
+      "goal": "Durumu hemen bildir"
     }
   }
 }
