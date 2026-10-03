@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.6.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5251-5264 Morroc insaat tedarik ve atistirmalik gorevleri dahil",
+    "version": "5.7.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5265-5275 Morroc toprak temizleme ve isci tasima gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5346,6 +5346,61 @@
     "5264": {
       "title": "Atistirmalik Siparisi - Bekleme",
       "description": "Sonraki atistirmalik hazirligi baslamadan once mola var.",
+      "goal": "Bekleme suresi: 3 saat"
+    },
+    "5265": {
+      "title": "Topragi Temizle (1)",
+      "description": "Morroc'un kotulukle kirlettigi topragi temizle. Valkyrie tipi 10 Morroc Reincarnation yen.",
+      "goal": "10 Valkyrie tipi Morroc Reincarnation yen"
+    },
+    "5266": {
+      "title": "Topragi Temizle (2)",
+      "description": "Morroc'un kotulukle kirlettigi topragi temizle. Clay tipi 10 Morroc Reincarnation yen.",
+      "goal": "10 Clay tipi Morroc Reincarnation yen"
+    },
+    "5267": {
+      "title": "Topragi Temizle (3)",
+      "description": "Morroc'un kotulukle kirlettigi topragi temizle. Exorcist tipi 10 Morroc Reincarnation yen.",
+      "goal": "10 Exorcist tipi Morroc Reincarnation yen"
+    },
+    "5268": {
+      "title": "Topragi Temizle (4)",
+      "description": "Morroc'un kotulukle kirlettigi topragi temizle. Ghost tipi 10 Morroc Reincarnation yen.",
+      "goal": "10 Ghost tipi Morroc Reincarnation yen"
+    },
+    "5269": {
+      "title": "Topragi Temizle - Bekleme",
+      "description": "Sonraki temizleme gorevi baslayana kadar dinlen.",
+      "goal": "Bekleme suresi: 3 saat"
+    },
+    "5270": {
+      "title": "Isci Tasima",
+      "description": "Isciyi hemen uygun bir insaat alanina gotur.",
+      "goal": "Isciyi insaat alanina gotur"
+    },
+    "5271": {
+      "title": "Isci Tasima",
+      "description": "Supervisor isciyi burada tutmak istiyor. Mercenary Information penceresinden isciyi terhis et ve Supervisor ile tekrar konus.",
+      "goal": "Isciyi terhis et ve Supervisor ile konus"
+    },
+    "5272": {
+      "title": "Isci Tasima",
+      "description": "Supervisor isciyi burada tutmak istiyor. Mercenary Information penceresinden isciyi terhis et ve Supervisor ile tekrar konus.",
+      "goal": "Isciyi terhis et ve Supervisor ile konus"
+    },
+    "5273": {
+      "title": "Isci Tasima",
+      "description": "Supervisor isciyi burada tutmak istiyor. Mercenary Information penceresinden isciyi terhis et ve Supervisor ile tekrar konus.",
+      "goal": "Isciyi terhis et ve Supervisor ile konus"
+    },
+    "5274": {
+      "title": "Isci Tasima",
+      "description": "Supervisor isciyi burada tutmak istiyor. Mercenary Information penceresinden isciyi terhis et ve Supervisor ile tekrar konus.",
+      "goal": "Isciyi terhis et ve Supervisor ile konus"
+    },
+    "5275": {
+      "title": "Isci Tasima - Bekleme",
+      "description": "Yeni isci gelmedi. Daha sonra tekrar gel.",
       "goal": "Bekleme suresi: 3 saat"
     }
   }
