@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.7.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5265-5275 Morroc toprak temizleme ve isci tasima gorevleri dahil",
+    "version": "5.8.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5304-5318 Phantasmagorika polis gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5402,6 +5402,81 @@
       "title": "Isci Tasima - Bekleme",
       "description": "Yeni isci gelmedi. Daha sonra tekrar gel.",
       "goal": "Bekleme suresi: 3 saat"
+    },
+    "5304": {
+      "title": "Polis Sefi Kesler",
+      "description": "Police Chief Kesler ile ilk kez tanistin.",
+      "goal": "Police Chief Kesler"
+    },
+    "5305": {
+      "title": "Polis Memuru Salgran",
+      "description": "Police Officer Salgran ile ilk kez tanistin.",
+      "goal": "Police Officer Salgran"
+    },
+    "5306": {
+      "title": "Polis Memuru Gerev",
+      "description": "Police Officer Gerev ile ilk kez tanistin.",
+      "goal": "Police Officer Gerev"
+    },
+    "5307": {
+      "title": "Polis Memuru Seiden",
+      "description": "Police Officer Seiden ile ilk kez tanistin.",
+      "goal": "Police Officer Seiden"
+    },
+    "5308": {
+      "title": "Polis Memuru Piffs",
+      "description": "Police Officer Piffs ile ilk kez tanistin.",
+      "goal": "Police Officer Piffs"
+    },
+    "5309": {
+      "title": "Polis Sefinin Ricasi",
+      "description": "Kesler, Phantasmagorika polis birimindeki Salgran, Gerev, Seiden ve Piffs'in sorunlarini dinlemeni istedi.",
+      "goal": "Dort polis memurunun sorunlarini dinle"
+    },
+    "5310": {
+      "title": "Salgran'in Sorunu",
+      "description": "Police Officer Salgran'a bir sorunu olup olmadigini sordun.",
+      "goal": "Salgran'i dinle"
+    },
+    "5311": {
+      "title": "Gerev'in Sorunu",
+      "description": "Police Officer Gerev'e bir sorunu olup olmadigini sordun.",
+      "goal": "Gerev'i dinle"
+    },
+    "5312": {
+      "title": "Seiden'in Sorunu",
+      "description": "Police Officer Seiden'a bir sorunu olup olmadigini sordun.",
+      "goal": "Seiden'i dinle"
+    },
+    "5313": {
+      "title": "Piffs'in Sorunu",
+      "description": "Police Officer Piffs'e bir sorunu olup olmadigini sordun.",
+      "goal": "Piffs'i dinle"
+    },
+    "5314": {
+      "title": "Salgran'in Ricasi",
+      "description": "Doom Prayers, Phantasmagorika'nin her yerine yasadisi propaganda birakiyor. Yere kalici olarak yapismadan once 10 Illegal Leaflet kaldir.",
+      "goal": "10 Illegal Leaflet kaldir"
+    },
+    "5315": {
+      "title": "Gerev'in Ricasi",
+      "description": "Insanlar Doom Prayers'in Phantasmagorika'ya biraktigi tuzaklarin kurbani oluyor.",
+      "goal": "10 tuzak kaldir"
+    },
+    "5316": {
+      "title": "Seiden'in Ricasi",
+      "description": "Doom Prayers polis memurlarina tas atiyor. Polislerin guvenligi icin yerdeki 10 tasi kaldir.",
+      "goal": "10 tas kaldir"
+    },
+    "5317": {
+      "title": "Piffs'in Ricasi",
+      "description": "Polis memurlari Doom Prayers ile savasirken surekli yaralaniyor. Yaralilar icin 10 herb topla.",
+      "goal": "10 herb topla"
+    },
+    "5318": {
+      "title": "Yarin Geri Gel",
+      "description": "Daha fazla is icin yarin Phantasmagorika Police Chief'e geri don.",
+      "goal": "Bekleme suresi: 23 saat"
     }
   }
 }
