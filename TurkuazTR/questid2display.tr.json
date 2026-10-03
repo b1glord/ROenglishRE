@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "5.4.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5161-5182 Energy Crystal gunluk av gorevleri dahil",
+    "version": "5.5.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5222-5227 Energy Crystal biriktirme ve bekleme gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5247,6 +5247,36 @@
       "title": "En Yuksek Seviye Toplama Gorevi",
       "description": "Energy Crystal Research icin 100 Ancient Mimic avlarsan 10 High Purity Energy Crystal kazanabilirsin.",
       "goal": "100 Ancient Mimic avla"
+    },
+    "5222": {
+      "title": "Energy Crystal Biriktirme",
+      "description": "Rough Energy Crystal'i vucudunda biriktiriyorsun. ^FF0000Buff kaybolursa Reno'ya git.^000000",
+      "goal": "Buff kaybolursa Reno'ya git"
+    },
+    "5223": {
+      "title": "Energy Crystal Biriktirme",
+      "description": "Purified Energy Crystal'i vucudunda biriktiriyorsun. ^FF0000Buff kaybolursa Reno'ya git.^000000",
+      "goal": "Buff kaybolursa Reno'ya git"
+    },
+    "5224": {
+      "title": "Energy Crystal Biriktirme",
+      "description": "High Energy Crystal'i vucudunda biriktiriyorsun. ^FF0000Buff kaybolursa Reno'ya git.^000000",
+      "goal": "Buff kaybolursa Reno'ya git"
+    },
+    "5225": {
+      "title": "Energy Crystal Biriktirme - Bekleme",
+      "description": "Rough Energy Crystal'i vucudunda tekrar biriktirmek icin yaklasik ^FF000020 saat^000000 beklemelisin.",
+      "goal": "Bekleme suresi: 20 saat"
+    },
+    "5226": {
+      "title": "Energy Crystal Biriktirme - Bekleme",
+      "description": "Purified Energy Crystal'i vucudunda tekrar biriktirmek icin yaklasik ^FF000020 saat^000000 beklemelisin.",
+      "goal": "Bekleme suresi: 20 saat"
+    },
+    "5227": {
+      "title": "Energy Crystal Biriktirme - Bekleme",
+      "description": "High Energy Crystal'i vucudunda tekrar biriktirmek icin yaklasik ^FF000020 saat^000000 beklemelisin.",
+      "goal": "Bekleme suresi: 20 saat"
     }
   }
 }
