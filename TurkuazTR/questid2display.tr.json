@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.4.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5016-5034 Raffle Researcher ve Bathtub arastirma zinciri dahil",
+    "version": "4.5.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5035-5051 Dewata Memo ve Lero gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4542,6 +4542,91 @@
       "title": "Aileden Haber",
       "description": "Fishee'nin ailesini buldun. Haberi vermek icin Fishee'ye geri don.",
       "goal": "Bathtub'daki Fishee'ye haber ver"
+    },
+    "5035": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Dewata Adasi'ndaki Mr. Memo zor durumda. Ona yardim etmek icin Jaty kabilesinde neler oldugunu ogren.",
+      "goal": "Dewata Adasi saat 10 yonundeki Jaty Kabilesine git"
+    },
+    "5036": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Palm Oil yapmak icin Palm Oil Fruit gerekiyor. Meyve toplamaya giden Poby geri donmedi. Palm ormanina git ve Poby'yi bul.",
+      "goal": "Palm ormaninin guneyinde Poby'yi bul"
+    },
+    "5037": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Guvenlik ekipmani olmadan agaca cikan Poby dustu ve sirtini incitti. Hareket edemiyor.",
+      "goal": "Poby'nin durumunu Jaty kabilesindeki Lero'ya bildir"
+    },
+    "5038": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Yarali Poby'nin yerine Lero icin meyve toplamaya karar verdin.",
+      "goal": "Palm agaclarindan nasil meyve toplanacagini Poby'ye sor"
+    },
+    "5039": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Palm agacina cikmak yerine agaci sallayabilir veya tekmeleyebilirsin. Guvenlik icin Safety Helmet kullanman oneriliyor.",
+      "goal": "60 Palm Oil Fruit topla ve Lero'ya getir"
+    },
+    "5040": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Lero, Palm Oil Fruit'lerden yag cikarirken son durumu Memo'ya bildirmeni istiyor.",
+      "goal": "Lero'nun mesajini Dewata Adasi'ndaki Mr. Memo'ya ilet"
+    },
+    "5041": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Memo, Palm Oil'lerin artik hazir olmasi gerektigini soyluyor.",
+      "goal": "Jaty kabilesindeki Lero'dan yaglari al"
+    },
+    "5042": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "30 taze Palm Oil'i Memo'ya gotur.",
+      "goal": "30 Palm Oil'i Memo'ya getir"
+    },
+    "5043": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Getirdigin yaglarla Memo once acil isleri halledecek.",
+      "goal": "Memo acil isleriyle ilgilenirken 5 dakika bekle"
+    },
+    "5044": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Dewata Adasi'ndaki yasli Memo sana cok tesekkur ediyor. Yarin tekrar yardim etmeni umuyor.",
+      "goal": "24 saat sonra Memo'yu tekrar ziyaret et"
+    },
+    "5045": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Memo yardim icin geldigin icin tesekkur ediyor. Jaty kabilesindeki Lero'ya yardim edip yaglari getirmeni istiyor.",
+      "goal": "Dewata Adasi saat 10 yonundeki Jaty Kabilesine git"
+    },
+    "5046": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Lero senden 20 Oil Palm Fruit toplamani istiyor.",
+      "goal": "Jaty kabilesi saat 5 yonundeki palm ormanina git"
+    },
+    "5047": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "10 Palm Oil'i Memo'ya gotur.",
+      "goal": "10 Palm Oil'i Memo'ya getir"
+    },
+    "5048": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Lero senden 30 Palm Oil Fruit toplamani istiyor.",
+      "goal": "Jaty kabilesi saat 5 yonundeki palm ormanina git"
+    },
+    "5049": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "15 Palm Oil'i Memo'ya gotur.",
+      "goal": "15 Palm Oil'i Memo'ya getir"
+    },
+    "5050": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "Lero senden 40 Oil Palm Fruit toplamani istiyor.",
+      "goal": "Jaty kabilesi saat 5 yonundeki palm ormanina git"
+    },
+    "5051": {
+      "title": "Yasli Adama Yardim Et!",
+      "description": "20 Palm Oil'i Memo'ya gotur.",
+      "goal": "20 Palm Oil'i Memo'ya getir"
     }
   }
 }
