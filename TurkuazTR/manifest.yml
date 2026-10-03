@@ -1,0 +1,54 @@
+# 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
+# 📌 Amac: 2022-04-06 Turkce client entegrasyon kaynaklarini ve durumlarini sabitler
+# 📌 Config - YAML
+# Version: 1.0.0
+# Aciklama: Upstream, client baseline ve Turkce overlay kaynaklarini kayip olmadan takip eder
+# Bagimli Oldugu Katman: Config
+
+project:
+  locale: tr-TR
+  client_date: "2022-04-06"
+
+refs:
+  archive: "archive/tr-2025-10-25"
+  translation: "translation/tr"
+  upstream_latest: "upstream/latest"
+  client_baseline: "client/2022-04-06"
+  integration: "integration/2022-04-06-tr"
+
+pins:
+  client_baseline_sha: "4b8cc693b6491bc9edea70b7622364ba0750acf0"
+  translation_merge_base_sha: "d336ab454031fda5868e710cbf2435216474bff4"
+  upstream_latest_sha: "85f216a230bf9180451fa29a37505baeb676c559"
+
+files:
+  - target: "Renewal/tipoftheday.txt"
+    source: "Translation/Renewal/tipoftheday.txt"
+    status: integrated
+    strategy: full_text_overlay
+
+  - target: "Renewal/GuildTip.txt"
+    source: "Translation/Renewal/GuildTip.txt"
+    status: integrated
+    strategy: exact_base_overlay
+
+  - target: "Renewal/data/ba_frostjoke.txt"
+    source: "Translation/Renewal/data/ba_frostjoke.txt"
+    status: integrated
+    strategy: exact_base_overlay
+
+  - target: "Renewal/data/dc_scream.txt"
+    source: "Translation/Renewal/data/dc_scream.txt"
+    status: integrated
+    strategy: exact_base_overlay
+
+  - target: "Renewal/data/msgstringtable.txt"
+    source: "Translation/Renewal/data/msgstringtable.txt"
+    status: integrated_partial
+    strategy: exact_english_line_mapping
+    applied_lines: 891
+
+  - target: null
+    source: "Translation/Renewal/SystemEN/achievements.lub"
+    status: pending
+    strategy: requires_2022_feature_compatibility

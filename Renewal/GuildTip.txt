@@ -1,61 +1,54 @@
 #
-[ Guild Creation ]
- 1. Guild must have in possession a Emperium. 
- (One must obtain an Emperium from Quest/Monsters.)
+[ Lonca Kurulumu ]
+Loncanın bir Emperium eşyasına sahip olması gerekir.
+(Emperium, görevlerden (Quest) veya canavarlardan (Monsters) elde edilebilir.)
  
- 2. Ways to Create a Guild: 
- /guild (guild) 
- 'Make Guild Button [Alt+G].
+2. Lonca Kurma Yöntemleri:
+/guild [lonca_adı] komutunu kullanın
+veya [Alt] + [G] tuşlarına basarak açılan pencerede “Make Guild” düğmesine tıklayın.
  
- 3. ALT+G: Guild Information Called.
+3. [Alt] + [G] : Lonca bilgisi penceresini açar.
 #
  
-[ Guild Information Window ] 
-#
- 1. Guild, Experience, Guild Level, Guild Emblem,
-  Master Name, Enemies, Points, Average Member
-  Level, Alliance, Hostile Guilds can be found.
-#
- 
- 2. Membership Information : 
-  Guild members to look for individual information and
-  being able to withdraw from one's guild. Guild must remove
-  all members if the guild master wishes to disband the guild.
+[ Lonca Bilgi Penceresi ]
+Burada şu bilgiler görüntülenebilir:
+Lonca adı, deneyim (EXP), lonca seviyesi, lonca amblemi,
+lider adı, düşmanlar, puanlar, üyelerin ortalama seviyesi,
+ittifaklar ve düşman loncalar.
 #
  
- 3. Set Position : 
- Taxing members up to 50%
+2. Üyelik Bilgisi:
+Lonca üyeleri, diğer üyelerin bireysel bilgilerini görüntüleyebilir ve isterlerse loncadan ayrılabilirler.
+Eğer lonca lideri loncayı feshetmek (disband) istiyorsa, önce tüm üyelerin çıkarılması gerekir.
 #
  
- 4. Guild Skill : 
- When a Guild levels up, the guild master
- can use points to advance guild skills by
- investing in them once they are available.
+3. Pozisyon Ayarları:
+Üyelerden en fazla %50 oranında vergi (tax) alınabilir.
 #
  
- 5. Outcast : 
- Guild's exile list
- Also includes reason of banishment...
+4. Lonca Becerileri:
+Lonca seviye atladığında, lonca lideri (guild master) kazanılan puanları kullanarak mevcut lonca becerilerine (guild skills) yatırım yapabilir ve bu becerileri geliştirebilir.
 #
  
- 6. Guild Master Announcements
- Members can be notified.
+5. Sürgün Listesi (Outcast):
+Loncanın ihraç edilen (sürgün edilen) üyelerinin listesini gösterir.
+Ayrıca her üyenin loncadan atılma (banlanma) nedenini de içerir.
 #
  
-[ Registration and Emblems ]
-#
- 1) 24x24 pixel of 256-color bitmap (BMP)
- To Create Emblems.
+6. Lonca Lideri Duyuruları:
+Lonca lideri tarafından yapılan duyurular, tüm üyelere bildirilir.
 #
  
- 2) Install emblems in the "Emblem" folder 
- Where Ragnarok Online is installed.
+[ Kayıt ve Amblem ]
+Amblem oluşturmak için 24x24 piksel boyutunda, 256 renkli BMP (bitmap) dosyası kullanılmalıdır.
 #
  
- 3) Information Window Emblem
- Click "Edit" to change guild emblem.
+2) Amblemleri, Ragnarok Online’ın kurulu olduğu dizindeki “Emblem” klasörüne yerleştirin.
 #
  
- 4) Emblem can only be changed by the 
- Guild Master at anytime.
+3) Bilgi Penceresi – Amblem:
+Lonca amblemini değiştirmek için “Edit” (Düzenle) seçeneğine tıklayın.
+#
+ 
+4) Amblem yalnızca lonca lideri (Guild Master) tarafından, istenilen zamanda değiştirilebilir.
 #		
