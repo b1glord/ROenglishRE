@@ -1,7 +1,7 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # Amac: Turkce localization takip araclarini ve Lua ceviri yapisini CI uzerinde dogrular
 # Modul: Tool - YAML
-# Version: 1.5.0
+# Version: 1.6.0
 # Aciklama: Translation status, Python syntax ve achievements.lub structural validation calistirir
 # Bagimli Oldugu Katman: Tool
 
@@ -18,6 +18,7 @@ on:
       - "TurkuazTR/**"
       - "Tools/turkuaz_translation_status.py"
       - "Tools/validate_achievement_translation.py"
+      - "Tools/validate_questid2display_translation.py"
       - ".github/workflows/turkuaz-translation-validation.yml"
 
   pull_request:
@@ -52,7 +53,8 @@ jobs:
           set -euo pipefail
           python3 -m py_compile \
             Tools/turkuaz_translation_status.py \
-            Tools/validate_achievement_translation.py
+            Tools/validate_achievement_translation.py \
+            Tools/validate_questid2display_translation.py
 
       - name: Report translation status
         shell: bash
@@ -105,6 +107,14 @@ jobs:
           python3 Tools/validate_achievement_translation.py \
             --path Translation/Renewal/SystemEN/Navi_Data.lub \
             --allow-non-ascii \
+            --translation-ref HEAD \
+            --upstream-ref refs/remotes/origin/upstream/latest
+
+      - name: Validate quest display structure
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/validate_questid2display_translation.py \
             --translation-ref HEAD \
             --upstream-ref refs/remotes/origin/upstream/latest
 
