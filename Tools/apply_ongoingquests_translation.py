@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # 📄 Dosya Yolu: /ROenglishRE/Tools/apply_ongoingquests_translation.py
-# 📌 Amac: OngoingQuests.lub icinde Title ve Summary alanlarini byte-safe Turkce patch ile gunceller
+# 📌 Amac: OngoingQuests.lub icinde guvenli Title, Summary ve Description alanlarini byte-safe Turkce patch ile gunceller
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: Description ve NAVI alanlarina dokunmaz; kaynak byte yapisini ve satir sonlarini korur
+# Version: 1.1.0
+# Aciklama: Title ve Summary alanlarini gunceller; yalnizca tek satirli ve NAVI etiketsiz Description alanlarini cevirir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -17,6 +17,10 @@ from pathlib import Path
 
 RECORD_RE = re.compile(rb"^\s*\[(\d+)\]\s*=\s*\{\s*$")
 FIELD_RE = re.compile(rb'^(\s*(Title|Summary)\s*=\s*")(.*)("[,]?\s*)$')
+DESCRIPTION_START_RE = re.compile(rb"^\s*Description\s*=\s*\{\s*$")
+DESCRIPTION_VALUE_RE = re.compile(rb'^(\s*")(.*)("[,]?\s*)$')
+DESCRIPTION_END_RE = re.compile(rb"^\s*\}[,]?\s*$")
+NAVI_MARKERS = (b"<NAVI>", b"<INFO>", b"</NAVI>", b"</INFO>")
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -65,9 +69,54 @@ def record_ranges(lines: list[bytes]) -> dict[str, tuple[int, int]]:
     return result
 
 
+def safe_description_index(
+    lines: list[bytes],
+    start: int,
+    end: int,
+) -> tuple[int | None, str]:
+    description_start: int | None = None
+    description_end: int | None = None
+
+    for index in range(start, end):
+        body, _ = split_content_and_eol(lines[index])
+        if description_start is None:
+            if DESCRIPTION_START_RE.match(body):
+                description_start = index
+            continue
+
+        if DESCRIPTION_END_RE.match(body):
+            description_end = index
+            break
+
+    if description_start is None or description_end is None:
+        return None, "description-block-missing"
+
+    value_indexes: list[int] = []
+    for index in range(description_start + 1, description_end):
+        body, _ = split_content_and_eol(lines[index])
+        if DESCRIPTION_VALUE_RE.match(body):
+            value_indexes.append(index)
+        elif body.strip():
+            return None, "description-structure-complex"
+
+    if len(value_indexes) != 1:
+        return None, "description-multiline"
+
+    value_body, _ = split_content_and_eol(lines[value_indexes[0]])
+    value_match = DESCRIPTION_VALUE_RE.match(value_body)
+    if value_match is None:
+        return None, "description-value-missing"
+
+    source_value = value_match.group(2)
+    if any(marker in source_value for marker in NAVI_MARKERS):
+        return None, "description-has-navi"
+
+    return value_indexes[0], "safe"
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Apply byte-safe OngoingQuests Title/Summary translations."
+        description="Apply byte-safe OngoingQuests translations."
     )
     parser.add_argument("--repo-root", default=None)
     parser.add_argument(
@@ -97,6 +146,8 @@ def main() -> int:
 
     applied_records = 0
     changed_lines = 0
+    description_patched = 0
+    description_skipped: dict[str, int] = {}
     missing_records: list[str] = []
 
     for quest_id, patch in patches.items():
@@ -132,6 +183,25 @@ def main() -> int:
         if b"Title" not in seen:
             raise ValueError(f"{quest_id}: Title alani bulunamadi")
 
+        description_index, reason = safe_description_index(source_lines, start, end)
+        if description_index is not None:
+            body, eol = split_content_and_eol(source_lines[description_index])
+            match = DESCRIPTION_VALUE_RE.match(body)
+            if match is None:
+                raise ValueError(f"{quest_id}: guvenli Description satiri ayrisitirilamadi")
+            replacement = ascii_lua_string(
+                patch.get("description", ""),
+                quest_id,
+                "description",
+            )
+            new_body = match.group(1) + replacement + match.group(3)
+            output_lines[description_index] = new_body + eol
+            if output_lines[description_index] != source_lines[description_index]:
+                changed_lines += 1
+                description_patched += 1
+        else:
+            description_skipped[reason] = description_skipped.get(reason, 0) + 1
+
         applied_records += 1
 
     if len(output_lines) != len(source_lines):
@@ -155,8 +225,11 @@ def main() -> int:
 
     print(f"Patch config records: {len(patches)}")
     print(f"OngoingQuests matched records: {applied_records}")
-    print(f"Changed Title/Summary lines: {changed_lines}")
+    print(f"Changed translation lines: {changed_lines}")
+    print(f"Safe Description lines patched: {description_patched}")
     print(f"Missing OngoingQuests records: {len(missing_records)}")
+    for reason, count in sorted(description_skipped.items()):
+        print(f"Skipped {reason}: {count}")
     if missing_records:
         print("Missing IDs: " + ", ".join(sorted(missing_records, key=int)[:50]))
     return 0

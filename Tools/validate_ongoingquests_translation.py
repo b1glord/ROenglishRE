@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # 📄 Dosya Yolu: /ROenglishRE/Tools/validate_ongoingquests_translation.py
-# 📌 Amac: OngoingQuests.lub Title ve Summary cevirilerinin byte-safe kapsamda kaldigini dogrular
+# 📌 Amac: OngoingQuests.lub guvenli alan cevirilerinin byte-safe kapsamda kaldigini dogrular
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: Hedef questlerin Title/Summary satirlari disinda kaynak blob ile birebir byte esitligi ister
+# Version: 1.1.0
+# Aciklama: Hedef questlerde Title, Summary ve yalnizca guvenli tek satirli NAVI etiketsiz Description degisikliklerine izin verir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -17,6 +17,10 @@ from pathlib import Path
 
 RECORD_RE = re.compile(rb"^\s*\[(\d+)\]\s*=\s*\{\s*$")
 FIELD_RE = re.compile(rb'^\s*(Title|Summary)\s*=\s*".*"[,]?\s*$')
+DESCRIPTION_START_RE = re.compile(rb"^\s*Description\s*=\s*\{\s*$")
+DESCRIPTION_VALUE_RE = re.compile(rb'^\s*"(.*)"[,]?\s*$')
+DESCRIPTION_END_RE = re.compile(rb"^\s*\}[,]?\s*$")
+NAVI_MARKERS = (b"<NAVI>", b"<INFO>", b"</NAVI>", b"</INFO>")
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -42,26 +46,92 @@ def split_content_and_eol(line: bytes) -> tuple[bytes, bytes]:
     return line, b""
 
 
-def allowed_indexes(lines: list[bytes], patch_ids: set[str]) -> set[int]:
-    allowed: set[int] = set()
-    current_id: str | None = None
-
+def record_ranges(lines: list[bytes]) -> dict[str, tuple[int, int]]:
+    starts: list[tuple[str, int]] = []
     for index, raw_line in enumerate(lines):
         body, _ = split_content_and_eol(raw_line)
-        record_match = RECORD_RE.match(body)
-        if record_match:
-            current_id = record_match.group(1).decode("ascii")
+        match = RECORD_RE.match(body)
+        if match:
+            starts.append((match.group(1).decode("ascii"), index))
+
+    result: dict[str, tuple[int, int]] = {}
+    for offset, (quest_id, start) in enumerate(starts):
+        end = starts[offset + 1][1] if offset + 1 < len(starts) else len(lines)
+        result[quest_id] = (start, end)
+    return result
+
+
+def safe_description_index(
+    lines: list[bytes],
+    start: int,
+    end: int,
+) -> int | None:
+    description_start: int | None = None
+    description_end: int | None = None
+
+    for index in range(start, end):
+        body, _ = split_content_and_eol(lines[index])
+        if description_start is None:
+            if DESCRIPTION_START_RE.match(body):
+                description_start = index
             continue
 
-        if current_id in patch_ids and FIELD_RE.match(body):
-            allowed.add(index)
+        if DESCRIPTION_END_RE.match(body):
+            description_end = index
+            break
+
+    if description_start is None or description_end is None:
+        return None
+
+    value_indexes: list[int] = []
+    for index in range(description_start + 1, description_end):
+        body, _ = split_content_and_eol(lines[index])
+        match = DESCRIPTION_VALUE_RE.match(body)
+        if match:
+            value_indexes.append(index)
+        elif body.strip():
+            return None
+
+    if len(value_indexes) != 1:
+        return None
+
+    body, _ = split_content_and_eol(lines[value_indexes[0]])
+    match = DESCRIPTION_VALUE_RE.match(body)
+    if match is None:
+        return None
+
+    source_value = match.group(1)
+    if any(marker in source_value for marker in NAVI_MARKERS):
+        return None
+
+    return value_indexes[0]
+
+
+def allowed_indexes(lines: list[bytes], patch_ids: set[str]) -> set[int]:
+    allowed: set[int] = set()
+    ranges = record_ranges(lines)
+
+    for quest_id in patch_ids:
+        record_range = ranges.get(quest_id)
+        if record_range is None:
+            continue
+
+        start, end = record_range
+        for index in range(start, end):
+            body, _ = split_content_and_eol(lines[index])
+            if FIELD_RE.match(body):
+                allowed.add(index)
+
+        description_index = safe_description_index(lines, start, end)
+        if description_index is not None:
+            allowed.add(description_index)
 
     return allowed
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Validate byte-safe OngoingQuests Title/Summary translations."
+        description="Validate byte-safe OngoingQuests translations."
     )
     parser.add_argument("--repo-root", default=None)
     parser.add_argument(
@@ -111,7 +181,7 @@ def main() -> int:
             continue
 
         if index not in allowed:
-            print(f"Title/Summary disi byte degisikligi: satir {index + 1}", file=sys.stderr)
+            print(f"Izinli alan disi byte degisikligi: satir {index + 1}", file=sys.stderr)
             return 1
 
         _, source_eol = split_content_and_eol(source)
@@ -124,14 +194,10 @@ def main() -> int:
             print(f"Degisen satirda ASCII disi byte var: satir {index + 1}", file=sys.stderr)
             return 1
 
-        if not FIELD_RE.match(target_body):
-            print(f"Title/Summary yapisi bozuldu: satir {index + 1}", file=sys.stderr)
-            return 1
-
         changed += 1
 
-    print("OngoingQuests byte-safe Title/Summary validation: OK")
-    print(f"Allowed Title/Summary lines: {len(allowed)}")
+    print("OngoingQuests byte-safe translation validation: OK")
+    print(f"Allowed translation lines: {len(allowed)}")
     print(f"Changed lines: {changed}")
     return 0
 
