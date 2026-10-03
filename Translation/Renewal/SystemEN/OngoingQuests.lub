@@ -286,7 +286,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Orman Sisinden Kurtulanlar",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Meet <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>, a traveler at the Mora Village Inn, and ask about Lope's whereabouts."
+			"Mora Village Inn'deki gezgin <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI> ile bulus ve Lope'un nerede oldugunu sor."
 		},
 		Summary = ""
 	},
@@ -294,7 +294,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Sis Kurbanlari",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You found someone named Pitt who says that Lope should be alive somewhere but not sure where. Go back to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and tell her what you've discovered."
+			"Pitt, Lope'un bir yerlerde hayatta olmasi gerektigini fakat nerede oldugunu bilmedigini soyluyor. <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI>'ye geri don ve ogrendiklerini anlat."
 		},
 		Summary = "Euridi'ye geri don"
 	},
@@ -302,7 +302,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Orman Sisi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Look for ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and bring them to <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>. If you gather 30 it should be enough."
+			"<NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> icinde ^0000FFLope's Clue^000000 ara ve bunlari <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>'e getir. 30 tane toplaman yeterli olmali."
 		},
 		Summary = "30 Lope's Clue topla"
 	},
@@ -310,7 +310,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Labirent",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Pitt isn't helping much. You should bring Lope's Clues over to <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> and see if she can do something with them."
+			"Pitt pek yardimci olmuyor. Lope's Clue'lari <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI>'ye gotur ve bir sey yapip yapamayacagina bak."
 		},
 		Summary = "Lope's Clue'lari Euridi'ye getir"
 	},
@@ -318,7 +318,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Parcalanmis Soz",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"After piecing the clues together, <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI> had to have something to do with what happened to Lope."
+			"Ipuclarini birlestirdiginde <NAVI>[Pitt]<INFO>mora,64,147,0,101,0</INFO></NAVI>'in Lope'a olanlarla bir ilgisi oldugu anlasiliyor."
 		},
 		Summary = ""
 	},
@@ -326,7 +326,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Fedakarligin Bedeli",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Pitt has given you Lope's Ring and confessed to what he did. You should tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> what happened."
+			"Pitt sana Lope's Ring'i verdi ve yaptiklarini itiraf etti. <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI>'ye neler oldugunu anlat."
 		},
 		Summary = "Euridi'ye geri don"
 	},
@@ -334,7 +334,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Ucurumun Sarkisi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"As Euridi sings a song for Lope, Euridi's friend said that she heard of a <NAVI>[Suspicious Man]<INFO>bif_fild01,132,338,0,101,0</INFO></NAVI> near the entrance to the Hazy Forest."
+			"Euridi Lope icin sarki soylerken arkadasi, Hazy Forest girisi yakininda bir <NAVI>[Suspicious Man]<INFO>bif_fild01,132,338,0,101,0</INFO></NAVI> duydugunu soyledi."
 		},
 		Summary = ""
 	},
@@ -342,7 +342,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Olulerin Sarkisi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You have found Lope but he tells you to tell <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI> that he has turned to dust. He can no longer be with her in the way that they hoped."
+			"Lope'u buldun ama <NAVI>[Euridi]<INFO>mora,117,66,0,101,0</INFO></NAVI>'ye toza donustugunu soylemeni istiyor. Artik umduklarinin aksine onunla birlikte olamaz."
 		},
 		Summary = ""
 	},
@@ -350,7 +350,7 @@ QuestInfoList = {
 		Title = "Lope ve Euridi - Sonsuzluk Sozu",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"I hope this isn't the end... Let's go to <NAVI>[Euridi's Friend]<INFO>mora,115,68,0,101,0</INFO></NAVI>."
+			"Umarim bu son degildir... <NAVI>[Euridi's Friend]<INFO>mora,115,68,0,101,0</INFO></NAVI>'ne gidelim."
 		},
 		Summary = "Euridi'nin Arkadasi ile konus"
 	},
@@ -358,7 +358,7 @@ QuestInfoList = {
 		Title = "Mahalle Sovalyeleri",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 30 ^0000FFLope's Clues^000000 in the <NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> and return to the <NAVI>[Knights of the Neighborhood Leader]<INFO>mora,114,163,0,101,0</INFO></NAVI>."
+			"<NAVI>[Hazy Forest]<INFO>bif_fild01,158,340,0,101,0</INFO></NAVI> icinde 30 ^0000FFLope's Clue^000000 topla ve <NAVI>[Knights of the Neighborhood Leader]<INFO>mora,114,163,0,101,0</INFO></NAVI>'ne geri don."
 		},
 		Summary = ""
 	},
@@ -8165,116 +8165,116 @@ QuestInfoList = {
 		Summary = "Battle with the Miter"
 	},
 	[4000] = {
-		Title = "Sherin's Interview",
+		Title = "Sherin'in Is Gorusmesi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You've got to pass Sherin's interview to take a step forward."
+			"Bir adim ileri gitmek icin Sherin'in sinavini gecmelisin."
 		},
 		Summary = ""
 	},
 	[4001] = {
-		Title = "Job Change to Hunter",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Meet the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI> to continue the test."
 		},
-		Summary = "Meet the Hunter Guildsman"
+		Summary = "Hunter Guildsman ile bulus"
 	},
 	[4002] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 5 Resin, 5 Insect Feeler, 3 White Herb"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4003] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 3 Bill of Birds, 5 Skel-bone, 3 Green Herbs"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4004] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 3 Rainbow Shell, 3 Animal Skin, 5 Red Herb"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4005] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 3 Poison Spore, 3 Horn, 10 Fluff"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4006] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 9 Shell, 9 Worm Peeling, 9 Yellow Herb"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4007] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 3 Tooth of Bat, 1 Sticky Mucus, 1 Bear's Footskin"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4008] = {
-		Title = "Job Change to Hunter - Collecting Items",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Collect the items that the <NAVI>[Guild Receptionist]<INFO>hu_in01,382,382,0,101,0</INFO></NAVI>, Demon Hunter, told you about: 2 Porcupine Quill, 1 Yoyo Tail, 1 Acorn"
 		},
-		Summary = "Bring the required materials"
+		Summary = "Gerekli malzemeleri getir"
 	},
 	[4009] = {
-		Title = "Job Change to Hunter",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Go to our <NAVI>[Guildmaster]<INFO>payon_in03,131,7,0,101,0</INFO></NAVI> who is in Payon Central Palace"
 		},
-		Summary = "Meet the Guildmaster in Payon"
+		Summary = "Payon'daki Guildmaster ile bulus"
 	},
 	[4010] = {
-		Title = "Job Change to Hunter",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Go talk to our <NAVI>[Guildmaster]<INFO>payon_in02,21,31,0,101,0</INFO></NAVI> who is at the Archer Guild."
 		},
-		Summary = "Meet the Guildmaster in Archer Guild"
+		Summary = "Archer Guild'deki Guildmaster ile bulus"
 	},
 	[4011] = {
-		Title = "Job Changes to Hunter - Test",
+		Title = "Hunter Job Degisimi - Sinav",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Defeat all ^ff0000Job Change Monster^000000s and the switch will appear. Destroy the switch and escape through the exit in the direction of 12 o'clock."
+			"Tum ^ff0000Job Change Monster^000000 canavarlarini yen; switch gorunecek. Switch'i yok et ve saat 12 yonundeki cikistan kac."
 		},
-		Summary = "Complete the Test"
+		Summary = "Job Change Monster canavarlarini yen"
 	},
 	[4012] = {
-		Title = "Job Change to Hunter",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Report to the <NAVI>[Guildmaster]<INFO>payon_in02,21,31,0,101,0</INFO></NAVI> that you've passed the test."
 		},
-		Summary = "Report to Hunter Guild Master"
+		Summary = "Hunter Guild Master'a rapor ver"
 	},
 	[4013] = {
-		Title = "Job Change to Hunter",
+		Title = "Hunter Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Go back to the <NAVI>[Hunter Guild]<INFO>hu_in01,386,373,0,101,0</INFO></NAVI> and report that you've passed the exam."
 		},
-		Summary = "Report to Hunter Guild"
+		Summary = "Hunter Guild'e rapor ver"
 	},
 	[4015] = {
 		Title = "Becoming an Adventurer Appraiser",
