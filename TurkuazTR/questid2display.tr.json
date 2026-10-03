@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.7.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Nidhoggur ve Wandering Purple Dragon gorevleri dahil",
+    "version": "2.8.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Rune Knight job-change zinciri 3200-3220 dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3180,6 +3180,111 @@
       "title": "Gezgin Purple Dragon",
       "description": "Hazy Forest'taki Wandering Purple Dragon'u avla.",
       "goal": "Wandering Purple Dragon'u avla"
+    },
+    "3200": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Glast Heim'in kuzeybati kosesine git ve seni Glast Heim Tower girisine yonlendirecek Rune Knight'i bul.",
+      "goal": ""
+    },
+    "3201": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Glast Heim Chivalry'nin ikinci katindaki gizli Rune Knight toplanti alanini ara. Seni toplanti alanina goturecek Rune Knight gorevlisini bul.",
+      "goal": ""
+    },
+    "3202": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Rune Knight Captain Tigris, Rune Knight olmak icin ilk sinavi baslatmak uzere Rune Knight Lunarea'ya gitmeni soyluyor.",
+      "goal": ""
+    },
+    "3203": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Lunarea seni ilk sinav odasina yonlendirdi. Ilk sinavi gecmek icin cagrilan tum canavarlari yen.",
+      "goal": ""
+    },
+    "3204": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Captain Tigris ile konusarak sinava devam et.",
+      "goal": ""
+    },
+    "3205": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Sinavin sonraki bolumu icin kutuphanedeki Rune Knight Renoa ile konus.",
+      "goal": ""
+    },
+    "3206": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Renoa, Rune Knight olmanin bir parcasinin da calismak oldugunu soyluyor. Kutuphanedeki 3 kitabi dikkatlice oku ve bitirdiginde Renoa ile konus.",
+      "goal": ""
+    },
+    "3207": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Ash Vacuum'daki Rune Midgard Kampinda bulunan Lapine Sage Serpeone ile konus.",
+      "goal": ""
+    },
+    "3208": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Bilge Sage Serpeone, diger canlilardan buyu enerjisi toplayabilmen icin bedenine bir buyu uyguladi.",
+      "goal": ""
+    },
+    "3209": {
+      "title": "Dullahan Avi",
+      "description": "Dullahan avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin.",
+      "goal": "10 Dullahan avla"
+    },
+    "3210": {
+      "title": "Disguise Avi",
+      "description": "Disguise avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin.",
+      "goal": "10 Disguise avla"
+    },
+    "3211": {
+      "title": "Quve Avi",
+      "description": "Quve avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin.",
+      "goal": "10 Quve avla"
+    },
+    "3212": {
+      "title": "Heirozoist Avi",
+      "description": "Heirozoist avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin.",
+      "goal": "10 Heirozoist avla"
+    },
+    "3213": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Rune Knight olmak icin bedeninde yeterli buyu enerjisi topladin. Sage Serpeone ile konus; seni Rune Knight toplanti alanina gonderecek.",
+      "goal": ""
+    },
+    "3214": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Renoa'nin arkasindaki Rune Furnace ile 20 Rune Stone yap. Kutuphanedeki kitaplarda Rune Stone hakkindaki tum bilgiler bulunuyor. 20 tane hazirladiginda Renoa'ya bildir.",
+      "goal": "20 Rune Stone yap"
+    },
+    "3215": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Renoa'nin sinavini gectin. Sinavin sonraki bolumu icin Captain Tigris'e geri don.",
+      "goal": ""
+    },
+    "3216": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Rune Knight toplanti alaninin sag tarafindaki Velpino'nun sinavina gir.",
+      "goal": ""
+    },
+    "3217": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Son sinavdan once tek elli silah ve kalkan ya da cift elli silah disindaki tum ekipmanlarini cikarmalisin. Agirligin 400'u gecmemeli.",
+      "goal": ""
+    },
+    "3218": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Rune Knight olmak icin son sinavi gectin. Rune Knight Velpino ile konus.",
+      "goal": ""
+    },
+    "3219": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Rune Knight olmak icin tum sinavlari tamamladin. Rune Captain Tigris ile konus ve asil bir Rune Knight olarak yeniden dog.",
+      "goal": ""
+    },
+    "3220": {
+      "title": "Rune Knight Job Degisimi",
+      "description": "Sinavi gecemezsen tekrar denemeden once 10 dakika beklemelisin. Yeniden denemeden once sure sinirinin dolmasini bekle.",
+      "goal": "10 dakika bekle"
     }
   }
 }
