@@ -1,22 +1,14 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/quest-display-rebuild.yml
-# Amac: questid2display.txt dosyasini upstream legacy byte encoding'ini koruyarak yeniden uretir
+# Amac: questid2display.txt icin manuel byte-safe yeniden uretim fallback'i saglar
 # Modul: Tool - YAML
-# Version: 1.1.0
-# Aciklama: TurkuazTR quest patch JSON'ini byte-seviyesi patcher ile uygular ve generated dosyayi translation/tr dalina yazar
+# Version: 1.2.0
+# Aciklama: Otomatik uygulama Turkuaz Quest Display Apply tarafindan yapilir; bu workflow yalnizca manuel fallback olarak calisir
 # Bagimli Oldugu Katman: Tool
 
 name: Quest Display Rebuild
 
 on:
   workflow_dispatch:
-
-  push:
-    branches:
-      - "translation/tr"
-    paths:
-      - "TurkuazTR/questid2display.tr.json"
-      - "Tools/apply_questid2display_translation.py"
-      - ".github/workflows/quest-display-rebuild.yml"
 
 permissions:
   contents: write
@@ -34,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: translation/tr
 
       - name: Fetch upstream source
         shell: bash
