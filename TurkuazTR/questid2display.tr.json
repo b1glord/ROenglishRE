@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.8.1",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4254-4265 Eclage gorev zinciri ve ASCII duzeltmesi dahil",
+    "version": "3.9.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4268-4285 Ninja egitim zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4107,6 +4107,96 @@
       "title": "Kitaplik Kullanimi",
       "description": "Kitapliktaki kitaplari okuma izni aldin.",
       "goal": "Kitapligi kullan"
+    },
+    "4268": {
+      "title": "Ninja Egitmeni",
+      "description": "Ninja egitmeniyle bulus.",
+      "goal": "Ninja egitmeniyle konus"
+    },
+    "4269": {
+      "title": "Akademiye Kayit",
+      "description": "Kayit islemi tamamlandi.",
+      "goal": "Kayit tamamlandi"
+    },
+    "4270": {
+      "title": "Ninja Egitimi - Stat Aciklamasi",
+      "description": "Ninja statlari hakkindaki aciklamayi dinledin.",
+      "goal": "Stat aciklamasini tamamla"
+    },
+    "4271": {
+      "title": "Ninja Egitimi - Skill Aciklamasi",
+      "description": "Ninja skill'leri hakkindaki aciklamayi dinledin.",
+      "goal": "Skill aciklamasini tamamla"
+    },
+    "4272": {
+      "title": "Ninja Egitimi - Skill Testi",
+      "description": "Skill konusma testini gectin.",
+      "goal": "Skill testini tamamla"
+    },
+    "4273": {
+      "title": "Ninja Egitimi - Silah Aciklamasi",
+      "description": "Ninja silahlari hakkindaki aciklamayi dinledin.",
+      "goal": "Silah aciklamasini tamamla"
+    },
+    "4274": {
+      "title": "Ninja Egitimi - Job Degisimi Aciklamasi",
+      "description": "Ust sinif job'lar hakkindaki aciklamayi dinledin.",
+      "goal": "Job degisimi aciklamasini tamamla"
+    },
+    "4275": {
+      "title": "Ninja Egitimi - Alistirma 1",
+      "description": "Duvarin arka tarafindaki hedefi bir dakika icinde yok et.",
+      "goal": "10 Drops"
+    },
+    "4276": {
+      "title": "Ninja Egitimi - Alistirma 2",
+      "description": "Duvarin arka tarafindaki hedefi bir dakika icinde yok et.",
+      "goal": "10 Poring"
+    },
+    "4277": {
+      "title": "Ninja Egitimi - Gercek Savas 2",
+      "description": "10 Rocker avladiktan sonra geri don.",
+      "goal": "10 Rocker"
+    },
+    "4278": {
+      "title": "Ninja Egitimi - Gercek Savas 1",
+      "description": "10 Wormtail avladiktan sonra geri don.",
+      "goal": "10 Wormtail"
+    },
+    "4279": {
+      "title": "Ninja Egitimi - Test",
+      "description": "Duvarin arka tarafinda 4 Poring yok et.",
+      "goal": "4 Poring"
+    },
+    "4280": {
+      "title": "Ninja Egitimi - Test",
+      "description": "Duvarin arka tarafinda 4 Poring yok et.",
+      "goal": "4 Poring"
+    },
+    "4281": {
+      "title": "Baslangic Egitimi - Ninja",
+      "description": "3 Lunatic avladiktan sonra geri don.",
+      "goal": "3 Lunatic"
+    },
+    "4282": {
+      "title": "Ninja Egitimi - Alistirma 1",
+      "description": "Duvarin arka tarafindaki hedefi bir dakika icinde yok et.",
+      "goal": "10 Drops"
+    },
+    "4283": {
+      "title": "Ninja Egitimi - Alistirma 2",
+      "description": "Duvarin arka tarafindaki hedefi bir dakika icinde yok et.",
+      "goal": "10 Poring"
+    },
+    "4284": {
+      "title": "Ninja Egitimi - Gercek Savas 2",
+      "description": "10 Rocker avladiktan sonra geri don.",
+      "goal": "10 Rocker"
+    },
+    "4285": {
+      "title": "Ninja Egitimi - Gercek Savas 1",
+      "description": "10 Wormtail avladiktan sonra geri don.",
+      "goal": "10 Wormtail"
     }
   }
 }
