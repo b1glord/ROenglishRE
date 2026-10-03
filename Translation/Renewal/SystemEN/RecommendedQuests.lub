@@ -7,115 +7,115 @@
 RecommendedQuestInfoList = {}
 RecommendedQuestInfoList = {
 	[1] = {
-		Title = "Welcome to Ragnarok Online!",
+		Title = "Ragnarok Online'a Hos Geldiniz!",
 		IconName = "ico_gq.bmp",
-		Summary = "We provide help for Novice adventurer.",
+		Summary = "Novice maceracilara yardim sunuyoruz.",
 		NpcSpr = "4_F_01",
 		NpcNavi = "iz_ac01",
 		NpcPosX = 102,
 		NpcPosY = 44,
 		BgName = "reco_01.bmp",
 		QuestInfo1 = {
-			"Welcome!",
-			"The Criatura academy offers a variety of information for Novice. If you haven't visited The Criatura academy, please visit us to get useful informations and items."
+			"Hos geldiniz!",
+			"Criatura Academy, Novice maceracilar icin cesitli bilgiler sunar. Henuz ziyaret etmediyseniz yararli bilgiler ve esyalar icin akademiye ugrayin."
 		},
 		QuestInfo2 = {
-			"$$Novice$$ welcome!!",
-			"Beginner%%Support%%Bread!!Bread!!",
-			"&*Free*& consult OK!!"
+			"$$Novice$$ hos geldin!!",
+			"Baslangic%%Destegi%%Ekmek!!Ekmek!!",
+			"&*Ucretsiz*& danisma mevcut!!"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[3] = {
-		Title = "Prontera Spring Flower Festival",
+		Title = "Prontera Bahar Cicek Festivali",
 		IconName = "ico_ev.bmp",
-		Summary = "See you in Prontera in the spring",
+		Summary = "Baharda Prontera'da bulusalim",
 		BgName = "reco_03.bmp",
 		QuestInfo1 = {
-			"We invite you to the newly revamped Frontera Spring Flower Festival.",
-			"Please find <NAVI>[Seri]<INFO>prontera,137,327,0,101,0</INFO></NAVI> at the entrance of Prontera Royal Castle."
+			"Yenilenen Prontera Bahar Cicek Festivali'ne davetlisiniz.",
+			"Prontera Royal Castle girisindeki <NAVI>[Seri]<INFO>prontera,137,327,0,101,0</INFO></NAVI> ile gorusun."
 		},
 		QuestInfo2 = {
 			"",
-			"^945945Anyone who is an adventurer with Base Level 20 or higher!^000000"
+			"^945945Base Level 20 veya uzeri tum maceracilar katilabilir!^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[9] = {
-		Title = "Chuseok with the bright full moon",
+		Title = "Parlak Dolunayla Chuseok",
 		IconName = "ico_ev.bmp",
-		Summary = "Enjoy holiday food at Payon!",
+		Summary = "Payon'da bayram yemeklerinin tadini cikarin!",
 		BgName = "reco_09.bmp",
 		QuestInfo1 = {
-			"This year, a holiday food experience festival will be held in Payon.",
-			"Adventurers who didn't go back to their hometowns for Chuseok, would you like to try making songpyeon in <NAVI>[Payon]<INFO>payon,217,109,0,101,0</INFO></NAVI>?"
+			"Bu yil Payon'da bayram yemekleri deneyim festivali duzenleniyor.",
+			"Chuseok icin memleketine donemeyen maceracilar, <NAVI>[Payon]<INFO>payon,217,109,0,101,0</INFO></NAVI> icinde songpyeon yapmayi denemek ister misiniz?"
 		},
 		QuestInfo2 = {
-			"We also made songpyeon and ate yakgwa.",
-			"Have a happy Chuseok!"
+			"Biz de songpyeon yaptik ve yakgwa yedik.",
+			"Mutlu Chuseoklar!"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[10] = {
-		Title = "Yuno Autumn Academic Festival",
+		Title = "Yuno Sonbahar Akademi Festivali",
 		IconName = "ico_ev.bmp",
-		Summary = "There are also crispy and delicious snacks!",
+		Summary = "Citir ve lezzetli atistirmaliklar da var!",
 		BgName = "reco_10.bmp",
 		QuestInfo1 = {
-			"At the Yuno Autumn Academic Festival, various academic societies and groups present their research achievements through various games and events.",
-			"<NAVI>[Lazy]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI> is finally waiting for everyone to come to Yuno!"
+			"Yuno Sonbahar Akademi Festivali'nde cesitli akademik topluluklar arastirma basarilarini oyunlar ve etkinliklerle tanitir.",
+			"<NAVI>[Lazy]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI> sonunda herkesi Yuno'ya bekliyor!"
 		},
 		QuestInfo2 = {
-			"Enjoy a bountiful autumn by",
-			"browsing the various booths at the",
-			"Yuno Autumn Academic Festival!"
+			"Bereketli sonbaharin tadini",
+			"Yuno Sonbahar Akademi Festivali'ndeki",
+			"cesitli stantlari gezerek cikarin!"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[67] = {
-		Title = "Chapter 2: Song of the World Tree",
+		Title = "Bolum 2: World Tree'nin Sarkisi",
 		IconName = "ico_ep.bmp",
-		Summary = "~ Fragments of the Apocalypse ~",
+		Summary = "~ Kiyametin Parcalari ~",
 		NpcSpr = "4_CH1_DELEGACY01",
 		NpcNavi = "ygg_edge",
 		NpcPosX = 156,
 		NpcPosY = 179,
 		BgName = "reco_67.bmp",
 		QuestInfo1 = {
-			"Adventurer.",
+			"Maceraci.",
 			"How are you?",
-			"Before I knew it, as I caressed the young leaves of the World Tree, a new journey was about to begin, following the wind.",
-			"I hope your footsteps can join us in Ashwood Village, where the wind begins.",
+			"World Tree'nin genc yapraklarina dokunurken, ruzgari takip eden yeni bir yolculugun baslamak uzere oldugunu fark ettim.",
+			"Ruzgarin basladigi Ashwood Village'da adimlarinin bize katilmasini umuyorum.",
 			"",
-			"Sincerely, Lapine Sasha, eagerly awaiting."
+			"Sevgilerle, seni heyecanla bekleyen Lapine Sasha."
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^3275f0Base Level 225 or higher^000000",
-			"^3275f0Chapter 1: Song of the World Tree^000000"
+			"Gereksinimler:",
+			"^3275f0Base Level 225 veya uzeri^000000",
+			"^3275f0Bolum 1: World Tree'nin Sarkisi^000000"
 		},
 		QuestInfo3 = {
-			"Start Point",
-			"<NAVI>[Lapine Sasha]<INFO>ygg_edge,156,179,0,101,0</INFO></NAVI> is waiting for you.",
+			"Baslangic Noktasi",
+			"<NAVI>[Lapine Sasha]<INFO>ygg_edge,156,179,0,101,0</INFO></NAVI> seni bekliyor.",
 			""
 		}
 	},
 	[68] = {
-		Title = "The World Tree Calls!",
+		Title = "World Tree Seni Cagiriyor!",
 		IconName = "ico_jq.bmp",
-		Summary = "New Class, Druid!",
+		Summary = "Yeni Sinif, Druid!",
 		BgName = "reco_68.bmp",
 		QuestInfo1 = {
-			"O promising young adventurer!",
-			"Wouldn't you transform by inheriting the power of the World Tree?",
+			"Ey gelecek vadeden genc maceraci!",
+			"World Tree'nin gucunu miras alip donusmek istemez misin?",
 			"<NAVI>[Small Ash Tree]<INFO>izlude,118,252,0,101,0</INFO></NAVI>"
 		},
 		QuestInfo2 = {
@@ -123,109 +123,109 @@ RecommendedQuestInfoList = {
 			"Job Level 10"
 		},
 		QuestInfo3 = {
-			"^ff0000¤ For detailed information, please meet the Druid Ascendancy NPC.^000000"
+			"^ff0000Ayrintili bilgi icin Druid Ascendancy NPC'si ile gorusun.^000000"
 		}
 	},
 	[69] = {
-		Title = "Chapter 1: Song of the World Tree",
+		Title = "Bolum 1: World Tree'nin Sarkisi",
 		IconName = "ico_ep.bmp",
-		Summary = "~ Prelude ~",
+		Summary = "~ Giris ~",
 		BgName = "reco_69.bmp",
 		QuestInfo1 = {
-			"Hello? How are you? You look so healthy.",
-			"If you see me, you are the chosen adventurer!",
-			"Are you interested in the end of the world?"
+			"Merhaba? Nasilsin? Gayet saglikli gorunuyorsun.",
+			"Beni gorebiliyorsan secilmis maceraci sensin!",
+			"Dunyanin sonuyla ilgileniyor musun?"
 		},
 		QuestInfo2 = {
-			"Requirements",
-			"^3275f0Base Level 200 or higher^000000"
+			"Gereksinimler",
+			"^3275f0Base Level 200 veya uzeri^000000"
 		},
 		QuestInfo3 = {
-			"Start Point",
+			"Baslangic Noktasi",
 			"<NAVI>[Prontera Field]<INFO>prt_fild05,353,252,0,101,0</INFO></NAVI>",
 			"<NAVI>[Payon Fild]<INFO>pay_fild01,308,341,0,101,0</INFO></NAVI>"
 		}
 	},
 	[70] = {
-		Title = "Episode 21: The Age of Heroes",
+		Title = "Episode 21: Kahramanlar Cagi",
 		IconName = "ico_ep.bmp",
-		Summary = "Remember...",
+		Summary = "Hatirla...",
 		BgName = "reco_70.bmp",
 		QuestInfo1 = {
-			"A small scale island near Issgard,",
-			"where a small crack appears, transports the adventurers back in time.",
-			"<NAVI>[Join]<INFO>jor_tail,233,41,0,101,0</INFO></NAVI> Nyar as he journeys to the past, a time of turbulent times, where heroes fought for a crucial mission to defeat Lasgand!"
+			"Issgard yakinlarindaki kucuk bir ada,",
+			"ortaya cikan kucuk bir yarikla maceracilari gecmise tasiyor.",
+			"Lasgand'i yenmek icin kahramanlarin savastigi calkantili gecmise yolculuk eden Nyar'a <NAVI>[katil]<INFO>jor_tail,233,41,0,101,0</INFO></NAVI>!"
 		},
 		QuestInfo2 = {
-			"Requirements",
-			"^3275f0Episode 20^000000 completed",
-			"^3275f0Base Level 230 or higher^000000"
+			"Gereksinimler",
+			"^3275f0Episode 20^000000 tamamlanmis olmali",
+			"^3275f0Base Level 230 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"",
-			"                  casting",
-			"               casting",
-			"                casting"
+			"                  hazirlaniyor",
+			"               hazirlaniyor",
+			"                hazirlaniyor"
 		}
 	},
 	[71] = {
-		Title = "Garden of Time",
+		Title = "Zaman Bahcesi",
 		IconName = "ico_sc.bmp",
-		Summary = "The new owner of the forgotten space",
+		Summary = "Unutulmus mekanin yeni sahibi",
 		BgName = "reco_71.bmp",
 		QuestInfo1 = {
 			"Oscar!",
-			"I can't just get rid of this <NAVI>[Portal]<INFO>xmas_fild01,155,245,0,101,0</INFO></NAVI>!",
-			"I can't even fathom how many years Oscar has lived here, can I?",
-			"But I still can't stand the sight of him snoozing on the cold ground.",
-			"Let's take this abandoned garden for ourselves!",
-			"Do you see the pictures of the mansion I sent you?",
-			"They're a little dark, but I like them!",
-			"Please respond quickly!",
+			"Bu <NAVI>[Portal]<INFO>xmas_fild01,155,245,0,101,0</INFO></NAVI> oylece ortadan kaldirilamaz!",
+			"Oscar'in burada kac yil yasadigini hayal bile edemiyorum.",
+			"Ama soguk zeminde uyuklamasina da dayanamiyorum.",
+			"Bu terk edilmis bahceyi kendimize alalim!",
+			"Gonderdigim malikane fotograflarini gordun mu?",
+			"Biraz karanliklar ama hosuma gidiyor!",
+			"Lutfen cabuk cevap ver!",
 			"",
 			"   - Leticia"
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^3275f0Base Level 250 or higher^000000"
+			"Gereksinimler:",
+			"^3275f0Base Level 250 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[72] = {
-		Title = "A new discovery! Rune Tablets!",
+		Title = "Yeni Bir Kesif! Rune Tablets!",
 		IconName = "ico_sc.bmp",
-		Summary = "Varmundt's new technology?!",
+		Summary = "Varmundt'un yeni teknolojisi?!",
 		BgName = "reco_72.bmp",
 		QuestInfo1 = {
-			"The cards piled up in the warehouse have been transformed!",
-			"Bring new life to Varmundt's new technology-intensive Rune Tablet...!",
-			"Find <NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> and check it out right now!"
+			"Depoda biriken kartlar donusturuldu!",
+			"Varmundt'un ileri teknoloji Rune Tablet sistemine yeni bir hayat getir...!",
+			"<NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> bul ve hemen incele!"
 		},
 		QuestInfo2 = {
 			"Rune Tablets,",
-			"they're really good..."
+			"gercekten cok iyiler..."
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[73] = {
-		Title = "Episode 20: The Immortal",
+		Title = "Episode 20: Olumsuz",
 		IconName = "ico_ep.bmp",
-		Summary = "Let's go to the Ancient Ice Canyon!",
+		Summary = "Ancient Ice Canyon'a gidelim!",
 		BgName = "reco_73.bmp",
 		QuestInfo1 = {
-			"Key figures of the Jormungand Cult have abandoned the Serpent's Nest and retreated deeper into the depths.",
-			"To find Bagot and Lasgand and thwart their sinister ambitions,",
-			"the group of adventurers journey to a new region they've never explored before, encountering unfamiliar creatures.",
+			"Jormungand Cult'un onemli isimleri Serpent's Nest'i terk edip daha derinlere cekildi.",
+			"Bagot ve Lasgand'i bulup karanlik planlarini bozmak icin,",
+			"maceracilar daha once kesfetmedikleri yeni bir bolgeye giderek yabanci yaratiklarla karsilasiyor.",
 			"Meow"
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^3275f0Episode 19^000000 completed",
-			"^3275f0Base Level 215 or higher^000000"
+			"Gereksinimler:",
+			"^3275f0Episode 19^000000 tamamlanmis olmali",
+			"^3275f0Base Level 215 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ee1073Meow^000000",
@@ -234,49 +234,49 @@ RecommendedQuestInfoList = {
 		}
 	},
 	[74] = {
-		Title = "Fantasy Series",
+		Title = "Fantastik Seri",
 		IconName = "ico_vr.bmp",
-		Summary = "Meet me at the library east of Prontera.",
+		Summary = "Prontera'nin dogusundaki kutuphanede bulusalim.",
 		BgName = "reco_74.bmp",
 		QuestInfo1 = {
-			"A new concept in storybooks, where you can interact with characters in a virtual space and progress through the story!",
-			"Just in time, ^3169ceProntera East Library is undergoing a major expansion!^000000",
-			"Visit <NAVI>[Prontera East Library]<INFO>prt_elib,18,46,0,101,0</INFO></NAVI> right now!"
+			"Sanal bir alanda karakterlerle etkilesime girip hikayede ilerleyebilecegin yepyeni bir hikaye kitabi deneyimi!",
+			"Tam zamaninda, ^3169ceProntera East Library buyuk bir genisleme geciriyor!^000000",
+			"Hemen <NAVI>[Prontera East Library]<INFO>prt_elib,18,46,0,101,0</INFO></NAVI> adresini ziyaret et!"
 		},
 		QuestInfo2 = {
-			"Shocking!",
+			"Sasirtici!",
 			"And a",
-			"^3275f0huge twist!!!!^000000"
+			"^3275f0buyuk surpriz!!!!^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[75] = {
-		Title = "Episode 19: Land of Snow Flowers",
+		Title = "Episode 19: Kar Cicekleri Diyari",
 		IconName = "ico_ep.bmp",
-		Summary = "The frozen land beyond the northern sea.",
+		Summary = "Kuzey denizinin otesindeki donmus diyar.",
 		BgName = "reco_75.bmp",
 		QuestInfo1 = {
-			"The land beyond the northern sea where the legend of ^3169ceJormungand^000000 is told.",
-			"Will the ambitions of­ ^3169ceBagot^000000, who ran away with the piece of Ymir's heart, be stopped? What secrets is the ^3169ceJormungand Cult^000000 hiding?",
-			"The airship, filled with anxiety, is now departing for ^3169ceIssgard^000000."
+			"Kuzey denizinin otesinde ^3169ceJormungand^000000 efsanesinin anlatildigi diyar.",
+			"Ymir'in kalbinin parcasiyla kacan ^3169ceBagot^000000 durdurulabilecek mi? ^3169ceJormungand Cult^000000 hangi sirleri sakliyor?",
+			"Endiseyle dolu airship simdi ^3169ceIssgard^000000 icin yola cikiyor."
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^3275f0Episode 18^000000 completed",
-			"^3275f0Base Level 200 or higher^000000"
+			"Gereksinimler:",
+			"^3275f0Episode 18^000000 tamamlanmis olmali",
+			"^3275f0Base Level 200 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ee1073Bagot^000000",
-			"Right. Right. Right.",
-			"   I'm going to meet you."
+			"Evet. Evet. Evet.",
+			"   Seninle bulusmaya geliyorum."
 		}
 	},
 	[76] = {
-		Title = "You can do it too! Change your job right now!!",
+		Title = "Sen de Yapabilirsin! Hemen Job Degistir!!",
 		IconName = "ico_jq.bmp",
-		Summary = "You can also do extended jobs!",
+		Summary = "Expanded joblara da gecebilirsin!",
 		BgName = "reco_76.bmp",
 		QuestInfo1 = {
 			"<NAVI>[Rebellion to Nightwatch]<INFO>einbroch,313,324,0,101,0</INFO></NAVI>",
@@ -292,85 +292,85 @@ RecommendedQuestInfoList = {
 			"(Summoner Job Level 60)"
 		},
 		QuestInfo3 = {
-			"^ff0000¤ For more detailed information, please check with the NPC for each job.^000000"
+			"^ff0000Ayrintili bilgi icin her job'un NPC'siyle gorusun.^000000"
 		}
 	},
 	[77] = {
-		Title = "Varmundt's Biosphere",
+		Title = "Varmundt'un Biosphere'i",
 		IconName = "ico_sc.bmp",
-		Summary = "I would like to ask for your assistance.",
+		Summary = "Yardimini rica etmek istiyorum.",
 		BgName = "reco_77.bmp",
 		NpcSpr = "4_EP17_BASIC_B",
 		QuestInfo1 = {
-			"Aren't you curious about the artificial habitat that Master Varmundt created within­ the <NAVI>[mansion]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI>?",
-			"We desperately need your help to defeat the monsters that have grown strangely strong after being isolated from the outside world for so long."
+			"Usta Varmundt'un <NAVI>[malikane]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI> icinde yarattigi yapay yasam alanini merak etmiyor musun?",
+			"Dis dunyadan uzun sure izole kaldiklari icin tuhaf bicimde guclenen canavarlari yenmek icin yardimina ihtiyacimiz var."
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"Base Level 240 or higher"
+			"Gereksinimler:",
+			"Base Level 240 veya uzeri"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[78] = {
-		Title = "Sunken Tower",
+		Title = "Batmis Kule",
 		IconName = "ico_sc.bmp",
-		Summary = "Uninvited guests in erosion zones",
+		Summary = "Erozyon bolgesindeki davetsiz misafirler",
 		BgName = "reco_78.bmp",
 		NpcSpr = "4_4JOB_LETICIA",
 		NpcNavi = "alberta",
 		NpcPosX = "213",
 		NpcPosY = "71",
 		QuestInfo1 = {
-			"^003355Someone has to do it^000000",
-			"°Unwelcome beings are emerging from beneath the eroded ruins of the sunken Endless Tower!",
-			"You may not gain much wealth, but it will be a good experience... no, it could be a good experience. You, who seem to be putting in some effort, are no exception, right?"
+			"^003355Birinin bunu yapmasi gerekiyor^000000",
+			"Batmis Endless Tower'in asinmis kalintilarinin altindan istenmeyen varliklar cikiyor!",
+			"Buyuk bir servet kazanmayabilirsin ama iyi bir deneyim olabilir. Sen de biraz caba gostermeye hazirsin, degil mi?"
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^990000Base Level 40 or higher^000000"
+			"Gereksinimler:",
+			"^990000Base Level 40 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[79] = {
-		Title = "Illusion of Twins",
+		Title = "Ikizlerin Illuzyonu",
 		IconName = "ico_sc.bmp",
-		Summary = "Four adventurers with identical appearances. Is this an illusion created by someone?",
+		Summary = "Ayni gorunuse sahip dort maceraci. Bu birinin yarattigi illuzyon mu?",
 		BgName = "reco_79.bmp",
 		QuestInfo1 = {
-			"Somewhere in the Ant Hell Dungeon, someone said they saw an adventurer who looked just like them...",
-			"I wonder what happened, no one else has ever seen it.",
-			"Go to <NAVI>[Ant Hell]<INFO>anthell02,177,190,0,101,0</INFO></NAVI> and find out what's going on!"
+			"Ant Hell Dungeon'in bir yerinde, birinin kendisine tipatip benzeyen bir maceraci gordugu soyleniyor...",
+			"Ne oldugunu merak ediyorum; baska kimse bunu gormemis.",
+			"<NAVI>[Ant Hell]<INFO>anthell02,177,190,0,101,0</INFO></NAVI> bolgesine git ve neler oldugunu ogren!"
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^990000Base Level 160 or higher^000000"
+			"Gereksinimler:",
+			"^990000Base Level 160 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
 		}
 	},
 	[80] = {
-		Title = "Episode 18: Direction of Prayer",
+		Title = "Episode 18: Duanin Yonu",
 		IconName = "ico_ep.bmp",
-		Summary = "What's going on in Rachel?",
+		Summary = "Rachel'da neler oluyor?",
 		BgName = "reco_80.bmp",
 		NpcSpr = "4_EP17_TABLET",
 		NpcNavi = "ba_in01",
 		NpcPosX = "26",
 		NpcPosY = "266",
 		QuestInfo1 = {
-			"The signal analysis of the unfair situation that had been going on for a while is finally over!",
-			"It seems that the remnants of Illusion are up to something in Rachel, the capital of the religious nation of Arunafeltz.",
-			"Ellie decides to go to Rachel herself with the adventurers."
+			"Bir suredir devam eden tuhaf durumun sinyal analizi sonunda tamamlandi!",
+			"Illusion kalintilari, dini ulke Arunafeltz'in baskenti Rachel'da bir seyler planliyor gibi gorunuyor.",
+			"Ellie maceracilarla birlikte Rachel'a gitmeye karar verir."
 		},
 		QuestInfo2 = {
-			"Requirements:",
-			"^990000Episode 17.2^000000 completed",
-			"^990000Base Level 170 or higher^000000"
+			"Gereksinimler:",
+			"^990000Episode 17.2^000000 tamamlanmis olmali",
+			"^990000Base Level 170 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
@@ -379,7 +379,7 @@ RecommendedQuestInfoList = {
 	[81] = {
 		Title = "Constellation Tower",
 		IconName = "ico_sc.bmp",
-		Summary = "Face the new owner",
+		Summary = "Yeni sahibiyle yuzles",
 		NpcSpr = "4_ED_OSCAR",
 		NpcNavi = "e_tower",
 		NpcPosX = 71,
@@ -391,7 +391,7 @@ RecommendedQuestInfoList = {
 			"In a situation where it is impossible to know what kind of danger it is, someone has to identify the new owner."
 		},
 		QuestInfo2 = {
-			"Requirements:",
+			"Gereksinimler:",
 			"^990000Base Level 240 or higher^000000"
 		},
 		QuestInfo3 = {
@@ -412,7 +412,7 @@ RecommendedQuestInfoList = {
 			"The sword roared and the dead body shed tears."
 		},
 		QuestInfo2 = {
-			"Requirements:",
+			"Gereksinimler:",
 			"^990000Base Level 220 or higher^000000"
 		},
 		QuestInfo3 = {
@@ -430,7 +430,7 @@ RecommendedQuestInfoList = {
 			"Adventurers were able to go to the place where unfairness fell. Let's explore the now forgotten cavity we found there."
 		},
 		QuestInfo2 = {
-			"Requirements:",
+			"Gereksinimler:",
 			"^990000Base Level 215 or higher^000000"
 		},
 		QuestInfo3 = {
@@ -452,7 +452,7 @@ RecommendedQuestInfoList = {
 			"Let's start a true raw fight that is not covered by showmanship and broadcast scripts."
 		},
 		QuestInfo2 = {
-			"Requirements:",
+			"Gereksinimler:",
 			"^990000Base Level 210 or higher^000000"
 		},
 		QuestInfo3 = {
@@ -491,7 +491,7 @@ RecommendedQuestInfoList = {
 			"Rebelion's crew decided to enter the sewer line to track Illusion."
 		},
 		QuestInfo2 = {
-			"Requirements",
+			"Gereksinimler",
 			"Episode ^99000017.1^000000 completed",
 			"^990000Base Level 130 or higher^000000"
 		},
@@ -514,8 +514,8 @@ RecommendedQuestInfoList = {
 			"It is judged that a huge causality will occur when the dimensional guardian's interfere. We need human help."
 		},
 		QuestInfo2 = {
-			"Requirements",
-			"^990000Base Level 170 or higher^000000"
+			"Gereksinimler",
+			"^990000Base Level 170 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
@@ -554,8 +554,8 @@ RecommendedQuestInfoList = {
 			"You have to use ^990000Virtual Records^000000 to become a fellow of the 6 ^990000Rune-Midgarts Unofficial Expedtion Teams^000000 and uncover what they've been through."
 		},
 		QuestInfo2 = {
-			"Requirements",
-			"^990000Base Level 170 or higher^000000"
+			"Gereksinimler",
+			"^990000Base Level 170 veya uzeri^000000"
 		},
 		QuestInfo3 = {
 			"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000"
@@ -576,7 +576,7 @@ RecommendedQuestInfoList = {
 			"^990000Time and Space Oscar, which watches and records multiple dimensions of time, witnesses the last moments of Glastheim^000000 and decides to tell the truth to someone ..."
 		},
 		QuestInfo2 = {
-			"Requirements",
+			"Gereksinimler",
 			"^990000Base Level 130 or higher^000000"
 		},
 		QuestInfo3 = {
