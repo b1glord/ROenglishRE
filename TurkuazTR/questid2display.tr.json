@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
     "dependency_layer": "Config"
   },
@@ -1330,6 +1330,201 @@
       "title": "Alchemist Job Degisimi",
       "description": "Artik saygin Union'imizin bir uyesisin. Cok sey ogrenmeni ve bir Alchemist olarak gururla hareket etmeni umuyorum!",
       "goal": ""
+    },
+    "2041": {
+      "title": "Sage Job Degisimi",
+      "description": "Giris sinavina katilmak icin Professor Claytos ile konus. Sol odada bulunuyor.",
+      "goal": "Yazili sinav gorevlisi Claytos ile konus"
+    },
+    "2042": {
+      "title": "Sage Job Degisimi",
+      "description": "Metheus Sylphe: Kayit ucreti icin yeterli Zeny yoksa 50 Feather of Bird, 50 Fluff ve 25 Iron Ore ile birlikte 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2043": {
+      "title": "Sage Job Degisimi",
+      "description": "Metheus Sylphe: 50 Feather of Bird, 50 Fluff ve 25 Iron Ore getirirsen kayit ucreti olarak 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2044": {
+      "title": "Sage Job Degisimi",
+      "description": "Metheus Sylphe: 50 Clover, 50 Feather ve 25 Squid Ink getirirsen kayit ucreti olarak 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2045": {
+      "title": "Sage Job Degisimi",
+      "description": "Metheus Sylphe: 50 Feather of Bird, 50 Fluff, 50 Clover ve 50 Feather getirirsen kayit ucreti olarak 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2046": {
+      "title": "Sage Job Degisimi",
+      "description": "Yazili sinavi gectin. Simdi Professor Hermes'e gidip uygulamali sinava katil.",
+      "goal": "Uygulamali sinav gorevlisi Hermes ile konus"
+    },
+    "2047": {
+      "title": "Sage Job Degisimi",
+      "description": "Yazili ve uygulamali sinav puanlarina gore Yggdrasil hakkinda arastirma yapman oneriliyor. Academic Lecture Room'daki Professor Saphien'den yardim al.",
+      "goal": "Academic Lecture Room'da Professor Saphien ile konus"
+    },
+    "2048": {
+      "title": "Sage Job Degisimi",
+      "description": "Yazili ve uygulamali sinav puanlarina gore dunyaya yayilmis canavarlari incelemen oneriliyor. Monster Museum'daki Professor Lucius'tan yardim al.",
+      "goal": "Monster Museum'da Professor Lucius ile konus"
+    },
+    "2049": {
+      "title": "Sage Job Degisimi",
+      "description": "Yazili ve uygulamali sinav puanlarina gore buyunun ozelliklerini incelemen oneriliyor. Somatology Lab'daki Professor Aebecee'den yardim al.",
+      "goal": "Somatology Lab'da Professor Aebecee ile konus"
+    },
+    "2050": {
+      "title": "Sage Job Degisimi",
+      "description": "Yggdrasil ile ilgili bir esya bul. Tercihen nadir bulunan bir Seed veya Fruit getir.",
+      "goal": "Yggdrasil ile ilgili bir esya bul"
+    },
+    "2051": {
+      "title": "Sage Job Degisimi",
+      "description": "Bir sonraki asamada kendi makaleni yazacaksin. 1 Feather of Bird, 1 Animal's Skin, 1 Trunk, 1 Squid Ink ve 1 Empty Bottle getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2052": {
+      "title": "Sage Job Degisimi",
+      "description": "Makalen bittiyse Academy Dean'e teslim et.",
+      "goal": "Academy Dean ile konus"
+    },
+    "2053": {
+      "title": "Sage Job Degisimi",
+      "description": "Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Tentacle, 5 Single Cell ve 5 Fish Tail getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2054": {
+      "title": "Sage Job Degisimi",
+      "description": "Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Nipper, 5 Clam Flesh ve 5 Heart of Mermaid getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2055": {
+      "title": "Sage Job Degisimi",
+      "description": "Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Tendon, 5 Nipper ve 5 Sharp Scale getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2056": {
+      "title": "Sage Job Degisimi",
+      "description": "Bu kez bocekleri incele. Dersin baslamasi icin 5 Cobweb, 5 Shell ve 5 Insect Feeler getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2057": {
+      "title": "Sage Job Degisimi",
+      "description": "Bu kez bocekleri incele. Dersin baslamasi icin 5 Horn, 5 Snail's Shell ve 5 Moth Dust getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2058": {
+      "title": "Sage Job Degisimi",
+      "description": "Bu kez bocekleri incele. Dersin baslamasi icin 5 Mantis Scythe, 5 Worm Peeling ve 5 Rainbow Shell getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2059": {
+      "title": "Sage Job Degisimi",
+      "description": "Bu kez bocekleri incele. Dersin baslamasi icin 5 Cobweb, 5 Mantis Scythe ve 5 Solid Shell getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2060": {
+      "title": "Sage Job Degisimi",
+      "description": "Derse baslamadan once bir konuda yardim etmen gerekiyor. Zor degil; 30 Stone getir.",
+      "goal": "30 Stone getir ve Professor Aebecee'ye don"
+    },
+    "2061": {
+      "title": "Sage Job Degisimi",
+      "description": "Bu madenlerden ok yap. Archer arkadaslarin yardim edebilir. 50 Crystal Arrow, 50 Stone Arrow ve 50 Arrow of Wind getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2062": {
+      "title": "Sage Job Degisimi",
+      "description": "Sonraki ders icin 1 Holy Water getir. Priest arkadasin yoksa bir tane edin.",
+      "goal": "Professor Aebecee'ye 1 Holy Water getir"
+    },
+    "2063": {
+      "title": "Kader Kargasi - 1",
+      "description": "Benjamin'in istegini kabul ettin. Prontera Library'den The Crow of the Fate kitabini getir.",
+      "goal": "Library Curator Guys ile konus"
+    },
+    "2064": {
+      "title": "Kader Kargasi - 2",
+      "description": "Kitabi Prontera Library'de bulamadin. Juno Library'ye git ve orada ara.",
+      "goal": "Juno Library'ye git"
+    },
+    "2065": {
+      "title": "Kader Kargasi - 3",
+      "description": "Kitap ruyanda gordugun sahneyi aynen anlatiyor. Yanginlarla ilgili haber yazilarini ara.",
+      "goal": "Yanginlarla ilgili bir haber yazisi bul"
+    },
+    "2066": {
+      "title": "Kader Kargasi - 4",
+      "description": "Laboratuvar yangininin gercekten yasandigini ogrendin. Cave Village'i bul.",
+      "goal": "Schwaltzvalt alanindaki Cave Village'i bul"
+    },
+    "2067": {
+      "title": "Kader Kargasi - 5",
+      "description": "Zid ruyadan uyanip gercek hayatina devam etmenin daha iyi olacagini soyledi. Konusmadan sonra Morocc'a donup her seyi unutmaya karar verdin.",
+      "goal": "Morocc'taki Benjamin'e don"
+    },
+    "2068": {
+      "title": "Kader Kargasi - 6",
+      "description": "Benjamin'in onerisiyle The Trace of the Fate'i okumaya karar verdin.",
+      "goal": "Juno Library'ye git"
+    },
+    "2069": {
+      "title": "Tierra Gorge Savasi",
+      "description": "Tierra Gorge savasina katildigini gosteren bir isaret aldin. Isaret kaybolana kadar Guillaume Army baska savaslara katilmana izin vermeyecek.",
+      "goal": "Sure dolana kadar Tierra Gorge Battle icin bekle"
+    },
+    "2070": {
+      "title": "Flavius Savasi",
+      "description": "Flavius Battle'a katildigini gosteren bir isaret aldin. Isaret kaybolana kadar Croix Army Officer baska savaslara katilmana izin vermeyecek.",
+      "goal": "Sure dolana kadar Flavius Battle icin bekle"
+    },
+    "2071": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Buender Hikeman durumu kafasina gore yorumlayip gecmisi icin aglamaya basliyor.",
+      "goal": "Buender Hikeman'in hikayesini dinlemeye devam et"
+    },
+    "2072": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Buender Hikeman Shinokas adini haykirip yere yigilinca yanindan uzaklasiyorsun.",
+      "goal": "Shinokas'in nerede oldugunu bul"
+    },
+    "2073": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Shinokas maden tuneli cokmesinin gercegini itiraf edecegini soyluyor.",
+      "goal": "Shinokas'in hikayesini dinlemeye devam et"
+    },
+    "2074": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Shinokas, sehrin en zenginlerinden Kapellthaines ailesinin evine gidip benzersiz bir maden cevheri aramani istiyor.",
+      "goal": "Kapellthaines ailesinin evine siz"
+    },
+    "2075": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Shinokas supheli gorunen bir fabrikada cevheri aramani istiyor.",
+      "goal": "Fabrikada cevheri ara"
+    },
+    "2076": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Shinokas Einbroch Laboratory'de cevheri aramani istiyor.",
+      "goal": "Einbroch Laboratory'ye siz"
+    },
+    "2077": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Sarhos bir adam Einbech'te bulunan cevherin Ymir's Heart'in bir parcasi oldugunu itiraf ediyor.",
+      "goal": "Shinokas'a geri don"
+    },
+    "2078": {
+      "title": "Lanetli Mulkiyet",
+      "description": "Cevherin kimligi belirlendi ancak Shinokas supheli kisiler tarafindan saldiriya ugradi. Son mesaji 'Onlar... idi...' oluyor ve hayatini kaybediyor.",
+      "goal": "Buender Hikeman'a geri don"
+    },
+    "2079": {
+      "title": "Yanlis Giden Gecmis",
+      "description": "Airship murettebatindan Kain Himere, kayip esyayi Einbroch Hotel'de kalan musterisine teslim etmeni istiyor.",
+      "goal": "Kayip esyayi Einbroch Hotel'e teslim et"
     }
   }
 }
