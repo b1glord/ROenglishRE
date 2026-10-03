@@ -10,12 +10,12 @@ achievement_tbl = {
 		group = "EAT",
 		major = 4,
 		minor = 0,
-		title = "Eating at this time won't gain weight",
+		title = "Bu saatte yemek yemek kilo aldirmaz",
 		content = {
-			summary = "1 a.m. - Time for an midnight snack.",
-			details = "Bring the food Bigfoot demands to an ambitious perspective"
+			summary = "Gece 1 - Gece atistirmasi zamani.",
+			details = "Bigfoot’un istedigi yemegi getir ve hirsli bir bakis acisi kazan."
 		},
-		resource = { [1] = { text = "Bring the food Bigfoot demands to an ambitious perspective" } },
+		resource = { [1] = { text = "Bigfoot’un istedigi yemegi getir ve hirsli bir bakis acisi kazan." } },
 		reward = {},
 		score = 10
 	},
@@ -24,10 +24,10 @@ achievement_tbl = {
 		group = "SEE",
 		major = 4,
 		minor = 0,
-		title = "This is a polar fan",
+		title = "Bu bir kutup hayrani",
 		content = {
-			summary = "A glimpse into the lives of polar fans",
-			details = "Let's meet all the polar fans flocking to the Wigner family"
+			summary = "Kutup hayranlarinin hayatina kisa bir bakis",
+			details = "Wigner ailesine akin eden tum kutup hayranlariyla tanisalim"
 		},
 		resource = {
 			[1] = { text = "Yanggatjip Kyusu" },
@@ -46,12 +46,12 @@ achievement_tbl = {
 		group = "ADVENTURE",
 		major = 2,
 		minor = 0,
-		title = "North Prontera Field Exploration(1)",
+		title = "Kuzey Prontera Alani Kesfi (1)",
 		content = {
-			summary = "Discover hidden treasure",
-			details = "Discover treasure in north Prontera field"
+			summary = "Gizli hazineyi kesfet",
+			details = "Prontera'nin kuzey alaninda gizli hazineyi bul"
 		},
-		resource = { [1] = { text = "Discover treasure in north Prontera field" } },
+		resource = { [1] = { text = "Prontera'nin kuzey alaninda gizli hazineyi bul" } },
 		reward = { item = 22876 },
 		score = 10
 	},

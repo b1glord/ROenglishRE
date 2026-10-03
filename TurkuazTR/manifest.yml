@@ -1,0 +1,46 @@
+# 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
+# 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
+# 📌 Config - YAML
+# Version: 1.1.1
+# Aciklama: Upstream 2026, Turkce overlay ve 2022 client entegrasyon dallarini sabitler
+# Bagimli Oldugu Katman: Config
+
+project:
+  locale: tr-TR
+  active_translation_branch: "translation/tr"
+  sync_branch: "sync/upstream-2026-09"
+  client_integration_branch: "integration/2022-04-06-tr"
+
+refs:
+  archive: "archive/tr-2025-10-25"
+  upstream_latest: "upstream/latest"
+  client_baseline: "client/2022-04-06"
+
+pins:
+  archive_sha: "af2191234a22e180fac62d179489b64f3d17a997"
+  upstream_latest_sha: "85f216a230bf9180451fa29a37505baeb676c559"
+  client_2022_sha: "4b8cc693b6491bc9edea70b7622364ba0750acf0"
+  old_translation_base_sha: "d336ab454031fda5868e710cbf2435216474bff4"
+
+sync:
+  tipoftheday:
+    status: translated_exact_base
+  guild_tip:
+    status: translated_for_latest_upstream
+  ba_frostjoke:
+    status: translated_exact_base
+  dc_scream:
+    status: translated_exact_base
+  msgstringtable:
+    status: translated_partial
+    applied_lines: 835
+    strategy: exact_english_line_mapping
+  achievements:
+    status: translated_partial
+    applied_lines: 11
+    strategy: exact_position_and_source_match
+
+policy:
+  - "Yeni upstream satirlari otomatik Turkcelestirilmez."
+  - "Eslesen eski Ingilizce satirlar mevcut Turkce karsiliklariyla korunur."
+  - "2022 client entegrasyonu guncel upstream master ile ayni sey degildir."
