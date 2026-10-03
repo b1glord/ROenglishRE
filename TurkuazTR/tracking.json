@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.1.0",
-    "description": "Ceviri durum aracinin ref, dosya ve bilincli Ingilizce politikasini takip etmesini saglar",
+    "version": "1.2.0",
+    "description": "Ceviri durum aracinin ref, dosya, bilincli Ingilizce ve RecommendedQuests takibini saglar",
     "dependency_layer": "Config"
   },
   "locale": "tr-TR",
@@ -35,6 +35,10 @@
     {
       "name": "achievements",
       "path": "Translation/Renewal/SystemEN/achievements.lub"
+    },
+    {
+      "name": "recommended_quests",
+      "path": "Translation/Renewal/SystemEN/RecommendedQuests.lub"
     }
   ],
   "intentional_english_path": "TurkuazTR/intentional-english.json"
