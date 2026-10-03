@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.3.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4999-5004 King Froggie VII gorev zinciri dahil",
+    "version": "4.4.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5016-5034 Raffle Researcher ve Bathtub arastirma zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4447,6 +4447,101 @@
       "title": "Yiyecek Sikintisi",
       "description": "Kurbagalarin yiyecegi azaldi. 50 Argiope yenerek aclik ceken kurbagalara yeterli yiyecek sagla.",
       "goal": "50 Argiope yen"
+    },
+    "5016": {
+      "title": "Arastirma Aletlerini Getir",
+      "description": "Raffle Researcher, kimligi belirsiz bir yaratik tarafindan saldiriya ugradigini ve arastirma aletlerinin calindigini soyluyor. Aletleri gizemli yaratiklardan geri alip arastirmaciya teslim et.",
+      "goal": "Arastirma aletlerini geri al"
+    },
+    "5017": {
+      "title": "Arastirmacinin Intikami",
+      "description": "Raffle Researcher, rahat bir zihinle calisabilmek icin senden yardim istiyor. Kimligi belirsiz yaratigi 3 kez rahatsiz et.",
+      "goal": "Kimligi belirsiz yaratigi 3 kez rahatsiz et"
+    },
+    "5018": {
+      "title": "Arastirmacinin Intikami",
+      "description": "Bathtub'daki kimligi belirsiz canliyi rahatsiz etme isi tamamlandi. Raffle Researcher'a geri don.",
+      "goal": "Raffle Researcher'a geri don"
+    },
+    "5019": {
+      "title": "Banyo Arastirmasi Numunesi",
+      "description": "Tam kapsamli arastirma basladi. Arastirma icin test numuneleri gerekiyor. Bathtub'a git ve 10 test numunesi topla.",
+      "goal": "Bathtub'dan 10 test numunesi topla"
+    },
+    "5020": {
+      "title": "Numune Taramasi",
+      "description": "Arastirmacilar test numuneleri uzerinde temel inceleme yapiyor. Tamamlanmasi yaklasik 24 saat surecek. 24 saat sonra geri don.",
+      "goal": "24 saat sonra arastirmacilara geri don"
+    },
+    "5021": {
+      "title": "Numuneler Toplandi",
+      "description": "Bathtub arastirmasinda numunenin ilginc DNA tasidigi goruldu. Karsilastirma icin Bathtub'dan dis numuneleri topla.",
+      "goal": "Bathtub'dan dis numunesi topla"
+    },
+    "5022": {
+      "title": "Numuneler Toplandi",
+      "description": "Bathtub arastirmasinda numunenin ilginc DNA tasidigi goruldu. Karsilastirma icin Bathtub'dan pul numuneleri topla.",
+      "goal": "Bathtub'dan pul numunesi topla"
+    },
+    "5023": {
+      "title": "Testteki Numune",
+      "description": "Arastirmacilar getirdigin numunelerdeki ilginc DNA'yi analiz ediyor.",
+      "goal": "6 saat sonra arastirmacilara geri don"
+    },
+    "5024": {
+      "title": "Dogu Havuzu Arastirmasi",
+      "description": "Arastirmacilar ilginc DNA nedeniyle daha fazla numune istiyor. East Pool'a git, numune topla ve geri getir.",
+      "goal": "East Pool'dan numune topla"
+    },
+    "5025": {
+      "title": "Bati Havuzu Arastirmasi",
+      "description": "Arastirmacilar ilginc DNA nedeniyle daha fazla numune istiyor. West Pool'a git, numune topla ve geri getir.",
+      "goal": "West Pool'dan numune topla"
+    },
+    "5026": {
+      "title": "Guney Havuzu Arastirmasi",
+      "description": "Arastirmacilar ilginc DNA nedeniyle daha fazla numune istiyor. South Pool'a git, numune topla ve geri getir.",
+      "goal": "South Pool'dan numune topla"
+    },
+    "5027": {
+      "title": "Kuzey Havuzu Arastirmasi",
+      "description": "Arastirmacilar ilginc DNA nedeniyle daha fazla numune istiyor. North Pool'a git, numune topla ve geri getir.",
+      "goal": "North Pool'dan numune topla"
+    },
+    "5028": {
+      "title": "Testteki Numune",
+      "description": "Arastirma son asamaya girdi. Arastirmacilar dort havuzdan toplanan numuneleri inceliyor.",
+      "goal": "12 saat sonra arastirmacilara geri don"
+    },
+    "5029": {
+      "title": "Kimligi Belirsiz Yaratik",
+      "description": "Kimligi belirsiz canliyla bir savas oldu. Yorgun zihin ve bedenini dinlendir.",
+      "goal": "1 saat dinlen"
+    },
+    "5030": {
+      "title": "Yaratigin Ailesi",
+      "description": "Fishee bir suredir ailesini goremiyor ve nasil olduklarini merak ediyor. Koy disindaki havuza git ve ailesini bul.",
+      "goal": "Fishee'nin ailesini bul"
+    },
+    "5031": {
+      "title": "Yaratigin Ailesi",
+      "description": "Fishee bir suredir ailesini goremiyor ve nasil olduklarini merak ediyor. Koy disindaki havuza git ve ailesini bul.",
+      "goal": "Fishee'nin ailesini bul"
+    },
+    "5032": {
+      "title": "Yaratigin Ailesi",
+      "description": "Fishee bir suredir ailesini goremiyor ve nasil olduklarini merak ediyor. Koy disindaki havuza git ve ailesini bul.",
+      "goal": "Fishee'nin ailesini bul"
+    },
+    "5033": {
+      "title": "Yaratigin Ailesi",
+      "description": "Fishee bir suredir ailesini goremiyor ve nasil olduklarini merak ediyor. Koy disindaki havuza git ve ailesini bul.",
+      "goal": "Fishee'nin ailesini bul"
+    },
+    "5034": {
+      "title": "Aileden Haber",
+      "description": "Fishee'nin ailesini buldun. Haberi vermek icin Fishee'ye geri don.",
+      "goal": "Bathtub'daki Fishee'ye haber ver"
     }
   }
 }
