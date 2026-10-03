@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.8.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5071-5091 Nyang antrenman ve ceza gorevleri dahil",
+    "version": "4.9.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5092-5100 Super Novice potansiyel gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4822,6 +4822,51 @@
       "title": "Malangdo'ya Git",
       "description": "Malangdo'ya git.",
       "goal": "Malangdo"
+    },
+    "5092": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Comodo'nun kuzeyindeki zindanda bir Novice ara. Super Novice potansiyelini en ust duzeye cikarmana yardim edebilir.",
+      "goal": "Kuzey Comodo zindanindaki Novice'i bul"
+    },
+    "5093": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Balikci Novice Nodor ile konusmaya devam et.",
+      "goal": "Nodor ile konus"
+    },
+    "5094": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Balikci Novice Nodor, tutkununu canavar avlayarak kanitlamani istiyor.",
+      "goal": "1.000 Poring avla"
+    },
+    "5095": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Balikci Novice Nodor, tutkununu canavar avlayarak kanitlamani istiyor.",
+      "goal": "1.000 Lunatic avla"
+    },
+    "5096": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Balikci Novice Nodor, tutkununu canavar avlayarak kanitlamani istiyor.",
+      "goal": "1.000 Fabre avla"
+    },
+    "5097": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Balikci Novice Nodor, tutkununu canavar avlayarak kanitlamani istiyor.",
+      "goal": "1.000 Picky avla"
+    },
+    "5098": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Nodor'un verdigi av gorevini tamamladin.",
+      "goal": "Balikci Novice Nodor ile konusmaya devam et"
+    },
+    "5099": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Airship'teki Nodor'un kardesini ziyaret et ve ona Zeny ver. Bagis miktarini sen sec.",
+      "goal": "Nodor'un kardesine Zeny bagisla"
+    },
+    "5100": {
+      "title": "Super Novice Potansiyelini Acmak",
+      "description": "Comodo'daki Nodor'a geri don ve gercek potansiyelini ac. Yol acildiginda Nodor sana yararli Novice ekipmanlari verecek.",
+      "goal": "Comodo'daki Nodor'a geri don"
     }
   }
 }
