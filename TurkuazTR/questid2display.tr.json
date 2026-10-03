@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.5.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4197-4227 Eden av cooldown kayitlari dahil",
+    "version": "3.6.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; NAVI ve ITEM taglerini birlikte byte-korumali ceviren Ongoing sablonlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -420,12 +420,14 @@
     "1150": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Ship Navi guvertesinde Poor Can Sack buldun. Awfully Suspicious Dealer ile yeniden gorus.",
-      "goal": "Ship Navi guvertesine git"
+      "goal": "Ship Navi guvertesine git",
+      "ongoing_description": "Ship Navi guvertesinde bir {{ITEM1}} buldun. {{NAVI1}} ile tekrar gorusmelisin."
     },
     "1151": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",
       "description": "Starry Coral Area'daki Red Eruma'lardan 30 Poor Can topla ve Gobonge'a geri don.",
-      "goal": ""
+      "goal": "",
+      "ongoing_description": "Starry Coral Area'daki {{NAVI1}} canavarlarindan 30 {{ITEM1}} topla ve {{NAVI2}}'a geri don."
     },
     "1152": {
       "title": "Tehlikedeki Kotu Kedilere Yardim Et!",

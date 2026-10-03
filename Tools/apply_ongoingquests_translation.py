@@ -2,8 +2,8 @@
 # Dosya Yolu: /ROenglishRE/Tools/apply_ongoingquests_translation.py
 # Amac: OngoingQuests.lub guvenli alanlarini byte-safe Turkce patch ile gunceller
 # Modul: Tool - Python
-# Version: 1.2.0
-# Aciklama: Title/Summary, guvenli Description ve NAVI byte'larini birebir koruyan sablonlu Description cevirilerini uygular
+# Version: 1.3.0
+# Aciklama: Title/Summary, guvenli Description ve NAVI/ITEM byte dizilerini birebir koruyan sablonlu Description cevirilerini uygular
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -20,8 +20,11 @@ FIELD_RE = re.compile(rb'^(\s*(Title|Summary)\s*=\s*")(.*)("[,]?\s*)$')
 DESCRIPTION_START_RE = re.compile(rb"^\s*Description\s*=\s*\{\s*$")
 DESCRIPTION_VALUE_RE = re.compile(rb'^(\s*")(.*)("[,]?\s*)$')
 DESCRIPTION_END_RE = re.compile(rb"^\s*\}[,]?\s*$")
-NAVI_SPAN_RE = re.compile(rb"<NAVI>.*?</NAVI>")
-NAVI_PLACEHOLDER_RE = re.compile(rb"\{\{NAVI(\d+)\}\}")
+PROTECTED_PATTERNS = {
+    "NAVI": re.compile(rb"<NAVI>.*?</NAVI>"),
+    "ITEM": re.compile(rb"<ITEM>.*?</ITEM>"),
+}
+PLACEHOLDER_RE = re.compile(rb"\{\{(NAVI|ITEM)(\d+)\}\}")
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -66,7 +69,6 @@ def record_ranges(lines: list[bytes]) -> dict[str, tuple[int, int]]:
         match = RECORD_RE.match(body)
         if match:
             starts.append((match.group(1).decode("ascii"), index))
-
     result: dict[str, tuple[int, int]] = {}
     for offset, (quest_id, start) in enumerate(starts):
         end = starts[offset + 1][1] if offset + 1 < len(starts) else len(lines)
@@ -77,7 +79,6 @@ def record_ranges(lines: list[bytes]) -> dict[str, tuple[int, int]]:
 def description_index(lines: list[bytes], start: int, end: int) -> tuple[int | None, str]:
     block_start: int | None = None
     block_end: int | None = None
-
     for index in range(start, end):
         body, _ = split_content_and_eol(lines[index])
         if block_start is None:
@@ -87,7 +88,6 @@ def description_index(lines: list[bytes], start: int, end: int) -> tuple[int | N
         if DESCRIPTION_END_RE.match(body):
             block_end = index
             break
-
     if block_start is None or block_end is None:
         return None, "description-block-missing"
 
@@ -98,36 +98,44 @@ def description_index(lines: list[bytes], start: int, end: int) -> tuple[int | N
             values.append(index)
         elif body.strip():
             return None, "description-structure-complex"
-
     if len(values) != 1:
         return None, "description-multiline"
     return values[0], "single-line"
 
 
-def render_navi_template(
-    template: str,
-    source_value: bytes,
-    quest_id: str,
-) -> bytes:
+def protected_spans(source_value: bytes) -> dict[str, list[bytes]]:
+    return {
+        tag: pattern.findall(source_value)
+        for tag, pattern in PROTECTED_PATTERNS.items()
+    }
+
+
+def render_protected_template(template: str, source_value: bytes, quest_id: str) -> bytes:
     try:
         template_bytes = template.encode("ascii")
     except UnicodeEncodeError as exc:
         raise ValueError(f"{quest_id}.ongoing_description: ASCII disi karakter var") from exc
 
-    spans = NAVI_SPAN_RE.findall(source_value)
-    placeholders = [int(x) for x in NAVI_PLACEHOLDER_RE.findall(template_bytes)]
-    expected = list(range(1, len(spans) + 1))
-    if placeholders != expected:
-        raise ValueError(
-            f"{quest_id}.ongoing_description: NAVI placeholders {placeholders}, beklenen {expected}"
-        )
+    spans = protected_spans(source_value)
+    used: dict[str, list[int]] = {tag: [] for tag in PROTECTED_PATTERNS}
+    for tag_bytes, index_bytes in PLACEHOLDER_RE.findall(template_bytes):
+        tag = tag_bytes.decode("ascii")
+        used[tag].append(int(index_bytes))
+
+    for tag, values in spans.items():
+        expected = list(range(1, len(values) + 1))
+        if used[tag] != expected:
+            raise ValueError(
+                f"{quest_id}.ongoing_description: {tag} placeholders {used[tag]}, beklenen {expected}"
+            )
 
     output = bytearray()
     cursor = 0
-    for match in NAVI_PLACEHOLDER_RE.finditer(template_bytes):
+    for match in PLACEHOLDER_RE.finditer(template_bytes):
         output.extend(ascii_lua_fragment(template_bytes[cursor:match.start()]))
-        span_index = int(match.group(1)) - 1
-        output.extend(spans[span_index])
+        tag = match.group(1).decode("ascii")
+        span_index = int(match.group(2)) - 1
+        output.extend(spans[tag][span_index])
         cursor = match.end()
     output.extend(ascii_lua_fragment(template_bytes[cursor:]))
     return bytes(output)
@@ -154,7 +162,7 @@ def main() -> int:
     applied_records = 0
     changed_lines = 0
     description_patched = 0
-    navi_description_patched = 0
+    protected_description_patched = 0
     description_skipped: dict[str, int] = {}
     missing_records: list[str] = []
 
@@ -194,20 +202,22 @@ def main() -> int:
             match = DESCRIPTION_VALUE_RE.match(body)
             if match is None:
                 raise ValueError(f"{quest_id}: Description satiri ayrisitirilamadi")
-            source_value = match.group(2)
-            source_navi = NAVI_SPAN_RE.findall(source_value)
 
-            if source_navi:
+            source_value = match.group(2)
+            spans = protected_spans(source_value)
+            has_protected = any(spans.values())
+
+            if has_protected:
                 template = patch.get("ongoing_description")
                 if template:
-                    replacement = render_navi_template(template, source_value, quest_id)
+                    replacement = render_protected_template(template, source_value, quest_id)
                     output_lines[desc_index] = match.group(1) + replacement + match.group(3) + eol
                     if output_lines[desc_index] != source_lines[desc_index]:
                         changed_lines += 1
                         description_patched += 1
-                        navi_description_patched += 1
+                        protected_description_patched += 1
                 else:
-                    reason = "description-has-navi"
+                    reason = "description-has-protected-tags"
                     description_skipped[reason] = description_skipped.get(reason, 0) + 1
             else:
                 replacement = ascii_lua_string(
@@ -244,7 +254,7 @@ def main() -> int:
     print(f"OngoingQuests matched records: {applied_records}")
     print(f"Changed translation lines: {changed_lines}")
     print(f"Description lines patched: {description_patched}")
-    print(f"NAVI-preserved Description lines patched: {navi_description_patched}")
+    print(f"Protected-tag Description lines patched: {protected_description_patched}")
     print(f"Missing OngoingQuests records: {len(missing_records)}")
     for skip_reason, count in sorted(description_skipped.items()):
         print(f"Skipped {skip_reason}: {count}")

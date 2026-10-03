@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # Dosya Yolu: /ROenglishRE/Tools/validate_ongoingquests_translation.py
-# Amac: OngoingQuests.lub byte-safe ceviri kapsamlarini ve NAVI byte korumasini dogrular
+# Amac: OngoingQuests.lub byte-safe ceviri kapsamlarini ve korunan tag byte dizilerini dogrular
 # Modul: Tool - Python
-# Version: 1.2.0
-# Aciklama: Title/Summary, guvenli Description ve sablonla etkinlestirilen NAVI Description satirlarina izin verir; NAVI spanlarini birebir karsilastirir
+# Version: 1.3.0
+# Aciklama: NAVI ve ITEM spanlarini kaynakla birebir karsilastirir; yalnizca izinli Title/Summary/Description satirlarinin degismesine izin verir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -20,7 +20,10 @@ FIELD_RE = re.compile(rb'^\s*(Title|Summary)\s*=\s*".*"[,]?\s*$')
 DESCRIPTION_START_RE = re.compile(rb"^\s*Description\s*=\s*\{\s*$")
 DESCRIPTION_VALUE_RE = re.compile(rb'^\s*"(.*)"[,]?\s*$')
 DESCRIPTION_END_RE = re.compile(rb"^\s*\}[,]?\s*$")
-NAVI_SPAN_RE = re.compile(rb"<NAVI>.*?</NAVI>")
+PROTECTED_PATTERNS = {
+    "NAVI": re.compile(rb"<NAVI>.*?</NAVI>"),
+    "ITEM": re.compile(rb"<ITEM>.*?</ITEM>"),
+}
 
 
 def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
@@ -74,7 +77,6 @@ def description_index(lines: list[bytes], start: int, end: int) -> int | None:
         if DESCRIPTION_END_RE.match(body):
             block_end = index
             break
-
     if block_start is None or block_end is None:
         return None
 
@@ -88,12 +90,19 @@ def description_index(lines: list[bytes], start: int, end: int) -> int | None:
     return values[0] if len(values) == 1 else None
 
 
+def protected_spans(value: bytes) -> dict[str, list[bytes]]:
+    return {
+        tag: pattern.findall(value)
+        for tag, pattern in PROTECTED_PATTERNS.items()
+    }
+
+
 def allowed_indexes(
     lines: list[bytes],
     patches: dict[str, dict[str, str]],
-) -> tuple[set[int], dict[int, bool]]:
+) -> tuple[set[int], dict[int, dict[str, list[bytes]]]]:
     allowed: set[int] = set()
-    navi_required: dict[int, bool] = {}
+    protected_required: dict[int, dict[str, list[bytes]]] = {}
     ranges = record_ranges(lines)
 
     for quest_id, patch in patches.items():
@@ -116,12 +125,14 @@ def allowed_indexes(
         if match is None:
             continue
 
-        has_navi = bool(NAVI_SPAN_RE.findall(match.group(1)))
-        if not has_navi or patch.get("ongoing_description"):
+        spans = protected_spans(match.group(1))
+        has_protected = any(spans.values())
+        if not has_protected or patch.get("ongoing_description"):
             allowed.add(desc_index)
-            navi_required[desc_index] = has_navi
+            if has_protected:
+                protected_required[desc_index] = spans
 
-    return allowed, navi_required
+    return allowed, protected_required
 
 
 def main() -> int:
@@ -155,9 +166,9 @@ def main() -> int:
         )
         return 1
 
-    allowed, navi_required = allowed_indexes(upstream, patches)
+    allowed, protected_required = allowed_indexes(upstream, patches)
     changed = 0
-    verified_navi = 0
+    verified_protected = 0
 
     for index, (source, target) in enumerate(zip(upstream, translated)):
         if source == target:
@@ -172,25 +183,25 @@ def main() -> int:
             print(f"Satir sonu degisti: satir {index + 1}", file=sys.stderr)
             return 1
 
-        if navi_required.get(index):
-            source_match = DESCRIPTION_VALUE_RE.match(source_body)
+        expected = protected_required.get(index)
+        if expected is not None:
             target_match = DESCRIPTION_VALUE_RE.match(target_body)
-            if source_match is None or target_match is None:
-                print(f"NAVI Description yapisi bozuldu: satir {index + 1}", file=sys.stderr)
+            if target_match is None:
+                print(f"Korunan-tag Description yapisi bozuldu: satir {index + 1}", file=sys.stderr)
                 return 1
-            source_spans = NAVI_SPAN_RE.findall(source_match.group(1))
-            target_spans = NAVI_SPAN_RE.findall(target_match.group(1))
-            if source_spans != target_spans:
-                print(f"NAVI byte dizisi degisti: satir {index + 1}", file=sys.stderr)
-                return 1
-            verified_navi += 1
+            actual = protected_spans(target_match.group(1))
+            for tag in PROTECTED_PATTERNS:
+                if expected[tag] != actual[tag]:
+                    print(f"{tag} byte dizisi degisti: satir {index + 1}", file=sys.stderr)
+                    return 1
+            verified_protected += 1
 
         changed += 1
 
     print("OngoingQuests byte-safe translation validation: OK")
     print(f"Allowed translation lines: {len(allowed)}")
     print(f"Changed lines: {changed}")
-    print(f"Verified NAVI Description lines: {verified_navi}")
+    print(f"Verified protected-tag Description lines: {verified_protected}")
     return 0
 
 
