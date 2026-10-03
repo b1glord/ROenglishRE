@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
     "dependency_layer": "Config"
   },
@@ -1805,6 +1805,356 @@
       "title": "New World'e Yaklasim",
       "description": "Terris, sol taraftaki koprunun karsisindaki kizlarla konusmani istiyor.",
       "goal": "30 Pinguicula yen"
+    },
+    "2151": {
+      "title": "New World'e Yaklasim",
+      "description": "Terris, ozel cevre olcum cihazlarini yok eden canavarlari temizlemeni istiyor.",
+      "goal": "10 Cornus yen"
+    },
+    "2152": {
+      "title": "New World'e Yaklasim",
+      "description": "Terris, curuyen bitki govdesini bati koprusunun yanindaki environmental purifier'a goturmeni istiyor. Mantar seklinde bir bina olmali.",
+      "goal": ""
+    },
+    "2153": {
+      "title": "New World'e Yaklasim",
+      "description": "Terris, yaptiklarini Rumis'e anlatmani istiyor.",
+      "goal": "Rumis ile konus"
+    },
+    "2154": {
+      "title": "New World'e Yaklasim",
+      "description": "Rumis, dogu koprusunun ilerisindeki yeni canavar turunu incelerken ona eslik etmeni istiyor.",
+      "goal": "Koprunun ilerisinde Rumis'i bul"
+    },
+    "2155": {
+      "title": "New World'e Yaklasim",
+      "description": "Rumis, arastirmasi icin 20 Horn of Hillslion toplamani istiyor.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "2156": {
+      "title": "New World'e Yaklasim",
+      "description": "Lumis alliance camp'ta seninle konusmak istiyor.",
+      "goal": "Lumis ile konus"
+    },
+    "2157": {
+      "title": "New World'e Yaklasim",
+      "description": "Lumis, basinda uc koseli sapka olan canavarin dusmanca olup olmadigini kontrol etmeni istiyor.",
+      "goal": "10 Tatacho yen"
+    },
+    "2158": {
+      "title": "Bir Fairy Bulmak",
+      "description": "Kucuk bir fairy buldun. Yeni bir yaratik buldugunu alliance'a bildir.",
+      "goal": "Midgard Alliance Guard Captain ile konus"
+    },
+    "2159": {
+      "title": "Bir Tree Giant Bulmak",
+      "description": "Bir tree giant buldun. Yeni bir yaratik buldugunu alliance'a bildir.",
+      "goal": "Midgard Alliance Guard Captain ile konus"
+    },
+    "2179": {
+      "title": "Dr. Lifeguard'in Istegi",
+      "description": "Dr. Lifeguard, Mt. Mjolnir bolgesinden 10 Rough Mineral getirmeni istedi.",
+      "goal": ""
+    },
+    "2180": {
+      "title": "Dr. Lifeguard'in Istegi",
+      "description": "Dr. Lifeguard, Abyss Lake bolgesinden 5 Rough Mineral getirmeni istedi.",
+      "goal": ""
+    },
+    "2181": {
+      "title": "Dr. Lifeguard'in Istegi",
+      "description": "Dr. Lifeguard, Thor Volcano disindaki bolgeden 5 Rough Mineral getirmeni istedi.",
+      "goal": ""
+    },
+    "2182": {
+      "title": "Rough Minerals",
+      "description": "Dr. Lifeguard'in su anda baska Rough Mineral istegi yok. Sure dolduktan sonra yeni istekler icin geri don.",
+      "goal": ""
+    },
+    "2183": {
+      "title": "Flower of Alfheim",
+      "description": "Bir purifier uzerinde acan Flower of Alfheim'i bul ve Grenouille'ye getir.",
+      "goal": ""
+    },
+    "2184": {
+      "title": "Flower of Alfheim",
+      "description": "Flower of Alfheim'i getirdin. Grenouille ile konusmaya devam et ve distiller ile siviyi cikarmayi bitirip bitirmedigine bak.",
+      "goal": ""
+    },
+    "2185": {
+      "title": "Spirit of Alfheim",
+      "description": "5 Spirit of Alfheim aldin. Bunlari Exhausted Lapine askerlerine gotur ve Grenouille'ye geri don.",
+      "goal": ""
+    },
+    "2186": {
+      "title": "Grenouille'ye Yardim",
+      "description": "Bugunluk Grenouille'ye yardimini tamamladin. Sure dolduktan sonra yeni bir gorev icin geri gel.",
+      "goal": ""
+    },
+    "2187": {
+      "title": "Archbishop Job Degisimi",
+      "description": "Umbala'daki Priest Dayan'i bul ve ona tam olarak ^3131FFI'm here for the Holy Pilgrimage^000000 de.",
+      "goal": "Priest Dayan ile konus"
+    },
+    "2188": {
+      "title": "Archbishop Job Degisimi",
+      "description": "Priest Dayan, Great Tree Yggdrasil'e hac yapman gerektigini soyluyor. Ilk yol meditasyon yoludur.",
+      "goal": "Hvergelmir kaynagini bul"
+    },
+    "2189": {
+      "title": "Archbishop Job Degisimi",
+      "description": "Priest Dayan, Hugel'deki Vinue ile bulusmani istiyor.",
+      "goal": "Hugel'deki Vinue ile konus"
+    },
+    "2190": {
+      "title": "Archbishop Job Degisimi",
+      "description": "Nun Vinue icin Odin Shrine'da Valkyrie hakkinda arastirma yapmaya karar verdin.",
+      "goal": "Odin Shrine'i arastir"
+    },
+    "2191": {
+      "title": "Archbishop Job Degisimi",
+      "description": "Valkyrie'yi koruyarak Horn Pipe toplaman gerekiyor.",
+      "goal": ""
+    },
+    "2192": {
+      "title": "Guarana Gorevi",
+      "description": "Candy Maker, Guarana Candy tatmak istiyorsan Art Museum'daki Cherto'ya gidip bilgi almani istiyor.",
+      "goal": "Cherto ile konus"
+    },
+    "2193": {
+      "title": "Guarana Gorevi",
+      "description": "Cherto'ya gore Brasilis'te Guarana meyvesinin yetismemesinin nedeni Guarana Boy'un dogmus olmasi.",
+      "goal": "Guarana Kid'i ara"
+    },
+    "2194": {
+      "title": "Guarana Gorevi",
+      "description": "Hayvan sesi cikaran Strange Kid'i buldun. Cherto'ya gidip bunun Guarana Boy olup olmadigini sor.",
+      "goal": "Cherto ile konus"
+    },
+    "2195": {
+      "title": "Guarana Gorevi",
+      "description": "Cherto, Brasilis'teki Mage Paje'den yardim istemeni soyluyor.",
+      "goal": "Mage Paje ile konus"
+    },
+    "2196": {
+      "title": "Guarana Gorevi",
+      "description": "Paje, Brasilis Field'da konusabilecegin bir Toucan bulmani istiyor.",
+      "goal": "Toucan ile konus"
+    },
+    "2197": {
+      "title": "Guarana Gorevi",
+      "description": "Toucan seni kutsuyor ve Jaguar ile bulusmani soyluyor.",
+      "goal": "Jaguar ile konus"
+    },
+    "2198": {
+      "title": "Guarana Gorevi",
+      "description": "Jaguar seni kutsuyor ve bir Monkey ile bulusmani soyluyor.",
+      "goal": "Monkey ile konus"
+    },
+    "2199": {
+      "title": "Guarana Gorevi",
+      "description": "Tum hayvanlarla konustun. Strange Kid'e geri don.",
+      "goal": "Strange Kid ile konus"
+    },
+    "2200": {
+      "title": "Guarana Gorevi",
+      "description": "Bir Guarana Fruit aldin. Candy Maker'a gotur ve seker yapip yapamayacagina bak.",
+      "goal": "Candy Maker ile konus"
+    },
+    "2201": {
+      "title": "Brasilis Water Lily",
+      "description": "Botanist Karmen, Brasilis hakkinda cok hikaye bilen Marta'yi bulmani istiyor.",
+      "goal": "Marta ile konus"
+    },
+    "2202": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasira, ay olduguna inandigi Jasi'ye 10 Banana goturmeni istiyor.",
+      "goal": ""
+    },
+    "2203": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasi adindaki gizemli adam, Brasilis Water Lily'yi izleyip takdir etmene izin veriyor.",
+      "goal": ""
+    },
+    "2204": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasi, 5 hard-shelled fruit bulmani istiyor. Jasira'ya don ve Jasi'den ogrendiklerini anlat.",
+      "goal": "Jasira'dan tavsiye al"
+    },
+    "2205": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasira, Jasi'nin Coconut'tan bahsettigini acikliyor. Brasilis'te bir satici bunlari satiyor olmali.",
+      "goal": "5 Coconut satin al ve Jasi'ye getir"
+    },
+    "2206": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasira'ya geri don ve Jasi'nin mesajini ilet.",
+      "goal": "Jasira ile konus"
+    },
+    "2207": {
+      "title": "Brasilis Water Lily",
+      "description": "Jasira, Jasi'nin mesajini anlayip Brasilis Water Lily'ni susluyor.",
+      "goal": "Botanist Karmen'e neler oldugunu anlat"
+    },
+    "2208": {
+      "title": "Bathroom Ghost",
+      "description": "Art Museum'daki banyoyu incele. Pedro'nun sarkisinin ilk kismi: ^FF0000Mother the door won't open!^000000 Anahtari gokkusagindaki renk sayisi kadar cevir.",
+      "goal": "Art Museum banyosunu incele"
+    },
+    "2209": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Bigibigi Grass buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2210": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Muka Tree buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2211": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Bogi Bine buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2212": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Aoletura buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2213": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Kongra buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2214": {
+      "title": "Mukemmel Ses Yalitimi Sistemi",
+      "description": "Deney malzemesi olarak Sticky Grass buldun. Sectiginde Testing Table uzerinde test edebilirsin.",
+      "goal": ""
+    },
+    "2215": {
+      "title": "Geneticist Job Degisimi",
+      "description": "Lighthalzen'in bati tarafindaki Alchemy Lab'da Devries adli Geneticist ile bulus.",
+      "goal": ""
+    },
+    "2216": {
+      "title": "Geneticist Job Degisimi",
+      "description": "Devries, ust kata cikarak mini cannon konusunda uzman Demi Calberine ile konusmani istiyor.",
+      "goal": ""
+    },
+    "2217": {
+      "title": "Geneticist Job Degisimi",
+      "description": "Demi Calberine'in bazi parcalari eksik. Onlari bulmana ihtiyaci var.",
+      "goal": "Scattered Stuff arasindan 12 eksik parca topla"
+    },
+    "2218": {
+      "title": "Wanderer Job Degisimi",
+      "description": "Performance Manager, Comodo Casino'daki Maestro Guitar Song'u bulmana yardim etmeni istiyor.",
+      "goal": ""
+    },
+    "2219": {
+      "title": "Wanderer Job Degisimi",
+      "description": "Guitar Song, Dancer Kim'in beklenmedik sekilde gruptan ayrildigini ve memleketi Hugel'de olabilecegini soyluyor.",
+      "goal": "Hugel'de Dancer Kim'i bul"
+    },
+    "2220": {
+      "title": "Wanderer Job Degisimi",
+      "description": "Abyss Lake'de Dancer Kim ile birlikte egitim yap. Hugel'den bir alan guneye ve bir alan batiya git; Dancer Kim orada bekliyor.",
+      "goal": ""
+    },
+    "2221": {
+      "title": "Wanderer Job Degisimi",
+      "description": "Dancer Kim ile yarismali egitim yap. O yapmadan once 50 Yellow Novus yen. Yalnizca 10 dakikan var.",
+      "goal": "50 Yellow Novus avla"
+    },
+    "2222": {
+      "title": "Wanderer Job Degisimi",
+      "description": "Comodo'ya donup Guitar Song'a Nolio'nun yeniden bir araya geldigini soyle; sonra birlikte performans yapmalari icin Lutie'deki Christmas Tree'ye don.",
+      "goal": ""
+    },
+    "2223": {
+      "title": "Geneticist Job Degisimi",
+      "description": "Demi Calberine, Geneticist gibi cart kullanmaya alisman icin cart'i bir seylere vurmanin iyi olacagini soyluyor.",
+      "goal": "Kafesteki 100 Poison Spore'u yok et"
+    },
+    "2235": {
+      "title": "Christmas: Toy Factory",
+      "description": "Worried Distribution Staff'e yardim etmek icin Toy Factory'de bazi canavarlarla savasmaya karar verdin.",
+      "goal": "10 Cruiser avla"
+    },
+    "2236": {
+      "title": "Christmas: Toy Factory",
+      "description": "Worried Distribution Staff'e yardim etmek icin Toy Factory'de bazi canavarlarla savasmaya karar verdin.",
+      "goal": "10 Mystcase avla"
+    },
+    "2237": {
+      "title": "Christmas: Toy Factory",
+      "description": "Toy Factory'de Stormy Knight'i bul ve yen.",
+      "goal": ""
+    },
+    "2238": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Willow avla.",
+      "goal": "2 Willow avla"
+    },
+    "2239": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Elder Willow avla.",
+      "goal": "2 Elder Willow avla"
+    },
+    "2240": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Orc Warrior avla.",
+      "goal": "2 Orc Warrior avla"
+    },
+    "2241": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Orc Lady avla.",
+      "goal": "2 Orc Lady avla"
+    },
+    "2242": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Mummy avla.",
+      "goal": "4 Mummy avla"
+    },
+    "2243": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Verit avla.",
+      "goal": "4 Verit avla"
+    },
+    "2244": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Marc avla.",
+      "goal": "4 Marc avla"
+    },
+    "2245": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Swordfish avla.",
+      "goal": "4 Swordfish avla"
+    },
+    "2246": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Petite (green) avla.",
+      "goal": "4 Petite (green) avla"
+    },
+    "2247": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Petite (blue) avla.",
+      "goal": "4 Petite (blue) avla"
+    },
+    "2248": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Spring Rabbit avla.",
+      "goal": "4 Spring Rabbit avla"
+    },
+    "2249": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Pest avla.",
+      "goal": "4 Pest avla"
+    },
+    "2250": {
+      "title": "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
+      "description": "Christmas Angel'in ilk testi: Desert Wolf avla.",
+      "goal": "4 Desert Wolf avla"
     }
   }
 }
