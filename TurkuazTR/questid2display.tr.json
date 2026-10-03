@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.0.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Bard, Crusader ve Monk job-change zincirleri dahil",
+    "version": "2.1.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Baphomet, Sealed Shrine ve Satan Morocc zincirleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -2745,6 +2745,76 @@
       "title": "Monk Job Degisimi - Monk Ol",
       "description": "Tum testleri tamamladin. Gizli iksiri aldiktan sonra Sensei Moohae'ye geri don ve Monk ol.",
       "goal": "Sensei Moohae ile konus"
+    },
+    "3040": {
+      "title": "Baphomet'in Laneti",
+      "description": "Baphomet'in laneti hala surdugu icin giremezsin. Lanet, giristen 12 saat sonra kaybolur.",
+      "goal": ""
+    },
+    "3041": {
+      "title": "Baphomet'in Laneti",
+      "description": "Baska bir muhru etkinlestirdigin icin SP henuz toparlanmadi. 5 dakika gecmeden yeni bir muhur etkinlestiremezsin.",
+      "goal": ""
+    },
+    "3042": {
+      "title": "Lanetli Baphomet Bebegi",
+      "description": "Friar Patrick, Monastery ana binasi yakinindaki Rust Blackhand ile gorusmeni oneriyor. Cursed Baphomet Doll'u kullanisli hale getirebilir.",
+      "goal": "Rust Blackhand ile konus"
+    },
+    "3043": {
+      "title": "Gigantic Magestic Goat",
+      "description": "Rust Blackhand, Baphomet'in gucunu tasiyan Gigantic Magestic Goat'u yapmak icin Cursed Baphomet Doll, Magestic Goat, 30 Crystal of Darkness, 50 Fragment of Darkness ve 990000 Zeny istiyor.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3044": {
+      "title": "Gigantic Magestic Goat",
+      "description": "Rust Blackhand, Baphomet'in gucunu tasiyan Gigantic Magestic Goat'u yapmak icin Cursed Baphomet Doll, Magestic Goat, 30 Crystal of Darkness, 50 Fragment of Darkness ve 990000 Zeny istiyor.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3045": {
+      "title": "Sealed Shrine",
+      "description": "Sealed Shrine dungeon'ini kesfetmek icin 2 saatin var.",
+      "goal": ""
+    },
+    "3046": {
+      "title": "Sealed Shrine Sonrasi",
+      "description": "Dungeon etkisi nedeniyle Sealed Shrine'a ancak 12 saat sonra yeniden girebilirsin.",
+      "goal": ""
+    },
+    "3050": {
+      "title": "Satan Morocc'un Dirilisi - 1",
+      "description": "Satan Morocc yeniden dirilip Morocc Village'dan kacti ve Sograt Desert'a gitti. Cesur bir maceraciysan Morocc Village'daki Continental Guard Chief Balrog'u bul.",
+      "goal": "Chief Balrog ile konus"
+    },
+    "3051": {
+      "title": "Satan Morocc'un Dirilisi - 2",
+      "description": "Chief Balrog, Lava Dungeon canavarlarindaki sönmeyen alevlerin kamp atesi sorununu cozebilecegini dusunuyor.",
+      "goal": "30 Live Coal topla"
+    },
+    "3052": {
+      "title": "Satan Morocc'un Dirilisi - 3",
+      "description": "Chief Balrog, kuzeydeki Ice Cave canavarlarindan Glacial Heart getirmeni istiyor; bunlar askerleri sicaktan koruyabilir.",
+      "goal": "50 Glacial Heart topla"
+    },
+    "3053": {
+      "title": "Satan Morocc'un Dirilisi - 4",
+      "description": "Yeteneklerini kanitladin ve Continental Guard'a kabul edildin. Dunyadaki baris icin Satan Morocc'un gercek gucune ulasmasini engelle.",
+      "goal": "Satan Morocc'un tam olarak dirilmesini engelle"
+    },
+    "3054": {
+      "title": "Satan Morocc'un Dirilisi - 5",
+      "description": "Satan Morocc sonunda Rune-Midgards'tan suruldu ve dimensional gap icinde kayboldu. Boslukta parcalari yuzuyor.",
+      "goal": "Dimensional gap'i incele"
+    },
+    "3055": {
+      "title": "Satan Morocc'un Dirilisi - 6",
+      "description": "Parlakligini kaybetmis bir parca aldin. Bu Satan Morocc'un derisinden bir parca ve onu yendiginin kesin kaniti olabilir.",
+      "goal": "Kaniti Chief Balrog'a gotur"
+    },
+    "3056": {
+      "title": "Satan Morocc'un Dirilisi - 7",
+      "description": "Dunyayi yikimdan kurtardin. Odul olarak sunulan uc esyadan birini sec.",
+      "goal": "Odulunu sec"
     }
   }
 }
