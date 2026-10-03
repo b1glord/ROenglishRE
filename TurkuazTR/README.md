@@ -30,3 +30,15 @@ python3 Tools/turkuaz_translation_status.py
 ```
 
 CI ayni kontrolu `translation/tr` dalindaki ilgili degisikliklerde otomatik calistirir. `needs-review` durumu upstream dosyasinin son senkrondan sonra degistigini ve Turkce karsiligin yeniden kontrol edilmesi gerektigini belirtir.
+
+
+## Bilincli Ingilizce / ozel ad politikasi
+
+`TurkuazTR/intentional-english.json`, clientte bilincli olarak Ingilizce kalan job/class adlarini, para birimlerini, sistem adlarini ve teknik format satirlarini exact-line olarak tutar.
+
+Status araci `msgstringtable.txt` icin:
+- Turkcelestirilmis/uyarlanmis satirlari,
+- bilincli Ingilizce/teknik satirlari,
+- gercek ceviri incelemesi gereken yeni satirlari
+
+ayri ayri raporlar. Upstream'de yeni veya degismis bir satir exact listeye otomatik girmez; yeniden incelenmesi gerekir.
