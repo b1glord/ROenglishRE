@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/turkuaz_translation_status.py
 # Amac: Turkce ceviri dosyalarinin upstream karsisindaki durumunu raporlar
 # Modul: Tool - Python
-# Version: 1.0.0
+# Version: 1.0.1
 # Aciklama: Pinned upstream, guncel upstream ve Turkce dal iceriklerini karsilastirir
 # Bagimli Oldugu Katman: Tool
 
@@ -16,33 +16,32 @@ import sys
 from pathlib import Path
 
 
-def run_git(repo_root: Path, *args: str) -> subprocess.CompletedProcess[str]:
+def run_git(repo_root: Path, *args: str) -> subprocess.CompletedProcess[bytes]:
     return subprocess.run(
         ["git", "-C", str(repo_root), *args],
-        text=True,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
         check=False,
     )
 
 
-def read_git_file(repo_root: Path, ref_name: str, file_path: str) -> str | None:
+def read_git_file(repo_root: Path, ref_name: str, file_path: str) -> bytes | None:
     result = run_git(repo_root, "show", f"{ref_name}:{file_path}")
     if result.returncode != 0:
         return None
     return result.stdout
 
 
-def content_hash(content: str | None) -> str:
+def content_hash(content: bytes | None) -> str:
     if content is None:
         return "-"
-    return hashlib.sha256(content.encode("utf-8")).hexdigest()[:12]
+    return hashlib.sha256(content).hexdigest()[:12]
 
 
 def resolve_status(
-    base_content: str | None,
-    upstream_content: str | None,
-    translation_content: str | None,
+    base_content: bytes | None,
+    upstream_content: bytes | None,
+    translation_content: bytes | None,
 ) -> str:
     if base_content is None or upstream_content is None or translation_content is None:
         return "missing"
