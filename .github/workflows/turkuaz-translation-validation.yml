@@ -1,0 +1,55 @@
+# Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
+# Amac: Turkce localization takip aracini ve ref durumunu CI uzerinde dogrular
+# Modul: Tool - YAML
+# Version: 1.0.0
+# Aciklama: Python syntax kontrolu yapar ve upstream/translation dosya durum raporunu uretir
+# Bagimli Oldugu Katman: Tool
+
+name: Turkuaz Translation Validation
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - "translation/tr"
+    paths:
+      - "Translation/**"
+      - "TurkuazTR/**"
+      - "Tools/turkuaz_translation_status.py"
+      - ".github/workflows/turkuaz-translation-validation.yml"
+
+  pull_request:
+    paths:
+      - "Translation/**"
+      - "TurkuazTR/**"
+      - "Tools/turkuaz_translation_status.py"
+      - ".github/workflows/turkuaz-translation-validation.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch translation refs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin             '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest'             '+refs/heads/translation/tr:refs/remotes/origin/translation-tr'
+
+      - name: Validate Python syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m py_compile Tools/turkuaz_translation_status.py
+
+      - name: Report translation status
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/turkuaz_translation_status.py             --translation-ref HEAD             --upstream-ref refs/remotes/origin/upstream/latest
