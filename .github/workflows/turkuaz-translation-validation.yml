@@ -1,7 +1,7 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # Amac: Turkce localization takip araclarini ve Lua ceviri yapisini CI uzerinde dogrular
 # Modul: Tool - YAML
-# Version: 1.6.0
+# Version: 1.7.0
 # Aciklama: Translation status, Python syntax ve achievements.lub structural validation calistirir
 # Bagimli Oldugu Katman: Tool
 
@@ -19,6 +19,7 @@ on:
       - "Tools/turkuaz_translation_status.py"
       - "Tools/validate_achievement_translation.py"
       - "Tools/validate_questid2display_translation.py"
+      - "Tools/apply_questid2display_translation.py"
       - ".github/workflows/turkuaz-translation-validation.yml"
 
   pull_request:
@@ -54,7 +55,8 @@ jobs:
           python3 -m py_compile \
             Tools/turkuaz_translation_status.py \
             Tools/validate_achievement_translation.py \
-            Tools/validate_questid2display_translation.py
+            Tools/validate_questid2display_translation.py \
+            Tools/apply_questid2display_translation.py
 
       - name: Report translation status
         shell: bash
