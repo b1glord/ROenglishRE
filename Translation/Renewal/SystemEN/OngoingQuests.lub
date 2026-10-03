@@ -12042,249 +12042,249 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[5341] = {
-		Title = "[Standby] Limits of Journeys",
+		Title = "Yolculugun Siniri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Began a journey using memory records. This tour is said to be possible until the indicated time."
+			"Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sure siniri: 22 saat",
 		CoolTimeQuest = 1
 	},
 	[5342] = {
-		Title = "Help Her",
+		Title = "Ona Yardim Et",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"I was asked to help <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Dr. Fresa'ya yardim et"
 	},
 	[5343] = {
-		Title = "Headcount",
+		Title = "Personel Sayimi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received a request from Dr. Fresa to help with conducting a current headcount of the <NAVI>[Bioengineer]<INFO>un_bk_q,213,303,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Bioengineer"
+		Summary = "Bioengineer sayisini ogren"
 	},
 	[5344] = {
-		Title = "Headcount",
+		Title = "Personel Sayimi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received a request from Dr. Fresa to help with conducting a current headcount of the <NAVI>[Mechanician]<INFO>un_bk_q,82,323,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Mechanician"
+		Summary = "Mechanician sayisini ogren"
 	},
 	[5345] = {
-		Title = "Headcount",
+		Title = "Personel Sayimi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received a request from Dr. Fresa to help with conducting a current headcount of the <NAVI>[Facility Manager]<INFO>un_bk_q,347,217,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Facility Manager"
+		Summary = "Facility Manager sayisini ogren"
 	},
 	[5346] = {
-		Title = "Headcount",
+		Title = "Personel Sayimi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received a request from Dr. Fresa to help with conducting a current headcount of the <NAVI>[Chemical Substance Specialist]<INFO>un_bk_q,86,121,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Chemical Substance Specialist"
+		Summary = "Chemical Substance Specialist sayisini ogren"
 	},
 	[5347] = {
-		Title = "Headcount",
+		Title = "Personel Sayimi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received the current number of Bioengineers from Bioengineer Touring. Report to <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Report to Dr. Fresa"
+		Summary = "Dr. Fresa'ya rapor ver"
 	},
 	[5348] = {
-		Title = "Headcount Complete",
+		Title = "Personel Sayimi Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received the current number of Mechanicians from Mechanician Al. Report to <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Report to Dr. Fresa"
+		Summary = "Dr. Fresa'ya rapor ver"
 	},
 	[5349] = {
-		Title = "Headcount Complete",
+		Title = "Personel Sayimi Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received the current number of Facilities managers from Facilities manager Remodeling. Report to <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Report to Dr. Fresa"
+		Summary = "Dr. Fresa'ya rapor ver"
 	},
 	[5350] = {
-		Title = "Headcount Complete",
+		Title = "Personel Sayimi Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received the current number of Chemical Substance Specialists from Chemical Substance Specialist Karsten. Report to <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Report to Dr. Fresa"
+		Summary = "Dr. Fresa'ya rapor ver"
 	},
 	[5351] = {
-		Title = "[Standby] Limits of Journeys",
+		Title = "Yolculugun Siniri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Began a journey using memory records. This tour is said to be possible until the indicated time."
+			"Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sure siniri: 22 saat",
 		CoolTimeQuest = 1
 	},
 	[5352] = {
-		Title = "Air Cleaning Unit",
+		Title = "Hava Temizleme Unitesi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received a request to move air cleaning units to five different locations where Facilities managers are waiting. (Location) <NAVI>C-0<INFO>un_bk_q,212,294,0,101,0</INFO></NAVI>, <NAVI>F-1<INFO>un_bk_q,223,217,0,101,0</INFO></NAVI>, <NAVI>F-2<INFO>un_bk_q,372,217,0,101,0</INFO></NAVI>, <NAVI>I-0<INFO>un_bk_q,389,276,0,101,0</INFO></NAVI>, <NAVI>Z-0<INFO>un_bk_q,291,158,0,101,0</INFO></NAVI>"
 		},
-		Summary = ""
+		Summary = "Bes hava temizleme unitesini teslim et"
 	},
 	[5353] = {
-		Title = "C-0 Delivery Complete",
+		Title = "C-0 Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered air cleaning unit to facilities manager of Zone C-0."
+			"Hava temizleme unitesini C-0 bolgesindeki Facility Manager'a teslim ettin."
 		},
-		Summary = ""
+		Summary = "C-0 teslimati tamamlandi"
 	},
 	[5354] = {
-		Title = "F-1 Delivery Complete",
+		Title = "F-1 Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered air cleaning unit to facilities manager of Zone F-1."
+			"Hava temizleme unitesini F-1 bolgesindeki Facility Manager'a teslim ettin."
 		},
-		Summary = ""
+		Summary = "F-1 teslimati tamamlandi"
 	},
 	[5355] = {
-		Title = "F-2 Delivery Complete",
+		Title = "F-2 Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered air cleaning unit to facilities manager of Zone F-2."
+			"Hava temizleme unitesini F-2 bolgesindeki Facility Manager'a teslim ettin."
 		},
-		Summary = ""
+		Summary = "F-2 teslimati tamamlandi"
 	},
 	[5356] = {
-		Title = "I-0 Delivery Complete",
+		Title = "I-0 Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered air cleaning unit to facilities manager of Zone I-0."
+			"Hava temizleme unitesini I-0 bolgesindeki Facility Manager'a teslim ettin."
 		},
-		Summary = ""
+		Summary = "I-0 teslimati tamamlandi"
 	},
 	[5357] = {
-		Title = "Z-0 Delivery Complete",
+		Title = "Z-0 Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered air cleaning unit to facilities manager of Zone Z-0."
+			"Hava temizleme unitesini Z-0 bolgesindeki Facility Manager'a teslim ettin."
 		},
-		Summary = ""
+		Summary = "Z-0 teslimati tamamlandi"
 	},
 	[5358] = {
-		Title = "[Standby] Limits of Journeys",
+		Title = "Yolculugun Siniri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Began a journey using memory records. This tour is said to be possible until the indicated time."
+			"Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sure siniri: 22 saat",
 		CoolTimeQuest = 1
 	},
 	[5359] = {
-		Title = "Grape Harvest",
+		Title = "Uzum Hasadi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"One Grape Box can apparently hold 30 Fresh Grapes. Pick 30 Fresh Grapes at the farm."
+			"Bir Grape Box 30 salkim uzum aliyor. Ciftlikten 30 taze uzum salkimi topla."
 		},
-		Summary = "30 Fresh Grapes"
+		Summary = "30 taze uzum salkimi topla"
 	},
 	[5360] = {
-		Title = "Grape Delivery",
+		Title = "Uzum Teslimati",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Deliver freshly picked grapes to <NAVI>[Mechanician Al]<INFO>un_bk_q,82,323,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Mechanician Al'a teslim et"
 	},
 	[5361] = {
-		Title = "Grape Delivery",
+		Title = "Uzum Teslimati",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Deliver freshly picked grapes to <NAVI>[Facilities Manager Remodeling]<INFO>un_bk_q,347,217,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Facility Manager Remodeling'e teslim et"
 	},
 	[5362] = {
-		Title = "Grape Delivery",
+		Title = "Uzum Teslimati",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Deliver freshly picked grapes to <NAVI>[Chemical Substance Specialist Karsten]<INFO>un_bk_q,86,121,0,101,0</INFO></NAVI>."
 		},
-		Summary = ""
+		Summary = "Karsten'e teslim et"
 	},
 	[5363] = {
-		Title = "[Standby] Limits of Journeys",
+		Title = "Yolculugun Siniri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Began a journey using memory records. This tour is said to be possible until the indicated time."
+			"Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sure siniri: 22 saat",
 		CoolTimeQuest = 1
 	},
 	[5364] = {
-		Title = "Convulsing Patient Suppression",
+		Title = "Kasintili Hastalari Bastir",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Receive request from Nurse to suppress patients in the temporary clinic showing symptoms of convulsion."
+			"Nurse, gecici klinikte kasinti belirtileri gosteren hastalari kontrol altina almani istedi."
 		},
-		Summary = ""
+		Summary = "Hastalari kontrol altina al"
 	},
 	[5365] = {
-		Title = "Urgent News",
+		Title = "Acil Haber",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Report to <NAVI>[Dr. Fresa]<INFO>un_bk_q,93,168,0,101,0</INFO></NAVI> about the news of drastic increase in patients showing symptoms of convulsion."
 		},
-		Summary = ""
+		Summary = "Dr. Fresa'ya rapor ver"
 	},
 	[5366] = {
-		Title = "[Standby] Limits of Journeys",
+		Title = "Yolculugun Siniri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Began a journey using memory records. This tour is said to be possible until the indicated time."
+			"Memory Record kullanarak bir yolculuga basla. Bu yolculuk en fazla 22 saat surer."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sure siniri: 22 saat",
 		CoolTimeQuest = 1
 	},
 	[5367] = {
-		Title = "Transport Necessities",
+		Title = "Ihtiyac Malzemelerini Tasi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Received request to transport goods to <NAVI>[Zone Z-2]<INFO>un_bk_q,72,53,0,101,0</INFO></NAVI> then go to <NAVI>[Mechanician Al]<INFO>un_bk_q,82,323,0,101,0</INFO></NAVI> and deliver a message saying: ^0000FFYou stupid idiots!! There's not enough material so make a little machine!!^000000."
 		},
-		Summary = ""
+		Summary = "Mallari tasi ve mesaji ilet"
 	},
 	[5368] = {
-		Title = "Goods delivery Complete",
+		Title = "Mal Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered requested goods to Zone Z-2."
+			"Istenen mallari Z-2 bolgesine teslim ettin."
 		},
-		Summary = ""
+		Summary = "Z-2 teslimati tamamlandi"
 	},
 	[5369] = {
-		Title = "Message Delivery Complete",
+		Title = "Mesaj Teslimati Tamamlandi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Delivered requested message to Mechanician Al."
+			"Istenen mesaji Mechanician Al'a ilettin."
 		},
-		Summary = ""
+		Summary = "Mesaj teslimati tamamlandi"
 	},
 	[5370] = {
 		Title = "Memory Record",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Successfully completed journey using a Memory Record."
+			"Memory Record kullanilan yolculugu basariyla tamamladin."
 		},
-		Summary = ""
+		Summary = "Yolculuk tamamlandi"
 	},
 	[5371] = {
 		Title = "Rebellion Skill Reset",
