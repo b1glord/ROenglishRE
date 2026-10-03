@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "3.9.1",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Ninja reset ve son test kayitlari dahil",
+    "version": "4.0.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4295-4305 Wandering Bard ve PC Cafe gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4217,6 +4217,61 @@
       "title": "Ninja Egitimi - Test",
       "description": "Duvarin arka tarafinda fiziksel saldirilara bagisik 4 Poring'i yok et.",
       "goal": "4 Poring yok et"
+    },
+    "4295": {
+      "title": "Gezgin Bard",
+      "description": "Gezgin Bard ile konusmayi tamamla.",
+      "goal": "Gezgin Bard ile konus"
+    },
+    "4296": {
+      "title": "Mola Ver",
+      "description": "Gezgin Bard'in simdilik anlatacak hikayesi yok. Yarin tekrar gel.",
+      "goal": "04:00'da yenilenir"
+    },
+    "4297": {
+      "title": "Bard'in Hikayesi: Bir Sirket",
+      "description": "Lighthalzen merkezli sirket hakkindaki hikayeyi arastir ve sonra Bard'a don. Slum'daki Fishburne bir seyler biliyor olabilir.",
+      "goal": "Fishburne ile konus"
+    },
+    "4298": {
+      "title": "Bard'in Hikayesi: Baskan",
+      "description": "Peki ya Baskan? Ordinary Man sana bir seyler anlatabilir.",
+      "goal": "Ordinary Man ile konus"
+    },
+    "4299": {
+      "title": "Bard'in Hikayesi: Juno'daki Bilgin",
+      "description": "Juno'daki bir bilgin Juperos kalintilarini inceliyor. Onunla konus.",
+      "goal": "Bilgin ile konus"
+    },
+    "4300": {
+      "title": "Bard'in Hikayesi: Deli Bilim Insani",
+      "description": "Juno'da deli bir bilim insani oldugu soyleniyor. Soylentilerin dogru olup olmadigini kontrol et.",
+      "goal": "Deli bilim insaniyla konus"
+    },
+    "4301": {
+      "title": "Bard'in Hikayesi: Hugel",
+      "description": "Hugel'de birinin yardimina ihtiyaci var. Onunla konus.",
+      "goal": "Hugel'deki kisiyle konus"
+    },
+    "4302": {
+      "title": "Bard'in Hikayesi: Odin Temple",
+      "description": "Odin Temple kazisina katil. Kazi alaninda bir seyler oluyor.",
+      "goal": "Kazi alanini arastir"
+    },
+    "4303": {
+      "title": "PC Cafe Etkinligi",
+      "description": "Ilk teslimi tamamladiktan 2 saat sonra hediyeyi alabilirsin.",
+      "goal": "2 saat bekle"
+    },
+    "4304": {
+      "title": "PC Cafe Etkinligi",
+      "description": "Ikinci teslimi tamamladiktan 2 saat sonra hediyeyi alabilirsin.",
+      "goal": "2 saat bekle"
+    },
+    "4305": {
+      "title": "PC Cafe Etkinligi",
+      "description": "Ucuncu teslim tamamlandi. Hediyeyi almak icin yarin tekrar gel.",
+      "goal": "Yarin tekrar gel"
     }
   }
 }
