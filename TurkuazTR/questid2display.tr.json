@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "2.5.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; Stolen Diamond zinciri dahil",
+    "version": "2.6.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; Z Gang Wanted zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -3080,6 +3080,86 @@
       "title": "Calinan Elmas - Elmas Bulundu",
       "description": "Depodaki tuhaf makineleri etkinlestirerek Ibrahim'in Diamond of Destruction esyasini buldun. Hemen Ibrahim'e gotur.",
       "goal": "Diamond of Destruction'i Ibrahim'e gotur"
+    },
+    "3119": {
+      "title": "Z Gang Araniyor - Aranma Ilani",
+      "description": "Rune-Midgarts Kingdom Homeland Security Office, Z Gang'i yakalayana odul verecek. Once daha fazla bilgi topla.",
+      "goal": "Z Gang hakkinda bilgi topla"
+    },
+    "3120": {
+      "title": "Z Gang Araniyor - Z Gang Hakkinda",
+      "description": "Z Gang'in uc uyesi var: Louis Von Silokens, Martha Hertizan ve Catfoii. Daha fazla bilgi icin Knight Valdes'i bul.",
+      "goal": "Valdes ile konus"
+    },
+    "3121": {
+      "title": "Z Gang Araniyor - Valdes'in Iyiligi",
+      "description": "Valdes'i buldun ama sarhos. Bilgi vermeden once 5 sise Morocc Fruit Wine istiyor.",
+      "goal": "5 Morocc Fruit Wine getir"
+    },
+    "3122": {
+      "title": "Z Gang Araniyor - Valdes'ten Bilgi",
+      "description": "Z Gang'i bulmak icin Rogue Guild ajani Marybell ile temasa gec. Ona verecegin parola: ^3355FFThe dawn is yet to come^000000",
+      "goal": "Marybell'i bul ve parolayi soyle"
+    },
+    "3123": {
+      "title": "Z Gang Araniyor - Marybell'in Testi",
+      "description": "Marybell seni sinamak istiyor. Payon'daki efsanevi kumarbaz Moonho Ahn'dan recommendation letter getirirsen sana guvenecek.",
+      "goal": "Moonho Ahn'dan recommendation letter al"
+    },
+    "3124": {
+      "title": "Z Gang Araniyor - Moonho Ahn'a Meydan Oku",
+      "description": "Moonho Ahn hazir oldugunda geri gelmeni soyluyor. Recommendation letter icin onu oyunda yen.",
+      "goal": "Moonho Ahn'i yen"
+    },
+    "3125": {
+      "title": "Z Gang Araniyor - Moonho Ahn'a Meydan Oku",
+      "description": "Moonho Ahn'i yendin. Recommendation letter ile Marybell'e geri don.",
+      "goal": "Marybell'e geri don"
+    },
+    "3126": {
+      "title": "Z Gang Araniyor - Marybell'den Bilgi",
+      "description": "Z Gang tum kitadaki bircok sorunla baglantili. Morocc'ta gizlice muhbir topluyorlar. Z Gang muhbirini bul.",
+      "goal": "Morocc'taki muhbiri bul"
+    },
+    "3127": {
+      "title": "Z Gang Araniyor - Z Gang Saldirisi",
+      "description": "Morocc'ta bilgi toplarken supheli bir adam sana saldirdi ve kacti. Z Gang ile baglantili olabilir; pesine dus.",
+      "goal": "Supheli adami takip et"
+    },
+    "3128": {
+      "title": "Z Gang Araniyor - Z Gang Saldirisi",
+      "description": "Z Gang muhbirini buldun. Siginaklari Morocc collerinde bir yerde olmali. Marybell'e geri don.",
+      "goal": "Marybell'e geri don"
+    },
+    "3129": {
+      "title": "Z Gang Araniyor - Tuhaf Mektup",
+      "description": "Marybell, muhbirden sifreli ve bos gorunen bir mektup aldi. Sifreyi cozmesi icin Payon'daki Gooho Ahn'a git.",
+      "goal": "Gooho Ahn ile konus"
+    },
+    "3130": {
+      "title": "Z Gang Araniyor - Mektubu Cozmek",
+      "description": "Dogru miktarda isi ve isik uygulanirsa mektup okunabilir. 20 Live Coal, 1 Matchstick, 2 Alcohol ve 10 Burning Heart getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "3131": {
+      "title": "Z Gang Araniyor - Sifre Cozuldu",
+      "description": "Gooho Ahn kagitta Aegye dili oldugunu soyledi. Parola: ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000",
+      "goal": "Parolayi hatirla"
+    },
+    "3132": {
+      "title": "Z Gang Araniyor - Z Gang Siginagini Bul",
+      "description": "Z Gang siginaginin girisi Southern Morocc colunde. Gooho Ahn'in cozdugu parola ise yarayabilir: ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000",
+      "goal": "Z Gang siginagini bul"
+    },
+    "3133": {
+      "title": "Z Gang Araniyor - Siginak Bulundu",
+      "description": "Z Gang siginagini buldun. Uyelerini bul ve yen.",
+      "goal": "Z Gang uyelerini yen"
+    },
+    "3134": {
+      "title": "Z Gang Araniyor - Temizlik Tamam",
+      "description": "Z Gang'i yakaladin ve Book of Forbidden Mystery elde ettin. Prontera'daki Retired Soldier'a geri don.",
+      "goal": "Retired Soldier ile konus"
     }
   }
 }
