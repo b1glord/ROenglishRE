@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/validate_achievement_translation.py
 # Amac: achievements.lub cevirisinin Lua yapisini degistirmedigini dogrular
 # Modul: Tool - Python
-# Version: 1.0.1
+# Version: 1.1.0
 # Aciklama: Upstream ve Turkce dosyada quoted string iceriklerini maskeleyip kalan yapinin birebir ayni oldugunu kontrol eder
 # Bagimli Oldugu Katman: Tool
 
@@ -50,6 +50,11 @@ def main() -> int:
         default="refs/remotes/origin/upstream/latest",
     )
     parser.add_argument("--translation-ref", default="HEAD")
+    parser.add_argument(
+        "--allow-non-ascii",
+        action="store_true",
+        help="Allow non-ASCII bytes in the translated file (use for files with Korean source keys).",
+    )
     args = parser.parse_args()
 
     script_path = Path(__file__).resolve()
@@ -62,14 +67,15 @@ def main() -> int:
     upstream = git_show(repo_root, args.upstream_ref, args.path)
     translated = git_show(repo_root, args.translation_ref, args.path)
 
-    try:
-        translated.decode("ascii")
-    except UnicodeDecodeError as exc:
-        print(
-            f"Achievement cevirisinde ASCII disi byte bulundu: offset={exc.start}",
-            file=sys.stderr,
-        )
-        return 1
+    if not args.allow_non_ascii:
+        try:
+            translated.decode("ascii")
+        except UnicodeDecodeError as exc:
+            print(
+                f"Ceviri dosyasinda ASCII disi byte bulundu: offset={exc.start}",
+                file=sys.stderr,
+            )
+            return 1
 
     upstream_structure = mask_strings(upstream)
     translated_structure = mask_strings(translated)
@@ -86,7 +92,7 @@ def main() -> int:
             n=2,
         )
         print(
-            "Achievement Lua yapisi upstream ile ayni degil. "
+            "Lua yapisi upstream ile ayni degil. "
             "Ceviri yalnizca quoted string icerigini degistirebilir.",
             file=sys.stderr,
         )
@@ -107,7 +113,7 @@ def main() -> int:
         )
         return 1
 
-    print("Achievement localization structure: OK")
+    print("Localization structure: OK")
     print(f"Quoted string count: {translated_strings}")
     return 0
 
