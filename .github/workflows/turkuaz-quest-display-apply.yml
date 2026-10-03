@@ -1,7 +1,7 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-quest-display-apply.yml
 # Amac: Quest ID bazli Turkce patchleri legacy byte yapisini koruyarak questid2display.txt dosyasina uygular
 # Modul: Tool - YAML
-# Version: 1.0.0
+# Version: 1.1.0
 # Aciklama: Patch kaynagi veya uygulayici degistiginde dosyayi yeniden uretir, dogrular ve translation/tr dalina commit eder
 # Bagimli Oldugu Katman: Tool
 
@@ -43,7 +43,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 -m py_compile             Tools/apply_questid2display_translation.py             Tools/validate_questid2display_translation.py
+          python3 -m py_compile             Tools/apply_questid2display_translation.py             Tools/validate_questid2display_translation.py             Tools/export_questid2display_candidates.py
 
       - name: Apply quest display patches
         shell: bash
@@ -57,19 +57,25 @@ jobs:
           set -euo pipefail
           python3 Tools/validate_questid2display_translation.py             --working-tree             --upstream-ref refs/remotes/origin/upstream/latest
 
+      - name: Export pending quest candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 Tools/export_questid2display_candidates.py             --source-ref refs/remotes/origin/upstream/latest
+
       - name: Commit generated quest display
         shell: bash
         run: |
           set -euo pipefail
 
-          if git diff --quiet -- Translation/Renewal/data/questid2display.txt; then
-            echo "Quest display already up to date."
+          if git diff --quiet -- Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json; then
+            echo "Quest display and pending report already up to date."
             exit 0
           fi
 
           git config user.name "Turkuaz Translation Bot"
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
 
-          git add Translation/Renewal/data/questid2display.txt
+          git add Translation/Renewal/data/questid2display.txt TurkuazTR/questid2display.pending.json
           git commit -m "chore: apply Turkish quest display patches"
           git push origin HEAD:translation/tr
