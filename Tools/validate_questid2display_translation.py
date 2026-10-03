@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/validate_questid2display_translation.py
 # Amac: questid2display.txt cevirisinin byte ve kayit yapisini dogrular
 # Modul: Tool - Python
-# Version: 1.1.0
+# Version: 1.2.0
 # Aciklama: Legacy encoding'i decode etmeden ID/header/# yapisini ve degisen satirlarin ASCII olmasini kontrol eder
 # Bagimli Oldugu Katman: Tool
 
@@ -59,6 +59,11 @@ def main() -> int:
         default="refs/remotes/origin/upstream/latest",
     )
     parser.add_argument("--translation-ref", default="HEAD")
+    parser.add_argument(
+        "--working-tree",
+        action="store_true",
+        help="Validate the current working-tree file instead of git show translation-ref.",
+    )
     args = parser.parse_args()
 
     script_path = Path(__file__).resolve()
@@ -69,7 +74,11 @@ def main() -> int:
     )
 
     upstream = git_show(repo_root, args.upstream_ref, args.path).split(b"\n")
-    translated = git_show(repo_root, args.translation_ref, args.path).split(b"\n")
+    if args.working_tree:
+        translated_raw = (repo_root / args.path).read_bytes()
+    else:
+        translated_raw = git_show(repo_root, args.translation_ref, args.path)
+    translated = translated_raw.split(b"\n")
 
     if len(upstream) != len(translated):
         print(
