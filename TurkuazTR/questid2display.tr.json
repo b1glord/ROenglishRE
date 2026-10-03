@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Quest ID bazinda ASCII title/description/goal cevirilerini tutar; kaynak dosyanin legacy encoding byte'larini degistirmez",
     "dependency_layer": "Config"
   },
@@ -935,6 +935,196 @@
       "title": "Destek Malzemelerinin Izi",
       "description": "Volunteer Service Helping Hand, komsulara Vin Chaud ile yardim etmeye calisiyor ancak malzeme teslimati gecikiyor. Ballery'ye yardim etmek icin insanlari ziyaret edip ne oldugunu ogren.",
       "goal": "Malzeme destekcileriyle bulus"
+    },
+    "1301": {
+      "title": "Destek Malzemelerinin Izi - Geffen",
+      "description": "Geffen'de Brewery Master Kantina ile bulus ve Fermented Grape Juice destegini sor.",
+      "goal": "Kantina'yi bul"
+    },
+    "1302": {
+      "title": "Destek Malzemelerinin Izi - Morocc",
+      "description": "Morocc'ta Wholesaler Brutaqual ile bulus ve Orange ile Apple destegini sor.",
+      "goal": "Brutaqual'i bul"
+    },
+    "1303": {
+      "title": "Destek Malzemelerinin Izi - Alberta",
+      "description": "Alberta'da Trader Curundu ile bulus ve Cinnamon ile Nutmeg destegini sor.",
+      "goal": "Curundu'yu bul"
+    },
+    "1304": {
+      "title": "Destek Malzemelerinin Izi - Aldebaran",
+      "description": "Aldebaran'da Seasoning Merchant Askar ile bulus ve Sugar destegini sor.",
+      "goal": "Askar'i bul"
+    },
+    "1305": {
+      "title": "Destek Malzemelerinin Izi - Payon",
+      "description": "Payon'da Farm Owner Vinpa ile bulus ve Apple destegini sor.",
+      "goal": "Vinpa'yi bul"
+    },
+    "1306": {
+      "title": "Kantina'nin Istegi",
+      "description": "Kantina, Happy Santa Orc'un tum Fermented Grape Juice'u aldigini soyledi. 6 Fermented Grape Juice'u geri almasina yardim et.",
+      "goal": "6 Fermented Grape Juice topla"
+    },
+    "1307": {
+      "title": "Curundu'nun Istegi",
+      "description": "Santa Poring'ler tum kargoyu yiyor. Destek teslimatini beklerken 3 Santa Poring'i hallet.",
+      "goal": "3 Santa Poring avla"
+    },
+    "1308": {
+      "title": "Askar'in Istegi",
+      "description": "Destek teslimati gecikiyor. Bag of Sugar'i al ve Ballery'ye teslim et.",
+      "goal": "Bag of Sugar'i Ballery'ye teslim et"
+    },
+    "1309": {
+      "title": "Helping Hand ile Sicakligi Paylas",
+      "description": "Helping Hand, subeleri araciligiyla Vin Chaud dagitmaya calisiyor. Vin Chaud kaynatmak icin Fire Wood topla ve Vin Chaud'u subelere teslim et.",
+      "goal": "Belirlenen bolgelerde sicakligi paylas"
+    },
+    "1310": {
+      "title": "Izlude'da Sicakligi Paylas",
+      "description": "Helping Hand Izlude Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Izlude Branch Member'a teslim et"
+    },
+    "1311": {
+      "title": "Geffen'de Sicakligi Paylas",
+      "description": "Helping Hand Geffen Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Geffen Branch Member'a teslim et"
+    },
+    "1312": {
+      "title": "Payon'da Sicakligi Paylas",
+      "description": "Helping Hand Payon Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Payon Branch Member'a teslim et"
+    },
+    "1313": {
+      "title": "Morocc'ta Sicakligi Paylas",
+      "description": "Helping Hand Morocc Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Morocc Branch Member'a teslim et"
+    },
+    "1314": {
+      "title": "Alberta'da Sicakligi Paylas",
+      "description": "Helping Hand Alberta Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Alberta Branch Member'a teslim et"
+    },
+    "1315": {
+      "title": "Aldebaran'da Sicakligi Paylas",
+      "description": "Helping Hand Aldebaran Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Aldebaran Branch Member'a teslim et"
+    },
+    "1316": {
+      "title": "Prontera'da Sicakligi Paylas",
+      "description": "Helping Hand Prontera Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et.",
+      "goal": "Urunleri Prontera Branch Member'a teslim et"
+    },
+    "1317": {
+      "title": "Bugunku Vin Chaud Uretimi Bitti",
+      "description": "Kaynatilan Vin Chaud stogu tukendi. Vin Chaud yeniden hazir oldugunda saat 04:00'te geri gel.",
+      "goal": "04:00'ten sonra Ballery'yi ziyaret et"
+    },
+    "1318": {
+      "title": "Elena'nin Ricasi",
+      "description": "Elena, kiz kardesine ne olursa olsun yardim etmeni istiyor. Neler oldugunu gormek icin Prontera Church onundeki Ballery'yi bul.",
+      "goal": "Prontera Church onunde Ballery ile bulus"
+    },
+    "1319": {
+      "title": "Sprig of Holly Hatirasi",
+      "description": "Ballery yardimin icin Sprig of Holly verdi; dokunarak guzel bir esyaya donusebilir. Dali dokumasini istemek icin Izlude meydaninin saat 7 yonundeki Brechen'i bul.",
+      "goal": "Izlude'da Brechen'i bul"
+    },
+    "1320": {
+      "title": "Christmas Wreath Yapimi",
+      "description": "Brechen, Christmas Wreath yapmak icin 10 Sprig of Holly toplamani istedi.",
+      "goal": "10 Sprig of Holly topla"
+    },
+    "1321": {
+      "title": "Spotty ve Yuzugu",
+      "description": "Spotty, Mrs. McPhy'nin yuzugunu yanina aldi; Mr. McPhy ise Buffalo Bandits'ten korktugu icin aramaya gidemiyor. Onlara yardim et.",
+      "goal": "Spotty'nin aldigi yuzugu bul"
+    },
+    "1322": {
+      "title": "Bir Sey Buldum",
+      "description": "Spotty'nin actigi deliklerden birinde parlak bir sey buldun ama altin yuzuk degil. Dikenli tel boyunca yeterince aradin. Mrs. McPhy'ye don.",
+      "goal": "Mrs. McPhy'ye geri don"
+    },
+    "1323": {
+      "title": "Spotty, Hayir!",
+      "description": "Spotty evden daha fazla esyayi wasteland'e tasidi ve Mrs. McPhy cok uzgun. Kayip esyalari ara.",
+      "goal": "Spotty'nin aldigi ev esyalarini bul"
+    },
+    "1324": {
+      "title": "Spotty, Hayir!",
+      "description": "Spotty evden daha fazla esyayi wasteland'e tasidi ve Mrs. McPhy cok uzgun. Kayip esyalari ara.",
+      "goal": "Spotty'nin aldigi ev esyalarini bul"
+    },
+    "1325": {
+      "title": "Spotty, Hayir!",
+      "description": "Spotty evden daha fazla esyayi wasteland'e tasidi ve Mrs. McPhy cok uzgun. Kayip esyalari ara.",
+      "goal": "Spotty'nin aldigi ev esyalarini bul"
+    },
+    "1326": {
+      "title": "Spotty, Hayir!",
+      "description": "Spotty evden daha fazla esyayi wasteland'e tasidi ve Mrs. McPhy cok uzgun. Kayip esyalari ara.",
+      "goal": "Spotty'nin aldigi ev esyalarini bul"
+    },
+    "1327": {
+      "title": "Spotty, Hayir!",
+      "description": "Spotty evden daha fazla esyayi wasteland'e tasidi ve Mrs. McPhy cok uzgun. Kayip esyalari ara.",
+      "goal": "Spotty'nin aldigi ev esyalarini bul"
+    },
+    "1328": {
+      "title": "Kayip Esyalar Bulundu",
+      "description": "Spotty'nin actigi deliklerden birinde Mrs. McPhy'nin aradigi seyi buldun. Mrs. McPhy'ye geri don.",
+      "goal": "Mrs. McPhy'ye geri don"
+    },
+    "1329": {
+      "title": "Spotty Ruyalar Aleminde",
+      "description": "Spotty bugunluk yorulmus gorunuyor ve derin uyuyor. Yarin 04:00'ten sonra geri gel ve Mrs. McPhy'nin yardima ihtiyaci olup olmadigini sor.",
+      "goal": "Ertesi gun 04:00'ten sonra Mrs. McPhy'yi yeniden ziyaret et"
+    },
+    "1330": {
+      "title": "Spotty'nin Delikleri",
+      "description": "Mr. McPhy, Spotty'nin deliklerinin nerede oldugunu soyleyecek. Koyun disina cik ve onu bul.",
+      "goal": "Koyun disinda Mr. McPhy'yi bul"
+    },
+    "1331": {
+      "title": "Spotty'nin Intikami",
+      "description": "Buffalo Bandits'in Spotty'ye zarar verdigine inanan Mr. McPhy onlarla ilgilenmeni istedi. 3 sari sacli, 3 siyah sacli ve 3 beyaz sacli Buffalo Bandit yen.",
+      "goal": "Buffalo Bandits'i yen"
+    },
+    "1332": {
+      "title": "Kana Kan",
+      "description": "Mr. McPhy, Spotty'nin intikamini tamamlamadi. Ertesi gun 04:00'ten sonra sehirdeki Mr. McPhy'ye geri don.",
+      "goal": "Ertesi gun 04:00'ten sonra Mr. McPhy'yi yeniden ziyaret et"
+    },
+    "1333": {
+      "title": "Tatli Cazibe",
+      "description": "Tatli kokuyla mucadele eden adama 5 Sweets Drops avlayarak yardim et.",
+      "goal": "5 Sweets Drops'u hallet"
+    },
+    "1334": {
+      "title": "Tatlinin Etkisi Uzun Surmez",
+      "description": "Zorlanan adam yeniden huzura kavustu. Yarin 04:00'ten sonra tekrar kontrol et.",
+      "goal": "04:00'ten sonra zorlanan adami ziyaret et"
+    },
+    "1335": {
+      "title": "Sevimli Seker Sepeti",
+      "description": "Garnish Lorenzo'ya 5 Candy, 5 Lollipop ve 3 Throat Candy getir.",
+      "goal": "Malzemeleri Garnish'e teslim et"
+    },
+    "1336": {
+      "title": "Gizli Gorev: Seker Sepetini Doldur",
+      "description": "Garnish, oglunun fark etmemesi icin 04:00'ten sonra geri gelmeni istiyor.",
+      "goal": "04:00'ten sonra Garnish Lorenzo'yu ziyaret et"
+    },
+    "1337": {
+      "title": "Sansli Tatlilar",
+      "description": "Miss Fortuna'ya 1 Lucky Candy, 1 Lucky Lollipop ve 1 Lucky Cookie getir.",
+      "goal": "Malzemeleri Miss Fortuna'ya teslim et"
+    },
+    "1338": {
+      "title": "Daha Fazla Tatli Yok",
+      "description": "Miss Fortuna, 04:00'ten sonra daha fazla tatli isteyebilecegini soyluyor.",
+      "goal": "04:00'ten sonra Miss Fortuna'yi ziyaret et"
     }
   }
 }
