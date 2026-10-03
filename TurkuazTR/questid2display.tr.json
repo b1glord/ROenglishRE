@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.7.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5058-5070 Nyang ve Cat Gamers gorev zinciri dahil",
+    "version": "4.8.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5071-5091 Nyang antrenman ve ceza gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4717,6 +4717,111 @@
       "title": "Tas Kagit Makas Antrenmani",
       "description": "Nyang Gamers oyuncusuyla tas-kagit-makas antrenman maci yaptin.",
       "goal": "Sonraki antrenman 24 saat sonra"
+    },
+    "5071": {
+      "title": "Charmcharmcharm Antrenmani",
+      "description": "Nyang Gamers oyuncusuyla Charmcharmcharm antrenman maci yaptin.",
+      "goal": "Sonraki antrenman 24 saat sonra"
+    },
+    "5072": {
+      "title": "Kong Nyang Kong Antrenmani",
+      "description": "Nyang Gamers icinde Kong Nyang Kong antrenman maci yaptin.",
+      "goal": "Sonraki antrenman 24 saat sonra"
+    },
+    "5073": {
+      "title": "Bayrak Sallama Meydan Okumasi",
+      "description": "Nyang Gamers bayrak sallama takimiyla karsilastin.",
+      "goal": "Sonraki meydan okuma 24 saat sonra"
+    },
+    "5074": {
+      "title": "Kedinin Yemegi",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF30 Delicious Phen, 10 Special Fish Tail^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5075": {
+      "title": "Saglikli Yiyecek",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF50 Marse, 30 Milk^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5076": {
+      "title": "Dusmanlar",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF30 Kobold Archer rahatsiz et^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5077": {
+      "title": "Refleks Antrenmani",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF10 Cramp yakala^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5078": {
+      "title": "Hafif Kus Yemi",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF50 Pecopeco Bird Meat^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5079": {
+      "title": "Zihni Sakinlestirme",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FFCat Gamers Director'a 20 Yarn getir^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5080": {
+      "title": "Atistirmalik Eksigi",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF30 Rat Tail^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5081": {
+      "title": "Yasak Yiyecekler",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF5 Lemon^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5082": {
+      "title": "Soguk Yiyecek",
+      "description": "Antrenman macini kaybettigin icin bu gorevi aldin: ^0000FF10 Ice Cube veya Ice Cream^000000.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5083": {
+      "title": "Eryu Geri Donsun (1)",
+      "description": "Antrenman macini kaybettigin icin Eryu'yu bul ve ^0000FFGeri don^000000 de.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5084": {
+      "title": "Eryu Geri Donsun (2)",
+      "description": "Eryu ile bulustun ve geri donmesini soyledin.",
+      "goal": "Cat Gamers Director'a rapor ver"
+    },
+    "5085": {
+      "title": "Stew Geri Donsun (1)",
+      "description": "Antrenman macini kaybettigin icin Stew'i bul ve ^0000FFGeri don^000000 de.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5086": {
+      "title": "Stew Geri Donsun (2)",
+      "description": "Stew ile bulustun ve geri donmesini soyledin.",
+      "goal": "Cat Gamers Director'a rapor ver"
+    },
+    "5087": {
+      "title": "Ketchup Geri Donsun (1)",
+      "description": "Antrenman macini kaybettigin icin Ketchup'u bul ve ^0000FFGeri don^000000 de.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5088": {
+      "title": "Ketchup Geri Donsun (2)",
+      "description": "Ketchup ile bulustun ve geri donmesini soyledin.",
+      "goal": "Cat Gamers Director'a rapor ver"
+    },
+    "5089": {
+      "title": "Eff Geri Donsun (1)",
+      "description": "Antrenman macini kaybettigin icin Eff'i bul ve ^0000FFGeri don^000000 de.",
+      "goal": "Isi bitirince Cat Gamers Director'a rapor ver"
+    },
+    "5090": {
+      "title": "Eff Geri Donsun (2)",
+      "description": "Eff ile bulustun ve geri donmesini soyledin.",
+      "goal": "Cat Gamers Director'a rapor ver"
+    },
+    "5091": {
+      "title": "Malangdo'ya Git",
+      "description": "Malangdo'ya git.",
+      "goal": "Malangdo"
     }
   }
 }
