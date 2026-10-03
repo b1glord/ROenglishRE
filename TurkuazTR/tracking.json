@@ -1,0 +1,40 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/tracking.json",
+    "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
+    "module": "Config - JSON",
+    "version": "1.0.0",
+    "description": "Ceviri durum aracinin kullandigi ref, pin ve dosya listesini tek noktada tutar",
+    "dependency_layer": "Config"
+  },
+  "locale": "tr-TR",
+  "sync_base_sha": "85f216a230bf9180451fa29a37505baeb676c559",
+  "default_upstream_ref": "upstream/latest",
+  "default_translation_ref": "HEAD",
+  "files": [
+    {
+      "name": "tipoftheday",
+      "path": "Translation/Renewal/tipoftheday.txt"
+    },
+    {
+      "name": "guild_tip",
+      "path": "Translation/Renewal/data/GuildTip.txt"
+    },
+    {
+      "name": "ba_frostjoke",
+      "path": "Translation/Renewal/data/ba_frostjoke.txt"
+    },
+    {
+      "name": "dc_scream",
+      "path": "Translation/Renewal/data/dc_scream.txt"
+    },
+    {
+      "name": "msgstringtable",
+      "path": "Translation/Renewal/data/msgstringtable.txt"
+    },
+    {
+      "name": "achievements",
+      "path": "Translation/Renewal/SystemEN/achievements.lub"
+    }
+  ]
+}
