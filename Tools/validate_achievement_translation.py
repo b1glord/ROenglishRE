@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/validate_achievement_translation.py
 # Amac: achievements.lub cevirisinin Lua yapisini degistirmedigini dogrular
 # Modul: Tool - Python
-# Version: 1.0.0
+# Version: 1.0.1
 # Aciklama: Upstream ve Turkce dosyada quoted string iceriklerini maskeleyip kalan yapinin birebir ayni oldugunu kontrol eder
 # Bagimli Oldugu Katman: Tool
 
@@ -32,7 +32,8 @@ def git_show(repo_root: Path, ref_name: str, path: str) -> bytes:
 
 
 def mask_strings(content: bytes) -> bytes:
-    return STRING_RE.sub(b'""', content)
+    masked = STRING_RE.sub(b'""', content)
+    return b"\n".join(line.rstrip() for line in masked.split(b"\n"))
 
 
 def main() -> int:
