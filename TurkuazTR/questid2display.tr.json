@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.2.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 4344-4364 Paskalya ve Santa etkinlik gorevleri dahil",
+    "version": "4.3.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 4999-5004 King Froggie VII gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4417,6 +4417,36 @@
       "title": "Santa Jakk Bekleme Suresi",
       "description": "Gorevi tekrar almak icin 24 saat bekle.",
       "goal": "24 saat bekle"
+    },
+    "4999": {
+      "title": "Yok Olma Krizi",
+      "description": "Kurbaga halki, gezginlerin yumurtalari hatira olarak almasi nedeniyle tehlikede. King Froggie VII'ye ^FF0000100 Spawn^000000 getir.",
+      "goal": "King Froggie VII'ye 100 Spawn getir"
+    },
+    "5000": {
+      "title": "Yok Olma Krizi",
+      "description": "Kurbaga halki, gezginlerin yumurtalari hatira olarak almasi nedeniyle tehlikede. King Froggie VII'ye ^FF0000100 Spawn^000000 getir.",
+      "goal": "King Froggie VII'ye 100 Spawn getir"
+    },
+    "5001": {
+      "title": "King Froggie VII'nin Intikami",
+      "description": "King Froggie VII, kurbaga kardeslerini yenen Side Winder'lardan intikam almani istiyor. 50 Side Winder yen ve ona geri don.",
+      "goal": "50 Side Winder yen"
+    },
+    "5002": {
+      "title": "Kurbagalarin Kahramani",
+      "description": "King Froggie VII kahramanliklarini tarih kitaplarina eklemek istiyor. Degerini kanitlamak icin ona 100 Venom Canine getir.",
+      "goal": "100 Venom Canine getir"
+    },
+    "5003": {
+      "title": "Kurbaga Gizlenme Teknigi",
+      "description": "Eski King Froggie III, kurbagalarin yilanlardan saklanabilmesi icin gizli bir ilac yapmisti. King Froggie VII'ye 50 Scale Shell getir.",
+      "goal": "50 Scale Shell getir"
+    },
+    "5004": {
+      "title": "Yiyecek Sikintisi",
+      "description": "Kurbagalarin yiyecegi azaldi. 50 Argiope yenerek aclik ceken kurbagalara yeterli yiyecek sagla.",
+      "goal": "50 Argiope yen"
     }
   }
 }
