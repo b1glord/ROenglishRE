@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "4.5.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5035-5051 Dewata Memo ve Lero gorev zinciri dahil",
+    "version": "4.6.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5052-5057 Geleneksel Silah ve Local Rising gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -4627,6 +4627,36 @@
       "title": "Yasli Adama Yardim Et!",
       "description": "20 Palm Oil'i Memo'ya gotur.",
       "goal": "20 Palm Oil'i Memo'ya getir"
+    },
+    "5052": {
+      "title": "Geleneksel Silah",
+      "description": "Jaty kabilesinin onayini aldiktan sonra beni ziyaret etmeyi unutma.",
+      "goal": "Jaty kabilesinin onayindan sonra Whitesmith Gatti'yi ziyaret et"
+    },
+    "5053": {
+      "title": "Geleneksel Silah",
+      "description": "Jaty kabilesinin onayini almak uzun zamandir istedigim bir seydi. Onayi aldigina gore benim yerime 100 Leather of Comodo getir.",
+      "goal": "Whitesmith Gatti'ye 100 Leather of Comodo getir"
+    },
+    "5054": {
+      "title": "Geleneksel Silah",
+      "description": "Yaptigim Caress Hilt ile birlikte 100 Leather of Comodo, 20 Steel ve 10 Oridecon getirirsen silah uretim kilavuzundaki silahi yapacagim.",
+      "goal": "Gatti'ye 100 Leather of Comodo, 20 Steel ve 10 Oridecon getir"
+    },
+    "5055": {
+      "title": "Yerel Hareket - Headless Horse",
+      "description": "Heaven's Recruit Board 71-85 senden Headless Horse avlamani istiyor.",
+      "goal": "15 Headless Horse avla ve 71-85 panosuna rapor ver"
+    },
+    "5056": {
+      "title": "Yerel Hareket - Tamruan",
+      "description": "Heaven's Recruit Board 71-85 senden Noisy Tamruan avlamani istiyor.",
+      "goal": "15 Tamruan avla ve 71-85 panosuna rapor ver"
+    },
+    "5057": {
+      "title": "Yerel Hareket - Festival Hazirligi",
+      "description": "Heaven's Recruit Board 71-85 festival hazirliklarina yardim etmeni istiyor.",
+      "goal": "30 gerekli esya topla ve 71-85 panosuna rapor ver"
     }
   }
 }
