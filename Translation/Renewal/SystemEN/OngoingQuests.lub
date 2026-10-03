@@ -17,84 +17,84 @@ QuestInfoList = {
 	[101] = {
 		Title = "Professorle Tanisma",
 		Description = {
-			"Head up to the Great Hall and speak to the professor to check in for class."
+			"Great Hall'a git ve derse kaydolmak icin professorle konus."
 		},
 		Summary = ""
 	},
 	[102] = {
 		Title = "Egitmenleri Bul",
 		Description = {
-			"Look for the Battle Instructor, Adept Adventure and Attribute Expert here at Criatura Academy and take their classes."
+			"Criatura Academy'deki Battle Instructor, Adept Adventurer ve Attribute Expert'i bul ve derslerine katil."
 		},
 		Summary = ""
 	},
 	[103] = {
 		Title = "Battle Instructor",
 		Description = {
-			"You have spoken to the Academy Battle Instructor"
+			"Academy Battle Instructor ile konustun."
 		},
 		Summary = ""
 	},
 	[104] = {
 		Title = "Adept Adventurer",
 		Description = {
-			"You have spoken to the Academy Adept Adventurer"
+			"Academy Adept Adventurer ile konustun."
 		},
 		Summary = ""
 	},
 	[105] = {
 		Title = "Attribute Expert",
 		Description = {
-			"You have spoken to the Academy Attribute Expert"
+			"Academy Attribute Expert ile konustun."
 		},
 		Summary = ""
 	},
 	[106] = {
 		Title = "Midgard'in En Agir Seylerini Bul",
 		Description = {
-			"Look for the book in the Criatura Academy that describes the heaviest things in Rune-Midgarts"
+			"Criatura Academy'de Rune Midgard'in en agir seylerini anlatan kitabi bul."
 		},
 		Summary = ""
 	},
 	[107] = {
 		Title = "Midgard'in En Agir Seyleri",
 		Description = {
-			"You almost got smashed by the book but you survived. Bring it back to the Professor."
+			"Kitap neredeyse seni ezdi ama kurtuldun. Kitabi Professore geri gotur."
 		},
 		Summary = ""
 	},
 	[108] = {
 		Title = "Revir Terapisti",
 		Description = {
-			"Talk to the Therapist at the dispensary in the southwestern room of the first floor of the Academy"
+			"Academy'nin birinci katinin guneybati odasindaki revirde Therapist ile konus."
 		},
 		Summary = ""
 	},
 	[109] = {
 		Title = "Therapist",
 		Description = {
-			"You have spoken to the Academy Therapist"
+			"Academy Therapist ile konustun."
 		},
 		Summary = ""
 	},
 	[110] = {
 		Title = "Criatura Academy Muduru",
 		Description = {
-			"Find and speak to the Criatura Academy Principal"
+			"Criatura Academy Principal'i bul ve konus."
 		},
 		Summary = ""
 	},
 	[1000] = {
 		Title = "Transcendent",
 		Description = {
-			"Find the Hall of Honor in Valkyrie. There, you will become a new hero of Valkyrie."
+			"Valkyrie'deki Hall of Honor'i bul. Orada Valkyrie'nin yeni bir kahramani olacaksin."
 		},
 		Summary = ""
 	},
 	[1001] = {
 		Title = "Acolyte Job Degisimi",
 		Description = {
-			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Rubalkabara^000000, who has been Practicing Asceticism near the Relics, Northeast of Prontera City."
+			"Acolyte olmak icin Father Mareusis ile konustun. Prontera City'nin kuzeydogusundaki Relics yakininda inzivaya cekilmis ^000077Father Rubalkabara^000000'yi ziyaret etmeni istedi."
 		},
 		Summary = "Father Rubalkabara ile konus",
 		NpcSpr = "4_M_ORIENT02",
@@ -105,7 +105,7 @@ QuestInfoList = {
 	[1002] = {
 		Title = "Acolyte Job Degisimi",
 		Description = {
-			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFMother Mathilda^000000, who has been Practicing Asceticism near Morroc Town, located Southwest of Prontera City."
+			"Acolyte olmak icin Father Mareusis ile konustun. Prontera City'nin guneybatisindaki Morocc Town yakininda inzivaya cekilmis ^000077Mother Mathilda^000000'yi ziyaret etmeni istedi."
 		},
 		Summary = "Mother Mathilda ile konus",
 		NpcSpr = "4_F_SISTER",
@@ -116,7 +116,7 @@ QuestInfoList = {
 	[1003] = {
 		Title = "Acolyte Job Degisimi",
 		Description = {
-			"You spoke with ^0000FFFather Mareusis^000000 to become an Acolyte. He ordered you to visit ^0000FFFather Yosuke^000000, who has been Practicing Asceticism near a bridge, located Northwest of Prontera."
+			"Acolyte olmak icin Father Mareusis ile konustun. Prontera'nin kuzeybatisindaki bir kopru yakininda inzivaya cekilmis ^000077Father Yosuke^000000'yi ziyaret etmeni istedi."
 		},
 		Summary = "Father Yosuke ile konus",
 		NpcSpr = "4W_M_02",
@@ -166,119 +166,119 @@ QuestInfoList = {
 	[1009] = {
 		Title = "Merchant Job Degisimi",
 		Description = {
-			"Get the delivery package from the storehouse, then go to the former Swordman's Association in Prontera. When you get there, visit the Kafra Employee stationed there. Her name is Blossom."
+			"Teslimat paketini depodan al ve Prontera'daki eski Swordman's Association'a git. Oradaki Kafra Employee Blossom'a paketi teslim et."
 		},
 		Summary = "Paketi Prontera'ya teslim et"
 	},
 	[1010] = {
 		Title = "Merchant Job Degisimi",
 		Description = {
-			"Get the delivery package from the storehouse, and then go to the Mage Guild in Geffen. When you get there, visit the Mage Guildsman in charge"
+			"Teslimat paketini depodan al ve Geffen'deki Mage Guild'e git. Oradaki sorumlu Mage Guildsman'i bul."
 		},
 		Summary = "Paketi Geffen Mage Guild'e teslim et"
 	},
 	[1011] = {
 		Title = "Merchant Job Degisimi",
 		Description = {
-			"Get the delivery package from the storehouse, and then go to Morroc. There you must find Java Dullihan, the dyemaker. He's a bit forgetful, so you should probably give the package to one of his students."
+			"Teslimat paketini depodan al ve Morocc'a git. Boyaci Java Dullihan'i bul; biraz unutkan oldugu icin paketi ogrencilerinden birine vermen gerekebilir."
 		},
 		Summary = "Paketi Morocc'taki boyaciya teslim et"
 	},
 	[1012] = {
 		Title = "Merchant Job Degisimi",
 		Description = {
-			"Get the delivery package from the storehouse, and then give it to the Kafra Employee stationed on Byalan Island."
+			"Teslimat paketini depodan al ve Byalan Island'daki Kafra Employee'a teslim et."
 		},
 		Summary = "Paketi ve mesaji Byalan Island'daki Kafra Girl'e teslim et"
 	},
 	[1013] = {
 		Title = "Thief Job Degisimi",
 		Description = {
-			"Steal Mushrooms from Shibu's farm. Gather 2 kinds of Mushrooms: ^0000FFOrange Net Mushroom^000000 for 3 points and ^0000FFOrange Gooey Mushroom^000000 for 1 point. You need a total of 25 points to pass the test. Head toward the Eastern Field of the Pyramids."
+			"Shibu'nun ciftliginden Mushroom cal. Iki tur Mushroom topla: ^0000FFOrange Net Mushroom^000000 3 puan, ^0000FFOrange Gooey Mushroom^000000 1 puan degerindedir. Sinavi gecmek icin toplam 25 puan gerekir. Pyramids'in dogu alanina git."
 		},
 		Summary = "Mushroom topla"
 	},
 	[1014] = {
 		Title = "Swordman Job Degisimi",
 		Description = {
-			"The purpose of this test is to confirm whether or not you are qualified to be a Swordman. Now, the conditions for completing this test are very simple. You will travel through three courses and must reach the final checkpoint within ^FF000010 minutes^000000."
+			"Bu test Swordman olmaya uygun olup olmadigini belirler. Uc parkuru gecip son kontrol noktasina ^FF000010 dakika^000000 icinde ulasmalisin."
 		},
 		Summary = "Son kontrol noktasina ulas"
 	},
 	[1015] = {
 		Title = "Ilk Gorevin",
 		Description = {
-			"You have received a Bao. It is a tasty Bun that eastern scholars traditionally eat before studying. Recently, these scholars have found that a full stomach of Bao is the sum of all logic."
+			"Bir Bao aldin. Dogulu bilginlerin ders calismadan once geleneksel olarak yedigi lezzetli bir bun. Soylentiye gore dolu bir mide mantigin temelidir."
 		},
 		Summary = "Quest Guide Tutor Cicero ile konus ve Bao'nun hala sende oldugundan emin ol"
 	},
 	[1016] = {
 		Title = "Base Level Kazanma",
 		Description = {
-			"Gain 2 base levels to complete your Field Combat Training by defeating as many monsters are you can. Make sure to talk to the staff at the North after you increase your base level by 2."
+			"Field Combat Training'i tamamlamak icin canavar yenerek 2 Base Level kazan. Base Level'in 2 arttiktan sonra kuzeydeki gorevliyle konus."
 		},
 		Summary = ""
 	},
 	[1100] = {
 		Title = "Sphinx Dungeon Tek Basina!",
 		Description = {
-			"Train in the Sphinx Dungeon by hunting 20 Zerom."
+			"Sphinx Dungeon'da 20 Zerom avlayarak egitim yap."
 		},
 		Summary = "20 Zerom avla"
 	},
 	[1101] = {
 		Title = "Sphinx Dungeon Tek Basina!",
 		Description = {
-			"Train in the Sphinx Dungeon by hunting 20 Requiem."
+			"Sphinx Dungeon'da 20 Requiem avlayarak egitim yap."
 		},
 		Summary = "20 Requiem avla"
 	},
 	[1102] = {
 		Title = "Clock Tower Tek Basina!",
 		Description = {
-			"Train in the Clock Tower by hunting 40 Arclouse."
+			"Clock Tower'da 40 Arclouse avlayarak egitim yap."
 		},
 		Summary = "40 Arclouse avla"
 	},
 	[1103] = {
 		Title = "Clock Tower Tek Basina!",
 		Description = {
-			"Train in the Clock Tower by hunting 30 High Orcs"
+			"Clock Tower'da 30 High Orc avlayarak egitim yap."
 		},
 		Summary = "30 High Orc avla"
 	},
 	[1104] = {
 		Title = "Louyang Dungeon Tek Basina!",
 		Description = {
-			"Train at Louyang by hunting 20 Green Maidens."
+			"Louyang'da 20 Green Maiden avlayarak egitim yap."
 		},
 		Summary = "20 Green Maiden avla"
 	},
 	[1105] = {
 		Title = "Louyang Dungeon Tek Basina!",
 		Description = {
-			"Train at Louyang by hunting 50 Civil Servants."
+			"Louyang'da 50 Civil Servant avlayarak egitim yap."
 		},
 		Summary = "50 Civil Servant avla"
 	},
 	[1106] = {
 		Title = "Amatsu Dungeon Tek Basina!",
 		Description = {
-			"Train at Amatsu Dungeon by hunting 20 The Papers."
+			"Amatsu Dungeon'da 20 The Paper avlayarak egitim yap."
 		},
 		Summary = "20 The Paper avla"
 	},
 	[1107] = {
 		Title = "Amatsu Dungeon Tek Basina!",
 		Description = {
-			"Train at Amatsu Dungeon by hunting 40 Antique Firelocks."
+			"Amatsu Dungeon'da 40 Antique Firelock avlayarak egitim yap."
 		},
 		Summary = "40 Antique Firelock avla"
 	},
 	[1108] = {
 		Title = "Louyang Dungeon Tek Basina!",
 		Description = {
-			"Third play alone training given by \"Hondal\"."
+			"\"Hondal\" tarafindan verilen ucuncu tek basina egitimi."
 		},
 		Summary = "20 Chung E avla"
 	},
@@ -366,7 +366,7 @@ QuestInfoList = {
 		Title = "Mahalle Sovalyeleri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You have finished a job for the Knights of the Neighborhood Leader. Wait for the timer to expire before trying to help him again."
+			"Knights of the Neighborhood Boss icin bir isi tamamladin. Tekrar yardim etmeden once sayacin dolmasini bekle."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -374,175 +374,175 @@ QuestInfoList = {
 	[1120] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Receive Grilled Rice Cake from travel guide in Izlude."
+			"Izlude'daki travel guide'dan Grilled Rice Cake al."
 		},
 		Summary = "Travel guide ile konus"
 	},
 	[1121] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Deliver Grilled Rice Cake to Belte Malang in Payon."
+			"Grilled Rice Cake'i Payon'daki Belte Malang'a teslim et."
 		},
 		Summary = "Belte Malang ile konus"
 	},
 	[1122] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Find Ingeolmi eating monkeys! Slay 50 Yoyos in vicinity of Ayothaya."
+			"Ingeolmi yiyen maymunlari bul! Ayothaya civarinda 50 Yoyo avla."
 		},
 		Summary = "Belte Malang ile konus"
 	},
 	[1123] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Stop looking for hometown."
+			"Memleket aramayi simdilik birak."
 		},
 		Summary = "1 gun sonra tekrar istenebilir"
 	},
 	[1124] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Meet Ganggangsulae Expert in Kunlun!"
+			"Kunlun'daki Ganggangsulae Expert ile bulus!"
 		},
 		Summary = "Ganggangsulae Expert ile konus"
 	},
 	[1125] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Talk to Ganggangsulae Expert after collecting 50 festival masks."
+			"50 festival mask topladiktan sonra Ganggangsulae Expert ile konus."
 		},
 		Summary = "Ganggangsulae Expert ile konus"
 	},
 	[1126] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Acquire information on homeless cat duo. Would it be related to Belte & Hamel Malang?"
+			"Evsiz kedi ikilisi hakkinda bilgi edin. Belte ve Hamel Malang ile ilgili olabilir mi?"
 		},
 		Summary = "Belte Malang ile konus"
 	},
 	[1127] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Investigate scribblings on Tiger Statue in Longzhicheng."
+			"Longzhicheng'deki Tiger Statue uzerindeki karalamalari incele."
 		},
 		Summary = "Tiger Statue'yu incele"
 	},
 	[1128] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"It seems like Dancing Janitor has cleened up the scribblings. Ask him about the scribblings."
+			"Dancing Janitor karalamalari temizlemis gibi gorunuyor. Ona karalamalari sor."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1129] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erase a scribble near A boy beside fences inside Longzhicheng."
+			"Longzhicheng'de citle yakin duran cocugun civarindaki karalamayi sil."
 		},
 		Summary = "Citle yakin cocugun cevresini incele"
 	},
 	[1130] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erased a scribble telling that rice cake basket has been deliver to Longzhicheng Pub."
+			"Rice cake sepetinin Longzhicheng Pub'a teslim edildigini soyleyen bir karalamayi sildin."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1131] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erase a scribble near A Bull beside an old tree inside Longzhicheng."
+			"Longzhicheng'deki yasli agacin yanindaki Bull civarindaki karalamayi sil."
 		},
 		Summary = "Yasli agacin yanindaki Bull cevresini incele"
 	},
 	[1132] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erased a scribble conspiring to steal rice cake basket."
+			"Rice cake sepetini calma planini anlatan bir karalamayi sildin."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1133] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erase a scribble near Wall Fairy inside Longzhicheng."
+			"Longzhicheng'deki Wall Fairy yakinindaki karalamayi sil."
 		},
 		Summary = "Wall Fairy cevresini incele"
 	},
 	[1134] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erased a scribble telling to meet in front of Tiger Statue at midnight to steal rice cake basket."
+			"Rice cake sepetini calmak icin gece yarisi Tiger Statue onunde bulusmayi soyleyen karalamayi sildin."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1135] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erase a scribble near Gate Captain."
+			"Gate Captain yakinindaki karalamayi sil."
 		},
 		Summary = "Gate Captain cevresini incele"
 	},
 	[1136] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erased a scribble written \"Why haven't you shown up, I'll proceed with the plan by myself\"."
+			"\"Neden gelmedin, plana tek basima devam edecegim\" yazan karalamayi sildin."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1137] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erase a scribble in the back of Enlightened One's head."
+			"Enlightened One'in basinin arkasindaki karalamayi sil."
 		},
 		Summary = "Enlightened One'in basinin arkasini incele"
 	},
 	[1138] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Erased a scribble resenting the traitor."
+			"Haine duyulan ofkeyi anlatan karalamayi sildin."
 		},
 		Summary = "Dancing Janitor ile konus"
 	},
 	[1139] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Found out the hidden past of homeless cat duo. But for everlasting friendship between them, decided to bury the truth."
+			"Evsiz kedi ikilisinin gizli gecmisini ogrendin. Aralarindaki sonsuz dostluk icin gercegi gizlemeye karar verdin."
 		},
 		Summary = "Belte Malang'a son raporu ver"
 	},
 	[1140] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Finished looking for hometown of Belte Malang."
+			"Belte Malang'in memleketini arama isi tamamlandi."
 		},
 		Summary = "1 gun sonra tekrar istenebilir"
 	},
 	[1141] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Festival mask delivery completed. Go back to Kunlun and talk to Ganggangsulae Expert."
+			"Festival mask teslimati tamamlandi. Kunlun'a don ve Ganggangsulae Expert ile konus."
 		},
 		Summary = "Ganggangsulae Expert ile konus"
 	},
 	[1142] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Thanksgiving Event completed once."
+			"Thanksgiving Event bir kez tamamlandi."
 		},
 		Summary = ""
 	},
 	[1143] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Thanksgiving Event completed twice."
+			"Thanksgiving Event iki kez tamamlandi."
 		},
 		Summary = ""
 	},
 	[1144] = {
 		Title = "Belte Malang'in Dogdugu Cok Uzaklarda!",
 		Description = {
-			"Cute pet reward."
+			"Sevimli pet odulu."
 		},
 		Summary = ""
 	},
@@ -764,238 +764,238 @@ QuestInfoList = {
 	[1174] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"Bring back the Slate Piece from Old Man's Granddaughter at the north port of Malaya."
+			"Malaya'nin kuzey limanindaki Old Man's Granddaughter'dan Slate Piece'i geri al."
 		},
 		Summary = "Old Man's Granddaughter ile konus"
 	},
 	[1175] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"Deliver the Slate Piece to Old Legend Teller."
+			"Slate Piece'i Old Legend Teller'a teslim et."
 		},
 		Summary = "Old Legend Teller ile konus"
 	},
 	[1176] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"Meet Malaya Immigrant at the northwest of the forest and track down the Wandering Merchant."
+			"Ormanin kuzeybatisindaki Malaya Immigrant ile bulus ve Wandering Merchant'in izini sur."
 		},
 		Summary = "Malaya Immigrant ile konus"
 	},
 	[1177] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"Meet Malaya Immigrant in the Baryo Mahiwaga village and track down the Wandering Merchant."
+			"Baryo Mahiwaga koyundeki Malaya Immigrant ile bulus ve Wandering Merchant'in izini sur."
 		},
 		Summary = "Malaya Immigrant ile konus"
 	},
 	[1178] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"Investigate the records engraved on the Baryo Mahiwaga village rock."
+			"Baryo Mahiwaga koyundeki kayaya kazinmis kayitlari incele."
 		},
 		Summary = "Kayayi incele"
 	},
 	[1179] = {
 		Title = "Soyleenti, Zaman ve Efsane",
 		Description = {
-			"The truth of the legend and the identity of the old woman's son are revealed. Return to Malaya to report back to Old Legend Teller."
+			"Efsanenin gercegi ve yasli kadinin oglunun kimligi ortaya cikti. Malaya'ya don ve Old Legend Teller'a rapor ver."
 		},
 		Summary = "Old Legend Teller ile konus"
 	},
 	[1180] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Retrieve 2 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Father."
+			"Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 2 Lost Belonging al ve Missing Person's Father'a teslim et."
 		},
 		Summary = "Missing Person's Father ile konus"
 	},
 	[1181] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Retrieve 7 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Friend."
+			"Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 7 Lost Belonging al ve Missing Person's Friend'e teslim et."
 		},
 		Summary = "Missing Person's Friend ile konus"
 	},
 	[1182] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Retrieve 3 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to Missing Person's Son."
+			"Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 3 Lost Belonging al ve Missing Person's Son'a teslim et."
 		},
 		Summary = "Missing Person's Son ile konus"
 	},
 	[1183] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Retrieve 5 Lost Belongings from the Tiyanak Loaming in the Baryo Mahiwaga field and deliver them to the Missing Person's Mother."
+			"Baryo Mahiwaga alaninda dolasan Tiyanak'lardan 5 Lost Belonging al ve Missing Person's Mother'a teslim et."
 		},
 		Summary = "Missing Person's Mother ile konus"
 	},
 	[1184] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Completed finding the Missing Person. Report to the Village Chief."
+			"Kayip kisiyi bulma tamamlandi. Village Chief'e rapor ver."
 		},
 		Summary = "Village Chief ile konus"
 	},
 	[1185] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Young Fortune Teller is asking for help. Let's go."
+			"Young Fortune Teller yardim istiyor. Yanina git."
 		},
 		Summary = "Young Fortune Teller ile konus"
 	},
 	[1186] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Defeat 15 Tikbalangs in the Baryo Mahiwaga field. Talk to Young Fortune Teller when you've completed the mission."
+			"Baryo Mahiwaga alaninda 15 Tikbalang yen. Gorev bitince Young Fortune Teller ile konus."
 		},
 		Summary = "15 Tikbalang yen"
 	},
 	[1187] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Report this request from the Young Fortune teller to Village Chief."
+			"Young Fortune Teller'in istegini Village Chief'e bildir."
 		},
 		Summary = "Village Chief ile konus"
 	},
 	[1188] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Go meet the Gruffy Worker in the Baryo Mahiwaga field nearby the Port Malaya entrance to install a trap together."
+			"Birlikte tuzak kurmak icin Baryo Mahiwaga alaninda Port Malaya girisi yakinindaki Gruffy Worker ile bulus."
 		},
 		Summary = "Gruffy Worker cevresini incele"
 	},
 	[1189] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Go meet the Grumpy Worker in the Baryo Mahiwaga field nearby the Bakonawa Lake entrance to install a trap together."
+			"Birlikte tuzak kurmak icin Baryo Mahiwaga alaninda Bakonawa Lake girisi yakinindaki Grumpy Worker ile bulus."
 		},
 		Summary = "Grumpy Worker cevresini incele"
 	},
 	[1190] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Go meet the Cowardly Worker nearby the Bakonawa Lake entrance to install a trap together."
+			"Birlikte tuzak kurmak icin Bakonawa Lake girisi yakinindaki Cowardly Worker ile bulus."
 		},
 		Summary = "Cowardly Worker cevresini incele"
 	},
 	[1191] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Go meet the Gloomy Worker nearby the Bakonawa Lake to install a trap together."
+			"Birlikte tuzak kurmak icin Bakonawa Lake yakinindaki Gloomy Worker ile bulus."
 		},
 		Summary = "Gloomy Worker cevresini incele"
 	},
 	[1192] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Go meet the Sentimental Worker nearby the Bakonawa Lake to install a trap together."
+			"Birlikte tuzak kurmak icin Bakonawa Lake yakinindaki Sentimental Worker ile bulus."
 		},
 		Summary = "Sentimental Worker cevresini incele"
 	},
 	[1193] = {
 		Title = "Bakonawa'dan Kurtul",
 		Description = {
-			"Set up the trap. Report back to the Village Chief."
+			"Tuzagi kurdun. Village Chief'e geri don ve rapor ver."
 		},
 		Summary = "Village Chief ile konus"
 	},
 	[1194] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Collect 10 pieces of red fabric, by catching raccoon socks hurray team in field."
+			"Alandaki Raccoon Hurray Team uyelerini yakalayarak 10 parca kirmizi kumas topla."
 		},
 		Summary = "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
 	},
 	[1195] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Time to consider what a sock-like as a storage for present is. Find Castanea, the raccoon who's busy with dating in Geffen square."
+			"Hediye saklamak icin corap benzeri ne kullanilabilecegini dusunme zamani. Geffen meydaninda randevuyla mesgul olan Raccoon Castanea'yi bul."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
 	},
 	[1196] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Street stalls at the end of east Geffen. Find the gift from the corner of the Ghez(Young Woman) behind."
+			"Dogu Geffen'in sonundaki sokak tezgahlarinda, Ghez'in arkasindaki koseden hediyeyi bul."
 		},
 		Summary = "Dogu Geffen'in sonundaki Raccoon Bean'in yakinina git"
 	},
 	[1197] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Found out the gift, striped socks. Let's go back to Castanea."
+			"Hediyeyi, cizgili coraplari buldun. Castanea'ya geri don."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
 	},
 	[1198] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"After finding the gift wrapper in wooden pail of flower garden at the end of west Geffen, wrap the gift."
+			"Bati Geffen'in sonundaki cicek bahcesinin tahta kovasinda hediye kagidini bul ve hediyeyi paketle."
 		},
 		Summary = "Bati Geffen'deki Raccoon Pinus'un yakinina git"
 	},
 	[1199] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Wrapping compeleted! Let's back to Castanea."
+			"Paketleme tamamlandi! Castanea'ya geri don."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Castanea ile konus"
 	},
 	[1200] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Got shining colorful beads from Castanea. Let's back to \"Quercus\"."
+			"Castanea'dan parlayan renkli boncuklar aldin. Quercus'a geri don."
 		},
 		Summary = "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
 	},
 	[1201] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Time to consider what a sock-like as a storage for present is. Find \"Pyrus\", the raccoon who's unstable with love in Geffen square."
+			"Hediye saklamak icin corap benzeri ne kullanilabilecegini dusunme zamani. Geffen meydaninda ask konusunda huzursuz olan Raccoon Pyrus'u bul."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Pyrus ile konus"
 	},
 	[1202] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Worried about the raccoon couple arguing. Let's catch Raccoon Hurray Team members in field and collect 5 pieces of stolen candies and stolen cookies each."
+			"Tartisan Raccoon cifti icin endiselisin. Alandaki Raccoon Hurray Team uyelerini yakala ve 5'er Stolen Candy ile Stolen Cookie topla."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Pyrus ile konus"
 	},
 	[1203] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Get the clothes from \"Citrus\" nearby \"Sage Welshyun\" in north Geffen."
+			"Kuzey Geffen'de Sage Welshyun yakinindaki Citrus'tan kiyafetleri al."
 		},
 		Summary = "Kuzey Geffen'deki Raccoon Hurray Team uyesi Citrus ile konus"
 	},
 	[1204] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Got a red package from \"Citrus\". Let's deliver this to raccoon, \"Kaki\"."
+			"Citrus'tan kirmizi bir paket aldin. Bunu Raccoon Kaki'ye teslim et."
 		},
 		Summary = "Geffen meydanindaki Raccoon Hurray Team uyesi Kaki ile konus"
 	},
 	[1205] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Got the star shape decoration. Let's back to \"Quercus\"."
+			"Yildiz seklindeki suslemeyi aldin. Quercus'a geri don."
 		},
 		Summary = "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
 	},
 	[1206] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Quercus ordering reliable investigation into the gift to be received. Let's go Santa's home in Lutie and meet up with the Little Santa."
+			"Quercus alinacak hediyenin guvenilir bicimde arastirilmasini istiyor. Lutie'deki Santa'nin evine git ve Little Santa ile bulus."
 		},
 		Summary = "Lutie'deki Santa'nin evinde Little Santa ile konus"
 	},
 	[1207] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"The Santa's assistant saying the gift for raccoons is chosen as nice sweet popatoes. Let's feed the raccons protesting outside of the house."
+			"Little Santa, Raccoon'lar icin hediyenin guzel tatli patatesler olarak secildigini soyluyor. Evin disinda protesto eden Raccoon'lari besle."
 		},
 		Summary = "Lutie'deki Santa'nin evinde Little Santa ile konus"
 	},
@@ -1037,7 +1037,7 @@ QuestInfoList = {
 	[1213] = {
 		Title = "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
 		Description = {
-			"Seems the raccoons are satisfied enough with the nice sweet popatoes gift. Let's give this message to Quercus."
+			"Raccoon'lar tatli patates hediyesinden yeterince memnun gorunuyor. Bu haberi Quercus'a ilet."
 		},
 		Summary = "Prontera meydanindaki Raccoon Hurray Team uyesi Quercus ile konus"
 	},
@@ -1077,7 +1077,7 @@ QuestInfoList = {
 		Title = "Professor Worm'un Hafizasini Geri Getir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+			"5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus."
 		},
 		Summary = "Ilk kaydi oku"
 	},
@@ -1085,7 +1085,7 @@ QuestInfoList = {
 		Title = "Professor Worm'un Hafizasini Geri Getir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+			"5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus."
 		},
 		Summary = "Ikinci kaydi oku"
 	},
@@ -1093,7 +1093,7 @@ QuestInfoList = {
 		Title = "Professor Worm'un Hafizasini Geri Getir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+			"5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus."
 		},
 		Summary = "Ucuncu kaydi oku"
 	},
@@ -1101,7 +1101,7 @@ QuestInfoList = {
 		Title = "Professor Worm'un Hafizasini Geri Getir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+			"5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus."
 		},
 		Summary = "Dorduncu kaydi oku"
 	},
@@ -1109,7 +1109,7 @@ QuestInfoList = {
 		Title = "Professor Worm'un Hafizasini Geri Getir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Professor Worm on the 4th floor of Bifrost Tower after investigating records on 5 walls."
+			"5 duvardaki kayitlari inceledikten sonra Bifrost Tower 4. katta Professor Worm ile konus."
 		},
 		Summary = "Besinci kaydi oku"
 	},
@@ -1164,42 +1164,42 @@ QuestInfoList = {
 	[1229] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"Start the Swordsman training. Equip the Swordsman Manual and test the skills."
+			"Swordsman egitimine basla. Swordsman Manual'i kusan ve becerileri test et."
 		},
 		Summary = "Criatura Academy'deki egitmen Adric ile konus"
 	},
 	[1230] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"You heard the explanations about the Swordsman Class. Ask about the other courses from trainer Adric."
+			"Swordsman Class hakkindaki aciklamalari dinledin. Diger kurslari egitmen Adric'e sor."
 		},
 		Summary = "Criatura Academy'deki egitmen Adric ile konus"
 	},
 	[1233] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"The Swordsman training with the Swordsman Ecarto of Izlude Swordsman guild."
+			"Swordsman Ecarto ile Swordsman egitimi."
 		},
 		Summary = "Izlude Swordsman Guild'deki Swordsman Ecarto ile konus"
 	},
 	[1234] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"The Swordsman training with the Swordsman Ecarto! Go into the advanced course"
+			"Swordsman Ecarto ile Swordsman egitimi! Ileri kursa gec."
 		},
 		Summary = "Izlude Swordsman Guild'deki Swordsman Ecarto ile konus"
 	},
 	[1235] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"After hunting 10 Tarous at the underground waterway of the west of Prontera, report to the Swordsman Ecarto."
+			"Prontera'nin batisindaki underground waterway'de 10 Tarou avladiktan sonra Swordsman Ecarto'ya rapor ver."
 		},
 		Summary = "Izlude Swordsman Guild'deki Swordsman Ecarto ile konus"
 	},
 	[1236] = {
 		Title = "Swordsman Egitimi",
 		Description = {
-			"After hunting 10 Tarous at the underground waterway of the west of Prontera, report to the Swordsman Ecarto."
+			"Prontera'nin batisindaki underground waterway'de 10 Tarou avladiktan sonra Swordsman Ecarto'ya rapor ver."
 		},
 		Summary = "Izlude Swordsman Guild'deki Swordsman Ecarto ile konus"
 	},
@@ -1207,7 +1207,7 @@ QuestInfoList = {
 		Title = "Dukkan Rehberi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Listen the information about how to use the shop from the Shop Helper Leonie."
+			"Shop Helper Leonie'den dukkanin nasil kullanildigini dinle."
 		},
 		Summary = "Leonie ile konus"
 	},
@@ -1215,7 +1215,7 @@ QuestInfoList = {
 		Title = "Dukkan Rehberi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"The first quest. Experience about the use of shop. After buying one Red Potion, report to Leonie."
+			"Ilk gorev. Dukkan kullanimini dene. Bir Red Potion satin aldiktan sonra Leonie'ye rapor ver."
 		},
 		Summary = "Leonie ile konus"
 	},
@@ -1223,7 +1223,7 @@ QuestInfoList = {
 		Title = "Dukkan Rehberi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"After the conversation with Shop Helper Leonie, ask for the next quest."
+			"Shop Helper Leonie ile konustuktan sonra sonraki gorevi iste."
 		},
 		Summary = "Leonie ile konus"
 	},
@@ -1231,7 +1231,7 @@ QuestInfoList = {
 		Title = "Dukkan Rehberi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Second quest. Sell Poor Can from Leonie to the shop"
+			"Ikinci gorev. Leonie'den aldigin Poor Can'i dukkana sat."
 		},
 		Summary = "Leonie ile konus"
 	},
@@ -1371,14 +1371,14 @@ QuestInfoList = {
 	[1260] = {
 		Title = "Lanetli Kilic Ustasi",
 		Description = {
-			"Enter the Ghost Palace via a secret passage."
+			"Gizli bir gecitten Ghost Palace'a gir."
 		},
 		Summary = "Ghost Palace girisi"
 	},
 	[1261] = {
 		Title = "Lanetli Kilic Ustasi",
 		Description = {
-			"During the waiting period, entry to the Ghost Palace is prohibited."
+			"Sure dolana kadar Ghost Palace'a giris kisitlidir."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -1386,14 +1386,14 @@ QuestInfoList = {
 	[1262] = {
 		Title = "Lanetli Kilic Ustasi",
 		Description = {
-			"Exploring to the Ghost Palace is stopped."
+			"Ghost Palace kesfi durduruldu."
 		},
 		Summary = "Ghost Palace kesfini durdur"
 	},
 	[1263] = {
 		Title = "Lanetli Kilic Ustasi",
 		Description = {
-			"It's time to leave the Ghost Palace. Everything is done, everything will be destroyed."
+			"Ghost Palace'dan ayrilma zamani. Tum hayaletler ortadan kaybolmus gorunuyor."
 		},
 		Summary = "Ghost Palace tamamlandi"
 	},
@@ -1457,7 +1457,7 @@ QuestInfoList = {
 		Title = "Flaming Basin ve Doom Prayers",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"In the end, nothing happened."
+			"Hicbir mucize gerceklesmedi."
 		},
 		Summary = "Doom Prayers Leader ile konus"
 	},
@@ -1489,154 +1489,154 @@ QuestInfoList = {
 		Title = "Flaming Basin ve Doom Prayers",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Something special did happen, though it scared everyone who witnessed it."
+			"Ozel bir sey oldu ama buna tanik olan herkesi korkuttu."
 		},
 		Summary = "Doom Prayers Leader ile konus"
 	},
 	[1276] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"collect 10 Stolen Candies, 10 Stolen cookies and 10 Bag Of Selling Goods by defeating Sock Stealing Raccoon and Gift Stealing Raccoon."
+			"Sock Stealing Raccoon ve Gift Stealing Raccoon yenerek 10 Stolen Candy, 10 Stolen Cookie ve 10 Bag Of Selling Goods topla."
 		},
 		Summary = "Lutie shop owner ile konus"
 	},
 	[1277] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Raccoon Hooray Clerk seems to be in trouble you should visit him and listen to what he has to say."
+			"Raccoon Hooray Clerk'in basi dertte gorunuyor. Onu ziyaret et ve ne diyecegini dinle."
 		},
 		Summary = "Raccoon Hooray Clerk ile konus"
 	},
 	[1278] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"you've decided to help Christmas special activity of Raccoon Hooray Team instead of Racoon hooray clerk. you should visit Prontera to meet Raccoon Hooray Team Captain."
+			"Raccoon Hooray Clerk yerine Christmas ozel etkinligine yardim etmeye karar verdin. Prontera'ya git ve Raccoon Hooray Team Captain ile bulus."
 		},
 		Summary = "Raccoon Hooray Captain ile konus"
 	},
 	[1279] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"You should collect material for the cookie house for the Raccoon Hooray Team!"
+			"Raccoon Hooray Team icin Cookie House malzemelerini topla."
 		},
 		Summary = "Raccoon Hooray Captain ile konus"
 	},
 	[1280] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Raccoon Hooray Team Captain is depressed for failing to make the Cookie house. You should talk to him again."
+			"Raccoon Hooray Team Captain, Cookie House yapamadigi icin uzgun. Onunla tekrar konus."
 		},
 		Summary = "Raccoon Hooray Captain ile konus"
 	},
 	[1281] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.2. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.2'yi davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1282] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.5. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.5'i davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1283] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.12. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.12'yi davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1284] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.20. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.20'yi davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1285] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.25. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.25'i davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1286] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.1. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.1'i davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1287] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.15. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.15'i davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1288] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.7. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.7'yi davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1289] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.17. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.17'yi davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1290] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.24. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.24'u davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1291] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.3. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.3'u davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1292] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.10. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.10'u davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1293] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.11. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.11'i davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1294] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.19. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.19'u davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1295] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"Finding Raccoon Hooray Team family! You've invited Raccoon Hooray's No.23. You should invite a total of 5 Raccoon Hooray Team members and report to Raccoon Hooray Captain in Prontera"
+			"Raccoon Hooray Team ailesini bul! No.23'u davet ettin. Toplam 5 uyeyi davet edip Prontera'daki Raccoon Hooray Captain'a rapor ver."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
 	[1296] = {
 		Title = "Mutlu Noeller, Raccoon Hooray Ekibi!",
 		Description = {
-			"You should invite 5 Racoon Hooray Team family members for their Merry Christamas gatheringin Prontera. You can find them in Lutie."
+			"Prontera'daki Christmas bulusmasi icin 5 Raccoon Hooray Team aile uyesini davet et. Onlari Lutie'de bulabilirsin."
 		},
 		Summary = "Raccoon Hooray ailesini bul"
 	},
@@ -1668,126 +1668,126 @@ QuestInfoList = {
 	[1300] = {
 		Title = "Destek Malzemelerinin Izi",
 		Description = {
-			"Volunteer Service Helping Hand is trying help neighbors with Vin Chaud, but the ingredient delivery being delayed. To help Vallery, visit people to find out what happened."
+			"Volunteer Service Helping Hand, komsulara Vin Chaud ile yardim etmeye calisiyor ancak malzeme teslimati gecikiyor. Ballery'ye yardim etmek icin insanlari ziyaret edip ne oldugunu ogren."
 		},
 		Summary = "Malzeme destekcileriyle bulus"
 	},
 	[1301] = {
 		Title = "Destek Malzemelerinin Izi - Geffen",
 		Description = {
-			"At Geffen, meet Brewery Master Kantina and ask about the Fermented Grape Juice support."
+			"Geffen'de Brewery Master Kantina ile bulus ve Fermented Grape Juice destegini sor."
 		},
 		Summary = "Kantina'yi bul"
 	},
 	[1302] = {
 		Title = "Destek Malzemelerinin Izi - Morocc",
 		Description = {
-			"At Morroc, meet Wholesaler Brutaqual and ask about the Orange and Apple support."
+			"Morocc'ta Wholesaler Brutaqual ile bulus ve Orange ile Apple destegini sor."
 		},
 		Summary = "Brutaqual'i bul"
 	},
 	[1303] = {
 		Title = "Destek Malzemelerinin Izi - Alberta",
 		Description = {
-			"At Alberta, meet Trader Curundu and ask about the Cinamon, Nutmeg support."
+			"Alberta'da Trader Curundu ile bulus ve Cinnamon ile Nutmeg destegini sor."
 		},
 		Summary = "Curundu'yu bul"
 	},
 	[1304] = {
 		Title = "Destek Malzemelerinin Izi - Aldebaran",
 		Description = {
-			"At Aldebaran, meet Seasoning Merchant Askar and ask about the Sugar support."
+			"Aldebaran'da Seasoning Merchant Askar ile bulus ve Sugar destegini sor."
 		},
 		Summary = "Askar'i bul"
 	},
 	[1305] = {
 		Title = "Destek Malzemelerinin Izi - Payon",
 		Description = {
-			"At Payon, meet Farm Owner Vinpa and ask about the Apply support."
+			"Payon'da Farm Owner Vinpa ile bulus ve Apple destegini sor."
 		},
 		Summary = "Vinpa'yi bul"
 	},
 	[1306] = {
 		Title = "Kantina'nin Istegi",
 		Description = {
-			"Kantina said Happy Santa Orc took all of Fermented Grape Juice. Let's help Kantina get 6 Fermented Grape Juice back."
+			"Kantina, Happy Santa Orc'un tum Fermented Grape Juice'u aldigini soyledi. 6 Fermented Grape Juice'u geri almasina yardim et."
 		},
 		Summary = "6 Fermented Grape Juice topla"
 	},
 	[1307] = {
 		Title = "Curundu'nun Istegi",
 		Description = {
-			"Santa Porings are eating all cargos. Let's take care of 3 Santa Poring while waiting for the support delivery."
+			"Santa Poring'ler tum kargoyu yiyor. Destek teslimatini beklerken 3 Santa Poring'i hallet."
 		},
 		Summary = "3 Santa Poring avla"
 	},
 	[1308] = {
 		Title = "Askar'in Istegi",
 		Description = {
-			"Support delivery is being later. Let's collect the bag of sugar and deliver to Vallery."
+			"Destek teslimati gecikiyor. Bag of Sugar'i al ve Ballery'ye teslim et."
 		},
 		Summary = "Bag of Sugar'i Ballery'ye teslim et"
 	},
 	[1309] = {
 		Title = "Helping Hand ile Sicakligi Paylas",
 		Description = {
-			"Helping Hand trying to share Vin Chaud through their branch. Collect some fire woods to help the Helping Hand broil Vin Chaud, and deliver Vin Chaud to their branches."
+			"Helping Hand, subeleri araciligiyla Vin Chaud dagitmaya calisiyor. Vin Chaud kaynatmak icin Fire Wood topla ve Vin Chaud'u subelere teslim et."
 		},
 		Summary = "Belirlenen bolgelerde sicakligi paylas"
 	},
 	[1310] = {
 		Title = "Izlude'da Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Izlude Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Izlude Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Izlude Branch Member'a teslim et"
 	},
 	[1311] = {
 		Title = "Geffen'de Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Geffen Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Geffen Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Geffen Branch Member'a teslim et"
 	},
 	[1312] = {
 		Title = "Payon'da Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Payon Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Payon Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Payon Branch Member'a teslim et"
 	},
 	[1313] = {
 		Title = "Morocc'ta Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Morroc Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Morocc Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Morocc Branch Member'a teslim et"
 	},
 	[1314] = {
 		Title = "Alberta'da Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Alberta Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Alberta Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Alberta Branch Member'a teslim et"
 	},
 	[1315] = {
 		Title = "Aldebaran'da Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Aldebaran Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Aldebaran Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Aldebaran Branch Member'a teslim et"
 	},
 	[1316] = {
 		Title = "Prontera'da Sicakligi Paylas",
 		Description = {
-			"Meet Helping Hand Prontera Branch Member, deliver 1 Vin Chaud and 3 Fire Woods."
+			"Helping Hand Prontera Branch Member ile bulus; 1 Vin Chaud ve 3 Fire Wood teslim et."
 		},
 		Summary = "Urunleri Prontera Branch Member'a teslim et"
 	},
 	[1317] = {
 		Title = "Bugunku Vin Chaud Uretimi Bitti",
 		Description = {
-			"Broild Vin Chaud all out of stock now. Let's come back at 4 AM when Vin Chaud is ready again."
+			"Kaynatilan Vin Chaud stogu tukendi. Vin Chaud yeniden hazir oldugunda saat 04:00'te geri gel."
 		},
 		Summary = "04:00'ten sonra Ballery'yi ziyaret et",
 		CoolTimeQuest = 1
@@ -1795,21 +1795,21 @@ QuestInfoList = {
 	[1318] = {
 		Title = "Elena'nin Ricasi",
 		Description = {
-			"Elena asks to help her sister no matter how. To see what's going on, find Vallery in front of Prontera church."
+			"Elena, kiz kardesine ne olursa olsun yardim etmeni istiyor. Neler oldugunu gormek icin Prontera Church onundeki Ballery'yi bul."
 		},
 		Summary = "Prontera Church onunde Ballery ile bulus"
 	},
 	[1319] = {
 		Title = "Sprig of Holly Hatirasi",
 		Description = {
-			"It is said that if you collect the branches of the holy tree that Vallery gave you as a token of gratitude and weave them together, it will become even more beautiful. Let's go to Bretzen at the fountain at 7 o'clock in Izlude Square to ask for Reese."
+			"Ballery yardimin icin Sprig of Holly verdi; dokunarak guzel bir esyaya donusebilir. Dali dokumasini istemek icin Izlude meydaninin saat 7 yonundeki Brechen'i bul."
 		},
 		Summary = "Izlude'da Brechen'i bul"
 	},
 	[1320] = {
 		Title = "Christmas Wreath Yapimi",
 		Description = {
-			"Bretzen said collect 10 Holy Sprig to make Christmas Wreath. Let's collect 10 Holy Sprig for Bretzen who likes to make things."
+			"Brechen, Christmas Wreath yapmak icin 10 Sprig of Holly toplamani istedi."
 		},
 		Summary = "10 Sprig of Holly topla"
 	},
@@ -1918,14 +1918,14 @@ QuestInfoList = {
 	[1333] = {
 		Title = "Tatli Cazibe",
 		Description = {
-			"Kill 5 Sweets Drops for the man suffering from the sweet smell."
+			"Tatli kokuyla mucadele eden adama 5 Sweets Drops avlayarak yardim et."
 		},
 		Summary = "5 Sweets Drops'u hallet"
 	},
 	[1334] = {
 		Title = "Tatlinin Etkisi Uzun Surmez",
 		Description = {
-			"The suffering man got his peace back. Let's visit him again tomorrow after 4 AM."
+			"Zorlanan adam yeniden huzura kavustu. Yarin 04:00'ten sonra tekrar kontrol et."
 		},
 		Summary = "04:00'ten sonra zorlanan adami ziyaret et",
 		CoolTimeQuest = 1
@@ -1933,28 +1933,28 @@ QuestInfoList = {
 	[1335] = {
 		Title = "Sevimli Seker Sepeti",
 		Description = {
-			"Bring 5 Candy, 5 Lolipop, 3 Throat Candy to Garnish Lorenzo."
+			"Garnish Lorenzo'ya 5 Candy, 5 Lollipop ve 3 Throat Candy getir."
 		},
 		Summary = "Malzemeleri Garnish'e teslim et"
 	},
 	[1336] = {
 		Title = "Gizli Gorev: Seker Sepetini Doldur",
 		Description = {
-			"Garnish asks to come back after 4 AM as his son might find out."
+			"Garnish, oglunun fark etmemesi icin 04:00'ten sonra geri gelmeni istiyor."
 		},
 		Summary = "04:00'ten sonra Garnish Lorenzo'yu ziyaret et"
 	},
 	[1337] = {
 		Title = "Sansli Tatlilar",
 		Description = {
-			"Bring 1 Lucky Cady, 1 Luck Lolipop, 1 Lucky Cookie to Miss Fortuna."
+			"Miss Fortuna'ya 1 Lucky Candy, 1 Lucky Lollipop ve 1 Lucky Cookie getir."
 		},
 		Summary = "Malzemeleri Miss Fortuna'ya teslim et"
 	},
 	[1338] = {
 		Title = "Daha Fazla Tatli Yok",
 		Description = {
-			"Miss Fortuna says she would want some more sweets after 4 AM."
+			"Miss Fortuna, 04:00'ten sonra daha fazla tatli isteyebilecegini soyluyor."
 		},
 		Summary = "04:00'ten sonra Miss Fortuna'yi ziyaret et",
 		CoolTimeQuest = 1
@@ -3162,7 +3162,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"It pains me to say this, but it seems you need to study a little more. You can never be a Blacksmith with this score!"
+			"Bunu soylemek uzucu ama biraz daha calisman gerekiyor. Bu puanla Blacksmith olamazsin!"
 		},
 		Summary = "Blacksmith olmak hakkinda biraz daha calis ve tekrar dene"
 	},
@@ -3170,7 +3170,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You'll have no problem with this score! I will entrust you with a job! Give me a little time to make the necessary arrangements. When you get back, I'll be ready!"
+			"Bu puanla sorun yasamazsin! Sana bir is verecegim. Gerekli hazirliklari yapmam icin biraz zaman ver; geri geldiginde hazir olacagim."
 		},
 		Summary = "Geschupenschte ile konus"
 	},
@@ -3178,7 +3178,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"We need some ingredients to handle the backlog of orders. Could you bring 2 Steel, 1 Rotten Bandage, 2 Blue Gemstone and an Arc Wand from the shop?"
+			"Bu kadar siparisi yonetmek icin malzemeye ihtiyacim var. 2 Steel, 1 Rotten Bandage, 2 Blue Gemstone ve dukkandan bir Arc Wand getir. Bu sadece test icin; Blacksmith'lerin fakir oldugunu dusunme."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3186,7 +3186,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"We need some ingredients to handle the backlog of orders. Could you bring 2 Star Dust, 1 Skel Bone, 1 Zargon and a Gladius from the shop?"
+			"2 Star Dust, 1 Skel Bone, 1 Zargon ve dukkandan bir Gladius getir. Bu sadece test icin; Blacksmith'lerin fakir oldugunu dusunme."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3194,7 +3194,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"We need some ingredients to handle the backlog of orders. Could you bring 2 Coal, 2 Shell, 2 Red Blood and a Tsurugi from the shop?"
+			"2 Coal, 2 Shell, 2 Red Blood ve dukkandan bir Tsurugi getir. Bu sadece test icin; Blacksmith'lerin fakir oldugunu dusunme."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3202,7 +3202,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"We need some ingredients to handle the backlog of orders. Could you bring 8 Iron Ore, 1 Eye Patch, 2 Blue Gemstone and an Arbalest from the shop?"
+			"8 Iron Ore, 1 Eye Patch, 2 Blue Gemstone ve dukkandan bir Arbalest getir. Bu sadece test icin; Blacksmith'lerin fakir oldugunu dusunme."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3218,7 +3218,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"All done! Okay. Give this Arc Wand to Baisulist who is currently in Geffen of Rune-Midgarts Kingdom. Be sure to bring the reciept back to me."
+			"Tamamlandi! Bu Arc Wand'i Rune-Midgarts Kingdom'daki Geffen'de bulunan Baisulist'e ver. Makbuzu bana geri getirmeyi unutma."
 		},
 		Summary = "Arc Wand'i Geffen'deki Baisulist'e teslim et"
 	},
@@ -3226,7 +3226,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"All done! Okay. Give this Gladius to Wickebine in Morroc of Rune-Midgarts Kingdom. Be sure to bring the reciept back to me."
+			"Tamamlandi! Bu Gladius'u Rune-Midgarts Kingdom'daki Morocc'ta bulunan Wickebine'a ver. Makbuzu bana geri getirmeyi unutma."
 		},
 		Summary = "Gladius'u Morocc'taki Wickebine'a teslim et"
 	},
@@ -3234,7 +3234,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"All done! Okay. Give this Tsurugi to Krongast who is in Lighthalzen. Be sure to bring the reciept back to me."
+			"Tamamlandi! Bu Tsurugi'yi Lighthalzen'deki Krongast'a ver. Makbuzu bana geri getirmeyi unutma."
 		},
 		Summary = "Tsurugi'yi Lighthalzen'deki Krongast'a teslim et"
 	},
@@ -3242,7 +3242,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"All done! Okay. Give this Arbalest to Talpiz who is in Payon of Rune-Midgarts Kingdom. Be sure to bring the reciept back to me."
+			"Tamamlandi! Bu Arbalest'i Rune-Midgarts Kingdom'daki Payon'da bulunan Talpiz'e ver. Makbuzu bana geri getirmeyi unutma."
 		},
 		Summary = "Arbalest'i Payon'daki Talpiz'e teslim et"
 	},
@@ -3266,7 +3266,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Some other Blacksmiths have ill manners and are scammers and overpricers. They bring us shame! So we make the Job changing test more difficult. You should talk to inside Guildsman"
+			"Bazi Blacksmith'ler kotu davranisli, dolandirici veya fahis fiyat uyguluyor. Bu bize utanc veriyor; bu nedenle job-change testini zorlastirdik. Guildsman ile konus."
 		},
 		Summary = "Blacksmith Guildsman Mitehmaeeuh ile konus"
 	},
@@ -3274,7 +3274,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Congratulations! You passed the second test! I'll give you this Hammer of Blacksmith as a certificate."
+			"Tebrikler! Ikinci testi gectin. Sertifika olarak bu Hammer of Blacksmith'i veriyorum."
 		},
 		Summary = "Altiregen'e geri don"
 	},
@@ -3282,7 +3282,7 @@ QuestInfoList = {
 		Title = "Blacksmith Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Congratulations! You passed all the test! I give permission to use the art of Fire Craftsmanship."
+			"Tebrikler! Tum testleri gectin. Fire Craftsmanship sanatini kullanmana izin veriyorum."
 		},
 		Summary = ""
 	},
@@ -3298,7 +3298,7 @@ QuestInfoList = {
 		Title = "Rogue Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You're not trying to be a rogue without paying tuition, are you? Now, I'll tell you the application fee and the necessary collectibles, so bring your own."
+			"Rogue olmak icin kayit ucreti var. 10,000 Zeny, 10 Skel Bone, 6 Blue Herb, 10 Decayed Nail ve 10 Horrendous Mouth getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3306,7 +3306,7 @@ QuestInfoList = {
 		Title = "Rogue Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You're not trying to be a rogue without paying tuition, are you? Now, I'll tell you the application fee and the necessary collectibles, so bring your own."
+			"Rogue olmak icin kayit ucreti var. 10,000 Zeny, 10 Green Herb, 10 Crab Shell, 10 Snake Scale ve 10 Garlet getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3322,7 +3322,7 @@ QuestInfoList = {
 		Title = "Rogue Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Bring 10,000 Zeny and 5 each of the following: Chrysalis, Empty Bottle, Iron Ore, Stone Heart, Red Herb, Animal Skin, Yellow Gemstone, Teeth of Bat, Scorpion Tails, Yoyo Tail, Monster's Feed, Fluff, Clover, Feathers of Bird, Talon, Spawn and 10 Raccoon Leaf. Don't even come close until you've got everything!!"
+			"Mr. Smith'e 10 Raccoon Leaf ve su esyalardan 5'er adet getir: Chrysalis, Empty Bottle, Iron Ore, Stone Heart, Red Herb, Animal Skin, Yellow Gemstone, Teeth of Bat, Scorpion Tail, Yoyo Tail, Monster's Feed, Fluff, Clover, Feather of Bird, Talon ve Spawn."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3373,7 +3373,7 @@ QuestInfoList = {
 		Title = "Rogue Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Congratulations! You have become a Rogue!"
+			"Tebrikler! Rogue oldun!"
 		},
 		Summary = ""
 	},
@@ -3381,7 +3381,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Before you start training to change jobs as an Alchemist, you need to bring some necessary items."
+			"Resmi Alchemist egitimine baslamadan once 7 Berserk Potion getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3389,7 +3389,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Before you start training to change jobs as an Alchemist, you need to bring some necessary items."
+			"Resmi Alchemist egitimine baslamadan once 100 Mini Furnace getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3397,7 +3397,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Before you start training to change jobs as an Alchemist, you need to bring some necessary items."
+			"Resmi Alchemist egitimine baslamadan once 500 Fire Arrow getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3405,7 +3405,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Raspuchin is calling you. Go to speak to him. I'm not really sure what you'll be talking about with him..."
+			"Raspuchin seni cagiriyor. Onunla konusmaya git. Ne konusacaginizdan pek emin degilim..."
 		},
 		Summary = "Titiz Alchemist Raspuchin ile konus"
 	},
@@ -3413,7 +3413,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I can tell you're smart from your eyes. Ok, Excellent. Now go to Darwin. He'll show you how to do the experiments."
+			"Gozlerinden zeki oldugun belli. Harika. Simdi Darwin'e git; deneyleri nasil yapacagini gosterecek."
 		},
 		Summary = "Studying Man Darwin ile konus"
 	},
@@ -3437,7 +3437,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Go into the next room and speak to Van Helmont to continue your training."
+			"Egitimine devam etmek icin sonraki odaya gec ve Van Helmont ile konus."
 		},
 		Summary = "Van Helmont ile konus"
 	},
@@ -3445,7 +3445,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I'll give you an assignment. You must learn something new and come back. Let's see. Learn how to make a Counteragent and Mixture from Molgenstein."
+			"Sana bir gorev veriyorum. Yeni bir sey ogrenip geri don. Molgenstein'dan Counteragent ve Mixture yapmayi ogren."
 		},
 		Summary = "Molgenstein ile konus"
 	},
@@ -3477,7 +3477,7 @@ QuestInfoList = {
 		Title = "Alchemist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You are now a member of our illustrious Union. I hope you learn a lot and remember to carry yourself with pride as an Alchemist!"
+			"Artik saygin Union'imizin bir uyesisin. Cok sey ogrenmeni ve bir Alchemist olarak gururla hareket etmeni umuyorum!"
 		},
 		Summary = ""
 	},
@@ -3485,7 +3485,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"In order to take the entrance examination, you need to talk to Professor Claytos. He is in the left room."
+			"Giris sinavina katilmak icin Professor Claytos ile konus. Sol odada bulunuyor."
 		},
 		Summary = "Yazili sinav gorevlisi Claytos ile konus"
 	},
@@ -3493,7 +3493,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Don't you have enough Zeny for the registration fee? I will accept 30,000 Zeny as registration fee if you bring me the following items. Alternatively, you can bring 70,000 Zeny as before or bring an Old Magic Book and a Necklace of Wisdom as registration fee instead."
+			"Metheus Sylphe: Kayit ucreti icin yeterli Zeny yoksa 50 Feather of Bird, 50 Fluff ve 25 Iron Ore ile birlikte 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3501,7 +3501,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Don't you have enough Zeny for the registration fee? I will accept 30,000 Zeny as registration fee if you bring me the following items. Alternatively, you can bring 70,000 Zeny as before or bring an Old Magic Book and a Necklace of Wisdom as registration fee instead."
+			"Metheus Sylphe: 50 Feather of Bird, 50 Fluff ve 25 Iron Ore getirirsen kayit ucreti olarak 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3509,7 +3509,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Don't you have enough Zeny for the registration fee? I will accept 30,000 Zeny as registration fee if you bring me the following items. Alternatively, you can bring 70,000 Zeny as before or bring an Old Magic Book and a Necklace of Wisdom as registration fee instead."
+			"Metheus Sylphe: 50 Clover, 50 Feather ve 25 Squid Ink getirirsen kayit ucreti olarak 30,000 Zeny kabul ederim. Alternatif olarak 70,000 Zeny ya da Old Magic Book ve Necklace of Wisdom getirebilirsin."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3541,7 +3541,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let's see how you did on the written and the practical test. Okay...from your score. I suggest that you study the various monsters that spread throughout this world. Get help from Professor Lucius in the Monster Museum."
+			"Yazili ve uygulamali sinav puanlarina gore dunyaya yayilmis canavarlari incelemen oneriliyor. Monster Museum'daki Professor Lucius'tan yardim al."
 		},
 		Summary = "Monster Museum'da Professor Lucius ile konus"
 	},
@@ -3549,7 +3549,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let's see how you did on the written and the practical test. Okay...from your score. I suggest that you study the properties of magic. Get help from Professor Aebecee in the Somatology Lab."
+			"Yazili ve uygulamali sinav puanlarina gore buyunun ozelliklerini incelemen oneriliyor. Somatology Lab'daki Professor Aebecee'den yardim al."
 		},
 		Summary = "Somatology Lab'da Professor Aebecee ile konus"
 	},
@@ -3581,7 +3581,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I am a Professor Lucius and don't forget that my class has many field trips. So, get the following items!"
+			"Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Tentacle, 5 Single Cell ve 5 Fish Tail getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3589,7 +3589,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I am a Professor Lucius and don't forget that my class has many field trips. So, get the following items!"
+			"Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Nipper, 5 Clam Flesh ve 5 Heart of Mermaid getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3597,7 +3597,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I am a Professor Lucius and don't forget that my class has many field trips. So, get the following items!"
+			"Professor Lucius'un dersinde cok sayida saha gezisi var. Once 5 Tendon, 5 Nipper ve 5 Sharp Scale getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3605,7 +3605,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Well, shall we learn about the insects this time? I'll begin the class as soon as you bring these items to me."
+			"Bu kez bocekleri incele. Dersin baslamasi icin 5 Cobweb, 5 Shell ve 5 Insect Feeler getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3613,7 +3613,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Well, shall we learn about the insects this time? I'll begin the class as soon as you bring these items to me."
+			"Bu kez bocekleri incele. Dersin baslamasi icin 5 Horn, 5 Snail's Shell ve 5 Moth Dust getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3621,7 +3621,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Well, shall we learn about the insects this time? I'll begin the class as soon as you bring these items to me."
+			"Bu kez bocekleri incele. Dersin baslamasi icin 5 Mantis Scythe, 5 Worm Peeling ve 5 Rainbow Shell getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3629,7 +3629,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Well, shall we learn about the insects this time? I'll begin the class as soon as you bring these items to me."
+			"Bu kez bocekleri incele. Dersin baslamasi icin 5 Cobweb, 5 Mantis Scythe ve 5 Solid Shell getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3637,7 +3637,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Before beginning the class, you need to help me with something. It's not hard. You will do it for me, right?"
+			"Derse baslamadan once bir konuda yardim etmen gerekiyor. Zor degil; 30 Stone getir."
 		},
 		Summary = "30 Stone getir ve Professor Aebecee'ye don"
 	},
@@ -3645,7 +3645,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I will give you these ores. But they are not gifts! Make arrows out of these ores. If you have archer friends, they will help you make arrows."
+			"Bu madenlerden ok yap. Archer arkadaslarin yardim edebilir. 50 Crystal Arrow, 50 Stone Arrow ve 50 Arrow of Wind getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -3653,7 +3653,7 @@ QuestInfoList = {
 		Title = "Sage Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Bring 1 Holy Water for the next class. Do you have a Priest friend? If you don't, make one. Hohoho."
+			"Sonraki ders icin 1 Holy Water getir. Priest arkadasin yoksa bir tane edin."
 		},
 		Summary = "Professor Aebecee'ye 1 Holy Water getir"
 	},
@@ -3708,14 +3708,14 @@ QuestInfoList = {
 	[2069] = {
 		Title = "Tierra Gorge Savasi",
 		Description = {
-			"You have received an indicator showing that you've participated in the Battle at Tierra Gorge. Guillaume Army won't let you participate in any other battles until the indicator goes off."
+			"Tierra Gorge savasina katildigini gosteren bir isaret aldin. Isaret kaybolana kadar Guillaume Army baska savaslara katilmana izin vermeyecek."
 		},
 		Summary = "Sure dolana kadar Tierra Gorge Battle icin bekle"
 	},
 	[2070] = {
 		Title = "Flavius Savasi",
 		Description = {
-			"You have received an indicator showing that you've participated in the Flavius Battle. Croix Army Officer won't let you participate in any other battles until the indicator goes off."
+			"Flavius Battle'a katildigini gosteren bir isaret aldin. Isaret kaybolana kadar Croix Army Officer baska savaslara katilmana izin vermeyecek."
 		},
 		Summary = "Sure dolana kadar Flavius Battle icin bekle"
 	},
@@ -3827,322 +3827,322 @@ QuestInfoList = {
 	[2086] = {
 		Title = "The Enterprise",
 		Description = {
-			"You are not sure since when but you have been hearing auditory hallucination."
+			"Ne zamandir oldugunu bilmiyorsun ama isitsel halusinasyonlar duymaya basladin."
 		},
 		Summary = "Isitsel halusinasyonu arastir"
 	},
 	[2087] = {
 		Title = "The Enterprise",
 		Description = {
-			"Throught the help from an elder, you find that weird spirit in the the Rekenber Corporation leads you."
+			"Bir yaslinin yardimiyla tuhaf ruhun seni Rekenber Corporation'a yonlendirdigini anladin."
 		},
 		Summary = "Rekenber Corporation'a gir"
 	},
 	[2088] = {
 		Title = "The Enterprise",
 		Description = {
-			"You get the information from the Rekenber receptionist that you can find the history of the Rekenber in the library."
+			"Rekenber receptionist, sirketin tarihini library'de bulabilecegini soyluyor."
 		},
 		Summary = "Rekenber Library'deki librarian ile konus"
 	},
 	[2089] = {
 		Title = "The Enterprise",
 		Description = {
-			"You can find the information about the history of Rekenber from books and librarians."
+			"Rekenber'in tarihi hakkinda kitaplardan ve librarian'lardan bilgi edin."
 		},
 		Summary = "Rekenber hakkinda daha fazla bilgi al"
 	},
 	[2090] = {
 		Title = "The Enterprise",
 		Description = {
-			"Wolfchev, a researcher in Rekenber, says that he wants someting shiny and round."
+			"Rekenber arastirmacisi Wolfchev parlak ve yuvarlak bir sey istiyor."
 		},
 		Summary = "Wolfchev'in istedigi seyi getir ve konus"
 	},
 	[2091] = {
 		Title = "The Enterprise",
 		Description = {
-			"You acquire an old pendant which was not opened in the past of someone related to Rekenber."
+			"Rekenber ile iliskili birinin gecmisinden kalan, acilmamis eski bir pendant elde ettin."
 		},
 		Summary = "Pendant'i acmanin yolunu bul"
 	},
 	[2092] = {
 		Title = "The Enterprise",
 		Description = {
-			"The elder asks you for some items to remove the curse upon the pendant. Bring 5 Holy Water and 1 Bouquet."
+			"Yasli, pendant uzerindeki laneti kaldirmak icin 5 Holy Water ve 1 Bouquet istiyor."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2093] = {
 		Title = "The Enterprise",
 		Description = {
-			"With the elder's help, you can open the pendant and see the picture in which there are a girl sitting on a chair and a man looking like her brother."
+			"Yaslinin yardimiyla pendant'i actin. Resimde sandalyede oturan bir kiz ve kardesine benzeyen bir adam var."
 		},
 		Summary = "Pendant'in kime ait oldugunu bul"
 	},
 	[2094] = {
 		Title = "The Enterprise",
 		Description = {
-			"You conclude that the main cause of all the curses are Rekenber and decide to go to Rekenber again to find out the truth."
+			"Tum lanetlerin ana nedeninin Rekenber olduguna karar verdin. Gercegi ogrenmek icin yeniden Rekenber'e git."
 		},
 		Summary = "Rekenber gorevlileriyle konus"
 	},
 	[2095] = {
 		Title = "The Enterprise",
 		Description = {
-			"Sueii Slierre, a secretary in Rekenber, says that Wolfchev has retired and the case is closed."
+			"Rekenber sekreteri Sueii Slierre, Wolfchev'in emekli oldugunu ve dosyanin kapandigini soyluyor."
 		},
 		Summary = "Wolfchev'in emekli oldugunu dogrula"
 	},
 	[2109] = {
 		Title = "Ice Cave'deki Mage",
 		Description = {
-			"Rachel's Urstialla asked the goddess Freya to meet the wizard of the Ice Cave to make her necklace shine."
+			"Urstialla sana necklace'i Maheo'ya goturup eski parlakligina kavusturmani istiyor. Boylece tanrica Freya'ya uygun bir adak olacak."
 		},
 		Summary = "Arcane Mage Maheo'yu bul"
 	},
 	[2110] = {
 		Title = "Ice Cave'deki Mage",
 		Description = {
-			"Sorceress Maheo asked Rachel to ask for help from her master, who would be around Freya's Fountain."
+			"Maheo, ustasinin onu buz hapishanesinden kurtarmanin yolunu bilecegini dusunuyor. Freya's Spring yakinindaki ustasini bul."
 		},
 		Summary = "Maheo'nun ustasini bul"
 	},
 	[2111] = {
 		Title = "Ice Cave'deki Mage",
 		Description = {
-			"Hamion, Maheo's teacher, said he needed preparations to dispel the magic."
+			"Hamion buyulu buzu kirmak icin bir artifact yapacak. 5 Rough Wind, 1 Hammer ve 1 Blank Scroll getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2112] = {
 		Title = "Ice Cave'deki Mage",
 		Description = {
-			"You received the Hammer of Wind from Hamion to dispel Maheo's magic."
+			"Wind Hammer'i aldin. Yalnizca bir kez calisacak; buyulu buzu dogru sekilde kirip Maheo'yu kurtar."
 		},
 		Summary = "Wind Hammer ile Maheo'yu kurtar"
 	},
 	[2113] = {
 		Title = "Ice Cave'deki Mage",
 		Description = {
-			"Wizard Maheo infused magic into Urstialla's necklace in return."
+			"Maheo ayrilirken bir hediye veriyor ve kendini buza hapsettigini kimseye anlatmamani istiyor."
 		},
 		Summary = "Sparkling Necklace'i Urstialla'ya getir"
 	},
 	[2114] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"High Priest Zhed wants you to sneak into the camp at Thor Volcano for the sake of protecting international peace and sneak into the room of High Priest Vildt."
+			"High Priest Zhed, uluslararasi barisi korumak icin Thor Volcano kampina gizlice girip High Priest Vildt'in odasina sizmani istiyor."
 		},
 		Summary = ""
 	},
 	[2115] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"You have found a file folder in the room of High Priest Vildt. Bring it back to High Priest Zhed in Rachel."
+			"High Priest Vildt'in odasinda bir file folder buldun. Rachel'daki High Priest Zhed'e geri gotur."
 		},
 		Summary = "High Priest Zhed ile konus"
 	},
 	[2116] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Find the geologist in charge of investigating Thor Volcano."
+			"Thor Volcano arastirmasindan sorumlu geologist'i bul."
 		},
 		Summary = ""
 	},
 	[2117] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Geologist Gio asked you to go to the geology camp at Thor Volcano in his place and take temperature measurements. But, first you need to go to his office and find a pyrometer and a report from his desk."
+			"Geologist Gio, kendi yerine Thor Volcano geology camp'a gidip sicaklik olcmeni istiyor. Once ofisindeki masadan pyrometer ve report'u al."
 		},
 		Summary = ""
 	},
 	[2118] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"You have recorded the first temperature in the report. Find other hot surfaces and record your findings."
+			"Ilk sicaklik degerini rapora kaydettin. Diger sicak yuzeyleri bul ve sonuclari kaydet."
 		},
 		Summary = ""
 	},
 	[2119] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"You have found another hot surface and recorded your findings in the report. Find other hot surfaces and record your findings."
+			"Baska bir sicak yuzey bulup rapora kaydettin. Diger sicak yuzeyleri bulmaya devam et."
 		},
 		Summary = ""
 	},
 	[2120] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"You have found another hot surface and recorded your findings in the report. This should be enough to submit the report to the geological camp."
+			"Bir sicak yuzey daha bulup rapora kaydettin. Bu kadar veri geology camp'a rapor vermek icin yeterli olmali."
 		},
 		Summary = ""
 	},
 	[2121] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Having fooled Sahedi, you can confidently take a look inside the base."
+			"Guard, train station'in hemen guneyindeki airship'te Sahedi'yi bulup yardim istemeni soyluyor."
 		},
 		Summary = "Sahedi'yi bul"
 	},
 	[2122] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Sahedi asked you to check around the camp to see if they can avoid any disaster from the Volcano."
+			"Sahedi, Volcano kaynakli bir felaketi onlemek icin kamp cevresini kontrol etmeni istiyor."
 		},
 		Summary = ""
 	},
 	[2123] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Answer Colonel Vito's questions for the first part of the soldier training."
+			"Soldier training'in ilk bolumu icin Colonel Vito'nun sorularini cevapla."
 		},
 		Summary = ""
 	},
 	[2124] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Before going onto the next part of the training, Colonel Vito has sent you to inspect the machines in the pipe zone to the north of the building."
+			"Sonraki egitime gecmeden once Colonel Vito, binanin kuzeyindeki pipe zone makinelerini kontrol etmeni istiyor."
 		},
 		Summary = ""
 	},
 	[2125] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"You found a control panel that seems to be running smoothly. Report to Colonel Vito that everything looks to be in working order."
+			"Sorunsuz calisan bir control panel buldun. Her seyin duzgun calistigini Colonel Vito'ya bildir."
 		},
 		Summary = ""
 	},
 	[2126] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Sahedi is agitated by your lies. You decide to leave the base and return to the Geologist."
+			"Ikinci egitim icin Colonel Vito practice dummy'ye 10 kez vurmani istiyor."
 		},
 		Summary = ""
 	},
 	[2127] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Geologist Geo said he would give you the item in the box displayed in his room in return."
+			"Egitimi tamamlamis gorunuyorsun. Soldier olarak tanindigin icin artik daha ozgur arastirma yapabilirsin."
 		},
 		Summary = ""
 	},
 	[2128] = {
 		Title = "Thor Volcano Base Camp",
 		Description = {
-			"Having obtained enough information about Thor Volcano, you decided to return to High Priest Zhed."
+			"Schwaltzvalt Republic damgali kutular tasindigini gordun; bunlar kampin military supplies'i olmali. Sahedi'ye don ve Volcano'nun durumunu bildir."
 		},
 		Summary = "Sahedi ile konus"
 	},
 	[2129] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"A merchant who comes from a foreign country feels pain because of a drink that is sold by a merchant showing up around Oasis."
+			"Yabanci bir ulkeden gelen merchant, Oasis cevresinde ortaya cikan bir saticinin sattigi icecek yuzunden aci cekiyor."
 		},
 		Summary = "Oasis cevresindeki icecek saticisini bul"
 	},
 	[2130] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"You got a well known drink and decided to go back to a merchant met at first."
+			"Taninmis icecegi aldin. Ilk karsilastigin yabanci merchant'a geri don."
 		},
 		Summary = "Yabanci merchant ile konus"
 	},
 	[2131] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"You got Zhed's telegram from a foreign merchant."
+			"Yabanci merchant'tan Zhed'in telegram'ini aldin."
 		},
 		Summary = "Rachel'daki High Priest Zhed ile konus"
 	},
 	[2132] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"High Priest Zhed said he needs Niren's help to borrow a power of a pope."
+			"High Priest Zhed, Pope'un gucunden yararlanmak icin Niren'in yardimina ihtiyaci oldugunu soyluyor."
 		},
 		Summary = "High Priestess Niren ile konus"
 	},
 	[2133] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Niren expressed her strong distrust of High Priest."
+			"Niren, High Priest'e karsi guclu bir guvensizlik duydugunu belirtiyor."
 		},
 		Summary = "Zhed'e geri don"
 	},
 	[2134] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"You got a letter for Niren from Jed."
+			"Jed'den Niren'e verilmek uzere bir mektup aldin."
 		},
 		Summary = "Zhed'in mektubunu Niren'e teslim et"
 	},
 	[2135] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Niren demands to meet a pope and dig an information about a newly-appointed official carefully."
+			"Niren, Pope ile gorusup yeni atanan gorevli hakkinda dikkatlice bilgi toplamani istiyor."
 		},
 		Summary = "Pope ile konus"
 	},
 	[2136] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"The pope who have not seen over the long haul was afflicted at newly-appointed officials caring the pope can't see their family for a long time."
+			"Uzun suredir gormedigin Pope, yeni gorevliler nedeniyle ailesini uzun sure gorememekten rahatsiz."
 		},
 		Summary = "Niren'e geri don"
 	},
 	[2137] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Niren hands over documents and ask for giving it to Ismael who lives in a north native village."
+			"Niren belgeleri verip kuzeydeki yerli koyunde yasayan Ismael'e teslim etmeni istiyor."
 		},
 		Summary = "Ismael ile konus"
 	},
 	[2138] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Ismael said he loses writing instruments and needs some materials to make that again."
+			"Ismael yazim araclarini kaybettigini ve yeniden yapmak icin malzemeye ihtiyaci oldugunu soyluyor."
 		},
 		Summary = "1 Sardonyx getir"
 	},
 	[2139] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"You got a document that includes a fake paper of vacation from Ismael."
+			"Ismael'den sahte izin belgesini de iceren dokumani aldin."
 		},
 		Summary = "Niren'e geri don"
 	},
 	[2140] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Niren said all ready is completed and you come to a sky garden where the pope is in with Zhed."
+			"Niren tum hazirliklarin tamamlandigini soyluyor. Zhed ile birlikte Pope'un bulundugu sky garden'a git."
 		},
 		Summary = "Zhed ile konustuktan sonra sky garden'a git"
 	},
 	[2141] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"The pope shows an aspect as a mature pope of a religious nation by riding of a mask for a young monarch."
+			"Pope, genc bir hukumdar maskesini birakip dini ulkenin olgun lideri olarak tavrini ortaya koyuyor."
 		},
 		Summary = "Niren ile konus"
 	},
 	[2142] = {
 		Title = "Arunafeltz Icin",
 		Description = {
-			"Niren promises reflect on his silence caring the pope with Zhed."
+			"Niren, Zhed ile birlikte Pope'u korurken suskunlugunu gozden gecirecegine soz veriyor."
 		},
 		Summary = "Zhed ile konus"
 	},
 	[2143] = {
 		Title = "Guild Dungeon Event",
 		Description = {
-			"Watch the vision of Gergoth. After that, talk to Pierrot Piel."
+			"Gergoth'un goruntusune tanik oldun. Ardindan Pierrot Piel ile konus."
 		},
 		Summary = ""
 	},
 	[2144] = {
 		Title = "Guild Dungeon Event",
 		Description = {
-			"You accept the favor from Morestone and he introduce you the myterious place that he found."
+			"Morestone'un ricasini kabul ettin ve sana buldugu gizemli yeri anlatti."
 		},
 		Summary = ""
 	},
@@ -4354,126 +4354,126 @@ QuestInfoList = {
 		Title = "Archbishop Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You must escort Valkyrie and collect Horn Pipes. Look at the map and follow the guidance of the cross."
+			"Valkyrie'yi koruyarak Horn Pipe toplaman gerekiyor."
 		},
 		Summary = ""
 	},
 	[2192] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"The Candy maker says that if you want to taste guarana candy, you need to go to Cherto in the art museum and ask him about it."
+			"Candy Maker, Guarana Candy tatmak istiyorsan Art Museum'daki Cherto'ya gidip bilgi almani istiyor."
 		},
 		Summary = "Cherto ile konus"
 	},
 	[2193] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"According to Cherto, the reason that Brasilis can't grow Guarana fruit is that a Guarana boy was born."
+			"Cherto'ya gore Brasilis'te Guarana meyvesinin yetismemesinin nedeni Guarana Boy'un dogmus olmasi."
 		},
 		Summary = "Guarana Kid'i ara"
 	},
 	[2194] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"You found a Strange kid who makes animal-like sounds. Go to Cherto and ask him if this is the Guarana boy."
+			"Hayvan sesi cikaran Strange Kid'i buldun. Cherto'ya gidip bunun Guarana Boy olup olmadigini sor."
 		},
 		Summary = "Cherto ile konus"
 	},
 	[2195] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"Cherto says to ask for help from a Mage in Brasilis named Paje."
+			"Cherto, Brasilis'teki Mage Paje'den yardim istemeni soyluyor."
 		},
 		Summary = "Mage Paje ile konus"
 	},
 	[2196] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"Paje says to look for a Toucan at Brasilis Field that you can talk to."
+			"Paje, Brasilis Field'da konusabilecegin bir Toucan bulmani istiyor."
 		},
 		Summary = "Toucan ile konus"
 	},
 	[2197] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"Toucan blesses you and tells you to go and meet Jaguar."
+			"Toucan seni kutsuyor ve Jaguar ile bulusmani soyluyor."
 		},
 		Summary = "Jaguar ile konus"
 	},
 	[2198] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"Jaguar blesses you and tells you to meet a monkey."
+			"Jaguar seni kutsuyor ve bir Monkey ile bulusmani soyluyor."
 		},
 		Summary = "Monkey ile konus"
 	},
 	[2199] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"You've spoken to all of the animals. Go back to the Strange Kid."
+			"Tum hayvanlarla konustun. Strange Kid'e geri don."
 		},
 		Summary = "Strange Kid ile konus"
 	},
 	[2200] = {
 		Title = "Guarana Gorevi",
 		Description = {
-			"You have received a Guarana fruit. Take it to the Candy maker to see if he can make it into candy for you."
+			"Bir Guarana Fruit aldin. Candy Maker'a gotur ve seker yapip yapamayacagina bak."
 		},
 		Summary = "Candy Maker ile konus"
 	},
 	[2201] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"A botanist named Karmen says to find someone named Marta since she knows many stories about Brasilis."
+			"Botanist Karmen, Brasilis hakkinda cok hikaye bilen Marta'yi bulmani istiyor."
 		},
 		Summary = "Marta ile konus"
 	},
 	[2202] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"Jasira asks you to bring 10 Banana to Jasi the man whom she believes is the moon."
+			"Jasira, ay olduguna inandigi Jasi'ye 10 Banana goturmeni istiyor."
 		},
 		Summary = ""
 	},
 	[2203] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"A mysterious man named Jasi, allows you to stay and appreciate the Brasilis water lily."
+			"Jasi adindaki gizemli adam, Brasilis Water Lily'yi izleyip takdir etmene izin veriyor."
 		},
 		Summary = ""
 	},
 	[2204] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"Jasi asks you to find 5 hard-shelled fruits. Go to Jasira and tell her what you have found out from Jasi."
+			"Jasi, 5 hard-shelled fruit bulmani istiyor. Jasira'ya don ve Jasi'den ogrendiklerini anlat."
 		},
 		Summary = "Jasira'dan tavsiye al"
 	},
 	[2205] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"Jasira let you know that what Jasi is talking about is a Coconut. Someone in Brasilis must be selling them."
+			"Jasira, Jasi'nin Coconut'tan bahsettigini acikliyor. Brasilis'te bir satici bunlari satiyor olmali."
 		},
 		Summary = "5 Coconut satin al ve Jasi'ye getir"
 	},
 	[2206] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"Go back to Jasira and tell her what the message that Jasi told you."
+			"Jasira'ya geri don ve Jasi'nin mesajini ilet."
 		},
 		Summary = "Jasira ile konus"
 	},
 	[2207] = {
 		Title = "Brasilis Water Lily",
 		Description = {
-			"Jasira understands when you give her Jasi's message as she decorates your Brasilis Water Lily."
+			"Jasira, Jasi'nin mesajini anlayip Brasilis Water Lily'ni susluyor."
 		},
 		Summary = "Botanist Karmen'e neler oldugunu anlat"
 	},
 	[2208] = {
 		Title = "Bathroom Ghost",
 		Description = {
-			"I decided to look for the ghost in the bathroom with the special spell Pedro told me."
+			"Art Museum'daki banyoyu incele. Pedro'nun sarkisinin ilk kismi: ^FF0000Mother the door won't open!^000000 Anahtari gokkusagindaki renk sayisi kadar cevir."
 		},
 		Summary = "Art Museum banyosunu incele"
 	},
@@ -4481,7 +4481,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a Bigibigi grass to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Bigibigi Grass buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4489,7 +4489,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a Muka tree to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Muka Tree buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4497,7 +4497,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a Bogi bine to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Bogi Bine buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4505,7 +4505,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a Aoletura to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Aoletura buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4513,7 +4513,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a Kongra to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Kongra buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4521,7 +4521,7 @@ QuestInfoList = {
 		Title = "Mukemmel Ses Yalitimi Sistemi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"You have found a sticky grass to use for the experiment material. When you select it, you can test it on the Testing Table."
+			"Deney malzemesi olarak Sticky Grass buldun. Sectiginde Testing Table uzerinde test edebilirsin."
 		},
 		Summary = ""
 	},
@@ -4593,7 +4593,7 @@ QuestInfoList = {
 		Title = "Geneticist Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Demi Calberine told you that it would be best to swing the cart at something to accustom yourself to using a cart like a Genetic."
+			"Demi Calberine, Geneticist gibi cart kullanmaya alisman icin cart'i bir seylere vurmanin iyi olacagini soyluyor."
 		},
 		Summary = "Kafesteki 100 Poison Spore'u yok et"
 	},
@@ -4661,329 +4661,329 @@ QuestInfoList = {
 	[2235] = {
 		Title = "Christmas: Toy Factory",
 		Description = {
-			"You've decided to help the Worried Distribution Staff by fighting some monsters in the Toy Factory."
+			"Worried Distribution Staff'e yardim etmek icin Toy Factory'de bazi canavarlarla savasmaya karar verdin."
 		},
 		Summary = "10 Cruiser avla"
 	},
 	[2236] = {
 		Title = "Christmas: Toy Factory",
 		Description = {
-			"You've decided to help the Worried Distribution Staff by fighting some monsters in the Toy Factory."
+			"Worried Distribution Staff'e yardim etmek icin Toy Factory'de bazi canavarlarla savasmaya karar verdin."
 		},
 		Summary = "10 Mystcase avla"
 	},
 	[2237] = {
 		Title = "Christmas: Toy Factory",
 		Description = {
-			"A concerned factory manager asked to kill Rudalph and retrieve Santa's Bag."
+			"Toy Factory'de Stormy Knight'i bul ve yen."
 		},
 		Summary = ""
 	},
 	[2238] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Willow Hunting"
+			"Christmas Angel'in ilk testi: Willow avla."
 		},
 		Summary = "2 Willow avla"
 	},
 	[2239] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Elder Willow Hunting"
+			"Christmas Angel'in ilk testi: Elder Willow avla."
 		},
 		Summary = "2 Elder Willow avla"
 	},
 	[2240] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Orc Warrior Hunting"
+			"Christmas Angel'in ilk testi: Orc Warrior avla."
 		},
 		Summary = "2 Orc Warrior avla"
 	},
 	[2241] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Orc Lady Hunting"
+			"Christmas Angel'in ilk testi: Orc Lady avla."
 		},
 		Summary = "2 Orc Lady avla"
 	},
 	[2242] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Mummy Hunting"
+			"Christmas Angel'in ilk testi: Mummy avla."
 		},
 		Summary = "4 Mummy avla"
 	},
 	[2243] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Verit Hunting"
+			"Christmas Angel'in ilk testi: Verit avla."
 		},
 		Summary = "4 Verit avla"
 	},
 	[2244] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Marc Hunting"
+			"Christmas Angel'in ilk testi: Marc avla."
 		},
 		Summary = "4 Marc avla"
 	},
 	[2245] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Swordfish Hunting"
+			"Christmas Angel'in ilk testi: Swordfish avla."
 		},
 		Summary = "4 Swordfish avla"
 	},
 	[2246] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Petite (Green) Hunting"
+			"Christmas Angel'in ilk testi: Petite (green) avla."
 		},
 		Summary = "4 Petite (green) avla"
 	},
 	[2247] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Petite (Blue) Hunting"
+			"Christmas Angel'in ilk testi: Petite (blue) avla."
 		},
 		Summary = "4 Petite (blue) avla"
 	},
 	[2248] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Spring Rabbit Hunting"
+			"Christmas Angel'in ilk testi: Spring Rabbit avla."
 		},
 		Summary = "4 Spring Rabbit avla"
 	},
 	[2249] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Pest Hunting"
+			"Christmas Angel'in ilk testi: Pest avla."
 		},
 		Summary = "4 Pest avla"
 	},
 	[2250] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Desert Wolf Hunting"
+			"Christmas Angel'in ilk testi: Desert Wolf avla."
 		},
 		Summary = "4 Desert Wolf avla"
 	},
 	[2251] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Snowier Hunting"
+			"Christmas Angel'in ilk testi: 4 Snowier avla."
 		},
 		Summary = "4 Snowier avla"
 	},
 	[2252] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Kobold (Mace) Hunting"
+			"Christmas Angel'in ilk testi: 4 Kobold (mace) avla."
 		},
 		Summary = "4 Kobold (mace) avla"
 	},
 	[2253] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The first test of the Christmas Angel: Kobold (Hammer) Hunting"
+			"Christmas Angel'in ilk testi: 4 Kobold (hammer) avla."
 		},
 		Summary = "4 Kobold (hammer) avla"
 	},
 	[2254] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The second test of the Christmas Angel: Antonio Hunting"
+			"Christmas Angel'in ikinci testi: Dunyanin bir yerindeki 1 Antonio'yu bul ve yen."
 		},
 		Summary = "1 Antonio bul ve yen"
 	},
 	[2255] = {
 		Title = "Bir Angel'in Gerceklestirdigi Christmas Dilegi",
 		Description = {
-			"The third test of the Christmas Angel: Avoid greed by not defeating any Christmas Crystals."
+			"Christmas Angel'in ucuncu testi: Hicbir Christmas Crystal yenmeden acgozlulukten uzak dur."
 		},
 		Summary = ""
 	},
 	[2256] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"You have met an old man who says that he suspects the Archaeology guild has discovered a treasure. Ask Metz' assistant if she will let tell you about the guild's activities."
+			"Archaeology Guild'in bir hazine buldugundan suphelenen yasli bir adamla tanistin. Guild faaliyetlerini ogrenmek icin Metz'in asistanini bul."
 		},
 		Summary = "Prontera'da 263,279 civarindaki binada Metz'in asistanini bul"
 	},
 	[2257] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Zella says that you need to show her that you are good at investigating before she talks. Read the books behind her and combine the clues to figure out her riddle."
+			"Zella konusmadan once arastirma yetenegini gostermeni istiyor. Arkasindaki kitaplari oku, ipuclarini birlestir ve bilmecesini coz."
 		},
 		Summary = "'Mr. Metz'in cocukluk kizaginin adi neydi?' - Zella"
 	},
 	[2258] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Talk to Zella's brother Einrich in Alberta who is coordinating the digging teams in the cities where they discovered some artifacts"
+			"Alberta'daki Zella'nin kardesi Einrich ile konus. Eserlerin bulundugu sehirlerdeki kazi ekiplerini koordine ediyor."
 		},
 		Summary = "Einrich ile konus"
 	},
 	[2259] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"You have found Einrich but he has asked you to bring some items that you can buy from a trading merchant in Alberta."
+			"Einrich'i buldun. Alberta'daki ticaret saticisindan alabilecegin bazi esyalari getirmeni istiyor."
 		},
 		Summary = "1 Branch rifle ve 10 Bloody Shell getir"
 	},
 	[2260] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"The first artifact was found in Louyang. Find the Dig Crew Leader there."
+			"Ilk eser Louyang'da bulundu. Oradaki Dig Crew Leader'i bul."
 		},
 		Summary = "Louyang'daki Dig Crew Leader'i bul"
 	},
 	[2261] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"There are Guardian monsters surrounding the artifacts and relics that the Archaeology guild is trying to dig up."
+			"Archaeology Guild'in kazmaya calistigi eser ve kalintilarin cevresinde Guardian canavarlari var."
 		},
 		Summary = "60 Mi Gao ve 40 Mantis Guardian avla"
 	},
 	[2262] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Bring a Mage class party member to the Dug-up Rune. If you don't have a Mage party member, you can bring 50 Red Gemstones to break the spell."
+			"Dug-up Rune'a Mage sinifi bir parti uyesi getir. Mage yoksa buyuyu bozmak icin 50 Red Gemstone getirebilirsin."
 		},
 		Summary = "Buyuyu bozduktan sonra Dig Crew Leader'a rapor ver"
 	},
 	[2263] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Travel to Ayothaya and find the Dig Crew Leader there who is excavating another Dug-up Rune."
+			"Ayothaya'ya git ve baska bir Dug-up Rune'u kazan Dig Crew Leader'i bul."
 		},
 		Summary = "Ayothaya'daki Dig Crew Leader'i bul"
 	},
 	[2264] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Find the three Wounded Dig crew members in Ayothaya and find a way to heal them. Once you have done so, head to the castle and find the Princess of Ayothaya and speak to her."
+			"Ayothaya'daki uc yarali kazi ekibi uyesini bul ve iyilestirmenin yolunu ara. Sonra kaleye gidip Ayothaya Princess ile konus."
 		},
 		Summary = "Yarali kazi ekibini iyilestir ve Princess ile konus"
 	},
 	[2265] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Bring an Acolyte class party member to the Dug-up Rune in Ayothaya. If you don't have an Acolyte party member, you can bring 50 Yellow Gemstones to break the spell."
+			"Ayothaya'daki Dug-up Rune'a Acolyte sinifi bir parti uyesi getir. Acolyte yoksa buyuyu bozmak icin 50 Yellow Gemstone getirebilirsin."
 		},
 		Summary = "Dug-up Rune buyusunu boz"
 	},
 	[2266] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Travel to Kunlun and find the Dig Crew Leader there who is excavating another Dug-up Rune."
+			"Kunlun'a git ve baska bir Dug-up Rune'u kazan Dig Crew Leader'i bul."
 		},
 		Summary = "Kunlun'daki Dig Crew Leader'i bul"
 	},
 	[2267] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"Find the Dug-up Rune at the southwest area of Kunlun and help him solve the mystery of his sleeping crew."
+			"Kunlun'un guneybati bolgesindeki Dug-up Rune'u bul ve uyuyan kazi ekibinin gizemini cozmesine yardim et."
 		},
 		Summary = "Dug-up Rune'u incele"
 	},
 	[2268] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"You have a total of 3 Rock Shards. Zella and Einrich are looking for these. It's your choice on who you want to give them to."
+			"Toplam 3 Rock Shard topladin. Zella ve Einrich bunlari ariyor; kime verecegin sana kalmis."
 		},
 		Summary = "Rock Shard'lari Prontera'daki Zella'ya veya Alberta'daki Einrich'e ver"
 	},
 	[2269] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"You have received a key unlocks a gateway to the ^0000FFold memory of Payon^000000. Something is inscribed on the key."
+			"^0000FFPayon'un eski anilarina^000000 acilan gecidin anahtarini aldin. Anahtarin uzerinde bir seyler yaziyor."
 		},
 		Summary = "Payon'un eski anilarina acilan gecidi bul"
 	},
 	[2270] = {
 		Title = "8. Yil Donumu",
 		Description = {
-			"We have reset the entry limit for some Memorial Dungeon to 1 time only!"
+			"Anniversary gorevini tekrarlamak istersen sure dolduktan sonra Prontera'daki Old Man ile konusabilirsin."
 		},
 		Summary = ""
 	},
 	[2271] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Guard from Port Malaya said villagers are all talking about a treasure."
+			"Port Malaya muhafizi, koylulerin bir hazine hakkinda konustugunu soyledi."
 		},
 		Summary = "Toplanan Port Malaya koyluleriyle konus"
 	},
 	[2272] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"According to a villager's Testimony, Totoy from the inn might know where the treasure is."
+			"Bir koylunun anlattigina gore Inn'deki Totoy hazinenin yerini biliyor olabilir."
 		},
 		Summary = "Totoy ile konus"
 	},
 	[2273] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"The Master of Hunting at the Crafts Store may know about the monster."
+			"Crafts Store'daki Master of Hunting canavar hakkinda bilgi sahibi olabilir."
 		},
 		Summary = "Master of Hunting ile konus"
 	},
 	[2274] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"The Master of Hunting asked to collect 10 animal samples from the place where Totoy saw the monster."
+			"Master of Hunting, Totoy'un canavari gordugu yerden 10 Animal Sample toplamani istedi."
 		},
 		Summary = "10 Animal Sample topla"
 	},
 	[2275] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Study the samples you've collected with much difficulty with the Master of Hunting."
+			"Zorlukla topladigin ornekleri Master of Hunting ile incele."
 		},
 		Summary = "Master of Hunting ile konus"
 	},
 	[2276] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Totoy saw the frightful Buwaya. Report this to the Guard!"
+			"Totoy korkunc Buwaya'yi gordu. Bunu muhafiza bildir."
 		},
 		Summary = "Guard Leader ile konus"
 	},
 	[2277] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"The Guard asks to shoot a smoke bomb where Buwaya appeared for the safety of the villagers."
+			"Muhafiz, koylulerin guvenligi icin Buwaya'nin gorundugu yere smoke bomb atmani istiyor."
 		},
 		Summary = "Buwaya'nin gorundugu yeri bul ve smoke bomb kullan"
 	},
 	[2278] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Mission completed! Better bring back Ed to Totoy first."
+			"Gorev tamamlandi. Once Ed'i Totoy'a geri gotur."
 		},
 		Summary = "Totoy ile konus"
 	},
 	[2279] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Totoy thanks you and left you alone for a second to get your reward."
+			"Totoy sana tesekkur etti ve odulunu almak icin kisa bir sureligine ayrildi."
 		},
 		Summary = "Totoy ile tekrar konus"
 	},
 	[2280] = {
 		Title = "Ormandaki Sir",
 		Description = {
-			"Finished your duty with Totoy. Now let's talk to the Guard Leader about Buwaya."
+			"Totoy ile isin bitti. Simdi Buwaya hakkinda Guard Leader ile konus."
 		},
 		Summary = "Guard Leader ile konus"
 	},
 	[2281] = {
 		Title = "Buwaya'yi Yok Et",
 		Description = {
-			"Defeat Buwaya at the Buwaya Cave and then go back to the Guard Leader."
+			"Buwaya Cave'de Buwaya'yi yen ve Guard Leader'a geri don."
 		},
 		Summary = "Buwaya'yi yok et"
 	},
@@ -5034,7 +5034,7 @@ QuestInfoList = {
 		Title = "Supheli Kedi: Dusmanlar",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Suspicious Cat requests to hunt 20 Verits"
+			"Suspicious Cat, 20 Verit avlamani istiyor."
 		},
 		Summary = "20 Verit avla"
 	},
@@ -5042,7 +5042,7 @@ QuestInfoList = {
 		Title = "Supheli Kedi: Dusmanlar (Bekleme)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can re-accept the quest after the time passes."
+			"Sure dolduktan sonra gorevi yeniden alabilirsin."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -5051,7 +5051,7 @@ QuestInfoList = {
 		Title = "Supheli Kedi: Sinir Bozucu Tip (Bekleme)",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can re-accept the quest after the time passes."
+			"Sure dolduktan sonra gorevi yeniden alabilirsin."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -5060,7 +5060,7 @@ QuestInfoList = {
 		Title = "Supheli Kedi: Sinir Bozucu Tip",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Suspicious Cat requests to hunt 20 Ancient Mummy."
+			"Suspicious Cat, 20 Ancient Mummy avlamani istiyor."
 		},
 		Summary = "20 Ancient Mummy avla"
 	},
@@ -5092,7 +5092,7 @@ QuestInfoList = {
 		Title = "Maceracinin Yoldasi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Find a Little Poring loaming around and tame it with the Unripe Apple."
+			"Etrafta dolasan Little Poring'i bul ve Unripe Apple ile evcillestir."
 		},
 		Summary = "Little Poring'i evcillestir"
 	},
@@ -5116,14 +5116,14 @@ QuestInfoList = {
 		Title = "Hizli Tamamlama Deneyimi",
 		IconName = "ico_gq.bmp",
 		Description = {
-			"Inflict damage on the fire element egg"
+			"Fire element egg'e hasar ver."
 		},
 		Summary = "Lv10 Fire element saldirisi"
 	},
 	[2303] = {
 		Title = "Valentine'i Kurtarmak",
 		Description = {
-			"You can help the Orc transform the lovers back to normal by using the Love Wand."
+			"Love Wand kullanarak Orc'un asiklari yeniden normale dondurmesine yardim et."
 		},
 		Summary = ""
 	},
@@ -5144,224 +5144,224 @@ QuestInfoList = {
 	[2315] = {
 		Title = "Kediden Odul",
 		Description = {
-			"You will not be able to receive the Reward cat's gift again."
+			"Kediden artik daha fazla odul alamazsin."
 		},
 		Summary = ""
 	},
 	[2319] = {
 		Title = "Prontera Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2320] = {
 		Title = "Prontera Muhafizi",
 		Description = {
-			"The Guardian Captain of the Cathedral requested class materials to train Acolytes."
+			"10 Rotten Bandage, 10 Apple ve 10 Green Herb topla; Cathedral'daki Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2321] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2322] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 Red Herbs to Guardian Captain."
+			"5 Red Potion ve 5 Red Herb topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2323] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 Blue Herb to Guardian Captain."
+			"5 Blue Potion ve 5 Blue Herb topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2324] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 Yellow Herb to Guardian Captain."
+			"5 Yellow Potion ve 5 Yellow Herb topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2325] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 White Herb to Guardian Captain."
+			"5 White Potion ve 5 White Herb topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2326] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 Green Herb to Guardian Captain."
+			"5 Green Potion ve 5 Green Herb topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2327] = {
 		Title = "Geffen Muhafizi",
 		Description = {
-			"Gather and deliver 5 Poison Spore to Guardian Captain."
+			"5 Black Mushroom ve 5 Poison Spore topla ve Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2328] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2329] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Cruisers in Toy Factory"
+			"Toy Factory'deki Cruiser'lari temizle."
 		},
 		Summary = "20 Cruiser avla"
 	},
 	[2330] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Hydras in Comodo Cave"
+			"Comodo Cave'deki Hydra'lari temizle."
 		},
 		Summary = "20 Hydra avla"
 	},
 	[2331] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Pierres in Ant Hell"
+			"Ant Hell'deki Pierre'leri temizle."
 		},
 		Summary = "20 Pierre avla"
 	},
 	[2332] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Ridewords in 3rd floor of Clock Tower"
+			"Clock Tower 3. kattaki Rideword'leri temizle."
 		},
 		Summary = "20 Rideword avla"
 	},
 	[2333] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Owl Dukes in 4th floor of Clock Tower"
+			"Clock Tower 4. kattaki Owl Duke'lari temizle."
 		},
 		Summary = "20 Owl Duke avla"
 	},
 	[2334] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Cramps in 3rd floor of Clock Tower Underground"
+			"Clock Tower Underground 3. kattaki Cramp'leri temizle."
 		},
 		Summary = "20 Cramp avla"
 	},
 	[2335] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Arclouses in 2nd floor of Pyramid Underground"
+			"Pyramid Underground 2. kattaki Arclouse'lari temizle."
 		},
 		Summary = "20 Arclouse avla"
 	},
 	[2336] = {
 		Title = "Payon Muhafizi",
 		Description = {
-			"Let's sweep Errende Ebecees in 1st and 2nd floor of Biolab"
+			"Biolab 1. ve 2. kattaki Errende Ebecee'leri temizle."
 		},
 		Summary = "20 Errende Ebecee avla"
 	},
 	[2337] = {
 		Title = "Alberta Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2338] = {
 		Title = "Alberta Muhafizi",
 		Description = {
-			"Gather and deliver 10 of Iron, Iron Ore, Coal and Steel Hammer to Guardian Captain in Market."
+			"10 Iron, 10 Iron Ore, 10 Coal ve 10 Steel Hammer topla; Market'teki Guardian Captain'a teslim et."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[2339] = {
 		Title = "Izlude Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2340] = {
 		Title = "Izlude Muhafizi",
 		Description = {
-			"Bring one of dissambled Red, yellow and blue gemstones."
+			"Parcalanmis Red, Yellow veya Blue Gemstone turlerinden birini getir."
 		},
 		Summary = "Swordman Guild'deki Guardian Captain ile konus"
 	},
 	[2341] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Remaining time until next mission."
+			"Bir sonraki goreve kalan sure."
 		},
 		Summary = ""
 	},
 	[2342] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Prontera Cathedral"
+			"Prontera Cathedral'dan gelen istege destek ol."
 		},
 		Summary = "Prontera Cathedral istegini tamamla"
 	},
 	[2343] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Geffen Magic Guild"
+			"Geffen Magic Guild'den gelen istege destek ol."
 		},
 		Summary = "Geffen Magic Guild istegini tamamla"
 	},
 	[2344] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Payon Icarus"
+			"Payon Icarus'tan gelen istege destek ol."
 		},
 		Summary = "Payon Icarus istegini tamamla"
 	},
 	[2345] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Alberta Market"
+			"Alberta Market'tan gelen istege destek ol."
 		},
 		Summary = "Alberta Market istegini tamamla"
 	},
 	[2346] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Izlude Swordman Guild"
+			"Izlude Swordman Guild'den gelen istege destek ol."
 		},
 		Summary = "Izlude Swordman Guild istegini tamamla"
 	},
 	[2347] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Amatsu Ninja Guild"
+			"Amatsu Ninja Guild'den gelen istege destek ol."
 		},
 		Summary = "Amatsu Ninja Guild istegini tamamla"
 	},
 	[2348] = {
 		Title = "Morocc Muhafizi",
 		Description = {
-			"Let's support a request from Einbroch Gunslinger Guild"
+			"Einbroch Gunslinger Guild'den gelen istege destek ol."
 		},
 		Summary = "Einbroch Gunslinger Guild istegini tamamla"
 	},
 	[2349] = {
 		Title = "Kiralik Esyalar",
 		Description = {
-			"Remaining time of rental weapon"
+			"Kiralik silahin kalan suresi."
 		},
 		Summary = ""
 	},
@@ -5431,7 +5431,7 @@ QuestInfoList = {
 	[2365] = {
 		Title = "2015 Valentine Gunu",
 		Description = {
-			"Let's deliver 15 Handmade Chocolates, 15 White Handmade Chocolates, 15 Chocolate Drinks, 15 Chocolate Tarts, 15 Strawberry Chocolates, 1 Flame Heart and buy 1 silver."
+			"15 Handmade Chocolate, 15 White Handmade Chocolate, 15 Chocolate Drink, 15 Chocolate Tart, 15 Strawberry Chocolate ve 1 Flame Heart teslim et; ayrica 1 silver satin al."
 		},
 		Summary = "Sweet Chocolate teslim et"
 	},
@@ -5469,7 +5469,7 @@ QuestInfoList = {
 		Title = "Bard Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Bard Lalo asks to find a talking snowman in Lutie and receive a present from him."
+			"Bard olmanin ilk adimi: Lutie'de konusan Snowman'i bul ve ondan bir hediye al."
 		},
 		Summary = "Lutie'deki Snowman'i bul"
 	},
@@ -5533,7 +5533,7 @@ QuestInfoList = {
 		Title = "Crusader Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Hmm, now that I've finished well, there's nothing more for me to do. Meet Gabriel Valentine of Prontera Cathedral. She will let you take the next test... then go for it."
+			"Prontera Sanctuary'deki Gabriel Valentine ile konus. Siradaki testi o verecek."
 		},
 		Summary = "Gabriel Valentine ile konus"
 	},
@@ -5541,7 +5541,7 @@ QuestInfoList = {
 		Title = "Crusader Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"The crusaders need more than just power. Acquisition of knowledge is also important. I'll have to come back after I learn more. When you are ready, please come back to me."
+			"Crusader olmak icin gerekli bilgi konusunda biraz daha calisman gerekiyor. Hazir oldugunda geri don."
 		},
 		Summary = "Bilgi testine hazirlan"
 	},
@@ -5589,7 +5589,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFYoyo Tail, Iron Ore and Blue Herb^000000."
+			"Ilk gorev: 20 Yoyo Tail, 5 Iron Ore ve 3 Blue Herb getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5597,7 +5597,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFStem, Jellopy and Worm Peeling^000000."
+			"Ilk gorev: 30 Stem, 5 Jellopy ve 10 Worm Peeling getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5605,7 +5605,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFSolid Shell, Shell and Zargon^000000."
+			"Ilk gorev: 5 Solid Shell, 20 Shell ve 5 Zargon getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5613,7 +5613,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFCyfar, White Herb and Yellow Herb^000000."
+			"Ilk gorev: 5 Cyfar, 10 White Herb ve 10 Yellow Herb getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5621,7 +5621,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFTooth of Bat, Bear's Footskin and Poison Spore^000000."
+			"Ilk gorev: 10 Tooth of Bat, 5 Bear's Footskin ve 20 Poison Spore getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5629,7 +5629,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Let me test your willingness to become a monk a little. Bring me ^3355FFPorcupine Quill, Cobweb and Bug Leg^000000."
+			"Ilk gorev: 5 Porcupine Quill, 20 Cobweb ve 10 Bug Leg getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
@@ -5637,7 +5637,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"There's a monk who wants to meet you who want to become a monk. Go find Touha at the grave of the previous monk."
+			"Siradaki Monk Touha. Buradan kuzeye git ve mezarlikta onu bul."
 		},
 		Summary = "Touha ile konus"
 	},
@@ -5645,7 +5645,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"I will tell you the doctrine of the monk as a lecture on the mental part you must know to become a monk. You remembered what I said well. You can recite it. Are you ready?"
+			"Touha sana Monk yolunu, gerekli zihinsel tutumu ve ogretileri anlatacak. Soylediklerini dikkatle dinle ve ezberle."
 		},
 		Summary = "Monk ogretilerini ezberle"
 	},
@@ -5685,7 +5685,7 @@ QuestInfoList = {
 		Title = "Monk Job Degisimi - Ruhsal Egitim",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Now, only the last test, \'Exorcism\', remains. Eliminate all enemies that appear in front of you in the maze! Clench that fist and slash them all!"
+			"Son test ruhsal egitimdir. Yoluna cikan dusmanlari yenerek ilerle."
 		},
 		Summary = "Ruhsal egitim testini tamamla"
 	},
@@ -5700,7 +5700,7 @@ QuestInfoList = {
 	[3040] = {
 		Title = "Baphomet'in Laneti",
 		Description = {
-			"You are cursed by Baphomet and cannot enter this place for about 12 hours from the time you entered."
+			"Baphomet'in laneti hala surdugu icin giremezsin. Lanet, giristen 12 saat sonra kaybolur."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -5708,259 +5708,259 @@ QuestInfoList = {
 	[3041] = {
 		Title = "Baphomet'in Laneti",
 		Description = {
-			"You have finished sealing the Sealing Altar and your magic power has been exhausted. Resealing is possible after 3 minutes."
+			"Baska bir muhru etkinlestirdigin icin SP henuz toparlanmadi. 5 dakika gecmeden yeni bir muhur etkinlestiremezsin."
 		},
 		Summary = ""
 	},
 	[3042] = {
 		Title = "Lanetli Baphomet Bebegi",
 		Description = {
-			"Friar Patrick suggests meeting Rust Blackhand who is near the main building of the Monastery. He says Rust Blackhand will make the Cursed Baphomet Doll very helpful."
+			"Friar Patrick, Monastery ana binasi yakinindaki Rust Blackhand ile gorusmeni oneriyor. Cursed Baphomet Doll'u kullanisli hale getirebilir."
 		},
 		Summary = "Rust Blackhand ile konus"
 	},
 	[3043] = {
 		Title = "Gigantic Magestic Goat",
 		Description = {
-			"Rust Blackhand says he can make the Gigantic Majestic Goat, that has the power of Baphomet, if you bring him all the materials he needs."
+			"Rust Blackhand, Baphomet'in gucunu tasiyan Gigantic Magestic Goat'u yapmak icin Cursed Baphomet Doll, Magestic Goat, 30 Crystal of Darkness, 50 Fragment of Darkness ve 990000 Zeny istiyor."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[3044] = {
 		Title = "Gigantic Magestic Goat",
 		Description = {
-			"Rust Blackhand says he can make the Gigantic Majestic Goat, that has the power of Baphomet, if you bring him all the materials he needs: Cursed Baphomet Doll, Majestic Goat, 30 Crystal of Darkness, 50 Fragment of Darkness, and 990,000 Zeny"
+			"Rust Blackhand, Baphomet'in gucunu tasiyan Gigantic Magestic Goat'u yapmak icin Cursed Baphomet Doll, Magestic Goat, 30 Crystal of Darkness, 50 Fragment of Darkness ve 990000 Zeny istiyor."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[3045] = {
 		Title = "Sealed Shrine",
 		Description = {
-			"You have 2 hours to explore the Sealed Shrine dungeon."
+			"Sealed Shrine dungeon'ini kesfetmek icin 2 saatin var."
 		},
 		Summary = ""
 	},
 	[3046] = {
 		Title = "Sealed Shrine Sonrasi",
 		Description = {
-			"Due to the after-effect of the dungeon, you can only re-enter the Sealed Shrine after 12 hours have expired."
+			"Dungeon etkisi nedeniyle Sealed Shrine'a ancak 12 saat sonra yeniden girebilirsin."
 		},
 		Summary = ""
 	},
 	[3050] = {
 		Title = "Satan Morocc'un Dirilisi - 1",
 		Description = {
-			"The Satan Morroc, who was sealed in the desert city of Morroc, has been resurrected, destroying the nearby area and moving to the Sograt Desert. Prestigious adventurers, please find the Chuef Balrog of the Continental Guard in Morroc Village."
+			"Satan Morocc yeniden dirilip Morocc Village'dan kacti ve Sograt Desert'a gitti. Cesur bir maceraciysan Morocc Village'daki Continental Guard Chief Balrog'u bul."
 		},
 		Summary = "Chief Balrog ile konus"
 	},
 	[3051] = {
 		Title = "Satan Morocc'un Dirilisi - 2",
 		Description = {
-			"Not everyone can be an adventurer belonging to the Continental Guard, the subjugation force of Morroc. If you are so confident, prove your skills to me. Get 30 Live Coals and bring them to me."
+			"Chief Balrog, Lava Dungeon canavarlarindaki sonmeyen alevlerin kamp atesi sorununu cozebilecegini dusunuyor."
 		},
 		Summary = "30 Live Coal topla"
 	},
 	[3052] = {
 		Title = "Satan Morocc'un Dirilisi - 3",
 		Description = {
-			"Did you think that being part of the Continental Guard would be this simple? The test isn't over yet. Get 50 Glacial Hearts from the Ice Cave and bring them to me."
+			"Chief Balrog, kuzeydeki Ice Cave canavarlarindan Glacial Heart getirmeni istiyor; bunlar askerleri sicaktan koruyabilir."
 		},
 		Summary = "50 Glacial Heart topla"
 	},
 	[3053] = {
 		Title = "Satan Morocc'un Dirilisi - 4",
 		Description = {
-			"In recognition of your skills and efforts, I will certify you as an adventurer belonging to the Continental Guard. Your mission is to defeat the Satan Morroc with his crew and prevent his complete resurrection. Be prepared to risk your life."
+			"Yeteneklerini kanitladin ve Continental Guard'a kabul edildin. Dunyadaki baris icin Satan Morocc'un gercek gucune ulasmasini engelle."
 		},
 		Summary = "Satan Morocc'un tam olarak dirilmesini engelle"
 	},
 	[3054] = {
 		Title = "Satan Morocc'un Dirilisi - 5",
 		Description = {
-			"After a bloody battle with the Satan Morroc, he succeeded in retreating from the Midgarts continent. Traces of the Satan Morroc can be seen in the cracks in space and time where he escaped."
+			"Satan Morocc sonunda Rune-Midgards'tan suruldu ve dimensional gap icinde kayboldu. Boslukta parcalari yuzuyor."
 		},
 		Summary = "Dimensional gap'i incele"
 	},
 	[3055] = {
 		Title = "Satan Morocc'un Dirilisi - 6",
 		Description = {
-			"Found a piece of the skin of the Satan Morroc in the space-time rift. This will be the decisive proof of defeating the Satan Morroc."
+			"Parlakligini kaybetmis bir parca aldin. Bu Satan Morocc'un derisinden bir parca ve onu yendiginin kesin kaniti olabilir."
 		},
 		Summary = "Kaniti Chief Balrog'a gotur"
 	},
 	[3056] = {
 		Title = "Satan Morocc'un Dirilisi - 7",
 		Description = {
-			"You have really done a great job. This continent and kingdom have regained peace because of you. On behalf of the kingdom, I thank you. Choose your reward from the following three bounties."
+			"Dunyayi yikimdan kurtardin. Odul olarak sunulan uc esyadan birini sec."
 		},
 		Summary = "Odulunu sec"
 	},
 	[3060] = {
 		Title = "Veins'teki Cocuklar - Kucuk Kiz Kardes Nerede?",
 		Description = {
-			"A kid name Karyn has lost his little sister when they went to Thor Volcano in Veins. You must help him finding his sister Curdie."
+			"Karyn, Veins'teki Thor Volcano'ya gittiklerinde kucuk kiz kardesi Curdie'yi kaybetti. Onu bulmasina yardim et."
 		},
 		Summary = "Curdie'yi bul"
 	},
 	[3061] = {
 		Title = "Veins'teki Cocuklar - Prangalari Acmanin Yolunu Bul",
 		Description = {
-			"Karyn's sister has been shakled down. You must get back to the town in Veins to find the way to free her."
+			"Karyn'in kiz kardesi prangalanmis. Onu kurtarmanin yolunu bulmak icin Veins kasabasina geri don."
 		},
 		Summary = "Prangalari acmanin yolunu ara"
 	},
 	[3062] = {
 		Title = "Veins'teki Cocuklar - Locksmith'i Bul",
 		Description = {
-			"Karyn's sister has been shakled down. You must get back to the town in Veins to find the way to free her."
+			"Karyn'in kiz kardesi hala prangali. Onu serbest birakmak icin Veins'te bir Locksmith bul."
 		},
 		Summary = "Locksmith'i bul"
 	},
 	[3063] = {
 		Title = "Veins'teki Cocuklar - Mr. Lockenlock?",
 		Description = {
-			"Find the expert named Locksmith Lockenlock. This Mr. Lockenlock's supposed to be sitting in the market street, drunk. You must bring 1 Yellow Potion with you."
+			"Uzman Locksmith Lockenlock'u bul. Market sokaginda sarhos halde oturuyor olmali. Yaninda 1 Yellow Potion getir."
 		},
 		Summary = "1 Yellow Potion ile Lockenlock'u bul"
 	},
 	[3064] = {
 		Title = "Veins'teki Cocuklar - Organic Chamelepu Soap",
 		Description = {
-			"Mr. Lockenlock says he needs a Chamelepu Soap to make a mold of a key. You can purchase the soap from the soap maker, Ms. Ivory at the market."
+			"Lockenlock anahtar kalibi icin Chamelepu Soap istiyor. Sabunu marketteki Ms. Ivory'den alabilirsin."
 		},
 		Summary = "Ms. Ivory ile konus"
 	},
 	[3065] = {
 		Title = "Veins'teki Cocuklar - Sabun Malzemeleri",
 		Description = {
-			"Chamelepu Soap is all sold out at the moment. She can however make the soap if you bring the ingredients."
+			"Chamelepu Soap tukendi. Ms. Ivory gerekli malzemeleri getirirsen yeni sabun yapabilir."
 		},
 		Summary = "10 Milk, 100 Green Herb, 50 Jellopy ve 5 Empty Bottle getir"
 	},
 	[3066] = {
 		Title = "Veins'teki Cocuklar - Chamelepu Soap Yapimi",
 		Description = {
-			"Go visit Mr. Saraman, the Camel Farm owner with the ingredients. He'll tell you what to do with the ingredients. Let's get going!"
+			"Malzemelerle Camel Farm sahibi Mr. Saraman'i ziyaret et. Sana ne yapman gerektigini anlatacak."
 		},
 		Summary = "Mr. Saraman ile konus"
 	},
 	[3067] = {
 		Title = "Veins'teki Cocuklar - Camel Istah Uyaricilari",
 		Description = {
-			"In order to obtain the lumps of camel dung, you first need to feed the Camel with food that stimulates its appetite. Get the appetite stimulating food!"
+			"Camel dung elde etmek icin once devenin istahini acacak yiyecekleri toplaman gerekiyor."
 		},
 		Summary = "5 Monster's Feed, 1 Unripe Apple, 1 Yellow Potion ve 1 Empty Bottle getir"
 	},
 	[3068] = {
 		Title = "Veins'teki Cocuklar - Camel Dung Toplama",
 		Description = {
-			"You've successfully gathered the appetite stimulants. Feed the camel with what you've gathered and get 5 lumps of camel dung."
+			"Istah uyaricilarini topladin. Deveye ver ve 5 parca camel dung elde et."
 		},
 		Summary = "5 camel dung elde et"
 	},
 	[3069] = {
 		Title = "Veins'teki Cocuklar - Silk Sand Camel Nerede?",
 		Description = {
-			"Weird... Camels are not responding to the stimulants. Let's go back to Mr. Saraman and find out what's going on."
+			"Develer istah uyaricilarina tepki vermiyor. Mr. Saraman'a geri don ve ne oldugunu ogren."
 		},
 		Summary = "Mr. Saraman ile konus"
 	},
 	[3070] = {
 		Title = "Veins'teki Cocuklar - Silk Sand Camel Kacti",
 		Description = {
-			"The Silk Sand Camel has escaped the farm and disappeared. Let's go find the Silk Sand Camel for Mr. Saraman and get 5 lumps of camel dung. The camel shouldn't have gone so far."
+			"Silk Sand Camel ciftlikten kacti. Mr. Saraman icin onu bul ve 5 parca camel dung elde et."
 		},
 		Summary = "Silk Sand Camel'i bul"
 	},
 	[3071] = {
 		Title = "Veins'teki Cocuklar - Silk Sand Camel Bulundu",
 		Description = {
-			"Silk Sand Camel is finally found. Let's get 5 lumps of camel dung. Each lump of dung would take up some ingredients."
+			"Silk Sand Camel'i buldun. Her parca icin gerekli malzemeleri kullanarak 5 camel dung topla."
 		},
 		Summary = "2 Milk, 20 Green Herb, 10 Jellopy ve 1 Empty Bottle kullan"
 	},
 	[3072] = {
 		Title = "Veins'teki Cocuklar - 1 Camel Dung Alindi",
 		Description = {
-			"1 lump of Silk Sand Camel's dung is obtained. You need 4 more of this. Each lump of dung would take up some ingredients."
+			"1 parca Silk Sand Camel dung elde ettin. 4 parca daha gerekiyor."
 		},
 		Summary = "2 Milk, 20 Green Herb, 10 Jellopy ve 1 Empty Bottle kullan"
 	},
 	[3073] = {
 		Title = "Veins'teki Cocuklar - 2 Camel Dung Alindi",
 		Description = {
-			"2 lumps of Silk Sand Camel's dung is obtained. You need 3 more of these. Each lump of dung would take up some ingredients."
+			"2 parca Silk Sand Camel dung elde ettin. 3 parca daha gerekiyor."
 		},
 		Summary = "2 Milk, 20 Green Herb, 10 Jellopy ve 1 Empty Bottle kullan"
 	},
 	[3074] = {
 		Title = "Veins'teki Cocuklar - 3 Camel Dung Alindi",
 		Description = {
-			"3 lumps of Silk Sand Camel's dung is obtained. You need 2 more of these. Each lump of dung would take up some ingredients."
+			"3 parca Silk Sand Camel dung elde ettin. 2 parca daha gerekiyor."
 		},
 		Summary = "2 Milk, 20 Green Herb, 10 Jellopy ve 1 Empty Bottle kullan"
 	},
 	[3075] = {
 		Title = "Veins'teki Cocuklar - 4 Camel Dung Alindi",
 		Description = {
-			"4 lumps of Silk Sand Camel's dung is obtained. You need 1 more of these. Each lump of dung would take up some ingredients."
+			"4 parca Silk Sand Camel dung elde ettin. 1 parca daha gerekiyor."
 		},
 		Summary = "2 Milk, 20 Green Herb, 10 Jellopy ve 1 Empty Bottle kullan"
 	},
 	[3076] = {
 		Title = "Veins'teki Cocuklar - 5 Camel Dung Alindi",
 		Description = {
-			"You're finally done with collecting lumps of camel dung. Let's go back to Mr. Saraman and tell him the location of the Camel's whereabouts."
+			"Camel dung toplama isi tamamlandi. Mr. Saraman'a geri don ve devenin yerini bildir."
 		},
 		Summary = "Mr. Saraman ile konus"
 	},
 	[3077] = {
 		Title = "Veins'teki Cocuklar - Ms. Ivory'ye Git",
 		Description = {
-			"You told Mr. Saraman where his camel was. Now, let's go back to Ms. Ivory."
+			"Mr. Saraman'a devenin yerini soyledin. Simdi Ms. Ivory'ye geri don."
 		},
 		Summary = "Ms. Ivory ile konus"
 	},
 	[3078] = {
 		Title = "Veins'teki Cocuklar - Chamelepu Soap Hazir",
 		Description = {
-			"Go to Mr. Lockenlock with Chamalepu Soap."
+			"Chamelepu Soap ile Mr. Lockenlock'a git."
 		},
 		Summary = "Mr. Lockenlock ile konus"
 	},
 	[3079] = {
 		Title = "Veins'teki Cocuklar - Anahtar Kalibi Yapimi",
 		Description = {
-			"Mr. Lockenlock teaches you how to make the key mold from the lock. You pour the soap into the keyhole and pour it back to the bottle. He could make the key out of the mold. Let's get going!"
+			"Lockenlock sana anahtar kalibini nasil yapacagini anlatti. Sabunu kilide dok, kalibi siseye geri al ve ona gotur."
 		},
 		Summary = "Kilit kalibini hazirla"
 	},
 	[3080] = {
 		Title = "Veins'teki Cocuklar - Anahtar Kalibini Gotur",
 		Description = {
-			"Little Curdie is still shackled and losing her strength. You must go back to Mr. Lockenlock with the mold ASAP, so he could make the key."
+			"Curdie hala prangali ve gucu azaliyor. Kalibi hemen Mr. Lockenlock'a gotur ki anahtari yapabilsin."
 		},
 		Summary = "Anahtar kalibini Lockenlock'a gotur"
 	},
 	[3081] = {
 		Title = "Veins'teki Cocuklar - Tek Eksik Steel",
 		Description = {
-			"Mr. Lockenlock asks you to get 1 Steel for him to make the key."
+			"Mr. Lockenlock anahtari yapmak icin 1 Steel istiyor."
 		},
 		Summary = "1 Steel getir"
 	},
 	[3082] = {
 		Title = "Veins'teki Cocuklar - Anahtar Hazir",
 		Description = {
-			"You've got the master key after listening to the behind story of the lock. You must rescue Curdie and then throw the key away."
+			"Master key hazir. Curdie'yi kurtar ve sonra anahtari elinden cikar."
 		},
 		Summary = "Curdie'yi kurtar"
 	},
 	[3083] = {
 		Title = "Veins'teki Cocuklar - Mr. Lockenlock'un Anahtari",
 		Description = {
-			"Curdie is now safely back to town. Whatever it is, this place is hiding something big, something related to the Rachel Army. Let's go back to town and meet the kids."
+			"Curdie guvenle kasabaya dondu. Bu yer Rachel Army ile ilgili buyuk bir sir sakliyor olabilir. Kasabaya donup cocuklarla konus."
 		},
 		Summary = "Cocuklarla konus"
 	},
@@ -6072,252 +6072,252 @@ QuestInfoList = {
 	[3100] = {
 		Title = "Agir Borcu Birlestirmek - Kayip Borc Senedi",
 		Description = {
-			"Muff in Comodo seeks for a help finding his bond of debt he lost in the Papuchicha Forest near the river."
+			"Comodo'daki Muff, nehir yakinindaki Papuchicha Forest'ta kaybettigi borc senedini bulmak icin yardim istiyor."
 		},
 		Summary = "Kayip borc senedini ara"
 	},
 	[3101] = {
 		Title = "Agir Borcu Birlestirmek - Tuhaf Toprak Yigini",
 		Description = {
-			"You discovered some strange heap of earth! Let's have a look."
+			"Tuhaf bir toprak yigini buldun. Daha yakindan incele."
 		},
 		Summary = "Toprak yiginini incele"
 	},
 	[3102] = {
 		Title = "Agir Borcu Birlestirmek - Borc Senedi Bulundu Ama...",
 		Description = {
-			"The bond of debt is found, however, it is wet and tattered. It seems like completely ruined. Bring it to Muff anyway."
+			"Borc senedini buldun fakat islak ve yirtilmis. Yine de Muff'a gotur."
 		},
 		Summary = "Borc senedini Muff'a gotur"
 	},
 	[3103] = {
 		Title = "Agir Borcu Birlestirmek - Mucit Dorian",
 		Description = {
-			"Inventor Dorian in Izlude might be able to restore the bond of debt by using his Magic Dryer."
+			"Izlude'daki Inventor Dorian, Magic Dryer kullanarak borc senedini onarabilir."
 		},
 		Summary = "Dorian ile konus"
 	},
 	[3104] = {
 		Title = "Agir Borcu Birlestirmek - Magic Dryer Onarim Malzemeleri",
 		Description = {
-			"Dorian says you must help him fix the dryer if you want to use it."
+			"Dorian, Magic Dryer'i kullanmak istiyorsan onarimina yardim etmeni istiyor."
 		},
 		Summary = "20 Rusty Screw, 10 Iron Ore, 5 Steel, 2 Ruby ve 10 Red Gemstone getir"
 	},
 	[3105] = {
 		Title = "Agir Borcu Birlestirmek - Magic Dryer Onarimi",
 		Description = {
-			"Dorian tells you how to fix the dryer and lets you fix it yourself. It seems difficult..."
+			"Dorian, Magic Dryer'in nasil onarilacagini anlatti ve isi sana birakti. Dikkatlice onar."
 		},
 		Summary = "Magic Dryer'i onar"
 	},
 	[3106] = {
 		Title = "Agir Borcu Birlestirmek - Magic Dryer Onarimi Basarisiz",
 		Description = {
-			"Repairing fAled at last. Report Dorian that you have fAled."
+			"Onarim basarisiz oldu. Dorian'a sonucu bildir."
 		},
 		Summary = "Dorian ile konus"
 	},
 	[3107] = {
 		Title = "Agir Borcu Birlestirmek - Magic Dryer Onarimi Basarili",
 		Description = {
-			"Rapairing is successful at last. Report Dorian that you have succeeded."
+			"Onarim basarili oldu. Dorian'a sonucu bildir."
 		},
 		Summary = "Dorian ile konus"
 	},
 	[3108] = {
 		Title = "Agir Borcu Birlestirmek - Magic Dryer'i Calistir",
 		Description = {
-			"Restore the bond of debt by using the Magic Dryer."
+			"Magic Dryer kullanarak borc senedini eski haline getir."
 		},
 		Summary = "Magic Dryer'i kullan"
 	},
 	[3109] = {
 		Title = "Agir Borcu Birlestirmek - Borc Senedini Yenile",
 		Description = {
-			"The bond of debt is now completely restored. Bring it to Muff."
+			"Borc senedi tamamen onarildi. Muff'a geri gotur."
 		},
 		Summary = "Borc senedini Muff'a gotur"
 	},
 	[3110] = {
 		Title = "Calinan Elmas - Elmasin Pesinde",
 		Description = {
-			"Find the stolen diamond. First, you must find Jhonnita in Alberta, Kimeunbang in Payon, and Leblo in Geffen. These three, the biggest jewelers in the kingdom, might be able to find out where it is."
+			"Calinan elmasi bul. Once Alberta'daki Jhonnita, Payon'daki Kimeunbang ve Geffen'deki Leblo ile konus; nerede oldugunu biliyor olabilirler."
 		},
 		Summary = "Jhonnita, Kimeunbang ve Leblo ile konus"
 	},
 	[3111] = {
 		Title = "Calinan Elmas - Leblo'nun Iyiligi",
 		Description = {
-			"Let's make a deal. I'll give you the information if you get some medicine from the doctor, Wola, in Payon."
+			"Leblo bilgi vermek icin Payon'daki Doctor Wola'dan ilac getirmeni istiyor."
 		},
 		Summary = "Wola ile konus"
 	},
 	[3112] = {
 		Title = "Calinan Elmas - Doctor Wola",
 		Description = {
-			"You should help me fix this pot. I can't make any medicine without this pot."
+			"Wola ilac yapamiyor cunku kazani bozuk. Onarmasi icin gerekli malzemeleri getir."
 		},
 		Summary = "20 Fine Sand, 10 Brigan, 10 Soft Leaf ve 5 Empty Bottle getir"
 	},
 	[3113] = {
 		Title = "Calinan Elmas - Doctor Wola",
 		Description = {
-			"Finally the pot is fixed. Now, what did you say you needed?"
+			"Kazan sonunda onarildi. Wola'ya Leblo icin gereken ilaci hatirlat."
 		},
 		Summary = "Wola ile konus"
 	},
 	[3114] = {
 		Title = "Calinan Elmas - Doctor Wola",
 		Description = {
-			"Leblo... Oh, that man in Geffen? I already prepared it. I'll have it delivered to him shortly."
+			"Wola, Geffen'deki Leblo icin ilaci zaten hazirladigini ve kisa surede gonderecegini soyluyor."
 		},
 		Summary = "Leblo'ya geri don"
 	},
 	[3115] = {
 		Title = "Calinan Elmas - Leblo'nun Bilgisi",
 		Description = {
-			"It would probably be the Z Gang that stole the diamond. Get some information on Z Gang at the Rogue Guild."
+			"Elmasi muhtemelen Z Gang caldi. Rogue Guild'den Z Gang hakkinda bilgi topla."
 		},
 		Summary = "Rogue Guild'den bilgi al"
 	},
 	[3116] = {
 		Title = "Calinan Elmas - Rogue Investigator Bilgisi",
 		Description = {
-			"Bribe him with some money and you hear that the Z Gang's old hideout is a large warehouse over in Comodo. Go check it out!"
+			"Rogue Investigator'a para verince Z Gang'in eski siginaginin Comodo'daki buyuk bir depo oldugunu ogreniyorsun."
 		},
 		Summary = "Comodo'daki depoyu arastir"
 	},
 	[3117] = {
 		Title = "Calinan Elmas - Tuhaf Dugmeler",
 		Description = {
-			"While searching the warehouse in Comodo, you found some odd switches. Let's examine some more."
+			"Comodo'daki depoyu ararken tuhaf dugmeler buldun. Daha fazla incele."
 		},
 		Summary = "Dugmeleri incele"
 	},
 	[3118] = {
 		Title = "Calinan Elmas - Elmas Bulundu",
 		Description = {
-			"You have found Ibrahim's Diamond of Destruction by activating those weird machine in the warehouse. Hurry and bring this back to Ibrahim."
+			"Depodaki tuhaf makineleri etkinlestirerek Ibrahim'in Diamond of Destruction esyasini buldun. Hemen Ibrahim'e gotur."
 		},
 		Summary = "Diamond of Destruction'i Ibrahim'e gotur"
 	},
 	[3119] = {
 		Title = "Z Gang Araniyor - Aranma Ilani",
 		Description = {
-			"The Rune-Midgarts Kingdom's Homeland Security Office will reward anyone that captures Z Gang. How about giving it a try? Let's gather some more info about this."
+			"Rune-Midgarts Kingdom Homeland Security Office, Z Gang'i yakalayana odul verecek. Once daha fazla bilgi topla."
 		},
 		Summary = "Z Gang hakkinda bilgi topla"
 	},
 	[3120] = {
 		Title = "Z Gang Araniyor - Z Gang Hakkinda",
 		Description = {
-			"There are three members: Louis Von Silokens a.k.a. Louis, Martha Hertizan a.k.a. Martha, and Catfoii a.k.a. Catfoii must be captured! You can get more info from a knight named Valdes."
+			"Z Gang'in uc uyesi var: Louis Von Silokens, Martha Hertizan ve Catfoii. Daha fazla bilgi icin Knight Valdes'i bul."
 		},
 		Summary = "Valdes ile konus"
 	},
 	[3121] = {
 		Title = "Z Gang Araniyor - Valdes'in Iyiligi",
 		Description = {
-			"You found Valdes, but he's drunk. He asks you to bring 5 bottles of Morroc Fruit Wine, otherwise, he won't give you any information."
+			"Valdes'i buldun ama sarhos. Bilgi vermeden once 5 sise Morocc Fruit Wine istiyor."
 		},
 		Summary = "5 Morocc Fruit Wine getir"
 	},
 	[3122] = {
 		Title = "Z Gang Araniyor - Valdes'ten Bilgi",
 		Description = {
-			"It is recommended that you be in touch with an agent from the Rogue Guild in order to find Z Gang. You must find Marybell, the Rogue agent, and get the info. The password you must give her is \"^3355FFThe dawn is yet to come^000000\""
+			"Z Gang'i bulmak icin Rogue Guild ajani Marybell ile temasa gec. Ona verecegin parola: ^3355FFThe dawn is yet to come^000000"
 		},
 		Summary = "Marybell'i bul ve parolayi soyle"
 	},
 	[3123] = {
 		Title = "Z Gang Araniyor - Marybell'in Testi",
 		Description = {
-			"Marybell wants to test you out. She will trust you if you get the a recommendation letter from the legendary gambler named Moonho Ahn in Payon."
+			"Marybell seni sinamak istiyor. Payon'daki efsanevi kumarbaz Moonho Ahn'dan recommendation letter getirirsen sana guvenecek."
 		},
 		Summary = "Moonho Ahn'dan recommendation letter al"
 	},
 	[3124] = {
 		Title = "Z Gang Araniyor - Moonho Ahn'a Meydan Oku",
 		Description = {
-			"Moonho Ahn tells you to come back when you're ready to play with him. You must beat him in order to get the recommendation letter."
+			"Moonho Ahn hazir oldugunda geri gelmeni soyluyor. Recommendation letter icin onu oyunda yen."
 		},
 		Summary = "Moonho Ahn'i yen"
 	},
 	[3125] = {
 		Title = "Z Gang Araniyor - Moonho Ahn'a Meydan Oku",
 		Description = {
-			"You have beat Moonho Ahn. Go back to Marybell with the recommendation."
+			"Moonho Ahn'i yendin. Recommendation letter ile Marybell'e geri don."
 		},
 		Summary = "Marybell'e geri don"
 	},
 	[3126] = {
 		Title = "Z Gang Araniyor - Marybell'den Bilgi",
 		Description = {
-			"Z Gang is related most of the trouble throughout the whole continent. You must find the informer for the Z Gang. Z Gang is secretly recruiting informers in Morroc."
+			"Z Gang tum kitadaki bircok sorunla baglantili. Morocc'ta gizlice muhbir topluyorlar. Z Gang muhbirini bul."
 		},
 		Summary = "Morocc'taki muhbiri bul"
 	},
 	[3127] = {
 		Title = "Z Gang Araniyor - Z Gang Saldirisi",
 		Description = {
-			"You got attacked by a suspicious man while gathering information in Morroc. Where did he run away?...Looks like this suspicious man is related to Z Gang. Track him down!"
+			"Morocc'ta bilgi toplarken supheli bir adam sana saldirdi ve kacti. Z Gang ile baglantili olabilir; pesine dus."
 		},
 		Summary = "Supheli adami takip et"
 	},
 	[3128] = {
 		Title = "Z Gang Araniyor - Z Gang Saldirisi",
 		Description = {
-			"You found the Z Gang's informer. Z Gang's agit seems to be somewhere around the desert of Morroc... Go back to Marybell."
+			"Z Gang muhbirini buldun. Siginaklari Morocc collerinde bir yerde olmali. Marybell'e geri don."
 		},
 		Summary = "Marybell'e geri don"
 	},
 	[3129] = {
 		Title = "Z Gang Araniyor - Tuhaf Mektup",
 		Description = {
-			"Marybell has got a sealed blank letter with encryption from the Z Gang's informer and asks the code breaker, Gooho Ahn, in Payon to break the encryption."
+			"Marybell, muhbirden sifreli ve bos gorunen bir mektup aldi. Sifreyi cozmesi icin Payon'daki Gooho Ahn'a git."
 		},
 		Summary = "Gooho Ahn ile konus"
 	},
 	[3130] = {
 		Title = "Z Gang Araniyor - Mektubu Cozmek",
 		Description = {
-			"It looks like a piece of blank paper, but if you add the right amount of heat and light, you can read its contents. You need to get some materials for this. Get ^0000ff20 Live Coals, 1 Matchstick, 2 Alcohol, 10 Burning Hearts^000000."
+			"Dogru miktarda isi ve isik uygulanirsa mektup okunabilir. 20 Live Coal, 1 Matchstick, 2 Alcohol ve 10 Burning Heart getir."
 		},
 		Summary = "Gerekli malzemeleri getir"
 	},
 	[3131] = {
 		Title = "Z Gang Araniyor - Sifre Cozuldu",
 		Description = {
-			"According to Gooho Ahn, Aegye language is written in the paper. The password is ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000"
+			"Gooho Ahn kagitta Aegye dili oldugunu soyledi. Parola: ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000"
 		},
 		Summary = "Parolayi hatirla"
 	},
 	[3132] = {
 		Title = "Z Gang Araniyor - Z Gang Siginagini Bul",
 		Description = {
-			"You found out that there's is the entrance to Z Gang's hideouts in the desert of Southern Morroc. Maybe the password from Gooho Ahn will come in handy. ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000"
+			"Z Gang siginaginin girisi Southern Morocc colunde. Gooho Ahn'in cozdugu parola ise yarayabilir: ^0000ffWeii arr prowd Z G gna ^0000FFAynoen hwo sspotp uys ^0000FFwlil eb kckide on htier ssa!^000000"
 		},
 		Summary = "Z Gang siginagini bul"
 	},
 	[3133] = {
 		Title = "Z Gang Araniyor - Siginak Bulundu",
 		Description = {
-			"So this is the Agit? Let's find Z Gang members and beat'em up!"
+			"Z Gang siginagini buldun. Uyelerini bul ve yen."
 		},
 		Summary = "Z Gang uyelerini yen"
 	},
 	[3134] = {
 		Title = "Z Gang Araniyor - Temizlik Tamam",
 		Description = {
-			"You captured Z Gang and obtained the Book of Forbidden Mystery. Go back to the Retired Soldier in Prontera."
+			"Z Gang'i yakaladin ve Book of Forbidden Mystery elde ettin. Prontera'daki Retired Soldier'a geri don."
 		},
 		Summary = "Retired Soldier ile konus"
 	},
 	[3135] = {
 		Title = "Nidhoggur's Nest",
 		Description = {
-			"Due to Nidhoggr's Shadow, Yggdrasil received a wound that would not heal easily. The self-cleaning ability of the World Tree is expected to last for about three days."
+			"Nidhoggur uyandigi icin yer sarsiliyor. Dungeon'a yeniden girebilmek icin bekleme suresinin dolmasini bekle."
 		},
 		Summary = "",
 		CoolTimeQuest = 1
@@ -6325,21 +6325,21 @@ QuestInfoList = {
 	[3136] = {
 		Title = "Nidhoggur's Nest Sure Siniri",
 		Description = {
-			"You have 4 hours to defeat Nidhoggr's Shadow. If the Memorial Dungeon is destroyed you cannot re-enter."
+			"Nidhoggur's Shadow'u yenmek icin 4 saatin var. Memorial Dungeon yok edilirse yeniden giremezsin."
 		},
 		Summary = "Nidhoggur's Shadow'u 4 saat icinde yen"
 	},
 	[3137] = {
 		Title = "Nidhoggur's Shadow",
 		Description = {
-			"Hunt Nidhoggr's Shadow"
+			"Nidhoggur's Shadow'u avla."
 		},
 		Summary = "Nidhoggur's Shadow'u avla"
 	},
 	[3138] = {
 		Title = "Gezgin Purple Dragon",
 		Description = {
-			"Hunt the Wandering Purple Dragon in the Hazy Forest"
+			"Hazy Forest'taki Wandering Purple Dragon'u avla."
 		},
 		Summary = "Wandering Purple Dragon'u avla"
 	},
@@ -6371,7 +6371,7 @@ QuestInfoList = {
 		Title = "Rune Knight Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Lunaria directs you to the first test room. Defeat all of the monsters summoned to pass the first test."
+			"Lunarea seni ilk sinav odasina yonlendirdi. Ilk sinavi gecmek icin cagrilan tum canavarlari yen."
 		},
 		Summary = ""
 	},
@@ -6419,7 +6419,7 @@ QuestInfoList = {
 		Title = "Dullahan Avi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Accumulate magic energy by hunting Dullahan. You can find these monsters in the Skellington Village in Niflheim."
+			"Dullahan avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin."
 		},
 		Summary = "10 Dullahan avla"
 	},
@@ -6427,7 +6427,7 @@ QuestInfoList = {
 		Title = "Disguise Avi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Accumulate magic energy by hunting Disguise. You can find these monsters in the Skellington Village in Niflheim."
+			"Disguise avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin."
 		},
 		Summary = "10 Disguise avla"
 	},
@@ -6435,7 +6435,7 @@ QuestInfoList = {
 		Title = "Quve Avi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Accumulate magic energy by hunting Quve. You can find these monsters in the Skellington Village in Niflheim."
+			"Quve avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin."
 		},
 		Summary = "10 Quve avla"
 	},
@@ -6443,7 +6443,7 @@ QuestInfoList = {
 		Title = "Heirozoist Avi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Accumulate magic energy by hunting Heirozoist. You can find these monsters in the Skellington Village in Niflheim."
+			"Heirozoist avlayarak buyu enerjisi topla. Bu canavarlari Nifflheim'daki Skellington Village'da bulabilirsin."
 		},
 		Summary = "10 Heirozoist avla"
 	},
@@ -6483,7 +6483,7 @@ QuestInfoList = {
 		Title = "Rune Knight Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Velpino, the Jet-Black Rune Knight, says that if you go to the test site and defeat all 3 types of demon sword monsters using only Rune Stones, you can pass the test."
+			"Son sinavdan once tek elli silah ve kalkan ya da cift elli silah disindaki tum ekipmanlarini cikarmalisin. Agirligin 400'u gecmemeli."
 		},
 		Summary = ""
 	},
@@ -6491,7 +6491,7 @@ QuestInfoList = {
 		Title = "Rune Knight Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Defeat all 3 types of demon sword monsters and pass the final test. Report to Jet Black Rune Knight Velpino."
+			"Rune Knight olmak icin son sinavi gectin. Rune Knight Velpino ile konus."
 		},
 		Summary = ""
 	},
@@ -6507,7 +6507,7 @@ QuestInfoList = {
 		Title = "Rune Knight Job Degisimi",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Rune Knight candidates who have entered the test site once cannot enter for about 10 minutes. Let's try again in 10 minutes."
+			"Sinavi gecemezsen tekrar denemeden once 10 dakika beklemelisin. Yeniden denemeden once sure sinirinin dolmasini bekle."
 		},
 		Summary = "10 dakika bekle"
 	},
