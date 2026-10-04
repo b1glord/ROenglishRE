@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.25.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7042-7047 Tatacho, Cornus, Hillslion ve gunluk part-time gorevleri dahil",
+    "version": "6.26.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7048-7053 Thanatos Tower Burled, Rune Device ve muhurlu kule gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6707,6 +6707,36 @@
       "title": "Part-time Is - Bugunluk Bitti",
       "description": "Bugunku part-time islerin hepsi tamamlandi. Taab yaklasik 5 saat sonra yeni is verebilir.",
       "goal": "Yaklasik 5 saat bekle"
+    },
+    "7048": {
+      "title": "Thanatos Tower - Burled'in Ricasi",
+      "description": "Burled, Rekenber Corporation'in bunca fedakarliga ragmen kuleyi neden gelistirmekte bu kadar israrci oldugunu ogrenmek istiyor.",
+      "goal": "Kulenin 3. katini arastir"
+    },
+    "7049": {
+      "title": "Thanatos Tower - Muhurlu Kule",
+      "description": "Rune Device'i arastirirken kirmizi anahtari buldun. Muhur acilirken gordugun mesaj aklinda kaldi; kulede baska Rune Device'lar da olabilir.",
+      "goal": "Kuledeki diger Rune Device'lari ara"
+    },
+    "7050": {
+      "title": "Thanatos Tower - Muhurlu Kule",
+      "description": "Muhrun ikinci anahtarini buldun. Daha fazla muhurlu nokta var. 5. kattaki Kartal seklini bul.",
+      "goal": "5. kattaki Kartal seklini ara"
+    },
+    "7051": {
+      "title": "Thanatos Tower - Muhurlu Kule",
+      "description": "Thanatos Tower'in bir gecis kapisi olarak kullanildigi anlasiliyor. Kapinin ve bilinmeyen baska seylerin ek muhurlari olabilir.",
+      "goal": "Kulenin 6. katini arastir"
+    },
+    "7052": {
+      "title": "Thanatos Tower - Muhurlu Kule",
+      "description": "Dorduncu anahtari buldun. Devildom'a acilan bir gecis baska bir yere baglanmis gibi gorunuyor; kuledeki canavarlarla ilgisi olabilir.",
+      "goal": "Kulede baska bir muhur ara"
+    },
+    "7053": {
+      "title": "Thanatos Tower - Aradiklari Sey",
+      "description": "Dorduncu anahtarla birlikte Varmunt'un gunlugunu da buldun. Rekenber'in aradigi sey bu olabilir. Gunlugu Burled'e gotur.",
+      "goal": "Varmunt'un gunlugunu Burled'e teslim et"
     }
   }
 }
