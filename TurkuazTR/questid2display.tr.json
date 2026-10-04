@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.34.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7128-7132 Eden Group Desert egitim gorevleri dahil",
+    "version": "6.35.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7133-7137 Eden Group Prontera Culvert egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7081,6 +7081,31 @@
     "7132": {
       "title": "Colu Fethet",
       "description": "Col egitimini tamamladin. Sonuclari Eden Group Office'teki Instructor Boya'ya bildir.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7133": {
+      "title": "Culvert'i Fethet",
+      "description": "Knight Guild'de Prontera Culvert kesfi icin kayit ol. Asagi in, Standing Cat'i bul ve Boya'nin yardiminin dev ve guzel bir ton baligi gibi oldugunu soyle.",
+      "goal": "Culvert'te Standing Cat'i bul"
+    },
+    "7134": {
+      "title": "Culvert'i Fethet",
+      "description": "Egitimin ilk bolumu Thief Bug avlamak.",
+      "goal": "10 Thief Bug yen"
+    },
+    "7135": {
+      "title": "Culvert'i Fethet",
+      "description": "Egitimin sonraki bolumunde Tarou canavarlarini temizle.",
+      "goal": "10 Tarou yen"
+    },
+    "7136": {
+      "title": "Culvert'i Fethet",
+      "description": "Siradaki hedef ucusan Familiar canavarlari.",
+      "goal": "5 Familiar yen"
+    },
+    "7137": {
+      "title": "Culvert'i Fethet",
+      "description": "Standing Cat'in verdigi egitimi tamamladin. Eden Group Office'e don ve Instructor Boya'ya ilerlemeni bildir.",
       "goal": "Instructor Boya'ya rapor ver"
     }
   }
