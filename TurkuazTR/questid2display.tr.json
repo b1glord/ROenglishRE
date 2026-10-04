@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.42.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 70071-70152 Niflheim Tourists finali, Queen of the Dead gorevleri ve Rune Midgard Exposition/Class Quest bloklarindan 60 pending kayit dahil",
+    "version": "7.43.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 70153-70250 kalan Rune Midgard Exposition Class Quest, Summer Sports, Back to School, Thanksgiving Feast ve timer kayitlarindan son 47 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -27781,6 +27781,241 @@
     "70152": {
       "title": "Rune Midgard Exposition: Class Quest",
       "description": "Lighthalzen Field 2'de Flag Beacon 1'i ara.",
+      "goal": ""
+    },
+    "70153": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Lighthalzen Field 2'de Flag Beacon 2'yi ara.",
+      "goal": ""
+    },
+    "70154": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Lighthalzen Field 2'de Flag Beacon 3'u ara.",
+      "goal": ""
+    },
+    "70155": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Lighthalzen Field 2'de Flag Beacon 4'u ara.",
+      "goal": ""
+    },
+    "70156": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Rune Midgard Exposition alanindaki Expo Engineer'a geri don.",
+      "goal": ""
+    },
+    "70157": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Rune Midgard Exposition'daki Frau Beau'ya don.",
+      "goal": ""
+    },
+    "70158": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Madame West'in sikayet ettigi berbat director'u center castle yakininda bul.",
+      "goal": ""
+    },
+    "70159": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Spellman'in cinematographer'i Kuro Akirasawa'yi ara.",
+      "goal": ""
+    },
+    "70160": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Samuel Jack Ellson'i bul ve movie shoot'a geri donmeye ikna et.",
+      "goal": ""
+    },
+    "70161": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Filming sirasinda kendini koruyabilmesi icin Sam J Ellson'a 3 Holy Water getir.",
+      "goal": ""
+    },
+    "70162": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Artik kendini guvende hissediyor. Exposition alaninda Adime Pamidonna'yi bul.",
+      "goal": ""
+    },
+    "70163": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Film crew'un stunt explosives'larini bul ve incele.",
+      "goal": ""
+    },
+    "70164": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Pek guvenli sayilmaz ama kimseyi yenmeyecek... Adime Pamidonna'ya don ve onu rahatlat.",
+      "goal": ""
+    },
+    "70165": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Cage Whickerman'i bul ve filming'e geri donmeye ikna et.",
+      "goal": ""
+    },
+    "70166": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Creative abilities'ini guclendirebilmesi icin Cage Whickerman'a 10 Apple getir.",
+      "goal": ""
+    },
+    "70167": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Artik kendini daha iyi hissediyor. Kuro Akirasawa'ya cast'in filming icin hazir oldugunu soyle.",
+      "goal": ""
+    },
+    "70168": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Gem'leri \"calabilmek\" icin Comodo'daki Spider'i bul.",
+      "goal": ""
+    },
+    "70169": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Mister Von Drebbin'in secret safe'ini bul.",
+      "goal": ""
+    },
+    "70170": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "The Spider'a geri don ve safe'i tek basina acmanin cok zor oldugunu soyle.",
+      "goal": ""
+    },
+    "70171": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Comodo Field 2'de Master Locksmith'i bul.",
+      "goal": ""
+    },
+    "70172": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Ihtiyacin olan seylere artik sahipsin. Spider safe'i acmana yardim edecek.",
+      "goal": ""
+    },
+    "70173": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Safe'i basariyla actin. Comodo'da The Spider ile yeniden bulus.",
+      "goal": ""
+    },
+    "70174": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Rune Midgard Exposition'daki Gem Collector'a geri don.",
+      "goal": ""
+    },
+    "70202": {
+      "title": "Slot Machine Sayaci",
+      "description": "Tekrar denemek icin timer'in bitmesini bekle.",
+      "goal": ""
+    },
+    "70203": {
+      "title": "Claw Machine Sayaci",
+      "description": "Tekrar denemek icin timer'in bitmesini bekle.",
+      "goal": ""
+    },
+    "70204": {
+      "title": "Anniversary Sayaci",
+      "description": "Tekrar denemek icin timer'in bitmesini bekle.",
+      "goal": ""
+    },
+    "70205": {
+      "title": "Fishing Machine Sayaci",
+      "description": "Tekrar denemek icin timer'in bitmesini bekle.",
+      "goal": ""
+    },
+    "70224": {
+      "title": "Summer Sports Fencing Sayaci",
+      "description": "Famous Fencing Master ile tekrar joust yapmadan once 3 saat beklemelisin. 1 Eden Merit Badge verirsen beklemeyi atlayabilirsin.",
+      "goal": ""
+    },
+    "70225": {
+      "title": "Summer Sports Punching Bag Sayaci",
+      "description": "Strength test'ini tekrar denemeden once 3 saat beklemelisin. 1 Eden Merit Badge varsa beklemeyi atlayabilirsin.",
+      "goal": ""
+    },
+    "70226": {
+      "title": "Summer Sports Obstacle Sayaci",
+      "description": "Obstacle course'u tekrar denemeden once 3 saat beklemelisin. 1 Eden Merit Badge varsa beklemeyi atlayabilirsin.",
+      "goal": ""
+    },
+    "70231": {
+      "title": "Okula Donus",
+      "description": "Back to School quest'ine basladin.",
+      "goal": ""
+    },
+    "70232": {
+      "title": "Okula Donus: Manuel'i Oku",
+      "description": "Camille, Manuel'in school'a gitmeyi reddettigini soyluyor. Onunla konusup nedenini ogren. Monster Race Tracks yakininda bulunabilir.",
+      "goal": ""
+    },
+    "70233": {
+      "title": "Okula Donus: Mrs. Farina En Iyisini Bilir",
+      "description": "Manuel, Franzie'nin school'da ona bullying yaptigini soyluyor. Grocery Store'un kuzeyindeki teacher'i ile konus.",
+      "goal": ""
+    },
+    "70234": {
+      "title": "Okula Donus: Adi Bingo'ydu",
+      "description": "Mrs. Farina, Headmaster'in soruna mudahale etmesine izin vermedigini soyluyor. Headmaster su anda bingo hall'daki fund raiser'a katiliyor.",
+      "goal": ""
+    },
+    "70235": {
+      "title": "Okula Donus: Toy Store",
+      "description": "Headmaster Tanner Bully'nin family'sinden korkuyor. Bully ile dogrudan yuzlesmek duruma yardimci olabilir.",
+      "goal": ""
+    },
+    "70236": {
+      "title": "Okula Donus: Aile Adami",
+      "description": "Franzie talebini reddetti. Headmaster Tanner'a geri don.",
+      "goal": ""
+    },
+    "70237": {
+      "title": "Okula Donus: Uriel the Pure",
+      "description": "Headmaster Tanner seni Guard raid'e katilmaya davet etti. Yardim etmek icin Officer Uriel ile konus.",
+      "goal": ""
+    },
+    "70239": {
+      "title": "Okula Donus: Investigation I",
+      "description": "Inspector Device'in chest'leri arastirmasina yardim et.",
+      "goal": ""
+    },
+    "70240": {
+      "title": "Okula Donus: Investigation II",
+      "description": "Inspector Device'in chest'leri arastirmasina yardim et.",
+      "goal": ""
+    },
+    "70241": {
+      "title": "Okula Donus: Investigation III",
+      "description": "Inspector Device'in chest'leri arastirmasina yardim et.",
+      "goal": ""
+    },
+    "70242": {
+      "title": "Okula Donus: Investigation IV",
+      "description": "Inspector Device'in chest'leri arastirmasina yardim et.",
+      "goal": ""
+    },
+    "70243": {
+      "title": "Okula Donus: Tanner'a Don",
+      "description": "Inspector Device, iyi haberlerle Headmaster Tanner'a donmeni istedi.",
+      "goal": ""
+    },
+    "70244": {
+      "title": "Okula Donus: School Artik Guvenli",
+      "description": "Manuel'i bul ve school'a donmenin guvenli oldugunu soyle.",
+      "goal": ""
+    },
+    "70245": {
+      "title": "Okula Donus Sayaci",
+      "description": "Camille'in 3 saat sonra senden baska bir istegi olabilir.",
+      "goal": ""
+    },
+    "70246": {
+      "title": "Okula Donus Sayaci",
+      "description": "Timer bittikten sonra yeni bir plant olusturabilirsin.",
+      "goal": ""
+    },
+    "70248": {
+      "title": "Thanksgiving Feast",
+      "description": "Uncle Jack, Rachel'in dogusundaki Roween ve Anopheles'ten Rotten Meat ve Bacillus istiyor.",
+      "goal": ""
+    },
+    "70249": {
+      "title": "Thanksgiving Feast",
+      "description": "Mrs. Raven, Grand Peco Peco'lardan 30 Peco Peco Feather ariyor.",
+      "goal": ""
+    },
+    "70250": {
+      "title": "Raffler Cooldown",
+      "description": "Baska bir raffle ticket satin almadan once timer'in bitmesini bekle.",
       "goal": ""
     }
   }
