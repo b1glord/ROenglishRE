@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.71.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8017-8031 Zelmeto Factory Inspection ve onarim malzemesi gorevleri dahil",
+    "version": "6.72.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8032-8043 Airship, Tarlock, Ferlock ve Hallen sirri ile 8044-8052 Euslan ve Thierry gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10097,6 +10097,111 @@
       "title": "Fabrika Denetimi",
       "description": "Zelmeto yine de tamirleri yapmak istiyor. Gerekli onarimlar icin ^FF000020 Flexible Tube^000000, ^FF000010 Rusty Screw^000000 ve ^FF000010 Used Iron Plate^000000 getir.",
       "goal": "20 Flexible Tube, 10 Rusty Screw ve 10 Used Iron Plate getir"
+    },
+    "8032": {
+      "title": "Tarlock'un Ricasi",
+      "description": "Tarlock, kardesi Ferlock'a bir mektup teslim edersen Airship'in nasil calistigini anlatabilecegini soyledi.",
+      "goal": "Tarlock'un mektubunu Ferlock'a teslim et"
+    },
+    "8033": {
+      "title": "Ferlock'un Ricasi",
+      "description": "Ferlock, Tarlock'un Airship'ine saldiran canavarlarin caldigi esyalari geri getirmeni istedi. 2 Will of the Darkness ve 2 Prickly Fruit getir.",
+      "goal": "2 Will of the Darkness ve 2 Prickly Fruit getir"
+    },
+    "8034": {
+      "title": "Ferlock'un Ricasi",
+      "description": "Ferlock, cevabini kardesi Tarlock'a goturmeni istedi.",
+      "goal": "Ferlock'un mektubunu Tarlock'a teslim et"
+    },
+    "8035": {
+      "title": "Airship Nasil Calisir?",
+      "description": "Ferlock'un mektubunu Tarlock'a teslim ettin. Simdi Airship'in nasil calistigini sormak icin uygun zaman.",
+      "goal": "Tarlock ile konusmaya devam et"
+    },
+    "8036": {
+      "title": "Hallen'in Ricasi",
+      "description": "Hallen, Kaci'nin akil hocasi gibi gorunen Mr. Mawong'dan gelen mektubu Kaci'ye teslim etmeni istedi.",
+      "goal": "Mektubu Kaci'ye teslim et"
+    },
+    "8037": {
+      "title": "Zar Oyuncusu",
+      "description": "Hallen'in mektubunu Kaci'ye teslim ettin. Bildiklerini ogrenmek icin onunla konus.",
+      "goal": "Kaci ile konus"
+    },
+    "8038": {
+      "title": "Zar Oyuncusu",
+      "description": "Kaci'nin Hallen'in kuzeni oldugu ortaya cikti. Sorularini cevapladiktan sonra oyunlarina geri dondu. Gecmisleri hakkinda baska kim bilgi sahibi olabilir?",
+      "goal": "Yeni bilgi kaynagi ara"
+    },
+    "8039": {
+      "title": "Airship'lerin Sirri",
+      "description": "Hallen'in projesi Airship'lerin nasil calistigini ogrenmek. Airship konusunda bilgili birine sor ve bulgularini Hallen'e bildir.",
+      "goal": "Airship hakkinda bilgi topla"
+    },
+    "8040": {
+      "title": "Airship'lerin Sirri",
+      "description": "Ymir's Heart Piece'in bir taklidi mi? Hallen bu bilgiyi daha once bir yerde duydugunu dusunuyor. Onunla konusmaya devam et.",
+      "goal": "Hallen ile konusmaya devam et"
+    },
+    "8041": {
+      "title": "Airship'lerin Sirri",
+      "description": "Kaci, Apple icin zar oynarken surekli Ymir's Heart'tan bahseden sarhos birinden soz etti.",
+      "goal": "Ymir's Heart hakkinda ipucu ara"
+    },
+    "8042": {
+      "title": "Airship'lerin Sirri",
+      "description": "Einbroch Laboratory yoneticisinin bir Ymir's Heart parcasina sahip oldugunu ogrendin. Konuyu arastir.",
+      "goal": "Einbroch Laboratory'yi arastir"
+    },
+    "8043": {
+      "title": "Airship'lerin Sirri",
+      "description": "Muhafizlar burayi duzenli olarak geziyor; yakalanmadan cik. Daha sonra Airship'te Ferlock ile gorus.",
+      "goal": "Ferlock ile gorus"
+    },
+    "8044": {
+      "title": "Euslan'in Nisanlisi",
+      "description": "Euslan, nisanlisi Thierry'yi aramani istedi. Thierry, doktorlarin Euslan'in hastaligi icin gerekli oldugunu soyledigi ilaci bulmak amaciyla Airship ile yolculuga cikmis.",
+      "goal": "Thierry'yi ara"
+    },
+    "8045": {
+      "title": "Kaci'den Ipucu",
+      "description": "Kaci, Airship Captain'in yolcu ve varis noktasi listesini kontrol edebilecegini soyledi.",
+      "goal": "Captain'dan yolcu listesini kontrol et"
+    },
+    "8046": {
+      "title": "Ferlock'un Yolcu Listesi",
+      "description": "Listeye gore Thierry en son Hugel'e giden bir Airship'e binmis.",
+      "goal": "Hugel'de Thierry'yi ara"
+    },
+    "8047": {
+      "title": "Euslan'in Ricasi",
+      "description": "Euslan, Hugel'deki kardesi Eukran'i ziyaret edip Thierry'nin nerede olabilecegini sormani istedi.",
+      "goal": "Eukran ile konus"
+    },
+    "8048": {
+      "title": "Eukran'in Tanikligi",
+      "description": "Eukran, Thierry'nin yaklasik bir ay once buradan gecip Odin Shrine'a gitmesi gerektigini soyledigini anlatti. Muhtemelen Euslan'a yardim etmeye calisiyor.",
+      "goal": "Odin Shrine'da Thierry'yi ara"
+    },
+    "8049": {
+      "title": "Thierry'nin Ricasi",
+      "description": "Thierry, Euslan'in modern tipla tedavi edilemeyen hastaligina care bulmak icin calistigini soyledi.",
+      "goal": "Thierry'ye yardim et"
+    },
+    "8050": {
+      "title": "Thierry'yi Bekleyen Tehlike",
+      "description": "Rekenber ajanlari, Thierry'nin gercek planlarini fark ettigini dusunuyor ve onu ortadan kaldirmayi planliyor.",
+      "goal": "Thierry'yi koru"
+    },
+    "8051": {
+      "title": "Euslan'in Ilaci",
+      "description": "Thierry, Euslan'i kurtaracak ilaci tamamlamak icin yalnizca 5 Runes of the Darkness'a ihtiyaci oldugunu soyledi.",
+      "goal": "5 Runes of the Darkness topla"
+    },
+    "8052": {
+      "title": "Thierry'nin Ricasi",
+      "description": "Thierry, Rekenber ajanlari onu aramayi birakana kadar Euslan'in yanina donemiyor. Ilaci vakit kaybetmeden Euslan'a teslim et.",
+      "goal": "Ilaci Euslan'a teslim et"
     }
   }
 }
