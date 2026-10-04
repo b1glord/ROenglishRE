@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.84.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8241-8253 Ash Vacuum jewel, language research, information compression ve translation device gorevleri dahil",
+    "version": "6.85.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8254-8262 Ranger Job Change, Turtle Island ve wolf/bomb testleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11162,6 +11162,51 @@
       "title": "Dil Ceviri Cihazi",
       "description": "Jewel'lardaki magic code'u okuyabilecek cihaz hazirlaniyor. Yapimi yaklasik 1 saat surecek.",
       "goal": "1 saat sonra geri don"
+    },
+    "8254": {
+      "title": "Ranger Job Change",
+      "description": "Job Change'den once bedenini ve zihnini arindirman gerekiyor. Weight degerini 0 yap.",
+      "goal": "Weight 0 olsun ve Instructor Rescue'ya git"
+    },
+    "8255": {
+      "title": "Ranger Job Change",
+      "description": "Ilk yeterliligi almak icin gucunu sinama zamani.",
+      "goal": "Survival power test'i baslatmak icin Rescue ile konus"
+    },
+    "8256": {
+      "title": "Ranger Job Change",
+      "description": "Turtle Island'in kuzeybati bolgesine git ve Test Instructor Teardrop'u bul.",
+      "goal": "Test Instructor Teardrop'u bul"
+    },
+    "8257": {
+      "title": "Ranger Job Change",
+      "description": "1 ^0000ffDragon Tail^000000 ve 1 Wing of Dragonfly bulup Test Instructor Teardrop'a getir.",
+      "goal": "Dragon Tail ve Wing of Dragonfly getir"
+    },
+    "8258": {
+      "title": "Ranger Job Change",
+      "description": "Teardrop Wing of Dragonfly'i yiyecek. Onunla konusmaya devam et.",
+      "goal": "Instructor Teardrop ile konusmaya devam et"
+    },
+    "8259": {
+      "title": "Ranger Job Change",
+      "description": "Ranger olmak icin exam room'daki 3 testi de gec.",
+      "goal": "Uc Ranger testini tamamla"
+    },
+    "8260": {
+      "title": "Ranger Job Change",
+      "description": "Canavarlarin arasindan gecip Letter'i Caution'a teslim et. Test Supervisor Caution'a ulasmadan once 10 Bomb Ring Capsule'in tamamini kullan.",
+      "goal": "Letter'i teslim et ve 10 Bomb Ring Capsule kullan"
+    },
+    "8261": {
+      "title": "Ranger Job Change",
+      "description": "Ucuncu test, wolf'u ne kadar etkili kullanabildigini olcecek. Wolf'u kontrol et ve beliren tum bombalari etkisiz hale getir.",
+      "goal": "Wolf ile tum bombalari etkisiz hale getir"
+    },
+    "8262": {
+      "title": "Ranger Job Change",
+      "description": "Ranger olmak icin gereken tum testleri basariyla tamamladin.",
+      "goal": "Job Change icin Ranger Master ile konus"
     }
   }
 }
