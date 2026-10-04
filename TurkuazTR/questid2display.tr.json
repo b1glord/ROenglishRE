@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.87.0",
-    "description": "Quest ID bazinda Turkce patchleri; 8519 ORION kayip kitap ile 9000-9012 Knight ve 9013-9018 Wizard Job Change gorevleri dahil",
+    "version": "6.87.1",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8519 ORION kayip kitap ile 9000-9012 Knight ve 9013-9018 Wizard Job Change gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11284,9 +11284,9 @@
       "goal": "Esyalari Payon'daki Dashia'ya teslim et"
     },
     "8519": {
-      "title": "Kitabin Sahibi: ♬ORION♬",
-      "description": "Kayip kitabi Prontera'da bir yerde bulunan ♬ORION♬'a gotur.",
-      "goal": "♬ORION♬'u bul ve kitabi teslim et"
+      "title": "Kitabin Sahibi: ORION",
+      "description": "Kayip kitabi Prontera'da bir yerde bulunan ORION'a gotur.",
+      "goal": "ORION'u bul ve kitabi teslim et"
     },
     "9000": {
       "title": "Knight Job Change",
