@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.89.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 9222-9296 Hospital 2F, Mystery Robbery, Mage Job Change ve Magic Tournament bloklarindan 60 pending kayit dahil",
+    "version": "6.90.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 9297-10005 Magic Tournament, dimensional gap, Sky Fortress, Rock Ridge ve Prontera Royal Court bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11881,6 +11881,306 @@
     "9296": {
       "title": "Turnuvanin 2. Maci Basladi",
       "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9297": {
+      "title": "Turnuvanin 3. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9298": {
+      "title": "Turnuvanin 4. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9299": {
+      "title": "Turnuvanin 5. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9300": {
+      "title": "Turnuvanin 6. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9301": {
+      "title": "Turnuvanin 7. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9302": {
+      "title": "Turnuvanin 8. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9303": {
+      "title": "Turnuvanin 9. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9304": {
+      "title": "Turnuvanin 10. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9305": {
+      "title": "Turnuvanin 11. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9306": {
+      "title": "Turnuvanin 12. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9307": {
+      "title": "Turnuvanin Final Maci Basladi",
+      "description": "^8B4513Final maci rakibini^000000 yenmelisin.",
+      "goal": "Fenrir'i yen"
+    },
+    "9308": {
+      "title": "Magic Tournament Zaferi~!",
+      "description": "^8B4513Magic Tournament^000000'i kazan ve turnuva girisi yakininda boyut yarigini arastiran Scholar'a don.",
+      "goal": ""
+    },
+    "9309": {
+      "title": "Magic Tournament Maglubiyeti",
+      "description": "^8B4513Magic Tournament^000000'da yenildin. Bulduklarinla birlikte arastirma yapan Scholar'a don.",
+      "goal": "Boyut yarigindaki eski Geffen arastirmasi tamamlandi"
+    },
+    "9310": {
+      "title": "Iris ile Karsilasma",
+      "description": "Kucuk bir hediye almak icin ^8B4513Iris^000000 ile konus.",
+      "goal": "Iris ile konus"
+    },
+    "9311": {
+      "title": "Chaos ile Karsilasma",
+      "description": "Kucuk bir hediye almak icin ^8B4513Chaos^000000 ile konus.",
+      "goal": "Chaos ile konus"
+    },
+    "9312": {
+      "title": "Lydia ile Karsilasma",
+      "description": "Kucuk bir hediye almak icin ^8B4513Lydia^000000 ile konus.",
+      "goal": "Lydia ile konus"
+    },
+    "9313": {
+      "title": "Fenrir ile Karsilasma",
+      "description": "^8B4513Fenrir^000000 ile konus. Baska bir sans olursa onunla yeniden bulusmak istiyorsun.",
+      "goal": "Fenrir ile konus"
+    },
+    "9314": {
+      "title": "Loki ile Karsilasma",
+      "description": "Kucuk bir hediye almak icin ^8B4513Loki^000000 ile konus.",
+      "goal": "Loki ile konus"
+    },
+    "9315": {
+      "title": "Boyut Yarigini Arastir",
+      "description": "^8B4513Arastirma yapan Scholar^000000'in mesaji: Magic Tournament'i kontrol et.",
+      "goal": "Boyut yarigindaki Geffen'i arastir"
+    },
+    "9316": {
+      "title": "Boyut Yarigini Yeniden Arastir",
+      "description": "^8B4513Boyut yarigini arastiran Scholar^000000'in mesaji: ^0000FFBoyut yarigindaki eski Geffen^000000'de Magic Tournament hakkinda bilgi edin.",
+      "goal": "Boyut yarigindaki Geffen'i arastir"
+    },
+    "9318": {
+      "title": "Gizlenen Morroc'un Pesinde",
+      "description": "^8B4513Senior Tracker^000000'in mesaji: ^0000FFRed Flower^000000'a gir ve Morroc'u yen.",
+      "goal": "Gizlenen Morroc'u ve adamlarini yen"
+    },
+    "9319": {
+      "title": "Morroc Takibi Devam Ediyor",
+      "description": "^8B4513Senior Tracker^000000'in mesaji: Yarin tekrar gel ve Morroc'u takip etmeme yardim et.",
+      "goal": "23 saat sonra geri don"
+    },
+    "9335": {
+      "title": "Gigantes Parcalarini Ara",
+      "description": "^8B4513Professor Bernhard^000000'in mesaji: ^0000FFZaman catlagina^000000 gir ve Gigantes Fragments getir.",
+      "goal": "Ancient Gigantes'ten elde edilebilir"
+    },
+    "9336": {
+      "title": "Professor Bernhard'a Don",
+      "description": "^8B4513Professor Bernhard^000000'in mesaji: Guclu silahlar yapmak icin yeterli parcam yok. Boyut kapisini acacak kadar enerji biriktiginde geri gel.",
+      "goal": "7 gun sonra yeniden bulus"
+    },
+    "9337": {
+      "title": "Macerayi Tamamla",
+      "description": "^8B4513Fenrir^000000 ile konus ve boyut yarigindaki Professor Bernhard'a don.",
+      "goal": "Professor Bernhard ile yeniden bulus"
+    },
+    "9418": {
+      "title": "Prontera'yi Isgal Eden Sky Fortress'a Saldir",
+      "description": "Prontera'ya saldiran Sky Fortress'a girip boss'u yenmelisin.",
+      "goal": "Sky Fortress'a saldir"
+    },
+    "9419": {
+      "title": "Prontera'yi Isgal Eden Sky Fortress'a Saldir",
+      "description": "^8B4513Scientist Doyeon^000000'in mesaji: Sky Fortress warp'ini etkinlestirmek icin daha fazla buyu gucu gerekiyor. Dungeon Pass getir veya buyunun toplanmasi icin yaklasik 3 gun bekle.",
+      "goal": "3 gun sonra Doyeon'u ziyaret et"
+    },
+    "9427": {
+      "title": "Sky Fortress'i Ayni Surede Temizle",
+      "description": "Sky Fortress'i ayni surede temizle.",
+      "goal": "Sky Fortress'i ayni surede temizle"
+    },
+    "9428": {
+      "title": "Vahsi Hayvanlari Koru",
+      "description": "Tuzaklara yakalanan vahsi hayvanlari bul ve tuzaklari topla. Tuzaklar Rune Midgard field bolgelerinde kolayca bulunabilir. Toplayip Wild Life Manager'a getir.",
+      "goal": "Vahsi hayvanlari kurtar ve tuzaklari topla"
+    },
+    "9436": {
+      "title": "Yeni Malzemeler",
+      "description": "Prontera'daki Administrative Supply Officer'i bul ve yeni malzemelerini al.",
+      "goal": "Administrative Supply Officer'i bul"
+    },
+    "9438": {
+      "title": "Yeni Topraklara!",
+      "description": "Alberta'daki Karam Pucci ile konus ve yeni topraklara git.",
+      "goal": "Alberta'da Karam Pucci ile konus"
+    },
+    "9439": {
+      "title": "Ciddi Sorun",
+      "description": "Rock Ridge'deki Costello, koyun yasadigi bir sorun icin yardima ihtiyac duyuyor.",
+      "goal": "Rock Ridge'de Costello ile bulus"
+    },
+    "9440": {
+      "title": "Sorunu Ele Al",
+      "description": "Sorunun ayrintilarini ogrenmek icin koyun Sheriff'i Wyatt Warp'a sor.",
+      "goal": "Rock Ridge Sheriff Office'de Wyatt Warp ile konus"
+    },
+    "9441": {
+      "title": "En Hizli Cozum",
+      "description": "Sorunun nasil cozulecegi hakkinda Costello'nun fikrini sor.",
+      "goal": "Costello ile konus"
+    },
+    "9442": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Sorunun nasil cozulecegi hakkinda Ivoka Skudi'nin fikrini sor.",
+      "goal": "Sheriff Office'de Ivoka Skudi ile konus"
+    },
+    "9443": {
+      "title": "Acele Etmeden",
+      "description": "Sorunun nasil cozulecegi hakkinda Shawn McCurdy'nin fikrini sor.",
+      "goal": "Rock Ridge'de Shawn McCurdy ile konus"
+    },
+    "9444": {
+      "title": "Kararimi Veriyorum",
+      "description": "Uc oneriden birini sec.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "9445": {
+      "title": "Ne Kadar?",
+      "description": "Pazarlik icin Costello'ya 1 milyon Zeny ver.",
+      "goal": "1 milyon Zeny tasirken Costello ile konus"
+    },
+    "9446": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Sheriff Office'de Ivoka Skudi ile konus, sonra yer alti hapishane hucresindeki Johnny James ile konus.",
+      "goal": "Ivoka Skudi ve Johnny James ile konus"
+    },
+    "9447": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Johnny James'i ikna ettigine gore simdi Albert Ford'u ikna etme zamani.",
+      "goal": "Maden girisindeki Albert Ford ile konus"
+    },
+    "9448": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Johnny James'i rahatlatmak icin Albert Ford'un yelesini kullan.",
+      "goal": "Yeleyi Johnny James'e gotur"
+    },
+    "9449": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Cevherlerin nerede oldugunu artik biliyorsun. Ivoka Skudi ve Wyatt Warp'a rapor ver.",
+      "goal": "Ivoka Skudi ve Wyatt Warp ile konus"
+    },
+    "9450": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Shawn McCurdy ile konus ve madene giden gizli gecidi ogren.",
+      "goal": "Rock Ridge'de Shawn McCurdy ile konus"
+    },
+    "9451": {
+      "title": "Dusmanlari Birbirine Dusur",
+      "description": "Madenin gizli girisindeki Shawn McCurdy ile konus ve madene gir.",
+      "goal": "Rock Ridge field bolgesinde Shawn McCurdy ile konus"
+    },
+    "9452": {
+      "title": "Kan Icin Ter",
+      "description": "Madencilik hakkinda Shawn McCurdy ile konusmalisin.",
+      "goal": "Rock Ridge'de Shawn McCurdy ile konus"
+    },
+    "9453": {
+      "title": "Kan Icin Ter",
+      "description": "Madenin gizli girisindeki Shawn McCurdy ile konus ve madene gir.",
+      "goal": "Rock Ridge field bolgesinde Shawn McCurdy ile konus"
+    },
+    "9454": {
+      "title": "Kan Icin Ter",
+      "description": "Madende Purple Ore topla ve en az 20 Purple Ore'u Costello'ya getir.",
+      "goal": "20 Purple Ore topla ve Costello'ya getir"
+    },
+    "9455": {
+      "title": "Kan Icin Ter",
+      "description": "Cevherleri maden girisindeki Albert Ford'a getir ve onunla yeniden pazarlik yap.",
+      "goal": "20 Purple Ore topla ve Albert Ford'a getir"
+    },
+    "9456": {
+      "title": "Kan Icin Ter",
+      "description": "Yeni pazarlik ayrintilarini Albert Ford ile gozden gecir, sonra Costello'ya rapor ver.",
+      "goal": "Costello ile konus"
+    },
+    "9457": {
+      "title": "Yine de Cozuldu",
+      "description": "Rock Ridge koyunun sorununu coz.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "9458": {
+      "title": "Boru Temizligi",
+      "description": "Rock Ridge bodrumundaki su borularina yapisan Sea Anemone'lari yen.",
+      "goal": "20 Sea Anemone yen"
+    },
+    "9459": {
+      "title": "Boru Temizligi Icin Cok Erken",
+      "description": "Ortadan kaldirilacak kadar cok Sea Anemone henuz yok.",
+      "goal": ""
+    },
+    "9460": {
+      "title": "Cevher Parcalari Topla",
+      "description": "Rock Ridge field ve maden bolgelerindeki canavarlari avla ve Ore Fragment topla.",
+      "goal": "10 Ore Fragment topla ve Crouched Horse'a teslim et"
+    },
+    "9461": {
+      "title": "Yeterince Cevher Var",
+      "description": "Crouched Horse'un su anda daha fazla cevhere ihtiyaci yok.",
+      "goal": ""
+    },
+    "10000": {
+      "title": "Prontera Royal Court'a Git",
+      "description": "Messenger'in soyledigi gibi Prontera Royal Court'a git ve Inspector ile konus.",
+      "goal": "Prontera Castle'daki Inspector"
+    },
+    "10001": {
+      "title": "Yeterlilik Sinavi",
+      "description": "Knight of Abyss'leri yendikten sonra ^ff00002 Reins^000000 getir. Bu gorevi tamamlarsan gucune saygi duyacagim. -Inspector",
+      "goal": "2 Reins"
+    },
+    "10002": {
+      "title": "Yeterlilik Degerlendirmesi",
+      "description": "Inspector karakter anlayisini degerlendirsin ve bir adventurer olarak yeterliligini gozden gecirsin.",
+      "goal": "Inspector"
+    },
+    "10003": {
+      "title": "Ne Yapacagina Dair Talimatlar",
+      "description": "Inspector, baskalarini degerlendirecek kadar yeterli olduguna karar verdi. Sirada ne oldugunu ogrenmek icin onunla tekrar konus.",
+      "goal": "Inspector"
+    },
+    "10004": {
+      "title": "Ara Rapor",
+      "description": "7 prince'in tamami ile konustun. Ilerlemeni bildirmek icin Inspector'a git.",
+      "goal": "Inspector"
+    },
+    "10005": {
+      "title": "Prince Eigen Ahrum",
+      "description": "Walter ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
       "goal": ""
     }
   }
