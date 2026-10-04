@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.85.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8254-8262 Ranger Job Change, Turtle Island ve wolf/bomb testleri dahil",
+    "version": "6.86.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8265 Yohean cooldown ile 8266-8279 Sponiac av, Dieshin teslimat ve Dashia toplama gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11207,6 +11207,81 @@
       "title": "Ranger Job Change",
       "description": "Ranger olmak icin gereken tum testleri basariyla tamamladin.",
       "goal": "Job Change icin Ranger Master ile konus"
+    },
+    "8265": {
+      "title": "Saatte Bir Kez",
+      "description": "Oyunu fazla oynamak zararli olabilir. Yohean ile yeniden oynamadan once bekle.",
+      "goal": "1 saat bekle"
+    },
+    "8266": {
+      "title": "Poison Spore Avi",
+      "description": "10 Poison Spore avla ve Geffen'deki Sponiac'a rapor ver. En fazla Poison Spore'u Mt. Mjolnir 6'da bulabilirsin.",
+      "goal": "10 Poison Spore avla"
+    },
+    "8267": {
+      "title": "Smokie Avi",
+      "description": "10 Smokie avla ve Geffen'deki Sponiac'a rapor ver. Smokie'leri Geffen cevresindeki alanlarda bulabilirsin.",
+      "goal": "10 Smokie avla"
+    },
+    "8268": {
+      "title": "Elder Willow Avi",
+      "description": "10 Elder Willow avla ve Geffen'deki Sponiac'a rapor ver. Elder Willow'lar Prontera ve Payon'un dogusundaki alanlarda bulunur.",
+      "goal": "10 Elder Willow avla"
+    },
+    "8269": {
+      "title": "Coco Avi",
+      "description": "10 Coco avla ve Geffen'deki Sponiac'a rapor ver. Coco'lari Geffen Field 2 civarinda bulabilirsin.",
+      "goal": "10 Coco avla"
+    },
+    "8270": {
+      "title": "Thara Frog Avi",
+      "description": "10 Thara Frog avla ve Geffen'deki Sponiac'a rapor ver. Thara Frog'lar Comodo'nun dogusundaki dungeon'da bulunur.",
+      "goal": "10 Thara Frog avla"
+    },
+    "8271": {
+      "title": "Zehirli Insecticide Teslimati",
+      "description": "Morocc Ruins'teki Dieshin Man'i bul ve Delivery Box'ini Payon Field 7'deki Zoologist'e teslim et.",
+      "goal": "Insecticide'i teslim et"
+    },
+    "8272": {
+      "title": "Honey Teslimati",
+      "description": "Morocc Ruins'teki Dieshin Man'i bul ve Delivery Box'ini Prontera Field 3'teki Entomologist'e teslim et.",
+      "goal": "Honey'yi teslim et"
+    },
+    "8273": {
+      "title": "Blanket Teslimati",
+      "description": "Morocc Ruins'teki Dieshin Man'i bul ve Delivery Box'ini Lutie Field'daki Biologist'e teslim et.",
+      "goal": "Blanket'i teslim et"
+    },
+    "8274": {
+      "title": "Kemik Topla",
+      "description": "10 Skel-Bone topla. Bunlari Payon Cave'deki Skeleton'lardan elde edebilirsin.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8275": {
+      "title": "Deri Topla",
+      "description": "10 Bear's Footskin ve 5 Animal Skin topla. Bigfoot'lar bunlari Payon Field 7'de dusurebilir.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8276": {
+      "title": "Peeling Topla",
+      "description": "20 Worm Peeling ve 20 Garlet topla. Bu esyalari Fortress Saint Darmain East'teki Ant Hell dungeon'da bulabilirsin.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8277": {
+      "title": "Kuyruk Topla",
+      "description": "10 Yoyo Tail, 10 Acorn ve 10 Raccoon Leaf topla. Bunlari Yoyo, Coco ve Smokie'lerden elde edebilirsin.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8278": {
+      "title": "Cookie Topla",
+      "description": "5 Well-baked Cookie ve 1 Piece of Cake topla. Bunlari Lutie Toy Factory'deki Cookie ve Mystcase'lerden elde edebilirsin.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8279": {
+      "title": "Mole Mustache Topla",
+      "description": "5 Mole Whiskers ve 3 Mole Claw topla. Bunlari Mjolnir Dead Pit'teki Martin'lerden elde edebilirsin.",
+      "goal": "Esyalari Payon'daki Dashia'ya teslim et"
     }
   }
 }
