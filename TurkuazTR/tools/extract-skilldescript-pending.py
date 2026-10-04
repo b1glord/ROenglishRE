@@ -2,7 +2,7 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/extract-skilldescript-pending.py
 # PURPOSE: Renewal skill aciklamalarindan Turkce ceviri bekleyen adaylari UTF-8 JSON raporuna cikarir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.0.0
+# VERSION: 1.0.1
 # DESCRIPTION: CP949/EUC-KR/UTF-8 skilldescript kaynagini okur, SKID bazli pending raporu uretir.
 # DEPENDENCY-LAYER: Tool
 
@@ -20,12 +20,12 @@ NAME_PATCH = REPO_ROOT / "TurkuazTR/skillinfolist.tr.json"
 DESC_PATCH = REPO_ROOT / "TurkuazTR/skilldescript.tr.json"
 OUTPUT = REPO_ROOT / "TurkuazTR/skilldescript.pending.json"
 
-BLOCK_START_RE = re.compile(r"\\[SKID\\.([A-Z0-9_]+)\\]\\s*=\\s*\\{")
+BLOCK_START_RE = re.compile(r"\[SKID\.([A-Z0-9_]+)\]\s*=\s*\{")
 INFO_ENTRY_RE = re.compile(
-    r"\\[SKID\\.([A-Z0-9_]+)\\]\\s*=\\s*\\{.*?SkillName\\s*=\\s*\\\"([^\\\"]*)\\\"",
+    r'\[SKID\.([A-Z0-9_]+)\]\s*=\s*\{.*?SkillName\s*=\s*"([^"]*)"',
     re.S,
 )
-LUA_STRING_RE = re.compile(r'\\"(?:\\\\.|[^\\"\\\\])*\\"')
+LUA_STRING_RE = re.compile(r'"(?:\\.|[^"\\])*"')
 
 
 def load_json(path: Path) -> dict:
@@ -49,7 +49,7 @@ def parse_lua_string(token: str) -> str:
         return ast.literal_eval(token)
     except (SyntaxError, ValueError):
         body = token[1:-1]
-        return body.replace(r'\\\"', '"').replace(r"\\\\", "\\")
+        return body.replace(r'\"', '"').replace(r"\\", "\\")
 
 
 def extract_blocks(text: str) -> dict[str, dict]:
@@ -61,7 +61,7 @@ def extract_blocks(text: str) -> dict[str, dict]:
         block = text[start:end]
         strings = [parse_lua_string(x.group(0)) for x in LUA_STRING_RE.finditer(block)]
         result[match.group(1)] = {
-            "line": text.count("\\n", 0, start) + 1,
+            "line": text.count("\n", 0, start) + 1,
             "strings": strings,
         }
     return result
@@ -114,11 +114,11 @@ def main() -> int:
             "path": "/ROenglishRE/TurkuazTR/skilldescript.pending.json",
             "purpose": "Henuz Turkce description patchi bulunmayan Renewal oyuncu skill adaylarini listeler",
             "module": "Generated Report - JSON",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "description": "CP949/EUC-KR fallback ile skilldescript.lub kaynagindan SKID bazli uretilir",
             "dependency_layer": "Tool",
         },
-        "source_path": str(DESC_SOURCE.relative_to(REPO_ROOT)).replace("\\\\", "/"),
+        "source_path": str(DESC_SOURCE.relative_to(REPO_ROOT)).replace("\\", "/"),
         "source_encoding": desc_encoding,
         "patched_count": len(patched),
         "candidate_count": len(candidates),
@@ -127,7 +127,7 @@ def main() -> int:
         "missing_descriptions": missing,
     }
 
-    OUTPUT.write_text(json.dumps(report, indent=2, ensure_ascii=True) + "\\n", encoding="utf-8")
+    OUTPUT.write_text(json.dumps(report, indent=2, ensure_ascii=True) + "\n", encoding="utf-8")
     return 0
 
 
