@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.10.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 14245-14489 Orc invasion devamı, sculptor-Maria, florist-proposal ve Walther-Jurgen hikaye bloklarindan 60 pending kayit dahil",
+    "version": "7.11.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 14563-15022 Lasagna, festival, gizemli cihaz, winter event ve Isle of Bios-Tim mirasi bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -18182,6 +18182,306 @@
       "title": "Reddetmeliyim",
       "description": "Bunu hic beklemiyordum ve baski hissediyorum. Ayrica su anda biriyle gorusemememin bir nedeni var. Duygularini incitmeden sozlerimi ona ilet.",
       "goal": "Jurgen'e git"
+    },
+    "14563": {
+      "title": "Bos Zaman",
+      "description": "Bugunun isi henuz bitmedi. Isler tamamlanmadan arastirma yapamayiz. Safaktan sonra tekrar gel.",
+      "goal": "04:00'te sifirlanir"
+    },
+    "14564": {
+      "title": "Ben de Bun Severim",
+      "description": "Yeni kitada bun oldugu soyleniyor. Lasagna'da benzer bir yiyecek var; karsilastirmak istiyorum. 20 tane getirir misin?",
+      "goal": "20 Bun"
+    },
+    "14565": {
+      "title": "Acil Gida Stogu",
+      "description": "Navi'den gelen denizcilere Nyas'in ne verdigini merak ediyorum. Cat Hardtack ve Malangdo Canned Food'dan 5'er tane getir.",
+      "goal": "Cat Hardtack ve Malangdo Canned Food"
+    },
+    "14566": {
+      "title": "Parlak Fikir",
+      "description": "Erimeyen buz! Gercekten varsa malzemeleri saklama konusunda devrim olur. Merakimi gider; 20 tane topla.",
+      "goal": "20 Ice Chunk"
+    },
+    "14567": {
+      "title": "Kahlugna Milk Tehlikede",
+      "description": "Kahlugna getirmesi gereken Mr. Legalas'tan haber yok. Guneyde yasiyor; onu bul ve ne oldugunu ogren.",
+      "goal": "Mr. Legalas'a git"
+    },
+    "14568": {
+      "title": "Ikna Zamani",
+      "description": "Acliktan olecegiz. Bir sey yap. Onlarla konus ve daha fazla Kahlugna yemelerini durdur.",
+      "goal": "Mr. Sea Otter ve Mr. Galapago ile konus"
+    },
+    "14569": {
+      "title": "Bebek Bakicisi",
+      "description": "Bakima ihtiyaci olan bir bebek bul.",
+      "goal": "Bir bebege bak"
+    },
+    "14570": {
+      "title": "Anchovy Isleme",
+      "description": "Anchovy ile ilgili bir sey yapmak istiyorlar. Anchovy workshop'a git.",
+      "goal": "Anchovy workshop"
+    },
+    "14571": {
+      "title": "Anchovy Fishing Ship",
+      "description": "Anchovy tasimaciligina alismak icin gemiye binmek istiyorlar. Anchovy fishing ship'i ziyaret et.",
+      "goal": "Anchovy fishing ship"
+    },
+    "14572": {
+      "title": "Care Yok",
+      "description": "Hicbir sey yapamayan ve yapmak istemeyen bu ikisiyle dolasmaktan biktim. Baska care olmadan Mr. Legalas'a don.",
+      "goal": "Mr. Legalas'a git"
+    },
+    "14573": {
+      "title": "Biraz Yalniz Kalayim",
+      "description": "Onlar yokken biraz calisabildim. Bitirmem gereken isler var; bir sure onlarla oyalan. Mr. Kalu'ya urunleri yakinda teslim edecegimi soyle.",
+      "goal": "Mr. Kalu'ya rapor ver"
+    },
+    "14574": {
+      "title": "Meal Box Teslimati",
+      "description": "Mr. Legalas calisabilsin diye onlari uzak tutabiliriz. Bu lunch box'i cave'deki Vigilante Panna'ya teslim et ve onlari da yaninda gotur.",
+      "goal": "Cave'deki vigilante'a git"
+    },
+    "14575": {
+      "title": "Teslimat Tamamlandi",
+      "description": "Meal Box teslimati tamamlandi. Kalu'ya geri don.",
+      "goal": "Kalu'ya git"
+    },
+    "14576": {
+      "title": "Meal Box Teslimat Zamani",
+      "description": "Teslimat zamani henuz gelmedi. Safaktan sonra tekrar gel.",
+      "goal": "04:00'te sifirlanir"
+    },
+    "14577": {
+      "title": "Meal Box Teslimati",
+      "description": "Cave icindeki Vigilante Pana'ya Meal Box teslim etmeme yardim et.",
+      "goal": "Cave'deki vigilante'a teslim et"
+    },
+    "14578": {
+      "title": "Teslimat Tamamlandi",
+      "description": "Meal Box teslimati tamamlandi. Kalu'ya geri don.",
+      "goal": "Kalu'ya git"
+    },
+    "14579": {
+      "title": "Captain ile Roportaj",
+      "description": "Captain Gamberi ile konus, ona cesitli sorular sor ve duyduklarini bana anlat.",
+      "goal": "Captain Gamberi'ye git"
+    },
+    "14580": {
+      "title": "Recorder'a Don",
+      "description": "Captain Gamberi ile roportaj tamamlandi. Recorder'a geri don.",
+      "goal": "Recorder'a don"
+    },
+    "14581": {
+      "title": "Chief ile Roportaj",
+      "description": "Peperoncino ile konus ve Captain Gamberi ile digerleri hakkinda sorular sor. Adventurer Club diner'da bulunuyor.",
+      "goal": "Chief Peperoncino'ya git"
+    },
+    "14582": {
+      "title": "Recorder'a Don",
+      "description": "Peperoncino ile roportaj tamamlandi. Recorder'a geri don.",
+      "goal": "Recorder'a don"
+    },
+    "14583": {
+      "title": "Granma'ya Git",
+      "description": "Zamanda sikismis Granma'yi bul ve Captain ile Chief hakkinda sor. Pub-Oven yakininda yasiyor.",
+      "goal": "Granma'ya git"
+    },
+    "14584": {
+      "title": "Recorder'a Geri Don",
+      "description": "Tum roportajlar tamamlandi. Recorder'a geri don.",
+      "goal": "Recorder'a don"
+    },
+    "14588": {
+      "title": "Yarisma",
+      "description": "Honey harvest competition icin 10 Wild Hornet yen ve Chief ya da Florin'e rapor ver.",
+      "goal": "10 Wild Hornet yen"
+    },
+    "14589": {
+      "title": "Yapiskan Malzeme",
+      "description": "Pudding yapmak icin Webfoot eksik. 10 Sweet Roda Frog avla, 5 Sticky Webfoot topla ve Chief ya da Shepherd'a rapor ver.",
+      "goal": "10 Sweet Roda Frog yen, 5 Sticky Webfoot topla"
+    },
+    "14590": {
+      "title": "Hunter'in Hedefi",
+      "description": "Hunter Desert Wolf'lar dry fish caliyormus. 10 tane avla ve Chief ya da Shepherd'a rapor ver.",
+      "goal": "10 Hunter Desert Wolf yen"
+    },
+    "14591": {
+      "title": "Gizli Malzeme",
+      "description": "Trance Spore'un Mushroom Spore'u fish cake'in gizli malzemesi. 10 Trance Spore avla, 5 Mushroom Spore getir.",
+      "goal": "10 Trance Spore yen, 5 Mushroom Spore getir"
+    },
+    "14592": {
+      "title": "Dinlenme Zamani",
+      "description": "Yarinki zorlu isler icin biraz dinlen.",
+      "goal": "04:00'te sifirlanir"
+    },
+    "14672": {
+      "title": "Firework Festival Hazirligi",
+      "description": "Gaster'lar Deadly Poisonous Powder ve Explosive Powder dusurur. 10 Deadly Poisonous Powder ve 1 Explosive Powder getir; ayrica 15 Gaster avla.",
+      "goal": "10 Deadly Poisonous Powder, 1 Explosive Powder"
+    },
+    "14673": {
+      "title": "Bomb Yapma Zamani",
+      "description": "Tum gece bomb yapmaya yetecek malzeme getirdin. Yarin sabah erken tekrar gel. - Demon",
+      "goal": "04:00'te sifirlanir"
+    },
+    "14683": {
+      "title": "Gizemli Cihaz",
+      "description": "Vardigin yerin cevresine bakarsan buyuk crystal seklinde bir device goreceksin. Kullanabilmek icin yaklas.",
+      "goal": "Gizemli Cihaz"
+    },
+    "14684": {
+      "title": "Gizemli Cihaz",
+      "description": "Emergency Proto calismaya basliyor. RT-017 kullanici icin etkinlestiriliyor. Cooldown 1 saat.",
+      "goal": "1 saat cooldown"
+    },
+    "14685": {
+      "title": "Gizemli Cihaz",
+      "description": "Emergency Proto calismaya basliyor. RT-017 kullanici icin etkinlestiriliyor. Cooldown 1 saat.",
+      "goal": "1 saat cooldown"
+    },
+    "14686": {
+      "title": "Gizemli Cihaz",
+      "description": "Emergency Proto calismaya basliyor. RT-017 kullanici icin etkinlestiriliyor. Cooldown 1 saat.",
+      "goal": "1 saat cooldown"
+    },
+    "14687": {
+      "title": "Gizemli Cihaz",
+      "description": "Emergency Proto calismaya basliyor. RT-017 kullanici icin etkinlestiriliyor. Cooldown 1 saat.",
+      "goal": "1 saat cooldown"
+    },
+    "14849": {
+      "title": "Snow Flower Bouquet Yap",
+      "description": "Snow Flower Bouquet yapmak istiyorsan 10 Magical Snow Flower topla ve geri gel.",
+      "goal": "10 Magical Snow Flower"
+    },
+    "14850": {
+      "title": "Snow Flower Bouquet Yap",
+      "description": "Snow Flower Illusionist'i bul. Ilgileniyorsan yerini ara.",
+      "goal": "Snow Flower Illusionist'e git"
+    },
+    "14851": {
+      "title": "Sicak Bir Kis Icin",
+      "description": "Kar yagmayan bolgelere snow, soguk bolgelere cotton clothes. Kisi rahat gecirmek icin Coti ve Ulsi'yi bul.",
+      "goal": "Coti'ye git"
+    },
+    "14852": {
+      "title": "Festival Card Degistir",
+      "description": "Gift Box'tan special card bulduysan Twinkle'a getir. Ozel bir odul alacaksin.",
+      "goal": "Twinkle'a git"
+    },
+    "14853": {
+      "title": "Snow Flower Bouquet Yap",
+      "description": "Snow Flower Bouquet icin 10 Magical Snow Flower ve snowman suslemek icin 1 Carrot getir. - Marine",
+      "goal": "10 Snow Flower, 1 Carrot"
+    },
+    "14854": {
+      "title": "Soguk Etki Suruyor",
+      "description": "Magical Snow Flower etkisi hala suruyor. Safaktan sonra tekrar gel. - Marine",
+      "goal": "Bekleme suresi"
+    },
+    "14855": {
+      "title": "Kisi Atlatmak",
+      "description": "Cocuklar icin snow, soguk bolgedeki cocuklar icin warm cotton clothes. 10 Warm Cotton bagisla.",
+      "goal": "10 Warm Cotton"
+    },
+    "14856": {
+      "title": "Cotton Paketleniyor",
+      "description": "Cotton paketleniyor. Safaga kadar bitmis olur; safaktan sonra tekrar gel. - Coti",
+      "goal": "Bekleme suresi"
+    },
+    "14857": {
+      "title": "Festival Card Degistir",
+      "description": "Sansli kelimen WINTER. Snow Flower Envelope'lari ac ve W, I, N, T, E, R harflerini topla.",
+      "goal": "WINTER kartlarini topla"
+    },
+    "14858": {
+      "title": "Festival Card Degistir",
+      "description": "Sansli kelimen SNOW. Snow Flower Envelope'lari ac ve S, N, O, W harflerini topla.",
+      "goal": "SNOW kartlarini topla"
+    },
+    "14859": {
+      "title": "Festival Card Degistir",
+      "description": "Sansli kelimen FESTIVAL. Snow Flower Envelope'lari ac ve F, E, S, T, I, V, A, L harflerini topla.",
+      "goal": "FESTIVAL kartlarini topla"
+    },
+    "14860": {
+      "title": "Festival Card Degistir",
+      "description": "Sansli kelimen FLOWER. Snow Flower Envelope'lari ac ve F, L, O, W, E, R harflerini topla.",
+      "goal": "FLOWER kartlarini topla"
+    },
+    "14861": {
+      "title": "Card Degisimi Gunde Bir Kez",
+      "description": "Alphabet card degisimi gunde bir kez yapilir. Safaktan sonra tekrar gel. - Twinkle",
+      "goal": "Bekleme suresi"
+    },
+    "15000": {
+      "title": "Anormal Status Deneyimi",
+      "description": "Ozur olarak abnormal status etkilerini onceden deneyimlemene izin verecegim.",
+      "goal": "Trainer Mainz ile tekrar konus"
+    },
+    "15001": {
+      "title": "Nefesini Tut",
+      "description": "20 saniye nefesini tuttuktan sonra benimle konus.",
+      "goal": "20 saniye sonra Trainer Argos ile konus"
+    },
+    "15002": {
+      "title": "Memorial Dungeon - Sara's Memory",
+      "description": "Bu instance'a tekrar girmeden once surenin dolmasini beklemelisin.",
+      "goal": ""
+    },
+    "15003": {
+      "title": "Adventurer Leon",
+      "description": "Sara's Memory'yi tamamladiktan sonra adventurer Leon ile konus.",
+      "goal": ""
+    },
+    "15005": {
+      "title": "Memorial Dungeon - Isle of Bios",
+      "description": "Her exploration sonrasinda Isle of Bios 23 saat boyunca tekrar girise kapanir.",
+      "goal": "23 saat bekle"
+    },
+    "15006": {
+      "title": "Isle of Bios Exploration",
+      "description": "Memorial Dungeon Isle of Bios exploration basliyor.",
+      "goal": "Isle of Bios exploration baslangici"
+    },
+    "15007": {
+      "title": "Memorial Dungeon - Isle of Bios",
+      "description": "Isle of Bios acildiktan sonraki ilk 5 dakika yeniden girise izin verir. Sonrasinda entrance kapanir.",
+      "goal": "5 dakika icinde yeniden gir"
+    },
+    "15008": {
+      "title": "Memorial Dungeon - Isle of Bios",
+      "description": "Dungeon'a girdikten sonraki 5 dakika icinde tamamladin. Isle of Bios simdi 23 saat kapali.",
+      "goal": "23 saat bekle"
+    },
+    "15018": {
+      "title": "Great Tim'in Mirasi",
+      "description": "Tim'in mirasini bulmak icin Rachel'in kuzeybatisindaki Tim'in evinde Cheatem ile konus.",
+      "goal": "Tim'in evinde Cheatem ile konus"
+    },
+    "15019": {
+      "title": "Yabanci Hakkinda Ipucu",
+      "description": "Birisi evi aramis olmali. Ipucunu bul.",
+      "goal": "Tim'in evini ara"
+    },
+    "15020": {
+      "title": "Hirsiz Aladdin",
+      "description": "Yabancilari goren Aladdin ile konus.",
+      "goal": "Aladdin ile konus"
+    },
+    "15021": {
+      "title": "Yabancinin Izini Sur",
+      "description": "Rachel Field'da olabilecek yabancinin izini bul.",
+      "goal": "Baygin Merchant'i bul"
+    },
+    "15022": {
+      "title": "Rachel'a Geri Don",
+      "description": "Rachel fountain'a geri don ve Aladdin ile konus.",
+      "goal": "Rachel'daki Aladdin ile konus"
     }
   }
 }
