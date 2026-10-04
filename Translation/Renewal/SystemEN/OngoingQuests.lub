@@ -60062,18 +60062,18 @@ QuestInfoList = {
 		}
 	},
 	[17014] = {
-		Title = "Investigating the Island",
+		Title = "Island'i Arastir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Larjes has decided to wait for you in the boat while you investigate the mysteries of the island."
+			"Larjes, island'in gizemlerini arastirirken boat'ta seni beklemeye karar verdi."
 		},
 		Summary = ""
 	},
 	[17015] = {
-		Title = "The Research Note",
+		Title = "Research Note",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You found a journal stained red with blood. It is hard to make out the entries but one of them states that the author learned to summon a creature. You should continue your investigation."
+			"Kana bulanmis bir journal buldun. Yazilari okumak zor ama bir kayitta yazarin bir creature summon etmeyi ogrendigi yaziyor. Arastirmaya devam et."
 		},
 		Summary = ""
 	},
@@ -60081,15 +60081,15 @@ QuestInfoList = {
 		Title = "Regicide",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You examined the Dead Man's body and found that he had a Token of King... That must mean that he was Tristam III... You should get back to Larjes and let him know."
+			"Dead Man'in body sini inceledin ve Token of King buldun. Bu onun Tristam III oldugunu gosteriyor. Larjes'e donup haber ver."
 		},
 		Summary = "Larjes"
 	},
 	[17017] = {
-		Title = "Reporting the King's Death",
+		Title = "King'in Olumunu Bildir",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"The shocking news of Tristam III's death should not be taken lightly. You should report this and bring the Research Note to High Priestess Niren."
+			"Tristam III'un olumu cok ciddi. Bunu rapor et ve Research Note'u High Priestess Niren'e gotur."
 		},
 		Summary = "High Priestess Niren"
 	},
@@ -65234,188 +65234,188 @@ QuestInfoList = {
         Summary = "Talk to Rookie"
     },
 	[18001] = {
-		Title = "Hole in the Mansion",
+		Title = "Rooney Icin Teslimat",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Cor's Rookie tells you to enter through the sewer pipe. If you find a colleague wandering in the sewer pipe, you are told to move together."
+			"Lasda Midar'i bul ve Rooney'nin letter'ini teslim et."
 		},
-		Summary = "Talk to Durian"
+		Summary = "Lasda Midar"
 	},
 	[18002] = {
-		Title = "Broken Core Recovery",
+		Title = "Rooney Icin Teslimat",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Together with Rookie, we decided to retrieve the cores of the automatons attacked by Heart Hunter. Retrieve the core and head to the designated spot promised with the rookie."
+			"Lasda'nin verdigi money'yi Rooney'ye teslim et."
 		},
-		Summary = "Recover 5 or more broken cores"
+		Summary = "Rooney"
 	},
 	[18003] = {
-		Title = "Broken Core 01",
+		Title = "Rooney Icin Teslimat",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Lasda Midar'a geri don."
 		},
-		Summary = ""
+		Summary = "Lasda Midar"
 	},
 	[18004] = {
-		Title = "Broken Core 02",
+		Title = "Lasda'nin Talebi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Lasda, Morocc'taki temporary prison'da bulunan arkadasini bulmani istedi."
 		},
-		Summary = ""
+		Summary = "Vitre'yi bul"
 	},
 	[18005] = {
-		Title = "Broken Core 03",
+		Title = "Jesse'nin Talebi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Prison Ward Jesse, 1 Fried Monkey Tails yemegi getirirsen temporary prison'a girmen icin izin verecegini soyledi."
 		},
-		Summary = ""
+		Summary = "1 Fried Monkey Tails"
 	},
 	[18006] = {
-		Title = "Broken Core 04",
+		Title = "Sir Krieg'in Onayi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Morocc'ta Sir Krieg'i bul. Onayini alirsan Jesse seni temporary prison'a alacak."
 		},
-		Summary = ""
+		Summary = "Sir Krieg"
 	},
 	[18007] = {
-		Title = "Broken Core 05",
+		Title = "Sir Krieg'in Guveni",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Sir Krieg'in guvenini kazanmak icin bir approval letter bul. Vitre hakkinda bir sey bilen birine sor."
 		},
-		Summary = ""
+		Summary = "Recommendation Letter"
 	},
 	[18008] = {
-		Title = "Broken Core 06",
+		Title = "Sir Krieg'in Guveni",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Lasda Midar'dan recommendation letter aldin. Sir Krieg'e geri gotur; prison'a giris izni verebilir."
 		},
-		Summary = ""
+		Summary = "Sir Krieg"
 	},
 	[18009] = {
-		Title = "Broken Core 07",
+		Title = "Prison'a Giris",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Sir Krieg prison ward'a Vitre ile konusmana izin vermesi icin haber gonderdi."
 		},
-		Summary = ""
+		Summary = "Prison Ward Jesse"
 	},
 	[18010] = {
-		Title = "Broken Core 08",
+		Title = "Jail Break",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Vitre temporary prison'dan kacmak icin bazi item'lara ihtiyac duyuyor. Nereden bulunacagini bilen birini bul."
 		},
-		Summary = ""
+		Summary = "1 Megaphone ve 1 Violin"
 	},
 	[18011] = {
-		Title = "Broken Core 09",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Hianna, Dancer'larina bodyguard'lik yaparsan Megaphone'unu 500000 zeny karsiliginda odunc verecek. Dancer'lari bul ve Schwaltzvalt Republic'e kadar eslik et."
 		},
-		Summary = ""
+		Summary = "Hianna'nin Dancer'lari"
 	},
 	[18012] = {
-		Title = "Broken Core 10",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Check the Core in the Broken Manager's Corpse."
+			"Hianna'nin Dancer'lariyla konus."
 		},
 		Summary = ""
 	},
 	[18013] = {
-		Title = "To the designated point",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Some of the damaged manager's cores were recovered. You have to join at the <NAVI>[point]<INFO>ba_maison,303,141,0,101,0</INFO></NAVI> where you agreed to meet the Rookie."
 		},
-		Summary = "Talk to Elena Bolkova"
+		Summary = ""
 	},
 	[18014] = {
-		Title = "Unexpected Big",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Eisen Werner was captured by Elena's base. Elena, accompanied by Eisen Werner, headed to the <NAVI>[Occupant's Lodging]<INFO>ba_maison,100,320,0,101,0</INFO></NAVI> where Elumina was detained. Join us and interrogate Aizen."
 		},
-		Summary = "Talk to Rookie"
+		Summary = ""
 	},
 	[18015] = {
-		Title = "Illusion Tracker",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Elumina offers to make a tracker that can track Illusion. The materials required to make the Tracker are 10x <ITEM>[Fluorescent Liquid]<INFO>7326</INFO></ITEM> and 10x <ITEM>[Broken Sword]<INFO>7110</INFO></ITEM>."
 		},
-		Summary = "Deliver Fluorescent Liquid, Broken Sword to Elumina"
+		Summary = ""
 	},
 	[18016] = {
-		Title = "Operation Meeting",
+		Title = "Bodyguard Isi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Together with Est, let's plan a plan to search the Varmundt Mansion to find the hidden Heart Hunter and Illusion."
+			"Hianna'ya geri don ve Megaphone'u al. Odunc almak icin 500000 zeny odemen gerektigini unutma."
 		},
-		Summary = "Talk to Est"
+		Summary = "Hianna"
 	},
 	[18017] = {
-		Title = "pPest Eradication Operation",
+		Title = "Jail Break",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Search the garden of the mansion at sunset and press the Illusion. Hunting is my taste."
+			"Vitre'nin Morocc'taki temporary prison'dan kacmasina yardim etmek icin 1 Megaphone ve 1 Violin getir."
 		},
-		Summary = "Capture Sweetie"
+		Summary = "Vitre"
 	},
 	[18018] = {
-		Title = "To an informal Shed",
+		Title = "Jail Break",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You may be able to get some information from the captured Sweetie. Go to the informal Shed."
+			"Vitre ile konus."
 		},
-		Summary = "Talk to Alpha"
+		Summary = ""
 	},
 	[18019] = {
-		Title = "Talk to Sweetie",
+		Title = "Vitre'nin Sarkilari",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Beta Amanda, who was repairing Sweetie in the airship dock, wants to talk with Sweetie now that he is awake."
+			"Vitre'nin arkadaslarini sirayla bul: Prontera'da Chada, Geffen'de Ghez, Comodo'da Nosdan. Sarkilarini dinle ve Vitre'ye geri soyle."
 		},
-		Summary = "Talk to Sweetie"
+		Summary = "Chada, Ghez ve Nosdan'i bul"
 	},
 	[18020] = {
-		Title = "Greetings",
+		Title = "Vitre'nin Sarkilari",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"I had a brief conversation with Nihil."
+			"Chada'nin sarkisini duydun. Simdi Geffen'deki Ghez'i bul."
 		},
-		Summary = "Talk to Nihil"
+		Summary = "Ghez'i bul"
 	},
 	[18021] = {
-		Title = "A Guest",
+		Title = "Vitre'nin Sarkilari",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Crooks came from the Royal Palace of Prontera. Crooks came to take him to the Royal Palace. Talk to Crooks in the Occupant's lodging common room."
+			"Ghez'in sarkisini duydun. Simdi Comodo'daki Nosdan'i bul."
 		},
-		Summary = "Talk to Crooks"
+		Summary = "Nosdan'i bul"
 	},
 	[18022] = {
-		Title = "Hey! Sweetie!",
+		Title = "Vitre'nin Sarkilari",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"If Sweetie, who is being managed in the Airship Station, runs wildly, deal with it in moderation."
+			"Nosdan'dan son sarkiyi duydun. Vitre'ye don ve uc sarkiyi da soyle."
 		},
-		Summary = "Battle with Sweetie"
+		Summary = "Vitre"
 	},
 	[18023] = {
-		Title = "[Standby] Hey! Sweetie!",
+		Title = "Casus Vitre",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Sweetie's body, which ran wild, needed some stabilization and repair. You can receive the quest from <NAVI>[Sweetie]<INFO>ba_in01,32,250,0,101,0</INFO></NAVI> in the Airship Station after the waiting time has passed."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Lasda Midar",
 		CoolTimeQuest = 1
 	},
 	[18024] = {
@@ -65481,199 +65481,199 @@ QuestInfoList = {
 		Summary = "Hunt Fabre"
 	},
 	[18030] = {
-		Title = "[Standby] Let's catch Fabre!",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Airship'lerden ne kadar nefret ettigimi bilemezsin. Bu book'lari Juno Library yakinindaki Mr. Karlomoff'a teslim et."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Mr. Karlomoff",
 		CoolTimeQuest = 1
 	},
 	[18031] = {
-		Title = "Lv11-Payon Field Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"Build your skills by exploring the forests and fields near Payon. Report completion to Lime using a booster call."
+			"Bu report'u Rodafrian'a hemen goturmen cok yardimci olur. Onu desert town'da bulabilirsin."
 		},
-		Summary = "Defeat monsters near Payon"
+		Summary = "Rodafrian"
 	},
 	[18032] = {
-		Title = "[Standby] Payon Field Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Mt. Mjolnir'de Mondo'yu bul. Hikayeyi soyle: Buyuk serpent denizi yuttu. Rainbow eagle serpent'i yuttu. Sonra eagle yutulan denizin ustune nest kurdu."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Mondo",
 		CoolTimeQuest = 1
 	},
 	[18033] = {
-		Title = "Lv20-Culvert Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Build your skills by exploring the Prontera Culvert. You can move to the entrance to the Culvert after supporting the subjugation team with the Culvert via <NAVI>[Knight Recruiter]<INFO>prt_in,88,105,0,101,0</INFO></NAVI> in Prontera. Report completion to Lime using a booster call."
 		},
-		Summary = "Defeat monsters in the Prontera Culvert"
+		Summary = "Dazed Boy"
 	},
 	[18034] = {
-		Title = "[Standby] Culvert Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Exhausted-Looking Woman'dan aldigin herb'leri Prontera Church'teki Father Bamph'a gotur."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Father Bamph",
 		CoolTimeQuest = 1
 	},
 	[18035] = {
-		Title = "Lv35-Mjolnir Abandoned Mine Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Let's explore the <NAVI>[Abandoned Mine]<INFO>mjo_dun01,52,23,0,101,0</INFO></NAVI> at the foot of Mt. Mjolnir in the north of <NAVI>[Geffen]<INFO>geffen,119,72,0,101,0</INFO></NAVI>. Be careful as you can get lost if you go too deep. After completion, report to Lime using a booster call."
 		},
-		Summary = "Defeat monsters in Mjolnir's Abandoned Mine"
+		Summary = "Bonnie Imbullea"
 	},
 	[18036] = {
-		Title = "[Standby] Mjolnir Abandoned Mine Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Prontera Church'e don ve Bonnie Imbullea'dan ogrendiklerini Father Bamph'a anlat."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Father Bamph",
 		CoolTimeQuest = 1
 	},
 	[18037] = {
-		Title = "Lv50-Izlude Undersea Tunnel Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Let's explore the <NAVI>[Izlude Undersea Tunnel]<INFO>iz_dun02,236,208,0,101,0</INFO></NAVI> on Baylan Island and build up your skills. Baylan Island can be reached through <NAVI>[Sailor]<INFO>izlude,197,205,0,101,0</INFO></NAVI> in Izlude. Report completion to Lime using a booster call."
 		},
-		Summary = "Defeat monsters in the Undersea Tunnel"
+		Summary = "Hidden switch"
 	},
 	[18038] = {
-		Title = "[Standby] Izlude Undersea Tunnel Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"King'in first son'u crown prince'in body sini inceledin. Simdi second prince'in body sini incele."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Second prince",
 		CoolTimeQuest = 1
 	},
 	[18039] = {
-		Title = "Lv65-Payon Dungeon Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Let's explore the <NAVI>[Payon Cave]<INFO>pay_dun03,155,156,0,101,0</INFO></NAVI> in the Archer Village north of Payon and build up your skills. Report completion to Lime using a booster call."
 		},
-		Summary = "Defeat monsters in the Payon Dungeon"
+		Summary = "Third prince"
 	},
 	[18040] = {
-		Title = "[Standby] Payon Dungeon Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Morocc'taki Assassin Guild'e git ve prince'lerin poison ile oldurulup oldurulmedigini nasil dogrulayabilecegimizi ogren."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Assassin Guild",
 		CoolTimeQuest = 1
 	},
 	[18041] = {
-		Title = "Lv80-Aldebaran Clock Tower Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_nq.bmp",
 		Description = {
 			"Let's explore the <NAVI>[Clock Tower]<INFO>c_tower1,199,163,0,101,0</INFO></NAVI> in Aldebaran and build up your skills. Report completion to Lime using a booster call."
 		},
-		Summary = "Defeat monsters in the Clock Tower"
+		Summary = "Marjana"
 	},
 	[18042] = {
-		Title = "[Standby] Aldebaran Clock Tower Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Rodafrian artik daha yakin. Father Bamph'tan once onunla konusmaya git."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Rodafrian",
 		CoolTimeQuest = 1
 	},
 	[18043] = {
-		Title = "Alberta Turtle Island Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Let's explore the <NAVI>[Turtle Island Dungeon]<INFO>tur_dun02,148,261,0,101,0</INFO></NAVI> in the waters near Alberta and build up your skills. Report completion to Lime using a booster call."
 		},
-		Summary = ""
+		Summary = "Father Bamph"
 	},
 	[18044] = {
-		Title = "[Standby] Alberta Turtle Island Exploration",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Rodafrian hic yardim etmedi; ustelik buyuk bir sirri ona acikladin. Priest'lere geri don."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Prontera Church",
 		CoolTimeQuest = 1
 	},
 	[18045] = {
-		Title = "Seasoned Hunter Beginner",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"The time has come to test your judgment and intelligence gathering. Find and deal with Water elemental monsters, Medium-sized monsters and Formless monsters of level 99-115. Report completion to Lime using a booster call."
+			"Rodafrian cok sevindi ve Karlomoff'un report'unu okumaya basladi. Simdi Father Bamph'a don."
 		},
-		Summary = ""
+		Summary = "Father Bamph"
 	},
 	[18046] = {
-		Title = "[Standby] Seasoned Hunter Beginner",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Secret ceremonial ground'a 1 Yellow Gemstone ve 1 Green Potion getir. Orada seni bekleyecegim."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "1 Yellow Gemstone ve 1 Green Potion",
 		CoolTimeQuest = 1
 	},
 	[18047] = {
-		Title = "Seasoned Hunter Advanced",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"If you are tired, you will win a hundred battles! Find and deal with Earth elemental monsters, Large-sized monsters and Demi-Human monsters of level 115-130. Report completion to Lime using a booster call."
+			"Solution prince'lerdeki scale mark'lari temizledi. Bulduklarini Father Bamph'a rapor ver."
 		},
-		Summary = ""
+		Summary = "Father Bamph"
 	},
 	[18048] = {
-		Title = "[Standby] Seasoned Hunter Advanced",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Father Bamph gercegi ortaya cikarmaya yardim ettigin icin tesekkur ediyor. Father Biscuss ile de konusup bulduklarini anlat."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Father Biscuss",
 		CoolTimeQuest = 1
 	},
 	[18049] = {
-		Title = "Seasoned Hunter Level 1",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"If you are tired, you will win a hundred battles! Find and deal with Shadow elemental monsters, Small-sized monsters and Insect monsters of level 130-145. Report completion to Lime using a booster call."
+			"Father Bamph gercegi ortaya cikarmaya yardim ettigin icin tesekkur ediyor. Bonnie Imbullea'ya git ve bunun onun sucu olmadigini soyle."
 		},
-		Summary = ""
+		Summary = "Bonnie Imbullea"
 	},
 	[18050] = {
-		Title = "[Standby] Seasoned Hunter Level 1",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Prince'lerin olumu hakkinda ogrendiklerini Bonnie Imbullea'ya anlat."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Bonnie Imbullea",
 		CoolTimeQuest = 1
 	},
 	[18051] = {
-		Title = "Seasoned Hunter Level 2",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"If you are tired, you will win a hundred battles! Find and deal with Earth elemental monsters, Medium-sized monsters and Small-sized monsters of level 145-160. Report completion to Lime using a booster call."
+			"Bonnie Imbullea'ya gercegi anlattiktan sonra Rodafrian ile son kez konus."
 		},
-		Summary = ""
+		Summary = "Rodafrian"
 	},
 	[18052] = {
-		Title = "[Standby] Seasoned Hunter Level 2",
+		Title = "Gaebolg Family Curse",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You can receive the quest again from \'Lime Evenor\' summoned using a booster call after the waiting time has passed."
+			"Father Bamph ile bir kez daha konus."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[18053] = {
@@ -65744,80 +65744,80 @@ QuestInfoList = {
 		Summary = "Talk to Verkhasel"
 	},
 	[18060] = {
-		Title = "Job Change to Shadow Cross-1",
+		Title = "Kayip Cocuk Mikhail",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Verkhasel told me to investigate the shadow phenomenon <NAVI>[near the ferry]<INFO>ve_fild07,99,141,0,101,0</INFO></NAVI> on the southern coast of Veins. It will be a clue to becoming a Shadow Cross."
 		},
-		Summary = "Shadow Investigation"
+		Summary = ""
 	},
 	[18061] = {
-		Title = "Job Change to Shadow Cross-2",
+		Title = "Mikhail'in Yeri",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Find \'Tory\' in Veins and get information about the shadow phenomenon. If you can't see Tori, they ask you to call out Tori's name out loud at around <NAVI>[here]<INFO>veins,87,158,0,101,0</INFO></NAVI>..."
 		},
-		Summary = "Talk to Tori"
+		Summary = "Sticky Herb Tree Inn"
 	},
 	[18062] = {
-		Title = "Job Change to Shadow Cross-3",
+		Title = "Kayip Cocuk Mikhail",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Let's look again at the chest near the shore <NAVI>[near the ferry]<INFO>ve_fild07,99,141,0,101,0</INFO></NAVI>. This time, the existence of the \'black-eyed\' might give the answer."
 		},
-		Summary = "Talk with Blackbird"
+		Summary = "Pub Owner"
 	},
 	[18063] = {
-		Title = "Job Change to Shadow Cross-4",
+		Title = "Issiz Swamp",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"I confirmed the information. Go back to the house and report to <NAVI>[Verkhasel]<INFO>ve_in,212,384,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk to Verkhasel"
+		Summary = "Swamp'i bul"
 	},
 	[18064] = {
-		Title = "Job Change to Shadow Cross-5",
+		Title = "Village'a Geri Don",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"After collecting 5x <ITEM>[Crystal of Darkness]<INFO>7799</INFO></ITEM>, 20x <ITEM>[Dark Piece]<INFO>6089</INFO></ITEM>, the items needed to summon the Dark Spirit again, go to <NAVI>[designated location]<INFO>ve_fild05,317,235,0,101,0</INFO></NAVI> and report to Verkhasel. The Crystal of Darkness can be obtained from Morroc's incarnations, and the Dark Piece can be obtained from the Rudus area."
 		},
-		Summary = "Talk to Verkhasel"
+		Summary = "Moscovia Village"
 	},
 	[18065] = {
-		Title = "Job Change to Shadow Cross-6",
+		Title = "Guclu Adhesive",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Let's go to the 'Mansion in the Shadow' with <NAVI>[Verkhasel]<INFO>ve_fild05,317,235,0,101,0</INFO></NAVI> and use the Crystal of Darkness and Dark Pieces you have collected to summon the Dark Spirit."
 		},
-		Summary = "Summon Dark Spirit"
+		Summary = "Victor"
 	},
 	[18066] = {
-		Title = "Job Change to Shadow Cross-7",
+		Title = "Swamp'a Geri Don",
 		IconName = "ico_jq.bmp",
 		Description = {
 			"Let's pass the test presented by the Dark Spirit. If you fail, you can re-enter the 'Mansion in the Shadow' through <NAVI>[Verkhasel]<INFO>ve_fild05,317,235,0,101,0</INFO></NAVI> in Veins Field."
 		},
-		Summary = ""
+		Summary = "10 Sticky Herb ve 1 Medicine Bowl"
 	},
 	[18067] = {
-		Title = "Job Change to Shadow Cross-8",
+		Title = "Paste Yap",
 		IconName = "ico_jq.bmp",
 		Description = {
-			"Prepare to become a Shadow Cross and talk to the Dark Spirit again."
+			"Paste icin 10 Sticky Herb hazir. 1 Medicine Bowl da varsa Victor'a gotur; paste'i yapabilir."
 		},
-		Summary = "Talk to the Dark Spirit"
+		Summary = "Victor"
 	},
 	[18068] = {
-		Title = "Fixing the Matrushka",
+		Title = "Matrushka'yi Tamir Et",
 		Description = {
-			"Victor has created the paste for you. Bring it to Mikhail so that he can fix the broken Matrushka."
+			"Victor paste'i hazirladi. Broken Matrushka'yi tamir etmesi icin Mikhail'e gotur."
 		},
 		Summary = "Mikhail"
 	},
 	[18069] = {
-		Title = "Report to Gallina",
+		Title = "Gallina'ya Rapor Ver",
 		Description = {
-			"Tell Gallina that her son Mikhail is safe and sound."
+			"Gallina'ya oglu Mikhail'in guvende oldugunu soyle."
 		},
 		Summary = "Gallina"
 	},
