@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.6.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5448-5452 Prontera Chief Guard yardim gorevleri dahil",
+    "version": "6.7.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5453-5462 Prontera sivil kurtarma gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6017,6 +6017,56 @@
       "title": "Bas Muhafizdan Istek - Bekleme",
       "description": "Prontera'daki koyluye yardim ettin. Bir sure sehirde dolasarak Undead canavarlari yok etmen gerekiyor.",
       "goal": "Bir sure Undead avla"
+    },
+    "5453": {
+      "title": "Nankor (1)",
+      "description": "Korkudan titreyen bir koylu genciyle karsilastin. Once onu en yakin siginak olan koy ofisine gotur.",
+      "goal": "Koylu genci koy ofisine gotur"
+    },
+    "5454": {
+      "title": "Nankor (2)",
+      "description": "Genci yakin siginaga goturdugunde, Smelter yakininda kaybettigi Tool Bag'i bulmani istedi.",
+      "goal": "Smelter yakininda Tool Bag'i bul"
+    },
+    "5455": {
+      "title": "Nankor (3)",
+      "description": "Koylu gencin kayip Tool Bag'ini Prontera Smelter onunde buldun.",
+      "goal": "Tool Bag'i koylu gence gotur"
+    },
+    "5456": {
+      "title": "Nankor (4)",
+      "description": "Tool Bag'i guvenle teslim ettin. Pek iyi hissettirmese de iyi bir is yaptin; yoluna devam et.",
+      "goal": "Yardim tamamlandi"
+    },
+    "5457": {
+      "title": "Kiz Kardesimi Bul (1)",
+      "description": "Kiz kardesini kaybettigi icin aglayan kizi en yakin siginak olan katedrale gotur.",
+      "goal": "Kizi katedrale gotur"
+    },
+    "5458": {
+      "title": "Kiz Kardesimi Bul (2)",
+      "description": "Kizi, diger bir siginak olan Knight binasindaki kiz kardesine gotur.",
+      "goal": "Kizi Knight binasina gotur"
+    },
+    "5459": {
+      "title": "Kiz Kardesimi Bul (3)",
+      "description": "Kiz kardesinden ayrildigi icin aglayan kizin kardesine kavusmasina yardim ettin.",
+      "goal": "Yardim tamamlandi"
+    },
+    "5460": {
+      "title": "Bariz Blof (1)",
+      "description": "Askeri en yakin siginak olan Knight binasina gotur.",
+      "goal": "Askeri Knight binasina gotur"
+    },
+    "5461": {
+      "title": "Bariz Blof (2)",
+      "description": "Knight binasinda kalabilirdi ama destek icin baska bir yere gitmekte israr etti. Istedigi gibi onu koy ofisine gotur.",
+      "goal": "Askeri koy ofisine gotur"
+    },
+    "5462": {
+      "title": "Bariz Blof (3)",
+      "description": "Geffen'den gelen bu palavraci askerin Prontera'da ne isi var? Yine de ona yardim etmis olmanin bir anlami oldugunu dusun.",
+      "goal": "Yardim tamamlandi"
     }
   }
 }
