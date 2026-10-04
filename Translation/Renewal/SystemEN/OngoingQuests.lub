@@ -18182,85 +18182,85 @@ QuestInfoList = {
 		Summary = "Guneydeki Dimensional Gap bolgesini arastir"
 	},
 	[7194] = {
-		Title = "What's this bloodstain?",
+		Title = "Bu Kan Lekesi Ne?",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"I found blood clotted in the dirt near the crack. Does this have anything to do with Ahat? Show it to <NAVI>[Shai]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI> at the El Dicastes Bar."
 		},
-		Summary = ""
+		Summary = "Kan lekesini sorusturma delili olarak kaydet"
 	},
 	[7195] = {
-		Title = "What's this skin piece?",
+		Title = "Bu Deri Parcasi Ne?",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"I found a frozen piece of skin from a living thing near the crack. Does this have anything to do with Ahat?"
+			"Crack yakininda canli bir varliga ait donmus deri parcasi buldun. Bunun Ahat ile bir ilgisi olabilir."
 		},
-		Summary = ""
+		Summary = "Deri parcasini sorusturma delili olarak kaydet"
 	},
 	[7196] = {
-		Title = "What's this suspicious magic power?",
+		Title = "Bu Supheli Buyu Gucu Ne?",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You found a suspicious magical stone fragment. It feels like the magic power from the crack. Does this have anything to do with Ahat?"
+			"Supheli bir sihirli tas parcasi buldun. Crack'ten gelen buyu gucune benziyor ve Ahat ile baglantili olabilir."
 		},
-		Summary = ""
+		Summary = "Sihirli tas parcasini sorusturma delili olarak kaydet"
 	},
 	[7197] = {
-		Title = "Sapha Certifications?",
+		Title = "Sapha Sertifikalari?",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"It's unnecessary to bring Sapha Certifications to have an audience with Ahat. Carry out some quests you can find throughout the capital and collect them, then go to the <NAVI>[Entrance Manager]<INFO>dic_in01,39,261,0,101,0,</INFO></NAVI> in El Dicastes."
 		},
-		Summary = "Collect 3 Sapha Certification"
+		Summary = "3 Sapha Certification topla"
 	},
 	[7198] = {
-		Title = "Audience with Ahat",
+		Title = "Ahat ile Gorusme",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"You can have an audience with <NAVI>[Ahat]<INFO>dic_in01,300,280,0,101,0,</INFO></NAVI> after paying 3 Sapha Certifications. You can meet Ahat after going up to the Administrative Office in Dicastes Diel."
 		},
-		Summary = ""
+		Summary = "Administrative Office'te Ahat ile gorus"
 	},
 	[7199] = {
-		Title = "Secret Order from Ahat",
+		Title = "Ahat'in Gizli Emri",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Ahat ordered you to remove various traces <NAVI>[around the crack]<INFO>dic_fild02,175,130,0,101,0,</INFO></NAVI>. Collect 10 items each of Clotted Bloodstain, Frozen Piece of Skin, and Strange Magic Stones then report to <NAVI>[Cheshire]<INFO>dic_in01,294,276,0,101,0,</INFO></NAVI>."
 		},
-		Summary = "Remove traces"
+		Summary = "10 Clotted Bloodstain, 10 Frozen Piece of Skin, 10 Strange Magic Stone"
 	},
 	[7200] = {
-		Title = "[Standby] Cheshire's Call",
+		Title = "Cheshire'in Cagrisi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"The work of cleaning up the traces of cracks is done little by little every day so that it is not noticeable. When it's time to meet with <NAVI>[Cheshire]<INFO>dic_in01,294,276,0,101,0,</INFO></NAVI>, let's go to El Dicastes."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Sureyi bekle ve Cheshire ile konus",
 		CoolTimeQuest = 1
 	},
 	[7201] = {
-		Title = "Crack Clearance",
+		Title = "Izleri Temizlemek",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Following the instructions of Ahat and <NAVI>[Cheshire]<INFO>dic_in01,294,276,0,101,0,</INFO></NAVI> of El Dicastes, clear the traces of the <NAVI>[Crack]<INFO>dic_fild02,71,357,0,101,0,</INFO></NAVI> at the foot of Kamidal Mountain every day. As usual, collect 10 items of each of Clotted Bloodstain, Frozen Piece of Skin, and Strange Magic Stones."
 		},
-		Summary = "Remove traces"
+		Summary = "Her iz turunden 10 adet topla"
 	},
 	[7202] = {
-		Title = "Secret Order from Doha - Collecting Evidence",
+		Title = "Doha'nin Gizli Emri - Kanit Topla",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Without being noticed by Cheshire and Ahat, hide each crack trace to submit to Doha as evidence and put it in the report. Collect 1 Solid Bloodstain, 1 Frozen Skin Piece, and 1 Suspicious Magic Stone."
+			"Cheshire ve Ahat fark etmeden Crack izlerinden birer ornek sakla ve Doha'ya kanit olarak gotur."
 		},
-		Summary = "Collecting evidence"
+		Summary = "1 Solid Bloodstain, 1 Frozen Skin Piece, 1 Suspicious Magic Stone"
 	},
 	[7203] = {
-		Title = "Secret order from Doha - Final Report",
+		Title = "Doha'nin Gizli Emri - Final Rapor",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Talked with Jarute, Heslanta about several subjects. After talking with Heslanta bring your findings in a report to <NAVI>[Doha]<INFO>mid_campin,168,170,0,101,0,</INFO></NAVI> at the Expedition Camp."
 		},
-		Summary = "Bring your final Report to Inspector Doha"
+		Summary = "Final raporu Inspector Doha'ya teslim et"
 	},
 	[7204] = {
 		Title = "Spring Bringing Flower",
