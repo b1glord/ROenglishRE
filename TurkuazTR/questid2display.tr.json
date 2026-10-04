@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.18.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 50020-60017 J Roger treasure, Mother's Day, Overlook Water ve Izlude-Geffen monster investigation bloklarindan 60 pending kayit dahil",
+    "version": "7.19.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60018-60114 Byalan-Abyss-Aldebaran-Glastheim investigation ve field hunting bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -20582,6 +20582,306 @@
       "title": "Geffen Dungeon Monster Arastirmasi",
       "description": "Farah'in arastirmasina yardim etmeyi basardin. Bulduklarini Prontera'daki Derik Ver'e rapor ver.",
       "goal": "Derik Ver ile konus"
+    },
+    "60018": {
+      "title": "Byalan Dungeon Monster Arastirmasi",
+      "description": "Korey, Byalan Dungeon'daki monster sayisinin neden arttigini arastirmana yardim etmeni istiyor. Monster'lari avla.",
+      "goal": "35 Cornutus ve 25 Hydra avla, Korey'e don"
+    },
+    "60019": {
+      "title": "Byalan Dungeon Monster Arastirmasi",
+      "description": "Korey, Byalan Dungeon'daki monster sayisinin neden arttigini arastirmana yardim etmeni istiyor. Monster'lari avla.",
+      "goal": "55 Swordfish ve 45 Marc avla, Korey'e don"
+    },
+    "60020": {
+      "title": "Byalan Dungeon Monster Arastirmasi",
+      "description": "Korey, Byalan Dungeon'daki monster sayisinin neden arttigini arastirmana yardim etmeni istiyor. Monster'lari avla.",
+      "goal": "50 Merman ve 40 Strouf avla, Korey'e don"
+    },
+    "60021": {
+      "title": "Byalan Dungeon Monster Arastirmasi",
+      "description": "Korey'in arastirmasina yardim etmeyi basardin. Bulduklarini Prontera'daki Derik Ver'e bildir.",
+      "goal": "Derik Ver ile konus"
+    },
+    "60022": {
+      "title": "Abyss Lake Monster Arastirmasi",
+      "description": "Burada savasmak icin cok zayifsin.",
+      "goal": "Franklin ile konus"
+    },
+    "60023": {
+      "title": "Abyss Lake Monster Arastirmasi",
+      "description": "Burada savasmak icin cok zayifsin.",
+      "goal": "Franklin ile konus"
+    },
+    "60024": {
+      "title": "Abyss Lake Monster Arastirmasi",
+      "description": "Franklin, Abyss Lake Underground Cave'deki monster artisinin nedenini arastirmana yardim etmeni istiyor.",
+      "goal": "30 Blue Acidus ve 30 Gold Acidus avla, Franklin'e don"
+    },
+    "60025": {
+      "title": "Abyss Lake Monster Arastirmasi",
+      "description": "Abyss Lake'te cesaretini kanitladin. Bulduklarini Prontera'daki Derik Ver'e bildir.",
+      "goal": "Derik Ver ile konus"
+    },
+    "60026": {
+      "title": "Arastirmaya Devam",
+      "description": "Derik Ver arastirilacak daha fazla bolge olabilecegini soyluyor.",
+      "goal": "Derik Ver ile konus"
+    },
+    "60027": {
+      "title": "Aldebaran'i Arastir",
+      "description": "Derik Ver, Aldebaran Clock Tower ve cevresindeki field'larin degistigini soyluyor. Clock Tower entrance'taki Marie'yi bul ve yardim et.",
+      "goal": "Aldebaran Clock Tower'da Marie'yi bul"
+    },
+    "60028": {
+      "title": "Monster Arastirmasi",
+      "description": "Derik Ver simdilik monster hareketliligini arastirmayi tamamladi. Biraz dinlendikten sonra tekrar don.",
+      "goal": ""
+    },
+    "60029": {
+      "title": "Aldebaran Monster Arastirmasi",
+      "description": "Marie, Aldebaran bolgesindeki monster artisinin nedenini arastirmak icin yardim istiyor.",
+      "goal": "40 Poring ve 40 Poporing avla, Marie'ye don"
+    },
+    "60030": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower'daki monster artisinin nedenini arastirmak icin yardim istiyor.",
+      "goal": "30 Clock ve 40 Punk avla, Marie'ye don"
+    },
+    "60031": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower'daki monster artisinin nedenini arastirmak icin yardim istiyor.",
+      "goal": "30 Brilight ve 25 Cramp avla, Marie'ye don"
+    },
+    "60032": {
+      "title": "Lutie Field Monster Arastirmasi",
+      "description": "Marie daha fazla yardim istiyor. Aldebaran'in kuzeydogusundaki Santa Helper ile konusup Lutie Field'a git ve monster avla.",
+      "goal": "50 Marin ve 25 Sasquatch avla, Marie'ye don"
+    },
+    "60033": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower yaratiklarini arastirmak icin daha fazla yardim istiyor.",
+      "goal": "30 Alarm ve 50 Archer Skeleton avla, Marie'ye don"
+    },
+    "60034": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower yaratiklarini arastirmak icin daha fazla yardim istiyor.",
+      "goal": "60 Penomena ve 30 Cramp avla, Marie'ye don"
+    },
+    "60035": {
+      "title": "Aldebaran Monster Arastirmasi",
+      "description": "Marie'nin yardima ihtiyaci olan baska bir arastirma var.",
+      "goal": "30 Metaling ve 40 Dustiness avla, Marie'ye don"
+    },
+    "60036": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower yaratiklarini arastirmak icin daha fazla yardim istiyor.",
+      "goal": "50 Stemworm ve 20 Iron Fist avla, Marie'ye don"
+    },
+    "60037": {
+      "title": "Clock Tower Monster Arastirmasi",
+      "description": "Marie, Clock Tower yaratiklarini arastirmak icin daha fazla yardim istiyor.",
+      "goal": "70 High Orc ve 30 Orc Archer avla, Marie'ye don"
+    },
+    "60038": {
+      "title": "Aldebaran Monster Arastirmasi",
+      "description": "Marie, Aldebaran bolgesi monster arastirmasindaki yardimin icin tesekkur ediyor. Prontera'daki Derik Ver'e don.",
+      "goal": "Derik Ver ile konus"
+    },
+    "60039": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Derik Ver, Glastheim'i incelemek icin 5 volunteer buldu. Oraya git ve arastirmalarina yardim et.",
+      "goal": ""
+    },
+    "60040": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Mr. Brando ile konusmaya devam et.",
+      "goal": ""
+    },
+    "60041": {
+      "title": "Monster Arastirmasi",
+      "description": "Derik Ver simdilik monster hareketliligini arastirmayi tamamladi. Biraz dinlendikten sonra tekrar don.",
+      "goal": ""
+    },
+    "60042": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Mr. Brando, Chivalry 1'in arkasindaki esine 5 dakika icinde bir message teslim etmeni istedi.",
+      "goal": "Sure dolmadan Mrs. Brando'yu bul"
+    },
+    "60043": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Mr. Brando, Glastheim monster'larini arastirmak icin yardim istiyor.",
+      "goal": "20 Ghoul ve 10 Whisper avla, Chivalry 1'deki esine don"
+    },
+    "60044": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Mr. Brando, Glastheim monster'larini arastirmak icin yardim istiyor.",
+      "goal": "25 Evil Druid ve 1 Elusive Dark Priest avla, Chivalry 1'deki esine don"
+    },
+    "60045": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Mrs. Brando, Glastheim Prison'daki bir aile uyesine 5 dakika icinde message goturmeni istedi. Castle'a kuzeye git ve prison'u bul.",
+      "goal": "Sure dolmadan message'i teslim et"
+    },
+    "60046": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Mrs. Brando, Glastheim monster'larini arastirmak icin yardim istiyor.",
+      "goal": "20 Rideword ve 50 Raydric avla, Glastheim Prison'daki Kipp'e don"
+    },
+    "60047": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Mrs. Brando, Glastheim monster'larini arastirmak icin yardim istiyor.",
+      "goal": "15 Khalitzburg ve 90 Raydric avla, Glastheim Prison'daki Kipp'e don"
+    },
+    "60048": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Kipp, sister'i Cherice'e 10 dakika icinde message goturmeni istedi. Sewer'da Stings spawning ground entrance yakininda.",
+      "goal": "Sure dolmadan message'i teslim et"
+    },
+    "60049": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Kipp, Glastheim Prison'da daha fazla monster avlayip sewer'daki sister'i Cherice'e rapor vermeni istiyor.",
+      "goal": "25 Zombie Prisoner ve 20 Skel Prisoner avla, sister'ina don"
+    },
+    "60050": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Kipp, Glastheim Prison'da daha fazla monster avlayip sewer'daki sister'i Cherice'e rapor vermeni istiyor.",
+      "goal": "20 Injustice ve 20 Rybio avla, sister'ina don"
+    },
+    "60051": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Cherice, Graveyard'in kuzeybatisindaki Cross yakininda Grandma Vira'ya 6 dakika icinde message goturmeni istedi.",
+      "goal": "Sure dolmadan message'i teslim et"
+    },
+    "60052": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Cherice, Glastheim sewer'da daha fazla monster avlayip Grandma Vira'ya rapor vermeni istiyor.",
+      "goal": "30 Anolian ve 20 Wind Ghost avla, Grandma Vira'ya don"
+    },
+    "60053": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Cherice, Glastheim sewer'da daha fazla monster avlayip Grandma Vira'ya rapor vermeni istiyor.",
+      "goal": "10 Imp ve 40 Majoruros avla, Grandma Vira'ya don"
+    },
+    "60054": {
+      "title": "Glastheim Arastirmasi",
+      "description": "Grandma Vira, husband'inin grave'ini 3 dakika icinde bulmani istedi.",
+      "goal": "Sure dolmadan grave'i bul"
+    },
+    "60055": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Vira, insanlar sevdiklerini huzurla anabilsin diye Graveyard'daki monster'lari avlamani istiyor.",
+      "goal": "25 Wraith ve 10 Skel Prisoner avla, Vira'ya don"
+    },
+    "60056": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Vira, insanlar sevdiklerini huzurla anabilsin diye Graveyard'daki monster'lari avlamani istiyor.",
+      "goal": "2 Dark Priest ve 20 Evil Druid avla, Vira'ya don"
+    },
+    "60057": {
+      "title": "Glastheim Monster Arastirmasi",
+      "description": "Yeni bir hafta basladi. Belki Prontera'daki Derik tekrar yardim istiyordur.",
+      "goal": "Derik Ver ile konus"
+    },
+    "60058": {
+      "title": "Derik Ver'in Kardesi",
+      "description": "Derik, topladigi research'i Juno'daki kardesi Jacob'a goturmeni istedi.",
+      "goal": ""
+    },
+    "60059": {
+      "title": "Tarih Dersi",
+      "description": "Jacob, teorilerini dogrulamak icin Juno Library'de eski tarih kayitlarini aramani istedi.",
+      "goal": ""
+    },
+    "60060": {
+      "title": "Crown of Deceit",
+      "description": "Eski metinler monster'lari frenzy'ye sokabilen Crown of Deceit'ten bahsediyor. Son monster hareketleriyle ilgili olabilir. Jacob'a bildir.",
+      "goal": ""
+    },
+    "60061": {
+      "title": "Magic Solvent",
+      "description": "Jacob crown'u son goruldugu yerde arayacak. Sen de antik gucunu silmek icin solvent malzemeleri topla.",
+      "goal": "30 Dustiness ve 30 Poporing avla"
+    },
+    "60062": {
+      "title": "Crown'u Etkisiz Hale Getir",
+      "description": "Jacob Crown'u buldu, solvent sende. Ikisini Payon'daki mashing mallet ile birlestir. Crown etkisiz olunca Prontera'daki Derik'e anlat.",
+      "goal": ""
+    },
+    "60063": {
+      "title": "Photo Album",
+      "description": "Mr. O'BrewSTER sana bir sey vermeden once 30 dakika beklemelisin.",
+      "goal": ""
+    },
+    "60101": {
+      "title": "Peco Peco Avi",
+      "description": "Gregor kucuk bir odul karsiliginda 50 Peco Peco avlamani istedi. Bu gorev aktifken Bill of Birds teslim edilemez.",
+      "goal": ""
+    },
+    "60102": {
+      "title": "Peco Peco Avi",
+      "description": "Gregor kucuk bir odul karsiliginda 100 Peco Peco avlamani istedi. Bu gorev aktifken Bill of Birds teslim edilemez.",
+      "goal": ""
+    },
+    "60103": {
+      "title": "Peco Peco Avi",
+      "description": "Gregor kucuk bir odul karsiliginda 150 Peco Peco avlamani istedi. Bu gorev aktifken Bill of Birds teslim edilemez.",
+      "goal": ""
+    },
+    "60104": {
+      "title": "Hode Avi",
+      "description": "Shone arastirmasi icin 50 Hode avlamani istedi. Bu gorev aktifken Earthworm Peeling teslim edilemez.",
+      "goal": ""
+    },
+    "60105": {
+      "title": "Hode Avi",
+      "description": "Shone arastirmasi icin 100 Hode avlamani istedi. Bu gorev aktifken Earthworm Peeling teslim edilemez.",
+      "goal": ""
+    },
+    "60106": {
+      "title": "Hode Avi",
+      "description": "Shone arastirmasi icin 150 Hode avlamani istedi. Bu gorev aktifken Earthworm Peeling teslim edilemez.",
+      "goal": ""
+    },
+    "60107": {
+      "title": "Fabre Avi",
+      "description": "Langry bitkileri korumak icin 50 Fabre avlamani istedi. Bu gorev aktifken Fluff teslim edilemez.",
+      "goal": ""
+    },
+    "60108": {
+      "title": "Fabre Avi",
+      "description": "Langry bitkileri korumak icin 100 Fabre avlamani istedi. Bu gorev aktifken Fluff teslim edilemez.",
+      "goal": ""
+    },
+    "60109": {
+      "title": "Fabre Avi",
+      "description": "Langry bitkileri korumak icin 150 Fabre avlamani istedi. Bu gorev aktifken Fluff teslim edilemez.",
+      "goal": ""
+    },
+    "60110": {
+      "title": "Pupa Avi",
+      "description": "Halgus field'i temizlemek icin 50 Pupa avlamani istedi. Bu gorev aktifken Chrysalis teslim edilemez.",
+      "goal": ""
+    },
+    "60111": {
+      "title": "Pupa Avi",
+      "description": "Halgus field'i temizlemek icin 100 Pupa avlamani istedi. Bu gorev aktifken Chrysalis teslim edilemez.",
+      "goal": ""
+    },
+    "60112": {
+      "title": "Pupa Avi",
+      "description": "Halgus field'i temizlemek icin 150 Pupa avlamani istedi. Bu gorev aktifken Chrysalis teslim edilemez.",
+      "goal": ""
+    },
+    "60113": {
+      "title": "Coco Avi",
+      "description": "Nutters, Acorn'lari calindigi icin sinirli. Rahatca toplayabilmesi icin 50 Coco avlamani istedi.",
+      "goal": ""
+    },
+    "60114": {
+      "title": "Coco Avi",
+      "description": "Nutters, Acorn'lari calindigi icin sinirli. Rahatca toplayabilmesi icin 100 Coco avlamani istedi.",
+      "goal": ""
     }
   }
 }
