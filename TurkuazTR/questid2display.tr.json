@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.62.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7565-7577 Rayan Moore, dimensional gap ve Thanatos Tower gorevleri dahil",
+    "version": "6.63.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7578-7584 Flame Basin gunluk gorevleri ve 7593-7604 Temple of the Demon God zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9222,6 +9222,101 @@
       "title": "Uzay Bozulmasi",
       "description": "Zaman ve uzayi kesfetmek bedenini dengesizlestirdi. Aklini kaybetmemek icin tekrar girmeden once dinlen.",
       "goal": "Tekrar girmeden once bekleme suresinin dolmasini bekle"
+    },
+    "7578": {
+      "title": "Cildirmis Kutu",
+      "description": "Flame Basin, dusmanca hareket eden canli kutularla dolmus. Kutulari bastir ve ne olduklarini belirle.",
+      "goal": "1 Bradium Box elde et"
+    },
+    "7579": {
+      "title": "Bradium Toplama",
+      "description": "Cildirmis kutularin buyulenmis Bradium Box oldugu ortaya cikti. Kutulari yok et ve Bradium Box topla.",
+      "goal": "10 Bradium Box topla"
+    },
+    "7580": {
+      "title": "Her Gun Toplama",
+      "description": "Chesher'in planini bozmak icin her gun Bradium Box toplamaya karar verdin. Yarin Hasranta'ya geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7581": {
+      "title": "Riskleri Ortadan Kaldir",
+      "description": "Morocc Fire Vassal, Morocc Twisted Vassal ve Morocc Cold Vassal, bastirma operasyonunun en buyuk tehdidi. Onlari ortadan kaldir.",
+      "goal": "Uc Vassal turunu bastir"
+    },
+    "7582": {
+      "title": "Gunluk Temizlik",
+      "description": "Simdilik diger bastirma ekiplerine birak. Dinlenmeyi hak ettin.",
+      "goal": "1 gun bekle"
+    },
+    "7583": {
+      "title": "Mana Toplama",
+      "description": "Lapine Magic Scholar Avant, anormal derecede guclu Demonlardan Mana Crystalline toplamani istedi. Bu gorev Eliminating Risks ile birlikte yapilabilir.",
+      "goal": "3 Mana Crystalline topla"
+    },
+    "7584": {
+      "title": "Bitmeyen Savas",
+      "description": "Demonlar guclerini korumak icin manayi cekiyor. Avant'a her gun donup Mana Crystalline toplamasina yardim etmeye karar verdin.",
+      "goal": "1 gun bekle"
+    },
+    "7593": {
+      "title": "Demon God Bastirma Operasyonu",
+      "description": "Isi bitirme zamani geldi. Temple of the Demon God'da Morroc'u yen.",
+      "goal": "Demon God Morroc'u yen"
+    },
+    "7594": {
+      "title": "Frost Spider ve Fire Wolf",
+      "description": "Morroc'un yaratiklarini ve takipcilerini yen: Frost Spider Brinaranea ve Fire Wolf Muspellskoll.",
+      "goal": "Brinaranea ve Muspellskoll'u yen"
+    },
+    "7595": {
+      "title": "Dolasan Orb Buyusu",
+      "description": "Yggdrasil ve Orb'dan calinan manayi geri topla. Brilliant Mana, Life Mana ve Earth Mana'lari vurup dagit.",
+      "goal": "Calinan manayi geri topla"
+    },
+    "7596": {
+      "title": "Misafirlerin Yeterliligi",
+      "description": "Temple of the Demon God'a girmek icin anahtar gerekiyor. Gatekeeper Ahat ve Shnaim'i yen, ruhlarini tapinak girisini acmak icin kullan.",
+      "goal": "1 Ahat's Soul ve 1 Shnaim's Soul elde et"
+    },
+    "7597": {
+      "title": "Sahte Tanrinin Dususu",
+      "description": "Yeni bir dunya kurup Tanri olmak isteyen Demon God Morroc'u yendin. Commander Hiva Agip'e rapor ver.",
+      "goal": "Commander'a rapor ver"
+    },
+    "7598": {
+      "title": "Kafesteki Tanri",
+      "description": "Kendi dunyasina hapsedilen Demon God sonsuza kadar aci cekmeye mahkum. Yarin geri don ve onu bir kez daha yen.",
+      "goal": "Yarin geri don"
+    },
+    "7599": {
+      "title": "Bitmeyen Av",
+      "description": "Temple of the Demon God'daki tum Demonlar yenilene kadar av devam ediyor. Adjutant Abidal tamamen dinlendikten sonra geri donmeni istedi.",
+      "goal": "Yarin geri don"
+    },
+    "7600": {
+      "title": "Umut Veren Yarin",
+      "description": "Eclage Orb'u ve Yggdrasil buyuk miktarda mana kaybetti. Mana toplama calismasi suruyor. Temple of the Demon God'a ilerlemeden once dinlen ve Hishieh'e geri don.",
+      "goal": "Yarin geri don"
+    },
+    "7601": {
+      "title": "Temple of the Demon God Phase 1",
+      "description": "Bir sonraki alana ilerlemek icin Frost Spider Brinaranea'yi yen.",
+      "goal": "Frost Spider Brinaranea'yi yen"
+    },
+    "7602": {
+      "title": "Temple of the Demon God Phase 1 Tamamlandi",
+      "description": "Frost Spider Brinaranea'yi yendin.",
+      "goal": "Phase 1 tamamlandi"
+    },
+    "7603": {
+      "title": "Temple of the Demon God Phase 2",
+      "description": "Bir sonraki alana ilerlemek icin Fire Wolf Muspellskoll'u yen.",
+      "goal": "Fire Wolf Muspellskoll'u yen"
+    },
+    "7604": {
+      "title": "Temple of the Demon God Phase 2 Tamamlandi",
+      "description": "Fire Wolf Muspellskoll'u yendin.",
+      "goal": "Phase 2 tamamlandi"
     }
   }
 }
