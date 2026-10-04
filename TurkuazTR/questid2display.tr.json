@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.55.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7379-7410 Port Malaya ruhsal koruma, Perry Ship, Jejeling, kemik toplama ve Bungisngis gorevleri dahil",
+    "version": "6.56.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7411-7453 Eclage, Kardui, Shenime, Avant ve Orb ana hikaye gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8427,6 +8427,221 @@
       "title": "Yarin Bir Ders Daha Ver",
       "description": "Capre Budidai, Bungisngislerin tek bir korkutmayla vazgecmeyecegini soyluyor. Onlari uzak tutmaya devam etmek icin bir gun sonra geri don.",
       "goal": "Bir gun sonra Budidai'ye don"
+    },
+    "7411": {
+      "title": "Gezgin Fome'un Hikayesi",
+      "description": "Fome'dan Lapineler ve Eclage hakkindaki hikayeyi dinledin.",
+      "goal": ""
+    },
+    "7412": {
+      "title": "Gezgin Litrip'in Hikayesi",
+      "description": "Litrip'ten Bifrost Tower hakkindaki hikayeyi dinledin.",
+      "goal": ""
+    },
+    "7413": {
+      "title": "Gezgin Chiba'nin Hikayesi",
+      "description": "Chiba'dan Lapinelerin duzeni ve gorevleri hakkinda bilgi aldin.",
+      "goal": ""
+    },
+    "7414": {
+      "title": "Eclage Muhafizinin Mesaji",
+      "description": "Eclage'den biri seninle gorusmek istiyor. Eclage meydaninin dogu cikisindaki muhafizdan yol tarifi al.",
+      "goal": "Eclage dogu cikisindaki muhafizla konus"
+    },
+    "7415": {
+      "title": "Lapine Genel Sekreteri",
+      "description": "Eclage muhafizinin yonlendirmesiyle biriyle bulusacaksin. Kaybolursan muhafizdan tekrar yol tarifi al.",
+      "goal": "Genel sekreter ile konus"
+    },
+    "7416": {
+      "title": "Gorusme Icin Bekleyis",
+      "description": "Genel sekreterle konustuktan sonra Lapinelerin lideri Kardui ile gorusme talep ettin. Bekleme bitince yeniden muhafizdan yonlendirme al.",
+      "goal": "Bekledikten sonra yol tarifi al"
+    },
+    "7417": {
+      "title": "Kardui'nin Ricasi",
+      "description": "Kardui, Eclage'e daha fazla katkida bulunursan seni daha ciddi dinleyecegini soyledi. Yardima ihtiyaci olan Lapinelerle ilgilen.",
+      "goal": "Eclage icin calis"
+    },
+    "7418": {
+      "title": "Eclage Icin 1",
+      "description": "Mesgul Eclage muhafizi icin Yai suslemesinde kullanilacak malzemeleri topla. Her birinden 5 tane Horns of Hillslion, Mystic Horns ve Horse's Hooves yeterli.",
+      "goal": "5 Horns of Hillslion, 5 Mystic Horns, 5 Horse's Hooves getir"
+    },
+    "7419": {
+      "title": "Eclage Icin 2",
+      "description": "Bifrost kenarinda iletisim sorunlari yasayan postaci Roy'a yardim etmek icin Splendide Contact Officer'dan gelen postalari teslim et.",
+      "goal": "Splendide Contact Officer ve Mailbox ile ilgilen"
+    },
+    "7420": {
+      "title": "Eclage Icin 3",
+      "description": "Tatli seven Leo icin Splendide yapimi Pinguicula's Pickled Fruits ve Luciola's Honey Jam getir. Bunlar advanced base'de coin ile alinabilir.",
+      "goal": "3 Pinguicula's Pickled Fruits ve 3 Luciola's Honey Jam getir"
+    },
+    "7421": {
+      "title": "Bu Kadari Yeter",
+      "description": "Cesitli islerle ugrasirken Kardui'nin habercisi sana ulasti. Spiral yolu takip edip en ust kattaki ofisinde Kardui ile gorus.",
+      "goal": "Kardui ile konus"
+    },
+    "7422": {
+      "title": "Kardui'nin Hediyesi",
+      "description": "Kardui, Chief of Staff Shenime'den alabilecegin bir hediye hazirladigini soyledi.",
+      "goal": "Shenime'den hediyeyi al"
+    },
+    "7423": {
+      "title": "Kral Hakkinda Soylenti 1",
+      "description": "Leo ile konusurken Kardui hakkinda huzursuz edici seyler duydun. Ayrintiya girmedi ama konu endise verici.",
+      "goal": ""
+    },
+    "7424": {
+      "title": "Kral Hakkinda Soylenti 2",
+      "description": "Fome beklenmedik bir sey anlatti: Lapineler Kardui'den gizlice hosnutsuz. Bu, Leo'nun daha once sakladigi dusuncelere benziyor.",
+      "goal": ""
+    },
+    "7425": {
+      "title": "Kral Hakkinda Soylenti 3",
+      "description": "Lapinelerle konustukca Cenes'in baskici yonetimi ile Kardui arasinda bag kuruldu. Durum cok ciddi olmasa da Kardui'ye bakis Cenes'e olan eski bakisi andiriyor.",
+      "goal": ""
+    },
+    "7426": {
+      "title": "Kral Hakkinda Soylenti 4",
+      "description": "Kardui, Lapine irkinin buyuk bir felaketle karsilastigi donemde lider olmus. Halk politikalarina tamamen karsi degil ama tam olarak desteklemiyor da.",
+      "goal": ""
+    },
+    "7427": {
+      "title": "Boyle Zamanda Dogrudan Yuzles",
+      "description": "Lapinelerin Kardui'ye karsi kaygi ve korkusunun gercek nedenini tam anlayamadin. En azindan konuyu dogrudan Kardui ile konusmak en dogrusu olabilir.",
+      "goal": "Kardui ile konus"
+    },
+    "7428": {
+      "title": "Vahsi Yai",
+      "description": "Her gun gece gunduz nobet tutan Eclage muhafizi Minuel icin Yai malzemeleri topla.",
+      "goal": "10 Horns of Hillslion, 10 Mystic Horns, 10 Horse Hooves getir"
+    },
+    "7429": {
+      "title": "Vahsi Yeni Moda",
+      "description": "Minuel'in topladigi malzemeler Yai suslemelerinde moda oldu. Modayi surdurmek icin malzemeleri duzenli olarak toplamaya devam et.",
+      "goal": "Bir sure sonra Minuel ile konus"
+    },
+    "7430": {
+      "title": "Uzayi Asan Postaci",
+      "description": "Bifrost kenarinda sorun yasayan Roy'un yerine Splendide'den gelen postalari teslim ettin.",
+      "goal": "Splendide Contact Office ve Mailbox ile ilgilen"
+    },
+    "7431": {
+      "title": "Postaci Asla Dinlenmez",
+      "description": "Postalar duzenli olarak teslim edilmeli. Bir sure sonra yeniden kontrol et.",
+      "goal": "Bir sure sonra Roy ile konus"
+    },
+    "7432": {
+      "title": "Cicekler Ulkesinin Belalilari",
+      "description": "Yolculari rahatsiz eden Menblatt ve Petal'lara kimin patron oldugunu goster. Resmiyette devriye ama aslinda temizlik gorevi.",
+      "goal": "Menblatt ve Petal'lari yok et"
+    },
+    "7433": {
+      "title": "Surekli Rehberlik Gerekli",
+      "description": "Leo bir kez daha Menblatt ve Petal'lari devriye sirasinda bastirman icin yardim istiyor. Bir sure sonra yeniden kontrol et.",
+      "goal": "Bir sure sonra Leo ile konus"
+    },
+    "7434": {
+      "title": "Kardui'nin Agabeyi",
+      "description": "Kardui agabeyine bir mektup gonderiyor. Agabeyi Bifrost Tower'in en ust katinda yasiyor. Mektubu ona teslim et.",
+      "goal": "Mektubu teslim et"
+    },
+    "7435": {
+      "title": "Mektubu Okuma Zamani",
+      "description": "Hisie mektubu okumak icin biraz zaman istedi. Birkaç dakika bekle.",
+      "goal": "Mektubu okumasi bitene kadar bekle"
+    },
+    "7436": {
+      "title": "Buyu Bilgini Avant",
+      "description": "Kardui'nin mektubunda babasi Avant the Scholar of Magics'i bulma ricasi da var. Eclage icinde Avant hakkinda bilgi toplamasi icin Hisie'ye yardim et.",
+      "goal": "Avant hakkinda bilgi ara"
+    },
+    "7437": {
+      "title": "Shenime'nin Ricasi",
+      "description": "Avant hakkinda bilgi bulamadin ama Shenime senden sponsor oldugu buyu bilgini icin deney malzemeleri toplamani istedi.",
+      "goal": "10 Dust Ball ve 10 Leaf Bookmark getir"
+    },
+    "7438": {
+      "title": "Gizli Sponsorluk",
+      "description": "Shenime sponsor oldugu buyu bilgini hakkinda hicbir ayrinti vermedi ve konuyu unutmani istedi. Baska bilen biri olabilir.",
+      "goal": "Bilgi ara"
+    },
+    "7439": {
+      "title": "Shenime'nin Destekledigi Buyu Bilgini",
+      "description": "Hisie, Shenime'yi takip ederek buyu bilgininin yerinin bulunabilecegini soyledi. Shenime'nin gorevlerini ve hareketlerini arastir.",
+      "goal": "Bilgi ara"
+    },
+    "7440": {
+      "title": "Minuel'in Tanikligi",
+      "description": "Eclage muhafizi Minuel, Shenime'nin sik sik Yai'nin ters yonu olan doguya gittigini soyledi. Bunu Hisie ile konus.",
+      "goal": "Hisie ile konus"
+    },
+    "7441": {
+      "title": "Postaniz Var",
+      "description": "Shenime posta gonderiyormus gibi davranarak buyu bilgininin Yai'sini ziyaret etmeye karar verdiniz. Hisie bu kisinin Avant olup olmadigini dogrulayacak.",
+      "goal": "10 Dust Ball ve 10 Leaf Bookmark getir"
+    },
+    "7442": {
+      "title": "Buyu Bilgininin Kimligi",
+      "description": "Kurulan planla bulunan buyu bilgininin gercekten Avant oldugu ortaya cikti. Bunu Kardui'ye bildir.",
+      "goal": "Kardui ile konus"
+    },
+    "7443": {
+      "title": "Arastirmaya Mudahale Et",
+      "description": "Kardui ve Hisie, Avant'in ne arastirdigini ogrenmek ve calismasina mudahale etmek istiyor. Kardeslerin kucuk bir intikami olabilir.",
+      "goal": "Avant'in arastirmasina mudahale et"
+    },
+    "7444": {
+      "title": "Avant Ne Arastiriyordu?",
+      "description": "Avant, Orb'un buyu gucunu cikarma yontemlerini arastiriyordu. Bu tehlikeli bilgi nedeniyle arastirma malzemelerini hemen Kardui'ye gotur.",
+      "goal": "Arastirma malzemelerini Kardui'ye teslim et"
+    },
+    "7445": {
+      "title": "Avant'in Arkasindaki Kisi",
+      "description": "Avant'in Orb arastirmasinin arkasindaki gucu arastirdin. En guclu supheli sponsor olan Shenime. Gercegi ortaya cikarmak icin onunla yuzles.",
+      "goal": "Shenime ile konus"
+    },
+    "7446": {
+      "title": "Sonucsuz Konusma",
+      "description": "Shenime ile konustun ama somut sonuc alamadin. Avant tarafindan kandirilmis olabilecegini soyluyor. Ayrica Kardui'nin Orb cevresindeki savunmayi artirmasindan rahatsiz.",
+      "goal": "Kardui'ye rapor ver"
+    },
+    "7447": {
+      "title": "Orb Etrafindaki Ikilem",
+      "description": "Avant'in arastirmasindan cok Kardui'ye olan guvensizligi ortaya cikardin. Shenime, Kardui'nin karar verme yetisinin zayiflamadigini kanitlamasini bekliyor.",
+      "goal": "Kardui'ye rapor ver"
+    },
+    "7448": {
+      "title": "Bir Seyler Ters",
+      "description": "Kardui ve Hisie ile konustuktan sonra en supheli kisinin Shenime olduguna karar verdiniz. Orb konusunda Kardui'nin kararlarina neden direndigini arastir.",
+      "goal": "Shenime'yi gozlemle"
+    },
+    "7449": {
+      "title": "Orb'un Cekiciligi",
+      "description": "Shenime Orb'un lighting room'unda konusmayi teklif etti. Dusunmek icin zaman istedigini soyleyip once Kardui'ye haber vermeye karar verdin.",
+      "goal": "Kardui'ye rapor ver"
+    },
+    "7450": {
+      "title": "Orb Aydinlatma Odasi",
+      "description": "Shenime'nin seni neden Orb'un lighting room'una cekmeye calistigini bilmiyorsun. Gercegi anlamak icin simdilik onun istedigi gibi davran.",
+      "goal": "Shenime ile lighting room'a git"
+    },
+    "7451": {
+      "title": "Ihanet",
+      "description": "Her sey karmasik hale geldi. Lighting room'da savastigin canavar Demon King'in hizmetkari degildi; seni fark ettirmeden kontrol ettiler. Shenime herkese ihanet etti.",
+      "goal": "Kardui'ye rapor ver"
+    },
+    "7452": {
+      "title": "Shenime'yi Bul",
+      "description": "Tum olaylarin sorumlusu Shenime ortadan kayboldu. Hisie'nin kaynaklarina gore Bifrost'ta zayif bir buyu izi hissediliyor.",
+      "goal": "Kuzey Bifrost'u arastir"
+    },
+    "7453": {
+      "title": "Shenime'nin Sonu",
+      "description": "Bifrost'un kuzeyinden guneye giden yol eskiden acikti ancak simdi guneyde buyuk bir yarik tarafindan kapatilmis. Yariga giderken Shenime'nin cesedini buldun.",
+      "goal": "Kardui'ye rapor ver"
     }
   }
 }
