@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.79.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8136-8171 Moscovia Golden Key, Lusalka, Marozka, Baba Yaga, Maria Morebna ve Koshei gorevleri dahil",
+    "version": "6.80.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8181-8189 Sight Blaster ve Elemental Change ile 8190-8195 Charming Wink egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10797,6 +10797,81 @@
       "title": "Living ve Dead Water",
       "description": "Baba Yaga Living Water ve Dead Water'i verdi. Maria'ya git; once yarayi ve laneti temizlemek icin Dead Water, sonra ruhunu geri getirmek icin Living Water kullan.",
       "goal": "Maria'yi iki suyla kurtar"
+    },
+    "8181": {
+      "title": "Sight Blaster",
+      "description": "Bu skill kolay gorunse de ogrenmesi zordur. Dusmanlari geri itme konusunda uzman bir Knight bul ve Prontera'da Push Back teorisini ogren. Mini-Map'te saat 11 yonunu kontrol et.",
+      "goal": "Push Back teorisini ogren"
+    },
+    "8182": {
+      "title": "Push Back Teorisi",
+      "description": "Push Back teorisini ogrendin. Simdi konsantre olup kendi basina pratik yap.",
+      "goal": "Meow'a geri don"
+    },
+    "8183": {
+      "title": "Sight Blaster",
+      "description": "Meow verdigi egitimin karsiliginda ^ff000010 Crystal Blue, 10 Green Live, 10 Red Blood ve 10 Wind of Verdure^000000 istiyor.",
+      "goal": "Malzemeleri Meow'a getir"
+    },
+    "8184": {
+      "title": "Elemental Converter",
+      "description": "Temel bir elemental converter yapmak icin ^ff00007 Horn, 12 Rainbow Shell, 10 Snail's Shell, 4 Blank Scroll ve 10 Scorpion Tail^000000 getir.",
+      "goal": "Malzemelerle Mishuna'ya don"
+    },
+    "8185": {
+      "title": "Elemental Change",
+      "description": "Diger skill olan ^ff0000Elemental Change^000000'i ogrenmeye hazirsin. Mishuna ders icin hazirlik yapacak; daha sonra tekrar konus.",
+      "goal": "Mishuna ile daha sonra konus"
+    },
+    "8186": {
+      "title": "Fire Elemental Change",
+      "description": "^ff000020 Red Blood, 1 Payon Solution ve 1 Morocc Solution^000000 getirerek ^ff0000Fire Elemental Change^000000 ogrenebilirsin.",
+      "goal": "Malzemelerle Mishuna'ya don"
+    },
+    "8187": {
+      "title": "Earth Elemental Change",
+      "description": "^ff000020 Green Live, 1 Payon Solution ve 1 Morocc Solution^000000 getirerek ^ff0000Earth Elemental Change^000000 ogrenebilirsin.",
+      "goal": "Malzemelerle Mishuna'ya don"
+    },
+    "8188": {
+      "title": "Wind Elemental Change",
+      "description": "^ff000020 Wind of Verdure, 1 Payon Solution ve 1 Morocc Solution^000000 getirerek ^ff0000Wind Elemental Change^000000 ogrenebilirsin.",
+      "goal": "Malzemelerle Mishuna'ya don"
+    },
+    "8189": {
+      "title": "Water Elemental Change",
+      "description": "^ff000020 Crystal Blue, 1 Payon Solution ve 1 Morocc Solution^000000 getirerek ^ff0000Water Elemental Change^000000 ogrenebilirsin.",
+      "goal": "Malzemelerle Mishuna'ya don"
+    },
+    "8190": {
+      "title": "Charming Wink",
+      "description": "Canell derste kullanmak icin ^FF00001 Crystal Mirror^000000 istiyor. Aynayi getir.",
+      "goal": "Canell'e 1 Crystal Mirror getir"
+    },
+    "8191": {
+      "title": "Charming Advisor",
+      "description": "Guzellik konusunda dogru tutumu ogrendin. Simdi ileri seviye bir cazibe teknigi icin Prontera Church'teki Canell'in kiz kardesini bul.",
+      "goal": "Prontera Church'teki egitmeni bul"
+    },
+    "8192": {
+      "title": "Bencil Danisman",
+      "description": "Aelle gercek bir ^FF0000Alcohol^000000ic icecek ve ders enerjisi icin ^FF00001 Apple, 3 Banana, 5 Well-Baked Cookie^000000 ile guzel bir ^FF0000China^000000 istiyor.",
+      "goal": "Icecek ve yiyecekleri Aelle'ye getir"
+    },
+    "8193": {
+      "title": "Bencil Danisman",
+      "description": "Aelle en kolay, ince ve etkileyici jestin ^FF0000wink^000000 oldugunu anlatti. Bu teknigi ogrenmek cazibeni artiracak.",
+      "goal": "Wink teknigini ogren"
+    },
+    "8194": {
+      "title": "Sarhos Danisman",
+      "description": "Aelle artik konusamayacak kadar sarhos. Kiz kardesi Canell ile konus.",
+      "goal": "Canell ile konus"
+    },
+    "8195": {
+      "title": "Nazik Canell",
+      "description": "Canell, gercek bir Dancer'in wink tekniginin sirrini kendi basina cozebilmesi gerektigini soyluyor ama yine de sana anlatacak.",
+      "goal": "Canell'den Charming Wink'i ogren"
     }
   }
 }
