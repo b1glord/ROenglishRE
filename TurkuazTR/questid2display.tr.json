@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.96.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11199-11295 Bifrost, Mora Village, Malangdo, Yggdrasilberry, Star Candy ve Port Malaya Nurse bloklarindan 60 pending kayit dahil",
+    "version": "6.97.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11296-11355 Port Malaya Nurse, Eclage, Moreng-Yube, Criatura Academy ve Dimensional Travel bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -13982,6 +13982,306 @@
       "title": "Port Malaya'daki Nurse",
       "description": "Yakalanirim diye iyi bakamamistim ama buyukannem olduktan uzun zaman sonra oraya gittigimde bir cubuk gordugumu hatirliyorum.",
       "goal": "Hospital cevresini arastir"
+    },
+    "11296": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Derine saplanmis cubugu cikardin. Hospital'in melankolik havasi iki katina cikmis gibi.",
+      "goal": "Bu agimat'i Las'a gotur"
+    },
+    "11297": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Lutfen buyukannemi ziyaret eder misin? Ben burada hospital'i kontrol edecegim.",
+      "goal": "Koyun batisinda, hospital'in biraz kuzeyindeki buyukannesini ziyaret et"
+    },
+    "11298": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Hospital'i yapmak icin koydeki eski agaci kestiklerinde boyle bir sey olacagini tahmin etmistim.",
+      "goal": "Buyukanneyle konusmaya devam et"
+    },
+    "11299": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Nurse Las hospital'in onunde tek basina tehlikede olabilir.",
+      "goal": "Hospital'a geri don"
+    },
+    "11300": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "1F kapisi acik olduguna gore birlikte iceri girelim.",
+      "goal": "Hospital icinde Las ile konus"
+    },
+    "11301": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Once ben etrafa baktim ama bazi ayrintilari kacirmis olabilirim. 2F girisine bakar misin?",
+      "goal": "2F girisini arastir"
+    },
+    "11302": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Bir agimat buldun. Biraz daha arayalim. Boyle bir yerde boyle bir seye rastlamak garip.",
+      "goal": "Yakinlarda ara"
+    },
+    "11303": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Giris surguyle kapaliyken nurse nasil gecmis olabilir?",
+      "goal": "Las'a geri don"
+    },
+    "11304": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Hospital disina agimat yapistiran buyukanne bu agimat hakkinda bir sey biliyor olabilir.",
+      "goal": "Buyukanneyle konus"
+    },
+    "11305": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Bunu koyun kuzeyindeki Shaman'a yaptirdim.",
+      "goal": "Koyun kuzeyindeki Shaman'i ziyaret et"
+    },
+    "11306": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Uzerinden cok ugursuz bir enerji hissediyorum.",
+      "goal": "Bir agimat aldin. Las'a geri don"
+    },
+    "11307": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Bu agimat'i 2F girisinde gordugumuz agimat'in ustune yapistiralim. Ondan gelen ugursuz enerjiyi engelleyebilir.",
+      "goal": "Agimat'i 2F girisindeki agimat'in ustune yapistir"
+    },
+    "11308": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Agimat'i digerinin ustune yapistirir yapistirmaz ugursuz enerji Las'in dedigi gibi azaldi.",
+      "goal": "Las seni oyuna getirmis gibi. Hospital onundeki nurse ile konus"
+    },
+    "11309": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Sadece isimi bozmakla kalmadin, onu odaya da getirdin. Artik bundan sen sorumlusun. Kacmayi dusunme.",
+      "goal": "Bangungot'u yok et ve geri don"
+    },
+    "11310": {
+      "title": "Eclage Girisi",
+      "description": "Adini, meslegini ve seviyeni doldurduktan sonra belgeleri Immigration Officer'a teslim et.",
+      "goal": "Bir dakika bekle"
+    },
+    "11311": {
+      "title": "Eclage Girisi",
+      "description": "Sehre girmek icin security guard ile konus.",
+      "goal": "Security guard ile konus"
+    },
+    "11312": {
+      "title": "Goliath",
+      "description": "Kopru hakkinda bilgi almak icin fairy carpenter ile tekrar konus.",
+      "goal": "Kopru hakkinda bilgi al"
+    },
+    "11313": {
+      "title": "Goliath",
+      "description": "Sehrin disindaki Tower yakininda bulunan Golie'den kopruyu al.",
+      "goal": "Golie'ye git"
+    },
+    "11314": {
+      "title": "Goliath",
+      "description": "Kopruyle birlikte Fon'a geri don.",
+      "goal": "Carpenter Fon'a geri don"
+    },
+    "11315": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Eclage girisi yakinindaki Fon'un arkadasi Glaces'e Fon'un bugun gelemeyecegini soyle.",
+      "goal": "Glaces ile konus"
+    },
+    "11316": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Sehirde bir yerde Yube'yi bul.",
+      "goal": "Yube'yi bul"
+    },
+    "11317": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Glaces'e geri don ve Moreng'in yasini sor.",
+      "goal": "Glaces ile konus"
+    },
+    "11318": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Plaza'daki Murah'a geri don ve Moreng'in yasini sor.",
+      "goal": "Murah ile konus"
+    },
+    "11319": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Sehrin dogu ucundaki Shul'u bul ve Moreng'in yasini sor.",
+      "goal": "Shul ile konus"
+    },
+    "11320": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Sehrin bati ucundaki Tato'yu bul ve Moreng'in yasini sor.",
+      "goal": "Tato ile konus"
+    },
+    "11321": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Yube, Glaces, Murah, Shul ve Tato'dan topladigin bilgilerle Moreng'in yasini hesapla ve Yube'ye bildir.",
+      "goal": "Yube ile konus"
+    },
+    "11322": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Yube mum fitillerini hazirlarken Moreng'in yasi kadar Dust Ball getirip mum yap.",
+      "goal": "Dust Ball topla"
+    },
+    "11323": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Dogum gunu mumlarini Glaces'e teslim et.",
+      "goal": "Dogum gunu mumlarini teslim et"
+    },
+    "11324": {
+      "title": "Zaman Akmaya Devam Ediyor",
+      "description": "Dogum gunu yaklasan Moreng'e ne istedigini sor.",
+      "goal": "Moreng ile konus"
+    },
+    "11325": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Moreng yeni bir Yai yapmak icin efsanelerde gecen bir kusun yumurtasini istiyor. Efsaneyi dinle.",
+      "goal": "Moreng ile konus"
+    },
+    "11326": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Plaza'daki yasli adama efsanevi kusu sor.",
+      "goal": "Yasli adamla konus"
+    },
+    "11327": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Sehrin disinda feather ile ilgisi olan traveler'a sor.",
+      "goal": "Traveler ile konus"
+    },
+    "11328": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Traveler'in hikayeleri uydurmaymis. Feather'i ona satan plaza'daki merchant'i bul.",
+      "goal": "Merchant ile konus"
+    },
+    "11329": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Dev feather hakkinda bilgi edindin. Moreng'e geri don.",
+      "goal": "Moreng ile konus"
+    },
+    "11330": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Moreng'in ne istedigini ogrendin. Glaces'e geri don.",
+      "goal": "Glaces ile konus"
+    },
+    "11331": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Glaces, Moreng'i ziyaret edecek. Yube ile konusmani oneriyor.",
+      "goal": "Yube ile konus"
+    },
+    "11332": {
+      "title": "Tavuk mu Yumurta mi",
+      "description": "Splendide'e gonderilecek seed'i Seed Box icine paketlemelisin. Zor bir islem oldugu icin dikkatli ol.",
+      "goal": "Yube ile konus"
+    },
+    "11333": {
+      "title": "Kirmizi Seed ve Yesil Seed",
+      "description": "Seed guvenle container'a paketlendi. Plaza'da bekleyen delivery man'e ver.",
+      "goal": "Teslimati kaydet"
+    },
+    "11334": {
+      "title": "Kirmizi Seed ve Yesil Seed",
+      "description": "Seed Box delivery man'e verildi. Yube'nin evine geri don.",
+      "goal": "Yube ile konus"
+    },
+    "11335": {
+      "title": "Hayal Kuran Cocuk",
+      "description": "Dreaming Boy Oliver acorn istiyor. Acorn getir.",
+      "goal": "1 Bunch of Acorns"
+    },
+    "11336": {
+      "title": "Hayal Kuran Cocuk",
+      "description": "Dreaming Boy Oliver birden kaybolunca evden disari firladin. Simdi tekrar eve gir.",
+      "goal": "Eve geri gir"
+    },
+    "11337": {
+      "title": "Hayal Kuran Cocuk",
+      "description": "Dreaming Boy Oliver hicbir yerde yok. Ne oldu? Du'nun grubuyla konus.",
+      "goal": "Du'nun grubuyla konus"
+    },
+    "11338": {
+      "title": "Subino ile Konus",
+      "description": "Criatura Academy'de hunting questlerden sorumlu Subino ile konus.",
+      "goal": "Subino ile konus"
+    },
+    "11339": {
+      "title": "Dunyanin En Lezzetlisi",
+      "description": "10 Poring avla ve 5 Jellopy topla. Criatura Academy'de bekleyen Subino ile bulus. Poring'ler Izlude'un hemen batisindaki field bolgesinde bulunur.",
+      "goal": "Poring(10), Jellopy(5)"
+    },
+    "11340": {
+      "title": "Carrot Cok Lezzetli!",
+      "description": "10 Lunatic avla ve saglikli, lezzetli bir Carrot getir. Sonra Subino'ya don. Lunatic'ler Izlude'un hemen batisindaki field bolgesinde bulunur.",
+      "goal": "Lunatic(10), Carrot(1)"
+    },
+    "11341": {
+      "title": "Fabre'nin Yumusay Giysisi",
+      "description": "10 Fabre avla ve 3 Fluff topla, sonra Subino'ya don. Fabre'ler Izlude'un hemen batisindaki field bolgesinde kolayca bulunur.",
+      "goal": "Fabre(10), Fluff(3)"
+    },
+    "11342": {
+      "title": "Antidote Malzemesi~",
+      "description": "Antidote malzemesi icin 10 Hornet avla ve 3 Bee Sting bul, sonra Subino'ya don. Hornet'ler Prontera'nin batisindaki field bolgesinde kolayca bulunur.",
+      "goal": "Hornet(10), Bee's Sting(3)"
+    },
+    "11343": {
+      "title": "Alice ile Konus",
+      "description": "Criatura Academy Acolyte'larindan sorumlu Alice ile konus.",
+      "goal": "Alice ile konus"
+    },
+    "11344": {
+      "title": "Bariyer!!",
+      "description": "Pupa kabuguna tutacak takmak icin 5 Pupa avla ve 2 Shell bul, sonra Subino'ya don. Pupa'lar Izlude'un batisindaki field bolgesinde bulunur.",
+      "goal": "Pupa(5), Shell(2)"
+    },
+    "11345": {
+      "title": "Alice ile Konus",
+      "description": "Prontera Church'taki Alice ile konus.",
+      "goal": "Alice ile konus"
+    },
+    "11346": {
+      "title": "Acolyte - Nemli Yaratiklar (LV.13)",
+      "description": "Abandoned Ship 1F'i isgal eden 20 Roda Frog ve 20 Denopice avla, sonra Alice'e don.",
+      "goal": "Roda Frog(20), Denopice(20)"
+    },
+    "11347": {
+      "title": "Acolyte - Yumusay Kemik (LV.18)",
+      "description": "Olmeden once kalsiyum eksikligi yasamis olabilecek yumusak kemikli 30 Greasle avla ve Alice'e rapor ver.",
+      "goal": "Greasle(30)"
+    },
+    "11348": {
+      "title": "Acolyte - Saglam Kemik (LV.23)",
+      "description": "Tahta gibi sert olan kirilabilir, tas gibi katilar da kolayca catlayabilir. 30 Tibia avla ve Alice'e rapor ver.",
+      "goal": "Tibia(30)"
+    },
+    "11349": {
+      "title": "Boyut Yolculugu",
+      "description": "Sadece konusmaktan bile yorulup tekrar bilincini kaybetti. Yemesi icin Monster's Feed ver.",
+      "goal": "Monster's Feed"
+    },
+    "11350": {
+      "title": "Boyut Yolculugu",
+      "description": "Ona Monster's Feed verdin. Konusmaya devam et.",
+      "goal": "Konusmaya devam et"
+    },
+    "11351": {
+      "title": "Boyut Yolculugu",
+      "description": "Kuzeybati Sphinx yakinindaki oasis'te Tamarin ile konus.",
+      "goal": "Tamarin ile konus"
+    },
+    "11352": {
+      "title": "Boyut Yolculugu",
+      "description": "Dimensional Gap'teki Tamarin ile konus.",
+      "goal": "Dimensional Gap'e git"
+    },
+    "11353": {
+      "title": "Boyut Yolculugu",
+      "description": "2F'e cik ve toprakla kapli Dimensional Gap'i bul.",
+      "goal": "2F'teki catlagi bul"
+    },
+    "11354": {
+      "title": "Ornek Toplama",
+      "description": "Gap uzerinden teleport oldun.",
+      "goal": "Barget Tiblack ile konus"
+    },
+    "11355": {
+      "title": "Ornek Toplama",
+      "description": "20 fire pit incele ve Firebug'lardan 50 Burning Insect Shell topla.",
+      "goal": "Fire pit'leri incele"
     }
   }
 }
