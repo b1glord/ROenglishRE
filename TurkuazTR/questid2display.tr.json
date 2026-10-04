@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.36.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62693-62754 Undead Danielle, Unholy Ghost, Day of the Dead ve Juno-Prontera-Lighthalzen Bounty Board bloklarindan 60 pending kayit dahil",
+    "version": "7.37.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62755-62817 Lighthalzen-Hugel-El Dicastes-Rune Midgards-Geffen-Prontera Bounty Board, The Peco's Roar ve Jumping Janeway bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -25981,6 +25981,306 @@
     "62754": {
       "title": "Bounty Board: Remover",
       "description": "150 Remover monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62755": {
+      "title": "Bounty Board: Laurell Weinder",
+      "description": "150 Laurell Weinder monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62756": {
+      "title": "Bounty Board: Errende Ebecee",
+      "description": "150 Errende Ebecee monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62757": {
+      "title": "Bounty Board: Armeyer Dinze",
+      "description": "150 Armeyer Dinze monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62758": {
+      "title": "Bounty Board: Wickbine Tres",
+      "description": "150 Wickbine Tres monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62759": {
+      "title": "Bounty Board: Kavach Icarus",
+      "description": "150 Kavach Icarus monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62760": {
+      "title": "Bounty Board: Egnigem Cenia",
+      "description": "150 Egnigem Cenia monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62761": {
+      "title": "Bounty Board: Kathryne Keyron",
+      "description": "150 Kathryne Keyron monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62762": {
+      "title": "Bounty Board: Margaretha Sorin",
+      "description": "150 Margaretha Sorin monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62763": {
+      "title": "Bounty Board: Cecil Damon",
+      "description": "150 Cecil Damon monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62764": {
+      "title": "Bounty Board: Eremes Guile",
+      "description": "150 Eremes Guile monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62765": {
+      "title": "Bounty Board: Seyren Windsor",
+      "description": "150 Seyren Windsor monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62766": {
+      "title": "Bounty Board: Howard Alt-Eisen",
+      "description": "150 Howard Alt-Eisen monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62767": {
+      "title": "Bounty Board: Trentini",
+      "description": "150 Trentini monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62768": {
+      "title": "Bounty Board: Celia Alde",
+      "description": "150 Celia Alde monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62769": {
+      "title": "Bounty Board: Alphoccio",
+      "description": "150 Alphoccio monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62770": {
+      "title": "Bounty Board: Gertie",
+      "description": "150 Gertie monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62771": {
+      "title": "Bounty Board: Chen Lio",
+      "description": "150 Chen Lio monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62772": {
+      "title": "Bounty Board: Flamel Emure",
+      "description": "150 Flamel Emure monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62773": {
+      "title": "Bounty Board: Randel Lawrence",
+      "description": "150 Randel Lawrence monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62774": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Morocc'taki Turpeco'ya 50 Jellopy getir.",
+      "goal": ""
+    },
+    "62775": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Turpeco rakiplerinden bazilarini ortadan kaldirmani istedi.",
+      "goal": ""
+    },
+    "62776": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Morocc'ta bir yerde Chief Judge Oda'yi bul.",
+      "goal": ""
+    },
+    "62777": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Turpeco'ya don ve bunun bir contest olmadigini bildir.",
+      "goal": ""
+    },
+    "62778": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62779": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62780": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62781": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62782": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62783": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62784": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Oda'ya 5 Meat, Egg, Fish Tail, Fresh Fish, Tentacle, Grape, Potato veya Strawberry getir.",
+      "goal": ""
+    },
+    "62785": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Iyi haberlerle Turpeco'ya don.",
+      "goal": ""
+    },
+    "62786": {
+      "title": "Peco'nun Kukremesi",
+      "description": "Bir sure sonra Turpeco ile tekrar konusabilirsin.",
+      "goal": ""
+    },
+    "62788": {
+      "title": "Jumping Janeway'in Talebi 7",
+      "description": "Asagidaki monster'lari yen ve Janeway'e don.",
+      "goal": ""
+    },
+    "62789": {
+      "title": "Bounty Board: Red Novus",
+      "description": "150 Red Novus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62790": {
+      "title": "Bounty Board: Yellow Novus",
+      "description": "150 Yellow Novus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62791": {
+      "title": "Bounty Board: Ancient Mimic",
+      "description": "150 Ancient Mimic monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62792": {
+      "title": "Bounty Board: Death Word",
+      "description": "150 Death Word monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62793": {
+      "title": "Bounty Board: Ferus",
+      "description": "150 Ferus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62794": {
+      "title": "Bounty Board: Bewler",
+      "description": "150 Bewler monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62795": {
+      "title": "Bounty Board: Skogul",
+      "description": "150 Skogul monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62796": {
+      "title": "Bounty Board: Frus",
+      "description": "150 Frus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62797": {
+      "title": "Bounty Board: Horn",
+      "description": "150 Horn monster'i avla ve Payon'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62798": {
+      "title": "Bounty Board: Blue Acidus",
+      "description": "150 Blue Acidus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62799": {
+      "title": "Bounty Board: Gold Acidus",
+      "description": "150 Gold Acidus monster'i avla ve Hugel'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62802": {
+      "title": "Bounty Board: Antler Scaraba",
+      "description": "150 Antler Scaraba monster'i avla ve El Dicastes'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62803": {
+      "title": "Bounty Board: Horn Scaraba",
+      "description": "150 Horn Scaraba monster'i avla ve El Dicastes'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62804": {
+      "title": "Bounty Board: Rake Horn Scaraba",
+      "description": "150 Rake Horn Scaraba monster'i avla ve El Dicastes'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62805": {
+      "title": "Bounty Board: Uni-Horn Scaraba",
+      "description": "150 Uni-Horn Scaraba monster'i avla ve El Dicastes'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62806": {
+      "title": "Bounty Board: Pinguicula",
+      "description": "150 Pinguicula monster'i avla ve Rune Midgards Alliance Camp'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62807": {
+      "title": "Bounty Board: Dark Pinguicula",
+      "description": "150 Dark Pinguicula monster'i avla ve Rune Midgards Alliance Camp'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62808": {
+      "title": "Bounty Board: Nepenthes",
+      "description": "150 Nepenthes monster'i avla ve Rune Midgards Alliance Camp'teki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62809": {
+      "title": "Bounty Board: Flora",
+      "description": "150 Flora monster'i avla ve Comodo'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62810": {
+      "title": "Bounty Board: Coco",
+      "description": "150 Coco monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62811": {
+      "title": "Bounty Board: Smokie",
+      "description": "150 Smokie monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62812": {
+      "title": "Bounty Board: Martin",
+      "description": "150 Martin monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62813": {
+      "title": "Bounty Board: Elder Willow",
+      "description": "150 Elder Willow monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62814": {
+      "title": "Bounty Board: Soldier Skeleton",
+      "description": "150 Soldier Skeleton monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62815": {
+      "title": "Bounty Board: Majoruros",
+      "description": "150 Majoruros monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62816": {
+      "title": "Bounty Board: Lunatic",
+      "description": "150 Lunatic monster'i avla ve Prontera'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62817": {
+      "title": "Bounty Board: Ambernite",
+      "description": "150 Ambernite monster'i avla ve Prontera'daki Bounty Board'a don.",
       "goal": ""
     }
   }
