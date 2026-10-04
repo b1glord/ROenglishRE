@@ -18533,46 +18533,46 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[7242] = {
-		Title = "Play with the little cats",
+		Title = "Bebek Kedilerle Oyna",
 		Description = {
 			"This is a request from Rato, a veteran sailor he met on Malang Island. He was worried about the kittens, and asked them to find them and play with them. Let's find the <NAVI>[little cats]<INFO>malangdo,213,202,0,101,0</INFO></NAVI> Rato said. They are Rosy the white one, Roku the black one, and gold one Charo."
 		},
-		Summary = ""
+		Summary = "Rosy, Roku ve Charo'yu bul"
 	},
 	[7243] = {
-		Title = "Nyadventure - Duruduru Compass",
+		Title = "Nyadventure - Duruduru Pusulasi",
 		Description = {
 			"You received Adventure card A from the baby cats who called themselved \"Meow Bravery Team\". The card seems necessary for operating some devices made by them. If you insert the card into the <NAVI>[Compass of Beginning]<INFO>malangdo,213,202,0,101,0</INFO></NAVI>, the game will start."
 		},
-		Summary = ""
+		Summary = "Adventure Card A'yi Beginning Compass'a yerlestir"
 	},
 	[7244] = {
-		Title = "Nyadventure - Duruduru Race",
+		Title = "Nyadventure - Duruduru Yarisi",
 		Description = {
-			"Duruduru Compass Race has started. You have to finish the race in the correct order within a limited time. The order of the compass is (Red Flame) -> (Blue Flame) -> (Gold Flame) -> (Forest) -> (Cloud)."
+			"Duruduru Compass Race basladi. Sinirli surede pusulalari dogru sirayla tamamla: Red Flame -> Blue Flame -> Gold Flame -> Forest -> Cloud."
 		},
-		Summary = "Time Limit: 3 Minutes"
+		Summary = "Pusula rotasini sure dolmadan tamamla"
 	},
 	[7245] = {
-		Title = "Nyadventure - Duruduru Race",
+		Title = "Nyadventure - Duruduru Yarisi",
 		Description = {
-			"Duruduru Compass Race has started. You have to finish the race in the correct order within a limited time. The order of the compass is (Gold Flame) -> (Blue Flame) -> (Cloud) -> (Forest) -> (Red Flame)."
+			"Duruduru Compass Race basladi. Sinirli surede pusulalari dogru sirayla tamamla: Gold Flame -> Blue Flame -> Cloud -> Forest -> Red Flame."
 		},
-		Summary = "Time Limit: 3 Minutes"
+		Summary = "Pusula rotasini sure dolmadan tamamla"
 	},
 	[7246] = {
-		Title = "Nyadventure - I'm coming now.",
+		Title = "Nyadventure - Simdi Geliyorum",
 		Description = {
 			"According to Charo, there is a <NAVI>[Detective]<INFO>malangdo,172,178,0,101,0</INFO></NAVI> near ship Navi which is in the centre of Malangdo. Let's meet the great detective and his friends."
 		},
-		Summary = ""
+		Summary = "Dedektif kedi ve arkadasini bul"
 	},
 	[7247] = {
-		Title = "Nyadventure - Stop banging!",
+		Title = "Nyadventure - Bang'i Durdur",
 		Description = {
 			"I doubt if they are really detectives or not, but Homnya and her Nyangson, who say they are self-proclaimed detectives, ask them to stop, saying that if the <NAVI>[machine]<INFO>malangdo,174,178,0,101,0</INFO></NAVI> in front explodes, all of Malangdo will be destroyed. So they ask you to stop the machine."
 		},
-		Summary = ""
+		Summary = "Bang makinesini durdur"
 	},
 	[7248] = {
 		Title = "",
@@ -18580,83 +18580,83 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[7249] = {
-		Title = "[Standby] Nyadventure - Bang! See you next time",
+		Title = "Nyadventure - Bang! Yarin Gorusuruz",
 		Description = {
 			"According to <NAVI>[Homnya]<INFO>malangdo,172,178,0,101,0</INFO></NAVI> and Nyangson, this machine named Bang seems to cause seizures every time. I don't know when it will run off again, so I decided to visit again tomorrow."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Yarin Bang makinesini kontrol et",
 		CoolTimeQuest = 1
 	},
 	[7250] = {
-		Title = "Nyadventure - Hidden Treasure?",
+		Title = "Nyadventure - Gizli Hazine?",
 		Description = {
-			"When the Bang stopped, Homnya and Nyangson gives you a useful information. They talk about treasure something. Homnya says the treasure is inside of ship Navi. It might be just a joke but it is still worth to try."
+			"Bang durdurulunca Homnya ve Nyangson sana bir hazine hakkinda ipucu verdi. Homnya hazinenin Navi gemisinin icinde oldugunu soyluyor. Saka olabilir ama aramaya deger."
 		},
-		Summary = ""
+		Summary = "Navi gemisindeki hazineyi ara"
 	},
 	[7251] = {
-		Title = "Nyadventure - The First piece of Painting",
+		Title = "Nyadventure - Resmin Ilk Parcasi",
 		Description = {
-			"The piece of Painting which you found in the box in ship Navi"
+			"Navi gemisindeki bir kutuda resmin ilk parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7252] = {
-		Title = "Nyadventure - The Second piece of Painting",
+		Title = "Nyadventure - Resmin Ikinci Parcasi",
 		Description = {
-			"The piece of Painting which was put in the book in ship Navi's meeting room"
+			"Navi gemisinin toplanti odasindaki bir kitabin icinde resmin ikinci parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7253] = {
-		Title = "Nyadventure - The Third piece of Painting",
+		Title = "Nyadventure - Resmin Ucuncu Parcasi",
 		Description = {
-			"The piece of Painting which you found under the old bed in the crew's cabin"
+			"Murettebat kamarasindaki eski yatagin altinda resmin ucuncu parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7254] = {
-		Title = "Nyadventure - The Fourth piece of Painting",
+		Title = "Nyadventure - Resmin Dorduncu Parcasi",
 		Description = {
-			"The piece of Painting which you found in the decoration seashell of the captain's room"
+			"Kaptan kamarasindaki dekoratif deniz kabugunda resmin dorduncu parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7255] = {
-		Title = "Nyadventure - The Fifth piece of Painting",
+		Title = "Nyadventure - Resmin Besinci Parcasi",
 		Description = {
-			"The piece of Painting which you found in the crack of wooden pillar"
+			"Ahsap bir sutunun catlaginda resmin besinci parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7256] = {
-		Title = "Nyadventure - The Sixth piece of Painting",
+		Title = "Nyadventure - Resmin Altinci Parcasi",
 		Description = {
-			"The piece of Painting which you found in the Ventilation window on the cabin floor"
+			"Kamara zeminindeki havalandirma penceresinde resmin altinci parcasini buldun."
 		},
-		Summary = ""
+		Summary = "Resim parcasini sakla"
 	},
 	[7257] = {
-		Title = "[Standby] Nyadventure - Race, Come back tomorrow!",
+		Title = "Nyadventure - Yaris Icin Yarin Gel",
 		Description = {
 			"This quest is a daily quest and you can take it again when the waiting time expires. You can accept quests through <NAVI>[Roku]<INFO>malangdo,215,201,0,101,0</INFO></NAVI>"
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Bir sonraki yaris zamanini bekle",
 		CoolTimeQuest = 1
 	},
 	[7258] = {
-		Title = "Nyadventure - Painting completed",
+		Title = "Nyadventure - Resim Tamamlandi",
 		Description = {
 			"A total of six pieces of paintings were found after searching the cabin. The missing part is no longer visible. Let's tell <NAVI>[Charo]<INFO>malangdo,213,202,0,101,0</INFO></NAVI>, Rossi and Roku."
 		},
-		Summary = ""
+		Summary = "Charo, Rosy ve Roku'ya tamamlanan resmi goster"
 	},
 	[7259] = {
-		Title = "Gift from the Mew Bravery Team",
+		Title = "Mew Bravery Team'den Hediye",
 		Description = {
 			"Charo, Rosy and Roku say that they want to give Rato the painting pieces found. Bring the painting to <NAVI>[Rato]<INFO>malangdo,165,222,0,101,0</INFO></NAVI> in order to deliver the love of baby cats (even though the painting is torn apart)."
 		},
-		Summary = ""
+		Summary = "Resmi Rato'ya teslim et"
 	},
 	[7260] = {
 		Title = "The origin of Bugs",
