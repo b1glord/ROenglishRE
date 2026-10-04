@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "NV_BASIC ile baslayan oyuncu skill blogunda ilk 60 SkillName cevirisini tutar",
+    "version": "1.1.0",
+    "description": "Skill adlari icin iki profil destekler: original name + Turkce aciklama (Hybrid) ve Turkce name + Turkce aciklama (Full TR)",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -13,184 +13,254 @@
   "selection_policy": "SKILL_INFO_LIST icinde NV_BASIC ve sonrasi gorunen skill adlari",
   "patches": {
     "NV_BASIC": {
-      "name": "Temel Beceri"
+      "name_original": "Basic Skill",
+      "name_tr": "Temel Beceri"
     },
     "MG_STONECURSE": {
-      "name": "Tas Laneti"
+      "name_original": "Stone Curse",
+      "name_tr": "Tas Laneti"
     },
     "CR_PROVIDENCE": {
-      "name": "Ilahi Koruma"
+      "name_original": "Providence",
+      "name_tr": "Ilahi Koruma"
     },
     "AB_EUCHARISTICA": {
-      "name": "Eucharistica"
+      "name_original": "Eucharistica",
+      "name_tr": "Eucharistica"
     },
     "CR_DEFENDER": {
-      "name": "Savunmaci"
+      "name_original": "Defender",
+      "name_tr": "Savunmaci"
     },
     "AB_SILENTIUM": {
-      "name": "Silentium"
+      "name_original": "Silentium",
+      "name_tr": "Silentium"
     },
     "CR_SPEARQUICKEN": {
-      "name": "Mizrak Hizlandirma"
+      "name_original": "Spear Quicken",
+      "name_tr": "Mizrak Hizlandirma"
     },
     "SO_SUMMON_TERA": {
-      "name": "Tera Cagir"
+      "name_original": "Summon Tera",
+      "name_tr": "Tera Cagir"
     },
     "MO_IRONHAND": {
-      "name": "Demir El"
+      "name_original": "Iron Hand",
+      "name_tr": "Demir El"
     },
     "SO_SUMMON_VENTUS": {
-      "name": "Ventus Cagir"
+      "name_original": "Summon Ventus",
+      "name_tr": "Ventus Cagir"
     },
     "MO_SPIRITSRECOVERY": {
-      "name": "Ruh Yenilenmesi"
+      "name_original": "Spirit Recovery",
+      "name_tr": "Ruh Yenilenmesi"
     },
     "SO_EL_ANALYSIS": {
-      "name": "4 Element Analizi"
+      "name_original": "4 Elemental Analysis",
+      "name_tr": "4 Element Analizi"
     },
     "MO_CALLSPIRITS": {
-      "name": "Ruh Cagir"
+      "name_original": "Call Spirits",
+      "name_tr": "Ruh Cagir"
     },
     "SO_VARETYR_SPEAR": {
-      "name": "Varetyr Mizragi"
+      "name_original": "Varetyr Spear",
+      "name_tr": "Varetyr Mizragi"
     },
     "MO_ABSORBSPIRITS": {
-      "name": "Ruhlari Em"
+      "name_original": "Absorp Spirits",
+      "name_tr": "Ruhlari Em"
     },
     "SO_VACUUM_EXTREME": {
-      "name": "Asiri Vakum"
+      "name_original": "Extreme Vacuum",
+      "name_tr": "Asiri Vakum"
     },
     "MO_TRIPLEATTACK": {
-      "name": "Uclu Saldiri"
+      "name_original": "Triple Attack",
+      "name_tr": "Uclu Saldiri"
     },
     "EL_POWER_OF_GAIA": {
-      "name": "Gaia'nin Gucu"
+      "name_original": "Power of Gaia",
+      "name_tr": "Gaia'nin Gucu"
     },
     "MO_BODYRELOCATION": {
-      "name": "Beden Yer Degistirme"
+      "name_original": "Body Relocation",
+      "name_tr": "Beden Yer Degistirme"
     },
     "MO_DODGE": {
-      "name": "Kacinma"
+      "name_original": "Dodge",
+      "name_tr": "Kacinma"
     },
     "SO_EARTHGRAVE": {
-      "name": "Toprak Mezari"
+      "name_original": "Earth Grave",
+      "name_tr": "Toprak Mezari"
     },
     "MO_INVESTIGATE": {
-      "name": "Derin Inceleme"
+      "name_original": "Investigate",
+      "name_tr": "Derin Inceleme"
     },
     "SO_SPELLFIST": {
-      "name": "Buyu Yumrugu"
+      "name_original": "Spell Fist",
+      "name_tr": "Buyu Yumrugu"
     },
     "MO_FINGEROFFENSIVE": {
-      "name": "Parmak Saldirisi"
+      "name_original": "Finger Offensive",
+      "name_tr": "Parmak Saldirisi"
     },
     "SO_ELECTRICWALK": {
-      "name": "Elektrik Yuruyusu"
+      "name_original": "Electric Walk",
+      "name_tr": "Elektrik Yuruyusu"
     },
     "MO_STEELBODY": {
-      "name": "Celik Beden"
+      "name_original": "Steel Body",
+      "name_tr": "Celik Beden"
     },
     "WM_UNLIMITED_HUMMING_VOICE": {
-      "name": "Sinirsiz Mirilti Sesi"
+      "name_original": "Unlimited Humming Voice",
+      "name_tr": "Sinirsiz Mirilti Sesi"
     },
     "MO_BLADESTOP": {
-      "name": "Bicak Durdurma"
+      "name_original": "Blade Stop",
+      "name_tr": "Bicak Durdurma"
     },
     "WA_SWING_DANCE": {
-      "name": "Swing Dansi"
+      "name_original": "Swing Dance",
+      "name_tr": "Swing Dansi"
     },
     "MO_EXPLOSIONSPIRITS": {
-      "name": "Ruh Patlamasi"
+      "name_original": "Explosion Spirits",
+      "name_tr": "Ruh Patlamasi"
     },
     "WM_SATURDAY_NIGHT_FEVER": {
-      "name": "Cumartesi Gecesi Atesi"
+      "name_original": "Saturday Night Fever",
+      "name_tr": "Cumartesi Gecesi Atesi"
     },
     "MO_EXTREMITYFIST": {
-      "name": "Asura Darbesi"
+      "name_original": "Asura Strike",
+      "name_tr": "Asura Darbesi"
     },
     "MG_FIREBALL": {
-      "name": "Ates Topu"
+      "name_original": "Fire Ball",
+      "name_tr": "Ates Topu"
     },
     "MO_CHAINCOMBO": {
-      "name": "Zincir Kombosu"
+      "name_original": "Chain Combo",
+      "name_tr": "Zincir Kombosu"
     },
     "WM_SOUND_OF_DESTRUCTION": {
-      "name": "Yikim Sesi"
+      "name_original": "Song of Destruction",
+      "name_tr": "Yikim Sesi"
     },
     "MO_COMBOFINISH": {
-      "name": "Kombo Bitirisi"
+      "name_original": "Combo Finish",
+      "name_tr": "Kombo Bitirisi"
     },
     "WM_DANCE_WITH_WUG": {
-      "name": "Warg ile Dans"
+      "name_original": "Dance with Warg",
+      "name_tr": "Warg ile Dans"
     },
     "SA_ADVANCEDBOOK": {
-      "name": "Ileri Kitap Bilgisi"
+      "name_original": "Advanced Book",
+      "name_tr": "Ileri Kitap Bilgisi"
     },
     "WM_SONG_OF_MANA": {
-      "name": "Mana Sarkisi"
+      "name_original": "Song of Mana",
+      "name_tr": "Mana Sarkisi"
     },
     "SA_CASTCANCEL": {
-      "name": "Buyu Iptali"
+      "name_original": "Cast Cancel",
+      "name_tr": "Buyu Iptali"
     },
     "WL_WHITEIMPRISON": {
-      "name": "Beyaz Hapis"
+      "name_original": "White Imprison",
+      "name_tr": "Beyaz Hapis"
     },
     "SA_MAGICROD": {
-      "name": "Buyu Cubugu"
+      "name_original": "Magic Rod",
+      "name_tr": "Buyu Cubugu"
     },
     "WL_STASIS": {
-      "name": "Stasis"
+      "name_original": "Stasis",
+      "name_tr": "Stasis"
     },
     "SA_SPELLBREAKER": {
-      "name": "Buyu Bozucu"
+      "name_original": "Spell Breaker",
+      "name_tr": "Buyu Bozucu"
     },
     "WL_TETRAVORTEX": {
-      "name": "Tetra Vortex"
+      "name_original": "Tetra Vortex",
+      "name_tr": "Tetra Vortex"
     },
     "SA_FREECAST": {
-      "name": "Serbest Buyu"
+      "name_original": "Free Cast",
+      "name_tr": "Serbest Buyu"
     },
     "WM_GREAT_ECHO": {
-      "name": "Buyuk Yanki"
+      "name_original": "Great Echo",
+      "name_tr": "Buyuk Yanki"
     },
     "SA_AUTOSPELL": {
-      "name": "Otomatik Buyu"
+      "name_original": "Auto Spell",
+      "name_tr": "Otomatik Buyu"
     },
     "RA_ARROWSTORM": {
-      "name": "Ok Firtinasi"
+      "name_original": "Arrow Storm",
+      "name_tr": "Ok Firtinasi"
     },
     "SA_FLAMELAUNCHER": {
-      "name": "Alev Aktarimi"
+      "name_original": "Flame Launcher",
+      "name_tr": "Alev Aktarimi"
     },
     "RA_WUGRIDER": {
-      "name": "Warg Binicisi"
+      "name_original": "Warg Rider",
+      "name_tr": "Warg Binicisi"
     },
     "SA_FROSTWEAPON": {
-      "name": "Buz Silahi"
+      "name_original": "Frost Weapon",
+      "name_tr": "Buz Silahi"
     },
     "RA_MAGENTATRAP": {
-      "name": "Magenta Tuzagi"
+      "name_original": "Magenta Trap",
+      "name_tr": "Magenta Tuzagi"
     },
     "SA_LIGHTNINGLOADER": {
-      "name": "Yildirim Aktarimi"
+      "name_original": "Lightning Loader",
+      "name_tr": "Yildirim Aktarimi"
     },
     "NC_PILEBUNKER": {
-      "name": "Kazik Delici"
+      "name_original": "Pile Bunker",
+      "name_tr": "Kazik Delici"
     },
     "SA_SEISMICWEAPON": {
-      "name": "Sismik Silah"
+      "name_original": "Seismic Weapon",
+      "name_tr": "Sismik Silah"
     },
     "NC_B_SIDESLIDE": {
-      "name": "Geri Kayma"
+      "name_original": "Back Slide",
+      "name_tr": "Geri Kayma"
     },
     "SA_DRAGONOLOGY": {
-      "name": "Ejderha Bilgisi"
+      "name_original": "Dragonology",
+      "name_tr": "Ejderha Bilgisi"
     },
     "NC_NEUTRALBARRIER": {
-      "name": "Notr Bariyer"
+      "name_original": "Neutral Barrier",
+      "name_tr": "Notr Bariyer"
     },
     "SA_VOLCANO": {
-      "name": "Volkan"
+      "name_original": "Volcano",
+      "name_tr": "Volkan"
+    }
+  },
+  "name_profiles": {
+    "hybrid": {
+      "name_field": "name_original",
+      "description_language": "tr"
+    },
+    "full_tr": {
+      "name_field": "name_tr",
+      "description_language": "tr"
     }
   }
 }
