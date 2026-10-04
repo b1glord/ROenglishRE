@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.68.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7763 Spring Energy ve 7770-7788 Sanctuary, waste cathedral ve Moonlight Flower kabus gorevleri dahil",
+    "version": "6.69.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7790-7809 Rock Ridge, Buffalo Bandits, Johnny James, Albert Ford ve Shawn McCurdy ana hikaye gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9832,6 +9832,106 @@
       "title": "Muyeon'a Don",
       "description": "Chunghae'nin arastirma sonuclarini ^4d4dffDetached Payon Palace^000000'taki ^4d4dffMuyeon^000000'a ilet.",
       "goal": "Detached Palace'ta Muyeon ile konus"
+    },
+    "7790": {
+      "title": "Rock Ridge, Firsatlar Diyari",
+      "description": "Karam Pucci, jest olarak Rock Ridge gemi ucretinden seni muaf tuttu.",
+      "goal": "Rock Ridge'e git"
+    },
+    "7791": {
+      "title": "Rock Ridge'deki Sorunlar",
+      "description": "Karam Pucci, Rock Ridge'in yardima ihtiyaci oldugunu soyledi. Rock Ridge'e git ve limandaki Mayor Costello ile konus.",
+      "goal": "Costello ile konus"
+    },
+    "7792": {
+      "title": "Rock Ridge'deki Sorunlar 2",
+      "description": "Mayor Costello, Buffalo Bandits yuzunden Rock Ridge'in zor durumda oldugunu ve sheriff ile birlikte sorunu cozmeni istedigini soyledi. ^4d4dffSheriff's office'e git ve Wyatt Warp ile gorus.^000000",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "7793": {
+      "title": "Iyi Haber",
+      "description": "Buffalo Bandits lideri Johnny James yalnizca Mayor Costello ile pazarlik etmek istiyor. Bu haberi ^4d4dfflimandaki Costello'ya^000000 ilet.",
+      "goal": "Costello ile konus"
+    },
+    "7794": {
+      "title": "Beklenen Tepki",
+      "description": "Haydutlarla gorusmeye korkan Costello, kendi yerine senin gitmeni istedi. Sheriff Warp'a haber ver.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "7795": {
+      "title": "Demiryolunda Pazarlik",
+      "description": "Pazarlik toplantisi ^4d4dffhareketsiz yuk treninin^000000 yaninda yapilacak. Koyun dogu kapisindan cik ve demiryolunu takip et.",
+      "goal": "Unmoving Freight Train'i bul"
+    },
+    "7796": {
+      "title": "Beklenmedik Tutuklama",
+      "description": "Cactus vigilante'ler Buffalo Bandits lideri Johnny James'i yakalamaya yardim etti. ^4d4dffSheriff's office'e don ve sonraki adimi Wyatt ile Ivoka'yla konus.^000000",
+      "goal": "Wyatt ve Ivoka ile konus"
+    },
+    "7797": {
+      "title": "Beni Dinle 1",
+      "description": "Ivoka'nin onerdigi gibi Johnny James ile konus ve Albert Ford hakkinda kafasina suphe dusur.",
+      "goal": "Johnny James ile konus"
+    },
+    "7798": {
+      "title": "Tam Kivaminda",
+      "description": "Johnny James, Albert Ford'un kendisine ihanet ettigine ikna oldu. Albert'i ortadan kaldirip kanit olarak yelesini getirmeni istedi. Simdilik Sheriff'e rapor ver.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "7799": {
+      "title": "Shawn McCurdy'nin Silahi 1",
+      "description": "Sheriff Warp, ^4d4dffForeman McCurdy^000000'nin guclu bir pazarlik kozu oldugunu soyledi. Onu meydanda bul.",
+      "goal": "Shawn McCurdy ile konus"
+    },
+    "7800": {
+      "title": "Shawn McCurdy'nin Silahi 2",
+      "description": "Buffalo Bandits yuzunden artik cikarilamadigini sandigin purple ore'lardan bulabildin. Shawn McCurdy'yi ^4d4dffmaden girisinin guneyinde^000000 bul.",
+      "goal": "Shawn McCurdy ile konus"
+    },
+    "7801": {
+      "title": "Shawn McCurdy'nin Silahi 3",
+      "description": "Madenin ikinci katina gizlice girmeyi basardiniz. ^4d4dff1 Purple Ore^000000 elde et ve Shawn ile konus.",
+      "goal": "1 Purple Ore getir"
+    },
+    "7802": {
+      "title": "Beni Dinle 2",
+      "description": "^4d4dffSignal rock'a 3 kez vur^000000 ve Albert Ford ile cetesinin gelecegi hakkinda konus.",
+      "goal": "Albert Ford ile konus"
+    },
+    "7803": {
+      "title": "Kirilan Guvenden Memnun",
+      "description": "Johnny James'in ceteye ihanet ettigine inanan Albert Ford anlasma yapmayi kabul etti. Kanit olarak Albert's Mane'i Johnny James'e teslim et.",
+      "goal": "Johnny James ile konus"
+    },
+    "7804": {
+      "title": "Cevherlerin Yeri",
+      "description": "Johnny, cevherleri ^4d4dffmadenin ikinci katindaki asansorun altina^000000 sakladigini soyledi. Bu bilgiyi Sheriff Warp'a bildir.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "7805": {
+      "title": "Cevherlerin Yeri 2",
+      "description": "^4d4dffShawn McCurdy^000000, ^4d4dffmadenin ikinci katina acilan gecici giriste^000000. Cevherlerin yerini soyle ve onunla madene gir.",
+      "goal": "Shawn McCurdy ile konus"
+    },
+    "7806": {
+      "title": "Cevherlerin Yeri 3",
+      "description": "Bozuk asansor ikinci katin merkezinin kuzeyinde. Asansorun altinda ^4d4dff1 Ore Box^000000 bul ve Shawn McCurdy'ye getir.",
+      "goal": "1 Ore Box getir"
+    },
+    "7807": {
+      "title": "Gizli Kozumuz",
+      "description": "Bazi Buffalo Bandit'leri yen ve Albert Ford'a gostermek icin ^4d4dff5 Brown Muffler ve 5 Bandit Scarf^000000 topla.",
+      "goal": "5 Brown Muffler ve 5 Bandit Scarf topla"
+    },
+    "7808": {
+      "title": "Dava Cozuldu",
+      "description": "Albert Ford ile arandaki kopruleri yakmis olabilirsin ama artik onu gormene gerek yok. Sheriff Warp'a rapor ver.",
+      "goal": "Wyatt Warp ile konus"
+    },
+    "7809": {
+      "title": "Cevherleri Toplama",
+      "description": "Cevherleri topladin.",
+      "goal": ""
     }
   }
 }
