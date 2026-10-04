@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.1.0",
-    "description": "Skill adlari icin iki profil destekler: original name + Turkce aciklama (Hybrid) ve Turkce name + Turkce aciklama (Full TR)",
+    "version": "1.2.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 120 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -251,6 +251,246 @@
     "SA_VOLCANO": {
       "name_original": "Volcano",
       "name_tr": "Volkan"
+    },
+    "NC_SILVERSNIPER": {
+      "name_original": "FAW Silver Sniper",
+      "name_tr": "FAW Gumus Nisangah"
+    },
+    "SA_DELUGE": {
+      "name_original": "Deluge",
+      "name_tr": "Sel Baskini"
+    },
+    "SC_BODYPAINT": {
+      "name_original": "Body Painting",
+      "name_tr": "Vucut Boyama"
+    },
+    "SA_VIOLENTGALE": {
+      "name_original": "Violent Gale",
+      "name_tr": "Siddetli Firtina"
+    },
+    "MG_FIREWALL": {
+      "name_original": "Fire Wall",
+      "name_tr": "Ates Duvari"
+    },
+    "SA_LANDPROTECTOR": {
+      "name_original": "Land Protector",
+      "name_tr": "Arazi Koruyucu"
+    },
+    "WM_GLOOMYDAY": {
+      "name_original": "Gloomy Shyness",
+      "name_tr": "Kasvetli Cekingenlik"
+    },
+    "SA_DISPELL": {
+      "name_original": "Dispell",
+      "name_tr": "Buyu Dagitma"
+    },
+    "LG_FORCEOFVANGUARD": {
+      "name_original": "Vanguard Force",
+      "name_tr": "Oncu Kuvvet"
+    },
+    "SA_ABRACADABRA": {
+      "name_original": "Abracadabra",
+      "name_tr": "Abrakadabra"
+    },
+    "LG_RAYOFGENESIS": {
+      "name_original": "Genesis Ray",
+      "name_tr": "Yaratilis Isini"
+    },
+    "SA_MONOCELL": {
+      "name_original": "Mono Cell",
+      "name_tr": "Tek Hucre"
+    },
+    "SA_CLASSCHANGE": {
+      "name_original": "Class Change",
+      "name_tr": "Sinif Degisimi"
+    },
+    "SA_SUMMONMONSTER": {
+      "name_original": "Summon Monster",
+      "name_tr": "Canavar Cagir"
+    },
+    "SA_REVERSEORCISH": {
+      "name_original": "Reverse Orcish",
+      "name_tr": "Ters Orc Dili"
+    },
+    "WM_LULLABY_DEEPSLEEP": {
+      "name_original": "Deep Sleep Lullaby",
+      "name_tr": "Derin Uyku Ninnisi"
+    },
+    "SA_DEATH": {
+      "name_original": "Grim Reaper",
+      "name_tr": "Azrail"
+    },
+    "WM_DEADHILLHERE": {
+      "name_original": "Death Valley",
+      "name_tr": "Olum Vadisi"
+    },
+    "SA_FORTUNE": {
+      "name_original": "Fortune",
+      "name_tr": "Sans"
+    },
+    "WM_SEVERE_RAINSTORM": {
+      "name_original": "Severe Rainstorm",
+      "name_tr": "Siddetli Yagmur Firtinasi"
+    },
+    "SA_TAMINGMONSTER": {
+      "name_original": "Taming Monster",
+      "name_tr": "Canavar Evcillestirme"
+    },
+    "MI_RUSH_WINDMILL": {
+      "name_original": "Windmill Rush",
+      "name_tr": "Yel Degirmeni Hucumu"
+    },
+    "SA_QUESTION": {
+      "name_original": "?",
+      "name_tr": "?"
+    },
+    "WM_REVERBERATION": {
+      "name_original": "Reverberation",
+      "name_tr": "Yanki"
+    },
+    "SA_GRAVITY": {
+      "name_original": "Gravity",
+      "name_tr": "Yercekimi"
+    },
+    "WM_METALICSOUND": {
+      "name_original": "Metallic Sound",
+      "name_tr": "Metalik Ses"
+    },
+    "SA_LEVELUP": {
+      "name_original": "Level Up",
+      "name_tr": "Seviye Atla"
+    },
+    "WM_LESSON": {
+      "name_original": "Lesson",
+      "name_tr": "Ders"
+    },
+    "SA_INSTANTDEATH": {
+      "name_original": "Instant Death",
+      "name_tr": "Ani Olum"
+    },
+    "MI_ECHOSONG": {
+      "name_original": "Echo Song",
+      "name_tr": "Yanki Sarkisi"
+    },
+    "SA_FULLRECOVERY": {
+      "name_original": "Full Recovery",
+      "name_tr": "Tam Iyilesme"
+    },
+    "WM_DOMINION_IMPULSE": {
+      "name_original": "Dominion Impulse",
+      "name_tr": "Hakimiyet Darbesi"
+    },
+    "SA_COMA": {
+      "name_original": "Coma",
+      "name_tr": "Koma"
+    },
+    "MG_FIREBOLT": {
+      "name_original": "Fire Bolt",
+      "name_tr": "Ates Oku"
+    },
+    "BD_ADAPTATION": {
+      "name_original": "Adaptation to Circumstances",
+      "name_tr": "Kosullara Uyum"
+    },
+    "WM_BEYOND_OF_WARCRY": {
+      "name_original": "Beyond of Warcry",
+      "name_tr": "Savas Cigliginin Otesi"
+    },
+    "BD_ENCORE": {
+      "name_original": "Encore",
+      "name_tr": "Bis"
+    },
+    "BD_LULLABY": {
+      "name_original": "Lullaby",
+      "name_tr": "Ninni"
+    },
+    "SO_PSYCHIC_WAVE": {
+      "name_original": "Psychic Wave",
+      "name_tr": "Psisik Dalga"
+    },
+    "BD_RICHMANKIM": {
+      "name_original": "Mr. Kim A Rich Man",
+      "name_tr": "Zengin Bay Kim"
+    },
+    "SO_SUMMON_AGNI": {
+      "name_original": "Summon Agni",
+      "name_tr": "Agni Cagir"
+    },
+    "BD_ETERNALCHAOS": {
+      "name_original": "Eternal Chaos",
+      "name_tr": "Ebedi Kaos"
+    },
+    "SO_FIRE_INSIGNIA": {
+      "name_original": "Fire Insignia",
+      "name_tr": "Ates Nisani"
+    },
+    "BD_DRUMBATTLEFIELD": {
+      "name_original": "Drum of Battlefield",
+      "name_tr": "Savas Alani Davulu"
+    },
+    "BD_RINGNIBELUNGEN": {
+      "name_original": "The Ring of Nibelungen",
+      "name_tr": "Nibelungen Yuzugu"
+    },
+    "GN_SPORE_EXPLOSION": {
+      "name_original": "Spore Explosion",
+      "name_tr": "Spor Patlamasi"
+    },
+    "BD_ROKISWEIL": {
+      "name_original": "Loki's Wail",
+      "name_tr": "Loki'nin Feryadi"
+    },
+    "BD_INTOABYSS": {
+      "name_original": "Into the Abyss",
+      "name_tr": "Ucuruma"
+    },
+    "GN_S_PHARMACY": {
+      "name_original": "Special Pharmacy",
+      "name_tr": "Ozel Eczacilik"
+    },
+    "BD_SIEGFRIED": {
+      "name_original": "Invulnerable Siegfried",
+      "name_tr": "Yenilmez Siegfried"
+    },
+    "GD_RESTORE": {
+      "name_original": "Restore",
+      "name_tr": "Yenile"
+    },
+    "BD_RAGNAROK": {
+      "name_original": "Ragnarok",
+      "name_tr": "Ragnarok"
+    },
+    "LG_INSPIRATION": {
+      "name_original": "Inspiration",
+      "name_tr": "Ilham"
+    },
+    "BA_MUSICALLESSON": {
+      "name_original": "Musical Lesson",
+      "name_tr": "Muzik Dersi"
+    },
+    "LG_PIETY": {
+      "name_original": "Piety",
+      "name_tr": "Dindarlik"
+    },
+    "BA_MUSICALSTRIKE": {
+      "name_original": "Musical Strike",
+      "name_tr": "Muzikal Darbe"
+    },
+    "LG_PRESTIGE": {
+      "name_original": "Prestige",
+      "name_tr": "Itibar"
+    },
+    "BA_DISSONANCE": {
+      "name_original": "Dissonance",
+      "name_tr": "Uyumsuzluk"
+    },
+    "ALL_ODINS_POWER": {
+      "name_original": "Odin's Power",
+      "name_tr": "Odin'in Gucu"
+    },
+    "BA_FROSTJOKE": {
+      "name_original": "Frost Joker",
+      "name_tr": "Ayaz Esprisi"
     }
   },
   "name_profiles": {
