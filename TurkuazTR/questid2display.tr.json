@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.04.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; eski Korean Raccoon-Sign kalintilari, Culvert, Bakonawa ve Eclage Rift zincirlerinden 60 pending kayit dahil",
+    "version": "7.05.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 12301-12409 Merchant egitimi, Old Glast Heim-Faceworm, Rock Ridge food-vigilante ve pipe maintenance bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -16382,6 +16382,306 @@
       "title": "Etran'i Tekrar Ziyaret Et",
       "description": "Home Tree leaf'ini Etran'a goster ve onu cesaretlendir. Robert'in necklace'i kabul etmemesi kotu oldu.",
       "goal": "Etran'i tekrar ziyaret et"
+    },
+    "12301": {
+      "title": "Kalan Iki Arkadas",
+      "description": "Robert ve Etran kaderlerini sonuna kadar surdurecek. Gecmisin topraklari onlar icin bugun olsa da sonunda bugunun bereketli topraklarina donusecek. Bu karsilasmayi mumkun kilan Hiel ve Clever ile konus.",
+      "goal": "Kalan iki arkadas"
+    },
+    "12302": {
+      "title": "Salim Hamid",
+      "description": "Salim Hamid adli merchant trainer ile konustun.",
+      "goal": "Merchant trainer ile konus"
+    },
+    "12303": {
+      "title": "Merchant Adayi",
+      "description": "Salim Hamid'in unlu merchant dersini almak icin 100 Zeny gerekir. Bu kadar Zeny bulmak zor degil; item bulup sat.",
+      "goal": "100 Zeny elde et"
+    },
+    "12304": {
+      "title": "Merchant Bilgisine Giris",
+      "description": "Merchant'lar yasal yollarla para kazanmak icin cesitli skill'lere sahiptir. Salim Hamid'in yanindaki steward'in aciklamalarini dinle.",
+      "goal": "Pazarligin sirri"
+    },
+    "12305": {
+      "title": "Stat Degerleri Hakkinda",
+      "description": "Merchant'larin da temel stat degerleri vardir. Her stat'in etkisini ogren. Elbette karar sana ait.",
+      "goal": "Seni zorlayan yok"
+    },
+    "12306": {
+      "title": "Indirim Deneyimi",
+      "description": "Merchant classroom'daki gurultulu vending machine'e git. Merchant Manual'i takarak Garlet ve Zargon'un indirimli fiyatlarini kontrol et.",
+      "goal": "Merchant Manual takarak indirimleri gor"
+    },
+    "12307": {
+      "title": "Merchant Olma Yolu",
+      "description": "Salim Hamid'e gore Merchant olmak icin Alberta'ya gitmelisin. Saat 5 yonundeki refinery binasina git.",
+      "goal": "Alberta'ya git"
+    },
+    "12308": {
+      "title": "Worm Tail Temizligi",
+      "description": "Son zamanlarda Prontera'ya cok sayida paket gidiyor. Teslimatlari kolaylastirmak icin Alberta yakininda 20 Worm Tail avla.",
+      "goal": "20 Worm Tail avla"
+    },
+    "12309": {
+      "title": "Boa Temizligi",
+      "description": "Mushroom toplayan merchant'lar yanlislikla snake'lere dokunup kazalara neden oluyor. 20 Boa avla ve collecting merchant'a geri don.",
+      "goal": "20 Boa avla"
+    },
+    "12310": {
+      "title": "Spore Temizligi",
+      "description": "Capital'e giden gida urunleri Spore seed'leriyle kirleniyor. 20 Spore avla ve collecting merchant'a geri don.",
+      "goal": "20 Spore avla"
+    },
+    "12311": {
+      "title": "Pirate Skeleton Temizligi",
+      "description": "Salim Hamid Alberta yakinindaki abandoned boat'u onarip kullanmak istiyor. 10 Pirate Skeleton avla ve geri don.",
+      "goal": "10 Pirate Skeleton avla"
+    },
+    "12312": {
+      "title": "Teori Dersi Takviyesi",
+      "description": "Salim Hamid sana teori dersini yeniden dinlemeni soyledi.",
+      "goal": "Teori dersini tamamla"
+    },
+    "12313": {
+      "title": "Statlar Hakkinda",
+      "description": "Merchant stat etkileri hakkindaki teori dersini almaya karar verdin.",
+      "goal": "Merchant stat degerleri"
+    },
+    "12314": {
+      "title": "Skill'ler Hakkinda",
+      "description": "Daha once dinlemis olsan da Merchant skill'leri hakkindaki teori dersini tekrar et.",
+      "goal": "Merchant skill dersini tekrar et"
+    },
+    "12316": {
+      "title": "Hugin ile Bulusma",
+      "description": "Sonunda Hugin ile ilk kez bulustun. Muhtemelen seni hatirliyor ama sen aynisini soyleyemezsin.",
+      "goal": "Ilk karsilasma"
+    },
+    "12317": {
+      "title": "Zaman Yolculugu Izi",
+      "description": "Old Glast Heim'e zaman yolculugu 23 saat boyunca yasaklandi.",
+      "goal": "Boyut bozuldu"
+    },
+    "12318": {
+      "title": "Corrupted Soul Avi",
+      "description": "Old Glast Heim 1F'teki Corrupted Soul'u bul ve yok et.",
+      "goal": ""
+    },
+    "12319": {
+      "title": "Amdarais Avi",
+      "description": "Old Glast Heim 2F'e ilerle ve Amdarais'i yok et.",
+      "goal": ""
+    },
+    "12320": {
+      "title": "Zaman Yolcusu",
+      "description": "Old Glast Heim zaman yolculugu kismen tamamlandi.",
+      "goal": "Eski kale zaman yolculugu"
+    },
+    "12321": {
+      "title": "Zaman Fatihi",
+      "description": "Old Glast Heim zaman yolculugu tamamen tamamlandi.",
+      "goal": "Eski kale zaman yolculugu"
+    },
+    "12322": {
+      "title": "Uzay Bozulmasi",
+      "description": "Glast Heim'in icindeki alan Hugin tarafindan bozuldu. Bu kalede her sey olabilir.",
+      "goal": "Alan bozuldu"
+    },
+    "12325": {
+      "title": "Faceworm's Nest Sonrasi",
+      "description": "Sure dolana kadar Faceworm's Nest'e tekrar giremezsin.",
+      "goal": ""
+    },
+    "12326": {
+      "title": "Eski Yuzugun Sahibi",
+      "description": "Eski yuzugun sahibini buldun.",
+      "goal": ""
+    },
+    "12327": {
+      "title": "Eski Fotograf Albumunun Hatirasi",
+      "description": "Merchant photo album'u alirsa mutlu olacak. Kaybettigi diger albumleri de bulup ona getir.",
+      "goal": ""
+    },
+    "12328": {
+      "title": "Dol-Seoi'nin Uzuntusu",
+      "description": "Dol-Seoi buldugun pill'leri verince agladi. Faceworm's Nest'te baska pill bulursan ona getir.",
+      "goal": ""
+    },
+    "12329": {
+      "title": "Keaton'un Bracelet'i",
+      "description": "Bu soul neden huzura kavusamiyor? Faceworm's Nest'te buldugun bracelet'leri Keaton'a getir.",
+      "goal": ""
+    },
+    "12330": {
+      "title": "Kurukafa Yuzlu Kiz",
+      "description": "Garip gorunumlu bir kizdan bir hikaye dinledin.",
+      "goal": "Kurukafa yuzlu kiz"
+    },
+    "12331": {
+      "title": "Toy Factory Izi",
+      "description": "Toy Factory'ye giris izi kaldi. 23 saat boyunca yeniden girilemez.",
+      "goal": "Toy Factory izi"
+    },
+    "12346": {
+      "title": "Garip Antik Bilim",
+      "description": "Researcher ile ancient science'in garipligi hakkinda konustun.",
+      "goal": "Garip antik bilim"
+    },
+    "12347": {
+      "title": "Laboratory Erisim Izi",
+      "description": "Ancient science laboratory'ye boyutlar uzerinden erisimin etkileri hala duruyor.",
+      "goal": "Laboratory erisim izleri"
+    },
+    "12368": {
+      "title": "Eski Robotu Calistir",
+      "description": "Eski robotu etkinlestirmek icin Old Fuel Tank elde et.",
+      "goal": "1 Old Fuel Tank elde et"
+    },
+    "12369": {
+      "title": "Gizli Is Iliskisi",
+      "description": "Gizli bir is iliskisi kur.",
+      "goal": "Suspicious prisoner ile konusmayi tamamla"
+    },
+    "12381": {
+      "title": "Yeni Kitanin Gida Tedarikcisi",
+      "description": "Yeni kitaya elinden geldigi kadar gida malzemesi tedarik et.",
+      "goal": "Yeni kitanin gida tedarikcisi"
+    },
+    "12382": {
+      "title": "Gida Dagitimi",
+      "description": "Senin sayende Food Distributor artik yemek bekleyen herkese yetecek malzemeye sahip.",
+      "goal": "Gorev 04:00'te sifirlanir"
+    },
+    "12383": {
+      "title": "Sweet Potato Teslimati",
+      "description": "Ana karadan 160 Sweet Potato getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "160 Sweet Potato"
+    },
+    "12384": {
+      "title": "Meat Teslimati",
+      "description": "Ana karadan 50 Meat getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "50 Meat"
+    },
+    "12385": {
+      "title": "Carrot Teslimati",
+      "description": "Ana karadan 160 Carrot getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "160 Carrot"
+    },
+    "12386": {
+      "title": "Banana Teslimati",
+      "description": "Ana karadan 160 Banana getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "160 Banana"
+    },
+    "12387": {
+      "title": "Pumpkin Teslimati",
+      "description": "Ana karadan 160 Pumpkin getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "160 Pumpkin"
+    },
+    "12388": {
+      "title": "Mushroom Teslimati",
+      "description": "Ana karadan 60 Mushroom getir ve Rock Ridge'deki Food Distributor'a teslim et. Buyuk sehirlerdeki merchant'lardan satin alabilirsin.",
+      "goal": "60 Mushroom"
+    },
+    "12389": {
+      "title": "Rock Ridge Koruyucusu",
+      "description": "Yeni kitadaki pioneer village'in vigilante grubuna katildin.",
+      "goal": "Yeni kitadaki vigilante'lar"
+    },
+    "12390": {
+      "title": "Simdilik Rahatiz",
+      "description": "Bu, pioneer village'i bir sure monster'lardan korumaya yeter.",
+      "goal": "Gorev 04:00'te sifirlanir"
+    },
+    "12391": {
+      "title": "Rifle'li Buffalo Banditler",
+      "description": "15 ^ff0000rifle Buffalo Bandit^000000 yen.",
+      "goal": "15 Buffalo Bandit yen"
+    },
+    "12392": {
+      "title": "Kirmizi Maskeleri Cezalandir",
+      "description": "15 ^ff0000red mask Buffalo Bandit^000000 yen.",
+      "goal": "15 Buffalo Bandit yen"
+    },
+    "12393": {
+      "title": "Eye Patch Desperado'lar",
+      "description": "15 ^ff0000eye patch Buffalo Bandit^000000 yen.",
+      "goal": "15 Buffalo Bandit yen"
+    },
+    "12394": {
+      "title": "Gri Dort Ayakli Yaratiklari Temizle",
+      "description": "20 ^ff0000Coyote^000000 yen. Genellikle Rock Ridge'in batisindaki dar vadide bulunurlar.",
+      "goal": "20 Coyote yen"
+    },
+    "12395": {
+      "title": "Swamp Arclouze Temizligi",
+      "description": "10 ^ff0000Swamp Arclouze^000000 yen. Rock Ridge basement'ta bulunurlar.",
+      "goal": "10 Swamp Arclouze yen"
+    },
+    "12396": {
+      "title": "Brown Rat Temizligi",
+      "description": "10 ^ff0000Brown Rat^000000 yen. Rock Ridge basement'ta bulunurlar.",
+      "goal": "10 Brown Rat yen"
+    },
+    "12398": {
+      "title": "Iyisin",
+      "description": "Zorlu gorevi basariyla tamamladin. Biraz dinlen.",
+      "goal": "Gorev 04:00'te sifirlanir"
+    },
+    "12399": {
+      "title": "Azili Suclulari Avla",
+      "description": "Parlayan mavi gozlu 10 ^ff0000rifle Buffalo Bandit^000000 yen.",
+      "goal": "10 Buffalo Bandit yen"
+    },
+    "12400": {
+      "title": "Azili Suclulari Avla",
+      "description": "Yesil maske takan 10 ^ff0000Buffalo Bandit^000000 yen.",
+      "goal": "10 Buffalo Bandit yen"
+    },
+    "12401": {
+      "title": "Azili Suclulari Avla",
+      "description": "Eye patch ve soluk yesil vest giyen 10 ^ff0000Buffalo Bandit^000000 yen.",
+      "goal": "10 Buffalo Bandit yen"
+    },
+    "12402": {
+      "title": "Tehlikeli Gazi Yok Et",
+      "description": "10 ^ff0000Gaster^000000 yen.",
+      "goal": "10 Gaster yen"
+    },
+    "12403": {
+      "title": "Rock Ridge Iscileri",
+      "description": "Yeni kitadaki pioneer village icin su tedarikcisi ol.",
+      "goal": "Yeni kitadaki suyu koru"
+    },
+    "12404": {
+      "title": "Yorulmadin mi?",
+      "description": "Rock Ridge basement'taki tum pipe'lari onardin. Desalination system bir sure iyi durumda olmali.",
+      "goal": "Gorev 04:00'te sifirlanir"
+    },
+    "12405": {
+      "title": "Kirmizi Pipe'i Onar",
+      "description": "Sizdiran red pipe'i onar. Rock Ridge basement'ta parlayan kirmizi noktayi bul ve tiklayarak pipe'i onar.",
+      "goal": "Rock Ridge basement'ta parlayan kirmizi noktayi bul"
+    },
+    "12406": {
+      "title": "Mavi Pipe'i Onar",
+      "description": "Sizdiran blue pipe'i onar. Rock Ridge basement'ta parlayan mavi noktayi bul ve tiklayarak pipe'i onar.",
+      "goal": "Rock Ridge basement'ta parlayan mavi noktayi bul"
+    },
+    "12407": {
+      "title": "Sari Pipe'i Onar",
+      "description": "Sizdiran yellow pipe'i onar. Rock Ridge basement'ta parlayan sari noktayi bul ve tiklayarak pipe'i onar.",
+      "goal": "Rock Ridge basement'ta parlayan sari noktayi bul"
+    },
+    "12408": {
+      "title": "Beyaz Pipe'i Onar",
+      "description": "Sizdiran white pipe'i onar. Rock Ridge basement'ta parlayan beyaz noktayi bul ve tiklayarak pipe'i onar.",
+      "goal": "Rock Ridge basement'ta parlayan beyaz noktayi bul"
+    },
+    "12409": {
+      "title": "Pipe'lar Onarildi",
+      "description": "Tum pipe'lari onardin. Simdi ground level'a don ve Desalination Facility Manager ile konus.",
+      "goal": "Ground level'a geri don"
     }
   }
 }
