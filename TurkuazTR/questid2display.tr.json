@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.57.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7454-7469 Dessert Class, yalnizlik hikayeleri ve cikolata teslimat gorevleri dahil",
+    "version": "6.58.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7471-7487 Criatura Academy baslangic, Red Herb ve Thief egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8722,6 +8722,91 @@
       "title": "Jinha'nin Yari Zamanli Isi",
       "description": "Malzemeler her gun teslim ediliyor gibi gorunuyor. Yarin ayni saatlerde yeniden yari zamanli is cikabilir.",
       "goal": "Yarin tekrar kontrol et"
+    },
+    "7471": {
+      "title": "Dunyadaki Ilk Konusma",
+      "description": "Captain Carocc ile konus.",
+      "goal": "Captain Carocc ile konus"
+    },
+    "7472": {
+      "title": "Dunyaya Ilk Adim",
+      "description": "Criatura Academy gorevlisi Hun ile bulus.",
+      "goal": "Mr. Hun ile konus"
+    },
+    "7473": {
+      "title": "Serinletici Icecek",
+      "description": "Mr. Hun'dan bir bardak Apple Juice aldin. Tek seferde ic.",
+      "goal": "Apple Juice'u ic ve Mr. Hun ile konus"
+    },
+    "7474": {
+      "title": "Bilgi Gorevlisinin Hediyeleri",
+      "description": "Information Staff'in mini-map uzerinde gosterdigi 3 yerde sakli hediyeleri bul.",
+      "goal": "3 sakli hediyeyi ara"
+    },
+    "7475": {
+      "title": "Eyvah, Bir Adim Geride - 1",
+      "description": "Airship tabelasina geldin ama sakli hediye bulamadin. Diger iki noktayi kontrol etmediysen bul ve Information Staff'e don.",
+      "goal": "Diger noktalarin ardindan Information Staff'e don"
+    },
+    "7476": {
+      "title": "Eyvah, Bir Adim Geride - 2",
+      "description": "Arena ilan panosuna geldin ama sakli hediye bulamadin. Diger iki noktayi kontrol etmediysen bul ve Information Staff'e don.",
+      "goal": "Diger noktalarin ardindan Information Staff'e don"
+    },
+    "7477": {
+      "title": "Eyvah, Bir Adim Geride - 3",
+      "description": "Prontera'ya giden kopruye geldin ama sakli hediye bulamadin. Diger iki noktayi kontrol etmediysen bul ve Information Staff'e don.",
+      "goal": "Diger noktalarin ardindan Information Staff'e don"
+    },
+    "7478": {
+      "title": "Temel Bitkisel Ilac",
+      "description": "Bitkiler hakkinda bilgi edin. Bir Red Herb getir. Academy girisinin cevresinde Red Plant yetisiyor.",
+      "goal": "1 Red Herb getir"
+    },
+    "7479": {
+      "title": "Dost mu Dusman mi?",
+      "description": "Nedense Lumin sana bir Red Herb verdi.",
+      "goal": "Lumin'den aldigin Red Herb'i kullan"
+    },
+    "7480": {
+      "title": "Thief Sinifi Hakkinda",
+      "description": "Vicente ve Vercassel'den stat ve skill bilgilerini ogren.",
+      "goal": "Vicente ve Vercassel ile konus"
+    },
+    "7481": {
+      "title": "Vicente'nin Dersi",
+      "description": "Vicente'den statlar hakkinda bilgi aldin.",
+      "goal": "Vicente'nin dersini tamamla"
+    },
+    "7482": {
+      "title": "Vercassel'in Dersi",
+      "description": "Vercassel'den Thief skill'leri hakkinda bilgi aldin.",
+      "goal": "Vercassel'in dersini tamamla"
+    },
+    "7483": {
+      "title": "Thief Manual'i Kullan",
+      "description": "Vicente ve Vercassel'in verdigi gorevleri tamamlamak icin Thief Manual'i kullan.",
+      "goal": "Vicente ve Vercassel'in gorevlerini tamamla"
+    },
+    "7484": {
+      "title": "Dukkan Sahibi, Calma Emri",
+      "description": "Thief Manual gorevi icin bir Poring'den Stone calman gerekiyor.",
+      "goal": "1 Stone cal"
+    },
+    "7485": {
+      "title": "Assassin, Envenom Kullan",
+      "description": "Thief Manual gorevi icin Poring kafesindeki bir Poring'i Envenom kullanarak yen.",
+      "goal": "1 Poring yen"
+    },
+    "7486": {
+      "title": "Lumin ile Birlikte",
+      "description": "Lumin ile gelecegin hakkinda konus.",
+      "goal": "Lumin ile konus"
+    },
+    "7487": {
+      "title": "30 Saniyelik Duello",
+      "description": "Lumin ile iddiaya girdin. 30 saniye icinde Poring kafesinde Envenom kullanarak 4 Poring yen ve Lumin ile konus.",
+      "goal": "30 saniyede 4 Poring yen"
     }
   }
 }
