@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.21.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7007-7011 Gunes, Ay ve Yildizlar savascisi meslek zinciri dahil",
+    "version": "6.22.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7012-7019 Rayan Moore takip ve arastirma gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6527,6 +6527,46 @@
       "title": "Gunes, Ay ve Yildizlar Savascisi",
       "description": "Tum sinavlari tamamladin. Sonucu bildirmek icin Moogang'a geri don.",
       "goal": "Moogang ile konus"
+    },
+    "7012": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Echinacea ile konusma tek tarafli gecti. Mr. Kidd'in yardimcisi olarak gorevlendirildin; gidip onunla konus.",
+      "goal": "Mr. Kidd ile konus"
+    },
+    "7013": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Ayak islerinden rahatsiz oldugunu soyledin. Mr. Kidd, bu gorevi istemedigini Echinacea'ya acikca bildirmeni istedi.",
+      "goal": "Echinacea ile konus"
+    },
+    "7014": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Echinacea'yi ikna etmek yine mumkun olmadi. Ne olursa olsun Mr. Kidd'e geri donup yardim et.",
+      "goal": "Mr. Kidd'e geri don"
+    },
+    "7015": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Mr. Kidd'in istegi beklediginden daha basit. Morroc'un guneybatisindaki yer alti meyhanesinde Rin ile bulus.",
+      "goal": "Rin ile bulus"
+    },
+    "7016": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rin'in saldiriya ugradigi bolgeyi arastir. Yer, Abyss Lake'in batisinda ve dagin tepesinden ikinci tepenin guneyinde.",
+      "goal": "Abyss Lake bati alanini arastir"
+    },
+    "7017": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Hugel ormani yakininda Bloody Crystal of Darkness buldun. Buldugun seyi Rin'e bildir.",
+      "goal": "Rin'e rapor ver"
+    },
+    "7018": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rin'den gunlugu ve Bloody Crystal of Darkness'i aldin. Bunlari Mr. Kidd'e teslim et.",
+      "goal": "Gunlugu ve kristali Mr. Kidd'e teslim et"
+    },
+    "7019": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Gunlugu ve kristali Mr. Kidd'e teslim ettin ancak onun son sozlerini aklindan cikaramiyorsun.",
+      "goal": "Gorev tamamlandi"
     }
   }
 }
