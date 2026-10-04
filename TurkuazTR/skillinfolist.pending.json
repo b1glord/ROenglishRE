@@ -1,0 +1,4131 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/skillinfolist.pending.json",
+    "purpose": "Henuz Turkce SkillName patchi bulunmayan oyuncu skill adaylarini listeler",
+    "module": "Generated Report - JSON",
+    "version": "1.0.0",
+    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
+  "source_ref": "8d7ec48ec5f82bd046f33556f61f68f733dcfec9",
+  "patched_count": 60,
+  "candidate_count": 823,
+  "candidates": [
+    {
+      "key": "NC_SILVERSNIPER",
+      "name": "FAW Silver Sniper",
+      "order": 61
+    },
+    {
+      "key": "SA_DELUGE",
+      "name": "Deluge",
+      "order": 62
+    },
+    {
+      "key": "SC_BODYPAINT",
+      "name": "Body Painting",
+      "order": 63
+    },
+    {
+      "key": "SA_VIOLENTGALE",
+      "name": "Violent Gale",
+      "order": 64
+    },
+    {
+      "key": "MG_FIREWALL",
+      "name": "Fire Wall",
+      "order": 65
+    },
+    {
+      "key": "SA_LANDPROTECTOR",
+      "name": "Land Protector",
+      "order": 66
+    },
+    {
+      "key": "WM_GLOOMYDAY",
+      "name": "Gloomy Shyness",
+      "order": 67
+    },
+    {
+      "key": "SA_DISPELL",
+      "name": "Dispell",
+      "order": 68
+    },
+    {
+      "key": "LG_FORCEOFVANGUARD",
+      "name": "Vanguard Force",
+      "order": 69
+    },
+    {
+      "key": "SA_ABRACADABRA",
+      "name": "Abracadabra",
+      "order": 70
+    },
+    {
+      "key": "LG_RAYOFGENESIS",
+      "name": "Genesis Ray",
+      "order": 71
+    },
+    {
+      "key": "SA_MONOCELL",
+      "name": "Mono Cell",
+      "order": 72
+    },
+    {
+      "key": "SA_CLASSCHANGE",
+      "name": "Class Change",
+      "order": 73
+    },
+    {
+      "key": "SA_SUMMONMONSTER",
+      "name": "Summon Monster",
+      "order": 74
+    },
+    {
+      "key": "SA_REVERSEORCISH",
+      "name": "Reverse Orcish",
+      "order": 75
+    },
+    {
+      "key": "WM_LULLABY_DEEPSLEEP",
+      "name": "Deep Sleep Lullaby",
+      "order": 76
+    },
+    {
+      "key": "SA_DEATH",
+      "name": "Grim Reaper",
+      "order": 77
+    },
+    {
+      "key": "WM_DEADHILLHERE",
+      "name": "Death Valley",
+      "order": 78
+    },
+    {
+      "key": "SA_FORTUNE",
+      "name": "Fortune",
+      "order": 79
+    },
+    {
+      "key": "WM_SEVERE_RAINSTORM",
+      "name": "Severe Rainstorm",
+      "order": 80
+    },
+    {
+      "key": "SA_TAMINGMONSTER",
+      "name": "Taming Monster",
+      "order": 81
+    },
+    {
+      "key": "MI_RUSH_WINDMILL",
+      "name": "Windmill Rush",
+      "order": 82
+    },
+    {
+      "key": "SA_QUESTION",
+      "name": "?",
+      "order": 83
+    },
+    {
+      "key": "WM_REVERBERATION",
+      "name": "Reverberation",
+      "order": 84
+    },
+    {
+      "key": "SA_GRAVITY",
+      "name": "Gravity",
+      "order": 85
+    },
+    {
+      "key": "WM_METALICSOUND",
+      "name": "Metallic Sound",
+      "order": 86
+    },
+    {
+      "key": "SA_LEVELUP",
+      "name": "Level Up",
+      "order": 87
+    },
+    {
+      "key": "WM_LESSON",
+      "name": "Lesson",
+      "order": 88
+    },
+    {
+      "key": "SA_INSTANTDEATH",
+      "name": "Instant Death",
+      "order": 89
+    },
+    {
+      "key": "MI_ECHOSONG",
+      "name": "Echo Song",
+      "order": 90
+    },
+    {
+      "key": "SA_FULLRECOVERY",
+      "name": "Full Recovery",
+      "order": 91
+    },
+    {
+      "key": "WM_DOMINION_IMPULSE",
+      "name": "Dominion Impulse",
+      "order": 92
+    },
+    {
+      "key": "SA_COMA",
+      "name": "Coma",
+      "order": 93
+    },
+    {
+      "key": "MG_FIREBOLT",
+      "name": "Fire Bolt",
+      "order": 94
+    },
+    {
+      "key": "BD_ADAPTATION",
+      "name": "Adaptation to Circumstances",
+      "order": 95
+    },
+    {
+      "key": "WM_BEYOND_OF_WARCRY",
+      "name": "Beyond of Warcry",
+      "order": 96
+    },
+    {
+      "key": "BD_ENCORE",
+      "name": "Encore",
+      "order": 97
+    },
+    {
+      "key": "BD_LULLABY",
+      "name": "Lullaby",
+      "order": 98
+    },
+    {
+      "key": "SO_PSYCHIC_WAVE",
+      "name": "Psychic Wave",
+      "order": 99
+    },
+    {
+      "key": "BD_RICHMANKIM",
+      "name": "Mr. Kim A Rich Man",
+      "order": 100
+    },
+    {
+      "key": "SO_SUMMON_AGNI",
+      "name": "Summon Agni",
+      "order": 101
+    },
+    {
+      "key": "BD_ETERNALCHAOS",
+      "name": "Eternal Chaos",
+      "order": 102
+    },
+    {
+      "key": "SO_FIRE_INSIGNIA",
+      "name": "Fire Insignia",
+      "order": 103
+    },
+    {
+      "key": "BD_DRUMBATTLEFIELD",
+      "name": "Drum of Battlefield",
+      "order": 104
+    },
+    {
+      "key": "BD_RINGNIBELUNGEN",
+      "name": "The Ring of Nibelungen",
+      "order": 105
+    },
+    {
+      "key": "GN_SPORE_EXPLOSION",
+      "name": "Spore Explosion",
+      "order": 106
+    },
+    {
+      "key": "BD_ROKISWEIL",
+      "name": "Loki's Wail",
+      "order": 107
+    },
+    {
+      "key": "BD_INTOABYSS",
+      "name": "Into the Abyss",
+      "order": 108
+    },
+    {
+      "key": "GN_S_PHARMACY",
+      "name": "Special Pharmacy",
+      "order": 109
+    },
+    {
+      "key": "BD_SIEGFRIED",
+      "name": "Invulnerable Siegfried",
+      "order": 110
+    },
+    {
+      "key": "GD_RESTORE",
+      "name": "Restore",
+      "order": 111
+    },
+    {
+      "key": "BD_RAGNAROK",
+      "name": "Ragnarok",
+      "order": 112
+    },
+    {
+      "key": "LG_INSPIRATION",
+      "name": "Inspiration",
+      "order": 113
+    },
+    {
+      "key": "BA_MUSICALLESSON",
+      "name": "Musical Lesson",
+      "order": 114
+    },
+    {
+      "key": "LG_PIETY",
+      "name": "Piety",
+      "order": 115
+    },
+    {
+      "key": "BA_MUSICALSTRIKE",
+      "name": "Musical Strike",
+      "order": 116
+    },
+    {
+      "key": "LG_PRESTIGE",
+      "name": "Prestige",
+      "order": 117
+    },
+    {
+      "key": "BA_DISSONANCE",
+      "name": "Dissonance",
+      "order": 118
+    },
+    {
+      "key": "ALL_ODINS_POWER",
+      "name": "Odin's Power",
+      "order": 119
+    },
+    {
+      "key": "BA_FROSTJOKE",
+      "name": "Frost Joker",
+      "order": 120
+    },
+    {
+      "key": "BA_FROSTJOKER",
+      "name": "Frost Joker",
+      "order": 121
+    },
+    {
+      "key": "LG_EXEEDBREAK",
+      "name": "Exceed Break",
+      "order": 122
+    },
+    {
+      "key": "BA_WHISTLE",
+      "name": "Whistle",
+      "order": 123
+    },
+    {
+      "key": "MG_LIGHTNINGBOLT",
+      "name": "Lightning Bolt",
+      "order": 124
+    },
+    {
+      "key": "BA_ASSASSINCROSS",
+      "name": "Assassin Cross of Sunset",
+      "order": 125
+    },
+    {
+      "key": "LG_RAGEBURST",
+      "name": "Burst Attack",
+      "order": 126
+    },
+    {
+      "key": "BA_POEMBRAGI",
+      "name": "Poem of Bragi",
+      "order": 127
+    },
+    {
+      "key": "ML_DEVOTION",
+      "name": "Devotion",
+      "order": 128
+    },
+    {
+      "key": "BA_APPLEIDUN",
+      "name": "Apple of Idun",
+      "order": 129
+    },
+    {
+      "key": "LG_TRAMPLE",
+      "name": "Trample",
+      "order": 130
+    },
+    {
+      "key": "DC_DANCINGLESSON",
+      "name": "Dancing Lesson",
+      "order": 131
+    },
+    {
+      "key": "SC_MAELSTROM",
+      "name": "Maelstrom",
+      "order": 132
+    },
+    {
+      "key": "DC_THROWARROW",
+      "name": "Throw Arrow",
+      "order": 133
+    },
+    {
+      "key": "SC_CHAOSPANIC",
+      "name": "Chaos Panic",
+      "order": 134
+    },
+    {
+      "key": "DC_UGLYDANCE",
+      "name": "Ugly Dance",
+      "order": 135
+    },
+    {
+      "key": "SC_DIMENSIONDOOR",
+      "name": "Dimension Door",
+      "order": 136
+    },
+    {
+      "key": "DC_SCREAM",
+      "name": "Scream",
+      "order": 137
+    },
+    {
+      "key": "SC_MANHOLE",
+      "name": "Manhole",
+      "order": 138
+    },
+    {
+      "key": "DC_HUMMING",
+      "name": "Humming",
+      "order": 139
+    },
+    {
+      "key": "EL_PYROTECHNIC",
+      "name": "Pyrotechnic",
+      "order": 140
+    },
+    {
+      "key": "DC_DONTFORGETME",
+      "name": "Please Don't Forget Me",
+      "order": 141
+    },
+    {
+      "key": "SC_WEAKNESS",
+      "name": "Masquerade Weakness",
+      "order": 142
+    },
+    {
+      "key": "DC_FORTUNEKISS",
+      "name": "Fortune's Kiss",
+      "order": 143
+    },
+    {
+      "key": "SC_UNLUCKY",
+      "name": "Masquerade Unlucky",
+      "order": 144
+    },
+    {
+      "key": "DC_SERVICEFORYOU",
+      "name": "Service For You",
+      "order": 145
+    },
+    {
+      "key": "SC_IGNORANCE",
+      "name": "Masquerade Ignorance",
+      "order": 146
+    },
+    {
+      "key": "SC_GROOMY",
+      "name": "Masquerade Gloomy",
+      "order": 147
+    },
+    {
+      "key": "SC_INVISIBILITY",
+      "name": "Invisibility",
+      "order": 148
+    },
+    {
+      "key": "SC_AUTOSHADOWSPELL",
+      "name": "Auto Shadow Spell",
+      "order": 149
+    },
+    {
+      "key": "SC_REPRODUCE",
+      "name": "Reproduce",
+      "order": 150
+    },
+    {
+      "key": "SC_FATALMENACE",
+      "name": "Fatal Menace",
+      "order": 151
+    },
+    {
+      "key": "NC_MAGICDECOY",
+      "name": "FAW Magic Decoy",
+      "order": 152
+    },
+    {
+      "key": "WE_MALE",
+      "name": "I'll save you",
+      "order": 153
+    },
+    {
+      "key": "NC_AXEBOOMERANG",
+      "name": "Axe Boomerang",
+      "order": 154
+    },
+    {
+      "key": "WE_FEMALE",
+      "name": "I'll sacrifice myself for you",
+      "order": 155
+    },
+    {
+      "key": "MG_THUNDERSTORM",
+      "name": "Thunder Storm",
+      "order": 156
+    },
+    {
+      "key": "WE_CALLPARTNER",
+      "name": "I miss you",
+      "order": 157
+    },
+    {
+      "key": "NC_RESEARCHFE",
+      "name": "Fire Earth Research",
+      "order": 158
+    },
+    {
+      "key": "ITM_TOMAHAWK",
+      "name": "Tomahawk Throwing",
+      "order": 159
+    },
+    {
+      "key": "NC_STEALTHFIELD",
+      "name": "Stealth Field",
+      "order": 160
+    },
+    {
+      "key": "NC_INFRAREDSCAN",
+      "name": "Infrared Scan",
+      "order": 161
+    },
+    {
+      "key": "NC_EMERGENCYCOOL",
+      "name": "Emergency Cool",
+      "order": 162
+    },
+    {
+      "key": "NC_SHAPESHIFT",
+      "name": "Shape Shift",
+      "order": 163
+    },
+    {
+      "key": "NC_SELFDESTRUCTION",
+      "name": "Self Destruction",
+      "order": 164
+    },
+    {
+      "key": "NC_MAINFRAME",
+      "name": "Remodel Mainframe",
+      "order": 165
+    },
+    {
+      "key": "NC_ACCELERATION",
+      "name": "Acceleration",
+      "order": 166
+    },
+    {
+      "key": "NC_ARMSCANNON",
+      "name": "Arm Cannon",
+      "order": 167
+    },
+    {
+      "key": "NC_VULCANARM",
+      "name": "Vulcan Arm",
+      "order": 168
+    },
+    {
+      "key": "RA_ICEBOUNDTRAP",
+      "name": "Ice Bound Trap",
+      "order": 169
+    },
+    {
+      "key": "RA_FIRINGTRAP",
+      "name": "Firing Trap",
+      "order": 170
+    },
+    {
+      "key": "RA_VERDURETRAP",
+      "name": "Verdure Trap",
+      "order": 171
+    },
+    {
+      "key": "RA_COBALTTRAP",
+      "name": "Cobalt Trap",
+      "order": 172
+    },
+    {
+      "key": "RA_SENSITIVEKEEN",
+      "name": "Sensitive Keen",
+      "order": 173
+    },
+    {
+      "key": "RA_TOOTHOFWUG",
+      "name": "Tooth of Warg",
+      "order": 174
+    },
+    {
+      "key": "RA_WUGDASH",
+      "name": "Warg Dash",
+      "order": 175
+    },
+    {
+      "key": "RA_ELECTRICSHOCKER",
+      "name": "Electric Shock",
+      "order": 176
+    },
+    {
+      "key": "RA_DETONATOR",
+      "name": "Detonator",
+      "order": 177
+    },
+    {
+      "key": "RA_AIMEDBOLT",
+      "name": "Aimed Bolt",
+      "order": 178
+    },
+    {
+      "key": "RA_RANGERMAIN",
+      "name": "Ranger Main",
+      "order": 179
+    },
+    {
+      "key": "RA_FEARBREEZE",
+      "name": "Fear Breeze",
+      "order": 180
+    },
+    {
+      "key": "WL_RELEASE",
+      "name": "Release",
+      "order": 181
+    },
+    {
+      "key": "WL_SUMMONSTONE",
+      "name": "Summon Stone",
+      "order": 182
+    },
+    {
+      "key": "WL_SUMMONFB",
+      "name": "Summon Fire Ball",
+      "order": 183
+    },
+    {
+      "key": "WL_CHAINLIGHTNING",
+      "name": "Chain Lightning",
+      "order": 184
+    },
+    {
+      "key": "WL_COMET",
+      "name": "Comet",
+      "order": 185
+    },
+    {
+      "key": "WL_DRAINLIFE",
+      "name": "Drain Life",
+      "order": 186
+    },
+    {
+      "key": "WL_RECOGNIZEDSPELL",
+      "name": "Recognized Spell",
+      "order": 187
+    },
+    {
+      "key": "AL_DP",
+      "name": "Divine Protection",
+      "order": 188
+    },
+    {
+      "key": "WL_MARSHOFABYSS",
+      "name": "Marsh of Abyss",
+      "order": 189
+    },
+    {
+      "key": "WL_JACKFROST",
+      "name": "Jack Frost",
+      "order": 190
+    },
+    {
+      "key": "WL_FROSTMISTY",
+      "name": "Frost Misty",
+      "order": 191
+    },
+    {
+      "key": "WL_SOULEXPANSION",
+      "name": "Soul Expansion",
+      "order": 192
+    },
+    {
+      "key": "AB_DUPLELIGHT",
+      "name": "Duple Light",
+      "order": 193
+    },
+    {
+      "key": "AB_EXPIATIO",
+      "name": "Expiatio",
+      "order": 194
+    },
+    {
+      "key": "LK_AURABLADE",
+      "name": "Aura Blade",
+      "order": 195
+    },
+    {
+      "key": "AB_RENOVATIO",
+      "name": "Renovatio",
+      "order": 196
+    },
+    {
+      "key": "LK_PARRYING",
+      "name": "Parry",
+      "order": 197
+    },
+    {
+      "key": "AB_LAUDAAGNUS",
+      "name": "Lauda Agnus",
+      "order": 198
+    },
+    {
+      "key": "LK_CONCENTRATION",
+      "name": "Concentration",
+      "order": 199
+    },
+    {
+      "key": "AB_ORATIO",
+      "name": "Oratio",
+      "order": 200
+    },
+    {
+      "key": "LK_TENSIONRELAX",
+      "name": "Tension Relax",
+      "order": 201
+    },
+    {
+      "key": "AB_PRAEFATIO",
+      "name": "Praefatio",
+      "order": 202
+    },
+    {
+      "key": "LK_BERSERK",
+      "name": "Berserk",
+      "order": 203
+    },
+    {
+      "key": "AB_EPICLESIS",
+      "name": "Epiclesis",
+      "order": 204
+    },
+    {
+      "key": "AB_CHEAL",
+      "name": "Coluceo Heal",
+      "order": 205
+    },
+    {
+      "key": "AB_ANCILLA",
+      "name": "Ancilla",
+      "order": 206
+    },
+    {
+      "key": "HP_ASSUMPTIO",
+      "name": "Assumptio",
+      "order": 207
+    },
+    {
+      "key": "GC_HALLUCINATIONWALK",
+      "name": "Hallucination Walk",
+      "order": 208
+    },
+    {
+      "key": "HP_BASILICA",
+      "name": "Basilica",
+      "order": 209
+    },
+    {
+      "key": "GC_VENOMPRESSURE",
+      "name": "Venom Pressure",
+      "order": 210
+    },
+    {
+      "key": "HP_MEDITATIO",
+      "name": "Meditatio",
+      "order": 211
+    },
+    {
+      "key": "GC_WEAPONCRUSH",
+      "name": "Weapon Crush",
+      "order": 212
+    },
+    {
+      "key": "HW_SOULDRAIN",
+      "name": "Soul Drain",
+      "order": 213
+    },
+    {
+      "key": "GC_POISONINGWEAPON",
+      "name": "Poisoning Weapon",
+      "order": 214
+    },
+    {
+      "key": "HW_MAGICCRASHER",
+      "name": "Magic Crasher",
+      "order": 215
+    },
+    {
+      "key": "GC_DARKILLUSION",
+      "name": "Dark Illusion",
+      "order": 216
+    },
+    {
+      "key": "HW_MAGICPOWER",
+      "name": "Mystical Amplification",
+      "order": 217
+    },
+    {
+      "key": "RK_ABUNDANCE",
+      "name": "Abundance",
+      "order": 218
+    },
+    {
+      "key": "PA_PRESSURE",
+      "name": "Pressure",
+      "order": 219
+    },
+    {
+      "key": "AL_DEMONBANE",
+      "name": "Demon Bane",
+      "order": 220
+    },
+    {
+      "key": "PA_SACRIFICE",
+      "name": "Sacrifice",
+      "order": 221
+    },
+    {
+      "key": "RK_STONEHARDSKIN",
+      "name": "Stone Hardskin",
+      "order": 222
+    },
+    {
+      "key": "PA_GOSPEL",
+      "name": "Gospel",
+      "order": 223
+    },
+    {
+      "key": "RK_GIANTGROWTH",
+      "name": "Giant Growth",
+      "order": 224
+    },
+    {
+      "key": "CH_PALMSTRIKE",
+      "name": "Palm Strike",
+      "order": 225
+    },
+    {
+      "key": "RK_MILLENNIUMSHIELD",
+      "name": "Millennium Shield",
+      "order": 226
+    },
+    {
+      "key": "CH_TIGERFIST",
+      "name": "Tiger Fist",
+      "order": 227
+    },
+    {
+      "key": "RK_DRAGONTRAINING",
+      "name": "Dragon Training",
+      "order": 228
+    },
+    {
+      "key": "CH_CHAINCRUSH",
+      "name": "Chain Crush Combo",
+      "order": 229
+    },
+    {
+      "key": "RK_DEATHBOUND",
+      "name": "Death Bound",
+      "order": 230
+    },
+    {
+      "key": "PF_HPCONVERSION",
+      "name": "Indulge",
+      "order": 231
+    },
+    {
+      "key": "HVAN_INSTRUCT",
+      "name": "Change Instruction",
+      "order": 232
+    },
+    {
+      "key": "PF_SOULCHANGE",
+      "name": "Soul Change",
+      "order": 233
+    },
+    {
+      "key": "MH_STAHL_HORN",
+      "name": "Stahl Horn",
+      "order": 234
+    },
+    {
+      "key": "PF_SOULBURN",
+      "name": "Soul Burn",
+      "order": 235
+    },
+    {
+      "key": "NPC_MAGICMIRROR",
+      "name": "Magic Mirror",
+      "order": 236
+    },
+    {
+      "key": "ASC_KATAR",
+      "name": "Advanced Katar Mastery",
+      "order": 237
+    },
+    {
+      "key": "DA_DREAM",
+      "name": "Black Dream of Gemstone",
+      "order": 238
+    },
+    {
+      "key": "DA_SPACE",
+      "name": "Dark Twilight",
+      "order": 239
+    },
+    {
+      "key": "GD_EMERGENCYCALL",
+      "name": "Emergency Call",
+      "order": 240
+    },
+    {
+      "key": "ASC_EDP",
+      "name": "Enchant Deadly Poison",
+      "order": 241
+    },
+    {
+      "key": "DE_NIGHTMARE",
+      "name": "Death Nightmare",
+      "order": 242
+    },
+    {
+      "key": "ASC_BREAKER",
+      "name": "Soul Destroyer",
+      "order": 243
+    },
+    {
+      "key": "SL_GUNNER",
+      "name": "Gunslinger Spirit",
+      "order": 244
+    },
+    {
+      "key": "SN_SIGHT",
+      "name": "True Sight",
+      "order": 245
+    },
+    {
+      "key": "MB_MUNAKKNOWLEDGE",
+      "name": "Taming Master",
+      "order": 246
+    },
+    {
+      "key": "SN_FALCONASSAULT",
+      "name": "Falcon Assault",
+      "order": 247
+    },
+    {
+      "key": "NJ_NEN",
+      "name": "Ninja Aura",
+      "order": 248
+    },
+    {
+      "key": "SN_SHARPSHOOTING",
+      "name": "Sharp Shooting",
+      "order": 249
+    },
+    {
+      "key": "NJ_TATAMIGAESHI",
+      "name": "Flip Tatami",
+      "order": 250
+    },
+    {
+      "key": "KO_YAMIKUMO",
+      "name": "Shadow Hiding",
+      "order": 251
+    },
+    {
+      "key": "KO_RIGHT",
+      "name": "Righthand Mastery",
+      "order": 252
+    },
+    {
+      "key": "KO_LEFT",
+      "name": "Lefthand Mastery",
+      "order": 253
+    },
+    {
+      "key": "KO_JYUMONJIKIRI",
+      "name": "Cross Slash",
+      "order": 254
+    },
+    {
+      "key": "KO_SETSUDAN",
+      "name": "Soul Cutter",
+      "order": 255
+    },
+    {
+      "key": "KO_BAKURETSU",
+      "name": "Kunai Explosion",
+      "order": 256
+    },
+    {
+      "key": "KO_HAPPOKUNAI",
+      "name": "Kunai Splash",
+      "order": 257
+    },
+    {
+      "key": "KO_MUCHANAGE",
+      "name": "Rapid Throw",
+      "order": 258
+    },
+    {
+      "key": "KO_HUUMARANKA",
+      "name": "Swirling Petal",
+      "order": 259
+    },
+    {
+      "key": "KO_MAKIBISHI",
+      "name": "Makibishi",
+      "order": 260
+    },
+    {
+      "key": "KO_MEIKYOUSISUI",
+      "name": "Pure Soul",
+      "order": 261
+    },
+    {
+      "key": "KO_ZANZOU",
+      "name": "Illusion - Shadow",
+      "order": 262
+    },
+    {
+      "key": "KO_KYOUGAKU",
+      "name": "Illusion - Shock",
+      "order": 263
+    },
+    {
+      "key": "KO_JYUSATSU",
+      "name": "Illusion - Death",
+      "order": 264
+    },
+    {
+      "key": "KO_KAHU_ENTEN",
+      "name": "Fire Charm",
+      "order": 265
+    },
+    {
+      "key": "KO_HYOUHU_HUBUKI",
+      "name": "Ice Charm",
+      "order": 266
+    },
+    {
+      "key": "KO_KAZEHU_SEIRAN",
+      "name": "Wind Charm",
+      "order": 267
+    },
+    {
+      "key": "KO_DOHU_KOUKAI",
+      "name": "Earth Charm",
+      "order": 268
+    },
+    {
+      "key": "KO_KAIHOU",
+      "name": "Release Ninja Spell",
+      "order": 269
+    },
+    {
+      "key": "KO_ZENKAI",
+      "name": "Cast Ninja Spell",
+      "order": 270
+    },
+    {
+      "key": "KO_GENWAKU",
+      "name": "Illusion - Bewitch",
+      "order": 271
+    },
+    {
+      "key": "KO_IZAYOI",
+      "name": "16th Night",
+      "order": 272
+    },
+    {
+      "key": "KG_KAGEHUMI",
+      "name": "Shadow Trampling",
+      "order": 273
+    },
+    {
+      "key": "KG_KYOMU",
+      "name": "Empty Shadow",
+      "order": 274
+    },
+    {
+      "key": "KG_KAGEMUSYA",
+      "name": "Shadow Warrior",
+      "order": 275
+    },
+    {
+      "key": "OB_ZANGETSU",
+      "name": "Distorted Crescent",
+      "order": 276
+    },
+    {
+      "key": "OB_OBOROGENSOU",
+      "name": "Moonlight Fantasy",
+      "order": 277
+    },
+    {
+      "key": "OB_AKAITSUKI",
+      "name": "Ominous Red Moonlight",
+      "order": 278
+    },
+    {
+      "key": "ECLAGE_RECALL",
+      "name": "Return to Eclage",
+      "order": 279
+    },
+    {
+      "key": "ECL_SNOWFLIP",
+      "name": "Snow Flip",
+      "order": 280
+    },
+    {
+      "key": "ECL_PEONYMAMY",
+      "name": "Peony Mommy",
+      "order": 281
+    },
+    {
+      "key": "ECL_SADAGUI",
+      "name": "Slapping Herb",
+      "order": 282
+    },
+    {
+      "key": "ECL_SEQUOIADUST",
+      "name": "Yggdrasil Dust",
+      "order": 283
+    },
+    {
+      "key": "ALL_RAY_OF_PROTECTION",
+      "name": "Ray of Protection",
+      "order": 284
+    },
+    {
+      "key": "MER_INVINCIBLEOFF2",
+      "name": "Mind Blaster",
+      "order": 285
+    },
+    {
+      "key": "GC_DARKCROW",
+      "name": "Dark Claw",
+      "order": 286
+    },
+    {
+      "key": "RA_UNLIMIT",
+      "name": "Unlimit",
+      "order": 287
+    },
+    {
+      "key": "LG_KINGS_GRACE",
+      "name": "King's Grace",
+      "order": 288
+    },
+    {
+      "key": "RK_DRAGONBREATH_WATER",
+      "name": "Dragon Breath - Water",
+      "order": 289
+    },
+    {
+      "key": "NC_MAGMA_ERUPTION",
+      "name": "Magma Eruption",
+      "order": 290
+    },
+    {
+      "key": "WM_FRIGG_SONG",
+      "name": "Frigg's Song",
+      "order": 291
+    },
+    {
+      "key": "SO_ELEMENTAL_SHIELD",
+      "name": "Elemental Shield",
+      "order": 292
+    },
+    {
+      "key": "SC_ESCAPE",
+      "name": "Escape",
+      "order": 293
+    },
+    {
+      "key": "AB_OFFERTORIUM",
+      "name": "Offertorium",
+      "order": 294
+    },
+    {
+      "key": "WL_TELEKINESIS_INTENSE",
+      "name": "Telekinesis Intense",
+      "order": 295
+    },
+    {
+      "key": "ALL_FULL_THROTTLE",
+      "name": "Full Throttle",
+      "order": 296
+    },
+    {
+      "key": "GN_ILLUSIONDOPING",
+      "name": "Illusion Doping",
+      "order": 297
+    },
+    {
+      "key": "GM_ITEM_ATKMAX",
+      "name": "Maximum physical damage item",
+      "order": 298
+    },
+    {
+      "key": "GM_ITEM_ATKMIN",
+      "name": "Minimum physical damage item",
+      "order": 299
+    },
+    {
+      "key": "GM_ITEM_MATKMAX",
+      "name": "Maximum magical damage item",
+      "order": 300
+    },
+    {
+      "key": "GM_ITEM_MATKMIN",
+      "name": "Minimum magical damage item",
+      "order": 301
+    },
+    {
+      "key": "NPC_REVERBERATION",
+      "name": "Reverberation",
+      "order": 302
+    },
+    {
+      "key": "NPC_LEX_AETERNA",
+      "name": "Lex Aeterna",
+      "order": 303
+    },
+    {
+      "key": "BA_POEMBRAGI2",
+      "name": "Poem of Bragi",
+      "order": 304
+    },
+    {
+      "key": "DC_FORTUNEKISS2",
+      "name": "Fortune's kiss",
+      "order": 305
+    },
+    {
+      "key": "GM_FORCE_TRANSFER",
+      "name": "Force Transfer",
+      "order": 306
+    },
+    {
+      "key": "GD_GUILD_STORAGE",
+      "name": "Guild Storage Expansion",
+      "order": 307
+    },
+    {
+      "key": "GM_WIDE_RESURRECTION",
+      "name": "Wide Resurrection",
+      "order": 308
+    },
+    {
+      "key": "ALL_PRONTERA_RECALL",
+      "name": "Return to Prontera",
+      "order": 309
+    },
+    {
+      "key": "ALL_THANATOS_RECALL",
+      "name": "Return to Thanatos",
+      "order": 310
+    },
+    {
+      "key": "MC_CARTDECORATE",
+      "name": "Change Cart 2",
+      "order": 311
+    },
+    {
+      "key": "SU_BASIC_SKILL",
+      "name": "New Basic Skill",
+      "order": 312
+    },
+    {
+      "key": "SU_BITE",
+      "name": "Bite",
+      "order": 313
+    },
+    {
+      "key": "SU_HIDE",
+      "name": "Hide",
+      "order": 314
+    },
+    {
+      "key": "SU_SCRATCH",
+      "name": "Scratch",
+      "order": 315
+    },
+    {
+      "key": "SU_STOOP",
+      "name": "Stoop",
+      "order": 316
+    },
+    {
+      "key": "SU_LOPE",
+      "name": "Lope",
+      "order": 317
+    },
+    {
+      "key": "SU_SPRITEMABLE",
+      "name": "Sprite Marble",
+      "order": 318
+    },
+    {
+      "key": "SU_FRESHSHRIMP",
+      "name": "Fresh Shrimp",
+      "order": 319
+    },
+    {
+      "key": "SU_BUNCHOFSHRIMP",
+      "name": "Bunch of Shrimp",
+      "order": 320
+    },
+    {
+      "key": "SU_TUNABELLY",
+      "name": "Tuna Belly",
+      "order": 321
+    },
+    {
+      "key": "SU_TUNAPARTY",
+      "name": "Tuna Party",
+      "order": 322
+    },
+    {
+      "key": "SU_SV_STEMSPEAR",
+      "name": "Silvervine Stem Spear",
+      "order": 323
+    },
+    {
+      "key": "SU_SV_ROOTTWIST",
+      "name": "Silvervine Root Twist",
+      "order": 324
+    },
+    {
+      "key": "SU_CN_METEOR",
+      "name": "Catnip Meteor",
+      "order": 325
+    },
+    {
+      "key": "SU_CN_POWDERING",
+      "name": "Catnip Powdering",
+      "order": 326
+    },
+    {
+      "key": "SU_PICKYPECK",
+      "name": "Picky Peck",
+      "order": 327
+    },
+    {
+      "key": "SU_ARCLOUSEDASH",
+      "name": "Arclouse Dash",
+      "order": 328
+    },
+    {
+      "key": "SU_SCAROFTAROU",
+      "name": "Scar of Tarou",
+      "order": 329
+    },
+    {
+      "key": "SU_LUNATICCARROTBEAT",
+      "name": "Lunatic Carrot Beat",
+      "order": 330
+    },
+    {
+      "key": "SU_POWEROFSEA",
+      "name": "Power of Sea",
+      "order": 331
+    },
+    {
+      "key": "SU_POWEROFLAND",
+      "name": "Power of Earth",
+      "order": 332
+    },
+    {
+      "key": "SU_POWEROFLIFE",
+      "name": "Power of Life",
+      "order": 333
+    },
+    {
+      "key": "SU_SOULATTACK",
+      "name": "Soul Attack",
+      "order": 334
+    },
+    {
+      "key": "SU_POWEROFFLOCK",
+      "name": "Power of Flock",
+      "order": 335
+    },
+    {
+      "key": "SU_SVG_SPIRIT",
+      "name": "Spirit of Savage",
+      "order": 336
+    },
+    {
+      "key": "SU_HISS",
+      "name": "Hiss",
+      "order": 337
+    },
+    {
+      "key": "SU_NYANGGRASS",
+      "name": "Nyang Grass",
+      "order": 338
+    },
+    {
+      "key": "SU_GROOMING",
+      "name": "Grooming",
+      "order": 339
+    },
+    {
+      "key": "SU_PURRING",
+      "name": "Purring",
+      "order": 340
+    },
+    {
+      "key": "SU_SHRIMPARTY",
+      "name": "Tasty Shrimp Party",
+      "order": 341
+    },
+    {
+      "key": "SU_SPIRITOFLIFE",
+      "name": "Spirit of Life",
+      "order": 342
+    },
+    {
+      "key": "SU_MEOWMEOW",
+      "name": "Meow Meow",
+      "order": 343
+    },
+    {
+      "key": "SU_SPIRITOFLAND",
+      "name": "Spirit of Earth",
+      "order": 344
+    },
+    {
+      "key": "SU_CHATTERING",
+      "name": "Chattering",
+      "order": 345
+    },
+    {
+      "key": "SU_SPIRITOFSEA",
+      "name": "Spirit of Sea",
+      "order": 346
+    },
+    {
+      "key": "ALL_GLASTHEIM_RECALL",
+      "name": "Return to Glastheim",
+      "order": 347
+    },
+    {
+      "key": "GS_GLITTERING",
+      "name": "Coin Flip",
+      "order": 348
+    },
+    {
+      "key": "GS_FLING",
+      "name": "Fling",
+      "order": 349
+    },
+    {
+      "key": "GS_TRIPLEACTION",
+      "name": "Triple Action",
+      "order": 350
+    },
+    {
+      "key": "GS_BULLSEYE",
+      "name": "Bull's Eye",
+      "order": 351
+    },
+    {
+      "key": "GS_MADNESSCANCEL",
+      "name": "Madness Canceller",
+      "order": 352
+    },
+    {
+      "key": "GS_ADJUSTMENT",
+      "name": "Adjustment",
+      "order": 353
+    },
+    {
+      "key": "GS_INCREASING",
+      "name": "Increasing Accuracy",
+      "order": 354
+    },
+    {
+      "key": "GS_MAGICALBULLET",
+      "name": "Magical Bullet",
+      "order": 355
+    },
+    {
+      "key": "GS_CRACKER",
+      "name": "Cracker",
+      "order": 356
+    },
+    {
+      "key": "GS_SINGLEACTION",
+      "name": "Single Action",
+      "order": 357
+    },
+    {
+      "key": "GS_SNAKEEYE",
+      "name": "Snake Eyes",
+      "order": 358
+    },
+    {
+      "key": "GS_TRACKING",
+      "name": "Tracking",
+      "order": 359
+    },
+    {
+      "key": "GS_DISARM",
+      "name": "Disarm",
+      "order": 360
+    },
+    {
+      "key": "GS_PIERCINGSHOT",
+      "name": "Piercing Shot",
+      "order": 361
+    },
+    {
+      "key": "GS_RAPIDSHOWER",
+      "name": "Rapid Shower",
+      "order": 362
+    },
+    {
+      "key": "GS_DESPERADO",
+      "name": "Desperado",
+      "order": 363
+    },
+    {
+      "key": "GS_GATLINGFEVER",
+      "name": "Gatling Fever",
+      "order": 364
+    },
+    {
+      "key": "GS_DUST",
+      "name": "Dust",
+      "order": 365
+    },
+    {
+      "key": "GS_FULLBUSTER",
+      "name": "Full Buster",
+      "order": 366
+    },
+    {
+      "key": "GS_SPREADATTACK",
+      "name": "Spread Attack",
+      "order": 367
+    },
+    {
+      "key": "GS_GROUNDDRIFT",
+      "name": "Ground Drift",
+      "order": 368
+    },
+    {
+      "key": "GS_CHAINACTION",
+      "name": "Chain Action",
+      "order": 369
+    },
+    {
+      "key": "RL_FLICKER",
+      "name": "Flicker",
+      "order": 370
+    },
+    {
+      "key": "RL_RICHS_COIN",
+      "name": "Rich's Coin",
+      "order": 371
+    },
+    {
+      "key": "RL_E_CHAIN",
+      "name": "Eternal Chain",
+      "order": 372
+    },
+    {
+      "key": "RL_QD_SHOT",
+      "name": "Quick Draw Shot",
+      "order": 373
+    },
+    {
+      "key": "RL_C_MARKER",
+      "name": "Crimson Marker",
+      "order": 374
+    },
+    {
+      "key": "RL_P_ALTER",
+      "name": "Platinum Alter",
+      "order": 375
+    },
+    {
+      "key": "RL_B_TRAP",
+      "name": "Bound Trap",
+      "order": 376
+    },
+    {
+      "key": "RL_HEAT_BARREL",
+      "name": "Heat Barrel",
+      "order": 377
+    },
+    {
+      "key": "RL_FIREDANCE",
+      "name": "Fire Dance",
+      "order": 378
+    },
+    {
+      "key": "RL_FALLEN_ANGEL",
+      "name": "Fallen Angel",
+      "order": 379
+    },
+    {
+      "key": "RL_MASS_SPIRAL",
+      "name": "Mass Spiral",
+      "order": 380
+    },
+    {
+      "key": "RL_AM_BLAST",
+      "name": "Anti-Material Blast",
+      "order": 381
+    },
+    {
+      "key": "RL_HAMMER_OF_GOD",
+      "name": "Hammer of God",
+      "order": 382
+    },
+    {
+      "key": "RL_R_TRIP",
+      "name": "Round Trip",
+      "order": 383
+    },
+    {
+      "key": "RL_FIRE_RAIN",
+      "name": "Fire Rain",
+      "order": 384
+    },
+    {
+      "key": "RL_BANISHING_BUSTER",
+      "name": "Banishing Buster",
+      "order": 385
+    },
+    {
+      "key": "RL_S_STORM",
+      "name": "Shattering Storm",
+      "order": 386
+    },
+    {
+      "key": "RL_SLUGSHOT",
+      "name": "Slug Shot",
+      "order": 387
+    },
+    {
+      "key": "RL_D_TAIL",
+      "name": "Dragon Tail",
+      "order": 388
+    },
+    {
+      "key": "RL_H_MINE",
+      "name": "Howling Mine",
+      "order": 389
+    },
+    {
+      "key": "WE_CALLALLFAMILY",
+      "name": "We are with You",
+      "order": 390
+    },
+    {
+      "key": "WE_ONEFOREVER",
+      "name": "Death can not separate us",
+      "order": 391
+    },
+    {
+      "key": "WE_CHEERUP",
+      "name": "Mom Dad cheer up",
+      "order": 392
+    },
+    {
+      "key": "SJ_LIGHTOFMOON",
+      "name": "Light of Moon",
+      "order": 393
+    },
+    {
+      "key": "SJ_LUNARSTANCE",
+      "name": "Lunar Stance",
+      "order": 394
+    },
+    {
+      "key": "SJ_FULLMOONKICK",
+      "name": "Full Moon Kick",
+      "order": 395
+    },
+    {
+      "key": "SJ_NEWMOONKICK",
+      "name": "New Moon Kick",
+      "order": 396
+    },
+    {
+      "key": "SJ_LIGHTOFSTAR",
+      "name": "Light of Star",
+      "order": 397
+    },
+    {
+      "key": "SJ_STARSTANCE",
+      "name": "Star Stance",
+      "order": 398
+    },
+    {
+      "key": "SJ_FLASHKICK",
+      "name": "Flash Kick",
+      "order": 399
+    },
+    {
+      "key": "SJ_STAREMPEROR",
+      "name": "Advent of the Star Emperor",
+      "order": 400
+    },
+    {
+      "key": "SJ_NOVAEXPLOSING",
+      "name": "Nova Explosion",
+      "order": 401
+    },
+    {
+      "key": "SJ_UNIVERSESTANCE",
+      "name": "Universe Stance",
+      "order": 402
+    },
+    {
+      "key": "SJ_FALLINGSTAR",
+      "name": "Falling Star",
+      "order": 403
+    },
+    {
+      "key": "SJ_GRAVITYCONTROL",
+      "name": "Gravity Control",
+      "order": 404
+    },
+    {
+      "key": "SJ_BOOKOFDIMENSION",
+      "name": "Book of Dimension",
+      "order": 405
+    },
+    {
+      "key": "SJ_BOOKOFCREATINGSTAR",
+      "name": "Book of Creating Star",
+      "order": 406
+    },
+    {
+      "key": "SJ_DOCUMENT",
+      "name": "Document of the Sun, Moon and Stars",
+      "order": 407
+    },
+    {
+      "key": "SJ_PURIFY",
+      "name": "Purification of the Sun, Moon and Stars",
+      "order": 408
+    },
+    {
+      "key": "SJ_LIGHTOFSUN",
+      "name": "Light of Sun",
+      "order": 409
+    },
+    {
+      "key": "SJ_SUNSTANCE",
+      "name": "Sun Stance",
+      "order": 410
+    },
+    {
+      "key": "SJ_SOLARBURST",
+      "name": "Solar Burst",
+      "order": 411
+    },
+    {
+      "key": "SJ_PROMINENCEKICK",
+      "name": "Prominence Kick",
+      "order": 412
+    },
+    {
+      "key": "SP_SOULGOLEM",
+      "name": "Golem Soul",
+      "order": 413
+    },
+    {
+      "key": "SP_SOULSHADOW",
+      "name": "Shadow Soul",
+      "order": 414
+    },
+    {
+      "key": "SP_SOULFALCON",
+      "name": "Falcon Soul",
+      "order": 415
+    },
+    {
+      "key": "SP_SOULFAIRY",
+      "name": "Fairy Soul",
+      "order": 416
+    },
+    {
+      "key": "SP_CURSEEXPLOSION",
+      "name": "Curse Explosion",
+      "order": 417
+    },
+    {
+      "key": "SP_SOULCURSE",
+      "name": "Curse of Wicked Soul",
+      "order": 418
+    },
+    {
+      "key": "SP_SPA",
+      "name": "Espa",
+      "order": 419
+    },
+    {
+      "key": "SP_SHA",
+      "name": "Esha",
+      "order": 420
+    },
+    {
+      "key": "SP_SWHOO",
+      "name": "Eswhoo",
+      "order": 421
+    },
+    {
+      "key": "SP_SOULUNITY",
+      "name": "Soul Unity",
+      "order": 422
+    },
+    {
+      "key": "SP_SOULDIVISION",
+      "name": "Soul Division",
+      "order": 423
+    },
+    {
+      "key": "SP_SOULREAPER",
+      "name": "Soul Reaper",
+      "order": 424
+    },
+    {
+      "key": "SP_SOULCOLLECT",
+      "name": "Soul Collect",
+      "order": 425
+    },
+    {
+      "key": "SP_SOULREVOLVE",
+      "name": "Soul Revolution",
+      "order": 426
+    },
+    {
+      "key": "SP_SOULEXPLOSION",
+      "name": "Soul Explosion",
+      "order": 427
+    },
+    {
+      "key": "SP_KAUTE",
+      "name": "Kaute",
+      "order": 428
+    },
+    {
+      "key": "SP_SOULENERGY",
+      "name": "Soul Energy Research",
+      "order": 429
+    },
+    {
+      "key": "SJ_FALLINGSTAR_ATK2",
+      "name": "Falling Star",
+      "order": 430
+    },
+    {
+      "key": "SJ_FALLINGSTAR_ATK",
+      "name": "Falling Star",
+      "order": 431
+    },
+    {
+      "key": "NV_BREAKTHROUGH",
+      "name": "Breakthrough",
+      "order": 432
+    },
+    {
+      "key": "NV_HELPANGEL",
+      "name": "Angel, help Me!",
+      "order": 433
+    },
+    {
+      "key": "NV_TRANSCENDENCE",
+      "name": "Transcendence",
+      "order": 434
+    },
+    {
+      "key": "SR_SKYNETBLOW",
+      "name": "Sky Net Blow",
+      "order": 435
+    },
+    {
+      "key": "SR_LIGHTNINGWALK",
+      "name": "Lightning Walk",
+      "order": 436
+    },
+    {
+      "key": "SR_GATEOFHELL",
+      "name": "Gate of Hell",
+      "order": 437
+    },
+    {
+      "key": "SR_GENTLETOUCH_CHANGE",
+      "name": "Gentle Touch - Change",
+      "order": 438
+    },
+    {
+      "key": "SR_EARTHSHAKER",
+      "name": "Earth Shaker",
+      "order": 439
+    },
+    {
+      "key": "SR_KNUCKLEARROW",
+      "name": "Knuckle Arrow",
+      "order": 440
+    },
+    {
+      "key": "SR_ASSIMILATEPOWER",
+      "name": "Power Absorb",
+      "order": 441
+    },
+    {
+      "key": "SR_GENTLETOUCH_QUIET",
+      "name": "Gentle Touch Silence",
+      "order": 442
+    },
+    {
+      "key": "SR_DRAGONCOMBO",
+      "name": "Dragon Combo",
+      "order": 443
+    },
+    {
+      "key": "SR_RIDEINLIGHTNING",
+      "name": "Ride in Lightning",
+      "order": 444
+    },
+    {
+      "key": "SR_HOWLINGOFLION",
+      "name": "Howling of Lion",
+      "order": 445
+    },
+    {
+      "key": "SR_TIGERCANNON",
+      "name": "Tiger Cannon",
+      "order": 446
+    },
+    {
+      "key": "SR_CRESCENTELBOW",
+      "name": "Crescent Elbow",
+      "order": 447
+    },
+    {
+      "key": "SR_RAISINGDRAGON",
+      "name": "Rising Dragon",
+      "order": 448
+    },
+    {
+      "key": "SR_POWERVELOCITY",
+      "name": "Power Implantation",
+      "order": 449
+    },
+    {
+      "key": "SR_GENTLETOUCH_ENERGYGAIN",
+      "name": "Gentle Touch-Energy Gain",
+      "order": 450
+    },
+    {
+      "key": "SR_FALLENEMPIRE",
+      "name": "Fallen Empire",
+      "order": 451
+    },
+    {
+      "key": "SR_WINDMILL",
+      "name": "Windmill",
+      "order": 452
+    },
+    {
+      "key": "SR_GENTLETOUCH_CURE",
+      "name": "Gentle Touch-Cure",
+      "order": 453
+    },
+    {
+      "key": "SR_GENTLETOUCH_REVITALIZE",
+      "name": "Gentle Touch-Revitalize",
+      "order": 454
+    },
+    {
+      "key": "SR_CURSEDCIRCLE",
+      "name": "Cursed Circle",
+      "order": 455
+    },
+    {
+      "key": "SR_RAMPAGEBLASTER",
+      "name": "Rampage Blaster",
+      "order": 456
+    },
+    {
+      "key": "SR_FLASHCOMBO",
+      "name": "Flash Combo",
+      "order": 457
+    },
+    {
+      "key": "RK_LUXANIMA",
+      "name": "Lux Anima",
+      "order": 458
+    },
+    {
+      "key": "DK_SERVANTWEAPON",
+      "name": "Servant Weapon",
+      "order": 459
+    },
+    {
+      "key": "DK_SERVANT_W_SIGN",
+      "name": "Servant Weapon - Sign",
+      "order": 460
+    },
+    {
+      "key": "DK_SERVANT_W_PHANTOM",
+      "name": "Servant Weapon - Phantom",
+      "order": 461
+    },
+    {
+      "key": "DK_SERVANT_W_DEMOL",
+      "name": "Servant Weapon - Demolition",
+      "order": 462
+    },
+    {
+      "key": "DK_CHARGINGPIERCE",
+      "name": "Charging Pierce",
+      "order": 463
+    },
+    {
+      "key": "DK_TWOHANDDEF",
+      "name": "Two Handed Defense",
+      "order": 464
+    },
+    {
+      "key": "DK_HACKANDSLASHER",
+      "name": "Hack and Slasher",
+      "order": 465
+    },
+    {
+      "key": "DK_DRAGONIC_AURA",
+      "name": "Dragonic Aura",
+      "order": 466
+    },
+    {
+      "key": "DK_MADNESS_CRUSHER",
+      "name": "Madness Crusher",
+      "order": 467
+    },
+    {
+      "key": "DK_VIGOR",
+      "name": "Vigor",
+      "order": 468
+    },
+    {
+      "key": "DK_STORMSLASH",
+      "name": "Storm Slash",
+      "order": 469
+    },
+    {
+      "key": "DK_DRAGONIC_BREATH",
+      "name": "Dragonic Breath",
+      "order": 470
+    },
+    {
+      "key": "AG_DEADLY_PROJECTION",
+      "name": "Deadly Projection",
+      "order": 471
+    },
+    {
+      "key": "AG_DESTRUCTIVE_HURRICANE",
+      "name": "Destructive Hurricane",
+      "order": 472
+    },
+    {
+      "key": "AG_RAIN_OF_CRYSTAL",
+      "name": "Rain of Crystal",
+      "order": 473
+    },
+    {
+      "key": "AG_MYSTERY_ILLUSION",
+      "name": "Mystery Illusion",
+      "order": 474
+    },
+    {
+      "key": "AG_VIOLENT_QUAKE",
+      "name": "Violent Quake",
+      "order": 475
+    },
+    {
+      "key": "AG_SOUL_VC_STRIKE",
+      "name": "Soul Vulcan Strike",
+      "order": 476
+    },
+    {
+      "key": "AG_STRANTUM_TREMOR",
+      "name": "Strantum Tremor",
+      "order": 477
+    },
+    {
+      "key": "AG_ALL_BLOOM",
+      "name": "All Bloom",
+      "order": 478
+    },
+    {
+      "key": "AG_CRYSTAL_IMPACT",
+      "name": "Crystal Impact",
+      "order": 479
+    },
+    {
+      "key": "AG_TORNADO_STORM",
+      "name": "Tornado Storm",
+      "order": 480
+    },
+    {
+      "key": "AG_FLORAL_FLARE_ROAD",
+      "name": "Floral Flare Road",
+      "order": 481
+    },
+    {
+      "key": "AG_CLIMAX",
+      "name": "Climax",
+      "order": 482
+    },
+    {
+      "key": "AG_ASTRAL_STRIKE",
+      "name": "Astral Strike",
+      "order": 483
+    },
+    {
+      "key": "AG_ROCK_DOWN",
+      "name": "Rock Down",
+      "order": 484
+    },
+    {
+      "key": "AG_STORM_CANNON",
+      "name": "Storm Cannon",
+      "order": 485
+    },
+    {
+      "key": "AG_CRIMSON_ARROW",
+      "name": "Crimson Arrow",
+      "order": 486
+    },
+    {
+      "key": "AG_FROZEN_SLASH",
+      "name": "Frozen Slash",
+      "order": 487
+    },
+    {
+      "key": "AG_TWOHANDSTAFF",
+      "name": "Two-Handed Staff Mastery",
+      "order": 488
+    },
+    {
+      "key": "IQ_POWERFUL_FAITH",
+      "name": "Powerful Faith",
+      "order": 489
+    },
+    {
+      "key": "IQ_FIRM_FAITH",
+      "name": "Firm Faith",
+      "order": 490
+    },
+    {
+      "key": "IQ_WILL_OF_FAITH",
+      "name": "Will of Faith",
+      "order": 491
+    },
+    {
+      "key": "IQ_OLEUM_SANCTUM",
+      "name": "Oleum Sanctum",
+      "order": 492
+    },
+    {
+      "key": "IQ_SINCERE_FAITH",
+      "name": "Sincere Faith",
+      "order": 493
+    },
+    {
+      "key": "IQ_FIRST_BRAND",
+      "name": "First Brand",
+      "order": 494
+    },
+    {
+      "key": "IQ_FIRST_FAITH_POWER",
+      "name": "First Faith Power",
+      "order": 495
+    },
+    {
+      "key": "IQ_THIRD_PUNISH",
+      "name": "Third Punish",
+      "order": 496
+    },
+    {
+      "key": "IQ_THIRD_FLAME_BOMB",
+      "name": "Third Flame Bomb",
+      "order": 497
+    },
+    {
+      "key": "IQ_THIRD_CONSECRATION",
+      "name": "Third Consecration",
+      "order": 498
+    },
+    {
+      "key": "IQ_SECOND_FLAME",
+      "name": "Second Flame",
+      "order": 499
+    },
+    {
+      "key": "IQ_SECOND_FAITH",
+      "name": "Second Faith",
+      "order": 500
+    },
+    {
+      "key": "IQ_SECOND_JUDGEMENT",
+      "name": "Second Judgement",
+      "order": 501
+    },
+    {
+      "key": "IQ_EXPOSION_BLASTER",
+      "name": "Explosion Blaster",
+      "order": 502
+    },
+    {
+      "key": "IQ_MASSIVE_F_BLASTER",
+      "name": "Massive Flame Blaster",
+      "order": 503
+    },
+    {
+      "key": "IQ_JUDGE",
+      "name": "Judge",
+      "order": 504
+    },
+    {
+      "key": "IQ_THIRD_EXOR_FLAME",
+      "name": "Third Exorcism Flame",
+      "order": 505
+    },
+    {
+      "key": "IG_GUARD_STANCE",
+      "name": "Guard Stance",
+      "order": 506
+    },
+    {
+      "key": "IG_GUARDIAN_SHIELD",
+      "name": "Guardian Shield",
+      "order": 507
+    },
+    {
+      "key": "IG_REBOUND_SHIELD",
+      "name": "Rebound Shield",
+      "order": 508
+    },
+    {
+      "key": "IG_SHIELD_MASTERY",
+      "name": "Shield Mastery",
+      "order": 509
+    },
+    {
+      "key": "IG_SPEAR_SWORD_M",
+      "name": "Spear & Sword Mastery",
+      "order": 510
+    },
+    {
+      "key": "IG_ATTACK_STANCE",
+      "name": "Attack Stance",
+      "order": 511
+    },
+    {
+      "key": "IG_ULTIMATE_SACRIFICE",
+      "name": "Ultimate Sacrifice",
+      "order": 512
+    },
+    {
+      "key": "IG_HOLY_SHIELD",
+      "name": "Holy Shield",
+      "order": 513
+    },
+    {
+      "key": "IG_GRAND_JUDGEMENT",
+      "name": "Grand Judgement",
+      "order": 514
+    },
+    {
+      "key": "IG_JUDGEMENT_CROSS",
+      "name": "Judgement Cross",
+      "order": 515
+    },
+    {
+      "key": "IG_SHIELD_SHOOTING",
+      "name": "Shield Shooting",
+      "order": 516
+    },
+    {
+      "key": "IG_OVERSLASH",
+      "name": "Overslash",
+      "order": 517
+    },
+    {
+      "key": "IG_CROSS_RAIN",
+      "name": "Cross Rain",
+      "order": 518
+    },
+    {
+      "key": "SHC_DANCING_KNIFE",
+      "name": "Dancing Knives",
+      "order": 519
+    },
+    {
+      "key": "SHC_SAVAGE_IMPACT",
+      "name": "Savage Impact",
+      "order": 520
+    },
+    {
+      "key": "SHC_SHADOW_SENSE",
+      "name": "Shadow Sense",
+      "order": 521
+    },
+    {
+      "key": "SHC_ETERNAL_SLASH",
+      "name": "Eternal Slash",
+      "order": 522
+    },
+    {
+      "key": "SHC_ENCHANTING_SHADOW",
+      "name": "Enchanting Shadow",
+      "order": 523
+    },
+    {
+      "key": "SHC_POTENT_VENOM",
+      "name": "Potent Venom",
+      "order": 524
+    },
+    {
+      "key": "SHC_SHADOW_EXCEED",
+      "name": "Shadow Exceed",
+      "order": 525
+    },
+    {
+      "key": "SHC_FATAL_SHADOW_CROW",
+      "name": "Fatal Shadow Claw",
+      "order": 526
+    },
+    {
+      "key": "SHC_SHADOW_STAB",
+      "name": "Shadow Stab",
+      "order": 527
+    },
+    {
+      "key": "SHC_IMPACT_CRATER",
+      "name": "Impact Crater",
+      "order": 528
+    },
+    {
+      "key": "CD_REPARATIO",
+      "name": "Reparatio",
+      "order": 529
+    },
+    {
+      "key": "CD_MEDIALE_VOTUM",
+      "name": "Mediale Votum",
+      "order": 530
+    },
+    {
+      "key": "CD_MACE_BOOK_M",
+      "name": "Mace & Book Mastery",
+      "order": 531
+    },
+    {
+      "key": "CD_ARGUTUS_VITA",
+      "name": "Argutus Vita",
+      "order": 532
+    },
+    {
+      "key": "CD_ARGUTUS_TELUM",
+      "name": "Argutus Telum",
+      "order": 533
+    },
+    {
+      "key": "CD_ARBITRIUM",
+      "name": "Arbitrium",
+      "order": 534
+    },
+    {
+      "key": "CD_PRESENS_ACIES",
+      "name": "Presens Acies",
+      "order": 535
+    },
+    {
+      "key": "CD_FIDUS_ANIMUS",
+      "name": "Fidus Animus",
+      "order": 536
+    },
+    {
+      "key": "CD_EFFLIGO",
+      "name": "Effligo",
+      "order": 537
+    },
+    {
+      "key": "CD_COMPETENTIA",
+      "name": "Competentia",
+      "order": 538
+    },
+    {
+      "key": "CD_PNEUMATICUS_PROCELLA",
+      "name": "Pneumaticus Procella",
+      "order": 539
+    },
+    {
+      "key": "CD_DILECTIO_HEAL",
+      "name": "Dilectio Heal",
+      "order": 540
+    },
+    {
+      "key": "CD_RELIGIO",
+      "name": "Religio",
+      "order": 541
+    },
+    {
+      "key": "CD_BENEDICTUM",
+      "name": "Benedictum",
+      "order": 542
+    },
+    {
+      "key": "CD_PETITIO",
+      "name": "Petitio",
+      "order": 543
+    },
+    {
+      "key": "CD_FRAMEN",
+      "name": "Framen",
+      "order": 544
+    },
+    {
+      "key": "BO_BIONIC_PHARMACY",
+      "name": "Bionic Pharmacy",
+      "order": 545
+    },
+    {
+      "key": "BO_BIONICS_M",
+      "name": "Bionics",
+      "order": 546
+    },
+    {
+      "key": "BO_THE_WHOLE_PROTECTION",
+      "name": "The Whole Protection",
+      "order": 547
+    },
+    {
+      "key": "BO_ADVANCE_PROTECTION",
+      "name": "Full Shadow Protection",
+      "order": 548
+    },
+    {
+      "key": "BO_ACIDIFIED_ZONE_WATER",
+      "name": "Acidified Zone (Water)",
+      "order": 549
+    },
+    {
+      "key": "BO_ACIDIFIED_ZONE_GROUND",
+      "name": "Acidified Zone (Earth)",
+      "order": 550
+    },
+    {
+      "key": "BO_ACIDIFIED_ZONE_FIRE",
+      "name": "Acidified Zone (Fire)",
+      "order": 551
+    },
+    {
+      "key": "BO_ACIDIFIED_ZONE_WIND",
+      "name": "Acidified Zone (Wind)",
+      "order": 552
+    },
+    {
+      "key": "BO_WOODENWARRIOR",
+      "name": "Wooden Warrior",
+      "order": 553
+    },
+    {
+      "key": "BO_WOODEN_FAIRY",
+      "name": "Wooden Fairy",
+      "order": 554
+    },
+    {
+      "key": "BO_CREEPER",
+      "name": "Creeper",
+      "order": 555
+    },
+    {
+      "key": "BO_RESEARCHREPORT",
+      "name": "Research Report",
+      "order": 556
+    },
+    {
+      "key": "BO_HELLTREE",
+      "name": "Helltree",
+      "order": 557
+    },
+    {
+      "key": "NPC_BO_THROWROCK",
+      "name": "Throw Rock",
+      "order": 558
+    },
+    {
+      "key": "NPC_BO_WOODEN_ATTACK",
+      "name": "Wooden Attack",
+      "order": 559
+    },
+    {
+      "key": "NPC_BO_HELL_HOWLING",
+      "name": "Hell Howling",
+      "order": 560
+    },
+    {
+      "key": "NPC_BO_HELL_DUSTY",
+      "name": "Hell Tree Powder",
+      "order": 561
+    },
+    {
+      "key": "NPC_BO_FAIRY_DUSTY",
+      "name": "Fairy Tree Powder",
+      "order": 562
+    },
+    {
+      "key": "BO_EXPLOSIVE_POWDER",
+      "name": "Explosive Powder",
+      "order": 563
+    },
+    {
+      "key": "BO_MAYHEMIC_THORNS",
+      "name": "Mayhemic Thorns",
+      "order": 564
+    },
+    {
+      "key": "WH_ADVANCED_TRAP",
+      "name": "Advanced Trap",
+      "order": 565
+    },
+    {
+      "key": "WH_WIND_SIGN",
+      "name": "Wind Sign",
+      "order": 566
+    },
+    {
+      "key": "WH_NATUREFRIENDLY",
+      "name": "Nature Friendly",
+      "order": 567
+    },
+    {
+      "key": "WH_HAWKRUSH",
+      "name": "Hawk Rush",
+      "order": 568
+    },
+    {
+      "key": "WH_HAWK_M",
+      "name": "Hawk Mastery",
+      "order": 569
+    },
+    {
+      "key": "WH_CALAMITYGALE",
+      "name": "Calamity Gale",
+      "order": 570
+    },
+    {
+      "key": "WH_HAWKBOOMERANG",
+      "name": "Hawk Boomerang",
+      "order": 571
+    },
+    {
+      "key": "WH_GALESTORM",
+      "name": "Gale Storm",
+      "order": 572
+    },
+    {
+      "key": "WH_DEEPBLINDTRAP",
+      "name": "Deep Blinding Trap",
+      "order": 573
+    },
+    {
+      "key": "WH_SOLIDTRAP",
+      "name": "Solid Trap",
+      "order": 574
+    },
+    {
+      "key": "WH_SWIFTTRAP",
+      "name": "Swift Trap",
+      "order": 575
+    },
+    {
+      "key": "WH_FLAMETRAP",
+      "name": "Flame Trap",
+      "order": 576
+    },
+    {
+      "key": "WH_CRESCIVE_BOLT",
+      "name": "Cresive Bolt",
+      "order": 577
+    },
+    {
+      "key": "TR_STAGE_MANNER",
+      "name": "Stage Manner",
+      "order": 578
+    },
+    {
+      "key": "TR_RETROSPECTION",
+      "name": "Retrospection",
+      "order": 579
+    },
+    {
+      "key": "TR_MYSTIC_SYMPHONY",
+      "name": "Mystic Symphony",
+      "order": 580
+    },
+    {
+      "key": "TR_KVASIR_SONATA",
+      "name": "Sonata of Kvasir",
+      "order": 581
+    },
+    {
+      "key": "TR_ROSEBLOSSOM",
+      "name": "Rose Blossom",
+      "order": 582
+    },
+    {
+      "key": "TR_RHYTHMSHOOTING",
+      "name": "Rhythm Shooting",
+      "order": 583
+    },
+    {
+      "key": "TR_METALIC_FURY",
+      "name": "Metallic Fury",
+      "order": 584
+    },
+    {
+      "key": "TR_SOUNDBLEND",
+      "name": "Sound Blend",
+      "order": 585
+    },
+    {
+      "key": "TR_GEF_NOCTURN",
+      "name": "Geffenia Nocturne",
+      "order": 586
+    },
+    {
+      "key": "TR_ROKI_CAPRICCIO",
+      "name": "Capriccio of Roki",
+      "order": 587
+    },
+    {
+      "key": "TR_AIN_RHAPSODY",
+      "name": "Raphsody of Mineworker",
+      "order": 588
+    },
+    {
+      "key": "TR_MUSICAL_INTERLUDE",
+      "name": "Musical Interlude",
+      "order": 589
+    },
+    {
+      "key": "TR_JAWAII_SERENADE",
+      "name": "Serenade of Jawaii",
+      "order": 590
+    },
+    {
+      "key": "TR_NIPELHEIM_REQUIEM",
+      "name": "Requiem of Nifleheim",
+      "order": 591
+    },
+    {
+      "key": "TR_PRON_MARCH",
+      "name": "March of Prontera",
+      "order": 592
+    },
+    {
+      "key": "ABC_DAGGER_AND_BOW_M",
+      "name": "Dagger & Bow Mastery",
+      "order": 593
+    },
+    {
+      "key": "ABC_MAGIC_SWORD_M",
+      "name": "Magic Sword Mastery",
+      "order": 594
+    },
+    {
+      "key": "ABC_STRIP_SHADOW",
+      "name": "Strip Shadow",
+      "order": 595
+    },
+    {
+      "key": "ABC_ABYSS_DAGGER",
+      "name": "Abyss Dagger",
+      "order": 596
+    },
+    {
+      "key": "ABC_UNLUCKY_RUSH",
+      "name": "Unlucky Rush",
+      "order": 597
+    },
+    {
+      "key": "ABC_CHAIN_REACTION_SHOT",
+      "name": "Chain Reaction Shot",
+      "order": 598
+    },
+    {
+      "key": "ABC_FROM_THE_ABYSS",
+      "name": "From the Abyss",
+      "order": 599
+    },
+    {
+      "key": "ABC_ABYSS_SLAYER",
+      "name": "Abyss Slayer",
+      "order": 600
+    },
+    {
+      "key": "ABC_ABYSS_STRIKE",
+      "name": "Omega Abyss Strike",
+      "order": 601
+    },
+    {
+      "key": "ABC_DEFT_STAB",
+      "name": "Deft Stab",
+      "order": 602
+    },
+    {
+      "key": "ABC_ABYSS_SQUARE",
+      "name": "Abyss Square",
+      "order": 603
+    },
+    {
+      "key": "ABC_FRENZY_SHOT",
+      "name": "Frenzy Shot",
+      "order": 604
+    },
+    {
+      "key": "MT_AXE_STOMP",
+      "name": "Axe Stomp",
+      "order": 605
+    },
+    {
+      "key": "MT_RUSH_QUAKE",
+      "name": "Rush Quake",
+      "order": 606
+    },
+    {
+      "key": "MT_M_MACHINE",
+      "name": "Manufacture Machine",
+      "order": 607
+    },
+    {
+      "key": "MT_A_MACHINE",
+      "name": "Activation Attack Machine",
+      "order": 608
+    },
+    {
+      "key": "MT_D_MACHINE",
+      "name": "Activation Defense Machine",
+      "order": 609
+    },
+    {
+      "key": "MT_TWOAXEDEF",
+      "name": "Two-Handed Axe Defending",
+      "order": 610
+    },
+    {
+      "key": "MT_ABR_M",
+      "name": "ABR Mastery",
+      "order": 611
+    },
+    {
+      "key": "MT_SUMMON_ABR_BATTLE_WARIOR",
+      "name": "ABR - Battle Warrior",
+      "order": 612
+    },
+    {
+      "key": "MT_SUMMON_ABR_DUAL_CANNON",
+      "name": "ABR - Dual Cannon",
+      "order": 613
+    },
+    {
+      "key": "MT_SUMMON_ABR_MOTHER_NET",
+      "name": "ABR - Mother Net",
+      "order": 614
+    },
+    {
+      "key": "MT_SUMMON_ABR_INFINITY",
+      "name": "ABR - Infinity",
+      "order": 615
+    },
+    {
+      "key": "ABR_DUAL_CANNON_FIRE",
+      "name": "ABR Dual Cannon Fire",
+      "order": 616
+    },
+    {
+      "key": "ABR_BATTLE_BUSTER",
+      "name": "ABR Battle Buster",
+      "order": 617
+    },
+    {
+      "key": "ABR_NET_REPAIR",
+      "name": "ABR Net Repair",
+      "order": 618
+    },
+    {
+      "key": "ABR_NET_SUPPORT",
+      "name": "ABR Net Support",
+      "order": 619
+    },
+    {
+      "key": "ABR_INFINITY_BUSTER",
+      "name": "ABR Infinity Buster",
+      "order": 620
+    },
+    {
+      "key": "MT_SPARK_BLASTER",
+      "name": "Spark Blaster",
+      "order": 621
+    },
+    {
+      "key": "MT_TRIPLE_LASER",
+      "name": "Triple Laser",
+      "order": 622
+    },
+    {
+      "key": "MT_MIGHTY_SMASH",
+      "name": "Mighty Smash",
+      "order": 623
+    },
+    {
+      "key": "EM_MAGIC_BOOK_M",
+      "name": "Magical Book Mastery",
+      "order": 624
+    },
+    {
+      "key": "EM_SPELL_ENCHANTING",
+      "name": "Spell Enchanting",
+      "order": 625
+    },
+    {
+      "key": "EM_ACTIVITY_BURN",
+      "name": "Activity Burn",
+      "order": 626
+    },
+    {
+      "key": "EM_INCREASING_ACTIVITY",
+      "name": "Increasing Activity",
+      "order": 627
+    },
+    {
+      "key": "EM_DIAMOND_STORM",
+      "name": "Diamond Storm",
+      "order": 628
+    },
+    {
+      "key": "EM_LIGHTNING_LAND",
+      "name": "Lightning Land",
+      "order": 629
+    },
+    {
+      "key": "EM_VENOM_SWAMP",
+      "name": "Venom Swamp",
+      "order": 630
+    },
+    {
+      "key": "EM_CONFLAGRATION",
+      "name": "Conflagration",
+      "order": 631
+    },
+    {
+      "key": "EM_TERRA_DRIVE",
+      "name": "Terra Drive",
+      "order": 632
+    },
+    {
+      "key": "EM_ELEMENTAL_SPIRIT_M",
+      "name": "Elemental Spirit Mastery",
+      "order": 633
+    },
+    {
+      "key": "EM_SUMMON_ELEMENTAL_ARDOR",
+      "name": "Summon Elemental Ardor",
+      "order": 634
+    },
+    {
+      "key": "EM_SUMMON_ELEMENTAL_DILUVIO",
+      "name": "Summon Elemental Diluvio",
+      "order": 635
+    },
+    {
+      "key": "EM_SUMMON_ELEMENTAL_PROCELLA",
+      "name": "Summon Elemental Procella",
+      "order": 636
+    },
+    {
+      "key": "EM_SUMMON_ELEMENTAL_TERREMOTUS",
+      "name": "Summon Elemental Terremotus",
+      "order": 637
+    },
+    {
+      "key": "EM_SUMMON_ELEMENTAL_SERPENS",
+      "name": "Summon Elemental Serpens",
+      "order": 638
+    },
+    {
+      "key": "EM_ELEMENTAL_BUSTER",
+      "name": "Elemental Buster",
+      "order": 639
+    },
+    {
+      "key": "EM_ELEMENTAL_VEIL",
+      "name": "Elemental Veil",
+      "order": 640
+    },
+    {
+      "key": "EM_EL_FLAMETECHNIC",
+      "name": "Flametechnic",
+      "order": 641
+    },
+    {
+      "key": "EM_EL_FLAMEARMOR",
+      "name": "Flame Armor",
+      "order": 642
+    },
+    {
+      "key": "EM_EL_FLAMEROCK",
+      "name": "Flame Rock",
+      "order": 643
+    },
+    {
+      "key": "EM_EL_COLD_FORCE",
+      "name": "Cold Force",
+      "order": 644
+    },
+    {
+      "key": "EM_EL_CRYSTAL_ARMOR",
+      "name": "Crystal Armor",
+      "order": 645
+    },
+    {
+      "key": "EM_EL_AGE_OF_ICE",
+      "name": "Age of Ice",
+      "order": 646
+    },
+    {
+      "key": "EM_EL_GRACE_BREEZE",
+      "name": "Grace Breeze",
+      "order": 647
+    },
+    {
+      "key": "EM_EL_EYES_OF_STORM",
+      "name": "Eyes of Storm",
+      "order": 648
+    },
+    {
+      "key": "EM_EL_STORM_WIND",
+      "name": "Storm Wind",
+      "order": 649
+    },
+    {
+      "key": "EM_EL_EARTH_CARE",
+      "name": "Earth Care",
+      "order": 650
+    },
+    {
+      "key": "EM_EL_STRONG_PROTECTION",
+      "name": "Strong Protection",
+      "order": 651
+    },
+    {
+      "key": "EM_EL_AVALANCHE",
+      "name": "Avalanche",
+      "order": 652
+    },
+    {
+      "key": "EM_EL_DEEP_POISONING",
+      "name": "Deep Poisoning",
+      "order": 653
+    },
+    {
+      "key": "EM_EL_POISON_SHIELD",
+      "name": "Poison Shield",
+      "order": 654
+    },
+    {
+      "key": "EM_EL_DEADLY_POISON",
+      "name": "Deadly Poison",
+      "order": 655
+    },
+    {
+      "key": "GM_AP_HEAL",
+      "name": "Activity",
+      "order": 656
+    },
+    {
+      "key": "NPC_DEADLYCURSE2",
+      "name": "¿ÍÀÌµå µ¥µé¸® Ä¿½º",
+      "order": 657
+    },
+    {
+      "key": "MH_BLAST_FORGE",
+      "name": "Blast Forge",
+      "order": 658
+    },
+    {
+      "key": "MH_TEMPERING",
+      "name": "Tempering",
+      "order": 659
+    },
+    {
+      "key": "MH_CLASSY_FLUTTER",
+      "name": "Classy Flutter",
+      "order": 660
+    },
+    {
+      "key": "MH_TWISTER_CUTTER",
+      "name": "Twister Cutter",
+      "order": 661
+    },
+    {
+      "key": "MH_ABSOLUTE_ZEPHYR",
+      "name": "Absolute Zephyr",
+      "order": 662
+    },
+    {
+      "key": "MH_BRUSHUP_CLAW",
+      "name": "Brushup Claw",
+      "order": 663
+    },
+    {
+      "key": "MH_BLAZING_AND_FURIOUS",
+      "name": "Blazing And Furious",
+      "order": 664
+    },
+    {
+      "key": "MH_THE_ONE_FIGHTER_RISES",
+      "name": "The One Fighter Rises",
+      "order": 665
+    },
+    {
+      "key": "MH_POLISHING_NEEDLE",
+      "name": "Polishing Needle",
+      "order": 666
+    },
+    {
+      "key": "MH_TOXIN_OF_MANDARA",
+      "name": "Toxin Of Mandara",
+      "order": 667
+    },
+    {
+      "key": "MH_NEEDLE_STINGER",
+      "name": "Needle Stinger",
+      "order": 668
+    },
+    {
+      "key": "MH_LICHT_GEHORN",
+      "name": "Licht Gehorn",
+      "order": 669
+    },
+    {
+      "key": "MH_GLANZEN_SPIES",
+      "name": "Glanzen Spies",
+      "order": 670
+    },
+    {
+      "key": "MH_HEILIGE_PFERD",
+      "name": "Heilige Pferd",
+      "order": 671
+    },
+    {
+      "key": "MH_GOLDENE_TONE",
+      "name": "Goldene Tone",
+      "order": 672
+    },
+    {
+      "key": "MH_BLAZING_LAVA",
+      "name": "Blazing Lava",
+      "order": 673
+    },
+    {
+      "key": "SKE_SKY_MASTERY",
+      "name": "Sky Mastery",
+      "order": 674
+    },
+    {
+      "key": "SKE_WAR_BOOK_MASTERY",
+      "name": "War Book Mastery",
+      "order": 675
+    },
+    {
+      "key": "SKE_RISING_SUN",
+      "name": "Rising Sun",
+      "order": 676
+    },
+    {
+      "key": "SKE_NOON_BLAST",
+      "name": "Noon Blast",
+      "order": 677
+    },
+    {
+      "key": "SKE_SUNSET_BLAST",
+      "name": "Sunset Blast",
+      "order": 678
+    },
+    {
+      "key": "SKE_RISING_MOON",
+      "name": "Rising Moon",
+      "order": 679
+    },
+    {
+      "key": "SKE_MIDNIGHT_KICK",
+      "name": "Midnight Kick",
+      "order": 680
+    },
+    {
+      "key": "SKE_DAWN_BREAK",
+      "name": "Dawn Break",
+      "order": 681
+    },
+    {
+      "key": "SKE_TWINKLING_GALAXY",
+      "name": "Twinkling Galaxy",
+      "order": 682
+    },
+    {
+      "key": "SKE_STAR_BURST",
+      "name": "Star Burst",
+      "order": 683
+    },
+    {
+      "key": "SKE_STAR_CANNON",
+      "name": "Star Cannon",
+      "order": 684
+    },
+    {
+      "key": "SKE_ALL_IN_THE_SKY",
+      "name": "All in the Sky",
+      "order": 685
+    },
+    {
+      "key": "SKE_ENCHANTING_SKY",
+      "name": "Enchanting Sky",
+      "order": 686
+    },
+    {
+      "key": "SOA_TALISMAN_MASTERY",
+      "name": "Talisman Mastery",
+      "order": 687
+    },
+    {
+      "key": "SOA_SOUL_MASTERY",
+      "name": "Soul Mastery",
+      "order": 688
+    },
+    {
+      "key": "SOA_TALISMAN_OF_PROTECTION",
+      "name": "Talisman of Protection",
+      "order": 689
+    },
+    {
+      "key": "SOA_TALISMAN_OF_WARRIOR",
+      "name": "Talisman of Warrior",
+      "order": 690
+    },
+    {
+      "key": "SOA_TALISMAN_OF_MAGICIAN",
+      "name": "Talisman of Magician",
+      "order": 691
+    },
+    {
+      "key": "SOA_SOUL_GATHERING",
+      "name": "Soul Gathering",
+      "order": 692
+    },
+    {
+      "key": "SOA_TOTEM_OF_TUTELARY",
+      "name": "Talisman of Tutelary",
+      "order": 693
+    },
+    {
+      "key": "SOA_TALISMAN_OF_FIVE_ELEMENTS",
+      "name": "Talisman of Five Elements",
+      "order": 694
+    },
+    {
+      "key": "SOA_TALISMAN_OF_SOUL_STEALING",
+      "name": "Talisman of Soul Stealing",
+      "order": 695
+    },
+    {
+      "key": "SOA_EXORCISM_OF_MALICIOUS_SOUL",
+      "name": "Exorcism of Malicious Soul",
+      "order": 696
+    },
+    {
+      "key": "SOA_TALISMAN_OF_BLUE_DRAGON",
+      "name": "Talisman of Blue Dragon",
+      "order": 697
+    },
+    {
+      "key": "SOA_TALISMAN_OF_WHITE_TIGER",
+      "name": "Talisman of White Tiger",
+      "order": 698
+    },
+    {
+      "key": "SOA_TALISMAN_OF_RED_PHOENIX",
+      "name": "Talisman of Red Phoenix",
+      "order": 699
+    },
+    {
+      "key": "SOA_TALISMAN_OF_BLACK_TORTOISE",
+      "name": "Talisman of Black Tortoise",
+      "order": 700
+    },
+    {
+      "key": "SOA_TALISMAN_OF_FOUR_BEARING_GOD",
+      "name": "Talisman of Four Bearing God",
+      "order": 701
+    },
+    {
+      "key": "SOA_CIRCLE_OF_DIRECTIONS_AND_ELEMENTALS",
+      "name": "Circle of Directions and Elementals",
+      "order": 702
+    },
+    {
+      "key": "SOA_SOUL_OF_HEAVEN_AND_EARTH",
+      "name": "Soul of Heaven and Earth",
+      "order": 703
+    },
+    {
+      "key": "SH_MYSTICAL_CREATURE_MASTERY",
+      "name": "Mystical Creature Mastery",
+      "order": 704
+    },
+    {
+      "key": "SH_COMMUNE_WITH_CHUL_HO",
+      "name": "Commune With Chulho",
+      "order": 705
+    },
+    {
+      "key": "SH_CHUL_HO_SONIC_CLAW",
+      "name": "Chulho Sonic Claw",
+      "order": 706
+    },
+    {
+      "key": "SH_HOWLING_OF_CHUL_HO",
+      "name": "Howling of Chulho",
+      "order": 707
+    },
+    {
+      "key": "SH_HOGOGONG_STRIKE",
+      "name": "Hogogong Strike",
+      "order": 708
+    },
+    {
+      "key": "SH_COMMUNE_WITH_KI_SUL",
+      "name": "Commune With Kisul",
+      "order": 709
+    },
+    {
+      "key": "SH_KI_SUL_WATER_SPRAYING",
+      "name": "Kisul Water Spraying",
+      "order": 710
+    },
+    {
+      "key": "SH_MARINE_FESTIVAL_OF_KI_SUL",
+      "name": "Marine Festival of Kisul",
+      "order": 711
+    },
+    {
+      "key": "SH_SANDY_FESTIVAL_OF_KI_SUL",
+      "name": "Sandy Festival of Kisul",
+      "order": 712
+    },
+    {
+      "key": "SH_KI_SUL_RAMPAGE",
+      "name": "Kisul Rampage",
+      "order": 713
+    },
+    {
+      "key": "SH_COMMUNE_WITH_HYUN_ROK",
+      "name": "Commune With Hyunrok",
+      "order": 714
+    },
+    {
+      "key": "SH_COLORS_OF_HYUN_ROK",
+      "name": "Colors of Hyunrok",
+      "order": 715
+    },
+    {
+      "key": "SH_HYUN_ROKS_BREEZE",
+      "name": "Hyunrok Breeze",
+      "order": 716
+    },
+    {
+      "key": "SH_HYUN_ROK_CANNON",
+      "name": "Hyunrok Cannon",
+      "order": 717
+    },
+    {
+      "key": "SH_TEMPORARY_COMMUNION",
+      "name": "Temporary Communion",
+      "order": 718
+    },
+    {
+      "key": "SH_BLESSING_OF_MYSTICAL_CREATURES",
+      "name": "Blessing of Mystical Creatures",
+      "order": 719
+    },
+    {
+      "key": "NW_P_F_I",
+      "name": "P.F.I",
+      "order": 720
+    },
+    {
+      "key": "NW_GRENADE_MASTERY",
+      "name": "Grenade Mastery",
+      "order": 721
+    },
+    {
+      "key": "NW_INTENSIVE_AIM",
+      "name": "Intensive Aim",
+      "order": 722
+    },
+    {
+      "key": "NW_GRENADE_FRAGMENT",
+      "name": "Grenade Fragment",
+      "order": 723
+    },
+    {
+      "key": "NW_THE_VIGILANTE_AT_NIGHT",
+      "name": "The Vigilante at Night",
+      "order": 724
+    },
+    {
+      "key": "NW_THE_VIGILANTE_AT_NIGHT_GUN_SHOTGUN",
+      "name": "The Vigilante at Night",
+      "order": 725
+    },
+    {
+      "key": "NW_THE_VIGILANTE_AT_NIGHT_GUN_GATLING",
+      "name": "The Vigilante at Night",
+      "order": 726
+    },
+    {
+      "key": "NW_ONLY_ONE_BULLET",
+      "name": "Only One Bullet",
+      "order": 727
+    },
+    {
+      "key": "NW_SPIRAL_SHOOTING",
+      "name": "Spiral Shooting",
+      "order": 728
+    },
+    {
+      "key": "NW_MAGAZINE_FOR_ONE",
+      "name": "Magazine for One",
+      "order": 729
+    },
+    {
+      "key": "NW_WILD_FIRE",
+      "name": "Wild Fire",
+      "order": 730
+    },
+    {
+      "key": "NW_BASIC_GRENADE",
+      "name": "Basic Grenade",
+      "order": 731
+    },
+    {
+      "key": "NW_HASTY_FIRE_IN_THE_HOLE",
+      "name": "Hasty Fire in the Hole",
+      "order": 732
+    },
+    {
+      "key": "NW_GRENADES_DROPPING",
+      "name": "Grenade Dropping",
+      "order": 733
+    },
+    {
+      "key": "NW_AUTO_FIRING_LAUNCHER",
+      "name": "Auto Firing Launcher",
+      "order": 734
+    },
+    {
+      "key": "NW_HIDDEN_CARD",
+      "name": "Hidden Card",
+      "order": 735
+    },
+    {
+      "key": "NW_MISSION_BOMBARD",
+      "name": "Mission Bombard",
+      "order": 736
+    },
+    {
+      "key": "HN_SELFSTUDY_TATICS",
+      "name": "Self Study Tactics",
+      "order": 737
+    },
+    {
+      "key": "HN_SELFSTUDY_SOCERY",
+      "name": "Self Study Sorcery",
+      "order": 738
+    },
+    {
+      "key": "HN_DOUBLEBOWLINGBASH",
+      "name": "Double Bowling Bash",
+      "order": 739
+    },
+    {
+      "key": "HN_SHIELD_CHAIN_RUSH",
+      "name": "Shield Chain Rush",
+      "order": 740
+    },
+    {
+      "key": "HN_MEGA_SONIC_BLOW",
+      "name": "Mega Sonic Blow",
+      "order": 741
+    },
+    {
+      "key": "HN_SPIRAL_PIERCE_MAX",
+      "name": "Spiral Pierce Max",
+      "order": 742
+    },
+    {
+      "key": "HN_METEOR_STORM_BUSTER",
+      "name": "Meteor Storm Buster",
+      "order": 743
+    },
+    {
+      "key": "HN_JUPITEL_THUNDER_STORM",
+      "name": "Jupitel Thunderstorm",
+      "order": 744
+    },
+    {
+      "key": "HN_JACK_FROST_NOVA",
+      "name": "Jack Frost Nova",
+      "order": 745
+    },
+    {
+      "key": "HN_HELLS_DRIVE",
+      "name": "Hell's Drive",
+      "order": 746
+    },
+    {
+      "key": "HN_GROUND_GRAVITATION",
+      "name": "Ground Gravitation",
+      "order": 747
+    },
+    {
+      "key": "HN_NAPALM_VULCAN_STRIKE",
+      "name": "Napalm Vulcan Strike",
+      "order": 748
+    },
+    {
+      "key": "HN_BREAKINGLIMIT",
+      "name": "Breaking Limit",
+      "order": 749
+    },
+    {
+      "key": "HN_RULEBREAK",
+      "name": "Rule Break",
+      "order": 750
+    },
+    {
+      "key": "SS_SHINKIROU",
+      "name": "Mirage",
+      "order": 751
+    },
+    {
+      "key": "SS_TOKEDASU",
+      "name": "Melt Away",
+      "order": 752
+    },
+    {
+      "key": "SS_SHIMIRU",
+      "name": "Infiltrate",
+      "order": 753
+    },
+    {
+      "key": "SS_AKUMUKESU",
+      "name": "Nightmare Erasion",
+      "order": 754
+    },
+    {
+      "key": "SS_KAGEGARI",
+      "name": "Shadow Hunting",
+      "order": 755
+    },
+    {
+      "key": "SS_KAGENOMAI",
+      "name": "Shadow Dance",
+      "order": 756
+    },
+    {
+      "key": "SS_KAGEGISSEN",
+      "name": "Shadow Flash",
+      "order": 757
+    },
+    {
+      "key": "SS_FUUMASHOUAKU",
+      "name": "Huuma Shuriken - Grasp",
+      "order": 758
+    },
+    {
+      "key": "SS_FUUMAKOUCHIKU",
+      "name": "Huuma Shuriken - Construct",
+      "order": 759
+    },
+    {
+      "key": "SS_KUNAIWAIKYOKU",
+      "name": "Kunai - Distortion",
+      "order": 760
+    },
+    {
+      "key": "SS_KUNAIKAITEN",
+      "name": "Kunai - Rotation",
+      "order": 761
+    },
+    {
+      "key": "SS_KUNAIKUSSETSU",
+      "name": "Kunai - Refraction",
+      "order": 762
+    },
+    {
+      "key": "SS_SEKIENHOU",
+      "name": "Red Flame Cannon",
+      "order": 763
+    },
+    {
+      "key": "SS_REIKETSUHOU",
+      "name": "Cold Blooded Cannon",
+      "order": 764
+    },
+    {
+      "key": "SS_RAIDENPOU",
+      "name": "Thundering Cannon",
+      "order": 765
+    },
+    {
+      "key": "SS_KINRYUUHOU",
+      "name": "Golden Dragon Cannon",
+      "order": 766
+    },
+    {
+      "key": "SS_ANTENPOU",
+      "name": "Darkening Cannon",
+      "order": 767
+    },
+    {
+      "key": "SS_KAGEAKUMU",
+      "name": "Shadow - Nightmare",
+      "order": 768
+    },
+    {
+      "key": "SS_HITOUAKUMU",
+      "name": "Kunai - Nightmare",
+      "order": 769
+    },
+    {
+      "key": "SS_ANKOKURYUUAKUMU",
+      "name": "Dark Dragon - Nightmare",
+      "order": 770
+    },
+    {
+      "key": "IG_RADIANT_SPEAR",
+      "name": "Radiant Spear",
+      "order": 771
+    },
+    {
+      "key": "IG_IMPERIAL_CROSS",
+      "name": "Imperial Cross",
+      "order": 772
+    },
+    {
+      "key": "MT_RUSH_STRIKE",
+      "name": "Rush Strike",
+      "order": 773
+    },
+    {
+      "key": "MT_POWERFUL_SWING",
+      "name": "Powerful Swing",
+      "order": 774
+    },
+    {
+      "key": "MT_ENERGY_CANNONADE",
+      "name": "Energy Cannonade",
+      "order": 775
+    },
+    {
+      "key": "BO_MYSTERY_POWDER",
+      "name": "Mystery Powder",
+      "order": 776
+    },
+    {
+      "key": "BO_DUST_EXPLOSION",
+      "name": "Dust Explosion",
+      "order": 777
+    },
+    {
+      "key": "SHC_CROSS_SLASH",
+      "name": "Cross Slash",
+      "order": 778
+    },
+    {
+      "key": "ABC_HIT_AND_SLIDING",
+      "name": "Hit And Sliding",
+      "order": 779
+    },
+    {
+      "key": "ABC_CHASING_BREAK",
+      "name": "Chasing Break",
+      "order": 780
+    },
+    {
+      "key": "ABC_CHASING_SHOT",
+      "name": "Chasing Shot",
+      "order": 781
+    },
+    {
+      "key": "TR_RHYTHMICAL_WAVE",
+      "name": "Rhythmical Wave",
+      "order": 782
+    },
+    {
+      "key": "SS_FOUR_CHARM",
+      "name": "Four Colors Charm",
+      "order": 783
+    },
+    {
+      "key": "NW_WILD_SHOT",
+      "name": "Wild Shot",
+      "order": 784
+    },
+    {
+      "key": "NW_MIDNIGHT_FALLEN",
+      "name": "Midnight Fallen",
+      "order": 785
+    },
+    {
+      "key": "DK_DRAGONIC_PIERCE",
+      "name": "Dragonic Pierce",
+      "order": 786
+    },
+    {
+      "key": "IG_IMPERIAL_PRESSURE",
+      "name": "Imperial Pressure",
+      "order": 787
+    },
+    {
+      "key": "ABC_ABYSS_FLAME",
+      "name": "Abyss Flame",
+      "order": 788
+    },
+    {
+      "key": "ABC_ABYSS_FLAME_ATK",
+      "name": "Abyss Flame",
+      "order": 789
+    },
+    {
+      "key": "AG_ENERGY_CONVERSION",
+      "name": "Energy Conversion",
+      "order": 790
+    },
+    {
+      "key": "EM_PSYCHIC_STREAM",
+      "name": "Psychic Stream",
+      "order": 791
+    },
+    {
+      "key": "CD_DIVINUS_FLOS",
+      "name": "Divinus Flos",
+      "order": 792
+    },
+    {
+      "key": "IQ_BLAZING_FLAME_BLAST",
+      "name": "Blazing Flame Blast",
+      "order": 793
+    },
+    {
+      "key": "WH_WILD_WALK",
+      "name": "Wild Walk",
+      "order": 794
+    },
+    {
+      "key": "SKE_SKY_SUN",
+      "name": "Sky Sun",
+      "order": 795
+    },
+    {
+      "key": "SKE_SKY_MOON",
+      "name": "Sky Moon",
+      "order": 796
+    },
+    {
+      "key": "SKE_STAR_LIGHT_KICK",
+      "name": "Star Light Kick",
+      "order": 797
+    },
+    {
+      "key": "HN_OVERCOMING_CRISIS",
+      "name": "Overcoming Crisis",
+      "order": 798
+    },
+    {
+      "key": "SH_CHUL_HO_BATTERING",
+      "name": "Chulho Battering",
+      "order": 799
+    },
+    {
+      "key": "SH_HYUN_ROK_SPIRIT_POWER",
+      "name": "Hyunrok Spirit Power",
+      "order": 800
+    },
+    {
+      "key": "DR_TRUTH_OF_WIND",
+      "name": "Truth of Wind",
+      "order": 801
+    },
+    {
+      "key": "DR_TRUTH_OF_ICE",
+      "name": "Truth of Ice",
+      "order": 802
+    },
+    {
+      "key": "DR_TRUTH_OF_EARTH",
+      "name": "Truth of Earth",
+      "order": 803
+    },
+    {
+      "key": "DR_ICE_TOTEM",
+      "name": "Ice Totem",
+      "order": 804
+    },
+    {
+      "key": "DR_ICE_CLOUD",
+      "name": "Ice Cloud",
+      "order": 805
+    },
+    {
+      "key": "DR_CUTTING_WIND",
+      "name": "Cutting Wind",
+      "order": 806
+    },
+    {
+      "key": "DR_WIND_BOMB",
+      "name": "Wind Bomb",
+      "order": 807
+    },
+    {
+      "key": "DR_EARTH_FLOWER",
+      "name": "Earth Flower",
+      "order": 808
+    },
+    {
+      "key": "DR_AROUND_FLOWER",
+      "name": "Around Flower",
+      "order": 809
+    },
+    {
+      "key": "DR_NATURE_LOGIC",
+      "name": "Nature Logic",
+      "order": 810
+    },
+    {
+      "key": "DR_NATURE_SHIELD",
+      "name": "Nature Shield",
+      "order": 811
+    },
+    {
+      "key": "DR_WEREWOLF",
+      "name": "Transformation: Werewolf",
+      "order": 812
+    },
+    {
+      "key": "DR_ENRAGE_WOLF",
+      "name": "Enrage Wolf",
+      "order": 813
+    },
+    {
+      "key": "DR_NOMERCY_CLAW",
+      "name": "No Mercy Claw",
+      "order": 814
+    },
+    {
+      "key": "DR_CRUEL_BITE",
+      "name": "Cruel Bite",
+      "order": 815
+    },
+    {
+      "key": "DR_HUNGER",
+      "name": "Hunger",
+      "order": 816
+    },
+    {
+      "key": "DR_BLOOD_HOWLING",
+      "name": "Blood Howling",
+      "order": 817
+    },
+    {
+      "key": "DR_BEASTY_NOSE",
+      "name": "Beasty Nose",
+      "order": 818
+    },
+    {
+      "key": "DR_WERERAPTOR",
+      "name": "Transformation: Wereraptor",
+      "order": 819
+    },
+    {
+      "key": "DR_ENRAGE_RAPTOR",
+      "name": "Enrage Raptor",
+      "order": 820
+    },
+    {
+      "key": "DR_SHOOTING_FEATHER",
+      "name": "Shooting Feather",
+      "order": 821
+    },
+    {
+      "key": "DR_FLICKING_TONADO",
+      "name": "Flicking Tornado",
+      "order": 822
+    },
+    {
+      "key": "DR_LOW_FLIGHT",
+      "name": "Low Flight",
+      "order": 823
+    },
+    {
+      "key": "DR_PREENING",
+      "name": "Preening",
+      "order": 824
+    },
+    {
+      "key": "DR_SHARPE_EYES",
+      "name": "Sharp Eyes",
+      "order": 825
+    },
+    {
+      "key": "KR_DOUBLE_SLASH",
+      "name": "Double Slash",
+      "order": 826
+    },
+    {
+      "key": "KR_NASTY_SLASH",
+      "name": "Nasty Slash",
+      "order": 827
+    },
+    {
+      "key": "KR_CLAW_WAVE",
+      "name": "Claw Wave",
+      "order": 828
+    },
+    {
+      "key": "KR_CHOP_CHOP",
+      "name": "Chop Chop",
+      "order": 829
+    },
+    {
+      "key": "KR_IRON_HOWLING",
+      "name": "Iron Howling",
+      "order": 830
+    },
+    {
+      "key": "KR_WOLF_INSTINCT",
+      "name": "Wolf Instinct",
+      "order": 831
+    },
+    {
+      "key": "KR_SHARPEN_GUST",
+      "name": "Sharpen Gust",
+      "order": 832
+    },
+    {
+      "key": "KR_SHARPEN_HAIL",
+      "name": "Sharpen Hail",
+      "order": 833
+    },
+    {
+      "key": "KR_FEATHER_SPRINKLE",
+      "name": "Feather Sprinkle",
+      "order": 834
+    },
+    {
+      "key": "KR_TYPHOON_WING",
+      "name": "Typhoon Wing",
+      "order": 835
+    },
+    {
+      "key": "KR_WIND_VEIL",
+      "name": "Wind Veil",
+      "order": 836
+    },
+    {
+      "key": "KR_RAPTORIAL_INSTINCT",
+      "name": "Raptorial Instinct",
+      "order": 837
+    },
+    {
+      "key": "KR_ICE_PILLAR",
+      "name": "Ice Pillar",
+      "order": 838
+    },
+    {
+      "key": "KR_ICE_SPLASH",
+      "name": "Ice Splash",
+      "order": 839
+    },
+    {
+      "key": "KR_THUNDERING_FOCUS",
+      "name": "Thundering Focus",
+      "order": 840
+    },
+    {
+      "key": "KR_THUNDERING_FOCUS_S",
+      "name": "Enhanced Thundering Focus",
+      "order": 841
+    },
+    {
+      "key": "KR_THUNDERING_ORB",
+      "name": "Thundering Orb",
+      "order": 842
+    },
+    {
+      "key": "KR_THUNDERING_ORB_S",
+      "name": "Enhanced Thundering Orb",
+      "order": 843
+    },
+    {
+      "key": "KR_THUNDERING_CALL",
+      "name": "Thundering Call",
+      "order": 844
+    },
+    {
+      "key": "KR_THUNDERING_CALL_S",
+      "name": "Enhanced Thundering Call",
+      "order": 845
+    },
+    {
+      "key": "KR_EARTH_DRILL",
+      "name": "Earth Drill",
+      "order": 846
+    },
+    {
+      "key": "KR_EARTH_STAMP",
+      "name": "Earth Stamp",
+      "order": 847
+    },
+    {
+      "key": "KR_EARTH_BUD",
+      "name": "Earth Bud",
+      "order": 848
+    },
+    {
+      "key": "KR_NATURE_VIGOUR",
+      "name": "Nature Vigour",
+      "order": 849
+    },
+    {
+      "key": "KR_NATURE_PROTECTION",
+      "name": "Nature Protection",
+      "order": 850
+    },
+    {
+      "key": "KR_GROUND_BLOOM",
+      "name": "Ground Bloom",
+      "order": 851
+    },
+    {
+      "key": "AT_GRAVITY_HOLE",
+      "name": "Gravity Hole",
+      "order": 852
+    },
+    {
+      "key": "AT_NATURE_AID",
+      "name": "Nature Aid",
+      "order": 853
+    },
+    {
+      "key": "AT_NATURE_HARMONY",
+      "name": "Nature Harmony",
+      "order": 854
+    },
+    {
+      "key": "AT_GLACIER_MONOLITH",
+      "name": "Glacial Monolith",
+      "order": 855
+    },
+    {
+      "key": "AT_GLACIER_NOVA",
+      "name": "Glacial Nova",
+      "order": 856
+    },
+    {
+      "key": "AT_GLACIER_SHARD",
+      "name": "Glacial Shard",
+      "order": 857
+    },
+    {
+      "key": "AT_GLACIER_STOMP",
+      "name": "Glacial Stomp",
+      "order": 858
+    },
+    {
+      "key": "AT_CHILLING_BLAST",
+      "name": "Chilling Blast",
+      "order": 859
+    },
+    {
+      "key": "AT_ROARING_CHARGE",
+      "name": "Roaring Charge",
+      "order": 860
+    },
+    {
+      "key": "AT_ROARING_CHARGE_S",
+      "name": "Enhanced Roaring Charge",
+      "order": 861
+    },
+    {
+      "key": "AT_ROARING_PIERCER",
+      "name": "Roaring Piercer",
+      "order": 862
+    },
+    {
+      "key": "AT_ROARING_PIERCER_S",
+      "name": "Enhanced Roaring Piercer",
+      "order": 863
+    },
+    {
+      "key": "AT_FURIOS_STORM",
+      "name": "Furious Storm",
+      "order": 864
+    },
+    {
+      "key": "AT_TERRA_HARVEST",
+      "name": "Terra Harvest",
+      "order": 865
+    },
+    {
+      "key": "AT_TERRA_WAVE",
+      "name": "Terra Wave",
+      "order": 866
+    },
+    {
+      "key": "AT_SOLID_STOMP",
+      "name": "Solid Stomp",
+      "order": 867
+    },
+    {
+      "key": "AT_SIXTH_SENSE",
+      "name": "Sixth Sense",
+      "order": 868
+    },
+    {
+      "key": "AT_PULSE_OF_MADNESS",
+      "name": "Pulse of Madness",
+      "order": 869
+    },
+    {
+      "key": "AT_ALPHA_PHASE",
+      "name": "Alpha Phase",
+      "order": 870
+    },
+    {
+      "key": "AT_PRIMAL_CLAW",
+      "name": "Primal Claw",
+      "order": 871
+    },
+    {
+      "key": "AT_FERAL_CLAW",
+      "name": "Feral Claw",
+      "order": 872
+    },
+    {
+      "key": "AT_ALPHA_CLAW",
+      "name": "Alpha Claw",
+      "order": 873
+    },
+    {
+      "key": "AT_SAVAGE_LUNGE",
+      "name": "Savage Lunge",
+      "order": 874
+    },
+    {
+      "key": "AT_FRENZY_FANG",
+      "name": "Frenzy Fang",
+      "order": 875
+    },
+    {
+      "key": "AT_FLIP_FLAP",
+      "name": "Flip Flap",
+      "order": 876
+    },
+    {
+      "key": "AT_APEX_PHASE",
+      "name": "Apex Phase",
+      "order": 877
+    },
+    {
+      "key": "AT_PINION_SHOT",
+      "name": "Pinion Shot",
+      "order": 878
+    },
+    {
+      "key": "AT_ZEPHYR_LINK",
+      "name": "Zephyr Link",
+      "order": 879
+    },
+    {
+      "key": "AT_QUILL_SPEAR",
+      "name": "Quill Spear",
+      "order": 880
+    },
+    {
+      "key": "AT_QUILL_SPEAR_S",
+      "name": "Quill Spear",
+      "order": 881
+    },
+    {
+      "key": "AT_TEMPEST_FLAP",
+      "name": "Tempest Flap",
+      "order": 882
+    },
+    {
+      "key": "AT_AERO_SYNC",
+      "name": "Aero Sync",
+      "order": 883
+    }
+  ]
+}
