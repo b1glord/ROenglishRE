@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.26.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60711-60843 Astrild, Seal of Megingjard, VIP ve Gramps hunting bloklarindan 60 pending kayit dahil",
+    "version": "7.27.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60844-60934 Gramps hunting, Chefs of Iron, Zeldys ve Brasilis Museum Murder Mystery bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -22981,6 +22981,306 @@
     "60843": {
       "title": "Yao Jun Avi",
       "description": "400 Yao Jun avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60844": {
+      "title": "Mao Guai Avi",
+      "description": "400 Mao Guai avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60845": {
+      "title": "Gajomart Avi",
+      "description": "400 Gajomart avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60846": {
+      "title": "Cendrawasih Avi",
+      "description": "400 Cendrawasih avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60847": {
+      "title": "Engkanto Avi",
+      "description": "400 Engkanto avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60848": {
+      "title": "Wraith Dead Avi",
+      "description": "400 Wraith Dead avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60849": {
+      "title": "Centipede Larva Avi",
+      "description": "400 Centipede Larva avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60850": {
+      "title": "Noxious Avi",
+      "description": "400 Noxious avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60851": {
+      "title": "Pasana Avi",
+      "description": "400 Pasana avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60852": {
+      "title": "Cramp Avi",
+      "description": "400 Cramp avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60853": {
+      "title": "Wakwak Avi",
+      "description": "400 Wakwak avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60854": {
+      "title": "Tikbalang Avi",
+      "description": "400 Tikbalang avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60855": {
+      "title": "Sleeper Avi",
+      "description": "400 Sleeper avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60856": {
+      "title": "Cenere Avi",
+      "description": "400 Cenere avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60857": {
+      "title": "Antique Book Avi",
+      "description": "400 Antique Book avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60858": {
+      "title": "Punk Avi",
+      "description": "400 Punk avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60859": {
+      "title": "Menblatt Avi",
+      "description": "400 Menblatt avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60860": {
+      "title": "Green Lichtern Avi",
+      "description": "400 Green Lichtern avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60861": {
+      "title": "Bungisngis Avi",
+      "description": "400 Bungisngis avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60862": {
+      "title": "Engkanto Avi",
+      "description": "400 Engkanto avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60863": {
+      "title": "Petal Avi",
+      "description": "400 Petal avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60864": {
+      "title": "Breeze Avi",
+      "description": "400 Breeze avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60865": {
+      "title": "Neraid Avi",
+      "description": "400 Neraid avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60866": {
+      "title": "Sedora Avi",
+      "description": "400 Sedora avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60867": {
+      "title": "Ancient Worm Avi",
+      "description": "400 Ancient Worm avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60868": {
+      "title": "Red Lichtern Avi",
+      "description": "400 Red Lichtern avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60869": {
+      "title": "Blue Lichtern Avi",
+      "description": "400 Blue Lichtern avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60901": {
+      "title": "Chefs of Iron",
+      "description": "Goreve baslamaya hazir oldugunda Lidia ile konus.",
+      "goal": ""
+    },
+    "60902": {
+      "title": "Huge in Hugel",
+      "description": "Hugel'deki Chef Bobby'yi ziyaret et. Shop'u grocery store'un 2F katinda.",
+      "goal": ""
+    },
+    "60903": {
+      "title": "Crustacean Situation",
+      "description": "Hugel'in guneyindeki beach veya baska yerlerden 20 Clam Flesh ve 30 Nipper topla, sonra Chef Bobby'ye don.",
+      "goal": ""
+    },
+    "60904": {
+      "title": "Reaching Rachel",
+      "description": "Payon'a git ve village'in dogusundaki restaurant'ta Rachel'i bul.",
+      "goal": ""
+    },
+    "60905": {
+      "title": "Talk Stoup",
+      "description": "Rachel'in dinner ve dessert menu'su icin 20 Potato, 20 Meat ve 15 Strawberry getir.",
+      "goal": ""
+    },
+    "60906": {
+      "title": "Louyang'da Aclik",
+      "description": "Louyang city'nin kuzeydogusundaki restaurant'ta Chef Ming ile konus.",
+      "goal": ""
+    },
+    "60907": {
+      "title": "Steamed Yams",
+      "description": "Louyang 1F dungeon'daki hungry Grizzly'lerden 30 Yam topla.",
+      "goal": ""
+    },
+    "60908": {
+      "title": "Al De Baran Munch House",
+      "description": "Al De Baran'in dogusundaki kucuk cafe'de Chef Jacques ile konus.",
+      "goal": ""
+    },
+    "60909": {
+      "title": "Turkey Shoot",
+      "description": "Al De Baran'in kuzeyindeki Border Posts map'te 30 Turkey avla ve gorev tamamlaninca geri don.",
+      "goal": ""
+    },
+    "60910": {
+      "title": "Master Chef Ol",
+      "description": "Chefs' Union odulunu almak icin Prontera'daki Lidia'ya don.",
+      "goal": ""
+    },
+    "60911": {
+      "title": "Yildizlardan Gelen Adam",
+      "description": "Zeldys yildizlarla dolu gogu gosteriyor. Garip hikayesi daha fazla arastirmayi hak ediyor.",
+      "goal": ""
+    },
+    "60912": {
+      "title": "Master Forger",
+      "description": "Mjolnir Dead Pit'teki forger Mime'i bul ve Cursed Sword'u yenebilecek bir weapon yapmasini iste.",
+      "goal": ""
+    },
+    "60913": {
+      "title": "Mime'in Weapon Malzemeleri",
+      "description": "Mime'a 3 Steel, 20 Dragon Scale, 10 Dragon Tail, 4 Dragon Canine ve 1 Diamond Ring getir.",
+      "goal": ""
+    },
+    "60914": {
+      "title": "Mime'in Weapon'i",
+      "description": "Mime weapon'i hazirladi. Zeldys'e don ve savasa hazir oldugunu soyle.",
+      "goal": ""
+    },
+    "60915": {
+      "title": "Lacryma Den Icinde",
+      "description": "Cursed Sword'u bul ve yen. Zeldys'i eve teleport etmeye yarayacak bir scroll tasiyor.",
+      "goal": ""
+    },
+    "60916": {
+      "title": "Princess Aeon'un Soul'u",
+      "description": "Blue Dragon icindeki Princess Aeon's Soul'u bul. Emerald Cave'de avla ve geri getir.",
+      "goal": ""
+    },
+    "60917": {
+      "title": "Gercek Ask",
+      "description": "Zeldys ile konusmaya devam et.",
+      "goal": ""
+    },
+    "60918": {
+      "title": "Lunar New Year Timer",
+      "description": "Lunar New Year gorevini tekrar almadan once en az 23 saat bekle.",
+      "goal": ""
+    },
+    "60919": {
+      "title": "Pinkamenia'nin Talebi",
+      "description": "Pinkamenia ile konusmaya devam et.",
+      "goal": ""
+    },
+    "60920": {
+      "title": "Calinan Cacao'yu Geri Al",
+      "description": "Moscovia'daki Pinkamenia, Baker Extraordinaire'dan Costume Cake Hat alip onunla 15 Stolen Cacao getirmeni istedi.",
+      "goal": ""
+    },
+    "60921": {
+      "title": "Caresiz Investigators",
+      "description": "Agent York, Brasilis Museum'da bir grup cocugun crime arastirdigini soyluyor.",
+      "goal": "Brasilis Museum - southwest Brasilis"
+    },
+    "60922": {
+      "title": "Anomalies LLC",
+      "description": "Investigator grubu bunun gordukleri en zor case oldugunu soyluyor.",
+      "goal": "Velmenna ile konusmaya devam et"
+    },
+    "60923": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags murder'dan beri room'undan cikmamis. Onu Brasilis Hotel'de bul.",
+      "goal": "Brasilis'in guneydogusundaki Hotel'e git"
+    },
+    "60924": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags museum Head Curator ile konusmani soyledi.",
+      "goal": "Brasilis Museum 2F'deki Head Curator'u bul"
+    },
+    "60925": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator, duty'deki security guard'in alt katta sorgulandigini soyledi.",
+      "goal": "Security guard Mr. Herring ile konus"
+    },
+    "60926": {
+      "title": "Museum Murder Mystery",
+      "description": "Red Herring, Mr. Moneybags'in boynunda tasidigi Locket'in calindigini soyledi.",
+      "goal": "Bulduklarini museum'daki Anomalies LLC grubuna bildir"
+    },
+    "60927": {
+      "title": "Museum Murder Mystery",
+      "description": "Investigator'lara Red Herring'in Mr. Moneybags'i oldurdugunu soyledin.",
+      "goal": "Red'e geri don ve suclamani bildir"
+    },
+    "60928": {
+      "title": "Museum Murder Mystery",
+      "description": "Birini suclamadan once daha fazla clue bulmaya karar verdin. Mrs. Moneybags cinayet hakkinda bir sey biliyor olabilir.",
+      "goal": ""
+    },
+    "60929": {
+      "title": "Museum Murder Mystery",
+      "description": "Red Herring murder suclamasi icin Broddy'yi sucluyor.",
+      "goal": ""
+    },
+    "60930": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags'in iceri girerken yine cebine bir sey sakladigini gordun.",
+      "goal": "Mrs. Moneybags ile konus"
+    },
+    "60931": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags cok sarsilmis. Investigator'lar sen yokken yeni clue bulmus olabilir.",
+      "goal": "Museum'daki investigator cocuklarla konus"
+    },
+    "60932": {
+      "title": "Museum Murder Mystery",
+      "description": "Cocuklar buradan erisilemeyen secret passage bulmus. Museum hakkinda daha bilgili birine sor.",
+      "goal": ""
+    },
+    "60933": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator, mansion yaninda museum'un eski sahiplerine ait bir house oldugunu soyledi.",
+      "goal": "House'u bul ve door'u kir"
+    },
+    "60934": {
+      "title": "Museum Murder Mystery",
+      "description": "Mansion'a girmeyi basardin. Cevreyi ara ve museum'a giden secret passage'i bul.",
       "goal": ""
     }
   }
