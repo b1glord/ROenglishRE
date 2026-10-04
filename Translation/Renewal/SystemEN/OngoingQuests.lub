@@ -21192,28 +21192,28 @@ QuestInfoList = {
 		Summary = "Phase 2 tamamlandi"
 	},
 	[7605] = {
-		Title = "Guardian's Blessing",
+		Title = "Guardian'in Kutsamasi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Your latest contract with the Guardian has not yet expired. No new contracts can be made until then."
+			"Guardian ile yaptigin son sozlesmenin suresi henuz dolmadi. Bitene kadar yeni bir sozlesme yapilamaz."
 		},
-		Summary = ""
+		Summary = "Sozlesme suresinin dolmasini bekle"
 	},
 	[7606] = {
-		Title = "Phantasmagorika Excavator Recruitment",
+		Title = "Phantasmagorika Kazi Gorevlisi Araniyor",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"The Juperos Ruins have been expanded. Come join us for exploration in the newly discovered Phantasmagorika!"
+			"Juperos Ruins genisledi. Yeni kesfedilen Phantasmagorika'yi kesfetmek icin ekibe katil."
 		},
-		Summary = ""
+		Summary = "Phantasmagorika kazi projesine katil"
 	},
 	[7607] = {
-		Title = "Eden Group Leader",
+		Title = "Eden Group Lideri",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"The <NAVI>Eden Group\'s leader<INFO>moc_para01,133,170,0,101,0</INFO></NAVI> has been revealed. She wants to talk to you as to Phantasmagorika. Go to the farthest room on the left side on the second floor."
 		},
-		Summary = "Talk to the Eden Group Commander",
+		Summary = "Eden Group Commander ile konus",
 		NpcSpr = "4_F_EDEN_MASTER",
 		NpcNavi = "moc_para01",
 		NpcPosX = 133,
@@ -21225,7 +21225,7 @@ QuestInfoList = {
 		Description = {
 			"The Eden Group Commander has asked you to talk to <NAVI>Laime Evenor<INFO>moc_para01,38,175,0,101,0</INFO></NAVI> in the employee office as to joining the excavation project. The employee office is the next room."
 		},
-		Summary = "Talk to Laime in the employee office",
+		Summary = "Employee office'te Lime ile konus",
 		NpcSpr = "4_F_EDEN_OFFICER",
 		NpcNavi = "moc_para01",
 		NpcPosX = 38,
@@ -21237,175 +21237,175 @@ QuestInfoList = {
 		Description = {
 			"Use the Juperos dungeon to move to the newly discovered area. Don\'t forget to register with the <NAVI>Central Command Center<INFO>verus04,182,168,0,101,0</INFO></NAVI> upon your arrival. Tell her your team\'s name is ^0000FFAtnad^000000."
 		},
-		Summary = "Register as an Atnad Excavation Team member",
+		Summary = "Atnad Excavation Team uyesi olarak kaydol",
 		NpcSpr = "4_F_HUWOMAN",
 		NpcNavi = "verus04",
 		NpcPosX = 182,
 		NpcPosY = 168
 	},
 	[7610] = {
-		Title = "Registered Excavator",
+		Title = "Kayitli Kazi Gorevlisi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You are now an official member of the Atnad Excavation Team, and can participate in the Phantasmagorika excavation project."
+			"Artik Atnad Excavation Team'in resmi uyesisin ve Phantasmagorika kazi projesine katilabilirsin."
 		},
-		Summary = ""
+		Summary = "Kazi projesine katil"
 	},
 	[7611] = {
-		Title = "Passage Cleaning",
+		Title = "Gecit Temizligi",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Could you help us take care of monsters in the tunnel and around here? When you done report to <NAVI>Commander Louis<INFO>verus04,179,165,0,101,0</INFO></NAVI>"
 		},
-		Summary = ""
+		Summary = "Gecitteki canavarlari temizle ve Louis'e rapor ver"
 	},
 	[7612] = {
-		Title = "[Standby] Passage Cleaning",
+		Title = "Gecit Temizligi - Bekleme",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"You should take rest. Our mercenaries can take care of the monsters in the passage. You can take quest again from <NAVI>Commander Louis<INFO>verus04,179,165,0,101,0</INFO></NAVI>"
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Gunluk gorev bekleme suresi",
 		CoolTimeQuest = 1
 	},
 	[7613] = {
-		Title = "Eliminating Risks",
+		Title = "Riskleri Ortadan Kaldir",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Robots in the <NAVI>main excavation<INFO>verus03,122,32,0,101,0</INFO></NAVI> site are getting in our way. Please get rid of them."
 		},
-		Summary = ""
+		Summary = "Kazi alanindaki robotlari yok et"
 	},
 	[7614] = {
-		Title = "[Standby] Eliminating Risks",
+		Title = "Riskleri Ortadan Kaldir - Bekleme",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"We're able to clear the excavation site of those robots. Please come back next time."
+			"Kazi alanindaki robotlar temizlendi. Bir sonraki gorev icin daha sonra geri don."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Gunluk gorev bekleme suresi",
 		CoolTimeQuest = 1
 	},
 	[7615] = {
-		Title = "Core Collection",
+		Title = "Core Toplama",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Please collect 20 Power Control Devices from robots. They can be the key to the highly advanced civilization."
+			"Robotlardan 20 Power Control Device topla. Bunlar ileri teknoloji uygarligin anahtarlarindan biri olabilir."
 		},
-		Summary = "20 Power Control Devices"
+		Summary = "20 Power Control Device topla"
 	},
 	[7616] = {
-		Title = "[Standby] Core Collection",
+		Title = "Core Toplama - Bekleme",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"<NAVI>The Atnad Excavation Team<INFO>verus04,144,193,0,101,0</INFO></NAVI> is focusing on studying the Power Control Devices. You should take rest while you can."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Gunluk gorev bekleme suresi",
 		CoolTimeQuest = 1
 	},
 	[7617] = {
-		Title = "Turning In Excavation Report",
+		Title = "Kazi Raporunu Teslim Et",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Take the Atnad Excavation Team's daily excavation report to <NAVI>Louis<INFO>verus04,179,165,0,101,0</INFO></NAVI> at the Central Command Center. After that your work for the day is done!"
 		},
-		Summary = "Turn in the report to Louis"
+		Summary = "Raporu Louis'e teslim et"
 	},
 	[7618] = {
-		Title = "[Standby] Reporting the Results",
+		Title = "Sonuclari Raporlama - Bekleme",
 		IconName = "ico_dq.bmp",
 		Description = {
 			"Wait for <NAVI>The Atnad Excavation Team<INFO>verus04,144,193,0,101,0</INFO></NAVI>'s next report."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Gunluk gorev bekleme suresi",
 		CoolTimeQuest = 1
 	},
 	[7619] = {
-		Title = "Assisting the Excavation Team",
+		Title = "Kazi Ekibine Yardim",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"You are now an official member of the excavation team. Go to <NAVI>Aureth<INFO>verus04,141,193,0,101,0</INFO></NAVI>."
 		},
-		Summary = "Talk to Aureth"
+		Summary = "Aureth ile konus"
 	},
 	[7620] = {
-		Title = "Young Blood?",
+		Title = "Genc Kan?",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Aureth has asked you to go to <NAVI>Lloyd<INFO>verus03,103,177,0,101,0</INFO></NAVI> and Luke at the plaza in the middle of Verus."
 		},
-		Summary = "Find Lloyd"
+		Summary = "Lloyd'u bul"
 	},
 	[7621] = {
-		Title = "Bottling the Energy",
+		Title = "Enerjiyi Sisele",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Lloyd has asked for your assistance in his energy research. Use ^0000FFEmpty Bottles^000000 to collect 10 Condensed Energies from debris everywhere in Verus."
+			"Lloyd enerji arastirmasinda yardimini istedi. Verus'un her yerindeki enkazdan 10 Condensed Energy toplamak icin ^4d4dffEmpty Bottle^000000 kullan."
 		},
-		Summary = "10 Condensed Energies"
+		Summary = "10 Condensed Energy topla"
 	},
 	[7622] = {
-		Title = "Good News!",
+		Title = "Iyi Haber",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Report <NAVI>Aureth<INFO>verus04,141,193,0,101,0</INFO></NAVI> with Lloyd\'s research results."
 		},
-		Summary = "Talk to Aureth"
+		Summary = "Aureth ile konus"
 	},
 	[7623] = {
-		Title = "Atnad's Summon",
+		Title = "Atnad'in Cagrisi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>The Atnad Excavation Team<INFO>verus04,144,193,0,101,0</INFO></NAVI> has some chore in store for you. Talk to him."
 		},
-		Summary = "Talk to Atnad"
+		Summary = "Atnad ile konus"
 	},
 	[7624] = {
-		Title = "In Search of a Delicacy",
+		Title = "Lezzet Arayisi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Find something that is ready to eat, juicy, refreshing, and clean-tasting. Seek advice from other team members."
+			"Hazir yenebilen, sulu, ferahlatici ve temiz tatli bir yiyecek bul. Diger ekip uyelerinden tavsiye al."
 		},
-		Summary = "Find a delicacy"
+		Summary = "Lezzetli bir yiyecek bul"
 	},
 	[7625] = {
-		Title = "Count On Me",
+		Title = "Bana Guven",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Luke will cook something for you if you can bring 2 Meats, 1 Mora Mandarin, and 1 Banana."
+			"Luke, 2 Meat, 1 Mora Mandarin ve 1 Banana getirirsen senin icin bir sey pisirecek."
 		},
-		Summary = "2 Meats, 1 Mora Mandarin, and 1 Banana"
+		Summary = "2 Meat, 1 Mora Mandarin ve 1 Banana getir"
 	},
 	[7626] = {
-		Title = "Delicacy for Him",
+		Title = "Onun Icin Lezzet",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Take Luke\'s Beef Toast, Mora\'s specialty food, to Atnad."
+			"Luke'un hazirladigi Mora'nin meshur Beef Toast'unu Atnad'a gotur."
 		},
-		Summary = "To Ian"
+		Summary = "Beef Toast'u Ian Atnad'a teslim et"
 	},
 	[7627] = {
-		Title = "Last Exploration",
+		Title = "Son Kesif",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Ask Ian Atnad about his last exploration effort."
+			"Ian Atnad'a son kesif calismasi hakkinda soru sor."
 		},
-		Summary = ""
+		Summary = "Ian Atnad ile konus"
 	},
 	[7628] = {
-		Title = "New Power Source",
+		Title = "Yeni Enerji Kaynagi",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You are charged with collecting Condensed Energies for Lloyd\'s research. You need 10 Empty Bottles."
+			"Lloyd'un arastirmasi icin Condensed Energy toplamakla gorevlendirildin. 10 Empty Bottle'a ihtiyacin var."
 		},
-		Summary = "10 Condensed Energies"
+		Summary = "10 Condensed Energy topla"
 	},
 	[7629] = {
-		Title = "[Standby] Tomorrow for Tomorrow's Energy",
+		Title = "Yarinin Enerjisi Icin Yarin",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Return to Lloyd tomorrow to continue to help him with his research."
+			"Lloyd'un arastirmasina yardim etmeye devam etmek icin yarin geri don."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Gunluk gorev bekleme suresi",
 		CoolTimeQuest = 1
 	},
 	[7630] = {
