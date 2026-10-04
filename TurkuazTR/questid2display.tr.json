@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.09.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 14001-14244 Poring, Wuhari-Wuhuru, Archer egitimi ve Prontera invasion bloklarindan 60 pending kayit dahil",
+    "version": "7.10.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 14245-14489 Orc invasion devamı, sculptor-Maria, florist-proposal ve Walther-Jurgen hikaye bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -17882,6 +17882,306 @@
       "title": "Portal'in Otesi",
       "description": "Bir Goblin Shaman portal acmaya calisiyor. Portal'a girerek planlarini durdur.",
       "goal": ""
+    },
+    "14245": {
+      "title": "Payon Cave'e Git",
+      "description": "Annie, Orc'lari durdurmak icin bir ipucu oldugunu duydu. Ipucunu bulmak icin Payon Cave'e git.",
+      "goal": ""
+    },
+    "14246": {
+      "title": "Bir Ipucu Bul 1",
+      "description": "Dairy'nin sahibi bu tehdidi durdurmanin yolunu gosteren notu bir yere sakladigini soyledi. Ipucunu bul.",
+      "goal": ""
+    },
+    "14247": {
+      "title": "Bir Ipucu Bul 2",
+      "description": "Dairy'nin sahibi bu tehdidi durdurmanin yolunu gosteren notu bir yere sakladigini soyledi. Ipucunu bul.",
+      "goal": "Ikinci ipucunu bul"
+    },
+    "14248": {
+      "title": "Glast Heim'a Git",
+      "description": "Glast Heim'da dairy sahibinden kalan bir not var. Church'un merkezine yakin yerde notu bul.",
+      "goal": "Glast Heim'a git"
+    },
+    "14249": {
+      "title": "Lighthalzen'a Git",
+      "description": "Lighthalzen Lab'in bir yerinde dairy sahibinin bahsettigi eski bir machine var.",
+      "goal": "Biolab'a git"
+    },
+    "14250": {
+      "title": "Annie'ye Rapor Ver",
+      "description": "Notu ve garip machine'i aldin. Annie'ye goster.",
+      "goal": "Annie'ye rapor ver"
+    },
+    "14251": {
+      "title": "Orc Leader ile Son Mac",
+      "description": "Orc leader geldi. Onu yen ve Prontera'yi kurtar.",
+      "goal": "Orc leader'i yen"
+    },
+    "14252": {
+      "title": "Tekrar Zamani",
+      "description": "Orc'larla tekrar savasmadan once surenin dolmasini bekle. Yeniden baslamak istersen Prontera'daki Annie ile konus.",
+      "goal": "Tekrar suresini bekle"
+    },
+    "14253": {
+      "title": "Boss Hat",
+      "description": "Boss Hat'i ver.",
+      "goal": "Boss Hat'i ver"
+    },
+    "14373": {
+      "title": "Sculptor'u Bul",
+      "description": "Esim onun icin statue yapmami istiyor ama sculptor benimle gorusmuyor. Benim yerime onunla gorus. Seni de reddederse apprentice'ini bul.",
+      "goal": ""
+    },
+    "14374": {
+      "title": "Sculptor'a Don",
+      "description": "Apprentice, master'inin kendi kendine konustugunu duydugunu soyledi.",
+      "goal": "Sculptor'a git"
+    },
+    "14375": {
+      "title": "Alchemist'i Bul",
+      "description": "Sculptor, stone'u flesh'e cevirmek icin bir Alchemist'in yardim edebilecegini soyledi. Mjolnir Field 3 civarinda biri oldugunu duymus.",
+      "goal": "Alchemist'e git"
+    },
+    "14376": {
+      "title": "Monk'u Bul",
+      "description": "Alchemist, stone'a hayat vermek icin bir monk'un yardim edebilecegini ve Prontera'nin dogusunda olabilecegini soyledi.",
+      "goal": ""
+    },
+    "14377": {
+      "title": "Dark Priest'i Bul",
+      "description": "Glastheim Graveyard'da bir Dark Priest bul.",
+      "goal": "Cursed Dark Priest'i bul"
+    },
+    "14378": {
+      "title": "Mario'ya Don",
+      "description": "Sculptor Mario'ya, Maria statue'yu hayata getirmek icin ne kadar ileri gitmeye hazir oldugunu sor.",
+      "goal": ""
+    },
+    "14379": {
+      "title": "Hazirim",
+      "description": "Mario sevdigi Maria statue'yu hayata getirmek icin ne gerekiyorsa yapmaya kararli.",
+      "goal": "Glastheim'daki Dark Priest'e don"
+    },
+    "14380": {
+      "title": "Rituel Sunulari",
+      "description": "3 Seed of Yggdrasil, 44 Immortal Heart, 1 Cursed Ruby ve 3 Star Crumb getir.",
+      "goal": "Gerekli sunulari topla"
+    },
+    "14381": {
+      "title": "Sculptor'a Geri Don",
+      "description": "Sunulari Morocc'taki sculptor'a gotur.",
+      "goal": "Sculptor'a git"
+    },
+    "14382": {
+      "title": "Bir Seyler Ters",
+      "description": "Bir seyler yanlis olmali. Tum sunular hazir olmasina ragmen spell ise yaramadi.",
+      "goal": "Dark Priest'e don"
+    },
+    "14383": {
+      "title": "Daha Fazla Rituel Sunusu",
+      "description": "Sunularda eksik parcalar var. 3 Cursed Water, 3 Holy Water ve 1 Hand-Made Chocolate getir; statue'da ritueli tekrar yap.",
+      "goal": "Daha fazla sunu bul"
+    },
+    "14384": {
+      "title": "Soft Stone",
+      "description": "Simdi Soft Stone gerekiyor. Stalactic Golem yenerek bulabilirsin.",
+      "goal": "30 Soft Stone getir"
+    },
+    "14385": {
+      "title": "Soft Stone",
+      "description": "Simdi Soft Stone gerekiyor. Bradium Golem yenerek bulabilirsin.",
+      "goal": "30 Soft Stone getir"
+    },
+    "14386": {
+      "title": "24 Saat",
+      "description": "Bugun icin yeterli malzeme var. Daha sonra tekrar gel.",
+      "goal": "24 saat bekle"
+    },
+    "14387": {
+      "title": "Sevgilime Bak",
+      "description": "Sevgilim proposal event hazirladigini soyledi ve bu beni endiselendiriyor. Geffen'daki Hans'i kontrol eder misin?",
+      "goal": "Hans'i bul"
+    },
+    "14388": {
+      "title": "Efsanevi Florist",
+      "description": "Morocc bolgesinde efsanevi bir Florist oldugunu duydum. Onu kontrol eder misin? Mesajlarima cevap vermedi.",
+      "goal": "Efsanevi Florist'i bul"
+    },
+    "14389": {
+      "title": "Su Yok mu?",
+      "description": "Bu garip, su akmiyor. Cicekler icin cok onemli. Morocc'taki Water Facility Manager ile gorus. Fertilizer da gelmedi; Payon'a da ugra.",
+      "goal": ""
+    },
+    "14390": {
+      "title": "Bilinmeyen Sorun",
+      "description": "Engineer'larin bir gunde bitirmesi gerekiyordu ama is hala tamamlanmadi. Morocc Oasis cevresinde onlari bul.",
+      "goal": "Engineer'lari bul"
+    },
+    "14391": {
+      "title": "Fertilizer Gerekiyor",
+      "description": "Surec yavas olsa da plana gore tamamlanacak. Simdi Payon'daki fertilizer factory'yi bul.",
+      "goal": "Fertilizer factory'ye git"
+    },
+    "14392": {
+      "title": "Florist'e Don",
+      "description": "Yapabilecegin baska bir sey yok. Durumu bildirmek icin florist'i ziyaret et.",
+      "goal": "Florist'e git"
+    },
+    "14393": {
+      "title": "Es Bulma - Morocc",
+      "description": "Matchmaker olmayi dene. Yaninda Chocolate Drink getirmen faydali olur.",
+      "goal": "Es bulmaya yardim et"
+    },
+    "14394": {
+      "title": "Es Bulma - Geffen",
+      "description": "Matchmaker olmayi dene. Yaninda Chocolate Drink getirmen faydali olur.",
+      "goal": "Es bulmaya yardim et"
+    },
+    "14395": {
+      "title": "Florist'e Don",
+      "description": "Es bulma basarili. Florist'i ziyaret et ve ondan bir Seed al.",
+      "goal": "Florist'e git"
+    },
+    "14396": {
+      "title": "Seed Alindi",
+      "description": "Seed ile Hans'a geri don.",
+      "goal": "Geffen'a git"
+    },
+    "14397": {
+      "title": "Al De Baran'a Git",
+      "description": "Hans'in hazirliginin yolunda oldugunu bildirmek icin Al De Baran'a geri don.",
+      "goal": "Al De Baran'a git"
+    },
+    "14398": {
+      "title": "Geffen'a Git",
+      "description": "Proposal cicekle basarili olacak mi? Tekrar Geffen'a gidip kontrol et.",
+      "goal": "Geffen'a git"
+    },
+    "14399": {
+      "title": "Garip Fertilizer",
+      "description": "Bu ozel cicekleri yetistirmek icin en iyi natural fertilizer gerekiyor. Lutie'deki Sasquatch'lardan elde et.",
+      "goal": "30 Natural Fertilizer"
+    },
+    "14400": {
+      "title": "Garip Fertilizer",
+      "description": "Bu ozel cicekleri yetistirmek icin en iyi natural fertilizer gerekiyor. Ash Vacuum'daki Tatacho'lardan elde et.",
+      "goal": "30 Natural Fertilizer"
+    },
+    "14401": {
+      "title": "24 Saat",
+      "description": "Bugun icin yeterli fertilizer var. Daha sonra tekrar gel.",
+      "goal": "24 saat bekle"
+    },
+    "14402": {
+      "title": "Chocoin Toplama",
+      "description": "Nervous Bitta Chocoin'leri yeniden toplamakta zorlaniyor. Choco'lari yenerek Chocoin topla.",
+      "goal": "Chocoin'leri Einbroch'taki Bitta'ya getir"
+    },
+    "14469": {
+      "title": "Walther Ailesini Arastir",
+      "description": "Wigner ailesi oldukca sessiz gorunuyor. Cevreyi kontrol et ve uzgun gorunen Isenhonor ile gorus.",
+      "goal": "Cevreyi arastir"
+    },
+    "14470": {
+      "title": "Guardian Knight'i Ara",
+      "description": "Guardian Knight'im hicbir sey bilmiyor olabilir. Onunla gorusmek istersen Alberta'nin guneyindeki manor'a git.",
+      "goal": "Alberta'ya git"
+    },
+    "14471": {
+      "title": "Royal Prison'a Git",
+      "description": "Prontera Palace hapishanesinde Big Foot adli bir hirsiz olmali. Ondan bir seyler ogrenebilirsin. Isenhonor'a emirlerini her zamanki gibi bekleyecegimi de soyle.",
+      "goal": "Royal Prison'a git"
+    },
+    "14472": {
+      "title": "Gurme Bigfoot",
+      "description": "3 Spicy Fried Bao ve 1 Green Salad istiyor. Hikayesini dinlemek icin bunlari getir.",
+      "goal": "Yemekleri getir"
+    },
+    "14473": {
+      "title": "Veins'e Git",
+      "description": "Veins'teydi. Gercekten Veins'teydi.",
+      "goal": "Veins'e git"
+    },
+    "14474": {
+      "title": "Isenhonor'a Rapor Ver",
+      "description": "Isenarm'in Guardian Knight'ina gonderdigi mektubu aldin. Isenhonor'a geri don.",
+      "goal": "Isenhonor'a rapor ver"
+    },
+    "14475": {
+      "title": "Jurgen'e Git",
+      "description": "Taht adayi Jurgen ile daha fazla konus.",
+      "goal": "Jurgen'e git"
+    },
+    "14476": {
+      "title": "Levuiere ve Esine Git",
+      "description": "Zamanin varsa ailemle bir cay ic. Adventurer hikayelerini dinlemekten hoslanirlar.",
+      "goal": "Levuiere ve esine git"
+    },
+    "14477": {
+      "title": "Neler Oluyor?",
+      "description": "Katrin, bebegime bir sey mi oldu? Ona bir sey olduysa yasayamam.",
+      "goal": "Katrin'e git"
+    },
+    "14478": {
+      "title": "Ipucunu Ara",
+      "description": "Bir maid odayi temizlemeye gelmisti. Box'un nerede oldugunu ona sor.",
+      "goal": "Royal Kitchen'a git"
+    },
+    "14479": {
+      "title": "Ozur Icin Temizlik",
+      "description": "Baska kim vardi hatirlamiyorum. Burasini tekrar temizlersen belki hatirlarim. Once duvardaki mold'u sil, grease'i temizle ve zemini temizle.",
+      "goal": "Temizlige basla"
+    },
+    "14480": {
+      "title": "Grease'i Temizle",
+      "description": "Grease'i temizlemek icin orange ve alcohol karisimi gerekir. 1 Orange ve 1 Alcohol getir.",
+      "goal": "Temizlik malzemelerini getir"
+    },
+    "14481": {
+      "title": "Mold'u Temizle",
+      "description": "Mold'u temizlemek icin kendi turunun gucu ve kutsal guc gerekir. 1 Mold Powder ve 1 Holy Water getir.",
+      "goal": "Temizlik malzemelerini getir"
+    },
+    "14482": {
+      "title": "Devil Dirt'i Temizle",
+      "description": "Hedefi temizlemek icin 1 Lemon ve 1 Powdery Sand gerekiyor. Hemen getir.",
+      "goal": "Temizlik malzemelerini getir"
+    },
+    "14483": {
+      "title": "Temizlik Tamamlandi",
+      "description": "Temizlik tamamlandi. Maid'e rapor ver ve hikayesini dinle.",
+      "goal": "Maid'e git"
+    },
+    "14484": {
+      "title": "Furniture Delivery Man",
+      "description": "Tum gun furniture teslim eden bir adam vardi. Bu yuzden odayi temizlemek icin orada kalmak zorunda kaldim. Village office yakinlarinda olmali.",
+      "goal": "Delivery Man'i bul"
+    },
+    "14485": {
+      "title": "Cok Uzgunum",
+      "description": "Tum hayatim boyunca iyi oldum ve karsiligi bu mu? Yasayacak gucum kalmadi. Belki 3 Ox Head Slice moralimi duzeltir.",
+      "goal": "Soul Food getir"
+    },
+    "14486": {
+      "title": "Hikayeyi Duydum",
+      "description": "Hikayeyi ogrendin. Palace'a don ve Jurgen'e rapor ver.",
+      "goal": "Jurgen'e git"
+    },
+    "14487": {
+      "title": "Hatira Simgesini Bul",
+      "description": "Kiz kardesini teselli etmek icin deger verdigi seyleri getir. Medusa avlayarak 10 Sea Stone ve ayrica 1 Witherless Rose getir.",
+      "goal": "Hatira simgesini bul"
+    },
+    "14488": {
+      "title": "Sevgimi Ilet",
+      "description": "Ona sevgimi bildir. Lutfen bana yardim et.",
+      "goal": "Maid'e git"
+    },
+    "14489": {
+      "title": "Reddetmeliyim",
+      "description": "Bunu hic beklemiyordum ve baski hissediyorum. Ayrica su anda biriyle gorusemememin bir nedeni var. Duygularini incitmeden sozlerimi ona ilet.",
+      "goal": "Jurgen'e git"
     }
   }
 }
