@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.53.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7306-7334 Chef Nyas gunluk insan yemegi teslimatlarinin devamini kapsar",
+    "version": "6.54.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7335-7347 Chef Nyas ve Takoyaki sonu ile 7350-7378 Port Malaya Mumbaki, agimat ve Cast-Iron Caldron gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8057,6 +8057,216 @@
       "title": "Nyas'in Is Listesi",
       "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Steamed Ancient Lips getirmeni istiyor.",
       "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Steamed Ancient Lips getir"
+    },
+    "7335": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Fried Scorpion Tails getirmeni istiyor.",
+      "goal": "1 Fried Scorpion Tails getir"
+    },
+    "7336": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Lucky Soup getirmeni istiyor.",
+      "goal": "1 Lucky Soup getir"
+    },
+    "7337": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Assorted Shish Kebob getirmeni istiyor.",
+      "goal": "1 Assorted Shish Kebob getir"
+    },
+    "7338": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Strawberry Flavored Rice Ball getirmeni istiyor.",
+      "goal": "1 Strawberry Flavored Rice Ball getir"
+    },
+    "7339": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Blood Flavored Soda getirmeni istiyor.",
+      "goal": "1 Blood Flavored Soda getir"
+    },
+    "7340": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Cooked Nine Tail's Tails getirmeni istiyor.",
+      "goal": "1 Cooked Nine Tail's Tails getir"
+    },
+    "7341": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Savage BBQ getirmeni istiyor.",
+      "goal": "1 Savage BBQ getir"
+    },
+    "7342": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Warg Blood Cocktail getirmeni istiyor.",
+      "goal": "1 Warg Blood Cocktail getir"
+    },
+    "7343": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Minor Brisket getirmeni istiyor.",
+      "goal": "1 Minor Brisket getir"
+    },
+    "7344": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Siroma Icetea getirmeni istiyor.",
+      "goal": "1 Siroma Icetea getir"
+    },
+    "7345": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Drosera Herb Stew getirmeni istiyor.",
+      "goal": "1 Drosera Herb Stew getir"
+    },
+    "7346": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas insan yemeklerine duydugu merak nedeniyle 1 Petite Tail Noodle getirmeni istiyor.",
+      "goal": "1 Petite Tail Noodle getir"
+    },
+    "7347": {
+      "title": "Lezzetli Takoyaki",
+      "description": "Yeterince takoyaki yedin. Biraz ara verip tekrar deneyebilecegin zamani bekle.",
+      "goal": "Tekrar denemeden once bekleme suresinin dolmasini bekle"
+    },
+    "7350": {
+      "title": "Temkinli Koy",
+      "description": "Port Malaya'ya ilk kez geldin. Biraz kafan karisik olsa da soylendigi gibi koydeki Mumbaki Phong ile konus. Sana yol gosterecektir.",
+      "goal": "Mumbaki Phong ile konus"
+    },
+    "7351": {
+      "title": "Eski Dugmemden Daha Iyi",
+      "description": "Koyluler dugmelerini koparmaya ve kollarindan cekistirmeye calisiyor. Onlari bir sure sakinlestirmek icin Holy Water ve Blue Gemstone dagit.",
+      "goal": "Pedro, Nardo, Pandoi, Woeon, Talah ve Romel'e kutsal esya teslim et"
+    },
+    "7352": {
+      "title": "Denizci Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Denizci Pedro ile ilgilen"
+    },
+    "7353": {
+      "title": "Yasli Adam Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Yasli Nardo ile ilgilen"
+    },
+    "7354": {
+      "title": "Genc Adam Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Genc Pandoi ile ilgilen"
+    },
+    "7355": {
+      "title": "Tuccar Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Tuccar Woeon ile ilgilen"
+    },
+    "7356": {
+      "title": "Kucuk Cocuk Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Talah ile ilgilen"
+    },
+    "7357": {
+      "title": "Orta Yasli Adam Bir Dugme Istiyor",
+      "description": "Bu koylu tasimak icin bir agimat istiyor.",
+      "goal": "Romel ile ilgilen"
+    },
+    "7358": {
+      "title": "Neden Dugmelerimi Istiyorlar?",
+      "description": "Koylulerin dugmelere neden bu kadar takintili oldugunu anlayamiyorsun. Bunun sebebini Mumbaki Phong'a sor.",
+      "goal": "Mumbaki Phong'dan tavsiye al"
+    },
+    "7359": {
+      "title": "Denizciye Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi denizci Pedro'ya ver.",
+      "goal": "Pedro'ya kutsal esya teslim et"
+    },
+    "7360": {
+      "title": "Yasli Adama Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi Nardo'ya ver.",
+      "goal": "Nardo'ya kutsal esya teslim et"
+    },
+    "7361": {
+      "title": "Genc Adama Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi Pandoi'ye ver.",
+      "goal": "Pandoi'ye kutsal esya teslim et"
+    },
+    "7362": {
+      "title": "Tuccara Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi Woeon'a ver.",
+      "goal": "Woeon'a kutsal esya teslim et"
+    },
+    "7363": {
+      "title": "Kucuk Cocuga Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi Talah'a ver.",
+      "goal": "Talah'a kutsal esya teslim et"
+    },
+    "7364": {
+      "title": "Orta Yasli Adama Kutsal Esya Teslim Et",
+      "description": "Hic yoktan iyidir. Kutsal esyayi Romel'e ver.",
+      "goal": "Romel'e kutsal esya teslim et"
+    },
+    "7365": {
+      "title": "Eski Dugmemden Daha Iyi - 2",
+      "description": "Mumbaki Phong'un tavsiyesiyle koylulerin agimat olarak tasimasi icin kutsal esyalar dagittin. Sirada ne yapacagini ogrenmek icin Phong ile tekrar konus.",
+      "goal": "Mumbaki Phong ile tekrar konus"
+    },
+    "7366": {
+      "title": "Geleneksel Ruhsal Koruma ve Kustah Kiz - 1",
+      "description": "Mumbaki Phong'un torunu Imelda geleneksel ruhsal korumalar hazirliyor. Yapimi icin kuzeybati kiyilarindan Salt, Baryo'dan Bamboo ve Pandoi'den Silver Cross getir.",
+      "goal": "6 Salt Bag, 6 Sharpened Bamboo ve 6 Silver Cross getir"
+    },
+    "7367": {
+      "title": "Geleneksel Ruhsal Koruma ve Kustah Kiz - 2",
+      "description": "Imelda ruhsal korumalari hazirlarken bekle. Uzun surmeyecek.",
+      "goal": "Imelda'nin ruhsal korumalari bitirmesini bekle"
+    },
+    "7368": {
+      "title": "Ruhsal Koruma Teslimi - Pedro",
+      "description": "Hazirlanan Spiritual Protection'i limandaki denizci Pedro'ya teslim et.",
+      "goal": "Pedro'ya Spiritual Protection teslim et"
+    },
+    "7369": {
+      "title": "Ruhsal Koruma Teslimi - Nardo",
+      "description": "Hazirlanan Spiritual Protection'i koyun yasli adami Nardo'ya teslim et.",
+      "goal": "Nardo'ya Spiritual Protection teslim et"
+    },
+    "7370": {
+      "title": "Ruhsal Koruma Teslimi - Pandoi",
+      "description": "Hazirlanan Spiritual Protection'i genc demirci Pandoi'ye teslim et.",
+      "goal": "Pandoi'ye Spiritual Protection teslim et"
+    },
+    "7371": {
+      "title": "Ruhsal Koruma Teslimi - Woeon",
+      "description": "Hazirlanan Spiritual Protection'i koleksiyon tuccari Woeon'a teslim et.",
+      "goal": "Woeon'a Spiritual Protection teslim et"
+    },
+    "7372": {
+      "title": "Ruhsal Koruma Teslimi - Talah",
+      "description": "Hazirlanan Spiritual Protection'i Talah'a teslim et.",
+      "goal": "Talah'a Spiritual Protection teslim et"
+    },
+    "7373": {
+      "title": "Ruhsal Koruma Teslimi - Romel",
+      "description": "Hazirlanan Spiritual Protection'i Talah'in babasi Romel'e teslim et.",
+      "goal": "Romel'e Spiritual Protection teslim et"
+    },
+    "7374": {
+      "title": "Herkes Icin Sevgi ve Ruhsal Koruma",
+      "description": "Imelda, hazirlanan Spiritual Protection'lari korkmus koylulara dagitmani istiyor. Toplam 6 koyluya teslim et.",
+      "goal": "6 koyluya Spiritual Protection teslim et"
+    },
+    "7375": {
+      "title": "Sevgi ve Ruhsal Koruma Devam Ediyor",
+      "description": "Spiritual Protection'in etkisi uzun surmuyor. Bir gun sonra Imelda'ya tekrar yardim ederek korumalari dagit.",
+      "goal": "Bir gun sonra Imelda'ya don"
+    },
+    "7376": {
+      "title": "Yasli Adam ve Dokme Demir Kazan - 1",
+      "description": "Port Malaya disinda Baryo Mahiwaga adinda kucuk bir topluluk var. Bakonawa'dan Cast-Iron Caldron elde edip isteyenlere ulastirman istendi.",
+      "goal": "Mumbaki Kiko'ya Cast-Iron Caldron teslim et"
+    },
+    "7377": {
+      "title": "Yasli Adam ve Dokme Demir Kazan - 2",
+      "description": "Baryo Mahiwaga'daki Mumbaki Kiko'ya Cast-Iron Caldron teslim ettin ve odul olarak Spiritual Protection aldin. Teslimati resmilestirmek icin Nardo'ya rapor ver.",
+      "goal": "Nardo'ya Spiritual Protection teslim et"
+    },
+    "7378": {
+      "title": "Yasli Adam ve Dokme Demir Kazan - Duzenli Teslimat",
+      "description": "Cast-Iron Caldron surekli kullanildigi icin sik sik kiriliyor ve duzenli olarak yenisi gerekiyor. Bir gun sonra Nardo ile bulusup yeni teslimat tarihini ogren.",
+      "goal": "Bir gun sonra Nardo'ya don"
     }
   }
 }
