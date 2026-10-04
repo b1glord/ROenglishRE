@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.80.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8181-8189 Sight Blaster ve Elemental Change ile 8190-8195 Charming Wink egitim gorevleri dahil",
+    "version": "6.81.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8196-8210 Tripartite Union, document delivery, restoration ve United Research meeting gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10872,6 +10872,81 @@
       "title": "Nazik Canell",
       "description": "Canell, gercek bir Dancer'in wink tekniginin sirrini kendi basina cozebilmesi gerektigini soyluyor ama yine de sana anlatacak.",
       "goal": "Canell'den Charming Wink'i ogren"
+    },
+    "8196": {
+      "title": "Tripartite Union Anlasmazligi",
+      "description": "Arastirmacilar son gunlerde cok gergin. Ozellikle document file'larla ilgilenenler surekli tartisiyor. Once onlarla konus.",
+      "goal": "Arastirmacilarla konus"
+    },
+    "8197": {
+      "title": "Document Teslimati",
+      "description": "Dosyalari Hue ve Hansenne'ye teslim et. Hue Schwartzvalt belgelerinden, Hansenne ise Arunafeltz belgelerinden sorumlu. Ardindan Ryosen'e don.",
+      "goal": "Belgeleri Hue ve Hansenne'ye teslim et ve Ryosen'e don"
+    },
+    "8198": {
+      "title": "United Research Official'a Rapor",
+      "description": "Toplantiya katilmak zorunda olan arastirmaci, belgeyi United Research Official'a iletmeni istedi. O sirada toplantiyla ilgili hazirlik yapacak.",
+      "goal": "Belgeyi United Research Official'a teslim et"
+    },
+    "8199": {
+      "title": "United Research Official'in Ricasi",
+      "description": "Toplantiya katil ve bir sorun cikarsa arabuluculuk yap. Once uc arastirmaciyi ziyaret edip hazirliklarini kontrol et.",
+      "goal": "Uc arastirmacinin hazirligini kontrol et"
+    },
+    "8200": {
+      "title": "Ryosen'in Belge Talebi",
+      "description": "Ryosen, Arunafeltz office'ten istedigi belgenin hala gelmedigini soyledi. Hansenne'den belgeyi al.",
+      "goal": "Hansenne'den belgeyi al"
+    },
+    "8201": {
+      "title": "Kayip Belge",
+      "description": "Hansenne belgeyi kaybetmis; koprude treasure-hunting oynarken nehre dusurmus olabilir. Guneybatidaki kediler fishing ogretebilir. Belgeyi nehirden bul.",
+      "goal": "Belgeyi bul ve Hansenne'ye don"
+    },
+    "8202": {
+      "title": "Belge Restorasyonu",
+      "description": "Schwartzvalt ekibi boyle belgeleri restore etmede iyi. Islak belgeyi Hue'ye gotur.",
+      "goal": "Hue ile konus"
+    },
+    "8203": {
+      "title": "Belge Restorasyonu",
+      "description": "Belge tamamen islanmis. Kurutmak, kirisikliklari duzeltmek ve yazilari restore etmek icin ^0000ff1 Folding Fan of Cat Ghost, 1 Old Frying Pan, 1 Flame Stone ve 1 Squid Ink^000000 gerekiyor.",
+      "goal": "Gerekli malzemeleri Hue'ye getir"
+    },
+    "8204": {
+      "title": "Ryosen",
+      "description": "Belgenin cildi cok gevsekti; yeniden duzenlenip baglandi. Gec kalmadan Ryosen'e teslim et.",
+      "goal": "Belgeyi Ryosen'e teslim et"
+    },
+    "8205": {
+      "title": "United Research Official'a Rapor",
+      "description": "Ryosen baska bir belgeyi bulmak zorunda. Official'dan biraz daha beklemesini iste.",
+      "goal": "United Research Official ile konus"
+    },
+    "8206": {
+      "title": "Arastirmacilar Toplantisi",
+      "description": "Arastirmacilar toplantisina katil.",
+      "goal": "Toplantiya katil"
+    },
+    "8207": {
+      "title": "Hansenne Suclu Degil",
+      "description": "Hansenne herkesi birbirine yaklastirmaya calisti ama her seferinde sorun cikti. Arastirmacilarin iliskisini duzeltmenin bir yolunu bul.",
+      "goal": "Arastirmacilari baristir"
+    },
+    "8208": {
+      "title": "Hansenne'nin Ricasi",
+      "description": "Hansenne yakinda toparlanacak ama Ryosen ile Hue arasindaki iliski cok kotu durumda. Onlari baristirmaya yardim et.",
+      "goal": "Ryosen ve Hue'yi baristir"
+    },
+    "8209": {
+      "title": "Hue'nin Raporu",
+      "description": "Hue, toplantidaki karisiklik sirasinda yanina aldigi Rune-Midgard raporunu Ryosen'e vermeni istedi.",
+      "goal": "Raporu Ryosen'e teslim et"
+    },
+    "8210": {
+      "title": "United Research Official'a Rapor",
+      "description": "Ryosen yeni bir toplanti ayarlamak istiyor. Onun yerine Official ile gorusup yeni toplantiyi planla.",
+      "goal": "United Research Official ile gorus"
     }
   }
 }
