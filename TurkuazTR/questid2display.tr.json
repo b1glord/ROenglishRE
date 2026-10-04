@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.70.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7865 ikinci Rebellion operasyonu ile 8000-8016 Assassin ve Priest job-change gorevleri dahil",
+    "version": "6.71.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8017-8031 Zelmeto Factory Inspection ve onarim malzemesi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10022,6 +10022,81 @@
       "title": "Priest Job Change",
       "description": "Artik bir Priest oldun.",
       "goal": "Priest Job Change tamamlandi"
+    },
+    "8017": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto, fabrikadaki makineleri tek tek kontrol edip hangilerinin tamire ihtiyaci oldugunu belirlemene yardim etmeni istedi. Ikinci control panel'i bul ve Zelmeto'ya rapor ver.",
+      "goal": "Ikinci control panel'i incele"
+    },
+    "8018": {
+      "title": "Fabrika Denetimi",
+      "description": "Ikinci control panel'i buldun ve tamamen bozuk oldugunu gordun. Zelmeto'ya bildir.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8019": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto automatic pressure governor'lari kontrol etmeni ve en kucuk sorunu bile raporlamani istedi.",
+      "goal": "Pressure governor'lari incele"
+    },
+    "8020": {
+      "title": "Fabrika Denetimi",
+      "description": "Automatic pressure governor'lardan garip surtunme sesleri geliyor ve yuzeydeki bazi vidalar gevsek. Bulgularini Zelmeto'ya bildir.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8021": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto senden fabrikadaki daha buyuk ana control panel'i incelemeni istedi. Fabrikanin ortasinda bulunuyor.",
+      "goal": "Ana control panel'i incele"
+    },
+    "8022": {
+      "title": "Fabrika Denetimi",
+      "description": "Ana control panel disaridan saglam gorunuyor ancak yuzeyine vurunca ici bosmus gibi ses geliyor. Bazi parcalar eksik olabilir. Zelmeto'ya bildir.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8023": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto, kucuk nesneleri tasiyan mechanical hand'i incelemeni istedi. Bul ve durumunu raporla.",
+      "goal": "Mechanical hand'i incele"
+    },
+    "8024": {
+      "title": "Fabrika Denetimi",
+      "description": "Conveyor hareketleri duzensiz ve hantal. Mechanical arm da tasidigi yukler icin yeterince guclu gorunmuyor. Zelmeto'ya rapor ver.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8025": {
+      "title": "Fabrika Denetimi",
+      "description": "Erimis metal dolu buyuk kazanlarin yakinindaki pipe'i incele ve bulgularini Zelmeto'ya bildir.",
+      "goal": "Pipe'i incele"
+    },
+    "8026": {
+      "title": "Fabrika Denetimi",
+      "description": "Pipe uzun sure yuksek basinca maruz kaldigi icin sisip asinmis. Henuz patlamamis olmasi sasirtici. Zelmeto'ya rapor ver.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8027": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto son olarak daha buyuk ve guclu conveyor'u incelemeni istedi. Bul ve durumunu raporla.",
+      "goal": "Buyuk conveyor'u incele"
+    },
+    "8028": {
+      "title": "Fabrika Denetimi",
+      "description": "Son conveyor da kucuk modeliyle benzer sorunlara sahip. Hareketleri duzensiz ve zayif; vidalarin cogu paslanmis. Zelmeto'ya rapor ver.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8029": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto, onarim malzemeleri icin Factory Repair butcesinin artirilmasini istemesi gerektigini soyledi. Superintendent'i bul.",
+      "goal": "Superintendent'i bul"
+    },
+    "8030": {
+      "title": "Fabrika Denetimi",
+      "description": "Superintendent, Factory Repair butcesinin artirilmasini reddetti. Kotu haberi Zelmeto'ya bildir.",
+      "goal": "Zelmeto'ya rapor ver"
+    },
+    "8031": {
+      "title": "Fabrika Denetimi",
+      "description": "Zelmeto yine de tamirleri yapmak istiyor. Gerekli onarimlar icin ^FF000020 Flexible Tube^000000, ^FF000010 Rusty Screw^000000 ve ^FF000010 Used Iron Plate^000000 getir.",
+      "goal": "20 Flexible Tube, 10 Rusty Screw ve 10 Used Iron Plate getir"
     }
   }
 }
