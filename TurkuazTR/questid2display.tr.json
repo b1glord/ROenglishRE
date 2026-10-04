@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.03.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 12192-12253 Midgard dokumanlari, essence creation, Mora hunting-collection ve Fog Maze missing person bloklarindan 60 pending kayit dahil",
+    "version": "7.04.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; eski Korean Raccoon-Sign kalintilari, Culvert, Bakonawa ve Eclage Rift zincirlerinden 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -623,6 +623,31 @@
       "description": "Little Santa, Raccoon'lar icin hediyenin guzel tatli patatesler olarak secildigini soyluyor. Evin disinda protesto eden Raccoon'lari besle.",
       "goal": "Lutie'deki Santa'nin evinde Little Santa ile konus"
     },
+    "1208": {
+      "title": "Pencereden Bak, 10003 Raccoon!",
+      "description": "Raccoon Fir Tree'ye Roasted Sweet Potato ver.",
+      "goal": "Kusatilmis Raccoon'lara Roasted Sweet Potato ver"
+    },
+    "1209": {
+      "title": "Pencereden Bak, 10003 Raccoon!",
+      "description": "Raccoon Cedar Tree'ye Roasted Sweet Potato ver.",
+      "goal": "Kusatilmis Raccoon'lara Roasted Sweet Potato ver"
+    },
+    "1210": {
+      "title": "Pencereden Bak, 10003 Raccoon!",
+      "description": "Raccoon Wisteria Tree'ye Roasted Sweet Potato ver.",
+      "goal": "Kusatilmis Raccoon'lara Roasted Sweet Potato ver"
+    },
+    "1211": {
+      "title": "Pencereden Bak, 10003 Raccoon!",
+      "description": "Raccoon Money Tree'ye Roasted Sweet Potato ver.",
+      "goal": "Kusatilmis Raccoon'lara Roasted Sweet Potato ver"
+    },
+    "1212": {
+      "title": "Pencereden Bak, 10003 Raccoon!",
+      "description": "Raccoon Cherry Tree'ye Roasted Sweet Potato ver.",
+      "goal": "Kusatilmis Raccoon'lara Roasted Sweet Potato ver"
+    },
     "1213": {
       "title": "Pencereden Bak, Raccoon Hurray Ekibine Alkis!",
       "description": "Raccoon'lar tatli patates hediyesinden yeterince memnun gorunuyor. Bu haberi Quercus'a ilet.",
@@ -752,6 +777,21 @@
       "title": "Dukkan Rehberi",
       "description": "Ikinci gorev. Leonie'den aldigin Poor Can'i dukkana sat.",
       "goal": "Leonie ile konus"
+    },
+    "1255": {
+      "title": "Huzursuz Mahalle Korosu!",
+      "description": "Rehearsal yine yarida kesildi. Birden bagiran '10003 Raccoon No.1' ile konus.",
+      "goal": "Aldebaran'daki '10003 Raccoon No.1' ile konus"
+    },
+    "1256": {
+      "title": "Huzursuz Mahalle Korosu!",
+      "description": "10003 Raccoon icin bir flute bulmalisin. Piper ile tekrar bulus.",
+      "goal": "Payon'daki Piper ile konus"
+    },
+    "1259": {
+      "title": "Huzursuz Mahalle Korosu!",
+      "description": "Ucuncu mission tamamlandi. 10003 Raccoon icin 3 Sharp Wooden Flute buldun. Son rapor icin Aldebaran'a don.",
+      "goal": "Aldebaran'daki '10003 Raccoon No.1' ile konus"
     },
     "1260": {
       "title": "Lanetli Kilic Ustasi",
@@ -1147,6 +1187,31 @@
       "title": "Daha Fazla Tatli Yok",
       "description": "Miss Fortuna, 04:00'ten sonra daha fazla tatli isteyebilecegini soyluyor.",
       "goal": "04:00'ten sonra Miss Fortuna'yi ziyaret et"
+    },
+    "1460": {
+      "title": "The Sign",
+      "description": "Valkyrie'den The Sign'i geri aldin. Simdiye kadar olanlari Metz'e anlat.",
+      "goal": "Metz ile konus"
+    },
+    "1461": {
+      "title": "The Sign",
+      "description": "The Sign'i Metz'e biraktin. Arastirmasi bitince geri almak icin tekrar gel.",
+      "goal": "Bir sure sonra Metz ile konus"
+    },
+    "1462": {
+      "title": "The Sign",
+      "description": "The Sign'in seal'ini acmak icin Engel Howard'i bul.",
+      "goal": "Engel ile konus"
+    },
+    "1463": {
+      "title": "The Sign",
+      "description": "The Sign'i Engel'e biraktin. Isi bitince geri almak icin tekrar gel.",
+      "goal": "Bir sure sonra Engel ile konus"
+    },
+    "1464": {
+      "title": "The Sign",
+      "description": "Metz'e geri don ve seal'i acilmis The Sign'i goster.",
+      "goal": "Metz ile konus"
     },
     "2000": {
       "title": "Blacksmith Job Degisimi",
@@ -3323,6 +3388,11 @@
       "description": "Bilinmeyen bir musteriden gelen istek. Byalan Dungeon'da 30 Merman avla ve istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
       "goal": "30 Merman avla"
     },
+    "3253": {
+      "title": "Ulkem Beni Cagiriyor!",
+      "description": "Request Office'ten alinan gorev. Geffen Dungeon 1F'te kaybolan genci bul ve kurtar.",
+      "goal": ""
+    },
     "3254": {
       "title": "Ulkem Beni Cagiriyor!",
       "description": "Morocc'ta Sandman avlayarak 10 Fine Sand ve 30 Grit topla. Istek tamamlaninca Eden Group'taki Sparkle'a rapor ver.",
@@ -3927,6 +3997,16 @@
       "title": "91-99 Gorev Panosu Bekleme Suresi",
       "description": "Disguise Avi gorevini tekrar almadan once 3 saat beklemelisin.",
       "goal": "Disguise Avi"
+    },
+    "4228": {
+      "title": "Zonda",
+      "description": "Zonda event'inde onun kalbini kazandim.",
+      "goal": ""
+    },
+    "4229": {
+      "title": "Cave'deki Seytan",
+      "description": "Monster su anda ortaya cikmiyor. Yarin tekrar gel.",
+      "goal": "Buwaya saklaniyor"
     },
     "4230": {
       "title": "Hayata Geri Donenler",
@@ -16082,6 +16162,226 @@
       "title": "Istek Zamanlayicisi",
       "description": "Soul Guide'in bugun verecek baska gorevi yok.",
       "goal": "Surenin dolmasini bekle"
+    },
+    "12254": {
+      "title": "Simdi Temizlik Zamani",
+      "description": "Temizlik zamani. Sure dolmadan tek bir bolgeye odaklan.",
+      "goal": "Culvert'i 1 saat icinde temizle"
+    },
+    "12255": {
+      "title": "Abysmal Crab Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAbysmal Crab avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Abysmal Crab avla - Culvert Dungeon Normal mode"
+    },
+    "12256": {
+      "title": "Abysmal Marse Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAbysmal Marse avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Abysmal Marse avla - Culvert Dungeon Normal mode"
+    },
+    "12257": {
+      "title": "Ancient Vadon Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAncient Vadon avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Ancient Vadon avla - Culvert Dungeon Normal mode"
+    },
+    "12258": {
+      "title": "Abysmal Shellfish Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAbysmal Shellfish avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Abysmal Shellfish avla - Culvert Dungeon Normal mode"
+    },
+    "12259": {
+      "title": "Ancient Kukre Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAncient Kukre avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Ancient Kukre avla - Culvert Dungeon Normal mode"
+    },
+    "12260": {
+      "title": "Abysmal Cornutus Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAbysmal Cornutus avlamak^000000. Korkma, yalnizca bir gunluk gorev.",
+      "goal": "20 Abysmal Cornutus avla - Culvert Dungeon Normal mode"
+    },
+    "12261": {
+      "title": "Ancient Marc Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAncient Marc avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Ancient Marc avla - Culvert Dungeon Hard mode"
+    },
+    "12262": {
+      "title": "Ancient Sword Fish Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAncient Sword Fish avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Ancient Sword Fish avla - Culvert Dungeon Hard mode"
+    },
+    "12263": {
+      "title": "Ancient Strouf Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAncient Strouf avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Ancient Strouf avla - Culvert Dungeon Hard mode"
+    },
+    "12264": {
+      "title": "Mutant Anolian Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffMutant Anolian avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Mutant Anolian avla - Culvert Dungeon Hard mode"
+    },
+    "12265": {
+      "title": "Abysmal Obeaune Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffAbysmal Obeaune avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Abysmal Obeaune avla - Culvert Dungeon Hard mode"
+    },
+    "12266": {
+      "title": "Metamorphous Kapha Avi",
+      "description": "Culvert kahramani olarak bugunku gorevin ^0000ffMetamorphous Kapha avlamak^000000. Hard mode'da tamamla.",
+      "goal": "30 Metamorphous Kapha avla - Culvert Dungeon Hard mode"
+    },
+    "12267": {
+      "title": "Weird Coelacanth Avi",
+      "description": "Culvert'te ^0000ffWeird Coelacanth^000000 icin haftalik gorev. Normal mode'da bul ve yok et.",
+      "goal": "1 Weird Coelacanth avla - Culvert Dungeon Normal mode'da rastgele cikar"
+    },
+    "12268": {
+      "title": "Dark Coelacanth Avi",
+      "description": "Culvert'te ^0000ffDark Coelacanth^000000 icin haftalik gorev. Normal mode'da bul ve yok et.",
+      "goal": "1 Dark Coelacanth avla - Culvert Dungeon Normal mode'da rastgele cikar"
+    },
+    "12269": {
+      "title": "Violent Coelacanth Avi",
+      "description": "Culvert'te ^0000ffViolent Coelacanth^000000 icin haftalik gorev. Hard mode'da bul ve yok et.",
+      "goal": "1 Violent Coelacanth avla - Culvert Dungeon Hard mode'da rastgele cikar"
+    },
+    "12270": {
+      "title": "Mutant Coelacanth Avi",
+      "description": "Culvert'te ^0000ffMutant Coelacanth^000000 icin haftalik gorev. Hard mode'da bul ve yok et.",
+      "goal": "1 Mutant Coelacanth avla - Culvert Dungeon Hard mode'da rastgele cikar"
+    },
+    "12271": {
+      "title": "Normal Culvert Gunluk Gorevi Aktif",
+      "description": "Bugun icin bir Culvert gorevi zaten aldin. Yeni bir istek icin 1 gun beklemelisin.",
+      "goal": "Normal Culvert gorevi 1 gun aktif"
+    },
+    "12272": {
+      "title": "Hard Culvert Gunluk Gorevi Aktif",
+      "description": "Bugun icin bir Culvert gorevi zaten aldin. Yeni bir istek icin 1 gun beklemelisin.",
+      "goal": "Hard Culvert gorevi 1 gun aktif"
+    },
+    "12273": {
+      "title": "Normal Culvert Haftalik Gorevi Aktif",
+      "description": "Haftalik Culvert gorevi zaten aldin. Yeni bir istek icin 7 gun beklemelisin.",
+      "goal": "Normal Culvert gorevi 7 gun aktif"
+    },
+    "12274": {
+      "title": "Hard Culvert Haftalik Gorevi Aktif",
+      "description": "Haftalik Culvert gorevi zaten aldin. Yeni bir istek icin 7 gun beklemelisin.",
+      "goal": "Hard Culvert gorevi 7 gun aktif"
+    },
+    "12278": {
+      "title": "Bakonawa Lake'e Dogru...",
+      "description": "Bakonawa'yi durdurmak icin lake'e girdin. Bu hafta tekrar girmene gerek yok.",
+      "goal": ""
+    },
+    "12279": {
+      "title": "Bakonawa'yi Yok Et",
+      "description": "Bakonawa durdurulmazsa buyuk bir savas cikacak. Onu yenmelisin.",
+      "goal": ""
+    },
+    "12280": {
+      "title": "Supheli Mahkum",
+      "description": "Jail'de supheli bir prisoner var. Hikayesini dinlemek faydali olabilir.",
+      "goal": "Supheli prisoner"
+    },
+    "12281": {
+      "title": "Istenmeyen Rica",
+      "description": "Clever 1 ^000099Grape Extract Herb Tea^000000 istiyor. Bir prisoner icin buyuk bir rica ama mumkunse bul.",
+      "goal": "Istenmeyen rica"
+    },
+    "12282": {
+      "title": "Dedikodu Krali Clever",
+      "description": "Clever cok sayida dedikodu biliyor. Gelecekteki maceralara yarayabilecegi icin hikayelerini dinle.",
+      "goal": "Dedikodu krali Clever"
+    },
+    "12283": {
+      "title": "Rift Researcher",
+      "description": "Rift fragment arastirmalari yapan ^000099Hielle^000000 adli genc Dona'yi bul.",
+      "goal": "Rift researcher"
+    },
+    "12284": {
+      "title": "Cat Merchant Bilgi Kaynagi",
+      "description": "Cat merchant'lar arasinda Midgard'in rift arastirmalarini iyi bilen biri var. Aktifligiyle taninan ^000099Midgard Post^000000'u bul.",
+      "goal": "Cat merchant bilgi kaynagi"
+    },
+    "12285": {
+      "title": "Bir Cat'i Sakinlestirme Yolu",
+      "description": "Cat'in kavga etmesini durdurabilirsen bilgi alabilirsin. Aylik ^000099Malangdo Canned Specialties^000000 odemesini alamadigini soylemisti.",
+      "goal": "Cat'i sakinlestir"
+    },
+    "12286": {
+      "title": "Canned Food Karsiligi Bilgi",
+      "description": "Rift fragment'i etkinlestirmek icin ^0000991 Dark Debris ve her renkten 2 red/yellow/blue gemstone^000000 gerekiyor. Hiel bunlari bulmakta zorlaniyor.",
+      "goal": "Canned food karsiligi bilgi"
+    },
+    "12287": {
+      "title": "Garip Bir Deneyim",
+      "description": "Rift fragment yeterli tepki veriyor mu diye Hiel ile deney yap.",
+      "goal": "Garip bir deneyim"
+    },
+    "12288": {
+      "title": "Basarili Deneyim",
+      "description": "Hiel'in mevcut duzeni dogru tepki vermiyor. Deney duzenegine dokunup etkinlestirmeyi dene.",
+      "goal": "Basarili deneyim"
+    },
+    "12289": {
+      "title": "Baska Bir Ziyaret",
+      "description": "Rift reaction ile gorulen kisiler tarihte gercekten yasamis olabilir. Historian Clever'a sor.",
+      "goal": "Baska bir ziyaret"
+    },
+    "12290": {
+      "title": "Clever'in Tarihi Belgeleri",
+      "description": "Clever'in belgelerine gore Lapine gibi gorunen kisiler var. Hikayelerini dinle.",
+      "goal": "Clever'in tarihi belgeleri"
+    },
+    "12291": {
+      "title": "Gizli Tarihi Belgeler (?)",
+      "description": "Clever'in cizimine gore belge cok gizli degil; raflarda duzenli duruyor olabilir. Eclage'de kitaplarin duzenlendigi yerleri ara.",
+      "goal": "Gizli tarihi belgeler (?)"
+    },
+    "12292": {
+      "title": "Bilinmeyen Kisiler",
+      "description": "Home Tree'yi kuran ve Bifrost topraklarini onaranlar Elder's Assembly degil, iki bilinmeyen Dona. Etran ve Robert hakkinda Clever'a sor.",
+      "goal": "Bilinmeyen kisiler"
+    },
+    "12293": {
+      "title": "Tarihteki Kisiler",
+      "description": "Clever, rift device ile gecmisteki tarihi kisilerle dogrudan konusmani istedi. Mumkun olup olmadigini ogrenmek icin Hiel'e git.",
+      "goal": "Tarihteki kisiler"
+    },
+    "12294": {
+      "title": "Eclage Turu",
+      "description": "Gecmisten gelen Robert'i Eclage'in farkli yerlerinde gezdir. Home Tree'nin bugunku halini gormek onu etkileyebilir.",
+      "goal": "Eclage turu"
+    },
+    "12295": {
+      "title": "Hata",
+      "description": "Robert aniden kayboldu. Rift device'da sorun olup olmadigini ogrenmek icin Hiel'e don.",
+      "goal": "Hata"
+    },
+    "12296": {
+      "title": "Reactor ile Eglenceli Zamanlar",
+      "description": "Hiel'in rift reactor'unu kullanarak Eclage'in farkli bolgelerini ara. Etran'in ortaya cikacagi bir yer olabilir.",
+      "goal": "Reactor ile eglenceli zamanlar"
+    },
+    "12297": {
+      "title": "Etran ile Karsilasma",
+      "description": "Etran'a ulasilabilecek yeri buldun. Topraklari gercekten onun onarip onarmadigini dogrula.",
+      "goal": "Etran ile karsilasma"
+    },
+    "12298": {
+      "title": "Iki Dilek",
+      "description": "Etran'in necklace'ini Robert'a teslim et ve Home Tree'nin golden leaf'ini al. Home Tree leaf'i nasil alinabilir diye Hiel'e sor.",
+      "goal": "Iki dilek"
+    },
+    "12299": {
+      "title": "Robert'i Tekrar Ziyaret Et",
+      "description": "Home Tree'ye zarar vererek leaf almak yasak. Ama yaraticisi kendisi verirse sorun olmayabilir. Robert en son Home Tree onunde birakilmisti.",
+      "goal": "Robert'i tekrar ziyaret et"
+    },
+    "12300": {
+      "title": "Etran'i Tekrar Ziyaret Et",
+      "description": "Home Tree leaf'ini Etran'a goster ve onu cesaretlendir. Robert'in necklace'i kabul etmemesi kotu oldu.",
+      "goal": "Etran'i tekrar ziyaret et"
     }
   }
 }
