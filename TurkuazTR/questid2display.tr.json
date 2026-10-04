@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.95.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11134-11198 Maestro Song, Sura Job Change, Frede ve Bradium, Theore, Bifrost ve Mora Village bloklarindan 60 pending kayit dahil",
+    "version": "6.96.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11199-11295 Bifrost, Mora Village, Malangdo, Yggdrasilberry, Star Candy ve Port Malaya Nurse bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -13682,6 +13682,306 @@
       "title": "Mora Village...",
       "description": "Mora Village Warehouse Manager ile konusursan daha fazla bilgi alabilirsin. Mumkunse arkadasim Lilitia'ya da ugrar misin?",
       "goal": "Theodore'un arkadasi Lilitia'yi Mora Village'da bul"
+    },
+    "11199": {
+      "title": "Theodore'un Arkadasi",
+      "description": "Ne? Theodore mu gonderdi? Ona cok kizgin oldugumu soyle!",
+      "goal": "Theodore'a geri don"
+    },
+    "11200": {
+      "title": "Kucuk Kese",
+      "description": "Buna cevap vermek benim icin kolay degil... Kesemi buldugun icin minnettarim. Dusunmek icin biraz zamana ihtiyacim var.",
+      "goal": "Pauchon ile tekrar konus"
+    },
+    "11201": {
+      "title": "Bifrost",
+      "description": "Yapabilsem o agacin kabugunu bile yerdim. Keske biri yardim etse... *hickirik*",
+      "goal": "Pauchon ile tekrar konus"
+    },
+    "11202": {
+      "title": "Bifrost",
+      "description": "Splendide'in arkasindan buyuk bir yol uzaniyor. Oradaki guard bir sey biliyor olabilir. O yone gidersen durumu ogren.",
+      "goal": "Ikmal rotasi hakkinda rapor icin Splendide'de bir Lapine Soldier bul"
+    },
+    "11203": {
+      "title": "Bifrost'taki Catlaklar",
+      "description": "Maze of the Hazy Forest'tan gecerek Alfheim'a ulasabilirsin. Ancak bu labirentten geri donen olmadi.",
+      "goal": "Pauchon'a geri don"
+    },
+    "11204": {
+      "title": "Mora Village...",
+      "description": "Oldukca hareketli biridir, belki coktan gitmistir ama Mora Village'da bulusacaktik.",
+      "goal": "Pauchon'un arkadasi Humming'i Mora Village'da bul"
+    },
+    "11205": {
+      "title": "Pauchon'un Arkadasi",
+      "description": "Benden once Splendide'e ulasirsan Pauchon'a Maze of the Hazy Forest'tan gececegimi soyle.",
+      "goal": "Pauchon'a geri don"
+    },
+    "11206": {
+      "title": "Hizli Teslimat",
+      "description": "Splendide'e doneceksen Inn'deki Jones'a ugra. Splendide ordusuna acilen teslim edilmesi gereken bir seyi var.",
+      "goal": "Mora Village'da Jones'u bul"
+    },
+    "11207": {
+      "title": "Cok Agir Yuk",
+      "description": "Cok fazla agirlik tasiyorsun. Yukunu azalt ve tekrar gel.",
+      "goal": "Inventory agirligini azalt ve Jones ile tekrar konus"
+    },
+    "11208": {
+      "title": "Daphrer",
+      "description": "Lutfen buna iyi bak. Splendide'deki Daphrer icin.",
+      "goal": "Supply Kit'i Daphrer'a gotur"
+    },
+    "11209": {
+      "title": "Mr. Tomas'in Sikintisi",
+      "description": "Malangdo'ya gelen tum insanlar bana geldigi icin cok isim var. ^0000FFMalangdo regular meeting^000000'e katil. Toplanti ^0000FFkoridorun diger ucunda^000000.",
+      "goal": "Toplantiya katil"
+    },
+    "11210": {
+      "title": "Malangdo Regular Meeting",
+      "description": "Bugunun gundemi ^ff99ccStar Candy^000000. Sonraki konu hakkinda fikri olan varsa soylesin.",
+      "goal": "Scottfold'un fikrini dinle"
+    },
+    "11211": {
+      "title": "Malangdo Regular Meeting",
+      "description": "Yaninda ^0000FFinterpreter Biscuit^000000 var ama ayrintili konusmak gercekten zor.",
+      "goal": "Koon'un fikrini dinle"
+    },
+    "11212": {
+      "title": "Malangdo Regular Meeting",
+      "description": "Arastirmadaki ilerlemeyi anlatayim.",
+      "goal": "Linguist Devore'un arastirma ilerlemesini dinle"
+    },
+    "11213": {
+      "title": "Malangdo Regular Meeting",
+      "description": "^0000FFStarfish dili arastirmasi^000000 Malangdo'ya yerlestigimizde basladi ama bekledigim sonucu vermedi. Basit konusma yapilabiliyor ama yeterli degil.",
+      "goal": "Geologist Mali'nin arastirma ilerlemesini dinle"
+    },
+    "11214": {
+      "title": "Malangdo Regular Meeting",
+      "description": "Yerde birkac catlak var. Star Candy'nin ne zaman hareket edecegini kimse bilmiyor, bu nedenle hizlica onarmaliyiz.",
+      "goal": "Brie'nin fikrini dinle"
+    },
+    "11215": {
+      "title": "Malangdo Regular Meeting",
+      "description": "Mr. Rican'in yaralanmasinin Yggdrasilberry ticaretini etkileyebilecegini biliyoruz, bu konuda endiselenme.",
+      "goal": "Brie'nin hikayesini dinle"
+    },
+    "11216": {
+      "title": "Yggdrasilberry",
+      "description": "Yggdrasilberry hakkinda ayrintilari bilmiyorum. Sorun varsa ^6666ccWestern Malangdo^000000'daki evime git. Babam orada cok sikiliyor olabilir.",
+      "goal": "Brie'nin babasi Mr. Rican ile bulus"
+    },
+    "11217": {
+      "title": "Yggdrasilberry",
+      "description": "^6666ccYggdrasilberry her yerde.^000000 Malangdo adasinda kolayca bulabilirsin. Yaklasik 30 tane getir.",
+      "goal": "30 taze Yggdrasilberry getir"
+    },
+    "11218": {
+      "title": "Yggdrasilberry",
+      "description": "Yggdrasilberry'leri makineye koymaya ne dersin?",
+      "goal": "Yggdrasilberry'leri makineye koy"
+    },
+    "11219": {
+      "title": "Yggdrasilberry",
+      "description": "Dugmeye basinca makine calismaya basladi.",
+      "goal": "Rican ile konus"
+    },
+    "11220": {
+      "title": "Yggdrasilberry",
+      "description": "Dizimi yaraladiktan sonra her gun Dr. Mali'ye gidiyor olabilir. Oglumu gorursen bana geri gelmesini soyle.",
+      "goal": "Brie'yi bul"
+    },
+    "11221": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Daha fazla ayrinti icin ^6666ccassistant Bob^000000'a sor. Muhtemelen ^6666cchemen yandaki odada^000000.",
+      "goal": "Assistant Bob ile bulus"
+    },
+    "11222": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Gri ve beyaz kili karistirip catlagi doldur. Boslugu stapler ile sabitle.",
+      "goal": "Repairing Kit ile catlagi onar"
+    },
+    "11223": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Catlak iyice dolduruldu. Bob'a rapor ver.",
+      "goal": "Bob'a geri don"
+    },
+    "11224": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Muhtesem! Buyulu! Sasirtici! Harika is! Dr. Mali'ye soyleyecegim.",
+      "goal": "Dr. Mali'yi gor"
+    },
+    "11225": {
+      "title": "Yol Boyunca Bitmeyen Cabalar",
+      "description": "Dr. Devore'un Starfish dili arastirmasina ne kadar odaklandigini herkes biliyor. Kendine guven, iyi gidiyorsun!",
+      "goal": "Linguist Devore moral bozuklugu yasiyor olabilir. Onunla konus"
+    },
+    "11226": {
+      "title": "Yol Boyunca Bitmeyen Cabalar",
+      "description": "Starfish dili cok gizemli. Hic anlayamiyorum. Gercekten bir dil mi emin degilim. Ne istediklerini gercekten bilmek istiyorum.",
+      "goal": "Starfish hakkinda arastirma yap"
+    },
+    "11227": {
+      "title": "Yol Boyunca Bitmeyen Cabalar",
+      "description": "Biscuit, Dr. Devore'un soylediginin aksine cok akici konusuyor olabilir. Bu gercegi Dr. Devore'a anlatacagim.",
+      "goal": "Dr. Devore'a git"
+    },
+    "11228": {
+      "title": "Yol Boyunca Bitmeyen Cabalar",
+      "description": "Bu inanilmaz. Demek sadece benim onumde konusmuyor. Gidip dinleyelim!",
+      "goal": "Biscuit'e geri don"
+    },
+    "11229": {
+      "title": "Star Candy Icin",
+      "description": "Biscuit ile ayni turden biri gibi konusabiliyorsun. Her konusma arastirmama yardim edecek.",
+      "goal": "Biscuit ile konus"
+    },
+    "11230": {
+      "title": "Star Candy Icin",
+      "description": "Star Candy, Biscuit ve Malangdo hakkinda birkac sey ogrendim.",
+      "goal": "Konusmaya devam et"
+    },
+    "11231": {
+      "title": "Star Candy Icin",
+      "description": "Cevredeki Siorava'lardan Delicious Jelly topla. Bir ogun icin 30 Delicious Jelly yeterli olmali.",
+      "goal": "30 Delicious Jelly ile geri don"
+    },
+    "11232": {
+      "title": "Star Candy Icin",
+      "description": "Hey Star Candy! Sen de yemiyorsun. Istahin mi yok?",
+      "goal": "Neler oldugunu ogren"
+    },
+    "11233": {
+      "title": "Star Candy Icin",
+      "description": "Su tasimamiz gerekiyor. Star Candy'yi temizlemek icin bucket ve brush getir. Depoda olabilirler.",
+      "goal": "Cleaning Bucket ve Brush bul"
+    },
+    "11234": {
+      "title": "Star Candy Icin",
+      "description": "Malzemeleri getirdin. Simdi derisini saat yonunun tersine ovalayabilirsin.",
+      "goal": "Friable skin -> haggard skin -> cracked skin -> hard skin bolgelerini temizle"
+    },
+    "11235": {
+      "title": "Star Candy Icin",
+      "description": "Friable, haggard, cracked ve hard skin bolgeleri ipek kadar yumusak smooth skin haline geldi.",
+      "goal": "Biscuit'e geri don"
+    },
+    "11236": {
+      "title": "Kesisim",
+      "description": "Arastirma tamamlanana kadar beklemene gerek yok. Devore'a soyle; mevcut durum hakkinda onunla konusmak istiyorum.",
+      "goal": "Dr. Devore'a haber ver"
+    },
+    "11237": {
+      "title": "Mr. Tomas'in Sikintisi",
+      "description": "Bu iyi haberi Chief Tomas'a ilet.",
+      "goal": "Chief Tomas'i gor"
+    },
+    "11238": {
+      "title": "Yggdrasilberry",
+      "description": "Indirim eskisi gibi. Malangdo adasinda kolayca bulunan 30 taze Yggdrasilberry'yi Rican'a getir.",
+      "goal": "30 taze Yggdrasilberry getir"
+    },
+    "11239": {
+      "title": "Yggdrasilberry",
+      "description": "Rican'dan 1 gun boyunca yeni istek alamazsin.",
+      "goal": ""
+    },
+    "11240": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Daha fazla ayrinti icin ^6666ccassistant Bob^000000'a sor. Muhtemelen ^6666cchemen yandaki odada^000000.",
+      "goal": "Assistant Bob'u gor"
+    },
+    "11241": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Gri ve beyaz kili karistirip catlagi doldur. Boslugu stapler ile sabitle.",
+      "goal": "Repairing Kit ile catlagi onar"
+    },
+    "11242": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Catlak iyice dolduruldu. Dr. Mali'ye rapor ver.",
+      "goal": "Dr. Mali'ye geri don"
+    },
+    "11243": {
+      "title": "Dunyanin En Yumusay Jeli",
+      "description": "Dr. Mali'den 1 gun boyunca yeni istek alamazsin.",
+      "goal": ""
+    },
+    "11244": {
+      "title": "Yumusak Jelly",
+      "description": "Cevredeki Siorava'lardan Delicious Jelly topla. Bir ogun icin 30 Delicious Jelly yeterli olmali.",
+      "goal": "30 Delicious Jelly ile geri don"
+    },
+    "11245": {
+      "title": "Yumusak Jelly",
+      "description": "Biscuit'ten 1 gun boyunca yeni istek alamazsin.",
+      "goal": ""
+    },
+    "11255": {
+      "title": "Otter Ssamsun",
+      "description": "Criatura beauty coupon ile sac stilini degistirdin. Coupon yalnizca bir kez kullanilabilir.",
+      "goal": "Style~"
+    },
+    "11284": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Kirli gorunuyor ama Rotten Bandages ozel bir suda bekletildi ve ozel gucleri var. Iki bandage iki ayagi da sarmaya yeter.",
+      "goal": "2 Rotten Bandage teslim et ve tekrar konus"
+    },
+    "11285": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Kapi kapali mi yoksa sikismis mi bilmiyorum. Tek basima acamiyorum, birlikte deneyelim!",
+      "goal": "Las ile kapiyi ac"
+    },
+    "11286": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Kapiyi tum gucunle ittin ama kipirdamadi.",
+      "goal": "Las ile konus"
+    },
+    "11287": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Head Office ile tekrar iletisime gececegim. Bu hospital hakkinda koylulere sorar misin?",
+      "goal": "Sagdaki village girl ile konus"
+    },
+    "11288": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Pek bilmiyorum. Hospital cok uzun zamandir kapali. Yeni bir nurse gelmesi garip.",
+      "goal": "Village girl fazla bir sey bilmiyor. Las'a geri don"
+    },
+    "11289": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Head Office emin olmasaydi beni buraya gondermezdi. Baska bir koyluyle konusmayi dener misin?",
+      "goal": "Hospital'in guneyindeki village man ile konus"
+    },
+    "11290": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Bu bilgiyi hizlica rapor etmeliyim. Uzgunum ama nurse ile birlikte koyun ortasindaki Inn'e gider misin?",
+      "goal": "Simdilik Las'a geri don"
+    },
+    "11291": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Ayaklarim aciyor ve artik hareket edemiyorum. Inn'e tek basina gidebilir misin?",
+      "goal": "Koyun merkezindeki Inn'de Doctor ile bulus"
+    },
+    "11292": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Bakmam gereken hastalar oldugu icin simdi hospital'a gidemem. Key'i alip geri don ve ona \"Istedigini yap\" de.",
+      "goal": "Las'a geri don"
+    },
+    "11293": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Key'i Hospital Door'un kilidine soktun ama kapi kilitli gorunmuyor.",
+      "goal": "Las ile konus"
+    },
+    "11294": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Ses Hospital Entrance yakinindaki otlarin arasindan geliyor gibi.",
+      "goal": "Cevreyi arastir"
+    },
+    "11295": {
+      "title": "Port Malaya'daki Nurse",
+      "description": "Yakalanirim diye iyi bakamamistim ama buyukannem olduktan uzun zaman sonra oraya gittigimde bir cubuk gordugumu hatirliyorum.",
+      "goal": "Hospital cevresini arastir"
     }
   }
 }
