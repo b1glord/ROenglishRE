@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.9.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5471 Endless Tower Entweihen Crothen odul avciligi gorevi dahil",
+    "version": "6.10.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5505-5521 A-sinifi Morroc, Nameless Island ve Thor Volcano teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6102,6 +6102,51 @@
       "title": "Araniyor",
       "description": "Prontera Kraliyet Sarayi, Endless Tower bossu Entweihen Crothen'i yenen kisiye odul verecegini duyurdu.",
       "goal": "300 Odul Birligi Nisani"
+    },
+    "5505": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Morroc Sphinx B5 (in_sphinx5) icindeki Novice Mage Jerman'a 5 Yggdrasil Leaf teslim et. Alici (109,109) koordinatlari yakininda.",
+      "goal": "Novice Mage Jerman'a 5 Yggdrasil Leaf teslim et"
+    },
+    "5507": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid 4F (moc_pryd04) icindeki Creator Pira'ya 5 Yggdrasil Leaf teslim et. Alici (78,194) koordinatlari yakininda.",
+      "goal": "Creator Pira'ya 5 Yggdrasil Leaf teslim et"
+    },
+    "5509": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid B2 (moc_pryd06) icindeki Minstrel Dodari'ye 5 Yggdrasil Leaf teslim et. Alici (97,17) koordinatlari yakininda.",
+      "goal": "Minstrel Dodari'ye 5 Yggdrasil Leaf teslim et"
+    },
+    "5511": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Nameless Island Monastery 1F (abbey01) icindeki Shadow Chaser Acto'ya 10 Holy Water teslim et. Alici (51,45) koordinatlari yakininda.",
+      "goal": "Shadow Chaser Acto'ya 10 Holy Water teslim et"
+    },
+    "5513": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Nameless Island Monastery B1 (abbey02) icindeki Ranger Ellen'a 500 Silver Arrow teslim et. Alici (157,32) koordinatlari yakininda.",
+      "goal": "Ranger Ellen'a 500 Silver Arrow teslim et"
+    },
+    "5515": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Nameless Island Monastery B2 (abbey03) icindeki Sura Kyuke'ye 30 Meat teslim et. Alici (108,23) koordinatlari yakininda.",
+      "goal": "Sura Kyuke'ye 30 Meat teslim et"
+    },
+    "5517": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Thor Volcano Dungeon 1F (thor_v01) icindeki Masked Man'e 2 Water Elemental Converter teslim et. Alici (18,246) koordinatlari yakininda.",
+      "goal": "Masked Man'e 2 Water Elemental Converter teslim et"
+    },
+    "5519": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Thor Volcano Dungeon 2F (thor_v02) icindeki Masked Man'e 2 Water Elemental Converter teslim et. Alici (99,200) koordinatlari yakininda.",
+      "goal": "Masked Man'e 2 Water Elemental Converter teslim et"
+    },
+    "5521": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Thor Volcano Dungeon 3F (thor_v03) icindeki Masked Man'e 2 Water Elemental Converter teslim et. Alici (44,283) koordinatlari yakininda.",
+      "goal": "Masked Man'e 2 Water Elemental Converter teslim et"
     }
   }
 }
