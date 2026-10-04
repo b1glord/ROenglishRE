@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.56.1",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7411-7453 Eclage, Kardui, Shenime, Avant ve Orb ana hikaye gorevleri dahil; 7435 ASCII duzeltmesi",
+    "version": "6.57.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7454-7469 Dessert Class, yalnizlik hikayeleri ve cikolata teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8642,6 +8642,86 @@
       "title": "Shenime'nin Sonu",
       "description": "Bifrost'un kuzeyinden guneye giden yol eskiden acikti ancak simdi guneyde buyuk bir yarik tarafindan kapatilmis. Yariga giderken Shenime'nin cesedini buldun.",
       "goal": "Kardui'ye rapor ver"
+    },
+    "7454": {
+      "title": "Tatli Dersi - El Yapimi Cikolata",
+      "description": "Dessert Class'ta Handmade Chocolate yapmayi ogren. Beyaz icin: 5 White Chocolate, 1 Milk. Siyah icin: 5 Chocolate, 1 Milk.",
+      "goal": "Handmade Chocolate tarifini ogren"
+    },
+    "7455": {
+      "title": "Tatli Dersi - Cilekli Cikolata",
+      "description": "Dessert Class'ta Strawberry Chocolate yapmayi ogren. Malzemeler: 2 Strawberry, 1 Chocolate, 1 White Chocolate.",
+      "goal": "Strawberry Chocolate tarifini ogren"
+    },
+    "7456": {
+      "title": "Tatli Dersi - Cikolatali Tart",
+      "description": "Dessert Class'ta Chocolate Tart yapmayi ogren. Malzemeler: 3 Milk, 1 Egg, 1 Flour, 3 Chocolate.",
+      "goal": "Chocolate Tart tarifini ogren"
+    },
+    "7457": {
+      "title": "Tatli Dersi - Cikolatali Icecek",
+      "description": "Dessert Class'ta Chocolate Drink yapmayi ogren. Malzemeler: 30 Cacao Bean, 3 Chocolate, 2 Milk.",
+      "goal": "Chocolate Drink tarifini ogren"
+    },
+    "7458": {
+      "title": "Tatli Dersi - Sert Cacao 99%",
+      "description": "Dessert Class'ta Fierce Cacao 99% yapmayi ogren. Malzemeler: 99 Cacao Bean, 1 Milk.",
+      "goal": "Fierce Cacao 99% tarifini ogren"
+    },
+    "7459": {
+      "title": "Tatli Dersi Bileti",
+      "description": "Bu bilet bir sonraki Dessert Class'a katilmani saglar. Sonraki ders saatini bilet uzerinden kontrol et.",
+      "goal": "Bir sonraki Dessert Class saatini kontrol et"
+    },
+    "7460": {
+      "title": "Tatli Dersi Tamamlandi",
+      "description": "Arles'in Dessert Class egitimini tamamladin. Miss Diva Lindt'e rapor ver ve tarif kitabini al.",
+      "goal": "Miss Diva Lindt'e rapor ver"
+    },
+    "7461": {
+      "title": "Sonsuz Yalnizlik",
+      "description": "Chocolat senden yalniz insanlarin hikayelerini toplamani istedi. Prontera'daki Mr. L, Geffen'deki Mr. K, Payon'daki Mr. P ve Lighthalzen'deki Mr. R yalnizliklariyla taniniyor.",
+      "goal": "Dort yalniz kisinin hikayesini dinle"
+    },
+    "7462": {
+      "title": "Issiz Savasci Lennon'un Hikayesi",
+      "description": "Tek bir yanlis cevap yuzunden yalniz kalan bir sovalyenin hikayesini dinledin.",
+      "goal": "Lennon'un hikayesini dinle"
+    },
+    "7463": {
+      "title": "Buyuk Buyucu Ken'in Hikayesi",
+      "description": "Dunyanin geri kalanina uyum saglayamayan buyuk bir buyucunun hikayesini dinledin.",
+      "goal": "Ken'in hikayesini dinle"
+    },
+    "7464": {
+      "title": "Yabanci Penn'in Hikayesi",
+      "description": "Uzucu bir aile gecmisi olan adamin hikayesini dinledin.",
+      "goal": "Penn'in hikayesini dinle"
+    },
+    "7465": {
+      "title": "Genc Zengin Richie'nin Hikayesi",
+      "description": "Zengin bir sehirde yasayan genc ve varlikli bir adamin hikayesini dinledin.",
+      "goal": "Richie'nin hikayesini dinle"
+    },
+    "7466": {
+      "title": "Montblanc Cikolata Teslimati",
+      "description": "Chocolat Montblanc sana bazi malzemeler verdi. Bunlari Kiel Hyre Academy'deki Cooking Table'da bulunan Serious Lee'ye teslim et.",
+      "goal": "Malzemeleri Serious Lee'ye teslim et"
+    },
+    "7467": {
+      "title": "Yari Zamanli Cikolata Isi",
+      "description": "Malzemeler her gun teslim ediliyor gibi gorunuyor. Yarin ayni saatlerde yeniden yari zamanli is cikabilir.",
+      "goal": "Yarin tekrar kontrol et"
+    },
+    "7468": {
+      "title": "Jinha Lee'nin Malzeme Teslimati",
+      "description": "Jinha sana bazi malzemeler verdi. Bunlari Kiel Hyre School'daki Cooking Table'da bulunan Serious Lee'ye teslim et.",
+      "goal": "Malzemeleri Serious Lee'ye teslim et"
+    },
+    "7469": {
+      "title": "Jinha'nin Yari Zamanli Isi",
+      "description": "Malzemeler her gun teslim ediliyor gibi gorunuyor. Yarin ayni saatlerde yeniden yari zamanli is cikabilir.",
+      "goal": "Yarin tekrar kontrol et"
     }
   }
 }
