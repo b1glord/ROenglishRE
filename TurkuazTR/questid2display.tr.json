@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.15.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 17014-18069 island investigation, Vitre jailbreak, Gaebolg curse ve Mikhail bloklarindan 60 pending kayit dahil",
+    "version": "7.16.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 18070-19128 Baba Yaga, Moscovia Whale Island ve Eye of Hellion bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -19682,6 +19682,306 @@
       "title": "Gallina'ya Rapor Ver",
       "description": "Gallina'ya oglu Mikhail'in guvende oldugunu soyle.",
       "goal": "Gallina"
+    },
+    "18070": {
+      "title": "Kisi Kov",
+      "description": "Baba Yaga'nin winter'i kovmak icin yapacagi spell'e yardim etmeye karar verdin.",
+      "goal": "Baba Yaga, the Horrible"
+    },
+    "18071": {
+      "title": "Magic Dust Yapimi",
+      "description": "Baba Yaga su malzemeleri istedi: 20 Grasshopper's Leg, 5 Spawn, 20 Wing of Red Bat, 10 Sticky Mucus, 10 Witch Starsand, 10 Fine Grit, 1 Detonator, 5 Red Blood, 10 Burning Heart ve 1 Diamond.",
+      "goal": ""
+    },
+    "18072": {
+      "title": "Magic Dust Yapimi",
+      "description": "Baba Yaga su malzemeleri istedi: 20 Grasshopper's Leg, 5 Spawn, 20 Wing of Red Bat, 10 Witch Starsand, 10 Fine Grit, 1 Detonator, 5 Red Blood, 10 Burning Heart ve 1 Diamond.",
+      "goal": ""
+    },
+    "18073": {
+      "title": "Dragon'un Ini",
+      "description": "Magic dust icin malzemeler hazir. Baba Yaga, uyuyan bir dragon'un lair'inden Magic Gourd Bottle bulmani istedi.",
+      "goal": "Magic Gourd Bottle"
+    },
+    "18074": {
+      "title": "Magic Gourd Bottle",
+      "description": "Magic Gourd Bottle'i buldun. Baba Yaga the Horrible'a geri gotur.",
+      "goal": "Baba Yaga, the Horrible"
+    },
+    "18075": {
+      "title": "Insanlarin Sesini Hapset",
+      "description": "3 kisinin sesini hapsetmelisin: bir cocuk, bir genc ve orta yasli biri. Her birinden \"Kisin gelmesini istemiyorum\" dilegini al.",
+      "goal": ""
+    },
+    "18076": {
+      "title": "Insanlarin Sesini Hapset",
+      "description": "Bir cocugun, bir gencin ve orta yasli birinin sesini hapsettin. Magic Gourd Bottle'i Baba Yaga'ya geri gotur.",
+      "goal": "Baba Yaga, the Horrible"
+    },
+    "18077": {
+      "title": "Csar'in Talebi",
+      "description": "Csar, winter'in geri donmemesi icin Baba Yaga'nin spell'ini tamamlamana yardim etmeni istedi.",
+      "goal": "Baba Yaga's Hut"
+    },
+    "18078": {
+      "title": "Baba Yaga'nin Gizli Ilaci",
+      "description": "Baba Yaga'nin Secret Medicine'ini basariyla yaptin. Winter geri gelmesin diye bottle'i village center'da kir.",
+      "goal": "Village Center"
+    },
+    "18079": {
+      "title": "Winter Kovuldu",
+      "description": "Baba Yaga'nin Secret Medicine bottle'ini town center'da kirdin. Csar Aleksay III'e winter'i geri donmeyecek sekilde kovdugunu bildir.",
+      "goal": "Csar Aleksay III"
+    },
+    "18100": {
+      "title": "Moscovia Efsaneleri",
+      "description": "Moscovia atalarindan hikayeler ve efsaneler ogren.",
+      "goal": "Berbayeff"
+    },
+    "18101": {
+      "title": "Moving Island",
+      "description": "The Moving Island efsanesini arastir.",
+      "goal": "Berbayeff"
+    },
+    "18102": {
+      "title": "Moving Island'i Ara",
+      "description": "Moving Island'a gidebilecek bir boat bulmak icin Ibanoff'u bul ve sor.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18103": {
+      "title": "Moving Island'i Ara",
+      "description": "Moving Island'a gidecek boat'u kullanabilmek icin yasli sailor'un hikayelerini dinle.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18104": {
+      "title": "Mr. Ibanoff'un Yeni Arkadasi",
+      "description": "Yeni arkadasin Ibanoff'a boat'unu Moving Island'a gitmek icin odunc alabilir misin diye sor.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18105": {
+      "title": "Charabel'i Onar",
+      "description": "Mr. Ibanoff'un boat'unu onarmak icin malzemeleri topla.",
+      "goal": "10 Strange Steel Piece, 10 Rusty Screw, 5 Flexible Tube, 10 Jubilee"
+    },
+    "18106": {
+      "title": "Gelgit Donerken",
+      "description": "Moving Island'i bulmak icin Mr. Ibanoff'tan yelken acmasini iste. Tide yukselmeden once yapmalisin.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18107": {
+      "title": "Yola Cikis",
+      "description": "Tide hala dusukken sail'leri kaldir. Moving Island'a dogru yol al.",
+      "goal": "Ship rudder'ini bul"
+    },
+    "18108": {
+      "title": "Moving Island?",
+      "description": "Moving Island'i buldun mu? Bu da ne? Daha iyi gorebilecegin bir yer bulmak icin deck'te dolas.",
+      "goal": "Deck'te ara"
+    },
+    "18109": {
+      "title": "Moving Island???",
+      "description": "Bu da ne? Ne buldun?",
+      "goal": "Arastir"
+    },
+    "18110": {
+      "title": "Yasli Yabanci",
+      "description": "Gercekten bir Whale Island'in sirtinda misin? Guvenle mainland'e donmek icin old man ile konus.",
+      "goal": "Aged Stranger"
+    },
+    "18111": {
+      "title": "Whale Island",
+      "description": "Whale Island'i buldun. Tekrar denize acilmak istersen Mr. Ibanoff ile konus.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18112": {
+      "title": "Csar Icin Bir Hikaye",
+      "description": "Moscovia Csar'i ile gorus. Whale Island hakkindaki buyuk hikayeyi duymaktan memnun olur.",
+      "goal": "Csar Aleksay III"
+    },
+    "18113": {
+      "title": "Csar Icin Kanit",
+      "description": "Csar Aleksay III Whale Island icin kanit istedi. Moving Island'a geri donmen gerekecek.",
+      "goal": "Whale Island'a donus yolunu bul"
+    },
+    "18114": {
+      "title": "Gun Batmadan Once",
+      "description": "Whale Island'i bulmak icin Mr. Ibanoff'tan yelken acmasini iste. Gun batmadan once yapmalisin.",
+      "goal": "Mr. Ibanoff"
+    },
+    "18115": {
+      "title": "Yola Cikis",
+      "description": "Gunes hala yukaridayken sail'leri kaldir ve Whale Island'a dogru yol al.",
+      "goal": "Ship rudder'ini kullan"
+    },
+    "18116": {
+      "title": "Whale Island",
+      "description": "Whale Island'i buldun. Arastir, kesfet ve Csar icin kanit bulmaya calis.",
+      "goal": "Aged Stranger"
+    },
+    "18117": {
+      "title": "Kanit Icin Malzemeler",
+      "description": "Tum malzemeleri topladiginda Mr. Ibanoff ile konus.",
+      "goal": "30 Log, 20 Tough Vine, 20 Antelope Horn, 10 Sea-otter Fur"
+    },
+    "18118": {
+      "title": "Gizemli Muzik Aleti",
+      "description": "Old man muzik aletini yaparken sabirla bekle.",
+      "goal": "Aged Stranger"
+    },
+    "18119": {
+      "title": "Gusli",
+      "description": "Artik bir Gusli'n var. Csar'a kanit olarak gostermeden once calmaya ogren.",
+      "goal": "Aged Stranger"
+    },
+    "18120": {
+      "title": "Gusli",
+      "description": "Gusli calmaya basladin. Simdi Whale Island'in varligini gostermek icin muzik yetenegini Moscovia Csar'ina goster.",
+      "goal": "Csar Aleksay III"
+    },
+    "18121": {
+      "title": "Shafka",
+      "description": "Shafka hat istiyorsan Irina'nin istedigi malzemeleri getir.",
+      "goal": "20 Nine Tail, 10 Yarn, 10 Soft Silk, 20 Sea-otter Fur, 1 Spool"
+    },
+    "19101": {
+      "title": "The Eye of Hellion",
+      "description": "Sir Chilias'Tyus, Prontera Church'un arkasindaki Clanux Heffron ile konusman gerektigini soyluyor.",
+      "goal": "Clanux Heffron"
+    },
+    "19102": {
+      "title": "The Eye of Hellion",
+      "description": "Sir Chilias'Tyus'un talebini reddettin. Belki tekrar dusunmelisin.",
+      "goal": ""
+    },
+    "19103": {
+      "title": "The Eye of Hellion",
+      "description": "Prontera'nin guneydogusundaki eski Swordman training ground'u ipuclari icin ara.",
+      "goal": ""
+    },
+    "19104": {
+      "title": "The Eye of Hellion",
+      "description": "Clanux Heffron'a hakaret etmis olabilirsin. Gorevi tamamlamak icin onunla arani duzeltmeye calis.",
+      "goal": ""
+    },
+    "19105": {
+      "title": "The Eye of Hellion",
+      "description": "\"Veggie Lady N9 W3 BINGO\" yazan bir message buldun.",
+      "goal": ""
+    },
+    "19106": {
+      "title": "The Eye of Hellion",
+      "description": "Clanux Heffron sana bir Cogwheel verdi. Buldugun message'in \"Veggie Lady N9 W3 BINGO\" dedigini unutma.",
+      "goal": ""
+    },
+    "19107": {
+      "title": "The Eye of Hellion",
+      "description": "Veggie Lady sana 3847147298 password'unu verdi. Clanux Heffron'a bildir.",
+      "goal": ""
+    },
+    "19108": {
+      "title": "The Eye of Hellion",
+      "description": "Veggie Lady'nin verdigi 3847147298 password'unu Unknown Machine'e gir.",
+      "goal": ""
+    },
+    "19109": {
+      "title": "The Eye of Hellion",
+      "description": "Prontera Tablet'i aldin. Morocc'taki Sir Chilia'Tyus'a geri gotur.",
+      "goal": ""
+    },
+    "19110": {
+      "title": "The Eye of Hellion",
+      "description": "Buldugun tum ayrintilari Clanux Heffron'a anlatmamaya karar verdin. Morocc'taki Sir Chilia'Tyus'a rapor ver.",
+      "goal": ""
+    },
+    "19111": {
+      "title": "The Eye of Hellion",
+      "description": "Chilias'Tyus, sonraki tablet parcasinin Payon'da oldugundan emin. Payon'daki Grout'he Tuccok'u bul.",
+      "goal": ""
+    },
+    "19112": {
+      "title": "The Eye of Hellion",
+      "description": "Grout'he sana Skirt of Virgin verdi ve mini-map'te buldugu yeri isaretledi.",
+      "goal": ""
+    },
+    "19113": {
+      "title": "The Eye of Hellion",
+      "description": "Pagoda ceiling'inde \"Bu garment herkese uyar\" yazisini buldun. Grout'he'ye bildir.",
+      "goal": ""
+    },
+    "19114": {
+      "title": "The Eye of Hellion",
+      "description": "Pile of Stone uzerinde \"Burada huzurlu gunler icin dua ederdim\" yazisini buldun. Grout'he'ye bildir.",
+      "goal": ""
+    },
+    "19115": {
+      "title": "The Eye of Hellion",
+      "description": "Dried Fish ile \"Green Herb fish kokusunu gidermede cok ise yarar\" yazan bir message buldun. Grout'he'ye bildir.",
+      "goal": ""
+    },
+    "19116": {
+      "title": "The Eye of Hellion",
+      "description": "Vat uzerinde \"Ne olacak? Wine mi Grape Juice mi? Ben wine'i tercih ederim\" yazisini buldun. Grout'he'ye bildir.",
+      "goal": ""
+    },
+    "19117": {
+      "title": "The Eye of Hellion",
+      "description": "Tyus'tan bir message buldun. Wooden Floor altinda buldugunu Grout'he'ye anlat.",
+      "goal": ""
+    },
+    "19118": {
+      "title": "The Eye of Hellion",
+      "description": "Wooden floor altindaki slab'da yazani Grout'he'ye anlattin. Kuzeydeki Archer Village'daki buyuk stone statue'yu kontrol etmeni soyledi.",
+      "goal": ""
+    },
+    "19119": {
+      "title": "The Eye of Hellion",
+      "description": "Buddha Statue'dan Payon Tablet aldin. Morocc'taki Chilias'Tyus'a geri gotur.",
+      "goal": ""
+    },
+    "19120": {
+      "title": "The Eye of Hellion",
+      "description": "Morocc Tablet'i aldin. Chilias'Tyus, Geffen'a gidip Welshyun adli adami bulmani soyluyor.",
+      "goal": ""
+    },
+    "19121": {
+      "title": "The Eye of Hellion",
+      "description": "Welshyun, Geffen Tower'daki ogrencisi Enoz'u bulmani istedi. \"Monster Life in the Geffen Area\" report'unun onda oldugundan emin ol.",
+      "goal": ""
+    },
+    "19122": {
+      "title": "The Eye of Hellion",
+      "description": "Hakaret etmek iyi bir fikir degildi. Welshyun ile arani duzeltmeye calis.",
+      "goal": ""
+    },
+    "19123": {
+      "title": "The Eye of Hellion",
+      "description": "Welshyun susadigini soyluyor. Ona bir potion getir.",
+      "goal": ""
+    },
+    "19124": {
+      "title": "The Eye of Hellion",
+      "description": "Enoz Monster Life book'unu kaybetmis gorunuyor. Welshyun'a geri don ve bildir.",
+      "goal": ""
+    },
+    "19125": {
+      "title": "The Eye of Hellion",
+      "description": "Welshyun book'u Geffen Tower'daki Enoz'a teslim etmeni ve donerken 1 Blue Gemstone getirmeni istiyor.",
+      "goal": ""
+    },
+    "19126": {
+      "title": "The Eye of Hellion",
+      "description": "Welshyun'a don ve 1 Blue Gemstone getirmeyi unutma. Garip bir soru sorarsa \"Valaskjalf\" diye cevap ver.",
+      "goal": ""
+    },
+    "19127": {
+      "title": "The Eye of Hellion",
+      "description": "Geffen Tablet'i aldin. Tum tablet'leri Morocc'taki Sir Chilias'Tyus'a geri gotur.",
+      "goal": ""
+    },
+    "19128": {
+      "title": "The Eye of Hellion",
+      "description": "Chilias'Tyus, tablet parcalarini birlestirebilecek tek kisinin Welshyun oldugunu soyluyor.",
+      "goal": ""
     }
   }
 }
