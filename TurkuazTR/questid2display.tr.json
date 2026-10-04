@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.91.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 10006-10065 Royal Court, Meto, material supply, Piano Keys, Utan ve Other World bloklarindan 60 pending kayit dahil",
+    "version": "6.92.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 10066-11001 United Midgard Alliance, Iromo, Mechanic Job Change, Eden Group hunting ve Odin Shrine bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -12482,6 +12482,306 @@
       "title": "Other World'e Dogru",
       "description": "Rekenber Corporation Headquarters'ta United Midgard Alliance kaydini yaptir.",
       "goal": "Schwaltzvalt'taki Lighthalzen'a git"
+    },
+    "10066": {
+      "title": "Other World'e Dogru",
+      "description": "United Midgard birliklerinin Commander-in-Chief'inin aciklamasini dinledin.",
+      "goal": "Sikaiz ile konus"
+    },
+    "10067": {
+      "title": "Other World'e Dogru",
+      "description": "Sikaiz ile konusmaya devam et.",
+      "goal": ""
+    },
+    "10068": {
+      "title": "Other World'e Dogru",
+      "description": "Sikaiz, onun adina Prontera'ya gidip oradaki Alliance Manager ile konusmani istedi.",
+      "goal": ""
+    },
+    "10069": {
+      "title": "Other World'e Dogru",
+      "description": "Prontera'daki Manager ile konusmayi tamamladin.",
+      "goal": "Sikaiz'e geri don"
+    },
+    "10070": {
+      "title": "Other World'e Dogru",
+      "description": "United Midgard Alliance hakkinda bilgi edindin.",
+      "goal": "Konusmaya devam et"
+    },
+    "10071": {
+      "title": "Other World'e Dogru",
+      "description": "Rachel Freya Grand Temple - Cheshrumnir'deki Alliance Manager'a git.",
+      "goal": ""
+    },
+    "10072": {
+      "title": "Other World'e Dogru",
+      "description": "Arunafeltz'deki Alliance Manager ile konusmayi tamamladin.",
+      "goal": "Sikaiz'e tekrar don"
+    },
+    "10073": {
+      "title": "Other World'e Dogru",
+      "description": "United Midgard Alliance uyesi olmak icin kaydol.",
+      "goal": ""
+    },
+    "10074": {
+      "title": "Other World'e Dogru",
+      "description": "Rekenber Corporation Headquarters banquet hall'daki officer'lara rapor ver.",
+      "goal": ""
+    },
+    "10075": {
+      "title": "Other World'e Dogru",
+      "description": "Officer'larin nerede oldugunu bulduk.",
+      "goal": "Raporunu onlara ver"
+    },
+    "10076": {
+      "title": "Other World'e Dogru",
+      "description": "United Midgard birliklerinin Second-in-Command'ina geri donmeliyiz.",
+      "goal": ""
+    },
+    "10077": {
+      "title": "Other World'e Dogru",
+      "description": "Munkenro'ya kendini kanitlamak icin 50 Mobster yen.",
+      "goal": ""
+    },
+    "10078": {
+      "title": "Other World'e Dogru",
+      "description": "Other World'e gidebilmek icin Alliance uyelerini yenerek Munkenro'nun testini gec.",
+      "goal": ""
+    },
+    "10079": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Anne, oglunun butun gun evde kalmasindan endiseleniyor.",
+      "goal": "Iromo ile konus"
+    },
+    "10080": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Tek sikayeti en sevdigi yiyecegi bulamamak.",
+      "goal": "Onun damak zevkini bilen biri var mi?"
+    },
+    "10081": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Onun arkadasini buldun!",
+      "goal": "Goreve devam etmek icin Iromo'nun arkadasina Banana al"
+    },
+    "10082": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Tatli Banana'yi afiyetle yedi.",
+      "goal": "Onunla tekrar konus"
+    },
+    "10083": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Sonunda Iromo'nun damak zevkini ogrendin.",
+      "goal": "Monster's Feed ve Red Potion ile yanina git"
+    },
+    "10084": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Neden surekli evde kaldigini ogrendik.",
+      "goal": "Etrafinda Wild Rose kalmazsa disari cikabilir"
+    },
+    "10085": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Tum Wild Rose'lari yenmemize ragmen ilerleme olmadi.",
+      "goal": "Annesinin tavsiyesine uy"
+    },
+    "10086": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Yararli bir bilgi ogrendik! Kendi kardesi olmasini istiyor.",
+      "goal": "Ona kardeslik hakkinda bir hikaye anlat. Boyle bir hikaye bilmiyorsan kardeslerle zaman gecirip deneyim kazan"
+    },
+    "10087": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Ona bir hikaye anlattin ama yine somurttu. Ilerleme yok!",
+      "goal": "Zaman her seyi iyilestirir. Annesinin tavsiyesine uy"
+    },
+    "10088": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Arkadaslik konusunda oldukca karamsar.",
+      "goal": "Ona bir arkadaslik hikayesi anlat. Hikayen yoksa gidip bir deneyim yasa"
+    },
+    "10089": {
+      "title": "Gerceklikten Kacis, Genis Dunyaya",
+      "description": "Hikayen onu epey etkilemis gorunuyor.",
+      "goal": "Yasadigin deneyimden hissettigin her seyi ona anlat"
+    },
+    "10090": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Juno'daki Chainheart'tan Mechanic ve Magic Machinery hakkinda bilgi aldin.",
+      "goal": "Chainheart ile konusmaya devam et"
+    },
+    "10091": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Chainheart'tan Mechanic ve Magic Machinery hakkinda daha fazla ayrinti ogrendin.",
+      "goal": "Chainheart ile konusmaya devam et"
+    },
+    "10092": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Chainheart, Mechanic olmak icin Magic Machinery'yi ilk gelistiren Franklson adli kisiyi Juperos'ta bulman gerektigini soyledi.",
+      "goal": "Juperos bolgesini ara"
+    },
+    "10093": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Juperos'a gitmek icin uygun bir ulasim imkani buldun.",
+      "goal": "Juperos'a git"
+    },
+    "10094": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Bir zamanlar insan olan Ghostfire'dan bir hikaye dinledin. Siradaki Ghostfire, Juperos merkezinin guneybatisinda bir yerde olmali.",
+      "goal": "Diger Ghostfire'lari bul ve hikayelerini dinle"
+    },
+    "10095": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Bir zamanlar insan olan Ghostfire'dan bir hikaye dinledin. Siradaki Ghostfire, Juperos merkezinin guneydogusunda bir yerde olmali.",
+      "goal": "Diger Ghostfire'lari bul ve hikayelerini dinle"
+    },
+    "10096": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Ghostfire, yakindaki iki mekanik heykelin arasindaki bir isaretin ustune basmaktan soz etti.",
+      "goal": "Batidaki isareti bul"
+    },
+    "10097": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Isaretin ustune bastiginda bir insan heykeli bulmani soyleyen bir ses duydun.",
+      "goal": "Dogudaki yerde bulunan isareti bul"
+    },
+    "10098": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Door of Truth'u bulmak icin tas heykelin cevresini daha ayrintili ara.",
+      "goal": ""
+    },
+    "10099": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Aradigin bilgiyi bulmak icin Juperos'un guney bolgesini arayip oradaki isareti bulmalisin.",
+      "goal": "Juperos merkezinin guney tarafini ara"
+    },
+    "10100": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Aradigin bilgiyi elde ettin. Kuzeydeki Ghostfire'a geri don.",
+      "goal": ""
+    },
+    "10101": {
+      "title": "Mechanic Job Degisimi",
+      "description": "Ihtiyacin olan tum bilgiyi elde ettin. Ghostfire, Juno'daki Chainheart'a geri donmeni soyledi.",
+      "goal": ""
+    },
+    "10102": {
+      "title": "Meidi'nin Istegi",
+      "description": "Eden Group Office ilan panosundaki istegi kabul ettin. Morocc'un bati cikisi yakinindaki Meidi'yi bul.",
+      "goal": "Morocc'taki Meidi ile bulus"
+    },
+    "10103": {
+      "title": "Ancellia'nin Istegi",
+      "description": "Eden Group Office ilan panosundaki istegi kabul ettin. Geffen merkezine yakin Ancellia'yi bul.",
+      "goal": "Geffen'deki Ancellia ile bulus"
+    },
+    "10104": {
+      "title": "Jeanbai'nin Istegi",
+      "description": "Eden Group Office ilan panosundaki istegi kabul ettin. Aldebaran'in kuzey girisi yakinindaki Jeanbai'yi bul.",
+      "goal": "Aldebaran'daki Jeanbai ile bulus"
+    },
+    "10105": {
+      "title": "Lizingshetter'in Istegi",
+      "description": "Eden Group Office ilan panosundaki istegi kabul ettin. Aldebaran merkezine yakin Lizingshetter'i bul.",
+      "goal": "Aldebaran'daki Lizingshetter ile bulus"
+    },
+    "10106": {
+      "title": "Funfi'nin Istegi",
+      "description": "Eden Group Office ilan panosundaki istegi kabul ettin. Alberta limanindaki Funfi'yi bul.",
+      "goal": "Alberta'daki Funfi ile bulus"
+    },
+    "10107": {
+      "title": "Requiem Avi",
+      "description": "Meidi, Sphinx Dungeon'da 10 Requiem avlamani istedi. Bitirdiginde Morocc'ta ona don.",
+      "goal": "10 Requiem avla"
+    },
+    "10108": {
+      "title": "Marduk Avi",
+      "description": "Meidi, Sphinx Dungeon'da 10 Marduk avlamani istedi. Bitirdiginde Morocc'ta ona don.",
+      "goal": "10 Marduk avla"
+    },
+    "10109": {
+      "title": "Pasana Avi",
+      "description": "Meidi, Sphinx Dungeon'da 10 Pasana avlamani istedi. Bitirdiginde Morocc'ta ona don.",
+      "goal": "10 Pasana avla"
+    },
+    "10110": {
+      "title": "Dark Frame Avi",
+      "description": "Ancellia, Glast Heim'da 10 Dark Frame avlamani istedi. Bitirdiginde Geffen'de ona don.",
+      "goal": "10 Dark Frame avla"
+    },
+    "10111": {
+      "title": "Evil Druid Avi",
+      "description": "Ancellia, Glast Heim'da 10 Evil Druid avlamani istedi. Bitirdiginde Geffen'de ona don.",
+      "goal": "10 Evil Druid avla"
+    },
+    "10112": {
+      "title": "Wraith Avi",
+      "description": "Ancellia, Glast Heim'da 10 Wraith avlamani istedi. Bitirdiginde Geffen'de ona don.",
+      "goal": "10 Wraith avla"
+    },
+    "10113": {
+      "title": "Raydric Archer Avi",
+      "description": "Ancellia, Glast Heim'da 10 Raydric Archer avlamani istedi. Bitirdiginde Geffen'de ona don.",
+      "goal": "10 Raydric Archer avla"
+    },
+    "10114": {
+      "title": "Grand Peco Avi",
+      "description": "Jeanbai, Kiel Hyre's Academy cevresinde 20 Grand Peco avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "20 Grand Peco avla"
+    },
+    "10115": {
+      "title": "Sleeper Avi",
+      "description": "Jeanbai, Kiel Hyre's Cottage cevresinde 20 Sleeper avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "20 Sleeper avla"
+    },
+    "10116": {
+      "title": "Goat Avi",
+      "description": "Jeanbai, El Mes Gorge ve guneyindeki bolgede 20 Goat avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "20 Goat avla"
+    },
+    "10117": {
+      "title": "Harpy Avi",
+      "description": "Jeanbai, Juno'nun hemen guneyindeki El Mes Plateau cevresinde 20 Harpy avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "20 Harpy avla"
+    },
+    "10118": {
+      "title": "Clock Avi",
+      "description": "Lizingshetter, Clock Tower'da 15 Clock avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "15 Clock avla"
+    },
+    "10119": {
+      "title": "Punk Avi",
+      "description": "Lizingshetter, Clock Tower'da 15 Punk avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "15 Punk avla"
+    },
+    "10120": {
+      "title": "Rideword Avi",
+      "description": "Lizingshetter, Clock Tower'da 15 Rideword avlamani istedi. Bitirdiginde Aldebaran'da ona don.",
+      "goal": "15 Rideword avla"
+    },
+    "10121": {
+      "title": "Uzhas Avi",
+      "description": "Funfi, Moscovia'da 15 Uzhas avlamani istedi. Bitirdiginde Alberta'da ona don.",
+      "goal": "15 Uzhas avla"
+    },
+    "10122": {
+      "title": "Miyabi Doll Avi",
+      "description": "Funfi, Amatsu'da 15 Miyabi Doll avlamani istedi. Bitirdiginde Alberta'da ona don.",
+      "goal": "15 Miyabi Doll avla"
+    },
+    "10123": {
+      "title": "Mi Gao Avi",
+      "description": "Funfi, Louyang'da 15 Mi Gao avlamani istedi. Bitirdiginde Alberta'da ona don.",
+      "goal": "15 Mi Gao avla"
+    },
+    "11000": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Bize yardim etmek istiyorsan shrine'i biraz incele ve bizim icin calismak isteyip istemedigine karar ver. Shrine'a gitmek icin Boatman ile konus.",
+      "goal": "Shrine'i inceledikten sonra Alex ile tekrar konus"
+    },
+    "11001": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Ilk gorevin shrine'dan ^3355FF5 Rune of the Darkness^000000 getirmek. Endiselenme, emeginin karsiligini alacaksin.",
+      "goal": "Alex'e 5 Rune of Darkness getir"
     }
   }
 }
