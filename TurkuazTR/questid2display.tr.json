@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.14.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 16107-17013 Kiel Hyre Academy devamı, Limberg-TPS ve Father Bamph-Rachel investigation bloklarindan 60 pending kayit dahil",
+    "version": "7.15.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 17014-18069 island investigation, Vitre jailbreak, Gaebolg curse ve Mikhail bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -19382,6 +19382,306 @@
       "title": "Island'a Git",
       "description": "Larjes seni takip ettigini acikladi ve monastery'ye yelken acmana yardim teklif etti. Island'a varinca cevreyi arastir.",
       "goal": ""
+    },
+    "17014": {
+      "title": "Island'i Arastir",
+      "description": "Larjes, island'in gizemlerini arastirirken boat'ta seni beklemeye karar verdi.",
+      "goal": ""
+    },
+    "17015": {
+      "title": "Research Note",
+      "description": "Kana bulanmis bir journal buldun. Yazilari okumak zor ama bir kayitta yazarin bir creature summon etmeyi ogrendigi yaziyor. Arastirmaya devam et.",
+      "goal": ""
+    },
+    "17016": {
+      "title": "Regicide",
+      "description": "Dead Man'in body sini inceledin ve Token of King buldun. Bu onun Tristam III oldugunu gosteriyor. Larjes'e donup haber ver.",
+      "goal": "Larjes"
+    },
+    "17017": {
+      "title": "King'in Olumunu Bildir",
+      "description": "Tristam III'un olumu cok ciddi. Bunu rapor et ve Research Note'u High Priestess Niren'e gotur.",
+      "goal": "High Priestess Niren"
+    },
+    "18001": {
+      "title": "Rooney Icin Teslimat",
+      "description": "Lasda Midar'i bul ve Rooney'nin letter'ini teslim et.",
+      "goal": "Lasda Midar"
+    },
+    "18002": {
+      "title": "Rooney Icin Teslimat",
+      "description": "Lasda'nin verdigi money'yi Rooney'ye teslim et.",
+      "goal": "Rooney"
+    },
+    "18003": {
+      "title": "Rooney Icin Teslimat",
+      "description": "Lasda Midar'a geri don.",
+      "goal": "Lasda Midar"
+    },
+    "18004": {
+      "title": "Lasda'nin Talebi",
+      "description": "Lasda, Morocc'taki temporary prison'da bulunan arkadasini bulmani istedi.",
+      "goal": "Vitre'yi bul"
+    },
+    "18005": {
+      "title": "Jesse'nin Talebi",
+      "description": "Prison Ward Jesse, 1 Fried Monkey Tails yemegi getirirsen temporary prison'a girmen icin izin verecegini soyledi.",
+      "goal": "1 Fried Monkey Tails"
+    },
+    "18006": {
+      "title": "Sir Krieg'in Onayi",
+      "description": "Morocc'ta Sir Krieg'i bul. Onayini alirsan Jesse seni temporary prison'a alacak.",
+      "goal": "Sir Krieg"
+    },
+    "18007": {
+      "title": "Sir Krieg'in Guveni",
+      "description": "Sir Krieg'in guvenini kazanmak icin bir approval letter bul. Vitre hakkinda bir sey bilen birine sor.",
+      "goal": "Recommendation Letter"
+    },
+    "18008": {
+      "title": "Sir Krieg'in Guveni",
+      "description": "Lasda Midar'dan recommendation letter aldin. Sir Krieg'e geri gotur; prison'a giris izni verebilir.",
+      "goal": "Sir Krieg"
+    },
+    "18009": {
+      "title": "Prison'a Giris",
+      "description": "Sir Krieg prison ward'a Vitre ile konusmana izin vermesi icin haber gonderdi.",
+      "goal": "Prison Ward Jesse"
+    },
+    "18010": {
+      "title": "Jail Break",
+      "description": "Vitre temporary prison'dan kacmak icin bazi item'lara ihtiyac duyuyor. Nereden bulunacagini bilen birini bul.",
+      "goal": "1 Megaphone ve 1 Violin"
+    },
+    "18011": {
+      "title": "Bodyguard Isi",
+      "description": "Hianna, Dancer'larina bodyguard'lik yaparsan Megaphone'unu 500000 zeny karsiliginda odunc verecek. Dancer'lari bul ve Schwaltzvalt Republic'e kadar eslik et.",
+      "goal": "Hianna'nin Dancer'lari"
+    },
+    "18012": {
+      "title": "Bodyguard Isi",
+      "description": "Hianna'nin Dancer'lariyla konus.",
+      "goal": ""
+    },
+    "18013": {
+      "title": "Bodyguard Isi",
+      "description": "Hotel Manager ile konus.",
+      "goal": ""
+    },
+    "18014": {
+      "title": "Bodyguard Isi",
+      "description": "Gizemli adamla konus.",
+      "goal": ""
+    },
+    "18015": {
+      "title": "Bodyguard Isi",
+      "description": "Hotel Manager ile konus.",
+      "goal": ""
+    },
+    "18016": {
+      "title": "Bodyguard Isi",
+      "description": "Hianna'ya geri don ve Megaphone'u al. Odunc almak icin 500000 zeny odemen gerektigini unutma.",
+      "goal": "Hianna"
+    },
+    "18017": {
+      "title": "Jail Break",
+      "description": "Vitre'nin Morocc'taki temporary prison'dan kacmasina yardim etmek icin 1 Megaphone ve 1 Violin getir.",
+      "goal": "Vitre"
+    },
+    "18018": {
+      "title": "Jail Break",
+      "description": "Vitre ile konus.",
+      "goal": ""
+    },
+    "18019": {
+      "title": "Vitre'nin Sarkilari",
+      "description": "Vitre'nin arkadaslarini sirayla bul: Prontera'da Chada, Geffen'de Ghez, Comodo'da Nosdan. Sarkilarini dinle ve Vitre'ye geri soyle.",
+      "goal": "Chada, Ghez ve Nosdan'i bul"
+    },
+    "18020": {
+      "title": "Vitre'nin Sarkilari",
+      "description": "Chada'nin sarkisini duydun. Simdi Geffen'deki Ghez'i bul.",
+      "goal": "Ghez'i bul"
+    },
+    "18021": {
+      "title": "Vitre'nin Sarkilari",
+      "description": "Ghez'in sarkisini duydun. Simdi Comodo'daki Nosdan'i bul.",
+      "goal": "Nosdan'i bul"
+    },
+    "18022": {
+      "title": "Vitre'nin Sarkilari",
+      "description": "Nosdan'dan son sarkiyi duydun. Vitre'ye don ve uc sarkiyi da soyle.",
+      "goal": "Vitre"
+    },
+    "18023": {
+      "title": "Casus Vitre",
+      "description": "Secret Service, espionage nedeniyle Vitre'yi goturdu. Lasda'ya geri donup olanlari anlat.",
+      "goal": "Lasda Midar"
+    },
+    "18030": {
+      "title": "Gaebolg Family Curse",
+      "description": "Airship'lerden ne kadar nefret ettigimi bilemezsin. Bu book'lari Juno Library yakinindaki Mr. Karlomoff'a teslim et.",
+      "goal": "Mr. Karlomoff"
+    },
+    "18031": {
+      "title": "Gaebolg Family Curse",
+      "description": "Bu report'u Rodafrian'a hemen goturmen cok yardimci olur. Onu desert town'da bulabilirsin.",
+      "goal": "Rodafrian"
+    },
+    "18032": {
+      "title": "Gaebolg Family Curse",
+      "description": "Mt. Mjolnir'de Mondo'yu bul. Hikayeyi soyle: Buyuk serpent denizi yuttu. Rainbow eagle serpent'i yuttu. Sonra eagle yutulan denizin ustune nest kurdu.",
+      "goal": "Mondo"
+    },
+    "18033": {
+      "title": "Gaebolg Family Curse",
+      "description": "Daha fazlasini ogrenmek icin sarkiyi soyleyen cocugu bul. Buradaki river yakininda olabilir.",
+      "goal": "Dazed Boy"
+    },
+    "18034": {
+      "title": "Gaebolg Family Curse",
+      "description": "Exhausted-Looking Woman'dan aldigin herb'leri Prontera Church'teki Father Bamph'a gotur.",
+      "goal": "Father Bamph"
+    },
+    "18035": {
+      "title": "Gaebolg Family Curse",
+      "description": "Mount Mjolnir'deki Bonnie Imbullea'yi ziyaret et ve sarki ya da Jormungand curse exorcism sonrasinda olanlar hakkinda bilgi edin.",
+      "goal": "Bonnie Imbullea"
+    },
+    "18036": {
+      "title": "Gaebolg Family Curse",
+      "description": "Prontera Church'e don ve Bonnie Imbullea'dan ogrendiklerini Father Bamph'a anlat.",
+      "goal": "Father Bamph"
+    },
+    "18037": {
+      "title": "Gaebolg Family Curse",
+      "description": "Royal family'nin secret ceremonial ground'una gel. Bookshelf'te gizli switch'i kullan; orada bulusacagiz.",
+      "goal": "Hidden switch"
+    },
+    "18038": {
+      "title": "Gaebolg Family Curse",
+      "description": "King'in first son'u crown prince'in body sini inceledin. Simdi second prince'in body sini incele.",
+      "goal": "Second prince"
+    },
+    "18039": {
+      "title": "Gaebolg Family Curse",
+      "description": "King'in second son'unun body sini inceledin. Simdi third prince'in body sini incele.",
+      "goal": "Third prince"
+    },
+    "18040": {
+      "title": "Gaebolg Family Curse",
+      "description": "Morocc'taki Assassin Guild'e git ve prince'lerin poison ile oldurulup oldurulmedigini nasil dogrulayabilecegimizi ogren.",
+      "goal": "Assassin Guild"
+    },
+    "18041": {
+      "title": "Gaebolg Family Curse",
+      "description": "Morocc'ta saat 7 yonunde Assassin's Private Pub var. Iceride Marjana adli birini bul.",
+      "goal": "Marjana"
+    },
+    "18042": {
+      "title": "Gaebolg Family Curse",
+      "description": "Rodafrian artik daha yakin. Father Bamph'tan once onunla konusmaya git.",
+      "goal": "Rodafrian"
+    },
+    "18043": {
+      "title": "Gaebolg Family Curse",
+      "description": "Father Bamph ile gorusup prince'lerin body lerini arastirmak daha onemli. Hemen Prontera'ya git.",
+      "goal": "Father Bamph"
+    },
+    "18044": {
+      "title": "Gaebolg Family Curse",
+      "description": "Rodafrian hic yardim etmedi; ustelik buyuk bir sirri ona acikladin. Priest'lere geri don.",
+      "goal": "Prontera Church"
+    },
+    "18045": {
+      "title": "Gaebolg Family Curse",
+      "description": "Rodafrian cok sevindi ve Karlomoff'un report'unu okumaya basladi. Simdi Father Bamph'a don.",
+      "goal": "Father Bamph"
+    },
+    "18046": {
+      "title": "Gaebolg Family Curse",
+      "description": "Secret ceremonial ground'a 1 Yellow Gemstone ve 1 Green Potion getir. Orada seni bekleyecegim.",
+      "goal": "1 Yellow Gemstone ve 1 Green Potion"
+    },
+    "18047": {
+      "title": "Gaebolg Family Curse",
+      "description": "Solution prince'lerdeki scale mark'lari temizledi. Bulduklarini Father Bamph'a rapor ver.",
+      "goal": "Father Bamph"
+    },
+    "18048": {
+      "title": "Gaebolg Family Curse",
+      "description": "Father Bamph gercegi ortaya cikarmaya yardim ettigin icin tesekkur ediyor. Father Biscuss ile de konusup bulduklarini anlat.",
+      "goal": "Father Biscuss"
+    },
+    "18049": {
+      "title": "Gaebolg Family Curse",
+      "description": "Father Bamph gercegi ortaya cikarmaya yardim ettigin icin tesekkur ediyor. Bonnie Imbullea'ya git ve bunun onun sucu olmadigini soyle.",
+      "goal": "Bonnie Imbullea"
+    },
+    "18050": {
+      "title": "Gaebolg Family Curse",
+      "description": "Prince'lerin olumu hakkinda ogrendiklerini Bonnie Imbullea'ya anlat.",
+      "goal": "Bonnie Imbullea"
+    },
+    "18051": {
+      "title": "Gaebolg Family Curse",
+      "description": "Bonnie Imbullea'ya gercegi anlattiktan sonra Rodafrian ile son kez konus.",
+      "goal": "Rodafrian"
+    },
+    "18052": {
+      "title": "Gaebolg Family Curse",
+      "description": "Father Bamph ile bir kez daha konus.",
+      "goal": ""
+    },
+    "18060": {
+      "title": "Kayip Cocuk Mikhail",
+      "description": "Gallina'nin cekingen oglu Mikhail'i bulmayi kabul ettin. Cok uzaklasmis olamaz; cevreyi ara.",
+      "goal": ""
+    },
+    "18061": {
+      "title": "Mikhail'in Yeri",
+      "description": "Tek ipucun Sticky Herb Tree Inn'e gitmek. Mikhail hakkinda orada bir sey ogrenebilirsin.",
+      "goal": "Sticky Herb Tree Inn"
+    },
+    "18062": {
+      "title": "Kayip Cocuk Mikhail",
+      "description": "Landlord, Mikhail ile son konusan kisi oldugu icin Pub Owner ile gorusmeni soyledi.",
+      "goal": "Pub Owner"
+    },
+    "18063": {
+      "title": "Issiz Swamp",
+      "description": "Victor, Mikhail'e yakin bir island'daki izole swamp'tan bahsettigini soyledi. Orada olmasi dusuk ihtimal ama yine de kontrol et.",
+      "goal": "Swamp'i bul"
+    },
+    "18064": {
+      "title": "Village'a Geri Don",
+      "description": "Swamp'ta Mikhail'e ait iz bulamadin. Village'da yeniden aramaya karar verdin.",
+      "goal": "Moscovia Village"
+    },
+    "18065": {
+      "title": "Guclu Adhesive",
+      "description": "Mikhail icin paste yapmaya soz verdin. Gerekli malzemeleri ogrenmek icin Victor ile konus.",
+      "goal": "Victor"
+    },
+    "18066": {
+      "title": "Swamp'a Geri Don",
+      "description": "Victor, Moscovia yakinindaki island swamp'ina donup paste malzemelerini toplamani soyledi. 10 Sticky Herb bulana kadar ara.",
+      "goal": "10 Sticky Herb ve 1 Medicine Bowl"
+    },
+    "18067": {
+      "title": "Paste Yap",
+      "description": "Paste icin 10 Sticky Herb hazir. 1 Medicine Bowl da varsa Victor'a gotur; paste'i yapabilir.",
+      "goal": "Victor"
+    },
+    "18068": {
+      "title": "Matrushka'yi Tamir Et",
+      "description": "Victor paste'i hazirladi. Broken Matrushka'yi tamir etmesi icin Mikhail'e gotur.",
+      "goal": "Mikhail"
+    },
+    "18069": {
+      "title": "Gallina'ya Rapor Ver",
+      "description": "Gallina'ya oglu Mikhail'in guvende oldugunu soyle.",
+      "goal": "Gallina"
     }
   }
 }
