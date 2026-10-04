@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.72.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8032-8043 Airship, Tarlock, Ferlock ve Hallen sirri ile 8044-8052 Euslan ve Thierry gorevleri dahil",
+    "version": "6.73.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8053-8056 Allen ve Postell ile 8057-8063 Comforting Tree, Manainne, El Schatt ve Kanainne gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10202,6 +10202,61 @@
       "title": "Thierry'nin Ricasi",
       "description": "Thierry, Rekenber ajanlari onu aramayi birakana kadar Euslan'in yanina donemiyor. Ilaci vakit kaybetmeden Euslan'a teslim et.",
       "goal": "Ilaci Euslan'a teslim et"
+    },
+    "8053": {
+      "title": "Postell'i Bul",
+      "description": "Allen'in oglu Postell'i bul ve ilacini getirmesini soyle. Kasabadan doguya cikarsan Postell'i bulabilirsin.",
+      "goal": "Postell'i bul"
+    },
+    "8054": {
+      "title": "Postell'den Mesaj",
+      "description": "Postell senden bir iyilik istedi: babasinin yeniden basini belaya sokmamasina dikkat et.",
+      "goal": "Allen'a geri don"
+    },
+    "8055": {
+      "title": "Allen'a Bakim",
+      "description": "Allen, Postell ilaci getirmeden once yeni bir ulser krizi gecirmekten korkuyor. Oglu gelene kadar yaninda kal.",
+      "goal": "Allen'a bak"
+    },
+    "8056": {
+      "title": "Kucuk Bir Karsilik",
+      "description": "Allen, medicine drawer'in icine bakip istedigini alabilecegini soyledi.",
+      "goal": "Medicine drawer'i kontrol et"
+    },
+    "8057": {
+      "title": "Sikayetci Manainne",
+      "description": "Manainne ile comforting tree hakkinda konus.",
+      "goal": "Manainne ile konus"
+    },
+    "8058": {
+      "title": "El Schatt ile Konus",
+      "description": "Manainne, bu agacin kasabadaki herkes icin ozel anilar tasidigini ancak El Schatt'in dukkan yapmak icin agaci kesmek istedigini soyledi.",
+      "goal": "El Schatt ile konus"
+    },
+    "8059": {
+      "title": "Perfitz ile Konus",
+      "description": "El Schatt, babasinin uzun zamandir buraya bir dukkan yapmak istedigini soyledi. Babasi Perfitz ile konus ve hikayenin onun tarafini dinle.",
+      "goal": "Perfitz ile konus"
+    },
+    "8060": {
+      "title": "Inatci El Schatt",
+      "description": "Perfitz, El Schatt'in agaci kesmek konusunda fazla heyecanli davranmasindan supheleniyor. El Schatt'in gercek nedenini arastir.",
+      "goal": "El Schatt hakkinda bilgi topla"
+    },
+    "8061": {
+      "title": "Gecmisin Hikayeleri",
+      "description": "El Schatt bir zamanlar agaci cani pahasina koruyacagini ama artik gecmisin geride kalmasi gerektigini soyledi. Gecmisini bilen birini bul.",
+      "goal": "El Schatt'in gecmisini arastir"
+    },
+    "8062": {
+      "title": "Kanainne",
+      "description": "Manainne, El Schatt'in tamamen degistigini ve merhum kiz kardesi Kanainne'nin onu bu halde gorse uzulecegini soyledi.",
+      "goal": "Kanainne hakkinda bilgi edin"
+    },
+    "8063": {
+      "title": "Kanainne'nin Ruhu",
+      "description": "Kanainne'nin ruhunun kiz kardesinin bedenini kullanarak El Schatt'a ulasmasi mumkun olabilir. Daha fazla zarar vermeden once ona yardim et.",
+      "goal": "Kanainne'nin ruhuna yardim et"
     }
   }
 }
