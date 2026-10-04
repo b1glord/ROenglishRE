@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.30.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7091-7095 Daora'nin Veins ve Rachel arastirma ipuclari dahil",
+    "version": "6.31.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7096-7111 Guillotine Cross meslek degisimi gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6897,6 +6897,86 @@
       "title": "Daora'nin Tavsiyesi",
       "description": "Veins'in kuzeybatisindaki alanda bir villa olmali. Kuzeydoguya uzanan yarik yol aradigin gecit olabilir.",
       "goal": "Veins kuzeybatisindaki villayi ara"
+    },
+    "7096": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Mayshell tarafindan onaylanan Guillotine Cross yeterlilik belgesi. Ozel gorevi A rutbesiyle tamamladin.",
+      "goal": "Belgeyi Bercasell'e goster"
+    },
+    "7097": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Mayshell tarafindan onaylanan Guillotine Cross yeterlilik belgesi. Ozel gorevi B rutbesiyle tamamladin.",
+      "goal": "Belgeyi Bercasell'e goster"
+    },
+    "7098": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Mayshell tarafindan onaylanan Guillotine Cross yeterlilik belgesi. Ozel gorevi C rutbesiyle tamamladin.",
+      "goal": "Belgeyi Bercasell'e goster"
+    },
+    "7099": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Mayshell tarafindan onaylanan Guillotine Cross yeterlilik belgesi. Ozel gorevi S rutbesiyle tamamladin.",
+      "goal": "Belgeyi Bercasell'e goster"
+    },
+    "7100": {
+      "title": "Bercasell'in Mesaji",
+      "description": "Guild'e ait bir ekipman sana verilecek. Hazir oldugunda Bercasell ile tekrar gorusup ekipmani almayi unutma.",
+      "goal": "Daha sonra Bercasell ile gorus"
+    },
+    "7101": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Ahcart, Veins'teki Assassin Guild'e gelecegini bildirdi. Veins'teki pub'i bul ve Daora ile konus.",
+      "goal": "Veins Assassin Guild subesini bul"
+    },
+    "7102": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Veins pub'inin bodrumuna in ve Mayshell ile konus. Ozel gorev hakkinda ayrintilari verecek.",
+      "goal": "Mayshell ile konus"
+    },
+    "7103": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Ilk gorevin Veins'teki bir yabanciyi bulmak. Yabanci hakkinda bilgi icin pub'daki Daora'ya sor.",
+      "goal": "Daora'dan yabanci hakkinda bilgi al"
+    },
+    "7104": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Melissa aradigin kizin adinin Estillda oldugunu soyledi. Estillda bir saat icinde Veins'in kuzeydogusundaki cikmaz sokaktan gececek.",
+      "goal": "15 dakika bekle ve Estillda'yi bul"
+    },
+    "7105": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Estillda kacti ama hala yakinlarda. Yalniz oldugundan emin ol ve 5 dakika sonra onu tekrar yakalamayi dene.",
+      "goal": "5 dakika sonra Estillda'yi tekrar yakala"
+    },
+    "7106": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Estillda'yi buldun. Onu sakinlestirdikten sonra Daora'nin pub'ina nasil gidecegini anlattin. Pub'a don ve Daora ile konus.",
+      "goal": "Daora ile konus"
+    },
+    "7107": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Estillda, calistigi adamla 30 dakika sonra Veins'in guney girisi yakinindaki bir depoda bulusacagini soyledi.",
+      "goal": "Guney girisi yakinindaki depoyu arastir"
+    },
+    "7108": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Olu Dandelion uyesinin uzerinde Mansion Key buldun. Anahtarin ne icin oldugunu ogren ve Mayshell'e bildir.",
+      "goal": "Mansion Key'i arastir ve Mayshell'e bildir"
+    },
+    "7109": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Rachel'in guneyine git ve orada bekleyen guild uyelerinden birini bul. Konaga girmen icin sana yardim edecek.",
+      "goal": "Rachel'in guneyindeki guild uyesini bul"
+    },
+    "7110": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Vakit kaybetmeden konaga gizlice gir ve gorevini 10 dakika icinde tamamla. Bitirdiginde konagin arka kapisinda guild uyesiyle bulus.",
+      "goal": "10 dakika icinde konaktaki gorevi tamamla"
+    },
+    "7111": {
+      "title": "Guillotine Cross Meslek Degisimi",
+      "description": "Assassin Guild'in son hedefini ortadan kaldirarak gorevini tamamladin. Subeye don ve Mayshell'e rapor ver.",
+      "goal": "Mayshell'e rapor ver"
     }
   }
 }
