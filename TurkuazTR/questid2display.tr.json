@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.28.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7056-7071 Messenger Arc, Terra, Sapha ve Manuk gorev zinciri dahil",
+    "version": "6.29.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7074-7082 New World av, Dragon Egg, Refined Bradium ve Lapine Craftsman gunluk gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6827,6 +6827,51 @@
       "title": "Haberci - Davet",
       "description": "Arc ayrintilari konusmak icin seni Terra'nin evine davet etti. Terra'nin evi, karakolun guneydogusundaki yapraklarda asili yuzlerce Yai'den biri.",
       "goal": "Terra'nin Yai'sine git"
+    },
+    "7074": {
+      "title": "Rata Avi",
+      "description": "Magaradaki Rata'yi bulup yen ve Strom'a geri don.",
+      "goal": "Rata'yi yen ve Strom'a rapor ver"
+    },
+    "7075": {
+      "title": "Duneyrr Avi",
+      "description": "Magaradaki Duneyrr'i bulup yen ve Strom'a geri don.",
+      "goal": "Duneyrr'i yen ve Strom'a rapor ver"
+    },
+    "7076": {
+      "title": "Araniyor - Dandelion",
+      "description": "Dandelion toplulugu icin hazine sandigi odullu bir araniyor ilani okudun.",
+      "goal": "Dandelion hedefini bul"
+    },
+    "7077": {
+      "title": "Dragon Egg Toplama",
+      "description": "Pinedel'in inceleyebilmesi icin 10 Dragon Egg getir.",
+      "goal": "Pinedel'e 10 Dragon Egg getir"
+    },
+    "7078": {
+      "title": "Dragon Egg Toplama",
+      "description": "10 Dragon Egg'i Pinedel'e teslim ettin. Yeni bir istek almadan once yumurtalarin catlamasini beklemelisin.",
+      "goal": "Yeni istek icin bekle"
+    },
+    "7079": {
+      "title": "Refined Bradium Bulma",
+      "description": "Bradium Golem avla ve Manuk Engineer'a 20 Refined Bradium getir.",
+      "goal": "20 Refined Bradium getir"
+    },
+    "7080": {
+      "title": "Refined Bradium Bulma",
+      "description": "Manuk Engineer'in istegini tamamladin. Yeni bir istek almadan once bir gun beklemelisin.",
+      "goal": "1 gun bekle"
+    },
+    "7081": {
+      "title": "Lapine Craftsman'a Yardim",
+      "description": "Lapine Craftsman'a 15 Crystallized Teardrop ve 15 Fluorescent Liquid getir.",
+      "goal": "15 Crystallized Teardrop, 15 Fluorescent Liquid getir"
+    },
+    "7082": {
+      "title": "Lapine Craftsman'a Yardim",
+      "description": "Crystallized Teardrop ve Fluorescent Liquid malzemelerini tamamladin. Bugunluk yeterli stoklari var.",
+      "goal": "Gunluk istek tamamlandi"
     }
   }
 }
