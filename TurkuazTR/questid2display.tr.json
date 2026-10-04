@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.36.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7138-7141 Eden Group Ghost Cave egitim gorevleri dahil",
+    "version": "6.37.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7142-7146 Eden Group Ant Hell egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7126,6 +7126,31 @@
     "7141": {
       "title": "Ghost Cave'i Fethet",
       "description": "Karl'in verdigi egitimi tamamladin. Odulun icin Eden Group Office'e don.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7142": {
+      "title": "Ant Hell'i Fethet",
+      "description": "Ant Hell girisindeki Eden Group uyesi Cloud'u bul. Giris, Fortress Saint Darmain East'in kuzeydogu tarafindaki Ant Hell 1F bolgesinde.",
+      "goal": "Ant Hell'de Cloud'u bul"
+    },
+    "7143": {
+      "title": "Ant Hell'i Fethet",
+      "description": "Ant Hell'de 15 Pierre avla ve giristeki Eden Group uyesi Cloud'a rapor ver.",
+      "goal": "15 Pierre yen"
+    },
+    "7144": {
+      "title": "Ant Hell'i Fethet",
+      "description": "Ikinci hedef Pierre'den daha guclu Andre'ler. 15 Andre avla. Gerekirse Ant Hell 2F'ye gec ama Maya'ya dikkat et.",
+      "goal": "15 Andre yen"
+    },
+    "7145": {
+      "title": "Ant Hell'i Fethet",
+      "description": "Siradaki hedef 10 Vitata. Onlari temizleyerek Ant Hell'i biraz daha guvenli hale getir.",
+      "goal": "10 Vitata yen"
+    },
+    "7146": {
+      "title": "Ant Hell'i Fethet",
+      "description": "Cloud'un verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
       "goal": "Instructor Boya'ya rapor ver"
     }
   }
