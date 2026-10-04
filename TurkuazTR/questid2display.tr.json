@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.06.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 12410-13070 wealthy merchant, Eden talepleri, Lapine projesi, New Oz ve Glastheim arastirma bloklarindan 60 pending kayit dahil",
+    "version": "7.07.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 13071-13130 Mingmin arastirmalari, Taekwon egitimi, kayip adventurer aramalari ve Thanatos-Rachel av bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -16981,6 +16981,306 @@
     "13070": {
       "title": "Khalitzburg Arastirmasi - Sure",
       "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13071": {
+      "title": "Wander Man Arastirmasi",
+      "description": "Glastheim Castle 2F'te 20 Wander Man avla ve Mingmin icin arastir.",
+      "goal": "30 Wander Man arastir"
+    },
+    "13072": {
+      "title": "Wander Man Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13073": {
+      "title": "Ancient Mimic Arastirmasi",
+      "description": "Thanatos Tower'da 30 Ancient Mimic avla ve arastir.",
+      "goal": "30 Ancient Mimic arastir"
+    },
+    "13074": {
+      "title": "Ancient Mimic Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13075": {
+      "title": "Death Word Arastirmasi",
+      "description": "Death Word uzerinde arastirma yap.",
+      "goal": "30 Death Word arastir"
+    },
+    "13076": {
+      "title": "Death Word Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13077": {
+      "title": "Owl Baron Arastirmasi",
+      "description": "20 Owl Baron avla ve arastir. Altinci katta cok sayida olduklari soyleniyor.",
+      "goal": "20 Owl Baron yen"
+    },
+    "13078": {
+      "title": "Owl Baron Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13079": {
+      "title": "Bloody Page Arastirmasi",
+      "description": "Bloody Page'lerle eski antique book'u onarabilirsek iyi bir arastirma olabilir. Bunlari Death Word'den elde edebiliriz. Topla.",
+      "goal": "Death Word'den 20 Bloody Page topla"
+    },
+    "13080": {
+      "title": "Bloody Page Arastirmasi - Bekle",
+      "description": "Bloodstained paper bulursan cok ise yarar. Toplayip Mingmin'e gonder.",
+      "goal": ""
+    },
+    "13081": {
+      "title": "Dark Pinguicula Arastirmasi",
+      "description": "Base Camp'te 30 Dark Pinguicula avla ve arastir.",
+      "goal": "30 Dark Pinguicula yen"
+    },
+    "13082": {
+      "title": "Dark Pinguicula Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13083": {
+      "title": "Nepenthes Arastirmasi",
+      "description": "Base Camp'te 30 Nepenthes avla ve arastir.",
+      "goal": "30 Nepenthes yen"
+    },
+    "13084": {
+      "title": "Nepenthes Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13085": {
+      "title": "Naga Arastirmasi",
+      "description": "Base Camp'te 30 Naga avla ve arastir. Dikkatli ol; magic ile cursed hale gelen Naga'lar arastirma icin uygun degil.",
+      "goal": "30 Naga yen"
+    },
+    "13086": {
+      "title": "Naga Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13087": {
+      "title": "Centipede Larva Arastirmasi",
+      "description": "Mingmin'in arastirmasi icin 20 Centipede Larva yok et.",
+      "goal": "20 Centipede Larva yen"
+    },
+    "13088": {
+      "title": "Centipede Larva Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13089": {
+      "title": "Cornus Arastirmasi",
+      "description": "Base Camp'te 30 Cornus avla ve arastir.",
+      "goal": "30 Cornus yen"
+    },
+    "13090": {
+      "title": "Cornus Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13091": {
+      "title": "Mystic Horn Arastirmasi",
+      "description": "Cornus'tan 20 Mystic Horn topla ve Mingmin'e gonder.",
+      "goal": "20 Mystic Horn topla"
+    },
+    "13092": {
+      "title": "Mystic Horn Arastirmasi - Bekle",
+      "description": "Mystic Horn arastirmasi devam ediyor. Olabildigince topla ve Mingmin ihtiyac duydugunda gonder.",
+      "goal": ""
+    },
+    "13093": {
+      "title": "Ancient Mummy Arastirmasi",
+      "description": "Pudding ile ilgilenmesen bile 30 Ancient Mummy yen ve Mingmin icin arastir.",
+      "goal": "30 Ancient Mummy yen"
+    },
+    "13094": {
+      "title": "Ancient Mummy Arastirmasi - Sure",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13095": {
+      "title": "Geffenia Seferi",
+      "description": "Geffenia'ya gir ve hangi monster'larin bulundugunu incele. 10 Incubus, 10 Succubus ve 10 Violy avla.",
+      "goal": "Geffenia seferini tamamla"
+    },
+    "13096": {
+      "title": "Geffenia Seferi - Bekle",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13097": {
+      "title": "Juperos Seferi",
+      "description": "Juperos Dungeon'da Venatu bul ve arastir. Hangi Venatu oldugu fark etmez; toplam 90 Venatu yen.",
+      "goal": "30 Green, 30 Orange ve 30 Blue Venatu avla"
+    },
+    "13098": {
+      "title": "Juperos Seferi - Bekle",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13099": {
+      "title": "Fragment ve Rusty Screw",
+      "description": "Mingmin'i hayal kirikligina ugratma; 10 Fragment ve 20 Rusty Screw topla.",
+      "goal": "Arastirma malzemelerini topla"
+    },
+    "13100": {
+      "title": "Fragment ve Rusty Screw - Bekle",
+      "description": "Mingmin arastirmayla mesgul. Sure dolduktan sonra tekrar gel.",
+      "goal": ""
+    },
+    "13101": {
+      "title": "Taekwon Yolu",
+      "description": "Payon'un kuzeyindeki Taekwon trainer'a git.",
+      "goal": "Payon'a git"
+    },
+    "13102": {
+      "title": "Donen Tekme",
+      "description": "",
+      "goal": ""
+    },
+    "13103": {
+      "title": "Willow Kirma",
+      "description": "10 Willow avladiktan sonra geri don. Agac kesmek gibi dusun.",
+      "goal": "10 Willow avla"
+    },
+    "13104": {
+      "title": "Spore Kirma",
+      "description": "10 Spore avladiktan sonra geri don.",
+      "goal": "10 Spore avla"
+    },
+    "13105": {
+      "title": "Zombie Kirma",
+      "description": "10 Zombie avladiktan sonra geri don. Oldukca igrenc olduklari icin dikkatli ol.",
+      "goal": "10 Zombie avla"
+    },
+    "13106": {
+      "title": "Skeleton Kirma",
+      "description": "10 Skeleton avladiktan sonra geri don. Antrenman savastir.",
+      "goal": "10 Skeleton avla"
+    },
+    "13107": {
+      "title": "Thanatos Tower Aramasi",
+      "description": "Kayip adventurer'in izlerini bulmak icin Thanatos Tower'i ara.",
+      "goal": ""
+    },
+    "13108": {
+      "title": "Rachel Holy Ground Aramasi",
+      "description": "Kayip adventurer'in izlerini bulmak icin Rachel Holy Ground'u ara.",
+      "goal": ""
+    },
+    "13109": {
+      "title": "Unknown Island Aramasi",
+      "description": "Kayip adventurer'in izlerini bulmak icin Unknown Island'i ara.",
+      "goal": ""
+    },
+    "13110": {
+      "title": "Abyss Lake Aramasi",
+      "description": "Kayip adventurer'in izlerini bulmak icin Abyss Lake'i ara.",
+      "goal": ""
+    },
+    "13111": {
+      "title": "Thanatos Tower Aramasi - Rapor",
+      "description": "Adventurer'a ait izler bulduk. Aigoo'ya geri don ve rapor ver.",
+      "goal": ""
+    },
+    "13112": {
+      "title": "Rachel Holy Ground Aramasi - Rapor",
+      "description": "Bir adventurer'a ait izler bulduk. Aigu'ya geri don ve rapor ver.",
+      "goal": ""
+    },
+    "13113": {
+      "title": "Nameless Island Aramasi - Rapor",
+      "description": "Bir adventurer'a ait izler bulduk. Aigu'ya geri don ve rapor ver.",
+      "goal": ""
+    },
+    "13114": {
+      "title": "Abyss Lake Aramasi - Rapor",
+      "description": "Bir adventurer'a ait izler bulduk. Aigu'ya geri don ve rapor ver.",
+      "goal": ""
+    },
+    "13115": {
+      "title": "Thanatos Tower Aramasi - Bekle",
+      "description": "Bunlar Aigu'nun aradigi izler degil. Daha sonra tekrar ara.",
+      "goal": ""
+    },
+    "13116": {
+      "title": "Rachel Holy Ground Aramasi - Bekle",
+      "description": "Bunlar Aigu'nun aradigi izler degil. Daha sonra tekrar ara.",
+      "goal": ""
+    },
+    "13117": {
+      "title": "Unknown Island Aramasi - Bekle",
+      "description": "Bunlar Aigu'nun aradigi izler degil. Daha sonra tekrar ara.",
+      "goal": ""
+    },
+    "13118": {
+      "title": "Abyss Lake Aramasi - Bekle",
+      "description": "Bunlar Aigu'nun aradigi izler degil. Daha sonra tekrar ara.",
+      "goal": ""
+    },
+    "13119": {
+      "title": "Baroness of Retribution'i Yen",
+      "description": "Thanatos Tower'da 30 Baroness of Retribution yen.",
+      "goal": ""
+    },
+    "13120": {
+      "title": "Baroness of Retribution - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13121": {
+      "title": "Lady Solace'i Yen",
+      "description": "Thanatos Tower'da 30 Lady Solace yen.",
+      "goal": ""
+    },
+    "13122": {
+      "title": "Lady Solace - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13123": {
+      "title": "Mistress of Shelter'i Yen",
+      "description": "Thanatos Tower'da 30 Mistress of Shelter yen.",
+      "goal": ""
+    },
+    "13124": {
+      "title": "Mistress of Shelter - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13125": {
+      "title": "Dame of Sentinel'i Yen",
+      "description": "Thanatos Tower'da 30 Dame of Sentinel yen.",
+      "goal": ""
+    },
+    "13126": {
+      "title": "Dame of Sentinel - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13127": {
+      "title": "Vanberk ve Isilla'yi Yen",
+      "description": "Rachel Holy Ground'da 20 Vanberk ve 20 Isilla yen.",
+      "goal": ""
+    },
+    "13128": {
+      "title": "Vanberk ve Isilla - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13129": {
+      "title": "Hodremlin'i Yen",
+      "description": "Rachel Holy Ground'da 30 Hodremlin yen.",
+      "goal": ""
+    },
+    "13130": {
+      "title": "Hodremlin - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
       "goal": ""
     }
   }
