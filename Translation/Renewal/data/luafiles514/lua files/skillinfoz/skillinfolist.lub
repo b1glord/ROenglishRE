@@ -9065,7 +9065,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_SILVERSNIPER] = {
 		"NC_SILVERSNIPER",
-		SkillName = "FAW Silver Sniper",
+		SkillName = "FAW Gumus Nisangah",
 		MaxLv = 5,
 		SpAmount = { 25, 30, 35, 40, 45 },
 		bSeperateLv = true,
@@ -9076,7 +9076,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_DELUGE] = {
 		"SA_DELUGE",
-		SkillName = "Deluge",
+		SkillName = "Sel Baskini",
 		MaxLv = 5,
 		SpAmount = { 48, 46, 44, 42, 40 },
 		bSeperateLv = false,
@@ -9087,7 +9087,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_BODYPAINT] = {
 		"SC_BODYPAINT",
-		SkillName = "Body Painting",
+		SkillName = "Vucut Boyama",
 		MaxLv = 5,
 		SpAmount = { 10, 15, 20, 25, 30 },
 		bSeperateLv = true,
@@ -9095,7 +9095,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_VIOLENTGALE] = {
 		"SA_VIOLENTGALE",
-		SkillName = "Violent Gale",
+		SkillName = "Siddetli Firtina",
 		MaxLv = 5,
 		SpAmount = { 48, 46, 44, 42, 40 },
 		bSeperateLv = false,
@@ -9106,7 +9106,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MG_FIREWALL] = {
 		"MG_FIREWALL",
-		SkillName = "Fire Wall",
+		SkillName = "Ates Duvari",
 		MaxLv = 10,
 		SpAmount = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -9118,7 +9118,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_LANDPROTECTOR] = {
 		"SA_LANDPROTECTOR",
-		SkillName = "Land Protector",
+		SkillName = "Arazi Koruyucu",
 		MaxLv = 5,
 		SpAmount = { 66, 62, 58, 54, 50 },
 		bSeperateLv = false,
@@ -9131,7 +9131,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_GLOOMYDAY] = {
 		"WM_GLOOMYDAY",
-		SkillName = "Gloomy Shyness",
+		SkillName = "Kasvetli Cekingenlik",
 		MaxLv = 5,
 		SpAmount = { 60, 75, 90, 105, 120 },
 		bSeperateLv = true,
@@ -9142,7 +9142,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_DISPELL] = {
 		"SA_DISPELL",
-		SkillName = "Dispell",
+		SkillName = "Buyu Dagitma",
 		MaxLv = 5,
 		SpAmount = { 1, 1, 1, 1, 1 },
 		bSeperateLv = false,
@@ -9153,7 +9153,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_FORCEOFVANGUARD] = {
 		"LG_FORCEOFVANGUARD",
-		SkillName = "Vanguard Force",
+		SkillName = "Oncu Kuvvet",
 		MaxLv = 5,
 		SpAmount = { 30, 30, 30, 30, 30 },
 		bSeperateLv = true,
@@ -9161,7 +9161,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_ABRACADABRA] = {
 		"SA_ABRACADABRA",
-		SkillName = "Abracadabra",
+		SkillName = "Abrakadabra",
 		MaxLv = 10,
 		SpAmount = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
 		bSeperateLv = false,
@@ -9174,7 +9174,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_RAYOFGENESIS] = {
 		"LG_RAYOFGENESIS",
-		SkillName = "Genesis Ray",
+		SkillName = "Yaratilis Isini",
 		MaxLv = 10,
 		SpAmount = { 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -9185,7 +9185,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_MONOCELL] = {
 		"SA_MONOCELL",
-		SkillName = "Mono Cell",
+		SkillName = "Tek Hucre",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9193,7 +9193,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_CLASSCHANGE] = {
 		"SA_CLASSCHANGE",
-		SkillName = "Class Change",
+		SkillName = "Sinif Degisimi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9201,7 +9201,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_SUMMONMONSTER] = {
 		"SA_SUMMONMONSTER",
-		SkillName = "Summon Monster",
+		SkillName = "Canavar Cagir",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9209,7 +9209,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_REVERSEORCISH] = {
 		"SA_REVERSEORCISH",
-		SkillName = "Reverse Orcish",
+		SkillName = "Ters Orc Dili",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9217,7 +9217,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_LULLABY_DEEPSLEEP] = {
 		"WM_LULLABY_DEEPSLEEP",
-		SkillName = "Deep Sleep Lullaby",
+		SkillName = "Derin Uyku Ninnisi",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -9228,7 +9228,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_DEATH] = {
 		"SA_DEATH",
-		SkillName = "Grim Reaper",
+		SkillName = "Azrail",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9236,7 +9236,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_DEADHILLHERE] = {
 		"WM_DEADHILLHERE",
-		SkillName = "Death Valley",
+		SkillName = "Olum Vadisi",
 		MaxLv = 5,
 		SpAmount = { 50, 53, 56, 59, 62 },
 		bSeperateLv = true,
@@ -9247,7 +9247,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_FORTUNE] = {
 		"SA_FORTUNE",
-		SkillName = "Fortune",
+		SkillName = "Sans",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9255,7 +9255,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_SEVERE_RAINSTORM] = {
 		"WM_SEVERE_RAINSTORM",
-		SkillName = "Severe Rainstorm",
+		SkillName = "Siddetli Yagmur Firtinasi",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -9271,7 +9271,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_TAMINGMONSTER] = {
 		"SA_TAMINGMONSTER",
-		SkillName = "Taming Monster",
+		SkillName = "Canavar Evcillestirme",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9279,7 +9279,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MI_RUSH_WINDMILL] = {
 		"MI_RUSH_WINDMILL",
-		SkillName = "Windmill Rush",
+		SkillName = "Yel Degirmeni Hucumu",
 		MaxLv = 5,
 		SpAmount = { 82, 88, 94, 100, 106 },
 		bSeperateLv = true,
@@ -9298,7 +9298,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_REVERBERATION] = {
 		"WM_REVERBERATION",
-		SkillName = "Reverberation",
+		SkillName = "Yanki",
 		MaxLv = 5,
 		SpAmount = { 56, 62, 68, 74, 80 },
 		bSeperateLv = true,
@@ -9314,7 +9314,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_GRAVITY] = {
 		"SA_GRAVITY",
-		SkillName = "Gravity",
+		SkillName = "Yercekimi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9322,7 +9322,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_METALICSOUND] = {
 		"WM_METALICSOUND",
-		SkillName = "Metallic Sound",
+		SkillName = "Metalik Ses",
 		MaxLv = 10,
 		SpAmount = { 62, 64, 66, 68, 70, 72, 74, 76, 78, 80 },
 		bSeperateLv = true,
@@ -9333,7 +9333,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_LEVELUP] = {
 		"SA_LEVELUP",
-		SkillName = "Level Up",
+		SkillName = "Seviye Atla",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9341,7 +9341,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_LESSON] = {
 		"WM_LESSON",
-		SkillName = "Lesson",
+		SkillName = "Ders",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9350,7 +9350,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_INSTANTDEATH] = {
 		"SA_INSTANTDEATH",
-		SkillName = "Instant Death",
+		SkillName = "Ani Olum",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9358,7 +9358,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MI_ECHOSONG] = {
 		"MI_ECHOSONG",
-		SkillName = "Echo Song",
+		SkillName = "Yanki Sarkisi",
 		MaxLv = 5,
 		SpAmount = { 86, 92, 98, 104, 110 },
 		bSeperateLv = true,
@@ -9369,7 +9369,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_FULLRECOVERY] = {
 		"SA_FULLRECOVERY",
-		SkillName = "Full Recovery",
+		SkillName = "Tam Iyilesme",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9377,7 +9377,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_DOMINION_IMPULSE] = {
 		"WM_DOMINION_IMPULSE",
-		SkillName = "Dominion Impulse",
+		SkillName = "Hakimiyet Darbesi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -9388,7 +9388,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_COMA] = {
 		"SA_COMA",
-		SkillName = "Coma",
+		SkillName = "Koma",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9396,7 +9396,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MG_FIREBOLT] = {
 		"MG_FIREBOLT",
-		SkillName = "Fire Bolt",
+		SkillName = "Ates Oku",
 		MaxLv = 10,
 		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
 		bSeperateLv = true,
@@ -9404,7 +9404,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_ADAPTATION] = {
 		"BD_ADAPTATION",
-		SkillName = "Adaptation to Circumstances",
+		SkillName = "Kosullara Uyum",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -9412,7 +9412,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_BEYOND_OF_WARCRY] = {
 		"WM_BEYOND_OF_WARCRY",
-		SkillName = "Beyond of Warcry",
+		SkillName = "Savas Cigliginin Otesi",
 		MaxLv = 5,
 		SpAmount = { 120, 130, 140, 150, 160 },
 		bSeperateLv = true,
@@ -9423,7 +9423,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_ENCORE] = {
 		"BD_ENCORE",
-		SkillName = "Encore",
+		SkillName = "Bis",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -9434,7 +9434,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_LULLABY] = {
 		"BD_LULLABY",
-		SkillName = "Lullaby",
+		SkillName = "Ninni",
 		MaxLv = 1,
 		SpAmount = { 40 },
 		bSeperateLv = false,
@@ -9449,7 +9449,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_PSYCHIC_WAVE] = {
 		"SO_PSYCHIC_WAVE",
-		SkillName = "Psychic Wave",
+		SkillName = "Psisik Dalga",
 		MaxLv = 5,
 		SpAmount = { 48, 56, 64, 70, 78 },
 		bSeperateLv = true,
@@ -9460,7 +9460,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_RICHMANKIM] = {
 		"BD_RICHMANKIM",
-		SkillName = "Mr. Kim A Rich Man",
+		SkillName = "Zengin Bay Kim",
 		MaxLv = 5,
 		SpAmount = { 62, 68, 74, 80, 86 },
 		bSeperateLv = false,
@@ -9471,7 +9471,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_SUMMON_AGNI] = {
 		"SO_SUMMON_AGNI",
-		SkillName = "Summon Agni",
+		SkillName = "Agni Cagir",
 		MaxLv = 3,
 		SpAmount = { 100, 150, 200 },
 		bSeperateLv = true,
@@ -9483,7 +9483,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_ETERNALCHAOS] = {
 		"BD_ETERNALCHAOS",
-		SkillName = "Eternal Chaos",
+		SkillName = "Ebedi Kaos",
 		MaxLv = 1,
 		SpAmount = { 120 },
 		bSeperateLv = false,
@@ -9494,7 +9494,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_FIRE_INSIGNIA] = {
 		"SO_FIRE_INSIGNIA",
-		SkillName = "Fire Insignia",
+		SkillName = "Ates Nisani",
 		MaxLv = 3,
 		SpAmount = { 22, 30, 38 },
 		bSeperateLv = true,
@@ -9505,7 +9505,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_DRUMBATTLEFIELD] = {
 		"BD_DRUMBATTLEFIELD",
-		SkillName = "Drum of Battlefield",
+		SkillName = "Savas Alani Davulu",
 		MaxLv = 5,
 		SpAmount = { 50, 54, 58, 62, 66 },
 		bSeperateLv = true,
@@ -9521,7 +9521,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_RINGNIBELUNGEN] = {
 		"BD_RINGNIBELUNGEN",
-		SkillName = "The Ring of Nibelungen",
+		SkillName = "Nibelungen Yuzugu",
 		MaxLv = 5,
 		SpAmount = { 64, 60, 56, 52, 48 },
 		bSeperateLv = true,
@@ -9532,7 +9532,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GN_SPORE_EXPLOSION] = {
 		"GN_SPORE_EXPLOSION",
-		SkillName = "Spore Explosion",
+		SkillName = "Spor Patlamasi",
 		MaxLv = 10,
 		SpAmount = { 48, 52, 56, 60, 64, 68, 72, 76, 80, 84 },
 		bSeperateLv = true,
@@ -9543,7 +9543,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_ROKISWEIL] = {
 		"BD_ROKISWEIL",
-		SkillName = "Loki's Wail",
+		SkillName = "Loki'nin Feryadi",
 		MaxLv = 1,
 		SpAmount = { 180 },
 		bSeperateLv = false,
@@ -9559,7 +9559,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_INTOABYSS] = {
 		"BD_INTOABYSS",
-		SkillName = "Into the Abyss",
+		SkillName = "Ucuruma",
 		MaxLv = 1,
 		SpAmount = { 70 },
 		bSeperateLv = false,
@@ -9570,7 +9570,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GN_S_PHARMACY] = {
 		"GN_S_PHARMACY",
-		SkillName = "Special Pharmacy",
+		SkillName = "Ozel Eczacilik",
 		MaxLv = 10,
 		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
 		bSeperateLv = true,
@@ -9578,7 +9578,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BD_SIEGFRIED] = {
 		"BD_SIEGFRIED",
-		SkillName = "Invulnerable Siegfried",
+		SkillName = "Yenilmez Siegfried",
 		MaxLv = 5,
 		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = false,
@@ -9593,7 +9593,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_RESTORE] = {
 		"GD_RESTORE",
-		SkillName = "Restore",
+		SkillName = "Yenile",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -9609,7 +9609,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_INSPIRATION] = {
 		"LG_INSPIRATION",
-		SkillName = "Inspiration",
+		SkillName = "Ilham",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -9622,7 +9622,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BA_MUSICALLESSON] = {
 		"BA_MUSICALLESSON",
-		SkillName = "Musical Lesson",
+		SkillName = "Muzik Dersi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9631,7 +9631,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_PIETY] = {
 		"LG_PIETY",
-		SkillName = "Piety",
+		SkillName = "Dindarlik",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -9642,7 +9642,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BA_MUSICALSTRIKE] = {
 		"BA_MUSICALSTRIKE",
-		SkillName = "Musical Strike",
+		SkillName = "Muzikal Darbe",
 		MaxLv = 5,
 		SpAmount = { 12, 12, 12, 12, 12 },
 		bSeperateLv = true,
@@ -9653,7 +9653,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_PRESTIGE] = {
 		"LG_PRESTIGE",
-		SkillName = "Prestige",
+		SkillName = "Itibar",
 		MaxLv = 5,
 		SpAmount = { 75, 80, 85, 90, 95 },
 		bSeperateLv = true,
@@ -9664,7 +9664,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BA_DISSONANCE] = {
 		"BA_DISSONANCE",
-		SkillName = "Dissonance",
+		SkillName = "Uyumsuzluk",
 		MaxLv = 5,
 		SpAmount = { 35, 38, 41, 44, 47 },
 		bSeperateLv = true,
@@ -9676,7 +9676,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_ODINS_POWER] = {
 		"ALL_ODINS_POWER",
-		SkillName = "Odin's Power",
+		SkillName = "Odin'in Gucu",
 		MaxLv = 2,
 		SpAmount = { 70, 100 },
 		bSeperateLv = false,
@@ -9685,7 +9685,7 @@ SKILL_INFO_LIST = {
 	-- Legacy (pre 2025-06-18 update)
 	[SKID.BA_FROSTJOKE] = {
 		"BA_FROSTJOKE",
-		SkillName = "Frost Joker",
+		SkillName = "Ayaz Esprisi",
 		MaxLv = 5,
 		SpAmount = { 12, 14, 16, 18, 20 },
 		bSeperateLv = true,
