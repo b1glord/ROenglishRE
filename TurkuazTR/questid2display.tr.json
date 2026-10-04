@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.15.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5677-5699 C-sinifi Prontera, Alberta, Morroc ve Comodo teslimat gorevleri dahil",
+    "version": "6.16.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5701-5725 kalan C-sinifi Orc Dungeon, Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6332,6 +6332,41 @@
       "title": "C-Sinifi Teslimat Gorevi",
       "description": "Morroc Pyramid 1F (moc_pryd01) icindeki Rogue Misen'e 10 Red Potion teslim et. Alici (122,112) koordinatlari yakininda.",
       "goal": "Rogue Misen'e 10 Red Potion teslim et"
+    },
+    "5701": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Geffen Orc Dungeon 1F (orcsdun01) icindeki Trainee Knight Banpik'e 10 Orange Potion teslim et. Alici (95,170) koordinatlari yakininda.",
+      "goal": "Trainee Knight Banpik'e 10 Orange Potion teslim et"
+    },
+    "5703": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Geffen Orc Dungeon 2F (orcsdun02) icindeki Trainee Knight Banpik'e 10 Yellow Potion teslim et. Alici (60,95) koordinatlari yakininda.",
+      "goal": "Trainee Knight Banpik'e 10 Yellow Potion teslim et"
+    },
+    "5717": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Abyss Lake Dungeon 1F (abyss_01) icindeki Big Brother Cat'e 10 Monster's Feed teslim et. Alici (247,267) koordinatlari yakininda.",
+      "goal": "Big Brother Cat'e 10 Monster's Feed teslim et"
+    },
+    "5719": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Juperos Ruins 1F (juperos_01) icindeki Juno Scholar Jeobi'ye 10 Concentration Potion teslim et. Alici (58,227) koordinatlari yakininda.",
+      "goal": "Juno Scholar Jeobi'ye 10 Concentration Potion teslim et"
+    },
+    "5721": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower B1 (alde_dun01) icindeki Wanderer Bibi'ye 10 Fly Wing teslim et. Alici (80,275) koordinatlari yakininda.",
+      "goal": "Wanderer Bibi'ye 10 Fly Wing teslim et"
+    },
+    "5723": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower 1F (c_tower1) icindeki Wanderer Bibi'ye 10 Fly Wing teslim et. Alici (378,118) koordinatlari yakininda.",
+      "goal": "Wanderer Bibi'ye 10 Fly Wing teslim et"
+    },
+    "5725": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim (glast_01) icindeki Raidin Curse'a 20 Trap teslim et. Alici (260,53) koordinatlari yakininda.",
+      "goal": "Raidin Curse'a 20 Trap teslim et"
     }
   }
 }
