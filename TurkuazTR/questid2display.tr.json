@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.18.1",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 6015-6024 Kuuga ve Gunslinger meslek degisimi gorev zinciri dahil",
+    "version": "6.19.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 6025-6027 KVM Guillaume, Croix ve katilim gostergesi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6452,6 +6452,21 @@
       "title": "Gunslinger Meslek Degisimi",
       "description": "Wise Bull Horn gerekli belgeyi hazirladi. Belgeyi Black Fox Miller'a gotur ve Gunslinger meslek degisimini tamamla.",
       "goal": "Black Fox Miller ile konus"
+    },
+    "6025": {
+      "title": "KVM Guillaume",
+      "description": "Guillaume tarafina sadakat yemini ettin. Onumuzdeki 5 dakika boyunca yalnizca Guillaume tarafindaki KVM maclarina katilabilirsin.",
+      "goal": "5 dakika Guillaume KVM tarafinda kal"
+    },
+    "6026": {
+      "title": "KVM Croix",
+      "description": "Croix tarafina sadakat yemini ettin. Onumuzdeki 5 dakika boyunca yalnizca Croix tarafindaki KVM maclarina katilabilirsin.",
+      "goal": "5 dakika Croix KVM tarafinda kal"
+    },
+    "6027": {
+      "title": "KVM Gostergesi",
+      "description": "KVM savasina katildigini gosteren bir isaret aldin. Isaret kaybolana kadar baska bir savasa katilamazsin.",
+      "goal": "Sure dolana kadar KVM savasi icin bekle"
     }
   }
 }
