@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.25.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60587-60704 Gramps avlari, Chocolate Fairy ve Lunar New Year bloklarindan 60 pending kayit dahil",
+    "version": "7.26.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60711-60843 Astrild, Seal of Megingjard, VIP ve Gramps hunting bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -22682,6 +22682,306 @@
       "title": "Lunar New Year",
       "description": "Turtle Island'a git ve headgear icin magic toplamak uzere 50 Spring Rabbit avla. Turtle Island'a gitmek icin Alberta'daki Turtle Grampa'yi bul.",
       "goal": "Turtle Island'da 50 Spring Rabbit avla"
+    },
+    "60711": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Prontera Church arkasinda Rosemary'nin oglunun nisanlisinin babasini bul. Acisini hafifletmek icin Bouquet getir.",
+      "goal": ""
+    },
+    "60712": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Geffen'de Wayne'in kizinin arkadasini bul ve yaninda Flowers getir.",
+      "goal": ""
+    },
+    "60713": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Payon Archer Village'da sinavlardan gecmis adami bul ve yaninda Awakening Potion getir.",
+      "goal": ""
+    },
+    "60714": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Prontera Library'de sinavlardan gecmis kadini bul ve yaninda Ribbon getir.",
+      "goal": ""
+    },
+    "60715": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Bir taming item aldin. Munak evcillestir ve Payon Temple'daki Head Priest Chee Joo'ya gotur.",
+      "goal": ""
+    },
+    "60716": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Bir taming item aldin. Bongun evcillestir ve Payon Temple'daki Head Priest Chee Joo'ya gotur.",
+      "goal": ""
+    },
+    "60717": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Payon Cave'in derinlerine git, Holy Water verecek priest'i bul ve Payon Temple'daki Chee Joo'ya geri gotur.",
+      "goal": ""
+    },
+    "60718": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Payon Cave'in derinlerine git, Holy Water verecek priest'i bul ve Payon Temple'daki Chee Joo'ya geri gotur.",
+      "goal": ""
+    },
+    "60719": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Holy Water'i Payon Temple'daki Head Priest Chee Joo'ya geri gotur.",
+      "goal": ""
+    },
+    "60720": {
+      "title": "Astrild'in Sinavlari",
+      "description": "Holy Water'i Payon Temple'daki Head Priest Chee Joo'ya geri gotur.",
+      "goal": ""
+    },
+    "60721": {
+      "title": "Seal of Megingjard",
+      "description": "Ayrilmadan once Rebarev Doug'a haber ver. Ama once Final Mission hakkinda daha fazla bilgi edin.",
+      "goal": ""
+    },
+    "60722": {
+      "title": "Seal of Megingjard",
+      "description": "Kullanilmiyor.",
+      "goal": ""
+    },
+    "60723": {
+      "title": "Seal of Megingjard",
+      "description": "Librarian Jekan'a 1st Squad'in final mission evraklarini bulup bulmadigini sor. Gozleri iyi gormuyor; Magnifier ve Lantern getir.",
+      "goal": ""
+    },
+    "60724": {
+      "title": "Seal of Megingjard",
+      "description": "Jekan mesgul gorunuyor. Bir sure document oku, sonra shelf'lerde The 3rd Platoon Records'u nerede araman gerektigini sor.",
+      "goal": ""
+    },
+    "60725": {
+      "title": "Seal of Megingjard",
+      "description": "Jekan copy hazirlamak icin 2 Slick Paper, 1 Oil Paper, 3 Feather of Birds ve 20 Blue Gem istiyor.",
+      "goal": "Bu item'lari Jekan'a getir ve copy'yi hizlandir"
+    },
+    "60726": {
+      "title": "Seal of Megingjard",
+      "description": "Records copy'sinde search magic var. Sirayla su konulari ara: crusader, 3rd_company, 3rd_platoon, 1st_squad.",
+      "goal": "Uyelerin isimlerini bul ve simdi nerede olduklarini ogren"
+    },
+    "60727": {
+      "title": "Seal of Megingjard",
+      "description": "Geffen Blacksmith Guild icindeki Zan Huadoku'yu bul. Final mission'u sormadan once nazikce halini hatirini sor.",
+      "goal": ""
+    },
+    "60728": {
+      "title": "Seal of Megingjard",
+      "description": "Zan Huadoku bildiklerini anlatti. Morocc'taki Inn'de son gorulen Cuaque Donon'u bul.",
+      "goal": ""
+    },
+    "60729": {
+      "title": "Seal of Megingjard",
+      "description": "Cuaque Donon muhtemelen Fortress Saint Darmain South'taki Rogue Guild hideout'ta. Giris password'u: Aragham never hoarded upgrade items.",
+      "goal": "Cuaque agir PTSD yasiyor; onunla sakin ve cocuk gibi konusmak ise yarayabilir"
+    },
+    "60730": {
+      "title": "Seal of Megingjard",
+      "description": "Cuaque, squad'in Megingjard'i buldugunu ve tartisma ciktigini anlatti. Daha fazlasi icin Alberta docks'taki Jack.O ile konus.",
+      "goal": "Jack.O hala aktif crusader; onunla konusmak daha kolay olmali"
+    },
+    "60731": {
+      "title": "Seal of Megingjard",
+      "description": "Jack.O Green Herb ile biraz rahatladigini soyledi. Aldebaran'daki Emma Searth'i bul. Diger crusader'lara da bu tavsiyeyi iletebilirsin.",
+      "goal": "Rideword'dan Bookclip gibi bir memory aid ise yarayabilir"
+    },
+    "60732": {
+      "title": "Seal of Megingjard",
+      "description": "Jawaii Inn'de bouncer olarak calisan The Nineball'u bul. Central Prontera Pub'daki eski Jawaii barkeep sana oraya gitmenin yolunu gosterebilir.",
+      "goal": "Nineball kolay konusmayabilir; tepki verene kadar konusmaya devam et"
+    },
+    "60733": {
+      "title": "Seal of Megingjard",
+      "description": "Jawaii'den Butterfly Wing ile cik veya iceceklerle Rune-Midgarts'a don. Comodo south casino'daki Royal Myst'i bul.",
+      "goal": "Birkac Alcohol Royal Myst'in dilini cozebilir"
+    },
+    "60734": {
+      "title": "Seal of Megingjard",
+      "description": "Hayatta kalan crusader'larla konustun. Megingjard yuzunden tartisma cikmis ve Crusader Egnigem olmus. Prontera Castle'a don ve bulgularini bildir.",
+      "goal": "Comodo-Morocc-Prontera Kafra rotasi hizli olabilir"
+    },
+    "60735": {
+      "title": "Seal of Megingjard",
+      "description": "1st Squad'in son uyesi late Egnigem ile konus. Prontera'dan Morocc, Comodo, Umbala ve Tree of Life uzerinden Niflheim'e ulasabilirsin.",
+      "goal": "Egnigem'i dinle ve durumu duzeltmek icin ne yapabilecegini ogren"
+    },
+    "60736": {
+      "title": "Seal of Megingjard",
+      "description": "Kutsal bir Crusader'in Megingjard gucu icin boyle bir suca karistigina inanmak zor. Crusader Headquarters'a don ve Max Von Shedough'a anlat.",
+      "goal": ""
+    },
+    "60737": {
+      "title": "Seal of Megingjard",
+      "description": "Max Von Shedough report'u kabul etti ama politik gercekler adaletin onune gecebilir.",
+      "goal": "Sonucu Egnigem'e anlat; ne ugruna oldugunu bilmeyi hak ediyor"
+    },
+    "60738": {
+      "title": "Seal of Megingjard",
+      "description": "Egnigem kalan tum gucuyle seni kutsadi. Onun kaderini Emma Searth'e anlatmalisin.",
+      "goal": ""
+    },
+    "60739": {
+      "title": "Seal of Megingjard",
+      "description": "Emma hatirlayamiyor ama kaybi hissediyor. Adalete inancin sarsildi. Bu yukten Max Von Shedough da payini almali.",
+      "goal": "Prontera Castle'daki Max Von Shedough'a don"
+    },
+    "60801": {
+      "title": "WoE Pet Breeder",
+      "description": "WoE Realms disindaki Pet Breeder'dan yeni mount kiralamadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60810": {
+      "title": "Limited VIP Access",
+      "description": "3 gun boyunca indirimli Kafra hizmetleri, Primo d'Buffer, VIP warp'lari ve Gramps'in iki hunting quest ozelligine erisim verir. Sure dolunca erisim kapanir.",
+      "goal": "VIP EXP bonuslari, ekstra character slot ve 600 storage dahil degildir"
+    },
+    "60815": {
+      "title": "Removal Avi",
+      "description": "400 Removal avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60816": {
+      "title": "Khalitzburg Avi",
+      "description": "400 Khalitzburg avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60817": {
+      "title": "Bloody Butterfly Avi",
+      "description": "400 Bloody Butterfly avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60818": {
+      "title": "Hell Poodle Avi",
+      "description": "400 Hell Poodle avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60819": {
+      "title": "Gunluk Av Suresi",
+      "description": "Yeni random bonus buff almadan once 16 saatlik surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60820": {
+      "title": "High Orc Avi",
+      "description": "400 High Orc avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60821": {
+      "title": "Freezer Avi",
+      "description": "400 Freezer avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60822": {
+      "title": "Draco Avi",
+      "description": "400 Draco avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60823": {
+      "title": "Incarnation of Morocc Avi",
+      "description": "400 Incarnation of Morocc avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60824": {
+      "title": "Holden Avi",
+      "description": "400 Holden avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60825": {
+      "title": "Elder Avi",
+      "description": "400 Elder avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60826": {
+      "title": "Parus Avi",
+      "description": "400 Parus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60827": {
+      "title": "Siroma Avi",
+      "description": "400 Siroma avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60828": {
+      "title": "Zombie Prisoner Avi",
+      "description": "400 Zombie Prisoner avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60829": {
+      "title": "Incarnation of Morocc Avi",
+      "description": "400 Incarnation of Morocc avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60830": {
+      "title": "Evil Druid Avi",
+      "description": "400 Evil Druid avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60831": {
+      "title": "Abysmal Knight Avi",
+      "description": "400 Abysmal Knight avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60832": {
+      "title": "Shinobi Avi",
+      "description": "400 Shinobi avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60833": {
+      "title": "Harpy Avi",
+      "description": "400 Harpy avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60834": {
+      "title": "Kapha Avi",
+      "description": "400 Kapha avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60835": {
+      "title": "Flame Skull Avi",
+      "description": "Flame Skull avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60836": {
+      "title": "Aunoe Avi",
+      "description": "400 Aunoe avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60837": {
+      "title": "Fanat Avi",
+      "description": "400 Fanat avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60838": {
+      "title": "The Paper Avi",
+      "description": "400 The Paper avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60839": {
+      "title": "Tengu Avi",
+      "description": "400 Tengu avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60840": {
+      "title": "Headless Mule Avi",
+      "description": "400 Headless Mule avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60841": {
+      "title": "Dark Priest Avi",
+      "description": "400 Dark Priest avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60842": {
+      "title": "Anubis Avi",
+      "description": "400 Anubis avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60843": {
+      "title": "Yao Jun Avi",
+      "description": "400 Yao Jun avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
     }
   }
 }
