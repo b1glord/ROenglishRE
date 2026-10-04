@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.10.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5505-5521 A-sinifi Morroc, Nameless Island ve Thor Volcano teslimat gorevleri dahil",
+    "version": "6.11.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5549-5571 kalan A-sinifi Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6147,6 +6147,31 @@
       "title": "A-Sinifi Teslimat Gorevi",
       "description": "Thor Volcano Dungeon 3F (thor_v03) icindeki Masked Man'e 2 Water Elemental Converter teslim et. Alici (44,283) koordinatlari yakininda.",
       "goal": "Masked Man'e 2 Water Elemental Converter teslim et"
+    },
+    "5549": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Abyss Lake Dungeon 3F (abyss_03) icindeki Bulleobeo'ya 10 Hot Sauce teslim et. Alici (100,40) koordinatlari yakininda.",
+      "goal": "Bulleobeo'ya 10 Hot Sauce teslim et"
+    },
+    "5551": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Juperos Core (jupe_core) icindeki Monk Wabi'ye 30 Meat teslim et. Alici (134,283) koordinatlari yakininda.",
+      "goal": "Monk Wabi'ye 30 Meat teslim et"
+    },
+    "5555": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower B4 (alde_dun04) icindeki olumcul yarali adama 3 Butterfly Wing teslim et. Alici (147,137) koordinatlari yakininda.",
+      "goal": "Olumcul yarali adama 3 Butterfly Wing teslim et"
+    },
+    "5557": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower 4F (c_tower4) icindeki Adventurer Molly'ye 3 Butterfly Wing teslim et. Alici (179,57) koordinatlari yakininda.",
+      "goal": "Adventurer Molly'ye 3 Butterfly Wing teslim et"
+    },
+    "5571": {
+      "title": "A-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim Prison 2F (gl_prison1) icindeki Wizard Aesuh'a 10 Fly Wing teslim et. Alici (160,29) koordinatlari yakininda.",
+      "goal": "Wizard Aesuh'a 10 Fly Wing teslim et"
     }
   }
 }
