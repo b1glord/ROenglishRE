@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.97.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11296-11355 Port Malaya Nurse, Eclage, Moreng-Yube, Criatura Academy ve Dimensional Travel bloklarindan 60 pending kayit dahil",
+    "version": "6.98.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11356-11418 Specimen Collection, Phantasmagorika, Final Room, Vestige, Royal Head Chef ve Geoborg bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -14282,6 +14282,306 @@
       "title": "Ornek Toplama",
       "description": "20 fire pit incele ve Firebug'lardan 50 Burning Insect Shell topla.",
       "goal": "Fire pit'leri incele"
+    },
+    "11356": {
+      "title": "Ornek Toplama",
+      "description": "50 Sonia topla ve 50 Stem elde et.",
+      "goal": "Tamarin ile konus"
+    },
+    "11357": {
+      "title": "Ornek Toplama",
+      "description": "25 Sonia topla ve 25 Stem elde et. Bolgenin merkezindeki buyuk kayanin yaninda Tamarin ile bulus.",
+      "goal": "Tamarin ile bulus"
+    },
+    "11358": {
+      "title": "Ornek Toplama",
+      "description": "Base'deki Barget Tiblack'e geri don.",
+      "goal": "Barget Tiblack ile konus"
+    },
+    "11359": {
+      "title": "Antidote",
+      "description": "Asagida duran Instructor Rugen'e 25 Delicious Stem teslim et.",
+      "goal": "Instructor Rugen ile konus"
+    },
+    "11360": {
+      "title": "Antidote",
+      "description": "Delicious Stem'leri Intoxicated Patient'lara yedir.",
+      "goal": "Intoxicated Patient"
+    },
+    "11361": {
+      "title": "Antidote",
+      "description": "Hastalar iyilesti. Instructor Rugen ile konus.",
+      "goal": "Instructor Rugen ile konus"
+    },
+    "11362": {
+      "title": "Antidote",
+      "description": "Delicious Stem'lerin etkili oldugu kanitlandi. Barget Tiblack'e geri don.",
+      "goal": "Barget Tiblack ile konus"
+    },
+    "11363": {
+      "title": "Phantasmagorika'ya!",
+      "description": "Lighthalzen'daki Rekenber Corporation Headquarters'a git. Ana girisin bati tarafindaki masada Leitner ile konus.",
+      "goal": "Leitner ile konus"
+    },
+    "11364": {
+      "title": "Phantasmagorika'ya!",
+      "description": "Elevator kullanimi icin kaydoldun. Devam etmek icin Elisha ile konus.",
+      "goal": "Elisha ile konus"
+    },
+    "11365": {
+      "title": "Phantasmagorika'ya!",
+      "description": "Phantasmagorika'nin ortasindaki fountain yaninda Guide Scarlet ile bulus.",
+      "goal": "Scarlet ile konus"
+    },
+    "11366": {
+      "title": "Phantasmagorika'ya!",
+      "description": "Juperos'taki Dimik'lerden 30 Used Iron Plate topla.",
+      "goal": "30 Used Iron Plate"
+    },
+    "11367": {
+      "title": "Izleri Ara",
+      "description": "Phantasmagorika'da ilk gordugun sey merkezdeki dev fountain. Deus ile birlikte fountain'i arastir.",
+      "goal": "Fountain'i arastir"
+    },
+    "11368": {
+      "title": "Izleri Ara",
+      "description": "Fountain'da bir sey bulamadin. Sol taraftaki esyalari kontrol et.",
+      "goal": "Esyalari arastir"
+    },
+    "11369": {
+      "title": "Izleri Ara",
+      "description": "Bu ortam bitkiler icin uygun mu? Sol ustteki agaci kontrol et.",
+      "goal": "Agaci arastir"
+    },
+    "11370": {
+      "title": "Izleri Ara",
+      "description": "Kapida garip gorunumlu bir sign asili. Incele.",
+      "goal": "Sign'i incele"
+    },
+    "11371": {
+      "title": "Izleri Ara",
+      "description": "Binanin arkasinda yeni bir yol var. Binanin etrafindan dolas ve portal'a gir.",
+      "goal": "Diger bolgeye gec"
+    },
+    "11372": {
+      "title": "Izleri Ara",
+      "description": "Ust taraftaki fountain'i arastir.",
+      "goal": "Fountain'i arastir"
+    },
+    "11373": {
+      "title": "Izleri Ara",
+      "description": "Mark'i kuzeye dogru takip et.",
+      "goal": "Mark ile konus"
+    },
+    "11374": {
+      "title": "Izleri Ara",
+      "description": "Yol kapali. Daha ileride duran Tamarin ile konus.",
+      "goal": "Tamarin ile konus"
+    },
+    "11375": {
+      "title": "Izleri Ara",
+      "description": "Asagidaki Magi ile konus.",
+      "goal": "Magi ile konus"
+    },
+    "11376": {
+      "title": "Uzmanlar Halletsin",
+      "description": "Elevator aniden durdu ama bozuk gorunmuyor. Asagi inip kontrol et.",
+      "goal": "Elevator'u kontrol et"
+    },
+    "11377": {
+      "title": "Bir Iyilik",
+      "description": "Elevator kapilarinin arasinda sikisan adama yardim ettin.",
+      "goal": ""
+    },
+    "11378": {
+      "title": "Trick or Treat",
+      "description": "Yaklasik 30 porsiyon 'Non-GMO Pumpkin' veya 'Organic Pumpkin' topla ve Niflheim'daki Candy Corn Chef'e teslim et.",
+      "goal": "Pumpkin teslim et"
+    },
+    "11379": {
+      "title": "Final Room",
+      "description": "Final Room'a girdin. 23 saat sonra tekrar girebilirsin.",
+      "goal": ""
+    },
+    "11380": {
+      "title": "Final Room",
+      "description": "Gizli bir alan buldun. Dungeon sonundaki canavari hallettikten sonra Fruit'e geri don.",
+      "goal": "T_W_O'yu yok et"
+    },
+    "11381": {
+      "title": "Vestige",
+      "description": "Merkezde inanilmaz bir cihaz var gibi. Git ve incele.",
+      "goal": "Merkezdeki cihazi incele"
+    },
+    "11382": {
+      "title": "Vestige",
+      "description": "Fruit'ten underground bunker'i arastirma gorevi aldin. Bolgede bir guide olmali, onu bul.",
+      "goal": "Underground bunker'a git"
+    },
+    "11383": {
+      "title": "Vestige",
+      "description": "Underground bunker'da kurtarilmaya deger seyler olup olmadigini kontrol et.",
+      "goal": "Underground bunker'i arastir"
+    },
+    "11384": {
+      "title": "Vestige",
+      "description": "Garip enerjiye sahip bir oda buldun. Icari gir.",
+      "goal": "Odaya gir"
+    },
+    "11385": {
+      "title": "Vestige",
+      "description": "Odada supheli bir kapi buldun. Icari gir.",
+      "goal": "Kapidan gir"
+    },
+    "11386": {
+      "title": "Vestige",
+      "description": "Garip bir alana ulastin. Geri donus yolu var gibi, onu kullan.",
+      "goal": "Geri donus yolu"
+    },
+    "11387": {
+      "title": "Vestige",
+      "description": "Garip bir odaya geldin. Yanindakilerle konus.",
+      "goal": "Du ile konus"
+    },
+    "11388": {
+      "title": "Vestige",
+      "description": "Geri donus yolu kapandi. Iceriye dogru ilerlemeye devam et.",
+      "goal": "Ic bolgeye ilerle"
+    },
+    "11389": {
+      "title": "Vestige",
+      "description": "Garip bir not buldun. Uzerinde tuhaf bir mesaj yaziyor.",
+      "goal": "Ilerlemeye devam et"
+    },
+    "11393": {
+      "title": "2015 Yeni Yil Sapkasi",
+      "description": "Shepherd Boy'un son saheseri! Sicak gorunumlu bu wool hat'i yapmayi dene.",
+      "goal": "Hat uretimini tamamla"
+    },
+    "11394": {
+      "title": "Royal Head Chef'in Cagrisi",
+      "description": "Mutfaktaki Royal Head Chef seni ariyor gibi.",
+      "goal": "Royal Head Chef ile konus"
+    },
+    "11395": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Yemekte kullanilacak sauce'u getirmen istendi. Yakindaki Sauce Master ile gorus.",
+      "goal": "Sauce Master ile konus"
+    },
+    "11396": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Master ile birlikte sauce hazirla.",
+      "goal": "Sauce hazirla"
+    },
+    "11397": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Sauce'u Head Chef'e gotur.",
+      "goal": "Head Chef ile konus"
+    },
+    "11398": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Bos yeri doldur ve inanilmaz luks, son derece gorkemli ziyafet icin yemegi hazirla.",
+      "goal": "Empty Spot'a git"
+    },
+    "11399": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Citir kabuklu, sulu etli ve ozel sauce ile kapli grilled griffin'i dining room'a gotur.",
+      "goal": "Dining Room'a teslim et"
+    },
+    "11400": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesinin basi Queen Catherine D. Geoborg ile konus.",
+      "goal": "Queen ile konus"
+    },
+    "11401": {
+      "title": "Geoborg Ailesi",
+      "description": "Queen benimle konusamayacak kadar mesgul gorunuyor. Onun yerine Bodyguard Jerad ile konus.",
+      "goal": "Jerad ile konus"
+    },
+    "11402": {
+      "title": "Geoborg Ailesi",
+      "description": "Queen'in kiz kardesi Scarlet Jaha ile bulusmak icin Banquet Hall'a git.",
+      "goal": "Scarlet ile konus"
+    },
+    "11403": {
+      "title": "Geoborg Ailesi",
+      "description": "Scarlet Jaha ile Geoborg ailesi hakkinda konusurken Lidion Geoborg sohbete karisti.",
+      "goal": "Lidion ile konus"
+    },
+    "11404": {
+      "title": "Geoborg Ailesi",
+      "description": "Lidion ofkeyle bagiriyor. Konusmaya devam etmek mumkun gorunmuyor. Scarlet ile tekrar konus.",
+      "goal": "Scarlet ile konus"
+    },
+    "11405": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesinden Prince Ernst'i bul. Banquet Hall'da olmasi gerekiyor.",
+      "goal": "Banquet Hall Arastirmasi (0/7)"
+    },
+    "11406": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (1/7)"
+    },
+    "11407": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (2/7)"
+    },
+    "11408": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (3/7)"
+    },
+    "11409": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (4/7)"
+    },
+    "11410": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (5/7)"
+    },
+    "11411": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst'i aramaya devam et.",
+      "goal": "Banquet Hall Arastirmasi (6/7)"
+    },
+    "11412": {
+      "title": "Geoborg Ailesi",
+      "description": "Geoborg ailesi hakkinda soylentileri duydun. Prince Ernst Banquet Hall'dan ayrilmis olmali. Scarlet'a geri don.",
+      "goal": "Scarlet'a git"
+    },
+    "11413": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Dining room'da calisan Tamarin ile konus.",
+      "goal": "Tamarin ile konus"
+    },
+    "11414": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Banquet Hall'daki Dyu ile gorus.",
+      "goal": "Dyu ile konus"
+    },
+    "11415": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Dyu bilmiyor gibi. Yanindaki Magi ile konus.",
+      "goal": "Magi ile konus"
+    },
+    "11416": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Banquet Hall'un ust katinda calisan Mark ile konus.",
+      "goal": "Mark ile konus"
+    },
+    "11417": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Alice ile konus.",
+      "goal": "Alice ile konus"
+    },
+    "11418": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Tamarin'e geri don.",
+      "goal": "Tamarin ile konus"
     }
   }
 }
