@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.08.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 13131-13205 Rachel-Nameless-Abyss avlari, Bio Lab hikayeleri, Scaraba, Jitterbug, Charleston ve Monthly Brigan bloklarindan 60 pending kayit dahil",
+    "version": "7.09.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 14001-14244 Poring, Wuhari-Wuhuru, Archer egitimi ve Prontera invasion bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -17581,6 +17581,306 @@
     "13205": {
       "title": "Grylls'in Talebi - Tamamlandi",
       "description": "",
+      "goal": ""
+    },
+    "14001": {
+      "title": "Poring ve Poring Coin",
+      "description": "10 Poring Coin elde et; ayrica 5 Poring Coin daha topla.",
+      "goal": "10 Poring Coin"
+    },
+    "14002": {
+      "title": "Poring ve Poring Coin",
+      "description": "Poring'ler Poring Coin dusurecek. 5 tane topla.",
+      "goal": "5 Poring Coin"
+    },
+    "14003": {
+      "title": "Poring ve Manuk Coin",
+      "description": "Poring'ler Manuk Coin dusurecek. 5 tane topla.",
+      "goal": "5 Manuk Coin"
+    },
+    "14004": {
+      "title": "Valkyrie Ring",
+      "description": "Valkyrie Ring Box'u al.",
+      "goal": ""
+    },
+    "14118": {
+      "title": "Wuhari'nin Endisesi",
+      "description": "Wuhari hapisteki kardesi icin endiseleniyor. Hapishaneye girmenin bir yolunu bul ve icten mektubunu kardesine teslim et.",
+      "goal": ""
+    },
+    "14119": {
+      "title": "Sabir Testi",
+      "description": "Prisoner konusuldugunda cevap vermiyor. Sabrini test ediyor gibi gorunuyor.",
+      "goal": "Prisoner ile konus"
+    },
+    "14120": {
+      "title": "Sabir Testi 2",
+      "description": "Prisoner birkac kez konusmana ragmen hala cevap vermiyor. Tekrar dene.",
+      "goal": "Prisoner ile konus"
+    },
+    "14121": {
+      "title": "Sabir Testi 3",
+      "description": "Ne yaparsan yap adam agzini acmiyor. Baska bir yol olmali.",
+      "goal": "Prisoner ile konus"
+    },
+    "14122": {
+      "title": "Biraz Zaman Ver",
+      "description": "Wuhari'nin mektubu Wuhuru'ya teslim edildi. Mektubu okumak icin biraz zaman istedi. Okurken onu rahatsiz etme.",
+      "goal": "Mektubu okumasina zaman ver"
+    },
+    "14123": {
+      "title": "Wuhuru'nun Ricasi",
+      "description": "Wuhuru kardesinin mektubunu okuduktan sonra uzun uzun hikayesini anlatti ve kardesine selam gondermeni istedi. Wuhari'ye don ve selamini ilet.",
+      "goal": "Wuhari'ye selam ilet"
+    },
+    "14124": {
+      "title": "Ilk Talep",
+      "description": "Jade'in hayvani dun gece calindi. Olayi arastir ve ne oldugunu rapor et.",
+      "goal": "Jade'in evi"
+    },
+    "14125": {
+      "title": "Cevreyi Arastir",
+      "description": "Wuhari, Wuhuru'nun bedenini geri getirmenin yollarini ariyor ancak nasil yapacagini bilmiyor. Yakindaki insanlar bir sey biliyor olabilir. Cevreyi arastir.",
+      "goal": "Kasabadaki insanlarla konus"
+    },
+    "14126": {
+      "title": "Ms. Goatie'yi Ara",
+      "description": "Mr. Masione pek bir sey bilmedigini soyledi ancak bu konularda daha keskin olan Ms. Goatie'yi onerdi.",
+      "goal": "Ms. Goatie'yi bul"
+    },
+    "14127": {
+      "title": "Ms. Goatie'nin Esini Ara",
+      "description": "Ms. Goatie, Wuhuru'nun bir kagidi sallarken cok mutlu oldugunu anlatti. Kagit hakkinda daha fazlasini esinin bilebilecegini soyledi.",
+      "goal": "Ms. Goatie'nin esini bul"
+    },
+    "14128": {
+      "title": "Arastirma Raporunu Al",
+      "description": "Wuhuru'ya yakin olan Mr. Svery daha fazlasini biliyordu. Wuhuru hapse goturulmeden once biraktigi mektupta arastirma raporu vardi. Raporu Wuhari'ye gotur.",
+      "goal": "Raporu teslim et"
+    },
+    "14131": {
+      "title": "Analiz Zamani",
+      "description": "Wuhari raporu aldi ancak analiz etmenin zaman alacagini soyledi. Biraz sonra tekrar konus. Calisan birini rahatsiz etme.",
+      "goal": "Analiz icin zaman ver"
+    },
+    "14132": {
+      "title": "Bizim Arastirmamiz",
+      "description": "Hayvan bulunduktan sonra once ne oldugunu arastirmamiz gerekiyor.",
+      "goal": "Arastirmayi yap"
+    },
+    "14133": {
+      "title": "Baska Bir Rica",
+      "description": "Wuhari raporu analiz etti ama kardesinin bedenini nasil geri getireceginden hala emin degil. Wuhuru'yu arastirmaya davet eden Lapine'i bulup sor.",
+      "goal": "Kaniti elde et"
+    },
+    "14134": {
+      "title": "Keskin Ms. Goatie",
+      "description": "Mr. Svery high-level Lapine hakkinda bilgisi olmadigini soyledi. Ancak bu konularda keskin olan esine gitmeni onerdi.",
+      "goal": "Ms. Goatie'ye git"
+    },
+    "14135": {
+      "title": "Mr. Pompe'yi Ara",
+      "description": "Ms. Goatie high-level Lapine'in nerede oldugunu bilmiyordu. Komsubu Mr. Pompe tarlada bir Lapine gordugunu, sonra kayboldugunu soyledi. Ayrintilar icin ona sor.",
+      "goal": "Mr. Pompe'nin hikayesini dinle"
+    },
+    "14136": {
+      "title": "Tarladaki Korkunc Manzara",
+      "description": "Mr. Pompe tarlaya gitmekten korkuyor. Bir high-level Lapine korkunc sekilde oldugunden beri buyuk bir cesedin orada yattigini anlatti. Tarlayi arastir.",
+      "goal": "Tarlayi arastir"
+    },
+    "14137": {
+      "title": "Ilginc Bir Teklif",
+      "description": "Bir Lapine kiz ilginc bir teklif yapti. Wuhuru'ya arastirma raporunu veren Lapine'in kayip babasi oldugunu dusunuyor. Birlikte onu ara.",
+      "goal": "Tarlayi arastir"
+    },
+    "14138": {
+      "title": "Buyuk Ceset",
+      "description": "Uzun suredir orada duran buyuk bir ceset buldun. Herkesin aradigi Lapine oydu. Bu kotu haberi kiza bildir.",
+      "goal": "Giranni'ye rapor ver"
+    },
+    "14139": {
+      "title": "Wuhuru'ya Don",
+      "description": "Kiz cesedin babasina ait oldugunu dogruladi. Aranan Lapine oldugu icin Wuhari'ye eli bos doneceksin. Once Wuhuru'ya gidip birlikte calistigi Lapine'i anlat.",
+      "goal": "Wuhuru'ya git"
+    },
+    "14140": {
+      "title": "Wuhari'ye Don",
+      "description": "Wuhuru tum hikayesini anlatti ancak hepsini Wuhari'yle paylasamazsin. En azindan Lapine'in oldugunu bildirmek icin Wuhari'ye git.",
+      "goal": "Wuhari'ye rapor ver"
+    },
+    "14141": {
+      "title": "Arastirma Malzemeleri",
+      "description": "Wuhari kendi arastirmasinda kullanmak icin malzemeler istedi: 1 Wing Piece, 1 Sturdy Hair, 1 Bradium, 1 Rune of Darkness ve 1 Rune of Blood getir.",
+      "goal": "Gerekli item'lari elde et"
+    },
+    "14142": {
+      "title": "Archer Kasabasina",
+      "description": "Payon'a gidip kuzeye ilerleyerek Archer's Guild'e ulas ve dersi tamamla.",
+      "goal": "Archer kasabasina git"
+    },
+    "14143": {
+      "title": "Archer Job Change Basvurusu",
+      "description": "Sonunda Archer job change icin basvurdun. Archer's Guild'deki job change gorevlisine git.",
+      "goal": "Job change basvurusu yap"
+    },
+    "14144": {
+      "title": "Tekrar Test - Statlar",
+      "description": "Statlar hakkinda yeniden iyice ogrendikten sonra testi tekrar yap.",
+      "goal": "Stat testini tekrar yap"
+    },
+    "14145": {
+      "title": "Archer Skill'leri",
+      "description": "Archer skill'leri hakkindaki ayrintilari dinle.",
+      "goal": ""
+    },
+    "14146": {
+      "title": "Avlanma Egitimi",
+      "description": "Teori iyidir ama saha uygulamasi daha iyidir. Eagle's Eye trainer ile avlanma egitimini dene.",
+      "goal": "Avlanma egitimi"
+    },
+    "14147": {
+      "title": "Tekrar Test - Skill'ler",
+      "description": "Skill'ler hakkinda yeniden iyice ogrendikten sonra testi tekrar yap.",
+      "goal": "Skill testini tekrar yap"
+    },
+    "14148": {
+      "title": "Sonraki Adim",
+      "description": "2nd job change hakkindaki aciklamayi dinle.",
+      "goal": "Marlbron'u bul"
+    },
+    "14149": {
+      "title": "2nd Job Change Aciklamasi",
+      "description": "Archer'in 2nd job class'lari Hunter, Bard ve Dancer'dir. Hunter PR staff aciklama yapar; Dancer staff yerinde olmadigi icin Bard staff Dancer class'ini da anlatacak.",
+      "goal": "2nd job class aciklamasini dinle"
+    },
+    "14150": {
+      "title": "Sonraki Adim",
+      "description": "Mr. Marlborn ile gorus.",
+      "goal": "Marlbron ile konus"
+    },
+    "14151": {
+      "title": "Avlanma Egitimi - Spore",
+      "description": "Avlanma egitiminin ilk adimi. 10 Spore avlayip rapor ver.",
+      "goal": "10 Spore avla"
+    },
+    "14152": {
+      "title": "Avlanma Egitimi - Creamy",
+      "description": "Avlanma egitiminin ikinci adimi. 10 Creamy avlayip rapor ver.",
+      "goal": "10 Creamy avla"
+    },
+    "14153": {
+      "title": "Avlanma Egitimi - Skeleton",
+      "description": "Avlanma egitiminin ucuncu adimi. 10 Skeleton avlayip rapor ver.",
+      "goal": "10 Skeleton avla"
+    },
+    "14154": {
+      "title": "Kokulu Herb Karisimi",
+      "description": "Kokulu herb karisimi icin 1 Clover, 1 Green Herb ve 1 Red Herb bulup getir.",
+      "goal": "Malzemeleri bul"
+    },
+    "14155": {
+      "title": "Citir Salata",
+      "description": "Citir salata icin 1 Apple ve 2 Carrot bulup getir.",
+      "goal": "Malzemeleri bul"
+    },
+    "14156": {
+      "title": "Karisk Shabushabu",
+      "description": "Shabushabu icin 1 Jellopy, 1 Fluff ve 1 Feather bulup getir.",
+      "goal": "Malzemeleri bul"
+    },
+    "14157": {
+      "title": "Firinlanmis Golden Apple",
+      "description": "Firinlanmis golden apple icin 1 Apple ve 1 Clover bulup getir.",
+      "goal": "Malzemeleri bul"
+    },
+    "14158": {
+      "title": "Archer Manual Sunumu",
+      "description": "Archer skill'lerini deneyimlemek icin guide sunumu yapiliyor.",
+      "goal": "Archer Manual sunumunu dinle"
+    },
+    "14159": {
+      "title": "PR Staff ile Bulustun",
+      "description": "Hunter PR staff ile bulustun.",
+      "goal": "PR staff ile bulus"
+    },
+    "14160": {
+      "title": "PR Staff ile Bulustun",
+      "description": "Bard ve Dancer PR staff ile bulustun.",
+      "goal": "PR staff ile bulus"
+    },
+    "14161": {
+      "title": "Stat Testi",
+      "description": "Archer Trainer'dan stat testi al.",
+      "goal": ""
+    },
+    "14162": {
+      "title": "Skill Testi",
+      "description": "Archer Trainer'dan skill testi al.",
+      "goal": ""
+    },
+    "14163": {
+      "title": "Spore'lar Yakalanmis",
+      "description": "10 Spore yakaladin.",
+      "goal": ""
+    },
+    "14164": {
+      "title": "Creamy'ler Yakalanmis",
+      "description": "10 Creamy yakaladin.",
+      "goal": ""
+    },
+    "14165": {
+      "title": "Skeleton'lar Yakalanmis",
+      "description": "10 Skeleton yakaladin.",
+      "goal": ""
+    },
+    "14235": {
+      "title": "Prontera Isgal Edildi",
+      "description": "Annie Prontera Castle Gates yakininda bulusacagini soyledi. Saklanacagi icin onu araman gerekebilir.",
+      "goal": "Annie'yi bul"
+    },
+    "14236": {
+      "title": "Fruit Gardener",
+      "description": "Hatirladigin kadariyla tezgahi Prontera'nin guneybatisindaydi. Fruit Gardener'i bul.",
+      "goal": ""
+    },
+    "14237": {
+      "title": "Mercenary Guild'e Git",
+      "description": "Kaleye girmek icin yardim gerekecek. Hayatta kalan biri var mi diye Mercenary Guild'e git.",
+      "goal": "Mercenary Guild'e git"
+    },
+    "14238": {
+      "title": "Orc Archer'lari Yen",
+      "description": "Guild leader icin bir iyilik yapmayi kabul ettin. 50 Orc Archer yen ve Mercenary'yi hayatta tutmaya calis.",
+      "goal": ""
+    },
+    "14239": {
+      "title": "Father Thyme",
+      "description": "Father Thyme'in Mercenary Guild icin bir talebi var. Prontera Church'e git ve Father Thyme ile konus.",
+      "goal": "Father Thyme ile konus"
+    },
+    "14240": {
+      "title": "Malzemeleri Topla",
+      "description": "Church'e yardim tasiyan askerlerin hepsi saldiriya ugradi. Prontera'daki terk edilmis binalardan yardim malzemelerini bul.",
+      "goal": "5 Clean Bandage, 5 Rubbing Alcohol, 5 Sour Grass, 5 First Aid Kit, 5 Relief Food"
+    },
+    "14241": {
+      "title": "Kaleye Geri Don",
+      "description": "Father Thyme iyilesen askerlerden bazilarini castle yakinindaki Orc'lari yenmeleri icin gonderdi. Castle entrance'a geri don.",
+      "goal": ""
+    },
+    "14242": {
+      "title": "Gatekeeper'i Yen",
+      "description": "Gatekeeper kaleye girmeye calistigimizi fark etti. Gatekeeper'i yen.",
+      "goal": ""
+    },
+    "14243": {
+      "title": "Kaleye Gir",
+      "description": "Gatekeeper artik yok. Kaleye gir ve Orc'larin planini ogren.",
+      "goal": "Kaleye gir"
+    },
+    "14244": {
+      "title": "Portal'in Otesi",
+      "description": "Bir Goblin Shaman portal acmaya calisiyor. Portal'a girerek planlarini durdur.",
       "goal": ""
     }
   }
