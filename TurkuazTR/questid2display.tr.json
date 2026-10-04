@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.27.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7054-7055 Myu Wild Rose koruma gorevleri dahil",
+    "version": "6.28.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7056-7071 Messenger Arc, Terra, Sapha ve Manuk gorev zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6747,6 +6747,86 @@
       "title": "Myu'nun Ricasi - Kediye Dokunma",
       "description": "Myu bir ricada daha bulundu. Wild Rose'lari korurken tek bir Wild Rose'a bile zarar vermemelisin.",
       "goal": "Wild Rose'lara zarar verme"
+    },
+    "7056": {
+      "title": "Haberci - Arc'in Ricasi",
+      "description": "Splendide'deki Lapine karakolunda Arc ile karsilastin. Arkadasi Terra'yi bulmani istedi. Terra genellikle bitkileri dugumleyerek iz birakiyor.",
+      "goal": "Terra'nin izlerini bul"
+    },
+    "7057": {
+      "title": "Haberci - Arc'in Ricasi",
+      "description": "Splendide yakininda bir iz buldun. Izler guneye dogru gidiyor gibi gorunuyor. Aramaya devam et.",
+      "goal": "Terra'nin izlerini bul"
+    },
+    "7058": {
+      "title": "Haberci - Arc'in Ricasi",
+      "description": "Dev bir agacin kokleri arasina dustun ve kaya kadar sert, dag kadar buyuk Sapha kabilesiyle karsilastin. Terra'nin izleri burada kesiliyor.",
+      "goal": "Arc'a rapor ver"
+    },
+    "7059": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Arc, Terra'nin laboratuvardan izinsiz Bradium alip gittiginden endiseli. Terra, Bradium ile birlikte o magaradaki Sapha'lara gitmis olabilir.",
+      "goal": "Terra'yi bul"
+    },
+    "7060": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Sapha'lara ulastiginda Terra coktan gitmisti. Taslasmis devin cevresinde parlak mineral parcalari vardi; bunlar Bradium olmali.",
+      "goal": "Bradium ile Sapha arasindaki bagi arastir"
+    },
+    "7061": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Sapha kasabasinda esir alinmis bir Lapine hakkinda konusmalar duydun.",
+      "goal": "Esir Lapine'i bul"
+    },
+    "7062": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Manuk'ta esir tutulan Lapine'in yarali oldugunu ogrendin. Uygun bir ilac bulursan onunla gorusebilirsin.",
+      "goal": "Arc'a danis"
+    },
+    "7063": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Lapine icin en iyi ilacin Yggdrasil Berry oldugunu ogrendin. Dev agacin cevresinden yeterince topla.",
+      "goal": "En az 6 Yggdrasil Berry topla"
+    },
+    "7064": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Gerekli Yggdrasil Berry'leri topladin. Bunlari Manuk'taki Snorren'e teslim et.",
+      "goal": "Yggdrasil Berry'leri Snorren'e teslim et"
+    },
+    "7065": {
+      "title": "Haberci - Terra Nerede",
+      "description": "Snorren'in yardimiyla esir Lapine ile konusabildin. Konusmayi Snorren ve Luik icin tercume et.",
+      "goal": "Lapine ile konus"
+    },
+    "7066": {
+      "title": "Haberci - Gercegi Kanitla",
+      "description": "Snorren, taslasmis Sapha'nin arkadasi Ogen olabileceginden supheleniyor ve kanit istiyor.",
+      "goal": "Magaraya don ve kanit bul"
+    },
+    "7067": {
+      "title": "Haberci - Gercegi Kanitla",
+      "description": "Taslasmis Sapha bedeninden Bradium Fragment ve Shabby Muffler buldun. Bunlar yeterli kanit olmali.",
+      "goal": "Kaniti Luik ve Snorren'e goster"
+    },
+    "7068": {
+      "title": "Haberci - Gercegi Kanitla",
+      "description": "Shabby Muffler'in Snorren'in arkadasina ait oldugu anlasildi. Terra'nin Bradium parcalariyla Ogen'i kurtarmaya calistigi da ortaya cikti.",
+      "goal": "Gec olmadan Ogen'e git"
+    },
+    "7069": {
+      "title": "Haberci - Cok Gec",
+      "description": "Ogen'i kurtarmak icin cok gec kalmis gorunuyor. Snorren kasabaya donmeye basladi. Terra'yi alip geri don.",
+      "goal": "Terra'yi al"
+    },
+    "7070": {
+      "title": "Haberci - Terra'nin Donusu",
+      "description": "Snorren'den Terra'nin serbest birakildigini ogrendin.",
+      "goal": "Terra'nin durumunu ogren"
+    },
+    "7071": {
+      "title": "Haberci - Davet",
+      "description": "Arc ayrintilari konusmak icin seni Terra'nin evine davet etti. Terra'nin evi, karakolun guneydogusundaki yapraklarda asili yuzlerce Yai'den biri.",
+      "goal": "Terra'nin Yai'sine git"
     }
   }
 }
