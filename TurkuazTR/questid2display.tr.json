@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.77.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8106-8122 Mr. Shendar, Bruspetti, Lachellen, Katinshuell ve Freya's Spring gorevleri dahil",
+    "version": "6.78.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8123-8126 Ayotaya Tom Yum Goong, 8127-8130 Momotaro Field Trip ve 8131-8135 Amatsu tilki gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10552,6 +10552,71 @@
       "title": "Bruspetti'nin Dinlenme Yeri",
       "description": "Katinshuell, gecmiste yaptigi bir hata yuzunden sevdigi kadini kaybettigini itiraf etti. Bruspetti'nin akibetini anlamak icin Freya's Spring'e git.",
       "goal": "Freya's Spring'e git"
+    },
+    "8123": {
+      "title": "Ayotaya'nin Meshur Yemegi: Tom Yum Goong",
+      "description": "Tom Yum Goong'u herkes yapabilir ama en iyi asci ^3131FFMali the Spicy^000000. Yemegi onun hazirlamasini iste.",
+      "goal": "Mali the Spicy ile konus"
+    },
+    "8124": {
+      "title": "Ayotaya'nin Meshur Yemegi: Tom Yum Goong",
+      "description": "En taze Shrimp'leri ^3131FFThongpool^000000'dan alabilirsin. Tom Yum Goong icin 20 Shrimp getir.",
+      "goal": "Mali the Spicy'ye 20 Shrimp getir"
+    },
+    "8125": {
+      "title": "Ayotaya'nin Meshur Yemegi: Tom Yum Goong",
+      "description": "Mali guzel bir lemon tree buldu ama limonlar satilik degil. Agacin sahibinden 10 Lemon edin.",
+      "goal": "Mali the Spicy'ye 10 Lemon getir"
+    },
+    "8126": {
+      "title": "Ayotaya'nin Meshur Yemegi: Tom Yum Goong",
+      "description": "Simdi pazardan ^CE0000Chilli^000000 ve diger malzemeleri toplaman gerekiyor. Hangi malzemelerin gerektigini merchant'tan ogren.",
+      "goal": "Mali the Spicy'ye 30 Chilli ve diger malzemeleri getir"
+    },
+    "8127": {
+      "title": "Momotaro Field Trip",
+      "description": "Chief, Dokebi'lerin baskalarinin hesaplarini hackleyerek 20 milyon zeny kazandigini soyledi. Kasaba halki zayif oldugu icin Dokebi'leri senin yenmeni istiyor.",
+      "goal": "Dokebi'leri yen"
+    },
+    "8128": {
+      "title": "Momotaro Field Trip",
+      "description": "Momotaro hikayesi tamamlandi. Odulunu basta gordugun Publisher lady'den alabilirsin.",
+      "goal": "Publisher lady ile konus"
+    },
+    "8129": {
+      "title": "Momotaro Field Trip",
+      "description": "Normalde burada geri gonderilmen gerekiyordu ama sana bir sans daha verildi. Gorev zor olacak; basarisiz olursan bu challenge'i tekrar alamayabilirsin.",
+      "goal": "Dokebi'leri temizle"
+    },
+    "8130": {
+      "title": "Momotaro Field Trip",
+      "description": "Sinavi basariyla tamamladin. Cikisa yonel ve odulunu almayi unutma.",
+      "goal": "Odulunu al"
+    },
+    "8131": {
+      "title": "Amatsu Lordunun Annesi",
+      "description": "Amatsu lordunun annesi aylardir hasta ve saray disindaki bir evde dinleniyor.",
+      "goal": "Hasta anneyi ziyaret et"
+    },
+    "8132": {
+      "title": "Amatsu Lordunun Annesi",
+      "description": "Rune-Midgard'dan geldigin icin lordun annesinin hastaligina care bulabilecegin dusunuluyor. Tedaviyi tamamladiktan sonra lorda geri don.",
+      "goal": "Lordun annesini iyilestirecek tedaviyi bul"
+    },
+    "8133": {
+      "title": "Tilkinin Sarkisi",
+      "description": "Bir tilki insani takip ediyor ve ne kadar bagirsa da gitmiyor. North Shrine Priest'in yardim edebilecegi soyleniyor.",
+      "goal": "North Shrine Priest'i bul"
+    },
+    "8134": {
+      "title": "Northern Shrine'daki Cocuk",
+      "description": "Daha guclu bir ruh, tilki ruhunu insan bedeninden cikarabilir. Cesaretini ve ruhsal gucunu goster.",
+      "goal": "Tilki ruhunu kov"
+    },
+    "8135": {
+      "title": "Tilki Kovuldu",
+      "description": "Tilki ruhunu bedenden cikardin. Ruh, Ishida ailesini ve seni lanetlemekle tehdit ederek kacti.",
+      "goal": "Fox Tail ile lorda geri don"
     }
   }
 }
