@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.45.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7182-7193 El Dicastes giris, Doha gizli emri ve ilk sorusturma gorevleri dahil",
+    "version": "6.46.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7194-7203 El Dicastes delil toplama, Ahat iz silme ve Doha final rapor gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7387,6 +7387,56 @@
       "title": "Dimensional Gap Sorusturmasi",
       "description": "Shay ile konustuktan sonra gercegi bulmak icin guneydeki Dimensional Gap bolgesini arastir. Sorusturmada kullanilabilecek ipuclari bul.",
       "goal": "Guneydeki Dimensional Gap bolgesini arastir"
+    },
+    "7194": {
+      "title": "Bu Kan Lekesi Ne?",
+      "description": "Crack yakinindaki toprakta pihilasmis kan buldun. Bunun Ahat ile bir ilgisi olabilir.",
+      "goal": "Kan lekesini sorusturma delili olarak kaydet"
+    },
+    "7195": {
+      "title": "Bu Deri Parcasi Ne?",
+      "description": "Crack yakininda canli bir varliga ait donmus deri parcasi buldun. Bunun Ahat ile bir ilgisi olabilir.",
+      "goal": "Deri parcasini sorusturma delili olarak kaydet"
+    },
+    "7196": {
+      "title": "Bu Supheli Buyu Gucu Ne?",
+      "description": "Supheli bir sihirli tas parcasi buldun. Crack'ten gelen buyu gucune benziyor ve Ahat ile baglantili olabilir.",
+      "goal": "Sihirli tas parcasini sorusturma delili olarak kaydet"
+    },
+    "7197": {
+      "title": "Sapha Sertifikalari?",
+      "description": "Ahat ile gorusmek icin Sapha Certification gerekiyor. Baskentteki gorevleri tamamlayip 3 sertifika topla.",
+      "goal": "3 Sapha Certification topla"
+    },
+    "7198": {
+      "title": "Ahat ile Gorusme",
+      "description": "3 Sapha Certification teslim ettikten sonra Ahat ile gorusebilirsin. Dicastes Diel'deki Administrative Office'e cik.",
+      "goal": "Administrative Office'te Ahat ile gorus"
+    },
+    "7199": {
+      "title": "Ahat'in Gizli Emri",
+      "description": "Ahat, Crack cevresindeki izleri temizlemeni emretti. Her birinden 10 adet Clotted Bloodstain, Frozen Piece of Skin ve Strange Magic Stone topla.",
+      "goal": "10 Clotted Bloodstain, 10 Frozen Piece of Skin, 10 Strange Magic Stone"
+    },
+    "7200": {
+      "title": "Cheshire'in Cagrisi",
+      "description": "Suphe cekmemek icin iz temizleme isini parca parca yap. Zamani geldiginde Administrative Office'te Cheshire ile gorus.",
+      "goal": "Sureyi bekle ve Cheshire ile konus"
+    },
+    "7201": {
+      "title": "Izleri Temizlemek",
+      "description": "Kamidal Mountain dis bolgesinin guneydogusundaki Dimensional Gap cevresindeki izleri temizle. Her birinden 10 adet Clotted Bloodstain, Frozen Piece of Skin ve Strange Magic Stone topla.",
+      "goal": "Her iz turunden 10 adet topla"
+    },
+    "7202": {
+      "title": "Doha'nin Gizli Emri - Kanit Topla",
+      "description": "Cheshire ve Ahat fark etmeden Crack izlerinden birer ornek sakla ve Doha'ya kanit olarak gotur.",
+      "goal": "1 Solid Bloodstain, 1 Frozen Skin Piece, 1 Suspicious Magic Stone"
+    },
+    "7203": {
+      "title": "Doha'nin Gizli Emri - Final Rapor",
+      "description": "Jarute Heslanta ile birkac konu gorustun. Bulgularini rapor haline getirip Expedition Camp'teki Inspector Doha'ya teslim et.",
+      "goal": "Final raporu Inspector Doha'ya teslim et"
     }
   }
 }
