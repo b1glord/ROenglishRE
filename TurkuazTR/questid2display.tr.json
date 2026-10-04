@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.40.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7156-7159 Eden Group Underwater City egitim gorevleri dahil",
+    "version": "6.41.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7160-7165 Prontera Shadow Workshop ve Deception anahtar gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7217,6 +7217,36 @@
       "title": "Underwater City'yi Fethet",
       "description": "Callandiva'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
       "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7160": {
+      "title": "Sifreyi Coz",
+      "description": "Rogue Guild'den Urupa sana bir sifre verdi: (^4d4dff 432311143452^000000 / ^4d4dff5234423043233435^000000 / ^4d4dff2433^000000 / ^4d4dff3542343344154211^000000 ).",
+      "goal": "Sifreyi coz ve ilgili Manager'i bul"
+    },
+    "7161": {
+      "title": "Gizemli Sifre",
+      "description": "Graham'dan yeni bir sifre aldin: ( 5 15 24 8 / 9 12 21 8 / 18 17 / 23 24 21 23 15 8 / 12 22 15 4 17 7 / 23 11 12 21 7 / 9 15 18 18 21 ) (Key : 3)",
+      "goal": "Sifreyi coz"
+    },
+    "7162": {
+      "title": "Gizemli Sifre",
+      "description": "Graham'dan yeni bir sifre aldin: ( 6 16 25 9 / 10 13 22 9 / 19 18 / 24 25 22 24 16 9 / 13 23 16 5 18 8 / 24 12 13 22 8 / 10 16 19 19 22 ) (Key : 4)",
+      "goal": "Sifreyi coz"
+    },
+    "7163": {
+      "title": "Gizemli Sifre",
+      "description": "Graham'dan yeni bir sifre aldin: ( 7 17 26 10 / 11 14 23 10 / 20 19 / 25 26 23 25 17 10 / 14 24 17 6 19 9 / 25 13 14 23 9 / 11 17 20 20 23 ) (Key : 5)",
+      "goal": "Sifreyi coz"
+    },
+    "7164": {
+      "title": "Deception Golgesini Avla",
+      "description": "Turtle Island'daki Blue Flame, Shadow of Deception ile guclu bicimde baglantili. Bu bagi kesmek icin Good Turtles Village'daki Shadow of Deception'i bulup yen.",
+      "goal": "Shadow of Deception'i yen"
+    },
+    "7165": {
+      "title": "Deception Anahtari",
+      "description": "Turtle Island'daki gizli yerde hazine yerine kucuk bir anahtar buldun. Prontera Shadow Workshop'taki Graham'a don ve bulduklarini bildir.",
+      "goal": "Graham'a rapor ver"
     }
   }
 }
