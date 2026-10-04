@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.27.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60844-60934 Gramps hunting, Chefs of Iron, Zeldys ve Brasilis Museum Murder Mystery bloklarindan 60 pending kayit dahil",
+    "version": "7.28.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60935-62204 Museum Murder finali, Eye of the Beholder, Rune Midgard Exposition ve Summer Sports Festa bloklarindan 60 benzersiz pending ID dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -23281,6 +23281,306 @@
     "60934": {
       "title": "Museum Murder Mystery",
       "description": "Mansion'a girmeyi basardin. Cevreyi ara ve museum'a giden secret passage'i bul.",
+      "goal": ""
+    },
+    "60935": {
+      "title": "Museum Murder Mystery",
+      "description": "Gercek culprit'in Head Curator olduguna eminsin. Suclamani ona sunma zamani.",
+      "goal": ""
+    },
+    "60936": {
+      "title": "Museum Murder Mystery",
+      "description": "Gercek culprit'ten emin olmak icin daha fazla arastirma yapmaya karar verdin. Mrs. Moneybags ile tekrar konus.",
+      "goal": ""
+    },
+    "60937": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags'in yardimiyla Head Curator'un murderer olduguna eminsin. Evidence'i investigator'lara sun.",
+      "goal": ""
+    },
+    "60938": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator onu suclamak icin yeterli evidence olmadigini soyluyor. Bu gelismeyi Mrs. Moneybags'e bildir.",
+      "goal": ""
+    },
+    "60939": {
+      "title": "Museum Murder Mystery",
+      "description": "Simdi murder konusunda Head Curator ile yuzlesmek sana kaliyor.",
+      "goal": ""
+    },
+    "60940": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator'a Note evidence'ini goster.",
+      "goal": ""
+    },
+    "60941": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator southern exit'ten kaciyor. Hemen pesinden git.",
+      "goal": ""
+    },
+    "60942": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator jungle'a kacti. Brasilis Field'da ara; fazla uzaklasmis olamaz.",
+      "goal": ""
+    },
+    "60943": {
+      "title": "Museum Murder Mystery",
+      "description": "Head Curator'u sonunda yakaladin. Gercek murderer'in bulundugunu investigator'lara bildir.",
+      "goal": ""
+    },
+    "60944": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags culprit'i yakalayan kisi icin reward hazirlamis. Simdi onunla konus.",
+      "goal": ""
+    },
+    "60945": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags kayip Locket'in kalintilarini bulmani istedi. Parcalari Brasilis Sewers'da ara.",
+      "goal": ""
+    },
+    "60946": {
+      "title": "Museum Murder Mystery",
+      "description": "Islak toprak altinda Locket'in bir fragment'ini buldun. Mrs. Moneybags'e geri gotur.",
+      "goal": ""
+    },
+    "60947": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags icin baska bir Locket fragment'i aramadan once 12 saat bekle.",
+      "goal": ""
+    },
+    "60948": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags kayip Locket'in kalintilarini bulmani istedi. Parcalari Brasilis Sewers'da ara.",
+      "goal": ""
+    },
+    "60949": {
+      "title": "Museum Murder Mystery",
+      "description": "Islak toprak altinda Locket'in bir fragment'ini buldun. Mrs. Moneybags'e geri gotur.",
+      "goal": ""
+    },
+    "60950": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags icin baska bir Locket fragment'i aramadan once 12 saat bekle.",
+      "goal": ""
+    },
+    "60951": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags kayip Locket'in kalintilarini bulmani istedi. Parcalari Brasilis Sewers'da ara.",
+      "goal": ""
+    },
+    "60952": {
+      "title": "Museum Murder Mystery",
+      "description": "Islak toprak altinda Locket'in bir fragment'ini buldun. Mrs. Moneybags'e geri gotur.",
+      "goal": ""
+    },
+    "60953": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags icin baska bir Locket fragment'i aramadan once 12 saat bekle.",
+      "goal": ""
+    },
+    "60954": {
+      "title": "Museum Murder Mystery",
+      "description": "Mrs. Moneybags kayip Locket'in son kalintilarini bulmani istedi. Parcalari Brasilis Sewers'da ara.",
+      "goal": ""
+    },
+    "60955": {
+      "title": "Museum Murder Mystery",
+      "description": "Locket'in son fragment'ini islak toprak altinda buldun. Mrs. Moneybags'e geri gotur.",
+      "goal": ""
+    },
+    "60956": {
+      "title": "Orcish Envoy",
+      "description": "Orcish Envoy her 5 dakikada bir Orcish Voucher kabul ediyor. Daha fazlasini vermeden once timer'i bekle.",
+      "goal": ""
+    },
+    "61001": {
+      "title": "Eye of the Beholder",
+      "description": "Airship'te bir Beholder ile tanistin. Rachel Temple icindeki arkadasinin yardima ihtiyaci oldugunu soyluyor.",
+      "goal": "Rachel Temple 2F'de Beho'yu ara"
+    },
+    "61002": {
+      "title": "Eye of the Beholder",
+      "description": "Beho ile konusmaya devam et.",
+      "goal": ""
+    },
+    "61003": {
+      "title": "Eye of the Beholder",
+      "description": "Beho'nun aski Bianca'yi bul. Rachel Temple'in alt floor library'lerinden birinde.",
+      "goal": ""
+    },
+    "61004": {
+      "title": "Eye of the Beholder",
+      "description": "Temple 2F'deki Beho'ya don ve Bianca'nin Beholder korkusunu anlat.",
+      "goal": ""
+    },
+    "61005": {
+      "title": "Eye of the Beholder",
+      "description": "Beho ile konusmaya devam et.",
+      "goal": ""
+    },
+    "61006": {
+      "title": "Eye of the Beholder",
+      "description": "Sanctuary'deki Kyara'yi bul ve Beho'dan Bianca'ya lezzetli bir gift hazirlamasini iste.",
+      "goal": ""
+    },
+    "61007": {
+      "title": "Eye of the Beholder",
+      "description": "Kyara'dan White Chocolate aldin. Simdi ona Beholder'larin evil olmadigini anlat.",
+      "goal": "Kyara ile konusmaya devam et"
+    },
+    "61008": {
+      "title": "Eye of the Beholder",
+      "description": "Kyara'yi ikna etmis gibisin. Beho'ya don ve simdiye kadar yaptiklarini anlat. Chocolate'i unutma.",
+      "goal": ""
+    },
+    "61009": {
+      "title": "Eye of the Beholder",
+      "description": "Beho, Bianca'nin Doina adli singer'i sevdigini soyluyor. Doina su anda Rachel'da.",
+      "goal": "Doina'yi bul ve song yazmasini iste"
+    },
+    "61010": {
+      "title": "Eye of the Beholder",
+      "description": "Doina ile soylemesini istedigin song'un score'u hakkinda konus.",
+      "goal": ""
+    },
+    "61011": {
+      "title": "Eye of the Beholder",
+      "description": "Score sende. Beho'ya geri gotur.",
+      "goal": ""
+    },
+    "61012": {
+      "title": "Eye of the Beholder",
+      "description": "Rachel Inn'deki Lilla'yi bul ve Beho'nun Bianca'ya verecegi jewelry'yi yapmasini iste.",
+      "goal": ""
+    },
+    "61013": {
+      "title": "Eye of the Beholder",
+      "description": "Lilla'nin Inn'de kaybettigi bead'leri ara.",
+      "goal": ""
+    },
+    "61014": {
+      "title": "Eye of the Beholder",
+      "description": "Kayip bead'lerden birini buldun. Dort tanesini de bulana kadar aramaya devam et.",
+      "goal": ""
+    },
+    "61015": {
+      "title": "Eye of the Beholder",
+      "description": "Kayip bead'lerden birini buldun. Dort tanesini de bulana kadar aramaya devam et.",
+      "goal": ""
+    },
+    "61016": {
+      "title": "Eye of the Beholder",
+      "description": "Kayip bead'lerden birini buldun. Dort tanesini de bulana kadar aramaya devam et.",
+      "goal": ""
+    },
+    "61017": {
+      "title": "Eye of the Beholder",
+      "description": "Kayip bead'lerin son bag'ini buldun. Lilla'ya geri gotur.",
+      "goal": ""
+    },
+    "61018": {
+      "title": "Eye of the Beholder",
+      "description": "Bead'leri verdikten sonra Lilla'dan necklace aldin. Inn disindaki gardener Kees'i bul.",
+      "goal": ""
+    },
+    "61019": {
+      "title": "Eye of the Beholder",
+      "description": "Inn cevresinde Rose bul.",
+      "goal": ""
+    },
+    "61020": {
+      "title": "Eye of the Beholder",
+      "description": "Inn cevresinde Iris bul.",
+      "goal": ""
+    },
+    "61021": {
+      "title": "Eye of the Beholder",
+      "description": "Inn cevresinde Mimosa bul.",
+      "goal": ""
+    },
+    "61022": {
+      "title": "Eye of the Beholder",
+      "description": "Inn cevresinde Lily bul.",
+      "goal": ""
+    },
+    "61023": {
+      "title": "Eye of the Beholder",
+      "description": "Tum flower'lar sende. Hepsini Kees'e geri gotur.",
+      "goal": ""
+    },
+    "61024": {
+      "title": "Eye of the Beholder",
+      "description": "Beho adina Bianca'ya vermek icin bir bouquet aldin.",
+      "goal": ""
+    },
+    "61025": {
+      "title": "Eye of the Beholder",
+      "description": "Rachel Temple 1F entrance yakinindaki Pope ile konus.",
+      "goal": ""
+    },
+    "61026": {
+      "title": "Eye of the Beholder",
+      "description": "Item'larla Bianca'ya git. Dort song lyric sirasiyla: When I look in your eyes, I feel my heart beat strong, I cried those nights, million of tears as in this song.",
+      "goal": ""
+    },
+    "61027": {
+      "title": "Eye of the Beholder",
+      "description": "Bianca ile konusmaya devam et.",
+      "goal": ""
+    },
+    "61028": {
+      "title": "Eye of the Beholder",
+      "description": "Bianca, Beho ile Rachel Temple Gardens'da Temple entrance'in kuzeybatisinda bulusmayi kabul etti.",
+      "goal": ""
+    },
+    "61029": {
+      "title": "Eye of the Beholder",
+      "description": "Beho ve Bianca'yi izle ve tek gozlu loverboy icin planinin ise yaradigini gor.",
+      "goal": ""
+    },
+    "62117": {
+      "title": "Rune Midgard Exposition",
+      "description": "Lighthalzen'da 15 Mobster avla ve Commerce Guild Rep'e don.",
+      "goal": ""
+    },
+    "62118": {
+      "title": "Rune Midgard Exposition",
+      "description": "Einbroch'taki Tesco'yu bul ve onunla konus.",
+      "goal": ""
+    },
+    "62119": {
+      "title": "Anvian'in Talebi",
+      "description": "Niflheim'in dogusundaki Valley of Gyoll'da 30 Gibbet avla.",
+      "goal": ""
+    },
+    "62120": {
+      "title": "Witch'in Talebi",
+      "description": "Niflheim'daki Witch'e 5 Ectoplasm ve 5 Poisonous Powder getir.",
+      "goal": ""
+    },
+    "62200": {
+      "title": "Summer Sports Festa",
+      "description": "Geffen Inn'e git ve Monsieur Pierrot'yu bul.",
+      "goal": ""
+    },
+    "62201": {
+      "title": "Summer Sports Festa",
+      "description": "Geffen Inn bar'daki Major Molotov ile konus.",
+      "goal": ""
+    },
+    "62202": {
+      "title": "Summer Sports Festa",
+      "description": "Major Molotov'a 25 Milk, 15 Strawberry ve 20 Iron Ore getir.",
+      "goal": ""
+    },
+    "62203": {
+      "title": "Summer Sports Festa",
+      "description": "Geffen Inn'deki Rachel Delegation temsilcisi Miss Mansur ile konus.",
+      "goal": ""
+    },
+    "62204": {
+      "title": "Summer Sports Festa",
+      "description": "Aslan ile Geffen'deki southern fountain'in eastern corner'ina kadar yarisa gir.",
       "goal": ""
     }
   }
