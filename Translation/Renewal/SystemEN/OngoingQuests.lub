@@ -21409,18 +21409,18 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[7630] = {
-		Title = "Legenday Blue Unicorn",
+		Title = "Efsanevi Mavi Unicorn",
 		Description = {
-			"Rumor says there is a blue pony raging in the forest near Payon! Someone help me find the truth about this animal!"
+			"Payon yakinlarindaki ormanda mavi bir pony'nin ortaligi birbirine kattigi soyleniyor. Bu yaratik hakkindaki gercegi ortaya cikar."
 		},
-		Summary = "Hunt and report back to Fury"
+		Summary = "Avla ve Fury'ye rapor ver"
 	},
 	[7631] = {
-		Title = "[Standby] Hunting Limit",
+		Title = "Avlanma Siniri",
 		Description = {
-			"Please wait at least one day before hunting again. But try not to hunt more than once a day!"
+			"Yeniden avlanmadan once en az 23 saat bekle. Gunde bir kereden fazla avlanmamaya calis."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "23 saat bekle",
 		CoolTimeQuest = 1
 	},
 	[7632] = {
@@ -21431,134 +21431,134 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[7641] = {
-		Title = "Access Permitted",
+		Title = "Erisim Izni Verildi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Access approved for restricted areas \"Laboratories\" and \"Research Facilities\". Free access to laboratories and research facilities is possible from now on."
+			"Kisitli Laboratories ve Research Facilities alanlarina erisim onaylandi. Artik bu bolgelere serbestce girebilirsin."
 		},
-		Summary = ""
+		Summary = "Kisitli alanlara erisim sagla"
 	},
 	[7642] = {
-		Title = "Explore Research facilities",
+		Title = "Research Facilities'i Kesfet",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Look around and search for things of special investigation and research value in the Research facilities area. Report even small but significant things to Ian Atnad"
+			"Research Facilities alaninda arastirma degeri olan ozel nesneleri ara. Kucuk ama anlamli bulgulari bile Ian Atnad'a bildir."
 		},
-		Summary = ""
+		Summary = "Research Facilities'i incele"
 	},
 	[7643] = {
-		Title = "Mysterious Piece",
+		Title = "Gizemli Parca",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Found some kind of component in the Research facilities. Report to Ian Atnad."
+			"Research Facilities'te bir tur bilesen buldun. Ian Atnad'a rapor ver."
 		},
-		Summary = "Report to Ian"
+		Summary = "Ian'a rapor ver"
 	},
 	[7644] = {
 		Title = "Record Player",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Record player is needed to know the contents of Memory Record. Commander Arquien of the Paradise Squad knows the whereabouts of the record player."
+			"Memory Record icerigini ogrenmek icin Record Player gerekiyor. Paradise Squad Commander Arquien cihazinin nerede oldugunu biliyor."
 		},
-		Summary = "Talk to Arquien"
+		Summary = "Arquien ile konus"
 	},
 	[7645] = {
-		Title = "Piece of Memory Record",
+		Title = "Memory Record Parcasi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"At least 5 pieces are needed to play Memory Record intact. Collect the rest of the Memory Records in the Research facilities and take them to Commander Arquien who came to the Verus excavation site."
+			"Bir Memory Record'u eksiksiz oynatmak icin en az 5 parca gerekiyor. Research Facilities'teki kalan kayitlari topla ve Verus kazi alanindaki Commander Arquien'e gotur."
 		},
-		Summary = "5 memory records"
+		Summary = "5 Memory Record topla"
 	},
 	[7646] = {
-		Title = "Play Memory Record",
+		Title = "Memory Record'u Oynat",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Talk to Commander Arquien after playing Memory Record"
+			"Memory Record'u oynattiktan sonra Commander Arquien ile konus."
 		},
-		Summary = "Operate record player"
+		Summary = "Record Player'i calistir"
 	},
 	[7647] = {
-		Title = "Report Memory Record",
+		Title = "Memory Record Raporu",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Report to Ian Atnad about what you found out about the Memory Records"
+			"Memory Record'lardan ogrendiklerini Ian Atnad'a bildir."
 		},
-		Summary = "Report to Ian"
+		Summary = "Ian'a rapor ver"
 	},
 	[7648] = {
-		Title = "Memory Records of the Laboratories",
+		Title = "Laboratories Memory Record'lari",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Collect 5 \"Memory Records of the laboratories\" in the underground facility of the laboratories and take them to Arquien to find out the content."
+			"Laboratories'in yer alti tesisinde 5 Laboratories Memory Record topla ve icerigini ogrenmek icin Arquien'e gotur."
 		},
-		Summary = "5 Memory Records of the laboratories"
+		Summary = "5 Laboratories Memory Record topla"
 	},
 	[7649] = {
-		Title = "Report Memory Record Content",
+		Title = "Memory Record Icerigini Raporla",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Report to Ian Atnad about the content known from the Memory Records of laboratories"
+			"Laboratories Memory Record'larindan ogrendigin icerigi Ian Atnad'a bildir."
 		},
-		Summary = "Talk to Ian"
+		Summary = "Ian ile konus"
 	},
 	[7650] = {
-		Title = "Collect Memory Records of Research facilities",
+		Title = "Research Facilities Memory Record Topla",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Collect 5 Memory Records in the research facilities and take them to Arquien to decipher the content"
+			"Research Facilities'te 5 Memory Record topla ve icerigini cozmesi icin Arquien'e gotur."
 		},
-		Summary = "5 memory records"
+		Summary = "5 Memory Record topla"
 	},
 	[7651] = {
-		Title = "[Standby] One Memory a Day",
+		Title = "Gunde Bir Memory",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Collect Memory Records only once a day. Go to Arquien at the promised time."
+			"Memory Record'lari gunde yalnizca bir kez toplayabilirsin. Soz verilen zamanda Arquien'e git."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Belirlenen zamani bekle",
 		CoolTimeQuest = 1
 	},
 	[7652] = {
-		Title = "Collect Memory Records of Laboratories",
+		Title = "Laboratories Memory Record Topla",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Collect 5 Memory Records in the laboratories and take them to Arquien to decipher the content"
+			"Laboratories'te 5 Memory Record topla ve icerigini cozmesi icin Arquien'e gotur."
 		},
-		Summary = "5 Laboratories Memory Records"
+		Summary = "5 Laboratories Memory Record topla"
 	},
 	[7653] = {
-		Title = "[Standby] One Memory a Day 2",
+		Title = "Gunde Bir Memory 2",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Collect Memory Records in the laboratories only once a day. Go to Arquien at the promised time."
+			"Laboratories Memory Record'larini gunde yalnizca bir kez toplayabilirsin. Soz verilen zamanda Arquien'e git."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Belirlenen zamani bekle",
 		CoolTimeQuest = 1
 	},
 	[7654] = {
-		Title = "Play Research facilities Memory Records",
+		Title = "Research Facilities Memory Record'larini Oynat",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Find out content by playing record player."
+			"Record Player'i kullanarak Research Facilities Memory Record'larinin icerigini ogren."
 		},
-		Summary = "Play record player"
+		Summary = "Record Player'i calistir"
 	},
 	[7655] = {
-		Title = "Play Laboratories Memory Records",
+		Title = "Laboratories Memory Record'larini Oynat",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Find out content by playing record player."
+			"Record Player'i kullanarak Laboratories Memory Record'larinin icerigini ogren."
 		},
-		Summary = "Play record player"
+		Summary = "Record Player'i calistir"
 	},
 	[7656] = {
-		Title = "Invitation of Rekenber",
+		Title = "Rekenber Daveti",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Rekenber has invited you to the corporate headquarters. Visit Rekenber Corporation Headquarters located in Rihrtarzen."
+			"Rekenber seni sirket merkezine davet etti. Rihrtarzen'deki Rekenber Corporation Headquarters'i ziyaret et."
 		},
-		Summary = "Talk to Tatio"
+		Summary = "Tatio ile konus"
 	},
 	[7670] = {
 		Title = "Replacement of the Cat Hand Warehouse Promotional Flyer",
