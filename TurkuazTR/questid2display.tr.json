@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.14.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5648-5674 kalan B-sinifi Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
+    "version": "6.15.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5677-5699 C-sinifi Prontera, Alberta, Morroc ve Comodo teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6282,6 +6282,56 @@
       "title": "B-Sinifi Teslimat Gorevi",
       "description": "Glast Heim Staircase (gl_step) icindeki Desert Warrior Set'e 10 Fly Wing teslim et. Alici (30,10) koordinatlari yakininda.",
       "goal": "Desert Warrior Set'e 10 Fly Wing teslim et"
+    },
+    "5677": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Prontera Culvert 1F (prt_sewb1) icindeki Agent X'e 10 Red Potion teslim et. Alici (204,229) koordinatlari yakininda.",
+      "goal": "Agent X'e 10 Red Potion teslim et"
+    },
+    "5679": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Prontera Maze 1F (prt_maze01) icindeki Training Monk Click'e 3 Butterfly Wing teslim et. Alici (100,100) koordinatlari yakininda.",
+      "goal": "Training Monk Click'e 3 Butterfly Wing teslim et"
+    },
+    "5685": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Alberta Sunken Ship 1F (treasure01) icindeki Rogue Haryeong'a 10 Holy Water teslim et. Alici (74,52) koordinatlari yakininda.",
+      "goal": "Rogue Haryeong'a 10 Holy Water teslim et"
+    },
+    "5687": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Morroc Ant Hell 1F (anthell01) icindeki Swordsman Simkung'a 10 Red Potion teslim et. Alici (107,124) koordinatlari yakininda.",
+      "goal": "Swordsman Simkung'a 10 Red Potion teslim et"
+    },
+    "5689": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Morroc Ant Hell 2F (anthell02) icindeki Ninja Gugan'a 10 Red Potion teslim et. Alici (52,257) koordinatlari yakininda.",
+      "goal": "Ninja Gugan'a 10 Red Potion teslim et"
+    },
+    "5691": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Comodo West Cave Karu (beach_dun) icindeki Great Mage Mil'e 5 Green Potion teslim et. Alici (90,40) koordinatlari yakininda.",
+      "goal": "Great Mage Mil'e 5 Green Potion teslim et"
+    },
+    "5693": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Comodo North Cave Luanda (beach_dun2) icindeki Rogue Aiyo'ya 10 Yellow Potion teslim et. Alici (157,80) koordinatlari yakininda.",
+      "goal": "Rogue Aiyo'ya 10 Yellow Potion teslim et"
+    },
+    "5695": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Comodo East Cave Mao (beach_dun3) icindeki Merchant Cat Go'ya 10 Red Potion teslim et. Alici (161,252) koordinatlari yakininda.",
+      "goal": "Merchant Cat Go'ya 10 Red Potion teslim et"
+    },
+    "5697": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Morroc Sphinx B1 (in_sphinx1) icindeki Blacksmith Haka'ya 10 Yellow Potion teslim et. Alici (138,61) koordinatlari yakininda.",
+      "goal": "Blacksmith Haka'ya 10 Yellow Potion teslim et"
+    },
+    "5699": {
+      "title": "C-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid 1F (moc_pryd01) icindeki Rogue Misen'e 10 Red Potion teslim et. Alici (122,112) koordinatlari yakininda.",
+      "goal": "Rogue Misen'e 10 Red Potion teslim et"
     }
   }
 }
