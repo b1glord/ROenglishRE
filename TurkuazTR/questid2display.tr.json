@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.38.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62818-62904 Prontera-Geffen-Mora-Aldebaran Bounty Board, 2015 Talk Like a Pirate, Parcel Service, Deviling's Love ve Happy Egg Festival bloklarindan 60 pending kayit dahil",
+    "version": "7.39.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62905-62972 Happy Egg devam, Coyote, Silvervine Quest, Prontera Nightmare, Amistr Bag ve Bah Humbug bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -26582,6 +26582,306 @@
       "title": "Festival Dekorasyonuna Tekrar Yardim Et!",
       "description": "Festival'i dekore etmek icin Clover Poporing veya Clover Lunatic'ten 10 Happy Three Leaf Clover topla ve Deco Expert'e ver.",
       "goal": "10 Happy Three Leaf Clover"
+    },
+    "62905": {
+      "title": "Happy Pet Vending Machine",
+      "description": "",
+      "goal": ""
+    },
+    "62906": {
+      "title": "404 Bulunamadi!",
+      "description": "Festival egg'lerinden Something Fatal ortaya cikti. Bu bug'lari mysterious egg'lerden D. Buger ile yakalayabilirsin. 10 tane topla ve Festival Guide'a ver.",
+      "goal": "10 Something Fatal"
+    },
+    "62907": {
+      "title": "404 Bulunamadi - Bekleme",
+      "description": "Bug yakalamak cok yorucu... Eve donmek istiyorsun. Yarin tekrar yakala.",
+      "goal": "04h Reset"
+    },
+    "62908": {
+      "title": "404 Bulunamadi!",
+      "description": "Festival egg'lerinden Something Fatal ortaya cikti. Bu bug'lari mysterious egg'lerden D. Buger ile yakalayabilirsin. 10 tane topla ve Festival Guide'a ver.",
+      "goal": "10 Something Fatal"
+    },
+    "62909": {
+      "title": "Iyi Isin Karsiligi",
+      "description": "Fatal bug yakalamaya iki kez yardim ettin. Festival Guide ozel bir reward'dan bahsetti. Bir kez daha yap.",
+      "goal": ""
+    },
+    "62910": {
+      "title": "Ailenin Huzuru",
+      "description": "Mrs. Cacturon, oglu icin aldigi ve wasteland'de kaybettigi 5 Juice Mix Package'i bulmani istedi. Villager'larin guvenligi icin 30 Coyote da avla.",
+      "goal": "5 Juice Mix Package bul ve Coyote avla"
+    },
+    "62911": {
+      "title": "Yarin Daha Fazla Coyote",
+      "description": "Bugunluk yeter. Daha fazla Coyote avlamak icin yarin geri gel.",
+      "goal": "Saat 04:00'te reset"
+    },
+    "62912": {
+      "title": "Yeniden Coyote Avi",
+      "description": "Villager'lari korumak icin 30 Coyote avla ve Mrs. Cacturon'a rapor ver.",
+      "goal": "Coyote avla"
+    },
+    "62913": {
+      "title": "Juice Mix Package Alinamadi",
+      "description": "",
+      "goal": ""
+    },
+    "62914": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62915": {
+      "title": "Wasteland Cactuten Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62916": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62917": {
+      "title": "Coyote Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62918": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62919": {
+      "title": "Cactus Girl Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62920": {
+      "title": "Coyote Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62921": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62922": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62923": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62924": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62925": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62926": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62927": {
+      "title": "Supheli Sand Pile Bulundu",
+      "description": "",
+      "goal": ""
+    },
+    "62928": {
+      "title": "Silvervine Quest - Angeling",
+      "description": "Angeling monster'ini yen ve gorevi tamamla.",
+      "goal": "Angeling monster'ini yen"
+    },
+    "62929": {
+      "title": "Silvervine Quest - Archangeling",
+      "description": "Archangeling monster'ini yen ve gorevi tamamla.",
+      "goal": "Archangeling monster'ini yen"
+    },
+    "62930": {
+      "title": "Silvervine Quest - Cat o Nine Tails",
+      "description": "Cat o Nine Tails monster'ini yen ve gorevi tamamla.",
+      "goal": "Cat o Nine Tails monster'ini yen"
+    },
+    "62931": {
+      "title": "Silvervine Quest - Deviling",
+      "description": "Deviling monster'ini yen ve gorevi tamamla.",
+      "goal": "Deviling monster'ini yen"
+    },
+    "62932": {
+      "title": "Silvervine Quest - Dragonfly",
+      "description": "Dragonfly monster'ini yen ve gorevi tamamla.",
+      "goal": "Dragonfly monster'ini yen"
+    },
+    "62933": {
+      "title": "Silvervine Quest - Eclipse",
+      "description": "Eclipse monster'ini yen ve gorevi tamamla.",
+      "goal": "Eclipse monster'ini yen"
+    },
+    "62934": {
+      "title": "Silvervine Quest - Ghostring",
+      "description": "Ghostring monster'ini yen ve gorevi tamamla.",
+      "goal": "Ghostring monster'ini yen"
+    },
+    "62935": {
+      "title": "Silvervine Quest - Mastering",
+      "description": "Mastering monster'ini yen ve gorevi tamamla.",
+      "goal": "Mastering monster'ini yen"
+    },
+    "62936": {
+      "title": "Silvervine Quest - Maya Purple",
+      "description": "Maya Purple monster'ini yen ve gorevi tamamla.",
+      "goal": "Maya Purple monster'ini yen"
+    },
+    "62937": {
+      "title": "Silvervine Quest - Toad",
+      "description": "Toad monster'ini yen ve gorevi tamamla.",
+      "goal": "Toad monster'ini yen"
+    },
+    "62938": {
+      "title": "Silvervine Quest - Vagabond Wolf",
+      "description": "Vagabond Wolf monster'ini yen ve gorevi tamamla.",
+      "goal": "Vagabond Wolf monster'ini yen"
+    },
+    "62939": {
+      "title": "Silvervine Quest - Vocal",
+      "description": "Vocal monster'ini yen ve gorevi tamamla.",
+      "goal": "Vocal monster'ini yen"
+    },
+    "62942": {
+      "title": "Silvervine Miracle Elixir Buff I",
+      "description": "Bu buff'i gunde en fazla 3 kez alabilirsin.",
+      "goal": "Baska bir buff icin daha sonra geri gel"
+    },
+    "62943": {
+      "title": "Rock Ridge Spotlight Buff",
+      "description": "Yarin baska bir Spotlight Buff alabilirsin!",
+      "goal": "Yarin baska bir Spotlight Buff alabilirsin!"
+    },
+    "62945": {
+      "title": "Silvervine Miracle Elixir Buff II",
+      "description": "Bu buff'i gunde en fazla 3 kez alabilirsin.",
+      "goal": "Baska bir buff icin daha sonra geri gel"
+    },
+    "62946": {
+      "title": "Silvervine Miracle Elixir Buff III",
+      "description": "Bu buff'i gunde en fazla 3 kez alabilirsin.",
+      "goal": "Baska bir buff icin daha sonra geri gel"
+    },
+    "62948": {
+      "title": "Silvervine Stat Reset",
+      "description": "Haftada bir kez 5 stat point resetleyebilirsin. Tekrar resetlemek istersen gelecek hafta geri gel.",
+      "goal": "Baska bir stat reset icin gelecek hafta geri gel"
+    },
+    "62949": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Bir dream state'e gonderildin. Belki biri sana yardim edebilir.",
+      "goal": ""
+    },
+    "62950": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Burada mahsur kalan digerlerini bul ve yardimlarini al.",
+      "goal": ""
+    },
+    "62951": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Lenn ona Ectoplasm getirmeni istedi.",
+      "goal": ""
+    },
+    "62952": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Lenn ile konus.",
+      "goal": ""
+    },
+    "62953": {
+      "title": "Prontera Street'te Kabus",
+      "description": "DREAM ESSENCE.",
+      "goal": ""
+    },
+    "62954": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Claud'a Rusty Kitchen Knife getir.",
+      "goal": ""
+    },
+    "62955": {
+      "title": "Prontera Street'te Kabus",
+      "description": "MYSTERIOUS HATCHET",
+      "goal": ""
+    },
+    "62956": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Gina Crey'i kontrol et.",
+      "goal": ""
+    },
+    "62957": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Ayrilma zamani. Seni buraya getirene geri don.",
+      "goal": ""
+    },
+    "62958": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Dream Demon'i avla.",
+      "goal": ""
+    },
+    "62959": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Dream Demon'i avla.",
+      "goal": ""
+    },
+    "62960": {
+      "title": "Prontera Street'te Kabus",
+      "description": "Yarin tekrar deneyebilirsin.",
+      "goal": ""
+    },
+    "62962": {
+      "title": "Amistr Bag Event",
+      "description": "Norman icin asagidaki monster'lari avla.",
+      "goal": ""
+    },
+    "62963": {
+      "title": "Amistr Bag Event",
+      "description": "Norman dinlenmeden baska bir bag yapamaz.",
+      "goal": ""
+    },
+    "62967": {
+      "title": "Bah! Humbug!",
+      "description": "Santa Claws ile konus; sagdan ikinci claw'da.",
+      "goal": ""
+    },
+    "62968": {
+      "title": "Bah! Humbug!",
+      "description": "Santa Claws icin 1 Yarn ve 10 Fresh Fish al. Toplayinca yanindaki Grumpy Helper'a gotur.",
+      "goal": ""
+    },
+    "62969": {
+      "title": "Bah! Humbug!",
+      "description": "Grumpy Helper hic yardimci olmadi. Santa Claws'a geri don ve tekrar konus.",
+      "goal": ""
+    },
+    "62970": {
+      "title": "Bah! Humbug!",
+      "description": "Bu gidisle isi kendin yapman gerekecek! Cheerful Helper ile konus. Christmas icin oldukca heyecanli gorunuyor.",
+      "goal": ""
+    },
+    "62971": {
+      "title": "Bah! Humbug!",
+      "description": "Cheerful Helper icin 20 Wrapping Paper ve 20 Wrapping Lace topla.",
+      "goal": ""
+    },
+    "62972": {
+      "title": "Bah! Humbug!",
+      "description": "Retired Santa'ya geri don ve Christmas gift'leri yapmak icin yardim iste.",
+      "goal": ""
     }
   }
 }
