@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.29.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7074-7082 New World av, Dragon Egg, Refined Bradium ve Lapine Craftsman gunluk gorevleri dahil",
+    "version": "6.30.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7091-7095 Daora'nin Veins ve Rachel arastirma ipuclari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6872,6 +6872,31 @@
       "title": "Lapine Craftsman'a Yardim",
       "description": "Crystallized Teardrop ve Fluorescent Liquid malzemelerini tamamladin. Bugunluk yeterli stoklari var.",
       "goal": "Gunluk istek tamamlandi"
+    },
+    "7091": {
+      "title": "Daora'nin Tavsiyesi",
+      "description": "Trovan Veins'te bir Vigilante, Crave tool shop'ta bir tuccar ve Madelle pub'da garson. Sehirdeki yabancilar hakkinda onlara soru sor.",
+      "goal": "Trovan, Crave ve Madelle ile konus"
+    },
+    "7092": {
+      "title": "Daora'nin Tavsiyesi",
+      "description": "Veins merkezine yakin, insanlari nasil bulacagini bilen bir kiz ara.",
+      "goal": "Veins merkezindeki kizi bul"
+    },
+    "7093": {
+      "title": "Daora'nin Tavsiyesi",
+      "description": "Cikmaz sokak Veins'in kuzeydogusunda, caddenin daraldigi bir yerde.",
+      "goal": "Kuzeydogudaki cikmaz sokagi bul"
+    },
+    "7094": {
+      "title": "Daora'nin Tavsiyesi",
+      "description": "Anahtar hakkinda bilgi icin Rachel'a git ve Oresa adli anahtar ustasini bul. Rachel'in guneybatisindaki bir binada.",
+      "goal": "Rachel'daki Oresa'yi bul"
+    },
+    "7095": {
+      "title": "Daora'nin Tavsiyesi",
+      "description": "Veins'in kuzeybatisindaki alanda bir villa olmali. Kuzeydoguya uzanan yarik yol aradigin gecit olabilir.",
+      "goal": "Veins kuzeybatisindaki villayi ara"
     }
   }
 }
