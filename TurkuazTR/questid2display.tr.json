@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.59.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7488-7494 Morocc Fire Element, Familiar, mushroom farm ve miscellaneous assignment gorevleri dahil",
+    "version": "6.60.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7501-7542 Multiplayer Battle Arena TE, kale isgali ve guild dungeon challenge gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8842,6 +8842,216 @@
       "title": "Mantar Ciftligini Temizle",
       "description": "Pyramid onundeki Mash, mushroom farm'a giren Chonchon ve Pabre'leri temizlemeni istedi.",
       "goal": "10 Chonchon ve Pabre temizle"
+    },
+    "7501": {
+      "title": "1 Supheli Babee",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Suspicious Babee'lerden 1 tanesini yen.",
+      "goal": "1 Suspicious Babee yen"
+    },
+    "7502": {
+      "title": "10 Supheli Babee",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Suspicious Babee'lerden 10 tanesini yen.",
+      "goal": "10 Suspicious Babee yen"
+    },
+    "7503": {
+      "title": "30 Supheli Babee",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Suspicious Babee'lerden 30 tanesini yen.",
+      "goal": "30 Suspicious Babee yen"
+    },
+    "7504": {
+      "title": "1 Emperium Yok Et",
+      "description": "Multiplayer Battle Arena'da Gloria ve Kafragaten kalelerinde beliren en az 1 Emperium'u yok et.",
+      "goal": "1 Emperium yok et"
+    },
+    "7505": {
+      "title": "3 Emperium Yok Et",
+      "description": "Multiplayer Battle Arena'da Gloria ve Kafragaten kalelerinde beliren en az 3 Emperium'u yok et.",
+      "goal": "3 Emperium yok et"
+    },
+    "7506": {
+      "title": "5 Emperium Yok Et",
+      "description": "Multiplayer Battle Arena'da Gloria ve Kafragaten kalelerinde beliren en az 5 Emperium'u yok et.",
+      "goal": "5 Emperium yok et"
+    },
+    "7507": {
+      "title": "10 Small Wooden Box",
+      "description": "Suspicious Babee'ler Gloria kalesindeki kucuk ahsap kutulari caldi. Multiplayer Battle Arena TE saatlerinde 10 Small Wooden Box topla.",
+      "goal": "10 Small Wooden Box topla"
+    },
+    "7508": {
+      "title": "20 Small Wooden Box",
+      "description": "Suspicious Babee'ler Gloria kalesindeki kucuk ahsap kutulari caldi. Multiplayer Battle Arena TE saatlerinde 20 Small Wooden Box topla.",
+      "goal": "20 Small Wooden Box topla"
+    },
+    "7509": {
+      "title": "30 Small Wooden Box",
+      "description": "Suspicious Babee'ler Gloria kalesindeki kucuk ahsap kutulari caldi. Multiplayer Battle Arena TE saatlerinde 30 Small Wooden Box topla.",
+      "goal": "30 Small Wooden Box topla"
+    },
+    "7510": {
+      "title": "1 Hirsizi Uzaklastir",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Poring the Thief'ten 1 tanesini yen.",
+      "goal": "1 Poring the Thief yen"
+    },
+    "7511": {
+      "title": "10 Hirsizi Uzaklastir",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Poring the Thief'lerden 10 tanesini yen.",
+      "goal": "10 Poring the Thief yen"
+    },
+    "7512": {
+      "title": "30 Hirsizi Uzaklastir",
+      "description": "Multiplayer Battle Arena TE saatlerinde Gloria kalesinde gorunen Poring the Thief'lerden 30 tanesini yen.",
+      "goal": "30 Poring the Thief yen"
+    },
+    "7513": {
+      "title": "10 Paycheck",
+      "description": "Poring the Thief, Kafra dukkanindan paycheck'leri calmis. 10 tanesini geri topla.",
+      "goal": "10 Paycheck topla"
+    },
+    "7514": {
+      "title": "20 Paycheck",
+      "description": "Poring the Thief, Kafra dukkanindan paycheck'leri calmis. 20 tanesini geri topla.",
+      "goal": "20 Paycheck topla"
+    },
+    "7515": {
+      "title": "30 Paycheck",
+      "description": "Poring the Thief, Kafra dukkanindan paycheck'leri calmis. 30 tanesini geri topla.",
+      "goal": "30 Paycheck topla"
+    },
+    "7516": {
+      "title": "Ticari Gelisim Icin Mola",
+      "description": "Emperium'lari surekli yok etmek ticari gelisimi aksatiyor. Bolgenin toparlanmasi icin biraz zaman tani.",
+      "goal": "20 dakika bekle"
+    },
+    "7517": {
+      "title": "Valkyrie Realm'i Isgal Et",
+      "description": "Valkyrie Realm'deki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7518": {
+      "title": "Luina'yi Isgal Et",
+      "description": "Luina'daki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7519": {
+      "title": "Britoniah'i Isgal Et",
+      "description": "Britoniah'daki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7520": {
+      "title": "Greenwood Lake'i Isgal Et",
+      "description": "Greenwood Lake'teki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7521": {
+      "title": "Nidabehl'i Isgal Et",
+      "description": "Nidabehl'deki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7522": {
+      "title": "Valfreyja'yi Isgal Et",
+      "description": "Valfreyja'daki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7523": {
+      "title": "Gloria'yi Isgal Et",
+      "description": "Gloria'daki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7524": {
+      "title": "Kafragaten'i Isgal Et",
+      "description": "Kafragaten'deki bir kalenin isgali rapor edildi. Bir sonraki rapor 1 saat sonra verilebilir.",
+      "goal": "1 saat bekle"
+    },
+    "7525": {
+      "title": "Valkyrie Realm Challenge 1",
+      "description": "Valkyrie Realm guild dungeon birinci katinda 50 Caterpillar ve 50 Creamy Fear yen.",
+      "goal": "50 Caterpillar ve 50 Creamy Fear yen"
+    },
+    "7526": {
+      "title": "Valkyrie Realm Challenge 2",
+      "description": "Valkyrie Realm guild dungeon ikinci katinda 3 farkli Abysmal Kobold turunden 30'ar tane yen.",
+      "goal": "Her Abysmal Kobold turunden 30 tane yen"
+    },
+    "7527": {
+      "title": "Valkyrie Realm Challenge 3",
+      "description": "Valkyrie Realm Corridor of the Abyss icindeki Road of Warriors'ta Pyuriel the Furious Outcast ve Lora the Warrior'u yen.",
+      "goal": "Pyuriel ve Lora'yi yen"
+    },
+    "7528": {
+      "title": "Luina Challenge 1",
+      "description": "Luina guild dungeon birinci katinda 50 Giant Hornet ve 50 Ancient Worm yen.",
+      "goal": "50 Giant Hornet ve 50 Ancient Worm yen"
+    },
+    "7529": {
+      "title": "Luina Challenge 2",
+      "description": "Luina guild dungeon ikinci katinda 40 Killer Mantis ve 50 Angra Mantis yen.",
+      "goal": "40 Killer Mantis ve 50 Angra Mantis yen"
+    },
+    "7530": {
+      "title": "Luina Challenge 3",
+      "description": "Luina Corridor of the Abyss icindeki Hero's Tear'da Gioia ve Elvira'yi yen.",
+      "goal": "Gioia ve Elvira'yi yen"
+    },
+    "7531": {
+      "title": "Britoniah Challenge 1",
+      "description": "Britoniah guild dungeon birinci katinda 50 Zombie Master ve 50 Wraith Dead yen.",
+      "goal": "50 Zombie Master ve 50 Wraith Dead yen"
+    },
+    "7532": {
+      "title": "Britoniah Challenge 2",
+      "description": "Britoniah guild dungeon ikinci katinda 20 Abysmal Dark Frame, 20 Abysmal Dark Priest ve 50 Abysmal Dark Shadow yen.",
+      "goal": "Gerekli Abysmal canavarlarini yen"
+    },
+    "7533": {
+      "title": "Britoniah Challenge 3",
+      "description": "Britoniah Corridor of the Abyss icindeki Dead Man's Hill'de Kades ve Rudo'yu yen.",
+      "goal": "Kades ve Rudo'yu yen"
+    },
+    "7534": {
+      "title": "Greenwood Lake Challenge 1",
+      "description": "Greenwood Lake guild dungeon birinci katinda 50 Gullinbrusti ve 50 Leib Olmai yen.",
+      "goal": "50 Gullinbrusti ve 50 Leib Olmai yen"
+    },
+    "7535": {
+      "title": "Greenwood Lake Challenge 2",
+      "description": "Greenwood Lake guild dungeon ikinci katinda 45 Skeleton General, 20 Am Mut ve 25 Gajomart yen.",
+      "goal": "Gerekli guild dungeon canavarlarini yen"
+    },
+    "7536": {
+      "title": "Greenwood Lake Challenge 3",
+      "description": "Greenwood Lake Corridor of the Abyss icindeki Ancient Wind'de General Daehyeon ve Warrior Soheon'u yen.",
+      "goal": "General Daehyeon ve Warrior Soheon'u yen"
+    },
+    "7537": {
+      "title": "Nidabehl Challenge 1",
+      "description": "Nidabehl guild dungeon'da 50 Hell Apocalypse ve 50 Zakudam yen.",
+      "goal": "50 Hell Apocalypse ve 50 Zakudam yen"
+    },
+    "7538": {
+      "title": "Nidabehl Challenge 2",
+      "description": "Nidabehl guild dungeon'da 35 Heavy Metaling ve 35 Cobalt Mineral yen.",
+      "goal": "35 Heavy Metaling ve 35 Cobalt Mineral yen"
+    },
+    "7539": {
+      "title": "Valfreyja Challenge 1",
+      "description": "Valfreyja guild dungeon'da 50 Banshee Master ve 30 Beholder Master yen.",
+      "goal": "50 Banshee Master ve 30 Beholder Master yen"
+    },
+    "7540": {
+      "title": "Valfreyja Challenge 2",
+      "description": "Valfreyja guild dungeon'da 50 Aunoe ve 20 Fanat yen.",
+      "goal": "50 Aunoe ve 20 Fanat yen"
+    },
+    "7541": {
+      "title": "Gloria Challenge 1",
+      "description": "Gloria guild dungeon'da 30 Knight, 30 Assassin ve 30 Blacksmith yen.",
+      "goal": "Her turden 30 tane yen"
+    },
+    "7542": {
+      "title": "Gloria Challenge 2",
+      "description": "Gloria guild dungeon'da 30 Wizard, 30 Priest ve 30 Hunter yen.",
+      "goal": "Her turden 30 tane yen"
     }
   }
 }
