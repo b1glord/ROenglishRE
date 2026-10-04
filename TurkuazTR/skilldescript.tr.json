@@ -1,0 +1,15 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
+    "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "Hybrid ve Full TR profilleri ayni Turkce description patchlerini kullanir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
+  "source_ref": "6cca1790f1ba2c08beb8012cf0ce34cba44dd7c7",
+  "encoding_policy": "Kaynak CP949/EUC-KR/UTF-8 fallback ile okunur; generated cikti kaynak encodingini korur",
+  "profile_policy": "Skill adi profile gore name_original veya name_tr; description her iki profilde lines_tr",
+  "patches": {}
+}
