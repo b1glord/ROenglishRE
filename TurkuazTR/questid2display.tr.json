@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.00.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11601-12056 Old Memories, Maku-Digotz, Rekenber Secret Wing, Shuda-Annon, Sa-mhing Tiger ve Rogue-Assassin job quest bloklarindan 60 pending kayit dahil",
+    "version": "7.01.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 12057-12131 Lab ve Tower kisitlari, 41-55 hunting, Royal Guard-Sorcerer Job Change ve New World Hunting-Supply Dept bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -15182,6 +15182,306 @@
       "title": "Job Quest - Assassin",
       "description": "Sonic Acceleration ogrenmek icin Esmille'i dikkatle dinle ve soyledigi belirli yerlerden gemstone getir.",
       "goal": "Gemstone getir"
+    },
+    "12057": {
+      "title": "Lab Gecis Izni",
+      "description": "Card Pass'i kullanarak lab'a gizlice gir.",
+      "goal": "Pass'i kullan"
+    },
+    "12058": {
+      "title": "102 Tower'a Giris Kisitli",
+      "description": "102 Tower icin giris olusturmak kisitlidir.",
+      "goal": "Giris kisitli"
+    },
+    "12059": {
+      "title": "Orc's Memory Sure Siniri",
+      "description": "Orc's Memory erisimi icin sure siniri 2 saattir. Sure doldugunda instance dungeon yok edilir.",
+      "goal": "Giris kisitli"
+    },
+    "12060": {
+      "title": "Bugunku Balikcilik Kapali",
+      "description": "Bir gun gecmeden Gorurung yeni fish parcalarini kabul etmeyecek.",
+      "goal": "Daha fazla fish teslim etmek icin 1 gun bekle"
+    },
+    "12061": {
+      "title": "Konsantrasyon",
+      "description": "Balik tutma alaninda lutfen sessiz ol.",
+      "goal": "Kurallara uy!"
+    },
+    "12062": {
+      "title": "Bugunku Madencilik Kapali",
+      "description": "24 saat gecene kadar mining yapilamaz.",
+      "goal": "Bugunluk bu kadar~"
+    },
+    "12070": {
+      "title": "Giris Icin Sure Siniri",
+      "description": "Endless Tower'a yalnizca belirli sure siniri icinde girilebilir.",
+      "goal": "Tower girisi icin sure siniri"
+    },
+    "12072": {
+      "title": "Thara Frog Avi",
+      "description": "Kirmizi bir frog gordun mu? Adi Thara Frog ve cok nadir. Nerede yasadigini dogrulamaya calisiyoruz. Comodo'nun dogusundaki dungeon'da 20 Thara Frog avla.",
+      "goal": "20 Thara Frog avla"
+    },
+    "12073": {
+      "title": "Cruiser Avi",
+      "description": "Insanlara saldiran oyuncaklar oldugunu duydum. Sacmalik! Guclu oldugumuzu gosterelim. Lutie'deki Toy Factory'de 15 Cruiser avla.",
+      "goal": "15 Cruiser avla"
+    },
+    "12074": {
+      "title": "Kukre Avi",
+      "description": "Sahil yakininda biri soyuldu. Supheli, Kukre adli suclu monster. Byalan Dungeon'da 30 Kukre avla.",
+      "goal": "30 Kukre avla"
+    },
+    "12075": {
+      "title": "Orc Baby Avi",
+      "description": "Orc Baby'ler son gunlerde daha saldirgan. Geffen Field'daki Orc Village'da 15 Orc Baby avla.",
+      "goal": "15 Orc Baby avla"
+    },
+    "12076": {
+      "title": "Orc Warrior Avi",
+      "description": "Orc Warrior'larin saldirganligi artiyor. Geffen Field'daki Orc Village cevresinde 20 Orc Warrior avla.",
+      "goal": "20 Orc Warrior avla"
+    },
+    "12077": {
+      "title": "Vadon Avi",
+      "description": "Kalin kabuklu crab'leri gordun mu? Onlar Vadon. Byalan Dungeon'da 15 Vadon avla.",
+      "goal": "15 Vadon avla"
+    },
+    "12078": {
+      "title": "Megalodon Avi",
+      "description": "Sahil olu baliklarla dolu ve durum kotulesiyor. Comodo'nun dogusundaki dungeon'da 30 Megalodon avla.",
+      "goal": "30 Megalodon avla"
+    },
+    "12079": {
+      "title": "Marse Avi",
+      "description": "Marse avlayabilir misin? Arastirmam icin 15 Marse gerekiyor. Byalan Dungeon'da bulunurlar.",
+      "goal": "15 Marse avla"
+    },
+    "12080": {
+      "title": "Cornutus Avi",
+      "description": "Aptal bir Cornutus Mayor'un ayagini isirdi. Mayor kizgin; onu mutlu etmek icin Byalan Dungeon'da 20 Cornutus avla.",
+      "goal": "20 Cornutus avla"
+    },
+    "12081": {
+      "title": "Myst Avi",
+      "description": "Myst yuzunden insanlar panik oluyor. Hayalete benzedigi icin korkutuyor. Mjolnir Dead Pit'te 15 Myst avla.",
+      "goal": "15 Myst avla"
+    },
+    "12082": {
+      "title": "Shellfish Avi",
+      "description": "Nedenini sorma ama 30 Shellfish avla. Gizli bir gorev. Hugel'in 1 field guneyinde veya Paros Lighthouse cevresinde bulabilirsin.",
+      "goal": "30 Shellfish avla"
+    },
+    "12083": {
+      "title": "Marine Sphere Avi",
+      "description": "Marine Sphere nedir biliyor musun? 15 Marine Sphere avlama gorevi aldim. Byalan Dungeon'da 15 tane avla.",
+      "goal": "15 Marine Sphere avla"
+    },
+    "12084": {
+      "title": "Phen Avi",
+      "description": "Mayor lezzetli bir fish yemegi istiyor. Phen bunun icin mukemmel malzeme. Byalan Dungeon'da 20 Phen avla.",
+      "goal": "20 Phen avla"
+    },
+    "12085": {
+      "title": "Orc Skeleton Avi",
+      "description": "Olen Orc'lar Orc Skeleton olarak geri dondu ve kasabada kaos var. Orc Dungeon 2F'te 15 Orc Skeleton avla.",
+      "goal": "15 Orc Skeleton avla"
+    },
+    "12086": {
+      "title": "Zenorc Avi",
+      "description": "Zenorc denen garip monster'lar saldiriyor. Orc Dungeon'da 30 Zenorc avla.",
+      "goal": "30 Zenorc avla"
+    },
+    "12087": {
+      "title": "Mummy Avi",
+      "description": "Hazir ol! Bu acimasiz bir gorev. Pyramid'de 15 Mummy avla. Ben denedim ama cok korkunc oldugu icin basaramadim.",
+      "goal": "15 Mummy avla"
+    },
+    "12088": {
+      "title": "41-55 Istegi",
+      "description": "41~55 request board'dan bir gorev yapiyorsun.",
+      "goal": ""
+    },
+    "12090": {
+      "title": "Royal Guard Job Degisimi",
+      "description": "Hainrich, Schmidtz'in izini ve Royal Guard hakkinda bilgi aradigini soyluyor.",
+      "goal": "Middle-aged Gentleman Hainrich ile konusmaya devam et"
+    },
+    "12091": {
+      "title": "Royal Guard Job Degisimi",
+      "description": "Asceticism ve dayanma gucunu kanitlamak icin Prontera Castle'daki Hainrich'e 100 Burning Heart getir.",
+      "goal": "100 Burning Heart topla"
+    },
+    "12092": {
+      "title": "Royal Guard Job Degisimi",
+      "description": "100 Burning Heart topladin. Hainrich ile konusmaya devam et ve hikayesini dinle.",
+      "goal": ""
+    },
+    "12093": {
+      "title": "Royal Guard Job Degisimi",
+      "description": "Son iz Glast Heim St. Abbey'de bir yerde olmali. Arastirmaya gore ana church bolgesinde.",
+      "goal": ""
+    },
+    "12094": {
+      "title": "Royal Guard Job Degisimi",
+      "description": "Yazitta soyle yaziyor: \"Kutsal guce sahip olan sen... Eski kalem Glast Heim yakininda hatirami bul. Odalarim kuzeydeydi...\"",
+      "goal": ""
+    },
+    "12096": {
+      "title": "Sorcerer Job Degisimi",
+      "description": "Geffen Tower 4F'te Karacas'i bul.",
+      "goal": "Karacas ile konus"
+    },
+    "12097": {
+      "title": "Sorcerer Job Degisimi",
+      "description": "Testin baslamasi icin Geffen Tower'daki Karacas'a 3 Wind of Verdure, 3 Crystal Blue, 3 Red Blood ve 3 Green Live getir.",
+      "goal": ""
+    },
+    "12098": {
+      "title": "Dungeon Turu",
+      "description": "4 farkli elemental stone'u su konumlara gotur: Ice Cave 1F, Thor Volcano Dungeon 1F, Mjolnir Dead Pit 3F ve Kunlun Dungeon 2F. Spirit detecting pole'lari bul.",
+      "goal": "Geffen Tower'daki Karacas'a 3 farkli reagent getir"
+    },
+    "12099": {
+      "title": "Kok Nedeni Ortadan Kaldir",
+      "description": "Yggdrasilberry kokleri yakininda baby dragon'lar cikiyor. Buyuyup tehlikeli olmadan once yok edilmeleri gerekiyor. 10 Draco's Egg avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "10 Draco's Egg avla"
+    },
+    "12100": {
+      "title": "Saldirgan Kanatli Bocek",
+      "description": "Lapine camp yakininda bilinmeyen dev kanatli bocekler goruldu. Yayilmadan once gordugun kadarini yok et. 12 Luciola Vespa avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "12 Luciola Vespa avla"
+    },
+    "12101": {
+      "title": "Is Engelleme",
+      "description": "Mine'da calisanlardan rapor geldi. Yggdrasilberry kokleri yakinindaki baby dragon'lar mine cevresini tahrip ediyor. 5 Draco avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "5 Draco avla"
+    },
+    "12102": {
+      "title": "Zeki Yilanlar",
+      "description": "Lapine camp yakinindaki swamp'ta Naga adli yeni bir irk bulundu. Ilkel zekaya sahipler ve saldirganlar. Kolonileri buyumeden 10 yetiskin Naga avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "10 Naga avla"
+    },
+    "12103": {
+      "title": "Efsanevi Yaratik",
+      "description": "Lapine base yakininda efsanevi kanatli beyaz at goruldugu rapor ediliyor. Hayal olmadigindan emin olmak icin git ve kontrol et. 1 Cornus avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "1 Cornus avla"
+    },
+    "12104": {
+      "title": "Istahli Bocekler",
+      "description": "Centipede'lerin cogalmasi kadar istahlari da tehdit. Bradium minerallerini tuketip mining alanlarina zarar veriyorlar. 15 Centipede avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "15 Centipede avla"
+    },
+    "12105": {
+      "title": "Hareket Eden Kayalar",
+      "description": "Mine'daki Bradium raw mineral'lerinin canlandigi rapor edildi. Eski bir buyu onlari Golem'e cevirmis olabilir. Manuk Field 2 cevresinde 10 Bradium Golem avla ve 23 saat icinde Hunting Dept. 1 Manager'a rapor ver.",
+      "goal": "10 Bradium Golem avla"
+    },
+    "12106": {
+      "title": "Cicek Uzerindeki Cocuk",
+      "description": "Splendide'e giden scout, cocuga benzeyen sevimli monster'lar tarafindan saldiriya ugruyor. Lapine olmadigin icin bu avi sen yapmalisin. 15 Pinguicula avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "15 Pinguicula avla"
+    },
+    "12107": {
+      "title": "Carpik Sevgi",
+      "description": "Cocuga benzeyen Pinguicula ciceginin mutasyona ugramis turu cok saldirgan. Yayilmadan once kontrol altina al. Nidhoggur Dungeon'da 10 Dark Pinguicula avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "10 Dark Pinguicula avla"
+    },
+    "12108": {
+      "title": "Tehlikeli Bitkileri Temizle",
+      "description": "Bazi mineral collector'lar kayip ve bunun Nepenthes'lerden kaynaklandigi dusunuluyor. Daha fazla zarar olmadan 12 Nepenthes avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "12 Nepenthes avla"
+    },
+    "12109": {
+      "title": "Larva Imhasi",
+      "description": "Centipede larva habitat'i bulundu. Simdi onlari azaltabiliriz. Cevredeki Centipede'lere dikkat et. 14 Centipede Larva avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "14 Centipede Larva avla"
+    },
+    "12110": {
+      "title": "Su Seytani",
+      "description": "Nidhoggur's Nest'e giden miner'lar insan gorunumlu garip bir su yaratiginin saldirisina ugradi. Nidhoggur Dungeon'i kontrol et. 7 Aqua Elemental avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "7 Aqua Elemental avla"
+    },
+    "12111": {
+      "title": "Cirkin Yuzlu Kus",
+      "description": "Tatacho'lar eskiden guzel ve ucabilen kuslardi. Dogal dusman olmayinca sismanlayip tembellestiler. Sen onlar icin iyi bir dogal dusman olacaksin. 10 Tatacho avla ve 23 saat icinde Hunting Dept. 2 Manager'a rapor ver.",
+      "goal": "10 Tatacho avla"
+    },
+    "12117": {
+      "title": "Solmus Cicek",
+      "description": "Bu bolge eskiden wetland idi ama cevre zamanla degisti. Lapine camp yakinindan arastirma icin 6 Withered Flower topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "6 Withered Flower topla"
+    },
+    "12118": {
+      "title": "Istenen Mineral",
+      "description": "Bradium refining machinery bozuk ve mine calisanlarina refined Bradium yetismiyor. Bradium Golem'lerden 3 Refined Bradium topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "3 Refined Bradium topla"
+    },
+    "12119": {
+      "title": "Degerli Tekstil",
+      "description": "16 Dragon's Mane getir. Draco'lardan az miktarda dusen bu malzeme bayrak, giysi ve field equipment tasarimlarinda kullaniliyor. 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "16 Dragon's Mane topla"
+    },
+    "12120": {
+      "title": "Merak Uyandiran Et",
+      "description": "Pub, diger dunyalardan gelenler icin uzun sure saklanabilen field food yapmakta Dragon Tail kullanmak istiyor. 6 Dragon Tail topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "6 Dragon Tail topla"
+    },
+    "12121": {
+      "title": "Kar Temizleme Malzemesi",
+      "description": "Sehir disina cikan yol kar nedeniyle tehlikeli buzlu hale geldi. Piece of Egg Shell yaymak yardimci olacak. 26 tane topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "26 Piece of Egg Shell topla"
+    },
+    "12122": {
+      "title": "En Iyi Sogutucu Malzeme",
+      "description": "Bradium Processing Machinery cok fazla isi yayiyor ve normal suyla dengelenemiyor. Aqua Elemental'lardan Crystalized Teardrop gerekiyor. 6 tane topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "6 Crystalized Teardrop topla"
+    },
+    "12123": {
+      "title": "En Iyi Boya",
+      "description": "Supply Manager sehirdeki building maintenance icin acil boya istiyor. Aqua Elemental'lardan 26 Fluorescent Liquid topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "26 Fluorescent Liquid topla"
+    },
+    "12124": {
+      "title": "Nadir Degerli Esya",
+      "description": "Minister'in odasindaki degerli water bottle kirildi. Aqua Elemental'dan yalnizca 1 Small Bottle getir ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "1 Small Bottle topla"
+    },
+    "12125": {
+      "title": "Armor Malzemesi",
+      "description": "Guard armor'larinin lining malzemesi kalmadi. Naga'nin Scale Shell'i bunun icin ideal. 18 Scale Shell topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "18 Scale Shell topla"
+    },
+    "12126": {
+      "title": "Gelismis Armor Malzemesi",
+      "description": "Guard commander armor'lari icin daha kaliteli lining gerekiyor. Naga'lardan 11 Shining Scale topla ve 23 saat icinde Supply Dept. 1 Manager'a rapor ver.",
+      "goal": "11 Shining Scale topla"
+    },
+    "12127": {
+      "title": "Supervisor Araci",
+      "description": "Mine supervisor'larinin trumpet'larini onarma zamani. Cornus'tan alinan Mystic Horn uygun malzeme. 5 Mystic Horn topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "5 Mystic Horn topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver"
+    },
+    "12128": {
+      "title": "Isinma Hazirligi",
+      "description": "Adventurer'lar icin yeterli fur yok. Tatacho'dan 21 Fur topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "21 Fur topla"
+    },
+    "12129": {
+      "title": "Supheli Yiyecek",
+      "description": "Pub 27 Bug Leg istedi ama neden gerektigini soylemiyor. 27 Bug Leg topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "27 Bug Leg topla"
+    },
+    "12130": {
+      "title": "Kullanisli Malzeme",
+      "description": "Zargon burada cok populer. Guzel yuvarlak bir top ve tozu suyla karistirilinca yapistirici olarak kullanilabiliyor. 26 Zargon topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "26 Zargon topla"
+    },
+    "12131": {
+      "title": "Insaat Icin Temel Malzeme",
+      "description": "Donemsel building repair icin Centipede ve Centipede Larva'dan 13 Solid Shell gerekiyor. 13 Solid Shell topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "13 Solid Shell topla"
     }
   }
 }
