@@ -18083,28 +18083,28 @@ QuestInfoList = {
 		Summary = "Yuzuk teslim alindi"
 	},
 	[7182] = {
-		Title = "Sapha's Visit",
+		Title = "Sapha'nin Ziyareti",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"There are rumors that a Sapha from Manuk has come to visit the camp. Aello trusts me so he appointed me to speak to him. The <NAVI>[delegate]<INFO>mid_campin,110,120,0,101,0,</INFO></NAVI> is in the room at the right on the second floor."
 		},
-		Summary = "Meet the Sapha delegate upstairs"
+		Summary = "Ust kattaki Sapha temsilcisiyle gorus"
 	},
 	[7183] = {
-		Title = "Invitation from Sapha",
+		Title = "Sapha'dan Davet",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Get permission from <NAVI>[Avalanche]<INFO>man_in01,315,52,0,101,0,</INFO></NAVI>, the General Guard at Manuk, to pass through the tunnel between Manuk and the Sapha's capital city El Dicastes."
 		},
-		Summary = "Meet Avalanche at Manuk"
+		Summary = "Manuk'ta Avalanche ile gorus"
 	},
 	[7184] = {
-		Title = "To El Dicastes!",
+		Title = "El Dicastes'e!",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"You have been approved from Avalanche to use the tunnel between Manuk and El Dicastes. I can finally go to the Capital of the Sapha! Find the <NAVI>[Entrance Manager]<INFO>dic_in01,39,261,0,101,0,</INFO></NAVI> at the tunnel entrance in Manuk."
 		},
-		Summary = "Permission from the Entrance Manager"
+		Summary = "Tunel girisindeki Entrance Manager'i bul"
 	},
 	[7185] = {
 		Title = "Inspector Doha",
@@ -18112,18 +18112,18 @@ QuestInfoList = {
 		Description = {
 			"Before leaving for the Capital, Captain Hibba Agip told me to meet <NAVI>[Inspector Doha]<INFO>mid_campin,168,170,0,101,0,</INFO></NAVI>. I don't know what it is for, but have to meet this Doha person before heading to Manuk. Doha is in the room next to Vyhannus'."
 		},
-		Summary = "Meet Inspector Doha"
+		Summary = "Inspector Doha ile gorus"
 	},
 	[7186] = {
-		Title = "Secret Order from Doha - Investigation",
+		Title = "Doha'nin Gizli Emri - Sorusturma",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Doha says that he's seeking the suspect of the stolen report case. He secretly orders you to collect information while in El Dicastes in the <NAVI>[tavern]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI>, explaining the suspect's outfit. The suspect is a guy with animal ears."
 		},
-		Summary = "Gather Information"
+		Summary = "El Dicastes'te supheli hakkinda bilgi topla"
 	},
 	[7187] = {
-		Title = "Secret Order from Doha - Shay",
+		Title = "Doha'nin Gizli Emri - Shay",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"<NAVI>[Shay]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI> is the manager of \"Burman Flone\", the Pub of El Dicastes. He suggested to obtain some information about \"the guy with animal ears\" from the Sapha who live in the capital.",
@@ -18131,55 +18131,55 @@ QuestInfoList = {
 			"<NAVI>[Factory of Sapha]<INFO>dicastes01,112,248,0,101,0,</INFO></NAVI>",
 			"<NAVI>[Royal Guard of Sapha]<INFO>dicastes01,249,140,0,101,0,</INFO></NAVI>"
 		},
-		Summary = "Talk to the Sapha in El Dicastes to gather information"
+		Summary = "El Dicastes'teki Sapha'larla konus"
 	},
 	[7188] = {
-		Title = "Information Gathering - in the Plaza",
+		Title = "Bilgi Toplama - Meydan",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Cat ears? Not Cat Hand Merchants? I have no idea. By the way have you met Ahat already? He is really beautiful and noble."
+			"Meydandaki Sapha kedi kulakli bir adam hakkinda bir sey bilmiyor; bunun yerine Ahat'tan ovguyle bahsediyor."
 		},
-		Summary = "Information Collected 1"
+		Summary = "Meydanda bilgi toplamaya devam et"
 	},
 	[7189] = {
-		Title = "Information Gathering - in the Factory",
+		Title = "Bilgi Toplama - Fabrika",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"A man with Cat ears? I've never heard of it. Do not try to find that kind of unreliable thing and just go to meet Ahat. He is real nice! He is the role model of Sapha!"
+			"Fabrikadaki Sapha da kedi kulakli bir adam duymadigini soyluyor ve Ahat'in Sapha'lar icin ornek biri oldugunu anlatiyor."
 		},
-		Summary = "Information Collected 2"
+		Summary = "Fabrikada bilgi toplamaya devam et"
 	},
 	[7190] = {
-		Title = "Information Gathering - at the Guards",
+		Title = "Bilgi Toplama - Muhafizlar",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"Cat ears? You sure? Are you humans always like that? Why don't you just go to meet Ahat. He is a very strong Sapha. He may be a Jarute working through piles of documents but he must be hiding his power!!"
+			"Muhafizlar da kedi kulakli adamdan emin degil. Ahat'in guclu bir Sapha oldugunu ve gercek gucunu sakliyor olabilecegini soyluyorlar."
 		},
-		Summary = "Information Collected 3"
+		Summary = "Muhafizlardan bilgi topla"
 	},
 	[7191] = {
-		Title = "Shay's Designation - BK",
+		Title = "Shay'in Yonlendirmesi - BK",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"In order to facilitate information gathering, Shay introduced <NAVI>[BK]<INFO>dic_fild01,231,174,0,101,0,</INFO></NAVI> from the Cat Hand Merchants. You need to tell BK that \"Shay's special drink will be delivered.\" if BK doesn't offer any help..."
 		},
-		Summary = "Meet BK"
+		Summary = "El Dicastes disinda Kamidal Mountain yakinindaki BK ile gorus"
 	},
 	[7192] = {
-		Title = "BK's Information",
+		Title = "BK'nin Bilgisi",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"According to BK's information, the cat ears man is closely related to Ahat, the popular man in El Dicastes. But he says Ahat is not a Sapha and was found near the Crack. What does it have to do with cracks? Let's talk to <NAVI>[Shai]<INFO>dic_in01,245,119,0,101,0,</INFO></NAVI> at El Dicastes Bar."
 		},
-		Summary = "Talk to Shay"
+		Summary = "Burman Flone'da Shay ile bulgulari konus"
 	},
 	[7193] = {
-		Title = "Dimensional Gap Investigation",
+		Title = "Dimensional Gap Sorusturmasi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"After talking to Shay, investigate the <NAVI[Dimensional Gap]<INFO>dic_fild02,175,130,0,101,0,</INFO></NAVI> at the foot of Kamidal Mountain in the south to find the truth. Find any clues that may be useful to the investigation."
+			"Shay ile konustuktan sonra gercegi bulmak icin guneydeki Dimensional Gap bolgesini arastir. Sorusturmada kullanilabilecek ipuclari bul."
 		},
-		Summary = "Investigate the Dimensional Gap"
+		Summary = "Guneydeki Dimensional Gap bolgesini arastir"
 	},
 	[7194] = {
 		Title = "What's this bloodstain?",
