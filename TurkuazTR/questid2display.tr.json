@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.46.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7194-7203 El Dicastes delil toplama, Ahat iz silme ve Doha final rapor gorevleri dahil",
+    "version": "6.47.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7204 Bomi ilkbahar cicegi ve 7206-7210 Cheshire gunluk tasima gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7437,6 +7437,36 @@
       "title": "Doha'nin Gizli Emri - Final Rapor",
       "description": "Jarute Heslanta ile birkac konu gorustun. Bulgularini rapor haline getirip Expedition Camp'teki Inspector Doha'ya teslim et.",
       "goal": "Final raporu Inspector Doha'ya teslim et"
+    },
+    "7204": {
+      "title": "Ilkbahari Getiren Cicek",
+      "description": "Lutie'deki Bomi ilkbahari getiren cicekleri merak ediyor. Ona bir demet ilkbahar cicegi goturmeye soz verdin.",
+      "goal": "Bomi'ye 5 Huge Spray Of Flowers ver"
+    },
+    "7206": {
+      "title": "Cheshire'in Yeni Gunleri",
+      "description": "Kamidal Tunnel'in ortalarinda bir Cat Paw uyesi bul. Skaraba Hall girisinin bati tarafinda isaretli bir mal kutusu var. Kutuyu uzerindeki teslim yerine tasi.",
+      "goal": "Kamidal Tunnel'daki isaretli kutuyu bul"
+    },
+    "7207": {
+      "title": "Cheshire'in Kutusu",
+      "description": "Cheshire'in bahsettigi kutuyu Kamidal Tunnel'da buldun. Kutunun altinda kucuk harflerle 'Bifrost Crack onunde' yaziyor. Kutuyu Bifrost'taki Cheshire'a teslim et.",
+      "goal": "Kutuyu Cheshire'a teslim et"
+    },
+    "7208": {
+      "title": "Yarin da Lutfen?",
+      "description": "Kamidal Tunnel'daki yuklu kutuyu gunde bir kez Cheshire'a tasimaya yardim etmeyi kabul ettin. Zamani geldiginde kutuyu al.",
+      "goal": "Bir sonraki gunluk teslimat zamanini bekle"
+    },
+    "7209": {
+      "title": "Kutuyu Unut",
+      "description": "Kutu kayboldu. Cheshire kutunun yerine 20 Refined Bradium getirmeni istiyor.",
+      "goal": "20 Refined Bradium getir"
+    },
+    "7210": {
+      "title": "Gunluk Teslimat",
+      "description": "Cheshire Bradium kutusunu bekliyor. Bugunun malzemelerini Bifrost'ta bekleyen Cheshire'a gotur.",
+      "goal": "Bugunun teslimatini Cheshire'a gotur"
     }
   }
 }
