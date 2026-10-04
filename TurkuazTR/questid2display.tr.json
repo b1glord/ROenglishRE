@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.51.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7242-7259 Malangdo bebek kediler, Nyadventure Duruduru yarisi, Bang makinesi ve alti parcali resim gorevleri dahil",
+    "version": "6.52.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7260-7276 Malangdo Cat's Hard Biscuit temizligi ve Chef Nyas zinciri ile 7281-7305 gunluk insan yemegi teslimatlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7702,6 +7702,216 @@
       "title": "Mew Bravery Team'den Hediye",
       "description": "Charo, Rosy ve Roku buldugun resim parcalarini Rato'ya vermek istiyor. Parcalanmis olsa da bebek kedilerin sevgisini iletmek icin resmi Rato'ya gotur.",
       "goal": "Resmi Rato'ya teslim et"
+    },
+    "7260": {
+      "title": "Boceklerin Kaynagi",
+      "description": "Cleanyang, gemiyi tamamen temizlemesine ragmen boceklerin surekli geri geldigini soyluyor. Ona yardim et ve Navi gemisini dikkatlice incele.",
+      "goal": "Navi gemisini boceklerin kaynagi icin incele"
+    },
+    "7261": {
+      "title": "Cat's Ship Biscuit - Kaptan Kamarasi",
+      "description": "Kaptan kamarasinin kosesinde saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli. Boceklerin buraya biskuvi yuzunden geldigi belli.",
+      "goal": "Kaptan kamarasindaki biskuviyi topla"
+    },
+    "7262": {
+      "title": "Cat's Ship Biscuit - Murettebat Kamarasi",
+      "description": "Murettebat kamarasinda saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli. Boceklerin buraya biskuvi yuzunden geldigi belli.",
+      "goal": "Murettebat kamarasindaki biskuviyi topla"
+    },
+    "7263": {
+      "title": "Cat's Ship Biscuit - Toplanti Odasi",
+      "description": "Toplanti odasinda saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli. Boceklerin buraya biskuvi yuzunden geldigi belli.",
+      "goal": "Toplanti odasindaki biskuviyi topla"
+    },
+    "7264": {
+      "title": "Chef Nyas'a Git",
+      "description": "Cleanyang gemiyi temizlemis, ancak sorun ulasamadigi yerlere saklanan Cat's Hard Biscuit'lerden kaynaklaniyor. Gercegi Nyas'a anlat ve Cleanyang'in sucsuz oldugunu acikla.",
+      "goal": "Nyas ile konus"
+    },
+    "7265": {
+      "title": "Chef Nyas'in Ofkesi",
+      "description": "Biskuviler ve boceklerle ilgili gercegi anlattiginda Chef Nyas cok sinirlendi. Biraz zaman gecince onunla tekrar konus.",
+      "goal": "Daha sonra Nyas ile konus"
+    },
+    "7266": {
+      "title": "Chef Nyas'in Karari",
+      "description": "Nyas bundan sonra gunde en az bir ogunde Cat's Hard Biscuit servis etmeye karar verdi. Biskuviler icin 10 Bags of Grain ve 1 Savory Sauce getirmeni istedi.",
+      "goal": "10 Bags of Grain ve 1 Savory Sauce getir; Cleanyang'a haber ver"
+    },
+    "7267": {
+      "title": "Cleanyang ile Sozlesilen Zaman",
+      "description": "Cat's Hard Biscuit sorununu cozmek icin Cleanyang ile birlikte calisacaksin. Belirlenen zamanda Cleanyang'a geri don.",
+      "goal": "Belirlenen zamanda Cleanyang'a don"
+    },
+    "7268": {
+      "title": "Cat's Hard Biscuit'leri Bul",
+      "description": "Gemideki kedilerin saklamaya basladigi biskuvileri topla. Biskuviler kaldirilirsa bocekler de ortadan kalkacak. Biskuvilerin sik goruldugu 9 noktayi kontrol et.",
+      "goal": "9 saklanma noktasini kontrol et"
+    },
+    "7269": {
+      "title": "Cat's Ship Biscuit - Dinlenme Alani",
+      "description": "Acik hava dinlenme alanindaki otlarin arasinda saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Dinlenme alanindaki biskuviyi topla"
+    },
+    "7270": {
+      "title": "Cat's Ship Biscuit - Kum Alani",
+      "description": "Garip bir kum yigininda saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Kum alanindaki biskuviyi topla"
+    },
+    "7271": {
+      "title": "Cat's Ship Biscuit - Merdiven Alti",
+      "description": "Merdivenlerin altindaki kosede saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Merdiven altindaki biskuviyi topla"
+    },
+    "7272": {
+      "title": "Cat's Ship Biscuit - Cat Tower Kosesi",
+      "description": "Cat Tower'in kosesinde saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Cat Tower kosesindeki biskuviyi topla"
+    },
+    "7273": {
+      "title": "Cat's Ship Biscuit - Dolap Kosesi",
+      "description": "Dolap ile duvar arasindaki boslukta saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Dolap kosesindeki biskuviyi topla"
+    },
+    "7274": {
+      "title": "Cat's Ship Biscuit - Cat Tower Basamagi",
+      "description": "Cat Tower basamagi ile zemin arasindaki boslukta saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Cat Tower basamagindaki biskuviyi topla"
+    },
+    "7275": {
+      "title": "Cat's Ship Biscuit - Kum Cukuru",
+      "description": "Bir kum cukurunda saklanmis Cat's Hard Biscuit buldun. Biskuvi boceklerle kapli.",
+      "goal": "Kum cukurundaki biskuviyi topla"
+    },
+    "7276": {
+      "title": "Daha Fazla Yiyecek Teslimati",
+      "description": "Chef Nyas, biskuvi malzemelerini ve yeni yemekler icin gerekenleri her gun getirmeni istiyor. Musait oldugunda ona geri don.",
+      "goal": "Gunluk yiyecek teslimati icin Nyas'a don"
+    },
+    "7281": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Honey Grape Juice getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Honey Grape Juice getir"
+    },
+    "7282": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Chocolate Mousse Cake getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Chocolate Mousse Cake getir"
+    },
+    "7283": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Fruit Mix getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Fruit Mix getir"
+    },
+    "7284": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Cream Sandwich getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Cream Sandwich getir"
+    },
+    "7285": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Green Salad getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Green Salad getir"
+    },
+    "7286": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Peach Cake getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Peach Cake getir"
+    },
+    "7287": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Soul Haunted Bread getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Soul Haunted Bread getir"
+    },
+    "7288": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Special Toast getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Special Toast getir"
+    },
+    "7289": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Heavenly Fruit Juice getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Heavenly Fruit Juice getir"
+    },
+    "7290": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Hwergelmir's Tonic getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Hwergelmir's Tonic getir"
+    },
+    "7291": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Fried Grasshopper Legs getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Fried Grasshopper Legs getir"
+    },
+    "7292": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Seasoned Sticky Webfoot getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Seasoned Sticky Webfoot getir"
+    },
+    "7293": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Bomber Steak getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Bomber Steak getir"
+    },
+    "7294": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Herb Marinade Beef getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Herb Marinade Beef getir"
+    },
+    "7295": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Lutie Lady's Pancake getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Lutie Lady's Pancake getir"
+    },
+    "7296": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Shiny Marinade Beef getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Shiny Marinade Beef getir"
+    },
+    "7297": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Whole Roast getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Whole Roast getir"
+    },
+    "7298": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Bearfoot Special getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Bearfoot Special getir"
+    },
+    "7299": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Tendon Satay getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Tendon Satay getir"
+    },
+    "7300": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Steamed Tongue getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Steamed Tongue getir"
+    },
+    "7301": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Frog Egg Squid Ink Soup getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Frog Egg Squid Ink Soup getir"
+    },
+    "7302": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Smooth Noodle getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Smooth Noodle getir"
+    },
+    "7303": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Tentacle Cheese Gratin getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Tentacle Cheese Gratin getir"
+    },
+    "7304": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Lutie Cold Noodle getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Lutie Cold Noodle getir"
+    },
+    "7305": {
+      "title": "Nyas'in Is Listesi",
+      "description": "Chef Nyas 10 Bags of Grain ve 1 Savory Sauce istedi. Ayrica insan yemeklerine duydugu merak nedeniyle 1 Steamed Bat Wing in Pumpkin getirmeni istiyor.",
+      "goal": "10 Bags of Grain, 1 Savory Sauce ve 1 Steamed Bat Wing in Pumpkin getir"
     }
   }
 }
