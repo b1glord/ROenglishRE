@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.26.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7048-7053 Thanatos Tower Burled, Rune Device ve muhurlu kule gorevleri dahil",
+    "version": "6.27.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7054-7055 Myu Wild Rose koruma gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6737,6 +6737,16 @@
       "title": "Thanatos Tower - Aradiklari Sey",
       "description": "Dorduncu anahtarla birlikte Varmunt'un gunlugunu da buldun. Rekenber'in aradigi sey bu olabilir. Gunlugu Burled'e gotur.",
       "goal": "Varmunt'un gunlugunu Burled'e teslim et"
+    },
+    "7054": {
+      "title": "Myu'nun Ricasi - Derslerini Ver",
+      "description": "Wild Rose'un yuvasini korumak icin Kobold Archer'lara gozdagi vermen istendi.",
+      "goal": "1000 Kobold Archer yen"
+    },
+    "7055": {
+      "title": "Myu'nun Ricasi - Kediye Dokunma",
+      "description": "Myu bir ricada daha bulundu. Wild Rose'lari korurken tek bir Wild Rose'a bile zarar vermemelisin.",
+      "goal": "Wild Rose'lara zarar verme"
     }
   }
 }
