@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.12.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 14490-14562 Wigner ailesi, tailoring ve Con-Chliina-Lasagna Basilisk bloklarindan 60 pending kayit dahil",
+    "version": "7.13.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 15023-16106 Airship, Christmas, The Sign ve Kiel Hyre Academy bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -18782,6 +18782,306 @@
       "title": "Rachel'a Geri Don",
       "description": "Rachel fountain'a geri don ve Aladdin ile konus.",
       "goal": "Rachel'daki Aladdin ile konus"
+    },
+    "15023": {
+      "title": "Byorgue Mercenary'leri Yen",
+      "description": "Rachel Field 12'de 20 Byorgue Mercenary yen.",
+      "goal": "20 Byorgue Mercenary yen"
+    },
+    "15050": {
+      "title": "Memorial Dungeon - Airship Assault",
+      "description": "Dungeon'a girdikten sonra 23 saat boyunca yeniden giris yasaktir. Asagidaki sure dolunca tekrar girebilirsin.",
+      "goal": "23 saat boyunca yeniden giris yok"
+    },
+    "15051": {
+      "title": "Memorial Dungeon - Airship Assault",
+      "description": "Dungeon'a girdikten sonraki ilk 5 dakika yeniden giris mumkundur. Asagidaki sure dolmadan girebilirsin.",
+      "goal": "Ilk 5 dakika yeniden giris mumkun"
+    },
+    "15052": {
+      "title": "Memorial Dungeon - Airship Assault",
+      "description": "Dungeon girdikten sonraki 5 dakika icinde tamamlandi. Simdi 23 saat boyunca yeniden giris yasak.",
+      "goal": "23 saat boyunca yeniden giris yok"
+    },
+    "15055": {
+      "title": "Christmas - Great Single Union Army",
+      "description": "Lutie'deki bekar cat'leri bul ve Single Union Army'ye katilmalarini iste.",
+      "goal": "Lutie'deki bekar cat'leri topla"
+    },
+    "15056": {
+      "title": "Christmas - Ciftlere Savas Ac",
+      "description": "Lutie'deki ciftleri ayir. 5 score point kazanman gerekiyor.",
+      "goal": ""
+    },
+    "15057": {
+      "title": "Christmas - Festivali Hazirla",
+      "description": "Field'larda raccoon avlayarak 10 Stolen Cookie, 10 Stolen Candy ve 10 Bag of Selling Goods topla.",
+      "goal": ""
+    },
+    "15059": {
+      "title": "Christmas - Cooldown",
+      "description": "Gorevi tekrar almadan once surenin dolmasini bekle.",
+      "goal": "23 saat sonra tekrar alinabilir"
+    },
+    "15060": {
+      "title": "Christmas - Kwami Katildi",
+      "description": "Kwami'yi basariyla topluluga kattin.",
+      "goal": ""
+    },
+    "15061": {
+      "title": "Christmas - Willer Katildi",
+      "description": "Willer'i basariyla topluluga kattin.",
+      "goal": ""
+    },
+    "15062": {
+      "title": "Christmas - Rinka Katildi",
+      "description": "Rinka'yi basariyla topluluga kattin.",
+      "goal": ""
+    },
+    "15063": {
+      "title": "Christmas - Jee Katildi",
+      "description": "Jee'yi basariyla topluluga kattin.",
+      "goal": ""
+    },
+    "15064": {
+      "title": "Christmas - Marty Katildi",
+      "description": "Marty'yi basariyla topluluga kattin.",
+      "goal": ""
+    },
+    "15071": {
+      "title": "Comodo'yu Kirletme",
+      "description": "Comodo Cleaning Lady'ye yarin tekrar yardim edebilirsin.",
+      "goal": ""
+    },
+    "15072": {
+      "title": "Comodo'yu Kirletme",
+      "description": "20 Piece of Trash topla ve Comodo Cleaning Lady'ye geri don.",
+      "goal": ""
+    },
+    "15125": {
+      "title": "COCOA BEAN Gerekiyor",
+      "description": "Field ve dungeon'lardaki Sweets Drops monster'larini yen. 20 Stolen COCOA BEAN topla ve Charles'a geri don.",
+      "goal": "20 Stolen COCOA BEAN topla"
+    },
+    "15127": {
+      "title": "Chocolate Teslimati",
+      "description": "Chocolate'lari sirayla Geffen, Payon, Aldebaran ve Prontera Sweets Shop'lara teslim et.",
+      "goal": "Buyuk sehir sweets shop'larina chocolate teslim et"
+    },
+    "15128": {
+      "title": "Chocolate Teslimati Tamamlandi",
+      "description": "Charles'in istedigi chocolate teslimati tamamlandi. 04:00'ten sonra tekrar yapabilirsin.",
+      "goal": "04:00'ten sonra tekrar teslim et"
+    },
+    "15129": {
+      "title": "Gunluk Cekilis Siniri",
+      "description": "Sweets Shop cekilisi gunde bir kez yapilir. Bugun kullandin; yarin 04:00'ten sonra tekrar dene.",
+      "goal": "04:00'e kadar cooldown"
+    },
+    "16000": {
+      "title": "Metz Brayde'in Duyurusu",
+      "description": "Board'da Metz Brayde'in adventurer'lari hayatinda bir kez cikacaklari goreve cagirdigi duyuruyu okudun.",
+      "goal": "Metz Brayde'i bul"
+    },
+    "16001": {
+      "title": "Ilk Sinav",
+      "description": "Metz'in arkadaslarindan bir dizi testten gecmen gerektigini ogrendin. Ilk arkadasi Morocc'taki Arian. Devam etmek istiyorsan onu bul.",
+      "goal": "Morocc'taki Arian"
+    },
+    "16002": {
+      "title": "Arian Icin Item Getir - 1",
+      "description": "Sadece istedigimi getir. Simdi 100 Fluff getir.",
+      "goal": "100 Fluff"
+    },
+    "16003": {
+      "title": "Arian Icin Item Getir - 2",
+      "description": "Sadece istedigimi getir. Simdi 50 Poison Spore getir.",
+      "goal": "50 Poison Spore"
+    },
+    "16004": {
+      "title": "Arian Icin Item Getir - 3",
+      "description": "Sadece istedigimi getir. Simdi 30 Scorpion Tail getir.",
+      "goal": "30 Scorpion Tail"
+    },
+    "16005": {
+      "title": "Arian Icin Item Getir - 4",
+      "description": "Sadece istedigimi getir. Simdi 20 Rotten Bandage getir.",
+      "goal": "20 Rotten Bandage"
+    },
+    "16006": {
+      "title": "Arian Icin Item Getir - 5",
+      "description": "Sadece istedigimi getir. Simdi 15 Little Evil Horn getir.",
+      "goal": "15 Little Evil Horn"
+    },
+    "16007": {
+      "title": "Arian Icin Item Getir - 6",
+      "description": "Sadece istedigimi getir. Simdi 10 Coral Reef getir.",
+      "goal": "10 Coral Reef"
+    },
+    "16008": {
+      "title": "Quiz Zamani",
+      "description": "Sinavin sonraki bolumune gecmek icin Ganaan ile konus.",
+      "goal": "Ganaan"
+    },
+    "16062": {
+      "title": "Niflheim'daki Gen",
+      "description": "Crayu, Niflheim'da Gen adli biriyle konusman gerektigini soyluyor.",
+      "goal": "Gen"
+    },
+    "16063": {
+      "title": "Witch'in Yardimi",
+      "description": "Gen, witch ile gorusup yardim istemeni oneriyor. Ayrica Serin'e karsi dikkatli olmani soyluyor.",
+      "goal": ""
+    },
+    "16064": {
+      "title": "Niflheim'in Talihsizleri",
+      "description": "Serin, Niflheim cevresindeki insanlarla konusup yardima ihtiyaclari olup olmadigini ogrenmeni istiyor.",
+      "goal": ""
+    },
+    "16065": {
+      "title": "Queen'in Simgesi",
+      "description": "Symbol of the Nine Realms'i almak icin queen'in guvenini kazanmalisin. Kayip annesi Agrboda'nin nerede muhurlendigini ogren.",
+      "goal": "Agrboda"
+    },
+    "16066": {
+      "title": "Symbol Hakkinda Bilgi",
+      "description": "Serin, Asgard'da yasamis ve Agrboda'nin muhurlendigi yer hakkinda bilgi sahibi olabilecek birini bulmani soyledi.",
+      "goal": ""
+    },
+    "16067": {
+      "title": "Asgard Hakkinda Bilgi",
+      "description": "Valkyrie cevap veremedi. Agrboda arayisinda Niflheim'daki biri yardimci olabilir.",
+      "goal": "Niflheim"
+    },
+    "16068": {
+      "title": "Soul Piece'leri Bul",
+      "description": "Laichin, Agrboda'nin 4 Soul Piece'ini bulman icin yol tarif etti. Big ve small ile ne demek istedigini netlestir.",
+      "goal": "Laichin"
+    },
+    "16069": {
+      "title": "Soul Piece'leri Bul",
+      "description": "Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 1, big 5, big 7 ve small 6 yonlerini kontrol et.",
+      "goal": "Glastheim Dungeon - Agrboda's Seal"
+    },
+    "16070": {
+      "title": "Soul Piece'leri Bul",
+      "description": "Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 4, big 10, small 6 ve very small 11 yonlerini kontrol et.",
+      "goal": "Glastheim Dungeon - Agrboda's Seal"
+    },
+    "16071": {
+      "title": "Soul Piece'leri Bul",
+      "description": "Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 5, small 11, small 6 ve very small 11 yonlerini kontrol et.",
+      "goal": "Glastheim Dungeon - Agrboda's Seal"
+    },
+    "16072": {
+      "title": "Soul Piece'leri Bul",
+      "description": "Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 4, big 5, big 10 ve small 11 yonlerini kontrol et.",
+      "goal": "Glastheim Dungeon - Agrboda's Seal"
+    },
+    "16073": {
+      "title": "Agrboda'nin Soul'u",
+      "description": "Agrboda'nin tum Soul Piece'lerini topladin. Bir ses sana ruhunu emanet edip onu queen of the dead'e goturmeni istiyor.",
+      "goal": ""
+    },
+    "16074": {
+      "title": "Symbol of the Nine Realms",
+      "description": "Lady Hell seni Symbol of the Nine Realms ile odullendirdi. Bunu ilk kime gostermelisin?",
+      "goal": ""
+    },
+    "16075": {
+      "title": "Serin'in Hirslari",
+      "description": "Kirkena, Serin'in yasayanlar dunyasinda kalmak icin Dark Lord ile anlasma yapmayi planladigini soyledi. Witch's Tonic verip planlarini unuttur.",
+      "goal": ""
+    },
+    "16076": {
+      "title": "Witch's Tonic",
+      "description": "Kirkena sana Witch's Tonic verdi ve Serin'in hafizasini silmen icin onun bulundugu yere gonderecek.",
+      "goal": ""
+    },
+    "16077": {
+      "title": "Serin'in Kurtulusu",
+      "description": "Witch's Tonic'i Serin'e basariyla verdin. Artik Dark Lord'u summon etmeye calismayacak. Kirkena'ya haber ver.",
+      "goal": ""
+    },
+    "16078": {
+      "title": "Lady Hell'i Ziyaret Et",
+      "description": "Kirkena, Lady Hell'in seni bir nedenle gormek istedigini soyluyor.",
+      "goal": ""
+    },
+    "16079": {
+      "title": "The Sign",
+      "description": "Cesaretinin tanrilar tarafindan sinandigini gosteren The Sign ile odullendirildin. Bunu ilk kime gostermelisin?",
+      "goal": ""
+    },
+    "16080": {
+      "title": "Dark Lord'un Donusu",
+      "description": "Serin'in Dark Lord'u summon etmesini durduramadin. Gorevinin basarisiz oldugunu Kirkena'ya bildir.",
+      "goal": ""
+    },
+    "16081": {
+      "title": "Serin'in Hirslari",
+      "description": "Serin, Kirkena'nin Dark Lord'u Rune Midgard'a summon etmeye calistigini soyledi. Bunu durdurmanin yolunu bul.",
+      "goal": ""
+    },
+    "16082": {
+      "title": "Dark Lord'un Donusu",
+      "description": "Muhtemelen gorevde basarisiz oldugunu Metz'e bildirmelisin.",
+      "goal": "Prontera'daki Metz"
+    },
+    "16083": {
+      "title": "Serin'in Farkina Varisi",
+      "description": "Serin'in hirsli planlarini durdurdun. Niflheim'da olanlari witch Kirkena'ya anlat.",
+      "goal": "Kirkena"
+    },
+    "16084": {
+      "title": "The Sign",
+      "description": "Metz, The Sign'in Valhalla'ya girmek icin kullanilabilecegini ancak once onu nasil isleyecegini bilen Engel Howard'a gitmen gerektigini soyluyor.",
+      "goal": "Engel Howard"
+    },
+    "16085": {
+      "title": "The Sign",
+      "description": "Engel Howard The Sign uzerindeki calismasini tamamladi. Onu Metz'e goster ki isin bittigini bilsin.",
+      "goal": "Metz"
+    },
+    "16086": {
+      "title": "The Sign",
+      "description": "Metz'in The Sign incelemesini bitirmesini bekle. Birkac saat surecek.",
+      "goal": "Sure dolunca Metz'e don"
+    },
+    "16087": {
+      "title": "The Sign",
+      "description": "Engel'in The Sign uzerindeki calismasini tamamlamasini bekle ve sure dolunca geri gel.",
+      "goal": "Sure dolunca Engel'e don"
+    },
+    "16101": {
+      "title": "Kiel Hyre Academy",
+      "description": "Culinary Wine siseyi buranin guneydogusundaki Kiel Hyre Academy'de Lecollane'e gotur.",
+      "goal": ""
+    },
+    "16102": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'nin yardima ihtiyaci olabilir. Onunla konus.",
+      "goal": ""
+    },
+    "16103": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'nin cookie'leri icin malzemeleri bul. Wine'i Juno'daki pub'dan, Cacao'yu Yoyo'dan, flour ve egg'i Juno'daki Toast Stand'dan alabilirsin.",
+      "goal": ""
+    },
+    "16104": {
+      "title": "Kiel Hyre Academy",
+      "description": "Cezu icin flour ve egg almak uzere Lighthalzen slums'taki Windmill Owner'a git.",
+      "goal": ""
+    },
+    "16105": {
+      "title": "Kiel Hyre Academy",
+      "description": "Delivery Package'i Juno'daki Cezu'ya geri getir.",
+      "goal": ""
+    },
+    "16106": {
+      "title": "Kiel Hyre Academy",
+      "description": "Delivery Package'i Kiel Hyre Academy'deki Elly'ye gotur.",
+      "goal": ""
     }
   }
 }
