@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.83.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8229-8240 Guarnien Merchant egitimi, Discount, Over Charge, Push Cart ve Vending gorevleri dahil",
+    "version": "6.84.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8241-8253 Ash Vacuum jewel, language research, information compression ve translation device gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11097,6 +11097,71 @@
       "title": "Guarnien'in Dersi",
       "description": "Son gorev olarak Vending skill'ini Level 4'e getir. Tamamladiginda Guarnien sana kucuk bir odul verecek.",
       "goal": "Vending'i gelistir ve Guarnien'e don"
+    },
+    "8241": {
+      "title": "Red Jewel Koleksiyonu",
+      "description": "Bir mezardan ses kaydeden Red Jewel buldun.",
+      "goal": "Tasi Ash Vacuum'daki Rune-Midgarts Magic Scholar'a gotur"
+    },
+    "8242": {
+      "title": "Blue Jewel Koleksiyonu",
+      "description": "Bir mezardan ses kaydeden Blue Jewel buldun.",
+      "goal": "Tasi Ash Vacuum'daki Rune-Midgarts Magic Scholar'a gotur"
+    },
+    "8243": {
+      "title": "Yeni Dilleri Ogrenmek",
+      "description": "Uc krallik, Ash Vacuum halklarinin dillerini birlikte arastiriyor. ^0000ffArunafeltz language scholar^000000'i bul.",
+      "goal": "Arunafeltz language scholar ile konus"
+    },
+    "8244": {
+      "title": "Fairy ve Tree Giant Dilleri",
+      "description": "Fairy ve Tree Giant'larin konustugu dillerden ornekler topla ve Linguist Dictionary'ye tam olarak ne soylediklerini bildir.",
+      "goal": "Arunafeltz language scholar'a rapor ver"
+    },
+    "8245": {
+      "title": "Dil Ornegi Arastirmasi",
+      "description": "Expedition Camp icinde dolasan Rune-Midgarts Magician'i bul.",
+      "goal": "Rune-Midgarts Magician ile konus"
+    },
+    "8246": {
+      "title": "Dil Ornegi Arastirmasi",
+      "description": "Yeni iki irkla karsilastin. Assassin'ler bolgede ses kaydeden jewel'lar gomdu ama bazilarinda tuzak var. Jewel'lari dikkatlice topla.",
+      "goal": "Jewel'lari bul ve Rune-Midgarts Magician'a getir"
+    },
+    "8247": {
+      "title": "Arastirma Ilerlemesi",
+      "description": "Jewel'lardan cikarilan sesler Arunafeltz language scholar'a iletilecek. Musaitsen arastirmanin ilerlemesini kontrol et.",
+      "goal": "Language scholar'in arastirmasini kontrol et"
+    },
+    "8248": {
+      "title": "Arastirma Ilerlemesi",
+      "description": "Buyuk miktardaki dil verisini tasinabilir bir translator'a donusturmek gerekiyor. Schwartzwalt Mechanic Engineer'in fikrini sor.",
+      "goal": "Mechanic Engineer ile konus"
+    },
+    "8249": {
+      "title": "Bilgiyi Sikistirma",
+      "description": "Rune-Midgarts Magician'a geri don ve bilgiyi buyu kullanarak nasil sikistirabilecegini sor.",
+      "goal": "Rune-Midgarts Magician ile konus"
+    },
+    "8250": {
+      "title": "Storage Gem",
+      "description": "Ash Vacuum disinda Midgard'da bulunmayan ^0000ffgizemli taslar^000000 var. Bunlardan birini bulup getir.",
+      "goal": "Unidentified Mineral bul ve Magician Whisper'a getir"
+    },
+    "8251": {
+      "title": "Magic Enjeksiyonu",
+      "description": "Magician Whisper jewel uzerinde calisirken biraz bekle.",
+      "goal": "Magician Whisper'in islemi bitirmesini bekle"
+    },
+    "8252": {
+      "title": "Islenmis Jewel",
+      "description": "Son istek: islenmis jewel'i Schwartzwalt Mechanic Engineer'e gotur.",
+      "goal": "Islenmis jewel'i Mechanic Engineer'e teslim et"
+    },
+    "8253": {
+      "title": "Dil Ceviri Cihazi",
+      "description": "Jewel'lardaki magic code'u okuyabilecek cihaz hazirlaniyor. Yapimi yaklasik 1 saat surecek.",
+      "goal": "1 saat sonra geri don"
     }
   }
 }
