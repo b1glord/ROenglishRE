@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.35.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62633-62692 Fishing Event ile Payon ve Geffen Bounty Board bloklarindan 60 pending kayit dahil",
+    "version": "7.36.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62693-62754 Undead Danielle, Unholy Ghost, Day of the Dead ve Juno-Prontera-Lighthalzen Bounty Board bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -25681,6 +25681,306 @@
     "62692": {
       "title": "Bounty Board: Violy",
       "description": "150 Violy monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62693": {
+      "title": "Bounty Board: Mini Demon",
+      "description": "150 Mini Demon monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62694": {
+      "title": "Undead Danielle'in Arkadasi",
+      "description": "Undead Danielle'in arkadasi Zombie Zack'i Niflheim town merkezinin yakininda bul ve seni onun gonderdigini soyle.",
+      "goal": ""
+    },
+    "62695": {
+      "title": "Zombie Zack",
+      "description": "Payon caves'den 20 Skel Bone, 5 Decayed Nail ve 1 Holy Water getir; sonra bunlari Niflheim Field 2'deki Pack Leader'a gotur.",
+      "goal": ""
+    },
+    "62696": {
+      "title": "Pack Leader",
+      "description": "Pack Leader ile konusmana devam et.",
+      "goal": ""
+    },
+    "62697": {
+      "title": "Undead Danielle'e Don",
+      "description": "Prontera Church arkasindaki Undead Danielle'e don.",
+      "goal": ""
+    },
+    "62698": {
+      "title": "Undead Recruiter",
+      "description": "Glast Heim'daki Undead Recruiter'i bul.",
+      "goal": ""
+    },
+    "62699": {
+      "title": "Undead Leader 1",
+      "description": "Ilk Undead Leader'i 330 85 koordinatlari civarinda bul.",
+      "goal": "Dordunu de bulduktan sonra Pack Leader'a don"
+    },
+    "62700": {
+      "title": "Undead Leader 2",
+      "description": "Ikinci Undead Leader'i 213 125 koordinatlari civarinda bul.",
+      "goal": "Dordunu de bulduktan sonra Pack Leader'a don"
+    },
+    "62701": {
+      "title": "Undead Leader 3",
+      "description": "Ucuncu Undead Leader'i 199 351 koordinatlari civarinda bul.",
+      "goal": "Dordunu de bulduktan sonra Pack Leader'a don"
+    },
+    "62702": {
+      "title": "Undead Leader 4",
+      "description": "Dorduncu Undead Leader'i 58 274 koordinatlari civarinda bul.",
+      "goal": "Dordunu de bulduktan sonra Pack Leader'a don"
+    },
+    "62703": {
+      "title": "Unholy Ghost Diyari",
+      "description": "Pack Leader yakinindaki portal'a girerek Unholy Ghost diyarina gec ve oradaki Pack Leader ile konus.",
+      "goal": ""
+    },
+    "62704": {
+      "title": "Ilk Seal'i Bul",
+      "description": "Ilk seal'i bul ve uzerine holy powder serp.",
+      "goal": ""
+    },
+    "62705": {
+      "title": "Ikinci Seal'i Bul",
+      "description": "Ikinci seal'i bul ve uzerine holy powder serp.",
+      "goal": ""
+    },
+    "62706": {
+      "title": "Ucuncu Seal'i Bul",
+      "description": "Ucuncu seal'i bul ve uzerine holy powder serp.",
+      "goal": ""
+    },
+    "62707": {
+      "title": "Dorduncu Seal'i Bul",
+      "description": "Dorduncu seal'i bul ve uzerine holy powder serp.",
+      "goal": ""
+    },
+    "62708": {
+      "title": "Besinci Seal'i Bul",
+      "description": "Besinci seal'i bul ve uzerine holy powder serp.",
+      "goal": ""
+    },
+    "62709": {
+      "title": "Unholy Ghost Diyari",
+      "description": "Unholy Ghost diyarindaki Pack Leader ile konus.",
+      "goal": ""
+    },
+    "62710": {
+      "title": "Bounty Board: Ground Deleter",
+      "description": "150 Ground Deleter monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62711": {
+      "title": "Bounty Board: Flying Deleter",
+      "description": "150 Flying Deleter monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62712": {
+      "title": "Bounty Board: Nightmare Terror",
+      "description": "150 Nightmare Terror monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62713": {
+      "title": "Bounty Board: Purple Venatu",
+      "description": "150 Purple Venatu monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62714": {
+      "title": "Bounty Board: Green Venatu",
+      "description": "150 Green Venatu monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62715": {
+      "title": "Bounty Board: Orange Venatu",
+      "description": "150 Orange Venatu monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62716": {
+      "title": "Bounty Board: Blue Venatu",
+      "description": "150 Blue Venatu monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62717": {
+      "title": "Bounty Board: Apocalypse",
+      "description": "150 Apocalypse monster'i avla ve Juno'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62720": {
+      "title": "Day of the Dead",
+      "description": "Rastgele bir reward icin Teopipilitzin'e 70 Skull getir.",
+      "goal": ""
+    },
+    "62721": {
+      "title": "Day of the Dead",
+      "description": "Teopipilitzin'e 70 Skull daha getirebilmek icin asagidaki sure dolana kadar bekle.",
+      "goal": ""
+    },
+    "62722": {
+      "title": "Bounty Board: Hornet",
+      "description": "150 Hornet monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62723": {
+      "title": "Bounty Board: Roda Frog",
+      "description": "150 Roda Frog monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62724": {
+      "title": "Bounty Board: Rocker",
+      "description": "150 Rocker monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62725": {
+      "title": "Bounty Board: Savage Babe",
+      "description": "150 Savage Babe monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62726": {
+      "title": "Bounty Board: Thief Bug Egg",
+      "description": "150 Thief Bug Egg monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62727": {
+      "title": "Bounty Board: Thief Bug",
+      "description": "150 Thief Bug monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62728": {
+      "title": "Bounty Board: Tarou",
+      "description": "150 Tarou monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62729": {
+      "title": "Bounty Board: Stainer",
+      "description": "150 Stainer monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62730": {
+      "title": "Bounty Board: Peco Peco",
+      "description": "150 Peco Peco monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62731": {
+      "title": "Bounty Board: Coco",
+      "description": "150 Coco monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62732": {
+      "title": "Bounty Board: Yoyo",
+      "description": "150 Yoyo monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62733": {
+      "title": "Bounty Board: Female Thief Bug",
+      "description": "150 Female Thief Bug monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62734": {
+      "title": "Bounty Board: Male Thief Bug",
+      "description": "150 Male Thief Bug monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62735": {
+      "title": "Bounty Board: Poporing",
+      "description": "150 Poporing monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62736": {
+      "title": "Bounty Board: Elder Willow",
+      "description": "150 Elder Willow monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62737": {
+      "title": "Bounty Board: Argos",
+      "description": "150 Argos monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62738": {
+      "title": "Bounty Board: Beetle King",
+      "description": "150 Beetle King monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62739": {
+      "title": "Bounty Board: Savage",
+      "description": "150 Savage monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62740": {
+      "title": "Bounty Board: Driller",
+      "description": "150 Driller monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62741": {
+      "title": "Bounty Board: Hunter Fly",
+      "description": "150 Hunter Fly monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62742": {
+      "title": "Bounty Board: Mantis",
+      "description": "150 Mantis monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62743": {
+      "title": "Bounty Board: Sidewinder",
+      "description": "150 Sidewinder monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62744": {
+      "title": "Bounty Board: Argiope",
+      "description": "150 Argiope monster'i avla ve Prontera Center Fountain yakinindaki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62745": {
+      "title": "Bounty Board: Metaling",
+      "description": "150 Metaling monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62746": {
+      "title": "Bounty Board: Rafflesia",
+      "description": "150 Rafflesia monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62747": {
+      "title": "Bounty Board: Stem Worm",
+      "description": "150 Stem Worm monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62748": {
+      "title": "Bounty Board: Breeze",
+      "description": "150 Breeze monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62749": {
+      "title": "Bounty Board: Anopheles",
+      "description": "150 Anopheles monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62750": {
+      "title": "Bounty Board: Axe Kobold",
+      "description": "150 Axe Kobold monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62751": {
+      "title": "Bounty Board: Hammer Kobold",
+      "description": "150 Hammer Kobold monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62752": {
+      "title": "Bounty Board: Mace Kobold",
+      "description": "150 Mace Kobold monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62753": {
+      "title": "Bounty Board: Kobold Archer",
+      "description": "150 Kobold Archer monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62754": {
+      "title": "Bounty Board: Remover",
+      "description": "150 Remover monster'i avla ve Lighthalzen'deki Bounty Board'a don.",
       "goal": ""
     }
   }
