@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.33.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62504-62568 Heroic Desocketing Book, Adventurer's Guild Hunt, Jumping Janeway ve Bounty Board bloklarindan 60 pending kayit dahil",
+    "version": "7.34.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62569-62632 Bounty Board, The Lost Child, Brando ailesi ve Fishing Event bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -25082,6 +25082,306 @@
       "title": "Bounty Board: Elder Willow",
       "description": "150 Elder Willow monster'i avla ve Archer Village'daki Bounty Board'a don.",
       "goal": ""
+    },
+    "62569": {
+      "title": "Bounty Board: Greatest General",
+      "description": "150 Elder Greatest General monster'i avla ve Archer Village'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62570": {
+      "title": "Kayip Cocuk",
+      "description": "Bug hunting camp'lerinden birinin yakinindaki kucuk bir cocuk yardimini istedi.",
+      "goal": "Babasini Gef_fild00 veya Prt_fild05'te bul"
+    },
+    "62571": {
+      "title": "Kayip Cocuk",
+      "description": "Kizin babasini buldun ama olu gibi gorunuyor.",
+      "goal": "Ring'ini Gef_fild00 veya Prt_fild05'teki kiza geri gotur"
+    },
+    "62572": {
+      "title": "Kayip Cocuk",
+      "description": "Kiz intikam istedi. Bitirdiginde ona yardim ettigini soyle ve 500 point al.",
+      "goal": "Asagidaki hedefi avla. Mjolnir mountains veya normal bolgesinde bulabilirsin"
+    },
+    "62573": {
+      "title": "Kayip Cocuk",
+      "description": "Kiz intikam istedi. Bitirdiginde ona yardim ettigini soyle ve 500 point al.",
+      "goal": "Asagidaki hedefi avla. Mjolnir mountains veya normal bolgesinde bulabilirsin"
+    },
+    "62574": {
+      "title": "Kayip Cocuk",
+      "description": "Kiz intikam istedi. Bitirdiginde ona yardim ettigini soyle ve 500 point al.",
+      "goal": "Asagidaki hedefi avla. Mjolnir mountains veya normal bolgesinde bulabilirsin"
+    },
+    "62575": {
+      "title": "Kayip Cocuk",
+      "description": "Timer'in bitmesini bekle.",
+      "goal": "Timer bittiginde kiza tekrar yardim edebilirsin"
+    },
+    "62580": {
+      "title": "Brando: Mrs. Brando",
+      "description": "Mrs. Brando ona 10 Log getirmeni istedi.",
+      "goal": ""
+    },
+    "62581": {
+      "title": "Sana Mr. Brando",
+      "description": "Mr. Brando ona 250 Firework getirmeni istedi.",
+      "goal": ""
+    },
+    "62582": {
+      "title": "Sana Mr. Brando Iki",
+      "description": "Mr. Brando ona 50 Firework daha getirmeni istedi.",
+      "goal": ""
+    },
+    "62583": {
+      "title": "Adi Kipp Brando",
+      "description": "Kipp'in Race Challenge'ini gec.",
+      "goal": ""
+    },
+    "62584": {
+      "title": "Kipp Brando Hizli Sayac",
+      "description": "Kipp, challenge'i fazla hizli bitirirsen hile yaptigini dusunuyor.",
+      "goal": ""
+    },
+    "62585": {
+      "title": "Kipp Brando Yavas Sayac",
+      "description": "Kipp, challenge'i fazla yavas bitirirsen gercekten yavas oldugunu dusunuyor.",
+      "goal": ""
+    },
+    "62586": {
+      "title": "Kipp Brando Check Point 1",
+      "description": "",
+      "goal": ""
+    },
+    "62587": {
+      "title": "Kipp Brando Check Point 2",
+      "description": "",
+      "goal": ""
+    },
+    "62588": {
+      "title": "Kipp Brando Check Point 3",
+      "description": "",
+      "goal": ""
+    },
+    "62589": {
+      "title": "Vira'nin Sebzeleri",
+      "description": "Grandma Vira'ya 5 Grape ve 20 Bread getir.",
+      "goal": ""
+    },
+    "62590": {
+      "title": "Winston Tooth Gap",
+      "description": "Grandpa Winston'in Teeth'ini Casino'da bul.",
+      "goal": ""
+    },
+    "62591": {
+      "title": "Winston Tooth Filler",
+      "description": "Grandpa Winston'in Teeth'ini geri gotur.",
+      "goal": ""
+    },
+    "62592": {
+      "title": "Auntie PAIN",
+      "description": "Auntie Brando icin 30 Megalodon avla.",
+      "goal": ""
+    },
+    "62593": {
+      "title": "Fido'nun Atistirmaligi",
+      "description": "Fido'ya biraz Skel Bone getir.",
+      "goal": ""
+    },
+    "62594": {
+      "title": "Uncle Lush",
+      "description": "Uncle Fitzgerald'a biraz alcohol getir.",
+      "goal": ""
+    },
+    "62595": {
+      "title": "Candy Man Can",
+      "description": "Brando Jr.'a 10 Candy getir.",
+      "goal": ""
+    },
+    "62596": {
+      "title": "Poetic Justice",
+      "description": "Poetic Edda'yi bul.",
+      "goal": ""
+    },
+    "62597": {
+      "title": "Poetic Just Us",
+      "description": "Poetic Edda'yi Cherice'e geri gotur.",
+      "goal": ""
+    },
+    "62598": {
+      "title": "Son Soz Onun",
+      "description": "Mrs. Brando'dan final reward'u aldin.",
+      "goal": ""
+    },
+    "62599": {
+      "title": "Bounty Board: Cornus",
+      "description": "150 Cornus monster'i avla ve Rune Midgards Alliance Camp'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62600": {
+      "title": "Bounty Board: Naga",
+      "description": "150 Naga monster'i avla ve Rune Midgards Alliance Camp'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62601": {
+      "title": "Bounty Board: Pinguicula",
+      "description": "150 Pinguicula monster'i avla ve Rune Midgards Alliance Camp'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62602": {
+      "title": "Bounty Board: Luciola Vespa",
+      "description": "150 Luciola Vespa monster'i avla ve Rune Midgards Alliance Camp'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62603": {
+      "title": "Bounty Board: Curupira",
+      "description": "150 Curupira monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62604": {
+      "title": "Bounty Board: Headless Mule",
+      "description": "150 Headless Mule monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62605": {
+      "title": "Bounty Board: Jaguar",
+      "description": "150 Jaguar monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62606": {
+      "title": "Bounty Board: Toucan",
+      "description": "150 Toucan monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62607": {
+      "title": "Bounty Board: Piranha",
+      "description": "150 Piranha monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62608": {
+      "title": "Bounty Board: Iara",
+      "description": "150 Iara monster'i avla ve Brasilis merkez'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62609": {
+      "title": "Bounty Board: Wild Rose",
+      "description": "150 Wild Rose monster'i avla ve Umbala'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62610": {
+      "title": "Bounty Board: Dryad",
+      "description": "150 Dryad monster'i avla ve Umbala'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62611": {
+      "title": "Bounty Board: Wootan Fighter",
+      "description": "150 Wootan Fighter monster'i avla ve Umbala'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62612": {
+      "title": "Bounty Board: Parasite",
+      "description": "150 Parasite monster'i avla ve Umbala'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62613": {
+      "title": "Bounty Board: Centipede",
+      "description": "150 Centipede monster'i avla ve El Dicastes'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62614": {
+      "title": "Bounty Board: Centipede Larva",
+      "description": "150 Centipede Larva monster'i avla ve El Dicastes'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62615": {
+      "title": "Bounty Board: Tatacho",
+      "description": "150 Tatacho monster'i avla ve El Dicastes'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62616": {
+      "title": "Bounty Board: Dolomedes",
+      "description": "150 Dolomedes monster'i avla ve El Dicastes'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62617": {
+      "title": "Bounty Board: Thara Frog",
+      "description": "150 Thara Frog monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62618": {
+      "title": "Bounty Board: Sea Otter",
+      "description": "150 Sea Otter monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62619": {
+      "title": "Bounty Board: Seal",
+      "description": "150 Seal monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62620": {
+      "title": "Bounty Board: Raggler",
+      "description": "150 Raggler monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62621": {
+      "title": "Bounty Board: Grove",
+      "description": "150 Grove monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62622": {
+      "title": "Bounty Board: Alligator",
+      "description": "150 Alligator monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62623": {
+      "title": "Bounty Board: Golem",
+      "description": "150 Golem monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62624": {
+      "title": "Bounty Board: Stalactic Golem",
+      "description": "150 Stalactic Golem monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62625": {
+      "title": "Bounty Board: Medusa",
+      "description": "150 Medusa monster'i avla ve Comodo'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62626": {
+      "title": "Fishing Event - Prontera Field",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62627": {
+      "title": "Fishing Event - Prontera Field",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62628": {
+      "title": "Fishing Event - Prontera Field",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62629": {
+      "title": "Fishing Event - Byalan Island",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62630": {
+      "title": "Fishing Event - Byalan Island",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62631": {
+      "title": "Fishing Event - Byalan Island",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
+    },
+    "62632": {
+      "title": "Fishing Event - Alberta",
+      "description": "Her fishing spot icin 30 dakika cooldown var. Biraz sonra tekrar deneyebilirsin!",
+      "goal": "Biraz bekleyip tekrar fish yapmaya gel!"
     }
   }
 }
