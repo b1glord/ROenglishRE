@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.74.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8064-8075 Cellette Fish Cake Soup teslimat ve telafi gorevleri dahil",
+    "version": "6.75.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8076-8088 Klitzer ve Calla iliskisi, aile gorusmesi ve kiyafet gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10317,6 +10317,71 @@
       "title": "Cellette'nin Fish Cake Soup'u",
       "description": "Erjan seni serbest birakti ve soylu tesekkurlerini Cellette'ye iletmeni istedi.",
       "goal": "Cellette'ye geri don"
+    },
+    "8076": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer, Calla'yi gormeyi cok istiyor ama umutsuz ve kendini aptal gibi hissediyor. Yine de duygularindan vazgecemiyor.",
+      "goal": "Klitzer ile konus"
+    },
+    "8077": {
+      "title": "Klitzer ve Calla",
+      "description": "Calla, Klitzer'i goremese de kemanini ona vermeni istedi. Eskiden bu kemani onun icin calarmis.",
+      "goal": "Calla'nin Violin'ini Klitzer'e gotur"
+    },
+    "8078": {
+      "title": "Klitzer ve Calla",
+      "description": "Calla'nin ailesi kemani taniyip senden aldi. Durum daha da zorlasti.",
+      "goal": "Calla'nin Violin'i alindi"
+    },
+    "8079": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer, Calla'ya vermen icin ^FF00001 Flower^000000 istedi. Kendisi Kapellthaine Manor'a gidemiyor.",
+      "goal": "Calla'ya 1 Flower gotur"
+    },
+    "8080": {
+      "title": "Klitzer ve Calla",
+      "description": "Calla, Einbroch'a ugrarsan cicek icin Klitzer'e tesekkur etmeni ve onu cok ozledigini soylemeni istedi.",
+      "goal": "Calla'nin mesajini Klitzer'e ilet"
+    },
+    "8081": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer kendini daha iyi hissediyor. Vaktin olunca annesiyle konusmani istedi.",
+      "goal": "Klitzer'in annesiyle tanis"
+    },
+    "8082": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer'in annesi, Einbroch ile Einbech arasindaki dusmanligin oglunun sevdigi kadinla gorusmesini engellemesini istemiyor. Iki sehrin gecmisini bilen birini bul.",
+      "goal": "Einbroch ve Einbech gecmisini arastir"
+    },
+    "8083": {
+      "title": "Klitzer ve Calla",
+      "description": "Satra senden ^990000Coal^000000 getirmeni istedi. Kolay degil ama onun konusmasini saglamanin yolu bu.",
+      "goal": "Satra'ya Coal getir"
+    },
+    "8084": {
+      "title": "Klitzer ve Calla",
+      "description": "Satra getirdigin Coal'lari kabul etti ve daha fazlasini getirirsen konusmaya devam edecek gibi gorunuyor.",
+      "goal": "Satra'ya daha fazla Coal getir"
+    },
+    "8085": {
+      "title": "Klitzer ve Calla",
+      "description": "Calla'nin annesi, Klitzer'e yakinda kendisini ziyaret etmesini ve ozel gorusme icin uygun kiyafet giymesini soylemeni istedi.",
+      "goal": "Mesaji Klitzer'e ilet"
+    },
+    "8086": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer, Calla'nin annesinin kendisini caya davet ettigini duyunca cok sasirdi.",
+      "goal": "Klitzer ile konus"
+    },
+    "8087": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer'in annesi, onemli gorusmeler icin Formal Suit veya Tuxedo gibi uygun kiyafet giymesi gerektigini soyledi.",
+      "goal": "Klitzer icin uygun kiyafet bul"
+    },
+    "8088": {
+      "title": "Klitzer ve Calla",
+      "description": "Klitzer artik Calla'nin ailesinin onayini kazanmak ve sevgisine layik olmak icin elinden geleni yapmaya karar verdi.",
+      "goal": ""
     }
   }
 }
