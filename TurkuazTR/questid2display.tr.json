@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.73.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8053-8056 Allen ve Postell ile 8057-8063 Comforting Tree, Manainne, El Schatt ve Kanainne gorevleri dahil",
+    "version": "6.74.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8064-8075 Cellette Fish Cake Soup teslimat ve telafi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10257,6 +10257,66 @@
       "title": "Kanainne'nin Ruhu",
       "description": "Kanainne'nin ruhunun kiz kardesinin bedenini kullanarak El Schatt'a ulasmasi mumkun olabilir. Daha fazla zarar vermeden once ona yardim et.",
       "goal": "Kanainne'nin ruhuna yardim et"
+    },
+    "8064": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Cellette, duzenli musterisi ve arkadasi Neha'ya Fish Cake Soup siparisini goturmeni istedi.",
+      "goal": "Siparisi Neha'ya teslim et"
+    },
+    "8065": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Cellette'nin bir sonraki Fish Cake Soup siparisini diger duzenli musterisi Maewan'a gotur.",
+      "goal": "Siparisi Maewan'a teslim et"
+    },
+    "8066": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Fish Cake Soup'u Cellette'nin ev arkadasi Layoma'ya gotur. Dakiklik konusunda cok hassas; gec kalmamaya calis.",
+      "goal": "Siparisi Layoma'ya teslim et"
+    },
+    "8067": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Fish Paste Soup'u Erjan'a hizlica gotur. Oldukca titiz biri, dikkatli ol.",
+      "goal": "Siparisi Erjan'a teslim et"
+    },
+    "8068": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Neha gec kaldigin icin kizgin. Seni affetmesi icin ^FF00001 Whip^000000 getirmeni istiyor.",
+      "goal": "Neha'ya 1 Whip getir"
+    },
+    "8069": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Maewan gec kaldigin icin kizgin ama koleksiyonuna yardim edersen seni affedecek. 1 Bookclip in Memory getir.",
+      "goal": "Maewan'a 1 Bookclip in Memory getir"
+    },
+    "8070": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Layoma, guvenilir oldugunu kanitlaman icin ^ff00001 Mushroom Spore^000000 getirmeni istiyor.",
+      "goal": "Layoma'ya 1 Mushroom Spore getir"
+    },
+    "8071": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Erjan, corbayi uygun sekilde yiyebilmek icin commoner's ^ff0000China^000000 getirmeni emrediyor.",
+      "goal": "Erjan'a 1 China getir"
+    },
+    "8072": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Neha senden memnun kaldi ve Cellette'ye iyi is cikardigini soyleyecek. Cellette'ye geri don.",
+      "goal": "Cellette'ye geri don"
+    },
+    "8073": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Maewan Bookclip in Memory'yi koleksiyonuna ekledi ve corbayi teslim aldi. Cellette'ye geri don.",
+      "goal": "Cellette'ye geri don"
+    },
+    "8074": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Layoma artik Cellette icin teslimat yapmaya devam edebilecegine inaniyor. Cellette'ye gec saatlerde eve gelmemesini de soyle.",
+      "goal": "Cellette'ye geri don"
+    },
+    "8075": {
+      "title": "Cellette'nin Fish Cake Soup'u",
+      "description": "Erjan seni serbest birakti ve soylu tesekkurlerini Cellette'ye iletmeni istedi.",
+      "goal": "Cellette'ye geri don"
     }
   }
 }
