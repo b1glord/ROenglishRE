@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.1.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; ilk 10 exact Renewal skill aciklamasi eklendi",
+    "version": "1.2.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; ilk 20 exact Renewal skill aciklamasi eklendi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -252,6 +252,223 @@
         "Her 10 saniyede 8 SP tuketir.^000000",
         "[Sv 3]: ^777777Sure: 1200 saniye,",
         "Her 10 saniyede 11 SP tuketir.^000000"
+      ]
+    },
+    "MO_SPIRITSRECOVERY": {
+      "name_original": "Spirit Recovery",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Blade Stop 2^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Otururken her 10 saniyede ek",
+        "^CC6600HP^777777 ve ^CC6600SP^777777 yeniler. Tasima agirligi",
+        "maksimum kapasitenin %50'sini asarsa",
+        "bu ek ^CC6600HP^777777 ve ^CC6600SP^777777 yenilenmesi",
+        "her 20 saniyede gerceklesir.^000000",
+        "[Sv 1]: ^777777(4 + MaksHP'nin %0.2'si) HP ve",
+        "(2 + MaksSP'nin %0.2'si) SP yeniler^000000",
+        "[Sv 2]: ^777777(8 + MaksHP'nin %0.4'u) HP ve",
+        "(4 + MaksSP'nin %0.4'u) SP yeniler^000000",
+        "[Sv 3]: ^777777(12 + MaksHP'nin %0.6'si) HP ve",
+        "(6 + MaksSP'nin %0.6'si) SP yeniler^000000",
+        "[Sv 4]: ^777777(16 + MaksHP'nin %0.8'i) HP ve",
+        "(8 + MaksSP'nin %0.8'i) SP yeniler^000000",
+        "[Sv 5]: ^777777(20 + MaksHP'nin %1.0'i) HP ve",
+        "(10 + MaksSP'nin %1.0'i) SP yeniler^000000"
+      ]
+    },
+    "SO_EL_ANALYSIS": {
+      "name_original": "4 Elemental Analysis",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "^CC3399Gereksinim: Flame Launcher 1,",
+        "Frost Weapon 1, Lightning Loader 1,",
+        "Seismic Weapon 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Uretim^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Bir donusum penceresinde ^990099Enchanted Ore^777777",
+        "ile ^990099Pure Gemstone^777777 arasinda donusum yapar.",
+        "Bunlar ^0000FFElemental^777777 cagirmada katalizor",
+        "olarak kullanilir.^000000",
+        "[Enchanted Ore]",
+        "^990099Flame Heart, Rough Wind,",
+        "Mystic Frozen^777777 ve ^990099Great Nature^000000",
+        "[Pure Gemstone]",
+        "^990099Red Blood, Wind of Verdure,",
+        "Crystal Blue^777777 ve ^990099Green Live^000000",
+        "[Sv 1]: ^7777771 Enchanted Ore'u Pure Gemstone'lara",
+        "donusturur. (Bolunen item miktarlari",
+        "rastgele belirlenir.)^000000",
+        "[Sv 2]: ^77777710 Pure Gemstone'u 1 Enchanted Ore'a",
+        "birlestirir. (Basarisiz olma ihtimali vardir;",
+        "basarisiz olursa sonuc alinmaz.)^000000"
+      ]
+    },
+    "MO_CALLSPIRITS": {
+      "name_original": "Call Spirits",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Iron Hand 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Bir ^990099Spirit Sphere^777777 cagirir.",
+        "Bu sphere farkli skill yeteneklerini guclendirmek",
+        "icin kullanilabilir. Her ^990099Spirit Sphere^777777",
+        "3 hasar ekler.^000000",
+        "[Sv 1]: ^777777Maksimum Spirit Sphere: 1^000000",
+        "[Sv 2]: ^777777Maksimum Spirit Sphere: 2^000000",
+        "[Sv 3]: ^777777Maksimum Spirit Sphere: 3^000000",
+        "[Sv 4]: ^777777Maksimum Spirit Sphere: 4^000000",
+        "[Sv 5]: ^777777Maksimum Spirit Sphere: 5^000000"
+      ]
+    },
+    "SO_VARETYR_SPEAR": {
+      "name_original": "Varetyr Spear",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Seismic Weapon 1, Violent Gale 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Gokyuzunden dev bir lightning spear",
+        "cagirir; 1 hedefe ve cevresindeki dusmanlara",
+        "^33CC00Wind^777777 elementli buyu hasari verir.",
+        "Hedefleri ^663399Stun^777777 etme sansi vardir.",
+        "Hasar ayrica ^0000FFLightning Loader^777777 ve ^0000FFStriking^777777",
+        "skill seviyeleri ile kullananin ^CC6600Base Level^777777",
+        "ve ^CC6600INT^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777Etki Alani: 5x5 hucre^000000",
+        "[Sv 6]: ^777777Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 8]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 9]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "MO_ABSORBSPIRITS": {
+      "name_original": "Absorp Spirits",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Call Spirits 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir ^990099Spirit Sphere^777777'dan belirli miktarda",
+        "^CC6600SP^777777 emer. PvP ve WoE sirasinda diger",
+        "^00A100Monk^777777 siniflarindan sphere calabilir.",
+        "Monster uzerinde kullanildiginda, hedef monster'in",
+        "seviyesine gore belirlenen miktarda ^CC6600SP^777777",
+        "kazandirma sansi %20'dir.",
+        "^00A100Boss^777777 monster ve ^00A100Guardian^777777 uzerinde",
+        "etkisizdir.^000000"
+      ]
+    },
+    "SO_VACUUM_EXTREME": {
+      "name_original": "Extreme Vacuum",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Land Protector 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Bir hucrede vakum olusturur ve",
+        "tum hedefleri merkeze ceker. Alandaki hedefler",
+        "skill suresi bitene kadar hareket edemez.",
+        "Yuksek ^CC6600STR^777777 bu skill'in suresini azaltir.",
+        "Bazi skill'ler ^0000FFExtreme Vacuum^777777 etkisini",
+        "yok sayar.^000000",
+        "[Sv 1]: ^777777Etki Alani: 3x3 hucre, Sure: 4 saniye^000000",
+        "[Sv 2]: ^777777Etki Alani: 3x3 hucre, Sure: 6 saniye^000000",
+        "[Sv 3]: ^777777Etki Alani: 5x5 hucre, Sure: 8 saniye^000000",
+        "[Sv 4]: ^777777Etki Alani: 5x5 hucre, Sure: 10 saniye^000000",
+        "[Sv 5]: ^777777Etki Alani: 7x7 hucre, Sure: 12 saniye^000000"
+      ]
+    },
+    "MO_TRIPLEATTACK": {
+      "name_original": "Triple Attack",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dodge 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Savasta otomatik olarak uclu saldiri",
+        "yapma sansi %30'dur. Bu skill'i 0.3 saniye icinde",
+        "^990099Chain Combo^777777 ile devam ettirebilirsin.^000000",
+        "[Sv 1]: ^777777ATK 120%^000000",
+        "[Sv 2]: ^777777ATK 140%^000000",
+        "[Sv 3]: ^777777ATK 160%^000000",
+        "[Sv 4]: ^777777ATK 180%^000000",
+        "[Sv 5]: ^777777ATK 200%^000000",
+        "[Sv 6]: ^777777ATK 220%^000000",
+        "[Sv 7]: ^777777ATK 240%^000000",
+        "[Sv 8]: ^777777ATK 260%^000000",
+        "[Sv 9]: ^777777ATK 280%^000000",
+        "[Sv 10]: ^777777ATK 300%^000000"
+      ]
+    },
+    "MO_BODYRELOCATION": {
+      "name_original": "Body Relocation",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Spirit Recovery 2,",
+        "Asura Strike 3, Steel Body 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Kullanan ile hedef konum arasinda",
+        "engel yoksa aninda hedef noktaya isinlanir.",
+        "^0000FFExplosion Spirits^777777 durumunda degilken",
+        "1 ^990099Spirit Sphere^777777 tuketir.",
+        "^0000FFAsura Strike^777777 kullandiktan sonraki 2 saniye",
+        "boyunca ^0000FFBody Relocation^777777 kullanilamaz.^000000"
+      ]
+    },
+    "MO_DODGE": {
+      "name_original": "Dodge",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Iron Hand 5,",
+        "Call Spirits 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Skill seviyesine gore ^CC6600FLEE^777777",
+        "degerini artirir.^000000",
+        "[Sv 1]: ^777777FLEE +1^000000",
+        "[Sv 2]: ^777777FLEE +3^000000",
+        "[Sv 3]: ^777777FLEE +4^000000",
+        "[Sv 4]: ^777777FLEE +6^000000",
+        "[Sv 5]: ^777777FLEE +7^000000",
+        "[Sv 6]: ^777777FLEE +9^000000",
+        "[Sv 7]: ^777777FLEE +10^000000",
+        "[Sv 8]: ^777777FLEE +12^000000",
+        "[Sv 9]: ^777777FLEE +13^000000",
+        "[Sv 10]: ^777777FLEE +15^000000"
+      ]
+    },
+    "SO_EARTHGRAVE": {
+      "name_original": "Earth Grave",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Earth Spike 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel, Etki Alani^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemini mizraklara donusturerek",
+        "hedeflere ^CC5500Earth^777777 elementli buyu hasari verir",
+        "ve ^663399Bleeding^777777 durumu uygular.",
+        "Hasar ayrica ^0000FFSeismic Weapon^777777 skill seviyesi ile",
+        "kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine",
+        "gore artar. ^0000FFHiding^777777 ve ^0000FFCloaking^777777",
+        "durumundaki dusmanlara da hasar verebilir.^000000",
+        "[Sv 1]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 2]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 3]: ^777777Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Etki Alani: 9x9 hucre^000000",
+        "[Sv 5]: ^777777Etki Alani: 9x9 hucre^000000"
       ]
     }
   }
