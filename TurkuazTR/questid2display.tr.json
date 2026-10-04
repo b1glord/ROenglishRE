@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.3.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5415-5424 Restricted Sector kesif gorevleri dahil",
+    "version": "6.4.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5425-5438 yer alti zindani mektup, temizlik ve isik gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5877,6 +5877,76 @@
       "title": "Kisitli Bolge Tamamlandi",
       "description": "Restricted Sector kesfini tamamladin.",
       "goal": "Kesif tamamlandi"
+    },
+    "5425": {
+      "title": "Sevgili Dostuma",
+      "description": "Karanlik bir zindanda tanidik bir ses duymak biraz korkutucu olabilir ama ayni zamanda gecmisi hatirlatir. Sesin kaynagini bul.",
+      "goal": "Sesin kaynagini bul"
+    },
+    "5426": {
+      "title": "Sevgili Dostuma - Bekleme",
+      "description": "Eski dostunun haberini ilettin. Onun eski anilarina dalmasi icin biraz zaman tanimak iyi olur.",
+      "goal": "Yenilenme saati: 04:00"
+    },
+    "5427": {
+      "title": "Sevgili Dostuma - Tekrar",
+      "description": "Duzenli mektuplasma mahkumlarin ruh sagligi icin iyidir. Yer alti zindaninda bir yerde bulunan dosttan mektubu al.",
+      "goal": "Yer alti zindanindaki dosttan mektubu al"
+    },
+    "5428": {
+      "title": "Dusuk Standartlar",
+      "description": "Guzel gozler biriktiriyor gibi gorunen mahkum, yarasa kanatli canavarlardan 20 kirmizi goz getirmeni istedi. Bu bir ozguven sorunu mu?",
+      "goal": "20 kirmizi goz getir"
+    },
+    "5429": {
+      "title": "Dusuk Standartlar - Bekleme",
+      "description": "Mahkum kirmizi gozlere hayran kaldi. Onu yeniden sakinlestirmek icin daha sonra tekrar getir.",
+      "goal": "Yenilenme saati: 04:00"
+    },
+    "5430": {
+      "title": "Dusuk Standartlar - Tekrar",
+      "description": "Mahkum daha fazla kirmizi goz istedi. Onu sakinlestirmek icin 20 kirmizi goz daha getir.",
+      "goal": "20 kirmizi goz getir"
+    },
+    "5431": {
+      "title": "Temiz Yasam",
+      "description": "Kirli yer alti zindanini temizlemen gerekiyor. Icindeki neseyle temizlige basla.",
+      "goal": "Yer alti zindanini temizle"
+    },
+    "5432": {
+      "title": "Temizlik Tamamlandi",
+      "description": "Yer alti zindanini temizlemeyi bitirdin. Kontrol ettirmek icin geri don.",
+      "goal": "Kontrol icin geri don"
+    },
+    "5433": {
+      "title": "Temiz Yasam - Bekleme",
+      "description": "Temizlikten sonra zindanin yeniden kirlenmesini bekleme zamani.",
+      "goal": "Yenilenme saati: 04:00"
+    },
+    "5434": {
+      "title": "Temiz Yasam - Tekrar",
+      "description": "Temizlik keyfini yeniden yasama zamani. Yer alti zindanini tekrar temizle.",
+      "goal": "Yer alti zindanini temizle"
+    },
+    "5435": {
+      "title": "Temizlik Tamamlandi - Tekrar",
+      "description": "Yer alti zindanini temizlemeyi bitirdin. Kontrol ettirmek icin geri don.",
+      "goal": "Kontrol icin geri don"
+    },
+    "5436": {
+      "title": "Isik Arayisi",
+      "description": "Bu mahkum karanliktan nefret ediyor gibi gorunuyor. Zindandaki buyuk mesaleden parlak bir isik getir.",
+      "goal": "Buyuk mesaleden isik getir"
+    },
+    "5437": {
+      "title": "Isik Arayisi - Bekleme",
+      "description": "Mahkum parlak isiktan memnun gorunuyor. Isik sonmeye basladiginda bir kez daha getir.",
+      "goal": "Yenilenme saati: 04:00"
+    },
+    "5438": {
+      "title": "Isik Arayisi - Tekrar",
+      "description": "Zindandaki buyuk mesaleden yeniden parlak bir isik getir.",
+      "goal": "Buyuk mesaleden isik getir"
     }
   }
 }
