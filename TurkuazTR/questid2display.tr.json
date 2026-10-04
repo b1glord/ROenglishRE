@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.11.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5549-5571 kalan A-sinifi Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
+    "version": "6.12.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5582-5600 B-sinifi Prontera ve Alberta teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6172,6 +6172,36 @@
       "title": "A-Sinifi Teslimat Gorevi",
       "description": "Glast Heim Prison 2F (gl_prison1) icindeki Wizard Aesuh'a 10 Fly Wing teslim et. Alici (160,29) koordinatlari yakininda.",
       "goal": "Wizard Aesuh'a 10 Fly Wing teslim et"
+    },
+    "5582": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Prontera Culvert 2F (prt_sewb2) icindeki Hunting Novice'a 10 Orange Potion teslim et. Alici (19,33) koordinatlari yakininda.",
+      "goal": "Hunting Novice'a 10 Orange Potion teslim et"
+    },
+    "5584": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Prontera Culvert 3F (prt_sewb3) icindeki Young Thief'e 10 Yellow Potion teslim et. Alici (179,149) koordinatlari yakininda.",
+      "goal": "Young Thief'e 10 Yellow Potion teslim et"
+    },
+    "5586": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Prontera Culvert 4F (prt_sewb4) icindeki Assassin Guild Member'a 10 White Potion teslim et. Alici (112,86) koordinatlari yakininda.",
+      "goal": "Assassin Guild Member'a 10 White Potion teslim et"
+    },
+    "5588": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Prontera Maze 2F (prt_maze02) icindeki Otherworld Traveler'a 10 Fly Wing teslim et. Alici (106,127) koordinatlari yakininda.",
+      "goal": "Otherworld Traveler'a 10 Fly Wing teslim et"
+    },
+    "5590": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Prontera Maze 3F (prt_maze03) icindeki Adventurer Tori'ye 10 Fly Wing teslim et. Alici (17,176) koordinatlari yakininda.",
+      "goal": "Adventurer Tori'ye 10 Fly Wing teslim et"
+    },
+    "5600": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Alberta Sunken Ship 2F (treasure02) icindeki Traveler Is'e 10 Awakening Potion teslim et. Alici (99,41) koordinatlari yakininda.",
+      "goal": "Traveler Is'e 10 Awakening Potion teslim et"
     }
   }
 }
