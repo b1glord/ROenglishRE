@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.93.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11002-11073 Odin Shrine, Morriphen, Juperos, Zabaroo, Turtle Island, Meet the Dead, Herb Medicine ve Poison King bloklarindan 60 pending kayit dahil",
+    "version": "6.94.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11074-11133 Poison King, New Surroundings, camp supply, Bazett, Warlock Job Change ve hunting bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -13082,6 +13082,306 @@
       "title": "Poison King",
       "description": "Geriye sadece bu zehri hazirlamak ve Louyang lorduna ictirmek kaldi.",
       "goal": "Onunla tekrar konus, hikayesini dinle ve Song Zhi Du'nun ricasini yerine getir"
+    },
+    "11074": {
+      "title": "Poison King",
+      "description": "Ucret odendigine gore bunu Song Zhi Du'ya gotur.",
+      "goal": "Malzemeyi aldin. Song Zhi Du'ya geri don"
+    },
+    "11075": {
+      "title": "Poison King",
+      "description": "Hayir! Yine basarisiz oldum! Hem de tum bu malzemeleri hazirlamak uzun surmustu.",
+      "goal": "Daha fazla malzeme gerekiyor"
+    },
+    "11076": {
+      "title": "Poison King",
+      "description": "Dragon Castle'a gizlice gir. Bu zehri Lord Bai Long'un kalabilecegi bir yere koy. Ustam sonunda yaratmak istedigi ^0000FFzehri yaptigimi^000000 ogrenince mutlu olacak.",
+      "goal": "Ne yapmaliyim?"
+    },
+    "11077": {
+      "title": "Poison King",
+      "description": "Louyang lordu Bai Long'a ait olabilecek bir icecek sisesi buldun. Olumcul zehri siseye koydun.",
+      "goal": "Song Zhi Du'nun istedigini yaptin. Geri don"
+    },
+    "11078": {
+      "title": "Poison King",
+      "description": "Nagash Arses'e Song Zhi Du'nun Deadly Poison Bottle'i nasil yaptigini ve Louyang lordundan intikam alma planini anlattin.",
+      "goal": "Biraz yalniz kalmaya ihtiyaci var gibi"
+    },
+    "11079": {
+      "title": "Poison King",
+      "description": "Sana yalvariyorum. Lorda zarar vermesine izin verme. Senden ve baskalarindan yardim istedigine eminim. Planini uygulamasini engelle.",
+      "goal": "Bai Long'un icecek sisesinden kurtul"
+    },
+    "11080": {
+      "title": "Poison King",
+      "description": "Icecek sisesini alip yerine Sticky Mucus dolu bir sise koydun. Umarim Bai Long fark etmez.",
+      "goal": "Degisim basarili! Nagash Arses'e geri don"
+    },
+    "11081": {
+      "title": "Poison King",
+      "description": "Bu, 15 yildir sucluluk duygularimi ve gecmiste gercekte olanlari yazdigim gunluk. Bunu lorda teslim etmeni umuyorum.",
+      "goal": "Nagash Arses'in Journal'ini lorda teslim et"
+    },
+    "11082": {
+      "title": "Poison King",
+      "description": "Lutfen bunu tesekkurumun bir isareti olarak kabul et. Bu mektubu da Nagash ve Song Zhi Du'ya ilet.",
+      "goal": "Journal teslim edildi. Mektubu Nagash'a gotur"
+    },
+    "11083": {
+      "title": "Poison King",
+      "description": ".....Oh~ tesekkur ederim, cok tesekkur ederim!",
+      "goal": "Nagash Arses memnun gorunuyor. Haberi Song Zhi Du'ya ilet"
+    },
+    "11084": {
+      "title": "Yeni Cevre",
+      "description": "Yeni cevrende alismak icin Instructor Lugen ile konus. Uyum saglamana yardim edecek.",
+      "goal": "Instructor Lugen ile bulus"
+    },
+    "11085": {
+      "title": "Yeni Cevre",
+      "description": "Kampin merkezindeki buyuk binada bulunan receptionist ile survey team kaydini yaptirmalisin.",
+      "goal": "Receptionist ile bulus"
+    },
+    "11086": {
+      "title": "Yeni Cevre",
+      "description": "Tuhaf receptionist tarafindan kaydinin yapildigini varsayabilirsin.",
+      "goal": "Instructor Lugen'e geri don"
+    },
+    "11087": {
+      "title": "Cadiri Onar",
+      "description": "Diego'nun cadirini onarmasina yardim etmeyi kabul ettin. Direk ve ip olarak kullanabilecegi malzemeleri getir.",
+      "goal": "20 Ordinary Branch ve 20 Strong Vine"
+    },
+    "11088": {
+      "title": "Cadiri Onar",
+      "description": "Diego gecici cadir diregini duz tutmaya calisiyor. Branch ve Vine ile ona yardim et.",
+      "goal": ""
+    },
+    "11089": {
+      "title": "Cadiri Onar",
+      "description": "Bu direk agirligi tasiyor gibi. Diger direge de yardim et.",
+      "goal": ""
+    },
+    "11090": {
+      "title": "Cadiri Onar",
+      "description": "Tum kirik direkler onarildi! Simdi Diego ile konus.",
+      "goal": ""
+    },
+    "11091": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Instructor Lugen'in dagitmani istedigi ana karadan gelen malzemeleri almak icin Marian ile konus.",
+      "goal": "Marian"
+    },
+    "11092": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Marian sana 3 Supply Box verdi. Nereye teslim edecegini ogrenmek icin Lugen'e geri don.",
+      "goal": "Lugen"
+    },
+    "11093": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Lugen, ilk kutuyu kampin kuzeybati ucunda citle yakin Jan'a teslim etmeni soyluyor.",
+      "goal": "Ilk Supply Box'i Jan'a teslim et"
+    },
+    "11094": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Ilk Supply Box'i Jan'a teslim ettin. Instructor Lugen'e geri don.",
+      "goal": "Lugen"
+    },
+    "11095": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Ikinci Supply Box'i kamp disinda bati koprusunun karsisindaki Gerard'a teslim et.",
+      "goal": "Ikinci Supply Box'i Gerard'a teslim et"
+    },
+    "11096": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Ikinci Supply Box'i Gerard'a teslim ettin. Instructor Lugen'e geri don.",
+      "goal": "Lugen"
+    },
+    "11097": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Son Supply Box'i dogu field girisindeki Alberto'ya teslim et.",
+      "goal": "Son Supply Box'i Alberto'ya teslim et"
+    },
+    "11098": {
+      "title": "Malzemeleri Teslim Et",
+      "description": "Son Supply Box'i Alberto'ya teslim ettin. Instructor Lugen'e geri don.",
+      "goal": "Lugen"
+    },
+    "11099": {
+      "title": "Arkadasima...",
+      "description": "Lugen, batidaki bariyerde calisan arkadasi Otto'ya bir mektup goturmeni istedi.",
+      "goal": "Otto"
+    },
+    "11100": {
+      "title": "Arkadasima...",
+      "description": "Otto, mektubunu Lugen'e goturmeni ve bir sonraki izninde onu ziyaret edecegini soylemeni istedi.",
+      "goal": "Lugen"
+    },
+    "11101": {
+      "title": "Bazett'in Gizli Notu",
+      "description": "Fairy ve Giant'larin varligina dair izler arayarak Bazett'in arastirmalarina yardim et.",
+      "goal": ""
+    },
+    "11102": {
+      "title": "Bazett'in Gizli Notu",
+      "description": "Giant'lari arastir.",
+      "goal": "Arastirmadan sonra notu teslim et"
+    },
+    "11103": {
+      "title": "Bazett'in Gizli Notu",
+      "description": "",
+      "goal": ""
+    },
+    "11104": {
+      "title": "Dinlenme Zamani",
+      "description": "Arastirma bitti! Bir sonraki arastirmadan once biraz dinlen.",
+      "goal": "Biraz dinlen"
+    },
+    "11105": {
+      "title": "Hillslion Boynuzu",
+      "description": "Cadiri onarmak icin bir seye ihtiyacim var. ^0000FF30 Horn of Hillslion^000000 getirirsen saglam vidalar yapabilirim.",
+      "goal": "30 Horn of Hillslion"
+    },
+    "11106": {
+      "title": "Warlock Job Degisimi",
+      "description": "At kuyruklu assistant ile konus.",
+      "goal": ""
+    },
+    "11107": {
+      "title": "Warlock Job Degisimi",
+      "description": "Bir ^000077Glittering Crystal^000000 ve ^000077Giant Bradium Fragment^000000 bul. Bunlari almak icin Naga ve Bradium Golem avlarken Magical Stones'i kusanmalisin.",
+      "goal": "Bunlari Splendide'in kuzeybati bolgesindeki Yoop'un laboratuvarina getir"
+    },
+    "11108": {
+      "title": "Warlock Job Degisimi",
+      "description": "Yoop magic stone'u hazirlarken Master Egnoloria'ya geri don. Ona ulasmak icin Splendide'de boyut bozulmalarindan biri olmali.",
+      "goal": "Master Egnoloria ile konus"
+    },
+    "11109": {
+      "title": "Warlock Job Degisimi",
+      "description": "Yoop ile konus ve onu magical room'a kadar takip et.",
+      "goal": ""
+    },
+    "11110": {
+      "title": "Warlock Job Degisimi",
+      "description": "Hazir oldugunda waiting room'a gir ve Chamber of Magic'e gonderil. Chamber'daki canavarlara karsi hayatta kalmak icin Rainbow Rubies kullan.",
+      "goal": ""
+    },
+    "11111": {
+      "title": "Warlock Job Degisimi",
+      "description": "Bos tasi yeterli buyu gucuyle basariyla kristallestirdin. Testi tamamlamak icin mor sacli assistant ile konus.",
+      "goal": ""
+    },
+    "11112": {
+      "title": "Warlock Job Degisimi",
+      "description": "Tum testleri tamamladin. Artik Warlock olarak daha guclu olabilirsin.",
+      "goal": "Warlock olmak icin Master Egnoloria ile konus"
+    },
+    "11113": {
+      "title": "Radar Calisana Kadar",
+      "description": "Radar calismiyor gibi. Biraz daha beklemek daha iyi.",
+      "goal": "Belki yarin calisir?"
+    },
+    "11114": {
+      "title": "Hornet Avi",
+      "description": "Prontera Field 5'te 10 ^4d4dffHornet^000000 avla.",
+      "goal": ""
+    },
+    "11115": {
+      "title": "Condor Avi",
+      "description": "Morocc'un guneyindeki field bolgelerinde 20 ^4d4dffCondor^000000 avla.",
+      "goal": ""
+    },
+    "11116": {
+      "title": "Grasshopper Leg Topla",
+      "description": "Prontera'nin guneybati field bolgesinde 10 ^4d4dffRocker^000000 avla ve 10 Grasshopper's Leg topla.",
+      "goal": ""
+    },
+    "11117": {
+      "title": "Worm Tail Avi",
+      "description": "Payon field bolgelerinde 20 ^4d4dffWorm Tail^000000 avla.",
+      "goal": ""
+    },
+    "11118": {
+      "title": "Spore Avi",
+      "description": "Payon'un dogusunda 30 ^4d4dffSpore^000000 avla.",
+      "goal": ""
+    },
+    "11119": {
+      "title": "Hasere Kontrolu",
+      "description": "Prontera'nin bati culvert bolgesinde 20 ^4d4dffThief Bug Egg^000000 avla ve 10 Chrysalis topla.",
+      "goal": ""
+    },
+    "11120": {
+      "title": "Muka Avi",
+      "description": "Prontera'nin guneyinde kalan Sograt Desert bolgesinde 20 ^4d4dffMuka^000000 avla.",
+      "goal": ""
+    },
+    "11121": {
+      "title": "Familiar Avi",
+      "description": "Prontera'nin bati culvert bolgesinde 20 ^4d4dffFamiliar^000000 avla.",
+      "goal": ""
+    },
+    "11122": {
+      "title": "Peco Peco Avi",
+      "description": "Prontera'nin guneyinde kalan Sograt Desert bolgesinde 30 ^4d4dffPeco Peco^000000 avla.",
+      "goal": ""
+    },
+    "11123": {
+      "title": "Poison Spore Topla",
+      "description": "Geffen cevresinde 30 ^4d4dffPoison Spore^000000 avla ve 5 Poison Spore getir. En cok Geffen'in kuzeydogusundaki Mt. Mjolnir Field 6'da bulunur.",
+      "goal": ""
+    },
+    "11124": {
+      "title": "Hornet Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11125": {
+      "title": "Condor Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11126": {
+      "title": "Grasshopper Leg Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11127": {
+      "title": "Worm Tail Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11128": {
+      "title": "Spore Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11129": {
+      "title": "Hasere Kontrolu Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11130": {
+      "title": "Muka Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11131": {
+      "title": "Familiar Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11132": {
+      "title": "Peco Peco Avi Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
+    },
+    "11133": {
+      "title": "Poison Spore Toplama Tamamlandi",
+      "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
+      "goal": ""
     }
   }
 }
