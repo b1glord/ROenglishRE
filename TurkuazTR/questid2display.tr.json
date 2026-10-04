@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.87.1",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8519 ORION kayip kitap ile 9000-9012 Knight ve 9013-9018 Wizard Job Change gorevleri dahil",
+    "version": "6.88.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 9024-9173 Brasilis, St. Patrick, Lina, Louyang, Jaty Crown ve tutorial gorevlerinden secili pending bloklar dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11382,6 +11382,206 @@
       "title": "Wizard Sertifikasi",
       "description": "Raulel'in verdigi tum testleri gectin. Son asama icin Catherine ile konus.",
       "goal": "Catherine ile konus"
+    },
+    "9024": {
+      "title": "Einbroch'tan Gelen Gorevli",
+      "description": "Einbroch'tan Prontera'ya gelen gorevliye Jellopy bulmasi icin yardim et.",
+      "goal": "100 Jellopy topla ve gorevliye don"
+    },
+    "9028": {
+      "title": "Garip Hydra",
+      "description": "^8B4513Brasilis^000000'ta Strange Hydra belirdi. Lucia'nin verdigi ^006400Hydra Ball^000000 ile bir ^FF0000Strange Hydra^000000 yakala.",
+      "goal": "Bir Strange Hydra yakala"
+    },
+    "9029": {
+      "title": "Garip Hydra - Guncel Durum",
+      "description": "^8B4513Brasilis^000000'taki ^0000FFLucia^000000 sana tesekkur ediyor ancak yeni ^006400Hydra Ball^404040'u ancak yarin verebilecek.^000000",
+      "goal": "Yeni Hydra Ball icin sure dolunca Lucia'ya don"
+    },
+    "9030": {
+      "title": "Kayip Yavrular",
+      "description": "Angelo, ormanda 3 yavru kopegin kayboldugunu soyledi. Brasilis Field'da 3 yavruyu bul.",
+      "goal": "3 yavru kopegi bul"
+    },
+    "9031": {
+      "title": "Kayip Yavrular",
+      "description": "Ormanda 3 yavru kopegi buldun. Angelo'ya geri don.",
+      "goal": "Angelo'ya don"
+    },
+    "9032": {
+      "title": "Kayip Yavrular",
+      "description": "Yavrulari buldugun icin tesekkur edildi. Angelo'nun tekrar yardima ihtiyaci olup olmadigini yarin kontrol et.",
+      "goal": "Yarin Angelo ile konus"
+    },
+    "9058": {
+      "title": "O'Riley'nin Ricasi",
+      "description": "250 Bathory ve 250 Poison Spore avla. Ruhlarini topladiktan sonra O'Riley the Leprechaun'a haber ver.",
+      "goal": "250 Bathory ve 250 Poison Spore avla"
+    },
+    "9059": {
+      "title": "Mutlu St. Patrick's Day",
+      "description": "O'Riley, Green Ale icin gereken ruhlari topladigin karsiliginda sana bir UP Coin verdi.",
+      "goal": "UP Coin'i kullanacak kisiyi bul"
+    },
+    "9117": {
+      "title": "Lina'nin Laneti",
+      "description": "Lina'nin lanetini kaldirmaya yardim etmek icin Oath-taking ceremony'ye katil.",
+      "goal": "Oath-taking ceremony'yi tamamla"
+    },
+    "9118": {
+      "title": "Lina'nin Laneti - Deviruchi Avi",
+      "description": "Deviruchi, Wraith Dead, Dullahan veya Nightmare Terror turlerinden birini sec. Sectigin turden 50 tane yen ve Lina ile konus.",
+      "goal": "Bir tur sec ve 50 tane avla"
+    },
+    "9119": {
+      "title": "Lina'nin Laneti - Wraith Dead Avi",
+      "description": "Deviruchi, Wraith Dead, Dullahan veya Nightmare Terror turlerinden birini sec. Sectigin turden 50 tane yen ve Lina ile konus.",
+      "goal": "Bir tur sec ve 50 tane avla"
+    },
+    "9120": {
+      "title": "Lina'nin Laneti - Dullahan Avi",
+      "description": "Deviruchi, Wraith Dead, Dullahan veya Nightmare Terror turlerinden birini sec. Sectigin turden 50 tane yen ve Lina ile konus.",
+      "goal": "Bir tur sec ve 50 tane avla"
+    },
+    "9121": {
+      "title": "Lina'nin Laneti - Nightmare Terror Avi",
+      "description": "Deviruchi, Wraith Dead, Dullahan veya Nightmare Terror turlerinden birini sec. Sectigin turden 50 tane yen ve Lina ile konus.",
+      "goal": "Bir tur sec ve 50 tane avla"
+    },
+    "9122": {
+      "title": "Lina'nin Laneti",
+      "description": "Lina'nin lanetini kaldirmanin sonraki asamasi icin oyun seceneklerinden BGM'yi etkinlestir.",
+      "goal": "BGM'yi ac"
+    },
+    "9123": {
+      "title": "Lina'nin Laneti",
+      "description": "^0000FFLina^000000'nin laneti kalkmis gibi gorunuyor. Prontera'da ona geri don.",
+      "goal": "Prontera'daki Lina'ya don"
+    },
+    "9125": {
+      "title": "Louyang Festivali - Av",
+      "description": "Royal Tomb'un birinci katinda ^0000FF5^000000 ^FF0000Horong^000000 ve ^0000FF10 ^FF0000Jing Guai^000000 yen. Sonra Louyang'daki Royal Tomb guard'a don.",
+      "goal": "Royal Tomb 1F canavarlarini yen"
+    },
+    "9126": {
+      "title": "Louyang Festivali - Dinlenme",
+      "description": "Royal Tomb'un birinci katina tekrar gitmek istersen ^0000ff2 saat^000000 sonra Royal Tomb guard'i bul.",
+      "goal": "2 saat bekle"
+    },
+    "9127": {
+      "title": "Louyang Festivali - Av",
+      "description": "Royal Tomb icinde ^0000FF5 ^FF0000Dancing Dragon^000000 ve ^0000FF10 ^FF0000Yao Jun^000000 yen. Sonra Louyang'daki Royal Tomb guard'a don.",
+      "goal": "Royal Tomb icindeki canavarlari yen"
+    },
+    "9128": {
+      "title": "Louyang Festivali - Dinlenme",
+      "description": "Royal Tomb icine yeniden girmek icin ^0000ff2 saat^000000 sonra Royal Tomb guard'i bul.",
+      "goal": "2 saat bekle"
+    },
+    "9129": {
+      "title": "Louyang Festivali - Av",
+      "description": "^8B4513Suei Long Gon^000000 icinde ^0000FF5 ^FF0000Green Maiden^000000 ve ^0000FF10 ^FF0000Mao Guai^000000 yen. Sonra Louyang'daki Royal Tomb guard'a don.",
+      "goal": "Suei Long Gon canavarlarini yen"
+    },
+    "9130": {
+      "title": "Louyang Festivali - Dinlenme",
+      "description": "Suei Long Gon'a yeniden gitmek icin ^0000ff2 saat^000000 sonra Royal Tomb guard'i bul.",
+      "goal": "2 saat bekle"
+    },
+    "9142": {
+      "title": "Basari",
+      "description": "Evil Snake Lord Hat aldin.",
+      "goal": ""
+    },
+    "9155": {
+      "title": "Jaty Crown Icin Malzeme Topla",
+      "description": "Cendrawasih avla ve Tribal Chief Paiko'ya ^40404015 Cendrawasih Feather^000000 getir.",
+      "goal": "15 Cendrawasih Feather getir"
+    },
+    "9156": {
+      "title": "Jaty Crown Yapimi",
+      "description": "^404040Jaty Crown yapimi iyi gidiyor.^000000",
+      "goal": "Tribal Chief Paiko ile konusmaya devam et"
+    },
+    "9157": {
+      "title": "Sage Kasyapa'dan Odul",
+      "description": "^0000FFTribal Chief Paiko^000000'nun mesaji: ^404040Sage Kasyapa seni ariyor.^000000",
+      "goal": "Sage Kasyapa'dan odul al"
+    },
+    "9158": {
+      "title": "Iyi Haberi Gotur 1",
+      "description": "^0000FFTribal Chief Paiko^000000'nun mesaji: ^404040Satay'i Jaty tribal warrior'a teslim et.^000000",
+      "goal": "Satay'i Jaty tribal warrior'a teslim et"
+    },
+    "9159": {
+      "title": "Paiko'ya Don",
+      "description": "^0000FFJaty Tribal Warrior^000000'un mesaji: ^404040Yolculuklarinda azmin ve gururun seninle olsun.^000000",
+      "goal": "Tribal Chief Paiko'ya don"
+    },
+    "9160": {
+      "title": "Iyi Haberi Gotur 2",
+      "description": "^0000FFTribal Chief Paiko^000000'nun mesaji: ^404040Satay'i koy disindaki Tribe Manager'a teslim et.^000000",
+      "goal": "Satay'i Tribe Manager'a teslim et"
+    },
+    "9161": {
+      "title": "Paiko'ya Don",
+      "description": "^0000FFTribe Manager^000000'in mesaji: ^404040Gelenegin degerini unutma.^000000",
+      "goal": "Tribal Chief Paiko'ya don"
+    },
+    "9162": {
+      "title": "Iyi Haberi Gotur 3",
+      "description": "^0000FFTribal Chief Paiko^000000'nun mesaji: ^404040Satay'i Krakatau Volcano Gatekeeper'a teslim et.^000000",
+      "goal": "Satay'i Krakatau Volcano Gatekeeper'a teslim et"
+    },
+    "9163": {
+      "title": "Paiko'ya Don",
+      "description": "^0000FFKrakatau Volcano Gatekeeper^000000'in mesaji: ^404040Krakatau Volcano'ya tirmanarak cesaretini sina.^000000",
+      "goal": "Tribal Chief Paiko'ya don"
+    },
+    "9164": {
+      "title": "Iyi Haberi Gotur 4",
+      "description": "^0000FFTribal Chief Paiko^000000'nun mesaji: ^404040Satay'i Borobudur Temple Manager'a teslim et.^000000",
+      "goal": "Satay'i Borobudur Temple Manager'a teslim et"
+    },
+    "9165": {
+      "title": "Jaty Crown Basarisi Icin Paiko'nun Odulu",
+      "description": "^0000FFBorobudur Temple Manager^000000'in mesaji: ^404040Dewata Island ve Jaty Tribe gizemlerle dolu.^000000",
+      "goal": "Tribal Chief Paiko'ya don ve odulu al"
+    },
+    "9167": {
+      "title": "Tutorial - Mercenary Kirala",
+      "description": "Mercenary Guild Official'i bul, bir mercenary kirala ve mercenary hala aktifken Tutorial Instructor ile konus.",
+      "goal": "Mercenary kirala ve Tutorial Instructor ile konus"
+    },
+    "9168": {
+      "title": "Quest Window Kontrolu",
+      "description": "Tutorial Instructor'a soylemen gereken malzeme 10 Jellopy.",
+      "goal": "10 Jellopy bilgisini Tutorial Instructor'a bildir"
+    },
+    "9169": {
+      "title": "Window Shopper Catalogue",
+      "description": "South Prontera'daki ^0000ffCatalogue Wizard^000000'i bul ve 1 ^006400Window Shopper Catalogue^000000 al.",
+      "goal": "1 Window Shopper Catalogue al"
+    },
+    "9170": {
+      "title": "Window Shopper Catalogue",
+      "description": "Window Shopper Catalogue'u kullan ve sonraki ders icin Tutorial Instructor'a geri don.",
+      "goal": "Catalogue'u kullan ve geri don"
+    },
+    "9171": {
+      "title": "Esya Enchant Etme",
+      "description": "Siradaki ders esya enchant etme. 10 Jellopy getir, inventory'de bos yer birak ve Tutorial Instructor ile konus.",
+      "goal": "10 Jellopy ile enchant dersine katil"
+    },
+    "9172": {
+      "title": "Enchant Edilmis Esyalar",
+      "description": "Aldigin Tutorial Mantle'lari incele ve normal ile enchanted versiyonlar arasindaki farklari gor. Sonra esyalari Tutorial Instructor'a geri ver.",
+      "goal": "Tutorial Mantle'lari incele ve geri ver"
+    },
+    "9173": {
+      "title": "Tutorial Bekleme Suresi",
+      "description": "Tutorial Instructor derslerini yeniden alabilmek icin 20 saat beklemelisin.",
+      "goal": "20 saat bekle"
     }
   }
 }
