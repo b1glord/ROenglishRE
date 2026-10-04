@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.44.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7180-7181 Doomk ikmal mesaji ve Karakass yuzugu kayitlari dahil",
+    "version": "6.45.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7182-7193 El Dicastes giris, Doha gizli emri ve ilk sorusturma gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7327,6 +7327,66 @@
       "title": "Karakass'in Yuzugu",
       "description": "Bir suredir hazir olan Karakass'in yuzugunu teslim aldin.",
       "goal": "Yuzuk teslim alindi"
+    },
+    "7182": {
+      "title": "Sapha'nin Ziyareti",
+      "description": "Manuk'tan bir Sapha'nin kampi ziyaret ettigi soyleniyor. Aello sana guvendigi icin onunla gorusme gorevini verdi. Temsilci ikinci kattaki sag odada.",
+      "goal": "Ust kattaki Sapha temsilcisiyle gorus"
+    },
+    "7183": {
+      "title": "Sapha'dan Davet",
+      "description": "Manuk ile Sapha baskenti El Dicastes arasindaki tunelden gecmek icin Manuk'taki General Guard Avalanche'tan izin al.",
+      "goal": "Manuk'ta Avalanche ile gorus"
+    },
+    "7184": {
+      "title": "El Dicastes'e!",
+      "description": "Avalanche tuneli kullanmana izin verdi. Artik Sapha baskenti El Dicastes'e gidebilirsin. Manuk'taki tunel girisinde Entrance Manager'i bul.",
+      "goal": "Tunel girisindeki Entrance Manager'i bul"
+    },
+    "7185": {
+      "title": "Inspector Doha",
+      "description": "Baskente gitmeden once Captain Hibba Agip, Inspector Doha ile gorusmeni istedi. Doha, Vyhannus'un yanindaki odada.",
+      "goal": "Inspector Doha ile gorus"
+    },
+    "7186": {
+      "title": "Doha'nin Gizli Emri - Sorusturma",
+      "description": "Doha, calinan rapor olayinin suphelisini ariyor. El Dicastes'teyken gizlice bilgi topla. Supheli hayvan kulakli bir adam.",
+      "goal": "El Dicastes'te supheli hakkinda bilgi topla"
+    },
+    "7187": {
+      "title": "Doha'nin Gizli Emri - Shay",
+      "description": "El Dicastes'teki Burman Flone meyhanesinin yoneticisi Shay, hayvan kulakli adam hakkinda Sapha'lardan bilgi toplamani onerdi.",
+      "goal": "El Dicastes'teki Sapha'larla konus"
+    },
+    "7188": {
+      "title": "Bilgi Toplama - Meydan",
+      "description": "Meydandaki Sapha kedi kulakli bir adam hakkinda bir sey bilmiyor; bunun yerine Ahat'tan ovguyle bahsediyor.",
+      "goal": "Meydanda bilgi toplamaya devam et"
+    },
+    "7189": {
+      "title": "Bilgi Toplama - Fabrika",
+      "description": "Fabrikadaki Sapha da kedi kulakli bir adam duymadigini soyluyor ve Ahat'in Sapha'lar icin ornek biri oldugunu anlatiyor.",
+      "goal": "Fabrikada bilgi toplamaya devam et"
+    },
+    "7190": {
+      "title": "Bilgi Toplama - Muhafizlar",
+      "description": "Muhafizlar da kedi kulakli adamdan emin degil. Ahat'in guclu bir Sapha oldugunu ve gercek gucunu sakliyor olabilecegini soyluyorlar.",
+      "goal": "Muhafizlardan bilgi topla"
+    },
+    "7191": {
+      "title": "Shay'in Yonlendirmesi - BK",
+      "description": "Bilgi toplamayi kolaylastirmak icin Shay seni Cat Hand Merchants uyesi BK'ye yonlendirdi. Yardim etmezse 'Shay'in ozel icecegi teslim edilecek' de.",
+      "goal": "El Dicastes disinda Kamidal Mountain yakinindaki BK ile gorus"
+    },
+    "7192": {
+      "title": "BK'nin Bilgisi",
+      "description": "BK'ye gore kedi kulakli adam, El Dicastes'in populer ismi Ahat ile yakindan baglantili. Ancak Ahat bir Sapha degil ve Crack yakininda bulunmus.",
+      "goal": "Burman Flone'da Shay ile bulgulari konus"
+    },
+    "7193": {
+      "title": "Dimensional Gap Sorusturmasi",
+      "description": "Shay ile konustuktan sonra gercegi bulmak icin guneydeki Dimensional Gap bolgesini arastir. Sorusturmada kullanilabilecek ipuclari bul.",
+      "goal": "Guneydeki Dimensional Gap bolgesini arastir"
     }
   }
 }
