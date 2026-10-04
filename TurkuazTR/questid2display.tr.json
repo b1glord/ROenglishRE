@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.76.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8089-8099 Phobe, calinan gemstone ve Vincent ile 8100-8105 High Priest Zhed gorevleri dahil",
+    "version": "6.77.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8106-8122 Mr. Shendar, Bruspetti, Lachellen, Katinshuell ve Freya's Spring gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10467,6 +10467,91 @@
       "title": "High Priest Zhed'in Tavsiyesi",
       "description": "Bekento sorun cikarmaman icin uyarilmisti ama bu kez sen ona sorun cikarmissin. Cogu izinsiz giren agir ceza alir; Zhed seni bu kez hafif bir uyariyla birakti.",
       "goal": "Zhed'e geri don"
+    },
+    "8106": {
+      "title": "Mr. Shendar'in Kizi",
+      "description": "Mr. Shendar, kizinin biriyle gorustugunu ve onun icin baska bir kasabaya gittikten sonra haber alamadigini soyledi. Ne oldugunu bilen birini bul.",
+      "goal": "Bruspetti hakkinda bilgi ara"
+    },
+    "8107": {
+      "title": "Lachellen'in Tanikligi",
+      "description": "Lachellen, Bruspetti'nin yeni erkek arkadasiyla cok zaman gecirdigini ama adini soylemedigini anlatti. Bildigi tek sey onun Lighthalzen'de buyudugu.",
+      "goal": "Kasabadaki yabanciyi bul"
+    },
+    "8108": {
+      "title": "Yabanci Katinshuell",
+      "description": "Katinshuell, sevgilisiyle iliskisinin bittigini soyledi. Mr. Shendar'in kizindan bahsediyor olabilir.",
+      "goal": "Mr. Shendar ile konus"
+    },
+    "8109": {
+      "title": "Bruspetti'nin Kokusu",
+      "description": "Mr. Shendar, kizi Bruspetti'nin annesi gibi belirgin ve hos bir kokusu oldugunu soyledi. Lighthalzen'de bu kokuyu ara.",
+      "goal": "Lighthalzen'de Bruspetti'nin kokusunu ara"
+    },
+    "8110": {
+      "title": "Bruspetti'nin Kokusu",
+      "description": "Gul yapraklarini tasiyan hafif ruzgar gibi hos bir koku fark ettin. Bu, Bruspetti'nin babasinin anlattigi koku olabilir.",
+      "goal": "Rachel'a don ve Lachellen ile konus"
+    },
+    "8111": {
+      "title": "Lachellen'in Tanikligi",
+      "description": "Lachellen, Bruspetti Lighthalzen'deyse erkek arkadasi hakkinda daha fazla sey ogrenmeye gitmis olabilecegini dusunuyor. Birlikte bulustuklari yeri kontrol et.",
+      "goal": "Freya's Spring'i bul"
+    },
+    "8112": {
+      "title": "Freya's Spring",
+      "description": "Freya's Spring'deki zemin cok kaygan. Buradaki izleri dikkatlice arastir.",
+      "goal": "Mr. Shendar'a geri don"
+    },
+    "8113": {
+      "title": "Bruspetti'nin Gunlugu",
+      "description": "Mr. Shendar kizinin gizliligini ihlal etmek istemiyor; ancak Bruspetti gunlugunu cekmecesinin ustunde birakmis.",
+      "goal": "Cekmecenin ustundeki gunlugu ara"
+    },
+    "8114": {
+      "title": "Bruspetti'nin Gunlugu",
+      "description": "Bruspetti'nin gunlugunu buldun fakat okumak dogru gelmiyor. Katinshuell'e Bruspetti'nin neden Lighthalzen'de oldugunu sor.",
+      "goal": "Katinshuell ile gorus"
+    },
+    "8115": {
+      "title": "Supheli Katinshuell",
+      "description": "Katinshuell yalniz birakilmak istiyor. Bruspetti'nin Freya's Spring ve Lighthalzen ilgisi hakkinda baska biri daha fazla sey biliyor olabilir.",
+      "goal": "Lachellen ile gorus"
+    },
+    "8116": {
+      "title": "Lachellen'in Tanikligi",
+      "description": "Lachellen, Katinshuell'in Freya's Spring'e sik sik gittigini hatirladi. Genelde insanlar oraya tek basina gitmez.",
+      "goal": "Freya's Spring'e git"
+    },
+    "8117": {
+      "title": "Freya's Spring",
+      "description": "Ayni genc adam sik sik kaynagin kenarina gelip suya uzuntuyle bakiyormus. Bunun Katinshuell olup olmadigini arastir.",
+      "goal": "Mr. Shendar'a geri don"
+    },
+    "8118": {
+      "title": "Mr. Shendar ile Konus",
+      "description": "Mr. Shendar, evin cevresinde gizlice dolasan birinden suphelendi. Bu kisi Bruspetti'nin erkek arkadasi olabilir.",
+      "goal": "Bruspetti'nin gunlugunu al"
+    },
+    "8119": {
+      "title": "Bruspetti'nin Gunlugu",
+      "description": "Bruspetti ile Katinshuell arasindaki baglantiyi anlamak icin gunlugu yanina alma izni aldin. Gunlugu Katinshuell'e gotur.",
+      "goal": "Katinshuell ile konus"
+    },
+    "8120": {
+      "title": "Katinshuell ile Konus",
+      "description": "Katinshuell'den gercegi anlatmasini iste ve olanlari birlikte yuzleserek ortaya cikarmaya calis.",
+      "goal": "Katinshuell ile konusmaya devam et"
+    },
+    "8121": {
+      "title": "Katinshuell ile Konus",
+      "description": "Katinshuell hala direniyor. Gercegi itiraf etmesini saglayacak bir yol bul.",
+      "goal": "Katinshuell ile konusmaya devam et"
+    },
+    "8122": {
+      "title": "Bruspetti'nin Dinlenme Yeri",
+      "description": "Katinshuell, gecmiste yaptigi bir hata yuzunden sevdigi kadini kaybettigini itiraf etti. Bruspetti'nin akibetini anlamak icin Freya's Spring'e git.",
+      "goal": "Freya's Spring'e git"
     }
   }
 }
