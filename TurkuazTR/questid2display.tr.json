@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.67.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7711-7723 Lasagna ve Doram baslangic, servis ve temel egitim gorevleri dahil",
+    "version": "6.68.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7763 Spring Energy ve 7770-7788 Sanctuary, waste cathedral ve Moonlight Flower kabus gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9737,6 +9737,101 @@
       "title": "Icindeki Potansiyel",
       "description": "Stat ve ability sistemi hakkinda bilgi edindin. Daha fazlasi icin Militiaman Nyoki ile konus.",
       "goal": "Nyoki ile konus"
+    },
+    "7763": {
+      "title": "Bahar Enerjisiyle Dolu",
+      "description": "Arles, Prontera'daki cicek agacinin yakininda genc ^4d4dffcicek agaclarinin enerjisini^000000 serbest birakmani ve ^4d4dff10 Flower Branch^000000 toplamani istedi.",
+      "goal": "10 Flower Branch topla"
+    },
+    "7770": {
+      "title": "Uykusuz Gece, Denizin Otesinden Ruh Cigliklari",
+      "description": "Akarin bilinmeyen cigliklar yuzunden her gece uyuyamiyor. Sorunun Banshee'lerden kaynaklandigini dusunuyor.",
+      "goal": "Banshee'leri yen"
+    },
+    "7771": {
+      "title": "Sanctuary'yi Arindir",
+      "description": "Tapinakta calisan Eridanus, yer altindan garip sesler geldigini soyledi. ^4d4dffHodremlin, Vanberk ve Isilla^000000 gibi kotu yaratiklari yok et.",
+      "goal": "Sanctuary'deki hedef canavarlari yen"
+    },
+    "7772": {
+      "title": "Bu Kesinlikle Bir Hayalet",
+      "description": "Kiel Hyre Academy'deki Rigel, waste cathedral'dan gelen garip sesleri duydu ve arastirma istedi. Cathedral'i kontrol et.",
+      "goal": "Waste Cathedral girisini arastir"
+    },
+    "7773": {
+      "title": "Derinlemesine Arastirma",
+      "description": "Waste cathedral'in ici karmasik tesislerden olusuyor. Ikinci kata gir, Elliot'u yen ve ^4d4dff1 Burned Part^000000 getir.",
+      "goal": "1 Burned Part getir"
+    },
+    "7774": {
+      "title": "Supheli Tunel",
+      "description": "Ayla, tesise yer alti tunelinden girmenin bir yolunu buldu.",
+      "goal": "Yer alti tunelini kullan"
+    },
+    "7776": {
+      "title": "Supheli Isaret",
+      "description": "Payon ihtiyarlari, bir rituel sirasinda kaybolan cirak Soul Linker Muyeon icin endiseli. Payon Cave girisindeki Young Scholar ile konus.",
+      "goal": "Young Scholar ile konus"
+    },
+    "7777": {
+      "title": "Ne Oldu?",
+      "description": "Muyeon detached palace'a gitti. Young Scholar, ne oldugunu ona sormani istiyor.",
+      "goal": "Muyeon ile konus"
+    },
+    "7778": {
+      "title": "Muyeon Ne Gordu?",
+      "description": "Muyeon, arindirma rituelinde gordugu bir sey yuzunden cok huzursuz. Bunu kendi gozlerinle gormeni istiyor.",
+      "goal": "Muyeon ile konus"
+    },
+    "7779": {
+      "title": "Sikintili Rituel",
+      "description": "Muyeon, arindirma rituelini bizzat deneyimlemene izin verebilecegini soyledi. Hazirlan ve onunla konus.",
+      "goal": "Muyeon ile konus"
+    },
+    "7780": {
+      "title": "Yikik Koyde Kabus",
+      "description": "Rituel sirasinda bilincini kaybettin ve Payon Cave icindeki yikik koye geldin. Onundeki parlayan portal Muyeon'un anlattigi kabusla baglantili olabilir.",
+      "goal": "Parlayan portali arastir"
+    },
+    "7781": {
+      "title": "Yikik Koyde Kabus",
+      "description": "Young Scholar, Payon Cave icindeki yikik koyde bulunan parlayan portala cekildi.",
+      "goal": "Portalin diger tarafindaki Chunghae ile konus"
+    },
+    "7782": {
+      "title": "Wizard'i Durdur",
+      "description": "Nightmare of the Moonlight Flower dungeon'daki Scholar Chunghae, olaydan ^4d4dffWizard of the Truth^000000'un sorumlu oldugunu dusunuyor. Onu ortadan kaldir.",
+      "goal": "1 Wizard of the Truth yen"
+    },
+    "7783": {
+      "title": "Wizard'i Durdur - Bekleme",
+      "description": "Bu gunluk gorevi bekleme suresi dolduktan sonra Nightmare of the Moonlight Flower dungeon'daki Scholar Chunghae'den yeniden alabilirsin.",
+      "goal": "Saat 4:00 sifirlanmasini bekle"
+    },
+    "7784": {
+      "title": "Illuzyonlara Merhamet Yok",
+      "description": "Nightmare of the Moonlight Flower dungeon'daki Soldier Junghee, cevresindeki ^4d4dffAngry Nine Tail^000000'lari temizlemeni istedi.",
+      "goal": "Angry Nine Tail'lari yen"
+    },
+    "7785": {
+      "title": "Illuzyonlara Merhamet Yok - Bekleme",
+      "description": "Bu gunluk gorevi bekleme suresi dolduktan sonra Nightmare of the Moonlight Flower dungeon'daki Soldier Junghee'den yeniden alabilirsin.",
+      "goal": "Saat 4:00 sifirlanmasini bekle"
+    },
+    "7786": {
+      "title": "Atalarimi Hatirlamak",
+      "description": "Nightmare of the Moonlight Flower dungeon'daki Soldier Junghee, ^4d4dffResentful Soldier^000000'lari huzura kavusturmani istedi.",
+      "goal": "Resentful Soldier'lari yen"
+    },
+    "7787": {
+      "title": "Atalarimi Hatirlamak - Bekleme",
+      "description": "Bu gunluk gorevi bekleme suresi dolduktan sonra Nightmare of the Moonlight Flower dungeon'daki Soldier Junghee'den yeniden alabilirsin.",
+      "goal": "Saat 4:00 sifirlanmasini bekle"
+    },
+    "7788": {
+      "title": "Muyeon'a Don",
+      "description": "Chunghae'nin arastirma sonuclarini ^4d4dffDetached Payon Palace^000000'taki ^4d4dffMuyeon^000000'a ilet.",
+      "goal": "Detached Palace'ta Muyeon ile konus"
     }
   }
 }
