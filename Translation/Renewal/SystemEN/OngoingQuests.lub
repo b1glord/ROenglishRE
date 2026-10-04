@@ -25234,18 +25234,18 @@ QuestInfoList = {
 		Summary = "Job Change icin Ranger Master ile konus"
 	},
 	[8265] = {
-		Title = "One time a one hour!",
+		Title = "Saatte Bir Kez",
 		Description = {
-			"Overdo a game will be harmful !"
+			"Oyunu fazla oynamak zararli olabilir. Yohean ile yeniden oynamadan once bekle."
 		},
-		Summary = "you can't game with Yohean in a one hour"
+		Summary = "1 saat bekle"
 	},
 	[8266] = {
-		Title = "Hunting Poison Spore",
+		Title = "Poison Spore Avi",
 		Description = {
-			"Hunt 10 Poison Spores and then report to Sponiac in Geffen. You can find the most Poison Spores at Mt. Mjolnir 6."
+			"10 Poison Spore avla ve Geffen'deki Sponiac'a rapor ver. En fazla Poison Spore'u Mt. Mjolnir 6'da bulabilirsin."
 		},
-		Summary = "",
+		Summary = "10 Poison Spore avla",
 		NpcSpr = "4W_M_03",
 		NpcNavi = "geffen",
 		NpcPosX = 104,
@@ -25256,11 +25256,11 @@ QuestInfoList = {
 		}
 	},
 	[8267] = {
-		Title = "Hunting Smokie",
+		Title = "Smokie Avi",
 		Description = {
-			"Hunt 10 Smokies and then report to Sponiac in Geffen. You can find the most Poison Spores at Mt. Mjolnir 6."
+			"10 Smokie avla ve Geffen'deki Sponiac'a rapor ver. Smokie'leri Geffen cevresindeki alanlarda bulabilirsin."
 		},
-		Summary = "",
+		Summary = "10 Smokie avla",
 		NpcSpr = "4W_M_03",
 		NpcNavi = "geffen",
 		NpcPosX = 104,
@@ -25271,11 +25271,11 @@ QuestInfoList = {
 		}
 	},
 	[8268] = {
-		Title = "Hunting Elder Willow",
+		Title = "Elder Willow Avi",
 		Description = {
-			"Hunt 10 Elder Willows and then report to Sponiac in Geffen. You can find Elder Willows in the fields East of Prontera and Payon."
+			"10 Elder Willow avla ve Geffen'deki Sponiac'a rapor ver. Elder Willow'lar Prontera ve Payon'un dogusundaki alanlarda bulunur."
 		},
-		Summary = "",
+		Summary = "10 Elder Willow avla",
 		NpcSpr = "4W_M_03",
 		NpcNavi = "geffen",
 		NpcPosX = 104,
@@ -25287,11 +25287,11 @@ QuestInfoList = {
 		}
 	},
 	[8269] = {
-		Title = "Hunting Coco",
+		Title = "Coco Avi",
 		Description = {
-			"Hunt 10 Coco and then report to Sponiac in Geffen. You can find Cocos around Geffen Field 2."
+			"10 Coco avla ve Geffen'deki Sponiac'a rapor ver. Coco'lari Geffen Field 2 civarinda bulabilirsin."
 		},
-		Summary = "",
+		Summary = "10 Coco avla",
 		NpcSpr = "4W_M_03",
 		NpcNavi = "geffen",
 		NpcPosX = 104,
@@ -25303,11 +25303,11 @@ QuestInfoList = {
 		}
 	},
 	[8270] = {
-		Title = "Hunting Thara Frog",
+		Title = "Thara Frog Avi",
 		Description = {
-			"Hunt 10 Thara Frog and then report to Sponiac in Geffen. You can find Thara Frogs in the dungeon east of Comodo."
+			"10 Thara Frog avla ve Geffen'deki Sponiac'a rapor ver. Thara Frog'lar Comodo'nun dogusundaki dungeon'da bulunur."
 		},
-		Summary = "",
+		Summary = "10 Thara Frog avla",
 		NpcSpr = "4W_M_03",
 		NpcNavi = "geffen",
 		NpcPosX = 104,
@@ -25319,11 +25319,11 @@ QuestInfoList = {
 		}
 	},
 	[8271] = {
-		Title = "Toxic an insecticide",
+		Title = "Zehirli Insecticide Teslimati",
 		Description = {
 			"Find <NAVI>Dieshin Man<INFO>moc_ruins,173,55,0,101,0</INFO></NAVI> at the Morroc Ruins and deliver his <ITEM>Delivery Box<INFO>6218</INFO></ITEM> to a Zoologist somewhere in Payon Field 7."
 		},
-		Summary = "Deliver the insecticide",
+		Summary = "Insecticide'i teslim et",
 		NpcSpr = "4_M_ORIENT02",
 		NpcNavi = "pay_fild07",
 		NpcPosX = 83,
@@ -25334,11 +25334,11 @@ QuestInfoList = {
 		}
 	},
 	[8272] = {
-		Title = "Deliver a honey!",
+		Title = "Honey Teslimati",
 		Description = {
 			"Find <NAVI>Dieshin Man<INFO>moc_ruins,173,55,0,101,0</INFO></NAVI> at the Morroc Ruins and deliver his <ITEM>Delivery Box<INFO>6218</INFO></ITEM> to an Entomologist somewhere in Prontera Field 3."
 		},
-		Summary = "Deliver the Honey",
+		Summary = "Honey'yi teslim et",
 		NpcSpr = "4_M_01",
 		NpcNavi = "prt_fild03",
 		NpcPosX = 30,
@@ -25349,11 +25349,11 @@ QuestInfoList = {
 		}
 	},
 	[8273] = {
-		Title = "Deliver a blanket!",
+		Title = "Blanket Teslimati",
 		Description = {
 			"Find <NAVI>Dieshin Man<INFO>moc_ruins,173,55,0,101,0</INFO></NAVI> at the Morroc Ruins and bring his <ITEM>Delivery Box<INFO>6218</INFO></ITEM> to a Biologist somewhere in Lutie Field."
 		},
-		Summary = "Deliver the Blanket",
+		Summary = "Blanket'i teslim et",
 		NpcSpr = "4W_M_01",
 		NpcNavi = "xmas_fild01",
 		NpcPosX = 92,
@@ -25364,11 +25364,11 @@ QuestInfoList = {
 		}
 	},
 	[8274] = {
-		Title = "Collect Bones",
+		Title = "Kemik Topla",
 		Description = {
 			"Gather 10 <ITEM>Skel-Bone<INFO>932</INFO></ITEM>. Monster that drop it is Skeleton in Payon Cave."
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
@@ -25380,11 +25380,11 @@ QuestInfoList = {
 		}
 	},
 	[8275] = {
-		Title = "Collect Skins",
+		Title = "Deri Topla",
 		Description = {
 			"Collect 10 <ITEM>Bear's Footskin<INFO>948</INFO></ITEM> and 5 <ITEM>Animal Skin<INFO>919</INFO></ITEM>. Bigfoot monsters drop them at Payon Field 7"
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
@@ -25395,11 +25395,11 @@ QuestInfoList = {
 		}
 	},
 	[8276] = {
-		Title = "Collect Peelings",
+		Title = "Peeling Topla",
 		Description = {
 			"Collect 20 <ITEM>Worm Peeling<INFO>955</INFO></ITEM> and 20 <ITEM>Garlet<INFO>910</INFO></ITEM>. You can gather these items in the Ant Hell dungeon at Fortress Saint Darmain (East)."
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
@@ -25411,11 +25411,11 @@ QuestInfoList = {
 		}
 	},
 	[8277] = {
-		Title = "Collect tails!",
+		Title = "Kuyruk Topla",
 		Description = {
 			"Collect 10 <ITEM>Yoyo Tail<INFO>942</INFO></ITEM>, 10 <ITEM>Acorn<INFO>1026</INFO></ITEM> and 10 <ITEM>Raccoon Leaf<INFO>945</INFO></ITEM>. You can get these items from Yoyo, Coco, and Smokie at the Eastern field of Ayothaya."
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
@@ -25427,11 +25427,11 @@ QuestInfoList = {
 		}
 	},
 	[8278] = {
-		Title = "Collect cookies!",
+		Title = "Cookie Topla",
 		Description = {
 			"Collect 5 <ITEM>Well-baked Cookie<INFO>538</INFO></ITEM> and 1 <ITEM>Piece of Cake<INFO>539</INFO></ITEM>. You can get these items from Cookie and Mystcase in the Toy Factory of Lutie."
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
@@ -25443,11 +25443,11 @@ QuestInfoList = {
 		}
 	},
 	[8279] = {
-		Title = "Collect mustache!",
+		Title = "Mole Mustache Topla",
 		Description = {
 			"Collect 5 <ITEM>Mole Whiskers<INFO>1017</INFO></ITEM> and 3 <ITEM>Mole Claw<INFO>1018</INFO></ITEM>. You can get these items from Martin in the Mjolnir Dead Pit"
 		},
-		Summary = "Deliver items to Dashia in Payon",
+		Summary = "Esyalari Payon'daki Dashia'ya teslim et",
 		NpcSpr = "4_M_RACHMAN1",
 		NpcNavi = "payon",
 		NpcPosX = 179,
