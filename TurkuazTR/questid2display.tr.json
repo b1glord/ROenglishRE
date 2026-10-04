@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.63.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7578-7584 Flame Basin gunluk gorevleri ve 7593-7604 Temple of the Demon God zinciri dahil",
+    "version": "6.64.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7605 Guardian cooldown ve 7606-7629 Phantasmagorika, Atnad kazi ve enerji gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9317,6 +9317,131 @@
       "title": "Temple of the Demon God Phase 2 Tamamlandi",
       "description": "Fire Wolf Muspellskoll'u yendin.",
       "goal": "Phase 2 tamamlandi"
+    },
+    "7605": {
+      "title": "Guardian'in Kutsamasi",
+      "description": "Guardian ile yaptigin son sozlesmenin suresi henuz dolmadi. Bitene kadar yeni bir sozlesme yapilamaz.",
+      "goal": "Sozlesme suresinin dolmasini bekle"
+    },
+    "7606": {
+      "title": "Phantasmagorika Kazi Gorevlisi Araniyor",
+      "description": "Juperos Ruins genisledi. Yeni kesfedilen Phantasmagorika'yi kesfetmek icin ekibe katil.",
+      "goal": "Phantasmagorika kazi projesine katil"
+    },
+    "7607": {
+      "title": "Eden Group Lideri",
+      "description": "Eden Group lideri ortaya cikti ve Phantasmagorika hakkinda seninle konusmak istiyor. Ikinci kattaki en soldaki odaya git.",
+      "goal": "Eden Group Commander ile konus"
+    },
+    "7608": {
+      "title": "Atnad Excavation Team - 1",
+      "description": "Eden Group Commander, kazi projesine katilman icin employee office'teki Lime Evenor ile konusmani istedi. Ofis yan odada.",
+      "goal": "Employee office'te Lime ile konus"
+    },
+    "7609": {
+      "title": "Atnad Excavation Team - 2",
+      "description": "Juperos dungeon'u kullanarak yeni kesfedilen alana git. Varinca Central Command Center'a kaydol ve ekip adinin ^0000FFAtnad^000000 oldugunu soyle.",
+      "goal": "Atnad Excavation Team uyesi olarak kaydol"
+    },
+    "7610": {
+      "title": "Kayitli Kazi Gorevlisi",
+      "description": "Artik Atnad Excavation Team'in resmi uyesisin ve Phantasmagorika kazi projesine katilabilirsin.",
+      "goal": "Kazi projesine katil"
+    },
+    "7611": {
+      "title": "Gecit Temizligi",
+      "description": "Tuneldeki ve cevredeki canavarlari temizlemeye yardim et. Isin bitince Commander Louis'e rapor ver.",
+      "goal": "Gecitteki canavarlari temizle ve Louis'e rapor ver"
+    },
+    "7612": {
+      "title": "Gecit Temizligi - Bekleme",
+      "description": "Biraz dinlen. Gecitteki canavarlarla simdilik parali askerler ilgilenecek. Gorevi Commander Louis'ten daha sonra tekrar alabilirsin.",
+      "goal": "Gunluk gorev bekleme suresi"
+    },
+    "7613": {
+      "title": "Riskleri Ortadan Kaldir",
+      "description": "Ana kazi alanindaki robotlar calismayi engelliyor. Onlari ortadan kaldir.",
+      "goal": "Kazi alanindaki robotlari yok et"
+    },
+    "7614": {
+      "title": "Riskleri Ortadan Kaldir - Bekleme",
+      "description": "Kazi alanindaki robotlar temizlendi. Bir sonraki gorev icin daha sonra geri don.",
+      "goal": "Gunluk gorev bekleme suresi"
+    },
+    "7615": {
+      "title": "Core Toplama",
+      "description": "Robotlardan 20 Power Control Device topla. Bunlar ileri teknoloji uygarligin anahtarlarindan biri olabilir.",
+      "goal": "20 Power Control Device topla"
+    },
+    "7616": {
+      "title": "Core Toplama - Bekleme",
+      "description": "Atnad Excavation Team su anda Power Control Device'lari inceliyor. Bu sirada dinlen.",
+      "goal": "Gunluk gorev bekleme suresi"
+    },
+    "7617": {
+      "title": "Kazi Raporunu Teslim Et",
+      "description": "Atnad Excavation Team'in gunluk kazi raporunu Central Command Center'daki Louis'e gotur. Ardindan bugunku isin bitecek.",
+      "goal": "Raporu Louis'e teslim et"
+    },
+    "7618": {
+      "title": "Sonuclari Raporlama - Bekleme",
+      "description": "Atnad Excavation Team'in bir sonraki raporunu bekle.",
+      "goal": "Gunluk gorev bekleme suresi"
+    },
+    "7619": {
+      "title": "Kazi Ekibine Yardim",
+      "description": "Artik kazi ekibinin resmi uyesisin. Aureth ile konus.",
+      "goal": "Aureth ile konus"
+    },
+    "7620": {
+      "title": "Genc Kan?",
+      "description": "Aureth, Verus'un ortasindaki meydanda bulunan Lloyd ve Luke'a gitmeni istedi.",
+      "goal": "Lloyd'u bul"
+    },
+    "7621": {
+      "title": "Enerjiyi Sisele",
+      "description": "Lloyd enerji arastirmasinda yardimini istedi. Verus'un her yerindeki enkazdan 10 Condensed Energy toplamak icin ^4d4dffEmpty Bottle^000000 kullan.",
+      "goal": "10 Condensed Energy topla"
+    },
+    "7622": {
+      "title": "Iyi Haber",
+      "description": "Lloyd'un arastirma sonuclarini Aureth'e bildir.",
+      "goal": "Aureth ile konus"
+    },
+    "7623": {
+      "title": "Atnad'in Cagrisi",
+      "description": "Atnad Excavation Team'in senin icin yeni bir isi var. Atnad ile konus.",
+      "goal": "Atnad ile konus"
+    },
+    "7624": {
+      "title": "Lezzet Arayisi",
+      "description": "Hazir yenebilen, sulu, ferahlatici ve temiz tatli bir yiyecek bul. Diger ekip uyelerinden tavsiye al.",
+      "goal": "Lezzetli bir yiyecek bul"
+    },
+    "7625": {
+      "title": "Bana Guven",
+      "description": "Luke, 2 Meat, 1 Mora Mandarin ve 1 Banana getirirsen senin icin bir sey pisirecek.",
+      "goal": "2 Meat, 1 Mora Mandarin ve 1 Banana getir"
+    },
+    "7626": {
+      "title": "Onun Icin Lezzet",
+      "description": "Luke'un hazirladigi Mora'nin meshur Beef Toast'unu Atnad'a gotur.",
+      "goal": "Beef Toast'u Ian Atnad'a teslim et"
+    },
+    "7627": {
+      "title": "Son Kesif",
+      "description": "Ian Atnad'a son kesif calismasi hakkinda soru sor.",
+      "goal": "Ian Atnad ile konus"
+    },
+    "7628": {
+      "title": "Yeni Enerji Kaynagi",
+      "description": "Lloyd'un arastirmasi icin Condensed Energy toplamakla gorevlendirildin. 10 Empty Bottle'a ihtiyacin var.",
+      "goal": "10 Condensed Energy topla"
+    },
+    "7629": {
+      "title": "Yarinin Enerjisi Icin Yarin",
+      "description": "Lloyd'un arastirmasina yardim etmeye devam etmek icin yarin geri don.",
+      "goal": "Gunluk gorev bekleme suresi"
     }
   }
 }
