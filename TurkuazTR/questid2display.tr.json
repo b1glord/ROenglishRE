@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.81.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8196-8210 Tripartite Union, document delivery, restoration ve United Research meeting gorevleri dahil",
+    "version": "6.82.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8211-8228 Shurank Swordman egitimi, Dequ'ee sorusturmasi ve Bankley zinciri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10947,6 +10947,96 @@
       "title": "United Research Official'a Rapor",
       "description": "Ryosen yeni bir toplanti ayarlamak istiyor. Onun yerine Official ile gorusup yeni toplantiyi planla.",
       "goal": "United Research Official ile gorus"
+    },
+    "8211": {
+      "title": "Shurank'in Dersi",
+      "description": "Shurank, Bash skill'inin Swordmanship'in temeli oldugunu dusunuyor. Bash kullanmayi gelistir ve geri don.",
+      "goal": "Bash skill'ini gelistir ve Shurank'a don"
+    },
+    "8212": {
+      "title": "Shurank'in Dersi",
+      "description": "Bash hakkinda biraz bilgi edindin ama Shurank bunun yeterli olmadigini soyluyor. Egitime devam et.",
+      "goal": "Bash skill'ini gelistir ve Shurank'a don"
+    },
+    "8213": {
+      "title": "Shurank'in Dersi",
+      "description": "Bash konusunda ilerleme kaydettin ama hala yeterli degil. Biraz daha ustalas.",
+      "goal": "Bash skill'ini gelistir ve Shurank'a don"
+    },
+    "8214": {
+      "title": "Shurank'in Dersi",
+      "description": "Ellerindeki nasirlar Bash konusunda ustalastigini gosteriyor. Shurank performansindan etkilendi.",
+      "goal": "Shurank'in dersini dinle"
+    },
+    "8215": {
+      "title": "Shurank'in Dersi",
+      "description": "Increase HP Recovery hakkinda yeterince bilgi edindin. Bir sonraki ders Provoke olacak.",
+      "goal": "Shurank'in dersini dinle"
+    },
+    "8216": {
+      "title": "Shurank'in Emri",
+      "description": "Geffen'de ^5D478BDequ'ee^000000 adli Knight'i bul. Shurank'in mesaji: ^0000FFKatil ne oldu? Kim oldugunu buldunuz mu? Bulduysaniz simdi ne yapacagiz?^000000",
+      "goal": "Shurank'in mesajini Geffen'deki Dequ'ee'ye ilet"
+    },
+    "8217": {
+      "title": "Dequ'ee'nin Mesaji",
+      "description": "Dequ'ee katilin kim oldugundan henuz emin degil ama supheli listesi var ve yakinda gercegi ortaya cikarmayi umuyor.",
+      "goal": "Dequ'ee'nin mesajini Izlude'deki Shurank'a ilet"
+    },
+    "8218": {
+      "title": "Shurank'in Dersi",
+      "description": "Provoke'u henuz ogrenmedin. Shurank bu skill'i kullanma konusunda kendini egitmeni istiyor.",
+      "goal": "Provoke skill'ini gelistir ve Shurank'a don"
+    },
+    "8219": {
+      "title": "Shurank'in Dersi",
+      "description": "Provoke hakkinda temel bir anlayisin var. Shurank skill'i daha iyi kullanabilmen icin ayrintilari anlatiyor.",
+      "goal": "Provoke skill'ini gelistir ve Shurank'a don"
+    },
+    "8220": {
+      "title": "Shurank'in Dersi",
+      "description": "Provoke konusunda iyi bir seviyeye geldin. Bir sonraki derste ^5D478BEndure^000000 anlatilacak.",
+      "goal": "Shurank'in dersini dinle"
+    },
+    "8221": {
+      "title": "Shurank'in Dersi",
+      "description": "Endure, hasar almaya devam etsen bile dusman darbelerinin hareketini daha az bozmasini saglar. Endure kullaniminda kendini egit.",
+      "goal": "Endure skill'ini gelistir ve Shurank'a don"
+    },
+    "8222": {
+      "title": "Shurank'in Emri",
+      "description": "Shurank senden yeniden Geffen'deki Dequ'ee'yi ziyaret etmeni istedi. Dequ'ee'nin senden isteyecegi isi tamamla ve geri don.",
+      "goal": "Dequ'ee ile gorus"
+    },
+    "8223": {
+      "title": "Dequ'ee'nin Emri",
+      "description": "Morocc'a git ve dort supheliyi sorgula: ^5D478BMuetro^000000, ^5D478BGeil^000000, ^5D478BHans^000000 ve ^5D478BBankley^000000. Hepsiyle konustuktan sonra Dequ'ee'ye rapor ver.",
+      "goal": "Morocc'ta kanit ara ve Dequ'ee'ye don"
+    },
+    "8224": {
+      "title": "Ipucu",
+      "description": "Tek ipucunuz karmasik ve anlamsiz gorunen bir mesaj. Ne anlama geldigini cozmeniz gerekiyor.",
+      "goal": "Ipucunu cozmeye calis"
+    },
+    "8225": {
+      "title": "Dequ'ee'nin Cikarimi",
+      "description": "Kanitlar Bankley'nin katil olabilecegini gosteriyor. Kesin olmasa da cok supheli. Morocc'a git ve Bankley'yi yakindan izle.",
+      "goal": "Morocc'ta Bankley'yi izle"
+    },
+    "8226": {
+      "title": "Bankley'nin Olumu",
+      "description": "Bankley olmus. Gogusunde derin bir yara var ve sag elinde kana bulanmis bir bicak tutuyor. Olum cok yeni gorunuyor.",
+      "goal": "Bankley'nin olumunu Dequ'ee'ye bildir"
+    },
+    "8227": {
+      "title": "Shurank'a Don",
+      "description": "Bankley'nin olumu supheli gorunuyor ama diger uc supheli Swordman Association tarafindan izlenecek. Simdilik dava kapandi. Shurank'a geri don.",
+      "goal": "Shurank'a don"
+    },
+    "8228": {
+      "title": "Shurank'in Dersi",
+      "description": "Shurank'in son dersi Magnum Break hakkinda. Dikkatle dinle.",
+      "goal": "Shurank'in dersini dinle"
     }
   }
 }
