@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.78.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8123-8126 Ayotaya Tom Yum Goong, 8127-8130 Momotaro Field Trip ve 8131-8135 Amatsu tilki gorevleri dahil",
+    "version": "6.79.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8136-8171 Moscovia Golden Key, Lusalka, Marozka, Baba Yaga, Maria Morebna ve Koshei gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10617,6 +10617,186 @@
       "title": "Tilki Kovuldu",
       "description": "Tilki ruhunu bedenden cikardin. Ruh, Ishida ailesini ve seni lanetlemekle tehdit ederek kacti.",
       "goal": "Fox Tail ile lorda geri don"
+    },
+    "8136": {
+      "title": "Gray Wolf'un Uyarisi",
+      "description": "Gray Wolf, Koshei the Immortal adinda biri konusunda seni uyardi ve buradan ayrilmani soyledi. Koshei'nin kim oldugunu ogren.",
+      "goal": "Gray Wolf ile yeniden konus"
+    },
+    "8137": {
+      "title": "Keymaker'i Bul",
+      "description": "Koshei, Maria adindaki bir kiz tarafindan muhurlanmis olumsuz ve kotu bir varlik. Maria'yi tas hapishanesinden kurtarmak icin ^0000ffGolden Key^000000 yapabilecek keymaker'i bul.",
+      "goal": "Golden Key icin keymaker'i bul"
+    },
+    "8138": {
+      "title": "Blacksmith'in Ricasi",
+      "description": "Blacksmith senden 25 Steel getirmeni istedi. Karsiliginda Golden Key'in nasil yapildigini anlatacak.",
+      "goal": "25 Steel getir"
+    },
+    "8139": {
+      "title": "Golden Key",
+      "description": "Golden Key icin ^0000ff2 Cursed Ruby, 3 Gold, 1 Red Ring, 2 Lusalka's Hair ve 10 Golden Thread^000000 gerekiyor. Malzemelerin nasil bulunacagini Blacksmith'ten ogren ve Strong Steel Boots'u unutma.",
+      "goal": "Golden Key malzemelerini topla"
+    },
+    "8140": {
+      "title": "Red Ring",
+      "description": "Vassili Grandpapa, Red Ring'i olen kizi Mashenka'ya verdigini soyledi. Diger kizi Ryubaba yuzugun yerini biliyor olabilir.",
+      "goal": "Ryubaba ile konus"
+    },
+    "8141": {
+      "title": "Mashenka'nin Red Ring'i",
+      "description": "Ryubaba, Mashenka'nin bataklik yakininda kayboldugunda Red Ring'i takiyor olabilecegini soyledi.",
+      "goal": "Bataklikta Mashenka'yi ara"
+    },
+    "8142": {
+      "title": "Bataklikta Arama",
+      "description": "Bataklik yakinindaki Shepherdess, Mashenka ve Red Ring'i ararken ona ^0000ff25 Pointed Branch^000000 getirmeni istedi.",
+      "goal": "25 Pointed Branch getir"
+    },
+    "8143": {
+      "title": "Flutun Sesi",
+      "description": "Shepherdess getirdigin dallardan Wooden Flute yapti. Calindiginda uzgun bir sarki soyleyen gizemli bir ses duyuluyor. Bu sesi Ryubaba'ya sor.",
+      "goal": "Ryubaba ile konus"
+    },
+    "8144": {
+      "title": "Ryubaba'nin Itirafi",
+      "description": "Ryubaba'nin Mashenka hakkinda itiraf ettiklerini Vassili'ye anlat ve kanit olarak Wooden Flute'u goster.",
+      "goal": "Vassili ile konus"
+    },
+    "8145": {
+      "title": "Endiseli Annenin Ricasi",
+      "description": "Endiseli bir anne, su perisi Lusalka'nin kizi olabilecegini anlatti. Ayrintilari ogrenmek icin onunla konusmaya devam et.",
+      "goal": "Endiseli anneyle konus"
+    },
+    "8146": {
+      "title": "Lusalka'yi Bul",
+      "description": "Su perisi Lusalka'yi bulmak icin 17:00 ile 06:00 arasinda bir su bolgesine git ve tehlikeli bakisindan korunmak icin Holy Water getir.",
+      "goal": "Holy Water ile Lusalka'yi bul"
+    },
+    "8147": {
+      "title": "Lusalka'nin Sevgilisi",
+      "description": "Lusalka, Rune-Midgarts baskentinde sevgilisi Igor'u bulmani, ona golden earrings'i vermeni ve artik aci cekmemesi gerektigini soylemeni istedi.",
+      "goal": "Igor'u bul ve mesaji ilet"
+    },
+    "8148": {
+      "title": "Lusalka'nin Sevgilisi",
+      "description": "Prontera'ya Igor ile seyahat eden Moscovia'li bir gezgin buldun. Sonradan ayrilmislar ve Igor bir cole gitmis. En yakin col Morocc tarafinda.",
+      "goal": "Morocc'ta Igor'u ara"
+    },
+    "8149": {
+      "title": "Igor'u Aramak",
+      "description": "Morocc'taki bir koylu Igor'u gormus olabilir ve Pyramid'e girdigini soyledi. Golden earrings'i teslim etmek icin onu orada ara.",
+      "goal": "Pyramid'de Igor'u bul"
+    },
+    "8150": {
+      "title": "Igor'un Mesaji",
+      "description": "Igor, Lusalka'ya hala onu sevdigini soylemeni istedi. Belki Golden Key icin gerekli sacini verecektir. Lusalka ile konusurken Holy Water getir.",
+      "goal": "Igor'un mesajini Lusalka'ya ilet"
+    },
+    "8151": {
+      "title": "Marozka'nin Magarasi",
+      "description": "Marozka, Koshei ile savasmaya layik olup olmadigini sinamak istiyor. Magaradaki Stone Furnace'dan 100 Well Baked Cookie ve Apple Tree'den 100 Apple getir.",
+      "goal": "100 Well Baked Cookie ve 100 Apple getir"
+    },
+    "8152": {
+      "title": "Golden Thread",
+      "description": "Marozka gerekli malzemeleri aldi ancak Golden Thread'i hazirlamasi zaman alacak. Bir saat sonra geri don.",
+      "goal": "1 saat bekle"
+    },
+    "8153": {
+      "title": "Akil ve Bilgelik Sinavi",
+      "description": "Marozka'nin tum sinavlarini gecersen yeni yaptigi Golden Thread'i verecek.",
+      "goal": "Marozka'nin sinavlarini tamamla"
+    },
+    "8154": {
+      "title": "Keymaker",
+      "description": "Keymaker ormanin derinlerindeki bir kulubede. Sozlerine dikkat et ve Blacksmith'in koruma buyusunu unutma: ^0000ffSpellshield Protection^000000.",
+      "goal": "Keymaker'i bul"
+    },
+    "8155": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Baba Yaga kacmis inegini bulup geri donus buyusu yapmani istedi. Buyu: ^ff0000Good feed is orange-flavored^000000.",
+      "goal": "Inegi bul ve geri donus buyusunu kullan"
+    },
+    "8156": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Baba Yaga'nin inegine geri donus buyusunu yaptin. Gorevin tamamlandigini ona bildir.",
+      "goal": "Baba Yaga'ya don"
+    },
+    "8157": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Golden Key karsiliginda evinin arkasindaki gurultulu coffin'i susturmani istedi.",
+      "goal": "Gurultulu coffin'i sustur"
+    },
+    "8158": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Baba Yaga'nin evinin arkasindaki coffin'i susturdun. Sonucu ona bildir.",
+      "goal": "Baba Yaga'ya don"
+    },
+    "8159": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Golden Key karsiliginda, batik gemideki korsanlarin caldigi degerli Silver Spoon'unu geri getirmeni istedi.",
+      "goal": "Silver Spoon'u bul"
+    },
+    "8160": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Korsanlarin caldigi Silver Spoon'u buldun. Baba Yaga'ya geri don.",
+      "goal": "Baba Yaga'ya Silver Spoon'u teslim et"
+    },
+    "8161": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Golden Key karsiliginda Amatsu'daki Momotaro'dan kendi adina ayrilmis magic book'u satin almani istedi.",
+      "goal": "Momotaro'dan magic book al"
+    },
+    "8162": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Magic book'lari alip Baba Yaga'ya teslim ettin. Golden Key'in tamamlanip tamamlanmadigini sor.",
+      "goal": "Baba Yaga ile konus"
+    },
+    "8163": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Golden Key karsiliginda kulubesinin yanindaki kavanozda yasayan House Ghost'u susturman istendi.",
+      "goal": "House Ghost'u sustur"
+    },
+    "8164": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "House Ghost ile kart oyunu oynadin ve artik sessiz kalacagina soz verdi. Baba Yaga'ya haber ver.",
+      "goal": "Baba Yaga'ya don"
+    },
+    "8165": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Golden Key karsiliginda Payon'daki Broom Grandmother'dan ona bir broom satin almani istedi.",
+      "goal": "Broom al"
+    },
+    "8166": {
+      "title": "Baba Yaga'nin Ricasi",
+      "description": "Ghost Tree ile zar oynayarak Baba Yaga'nin istedigi Broom'u aldin. Ona geri gotur.",
+      "goal": "Broom'u Baba Yaga'ya teslim et"
+    },
+    "8167": {
+      "title": "Golden Key",
+      "description": "Sonunda Golden Key'i Baba Yaga'dan aldin. Maria Morebna'yi duvarin icindeki hapsinden kurtarma zamani.",
+      "goal": "Maria Morebna'yi kurtar"
+    },
+    "8168": {
+      "title": "Koshei the Immortal",
+      "description": "Gray Wolf Maria'nin yaralariyla ilgilenecek. Sen Koshei'yi etkisiz hale getirmek icin elinden geleni yap.",
+      "goal": "Koshei'yi bastir"
+    },
+    "8169": {
+      "title": "Living ve Dead Water",
+      "description": "Gray Wolf, Maria'yi kurtarmak icin Baba Yaga'dan Life Water ve Death Water alman gerektigini soyledi.",
+      "goal": "Baba Yaga'dan iki suyu al"
+    },
+    "8170": {
+      "title": "Living ve Dead Water",
+      "description": "Living Water icin 1 Holy Water ve 2 Yggdrasil Leaf; Dead Water icin 1 Cursed Water ve 10 Hinalle Leaflet getir.",
+      "goal": "Gerekli malzemeleri Baba Yaga'ya getir"
+    },
+    "8171": {
+      "title": "Living ve Dead Water",
+      "description": "Baba Yaga Living Water ve Dead Water'i verdi. Maria'ya git; once yarayi ve laneti temizlemek icin Dead Water, sonra ruhunu geri getirmek icin Living Water kullan.",
+      "goal": "Maria'yi iki suyla kurtar"
     }
   }
 }
