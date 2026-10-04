@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.54.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7335-7347 Chef Nyas ve Takoyaki sonu ile 7350-7378 Port Malaya Mumbaki, agimat ve Cast-Iron Caldron gorevleri dahil",
+    "version": "6.55.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7379-7410 Port Malaya ruhsal koruma, Perry Ship, Jejeling, kemik toplama ve Bungisngis gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8267,6 +8267,166 @@
       "title": "Yasli Adam ve Dokme Demir Kazan - Duzenli Teslimat",
       "description": "Cast-Iron Caldron surekli kullanildigi icin sik sik kiriliyor ve duzenli olarak yenisi gerekiyor. Bir gun sonra Nardo ile bulusup yeni teslimat tarihini ogren.",
       "goal": "Bir gun sonra Nardo'ya don"
+    },
+    "7379": {
+      "title": "Baris Habercisi",
+      "description": "Imelda'nin talimatlariyla 6 koyluya Spiritual Protection teslim ettin. Koye baris ve huzur getirilmesine katkida bulundun. Bu basariyi Imelda ile paylas.",
+      "goal": "Imelda'ya rapor ver"
+    },
+    "7380": {
+      "title": "Geleneksel Ruhsal Koruma Yapimi",
+      "description": "Spiritual Protection yapmak icin malzeme toplamaya soz verdin. Salt kuzeybati kiyilarindan, Bamboo Baryo'dan ve Silver Cross Pandoi'den elde edilebilir.",
+      "goal": "6 Salt Bag, 6 Sharpened Bamboo ve 6 Silver Cross getir"
+    },
+    "7381": {
+      "title": "Ruhsal Koruma Malzemesine Yogun Talep",
+      "description": "Spiritual Protection'a surekli ihtiyac oldugu icin malzemeler cabuk tuketiliyor. Bir gun sonra Imelda'yi ziyaret et; muhtemelen yeniden malzeme isteyecek.",
+      "goal": "Bir gun sonra Imelda'ya don"
+    },
+    "7382": {
+      "title": "Pedro'ya Teslim Et",
+      "description": "Spiritual Protection'i Pedro'ya teslim ettin.",
+      "goal": "Pedro teslimati tamamlandi"
+    },
+    "7383": {
+      "title": "Nardo'ya Teslim Et",
+      "description": "Spiritual Protection'i Nardo'ya teslim ettin.",
+      "goal": "Nardo teslimati tamamlandi"
+    },
+    "7384": {
+      "title": "Pandoi'ye Teslim Et",
+      "description": "Spiritual Protection'i Pandoi'ye teslim ettin.",
+      "goal": "Pandoi teslimati tamamlandi"
+    },
+    "7385": {
+      "title": "Woeon'a Teslim Et",
+      "description": "Spiritual Protection'i Woeon'a teslim ettin.",
+      "goal": "Woeon teslimati tamamlandi"
+    },
+    "7386": {
+      "title": "Talah'a Teslim Et",
+      "description": "Spiritual Protection'i Talah'a teslim ettin.",
+      "goal": "Talah teslimati tamamlandi"
+    },
+    "7387": {
+      "title": "Romel'e Teslim Et",
+      "description": "Spiritual Protection'i Romel'e teslim ettin.",
+      "goal": "Romel teslimati tamamlandi"
+    },
+    "7388": {
+      "title": "Maries'in Cocugu",
+      "description": "Ormanda kaybolan Maries'in cocugu icin ^4d4dffInside-out Shirt^000000 bul. Gomlegi bir hayvan ya da canavar almis olmali.",
+      "goal": "Inside-out Shirt'i bul"
+    },
+    "7389": {
+      "title": "Gomlegi Maries'in Cocuguna Ver",
+      "description": "Gomlegi Maries'in cocuguna verdin. Cocuk gomlegi giyip guvenle eve donecek. Her seyin yolunda oldugunu Maries'e bildir.",
+      "goal": "Maries'e haber ver"
+    },
+    "7390": {
+      "title": "Maries'in Cocugu Icin Endise",
+      "description": "Cocugun anlattiklarina gore insanlari yollarindan saptiran yaramaz bir ruh var. Cocuk yeniden kaybolabilir. Endiseleniyorsan daha sonra evlerine ugrayip kontrol et.",
+      "goal": "Daha sonra cocugu kontrol et"
+    },
+    "7391": {
+      "title": "Jejeling ve Jejellopy",
+      "description": "Koleksiyon tuccari Woeon Jejellopy topluyor ve senden yardim istedi. Cevredeki Jejelingleri avla ve dusurdukleri Jejellopy'leri topla.",
+      "goal": "Woeon'a 30 Jejellopy teslim et"
+    },
+    "7392": {
+      "title": "Duzenli Jejellopy Toplama",
+      "description": "Jejellopy cesitli urunlerin yapiminda kullaniliyor. Woeon'un surekli daha fazlasina ihtiyaci olacak. Musait oldugunda onu tekrar ziyaret et.",
+      "goal": "Daha sonra Woeon'a don"
+    },
+    "7393": {
+      "title": "Parlak Gumus Bicak",
+      "description": "Genc demirci Pandoi'nin hayali Silver Blade yapmak. Hastanedeki canavarlardan 10 Silver Bracelet topla ve gerekli canavarlari yen.",
+      "goal": "10 Silver Bracelet topla; Manananggal ve Tiyanak'i yen"
+    },
+    "7394": {
+      "title": "Parlak Yarin",
+      "description": "Bir gun sonra Pandoi'ye don. Silver Blade yapmayi basaramadiysa daha fazla Silver Bracelet toplamak icin yardimina ihtiyaci olacak.",
+      "goal": "Bir gun sonra Pandoi'ye don"
+    },
+    "7395": {
+      "title": "Perry Gemisindeki Hayalet",
+      "description": "Pedro'nun Perry Ship'in perili oldugu hikayesini kendin arastirmaya karar verdin. Buradaki hayaletler senden korkuyor gibi; gemiye cikmaktan cekinme.",
+      "goal": "Perry Ship'i arastir"
+    },
+    "7396": {
+      "title": "Perry Gemisindeki Ofkeli Ruh",
+      "description": "Perry Ship'te ofkeli bir kiz ruh tarafindan kotu karsilandin. Sorunu cozmenin bir yolunu bul.",
+      "goal": "Pedro ve Mumbaki ile konus"
+    },
+    "7397": {
+      "title": "Mumbaki Phong'un Tavsiyesi",
+      "description": "Mumbaki Phong ruhtan kacmak yerine onu anlayip sakinlestirmeni soyledi. Sunmak icin cevredeki hayvan ve canavarlardan cicek topla.",
+      "goal": "3 Elegant Flower, 3 Mysterious Flower ve 3 Beautiful Flower getir"
+    },
+    "7398": {
+      "title": "Mumbaki'nin Onerdigi Sunu Buketi",
+      "description": "Mumbaki Phong getirdigin cicekleri kutsayip Offering Bouquet hazirladi. Buketi Perry Ship'teki Soul Diwata'ya gotur.",
+      "goal": "Buketi Diwata'ya sun"
+    },
+    "7399": {
+      "title": "Soul Diwata'nin Hikayesi",
+      "description": "Diwata, koy disindan geldigi icin yerli hayaletlerin kendisine kotu davrandigini anlatti. Perry Ship, Diwata'nin guclu ruhu nedeniyle hareket edemiyor.",
+      "goal": "Bu bilgiyi Pedro ile paylas"
+    },
+    "7400": {
+      "title": "Port Malaya'nin Mumbaki'si",
+      "description": "",
+      "goal": ""
+    },
+    "7401": {
+      "title": "Perry Seferine Herkes Binsin",
+      "description": "Perry Ship simdilik yeniden duzenli calisabilir. Ancak yerli hayaletlerin Diwata'yi yeniden rahatsiz etme ihtimaline karsi bir gun sonra gemiyi kontrol et.",
+      "goal": "Bir gun sonra Perry Ship'i kontrol et"
+    },
+    "7402": {
+      "title": "Diwata Icin Buket",
+      "description": "Diwata'yi yerli hayaletlerle yasadigi catismadan sonra sakinlestirmek icin bir buket hazirlamaya karar verdin. Mumbaki Phong'un kutsamasi icin cicekleri topla.",
+      "goal": "3 Elegant Flower, 3 Mysterious Flower ve 3 Beautiful Flower getir"
+    },
+    "7403": {
+      "title": "Perry Yeniden Sakin",
+      "description": "Diwata buketi aldiktan sonra sakinlesti. Perry Ship yeniden sefere cikabilir. Pedro'ya haber ver.",
+      "goal": "Pedro'ya haber ver"
+    },
+    "7404": {
+      "title": "Jejelingleri Temizle",
+      "description": "Baryo'ya gidip gelen seyyar tuccarlara yardim etmek icin Jejelingleri avlamaya karar verdin. Bugun 20 Jejeling yok et.",
+      "goal": "20 Jejeling avla"
+    },
+    "7405": {
+      "title": "Jejelingleri Temizle - Yarin Ayni Saatte",
+      "description": "Jejelingleri azaltmak surekli yardim gerektiren bir is. Yeniden katilmak icin bir gun sonra Guard ile bulus.",
+      "goal": "Bir gun sonra Guard'a don"
+    },
+    "7406": {
+      "title": "Kemik Toplamayi Kabul Et",
+      "description": "Bekci kopegi Vantai icin kemik topla. Toplanan kemiklerin arindirilmasi gerekiyor. Evil Spirit Bone'lari Mumbaki Kiko'ya gotur.",
+      "goal": "10 Evil Spirit Bone ve 10 Holy Water getir"
+    },
+    "7407": {
+      "title": "Arindirilmis Kemik",
+      "description": "Mumbaki Kiko'nun ayininden sonra Purified Spirit Bone'lari aldin. Onlari Quarter'a gotur.",
+      "goal": "Quarter'a 10 Purified Spirit Bone teslim et"
+    },
+    "7408": {
+      "title": "Yarin Tekrar Gelmeyi Kabul Et",
+      "description": "Baryo Mahiwaga muhafizi Quarter, Vantai icin yarin daha fazla kemik istiyor. Bir gun sonra tekrar ziyaret et.",
+      "goal": "Bir gun sonra Quarter'a don"
+    },
+    "7409": {
+      "title": "Goz Goze Bile Gelemiyor",
+      "description": "Kendini iyi bir Capre olarak tanitan Budidai, arkadaslarinin Bungisngis tarafindan zorbalanmasina dayanamiyor. Canavar onun icin fazla guclu; tek gozlu yaratigi durdurmak icin yardim istiyor.",
+      "goal": "10 Bungisngis avla"
+    },
+    "7410": {
+      "title": "Yarin Bir Ders Daha Ver",
+      "description": "Capre Budidai, Bungisngislerin tek bir korkutmayla vazgecmeyecegini soyluyor. Onlari uzak tutmaya devam etmek icin bir gun sonra geri don.",
+      "goal": "Bir gun sonra Budidai'ye don"
     }
   }
 }
