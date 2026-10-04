@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.37.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7142-7146 Eden Group Ant Hell egitim gorevleri dahil",
+    "version": "6.38.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7147-7151 Eden Group Orc Village egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7151,6 +7151,31 @@
     "7146": {
       "title": "Ant Hell'i Fethet",
       "description": "Cloud'un verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7147": {
+      "title": "Orc Village'i Fethet",
+      "description": "Orc Village'da Hooksha adli Eden Group uyesini bul. Kafra Employee yakinindaki bir kulubede.",
+      "goal": "Orc Village'da Hooksha'yi bul"
+    },
+    "7148": {
+      "title": "Orc Village'i Fethet",
+      "description": "Kucuk olsalar da buyuduklerinde guclu Orc Warrior oluyorlar. Orc Village'da 10 Orc Baby avla.",
+      "goal": "10 Orc Baby yen"
+    },
+    "7149": {
+      "title": "Orc Village'i Fethet",
+      "description": "Siradaki hedef Orc Warrior. 10 Orc Warrior avla.",
+      "goal": "10 Orc Warrior yen"
+    },
+    "7150": {
+      "title": "Orc Village'i Fethet",
+      "description": "Siradaki hedef Orc Lady. Orc Village'da 10 Orc Lady avla.",
+      "goal": "10 Orc Lady yen"
+    },
+    "7151": {
+      "title": "Orc Village'i Fethet",
+      "description": "Hooksha'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
       "goal": "Instructor Boya'ya rapor ver"
     }
   }
