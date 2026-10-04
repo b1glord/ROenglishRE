@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.49.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7223-7228 Eden Einbroch, 7229-7232 Ice Cave ve 7233-7237 Ash Vacuum ileri seviye egitim gorevleri dahil",
+    "version": "6.50.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7238-7241 Thorn malzeme, equipment enhancement ve 24 saatlik bekleme gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7597,6 +7597,26 @@
       "title": "Instructor Ur'a Rapor Ver",
       "description": "Ash Vacuum'daki egitimin tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
       "goal": "Instructor Ur'a rapor ver"
+    },
+    "7238": {
+      "title": "Thorn'un Isi (Kolay)",
+      "description": "Thorn'un refine islemi icin malzemeye ihtiyaci var. Ona 20 Iron Ore ve 10 Iron getir.",
+      "goal": "20 Iron Ore ve 10 Iron topla"
+    },
+    "7239": {
+      "title": "Thorn'un Isi (Zor)",
+      "description": "Thorn'un refine islemi icin malzemeye ihtiyaci var. Ona 20 Used Iron Plate getir.",
+      "goal": "20 Used Iron Plate topla"
+    },
+    "7240": {
+      "title": "Ekipman Guclendirme",
+      "description": "Yeni Eden Group ekipmanini Thorn'a gotur ve guclendirmesini iste. Ekipmanina rastgele bir bonus ekleyecek.",
+      "goal": "Eden Group ekipmanini Thorn'a gotur"
+    },
+    "7241": {
+      "title": "Thorn Gorevi Bekleme Suresi",
+      "description": "24 saat bekledikten sonra Thorn'a geri don.",
+      "goal": "24 saat sonra Thorn'a don"
     }
   }
 }
