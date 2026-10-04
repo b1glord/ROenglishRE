@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.94.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11074-11133 Poison King, New Surroundings, camp supply, Bazett, Warlock Job Change ve hunting bloklarindan 60 pending kayit dahil",
+    "version": "6.95.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11134-11198 Maestro Song, Sura Job Change, Frede ve Bradium, Theore, Bifrost ve Mora Village bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -13382,6 +13382,306 @@
       "title": "Poison Spore Toplama Tamamlandi",
       "description": "Istek tamamlandi. Bu gorevi tekrar yapabilmek icin 1 gun beklemelisin.",
       "goal": ""
+    },
+    "11134": {
+      "title": "Kanli Seytan Temizleme Operasyonu",
+      "description": "Koy etrafinda dolasan ^4d4dff'button man of devil'^000000 avla.",
+      "goal": ""
+    },
+    "11135": {
+      "title": "Maestro Song'u Ara",
+      "description": "^000077Prontera^000000'ya git ve ^000077Maestro Song hakkinda bilgi^000000 topla. Ben Alberta'da bir seyi arastiracagim.",
+      "goal": ""
+    },
+    "11136": {
+      "title": "Maestro Song'u Ara",
+      "description": "Sarki hakkinda ^f57d7dkale kapisi yakininda gozluk takan adama^000000 sor.",
+      "goal": "Kale kapisi yakinindaki kisiden bilgi al"
+    },
+    "11137": {
+      "title": "Maestro Song'u Ara",
+      "description": "^f57d7dTool Shop onunde duran kadina^000000 sormak daha iyi olabilir.",
+      "goal": "Konus"
+    },
+    "11138": {
+      "title": "Maestro Song'u Ara",
+      "description": "Kadin, Maestro Song'un uzun zaman once kaybettigi oglu olduguna inaniyor. Alberta'daki Bard'a don ve Prontera'da ogrendiklerini anlat.",
+      "goal": ""
+    },
+    "11139": {
+      "title": "Maestro Song'u Ara",
+      "description": "Karian, Maestro Song'un Izlude'a giden bir tekneye binmis olabilecegini duydu ama tekne artik yok. Hugel'e giden airship'te onunla bulus.",
+      "goal": ""
+    },
+    "11140": {
+      "title": "Maestro Song'u Ara",
+      "description": "Karian ilk kez airship'e bindi ve yol tutmasi yasadi. Hugel'de onunla konus.",
+      "goal": ""
+    },
+    "11141": {
+      "title": "Maestro Song'u Ara",
+      "description": "Karian dinlenirken Pub'a gidip Maestro Song'un nerede oldugunu bilen biri olup olmadigini arastirmani istedi.",
+      "goal": ""
+    },
+    "11142": {
+      "title": "Maestro Song'u Ara",
+      "description": "Tone-deaf birinden iskence gibi bir sarki dinledin ama Maestro Song hakkinda daha fazla bilgi aldin.",
+      "goal": "Hugel Hotel'deki Karian'a don ve rapor ver"
+    },
+    "11143": {
+      "title": "Maestro Song'u Ara",
+      "description": "^000077Maestro Song^000000'un neden ^000077Thanatos Tower^000000'a gittigini bilmiyorum.",
+      "goal": "Thanatos Tower'a git"
+    },
+    "11144": {
+      "title": "Maestro Song'u Ara",
+      "description": "Thanatos Tower'da bir makbuz buldun. Makbuzu Juno'daki shop manager Mr. Click'e gotur.",
+      "goal": "Juno'da Mr. Click'i bul"
+    },
+    "11145": {
+      "title": "Maestro Song'u Ara",
+      "description": "Einbroch ile Lighthalzen arasindaki field bolgelerinde Teddy Bear'lar var. 33 tane avla ve Lighthalzen Hotel'de Karian'i bul.",
+      "goal": ""
+    },
+    "11146": {
+      "title": "Maestro Song'u Ara",
+      "description": "Rion, Maestro Song'un annesinin calistigi Ice Cave'e gittigini gordugunu soyledi.",
+      "goal": "Maestro Song'un izlerini bulmak icin Ice Cave'e git"
+    },
+    "11147": {
+      "title": "Maestro Song'u Ara",
+      "description": "Ice Cave'i arastirirken duvara yazilmis bir sarki buldun.",
+      "goal": "Old Woman ile konus"
+    },
+    "11148": {
+      "title": "Maestro Song'u Ara",
+      "description": "Veins'in guneyindeki field bolgesinde bir tekne bul.",
+      "goal": ""
+    },
+    "11149": {
+      "title": "Maestro Song'u Ara",
+      "description": "Comodo'ya tekne yolculugundan sag ciktin. Karian ile konusmaya devam et.",
+      "goal": ""
+    },
+    "11150": {
+      "title": "Maestro Song'u Ara",
+      "description": "Maestro Song hakkinda koydeki insanlara sormali miyim?",
+      "goal": "Maestro Song hakkinda etrafa sor"
+    },
+    "11151": {
+      "title": "Maestro Song'u Ara",
+      "description": "Kayak Master, diner'daki hostess'in yuzleri hatirlamakta iyi oldugunu soyledi.",
+      "goal": "Diner'a git"
+    },
+    "11152": {
+      "title": "Maestro Song'u Ara",
+      "description": "Comodo'daymis ama sonra Morocc yakininda gizli bir guild'in toplandigi sakin bir yere cekilmis. Kadin adinin ash ya da assa gibi bir sey oldugunu soyledi.",
+      "goal": "Morocc'un guneydogusundaki binayi bul"
+    },
+    "11153": {
+      "title": "Maestro Song'u Ara",
+      "description": "Bu yazi stili makbuzdakiyle ayni gorunuyor. Karian birden Aldebaran'daki Clock Tower'a gitmemiz gerektigini soyledi.",
+      "goal": "Aldebaran'daki Clock Tower girisine git"
+    },
+    "11154": {
+      "title": "Maestro Song'u Ara",
+      "description": "Karian'in, arkadasiyla Clock Tower onunde soyledigi bir sarkiyi hatirlamasini dinledin.",
+      "goal": "Prontera South Gate'e geri don"
+    },
+    "11155": {
+      "title": "Sura Job Degisimi",
+      "description": "Az once inanilmaz bir guc sergileyen bir kadin gordun. Inn'e git ve onun hakkinda daha fazla bilgi edin.",
+      "goal": ""
+    },
+    "11156": {
+      "title": "Sura Job Degisimi",
+      "description": "Sura olmaya uygun oldugunu kanitlamak icin 100 Desert Wolf avla.",
+      "goal": ""
+    },
+    "11157": {
+      "title": "Sura Job Degisimi",
+      "description": "Juno'nun guneydogusundaki El Mes Gorge'a git ve merkeze yakin olmasi gereken \"Buddy\"yi bul. Ona seni \"Bruno\"nun gonderdigini soyle.",
+      "goal": ""
+    },
+    "11158": {
+      "title": "Sura Job Degisimi",
+      "description": "Master meditasyon yapiyor, bu nedenle oturma odasinda beklemelisin.",
+      "goal": "Master'i bekle ve hayatta kal"
+    },
+    "11159": {
+      "title": "Brian'in Hikayesi",
+      "description": "Ah... Buraya geleli kac gun oldu? Bugunun hangi gun oldugunu biliyor musun?",
+      "goal": "Brian'in hikayesini dinle"
+    },
+    "11160": {
+      "title": "John'un Hikayesi",
+      "description": "Pekala... Bir sey yok... sorun yok... merak etme...",
+      "goal": "John ile konusmaya devam et"
+    },
+    "11161": {
+      "title": "Tyler'in Hikayesi",
+      "description": "Mesgulsen sirtimi kasar misin? Cok kasiniyor, sanki bir bocek isirmis gibi. Gerci sirtimi isiracak kadar buyuk bir bocek olamaz.",
+      "goal": "Tyler ile konusmaya devam et"
+    },
+    "11162": {
+      "title": "Rose'un Hikayesi",
+      "description": "Ona, isimde fazla iyi olmam disinda hicbir sorun olmadigini soyle.",
+      "goal": "Rose ile konusmaya devam et"
+    },
+    "11163": {
+      "title": "Bain'in Hikayesi",
+      "description": "Frede mi gonderdi? Ona iyi oldugumu soyle. Bu kadar basit.",
+      "goal": "Bain ile konusmaya devam et"
+    },
+    "11164": {
+      "title": "Lash'in Hikayesi",
+      "description": "Durumumu merak ediyorsan tas gibi kollarimdan ne kadar saglikli oldugumu goremiyor musun? Gorduklerini anlat! Hahahaha!",
+      "goal": "Lash ile konusmaya devam et"
+    },
+    "11165": {
+      "title": "Brian'a Teslimat",
+      "description": "Frede'yi azarladiktan sonra kendime de bakmam gerektigini fark ettim. Iyilesir iyilesmez koye donecegimi Frede'ye soyle.",
+      "goal": "Brian'a teslimat tamamlandi"
+    },
+    "11166": {
+      "title": "John'a Teslimat",
+      "description": "...... Tesekkurler, dostum...",
+      "goal": "John'a teslimat tamamlandi"
+    },
+    "11167": {
+      "title": "Tyler'a Teslimat",
+      "description": "Vay canina! Bradium'um neredeyse bitmisti. Cok tesekkurler!",
+      "goal": "Tyler'a teslimat tamamlandi"
+    },
+    "11168": {
+      "title": "Rose'a Teslimat",
+      "description": "Yakinda koye donecegim. Sonra bulusup vakit gecirebiliriz~",
+      "goal": "Rose'a teslimat tamamlandi"
+    },
+    "11169": {
+      "title": "Bain'e Teslimat",
+      "description": "Cok tesekkurler~ Sonra gorusuruz~",
+      "goal": "Bain'e teslimat tamamlandi"
+    },
+    "11170": {
+      "title": "Lash'e Teslimat",
+      "description": "Ohhhh! Ne buyuk iyilik! Bana yardim etmeseydin burada hayatim sona erebilirdi!",
+      "goal": "Lash'e teslimat tamamlandi"
+    },
+    "11171": {
+      "title": "Frede'nin Istegi",
+      "description": "Gel, oturup dinlen. Bunu da ye.",
+      "goal": "Onunla tekrar konus"
+    },
+    "11172": {
+      "title": "Frede'nin Istegi",
+      "description": "Arkadaslarimin hepsi Bradium ikmali icin cave'e gitmis olmali. Umarim iyilerdir. Gidip durumlarini kontrol eder misin?",
+      "goal": "Frede'nin arkadaslari Brian, John, Tyler, Rose, Bain ve Lash ile bulus"
+    },
+    "11173": {
+      "title": "Frede'nin Istegi",
+      "description": "Surekli ricada bulundugum icin uzgunum ama arkadaslarima Bradium teslim eder misin? Koyun kuzeybatisindaki binada Bouy'a sorarsan sana refined Bradium verecek.",
+      "goal": "Bouy ile bulus ve refined Bradium al"
+    },
+    "11174": {
+      "title": "Malzeme Eksikligi",
+      "description": "Buyuk Bradium mineralini rafine etmek uzun suruyor ama kucuk parcalar daha hizli. Cevredeki canavarlardan kolayca Bradium parcasi toplayabilirsin. 6 kisi icin 30 parca yeterli olur.",
+      "goal": "Yeterli Bradium yok. 30 kucuk Bradium parcasi topla"
+    },
+    "11175": {
+      "title": "Malzeme Eksikligi",
+      "description": "Bradium parcalarini elle rafine etmek makineden daha hizli. Yaklasik bir saat yeter. Ben calisirken sen dinlen.",
+      "goal": "Isin tamamlanmasi yaklasik 2 saat surecek"
+    },
+    "11176": {
+      "title": "Arkadaslarim Icin",
+      "description": "Is tamamlandi! Bouy uzun zamandir el isi yapmadigi icin biraz gergindi ama iyi is cikardi. Bunlari arkadaslara gotur.",
+      "goal": "Refined Bradium'u arkadaslara ver ve hikayeyi anlatmak icin Frede'ye don"
+    },
+    "11182": {
+      "title": "Theore'un Raporu",
+      "description": "Theore cok heyecanli gorunuyor. Sakinlesmesini bekle ve onunla tekrar konus.",
+      "goal": ""
+    },
+    "11183": {
+      "title": "Theore'un Ricasi",
+      "description": "Theore, Splendide Field'a gelen Lapine'leri bulmani istedi.",
+      "goal": "Splendide Field 2'nin guneybati bolgesini ara"
+    },
+    "11184": {
+      "title": "Kacan Lapine",
+      "description": "Calilikta silahsiz bir Lapine buldun ama kacip gitti.",
+      "goal": "Splendide Field 2 cevresinde aramaya devam et"
+    },
+    "11185": {
+      "title": "Kucuk Kese",
+      "description": "Caliliklarda kucuk bir kese buldun. Theore'a geri gotur.",
+      "goal": ""
+    },
+    "11186": {
+      "title": "Kucuk Kese",
+      "description": "Sahibini bulmak icin keseyi Splendide'e geri gotur.",
+      "goal": ""
+    },
+    "11187": {
+      "title": "Fairy Kesesini Geri Ver",
+      "description": "Yorgun gorunen bir Fairy buldun ama kese ona ait degil. Sahibini bulmak icin ipucu topla ve Fairy'ye anlat.",
+      "goal": ""
+    },
+    "11188": {
+      "title": "Fairy Kesesinin Sahibi",
+      "description": "Kimseye soylemeyecegine soz verirsen Kusmi ile tekrar konusabilirsin.",
+      "goal": "Kusmi ile tekrar konus"
+    },
+    "11189": {
+      "title": "Bifrost Ikmal Rotasi",
+      "description": "Ana karaya giden ikmal rotasi kesildigi icin Kusmi'nin hala yardima ihtiyaci var.",
+      "goal": "Kusmi ile tekrar konus"
+    },
+    "11190": {
+      "title": "Bifrost Ikmal Rotasi",
+      "description": "Ikmal rotasi hakkinda rapor vermek icin Splendide'de bir Lapine Soldier bul.",
+      "goal": ""
+    },
+    "11191": {
+      "title": "Bifrost'taki Catlaklar",
+      "description": "Maze of the Hazy Forest'tan gecerek Alfheim'a ulasabilirsin. Ancak bu labirentten geri donen olmadi.",
+      "goal": "Kusmi'ye geri don"
+    },
+    "11192": {
+      "title": "Mora Village...",
+      "description": "Mora Village'daki warehouse manager daha fazla bilgi verebilir. Donuste arkadasim Rondo'nun Mora Village'da olup olmadigini da kontrol eder misin?",
+      "goal": "Kusmi'nin arkadasi Rondo'yu Mora Village'da bul"
+    },
+    "11193": {
+      "title": "Kusmi'nin Arkadasi",
+      "description": "Kusmi'ye, gorusmek isterse her zaman bulusabilecegimizi soyle. Endiselenecek bir sey yok.",
+      "goal": "Kusmi'ye geri don"
+    },
+    "11194": {
+      "title": "Kucuk Kese",
+      "description": "Gercekten cevabi duymak istiyorsan benimle tekrar konus. Dusunmek icin zamana ihtiyacim var.",
+      "goal": "Theodore ile tekrar konus"
+    },
+    "11195": {
+      "title": "Bifrost",
+      "description": "Daha once de soyledigim gibi anlattiklarim gizli ve kimseye soylememelisin. Yardima ihtiyacimiz var ama sikistik ve baskalarinin bilmesini istemiyoruz.",
+      "goal": "Theodore ile tekrar konus"
+    },
+    "11196": {
+      "title": "Bifrost",
+      "description": "Ikmal rotasi Bifrost'tan geciyor ve Splendide Basecamp'in arkasindan ulasilabiliyor. Oraya gidersen durumun nasil oldugunu bir guard'a sor.",
+      "goal": "Ikmal rotasi hakkinda rapor icin Splendide'de bir Lapine Soldier bul"
+    },
+    "11197": {
+      "title": "Bifrost'taki Catlaklar",
+      "description": "Maze of the Hazy Forest'tan gecerek Alfheim'a ulasabilirsin. Ancak bu labirentten geri donen olmadi.",
+      "goal": "Theodore'a geri don"
+    },
+    "11198": {
+      "title": "Mora Village...",
+      "description": "Mora Village Warehouse Manager ile konusursan daha fazla bilgi alabilirsin. Mumkunse arkadasim Lilitia'ya da ugrar misin?",
+      "goal": "Theodore'un arkadasi Lilitia'yi Mora Village'da bul"
     }
   }
 }
