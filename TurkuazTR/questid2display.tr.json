@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.29.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62205-62266 Summer Sports Festa, Back to School, Talk like a Pirate, 2012 Halloween ve The Lion's Roar bloklarindan 60 pending kayit dahil",
+    "version": "7.30.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62267-62337 The Lion's Roar, Tactical Games ve Turkey Chef bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -23881,6 +23881,306 @@
     "62266": {
       "title": "Aslanin Kukremesi: Heykel Isi",
       "description": "Glast Heim 2'nin merkezindeki Statues'i bul.",
+      "goal": ""
+    },
+    "62267": {
+      "title": "Aslanin Kukremesi: Scroll ve Key",
+      "description": "Scroll ve key ile Orovan'a don.",
+      "goal": ""
+    },
+    "62268": {
+      "title": "Aslanin Kukremesi: Chest Testi",
+      "description": "Bu key'in actigi chest'i guneydogu kosede ara.",
+      "goal": ""
+    },
+    "62269": {
+      "title": "Aslanin Kukremesi: Tam Hiz Ileri",
+      "description": "Bull's Head'i guneybati kosede ara.",
+      "goal": ""
+    },
+    "62270": {
+      "title": "Aslanin Kukremesi: Majourous Hatasi",
+      "description": "Bull Spirit'i yen.",
+      "goal": ""
+    },
+    "62271": {
+      "title": "Aslanin Kukremesi: Majourous Sayaci",
+      "description": "Bull Spirit'e tekrar meydan okumadan once 5 dakika bekle.",
+      "goal": ""
+    },
+    "62272": {
+      "title": "Aslanin Kukremesi: Fire Key",
+      "description": "Bull Spirit'ten buldugun key ile Orovan'a don.",
+      "goal": ""
+    },
+    "62273": {
+      "title": "Aslanin Kukremesi: Mutevazi Baslangiclar",
+      "description": "Glast Heim Under Prison merkezinde Humility ile ilgili bir item bul.",
+      "goal": ""
+    },
+    "62274": {
+      "title": "Aslanin Kukremesi: Kukremenin Kaynagi",
+      "description": "Glast Heim Culvert'in kuzeybati kosesinde Roar kaynagini bul.",
+      "goal": ""
+    },
+    "62275": {
+      "title": "Aslanin Kukremesi: Top Hat Kaynagi",
+      "description": "Glast Heim Culvert'in ust merkezinde Roar kaynagini bul.",
+      "goal": ""
+    },
+    "62276": {
+      "title": "Aslanin Kukremesi: Saga Git",
+      "description": "Glast Heim Culvert'in orta sag tarafinda Roar kaynagini bul.",
+      "goal": ""
+    },
+    "62277": {
+      "title": "Aslanin Kukremesi: Merkezde",
+      "description": "Glast Heim Culvert'in merkezinde Roar kaynagini bul.",
+      "goal": ""
+    },
+    "62278": {
+      "title": "Aslanin Kukremesi: Asagi Iniyoruz",
+      "description": "Son lion head'i Glast Heim Culvert'in baska bir bolumunde bul.",
+      "goal": ""
+    },
+    "62279": {
+      "title": "Aslanin Kukremesi: Sewers'daki Orovan",
+      "description": "Glast Heim Culvert'in bu katinda Orovan'i bul. Wrecked ship yakinina bak.",
+      "goal": ""
+    },
+    "62280": {
+      "title": "Aslanin Kukremesi: Kayip Spirit",
+      "description": "Ship'in altindaki lost spirit ile konus.",
+      "goal": ""
+    },
+    "62281": {
+      "title": "Aslanin Kukremesi: Yine Orovan",
+      "description": "Orovan ile tekrar konus.",
+      "goal": ""
+    },
+    "62282": {
+      "title": "Aslanin Kukremesi: Sondaki Orovan",
+      "description": "Glast Heim'in en alt cave'indeki kuzeybati kosede Orovan'i bul.",
+      "goal": ""
+    },
+    "62283": {
+      "title": "Aslanin Kukremesi: Book'u Bul",
+      "description": "Orovan'in yanindaki book'a bak.",
+      "goal": ""
+    },
+    "62284": {
+      "title": "Aslanin Kukremesi: Baska Bir Book Mu?",
+      "description": "Guney ve dogu tarafinda book'un baska bir kopyasini bul.",
+      "goal": ""
+    },
+    "62285": {
+      "title": "Aslanin Kukremesi: Blade",
+      "description": "Orovan yakinindaki Sword'u bul.",
+      "goal": ""
+    },
+    "62286": {
+      "title": "Aslanin Kukremesi: Kamp",
+      "description": "Orovan'in guneyindeki Tent'i bul.",
+      "goal": ""
+    },
+    "62287": {
+      "title": "Aslanin Kukremesi: Fire Tunnel",
+      "description": "Tunnel of Fire'i bul.",
+      "goal": ""
+    },
+    "62288": {
+      "title": "Aslanin Kukremesi: Earth Tunnel",
+      "description": "Tunnel of Earth'i bul.",
+      "goal": ""
+    },
+    "62289": {
+      "title": "Aslanin Kukremesi: Water Tunnel",
+      "description": "Tunnel of Water'i bul.",
+      "goal": ""
+    },
+    "62290": {
+      "title": "Aslanin Kukremesi: Orovan Yine Mi?",
+      "description": "Orovan'a don.",
+      "goal": ""
+    },
+    "62291": {
+      "title": "Aslanin Kukremesi: Rideword'un Intikami",
+      "description": "20 Worn Out Page topla, sonra castle disindaki Orovan'a don.",
+      "goal": ""
+    },
+    "62292": {
+      "title": "Aslanin Kukremesi: Anivan'in Son Sozu",
+      "description": "Anivan'a don.",
+      "goal": ""
+    },
+    "62301": {
+      "title": "Taktik Oyunlari: Baslangic",
+      "description": "Guneydeki Master Mercenary ile konus.",
+      "goal": ""
+    },
+    "62302": {
+      "title": "Taktik Oyunlari: Ilk Temas",
+      "description": "Bir mercenary guild representative bul ve onunla konus.",
+      "goal": ""
+    },
+    "62303": {
+      "title": "Taktik Oyunlari: Mercenary Secimi",
+      "description": "Iyi haberlerle Master Mercenary'ye don.",
+      "goal": ""
+    },
+    "62304": {
+      "title": "Taktik Oyunlari: Smith Isi",
+      "description": "Einbroch Smith's Guild Hall'da sana yardim edecek bir smith bul.",
+      "goal": ""
+    },
+    "62305": {
+      "title": "Taktik Oyunlari: Blade",
+      "description": "Blade ile Master Mercenary'ye don.",
+      "goal": ""
+    },
+    "62306": {
+      "title": "Taktik Oyunlari: Secimleri Aciklama",
+      "description": "Shopkeeper'in ne istedigini ogren.",
+      "goal": ""
+    },
+    "62307": {
+      "title": "Taktik Oyunlari: Coin Bearer",
+      "description": "Junior Merchant'in hikayesini dinle.",
+      "goal": ""
+    },
+    "62308": {
+      "title": "Taktik Oyunlari: Teslimat",
+      "description": "Package'i Geffen'deki Randolph'a teslim et.",
+      "goal": ""
+    },
+    "62309": {
+      "title": "Taktik Oyunlari: Cevap",
+      "description": "Junior Merchant'a don.",
+      "goal": ""
+    },
+    "62310": {
+      "title": "Taktik Oyunlari: Potion Maker",
+      "description": "Al De Baran'da genc bir representative bul.",
+      "goal": ""
+    },
+    "62311": {
+      "title": "Taktik Oyunlari: Guild Card",
+      "description": "Alchemist Guild Card'i Junior Merchant'a ver.",
+      "goal": ""
+    },
+    "62312": {
+      "title": "Taktik Oyunlari: Alisveris Aliskanligi",
+      "description": "Shopkeeper ile tekrar konus.",
+      "goal": ""
+    },
+    "62313": {
+      "title": "Taktik Oyunlari: Buyuk Kotu Kurt",
+      "description": "Woodsman'i arastir.",
+      "goal": ""
+    },
+    "62314": {
+      "title": "Taktik Oyunlari: Orc Macerasi",
+      "description": "pay_fild09 icindeki Orc Body'yi bul.",
+      "goal": ""
+    },
+    "62315": {
+      "title": "Taktik Oyunlari: Woodsman'in Donusu",
+      "description": "Haberlerle Woodsman'e don.",
+      "goal": ""
+    },
+    "62316": {
+      "title": "Taktik Oyunlari: Ladies ve Warriors",
+      "description": "Yerel Orc population'i azaltmak icin 500 Orc Warrior ve 200 Orc Lady yen, sonra Woodsman'e don.",
+      "goal": ""
+    },
+    "62317": {
+      "title": "Taktik Oyunlari: Son Cagri",
+      "description": "Shopkeeper ile son kez konus.",
+      "goal": ""
+    },
+    "62321": {
+      "title": "Turkey Chef: Naval Command",
+      "description": "Juno'daki Brigadier Betty'yi bul.",
+      "goal": "Juno'ya Airship ile ulasabilirsin"
+    },
+    "62322": {
+      "title": "Turkey Chef: Rehber",
+      "description": "Juno'daki Brigadier Betty'yi bul.",
+      "goal": "Volunteer'in batisinda olmali"
+    },
+    "62323": {
+      "title": "Turkey Chef: General Quarters",
+      "description": "Ust kattaki Admiral ile konus.",
+      "goal": ""
+    },
+    "62324": {
+      "title": "Turkey Chef: Admiral Gorevi",
+      "description": "L.T. Smash'i bul ve restaurant'lar hakkinda bilgi al.",
+      "goal": ""
+    },
+    "62325": {
+      "title": "Turkey Chef: Is Kokusu",
+      "description": "Chef olma konusunda Nose ile konus.",
+      "goal": ""
+    },
+    "62326": {
+      "title": "Turkey Chef: Yemek Kokusu",
+      "description": "Stove'u baslat ve Beef ekle.",
+      "goal": ""
+    },
+    "62327": {
+      "title": "Turkey Chef: Su Kokusu",
+      "description": "Stove'u kaynama noktasina getir.",
+      "goal": ""
+    },
+    "62328": {
+      "title": "Turkey Chef: Oyunu Ver",
+      "description": "Town centre'in dogu tarafinda Faye'i bul.",
+      "goal": ""
+    },
+    "62329": {
+      "title": "Turkey Chef: Stadium",
+      "description": "Biggs Badwolf'u bul ve Blenderdome'a gir.",
+      "goal": ""
+    },
+    "62330": {
+      "title": "Turkey Chef: Doctor Burada",
+      "description": "Dr. Hattori ile konus.",
+      "goal": ""
+    },
+    "62331": {
+      "title": "Turkey Chef: Chairman Seni Onemsiyor",
+      "description": "Chairman ile konus.",
+      "goal": ""
+    },
+    "62332": {
+      "title": "Turkey Chef: Gizli Malzeme",
+      "description": "Chairman ile konus ve secret ingredient'i ogren.",
+      "goal": ""
+    },
+    "62333": {
+      "title": "Turkey Chef: Cheese",
+      "description": "Homunculus Cheese Researcher'i bul.",
+      "goal": ""
+    },
+    "62334": {
+      "title": "Turkey Chef: Dr. Claw",
+      "description": "Bir Homunculus Cheese yakala.",
+      "goal": ""
+    },
+    "62335": {
+      "title": "Turkey Chef: Blenderdome",
+      "description": "Cheese'i Head Kitchen Assistant'a gotur.",
+      "goal": ""
+    },
+    "62336": {
+      "title": "Turkey Chef: Maneater",
+      "description": "Maneater Blossoms'u Stadium icindeki Nose'a gotur.",
+      "goal": ""
+    },
+    "62337": {
+      "title": "Turkey Chef: Turkey Catcher",
+      "description": "Nose icin 30 Grand Peco avla.",
       "goal": ""
     }
   }
