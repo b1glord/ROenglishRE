@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.32.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7112-7116 Veins tanik ve supheli kisi bilgileri dahil",
+    "version": "6.33.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7117-7127 ilk gorev ve Novice temel egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7002,6 +7002,61 @@
       "title": "Yasli Adamdan Bilgi",
       "description": "Koydeki yasli adam, her gun ayni saatte ayni yerde ortaya cikan bir kizdan bahsetti. Yakinda buraya tasinmis olabilir.",
       "goal": "Kizin ortaya ciktigi yeri arastir"
+    },
+    "7117": {
+      "title": "Ilk Gorevin",
+      "description": "Sagdaki kopruyu gec, kalenin girisinden Training Center'a gir ve icerideki Sprakki ile konus.",
+      "goal": "Sprakki ile konus"
+    },
+    "7118": {
+      "title": "Novice Egitimi",
+      "description": "Instructor Brade ile konus.",
+      "goal": "Brade ile konus"
+    },
+    "7119": {
+      "title": "Novice Egitimi",
+      "description": "Brade'den ekipmanlarini aldin. Simdi ekipmanlarini kusan.",
+      "goal": "Ekipmanlarini kusan"
+    },
+    "7120": {
+      "title": "Novice Egitimi",
+      "description": "Jinha'yi bul ve yeni bir beceri ogren.",
+      "goal": "First Aid becerisini ogren"
+    },
+    "7121": {
+      "title": "Novice Egitimi",
+      "description": "Dunyanin sehirlerinde etkilesime girebilecegin bircok kisi vardir. Kafra, Cool Event ve asker rehberlerle konus.",
+      "goal": "Rehber NPC'lerle konus"
+    },
+    "7122": {
+      "title": "Ilk Savas - Poring Avi",
+      "description": "Poring adli canavari bul ve 1 tane yen.",
+      "goal": "1 Poring yen"
+    },
+    "7123": {
+      "title": "Savas Temelleri - Swordman",
+      "description": "Skill Manual'daki Swordman Bash becerisini kullanarak Picky avla ve Swordman Guide'a geri don.",
+      "goal": "2 Picky yen"
+    },
+    "7124": {
+      "title": "Savas Temelleri - Mage",
+      "description": "Mage'in Bolt becerilerini Lunatic avlayarak dene.",
+      "goal": "5 Lunatic yen"
+    },
+    "7125": {
+      "title": "Kullanilmiyor",
+      "description": "",
+      "goal": ""
+    },
+    "7126": {
+      "title": "Esya Satma",
+      "description": "Envanterindeki bir esyayi Potato Merchant'a sat ve Merchant Guide'a 300 Zeny getir.",
+      "goal": "Merchant Guide'a 300 Zeny getir"
+    },
+    "7127": {
+      "title": "Savas Temelleri - Thief",
+      "description": "Thief Manual'i kusanarak Double Attack ve Improve Dodge becerilerini 5 Willow avlarken dene.",
+      "goal": "5 Willow yen"
     }
   }
 }
