@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.58.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7471-7487 Criatura Academy baslangic, Red Herb ve Thief egitim gorevleri dahil",
+    "version": "6.59.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7488-7494 Morocc Fire Element, Familiar, mushroom farm ve miscellaneous assignment gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8807,6 +8807,41 @@
       "title": "30 Saniyelik Duello",
       "description": "Lumin ile iddiaya girdin. 30 saniye icinde Poring kafesinde Envenom kullanarak 4 Poring yen ve Lumin ile konus.",
       "goal": "30 saniyede 4 Poring yen"
+    },
+    "7488": {
+      "title": "Ates Elementi Uclusu",
+      "description": "Kaiser, Morocc yakinlarindaki Fire Element canavarlarindan Drops, Picky ve Baby Desert Wolf'un her birinden 5 tane yenmeni istiyor. Bunlari Morocc'un guney ve guneydogu alanlarinda bulabilirsin.",
+      "goal": "Her turden 5 Fire Element canavari yen"
+    },
+    "7489": {
+      "title": "Sessiz Tasfiye Plani",
+      "description": "Miscellaneous Assignment panosunda gizlice 1 Familiar yenmen istendi. Familiar'i Morocc'un batisindaki pyramid dungeon'da bul.",
+      "goal": "1 Familiar yen"
+    },
+    "7490": {
+      "title": "Anilari Canlandiran Mantar Corbasi",
+      "description": "Miscellaneous Assignment panosu mantar toplamani istiyor. Oasis yakinindaki Mash ile bulus, mushroom farm'a git ve 3 sticky scarlet hair mushroom getir.",
+      "goal": "3 Scarlet Hair Mushroom getir"
+    },
+    "7491": {
+      "title": "Paradise'a Kacis",
+      "description": "Belirgin bir sebep olmadan Paradise Squad'a gitme gorevini kabul ettin. Ismi bile insana iyi hissettiriyor.",
+      "goal": "Paradise Squad'i ziyaret et"
+    },
+    "7492": {
+      "title": "Yenilmez Balkabagi Sovalyesi",
+      "description": "Yenilmez amber knight'i yenmen istendi. Onu Prontera'nin bati alaninda bulabilirsin. Kafra space shift hizmetiyle Prontera'ya git.",
+      "goal": "Amber Knight'i yen"
+    },
+    "7493": {
+      "title": "17'ye Karsi 1 Savasi",
+      "description": "Siddetli kum firtinasinin icinden sessiz golgeler yaklasiyor. Morocc'un guney alaninda 17 Scorpion yen.",
+      "goal": "17 Scorpion yen"
+    },
+    "7494": {
+      "title": "Mantar Ciftligini Temizle",
+      "description": "Pyramid onundeki Mash, mushroom farm'a giren Chonchon ve Pabre'leri temizlemeni istedi.",
+      "goal": "10 Chonchon ve Pabre temizle"
     }
   }
 }
