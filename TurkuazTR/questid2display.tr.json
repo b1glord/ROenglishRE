@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.16.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5701-5725 kalan C-sinifi Orc Dungeon, Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
+    "version": "6.17.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 6000-6010 Taekwon, Soul Linker ve Super Novice meslek degisimi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6367,6 +6367,46 @@
       "title": "C-Sinifi Teslimat Gorevi",
       "description": "Glast Heim (glast_01) icindeki Raidin Curse'a 20 Trap teslim et. Alici (260,53) koordinatlari yakininda.",
       "goal": "Raidin Curse'a 20 Trap teslim et"
+    },
+    "6000": {
+      "title": "Taekwon Meslek Degisimi",
+      "description": "Taekwon olma yolunu sectin. Base Level seviyeni artir ve Phoenix ile konus.",
+      "goal": "Base Level seviyeni artir ve Phoenix ile konus"
+    },
+    "6001": {
+      "title": "Taekwon Meslek Degisimi",
+      "description": "Taekwon olma yolunu sectin. Phoenix'in zihinsel yetenek sinavina gir.",
+      "goal": "Phoenix'in sinavina gir"
+    },
+    "6002": {
+      "title": "Taekwon Meslek Degisimi",
+      "description": "Son adimda Phoenix ile konusarak Taekwon olabilirsin.",
+      "goal": "Phoenix ile konus"
+    },
+    "6005": {
+      "title": "Soul Linker Meslek Degisimi",
+      "description": "Ruhlarin gucunu kullanmak icin gerekli malzemelerle bir toren yapmalisin. 1 Witherless Rose, 3 Carat Diamond ve 1 Immortal Heart topla.",
+      "goal": "1 Witherless Rose, 3 Carat Diamond, 1 Immortal Heart"
+    },
+    "6006": {
+      "title": "Soul Linker Meslek Degisimi",
+      "description": "Maia ile birlikte meslek degisimi torenini gerceklestir.",
+      "goal": "Maia ile toreni gerceklestir"
+    },
+    "6007": {
+      "title": "Soul Linker Meslek Degisimi",
+      "description": "Maia ruhlarla konusmak istiyor.",
+      "goal": "Maia ile konus"
+    },
+    "6008": {
+      "title": "Soul Linker Meslek Degisimi",
+      "description": "Ruhlarin yankisi hala kalbinde. Maia ile yeniden konus.",
+      "goal": "Maia ile tekrar konus"
+    },
+    "6010": {
+      "title": "Super Novice Meslek Degisimi",
+      "description": "Gercekten sade Novice yasamini surdurmek istiyorsan iki siradan malzemeyi toplaman gerekiyor.",
+      "goal": "30 Sticky Mucus, 30 Resin"
     }
   }
 }
