@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.86.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8265 Yohean cooldown ile 8266-8279 Sponiac av, Dieshin teslimat ve Dashia toplama gorevleri dahil",
+    "version": "6.87.0",
+    "description": "Quest ID bazinda Turkce patchleri; 8519 ORION kayip kitap ile 9000-9012 Knight ve 9013-9018 Wizard Job Change gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11282,6 +11282,106 @@
       "title": "Mole Mustache Topla",
       "description": "5 Mole Whiskers ve 3 Mole Claw topla. Bunlari Mjolnir Dead Pit'teki Martin'lerden elde edebilirsin.",
       "goal": "Esyalari Payon'daki Dashia'ya teslim et"
+    },
+    "8519": {
+      "title": "Kitabin Sahibi: ♬ORION♬",
+      "description": "Kayip kitabi Prontera'da bir yerde bulunan ♬ORION♬'a gotur.",
+      "goal": "♬ORION♬'u bul ve kitabi teslim et"
+    },
+    "9000": {
+      "title": "Knight Job Change",
+      "description": "Chivalry Captain Herman, Knight olabilmek icin diger Knight'larin onayini alman gerektigini soyledi.",
+      "goal": "Chivalry uyeleriyle konus"
+    },
+    "9001": {
+      "title": "Bir Knight'in Sadakati",
+      "description": "Sir Andrew'un ilk testi: Elder Pixie's Moustache, Wing of Red Bat, Orcish Voucher, Moth Dust, Reptile Tongue ve Mane esyalarinin her birinden 5 tane getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "9002": {
+      "title": "Bir Knight'in Sadakati",
+      "description": "Sir Andrew'un ilk testi: Bug Leg, Heart of Mermaid, Maneater Blossom, Clam Flesh, Old Frying Pan ve Snail's Shell esyalarinin her birinden 5 tane getir.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "9003": {
+      "title": "Bir Knight'in Onuru",
+      "description": "Sir Andrew sinavlara devam etmek icin Sir Siracuse'u ziyaret etmeni istedi.",
+      "goal": "Sir Siracuse ile konus"
+    },
+    "9004": {
+      "title": "Bir Knight'in Onuru",
+      "description": "James Siracuse sinavlara devam etmek icin Sir Windsor'u ziyaret etmeni istedi.",
+      "goal": "Sir Windsor ile konus"
+    },
+    "9005": {
+      "title": "Bir Knight'in Azmi",
+      "description": "Sir Windsor fazla aciklama yapmadan onu takip etmeni emrediyor.",
+      "goal": "Sir Windsor ile konus"
+    },
+    "9006": {
+      "title": "Bir Knight'in Azmi",
+      "description": "Sir Windsor test salonundaki tum canavarlari yenmeni emrediyor.",
+      "goal": "Tum canavarlari 3 dakika icinde yen"
+    },
+    "9007": {
+      "title": "Bir Knight'in Onuru",
+      "description": "Sir Windsor sonraki test icin Amy Beatrice'i ziyaret etmeni istedi.",
+      "goal": "Amy Beatrice ile konus"
+    },
+    "9008": {
+      "title": "Knight Nezaketi",
+      "description": "Prontera Chivalry'den Lady Knight Amy, bir Knight gibi davranip sorularini cevaplamani istiyor.",
+      "goal": "Amy Beatrice ile konus"
+    },
+    "9009": {
+      "title": "Knight Hayati",
+      "description": "Amy Beatrice sonraki test icin Sir Edmond'u ziyaret etmeni istedi.",
+      "goal": "Sir Edmond ile konus"
+    },
+    "9010": {
+      "title": "Saygi Sinavi",
+      "description": "Sir Edmond sana zihinsel tutum konusunda tavsiye veriyor ve sabirli olmani istiyor.",
+      "goal": "Meditasyon yap"
+    },
+    "9011": {
+      "title": "Knight Hayati",
+      "description": "Sir Edmond final test icin Sir Gray'i bulmani istedi.",
+      "goal": "Sir Gray ile konus"
+    },
+    "9012": {
+      "title": "Bir Knight'in Zaferi",
+      "description": "Sir Gray, tum uyelerle gorustugun icin artik Captain Herman'a gidip Job Change yapabilecegini soyledi. Knight olma zamani geldi.",
+      "goal": "Captain Herman ile konus"
+    },
+    "9013": {
+      "title": "Wizard Job Change",
+      "description": "Wizard Guildman Catherine'in ilk testi Gemstone toplamak. Red, Blue ve Yellow Gemstone esyalarinin her birinden 3 tane topla.",
+      "goal": "Gerekli Gemstone'lari getir"
+    },
+    "9014": {
+      "title": "Wizard Job Change",
+      "description": "Catherine'in ilk testi icin Crystal Blue, Green Live, Red Blood ve Wind of Verdure esyalarinin her birinden 5 tane topla.",
+      "goal": "Gerekli property stone'lari getir"
+    },
+    "9015": {
+      "title": "Wizard Job Change",
+      "description": "Catherine'in ilk testini gectin. Simdi Gloomy Wizard'i bul.",
+      "goal": "Gloomy Wizard'i bul ve konus"
+    },
+    "9016": {
+      "title": "Wizard Job Change",
+      "description": "Job Change sinavinin ikinci asamasi Raulel'in sorularini dogru cevaplamak.",
+      "goal": "Raulel ile konus"
+    },
+    "9017": {
+      "title": "Wizard Job Change",
+      "description": "Ucuncu asamada 3 farkli Magic property hakkindaki bilgini pratikte gostermen gerekiyor.",
+      "goal": "3 farkli property ile pratik testi tamamla"
+    },
+    "9018": {
+      "title": "Wizard Sertifikasi",
+      "description": "Raulel'in verdigi tum testleri gectin. Son asama icin Catherine ile konus.",
+      "goal": "Catherine ile konus"
     }
   }
 }
