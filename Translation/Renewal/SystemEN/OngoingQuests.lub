@@ -18311,92 +18311,92 @@ QuestInfoList = {
 		Summary = "Bugunun teslimatini Cheshire'a gotur"
 	},
 	[7211] = {
-		Title = "[Standby] Hazy Forest Exploration",
+		Title = "Sisli Ormani Kesfet",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"Explore the <NAVI>[Hazy Forest]<INFO>bif_fild01,161,355,0,101,0</INFO></NAVI>. The Hazy Forest remembers you and may reject you if you try to force re-entry."
 		},
-		Summary = "Reset after 150 minutes",
+		Summary = "Foggy Forest'i kesfet",
 		CoolTimeQuest = 1
 	},
 	[7212] = {
-		Title = "What Loki is looking for",
+		Title = "Loki'yi Bulmak",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"The man named Loki whom I met by chance in <NAVI>[Hazy Forest]<INFO>bif_fild01,161,355,0,101,0</INFO></NAVI> seems to be looking for someone. Someone with purple hair. What does it mean? Shall I tell Loki if I ever find someone like that?"
 		},
-		Summary = ""
+		Summary = "Loki'nin aradigi kisiyi bul"
 	},
 	[7213] = {
-		Title = "Wandering Guardian",
+		Title = "Gezgin Koruyucu",
 		IconName = "ico_ep.bmp",
 		Description = {
 			"What Loki was looking for was the guardian <NAVI>[Nidhoggr]<INFO>mora,46,152,0,101,0</INFO></NAVI> who wandered in the Hazy Forest. They decided to leave the forest and meet again at Mora Village."
 		},
-		Summary = "Talk to Loki"
+		Summary = "Mora Village'da bulus"
 	},
 	[7214] = {
-		Title = "Advanced Training Stage 1 Comodo Subjugation",
+		Title = "Comodo'da Ileri Seviye Egitim",
 		Description = {
-			"In front of the cave north of Comodo, \"Romeo\", a member dispatched from Eden Group, is waiting for the next trainee."
+			"Comodo'nun kuzeyindeki magarayi bul ve oradaki Romeo ile konus."
 		},
-		Summary = "Find Romeo in Comodo"
+		Summary = "Comodo'da Romeo'yu bul"
 	},
 	[7215] = {
-		Title = "Stage 1 Part 1 - Subjugation",
+		Title = "Stalactic Golem Avi",
 		Description = {
-			"Romeo asked you to kill the Stalactic Golem to understand the atmosphere inside the cave and the opponent. Be careful of other monsters around you and deal with the Stalactic Golem."
+			"Comodo'nun kuzeyindeki magarada iri Stalactic Golemler var. 3 tanesini avla."
 		},
-		Summary = "Hunt 3 Stalactic Golem"
+		Summary = "3 Stalactic Golem avla"
 	},
 	[7216] = {
-		Title = "Stage 1 Part 2 - Break through the northern cave",
+		Title = "Daha Fazla Golem Avi",
 		Description = {
-			"If you know what the cave is like and what the enemies are like, this task is to break through the enemies and pass through the cave. Romeo will be waiting for you on the other side of the cave."
+			"Kendini kanitladin. Yolcularin magaradan guvenle gecebilmesi icin 10 Stalactic Golem daha avla, sonra Comodo Cave'in kuzeyindeki alanda bekleyen Romeo'ya rapor ver."
 		},
-		Summary = "Defeat the Golems and break through the cave. 10 Stalactic Golems."
+		Summary = "10 Stalactic Golem avla"
 	},
 	[7217] = {
-		Title = "Stage 1 Part 3 - Field Cleanup",
+		Title = "Saha Ganimetleri",
 		Description = {
-			"Romeo praised my ability to break through the cave and gave me the next task. The goal is to bring peace to the forest by defeating the Wootan Fighter and the Dryad and acquiring loot."
+			"Instructor Romeo, Comodo Cave'in kuzeyindeki alanda Wootan ve Dryad avlayarak 5 Shoulder Protector ve 7 Sharp Leaf getirmeni istedi."
 		},
-		Summary = "5 Shoulder Protector, 7 Sharp Leaf"
+		Summary = "7 Sharp Leaf ve 5 Shoulder Protector getir"
 	},
 	[7218] = {
-		Title = "Report to Instructor Ur",
+		Title = "Instructor Ur'a Rapor Ver",
 		Description = {
-			"You have completed all of the Comodo Subjugation tasks in the first stage of Eden Groups's Advanced Training course. All that remains is to return to the Eden Group Office and report to Instructor Ur."
+			"Step 1 icin gorevlerin simdilik tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus."
 		},
-		Summary = "Report to Instructor Ur"
+		Summary = "Instructor Ur'a rapor ver"
 	},
 	[7219] = {
-		Title = "Advanced Training Stage 2 Glast Heim",
+		Title = "Glast Heim'da Ileri Seviye Egitim",
 		Description = {
-			"The second stage of Eden Group's Advanced Training begins in Glastheim. Meet \"Johan\" in front of Glastheim Monastery and receive your training assignment."
+			"Geffen yakinlarindaki Glast Heim undead ve ghost canavarlarla dolu. Glast Heim'daki Johan'i bul."
 		},
-		Summary = "Find Johan at Glast Heim"
+		Summary = "Glast Heim'da Johan'i bul"
 	},
 	[7220] = {
-		Title = "Stage 2 Part 1 - Wraith",
+		Title = "Wraith Avi",
 		Description = {
-			"Johan gave you the task of defeating the powerful Wraiths who appeared on the 1st floor of the monastery."
+			"Abbey'i temizlemeye yardim etmek icin icerideki Wraith'leri avla."
 		},
-		Summary = "Hunt 20 Wraiths"
+		Summary = "20 Wraith avla"
 	},
 	[7221] = {
-		Title = "Stage 2 Part 2 - Evil Druid",
+		Title = "Evil Druid Avi",
 		Description = {
-			"In the Glastheim Monastery, there are corrupted priests who used to practice asceticism. However, the corrupted priests can no longer save people. Hence they wake up again..."
+			"Abbey'deki diger sorun Evil Druidler. Abbey icinde 10 Evil Druid avla ve Johan'a don."
 		},
-		Summary = "Hunt 10 Evil Druids"
+		Summary = "10 Evil Druid avla"
 	},
 	[7222] = {
-		Title = "Report to Instructor Ur",
+		Title = "Instructor Ur'a Rapor Ver",
 		Description = {
-			"There is something unclear, but Johan declared that it was enough and that all training tasks were over. Return to Eden Group's Office and report to Instructor Ur."
+			"Glast Heim'daki avin Abbey'nin temizlenmesine yardim etti. Eden Group Headquarters'a don ve Instructor Ur ile konus."
 		},
-		Summary = "Report to Instructor Ur"
+		Summary = "Instructor Ur'a rapor ver"
 	},
 	[7223] = {
 		Title = "Advaned Training Stage 3 Einbroch",
