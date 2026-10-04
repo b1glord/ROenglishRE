@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.41.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 70009-70070 Treasure Map, Blue Harvest, Amatsu daily quest, Ecto Exterminators ve Niflheim Tourists bloklarindan 60 pending kayit dahil",
+    "version": "7.42.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 70071-70152 Niflheim Tourists finali, Queen of the Dead gorevleri ve Rune Midgard Exposition/Class Quest bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -27481,6 +27481,306 @@
     "70070": {
       "title": "Niflheim Tourists",
       "description": "Dorduncu candy parcasini buldun. Taeli'ye don ve dordunu de buldugunu soyle.",
+      "goal": ""
+    },
+    "70071": {
+      "title": "Niflheim Tourists",
+      "description": "Son candy parcasi, front door uzerinde 2 gulumsuyen pumpkin bulunan tepedeki house'da sakli.",
+      "goal": ""
+    },
+    "70072": {
+      "title": "Niflheim Tourists",
+      "description": "Taeli'nin bahsettigi kadini bul. Son candy parcasinin saklandigi yerin ikinci katinda.",
+      "goal": ""
+    },
+    "70073": {
+      "title": "Niflheim Tourists",
+      "description": "Queen of the Dead'in Kendall, Arvus ve Taeli'nin parents'i uzerindeki spell'i kaldirmasini sagla.",
+      "goal": ""
+    },
+    "70074": {
+      "title": "Niflheim Tourists",
+      "description": "Queen of the Dead'i ikna etmis gibisin. Spell'i kaldirdigindan emin olmak icin onunla tekrar konus.",
+      "goal": ""
+    },
+    "70075": {
+      "title": "Niflheim Tourists",
+      "description": "Queen of the Dead aileyi spell'den kurtardi. Artik sana daha anlayisli davranabilir.",
+      "goal": ""
+    },
+    "70076": {
+      "title": "Niflheim Sayaci",
+      "description": "Queen of the Dead'in quest'lerini yalnizca her 12 saatte bir yapabilirsin.",
+      "goal": ""
+    },
+    "70077": {
+      "title": "Ectoplasm Topla",
+      "description": "Niflheim'daki Quve, Lude ve Heirozoist avlayarak 100 Ectoplasm topla ve Queen of the Dead'e geri gotur.",
+      "goal": ""
+    },
+    "70078": {
+      "title": "Pumpkin Lantern Topla",
+      "description": "Niflheim'daki Lude monster'larini avlayarak 60 Pumpkin Lantern topla ve Queen of the Dead'e geri gotur.",
+      "goal": ""
+    },
+    "70079": {
+      "title": "Wooden Gnarl Topla",
+      "description": "Niflheim'daki Gibbet monster'larini avlayarak 50 Wooden Gnarl topla ve Queen of the Dead'e geri gotur.",
+      "goal": ""
+    },
+    "70080": {
+      "title": "Food Ingredient Sayaci",
+      "description": "Eden Group Chef'ten baska bir quest almadan once 23 saat beklemelisin.",
+      "goal": ""
+    },
+    "70101": {
+      "title": "Rune Midgard Exposition",
+      "description": "Lighthalzen Hotel'e git ve check-in yap.",
+      "goal": ""
+    },
+    "70102": {
+      "title": "Rune Midgard Exposition",
+      "description": "Expo baslayana kadar ust katta biraz uyu. Room, ust katta uzun hallway'in sonunda.",
+      "goal": ""
+    },
+    "70103": {
+      "title": "Rune Midgard Exposition",
+      "description": "Dream'de ne oldugunu ogrenmek icin Expo Receptionist ile konus.",
+      "goal": ""
+    },
+    "70104": {
+      "title": "Rune Midgard Exposition",
+      "description": "Lighthalzen'in guneyindeki Anniversary Tram Guide ile konus ve Expo Fairground turuna katil.",
+      "goal": ""
+    },
+    "70105": {
+      "title": "Rune Midgard Exposition",
+      "description": "Technology Exhibit'in yapildigi Machine Building yakinindaki Automated Tour Guide'a devam et.",
+      "goal": ""
+    },
+    "70106": {
+      "title": "Rune Midgard Exposition",
+      "description": "Guneydeki Rare Gem Exhibit onundeki siradaki Automated Tour Guide'i kontrol et.",
+      "goal": ""
+    },
+    "70107": {
+      "title": "Rune Midgard Exposition",
+      "description": "Automated tour, Old Morocc Castle'in guneyindeki Bazaar'da devam ediyor.",
+      "goal": ""
+    },
+    "70108": {
+      "title": "Rune Midgard Exposition",
+      "description": "Turun kuzeybatidaki Culturetorium bolumune git.",
+      "goal": ""
+    },
+    "70109": {
+      "title": "Rune Midgard Exposition",
+      "description": "Bar yakinindaki Eden Expo Representative'i bul.",
+      "goal": ""
+    },
+    "70110": {
+      "title": "Rune Midgard Exposition",
+      "description": "Bazaar'daki Commerce Guild Rep ile konus.",
+      "goal": ""
+    },
+    "70111": {
+      "title": "Rune Midgard Exposition",
+      "description": "Bazaar'daki Commerce Guild Rep ile tekrar konus.",
+      "goal": ""
+    },
+    "70112": {
+      "title": "Rune Midgard Exposition",
+      "description": "Commerce Guild Rep'in itiraf etmesini saglamak icin daha fazla evidence bul.",
+      "goal": ""
+    },
+    "70113": {
+      "title": "Rune Midgard Exposition",
+      "description": "Harassment ile ilgili daha fazla evidence bul.",
+      "goal": ""
+    },
+    "70114": {
+      "title": "Rune Midgard Exposition",
+      "description": "Tum harassment evidence'larini bul. Uc evidence parcasi topladiginda Commerce Guild Rep ile konus.",
+      "goal": ""
+    },
+    "70116": {
+      "title": "Rune Midgard Exposition",
+      "description": "Commerce Guild Rep ile tekrar konus.",
+      "goal": ""
+    },
+    "70118": {
+      "title": "Rune Midgard Exposition",
+      "description": "Lighthalzen slums'a git ve Mobster Monsieur ile yuzles.",
+      "goal": ""
+    },
+    "70119": {
+      "title": "Rune Midgard Exposition",
+      "description": "Mob'u yendigini Commerce Guild Rep'e bildir.",
+      "goal": ""
+    },
+    "70120": {
+      "title": "Rune Midgard Exposition",
+      "description": "Commerce Guild'in fikir degisikligini Expo Representative'e bildir.",
+      "goal": ""
+    },
+    "70121": {
+      "title": "Rune Midgard Exposition",
+      "description": "Class quest almaya hazir oldugunda Frau Beau'ya bildir.",
+      "goal": ""
+    },
+    "70122": {
+      "title": "Rune Midgard Exposition",
+      "description": "Class quest: belirtilen Expo attendee veya representative ile konus.",
+      "goal": ""
+    },
+    "70123": {
+      "title": "Rune Midgard Exposition",
+      "description": "Castle'i arastir ve hayatta kalan bir guard bul.",
+      "goal": ""
+    },
+    "70124": {
+      "title": "Rune Midgard Exposition",
+      "description": "Mort ve digerlerinin kayboldugu locked door'u bulmaya calis.",
+      "goal": ""
+    },
+    "70125": {
+      "title": "Rune Midgard Exposition",
+      "description": "Injured Guard'a geri don.",
+      "goal": ""
+    },
+    "70126": {
+      "title": "Rune Midgard Exposition",
+      "description": "Injured Guard'a 1 Rope, 10 Hinale Leaflet ve 3 Explosive Powder getir.",
+      "goal": ""
+    },
+    "70127": {
+      "title": "Rune Midgard Exposition",
+      "description": "Explosive'i Locked Door'a yerlestir.",
+      "goal": ""
+    },
+    "70128": {
+      "title": "Rune Midgard Exposition",
+      "description": "Injured Guard ile tekrar konus.",
+      "goal": ""
+    },
+    "70129": {
+      "title": "Rune Midgard Exposition",
+      "description": "Castle'in East Wing'indeki Mort's Office'de Master Key'i bulmaya calis.",
+      "goal": ""
+    },
+    "70130": {
+      "title": "Rune Midgard Exposition",
+      "description": "Invasion'i Expo Representative Frau Beau'ya rapor et.",
+      "goal": ""
+    },
+    "70131": {
+      "title": "Rune Midgard Exposition",
+      "description": "Expo'da Machine Building yanindaki Technology Rep ile konus.",
+      "goal": ""
+    },
+    "70132": {
+      "title": "Rune Midgard Exposition",
+      "description": "Technology Rep'e 20 Mole Whisker ve 5 Rusty Screw getir.",
+      "goal": ""
+    },
+    "70133": {
+      "title": "Rune Midgard Exposition",
+      "description": "Rare Gem Exhibit'teki Head Gemologist ile konus.",
+      "goal": ""
+    },
+    "70134": {
+      "title": "Rune Midgard Exposition",
+      "description": "Head Gemologist'e 1 Ruby, 1 Sapphire ve 1 Emerald getir.",
+      "goal": ""
+    },
+    "70135": {
+      "title": "Rune Midgard Exposition",
+      "description": "Culturetorium'dan bir lens al.",
+      "goal": ""
+    },
+    "70136": {
+      "title": "Rune Midgard Exposition",
+      "description": "Bazaar'daki camera seller ile konus.",
+      "goal": ""
+    },
+    "70137": {
+      "title": "Rune Midgard Exposition",
+      "description": "Lens'i Culture Rep'e gotur.",
+      "goal": ""
+    },
+    "70138": {
+      "title": "Rune Midgard Exposition",
+      "description": "Device'i Expo Representative'e gotur.",
+      "goal": ""
+    },
+    "70139": {
+      "title": "Rune Midgard Exposition",
+      "description": "",
+      "goal": ""
+    },
+    "70140": {
+      "title": "Rune Midgard Exposition",
+      "description": "Astral Rejector device'i Cultist Lieutenant uzerinde kullan.",
+      "goal": ""
+    },
+    "70141": {
+      "title": "Rune Midgard Exposition",
+      "description": "Bir party kur ve Castle dungeon'a gir.",
+      "goal": ""
+    },
+    "70142": {
+      "title": "Rune Midgard Exposition",
+      "description": "Timer bittikten sonra Cultist Basement'e tekrar girebilirsin.",
+      "goal": ""
+    },
+    "70143": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Tesco ile konusmana devam et.",
+      "goal": ""
+    },
+    "70144": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Einbroch'taki Tesco's Assistant ile konus.",
+      "goal": ""
+    },
+    "70145": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Tesco's Assistant ile konusmana devam et.",
+      "goal": ""
+    },
+    "70146": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Tesco's Assistant'a 30 Large Jellopy, 20 Iron Ore ve 5 Iron getir.",
+      "goal": ""
+    },
+    "70147": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Battery sarj oldu. Tesco's Assistant ile konus.",
+      "goal": ""
+    },
+    "70148": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Battery'yi Einbroch'un guneybatisindaki Control Panel'e gotur.",
+      "goal": ""
+    },
+    "70149": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Battery'yi topladin. Simdi Tesco's Assistant'a geri gotur.",
+      "goal": ""
+    },
+    "70150": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Battery'yi Tesco'ya gotur.",
+      "goal": ""
+    },
+    "70151": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Einbroch'un bati tarafindaki Tesco's Courier ile konus.",
+      "goal": ""
+    },
+    "70152": {
+      "title": "Rune Midgard Exposition: Class Quest",
+      "description": "Lighthalzen Field 2'de Flag Beacon 1'i ara.",
       "goal": ""
     }
   }
