@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.47.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7204 Bomi ilkbahar cicegi ve 7206-7210 Cheshire gunluk tasima gorevleri dahil",
+    "version": "6.48.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7211-7213 Foggy Forest, Loki ve Niddhog Guardian ile 7214-7222 Eden Comodo ve Glast Heim ileri seviye egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7467,6 +7467,66 @@
       "title": "Gunluk Teslimat",
       "description": "Cheshire Bradium kutusunu bekliyor. Bugunun malzemelerini Bifrost'ta bekleyen Cheshire'a gotur.",
       "goal": "Bugunun teslimatini Cheshire'a gotur"
+    },
+    "7211": {
+      "title": "Sisli Ormani Kesfet",
+      "description": "Foggy Forest'i kesfet. Orman seni hatirladigi icin zorla yeniden girmeye calisirsan seni reddedebilir.",
+      "goal": "Foggy Forest'i kesfet"
+    },
+    "7212": {
+      "title": "Loki'yi Bulmak",
+      "description": "Ormanda tesadufen Loki adinda biriyle karsilastin. Mor sacli Jarani adinda birini ariyor. Onu bulursan Loki'ye haber ver.",
+      "goal": "Loki'nin aradigi kisiyi bul"
+    },
+    "7213": {
+      "title": "Gezgin Koruyucu",
+      "description": "Loki'nin aradigi kisinin sisin icinde amacsizca dolasan Niddhog Guardian oldugunu ogrendin. Ormandan ciktiktan sonra Mora Village'da bulusmaya karar verdiniz.",
+      "goal": "Mora Village'da bulus"
+    },
+    "7214": {
+      "title": "Comodo'da Ileri Seviye Egitim",
+      "description": "Comodo'nun kuzeyindeki magarayi bul ve oradaki Romeo ile konus.",
+      "goal": "Comodo'da Romeo'yu bul"
+    },
+    "7215": {
+      "title": "Stalactic Golem Avi",
+      "description": "Comodo'nun kuzeyindeki magarada iri Stalactic Golemler var. 3 tanesini avla.",
+      "goal": "3 Stalactic Golem avla"
+    },
+    "7216": {
+      "title": "Daha Fazla Golem Avi",
+      "description": "Kendini kanitladin. Yolcularin magaradan guvenle gecebilmesi icin 10 Stalactic Golem daha avla, sonra Comodo Cave'in kuzeyindeki alanda bekleyen Romeo'ya rapor ver.",
+      "goal": "10 Stalactic Golem avla"
+    },
+    "7217": {
+      "title": "Saha Ganimetleri",
+      "description": "Instructor Romeo, Comodo Cave'in kuzeyindeki alanda Wootan ve Dryad avlayarak 5 Shoulder Protector ve 7 Sharp Leaf getirmeni istedi.",
+      "goal": "7 Sharp Leaf ve 5 Shoulder Protector getir"
+    },
+    "7218": {
+      "title": "Instructor Ur'a Rapor Ver",
+      "description": "Step 1 icin gorevlerin simdilik tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
+      "goal": "Instructor Ur'a rapor ver"
+    },
+    "7219": {
+      "title": "Glast Heim'da Ileri Seviye Egitim",
+      "description": "Geffen yakinlarindaki Glast Heim undead ve ghost canavarlarla dolu. Glast Heim'daki Johan'i bul.",
+      "goal": "Glast Heim'da Johan'i bul"
+    },
+    "7220": {
+      "title": "Wraith Avi",
+      "description": "Abbey'i temizlemeye yardim etmek icin icerideki Wraith'leri avla.",
+      "goal": "20 Wraith avla"
+    },
+    "7221": {
+      "title": "Evil Druid Avi",
+      "description": "Abbey'deki diger sorun Evil Druidler. Abbey icinde 10 Evil Druid avla ve Johan'a don.",
+      "goal": "10 Evil Druid avla"
+    },
+    "7222": {
+      "title": "Instructor Ur'a Rapor Ver",
+      "description": "Glast Heim'daki avin Abbey'nin temizlenmesine yardim etti. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
+      "goal": "Instructor Ur'a rapor ver"
     }
   }
 }
