@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.01.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 12057-12131 Lab ve Tower kisitlari, 41-55 hunting, Royal Guard-Sorcerer Job Change ve New World Hunting-Supply Dept bloklarindan 60 pending kayit dahil",
+    "version": "7.02.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 12132-12191 El Dicastes Supply-Transport istekleri, cooldown kayitlari ve Midgard arastirma dokumanlarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -15482,6 +15482,306 @@
       "title": "Insaat Icin Temel Malzeme",
       "description": "Donemsel building repair icin Centipede ve Centipede Larva'dan 13 Solid Shell gerekiyor. 13 Solid Shell topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
       "goal": "13 Solid Shell topla"
+    },
+    "12132": {
+      "title": "Insaat Icin Temel Malzeme 2",
+      "description": "Donemsel building repair icin Nepenthes'ten 16 Strong Vine gerekiyor. Bu temel bir onarim malzemesi. 16 Strong Vine topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "16 Strong Vine topla"
+    },
+    "12133": {
+      "title": "Dekorasyon Hazirligi",
+      "description": "Guard'lar dekorasyon icin cok sayida Sharp Leaf istiyor. 26 Sharp Leaf topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "26 Sharp Leaf topla"
+    },
+    "12134": {
+      "title": "Pratik Kap",
+      "description": "Pub owner basit ve hemen kullanilabilecek genis yaprak benzeri bir kap istiyor. 11 Great Leaf topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "11 Great Leaf topla"
+    },
+    "12135": {
+      "title": "Ilac Yetmiyor",
+      "description": "Mine'daki Nepenthes saldirilari icin medicine yapmak gerekiyor. 16 Brown Root topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "16 Brown Root topla"
+    },
+    "12136": {
+      "title": "Bal Hirsizi",
+      "description": "Pub owner'in Honey ve fruit stogu tukendi. Onu sakinlestirmek icin 2 Honey topla ve 23 saat icinde Supply Dept. 2 Manager'a rapor ver.",
+      "goal": "2 Honey topla"
+    },
+    "12137": {
+      "title": "Deney Araclari",
+      "description": "Industrial Research Center Bradium refining deneyleri icin malzeme ariyor. 4 Glass Tube topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "4 Glass Tube topla"
+    },
+    "12138": {
+      "title": "Guzel Hediye Ornekleri",
+      "description": "Pub owner duzenli Sapha musterileri icin Midgard'dan 5 Bouquet istiyor. 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "5 Bouquet topla"
+    },
+    "12139": {
+      "title": "Zevke Saygi!",
+      "description": "High Minister Midgard urunu Witherless Rose istiyor. 1 Witherless Rose topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "1 Witherless Rose topla"
+    },
+    "12140": {
+      "title": "Duzenli Musterilere Nezaket",
+      "description": "Pub owner duzenli musteriler icin 15 saglam beyaz China istiyor. 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "15 China topla"
+    },
+    "12141": {
+      "title": "Ozel Paket",
+      "description": "Midgard'daki ince iscilikli yuvarlak Glass Bead'lerden 10 tane getir ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "10 Glass Bead topla"
+    },
+    "12142": {
+      "title": "Tehlikeli Istek",
+      "description": "High Minister Midgard'dan 15 Puppet istiyor. 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "15 Puppet topla"
+    },
+    "12143": {
+      "title": "Garip Moda",
+      "description": "Midgard'dan Bill of Birds ile yapilan muzik aksesuarlari moda oldu. 50 Bill of Birds topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "50 Bill of Birds topla"
+    },
+    "12144": {
+      "title": "Bilinmeyen Kullanim",
+      "description": "Pub owner mekani Clam Shell ile dekore etmek istiyor. 50 Clam Shell topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "50 Clam Shell topla"
+    },
+    "12145": {
+      "title": "Diger Dunya Mutfagi",
+      "description": "Pub owner yeni yemegi icin 20 Crab Shell istiyor. 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "20 Crab Shell topla"
+    },
+    "12146": {
+      "title": "Catlaklari Doldur",
+      "description": "Scell building repair icin kullanisli. 30 Scell topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "30 Scell topla"
+    },
+    "12147": {
+      "title": "Yapistirici Malzeme",
+      "description": "Garlet building maintenance icin onemli bir malzeme. 40 Garlet topla ve 23 saat icinde Transport Dept. 1 Manager'a rapor ver.",
+      "goal": "40 Garlet topla"
+    },
+    "12148": {
+      "title": "Tatacho Avi Icin Yem",
+      "description": "Tatacho'lari cezbetmek icin Monster's Feed kullaniliyor. 100 Monster's Feed topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "100 Monster's Feed topla"
+    },
+    "12149": {
+      "title": "Kilic Ustaligi Pratigi",
+      "description": "Pub owner yemek denemeleri icin 100 Apple istiyor. 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "100 Apple topla"
+    },
+    "12150": {
+      "title": "Guzel Kirmizi Sebze",
+      "description": "Pub owner renkli yemekler icin 100 Carrot istiyor. 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "100 Carrot topla"
+    },
+    "12151": {
+      "title": "Pub Owner'in Inadi",
+      "description": "Pub'daki patlamadan sonra Pumpkin kalmadi. 100 Pumpkin topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "100 Pumpkin topla"
+    },
+    "12152": {
+      "title": "Ev Yemegi Tadi",
+      "description": "Pub owner cocukken yedigi Potato'lari ozlemis. 50 Potato topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "50 Potato topla"
+    },
+    "12153": {
+      "title": "Yakilinca Tehlikeli Bitki",
+      "description": "Pub owner Roasted Banana yapmak istiyor. 100 Banana topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "100 Banana topla"
+    },
+    "12154": {
+      "title": "Beklenmedik Sekilde Normal",
+      "description": "Pub owner bu kez sadece Meat istiyor. 50 Meat topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "50 Meat topla"
+    },
+    "12155": {
+      "title": "Gonulden Hediye",
+      "description": "Pub owner'in ladle'lari kirildi. Midgard'dan 20 Black Ladle getir ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "20 Black Ladle topla"
+    },
+    "12156": {
+      "title": "Kisisel Istaha Saygi!",
+      "description": "High Minister Midgard crystal'inden yapilmis mirror istiyor. 5 Crystal Mirror topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "5 Crystal Mirror topla"
+    },
+    "12157": {
+      "title": "Pub Owner'in Karari",
+      "description": "Pub owner ozel cocktail yapmak istiyor. 2 Pineapple topla ve 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "2 Pineapple topla"
+    },
+    "12158": {
+      "title": "Pub Owner'in Ofkesi",
+      "description": "El Dicastes'teki pub owner icin Galapago veya Grove'dan 2 Melon bul. 23 saat icinde Transport Dept. 2 Manager'a rapor ver.",
+      "goal": "2 Melon topla"
+    },
+    "12159": {
+      "title": "Laponte Gorev Kaydi",
+      "description": "Yakinda Laponte'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12160": {
+      "title": "Kalipo Gorev Kaydi",
+      "description": "Yakinda Kalipo'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12161": {
+      "title": "Pura Gorev Kaydi",
+      "description": "Yakinda Pura'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12162": {
+      "title": "Tragis Gorev Kaydi",
+      "description": "Yakinda Tragis'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12163": {
+      "title": "Calyon Gorev Kaydi",
+      "description": "Yakinda Calyon'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12164": {
+      "title": "Moltuka Gorev Kaydi",
+      "description": "Yakinda Moltuka'dan bir gorev aldin. Yeni gorev almadan once 23 saat bekle. El Dicastes merkezine yakin bekliyor.",
+      "goal": "Yeni gorev almak icin surenin dolmasini bekle"
+    },
+    "12165": {
+      "title": "Bas Donmesi",
+      "description": "Surekli guclu paper kokusu basini donduruyor. Bu belgeleri yeniden okumadan once birkac saat bekle.",
+      "goal": "Surenin dolmasini bekle"
+    },
+    "12166": {
+      "title": "Tree Root Dokumani",
+      "description": "Human'lar bunu firewood veya construction material olarak kullaniyor. Midgard ormanlarinda yaygin bulunur.",
+      "goal": "pay_fild03 144 95 yakinlari"
+    },
+    "12167": {
+      "title": "Reptile Tongue Dokumani",
+      "description": "Midgard desert bolgesinde yasayan monster'in dili. Kurutulduktan sonra medicine olarak kullanilir.",
+      "goal": "prt_fild09 371 255 yakinlari"
+    },
+    "12168": {
+      "title": "Scorpion Tail Dokumani",
+      "description": "Desert'ta yasayan poisonous yaratigin kuyrugu. Saldirisi human icin olumcul olabilir.",
+      "goal": "prt_fild09 352 241 yakinlari"
+    },
+    "12169": {
+      "title": "Stem Dokumani",
+      "description": "Midgard bitkileri food ve medicine icin kullanilir; bazilari poisonous olabilir.",
+      "goal": "pay_fild02 177 108 yakinlari"
+    },
+    "12170": {
+      "title": "Pointed Scale Dokumani",
+      "description": "Tumsekli bir life form'dan gelen stem. Kullanim amaci bilinmedigi icin arastirma gerekiyor.",
+      "goal": "pay_fild02 105 113 yakinlari"
+    },
+    "12171": {
+      "title": "Resin Dokumani",
+      "description": "Yasli bir agactan toplanip katilastirilmis sap. Human dunyasinda cok degerli.",
+      "goal": "pay_fild01 152 171 yakinlari"
+    },
+    "12172": {
+      "title": "Spawn Dokumani",
+      "description": "Sicak bolgelerde yasayan amphibian'in yumurtasi. Manuk'un soguk bolgelerinde cikip cikamayacagi bilinmiyor.",
+      "goal": "gef_fild01 104 111 yakinlari"
+    },
+    "12173": {
+      "title": "Jellopy Dokumani",
+      "description": "Manuk'ta bilinmeyen ama Midgard genelinde bulunan madde. Construction material olarak kullanimi arastirilmali.",
+      "goal": "prt_fild08 299 332 yakinlari"
+    },
+    "12174": {
+      "title": "Fish Tail Dokumani",
+      "description": "Human'lar fish denen eti yer. Yabanci adventurer'lar icin onemli food supply olabilir.",
+      "goal": "izlude 132 136 yakinlari"
+    },
+    "12175": {
+      "title": "Worm Peeling Dokumani",
+      "description": "Bazi Worm Peeling'lerin degerli oldugu soyleniyor. Human deger olcusune gore arastirma gerekiyor.",
+      "goal": "prt_fild05 303 169 yakinlari"
+    },
+    "12176": {
+      "title": "Gill Dokumani",
+      "description": "Midgard'da sea'de yasayan ve gill ile nefes alan yaratiklar var. Ecology arastirmasi yararli olacak.",
+      "goal": "iz_dun03 155 165 yakinlari"
+    },
+    "12177": {
+      "title": "Tooth of Bat Dokumani",
+      "description": "Manuk'ta bilinmeyen nocturnal bir yaratigin izi. Dis boyutuna gore guclu bir yaratik degil.",
+      "goal": "mjo_dun01 222 226 yakinlari"
+    },
+    "12178": {
+      "title": "Fluff Dokumani",
+      "description": "Midgard yaratiklarinin bircogu yumusak hair ile kapli. Hair soguga karsi iyi koruma saglayabilir.",
+      "goal": "prt_fild06 182 290 yakinlari"
+    },
+    "12179": {
+      "title": "Chrysalis Dokumani",
+      "description": "Canli ve icinde ne oldugu bilinmeyen buyuk insect kesesi. Life structure benzersiz ve arastirmaya deger.",
+      "goal": "prt_fild06 127 85 yakinlari"
+    },
+    "12180": {
+      "title": "Feather of Birds Dokumani",
+      "description": "Midgard genelinde bulunan bird feather. Dekoratif aksesuar veya writing tool olarak kullanilabilir.",
+      "goal": "moc_fild07 201 360 yakinlari"
+    },
+    "12181": {
+      "title": "Talon Dokumani",
+      "description": "Delik acmak veya basit aksesuar yapmak icin uygun sivri talon. Manuk'taki buyuk yaratiklarin nail'leriyle uyumlu.^",
+      "goal": "moc_fild12 116 122 yakinlari"
+    },
+    "12182": {
+      "title": "Sticky Webfoot Dokumani",
+      "description": "Midgard amphibian'larinda bulunan garip body structure. Ocean life'a uyum icin evrimlesmis.",
+      "goal": "prt_fild04 315 245 yakinlari"
+    },
+    "12183": {
+      "title": "Animal Skin Dokumani",
+      "description": "Bir mammal'dan gelen leather. Sicak, yumusak ve bircok sekilde kullanilabilir.",
+      "goal": "mjolnir_08 108 99 yakinlari"
+    },
+    "12184": {
+      "title": "Wolf Claw Dokumani",
+      "description": "Wolf denen yaratigin claw'u. Kullanim amaci bilinmiyor ama Sapha'lar ilgi gosteriyor.",
+      "goal": "moc_fild03 175 201 yakinlari"
+    },
+    "12185": {
+      "title": "Mushroom Spore Dokumani",
+      "description": "Midgard genelinde bulunan mushroom spore'lari. Biraz arastirmayla burada yetistirilebilir.",
+      "goal": "pay_fild08 188 153 yakinlari"
+    },
+    "12186": {
+      "title": "Orc's Fang Dokumani",
+      "description": "Ormanlarda yasayan green-skinned monster'in fang'i. Human'lara dusman; eskiden iki irk dostmus.",
+      "goal": "gef_fild03 251 109 yakinlari"
+    },
+    "12187": {
+      "title": "Evil Horn Dokumani",
+      "description": "Holy olmayan bolgelerde ortaya cikan Evil Horn'lardan yapilan item. Degerli ama pratik gorunmuyor.",
+      "goal": "c_tower2 170 9 yakinlari"
+    },
+    "12188": {
+      "title": "Powder of Butterfly Dokumani",
+      "description": "Midgard'daki winged insect'lerin powder'i. Bazi human'lar makeup veya medicine icin kullaniyor.",
+      "goal": "gef_fild05 111 96 yakinlari"
+    },
+    "12189": {
+      "title": "Bill of Birds Dokumani",
+      "description": "Delik acmak veya basit aksesuar yapmak icin uygun sivri bill. Bird claw'a benziyor.",
+      "goal": "moc_fild11 237 273 yakinlari"
+    },
+    "12190": {
+      "title": "Snake Scale Dokumani",
+      "description": "Bacaksiz hareket eden reptile'in scale'leri. Shed edilip basit craftwork icin kullaniliyor.",
+      "goal": "pay_fild06 306 233 yakinlari"
+    },
+    "12191": {
+      "title": "Insect Feeler Dokumani",
+      "description": "Hassas sinirlere sahip insect'in feeler'i. Manuk yaratiklarindan farkli yapisi nedeniyle arastirma konusu.",
+      "goal": "pay_fild07 126 49 yakinlari"
     }
   }
 }
