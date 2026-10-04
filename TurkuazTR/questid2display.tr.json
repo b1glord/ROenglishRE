@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.92.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 10066-11001 United Midgard Alliance, Iromo, Mechanic Job Change, Eden Group hunting ve Odin Shrine bloklarindan 60 pending kayit dahil",
+    "version": "6.93.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11002-11073 Odin Shrine, Morriphen, Juperos, Zabaroo, Turtle Island, Meet the Dead, Herb Medicine ve Poison King bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -12782,6 +12782,306 @@
       "title": "Odin Shrine Incelemesi",
       "description": "Ilk gorevin shrine'dan ^3355FF5 Rune of the Darkness^000000 getirmek. Endiselenme, emeginin karsiligini alacaksin.",
       "goal": "Alex'e 5 Rune of Darkness getir"
+    },
+    "11002": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Alex, Runes of Darkness'i alirken gri sacli kadin hakkinda mirmirlaniyor.",
+      "goal": "Onunla konusmali miyim?"
+    },
+    "11003": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Once shrine'a git ve kendi gozlerinle bolgeyi incele. Boatman ile konus, seni oraya goturecek.",
+      "goal": "Inceledikten sonra Laura ile konus"
+    },
+    "11004": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Odin Shrine'dan ^3355FF5 Runes of the Darkness^000000 getir.",
+      "goal": "Laura'ya 5 Runes of Darkness getir"
+    },
+    "11005": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Ilk gorevin tamamlandi. Yardim edilecek baska bir sey var mi?",
+      "goal": ""
+    },
+    "11006": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Laura, diger odadaki kisilerin ne yaptigini merak ediyor.",
+      "goal": "Alex'in konusmasini gizlice dinle ve Laura'ya geri don"
+    },
+    "11007": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Ic adayi kontrol et ve neler bulabilecegine bak.",
+      "goal": "Iki baglantili ada uzerine kurulu Odin Shrine'in ic adasini incele"
+    },
+    "11008": {
+      "title": "Odin Shrine Incelemesi",
+      "description": "Senden kisisel bir ricam var. Bu dosyayi Morocc'a goturur musun?",
+      "goal": "Dosyayi Morocc South Gate'teki Ashe'in yoldasina gotur"
+    },
+    "11009": {
+      "title": "Morriphen'in Istegi",
+      "description": "Morriphen kan oksuruyor ve durumu cok ciddi. Hugel'deki evine git ve esi Siria'dan ilac al.",
+      "goal": "Hugel'deki Siria"
+    },
+    "11010": {
+      "title": "Ilaci Getir",
+      "description": "Ilacimiz yeni bitti. Lighthalzen'a git ve Morriphen'in arkadasi Dono'dan ilaci al.",
+      "goal": "Lighthalzen'daki Dono"
+    },
+    "11011": {
+      "title": "Iki Kisi Icin Ilac",
+      "description": "^3355FF5 Coal, 5 Brigan, 5 Cyfar, 1 Unripe Apple, 3 Detrimindexta, 20 Shell ve birer Red, Blue, Green, White, Yellow Herb^000000 bulmalisin.",
+      "goal": "Bunlari Dono'ya getir"
+    },
+    "11012": {
+      "title": "Makkie'yi Bul",
+      "description": "Bir sey eksik, ilac yapilamiyor. Karsidaki pub'da Makkie'yi bul ve ^ff0000Red Plant Stem Powder^000000 al.",
+      "goal": "Makkie"
+    },
+    "11013": {
+      "title": "Red Plant Stem Powder",
+      "description": "Morriphen ile Dono'nun eskiden Rekenber'de calistigini ogrendin. Once Red Plant Stem Powder'i Dono'ya gotur.",
+      "goal": "Dono"
+    },
+    "11014": {
+      "title": "Arastirmacinin Ilaci",
+      "description": "Ilac sonunda hazir! Hemen Morriphen'e gotur.",
+      "goal": "Einbroch'taki Morriphen"
+    },
+    "11015": {
+      "title": "Siria'nin Ilaci",
+      "description": "Siria da ilacsiz zayifliyor. Hemen Hugel'e don ve kalan ilaci ona ver.",
+      "goal": "Hugel'deki Siria"
+    },
+    "11016": {
+      "title": "Morriphen'in Hikayesi",
+      "description": "Neyse ki Siria iyilesti. Morriphen'e geri don ve Siria'nin iyi oldugunu soyle.",
+      "goal": "Einbroch'taki Morriphen"
+    },
+    "11017": {
+      "title": "Juperos'u Arastir",
+      "description": "Juperos'ta eski belgeler bulursan bana getirir misin?",
+      "goal": "Juperos'tan arastirmaya yarayabilecek bir sey getir"
+    },
+    "11018": {
+      "title": "Juperos'u Arastir",
+      "description": "Bronze Statue'nun cubugunda garip bir oyma var.",
+      "goal": "Juno Library'deki Feyruz'a git ve yazit hakkinda bilgi ver"
+    },
+    "11019": {
+      "title": "Juperos'u Arastir",
+      "description": "Genelde \"vain and extravagant one\" tanimi, eski cagda yasadigi soylenen deli bilim insanini anlatir. Bu dogruysa tezim degisebilir.",
+      "goal": "Juperos'tan arastirmaya yarayabilecek bir sey getir"
+    },
+    "11020": {
+      "title": "Juperos'u Arastir",
+      "description": "Fayruz, Juperos'tan getirdigin Transparent Plate'i aldi ve Juperos hakkinda hikayeler anlatmaya basladi.",
+      "goal": "Baska bir Transparent Plate olup olmadigini bul"
+    },
+    "11021": {
+      "title": "Juperos'u Arastir",
+      "description": "Fayruz, Juperos'ta buldugun 2. Transparent Plate'i aldi ve Juperos hakkinda hikayeler anlatti.",
+      "goal": "Baska bir Transparent Plate olup olmadigini bul"
+    },
+    "11022": {
+      "title": "Juperos'u Arastir",
+      "description": "Fayruz, Juperos'ta buldugun 3. Transparent Plate'i aldi ve Juperos hakkinda hikayeler anlatti.",
+      "goal": "Baska bir Transparent Plate olup olmadigini bul"
+    },
+    "11023": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 1",
+      "description": "Asbar mi? Tool Shop'un icinde. Cilgin bakisli adami bul, kacirmazsin.",
+      "goal": "Asbar'i bul"
+    },
+    "11024": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 2",
+      "description": "5 Maneater Root, 2 Glacial Heart ve 5 Steel getir. Cok gec kalirsan yardim etmem.",
+      "goal": "Absar'a ihtiyaci olan malzemeleri getir"
+    },
+    "11025": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 3",
+      "description": "Asbar sana Tactile Extendable Clamp-Release Mechanism Watchamacallit verdi. Bunu Old Man Zabaroo'ya gotur.",
+      "goal": "Zabaroo'ya geri don"
+    },
+    "11026": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 4",
+      "description": "Topladigim taslari sehirdeki fabrikaya teslim eder misin? Airport ya da airship yakininda.",
+      "goal": "Taslari sehirdeki fabrikaya teslim et"
+    },
+    "11027": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 5",
+      "description": "Bu kayalari Bahed'e gotur. Gerisini o halleder.",
+      "goal": "Kayalari Bahed'e gotur"
+    },
+    "11028": {
+      "title": "Mr. Zabaroo'ya Yardim Et - 6",
+      "description": "Bu kayalara \"Hetarium\" deniyor ve Rekenber'e satiliyor. Zabaroo'ya selamimi ve emegi icin tesekkurumu ilet.",
+      "goal": "Zabaroo'ya geri don"
+    },
+    "11029": {
+      "title": "Turtle Island'a Git",
+      "description": "Orayi bulmak da gitmek de zor. Gercekten gitmek istiyorsan Alberta limaninin dogusundaki yasli ferryboatman'i bul.",
+      "goal": "Turtle Island'a nasil gidilecegini yasli ferryboatman'dan ogren"
+    },
+    "11030": {
+      "title": "Turtle Island'a Git",
+      "description": "Ipucu: ^FF3355- tur_dun01 X : 160 . Y : 81 -^000000",
+      "goal": "Skull key'i aldin. Ipuclarini takip et"
+    },
+    "11031": {
+      "title": "Turtle Island'a Git",
+      "description": "Ipucu: ^3355FF- tur_dun02 X : 132 . Y : 251 -^000000, koklerin altinda.",
+      "goal": "Roots key'i aldin. Ipuclarini takip et"
+    },
+    "11032": {
+      "title": "Turtle Island'a Git",
+      "description": "Burasi: ^3355FF- tur_dun01 X : 203 . Y : 155 -^000000, turtle stone'un altinda.",
+      "goal": "Turtle stone altinda uc kucuk delik buldun. Security key'i aldin. Ipuclarini takip et"
+    },
+    "11033": {
+      "title": "Turtle Island'a Git",
+      "description": "Git: ^FF3355- tur_dun02 X : 46 . Y : 125 -^000000, turtle yigininin icinde.",
+      "goal": "Turtle crystal yigininda gizli bir scroll buldun. Turtle Crystal key'i aldin. Ipuclarini takip et"
+    },
+    "11034": {
+      "title": "Turtle Island'a Git",
+      "description": "5 adim doguya, 30 adim guneye git ve turtle pillar'in etrafinda 5 adim ilerle.",
+      "goal": "Crystal plate kenarinda uzun bir key buldun. Turtle Pillar key'i aldin. Ipuclarini takip et"
+    },
+    "11035": {
+      "title": "Turtle Island'a Git",
+      "description": "- Ikinci asamanin isigi -^FF3355B2 . X : 75 . Y : 249^000000",
+      "goal": "Kirmizi boncugu Security key'deki uc kucuk delikten birine yerlestirdin. 2. asamanin isigini bul"
+    },
+    "11036": {
+      "title": "Turtle Island'a Git",
+      "description": "- Ucuncu asamanin isigi -^FF3355B2 . X : 118 . Y : 233^000000",
+      "goal": "Sari boncugu Security key'deki uc kucuk delikten birine yerlestirdin. 3. asamanin isigini bul"
+    },
+    "11037": {
+      "title": "Turtle Island'a Git",
+      "description": "- Serenity Yildizi -^FF3355B4 . X : 113 . Y : 178^000000",
+      "goal": "Mavi boncugu Security key'deki uc kucuk delikten birine yerlestirdin. Serenity yildizini bul"
+    },
+    "11038": {
+      "title": "Olulerle Bulus",
+      "description": "Elly'ye bir ay once olanlarin tamamen benim hatam oldugunu soyle.",
+      "goal": "Oluler sehrine git ve Erious'un mesajini Elly'ye ilet"
+    },
+    "11039": {
+      "title": "Olulerle Bulus",
+      "description": "Orada gorusmen gereken biri var. Oluler sehri buranin kuzeyinde.",
+      "goal": "Feylin adli adami bul. Billik'in seni gonderdigini soyle ve ona bir Rose getir"
+    },
+    "11040": {
+      "title": "Olulerle Bulus",
+      "description": "Olen arkadasinla gorusmek icin geldiysen yanlis kisiye geldin. Geri don.",
+      "goal": "Simdi vazgecme. Feylin ile konusmaya devam et"
+    },
+    "11041": {
+      "title": "Olulerle Bulus",
+      "description": "Olulerle iletisim kurmanin mumkun oldugunu kim soyledi bilmiyorum. Ben boyle bir sey soylemezdim; bunlari konusmak bile tabu.",
+      "goal": "Simdi vazgecme. Feylin ile konusmaya devam et"
+    },
+    "11042": {
+      "title": "Olulerle Bulus",
+      "description": "Elly'yi cagirma girisimi basarisiz oldu.",
+      "goal": "Yine de Erious'a geri don"
+    },
+    "11043": {
+      "title": "Olulerle Bulus",
+      "description": "Ona bu kutuyu ver ve beni unutmasini soyle. Hayatinin kalanini baskasiyla mutlu yasamali.",
+      "goal": "Erious'a don ve mesaji ile kutuyu teslim et"
+    },
+    "11044": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Sehirdeki Tool Shop'a git ve ihtiyacim olan ilaci getir. Seni benim gonderdigimi soylersen Master anlar.",
+      "goal": "Tool Shop'tan ilaci al"
+    },
+    "11045": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Doktor icin mi geldin? Yine ilaci bitmis olmali. Karsidaki binadaki depoyu kontrol et.",
+      "goal": "Depodaki Jiang Xiayou'dan gerekenleri al"
+    },
+    "11046": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "City Hall'dan resmi belge almam gerekiyor ama depodan ayrilamiyorum. Doguya git ve ^ff0000Residence Transfer Application^000000 belgesini al.",
+      "goal": "Jiang Xiayou icin belgeyi al"
+    },
+    "11047": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "City Hall'dan resmi belge almam gerekiyor ama depodan ayrilamiyorum. Doguya git ve ^ff0000Summer SAT Class Application^000000 belgesini al.",
+      "goal": "Jiang Xiayou icin belgeyi al"
+    },
+    "11048": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "City Hall'dan resmi belge almam gerekiyor ama depodan ayrilamiyorum. Doguya git ve ^ff0000Sandy Dust Phenomenon Report^000000 belgesini al.",
+      "goal": "Jiang Xiayou icin belgeyi al"
+    },
+    "11049": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "City Hall'dan resmi belge almam gerekiyor ama depodan ayrilamiyorum. Doguya git ve ^ff0000Communication Proposal^000000 belgesini al.",
+      "goal": "Jiang Xiayou icin belgeyi al"
+    },
+    "11050": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Aradigin ilaclar buralarda olabilir. Etrafi ara.",
+      "goal": "Etrafi ara ve ilaci bul"
+    },
+    "11051": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Ust kata cikinca baska bir officer istedigin belgeyi verecek.",
+      "goal": "Ust kata cik ve \"Residence Transfer Application\" belgesini al"
+    },
+    "11052": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Ust kata cikinca baska bir officer istedigin belgeyi verecek.",
+      "goal": "Ust kata cik ve \"Summer SAT Class Application\" belgesini al"
+    },
+    "11053": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Ust kata cikinca baska bir officer istedigin belgeyi verecek.",
+      "goal": "Ust kata cik ve \"Sandy Dust Phenomenon Report\" belgesini al"
+    },
+    "11054": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Ust kata cikinca baska bir officer istedigin belgeyi verecek.",
+      "goal": "Ust kata cik ve \"Communication Proposal\" belgesini al"
+    },
+    "11055": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "Birkac gun once biri ayni belgeyi istedi, bu nedenle kolayca buldum. Umarim isine yarar.",
+      "goal": "Belge bulundu! Jiang Xiayou'ya geri don"
+    },
+    "11056": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "",
+      "goal": "Ilaci aldin. Doktora geri don"
+    },
+    "11057": {
+      "title": "Bitkisel Ilac - Doktora Yardim",
+      "description": "^3355FF2 Leopard Claw^000000, ^3355FF10 Solid Peach^000000, ^3355FF5 Poisonous Toad Skin^000000, ^3355FF20 Brown Root^000000, ^3355FF10 Sprout^000000 ve ^3355FF5 Honey Pot^000000 topla.",
+      "goal": "Hua Tuo'nun istedigi malzemeleri getir"
+    },
+    "11070": {
+      "title": "Poison King",
+      "description": "Bunu neden ogrenmek istiyorsun? Ogretmek istesem bile her seyi hatirlayamayacak kadar yaslandim. Son ogrencim ^0000FF'Song Zhi Du'^000000'yu bul; sana yardimci olabilir.",
+      "goal": "Doktorun ofisinde calisan Song Zhi Du'yu bul ve zehir kullanimi hakkinda sor"
+    },
+    "11071": {
+      "title": "Poison King",
+      "description": "Git, ne yapacaksan yap. Sadece hayal kirikligina ugradim.",
+      "goal": "Song Zhi Du kizgin gorunuyor. Ona bir sey getirerek moralini duzelt"
+    },
+    "11072": {
+      "title": "Poison King",
+      "description": "Gercekten uzgunsan intikamimi almama yardim et. ^0000FF4 Bee Sting, 10 Venom Canine, 10 Empty Potion, 30 Green Potion^000000 getir.",
+      "goal": "Istedigi malzemelerle Song Zhi Du'ya geri don"
+    },
+    "11073": {
+      "title": "Poison King",
+      "description": "Geriye sadece bu zehri hazirlamak ve Louyang lorduna ictirmek kaldi.",
+      "goal": "Onunla tekrar konus, hikayesini dinle ve Song Zhi Du'nun ricasini yerine getir"
     }
   }
 }
