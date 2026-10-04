@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.37.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62755-62817 Lighthalzen-Hugel-El Dicastes-Rune Midgards-Geffen-Prontera Bounty Board, The Peco's Roar ve Jumping Janeway bloklarindan 60 pending kayit dahil",
+    "version": "7.38.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62818-62904 Prontera-Geffen-Mora-Aldebaran Bounty Board, 2015 Talk Like a Pirate, Parcel Service, Deviling's Love ve Happy Egg Festival bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -26282,6 +26282,306 @@
       "title": "Bounty Board: Ambernite",
       "description": "150 Ambernite monster'i avla ve Prontera'daki Bounty Board'a don.",
       "goal": ""
+    },
+    "62818": {
+      "title": "Bounty Board: Muka",
+      "description": "150 Muka monster'i avla ve Prontera'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62819": {
+      "title": "Bounty Board: Magnolia",
+      "description": "150 Magnolia monster'i avla ve Prontera'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62820": {
+      "title": "Bounty Board: Skel Worker",
+      "description": "150 Skel Worker monster'i avla ve Geffen'deki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62821": {
+      "title": "Bounty Board: Miming",
+      "description": "150 Miming monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62822": {
+      "title": "Bounty Board: Little Fatum",
+      "description": "150 Little Fatum monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62823": {
+      "title": "Bounty Board: Cenere",
+      "description": "150 Cenere monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62824": {
+      "title": "Bounty Board: Menblatt",
+      "description": "150 Menblatt monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62825": {
+      "title": "Bounty Board: Petal",
+      "description": "150 Petal monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62826": {
+      "title": "Bounty Board: Angra Mantis",
+      "description": "150 Angra Mantis monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62827": {
+      "title": "Bounty Board: Antique Book",
+      "description": "150 Antique Book monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62828": {
+      "title": "Bounty Board: Yellow Lichtern",
+      "description": "150 Yellow Lichtern monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62829": {
+      "title": "Bounty Board: Blue Lichtern",
+      "description": "150 Blue Lichtern monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62830": {
+      "title": "Bounty Board: Red Lichtern",
+      "description": "150 Red Lichtern monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62831": {
+      "title": "Bounty Board: Green Lichtern",
+      "description": "150 Green Lichtern monster'i avla ve Mora'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62832": {
+      "title": "Toucan Avi",
+      "description": "Toucan monster'larini avla ve reward almak icin Eden Group'taki Gramps'e don.",
+      "goal": "400 Toucan monster avla"
+    },
+    "62833": {
+      "title": "Siorava Avi",
+      "description": "Siorava monster'larini avla ve reward almak icin Eden Group'taki Gramps'e don.",
+      "goal": "400 Siorava monster avla"
+    },
+    "62835": {
+      "title": "2015 Spotlight Juno",
+      "description": "Victoria Quest'ten bonus reward almak icin Juno Area'daki tum quest'leri tamamla.",
+      "goal": ""
+    },
+    "62836": {
+      "title": "Annie'nin Raffle'i",
+      "description": "Annie raffle toplama gorevinde ve susadigini soyluyor.",
+      "goal": "1 Milk"
+    },
+    "62854": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "2015 quest'ini baslattin. Bu flag, gelecek yil gorevi tekrar edebilmen icin tutulur.",
+      "goal": ""
+    },
+    "62855": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Ship guard'larinin odemesi hakkinda Captain Smith ile konus.",
+      "goal": ""
+    },
+    "62856": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Ship guard'larinin odemesi hakkinda Captain Jones ile konus.",
+      "goal": ""
+    },
+    "62857": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Ship guard'larinin odemesi hakkinda Captain Le Beou ile konus.",
+      "goal": ""
+    },
+    "62858": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Ship guard'larinin odemesi hakkinda Captain Threepwood ile konus.",
+      "goal": ""
+    },
+    "62859": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Emekli pirate Butterbeard'i bul.",
+      "goal": ""
+    },
+    "62860": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Pirate Captain Le Picard'in Crewmember'larini avla. Le Picard ve crew tamamlaninca reward icin E.A.C. Rep'e don.",
+      "goal": ""
+    },
+    "62861": {
+      "title": "2015 Korsan Gibi Konus Gunu",
+      "description": "Pirate Captain Le Picard'i yen. Le Picard ve crew tamamlaninca reward icin E.A.C. Rep'e don.",
+      "goal": ""
+    },
+    "62866": {
+      "title": "Parcel Reward Service",
+      "description": "Reward'un icin Dally Quen'i ziyaret et.",
+      "goal": ""
+    },
+    "62867": {
+      "title": "Parcel Service",
+      "description": "Delivery'ler arasinda 16 saat bekle.",
+      "goal": ""
+    },
+    "62868": {
+      "title": "Parcel Service: Victoria Qwest",
+      "description": "Comodo'da Victoria Qwest'i bul.",
+      "goal": ""
+    },
+    "62869": {
+      "title": "Parcel Service: R I Pete",
+      "description": "Niflheim'da R I Pete'i bul.",
+      "goal": ""
+    },
+    "62870": {
+      "title": "Parcel Service: Ice Cold Austin",
+      "description": "Lutie'de Ice Cold Austin'i bul.",
+      "goal": ""
+    },
+    "62871": {
+      "title": "Parcel Service: Ishmael",
+      "description": "Izlude'da Ishmael'i bul.",
+      "goal": ""
+    },
+    "62872": {
+      "title": "Parcel Service: Victoria Qwest",
+      "description": "Victoria icin 25 Mud Lump bul.",
+      "goal": ""
+    },
+    "62873": {
+      "title": "Parcel Service: Victoria Qwest",
+      "description": "Package'i B Rick and Mortah'a teslim et.",
+      "goal": ""
+    },
+    "62874": {
+      "title": "Parcel Service: R I Pete",
+      "description": "Slippers'i A M Live'a teslim et.",
+      "goal": ""
+    },
+    "62875": {
+      "title": "Parcel Service: Ice Cold Austin",
+      "description": "Veins'teki Austin'in arkadaslarina 15 Well Baked Cookie teslim et.",
+      "goal": ""
+    },
+    "62876": {
+      "title": "Parcel Service: Ishmael",
+      "description": "Amatsu'daki Jiro'ya 20 Fishtail teslim et.",
+      "goal": ""
+    },
+    "62877": {
+      "title": "Dally Quen Bonus Ticket",
+      "description": "Reward'un icin Dally Quen'i ziyaret et.",
+      "goal": ""
+    },
+    "62878": {
+      "title": "Deviling'in Aski",
+      "description": "Hikayesini dinlemek icin Deviling ile konus!",
+      "goal": ""
+    },
+    "62879": {
+      "title": "Deviling'in Aski",
+      "description": "Angeling ile konus ve ozellikle begendigi bir present olup olmadigini ogrenmeye calis!",
+      "goal": ""
+    },
+    "62880": {
+      "title": "Deviling'in Aski",
+      "description": "Angeling'in ne tur gift'leri sevebilecegini ogrenmek icin townspeople ile konus.",
+      "goal": ""
+    },
+    "62881": {
+      "title": "Deviling'in Aski",
+      "description": "Bulduklarini Deviling'e bildir. Hangi gift'i verecegine karar vermesine yardim et!",
+      "goal": ""
+    },
+    "62882": {
+      "title": "Deviling'in Aski",
+      "description": "Deviling'in duygularini gostermek icin Angeling'e chocolate box vermesine yardim et. Master Chocolatier Kevin'i bul!",
+      "goal": ""
+    },
+    "62883": {
+      "title": "Deviling'in Aski",
+      "description": "10 Candy ve 50 Apple topla. Chocolate box yapmak icin Master Chocolatier Kevin'e don.",
+      "goal": ""
+    },
+    "62884": {
+      "title": "Deviling'in Aski",
+      "description": "Deviling'in Angeling'e verecegi guzel bir bouquet hazirlamasina yardim et. Expert Florist Maya'yi bul!",
+      "goal": ""
+    },
+    "62885": {
+      "title": "Deviling'in Aski",
+      "description": "Bouquet yapmak icin 5 Illusion Flower ve 10 Love Flower topla. Expert Florist Maya'ya don.",
+      "goal": ""
+    },
+    "62886": {
+      "title": "Deviling'in Aski",
+      "description": "Deviling'in Angeling'e verecegi Valentine's Card'i hazirlamasina yardim et. Master Artist Bruno'yu bul!",
+      "goal": ""
+    },
+    "62887": {
+      "title": "Deviling'in Aski",
+      "description": "Card yapmak icin 5 Burning Heart ve 10 Slick Paper topla.",
+      "goal": ""
+    },
+    "62888": {
+      "title": "Deviling'in Aski",
+      "description": "Deviling'in Angeling ile konusmasina yardim et!",
+      "goal": ""
+    },
+    "62890": {
+      "title": "Bounty Board: Cursed Box",
+      "description": "Asagidaki Cursed Box monster'inden 150 tane avla ve Aldebaran'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62891": {
+      "title": "Bounty Board: Cursed Book",
+      "description": "Asagidaki Cursed Book monster'inden 150 tane avla ve Aldebaran'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62892": {
+      "title": "Bounty Board: Big Bell",
+      "description": "Asagidaki Big Bell monster'inden 150 tane avla ve Aldebaran'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62893": {
+      "title": "Bounty Board: Big Ben",
+      "description": "Asagidaki Big Ben monster'inden 150 tane avla ve Aldebaran'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62894": {
+      "title": "Bounty Board: Neo Punk",
+      "description": "Asagidaki Neo Punk monster'inden 150 tane avla ve Aldebaran'daki Bounty Board'a don.",
+      "goal": ""
+    },
+    "62899": {
+      "title": "Happy Egg Bul",
+      "description": "Happy Egg Festival basladi. 10 Happy Egg kirdiktan sonra festival member'a don.",
+      "goal": "10 Happy Egg bul"
+    },
+    "62900": {
+      "title": "Happy Egg Bul - Bekleme",
+      "description": "Festival item'i gunde bir kez alinabilir. Daha sonra tekrar ziyaret et.",
+      "goal": "04h Reset"
+    },
+    "62901": {
+      "title": "Happy Egg'i Tekrar Bul!",
+      "description": "Happy Egg Festival basladi. 10 Happy Egg kirdiktan sonra festival member'a don.",
+      "goal": "10 Happy Egg bul"
+    },
+    "62902": {
+      "title": "Festival Dekorasyonuna Yardim Et",
+      "description": "Festival'i dekore etmek icin Clover Poporing veya Clover Lunatic'ten 10 Happy Three Leaf Clover topla ve Deco Expert'e ver.",
+      "goal": "10 Happy Three Leaf Clover"
+    },
+    "62903": {
+      "title": "Festival Dekorasyonu - Bekleme",
+      "description": "Gunde tek is yapmak zaman kaybi. Midnight'tan sonra geri gel.",
+      "goal": "04h Reset"
+    },
+    "62904": {
+      "title": "Festival Dekorasyonuna Tekrar Yardim Et!",
+      "description": "Festival'i dekore etmek icin Clover Poporing veya Clover Lunatic'ten 10 Happy Three Leaf Clover topla ve Deco Expert'e ver.",
+      "goal": "10 Happy Three Leaf Clover"
     }
   }
 }
