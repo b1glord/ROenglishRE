@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.99.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11419-11600 Banquet, Parepele Vigilante, Jakk, Jakk's Cat ve Old Memories bloklarindan 60 pending kayit dahil",
+    "version": "7.00.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11601-12056 Old Memories, Maku-Digotz, Rekenber Secret Wing, Shuda-Annon, Sa-mhing Tiger ve Rogue-Assassin job quest bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -14882,6 +14882,306 @@
       "title": "Eski Anilar",
       "description": "Abandoned mine'in icine bakalim.",
       "goal": "Icari gir"
+    },
+    "11601": {
+      "title": "Eski Anilar",
+      "description": "Bir sonraki bolgeye giden yol acildi. Clana Nemieri'ye donup haberi ver ve Dien'in odasindan Dien'in aradigi esyayi alip geri gel.",
+      "goal": "Clana Nemieri'ye git"
+    },
+    "11602": {
+      "title": "Eski Anilar",
+      "description": "Dien'in odasindan Dien'in aradigi esyayi alip geri gel.",
+      "goal": "Dien'in Talisman'i"
+    },
+    "11603": {
+      "title": "Eski Anilar",
+      "description": "Dien'in Talisman'ini buldun. Dien'e geri don.",
+      "goal": "Dien'e geri don"
+    },
+    "12000": {
+      "title": "Eski Bir Arkadas",
+      "description": "Maku'nun eski arkadasini bul ve onunla konus.",
+      "goal": ""
+    },
+    "12001": {
+      "title": "Maku'nun Eski Arkadasi Digotz",
+      "description": "Maku'nun cocukluk arkadasi Digotz ile konustun. Maku'ya geri don ve onunla konus.",
+      "goal": "Maku"
+    },
+    "12002": {
+      "title": "Dostluk Habercisi",
+      "description": "Maku ile Digotz arasindaki eski dostluk icin aralarinda haberci ol.",
+      "goal": "Mesajlari iletmek icin gidip gel"
+    },
+    "12003": {
+      "title": "Digotz'un Mesaji",
+      "description": "Digotz'un mesajini Maku'ya ilet: \"Umutsuz herif! Hala inatci bir sersemsin! Bana en az 3 ogle yemegi borclusun! Ozur de cabasi! Ama senin ne dusundugunu kim umursar?! Sensiz cok mutluyum!\"",
+      "goal": "Maku"
+    },
+    "12004": {
+      "title": "Maku'nun Diger Arkadasi",
+      "description": "Sakinlestikten sonra Maku, arkadasi Benkaistein'in onu kavgalardan uzak tutmaya calistigini soyledi. Belki Digotz da Benkaistein'i taniyordur.",
+      "goal": "Digotz"
+    },
+    "12005": {
+      "title": "Benkaistein",
+      "description": "Digotz, Benkaistein'in Maku ile aralarindaki bu durum icin bir cevabi olabilecegini soyluyor. Cok kitap bulunan bir yerde calisiyor.",
+      "goal": "Benkaistein'in nerede oldugunu bul"
+    },
+    "12006": {
+      "title": "Benkaistein'in Kayip Esyasi",
+      "description": "Benkaistein'in kaybettigi seyi bulmasina yardim et ve ona geri getir.",
+      "goal": ""
+    },
+    "12007": {
+      "title": "Kazien",
+      "description": "Lighthalzen'daki Old Man, corporation binasinda Kazien adli adami bulup ona yardim edip edemeyecegini sormani istedi.",
+      "goal": "Kazien'i bul"
+    },
+    "12008": {
+      "title": "Researcher Garins",
+      "description": "Einbroch Laboratory'deki Garins'i ziyaret et ve siparisini aldigini dogrula. Kazien bunu gizli tutmani istedi, kime sorduguna dikkat et.",
+      "goal": "Einbroch'ta Garins'i bul"
+    },
+    "12009": {
+      "title": "Basarisiz Gorev",
+      "description": "Cok fazla bilgi verdigin icin Kazien'in gorevinde basarisiz oldun. Tekrar denersen sana bir sans daha verebilir.",
+      "goal": "Kazien"
+    },
+    "12010": {
+      "title": "Giris Yok",
+      "description": "Laboratory Guard'i gecmekte zorlaniyorsun. Bu isi tamamlayabilmek icin Kazien'e sorunu bildir.",
+      "goal": "Kazien"
+    },
+    "12011": {
+      "title": "Lyozien",
+      "description": "Uluslararasi ucuslar Airship'inde Lyozien adli adami bul. Onceki gibi gizli davran ve isi kimseye anlatma.",
+      "goal": "Lyozien"
+    },
+    "12012": {
+      "title": "Mr. Ahman ile Bulus",
+      "description": "Izlude Airport'ta Mr. Ahman ile bulusarak gorevi tamamla ve Lyozien'e geri don.",
+      "goal": "Mr. Ahman ile bulus"
+    },
+    "12013": {
+      "title": "Teslimat Tamamlandi",
+      "description": "Mr. Ahman ile konustuktan sonra teslimatin tamamlandigini Lyozien'e bildir.",
+      "goal": "Lyozien"
+    },
+    "12014": {
+      "title": "Daha Fazla Gorev",
+      "description": "Lyozien, kardesi Kazien'in sana baska bir isi olabilecegini soyluyor.",
+      "goal": "Kazien"
+    },
+    "12015": {
+      "title": "Ghalstein",
+      "description": "Ghalstein'in supheli bir konusmasina kulak misafiri oldun. Duyduklarin hakkinda daha fazla bilgi edinmeye calis.",
+      "goal": ""
+    },
+    "12016": {
+      "title": "Laboratory'ye Gizlice Gir",
+      "description": "Dogu slum bolgesinde kaybolan insanlari arastirarak gizli laboratory'ye siz ve Ghalstein'e kanit getir.",
+      "goal": ""
+    },
+    "12017": {
+      "title": "Uyelik Onaylandi",
+      "description": "Juno yakininda Gusharr'i bul. Siradaki gorevini anlatacak. Ghalstein ile calistigini kanitlamak icin Membership Card'i goster.",
+      "goal": ""
+    },
+    "12018": {
+      "title": "President ile Bulus",
+      "description": "Membership Card'ini President'in secretary'sine goster. President Weierstrass'i sadece 20:00-23:00 ve 11:00-14:00 PST saatlerinde ziyaret edebilirsin.",
+      "goal": ""
+    },
+    "12019": {
+      "title": "President'in Gorevi",
+      "description": "Ayrilmadan once file folder'i President'in secretary'si Ms. Hes O'Neil'e ver. Sonraki gorev icin Al De Baran'daki Kafra Headquarters'ta Benith ile bulus.",
+      "goal": ""
+    },
+    "12020": {
+      "title": "Secret Wing Uyesini Kurtar",
+      "description": "Einbroch ile Lighthalzen arasinda kirik bir kopru yakinindaki agent Jargeah'i bul. Yarali ve yardima ihtiyaci var; dusmandan once ulas.",
+      "goal": ""
+    },
+    "12021": {
+      "title": "Sealed File Folder",
+      "description": "Jargeah sana Sealed Folder verdi. Kafra Headquarters'taki Benith'e geri don ve rapor ver.",
+      "goal": ""
+    },
+    "12022": {
+      "title": "Sealed File Folder",
+      "description": "Sealed File Folder'i Lighthalzen'daki President Weierstrass'a teslim et.",
+      "goal": ""
+    },
+    "12023": {
+      "title": "Researcher Shinokas",
+      "description": "Siradaki gorevin Rekenber Corporation hakkinda bir sir bilen researcher Shinokas'i bulmak. Einbroch'ta goruldugu bildirildi.",
+      "goal": ""
+    },
+    "12024": {
+      "title": "Kafra Corporation Agent",
+      "description": "Lighthalzen field bolgesindeki Kafra Corporation Agent'i bul.",
+      "goal": ""
+    },
+    "12025": {
+      "title": "Rekenber'in Secret Archive'i",
+      "description": "Rekenber binalari icin verilen pass'i kullan ve gorevini anlatacak agent Lestin ile bulus.",
+      "goal": ""
+    },
+    "12026": {
+      "title": "Rekenber'in Secret Archive'i",
+      "description": "Guard'lar vardiya degistirirken Lestin'in pass'i ile Secret Archive'e gizlice gir. Pass'in arkasinda bir sey yaziyor. Bulabildigin kanitlari getir.",
+      "goal": ""
+    },
+    "12027": {
+      "title": "Rekenber'in Secret Archive'i",
+      "description": "Lighthalzen disinda Esuna'yi bul ve Secret Archive'de ogrendigin bilgileri ilet.",
+      "goal": ""
+    },
+    "12028": {
+      "title": "Hain Kurelle",
+      "description": "Secret Wing haini Kurelle hakkindaki haberi President'e gotur. Sonra sana verdigi kirmizi zehrin antidote'u icin Ghalstein'e geri don.",
+      "goal": ""
+    },
+    "12029": {
+      "title": "Kayip Nisan Yuzugu",
+      "description": "Shuda'nin nisansizi Annon'un suya attigi kayip engagement ring'i bulmasina yardim et. Onu sudan cikarmak icin bir sey bulman gerekebilir.",
+      "goal": ""
+    },
+    "12030": {
+      "title": "Nisan Yuzugu Bulundu",
+      "description": "Shuda'nin engagement ring'ini sudan tuttugun bir Phen'in icinde buldun. Yuzugu ona geri gotur.",
+      "goal": "Shuda"
+    },
+    "12031": {
+      "title": "Annon'u Bul",
+      "description": "Shuda engagement ring'ini geri aldigina gore Annon'u bulup haber ver. Onu goren biri olmali.",
+      "goal": ""
+    },
+    "12032": {
+      "title": "Annon'u Ara",
+      "description": "Yasli bir adam, genc bir adamin onu gecip ormana kostugunu soyledi. Annon olabilir mi? Ormanda izlerini ara.",
+      "goal": "Annon'un Ayak Izleri"
+    },
+    "12033": {
+      "title": "Kan Izleri",
+      "description": "Kan izleri buldun. Bu yone kosan kisi yaralanmis olabilir. Izler kuzeye gidiyor. Annon yakinda olmali.",
+      "goal": ""
+    },
+    "12034": {
+      "title": "Annon'un Hikayesi",
+      "description": "Daha fazla kan izi bulunan garip bir yer buldun. Annon burada olmali. Onu buldugunda Shuda'dan neden kactigini sor.",
+      "goal": ""
+    },
+    "12035": {
+      "title": "Kutsal Iplikler",
+      "description": "Boonthom kutsal guclu esyayi yapmak icin 1 Needle Packet, 1 Spool, 1 Solid Husk ve 1 Holy Water getirmeni istedi. Sonra Underground Dungeon 1F'e girebilirsin.",
+      "goal": ""
+    },
+    "12036": {
+      "title": "Stone Slate Mesaji",
+      "description": "Slate'in son parcasini buldun. Buldugun mesaji Boonthom'a ilet.",
+      "goal": "Shaman Boonthom"
+    },
+    "12037": {
+      "title": "Daha Kutsal Iplikler",
+      "description": "Underground 2F'e girmek icin Boonthom'a 2 Holy Water, 1 Yggdrasil Leaf, 2 Needle Packet ve 2 Spool getir.",
+      "goal": ""
+    },
+    "12038": {
+      "title": "Sa-mhing Tiger'i Ara",
+      "description": "Dungeon'un Underground 2F bolgesine girebilirsin. Sa-mhing Tiger hakkinda bir sey bulmus olabilecek Boonthom'un Comrade'inin izlerini ara.",
+      "goal": ""
+    },
+    "12039": {
+      "title": "Boonthom'un Comrade'i",
+      "description": "Boonthom'a geri don ve Comrade'i hakkinda bilgi ver.",
+      "goal": "Shaman Boonthom"
+    },
+    "12040": {
+      "title": "Benkaistein'in Journal'i",
+      "description": "Eski guzel gunlerini hatirlatmak icin journal'i Digotz'a gotur.",
+      "goal": "Digotz"
+    },
+    "12041": {
+      "title": "Benkaistein'in Journal'i",
+      "description": "Eski guzel gunlerini hatirlatmak icin journal'i Maku'ya gotur.",
+      "goal": "Maku"
+    },
+    "12042": {
+      "title": "Benkaistein'in Journal'i",
+      "description": "Benkaistein'in Journal'ini Digotz ve Maku'ya teslim ettin. Digotz'un nasil oldugunu kontrol et ve Maku'nun journal'i okudugunu bildir.",
+      "goal": "Digotz"
+    },
+    "12043": {
+      "title": "Slum Gecis Izni",
+      "description": "Benkaistein ile konus.",
+      "goal": ""
+    },
+    "12044": {
+      "title": "Aglayan Cocugu Sakinlestir 1",
+      "description": "Torpy'nin annesini koyun disinda bul.",
+      "goal": "Torpy'nin annesini bul"
+    },
+    "12045": {
+      "title": "Aglayan Cocugu Sakinlestir 2",
+      "description": "Annesinin mesajini Torpy'ye ilet: \"Geri donecegim...\"",
+      "goal": "Geri donecegim..."
+    },
+    "12046": {
+      "title": "Aglayan Cocugu Sakinlestir 3",
+      "description": "Tum soruna neden olan Torpy'nin babasini bul. Koyde bir yerde saklaniyor olmali.",
+      "goal": "Sorunun kaynagini bul"
+    },
+    "12047": {
+      "title": "Aglayan Cocugu Sakinlestir 4",
+      "description": "Strange Man'e Steamed Crab Nippers getir.",
+      "goal": "Steamed Crab Nippers al"
+    },
+    "12048": {
+      "title": "Aglayan Cocugu Sakinlestir 5",
+      "description": "Torpy ve annesine Strange Man'in sacma davranislarini anlat.",
+      "goal": "Strange Man'i sikayet et"
+    },
+    "12049": {
+      "title": "Job Quest 1 - Rogue",
+      "description": "Mektubu Haijara Greg'in son oglu Louis Greg'e teslim et.",
+      "goal": "Mektup teslimati 1"
+    },
+    "12050": {
+      "title": "Job Quest 2 - Rogue",
+      "description": "Mektubu Haijara Greg'in ikinci oglu Thor Greg'e teslim et.",
+      "goal": "Mektup teslimati 2"
+    },
+    "12051": {
+      "title": "Job Quest 3 - Rogue",
+      "description": "Mektubu Haijara Greg'in ilk oglu Jay Greg'e teslim et.",
+      "goal": "Mektup teslimati 3"
+    },
+    "12052": {
+      "title": "Job Quest 4 - Rogue",
+      "description": "Mektubu Haijara Greg'in ilk oglu Jay Greg'e teslim et.",
+      "goal": "Mektup teslimati 4"
+    },
+    "12053": {
+      "title": "Job Quest 5 - Rogue",
+      "description": "Thor Greg sana gizli Rogue skill'ini ogretecek. Once onun testini gecmelisin.",
+      "goal": "Gizli Rogue Skill'ini ogren"
+    },
+    "12054": {
+      "title": "Job Quest 6 - Rogue",
+      "description": "Daha fazla bilgi icin Haijara Greg'e geri don.",
+      "goal": "Skill ayrintilarini dinle"
+    },
+    "12055": {
+      "title": "Job Quest - Assassin",
+      "description": "Venom Knife skill'ini ogrenmek icin Defeattin ile konus.",
+      "goal": "Venom Knife?"
+    },
+    "12056": {
+      "title": "Job Quest - Assassin",
+      "description": "Sonic Acceleration ogrenmek icin Esmille'i dikkatle dinle ve soyledigi belirli yerlerden gemstone getir.",
+      "goal": "Gemstone getir"
     }
   }
 }
