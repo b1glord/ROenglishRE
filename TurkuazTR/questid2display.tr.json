@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.22.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60339-60461 V.I.P.E.R., Bathroom Ghost, Eden avlari, Rachel-Nogg-Biolab ve Gramps bloklarindan 60 pending kayit dahil",
+    "version": "7.23.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60462-60526 Gramps hunting, Battlegrounds, Nydhoggur, Juperos, Rachel ve Biolab bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -21781,6 +21781,306 @@
     "60461": {
       "title": "Skogul Avi",
       "description": "Odin Temple'da 400 Skogul avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60462": {
+      "title": "Frus Avi",
+      "description": "Odin Temple'da 400 Frus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60463": {
+      "title": "Antler Scaraba Avi",
+      "description": "Scaraba Hall'da 400 Antler Scaraba avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60464": {
+      "title": "Rake Scaraba Avi",
+      "description": "Scaraba Hall'da 400 Rake Scaraba avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60465": {
+      "title": "Poison Toad Avi",
+      "description": "Amatsu Dungeon'da 400 Poison Toad avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60466": {
+      "title": "Firelock Soldier Avi",
+      "description": "400 Firelock Soldier avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60467": {
+      "title": "Dullahan Avi",
+      "description": "Niflheim'da 400 Dullahan avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60468": {
+      "title": "Loli Ruri Avi",
+      "description": "Niflheim'da 400 Loli Ruri avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60469": {
+      "title": "Gold Acidus Avi",
+      "description": "Abyss'te 400 Gold Acidus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60470": {
+      "title": "Blue Acidus Avi",
+      "description": "Abyss'te 400 Blue Acidus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60471": {
+      "title": "Yoyo ve Choco Ape Avi",
+      "description": "George Taylor'in Ingredient X'i ape'ler tarafindan calindi. Prontera Field 3'te 400 Yoyo ve 4 Choco avla.",
+      "goal": ""
+    },
+    "60472": {
+      "title": "Wootan Fighter Ape Avi",
+      "description": "George Taylor'in Ingredient X'i ape'ler tarafindan calindi. Umbala Field 2 ve 3'te 400 Wootan Fighter avla.",
+      "goal": ""
+    },
+    "60473": {
+      "title": "Wootan Shooter Ape Avi",
+      "description": "George Taylor'in Ingredient X'i ape'ler tarafindan calindi. Umbala Field 2 ve 3'te 400 Wootan Fighter avla.",
+      "goal": ""
+    },
+    "60474": {
+      "title": "Ape Hunter Timer",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60476": {
+      "title": "Mineral Avi",
+      "description": "Einbroch Dungeon 2'de 400 Mineral avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60477": {
+      "title": "Obsidian Avi",
+      "description": "Einbroch Dungeon 2'de 400 Obsidian avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60478": {
+      "title": "Ferus Avi",
+      "description": "Abyss Dungeon'da 400 Ferus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60479": {
+      "title": "Bewler Avi",
+      "description": "Abyss Dungeon'da 400 Bewler avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60480": {
+      "title": "Laurell Weinder Avi",
+      "description": "Somatology Laboratory'de 400 Laurell Weinder avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60481": {
+      "title": "Armeyer Dinze Avi",
+      "description": "Somatology Laboratory'de 400 Armeyer Dinze avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60482": {
+      "title": "Egnigem Cenia Avi",
+      "description": "Somatology Laboratory'de 400 Egnigem Cenia avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60483": {
+      "title": "Errende Ebecee Avi",
+      "description": "Somatology Laboratory'de 400 Errende Ebecee avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60484": {
+      "title": "Kavach Icarus Avi",
+      "description": "Somatology Laboratory'de 400 Kavach Icarus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60485": {
+      "title": "Wickebine Tres Avi",
+      "description": "Somatology Laboratory'de 400 Wickebine Tres avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60486": {
+      "title": "Av Gorevi Suresi 5",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60487": {
+      "title": "Av Gorevi Suresi 6",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60488": {
+      "title": "Solider Avi",
+      "description": "Turtle Dungeon'da 400 Solider avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60489": {
+      "title": "Permeter Avi",
+      "description": "Turtle Dungeon'da 400 Permeter avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60490": {
+      "title": "Aliot Avi",
+      "description": "400 Aliot avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60491": {
+      "title": "Aliza Avi",
+      "description": "Robot Factory 1'de 400 Aliza avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60492": {
+      "title": "Centipede Avi",
+      "description": "Dicastes Field 1'de 400 Centipede avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60493": {
+      "title": "Bradium Golem Avi",
+      "description": "400 Bradium Golem avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60494": {
+      "title": "Av Gorevi Suresi 1",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60495": {
+      "title": "Av Gorevi Suresi 2",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60500": {
+      "title": "Battlegrounds",
+      "description": "Maroll Battlegrounds'a katildin. 2 dakika boyunca baska bir team secemezsin.",
+      "goal": ""
+    },
+    "60501": {
+      "title": "Raydric Avi",
+      "description": "Glast Heim Chivalry'de 400 Raydric avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60502": {
+      "title": "Wanderer Avi",
+      "description": "Glast Heim 2F'de 400 Wanderer avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60503": {
+      "title": "Muscipular Avi",
+      "description": "Veins Field 4'te 400 Muscipular avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60504": {
+      "title": "Drosera Avi",
+      "description": "Veins Field 4'te 400 Drosera avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60505": {
+      "title": "Ancient Tree Avi",
+      "description": "Ozel Nydhoggur dungeon'da 400 Ancient Tree avla ve odul icin Gramps'e don. Ozel dungeon warp'i icin Gramps ile konus.",
+      "goal": ""
+    },
+    "60506": {
+      "title": "Phylla Avi",
+      "description": "Ozel Nydhoggur dungeon'da 400 Phylla avla ve odul icin Gramps'e don. Ozel dungeon warp'i icin Gramps ile konus.",
+      "goal": ""
+    },
+    "60507": {
+      "title": "Teddy Bear Avi",
+      "description": "Einbroch Mine Dungeon'da 400 Teddy Bear avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60508": {
+      "title": "Waste Stove Avi",
+      "description": "Einbroch Mine Dungeon'da 400 Waste Stove avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60509": {
+      "title": "Green Dimik Avi",
+      "description": "Juperos Center'da 400 Green Dimik avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60510": {
+      "title": "Blue Dimik Avi",
+      "description": "Juperos Center'da 400 Blue Dimik avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60511": {
+      "title": "Orange Dimik Avi",
+      "description": "Juperos Center'da 400 Orange Dimik avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60512": {
+      "title": "Red Dimik Avi",
+      "description": "Juperos Center'da 400 Red Dimik avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60513": {
+      "title": "Knocker Avi",
+      "description": "Thor Volcano Dungeon 2'de 400 Knocker avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60514": {
+      "title": "Imp Avi",
+      "description": "Thor Volcano Dungeon 2'de 400 Imp avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60515": {
+      "title": "Anopheles Avi",
+      "description": "Rachel'in hemen dogusundaki Rachel Field 12'de 400 Anopheles avla ve odul icin Gramps'e don.",
+      "goal": ""
+    },
+    "60516": {
+      "title": "Roween Avi",
+      "description": "Rachel'in hemen dogusundaki Rachel Field 12'de 400 Roween avla ve odul icin Gramps'e don.",
+      "goal": ""
+    },
+    "60517": {
+      "title": "Agav Avi",
+      "description": "Rachel Sanctuary 4 veya 5'te 400 Agav avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60518": {
+      "title": "Echio Avi",
+      "description": "Rachel Sanctuary 4 veya 5'te 400 Echio avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60519": {
+      "title": "Cecil Damon Avi",
+      "description": "Somatology Laboratory 3'te 400 Cecil Damon avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60520": {
+      "title": "Eremes Guile Avi",
+      "description": "Somatology Laboratory 3'te 400 Eremes Guile avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60521": {
+      "title": "Margaretha Sorin Avi",
+      "description": "Somatology Laboratory 3'te 400 Margaretha Sorin avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60522": {
+      "title": "Seyren-Windsor Avi",
+      "description": "Somatology Laboratory 3'te 400 Seyren-Windsor avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60523": {
+      "title": "Kathryne Keyron Avi",
+      "description": "Somatology Laboratory 3'te 400 Kathryne Keyron avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60524": {
+      "title": "Howard Alt-Eisen Avi",
+      "description": "Somatology Laboratory 3'te 400 Howard Alt-Eisen avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60525": {
+      "title": "Metaling Avi",
+      "description": "Einbroch Field 8'de 400 Metaling avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60526": {
+      "title": "Porcellio Avi",
+      "description": "Einbroch Field 8'de 400 Porcellio avla ve odul icin Eden Group'taki Gramps'e don.",
       "goal": ""
     }
   }
