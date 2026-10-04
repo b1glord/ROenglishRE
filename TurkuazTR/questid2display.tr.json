@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.19.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 6025-6027 KVM Guillaume, Croix ve katilim gostergesi gorevleri dahil",
+    "version": "6.20.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7000-7006 Dancer meslek degisimi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6467,6 +6467,41 @@
       "title": "KVM Gostergesi",
       "description": "KVM savasina katildigini gosteren bir isaret aldin. Isaret kaybolana kadar baska bir savasa katilamazsin.",
       "goal": "Sure dolana kadar KVM savasi icin bekle"
+    },
+    "7000": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Dancer olmak icin Comodo Dance School'a gittin ve basvuru formunu doldurdun.",
+      "goal": "Aile ile konus"
+    },
+    "7001": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Dans dersine baslamadan once gerekli malzemeleri hazirla ve Aile'ye kontrol ettir.",
+      "goal": "10000 Zeny, 20 Sticky Mucus, 5 Red Potion, 3 Jellopy, 1 Shoes"
+    },
+    "7002": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Dans dersine baslamadan once gerekli malzemeleri hazirla ve Aile'ye kontrol ettir.",
+      "goal": "10000 Zeny, 5 Earthworm Peeling, 1 Boots"
+    },
+    "7003": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Dans dersine baslamadan once gerekli malzemeleri hazirla ve Aile'ye kontrol ettir.",
+      "goal": "10000 Zeny, 2 Clam Shell, 5 Yellow Potion, 20 Jellopy, 10 Black Hair, 1 Sandals"
+    },
+    "7004": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Gerekli malzemeleri hazirladin. Sirada Bijou ile meslek mulakati var; mulakati gecmelisin.",
+      "goal": "Bijou ile mulakata gir"
+    },
+    "7005": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Sonunda Dans Sinavi zamani geldi. Sinirli sure icinde verilen adimlari dogru uygulamalisin.",
+      "goal": "Dans sinavini tamamla"
+    },
+    "7006": {
+      "title": "Dancer Meslek Degisimi",
+      "description": "Dans adimlarin ve hareketlerin cok iyiydi. Bijou'nun sonucunu ogrenmek icin onunla konus.",
+      "goal": "Bijou ile konus"
     }
   }
 }
