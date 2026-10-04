@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.8.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5463-5468 Eryus ve Ellie aile kurtarma gorevleri dahil",
+    "version": "6.9.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5471 Endless Tower Entweihen Crothen odul avciligi gorevi dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6097,6 +6097,11 @@
       "title": "Esine Deli Gibi Asik (6)",
       "description": "Birbirine derinden bagli Ellie ve Eryus ciftine yardim ettin. Uzun zamandir gercekten birbirini seven bir cift gormek guzeldi.",
       "goal": "Yardim tamamlandi"
+    },
+    "5471": {
+      "title": "Araniyor",
+      "description": "Prontera Kraliyet Sarayi, Endless Tower bossu Entweihen Crothen'i yenen kisiye odul verecegini duyurdu.",
+      "goal": "300 Odul Birligi Nisani"
     }
   }
 }
