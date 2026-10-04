@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.64.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7605 Guardian cooldown ve 7606-7629 Phantasmagorika, Atnad kazi ve enerji gorevleri dahil",
+    "version": "6.65.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7630-7631 Blue Unicorn ve 7641-7656 Verus Research Facilities ile Memory Record gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9442,6 +9442,96 @@
       "title": "Yarinin Enerjisi Icin Yarin",
       "description": "Lloyd'un arastirmasina yardim etmeye devam etmek icin yarin geri don.",
       "goal": "Gunluk gorev bekleme suresi"
+    },
+    "7630": {
+      "title": "Efsanevi Mavi Unicorn",
+      "description": "Payon yakinlarindaki ormanda mavi bir pony'nin ortaligi birbirine kattigi soyleniyor. Bu yaratik hakkindaki gercegi ortaya cikar.",
+      "goal": "Avla ve Fury'ye rapor ver"
+    },
+    "7631": {
+      "title": "Avlanma Siniri",
+      "description": "Yeniden avlanmadan once en az 23 saat bekle. Gunde bir kereden fazla avlanmamaya calis.",
+      "goal": "23 saat bekle"
+    },
+    "7641": {
+      "title": "Erisim Izni Verildi",
+      "description": "Kisitli Laboratories ve Research Facilities alanlarina erisim onaylandi. Artik bu bolgelere serbestce girebilirsin.",
+      "goal": "Kisitli alanlara erisim sagla"
+    },
+    "7642": {
+      "title": "Research Facilities'i Kesfet",
+      "description": "Research Facilities alaninda arastirma degeri olan ozel nesneleri ara. Kucuk ama anlamli bulgulari bile Ian Atnad'a bildir.",
+      "goal": "Research Facilities'i incele"
+    },
+    "7643": {
+      "title": "Gizemli Parca",
+      "description": "Research Facilities'te bir tur bilesen buldun. Ian Atnad'a rapor ver.",
+      "goal": "Ian'a rapor ver"
+    },
+    "7644": {
+      "title": "Record Player",
+      "description": "Memory Record icerigini ogrenmek icin Record Player gerekiyor. Paradise Squad Commander Arquien cihazinin nerede oldugunu biliyor.",
+      "goal": "Arquien ile konus"
+    },
+    "7645": {
+      "title": "Memory Record Parcasi",
+      "description": "Bir Memory Record'u eksiksiz oynatmak icin en az 5 parca gerekiyor. Research Facilities'teki kalan kayitlari topla ve Verus kazi alanindaki Commander Arquien'e gotur.",
+      "goal": "5 Memory Record topla"
+    },
+    "7646": {
+      "title": "Memory Record'u Oynat",
+      "description": "Memory Record'u oynattiktan sonra Commander Arquien ile konus.",
+      "goal": "Record Player'i calistir"
+    },
+    "7647": {
+      "title": "Memory Record Raporu",
+      "description": "Memory Record'lardan ogrendiklerini Ian Atnad'a bildir.",
+      "goal": "Ian'a rapor ver"
+    },
+    "7648": {
+      "title": "Laboratories Memory Record'lari",
+      "description": "Laboratories'in yer alti tesisinde 5 Laboratories Memory Record topla ve icerigini ogrenmek icin Arquien'e gotur.",
+      "goal": "5 Laboratories Memory Record topla"
+    },
+    "7649": {
+      "title": "Memory Record Icerigini Raporla",
+      "description": "Laboratories Memory Record'larindan ogrendigin icerigi Ian Atnad'a bildir.",
+      "goal": "Ian ile konus"
+    },
+    "7650": {
+      "title": "Research Facilities Memory Record Topla",
+      "description": "Research Facilities'te 5 Memory Record topla ve icerigini cozmesi icin Arquien'e gotur.",
+      "goal": "5 Memory Record topla"
+    },
+    "7651": {
+      "title": "Gunde Bir Memory",
+      "description": "Memory Record'lari gunde yalnizca bir kez toplayabilirsin. Soz verilen zamanda Arquien'e git.",
+      "goal": "Belirlenen zamani bekle"
+    },
+    "7652": {
+      "title": "Laboratories Memory Record Topla",
+      "description": "Laboratories'te 5 Memory Record topla ve icerigini cozmesi icin Arquien'e gotur.",
+      "goal": "5 Laboratories Memory Record topla"
+    },
+    "7653": {
+      "title": "Gunde Bir Memory 2",
+      "description": "Laboratories Memory Record'larini gunde yalnizca bir kez toplayabilirsin. Soz verilen zamanda Arquien'e git.",
+      "goal": "Belirlenen zamani bekle"
+    },
+    "7654": {
+      "title": "Research Facilities Memory Record'larini Oynat",
+      "description": "Record Player'i kullanarak Research Facilities Memory Record'larinin icerigini ogren.",
+      "goal": "Record Player'i calistir"
+    },
+    "7655": {
+      "title": "Laboratories Memory Record'larini Oynat",
+      "description": "Record Player'i kullanarak Laboratories Memory Record'larinin icerigini ogren.",
+      "goal": "Record Player'i calistir"
+    },
+    "7656": {
+      "title": "Rekenber Daveti",
+      "description": "Rekenber seni sirket merkezine davet etti. Rihrtarzen'deki Rekenber Corporation Headquarters'i ziyaret et.",
+      "goal": "Tatio ile konus"
     }
   }
 }
