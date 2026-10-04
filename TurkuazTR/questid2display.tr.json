@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.48.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7211-7213 Foggy Forest, Loki ve Niddhog Guardian ile 7214-7222 Eden Comodo ve Glast Heim ileri seviye egitim gorevleri dahil",
+    "version": "6.49.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7223-7228 Eden Einbroch, 7229-7232 Ice Cave ve 7233-7237 Ash Vacuum ileri seviye egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7526,6 +7526,76 @@
     "7222": {
       "title": "Instructor Ur'a Rapor Ver",
       "description": "Glast Heim'daki avin Abbey'nin temizlenmesine yardim etti. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
+      "goal": "Instructor Ur'a rapor ver"
+    },
+    "7223": {
+      "title": "Einbroch'ta Ileri Seviye Egitim",
+      "description": "Lighthalzen'in dogusundaki sanayi sehri Einbroch bir sonraki egitim gorevinin yeri. Einbroch'un guneyindeki alanda Dispatched Instructor Kiren'i bul.",
+      "goal": "Einbroch'un guneyinde Kiren'i bul"
+    },
+    "7224": {
+      "title": "Porcellio Avi",
+      "description": "Isinma olarak Einbroch cevresindeki alanlarda dolasan 30 Porcellio avla.",
+      "goal": "30 Porcellio avla"
+    },
+    "7226": {
+      "title": "Venomous Avi",
+      "description": "Einbroch'un kuzeyindeki iscileri korkutan yesil gazsi Venomous canavarlarini avla.",
+      "goal": "30 Venomous avla"
+    },
+    "7227": {
+      "title": "Teddy Bear Avi",
+      "description": "Bu Teddy Bear'lar cocuklar icin sevimli oyuncaklar degil. Einbroch'un kuzeyindeki alanda 5 tanesini hizlica avla.",
+      "goal": "5 Teddy Bear avla"
+    },
+    "7228": {
+      "title": "Instructor Ur'a Rapor Ver",
+      "description": "Einbroch bolgesindeki gorevlerin tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
+      "goal": "Instructor Ur'a rapor ver"
+    },
+    "7229": {
+      "title": "Ice Cave'de Ileri Seviye Egitim",
+      "description": "Rachel'in kuzeyine gidersen Ice Cave'e ulasirsin. Yol uzun olsa da egitim icin deger. Ice Cave'deki Dispatched Instructor Naomi'yi bul.",
+      "goal": "Ice Cave'de Naomi'yi bul"
+    },
+    "7230": {
+      "title": "Siroma Avi",
+      "description": "Onlari dev kar toplari sanabilirsin ama aslinda canavarlar. Ice Cave'de 30 Siroma avla.",
+      "goal": "30 Siroma avla"
+    },
+    "7231": {
+      "title": "Avlanma ve Toplama",
+      "description": "Artik ortama alistin. 30 Siroma daha avla ve Naomi'ye 30 Ice Cubic, 1 Sweet Sauce ve 1 Milk getir.",
+      "goal": "30 Siroma avla; 30 Ice Cubic, 1 Sweet Sauce ve 1 Milk getir"
+    },
+    "7232": {
+      "title": "Instructor Ur'a Rapor Ver",
+      "description": "Ice Cave'deki av gorevlerin tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
+      "goal": "Instructor Ur'a rapor ver"
+    },
+    "7233": {
+      "title": "Ash Vacuum'da Ileri Seviye Egitim",
+      "description": "Ucuncu sinif bir karakter olarak Ash Vacuum'daki canavarlarla basa cikabilirsin. Midgard Expedition Camp'teki Margaret'i bul.",
+      "goal": "Midgard Expedition Camp'te Margaret'i bul"
+    },
+    "7234": {
+      "title": "Margaret'in Ricasi",
+      "description": "Margaret, Dispatched Instructor Meeru ve Mine'i bulmani istedi. Midgard Expedition Camp'in bati ve dogusundaki alanlardalar. Gorevlerini tamamlayip Margaret'e don.",
+      "goal": "Meeru ve Mine'i bul, gorevlerini tamamla ve Margaret'e don"
+    },
+    "7235": {
+      "title": "Nepenthes Avi",
+      "description": "Meeru, Manuk Field'da 1 Nepenthes avlayip kendisine donmeni istedi.",
+      "goal": "1 Nepenthes avla"
+    },
+    "7236": {
+      "title": "Pinguicula Avi",
+      "description": "Mine, kendi yerine 5 Pinguicula avlamani istedi.",
+      "goal": "5 Pinguicula avla"
+    },
+    "7237": {
+      "title": "Instructor Ur'a Rapor Ver",
+      "description": "Ash Vacuum'daki egitimin tamamlandi. Eden Group Headquarters'a don ve Instructor Ur ile konus.",
       "goal": "Instructor Ur'a rapor ver"
     }
   }
