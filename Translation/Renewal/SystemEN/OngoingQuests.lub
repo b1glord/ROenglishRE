@@ -20948,54 +20948,54 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[7578] = {
-		Title = "Rampaging Box",
+		Title = "Cildirmis Kutu",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"The Flame Basin is overrun with animated boxes with hostile intent. Subjugate the boxes and identify them."
+			"Flame Basin, dusmanca hareket eden canli kutularla dolmus. Kutulari bastir ve ne olduklarini belirle."
 		},
-		Summary = "1 Bradium Box"
+		Summary = "1 Bradium Box elde et"
 	},
 	[7579] = {
-		Title = "Collecting Bradiums",
+		Title = "Bradium Toplama",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Those rampaging boxes are enchanted Bradium Boxes. Subjugate the boxes and collect Bradium Boxes."
+			"Cildirmis kutularin buyulenmis Bradium Box oldugu ortaya cikti. Kutulari yok et ve Bradium Box topla."
 		},
-		Summary = "10 Bradium Box"
+		Summary = "10 Bradium Box topla"
 	},
 	[7580] = {
-		Title = "Collecting Every Day",
+		Title = "Her Gun Toplama",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You've decided to collect Bradium Boxes every day to try to thwart Chesher's scheme. Come back to Hasranta tomorrow."
+			"Chesher'in planini bozmak icin her gun Bradium Box toplamaya karar verdin. Yarin Hasranta'ya geri don."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "1 gun bekle",
 		CoolTimeQuest = 1
 	},
 	[7581] = {
-		Title = "Eliminating Risks",
+		Title = "Riskleri Ortadan Kaldir",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Morroc Fire Vassal, Morroc Twisted Vassal, and Morroc Cold Vassal are the biggest threat to our subjugation operation. Please take care of them."
+			"Morocc Fire Vassal, Morocc Twisted Vassal ve Morocc Cold Vassal, bastirma operasyonunun en buyuk tehdidi. Onlari ortadan kaldir."
 		},
-		Summary = ""
+		Summary = "Uc Vassal turunu bastir"
 	},
 	[7582] = {
-		Title = "Daily Cleaning",
+		Title = "Gunluk Temizlik",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Leave them to other subjugators for now. You deserve a rest."
+			"Simdilik diger bastirma ekiplerine birak. Dinlenmeyi hak ettin."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "1 gun bekle",
 		CoolTimeQuest = 1
 	},
 	[7583] = {
-		Title = "Collecting Mana",
+		Title = "Mana Toplama",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Lapine Magic Scholar Avant has asked you to collect Mana Crystallines from those abnormally strong Demons. This quest can be performed with the Alliance quest, Eliminating Risks."
+			"Lapine Magic Scholar Avant, anormal derecede guclu Demonlardan Mana Crystalline toplamani istedi. Bu gorev Eliminating Risks ile birlikte yapilabilir."
 		},
-		Summary = "3 Mana Crystallines",
+		Summary = "3 Mana Crystalline topla",
 		NpcSpr = "4_M_FAIRYAVANT",
 		NpcNavi = "moro_vol",
 		NpcPosX = 98,
@@ -21004,12 +21004,12 @@ QuestInfoList = {
 		RewardJEXP = "350000"
 	},
 	[7584] = {
-		Title = "Unending Battle",
+		Title = "Bitmeyen Savas",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"The Demons are siphoning off the mana to maintain their strength. You've decided to come back to Avant every day, to help him collect Mana Crystallines."
+			"Demonlar guclerini korumak icin manayi cekiyor. Avant'a her gun donup Mana Crystalline toplamasina yardim etmeye karar verdin."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "1 gun bekle",
 		CoolTimeQuest = 1,
 		NpcSpr = "4_M_FAIRYAVANT",
 		NpcNavi = "moro_vol",
@@ -21075,28 +21075,28 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[7593] = {
-		Title = "Demon God Subjugation",
+		Title = "Demon God Bastirma Operasyonu",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"It's time to finish the job: defeat Morroc in the Temple of the Demon God."
+			"Isi bitirme zamani geldi. Temple of the Demon God'da Morroc'u yen."
 		},
-		Summary = ""
+		Summary = "Demon God Morroc'u yen"
 	},
 	[7594] = {
-		Title = "Frost Spider and Fire Wolf",
+		Title = "Frost Spider ve Fire Wolf",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Defeat Morroc's creations and his followers: Frost Spider Brinaranea and Fire Wolf Muspellskoll."
+			"Morroc'un yaratiklarini ve takipcilerini yen: Frost Spider Brinaranea ve Fire Wolf Muspellskoll."
 		},
-		Summary = ""
+		Summary = "Brinaranea ve Muspellskoll'u yen"
 	},
 	[7595] = {
-		Title = "Wandering Orb Magic",
+		Title = "Dolasan Orb Buyusu",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Collect the mana stolen from Yggdrasil and the Orb: hit and scatter Brilliant Manas, Life Manas, and Earth Manas."
+			"Yggdrasil ve Orb'dan calinan manayi geri topla. Brilliant Mana, Life Mana ve Earth Mana'lari vurup dagit."
 		},
-		Summary = "",
+		Summary = "Calinan manayi geri topla",
 		NpcSpr = "4_M_FARIY_HISIE",
 		NpcNavi = "moro_vol",
 		NpcPosX = 95,
@@ -21108,20 +21108,20 @@ QuestInfoList = {
 		}
 	},
 	[7596] = {
-		Title = "Qualifications of the Guests",
+		Title = "Misafirlerin Yeterliligi",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"To enter the Temple of the Demon God, you need a key. Defeat Gatekeeper Ahat and Shnayim, and use their souls to open the temple entrance."
+			"Temple of the Demon God'a girmek icin anahtar gerekiyor. Gatekeeper Ahat ve Shnaim'i yen, ruhlarini tapinak girisini acmak icin kullan."
 		},
-		Summary = "1 Ahat's Soul, 1 Shnayim's Soul"
+		Summary = "1 Ahat's Soul ve 1 Shnaim's Soul elde et"
 	},
 	[7597] = {
-		Title = "Fall of the False God",
+		Title = "Sahte Tanrinin Dususu",
 		IconName = "ico_ep.bmp",
 		Description = {
-			"You defeated Demon God Morroc, who wanted to create a new world and play God. Report to Commander Hiva Agip."
+			"Yeni bir dunya kurup Tanri olmak isteyen Demon God Morroc'u yendin. Commander Hiva Agip'e rapor ver."
 		},
-		Summary = "Report to the Commander",
+		Summary = "Commander'a rapor ver",
 		NpcSpr = "4_M_REDSWORD",
 		NpcNavi = "moro_vol",
 		NpcPosX = 108,
@@ -21133,30 +21133,30 @@ QuestInfoList = {
 		}
 	},
 	[7598] = {
-		Title = "[Standby] Caged God",
+		Title = "Kafesteki Tanri",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"Confined in his own world, the Demon God is cursed to suffer for eternity. Come back tomorrow and put him out of his misery once more."
+			"Kendi dunyasina hapsedilen Demon God sonsuza kadar aci cekmeye mahkum. Yarin geri don ve onu bir kez daha yen."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Yarin geri don",
 		CoolTimeQuest = 1
 	},
 	[7599] = {
-		Title = "[Standby] Unending Hunt",
+		Title = "Bitmeyen Av",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"The hunting continues until every single Demon in the Temple of the Demon God is defeatd. Adjutant Abidal asked you to come back when you are fully rested."
+			"Temple of the Demon God'daki tum Demonlar yenilene kadar av devam ediyor. Adjutant Abidal tamamen dinlendikten sonra geri donmeni istedi."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Yarin geri don",
 		CoolTimeQuest = 1
 	},
 	[7600] = {
-		Title = "[Standby] Promising Tomorrow",
+		Title = "Umut Veren Yarin",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"The Orb of Eclage and Yggdrasil have lost a substantial amount of mana, and thus the mana collection work continues until most of it is retrieved. Take a rest and come back to Hishieh before you move on to the Temple of the Demon God."
+			"Eclage Orb'u ve Yggdrasil buyuk miktarda mana kaybetti. Mana toplama calismasi suruyor. Temple of the Demon God'a ilerlemeden once dinlen ve Hishieh'e geri don."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Yarin geri don",
 		CoolTimeQuest = 1,
 		NpcSpr = "4_M_FARIY_HISIE",
 		NpcNavi = "moro_vol",
@@ -21166,30 +21166,30 @@ QuestInfoList = {
 	[7601] = {
 		Title = "Temple of the Demon God Phase 1",
 		Description = {
-			"Defeat Frost Spider Brinaranea to move on to the next area."
+			"Bir sonraki alana ilerlemek icin Frost Spider Brinaranea'yi yen."
 		},
-		Summary = ""
+		Summary = "Frost Spider Brinaranea'yi yen"
 	},
 	[7602] = {
-		Title = "Temple of the Demon God Phase 1 Completed",
+		Title = "Temple of the Demon God Phase 1 Tamamlandi",
 		Description = {
-			"You defeated Frost Spider Brinaranea."
+			"Frost Spider Brinaranea'yi yendin."
 		},
-		Summary = ""
+		Summary = "Phase 1 tamamlandi"
 	},
 	[7603] = {
 		Title = "Temple of the Demon God Phase 2",
 		Description = {
-			"Defeat Fire Wolf Muspellskoll to move on to the next area."
+			"Bir sonraki alana ilerlemek icin Fire Wolf Muspellskoll'u yen."
 		},
-		Summary = ""
+		Summary = "Fire Wolf Muspellskoll'u yen"
 	},
 	[7604] = {
-		Title = "Temple of the Demon God Phase 2 Completed",
+		Title = "Temple of the Demon God Phase 2 Tamamlandi",
 		Description = {
-			"You defeated Fire Wolf Muspellskoll."
+			"Fire Wolf Muspellskoll'u yendin."
 		},
-		Summary = ""
+		Summary = "Phase 2 tamamlandi"
 	},
 	[7605] = {
 		Title = "Guardian's Blessing",
