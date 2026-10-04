@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.07.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 13071-13130 Mingmin arastirmalari, Taekwon egitimi, kayip adventurer aramalari ve Thanatos-Rachel av bloklarindan 60 pending kayit dahil",
+    "version": "7.08.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 13131-13205 Rachel-Nameless-Abyss avlari, Bio Lab hikayeleri, Scaraba, Jitterbug, Charleston ve Monthly Brigan bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -17281,6 +17281,306 @@
     "13130": {
       "title": "Hodremlin - Bekle",
       "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13131": {
+      "title": "Agav ve Echio'yu Yen",
+      "description": "Rachel Holy Ground'da 20 Agav ve 20 Echio yen.",
+      "goal": ""
+    },
+    "13132": {
+      "title": "Agav ve Echio - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13133": {
+      "title": "Ragged Zombie'yi Yen",
+      "description": "Nameless Island'da 30 Ragged Zombie yen.",
+      "goal": ""
+    },
+    "13134": {
+      "title": "Ragged Zombie - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13135": {
+      "title": "Zombie Slaughter'i Yen",
+      "description": "Unknown Island'da 30 Zombie Slaughter yen.",
+      "goal": ""
+    },
+    "13136": {
+      "title": "Zombie Slaughter - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13137": {
+      "title": "Banshee'yi Yen",
+      "description": "Unknown Island'da 30 Banshee yen.",
+      "goal": ""
+    },
+    "13138": {
+      "title": "Banshee - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13139": {
+      "title": "Ferus ve Bewler'i Yen",
+      "description": "Abyss Lake'te 30 Ferus ve 30 Bewler yen.",
+      "goal": ""
+    },
+    "13140": {
+      "title": "Ferus ve Bewler - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13141": {
+      "title": "Acidus'u Yen",
+      "description": "Abyss Lake'te 30 Acidus yen.",
+      "goal": ""
+    },
+    "13142": {
+      "title": "Acidus - Bekle",
+      "description": "Bugunun gorevi basariyla tamamlandi. Bir gun sonra tekrar gel.",
+      "goal": ""
+    },
+    "13143": {
+      "title": "Egnigem Hikayesi",
+      "description": "Lighthalzen'da Egnigem Cenia'nin hikayesini arastir.",
+      "goal": "30 Egnigem Cenia yen"
+    },
+    "13144": {
+      "title": "Egnigem Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13145": {
+      "title": "Armeyer Hikayesi",
+      "description": "Lighthalzen'da Armeyer Dinze'nin hikayesini arastir.",
+      "goal": "30 Armeyer Dinze yen"
+    },
+    "13146": {
+      "title": "Armeyer Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13147": {
+      "title": "Wickebine Hikayesi",
+      "description": "Lighthalzen'da Wickebine Tres'in hikayesini arastir.",
+      "goal": "30 Wickebine Tres yen"
+    },
+    "13148": {
+      "title": "Wickebine Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13149": {
+      "title": "Kavach Hikayesi",
+      "description": "Lighthalzen'da Kavach Icarus'un hikayesini arastir.",
+      "goal": "30 Kavach Icarus yen"
+    },
+    "13150": {
+      "title": "Kavach Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13151": {
+      "title": "Errende Hikayesi",
+      "description": "Lighthalzen'da Errende Ebecee'nin hikayesini arastir.",
+      "goal": "30 Errende Ebecee yen"
+    },
+    "13152": {
+      "title": "Errende Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13153": {
+      "title": "Laurell Hikayesi",
+      "description": "Lighthalzen'da Laurell Weinder'in hikayesini arastir.",
+      "goal": "30 Laurell Weinder yen"
+    },
+    "13154": {
+      "title": "Laurell Hikayesi - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13155": {
+      "title": "Morocc Hikayesi 1",
+      "description": "Valkyrie'ye benzeyen 30 Morocc Incarnation yok et.",
+      "goal": "30 Morocc Incarnation yen"
+    },
+    "13156": {
+      "title": "Morocc Hikayesi 1 - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13157": {
+      "title": "Morocc Hikayesi 2",
+      "description": "Garip ve karanlik gorunen 30 Morocc Incarnation yok et.",
+      "goal": "30 Morocc Incarnation yen"
+    },
+    "13158": {
+      "title": "Morocc Hikayesi 2 - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13159": {
+      "title": "Morocc Hikayesi 3",
+      "description": "Hayalete benzeyen 30 Morocc Incarnation yok et. Dikkatli ol; normal saldirilar ise yaramiyor.",
+      "goal": "30 Morocc Incarnation yen"
+    },
+    "13160": {
+      "title": "Morocc Hikayesi 3 - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13161": {
+      "title": "Uni Horn Scaraba Hikayesi",
+      "description": "Ash Vacuum'daki Scaraba Hall'da Uni Horn Scaraba bul ve arastir. Konusmayi dene; cevap vermezse etkisiz hale getir.",
+      "goal": "30 Uni Horn Scaraba yen"
+    },
+    "13162": {
+      "title": "Uni Horn Scaraba - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13163": {
+      "title": "Twin Horn Scaraba Hikayesi",
+      "description": "Ash Vacuum'daki Scaraba Hall'da Twin Horn Scaraba bul ve arastir. Konusmayi dene; cevap vermezse etkisiz hale getir.",
+      "goal": "30 Twin Horn Scaraba yen"
+    },
+    "13164": {
+      "title": "Twin Horn Scaraba - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13165": {
+      "title": "Antler Scaraba Hikayesi",
+      "description": "Ash Vacuum'daki Scaraba Hall'da Antler Scaraba bul ve arastir. Konusmayi dene; cevap vermezse etkisiz hale getir.",
+      "goal": "30 Antler Scaraba yen"
+    },
+    "13166": {
+      "title": "Antler Scaraba - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13167": {
+      "title": "Rake Horn Scaraba Hikayesi",
+      "description": "Ash Vacuum'daki Scaraba Hall'da Rake Horn Scaraba bul ve arastir. Konusmayi dene; cevap vermezse etkisiz hale getir.",
+      "goal": "30 Rake Horn Scaraba yen"
+    },
+    "13168": {
+      "title": "Rake Horn Scaraba - Bekle",
+      "description": "Ogrenilecek daha fazla bilgi olabilir.",
+      "goal": ""
+    },
+    "13181": {
+      "title": "Nightmarish Jitterbug",
+      "description": "Adini Temporary Guildsman List'e kaydettir.",
+      "goal": ""
+    },
+    "13182": {
+      "title": "Nightmarish Jitterbug - Bekleme",
+      "description": "Runane'in warp'ini kullandin.",
+      "goal": ""
+    },
+    "13183": {
+      "title": "Nightmarish Jitterbug - Tamamlandi",
+      "description": "",
+      "goal": ""
+    },
+    "13184": {
+      "title": "Charleston Factory",
+      "description": "Charleston Factory'ye gir.",
+      "goal": ""
+    },
+    "13185": {
+      "title": "Charleston Factory - Beklemede",
+      "description": "Mechanic device'i kullandin.",
+      "goal": ""
+    },
+    "13186": {
+      "title": "Charleston Factory - Tamamlandi",
+      "description": "",
+      "goal": ""
+    },
+    "13187": {
+      "title": "Factory Staff ile Ilgilen",
+      "description": "Factory Staff'i etkisiz hale getir.",
+      "goal": ""
+    },
+    "13188": {
+      "title": "Factory Staff - Beklemede",
+      "description": "",
+      "goal": ""
+    },
+    "13190": {
+      "title": "Hazine Bulundu",
+      "description": "Hazine korunuyor gibi gorunuyor. Yakinlarda bir adventurer olsa iyi olurdu.",
+      "goal": ""
+    },
+    "13191": {
+      "title": "Hazine Arama - Bekleme",
+      "description": "Bu kadar hazine kazmaktan kollarim cok yoruldu. Bir sure daha kazabilecegimi sanmiyorum.",
+      "goal": ""
+    },
+    "13192": {
+      "title": "Pirate Gibi Konus",
+      "description": "Hikayemi Captain Whitebeard'a anlatmaliyim.",
+      "goal": ""
+    },
+    "13195": {
+      "title": "Monthly Brigan",
+      "description": "Freshman reporter Trapp'i bul.",
+      "goal": ""
+    },
+    "13196": {
+      "title": "Monthly Brigan",
+      "description": "Photo Journalist Sunny Kim'i bul.",
+      "goal": ""
+    },
+    "13197": {
+      "title": "Monthly Brigan",
+      "description": "Survivor Grizzly Grylls'i bul.",
+      "goal": ""
+    },
+    "13198": {
+      "title": "Monthly Brigan - Krotzel'in Talebi",
+      "description": "Takim uyelerini ara.",
+      "goal": ""
+    },
+    "13199": {
+      "title": "Krotzel'in Talebi - Tamamlandi",
+      "description": "",
+      "goal": ""
+    },
+    "13200": {
+      "title": "Monthly Brigan - Rookie'nin Talebi",
+      "description": "Cevredeki monster'lari yen.",
+      "goal": ""
+    },
+    "13201": {
+      "title": "Rookie'nin Talebi - Tamamlandi",
+      "description": "",
+      "goal": ""
+    },
+    "13202": {
+      "title": "Monthly Brigan - Photo Journalist Talebi",
+      "description": "Cevredeki monster'larla ilgilen.",
+      "goal": ""
+    },
+    "13203": {
+      "title": "Photo Journalist Talebi - Tamamlandi",
+      "description": "",
+      "goal": ""
+    },
+    "13204": {
+      "title": "Monthly Brigan - Grylls'in Talebi",
+      "description": "30 Metal Bug elde et.",
+      "goal": ""
+    },
+    "13205": {
+      "title": "Grylls'in Talebi - Tamamlandi",
+      "description": "",
       "goal": ""
     }
   }
