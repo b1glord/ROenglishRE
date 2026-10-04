@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.5.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5439-5447 yer alti zindani nem, karanlik ve Sandpaper gorevleri dahil",
+    "version": "6.6.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5448-5452 Prontera Chief Guard yardim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -5992,6 +5992,31 @@
       "title": "Can Sikici Kucuk Sey - Tekrar",
       "description": "Neden daha fazla Sandpaper istiyor? Madem istiyor, Taffy avla ve 20 Sandpaper getir.",
       "goal": "Taffy avla ve 20 Sandpaper getir"
+    },
+    "5448": {
+      "title": "Bas Muhafizdan Istek",
+      "description": "Prontera Bas Muhafizi Spiegel, haritada isaretli yerlerde zor durumda olan koyluye yardim etmeni istedi.",
+      "goal": "Haritada isaretli koyluye yardim et"
+    },
+    "5449": {
+      "title": "Bas Muhafizdan Istek",
+      "description": "Prontera Bas Muhafizi Spiegel, haritada isaretli yerlerde zor durumda olan koyluye yardim etmeni istedi.",
+      "goal": "Haritada isaretli koyluye yardim et"
+    },
+    "5450": {
+      "title": "Bas Muhafizdan Istek",
+      "description": "Prontera Bas Muhafizi Spiegel, haritada isaretli yerlerde zor durumda olan koyluye yardim etmeni istedi.",
+      "goal": "Haritada isaretli koyluye yardim et"
+    },
+    "5451": {
+      "title": "Bas Muhafizdan Istek",
+      "description": "Prontera Bas Muhafizi Spiegel, haritada isaretli yerlerde zor durumda olan koyluye yardim etmeni istedi.",
+      "goal": "Haritada isaretli koyluye yardim et"
+    },
+    "5452": {
+      "title": "Bas Muhafizdan Istek - Bekleme",
+      "description": "Prontera'daki koyluye yardim ettin. Bir sure sehirde dolasarak Undead canavarlari yok etmen gerekiyor.",
+      "goal": "Bir sure Undead avla"
     }
   }
 }
