@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.65.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7630-7631 Blue Unicorn ve 7641-7656 Verus Research Facilities ile Memory Record gorevleri dahil",
+    "version": "6.66.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7671-7672 Lost Lamb ve 7681-7706 Royal Banquet, Past Memories ve Room of Consciousness gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9532,6 +9532,146 @@
       "title": "Rekenber Daveti",
       "description": "Rekenber seni sirket merkezine davet etti. Rihrtarzen'deki Rekenber Corporation Headquarters'i ziyaret et.",
       "goal": "Tatio ile konus"
+    },
+    "7671": {
+      "title": "Kayip Kuzularimi Bul",
+      "description": "Rune Midgard'da dolasan ^4d4dffLost Lamb^000000'lere ^4d4dffHunting Rope^000000 kullan.",
+      "goal": "5 Lost Lamb geri getir"
+    },
+    "7672": {
+      "title": "Kuzular Surekli Kaciyor",
+      "description": "Bekci kopegi kuzulari duzenli olarak korkutup kaciriyor gibi. Birkac saat sonra geri don; Bori yine kuzu kaybetmis olabilir.",
+      "goal": "Sure dolunca Bori'ye don"
+    },
+    "7681": {
+      "title": "Royal Banquet Daveti",
+      "description": "Ash-Bakum seferinde Morocc'a karsi savasanlarin fedakarligini onurlandirmak icin Prontera Palace'ta bir ziyafet duzenleniyor. Sen de davetlisin.",
+      "goal": "Prontera Palace'i ziyaret et"
+    },
+    "7682": {
+      "title": "Sosyallesme Goz Temasiyla Baslar",
+      "description": "Yedi kraliyet ailesini ziyaret edip selamlas. West Villa'da Heine, Nerius ve Walther; East Villa'da Richard, Wigner, Roegenburg ve Geoborg aileleri bulunuyor.",
+      "goal": "Her aileyi ziyaret et"
+    },
+    "7683": {
+      "title": "Heine Ailesini Ziyaret Et",
+      "description": "Heine ailesini ziyaret edip selamlastin.",
+      "goal": ""
+    },
+    "7684": {
+      "title": "Nerius Ailesini Ziyaret Et",
+      "description": "Nerius ailesini ziyaret edip selamlastin.",
+      "goal": ""
+    },
+    "7685": {
+      "title": "Programda Sirada Ne Var?",
+      "description": "Programdaki her seyi tamamladin. Odandaki Chamberlain Belle'e siradaki programi sor.",
+      "goal": "Belle ile konus"
+    },
+    "7686": {
+      "title": "Nyhill ve Skia",
+      "description": "Koridorda Nyhill ile Skia arasindaki konusmaya tanik oldun.",
+      "goal": ""
+    },
+    "7687": {
+      "title": "Ziyafete Katil",
+      "description": "Bos vaktin oldugu icin Belle ziyafete katilmani istedi. Nerius ailesinden Lady Spica'nin seninle gorusmek istedigi soylendi.",
+      "goal": "Spica ile konus"
+    },
+    "7688": {
+      "title": "Supheli Hareket",
+      "description": "Ziyafete giderken misafir odasindaki yabancilarin konusmasini duydun.",
+      "goal": ""
+    },
+    "7689": {
+      "title": "Nyhill'i Bul",
+      "description": "Skia, Nyhill'in duzgun yurumedigini fark etti. Ziyafetten erken ayrilan Nyhill'i takip etmeni istedi.",
+      "goal": "Nyhill'i takip et"
+    },
+    "7690": {
+      "title": "Nyhill Nerede?",
+      "description": "Nyhill'i ararken supheli bir konusmaya kulak misafiri oldun. Nyhill'i bul.",
+      "goal": "Nyhill ile konus"
+    },
+    "7691": {
+      "title": "Ritueli Bekle",
+      "description": "Odaya don ve Belle ile konus. Rituel icin bir buyucunun gelmesi gerekiyordu.",
+      "goal": "Belle ile konus"
+    },
+    "7692": {
+      "title": "Rituele Katil",
+      "description": "Buyucunun yonlendirmesini izleyerek rituele katil.",
+      "goal": "Rituele katil"
+    },
+    "7693": {
+      "title": "Surpriz Saldiri",
+      "description": "Rituel sirasinda ani bir saldiri gerceklesti.",
+      "goal": ""
+    },
+    "7694": {
+      "title": "Ben de Gormek Istiyorum",
+      "description": "Herkes ayrildiktan sonra Kronecker'in baktigi kraliyet belgesini incele.",
+      "goal": "Librarian ile konus"
+    },
+    "7695": {
+      "title": "Kraliyet Ailesinin Gecmis Anilarindan Kacis",
+      "description": "Calismayan kapidan degil acil cikistan cikman gerekiyor. Kapi onundeki Guardian Knight sana yol gosterebilir.",
+      "goal": "Guardian Knight ile konus"
+    },
+    "7696": {
+      "title": "Sirada Ne Var?",
+      "description": "Simdi ne yapacagini bilmiyorsun. Belle'e sor.",
+      "goal": "Belle ile konus"
+    },
+    "7697": {
+      "title": "Nerius Ailesinden Davet",
+      "description": "Nerius ailesinden davet aldin. Onlari ziyaret et.",
+      "goal": "Nerius ailesini ziyaret et"
+    },
+    "7698": {
+      "title": "Simdi Heine",
+      "description": "Nerius ailesiyle konusurken Heine ailesini ziyaret etme istegi geldi.",
+      "goal": "Heine ailesini ziyaret et"
+    },
+    "7699": {
+      "title": "Gecmise",
+      "description": "Nillem ile birlikte boyut yariklarini baglayarak Past Memories of the Royal Family'i ziyaret etmen istendi. Nillem'i bul.",
+      "goal": "Nillem ile konus"
+    },
+    "7700": {
+      "title": "Bir Kez Daha",
+      "description": "Nillem'in zorla bukup actigi boyut yarigindan bir kez daha gec. Gecmiste Room of Consciousness'ta ne oldugunu ogren.",
+      "goal": "Room of Consciousness'a git"
+    },
+    "7701": {
+      "title": "Kayip Imir Heart",
+      "description": "Room of Consciousness'ta gercek Imir Heart'a ne oldugunu kontrol et.",
+      "goal": "Imir Heart'in akibetini ogren"
+    },
+    "7702": {
+      "title": "O Zamanki Prontera",
+      "description": "Prontera daha once Undead saldirisina ugramisti ve olay su anda gozlerinin onunde gerceklesiyor. Nillem'in israriyla disari cikmaya karar verdin.",
+      "goal": "Disari cik"
+    },
+    "7703": {
+      "title": "Gercegi Kim Biliyor?",
+      "description": "Simdiki zamana donup belgenin muhrunu acma ve gercegi ogrenme zamani. Her sey Past Memories of the Royal Family'de sakli.",
+      "goal": "Kronecker ile konus"
+    },
+    "7704": {
+      "title": "Degistirilemeyen Gecmis",
+      "description": "Bugun de Valkyrie tarafindan ele gecirilen Imir Heart'i kurtaramadin.",
+      "goal": ""
+    },
+    "7705": {
+      "title": "Birakamayacagin Umut",
+      "description": "Sonucun degisip degismeyecegi belli degil ama Room of Consciousness'ta yeniden denemen istendi. Bijou'yu yen ve Imir Heart parcasini koru.",
+      "goal": "Gecmisteki Room of Consciousness'a git"
+    },
+    "7706": {
+      "title": "Nillem Her Seye Kadir Degil",
+      "description": "Birden fazla baglanti kurmak Nillem icin bile zor. Room of Consciousness'a baglanmanin bir siniri var. Nillem'in toparlanmasini bekle.",
+      "goal": "Saat 4'te sifirlanmayi bekle"
     }
   }
 }
