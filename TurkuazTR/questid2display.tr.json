@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.66.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7671-7672 Lost Lamb ve 7681-7706 Royal Banquet, Past Memories ve Room of Consciousness gorevleri dahil",
+    "version": "6.67.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7711-7723 Lasagna ve Doram baslangic, servis ve temel egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9672,6 +9672,71 @@
       "title": "Nillem Her Seye Kadir Degil",
       "description": "Birden fazla baglanti kurmak Nillem icin bile zor. Room of Consciousness'a baglanmanin bir siniri var. Nillem'in toparlanmasini bekle.",
       "goal": "Saat 4'te sifirlanmayi bekle"
+    },
+    "7711": {
+      "title": "Baslangic",
+      "description": "Yo Ho! Pa~sta'dan gelen harika bir Doram'im! Laviol Mountain'i astim, Lasagna limanina geldim ve yeni kita Midgard'i kesfetmeye hazirim.",
+      "goal": "Ajena ile konus"
+    },
+    "7712": {
+      "title": "Neredeyim? Ben Kimim?",
+      "description": "Yo Ho! Pa~sta'dan gelen harika bir Doram'im! Liman sehri Lasagna yolunda Militiaman Alio sana daha fazla bilgi verebilir.",
+      "goal": "Alio ile konus"
+    },
+    "7713": {
+      "title": "Ilk Savas",
+      "description": "Bekledigim gibi Militiaman Alio yetenegimi sinamak istiyor. Bir Eggring benim icin sorun degil.",
+      "goal": "Eggring'i yen"
+    },
+    "7714": {
+      "title": "Serinletici Apple Juice",
+      "description": "Is sonrasi tatli ve soguk bir icecek gibisi yok. Militiaman Alio bunu iyi biliyor.",
+      "goal": "Apple Juice ic"
+    },
+    "7715": {
+      "title": "Kayip Kutu",
+      "description": "Kasabadaki bir cocuk delivery box'ini kaybetmis. Bir Doram olarak yardim etmek gorevin. Kutuyu bulmak icin Eggringleri avla.",
+      "goal": "Delivery Box'i bul"
+    },
+    "7716": {
+      "title": "Koye Dogru",
+      "description": "Kutuyu Eggring'den geri aldin. Militiaman Alio, kutuyu Lasagna tool shop'taki cocuga teslim etmeni istiyor.",
+      "goal": "Tool shop kid ile konus"
+    },
+    "7717": {
+      "title": "Tuccarin Iyiligi",
+      "description": "Toolshop sahibi sana yararli esyalar verdi ve ^4d4dffHaru the Healer^000000'i bulmani istedi. Haru, toolshop'un dogusundaki ^4d4dffsaksilarla dolu evde^000000 yasiyor.",
+      "goal": "Haru the Healer ile konus"
+    },
+    "7718": {
+      "title": "Buna Aliskinim",
+      "description": "Koy yakinindaki cayira git, ^4d4dffRed Grass^000000 topla ve ilac icin gereken ^4d4dff1 Red Herb^000000 ile geri don.",
+      "goal": "1 Red Herb getir"
+    },
+    "7719": {
+      "title": "Sindirim Zamani",
+      "description": "Lasagna koyu onundeki kediye yardim etmek icin biraz calis. ^4d4dffRed Grass'tan 2 Red Herb^000000 topla.",
+      "goal": "2 Red Herb getir"
+    },
+    "7720": {
+      "title": "Hizmet Kilavuzu",
+      "description": "Warehouse kullanimi ve location saving hizmeti hakkinda bilgi edindin.",
+      "goal": ""
+    },
+    "7721": {
+      "title": "Kedi Gosteris Yarismasi",
+      "description": "Iddia basladi. Kazanmak icin 10 dakika icinde 3 Lunatic ve 2 Fabre avla. Ikisi de yakinlarda bulunuyor.",
+      "goal": "10 dakikada 3 Lunatic ve 2 Fabre avla"
+    },
+    "7722": {
+      "title": "Acil Tibbi Mudahale",
+      "description": "Emergency Medical Treatment hakkinda bilgi edindin.",
+      "goal": ""
+    },
+    "7723": {
+      "title": "Icindeki Potansiyel",
+      "description": "Stat ve ability sistemi hakkinda bilgi edindin. Daha fazlasi icin Militiaman Nyoki ile konus.",
+      "goal": "Nyoki ile konus"
     }
   }
 }
