@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.13.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 15023-16106 Airship, Christmas, The Sign ve Kiel Hyre Academy bloklarindan 60 pending kayit dahil",
+    "version": "7.14.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 16107-17013 Kiel Hyre Academy devamı, Limberg-TPS ve Father Bamph-Rachel investigation bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -19081,6 +19081,306 @@
     "16106": {
       "title": "Kiel Hyre Academy",
       "description": "Delivery Package'i Kiel Hyre Academy'deki Elly'ye gotur.",
+      "goal": ""
+    },
+    "16107": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'nin cookie'leri pisirmesini bekle.",
+      "goal": ""
+    },
+    "16108": {
+      "title": "Kiel Hyre Academy",
+      "description": "Well-baked Cookie'leri Academy'nin bir map kuzeyindeki Kiel Hyre Cottage'da Elly'nin grandfather'ina gotur.",
+      "goal": ""
+    },
+    "16109": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'ye geri don ve grandfather'inin cottage'da olmadigini soyle.",
+      "goal": ""
+    },
+    "16110": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiel Hyre Cottage'a tekrar git. Elly sana side door'dan girmene yarayacak Cottage Key verdi.",
+      "goal": ""
+    },
+    "16111": {
+      "title": "Kiel Hyre Academy",
+      "description": "Uzerinde \"6 ileri, 3 sol, 3 ileri, 4 sol\" yazan katlanmis bir note buldun.",
+      "goal": ""
+    },
+    "16112": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'ye yazilmis bir letter buldun. Ona geri gotur.",
+      "goal": ""
+    },
+    "16113": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly ile konusmaya devam et.",
+      "goal": ""
+    },
+    "16114": {
+      "title": "Kiel Hyre Academy",
+      "description": "Cottage'daki study room'u ara ve Elly'nin grandfather'inin biraktigi izleri bul. Bir sey bulunca Academy arkasindaki dormitory'ye git.",
+      "goal": ""
+    },
+    "16115": {
+      "title": "Kiel Hyre Academy",
+      "description": "Uzerinde Kiel Hyre Foundation Seal bulunan bos bir kagit buldun. Bos kagitta seal olmasi garip.",
+      "goal": ""
+    },
+    "16116": {
+      "title": "Kiel Hyre Academy",
+      "description": "Bos kagida blue ink kullaninca little lost devil tarafindan yazilmis garip bir poem ortaya cikti. Ne anlama geliyor olabilir?",
+      "goal": ""
+    },
+    "16117": {
+      "title": "Gizemli World Map",
+      "description": "Map'i duvardan gevsetmeye yarayacak bir sey bul.",
+      "goal": ""
+    },
+    "16118": {
+      "title": "Gizli Siir",
+      "description": "Map'in arkasinda uzerinde poem bulunan bir kagit buldun. Burada baska gizli ipuclari da olabilir.",
+      "goal": ""
+    },
+    "16119": {
+      "title": "Snake Swords",
+      "description": "Pool'daki button'a bastiginda hallway stairs tarafindan metalik bir ses geldi.",
+      "goal": ""
+    },
+    "16120": {
+      "title": "Bir Ruya mi?",
+      "description": "Zihnin bir yere suruklendi. Test tube'lari incele.",
+      "goal": ""
+    },
+    "16121": {
+      "title": "Gizli Kod?",
+      "description": "Test tube'dan gelen ses su sayilari unutmamani soyledi: 4, 7, 7, 2, 9, 6, 1.",
+      "goal": ""
+    },
+    "16122": {
+      "title": "Old Copper Key",
+      "description": "Calabash icinde Old Copper Key buldun. Bu key ne icin olabilir?",
+      "goal": ""
+    },
+    "16123": {
+      "title": "Green Keycard",
+      "description": "Locked box icinde Green Keycard buldun. Nerede kullaniliyor olabilir?",
+      "goal": ""
+    },
+    "16124": {
+      "title": "Steel Box",
+      "description": "Bookshelf arkasindaki safe icinde Steel Box buldun. Elly'nin grandfather'inin bulmasini istedigi sey bu olabilir.",
+      "goal": ""
+    },
+    "16125": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly'nin cookie basket'inda ghost gordugunu yazan bir note buldun. Lanetlendiyse \"Wake up, Elly!\" diye bagirman gerektigini hatirliyorsun.",
+      "goal": ""
+    },
+    "16126": {
+      "title": "Kiel Hyre Academy",
+      "description": "Elly bir anligina uyandi ve Golden Key ile Luxurious Button dusurdu. Tekrar uyandirabilir misin kontrol et.",
+      "goal": ""
+    },
+    "16127": {
+      "title": "Kiel Hyre Academy",
+      "description": "Dormitory onundeki grave'de factory secret room'u bul. Giris icin Yellow Keycard kullan.",
+      "goal": ""
+    },
+    "16128": {
+      "title": "Kiel Hyre Academy",
+      "description": "Factory'ye girdin. Allysia'nin hideout'unu bul ve Blue Keycard kullanarak iceri gir.",
+      "goal": ""
+    },
+    "16129": {
+      "title": "Kiel Hyre Academy",
+      "description": "Golden Key'i gostererek Allysia'yi Elly'ye yardim ettigine ikna ettin.",
+      "goal": ""
+    },
+    "16130": {
+      "title": "Kiel Hyre Academy",
+      "description": "Factory secret area'larina giris saglayan Red Keycard'i aldin. Kiel Hyre'i bulmak icin kullan.",
+      "goal": ""
+    },
+    "16131": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiel Hyre'i bir door arkasinda mahsur buldun. Allysia'ya goturmen icin sana Metal Fragment verdi.",
+      "goal": ""
+    },
+    "16132": {
+      "title": "Kiel Hyre Academy",
+      "description": "Lighthalzen'daki Kiel Hyre Mansion'a git. Auction Hall'un hemen kuzeyinde. Iceri girmek icin Golden Key'i goster.",
+      "goal": ""
+    },
+    "16133": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiel Hyre yardimin icin minnettar. Buradaki gorevin bitmis gorunuyor. Dinlenmesine izin ver ve mansion'dan ayril.",
+      "goal": ""
+    },
+    "16134": {
+      "title": "Kiel Hyre Academy",
+      "description": "Rekenber Corporation agent'i Mitchell Layla tarafindan pusuya dusuruldun. Allysia hakkinda bilgi sahibi olabilecek Juno'daki yasli kadini bulmani soyledi.",
+      "goal": ""
+    },
+    "16135": {
+      "title": "Kiel Hyre Academy",
+      "description": "Rosimier Mansion Keys'i aldin. Mansion'i iyice ara ve bulduklarini Old Lady'ye anlat.",
+      "goal": ""
+    },
+    "16136": {
+      "title": "Kiel Hyre Academy",
+      "description": "Old Lady, Kiel Hyre Academy'nin guneyinde yasayan Fisherman ile konusmani soyledi. Allysia'nin body sini river'da bulan oydu.",
+      "goal": ""
+    },
+    "16137": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiel Hyre Academy'nin dogusundaki Schwartzvalt guard camp yakinindaki hut'u incele.",
+      "goal": ""
+    },
+    "16138": {
+      "title": "Kiel Hyre Academy",
+      "description": "Artik yeterince bilgin var. Lighthalzen'daki Kiel Hyre Mansion'a donup Mitchell'a rapor ver.",
+      "goal": ""
+    },
+    "16139": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiehl'in gercekte kim oldugunu ve Rekenber ile iliskisini ogrenmek icin Kiel Hyre ile yuzles.",
+      "goal": ""
+    },
+    "16140": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiel Hyre sana Kiehl'i zayiflatacak bir Power Device verdi. Hazir oldugunda Kiehl'in room'una gonderilmek icin Kiel Hyre ile konus.",
+      "goal": ""
+    },
+    "16141": {
+      "title": "Kiel Hyre Academy",
+      "description": "Vase'in altinda \"Rabbit sik sik door'u izler. Door'u ac.\" yaziyor.",
+      "goal": ""
+    },
+    "16142": {
+      "title": "Kiel Hyre Academy",
+      "description": "Room'un sonundaki Big Door bir ses cikariyor ve box acilarak Toy Key ortaya cikiyor. Dungeon'da Kiehl'i ara.",
+      "goal": ""
+    },
+    "16143": {
+      "title": "Kiel Hyre Academy",
+      "description": "Robot spawn'larini yen.",
+      "goal": ""
+    },
+    "16144": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiehl'i yen.",
+      "goal": ""
+    },
+    "16145": {
+      "title": "Kiel Hyre Academy",
+      "description": "Kiehl'in eski body sinden Allysia's Ring'i al ve kac.",
+      "goal": ""
+    },
+    "16146": {
+      "title": "Kiel Hyre Academy",
+      "description": "Allysia's Ring'i Lighthalzen'daki mansion'inda Kiel Hyre'e gotur.",
+      "goal": ""
+    },
+    "16200": {
+      "title": "Limberg'in Talebi",
+      "description": "Survey Leader Limberg eksik supplies'i toplamani istedi.",
+      "goal": "20 Ice Cubic ve 5 Ice Cream"
+    },
+    "16201": {
+      "title": "TPS Report",
+      "description": "Survey Leader Limberg baska bir iyilik istedi. Nogg Road'un en altina in ve diger team member'lardan TPS Report'u al.",
+      "goal": ""
+    },
+    "16202": {
+      "title": "TPS Report",
+      "description": "Surveyor Peter TPS Report hazirlamak istemedigini soyledi. Raporu baska birinden bulman gerekecek.",
+      "goal": ""
+    },
+    "16203": {
+      "title": "TPS Report",
+      "description": "Surveyor Bob sana TPS Report'unu verdi. Survey Leader Limberg'e geri gotur.",
+      "goal": ""
+    },
+    "16204": {
+      "title": "Duvardaki Catlak",
+      "description": "Limberg, Nogg Road'a geri donup TPS Report'ta yazan wall crack'in icinde ne oldugunu bulmani istedi. Icine atla ve diger uca bak.",
+      "goal": ""
+    },
+    "16205": {
+      "title": "Bos Lava Tube",
+      "description": "Bos lava tube'dan asagi atladin ve Thor Volcano'ya ulastin. Bulduklarini Survey Leader Limberg'e rapor ver.",
+      "goal": ""
+    },
+    "17000": {
+      "title": "Father Bamph ile Bulus",
+      "description": "International Airship'teki bir agent, Father Bamph'in Prontera Church'te seni bekledigini soyledi. Onunla gorus.",
+      "goal": "Father Bamph ile konus"
+    },
+    "17001": {
+      "title": "Larjes ile Bulus",
+      "description": "Father Bamph, yuksek rutbeli bir official'in kayboldugunu ve son olarak Comodo'da goruldugunu anlatti. Larjes'i bul; aramada sana yardim edecek.",
+      "goal": "Larjes ile konus"
+    },
+    "17002": {
+      "title": "Father Bamph'a Rapor Ver",
+      "description": "Larjes, official'in Arunafeltz'den bir organization tarafindan kacirildigini soyledi. Father Bamph'a rapor ver.",
+      "goal": "Father Bamph ile konus"
+    },
+    "17003": {
+      "title": "Rachel'a Git",
+      "description": "Father Bamph, kayip official arastirmasina devam etmek icin onun adina Rachel'a gitmeni istiyor.",
+      "goal": "Izlude Airship ile Rachel'a git"
+    },
+    "17004": {
+      "title": "Veins'e Git",
+      "description": "Masanin yanindaki konusmayi gizlice dinledikten sonra daha fazla Veins Striped Stickleback bulmak icin Veins'e gitmeye karar verdin.",
+      "goal": "Veins"
+    },
+    "17005": {
+      "title": "Sinirli Magistrate",
+      "description": "Magistrate Al Hamad sorunlarini yabancilarla konusmaktan rahatsiz. Durumu bilebilecek birini bul.",
+      "goal": ""
+    },
+    "17006": {
+      "title": "Sorgulanan Smuggler'lar",
+      "description": "Smuggler'lar goturulmeden once sorgulanabildi mi diye Magistrate'e sor.",
+      "goal": "Magistrate Al Hamad"
+    },
+    "17007": {
+      "title": "Yazili Emir",
+      "description": "Smuggler'lar hakkinda daha fazlasini ogrenmek istiyorsan Al Hamad'a yuksek rutbeli bir officer'dan written order getir.",
+      "goal": ""
+    },
+    "17008": {
+      "title": "Arastirma",
+      "description": "High Priest Zhed baska islerle mesgul oldugunu, ancak High Priestess Niren'in Veins smuggler'lari hakkinda bir sey bilebilecegini soyledi.",
+      "goal": "High Priestess Niren"
+    },
+    "17009": {
+      "title": "Daha Fazla Arastirma",
+      "description": "High Priestess Niren, Rune-Midgarts'tan gelen high ranking official'in hala hayatta olup olmadigini ogrenmeni istedi. Yolculuk icin Magistrate Al Hamad'dan bilgi al.",
+      "goal": "Magistrate Al Hamad"
+    },
+    "17010": {
+      "title": "Arastirmaya Devam",
+      "description": "Magistrate Al Hamad smuggler'lar ve high ranking Rune-Midgarts official ile olan iliskilerini anlatti. Veins'e git ve kayboluslari bilen birini ara.",
+      "goal": ""
+    },
+    "17011": {
+      "title": "Kurdi'nin Babasi",
+      "description": "Drunkard denizde bir ghost'tan bahsetti. Fisherman olan Kurdi'nin babasina sor; bir sey biliyor olabilir.",
+      "goal": "Kurdi'nin babasi"
+    },
+    "17012": {
+      "title": "Karyn'in Boat'u",
+      "description": "Karyn'in babasinin denize acilmasina izin yok. Karyn boat'u odunc alabilecegini soyledi. South beach'teki tek boat oldugu icin bulmak kolay olmali.",
+      "goal": ""
+    },
+    "17013": {
+      "title": "Island'a Git",
+      "description": "Larjes seni takip ettigini acikladi ve monastery'ye yelken acmana yardim teklif etti. Island'a varinca cevreyi arastir.",
       "goal": ""
     }
   }
