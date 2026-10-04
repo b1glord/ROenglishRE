@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.88.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 9024-9173 Brasilis, St. Patrick, Lina, Louyang, Jaty Crown ve tutorial gorevlerinden secili pending bloklar dahil",
+    "version": "6.89.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 9222-9296 Hospital 2F, Mystery Robbery, Mage Job Change ve Magic Tournament bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11582,6 +11582,306 @@
       "title": "Tutorial Bekleme Suresi",
       "description": "Tutorial Instructor derslerini yeniden alabilmek icin 20 saat beklemelisin.",
       "goal": "20 saat bekle"
+    },
+    "9222": {
+      "title": "Hospital 2F'deki Bangungot'u Yok Et",
+      "description": "^0000FFBangungot^000000'u bulup yen, sonra Nurse'a don.",
+      "goal": ""
+    },
+    "9223": {
+      "title": "Hastaneye Huzur Gelecek mi?",
+      "description": "^0000FFBangungot^000000 yenildiginde hastaneye huzur gelecek mi? Bir sure sonra Nurse'a tekrar git.",
+      "goal": ""
+    },
+    "9224": {
+      "title": "Hospital 2F'yi Arastir",
+      "description": "Karanlik enerjiyle dolup tasan ^0000FFHospital 2F^000000'yi arastir.",
+      "goal": ""
+    },
+    "9225": {
+      "title": "Gizemli Hirsizlik Olayi 1",
+      "description": "Bilincini kaybettikten sonra birinin evinde uyandin. Sana yardim etmis gibi gorunen kisilerle konus.",
+      "goal": ""
+    },
+    "9226": {
+      "title": "Gizemli Hirsizlik Olayi 2",
+      "description": "Kayip kolyeyle ilgili kanit toplamak icin magdurlarla gorus. Luen'in ifadesini dinle.",
+      "goal": ""
+    },
+    "9227": {
+      "title": "Gizemli Hirsizlik Olayi 3",
+      "description": "Kayip kolyeyle ilgili kanit toplamak icin magdurlarla gorus. Dames'in ifadesini dinle.",
+      "goal": ""
+    },
+    "9228": {
+      "title": "Gizemli Hirsizlik Olayi 4",
+      "description": "Kayip kolyeyle ilgili kanit toplamak icin magdurlarla gorus. Rosa'nin ifadesini dinle.",
+      "goal": ""
+    },
+    "9229": {
+      "title": "Gizemli Hirsizlik Olayi 5",
+      "description": "Odayi incelerken dusuncelerini ve gorusmelerde verilen cevaplari duzenle.",
+      "goal": ""
+    },
+    "9230": {
+      "title": "Gizemli Hirsizlik Olayi 6",
+      "description": "Olay yeri incelemesine basla. Poppy, Luen'in gunlugu, hasarli kitap, icecek kutusu kabi, daginik masa ve yerdeki yabanci nesneyle ilgili bulgulari Luen'e bildir.",
+      "goal": ""
+    },
+    "9231": {
+      "title": "Gizemli Hirsizlik Olayi 7",
+      "description": "Olay yeri incelemesi tamamlandi. Saha arastirmasina basla ve Luen'in erkek arkadasi Cruyan ile gorus.",
+      "goal": ""
+    },
+    "9232": {
+      "title": "Gizemli Hirsizlik Olayi 8",
+      "description": "Cruyan arastirmasi tamamlandi. Cicek acan topraklarda Dames'in arkadasi Balumin ile gorus.",
+      "goal": ""
+    },
+    "9233": {
+      "title": "Gizemli Hirsizlik Olayi 9",
+      "description": "Balumin arastirmasi tamamlandi. Eclage'deki Wandering Merchant ile gorus. Ipuclari: O bir Lapine degil.",
+      "goal": ""
+    },
+    "9234": {
+      "title": "Gizemli Hirsizlik Olayi 10",
+      "description": "Wandering Merchant arastirmasi tamamlandi. Gorusmelerin, olay yeri incelemesinin ve saha arastirmasinin bittigini Luen'e bildir.",
+      "goal": ""
+    },
+    "9235": {
+      "title": "Gizemli Hirsizlik Olayi 11",
+      "description": "Gorusmeler, olay yeri incelemesi ve saha arastirmasindan elde edilen bilgilerle sucluyu bul.",
+      "goal": ""
+    },
+    "9236": {
+      "title": "Gizemli Hirsizlik Olayi 12",
+      "description": "Olay cozuldu. Disarida Luen ile konus.",
+      "goal": ""
+    },
+    "9237": {
+      "title": "Gizemli Hirsizlik Olayi 13",
+      "description": "Olay cozuldu. Dames ile konus.",
+      "goal": ""
+    },
+    "9238": {
+      "title": "Gizemli Hirsizlik Olayi 14",
+      "description": "Olay cozuldu. Rosa ile konus.",
+      "goal": ""
+    },
+    "9239": {
+      "title": "Gizemli Hirsizlik Olayi 15",
+      "description": "Olay cozuldu. Cruyan ile konus.",
+      "goal": ""
+    },
+    "9240": {
+      "title": "Luen'in Ifade Notlari",
+      "description": "^0000FFLuen^000000'in ifade notlari: Cicek acan topraklarda yuruyuse cikti. Acele eden kisa kizil sacli birini gordu; cinsiyetini anlayamadi. Nadir sac rengi nedeniyle kisi tanidik gelmedi. Beni ilk Luen'in buldugunu saniyordu ama aslinda ilk bulan annesiydi.",
+      "goal": ""
+    },
+    "9241": {
+      "title": "Luen'in Ifade Notlari",
+      "description": "^0000FFLuen^000000'in ifade notlari: Cicek acan topraklarda yuruyuse cikti. Acele eden kisa kizil sacli birini gordu; nadir sac rengi nedeniyle kisi tanidik gelmedi. Babasinin arkadasi Balumin'in evin onunden gectigini gordu. Beni gormus olmasi gerekirken neden durmadigini merak ediyor.",
+      "goal": ""
+    },
+    "9242": {
+      "title": "Luen'in Ifade Notlari",
+      "description": "^0000FFLuen^000000'in ifade notlari: Cicek acan topraklarda yuruyuse cikti. Acele eden kisa kizil sacli birini gordu; nadir sac rengi nedeniyle kisi tanidik gelmedi. Beni ilk Luen'in buldugunu saniyordu ama aslinda ilk bulan annesiydi.",
+      "goal": ""
+    },
+    "9243": {
+      "title": "Luen'in Ifade Notlari",
+      "description": "^0000FFLuen^000000'in ifade notlari: Cicek acan topraklarda yuruyuse cikti. Acele eden kisa kizil sacli birini gordu; nadir sac rengi nedeniyle kisi tanidik gelmedi. Babasinin arkadasi Balumin'in evin onunden gectigini gordu. Beni gormus olmasi gerekirken neden durmadigini merak ediyor.",
+      "goal": ""
+    },
+    "9244": {
+      "title": "Dames'in Ifade Notlari",
+      "description": "^0000FFDames^000000'in ifade notlari: Bir arkadasiyla gorustukten sonra eve dondu. Arkadasi pek olgun degil ama iyi biri. Sik sik sikayet ettigi icin esinden supheleniyor.",
+      "goal": ""
+    },
+    "9245": {
+      "title": "Dames'in Ifade Notlari",
+      "description": "^0000FFDames^000000'in ifade notlari: Bir arkadasiyla gorustukten sonra eve dondu. Arkadasi pek olgun degil ama iyi biri. Esi yakin zamanda yeni bir kolye istedi ama Dames reddetti; bu yuzden esinin kin tutup bu olayi kurgulamis olabileceginden supheleniyor.",
+      "goal": ""
+    },
+    "9246": {
+      "title": "Dames'in Ifade Notlari",
+      "description": "^0000FFDames^000000'in ifade notlari: Bir arkadasiyla gorustukten sonra eve dondu. Arkadasi pek olgun degil ama iyi biri. Sik sik sikayet ettigi icin esinden supheleniyor.",
+      "goal": ""
+    },
+    "9247": {
+      "title": "Dames'in Ifade Notlari",
+      "description": "^0000FFDames^000000'in ifade notlari: Bir arkadasiyla gorustukten sonra eve dondu. Arkadasi pek olgun degil ama iyi biri. Esi yakin zamanda yeni bir kolye istedi ama Dames reddetti; bu yuzden esinin kin tutup bu olayi kurgulamis olabileceginden supheleniyor.",
+      "goal": ""
+    },
+    "9248": {
+      "title": "Rosa'nin Ifade Notlari",
+      "description": "^0000FFRosa^000000'nin ifade notlari: Alisveristen dondu, beni iceri almaya calisti ancak evi daginik gorunce korkup tekrar disari cikamadi. Aile uyelerinden suphelenmiyor.",
+      "goal": ""
+    },
+    "9249": {
+      "title": "Rosa'nin Ifade Notlari",
+      "description": "^0000FFRosa^000000'nin ifade notlari: Alisveristen dondu, beni iceri almaya calisti ancak evi daginik gorunce korkup tekrar disari cikamadi. Kolye cok pahali degilken neden calindigini merak ediyor.",
+      "goal": ""
+    },
+    "9250": {
+      "title": "Rosa'nin Ifade Notlari",
+      "description": "^0000FFRosa^000000'nin ifade notlari: Alisveristen dondu. Evin daginik olmasi disinda ozellikle supheli bir sey yoktu. Kolye cok onemli gorunuyor ve aile uyelerinden suphelenmiyor.",
+      "goal": ""
+    },
+    "9251": {
+      "title": "Rosa'nin Ifade Notlari",
+      "description": "^0000FFRosa^000000'nin ifade notlari: Alisveristen dondu, beni iceri almaya calisti ancak evi daginik gorunce korkup tekrar disari cikamadi. Kolye cok pahali degilken neden calindigini merak ediyor.",
+      "goal": ""
+    },
+    "9252": {
+      "title": "Poppy'yi Gozlemle",
+      "description": "^0000FFPoppy^000000 gozlem notlari: Yabancilara karsi saldirgan. Hirsiza karsi sakin kalmasi garip. Suclu ya ailenin tanidigi ya da hayvanlarla cok iyi anlasan biri olabilir.",
+      "goal": ""
+    },
+    "9253": {
+      "title": "Daginik Kitapligi Incele",
+      "description": "^0000FFDaginik Kitaplik^000000 inceleme notlari: Luen'in gunlugu bulundu. Annesinin erkek arkadasiyla iliskisine karsi cikmasindan ve erkek arkadasinin annesinin guvenini kazanma isteginden soz ediyor.",
+      "goal": ""
+    },
+    "9254": {
+      "title": "Hasarli Kitabi Incele",
+      "description": "^0000FFHasarli kitap^000000 inceleme notlari: Kitap bilerek hasar verilmis gibi gorunuyor. Hirsizlik sahnesi kasitli olarak kurgulanmis olabilir.",
+      "goal": ""
+    },
+    "9255": {
+      "title": "Icecek Kabini Incele",
+      "description": "^0000FFIcecek kutusu kabi^000000 inceleme notlari: Dames'in ifadesine gore 15 sise alkol olmaliydi ama yalnizca 13 tane var. Suclu alkolden hoslaniyor olabilir.",
+      "goal": ""
+    },
+    "9256": {
+      "title": "Daginik Masayi Incele",
+      "description": "^0000FFDaginik masa^000000 inceleme notlari: Rosa'nin ifadesine gore mucevher kutusu kolyeden daha pahali gorunuyor. Suclu yalnizca kolyeyi hedeflemis olabilir.",
+      "goal": ""
+    },
+    "9257": {
+      "title": "Yabanci Nesneyi Incele",
+      "description": "^0000FFYerde bulunan yabanci nesne^000000 inceleme notlari: Son derece onemli bir bulgu elde edildi. Olaylarin nasil gelisecegine bakmak gerek; sorusturma yakinda sonuca ulasabilir.",
+      "goal": ""
+    },
+    "9258": {
+      "title": "Olay Yeri Inceleme Sonuclari",
+      "description": "Suclu bir tanidik veya hayvan egiticisi olabilir. Luen'in annesinin onaylamadigi erkek arkadasi da supheli. Olay yeri sahte olabilir, suclu alkolden hoslaniyor olabilir ve maddi kazanc asil neden olmayabilir. Luen'in evindeki onemli bulguyla birlikte arastirmaya devam et.",
+      "goal": ""
+    },
+    "9259": {
+      "title": "Cruyan'in Ifadesini Dogrula",
+      "description": "^0000FFCruyan^000000'in ifadesini dogrula. Cicek acan topraklara git ve canavarlardan Concentration Potion dusup dusmedigini kontrol et. 5 Menblatt ve 30 Petal avla.",
+      "goal": "Av bittiginde Eclage girisi yakinindaki Balumin ile konus"
+    },
+    "9260": {
+      "title": "Saha Arastirmasi Notlari",
+      "description": "^0000FFCruyan^000000'in soyledigi Concentration Potion canavarlardan dusmuyor; mazereti dogrulanamadi. ^0000FFBalumin^000000'in tanigi yok ama mazeretinin bir kismi dogrulandi. ^0000FFWandering Merchant^000000 sarhostu ve kumar dolandiriciliginda ise yaramaz odul olarak Concentration Potion veriyordu.",
+      "goal": ""
+    },
+    "9262": {
+      "title": "Gizemli Hirsizlik Olayi 16",
+      "description": "Olay cozuldu. Balumin ile konus.",
+      "goal": ""
+    },
+    "9264": {
+      "title": "Mage Job Degisimi",
+      "description": "^8B4513Geffen field^000000 bolgesinde ^0000FFMage Guild Info Staff^000000'i bul ve konus.",
+      "goal": ""
+    },
+    "9265": {
+      "title": "Mage Job Degisimi",
+      "description": "^8B4513Geffen girisinde^000000 ^0000FFMage Guild Info Staff^000000'i bul ve konus.",
+      "goal": ""
+    },
+    "9266": {
+      "title": "Mage Job Degisimi",
+      "description": "^8B4513Geffen'in saat 11 yonundeki Mage Guild^000000 icinde ^0000FFMage Guild Info Staff^000000'i bul ve konus.",
+      "goal": ""
+    },
+    "9267": {
+      "title": "Guclu Bir Mage Olmanin Yolu - 1",
+      "description": "^8B4513Geffen^000000'in dogu cikisindan disari cik. 30 ^0000FFChonchon^000000 ve 30 ^0000FFPabre^000000 avla. Sonra field'in saat 5 yonundeki cikisinda ^0000FFMagician Master Assistant^000000 ile bulus.",
+      "goal": ""
+    },
+    "9268": {
+      "title": "Guclu Bir Mage Olmanin Yolu - 2",
+      "description": "30 ^0000FFRoda Frog^000000 ve 30 ^0000FFSavage Bebe^000000 avla. Sonra field'in saat 5 yonundeki cikisinda ^0000FFMage Master Assistant^000000 ile bulus.",
+      "goal": ""
+    },
+    "9269": {
+      "title": "Guclu Bir Mage Olmanin Yolu - 3",
+      "description": "Field'in saat 5 yonundeki cikisina git ve ^0000FFMagician Master Assistant^000000 ile bulus.",
+      "goal": ""
+    },
+    "9270": {
+      "title": "Guclu Bir Mage Olmanin Yolu - 4",
+      "description": "^8B4513Field^000000 bolgesinde 30 ^0000FFThief Bug^000000 ve 30 ^0000FFThief Bug Male^000000 avla. Sonra Prontera girisinin saat 3 yonu yakininda ^0000FFMagician Master Assistant^000000 ile bulus.",
+      "goal": ""
+    },
+    "9284": {
+      "title": "Geffen Gangsterlerini Durdur",
+      "description": "^8B4513Kafra^000000'ya zorbalik yapan ^0000FFGeffen Gangsters^000000 grubunu durdur.",
+      "goal": "Kafra'yi kurtar"
+    },
+    "9285": {
+      "title": "Geffen Gangsterlerini Yen",
+      "description": "^8B4513Geffen Gangsters^000000 grubunu yendin ama yakinda tekrar karsilasabilirsiniz.",
+      "goal": "Magic Tournament'a kaydol"
+    },
+    "9286": {
+      "title": "Geffen Gangsterlerini Durdur",
+      "description": "^8B4513Bir ogrenciye^000000 zorbalik yapan ^0000FFGeffen Gangsters^000000 grubunu durdur.",
+      "goal": "Ogrenciyi kurtar"
+    },
+    "9287": {
+      "title": "Geffen Gangsterlerini Yen",
+      "description": "^8B4513Geffen Gangsters^000000 grubunu yendin ama yakinda tekrar karsilasabilirsiniz.",
+      "goal": "Magic Tournament'a kaydol"
+    },
+    "9288": {
+      "title": "Geffen Hirsizini Yakala",
+      "description": "^8B4513Geffen Resident^000000'in parasini calan ^0000FFGeffen Shoplifter^000000'i yakala.",
+      "goal": "Geffen Shoplifter'i yakala"
+    },
+    "9289": {
+      "title": "Hirsizdan Esyalari Geri Al",
+      "description": "^8B4513Geffen Shoplifter^000000'den sakinin maasi geri alindi. Onunla yeniden karsilasacakmisiz gibi gorunuyor.",
+      "goal": "Magic Tournament'a kaydol"
+    },
+    "9290": {
+      "title": "Magic Tournament'a Katil",
+      "description": "Guneydeki cesme yanindaki Receptionist ile konusup ^8B4513Magic Tournament^000000'a katil.",
+      "goal": ""
+    },
+    "9291": {
+      "title": "Magic Tournament'a Katil",
+      "description": "Guneydeki cesme yanindaki Receptionist ile konusup ^8B4513Magic Tournament^000000'a katil.",
+      "goal": ""
+    },
+    "9292": {
+      "title": "Magic Tournament'a Katil",
+      "description": "Guneydeki cesme yanindaki Receptionist ile konusup ^8B4513Magic Tournament^000000'a katil.",
+      "goal": ""
+    },
+    "9293": {
+      "title": "Magic Tournament Kaydi",
+      "description": "^8B4513Magic Tournament^000000'a katilmak icin 1 ^0000FFDesert Wolf^000000 yen.",
+      "goal": "Desert Wolf avla"
+    },
+    "9294": {
+      "title": "Kayit Tamamlandi",
+      "description": "Magic Tournament'a katilmak icin ^8B4513Geffen^000000'in guneyindeki cesmenin altinda bulunan ^0000FFportal^000000'a gir.",
+      "goal": "Portala gir"
+    },
+    "9295": {
+      "title": "Turnuvanin 1. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
+    },
+    "9296": {
+      "title": "Turnuvanin 2. Maci Basladi",
+      "description": "Rakibini savasta yen.",
+      "goal": ""
     }
   }
 }
