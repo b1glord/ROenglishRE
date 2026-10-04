@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.98.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 11356-11418 Specimen Collection, Phantasmagorika, Final Room, Vestige, Royal Head Chef ve Geoborg bloklarindan 60 pending kayit dahil",
+    "version": "6.99.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 11419-11600 Banquet, Parepele Vigilante, Jakk, Jakk's Cat ve Old Memories bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -14582,6 +14582,306 @@
       "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
       "description": "Tamarin'e geri don.",
       "goal": "Tamarin ile konus"
+    },
+    "11419": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Dining Hall'dan 15 tabak topla ve mutfaktaki Dishwasher'a gotur.",
+      "goal": "Dishwasher ile konus"
+    },
+    "11420": {
+      "title": "Neden Ziyafet Icin Hazirlik Yapmaliyim?",
+      "description": "Head Chef'e geri don.",
+      "goal": "Head Chef ile konus"
+    },
+    "11421": {
+      "title": "Ziyafet: Beklenmedik Sauce",
+      "description": "Master ile birlikte sauce hazirla.",
+      "goal": "Sauce hazirla"
+    },
+    "11422": {
+      "title": "Bugunun Sauce'u Tamamlandi",
+      "description": "Bugun icin sauce hazirlamayi tamamladin. Yarin tekrar gel.",
+      "goal": ""
+    },
+    "11423": {
+      "title": "Ziyafet: Griffin Barbecue",
+      "description": "Head Chef'in talimatlarini izleyerek grilled griffin hazirla.",
+      "goal": "Grilled Griffin hazirla"
+    },
+    "11424": {
+      "title": "Ziyafet: Griffin Barbecue",
+      "description": "Citir kabuklu, sulu etli ve ozel sauce ile kapli grilled griffin'i dining room'a gotur.",
+      "goal": "Dining Room'a teslim et"
+    },
+    "11425": {
+      "title": "Bugunun Grilled Griffin'i Tamamlandi",
+      "description": "Bugun icin grilled griffin hazirlamayi tamamladin. Yarin tekrar gel.",
+      "goal": ""
+    },
+    "11426": {
+      "title": "Ziyafet: 15 Tabak Yikama",
+      "description": "Dining Hall'dan 15 tabak topla ve mutfaktaki Dishwasher'a gotur.",
+      "goal": "Tabaklari topla"
+    },
+    "11427": {
+      "title": "Bugunun Tabak Toplamasi Tamamlandi",
+      "description": "Bugun icin tabaklari toplamayi tamamladin. Yarin tekrar gel.",
+      "goal": ""
+    },
+    "11428": {
+      "title": "Sauce Icin Malzeme",
+      "description": "Taze Tat",
+      "goal": ""
+    },
+    "11429": {
+      "title": "Sauce Icin Malzeme",
+      "description": "Jelimsi Doku",
+      "goal": ""
+    },
+    "11430": {
+      "title": "Sauce Icin Malzeme",
+      "description": "Gorkemli Isik",
+      "goal": ""
+    },
+    "11431": {
+      "title": "Sauce Icin Malzeme",
+      "description": "Yumusak Tat",
+      "goal": ""
+    },
+    "11432": {
+      "title": "Supheli Gorev",
+      "description": "Izlude port yakinindaki Suspicious Man ile konus.",
+      "goal": "Izlude port'a git"
+    },
+    "11433": {
+      "title": "Supheli Gorev",
+      "description": "Lasagna'dan 100 Basil topla ve Suspicious Man'e geri don.",
+      "goal": "100 Basil topla"
+    },
+    "11434": {
+      "title": "Supheli Gorev",
+      "description": "Basil'i Prontera mutfaginda kalan Royal Chef'e teslim et. Bu gizli bir gorev, yakalanma.",
+      "goal": "Basil teslimati"
+    },
+    "11435": {
+      "title": "Parepele Vigilante",
+      "description": "Parepele Vigilante'in lideri Chief Peperoncino ile bulus. Onu Lasagna koyunun dogusundaki Adventurer's Club'da bulabilirsin.",
+      "goal": "Vigilante Leader Chief Peperoncino ile konus"
+    },
+    "11436": {
+      "title": "Parepele Vigilante",
+      "description": "Vigilante Chief Peperoncino ile konustun. Diger konular icin Olio ile konus.",
+      "goal": "Olio ile konus"
+    },
+    "11437": {
+      "title": "Parepele Vigilante",
+      "description": "Chief'in onayi gerekiyor. Peperoncino ile konus.",
+      "goal": "Peperoncino ile konus"
+    },
+    "11438": {
+      "title": "Parepele Vigilante",
+      "description": "Ilk test basladi. Peperoncino'yu takip et.",
+      "goal": "Peperoncino ile konus"
+    },
+    "11439": {
+      "title": "Parepele Vigilante",
+      "description": "Basilisk prisoner'dan bilgi al.",
+      "goal": "Basilisk prisoner ile konus"
+    },
+    "11440": {
+      "title": "Parepele Vigilante",
+      "description": "Raviol Forest'un dogu disina git ve dev Thorn Vine'lardan topla.",
+      "goal": "5 Hard Thorn Vine topla"
+    },
+    "11441": {
+      "title": "Parepele Vigilante",
+      "description": "Thorn Vine Pipe kullanarak Basilisk prisoner'dan bilgi al.",
+      "goal": "Basilisk prisoner ile konus"
+    },
+    "11442": {
+      "title": "Parepele Vigilante",
+      "description": "Basilisk prisoner'dan bilgi aldin. Adventurer's Club'daki Peperoncino ile konus.",
+      "goal": "Peperoncino ile konus"
+    },
+    "11443": {
+      "title": "Parepele Vigilante",
+      "description": "Ikinci test. Koyun kuzeybati tarafinda duran Tali ile konus.",
+      "goal": "Tali ile konus"
+    },
+    "11444": {
+      "title": "Parepele Vigilante",
+      "description": "Raviol Forest'a git, Sweet Roda Frog'lari yen ve 2 Luxurious Cloth topla.",
+      "goal": "2 Luxurious Cloth topla"
+    },
+    "11445": {
+      "title": "Parepele Vigilante",
+      "description": "Adventurer's Club'daki Peperoncino ile konus.",
+      "goal": "Peperoncino ile konus"
+    },
+    "11446": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Hayaletlerin fisiltilariyla uyandin. Kendini oluler sehri Niflheim'da buldun. Hayaletlerin ne dedigini dinle.",
+      "goal": "Hororong ile konus"
+    },
+    "11447": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Plaza'daki Jakk'in bir sey biliyor olabilecegini soyluyorlar. Plaza'daki Jakk'a sor.",
+      "goal": "Jakk ile konus"
+    },
+    "11448": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Jakk'in eskiden kaldigi yeri ogrendin. Hooroorong'a geri don.",
+      "goal": "Hooroorong ile konus"
+    },
+    "11449": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Field ve dungeon bolgelerinde kacan yaklasik 10 Jakk'i yakala. Yakalarken dusen 10 Pumpkin_Decoration ve 20 Dry_White_Stem'i Hororong'a getir.",
+      "goal": "Jakk'i Niflheim'a gonder"
+    },
+    "11450": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Jakk'i Niflheim'a getirdin. Hayaletlere gore Jakk uzun sure yasayanlar diyarinda kalirsa sapi buyuyebilir. Biraz dinlenmesine izin ver.",
+      "goal": "Jakk'in dinlenmesi"
+    },
+    "11451": {
+      "title": "Jakk ve Jakk'in Jakky Gunleri",
+      "description": "Field ve dungeon bolgelerinde kacan yaklasik 10 Jakk'i yakala. Yakalarken dusen 10 Pumpkin_Decoration ve 20 Dry_White_Stem'i Hororing'e getir.",
+      "goal": "Jakk'i Niflheim'a gonder"
+    },
+    "11484": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Anlamak zor ama 1 Dry White Stem alip Jakk'a geri donmen gerekiyor gibi.",
+      "goal": "1 Dry White Stem al"
+    },
+    "11485": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk yakalanirken sasiran kitty kacmis gibi. Jakk ile birlikte olan Harorong'a sor.",
+      "goal": "Harorong ile konus"
+    },
+    "11486": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Giristeki Nibble kitty'yi gormus olabilir. Niflheim'in bati girisindeki Nibble ile konus.",
+      "goal": "Bati Niflheim'daki Nibble"
+    },
+    "11487": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Kucuk, beyaz bir sey kisa sure once hizla giristen gecmis. Kedi olup olmadigindan emin degiller. Girisin disindaki kisiye sor.",
+      "goal": "Gergin Jakk ile konus"
+    },
+    "11488": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk, kitty'nin 'orasi' denen yere gittigini soyledi. Kitty'yi arayan Jakk'a haber ver.",
+      "goal": "Jakk ile konus"
+    },
+    "11489": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk'in kitty'si Yggdrasil sapindan Midgard'a gitmis gibi. Muhtemelen Umbala'dan gecti. Arastir.",
+      "goal": "Umbala kuzey girisini arastir"
+    },
+    "11490": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Researcher, kucuk beyaz seye Morocc'a nasil gidilecegini anlattigini soyledi. Morocc'un kuzey girisi yakinini arastir.",
+      "goal": "Morocc girisini arastir"
+    },
+    "11491": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Merchant, birine Alberta'ya nasil gidilecegini anlattigini soyledi. Alberta'nin kuzey girisini arastir.",
+      "goal": "Alberta girisini arastir"
+    },
+    "11492": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Harbor yakininda senden fish almak isteyen cok sayida kedi var. Harbor cevresini arastir.",
+      "goal": "Alberta harbor'u arastir"
+    },
+    "11493": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Beyaz bir kedi buldun ama Jakk'in kitty'sine benzemiyor. Arkadaki sand pile supheli. Arastir.",
+      "goal": "Sand pile'i arastir"
+    },
+    "11494": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Kumda kucuk bir hayvana ait gorunen kemikler ve zilli kirmizi bir kolye buldun. Jakk'a geri don.",
+      "goal": "Niflheim'daki Jakk ile konus"
+    },
+    "11504": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Anlamak zor ama 1 Dry White Stem alip Jakk'a geri donmen gerekiyor gibi.",
+      "goal": "1 Dry White Stem al"
+    },
+    "11505": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk yakalanirken sasiran kitty kacmis gibi. Jakk ile birlikte olan Harorong'a sor.",
+      "goal": "Harorong ile konus"
+    },
+    "11506": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Giristeki Nibble kitty'yi gormus olabilir. Niflheim'in bati girisindeki Nibble ile konus.",
+      "goal": "Bati Niflheim'daki Nibble"
+    },
+    "11507": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Kedi olup olmadigi belli degil ama kucuk, beyaz ve hizli bir sey kisa sure once giristen gecmis. Girisin disindaki kisiye sor.",
+      "goal": "Gergin Jakk ile konus"
+    },
+    "11508": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk'in kitty'sinin 'orasi' denen yere gittigini ogrendin. Kitty'yi arayan Jakk'a haber ver.",
+      "goal": "Jakk ile konus"
+    },
+    "11509": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Jakk'in kitty'si Yggdrasil sapindan Midgard'a gitmis gibi. Muhtemelen Umbala'dan gecti. Arastir.",
+      "goal": "Umbala kuzey girisini arastir"
+    },
+    "11510": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Researcher, kucuk beyaz seye Morocc'a giden yolu anlattigini soyledi. Morocc'un kuzey girisi yakinini arastir.",
+      "goal": "Morocc girisini arastir"
+    },
+    "11511": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Merchant, birine Alberta'ya giden yolu anlattigini soyledi. Alberta'nin kuzey girisini arastir.",
+      "goal": "Alberta girisini arastir"
+    },
+    "11512": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Harbor'a gidersen fish almak isteyen cok sayida kedi bulabilecegini soyluyorlar. Harbor cevresini arastir.",
+      "goal": "Alberta harbor'u arastir"
+    },
+    "11513": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Beyaz bir kedi buldun ama Jakk'in kitty'sine benzemiyor. Arkadaki sand pile supheli. Arastir.",
+      "goal": "Sand pile'i arastir"
+    },
+    "11514": {
+      "title": "Jakk ve Jakk'in Kedisi",
+      "description": "Sand pile icinde kucuk bir hayvana ait gorunen kemikler ve zilli kirmizi bir kolye buldun. Jakk'a geri don.",
+      "goal": "Niflheim'daki Jakk ile konus"
+    },
+    "11596": {
+      "title": "Eski Anilar",
+      "description": "Einbroch yakininda abandoned mine gibi gizlenmis dusman ussunu bulmus olabilirsin. Cevrede baska dusmanlar olup olmadigini kontrol et.",
+      "goal": "Cevreyi arastir"
+    },
+    "11597": {
+      "title": "Eski Anilar",
+      "description": "Olagandisi bir sey gorunmuyor. Baska bir yeri arastir.",
+      "goal": "Cevreyi arastir"
+    },
+    "11598": {
+      "title": "Eski Anilar",
+      "description": "Olagandisi bir sey gorunmuyor. Baska bir yeri arastir.",
+      "goal": "Cevreyi arastir"
+    },
+    "11599": {
+      "title": "Eski Anilar",
+      "description": "Olagandisi bir sey gorunmuyor. Rebellion Crew'a geri don.",
+      "goal": "Rebellion Crew ile konus"
+    },
+    "11600": {
+      "title": "Eski Anilar",
+      "description": "Abandoned mine'in icine bakalim.",
+      "goal": "Icari gir"
     }
   }
 }
