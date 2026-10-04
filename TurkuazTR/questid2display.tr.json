@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.90.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 9297-10005 Magic Tournament, dimensional gap, Sky Fortress, Rock Ridge ve Prontera Royal Court bloklarindan 60 pending kayit dahil",
+    "version": "6.91.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 10006-10065 Royal Court, Meto, material supply, Piano Keys, Utan ve Other World bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -12182,6 +12182,306 @@
       "title": "Prince Eigen Ahrum",
       "description": "Walter ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
       "goal": ""
+    },
+    "10006": {
+      "title": "Prince Ernst",
+      "description": "Gaebolg ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10007": {
+      "title": "Prince Poe",
+      "description": "Richard ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10008": {
+      "title": "Prince Peter",
+      "description": "Heine ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10009": {
+      "title": "Prince Urugen",
+      "description": "Wigner ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10010": {
+      "title": "Prince Helmut",
+      "description": "Roewenburg ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10011": {
+      "title": "Prince Erich",
+      "description": "Nerius ailesinin prince'i ile bulus ve onun hakkinda bilgi edin.",
+      "goal": ""
+    },
+    "10012": {
+      "title": "Iki Prince'in Konusmasi",
+      "description": "Walter ailesinin prince'i ile Gaebolg ailesinin prince'i arasindaki konusmayi izle.",
+      "goal": ""
+    },
+    "10013": {
+      "title": "Bilinmeyen Kizi Ara",
+      "description": "Peter'in ricasi uzerine cicekleri Al de Baran'daki kiza gotur.",
+      "goal": ""
+    },
+    "10014": {
+      "title": "Peter'a Don",
+      "description": "Peter'a geri don ve gorevin tamamlandigini bildir.",
+      "goal": ""
+    },
+    "10015": {
+      "title": "Test 15",
+      "description": "Test 15",
+      "goal": ""
+    },
+    "10016": {
+      "title": "Walter Ailesinden Bir Misafir",
+      "description": "Walter ailesinden gelen misafiri kalenin icinde bir yerde bul.",
+      "goal": ""
+    },
+    "10017": {
+      "title": "Komplo",
+      "description": "Yeni ogrendigin komplo hakkinda konus.",
+      "goal": ""
+    },
+    "10018": {
+      "title": "Kotu Niyetli Ahrum - Poe",
+      "description": "Ahrum'un Poe'ya karsi kotu niyetli soz ve davranislarina dikkat et.",
+      "goal": ""
+    },
+    "10019": {
+      "title": "Kotu Niyetli Ahrum - Peter",
+      "description": "Ahrum'un Peter'a karsi kotu niyetli soz ve davranislarina dikkat et.",
+      "goal": ""
+    },
+    "10020": {
+      "title": "Kotu Niyetli Ahrum - Erich",
+      "description": "Ahrum'un Erich'e karsi kotu niyetli soz ve davranislarina dikkat et.",
+      "goal": ""
+    },
+    "10021": {
+      "title": "Kotu Niyetli Ahrum - Urugen",
+      "description": "Ahrum'un Urugen'e karsi kotu niyetli soz ve davranislarina dikkat et.",
+      "goal": ""
+    },
+    "10022": {
+      "title": "Kotu Niyetli Ahrum - Helmut",
+      "description": "Ahrum'un Helmut'a karsi kotu niyetli soz ve davranislarina dikkat et.",
+      "goal": ""
+    },
+    "10023": {
+      "title": "Eigen Ahrum ve Ernst - Once",
+      "description": "Eigen Ahrum ile Ernst arasindaki konusmaya ozellikle dikkat et.",
+      "goal": ""
+    },
+    "10024": {
+      "title": "Eigen Ahrum ve Ernst - Sonra",
+      "description": "Iki prince'in son konusmasini mutlaka hatirla.",
+      "goal": ""
+    },
+    "10025": {
+      "title": "Elveda, Sevgili!",
+      "description": "Yasadigin tum olaylari Inspector'a rapor et.",
+      "goal": ""
+    },
+    "10026": {
+      "title": "Meto'yu Duzelt",
+      "description": "Weigon'un soyledigi gibi gidip Meto ile gorus.",
+      "goal": ""
+    },
+    "10027": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'dan once Stangle ile bulus ve gorusmelerini engelle.",
+      "goal": ""
+    },
+    "10028": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'ya git ve mudahalenin ise yarayip yaramadigini kontrol et.",
+      "goal": ""
+    },
+    "10029": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'dan once Kapto ile bulus ve destek almasini engelle.",
+      "goal": ""
+    },
+    "10030": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'ya git ve mudahalenin ise yarayip yaramadigini kontrol et.",
+      "goal": ""
+    },
+    "10031": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'dan once Shishi ile bulus ve destek almasini engelle.",
+      "goal": ""
+    },
+    "10032": {
+      "title": "Meto'yu Duzelt",
+      "description": "Meto'ya git ve mudahalenin ise yarayip yaramadigini kontrol et.",
+      "goal": ""
+    },
+    "10033": {
+      "title": "Meto'yu Duzelt",
+      "description": "Duzeltme basarili! Git ve Weigon'a rapor ver.",
+      "goal": ""
+    },
+    "10034": {
+      "title": "Bicagi Ara",
+      "description": "YunKyoHam'in bicagini bulmak icin field bolgesine in.",
+      "goal": ""
+    },
+    "10035": {
+      "title": "Bicagi Teslim Et",
+      "description": "Bicagi buldun. YunKyoHam'a geri don.",
+      "goal": ""
+    },
+    "10036": {
+      "title": "Malzeme Tedarigi - Candy",
+      "description": "Magumagu'ya 10 Candy getir.",
+      "goal": ""
+    },
+    "10037": {
+      "title": "Malzeme Tedarigi - Crap Shells",
+      "description": "Magumagu'ya 10 Crap Shell getir.",
+      "goal": ""
+    },
+    "10038": {
+      "title": "Malzeme Tedarigi - Conch",
+      "description": "Magumagu'ya 10 Conch getir.",
+      "goal": ""
+    },
+    "10039": {
+      "title": "Malzeme Tedarigi - Fish Tail",
+      "description": "Magumagu'ya 10 Fish Tail getir.",
+      "goal": ""
+    },
+    "10040": {
+      "title": "Malzeme Tedarigi - White_Platter",
+      "description": "Magumagu'ya 1 White_Platter getir.",
+      "goal": ""
+    },
+    "10041": {
+      "title": "Malzeme Tedarigi - ?",
+      "description": "Magumagu'ya 100 Heart of Mermaid getir.",
+      "goal": ""
+    },
+    "10042": {
+      "title": "Piano Keys'i Bul - 5 Kaldi",
+      "description": "Zor kelimeler kullanan kiside siradaki key olabilir.",
+      "goal": ""
+    },
+    "10043": {
+      "title": "Piano Keys'i Bul - 5 Kaldi",
+      "description": "Bir dukkan sahibi siradaki key'e sahip olabilir.",
+      "goal": ""
+    },
+    "10044": {
+      "title": "Piano Keys'i Bul - 4 Kaldi",
+      "description": "Bir dukkan sahibi siradaki key'e sahip olabilir.",
+      "goal": ""
+    },
+    "10045": {
+      "title": "Piano Keyboard'u Bul - 4 Kaldi",
+      "description": "Zor kelimeler kullanan kiside siradaki key olabilir.",
+      "goal": ""
+    },
+    "10046": {
+      "title": "Piano Keyboard'u Bul - 3 Kaldi",
+      "description": "Siradaki key mezarin etrafina gomulmus olabilir.",
+      "goal": ""
+    },
+    "10047": {
+      "title": "Piano Keyboard'u Bul - 3 Kaldi",
+      "description": "Siradaki key mezarin etrafina gomulmus olabilir.",
+      "goal": ""
+    },
+    "10048": {
+      "title": "Piano Keyboard'u Bul - 2 Kaldi",
+      "description": "Siradaki key, az once diger key'i kazip cikardigin yerin yakininda olabilir.",
+      "goal": ""
+    },
+    "10049": {
+      "title": "Piano Keyboard'u Bul - 2 Kaldi",
+      "description": "Siradaki key, az once diger key'i kazip cikardigin yerin yakininda olabilir.",
+      "goal": ""
+    },
+    "10050": {
+      "title": "Piano Keyboard'u Bul - 1 Kaldi",
+      "description": "Siradaki key mezarin etrafina gomulmus olabilir.",
+      "goal": ""
+    },
+    "10051": {
+      "title": "Piano Keyboard'u Bul - 1 Kaldi",
+      "description": "Siradaki key, az once diger key'i kazip cikardigin yerin yakininda olabilir.",
+      "goal": ""
+    },
+    "10052": {
+      "title": "Piano Keyboard'u Bul - Piyanoya Git",
+      "description": "Piyanoyu bul ve key'leri yerine tak.",
+      "goal": ""
+    },
+    "10053": {
+      "title": "Piano Keyboard'u Bul - Bos Yeri Doldur",
+      "description": "Hala bir tane eksik. Yerine ne koymaliyim?",
+      "goal": "Key olmasa bile herhangi bir sey koymak uygun gorunuyor"
+    },
+    "10054": {
+      "title": "Kacisin Esiginde - Clint Kana",
+      "description": "Kacmak icin witch Clint Kana ile konus.",
+      "goal": ""
+    },
+    "10055": {
+      "title": "Utan Kulturunu Anla",
+      "description": "Utan kabilesinin Chief'i, Utan kulturunu ogrenmeni oneriyor. Utan halkinin neden maske taktigini ogren.",
+      "goal": ""
+    },
+    "10056": {
+      "title": "Utan Dilini Ogren",
+      "description": "10 Oil Paper, 5 Slick Paper, 1 Squid Ink ve 1 Feather of Birds getirirsen Utan dilini ogrenebilirsin.",
+      "goal": "Gerekli malzemeleri getir"
+    },
+    "10057": {
+      "title": "Other World'e Dogru",
+      "description": "Aldebaran'daki Promotional Staff'a git.",
+      "goal": ""
+    },
+    "10058": {
+      "title": "Other World'e Dogru",
+      "description": "Aldebaran'daki Promotional Staff'a 300 Jellopy getir.",
+      "goal": ""
+    },
+    "10059": {
+      "title": "Other World'e Dogru",
+      "description": "Geffen'deki Promotional Staff'a git.",
+      "goal": ""
+    },
+    "10060": {
+      "title": "Other World'e Dogru",
+      "description": "Geffen'deki Promotional Staff'a 1 Emerald getir.",
+      "goal": ""
+    },
+    "10061": {
+      "title": "Other World'e Dogru",
+      "description": "Geffen'deki Promotional Staff'a 1 Ruby getir.",
+      "goal": ""
+    },
+    "10062": {
+      "title": "Other World'e Dogru",
+      "description": "Izlude'deki Promotional Staff'a git.",
+      "goal": ""
+    },
+    "10063": {
+      "title": "Other World'e Dogru",
+      "description": "Yalnizca guclu olanlar teste girer.",
+      "goal": "Base Level 70'in uzerine cik"
+    },
+    "10064": {
+      "title": "Other World'e Dogru",
+      "description": "Prontera'daki Recruiter'a geri don.",
+      "goal": ""
+    },
+    "10065": {
+      "title": "Other World'e Dogru",
+      "description": "Rekenber Corporation Headquarters'ta United Midgard Alliance kaydini yaptir.",
+      "goal": "Schwaltzvalt'taki Lighthalzen'a git"
     }
   }
 }
