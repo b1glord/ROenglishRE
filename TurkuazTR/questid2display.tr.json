@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.56.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7411-7453 Eclage, Kardui, Shenime, Avant ve Orb ana hikaye gorevleri dahil",
+    "version": "6.56.1",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7411-7453 Eclage, Kardui, Shenime, Avant ve Orb ana hikaye gorevleri dahil; 7435 ASCII duzeltmesi",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -8550,7 +8550,7 @@
     },
     "7435": {
       "title": "Mektubu Okuma Zamani",
-      "description": "Hisie mektubu okumak icin biraz zaman istedi. Birkaç dakika bekle.",
+      "description": "Hisie mektubu okumak icin biraz zaman istedi. Birkac dakika bekle.",
       "goal": "Mektubu okumasi bitene kadar bekle"
     },
     "7436": {
