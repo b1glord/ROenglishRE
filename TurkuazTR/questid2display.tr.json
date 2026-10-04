@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.12.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5582-5600 B-sinifi Prontera ve Alberta teslimat gorevleri dahil",
+    "version": "6.13.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5606-5616 B-sinifi Morroc Sphinx ve Pyramid teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6202,6 +6202,36 @@
       "title": "B-Sinifi Teslimat Gorevi",
       "description": "Alberta Sunken Ship 2F (treasure02) icindeki Traveler Is'e 10 Awakening Potion teslim et. Alici (99,41) koordinatlari yakininda.",
       "goal": "Traveler Is'e 10 Awakening Potion teslim et"
+    },
+    "5606": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Sphinx B2 (in_sphinx2) icindeki Injured Cat'e 10 Orange Potion teslim et. Alici (147,133) koordinatlari yakininda.",
+      "goal": "Injured Cat'e 10 Orange Potion teslim et"
+    },
+    "5608": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Sphinx B3 (in_sphinx3) icindeki Guard Seowi'ye 10 Yellow Potion teslim et. Alici (205,37) koordinatlari yakininda.",
+      "goal": "Guard Seowi'ye 10 Yellow Potion teslim et"
+    },
+    "5610": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Sphinx B4 (in_sphinx4) icindeki Soldier Araki'ye 10 White Potion teslim et. Alici (130,130) koordinatlari yakininda.",
+      "goal": "Soldier Araki'ye 10 White Potion teslim et"
+    },
+    "5612": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid 2F (moc_pryd02) icindeki Taekwon Girl Siru'ya 10 Red Potion teslim et. Alici (20,180) koordinatlari yakininda.",
+      "goal": "Taekwon Girl Siru'ya 10 Red Potion teslim et"
+    },
+    "5614": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid 3F (moc_pryd03) icindeki Arch Bishop Shabil'e 10 Orange Potion teslim et. Alici (92,83) koordinatlari yakininda.",
+      "goal": "Arch Bishop Shabil'e 10 Orange Potion teslim et"
+    },
+    "5616": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Morroc Pyramid B1 (moc_pryd05) icindeki Rune Knight Press'e 10 Orange Potion teslim et. Alici (102,84) koordinatlari yakininda.",
+      "goal": "Rune Knight Press'e 10 Orange Potion teslim et"
     }
   }
 }
