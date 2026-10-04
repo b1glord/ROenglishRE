@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.23.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7020-7037 Rayan Moore Dandelion sorusturmasi ve iz surme gorevleri dahil",
+    "version": "6.24.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7038-7041 Rayan Moore Defaria tatli patates epilogu dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6657,6 +6657,26 @@
       "title": "Dava Kapandi mi?",
       "description": "Dava kapanmis gorunuyor ama Dandelion meselesi hala aklini kurcaliyor. Echinacea yardimci olmadigi icin baska birine danis.",
       "goal": "Dandelion meselesi hakkinda bilgi ara"
+    },
+    "7038": {
+      "title": "Firinda Tatli Patates Tutkusu",
+      "description": "Endiseni Defaria'ya anlattin ama karsiliginda firinda tatli patates icin malzeme toplama isi aldin.",
+      "goal": "20 Sweet Potato, 30 Log"
+    },
+    "7039": {
+      "title": "Konudan Kacmak",
+      "description": "Defaria'yi Dandelion hakkinda tekrar tekrar sorguladin. Konusmaya baslayacak gibi oldu ama yine konuyu degistirip Mr. Kidd'e tatli patates goturmeni istedi.",
+      "goal": "Mr. Kidd'e 2 Sweet Potato teslim et"
+    },
+    "7040": {
+      "title": "Konudan Kacmak",
+      "description": "Bu kez konusma biraz daha ilerledi ama sonunda yine tatli patates teslim etme isi cikti.",
+      "goal": "Echinacea'ya 2 Sweet Potato teslim et"
+    },
+    "7041": {
+      "title": "Siyaset Siyasetcilere",
+      "description": "Echinacea, politikacilarin niyetlerini sorgulamayi birakmani ve barisi korumak icin dogru olani yapacaklarina guvenmeni soyledi. Defaria'ya donup tatli patatesler icin tesekkur et.",
+      "goal": "Defaria ile konus"
     }
   }
 }
