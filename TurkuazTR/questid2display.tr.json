@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.43.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7173-7179 Juno ve Lighthalzen Shadow Workshop, Pleasure anahtari ve Thanatos Tower hedefi gorevleri dahil",
+    "version": "6.44.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7180-7181 Doomk ikmal mesaji ve Karakass yuzugu kayitlari dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7317,6 +7317,16 @@
       "title": "Hazine mi?",
       "description": "Uc anahtari kullandin ama hazine yerine bir firca buldun. Vicente'ye hemen donup durumu bildir.",
       "goal": "Vicente'ye rapor ver"
+    },
+    "7180": {
+      "title": "Doomk'tan Mesaj",
+      "description": "Lonca yakinda ikmal malzemeleri dagitacak ancak zamani belli degil. Dagitim basladiginda senin payini da Doomk alacak; ara sira ugrayi unutma.",
+      "goal": "Doomk'u daha sonra ziyaret et"
+    },
+    "7181": {
+      "title": "Karakass'in Yuzugu",
+      "description": "Bir suredir hazir olan Karakass'in yuzugunu teslim aldin.",
+      "goal": "Yuzuk teslim alindi"
     }
   }
 }
