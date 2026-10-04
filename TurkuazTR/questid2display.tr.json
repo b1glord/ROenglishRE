@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.40.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 62973-70008 Bah Humbug, Hunting Board, My Dearest Possession, Poring Con ve Treasure Map bloklarindan 60 pending kayit dahil",
+    "version": "7.41.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 70009-70070 Treasure Map, Blue Harvest, Amatsu daily quest, Ecto Exterminators ve Niflheim Tourists bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -27182,6 +27182,306 @@
       "title": "X Yeri Gosteriyor",
       "description": "Gevsemis topragi kazarken yerdeki bir delikten asagi dustun.",
       "goal": "Mikey'in arkadasini bul ve onunla konus"
+    },
+    "70009": {
+      "title": "Ona Chunk Diyorlar",
+      "description": "Chunk ile konusmana devam et.",
+      "goal": ""
+    },
+    "70010": {
+      "title": "Ipucu Arayisi",
+      "description": "Byalan Dungeon 1F'deki cikmaz yolun sonunda wooden sign bul.",
+      "goal": ""
+    },
+    "70011": {
+      "title": "Curumus Signpost",
+      "description": "Sign'i buldugunda birkac Pirate Skeleton ortaya cikti. Daha fazla bilgi icin signpost'u tekrar oku.",
+      "goal": ""
+    },
+    "70012": {
+      "title": "Izlude Irene'in Hazinesi",
+      "description": "Siradaki ipucu icin bir kat asagi in. Buldugunda Irene'in treasure'ini alabilirsin; ama zenginlikleri goturmek icin pirate bilgin sinanacak.",
+      "goal": "Mouth'u bul ve onunla konus"
+    },
+    "70013": {
+      "title": "Data'yi Aramak",
+      "description": "Mouth, arkadaslari Data'nin Byalan Island 3F'nin kuzeyindeki mushroom sekilli rock bulunan island'a dogru kostugunu soyluyor.",
+      "goal": ""
+    },
+    "70014": {
+      "title": "Izlude'un Lieutenant'i",
+      "description": "Izlude Irene'in sadik lieutenant'inin resting place'ini bul. Huzursuz spirit'i treasure'a giden yolu gosterecek.",
+      "goal": ""
+    },
+    "70015": {
+      "title": "Izlude Irene'in Ship Girisi",
+      "description": "Eski bir temple kalintisinda Izlude Irene'in ship'ine girisi bul. Girisi bir signpost isaretlemeli.",
+      "goal": "Izlude Irene'i bul ve sorularini dogru cevapla"
+    },
+    "70016": {
+      "title": "Izlude Irene'in Hazinesi",
+      "description": "Izlude'a don ve Mikey'in yanindaki Knight statue yakinini ara.",
+      "goal": ""
+    },
+    "70017": {
+      "title": "Izlude Irene'in Hazinesi",
+      "description": "Kazmaya devam et; azmin karsiligini verecek.",
+      "goal": ""
+    },
+    "70019": {
+      "title": "2011 RWC Kutlamasi",
+      "description": "Prontera'daki RWC Agent'tan daha fazla firecracker almadan once 23 saat bekle.",
+      "goal": ""
+    },
+    "70021": {
+      "title": "Blue Harvest",
+      "description": "Amatsu sushi restaurant icindeki Fujiko'ya 10 Sushi ve 10 Raw Fish Slice getir.",
+      "goal": ""
+    },
+    "70022": {
+      "title": "Blue Harvest",
+      "description": "Fujiko ile konusmana devam et.",
+      "goal": ""
+    },
+    "70023": {
+      "title": "Blue Harvest",
+      "description": "Amatsu castle icindeki Jubei'yi bul ve kacmasina yardim et. Onu kurtarmak icin bir guard'i gecmen gerekecek.",
+      "goal": ""
+    },
+    "70024": {
+      "title": "Blue Harvest",
+      "description": "Cabuk, guard'in dikkati daginik! Jubei'yi oradan cikar!",
+      "goal": ""
+    },
+    "70025": {
+      "title": "Blue Harvest",
+      "description": "Jagyu Yubei ona iftira atan kisiyi bulmana yardim etmeni istedi. Amatsu castle 1F'de treasure hunter Einrich Lambretta'yi bul.",
+      "goal": ""
+    },
+    "70026": {
+      "title": "Blue Harvest",
+      "description": "Einrich'in kiz kardesi Zella ile konus.",
+      "goal": ""
+    },
+    "70027": {
+      "title": "Blue Harvest",
+      "description": "Underground shrine'da scroll'u bul. Yuksek bir platformda doll sergilenen yerin yakininda saklanmis olmali.",
+      "goal": ""
+    },
+    "70028": {
+      "title": "Blue Harvest",
+      "description": "Amatsu castle'in hemen guneyindeki Zella'yi bul ve scroll'u buldugunu soyle.",
+      "goal": ""
+    },
+    "70029": {
+      "title": "Blue Harvest",
+      "description": "Broken sword'u tamir etmesi icin Amatsu field'in dogusundaki hut icinde Master Swordmaker'i bul.",
+      "goal": ""
+    },
+    "70030": {
+      "title": "Blue Harvest",
+      "description": "Amatsu'daki Master Swordmaker'a 30 Bamboo, 20 Cyfar ve 20 Star Crumb getir.",
+      "goal": ""
+    },
+    "70031": {
+      "title": "Blue Harvest",
+      "description": "Tamir edilen sword'u Amatsu Palace Lord'una gotur.",
+      "goal": ""
+    },
+    "70032": {
+      "title": "Blue Harvest",
+      "description": "Sushi restaurant'taki Fujiko'ya Yubei'nin onurunu geri kazandirdigini ve artik evlenebileceklerini soyle.",
+      "goal": ""
+    },
+    "70033": {
+      "title": "Blue Harvest",
+      "description": "Isin henuz bitmedi. Castle icinde Major Kusanagi'yi bul ve Yubei'ye kimin iftira attigini ogren.",
+      "goal": ""
+    },
+    "70034": {
+      "title": "Blue Harvest",
+      "description": "Gercek sucluya goturecek bir ipucu bulmak icin 2F bolgesini ara.",
+      "goal": ""
+    },
+    "70035": {
+      "title": "Blue Harvest",
+      "description": "Yubei'ye iftira atildigini kanitlayan, ninja icin yazilmis secret scroll buldun ama kendini imha etti. Bunu yazan kisiyi Amatsu'da well yanindaki kucuk house'da ara.",
+      "goal": ""
+    },
+    "70036": {
+      "title": "Blue Harvest",
+      "description": "Ninja'lari gecerek Amatsu'nun kuzey ucuna ulas. Oradaki guest'leri Fujiko ve Yubei'nin evliligi icin kutla.",
+      "goal": ""
+    },
+    "70037": {
+      "title": "Amatsu - Poison Toad Skin",
+      "description": "Brasilis Ambassador, Amatsu'daki Poison Toad'lardan 50 Poisonous Toad Skin getirmeni istedi.",
+      "goal": ""
+    },
+    "70038": {
+      "title": "Amatsu - Daily Quest Sayaci",
+      "description": "Bu quest'i tekrar almadan once 23 saat beklemelisin.",
+      "goal": ""
+    },
+    "70039": {
+      "title": "Amatsu - Oil Papers",
+      "description": "Dewata Ambassador, Amatsu'daki Karakasa monster'larindan 50 Oil Paper getirmeni istedi.",
+      "goal": ""
+    },
+    "70040": {
+      "title": "Amatsu - Daily Quest Sayaci",
+      "description": "Bu quest'i tekrar almadan once 23 saat beklemelisin.",
+      "goal": ""
+    },
+    "70041": {
+      "title": "Amatsu - Yellow Plates",
+      "description": "Louyang Ambassador, Amatsu'daki Kapha monster'larindan 40 Yellow Plate getirmeni istedi.",
+      "goal": ""
+    },
+    "70042": {
+      "title": "Amatsu - Daily Quest Sayaci",
+      "description": "Bu quest'i tekrar almadan once 23 saat beklemelisin.",
+      "goal": ""
+    },
+    "70043": {
+      "title": "Amatsu - Worn-out Kimono",
+      "description": "Moscovia Ambassador, Amatsu'daki Miyabi Doll'lardan 50 Worn-out Kimono getirmeni istedi.",
+      "goal": ""
+    },
+    "70044": {
+      "title": "Amatsu - Daily Quest Sayaci",
+      "description": "Bu quest'i tekrar almadan once 23 saat beklemelisin.",
+      "goal": ""
+    },
+    "70045": {
+      "title": "Ecto Exterminators",
+      "description": "Ecto Exterminators'a katildin. Peter Vanker ile konusmana devam et.",
+      "goal": ""
+    },
+    "70046": {
+      "title": "Ecto Exterminators",
+      "description": "Egan Spanglish ile konus.",
+      "goal": ""
+    },
+    "70047": {
+      "title": "Ecto Exterminators",
+      "description": "Lighthalzen Hotel'e git ve manager ile konus.",
+      "goal": ""
+    },
+    "70048": {
+      "title": "Ecto Exterminators",
+      "description": "Hotel'de bir ghost dolasiyor gibi gorunuyor. Ust kata cik ve ghost'u bulmaya calis. Ipucu icin ust kattaki Hotel Employee ile konus.",
+      "goal": ""
+    },
+    "70049": {
+      "title": "Ecto Exterminators",
+      "description": "Hotel Employee, guest'leri rahatsiz eden Ghost'un hallway sonundaki room'da oldugunu soyledi.",
+      "goal": ""
+    },
+    "70050": {
+      "title": "Ecto Exterminators",
+      "description": "Hotel Employee, guest'leri rahatsiz eden Ghost'un hallway sonundaki room'da oldugunu soyledi.",
+      "goal": "Hidden Ghost'u ara"
+    },
+    "70051": {
+      "title": "Ecto Exterminators",
+      "description": "Ghost senden kacmaya devam ediyor. Bolgeyi aramaya devam et.",
+      "goal": "Hidden Ghost'u ara"
+    },
+    "70052": {
+      "title": "Ecto Exterminators",
+      "description": "Ghost senden kacmaya devam ediyor. Bolgeyi aramaya devam et.",
+      "goal": "Hidden Ghost'u ara"
+    },
+    "70053": {
+      "title": "Ecto Exterminators",
+      "description": "Ghost senden kacmaya devam ediyor ama yaklasiyorsun. Stairs yakininda sikismis olmali.",
+      "goal": "Hidden Ghost'u ara"
+    },
+    "70054": {
+      "title": "Ecto Exterminators",
+      "description": "Hotel Manager'a Ghost tehdidinin ortadan kaldirildigini soyle.",
+      "goal": ""
+    },
+    "70055": {
+      "title": "Ecto Exterminators",
+      "description": "Juno Library'deki Ecto Exterminators'a geri don.",
+      "goal": ""
+    },
+    "70056": {
+      "title": "Ecto Exterminators",
+      "description": "Prontera Castle icinde Ecto Exterminators'tan yardim isteyen Crusader'i bul.",
+      "goal": ""
+    },
+    "70057": {
+      "title": "Ecto Exterminators",
+      "description": "Prontera'nin batisindaki field'da bridge yakinindaki Ghost'u bul. Yakalamak icin 1 Trap getir ama bridge'i, yani stream'i gecme.",
+      "goal": ""
+    },
+    "70058": {
+      "title": "Ecto Exterminators",
+      "description": "Prontera Castle'daki Crusader'a Ghost tehdidinin ortadan kaldirildigini soyle.",
+      "goal": ""
+    },
+    "70059": {
+      "title": "Ecto Exterminators",
+      "description": "Yakaladigin Ghost'u Juno Library'deki Ecto Exterminators'a geri gotur.",
+      "goal": ""
+    },
+    "70060": {
+      "title": "Ecto Exterminators",
+      "description": "Ecto Exterminators uyelerinden biriyle konus.",
+      "goal": ""
+    },
+    "70061": {
+      "title": "Ecto Exterminators",
+      "description": "Destructor'dan sag cik ve reward'un icin Ecto Exterminators uyelerinden biriyle konus.",
+      "goal": ""
+    },
+    "70062": {
+      "title": "Niflheim Tourists",
+      "description": "Bir cocuk seni stairs'dan itti. Burada neler oldugunu anlamana yardim edecek baska birini bul.",
+      "goal": ""
+    },
+    "70063": {
+      "title": "Niflheim Tourists",
+      "description": "Niflheim Inn'in hemen arkasindaki house'da Doctor Thessla'yi bul.",
+      "goal": ""
+    },
+    "70064": {
+      "title": "Niflheim Tourists",
+      "description": "Inn'e geri don ve seni stairs'dan iten Kendall ile konus.",
+      "goal": ""
+    },
+    "70065": {
+      "title": "Niflheim Tourists",
+      "description": "Kendall, parents'inin agir hasta oldugunu soyluyor. Onlarla konusmak sorunun ne oldugunu anlamana yardim edebilir.",
+      "goal": ""
+    },
+    "70066": {
+      "title": "Niflheim Tourists",
+      "description": "Taeli, Niflheim cevresinde birkac candy parcasi sakladigini soyluyor. Lamppost'larin yakinina saklamis; oralari ara.",
+      "goal": ""
+    },
+    "70067": {
+      "title": "Niflheim Tourists",
+      "description": "Ilk candy parcasini buldun. Simdi ikincisini bul.",
+      "goal": ""
+    },
+    "70068": {
+      "title": "Niflheim Tourists",
+      "description": "Ikinci candy parcasini buldun. Simdi ucuncusunu bul.",
+      "goal": ""
+    },
+    "70069": {
+      "title": "Niflheim Tourists",
+      "description": "Ucuncu candy parcasini buldun. Simdi dorduncusunu bul.",
+      "goal": ""
+    },
+    "70070": {
+      "title": "Niflheim Tourists",
+      "description": "Dorduncu candy parcasini buldun. Taeli'ye don ve dordunu de buldugunu soyle.",
+      "goal": ""
     }
   }
 }
