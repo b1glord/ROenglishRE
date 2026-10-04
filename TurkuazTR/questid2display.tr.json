@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.11.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 14563-15022 Lasagna, festival, gizemli cihaz, winter event ve Isle of Bios-Tim mirasi bloklarindan 60 pending kayit dahil",
+    "version": "7.12.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 14490-14562 Wigner ailesi, tailoring ve Con-Chliina-Lasagna Basilisk bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -18182,6 +18182,306 @@
       "title": "Reddetmeliyim",
       "description": "Bunu hic beklemiyordum ve baski hissediyorum. Ayrica su anda biriyle gorusemememin bir nedeni var. Duygularini incitmeden sozlerimi ona ilet.",
       "goal": "Jurgen'e git"
+    },
+    "14490": {
+      "title": "Askimi Bir Kez Daha Ilet",
+      "description": "Deniz kadar genis kalbimi ve bitmeyen tutkumu gostermek istiyorum. Medusa avlayarak 15 Sea Stone ve 1 Witherless Rose getirip sevgimi ona ilet.",
+      "goal": "Maid icin hediye"
+    },
+    "14491": {
+      "title": "Yine Reddetmeliyim",
+      "description": "Uzgunum, ama aslinda... Lutfen Prince Wigner'a duygularini incitmeden anlat.",
+      "goal": "Jurgen'e git"
+    },
+    "14492": {
+      "title": "Bir Umut Isigi Var",
+      "description": "Daha sonra tekrar gelir misin? Beni unutmadan baski hissetmemesi icin biraz zamana ihtiyaci var. Sonra ona kalbimi yeniden iletmek istiyorum.",
+      "goal": "Daha sonra tekrar gel"
+    },
+    "14493": {
+      "title": "Bugun Hislerim Daha Guclu",
+      "description": "Ne yapmaliyim? Mary'yi bugun daha da cok seviyorum. Medusa avlayarak 15 Sea Stone ve 1 Witherless Rose getirip sevgimi ilet.",
+      "goal": "Maid icin hediye"
+    },
+    "14494": {
+      "title": "Yine Reddetmeliyim",
+      "description": "Duygularina gercekten deger veriyorum ama kabul edemem. Lutfen onu incitmeden kendisine bildir.",
+      "goal": "Jurgen'e git"
+    },
+    "14495": {
+      "title": "Wolf'a Git",
+      "description": "Aile hakkindaki hikayeyi Wolf Roegenburg'dan dinle.",
+      "goal": "Wolf'a git"
+    },
+    "14496": {
+      "title": "Isaac'a Git",
+      "description": "Wigner ailesinden Isaac ile gorusursen istedigim seyi ona ver. Wigner residence koridorun sonunda.",
+      "goal": "Isaac'a git"
+    },
+    "14497": {
+      "title": "Wolf Icin Teslimat",
+      "description": "Box'u Wolf'a teslim et. Dikkatli ol; tehlikeli.",
+      "goal": "Wolf'a teslim et"
+    },
+    "14498": {
+      "title": "Hangi Soylenti?",
+      "description": "Ailemiz hakkinda Prontera'da kotu bir soylenti dolasiyorsa bekleyemem. Ne oldugunu ogrenmek icin soylentileri topla. Cocuklardan duyabilirsin.",
+      "goal": "Soylentileri topla"
+    },
+    "14499": {
+      "title": "Kendini Kanitla",
+      "description": "Hikayeyi duymaya layik oldugunu kanitla. 33 Majoruros avla, library'den Rune Midgarts history book getir ve 12 Soft Silk Cloth topla.",
+      "goal": "Kendini kanitla"
+    },
+    "14500": {
+      "title": "Kitap Odunc Alma Tamamlandi",
+      "description": "Rune Midgarts history book'u odunc aldin.",
+      "goal": "Kitap odunc alma tamamlandi"
+    },
+    "14501": {
+      "title": "Wolf'a Rapor Ver",
+      "description": "Soylentiyi ogrendin. Wolf'a git ve tum hikayeyi anlat.",
+      "goal": "Wolf'a rapor ver"
+    },
+    "14502": {
+      "title": "Isaac'a Git",
+      "description": "Bu document'i Isaac'a ver. Bundan sonra yapacak cok isim var; sana guveniyorum.",
+      "goal": "Isaac'a git"
+    },
+    "14503": {
+      "title": "Wolf'a Rapor Ver",
+      "description": "Wolf'a kararina saygi duydugumu ve her zamanki gibi ona guvendigimi soyle.",
+      "goal": "Wolf'a git"
+    },
+    "14504": {
+      "title": "Helmut'u Ara",
+      "description": "Helmut'u ikna edip bana getirir misin? Schwaltzvalt Border Garrison'da olmali.",
+      "goal": "Helmut'u ara"
+    },
+    "14505": {
+      "title": "Geri Donmeyecegim",
+      "description": "Ben buraya aitim. Buyukbabana bunu soyle.",
+      "goal": "Maximilian'a git"
+    },
+    "14506": {
+      "title": "Isler Bu Hale Geldi",
+      "description": "Evden ayrilan Myer'a evde olanlari anlat. Aileden biri giderse kacabilir.",
+      "goal": "Myer'a git"
+    },
+    "14507": {
+      "title": "Maximilian'a Git",
+      "description": "Her sey yoluna girdi. Banquet bittiginde onu ziyaret edecegimi soyle.",
+      "goal": "Maximilian'a git"
+    },
+    "14508": {
+      "title": "Mucevher ve Kumas",
+      "description": "3 Pearl ve 50 Soft Hair getir.",
+      "goal": "Mucevher ve kumas"
+    },
+    "14509": {
+      "title": "Hala Hazirlaniyor",
+      "description": "Getirdiklerinle hala calisiyorum. Ne yapacagima is bitince karar verecegim. Safaktan sonra tekrar gel.",
+      "goal": "Bekle"
+    },
+    "14510": {
+      "title": "Pembe Yaprak Gibi Elbise",
+      "description": "Pembe yaprak kadar guzel bir dress yapacagim. 15 Soft Silky Cloth, 30 Red Herb ve 10 White Herb getir.",
+      "goal": "Pembe yaprak"
+    },
+    "14511": {
+      "title": "Guzel Cicek Suslemesi",
+      "description": "Sade ama guzel ciceklerle susleyecegim. 5 Pretty Flower, 5 Pure Flower ve 5 Mysterious Flower getir.",
+      "goal": "Bahcedeki cicekler"
+    },
+    "14512": {
+      "title": "Gece Gogu Elbisesi",
+      "description": "Gece gogu kadar koyu bir dress yapacagim. 20 Black Cloth getir.",
+      "goal": "Kara gece gogu"
+    },
+    "14513": {
+      "title": "Kizgin Gunes Sal",
+      "description": "Gokteki kizgin gunese benzeyen bir shawl yapmak istiyorum. 20 Hot Hair getir.",
+      "goal": "Gunes sali"
+    },
+    "14514": {
+      "title": "Peri Adimi",
+      "description": "Peri adimi kadar hafif ve zarif bir dress yapacagim. 5 Splendid Fairy Wing getir.",
+      "goal": "Peri adimi"
+    },
+    "14515": {
+      "title": "Parlayan Yildiz",
+      "description": "Dress'i parlayan yildizlarla suslemek istiyorum. 5 Star Dust getir.",
+      "goal": "Parlayan yildiz"
+    },
+    "14516": {
+      "title": "Supheli Golge",
+      "description": "Supheli biriyle Ian arasindaki konusmayi duydum.",
+      "goal": "Supheli golge"
+    },
+    "14517": {
+      "title": "Gece Atistirmasi Teslimati",
+      "description": "Gece atistirmasini teslim ettin.",
+      "goal": "Gece atistirmasi teslimati"
+    },
+    "14531": {
+      "title": "Con-Chliina Hakkinda Her Sey",
+      "description": "Con-Chliina'ya ilk kez geliyorsan purser ile tanisip hikayesini dinlemek iyidir.",
+      "goal": "Purser ile tanis"
+    },
+    "14532": {
+      "title": "Captain Gamberi'ye Selam",
+      "description": "Yeni kitayi kesfetmek icin Con-Chliina'ya bindin. Once Captain Gamberi ile konus.",
+      "goal": "Gamberi ile konus"
+    },
+    "14533": {
+      "title": "Recorder'a Selam Ver",
+      "description": "Lasagna ve Con-Chliina hakkinda daha fazla bilgi icin recorder ile tanis.",
+      "goal": "Recorder her seyi bilir"
+    },
+    "14534": {
+      "title": "Kitchen'a Git",
+      "description": "Herkes simdi kitchen'da olmali. Kitchen'a git.",
+      "goal": "Kitchen'a git"
+    },
+    "14535": {
+      "title": "Purser'a Don",
+      "description": "Tum ship'i kontrol ettin ama konusacak pek kimse yok. Purser'a geri don.",
+      "goal": "Purser'a git"
+    },
+    "14536": {
+      "title": "Chef'e Teslimat",
+      "description": "Calunac'i Chef'e getirmeni soylemedim mi? Gida malzemeleri taze olmali, beni hayal kirikligina ugratma.",
+      "goal": "Chef'e teslim et"
+    },
+    "14537": {
+      "title": "Ne Zaman Yola Cikiyoruz?",
+      "description": "Departure isareti gecikti. Purser'a sorar misin?",
+      "goal": "Purser'a git"
+    },
+    "14538": {
+      "title": "Yola Cikabilir miyiz?",
+      "description": "Denizde buyuk bir fogbank olustu. Chief Officer Stello'ya bugun yelken acabilir miyiz diye sor ve gereken isi hemen yap.",
+      "goal": "Chief Officer Stello'ya rapor ver"
+    },
+    "14539": {
+      "title": "Cilgin Dragon",
+      "description": "Cave'de yasayan Dragon son gunlerde sinirli. Vigilante her gun kontrol ediyor. Bridge'in guneyinde olan vigilante'a ne oldugunu sor.",
+      "goal": "Vigilante ile kontrol et"
+    },
+    "14540": {
+      "title": "Ansizin Gelen Is",
+      "description": "Gercekten yaptin mi? Senin yuzunden Sous Chef'ten azar yedim. 3 Basilac Clam getir. Basilisk avlayarak toplayabilirsin.",
+      "goal": "3 Basilac Clam"
+    },
+    "14541": {
+      "title": "Haber Yoksa Sorun Vardir",
+      "description": "Dragon'u kontrol etmeye giden kisi donmedi. Bir sey olmus olmali. Cave'e git.",
+      "goal": "Cave macerasi"
+    },
+    "14542": {
+      "title": "Dragon Nasil?",
+      "description": "Bugun buyuk ve korkunc bir dusman gordum, Tartufi'yi kontrol edemedim. Iyi mi diye bak.",
+      "goal": "Dragon'un durumunu kontrol et"
+    },
+    "14543": {
+      "title": "Basilisk Avi",
+      "description": "Bugun Basilisk garip davraniyor. Machie icin onunla ilgilen.",
+      "goal": "Basilisk avla"
+    },
+    "14544": {
+      "title": "Artik Gidebilirim",
+      "description": "Basilisk bir sure daha beni rahatsiz etmeyecek. Simdi yatmaya gidiyorum. Elveda.",
+      "goal": "First Officer'a rapor ver"
+    },
+    "14545": {
+      "title": "Purser'a Git",
+      "description": "Con-Chliina'ya ilk kez biniyorsan Mr. Purser'dan bilgi al.",
+      "goal": "Purser'a git"
+    },
+    "14546": {
+      "title": "Grass Thief'leri Temizle",
+      "description": "Cow'lar rahatca grass yesin diye 5 Grass Fabre ve 5 Reef Lunatic avla; Chief ya da Shepherd'a rapor ver.",
+      "goal": "Grass thief'leri temizle"
+    },
+    "14547": {
+      "title": "Yelkene Acilabilir miyiz?",
+      "description": "Sea fog yuzunden yola cikabilir miyiz bilmiyoruz. Ayrintilari Captain'a sor. Captain cabin hemen ileride.",
+      "goal": "Captain'a git"
+    },
+    "14548": {
+      "title": "Cilgin Dragon",
+      "description": "Cave'de yasayan Dragon son gunlerde sinirli. Durumunu her gun kontrol eden Vigilante'a ne oldugunu sor.",
+      "goal": "Vigilante ile kontrol et"
+    },
+    "14549": {
+      "title": "Haber Yoksa Sorun Vardir",
+      "description": "Dragon'u kontrol etmeye giden kisi donmedi. Bir sey olmus olmali. Cave'e git.",
+      "goal": "Cave macerasi"
+    },
+    "14550": {
+      "title": "Dragon Nasil?",
+      "description": "Bugun buyuk korkunc bir dusman gordum, Tartufi'yi kontrol edemedim. Iyi mi diye bak.",
+      "goal": "Dragon'un durumunu kontrol et"
+    },
+    "14551": {
+      "title": "Chief Basilisk",
+      "description": "Basilisk chief'i Imoogi ile gorus ve sakin kalmalarini iste. Yukarida konusmanizi saglayan bir device var.",
+      "goal": "Imoogi ile konus"
+    },
+    "14552": {
+      "title": "Lord Imuk'un Mesaji",
+      "description": "Basilisk'ler genc olan Yeouiju'dan vazgecene kadar gorevlerine devam edecek.",
+      "goal": "Tartufi'ye git"
+    },
+    "14553": {
+      "title": "Basilisk Avi",
+      "description": "Ben Yeouiju'yu ararken Basilisk'lerle ilgilen. Genelde 20 tanesini yok etmek yeterli olur.",
+      "goal": "20 Basilisk avla"
+    },
+    "14554": {
+      "title": "Artik Yelken Acabiliriz",
+      "description": "Basilisk sorunu cozuldu ve Tartufi sakinlesti. First Officer Stello'ya rapor ver.",
+      "goal": "First Officer Stello'ya rapor ver"
+    },
+    "14555": {
+      "title": "Yepyeni Lezzet Dunyasi",
+      "description": "Yeni kitanin gida malzemelerini arastiriyorum. 4 Fruit of Mastera ve 1 Cat Shape Hard Biscuit getir.",
+      "goal": "4 Fruit of Mastera, 1 Cat Shape Hard Biscuit"
+    },
+    "14556": {
+      "title": "Benim de Korktugum Bir Sey Var",
+      "description": "Geceleri ortaya cikiyorlar ve beni cok korkutuyorlar. Shamanyang ile gorus ve cozumunu dinle. Village entrance'ta yasiyor.",
+      "goal": "Shamanyang'a git"
+    },
+    "14557": {
+      "title": "Gercek Her Zaman Acidir",
+      "description": "Az once anlattigim hikayeyi Boatswain'e anlat.",
+      "goal": "Boatswain'e git"
+    },
+    "14558": {
+      "title": "Kirli Yaratiklar",
+      "description": "Basilisk'lerle asla takilmam. 20 Basil ve 5 Basilrock getir. Elbette odul olacak.",
+      "goal": "Basil ve Basilrock"
+    },
+    "14559": {
+      "title": "Charm Etki Suresi",
+      "description": "Charm etkisi saat 04:00'te sona erecek.",
+      "goal": "04:00'te sifirlanir"
+    },
+    "14560": {
+      "title": "Yeni Malzeme",
+      "description": "Yeni kita halkiyla temas arttikca charm'larinin da ise yaradigini gorduk. 5 Basilrock ve 1 Holy Water getirip Boatswain'e rapor ver.",
+      "goal": "Basilrock ve Holy Water"
+    },
+    "14561": {
+      "title": "Kirli ve Pis",
+      "description": "Basilrock cok kirli ve pis. Bugun icin 20 Basilrock yeter. Toplayip hemen Boatswain'e rapor ver.",
+      "goal": "20 Basilrock"
+    },
+    "14562": {
+      "title": "En Iyisi Temel Olandir",
+      "description": "Temele bagli kalmak en etkili yoldur. 20 Basil ve 5 Basilrock topla; sonra hemen Boatswain'e git.",
+      "goal": "20 Basil ve 5 Basilrock"
     },
     "14563": {
       "title": "Bos Zaman",
