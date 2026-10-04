@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.17.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 19129-50019 Hellion finali, Criatura, Geffen band investigation ve Pirate Treasure bloklarindan 60 pending kayit dahil",
+    "version": "7.18.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 50020-60017 J Roger treasure, Mother's Day, Overlook Water ve Izlude-Geffen monster investigation bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -20282,6 +20282,306 @@
       "title": "Bos Treasure Box",
       "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
       "goal": ""
+    },
+    "50020": {
+      "title": "Bos Treasure Box",
+      "description": "Bos treasure box'i buldun. J Roger'a geri gotur.",
+      "goal": ""
+    },
+    "50021": {
+      "title": "J Roger",
+      "description": "J Roger ile konusmaya devam et.",
+      "goal": ""
+    },
+    "50022": {
+      "title": "J Roger'in Key Malzemeleri",
+      "description": "J Roger treasure box icin key yapmak uzere Clock Tower'dan bir key, 10 Squid Ink, 5 Feather of Birds ve 6 Worn Out Page istiyor.",
+      "goal": ""
+    },
+    "50023": {
+      "title": "J Roger ile Konus",
+      "description": "J Roger ile konusmaya devam et.",
+      "goal": ""
+    },
+    "50024": {
+      "title": "Treasure'i Gom",
+      "description": "J Roger'in treasure'ini lighthouse bulunan shore'un onune gom.",
+      "goal": ""
+    },
+    "50025": {
+      "title": "Treasure'i Gom",
+      "description": "J Roger'in treasure'ini Mobster'larin dolastigi Romantic Island shore'una gom.",
+      "goal": ""
+    },
+    "50026": {
+      "title": "Treasure'i Gom",
+      "description": "J Roger'in treasure'ini wild otter'larin oynadigi screeching bridge yakinina gom.",
+      "goal": ""
+    },
+    "50027": {
+      "title": "Treasure Gomuldu",
+      "description": "J Roger'in treasure'ini gomdun. Gorevi tamamladigini bildirmek icin ona don.",
+      "goal": ""
+    },
+    "50028": {
+      "title": "Treasure Calindi",
+      "description": "Bir captain J Roger'in treasure'ini caldi. Lighthouse bolgesine git, Captain'i bul ve treasure'i geri getir.",
+      "goal": ""
+    },
+    "50029": {
+      "title": "Pirate Ruhu",
+      "description": "Sorularina cevap vererek Pirate Captain'a gercek bir pirate ruhuna sahip oldugunu kanitla.",
+      "goal": ""
+    },
+    "50501": {
+      "title": "Mother's Day",
+      "description": "Steven Heartfelt, Niflheim'e gidip Lenore adli sevgilisini aramani istedi. Synthia adli bir kiz onu gormus olabilir.",
+      "goal": ""
+    },
+    "50502": {
+      "title": "Mother's Day",
+      "description": "Synthia'ya 15 Rainbow Shell getir; Lenore hakkinda bildiklerini anlatacak.",
+      "goal": ""
+    },
+    "50503": {
+      "title": "Mother's Day",
+      "description": "Synthia'ya 15 Shining Scale getir; Lenore hakkinda bildiklerini anlatacak.",
+      "goal": ""
+    },
+    "50504": {
+      "title": "Mother's Day",
+      "description": "Synthia'ya 10 Yellow Gemstone getir; Lenore hakkinda bildiklerini anlatacak.",
+      "goal": ""
+    },
+    "50505": {
+      "title": "Mother's Day",
+      "description": "Synthia, Lenore'u ve korkunc annesini gordugunu soyluyor ama daha fazla bilgi icin ek malzeme istiyor.",
+      "goal": "Synthia ile konusmaya devam et"
+    },
+    "50506": {
+      "title": "Mother's Day",
+      "description": "Synthia'nin konusmasi icin 25 Zargon getir.",
+      "goal": ""
+    },
+    "50507": {
+      "title": "Mother's Day",
+      "description": "Synthia'nin konusmasi icin 15 Cyfar getir.",
+      "goal": ""
+    },
+    "50508": {
+      "title": "Mother's Day",
+      "description": "Synthia'nin konusmasi icin 10 Red Frame getir.",
+      "goal": ""
+    },
+    "50509": {
+      "title": "Mother's Day",
+      "description": "Synthia, Lenore ve annesinin Lord of the Dead ile savasmak icin burada oldugunu soyluyor.",
+      "goal": "Synthia ile konusmaya devam et"
+    },
+    "50510": {
+      "title": "Mother's Day",
+      "description": "Lenore hakkinda daha fazla bilgi icin Synthia'ya 10 Glass Bead getir.",
+      "goal": ""
+    },
+    "50511": {
+      "title": "Mother's Day",
+      "description": "Lenore hakkinda daha fazla bilgi icin Synthia'ya 25 Brigan getir.",
+      "goal": ""
+    },
+    "50512": {
+      "title": "Mother's Day",
+      "description": "Lenore hakkinda daha fazla bilgi icin Synthia'ya 10 Chung Jah getir.",
+      "goal": ""
+    },
+    "50513": {
+      "title": "Mother's Day",
+      "description": "Synthia, Lenore ve annesinin 9 ay once ayrildigini ve Alberta'ya gittiklerinden emin oldugunu soyluyor.",
+      "goal": "Alberta'daki sert gorunen kadini bul"
+    },
+    "50514": {
+      "title": "Mother's Day",
+      "description": "Alberta'daki Bernadette Leroy, Lenore'un annesi. Onunla konusmaya devam et.",
+      "goal": ""
+    },
+    "50515": {
+      "title": "Mother's Day",
+      "description": "Morocc'taki Steven Heartfelt'e geri don ve Lenore hakkinda ogrendiklerini anlat.",
+      "goal": ""
+    },
+    "50516": {
+      "title": "Mother's Day",
+      "description": "Bernadette Leroy'a Steven Heartfelt'in Lenore ve kendisi hakkinda soylediklerini anlat.",
+      "goal": ""
+    },
+    "50517": {
+      "title": "Mother's Day",
+      "description": "Bernadette sonunda Lenore'un Juno'da oldugunu soyluyor. Juno Library'deki Illiterate Man'i bul.",
+      "goal": "Illiterate Man ile duel yap"
+    },
+    "50518": {
+      "title": "Mother's Day",
+      "description": "",
+      "goal": ""
+    },
+    "50519": {
+      "title": "Mother's Day",
+      "description": "Lenore'u kaciran kisiyi yendin. Bernadette Leroy'a git ve Lenore'un iyi oldugunu bildir.",
+      "goal": ""
+    },
+    "50520": {
+      "title": "Mother's Day",
+      "description": "Lenore ile konus.",
+      "goal": ""
+    },
+    "50521": {
+      "title": "Mother's Day",
+      "description": "Steven Heartfelt'e Lenore'un iyi oldugunu ve yakinda onunla bulusacagini soyle.",
+      "goal": ""
+    },
+    "50522": {
+      "title": "Mother's Day",
+      "description": "Steven, onun adina Bernadette Leroy ile konusmani istedi.",
+      "goal": ""
+    },
+    "50523": {
+      "title": "Mother's Day",
+      "description": "Steven'a geri don ve Bernadette'in soylediklerini anlat.",
+      "goal": ""
+    },
+    "50524": {
+      "title": "Mother's Day",
+      "description": "Steven icin Lenore ile konus. Bernadette Leroy seni ona gonderebilir.",
+      "goal": ""
+    },
+    "50525": {
+      "title": "Mother's Day",
+      "description": "Steven'a Bernadette'in zayif noktasinin Honey oldugunu soyle.",
+      "goal": ""
+    },
+    "50526": {
+      "title": "Mother's Day",
+      "description": "Steven Heartfelt'e Honey getir. Istersen Diamond Ring ve Witherless Rose da getirebilirsin.",
+      "goal": ""
+    },
+    "50527": {
+      "title": "Mother's Day",
+      "description": "Steven ile son kez konus.",
+      "goal": ""
+    },
+    "50531": {
+      "title": "Overlook Water Dungeon",
+      "description": "Overlook Water Dungeon Aged monster'larla dolu. Hepsini avla ve odulunu signpost'tan al.",
+      "goal": "20 Aged Plankton ve 20 Aged Marina avla"
+    },
+    "50532": {
+      "title": "Overlook Water Dungeon",
+      "description": "Overlook Water Dungeon Aged monster'larla dolu. Hepsini avla ve odulunu signpost'tan al.",
+      "goal": "40 Aged Vadon ve 40 Aged Kukre avla"
+    },
+    "50533": {
+      "title": "Overlook Water Dungeon",
+      "description": "Overlook Water Dungeon Aged monster'larla dolu. Hepsini avla ve odulunu signpost'tan al.",
+      "goal": "60 Aged Obeaune ve 60 Aged Marse avla"
+    },
+    "50534": {
+      "title": "Overlook Water Dungeon",
+      "description": "Overlook Water Dungeon Aged monster'larla dolu. Hepsini avla ve odulunu signpost'tan al.",
+      "goal": "80 Aged Marc ve 80 Aged Phen avla"
+    },
+    "50535": {
+      "title": "Overlook Water Dungeon",
+      "description": "Overlook Water Dungeon Aged monster'larla dolu. Hepsini avla ve odulunu signpost'tan al.",
+      "goal": "100 Aged Strouf ve 100 Aged Merman avla"
+    },
+    "60000": {
+      "title": "60000",
+      "description": "Gorevin 60000 olarak ayarlandi.",
+      "goal": ""
+    },
+    "60001": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 75 Vadon ve 45 Cornutus avla.",
+      "goal": ""
+    },
+    "60002": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 90 Marse ve 60 Obeaune avla.",
+      "goal": ""
+    },
+    "60003": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 120 Phen ve 60 Sword Fish avla.",
+      "goal": ""
+    },
+    "60004": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 120 Sword Fish ve 60 Marc avla.",
+      "goal": ""
+    },
+    "60005": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 150 Sword Fish ve 90 Marc avla.",
+      "goal": ""
+    },
+    "60006": {
+      "title": "Monster Extermination",
+      "description": "Izlude Dungeon'daki monster'lari azaltmak icin 60 Strouf ve 30 Merman avla.",
+      "goal": ""
+    },
+    "60007": {
+      "title": "Endless Tower Effect",
+      "description": "Endless Tower'in garip etkileri nedeniyle haftada yalnizca bir kez girebilirsin. Sure dolana kadar bekle.",
+      "goal": ""
+    },
+    "60008": {
+      "title": "Endless Tower Time Limit",
+      "description": "Endless Tower icin erisim suresi 4 saattir.",
+      "goal": ""
+    },
+    "60009": {
+      "title": "Orc Hero",
+      "description": "Orc Dungeon'daki tum brazier'lari yaktin. Orc Shaman ve Orc Hero'yu yen, sonra Kruger'i bul.",
+      "goal": ""
+    },
+    "60010": {
+      "title": "Derik Ver'in Talebi",
+      "description": "Derik Ver, Geffen Tower Basement'taki Farah'i bulup artan monster nufusunu arastirmana yardim etmeni istedi.",
+      "goal": "Farah ile konus"
+    },
+    "60011": {
+      "title": "Byalan Arastirmasi",
+      "description": "Derik Ver, Byalan Dungeon'i Korey'in arastirdigini soyluyor. Onu bul ve yardim et.",
+      "goal": "Korey ile konus"
+    },
+    "60012": {
+      "title": "Abyss Arastirmasi",
+      "description": "Derik Ver, Abyss Lake Underground Cave'i Franklin'in arastirdigini soyluyor. Onu bul ve yardim et.",
+      "goal": "Franklin ile konus"
+    },
+    "60013": {
+      "title": "Monster Arastirmasi",
+      "description": "Derik Ver monster hareketlerindeki artisi arastirmayi tamamladi. Baska bolge gerekip gerekmedigini ogrenmek icin gelecek hafta don.",
+      "goal": "June 9 maintenance sonrasinda Derik Ver ile konus"
+    },
+    "60014": {
+      "title": "Geffen Dungeon Monster Arastirmasi",
+      "description": "Farah, Geffen Dungeon'daki monster artisinin nedenini arastirmak icin yardim istiyor. Monster'lari avla.",
+      "goal": "50 Poison Spore ve 35 Poporing avla, Farah'a don"
+    },
+    "60015": {
+      "title": "Geffen Dungeon Monster Arastirmasi",
+      "description": "Farah, Geffen Dungeon'daki monster artisinin nedenini arastirmak icin yardim istiyor. Monster'lari avla.",
+      "goal": "20 Ghoul ve 25 Drainliar avla, Farah'a don"
+    },
+    "60016": {
+      "title": "Geffen Dungeon Monster Arastirmasi",
+      "description": "Farah, Geffen Dungeon'daki monster artisinin nedenini arastirmak icin yardim istiyor. Monster'lari avla.",
+      "goal": "50 Jakk ve 50 Nightmare avla, Farah'a don"
+    },
+    "60017": {
+      "title": "Geffen Dungeon Monster Arastirmasi",
+      "description": "Farah'in arastirmasina yardim etmeyi basardin. Bulduklarini Prontera'daki Derik Ver'e rapor ver.",
+      "goal": "Derik Ver ile konus"
     }
   }
 }
