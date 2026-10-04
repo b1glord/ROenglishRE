@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.24.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7038-7041 Rayan Moore Defaria tatli patates epilogu dahil",
+    "version": "6.25.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7042-7047 Tatacho, Cornus, Hillslion ve gunluk part-time gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6677,6 +6677,36 @@
       "title": "Siyaset Siyasetcilere",
       "description": "Echinacea, politikacilarin niyetlerini sorgulamayi birakmani ve barisi korumak icin dogru olani yapacaklarina guvenmeni soyledi. Defaria'ya donup tatli patatesler icin tesekkur et.",
       "goal": "Defaria ile konus"
+    },
+    "7042": {
+      "title": "Part-time Is - Tatacho Yemi",
+      "description": "Tatacho'lar icin yem kalmadi. Tarlalardaki Tatacho'lardan bulabilecegin 50 Fresh Fish getir.",
+      "goal": "50 Fresh Fish getir"
+    },
+    "7043": {
+      "title": "Part-time Is - Cornus Yemi",
+      "description": "Cornus'lar icin yem kalmadi. Tarlalardaki Pinguicula'lardan 30 Great Leaf ve 30 Brown Root getir.",
+      "goal": "30 Great Leaf, 30 Brown Root getir"
+    },
+    "7044": {
+      "title": "Part-time Is - Hillslion Yemi 1",
+      "description": "Hillslion'lar icin yeni bir yem denenecek. 20 Monster's Feed ve 30 Pet Food getir.",
+      "goal": "20 Monster's Feed, 30 Pet Food getir"
+    },
+    "7045": {
+      "title": "Part-time Is - Hillslion Yemi 2",
+      "description": "Hillslion'lar icin baska bir yem karisimi denenecek. 50 Meat ve 30 Pet Food getir.",
+      "goal": "50 Meat, 30 Pet Food getir"
+    },
+    "7046": {
+      "title": "Part-time Is - Sicak Hali",
+      "description": "Yaratiklarin zeminde daha sicak durabilmesi icin yumusak bir hali hazirlanacak. 30 Fur parcasi getir.",
+      "goal": "30 Fur getir"
+    },
+    "7047": {
+      "title": "Part-time Is - Bugunluk Bitti",
+      "description": "Bugunku part-time islerin hepsi tamamlandi. Taab yaklasik 5 saat sonra yeni is verebilir.",
+      "goal": "Yaklasik 5 saat bekle"
     }
   }
 }
