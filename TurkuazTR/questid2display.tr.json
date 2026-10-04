@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.31.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7096-7111 Guillotine Cross meslek degisimi gorev zinciri dahil",
+    "version": "6.32.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7112-7116 Veins tanik ve supheli kisi bilgileri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6977,6 +6977,31 @@
       "title": "Guillotine Cross Meslek Degisimi",
       "description": "Assassin Guild'in son hedefini ortadan kaldirarak gorevini tamamladin. Subeye don ve Mayshell'e rapor ver.",
       "goal": "Mayshell'e rapor ver"
+    },
+    "7112": {
+      "title": "Madelle'den Bilgi",
+      "description": "Madelle gece gec saatte Rachel'dan gelen bir rahibe benzeyen birini gordugunu soyledi.",
+      "goal": "Madelle'in verdigi ipucunu degerlendir"
+    },
+    "7113": {
+      "title": "Crave'den Bilgi",
+      "description": "Crave, her sabah ve gece cok miktarda malzeme alan bir kiz oldugunu soyledi. Kimse adresini bilmiyor.",
+      "goal": "Supheli kizi arastir"
+    },
+    "7114": {
+      "title": "Trovan'dan Bilgi",
+      "description": "Trovan, handa kalmadigi halde sik sik gorulen supheli bir adamdan bahsetti.",
+      "goal": "Supheli adami arastir"
+    },
+    "7115": {
+      "title": "Seyyar Saticidan Bilgi",
+      "description": "Seyyar satici, eski kiyafetler giydigi halde her gun taze ve pahali seyler alan bir kiz gordugunu soyledi.",
+      "goal": "Supheli kizi arastir"
+    },
+    "7116": {
+      "title": "Yasli Adamdan Bilgi",
+      "description": "Koydeki yasli adam, her gun ayni saatte ayni yerde ortaya cikan bir kizdan bahsetti. Yakinda buraya tasinmis olabilir.",
+      "goal": "Kizin ortaya ciktigi yeri arastir"
     }
   }
 }
