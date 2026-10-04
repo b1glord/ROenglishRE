@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.39.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7152-7155 Eden Group Orc Dungeon egitim gorevleri dahil",
+    "version": "6.40.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7156-7159 Eden Group Underwater City egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7196,6 +7196,26 @@
     "7155": {
       "title": "Orc Dungeon'i Fethet",
       "description": "Hooksha'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7156": {
+      "title": "Underwater City'yi Fethet",
+      "description": "Izlude'dan Byalan Island'a tekneyle git. Zindanin en alt katindaki Underwater City'ye in ve oradaki Eden Group uyesini bul.",
+      "goal": "Byalan Island'da Callandiva'yi bul"
+    },
+    "7157": {
+      "title": "Underwater City'yi Fethet",
+      "description": "Buradaki ilk savas egitimi 15 Merman avlamak. Deniz savascilari olduklari icin dikkatli ol.",
+      "goal": "15 Merman yen"
+    },
+    "7158": {
+      "title": "Underwater City'yi Fethet",
+      "description": "Siradaki rakip uclu mizrak kullanan buyucu Strouf. 10 Strouf bulup yen.",
+      "goal": "10 Strouf yen"
+    },
+    "7159": {
+      "title": "Underwater City'yi Fethet",
+      "description": "Callandiva'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
       "goal": "Instructor Boya'ya rapor ver"
     }
   }
