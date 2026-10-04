@@ -52562,11 +52562,11 @@ QuestInfoList = {
 		Summary = "Rachel'daki Aladdin ile konus"
 	},
 	[15023] = {
-		Title = "Defeat the Byorgue Mercenaries",
+		Title = "Byorgue Mercenary'leri Yen",
 		Description = {
-			"Defeat 20 Byorgue Mercenary from Rachel Field 12"
+			"Rachel Field 12'de 20 Byorgue Mercenary yen."
 		},
-		Summary = "Defeat 20 Byorgue Mercenary"
+		Summary = "20 Byorgue Mercenary yen"
 	},
 	[15025] = {
 		Title = "Let's run with sweat",
@@ -52704,103 +52704,103 @@ QuestInfoList = {
 		CoolTimeQuest = 1
 	},
 	[15050] = {
-		Title = "Memorial Dungeon: Airship Assault",
+		Title = "Memorial Dungeon - Airship Assault",
 		Description = {
-			"Entry to dungeon is prohibited after one day of entry. Entry is possible after the deadline written below."
+			"Dungeon'a girdikten sonra 23 saat boyunca yeniden giris yasaktir. Asagidaki sure dolunca tekrar girebilirsin."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "23 saat boyunca yeniden giris yok",
 		CoolTimeQuest = 1
 	},
 	[15051] = {
-		Title = "Memorial Dungeon: Airship Assault",
+		Title = "Memorial Dungeon - Airship Assault",
 		Description = {
-			"Re-entry is possible for 5 minutes after entering dungeon. Entry is possible starting from the deadline written below."
+			"Dungeon'a girdikten sonraki ilk 5 dakika yeniden giris mumkundur. Asagidaki sure dolmadan girebilirsin."
 		},
-		Summary = "Re-entry possible within 5 minutes after entry"
+		Summary = "Ilk 5 dakika yeniden giris mumkun"
 	},
 	[15052] = {
-		Title = "Memorial Dungeon: Airship Assault",
+		Title = "Memorial Dungeon - Airship Assault",
 		Description = {
-			"Dungeon has been cleared within 5 minutes of entry so entry to dungeon is prohibited for one day."
+			"Dungeon girdikten sonraki 5 dakika icinde tamamlandi. Simdi 23 saat boyunca yeniden giris yasak."
 		},
-		Summary = "Re-entry within one day is not permitted"
+		Summary = "23 saat boyunca yeniden giris yok"
 	},
 	[15055] = {
-		Title = "Christmas: We are the great Single Union Army!",
+		Title = "Christmas - Great Single Union Army",
 		Description = {
-			"Find single cats in Lutie and ask them to join the Single Union Army."
+			"Lutie'deki bekar cat'leri bul ve Single Union Army'ye katilmalarini iste."
 		},
-		Summary = "Recruit single cats in Lutie"
+		Summary = "Lutie'deki bekar cat'leri topla"
 	},
 	[15056] = {
-		Title = "Christmas : Declare war against couples!",
+		Title = "Christmas - Ciftlere Savas Ac",
 		Description = {
-			"Break up couples in Lutie! You need to get 5 score points."
+			"Lutie'deki ciftleri ayir. 5 score point kazanman gerekiyor."
 		},
 		Summary = ""
 	},
 	[15057] = {
-		Title = "Christmas: Prepare the festival!",
+		Title = "Christmas - Festivali Hazirla",
 		Description = {
-			"Collect 10 Stolen Cookie, 10 Stolen Candy, 10 Bag of Selling Goods by hunting racoons in the fields"
+			"Field'larda raccoon avlayarak 10 Stolen Cookie, 10 Stolen Candy ve 10 Bag of Selling Goods topla."
 		},
 		Summary = ""
 	},
 	[15059] = {
-		Title = "Christmas: Cooldown Timer",
+		Title = "Christmas - Cooldown",
 		Description = {
-			"Wait for the timer to expire before taking the quest again"
+			"Gorevi tekrar almadan once surenin dolmasini bekle."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "23 saat sonra tekrar alinabilir",
 		CoolTimeQuest = 1
 	},
 	[15060] = {
-		Title = "Christmas: Kwami has joined",
+		Title = "Christmas - Kwami Katildi",
 		Description = {
-			"You have successfully recruited Kwami"
+			"Kwami'yi basariyla topluluga kattin."
 		},
 		Summary = ""
 	},
 	[15061] = {
-		Title = "Christmas: Willer has joined",
+		Title = "Christmas - Willer Katildi",
 		Description = {
-			"You have successfully recruited Kwami Willer"
+			"Willer'i basariyla topluluga kattin."
 		},
 		Summary = ""
 	},
 	[15062] = {
-		Title = "Christmas: Rinka has joined",
+		Title = "Christmas - Rinka Katildi",
 		Description = {
-			"You have successfully recruited Rinka"
+			"Rinka'yi basariyla topluluga kattin."
 		},
 		Summary = ""
 	},
 	[15063] = {
-		Title = "Christmas: Jee has joined",
+		Title = "Christmas - Jee Katildi",
 		Description = {
-			"You have successfully recruited Jee"
+			"Jee'yi basariyla topluluga kattin."
 		},
 		Summary = ""
 	},
 	[15064] = {
-		Title = "Christmas: Marty has joined",
+		Title = "Christmas - Marty Katildi",
 		Description = {
-			"You have successfully recruited Marty"
+			"Marty'yi basariyla topluluga kattin."
 		},
 		Summary = ""
 	},
 	[15071] = {
-		Title = "Don't litter Comodo",
+		Title = "Comodo'yu Kirletme",
 		Description = {
-			"You should be able to assist the Comodo Cleaning Lady Again Tomorrow."
+			"Comodo Cleaning Lady'ye yarin tekrar yardim edebilirsin."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[15072] = {
-		Title = "Don't litter Comodo",
+		Title = "Comodo'yu Kirletme",
 		Description = {
-			"Collect 20 Pieces of trash and return to the Comodo Cleaning Lady"
+			"20 Piece of Trash topla ve Comodo Cleaning Lady'ye geri don."
 		},
 		Summary = ""
 	},
@@ -53062,95 +53062,95 @@ QuestInfoList = {
 		Summary = "Hunt 10 hard icicles"
 	},
 	[15125] = {
-		Title = "In need of COCOA BEAN",
+		Title = "COCOA BEAN Gerekiyor",
 		Description = {
-			"Take care of Sweets Drops monsters from fields and dungeons. Get back to Charles with 20 stolen COCOA BEANs."
+			"Field ve dungeon'lardaki Sweets Drops monster'larini yen. 20 Stolen COCOA BEAN topla ve Charles'a geri don."
 		},
-		Summary = "Collect 20 stolen COCOA BEANs"
+		Summary = "20 Stolen COCOA BEAN topla"
 	},
 	[15127] = {
-		Title = "Chocolate Delivery",
+		Title = "Chocolate Teslimati",
 		Description = {
-			"Deliver chocolates in order of Geffen, Payon, Aldebaran, Prontera Sweets Shops."
+			"Chocolate'lari sirayla Geffen, Payon, Aldebaran ve Prontera Sweets Shop'lara teslim et."
 		},
-		Summary = "Chocolate delivery to big city sweets shops"
+		Summary = "Buyuk sehir sweets shop'larina chocolate teslim et"
 	},
 	[15128] = {
-		Title = "Chocolate Delivery Complete",
+		Title = "Chocolate Teslimati Tamamlandi",
 		Description = {
-			"Finished chocolate delivery that Charles requested. You can repeat it after 4 AM."
+			"Charles'in istedigi chocolate teslimati tamamlandi. 04:00'ten sonra tekrar yapabilirsin."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "04:00'ten sonra tekrar teslim et",
 		CoolTimeQuest = 1
 	},
 	[15129] = {
-		Title = "Daily Draw Limitation",
+		Title = "Gunluk Cekilis Siniri",
 		Description = {
-			"Sweets Shop Draw is only possible once a day. Today you've draw one alredy, so let's try after tomorrow 4 AM."
+			"Sweets Shop cekilisi gunde bir kez yapilir. Bugun kullandin; yarin 04:00'ten sonra tekrar dene."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "04:00'e kadar cooldown",
 		CoolTimeQuest = 1
 	},
 	[16000] = {
-		Title = "Metz Brayde's Notice",
+		Title = "Metz Brayde'in Duyurusu",
 		Description = {
-			"You read a notice on a board asking for adventurers to go on a once in a lifetime quest from Metz Brayde."
+			"Board'da Metz Brayde'in adventurer'lari hayatinda bir kez cikacaklari goreve cagirdigi duyuruyu okudun."
 		},
-		Summary = "Find Metz Brayde"
+		Summary = "Metz Brayde'i bul"
 	},
 	[16001] = {
-		Title = "First examination",
+		Title = "Ilk Sinav",
 		Description = {
-			"You find out that you have to go through a series of tests from Metz's friends. The first friend is in Morroc named Arian. You should go there and see him if you want to continue."
+			"Metz'in arkadaslarindan bir dizi testten gecmen gerektigini ogrendin. Ilk arkadasi Morocc'taki Arian. Devam etmek istiyorsan onu bul."
 		},
-		Summary = "Arian in Morroc"
+		Summary = "Morocc'taki Arian"
 	},
 	[16002] = {
-		Title = "Fetching Items for Arian -1",
+		Title = "Arian Icin Item Getir - 1",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF0000100 Fluff^000000."
+			"Sadece istedigimi getir. Simdi 100 Fluff getir."
 		},
 		Summary = "100 Fluff"
 	},
 	[16003] = {
-		Title = "Fetching Items for Arian -2",
+		Title = "Arian Icin Item Getir - 2",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF000050 Poison Spores^000000."
+			"Sadece istedigimi getir. Simdi 50 Poison Spore getir."
 		},
-		Summary = "50 Poison Spores"
+		Summary = "50 Poison Spore"
 	},
 	[16004] = {
-		Title = "Fetching Items for Arian -3",
+		Title = "Arian Icin Item Getir - 3",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF000030 Scorpion Tails^000000."
+			"Sadece istedigimi getir. Simdi 30 Scorpion Tail getir."
 		},
-		Summary = "30 Scorpion Tails"
+		Summary = "30 Scorpion Tail"
 	},
 	[16005] = {
-		Title = "Fetching Items for Arian -4",
+		Title = "Arian Icin Item Getir - 4",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF000020 Rotten Bandages^000000."
+			"Sadece istedigimi getir. Simdi 20 Rotten Bandage getir."
 		},
-		Summary = "20 Rotten Bandages"
+		Summary = "20 Rotten Bandage"
 	},
 	[16006] = {
-		Title = "Fetching Items for Arian -5",
+		Title = "Arian Icin Item Getir - 5",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF000015 Little Even Horn^000000."
+			"Sadece istedigimi getir. Simdi 15 Little Evil Horn getir."
 		},
-		Summary = "15 Little Even Horn"
+		Summary = "15 Little Evil Horn"
 	},
 	[16007] = {
-		Title = "Fetching Items for Arian -6",
+		Title = "Arian Icin Item Getir - 6",
 		Description = {
-			"Bring only what I tell you to bring. If you know that I'll be asking for something later and you happen to have it, I'll straight up jack it. Gimme ^FF000010 Coral Reefs^000000."
+			"Sadece istedigimi getir. Simdi 10 Coral Reef getir."
 		},
-		Summary = "10 Coral Reefs"
+		Summary = "10 Coral Reef"
 	},
 	[16008] = {
-		Title = "Quiz time!",
+		Title = "Quiz Zamani",
 		Description = {
-			"Talk to Ganaan to progress to the next part of the exam."
+			"Sinavin sonraki bolumune gecmek icin Ganaan ile konus."
 		},
 		Summary = "Ganaan"
 	},
@@ -53571,127 +53571,127 @@ QuestInfoList = {
 		Summary = ""
 	},
 	[16062] = {
-		Title = "Gen of Niflheim",
+		Title = "Niflheim'daki Gen",
 		Description = {
-			"Crayu says that you need to talk to someone in Niflheim named ^FF0000Gen^000000."
+			"Crayu, Niflheim'da Gen adli biriyle konusman gerektigini soyluyor."
 		},
 		Summary = "Gen"
 	},
 	[16063] = {
-		Title = "The Witch's Aid",
+		Title = "Witch'in Yardimi",
 		Description = {
-			"Gen suggests that you go and see the witch and ask her to help you out. He also added that you should be wary of Serin."
+			"Gen, witch ile gorusup yardim istemeni oneriyor. Ayrica Serin'e karsi dikkatli olmani soyluyor."
 		},
 		Summary = ""
 	},
 	[16064] = {
-		Title = "Misfortunate of Niflheim",
+		Title = "Niflheim'in Talihsizleri",
 		Description = {
-			"Serin says that you should talk to some of the people around Niflheim and see if you can be of any help to them."
+			"Serin, Niflheim cevresindeki insanlarla konusup yardima ihtiyaclari olup olmadigini ogrenmeni istiyor."
 		},
 		Summary = ""
 	},
 	[16065] = {
-		Title = "The Queen's Symbol",
+		Title = "Queen'in Simgesi",
 		Description = {
-			"You must earn the queen's favor in order to get the Symbol of the Nine Realms. Find where her lost mother, Agrboda has been sealed away by asking others if they know anything about her."
+			"Symbol of the Nine Realms'i almak icin queen'in guvenini kazanmalisin. Kayip annesi Agrboda'nin nerede muhurlendigini ogren."
 		},
 		Summary = "Agrboda"
 	},
 	[16066] = {
-		Title = "Knowledge of the Symbol",
+		Title = "Symbol Hakkinda Bilgi",
 		Description = {
-			"Serin said that you should someone who may have lived in Asgard and may know more about where Agrboda is sealed away."
+			"Serin, Asgard'da yasamis ve Agrboda'nin muhurlendigi yer hakkinda bilgi sahibi olabilecek birini bulmani soyledi."
 		},
 		Summary = ""
 	},
 	[16067] = {
-		Title = "Knowledge of Asgard",
+		Title = "Asgard Hakkinda Bilgi",
 		Description = {
-			"Valkyrie could not provide any answers for you. Perhaps someone in Niflheim can help you with your search for Agrboda."
+			"Valkyrie cevap veremedi. Agrboda arayisinda Niflheim'daki biri yardimci olabilir."
 		},
 		Summary = "Niflheim"
 	},
 	[16068] = {
-		Title = "Finding the Soul Pieces",
+		Title = "Soul Piece'leri Bul",
 		Description = {
-			"Laichin has given you directions on how to find the 4 Soul Pieces of Agrboda. But what does he mean by \"big\" or \"small\" and what. You better ask him for clarification"
+			"Laichin, Agrboda'nin 4 Soul Piece'ini bulman icin yol tarif etti. Big ve small ile ne demek istedigini netlestir."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Laichin",
 		CoolTimeQuest = 1
 	},
 	[16069] = {
-		Title = "Finding the Soul Pieces",
+		Title = "Soul Piece'leri Bul",
 		Description = {
-			"For big, Look near the border of the map. For small, look in between the border and center. For very small, look near the center. Check out big 1 o'clock, big 5 o'clock, big 7 o'clock, and the small 6 o'clock."
+			"Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 1, big 5, big 7 ve small 6 yonlerini kontrol et."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "Glastheim Dungeon - Agrboda's Seal",
 		CoolTimeQuest = 1
 	},
 	[16070] = {
-		Title = "Finding the Soul Pieces",
+		Title = "Soul Piece'leri Bul",
 		Description = {
-			"For big, Look near the border of the map. For small, look in between the border and center. For very small, look near the center. Check out big 4 o'clock, big 10 o'clock, small 6 o'clock, and the very small 11 o'clock."
+			"Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 4, big 10, small 6 ve very small 11 yonlerini kontrol et."
 		},
 		Summary = "Glastheim Dungeon - Agrboda's Seal"
 	},
 	[16071] = {
-		Title = "Finding the Soul Pieces",
+		Title = "Soul Piece'leri Bul",
 		Description = {
-			"For big, Look near the border of the map. For small, look in between the border and center. For very small, look near the center. Check out big 5 o'clock, small 11 o'clock, small 6 o'clock, and the very small 11 o'clock."
+			"Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 5, small 11, small 6 ve very small 11 yonlerini kontrol et."
 		},
 		Summary = "Glastheim Dungeon - Agrboda's Seal"
 	},
 	[16072] = {
-		Title = "Finding the Soul Pieces",
+		Title = "Soul Piece'leri Bul",
 		Description = {
-			"For big, Look near the border of the map. For small, look in between the border and center. For very small, look near the center. Check out big 4 o'clock, big 5 o'clock, big 10 o'clock, and the small 11 o'clock."
+			"Big icin map sinirina, small icin sinir ile merkezin arasina, very small icin merkeze yakin bak. Big 4, big 5, big 10 ve small 11 yonlerini kontrol et."
 		},
 		Summary = "Glastheim Dungeon - Agrboda's Seal"
 	},
 	[16073] = {
-		Title = "Agrboda's Soul",
+		Title = "Agrboda'nin Soul'u",
 		Description = {
-			"You have retrieved all of Agrboda's soul pices. You hear a voice speaking directly to you, \"I'm... leaving my soul with you. Please guide me to the queen of the dead...\""
+			"Agrboda'nin tum Soul Piece'lerini topladin. Bir ses sana ruhunu emanet edip onu queen of the dead'e goturmeni istiyor."
 		},
 		Summary = ""
 	},
 	[16074] = {
 		Title = "Symbol of the Nine Realms",
 		Description = {
-			"Lady Hell has rewarded you with the Symbol of the Nine Realms. Who should I tell first..."
+			"Lady Hell seni Symbol of the Nine Realms ile odullendirdi. Bunu ilk kime gostermelisin?"
 		},
 		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[16075] = {
-		Title = "Serin's Ambitions",
+		Title = "Serin'in Hirslari",
 		Description = {
-			"Kirkena has told you that Serin is intending on making a deal with the Dark Lord in order to remain in the living world. You must give her the Witch's Tonic so that she will forget her twisted ambitions."
+			"Kirkena, Serin'in yasayanlar dunyasinda kalmak icin Dark Lord ile anlasma yapmayi planladigini soyledi. Witch's Tonic verip planlarini unuttur."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[16076] = {
 		Title = "Witch's Tonic",
 		Description = {
-			"Kirkena has given you the Witch's Tonic and will send you to Serin's location so that you can erase her memories."
+			"Kirkena sana Witch's Tonic verdi ve Serin'in hafizasini silmen icin onun bulundugu yere gonderecek."
 		},
 		Summary = ""
 	},
 	[16077] = {
-		Title = "Serin's Release",
+		Title = "Serin'in Kurtulusu",
 		Description = {
-			"You have successfully given the witch's tonic to Serin and she will no longer try to summon Dark Lord. You should tell Kirkena of your success."
+			"Witch's Tonic'i Serin'e basariyla verdin. Artik Dark Lord'u summon etmeye calismayacak. Kirkena'ya haber ver."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[16078] = {
-		Title = "Visit with Lady Hell",
+		Title = "Lady Hell'i Ziyaret Et",
 		IconName = "ico_nq.bmp",
 		Description = {
-			"Kirkena says that Lady Hell wants to see you for some reason..."
+			"Kirkena, Lady Hell'in seni bir nedenle gormek istedigini soyluyor."
 		},
 		Summary = ""
 	},
@@ -53699,67 +53699,67 @@ QuestInfoList = {
 		Title = "The Sign",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You have been rewarded with \"The Sign\" which will show all others that you are a great warrior whose courage was tested by the gods themselves. Who should I show this to first?"
+			"Cesaretinin tanrilar tarafindan sinandigini gosteren The Sign ile odullendirildin. Bunu ilk kime gostermelisin?"
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[16080] = {
-		Title = "Dark Lord's return",
+		Title = "Dark Lord'un Donusu",
 		IconName = "ico_dq.bmp",
 		Description = {
-			"You have fAled to stop Serin from summoning Dark Lord. You had better tell Kirkena that you fAled your mission."
+			"Serin'in Dark Lord'u summon etmesini durduramadin. Gorevinin basarisiz oldugunu Kirkena'ya bildir."
 		},
 		Summary = ""
 	},
 	[16081] = {
-		Title = "Serin's Ambitions",
+		Title = "Serin'in Hirslari",
 		Description = {
-			"Serin told you that Kirkena is trying to summon Dark Lord in to Rune-Midgarts. You must find a way to stop this from happening."
+			"Serin, Kirkena'nin Dark Lord'u Rune Midgard'a summon etmeye calistigini soyledi. Bunu durdurmanin yolunu bul."
 		},
 		Summary = ""
 	},
 	[16082] = {
-		Title = "Dark Lord's return",
+		Title = "Dark Lord'un Donusu",
 		Description = {
-			"You should probably tell Metz that you fAled your mission."
+			"Muhtemelen gorevde basarisiz oldugunu Metz'e bildirmelisin."
 		},
-		Summary = "Metz in Prontera"
+		Summary = "Prontera'daki Metz"
 	},
 	[16083] = {
-		Title = "Serin's Realization",
+		Title = "Serin'in Farkina Varisi",
 		Description = {
-			"You have stopped Serin's ambitious plans. You should tell Kirkena the witch what happened to you in Niflheim."
+			"Serin'in hirsli planlarini durdurdun. Niflheim'da olanlari witch Kirkena'ya anlat."
 		},
 		Summary = "Kirkena"
 	},
 	[16084] = {
 		Title = "The Sign",
 		Description = {
-			"Metz says that The Sign can be used to enter Valhalla but that you should first see Engel Howard who is the only person in Rune-Midgarts that knows how to handle it."
+			"Metz, The Sign'in Valhalla'ya girmek icin kullanilabilecegini ancak once onu nasil isleyecegini bilen Engel Howard'a gitmen gerektigini soyluyor."
 		},
 		Summary = "Engel Howard"
 	},
 	[16085] = {
 		Title = "The Sign",
 		Description = {
-			"Engel Howard has completed working with The Sign. He tells you that he is honored to have been given to the chance to work with it. Show it to Metz so that he knows your work is done."
+			"Engel Howard The Sign uzerindeki calismasini tamamladi. Onu Metz'e goster ki isin bittigini bilsin."
 		},
 		Summary = "Metz"
 	},
 	[16086] = {
 		Title = "The Sign",
 		Description = {
-			"Wait for Metz to finish his examination of The Sign. It should only take a couple of hours."
+			"Metz'in The Sign incelemesini bitirmesini bekle. Birkac saat surecek."
 		},
-		Summary = "Return to Metz after the timer has expired"
+		Summary = "Sure dolunca Metz'e don"
 	},
 	[16087] = {
 		Title = "The Sign",
 		Description = {
-			"Wait for Engel to complete his work with The Sign and come back after the allotted time."
+			"Engel'in The Sign uzerindeki calismasini tamamlamasini bekle ve sure dolunca geri gel."
 		},
-		Summary = "Return to Engel after the timer has expired"
+		Summary = "Sure dolunca Engel'e don"
 	},
 	[16088] = {
 		Title = "Coyote Found",
@@ -53839,43 +53839,43 @@ QuestInfoList = {
 	[16101] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Bring the bottle of Culinary Wine to Lecollane in the Kiel Hyre Academy south east of here."
+			"Culinary Wine siseyi buranin guneydogusundaki Kiel Hyre Academy'de Lecollane'e gotur."
 		},
 		Summary = ""
 	},
 	[16102] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Elly might need some help. Talk to her."
+			"Elly'nin yardima ihtiyaci olabilir. Onunla konus."
 		},
 		Summary = ""
 	},
 	[16103] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Find the ingredients for Elly's cookies. You can get Wine from a pub in Yuno, Cacaos from Yoyos, and flour and eggs from the Toast Stand in Yuno."
+			"Elly'nin cookie'leri icin malzemeleri bul. Wine'i Juno'daki pub'dan, Cacao'yu Yoyo'dan, flour ve egg'i Juno'daki Toast Stand'dan alabilirsin."
 		},
 		Summary = ""
 	},
 	[16104] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Go to the Windmill Owner in the Lighthalzen slums to get flour and eggs for Cezu."
+			"Cezu icin flour ve egg almak uzere Lighthalzen slums'taki Windmill Owner'a git."
 		},
 		Summary = ""
 	},
 	[16105] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Bring the Delivery Package back to Cezu in Yuno."
+			"Delivery Package'i Juno'daki Cezu'ya geri getir."
 		},
-		Summary = "Reset at 04:00",
+		Summary = "",
 		CoolTimeQuest = 1
 	},
 	[16106] = {
 		Title = "Kiel Hyre Academy",
 		Description = {
-			"Bring the Delivery Package to Elly at the Kiel Hyre Academy."
+			"Delivery Package'i Kiel Hyre Academy'deki Elly'ye gotur."
 		},
 		Summary = ""
 	},
