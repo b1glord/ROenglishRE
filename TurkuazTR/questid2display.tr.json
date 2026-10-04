@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.69.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7790-7809 Rock Ridge, Buffalo Bandits, Johnny James, Albert Ford ve Shawn McCurdy ana hikaye gorevleri dahil",
+    "version": "6.70.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7865 ikinci Rebellion operasyonu ile 8000-8016 Assassin ve Priest job-change gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9932,6 +9932,96 @@
       "title": "Cevherleri Toplama",
       "description": "Cevherleri topladin.",
       "goal": ""
+    },
+    "7865": {
+      "title": "Ikinci Operasyon",
+      "description": "Einbroch'un kuzeybati alanindaki terk edilmis madende yeni bir operasyon yapilacak. Bekleyen Rebellion uyesiyle bulus ve operasyona katil.",
+      "goal": "Rebellion Crew ile konus"
+    },
+    "8000": {
+      "title": "Job Change'den Vazgec",
+      "description": "Assassin olma isleminden vazgec ve kasabaya don.",
+      "goal": "Assassin Job Change'den vazgec"
+    },
+    "8001": {
+      "title": "Assassin Job Change",
+      "description": "Assassin olmak icin basvuru formunu doldur ve sinava gir.",
+      "goal": "Assassin Job Change basvurusu yap"
+    },
+    "8002": {
+      "title": "Assassin Job Change",
+      "description": "Sinavi gecmek icin 10 sorudan en az 9'una dogru cevap vermelisin.",
+      "goal": "Assassin yazili sinavini gec"
+    },
+    "8003": {
+      "title": "Assassin Job Change",
+      "description": "Sinavi gecmek icin 6 Job Change Target'in tamamini yakalamalisin.",
+      "goal": "6 Job Change Target yakala"
+    },
+    "8004": {
+      "title": "Assassin Job Change",
+      "description": "Hiding yetenegin test edilecek. Hicbir canavari yenmeden potion ve Hiding kullanarak odanin diger tarafina ulas.",
+      "goal": "Hicbir canavari yenme"
+    },
+    "8005": {
+      "title": "Assassin Job Change",
+      "description": "Son test salonuna git.",
+      "goal": "Final test salonuna git"
+    },
+    "8006": {
+      "title": "Guild Master'i Bul",
+      "description": "Labirentten gec ve Guild Master'i bul.",
+      "goal": "Guild Master'i bul"
+    },
+    "8007": {
+      "title": "Guild Master'in Onayi",
+      "description": "Guild Master'dan Necklace'i al ve Assassin Expert Huey ile bulus.",
+      "goal": "Necklace'i Huey'ye gotur"
+    },
+    "8008": {
+      "title": "Assassin Job Change",
+      "description": "Artik bir Assassin oldun.",
+      "goal": "Assassin Job Change tamamlandi"
+    },
+    "8009": {
+      "title": "Priest Job Change Basvurusu",
+      "description": "Priest olmak icin Three Trials of Priesthood gorevlerini kabul et.",
+      "goal": "Priest Job Change basvurusu yap"
+    },
+    "8010": {
+      "title": "Priest Job Change",
+      "description": "Hac yolculugunu tamamla. Once Prontera Ruins'in kuzeydogusundaki Rubalkabara'yi, sonra Prontera'nin guneybatisinda Morocc yakinindaki Sister Mathilda'yi, son olarak Prontera'nin kuzeybatisindaki Father Yosuke'yi ziyaret et.",
+      "goal": "1. sinav: Pilgrimage"
+    },
+    "8011": {
+      "title": "Priest Job Change",
+      "description": "Spiritual Training'in yapildigi yere git ve Peter S. Alberto ile konus.",
+      "goal": "2. sinav: Spiritual Training"
+    },
+    "8012": {
+      "title": "Priest Job Change",
+      "description": "Egitime basla. Tum canavarlari yen ve karanligin yaratiklarina merhamet etme.",
+      "goal": "2. sinav: Spiritual Training"
+    },
+    "8013": {
+      "title": "Priest Job Change",
+      "description": "Spiritual Training'i tamamladin. Sister Cecilia ile gorus.",
+      "goal": "Priest Job Change sinavina devam et"
+    },
+    "8014": {
+      "title": "Priest Job Change",
+      "description": "Kendini Tanri'ya adamaya soz ver.",
+      "goal": "3. sinav: Tanri'ya adanmislik"
+    },
+    "8015": {
+      "title": "Priest Job Change",
+      "description": "Priesthood yeminini ederek uc gorevi de tamamladin. Bishop Paul'a geri don.",
+      "goal": "Priest Job Change'i tamamla"
+    },
+    "8016": {
+      "title": "Priest Job Change",
+      "description": "Artik bir Priest oldun.",
+      "goal": "Priest Job Change tamamlandi"
     }
   }
 }
