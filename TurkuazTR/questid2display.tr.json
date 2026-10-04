@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.02.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 12132-12191 El Dicastes Supply-Transport istekleri, cooldown kayitlari ve Midgard arastirma dokumanlarindan 60 pending kayit dahil",
+    "version": "7.03.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 12192-12253 Midgard dokumanlari, essence creation, Mora hunting-collection ve Fog Maze missing person bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -15782,6 +15782,306 @@
       "title": "Insect Feeler Dokumani",
       "description": "Hassas sinirlere sahip insect'in feeler'i. Manuk yaratiklarindan farkli yapisi nedeniyle arastirma konusu.",
       "goal": "pay_fild07 126 49 yakinlari"
+    },
+    "12192": {
+      "title": "Immortal Heart Dokumani",
+      "description": "Hic durmadan atan bir heart. Mermaid denen mistik yaratiklardan elde edilir. Kalbin itici gucu hala bilinmiyor ve arastirmaya deger.",
+      "goal": "iz_dun02 112 96 yakinlari"
+    },
+    "12193": {
+      "title": "Rotten Bandage Dokumani",
+      "description": "Olu bedenlerde kullanilan bandage. Human'larin olulerin bedenlerine geri donecegine inandigini gosteriyor.",
+      "goal": "moc_pryd02 134 112 yakinlari"
+    },
+    "12194": {
+      "title": "Decayed Nail Dokumani",
+      "description": "Olu bedenden gelen nail. Olum zamani ve saglik durumu arastirmalarinda onemli. Human ecology icin yararli.",
+      "goal": "moc_pryd02 36 75 yakinlari"
+    },
+    "12195": {
+      "title": "Horrendous Mouth Dokumani",
+      "description": "Olu bedenden gelen tooth. Olum zamani ve saglik durumu arastirmalarinda onemli. Human ecology icin yararli.",
+      "goal": "moc_pryd02 148 184 yakinlari"
+    },
+    "12196": {
+      "title": "Tentacle Dokumani",
+      "description": "Ocean creature'lardan gelen feeler. Insect feeler'larindan farkli olarak aktif hareket ediyor.",
+      "goal": "iz_dun01 210 77 yakinlari"
+    },
+    "12197": {
+      "title": "Shell Dokumani",
+      "description": "Insect veya crustacean yaratiklari koruyan shell. Deriyi cevreler ve harekete ragmen esnektir. Arastirmaya deger.",
+      "goal": "iz_dun01 191 92 yakinlari"
+    },
+    "12198": {
+      "title": "Scale Shell Dokumani",
+      "description": "Bazi reptile'larda bulunan parlak scale. Yuzeyindeki fluorescent madde farkli alanlarda kullanilabilir.",
+      "goal": "mjolnir_04 191 154 yakinlari"
+    },
+    "12199": {
+      "title": "Venom Canine Dokumani",
+      "description": "Poison tasiyan canine tooth. Human'lar bunu dusmanlari yenmek icin weapon yapiminda kullaniyor.",
+      "goal": "mjolnir_04 162 168 yakinlari"
+    },
+    "12200": {
+      "title": "Sticky Mucus Dokumani",
+      "description": "Biraz viscosity barindiran sticky liquid. Construction icin temel malzeme olabilir ve Manuk architecture'da kullaniliyor. Midgard'da yaygin.",
+      "goal": "prt_fild02 102 97 yakinlari"
+    },
+    "12201": {
+      "title": "Bee Sting Dokumani",
+      "description": "Canli bir insect'ten alinan stinger. Bazi human'lar medicinal etkisi nedeniyle tedavide kullaniyor.",
+      "goal": "mjolnir_09 99 100 yakinlari"
+    },
+    "12202": {
+      "title": "Grasshopper's Leg Dokumani",
+      "description": "Uzak mesafeye sicrayan bir insect'in arka legs'i. Yapisi arastirmaya deger.",
+      "goal": "prt_fild07 76 122 yakinlari"
+    },
+    "12203": {
+      "title": "Royal Jelly Dokumani",
+      "description": "Queen Bee'den toplanan bir tur wonder drug. Human'lar cok seviyor ama Manuk icin etkisi bulunamadi.",
+      "goal": "prt_fild03 64 35 yakinlari"
+    },
+    "12204": {
+      "title": "Yoyo Tail Dokumani",
+      "description": "Human'a benzeyen bir yaratigin tail'i. Human'larda neden bulunmadigini arastirmak ilginc olurdu ama mevcut alliance zarar gorebilir.",
+      "goal": "prt_fild03 180 163 yakinlari"
+    },
+    "12205": {
+      "title": "Solid Shell Dokumani",
+      "description": "Cevresel etkenlerle evrimlesmis shell. Cesitli tool veya armory yapiminda iyi malzeme olabilir.",
+      "goal": "prt_fild03 226 170 yakinlari"
+    },
+    "12206": {
+      "title": "Yam Dokumani",
+      "description": "Olgunlastiginda yenebilen sari food. Human'lar cok seviyor. Kokusu olgun Sweet Potato'ya benziyor.",
+      "goal": "prt_fild03 262 201 yakinlari"
+    },
+    "12207": {
+      "title": "Raccoon Leaf Dokumani",
+      "description": "Bu leaf yapistirilinca sekil degistirebilen bir animal oldugu soyleniyor. Soylentiyi dogrulamak icin arastirilmali.",
+      "goal": "prt_fild03 284 190 yakinlari"
+    },
+    "12208": {
+      "title": "Snail's Shell Dokumani",
+      "description": "Dev snail'in bedenini koruyan sert carapace. Salt merak nedeniyle bile arastirmaya deger.",
+      "goal": "gef_fild09 67 46 yakinlari"
+    },
+    "12209": {
+      "title": "Horn Dokumani",
+      "description": "Bazi insect'lerden gelen sert kama bicimli horn. Pratik kullanimi az.",
+      "goal": "prt_fild03 366 237 yakinlari"
+    },
+    "12210": {
+      "title": "Bear's Footskin Dokumani",
+      "description": "Human'lar avlanan bear'in paw'larini topluyor. Kullanim amaci bilinmiyor. Paw toplayan human'lar da arastirma konusu.",
+      "goal": "pay_fild07 269 164 yakinlari"
+    },
+    "12211": {
+      "title": "Feather Dokumani",
+      "description": "Downy hair kadar yumusak ve sicak hair. Soguktan korunmak icin kullaniliyor olmali. Midgard genelinde bulunabilir.",
+      "goal": "prt_fild02 142 116 yakinlari"
+    },
+    "12212": {
+      "title": "Red Herb Dokumani",
+      "description": "Medicinal kirmizi bir plant. Human'lar recovery medicine yapmak icin kullaniyor. Arastirmaya deger.",
+      "goal": "prt_fild02 97 209 yakinlari"
+    },
+    "12213": {
+      "title": "Carrot Dokumani",
+      "description": "Kirmizi renkli plant. Pub owner surekli istiyor. Arastirmaya deger.",
+      "goal": "prt_fild02 280 328 yakinlari"
+    },
+    "12214": {
+      "title": "Cactus Needle Dokumani",
+      "description": "Neredeyse hic moisture olmayan desert'ta yasayan bir plant'in yuzeyi.",
+      "goal": "moc_fild01 169 62 yakinlari"
+    },
+    "12215": {
+      "title": "Stone Heart Dokumani",
+      "description": "Midgard'daki olu bir bolgede dev bir stone'un kendiliginden hareket ettigi soyleniyor. Bu dev stone'un heart'i nadir bir arastirma konusu olur.",
+      "goal": "cmd_fild08 324 163 yakinlari"
+    },
+    "12216": {
+      "title": "Kusen Jahbong",
+      "description": "Jahbong ciddi sekilde kusmus gorunuyor. 6 saat boyunca onunla konusamazsin. Belki fish vermek yardimci olur.",
+      "goal": ""
+    },
+    "12217": {
+      "title": "Istek - Wild Boar Avi Izleri",
+      "description": "Yalnizca Savage'lara baskin yapmak etkisiz gorunuyor. Canli ve taze Savage'lari avla, 30 Savage Mane getir. Bunlari saldiri yollarina yayarak uyari verecegim.",
+      "goal": "30 Wild Boar Mane topla"
+    },
+    "12218": {
+      "title": "Lava Essence Uretimi",
+      "description": "Thor Volcano Dungeon 2F'in en sicak yerinde 40 Blazing Heart refine et.",
+      "goal": "thor_v02 163 104 cevresini ara"
+    },
+    "12219": {
+      "title": "Flame Essence Uretimi",
+      "description": "Thor Volcano Dungeon'daki saglam zeminde 10 Live Coal refine et.",
+      "goal": "thor_v01 185 91 cevresini ara"
+    },
+    "12220": {
+      "title": "Glacier Essence Uretimi",
+      "description": "Ice Cave'in derinlerinde 10 Glacial Heart refine et.",
+      "goal": "ice_dun03 137 148 cevresini ara"
+    },
+    "12221": {
+      "title": "Fossil Essence Uretimi",
+      "description": "Mine Dungeon 2F'te 10 Jubilee refine et.",
+      "goal": "ein_dun02 181 124 cevresini ara"
+    },
+    "12222": {
+      "title": "Storm Essence Uretimi",
+      "description": "Kunlun Dungeon'da Dragon Mask'lerden gelen 10 Denture refine et.",
+      "goal": "gon_dun02 252 198 cevresini ara"
+    },
+    "12225": {
+      "title": "Meyve Tasiyan Bocekler",
+      "description": "Ormanda kaybolan adventurer'lara bir sey satmaya calismadan once gorduklerini temizlemeni istiyorum.",
+      "goal": "3 Pom Spider avla"
+    },
+    "12226": {
+      "title": "Cicekli Avcilar",
+      "description": "Henuz can kaybi bildirilmedi ama onlem almak zarar vermez. Gerekeni yap.",
+      "goal": "4 Angra Mantis avla"
+    },
+    "12227": {
+      "title": "Kucuk Ama Vahsi...",
+      "description": "O kadar vahsi gorunmuyorlar ama adventurer onlardan kurtulmamizi istedi. Gorevi yerine getir.",
+      "goal": "5 Parus avla"
+    },
+    "12228": {
+      "title": "Bilinmeyen Kin",
+      "description": "Fairy'lere karsi ne kini oldugunu bilmiyorum ama istek istektir.",
+      "goal": "6 Little Fatum avla"
+    },
+    "12229": {
+      "title": "Blondie Ann",
+      "description": "Cok tehlikeli gorunmuyorlar ama adventurer'lardan book ve sweet caldiklari bildirildi. Gerekeni yap.",
+      "goal": "7 Miming avla"
+    },
+    "12230": {
+      "title": "Istek Zamanlayicisi",
+      "description": "Elephantine'in bugun verecek baska gorevi yok.",
+      "goal": "Surenin dolmasini bekle"
+    },
+    "12231": {
+      "title": "Koruyucu Icin Malzeme",
+      "description": "General Goods Dealer dort Insect Feeler istedi. Ben olsam bunlari dunyada yemezdim.",
+      "goal": "4 Insect Feeler topla"
+    },
+    "12232": {
+      "title": "Direnisin Simgesi",
+      "description": "Immortal Heart son zamanlarda cok moda. General Goods Merchant bes tane istedi.",
+      "goal": "5 Immortal Heart topla"
+    },
+    "12233": {
+      "title": "First Aid Kit Malzemesi",
+      "description": "First aid bandage yapmak icin cok Rotten Bandage gerekiyor. General Goods Merchant icin getir.",
+      "goal": "1 Rotten Bandage topla"
+    },
+    "12234": {
+      "title": "Cesaret Simgeleri",
+      "description": "General Goods Dealer cesaret sembolu yapmak icin 3 Orcish Voucher istedi.",
+      "goal": "3 Orcish Voucher topla"
+    },
+    "12235": {
+      "title": "Dayaniklilik Icin...",
+      "description": "General Goods Dealer tonic yapmak icin 3 Skel-Bone istedi.",
+      "goal": "3 Skel-Bone topla"
+    },
+    "12236": {
+      "title": "Talisman Modasinin Son Hali",
+      "description": "Memento'lar bu case tasarimlarina ilham veriyor. Karsimdaki Commodities Dealer iki tane istedi.",
+      "goal": "2 Memento topla"
+    },
+    "12237": {
+      "title": "Degerli Esyalarini Koru",
+      "description": "Karsimdaki Commodities Dealer Shell'den koruyucu case yapiyor. 3 tane istedi.",
+      "goal": "3 Shell topla"
+    },
+    "12238": {
+      "title": "Shin Guard Malzemesi",
+      "description": "Karsimdaki Commodities Dealer shin guard yapmak icin 3 Scale Shell istedi.",
+      "goal": "3 Scale Shell topla"
+    },
+    "12239": {
+      "title": "Zehre Karsi Zehir...",
+      "description": "Karsimdaki Commodities Dealer arastirma icin 2 Venom Canine istedi.",
+      "goal": "2 Venom Canine topla"
+    },
+    "12240": {
+      "title": "Kayip Dusme",
+      "description": "Karsimdaki Commodities Dealer 5 Sticky Mucus istedi.",
+      "goal": "5 Sticky Mucus topla"
+    },
+    "12241": {
+      "title": "Istek Zamanlayicisi",
+      "description": "Bow-wow'un bugun verecek baska gorevi yok.",
+      "goal": "Surenin dolmasini bekle"
+    },
+    "12242": {
+      "title": "Istek Zamanlayicisi",
+      "description": "Woof-grrr'in bugun verecek baska gorevi yok.",
+      "goal": "Surenin dolmasini bekle"
+    },
+    "12243": {
+      "title": "Kayip Kisi Tazar Bilgisi",
+      "description": "32 yasinda, Midgard'li. Native plant toplamak icin Maze of the Hazy Forest'a gittikten sonra 3 aydir kayip. Hayatta kalma ihtimali dusuk.",
+      "goal": "Fog Maze Forest 13, 10 cevresini ara"
+    },
+    "12244": {
+      "title": "Kayip Kisi Nigel Bilgisi",
+      "description": "19 yasinda. Uzak ve bilinmeyen bir yerden ship ile gelen adventurer. Mora halkinin itirazlarina ragmen ince tights ile Maze'i kesfe gittikten sonra 2 aydir kayip.",
+      "goal": "Fog Maze Forest 10, 24 cevresini ara"
+    },
+    "12245": {
+      "title": "Kayip Kisi Messil Bilgisi",
+      "description": "Yasi bilinmiyor. Hafif zihinsel rahatsizligi var. Maze of the Hazy Forest'i arindirmak icin tek basina gitti.",
+      "goal": "Fog Maze Forest 14, 24 cevresini ara"
+    },
+    "12246": {
+      "title": "Kayip Kisi Noirit Bilgisi",
+      "description": "51 yasinda. Dunyanin dort yanindan unlu sword'lari calan buyuk bir hirsizdi. Son yillarinda buyuk kayiplara yol acan illegal casino isletirken takip edilince Maze'de kayboldu.",
+      "goal": "Fog Maze Forest 19, 27 cevresini ara"
+    },
+    "12247": {
+      "title": "Kayip Kisi Pajama Sin Bilgisi",
+      "description": "22 yasinda. Airship pilot cadet'i. Izin gununde Mora'da icerken kayboldu. Bir yere imza attiktan sonra kactigi soyleniyor. 4 aydir kayip. Hayatta kalma ihtimali dusuk.",
+      "goal": "Fog Maze Forest 30, 32 cevresini ara"
+    },
+    "12248": {
+      "title": "Kayip Kisi Mendel Bilgisi",
+      "description": "Yasi bilinmiyor. Uzun sacli, siyah giyimli bir kadin. Eternal life aramak icin Maze Forest'a expedition'a cikti. 3 aydir kayip. Hayatta kalma ihtimali dusuk.",
+      "goal": "Fog Maze Forest 33, 28 cevresini ara"
+    },
+    "12249": {
+      "title": "Kayip Kisi Milebit Bilgisi",
+      "description": "Yaklasik 50 yasinda. Mora Village'in mevcut Mayor'u. Halki kandirip kazanci zimmetine gecirdigi ortaya cikinca Maze Forest'a kacti. Hayatta olup olmadigi belirsiz.",
+      "goal": "Fog Maze Forest 33, 17 cevresini ara"
+    },
+    "12250": {
+      "title": "Kayip Kisi Kunmoon Bilgisi",
+      "description": "29 yasinda. Gecmisi bilinmeyen genc adam. Cesitli isler kuruyormus gibi davranip Mora halkindan 1200 Mora Coin dolandirdiktan sonra Maze Forest'a kacti. Hayatta olup olmadigi belirsiz.",
+      "goal": "Fog Maze Forest 28, 8 cevresini ara"
+    },
+    "12251": {
+      "title": "Kayip Kisi Chaihokin Bilgisi",
+      "description": "34 yasinda. Mora'da birkac kadinla flort etti. Mora halkindan kacip Maze Forest'a girdi. Hayatta olup olmadigi belirsiz.",
+      "goal": "Fog Maze Forest 17, 5 cevresini ara"
+    },
+    "12252": {
+      "title": "Kayip Kisi Tual Bilgisi",
+      "description": "Yasi bilinmiyor. Koylulerin ortak yonettigi coin'lerle birlikte ortadan kayboldu. Hayatta kalma ihtimali dusuk.",
+      "goal": "Fog Maze Forest 11, 4 cevresini ara"
+    },
+    "12253": {
+      "title": "Istek Zamanlayicisi",
+      "description": "Soul Guide'in bugun verecek baska gorevi yok.",
+      "goal": "Surenin dolmasini bekle"
     }
   }
 }
