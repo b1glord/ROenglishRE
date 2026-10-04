@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.50.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7238-7241 Thorn malzeme, equipment enhancement ve 24 saatlik bekleme gorevleri dahil",
+    "version": "6.51.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7242-7259 Malangdo bebek kediler, Nyadventure Duruduru yarisi, Bang makinesi ve alti parcali resim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7617,6 +7617,91 @@
       "title": "Thorn Gorevi Bekleme Suresi",
       "description": "24 saat bekledikten sonra Thorn'a geri don.",
       "goal": "24 saat sonra Thorn'a don"
+    },
+    "7242": {
+      "title": "Bebek Kedilerle Oyna",
+      "description": "Malangdo'nun deneyimli kedi denizcisi Rato, bebek kediler icin endiseleniyor. Beyaz Rosy, siyah Roku ve altin renkli Charo'yu bulup onlarla oyna.",
+      "goal": "Rosy, Roku ve Charo'yu bul"
+    },
+    "7243": {
+      "title": "Nyadventure - Duruduru Pusulasi",
+      "description": "Kendilerine Mew Bravery Team diyen bebek kedilerden Adventure Card A aldin. Kart, yaptiklari bazi cihazlari calistirmak icin gerekli. Karti Beginning Compass'a yerlestirerek oyunu baslat.",
+      "goal": "Adventure Card A'yi Beginning Compass'a yerlestir"
+    },
+    "7244": {
+      "title": "Nyadventure - Duruduru Yarisi",
+      "description": "Duruduru Compass Race basladi. Sinirli surede pusulalari dogru sirayla tamamla: Red Flame -> Blue Flame -> Gold Flame -> Forest -> Cloud.",
+      "goal": "Pusula rotasini sure dolmadan tamamla"
+    },
+    "7245": {
+      "title": "Nyadventure - Duruduru Yarisi",
+      "description": "Duruduru Compass Race basladi. Sinirli surede pusulalari dogru sirayla tamamla: Gold Flame -> Blue Flame -> Cloud -> Forest -> Red Flame.",
+      "goal": "Pusula rotasini sure dolmadan tamamla"
+    },
+    "7246": {
+      "title": "Nyadventure - Simdi Geliyorum",
+      "description": "Charo, Malangdo'nun merkezindeki Navi gemisinin yakininda bir dedektif kedi oldugunu soyluyor. Dedektif ve arkadasiyla tanismaya git.",
+      "goal": "Dedektif kedi ve arkadasini bul"
+    },
+    "7247": {
+      "title": "Nyadventure - Bang'i Durdur",
+      "description": "Kendisini gercek dedektif olarak tanitan Homnya ve arkadasi Nyangson, onlerindeki makine patlarsa Malangdo'nun yok olacagini soyluyor. Bang makinesini durdur.",
+      "goal": "Bang makinesini durdur"
+    },
+    "7249": {
+      "title": "Nyadventure - Bang! Yarin Gorusuruz",
+      "description": "Homnya ve Nyangson'a gore Bang adli bu makine surekli sorun cikariyor. Ne zaman tekrar tehlike yaratacagi belli degil. Yarin makineyi yeniden kontrol et.",
+      "goal": "Yarin Bang makinesini kontrol et"
+    },
+    "7250": {
+      "title": "Nyadventure - Gizli Hazine?",
+      "description": "Bang durdurulunca Homnya ve Nyangson sana bir hazine hakkinda ipucu verdi. Homnya hazinenin Navi gemisinin icinde oldugunu soyluyor. Saka olabilir ama aramaya deger.",
+      "goal": "Navi gemisindeki hazineyi ara"
+    },
+    "7251": {
+      "title": "Nyadventure - Resmin Ilk Parcasi",
+      "description": "Navi gemisindeki bir kutuda resmin ilk parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7252": {
+      "title": "Nyadventure - Resmin Ikinci Parcasi",
+      "description": "Navi gemisinin toplanti odasindaki bir kitabin icinde resmin ikinci parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7253": {
+      "title": "Nyadventure - Resmin Ucuncu Parcasi",
+      "description": "Murettebat kamarasindaki eski yatagin altinda resmin ucuncu parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7254": {
+      "title": "Nyadventure - Resmin Dorduncu Parcasi",
+      "description": "Kaptan kamarasindaki dekoratif deniz kabugunda resmin dorduncu parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7255": {
+      "title": "Nyadventure - Resmin Besinci Parcasi",
+      "description": "Ahsap bir sutunun catlaginda resmin besinci parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7256": {
+      "title": "Nyadventure - Resmin Altinci Parcasi",
+      "description": "Kamara zeminindeki havalandirma penceresinde resmin altinci parcasini buldun.",
+      "goal": "Resim parcasini sakla"
+    },
+    "7257": {
+      "title": "Nyadventure - Yaris Icin Yarin Gel",
+      "description": "Duruduru Race gunde bir kez kosulabilir. Tekrar katilmak istiyorsan daha sonra gel.",
+      "goal": "Bir sonraki yaris zamanini bekle"
+    },
+    "7258": {
+      "title": "Nyadventure - Resim Tamamlandi",
+      "description": "Gemide buldugun 6 resim parcasi tamamlandi ve artik tek bir resim olusturuyor. Charo, Rosy ve Roku'ya haber ver.",
+      "goal": "Charo, Rosy ve Roku'ya tamamlanan resmi goster"
+    },
+    "7259": {
+      "title": "Mew Bravery Team'den Hediye",
+      "description": "Charo, Rosy ve Roku buldugun resim parcalarini Rato'ya vermek istiyor. Parcalanmis olsa da bebek kedilerin sevgisini iletmek icin resmi Rato'ya gotur.",
+      "goal": "Resmi Rato'ya teslim et"
     }
   }
 }
