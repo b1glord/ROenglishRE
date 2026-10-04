@@ -1,0 +1,58 @@
+# PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
+# PURPOSE: Turkce skill pending raporunu yeniler ve Hybrid/Full TR builderlarini dogrular.
+# MODULE-FILETYPE: CI - GitHub Actions YAML
+# VERSION: 1.0.0
+# DESCRIPTION: CP949/EUC-KR skill description kaynagini parse eder; pending raporunu bot commit'i ile gunceller.
+# DEPENDENCY-LAYER: Tool
+
+name: Turkuaz Skill Translation
+
+on:
+  push:
+    branches:
+      - translation/tr
+    paths:
+      - ".github/workflows/turkuaz-skill-translation.yml"
+      - "TurkuazTR/skillinfolist.tr.json"
+      - "TurkuazTR/skilldescript.tr.json"
+      - "TurkuazTR/skill-profiles.json"
+      - "TurkuazTR/tools/**"
+      - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub"
+      - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-skill-translation:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout translation branch
+        uses: actions/checkout@v4
+        with:
+          ref: translation/tr
+          fetch-depth: 0
+
+      - name: Generate description pending report
+        run: python TurkuazTR/tools/extract-skilldescript-pending.py
+
+      - name: Validate Hybrid profile
+        run: python TurkuazTR/tools/build-skill-profile.py --profile hybrid
+
+      - name: Validate Full TR profile
+        run: python TurkuazTR/tools/build-skill-profile.py --profile full_tr
+
+      - name: Commit refreshed pending report
+        shell: bash
+        run: |
+          git config user.name "Turkuaz Translation Bot"
+          git config user.email "turkuaz-translation-bot@users.noreply.github.com"
+          git add TurkuazTR/skilldescript.pending.json
+          if git diff --cached --quiet; then
+            echo "Skill pending raporunda degisiklik yok."
+            exit 0
+          fi
+          git commit -m "chore: refresh Turkish skill description pending report"
+          git push origin HEAD:translation/tr
