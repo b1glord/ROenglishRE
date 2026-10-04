@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.60.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7501-7542 Multiplayer Battle Arena TE, kale isgali ve guild dungeon challenge gorevleri dahil",
+    "version": "6.61.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7543-7564 guild challenge bekleme sureleri ve Kafragaten challenge gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9052,6 +9052,116 @@
       "title": "Gloria Challenge 2",
       "description": "Gloria guild dungeon'da 30 Wizard, 30 Priest ve 30 Hunter yen.",
       "goal": "Her turden 30 tane yen"
+    },
+    "7543": {
+      "title": "Valkyrie Realm Challenge 1 Icin Bekleme",
+      "description": "Valkyrie Realm Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7544": {
+      "title": "Valkyrie Realm Challenge 2 Icin Bekleme",
+      "description": "Valkyrie Realm Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7545": {
+      "title": "Valkyrie Realm Challenge 3 Icin Bekleme",
+      "description": "Valkyrie Realm Challenge 3 gorevini zaten tamamladin. Yeniden katilmak icin 1 hafta sonra geri don.",
+      "goal": "1 hafta bekle"
+    },
+    "7546": {
+      "title": "Luina Challenge 1 Icin Bekleme",
+      "description": "Luina Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7547": {
+      "title": "Luina Challenge 2 Icin Bekleme",
+      "description": "Luina Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7548": {
+      "title": "Luina Challenge 3 Icin Bekleme",
+      "description": "Luina Challenge 3 gorevini zaten tamamladin. Yeniden katilmak icin 1 hafta sonra geri don.",
+      "goal": "1 hafta bekle"
+    },
+    "7549": {
+      "title": "Britoniah Challenge 1 Icin Bekleme",
+      "description": "Britoniah Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7550": {
+      "title": "Britoniah Challenge 2 Icin Bekleme",
+      "description": "Britoniah Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7551": {
+      "title": "Britoniah Challenge 3 Icin Bekleme",
+      "description": "Britoniah Challenge 3 gorevini zaten tamamladin. Yeniden katilmak icin 1 hafta sonra geri don.",
+      "goal": "1 hafta bekle"
+    },
+    "7552": {
+      "title": "Greenwood Lake Challenge 1 Icin Bekleme",
+      "description": "Greenwood Lake Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7553": {
+      "title": "Greenwood Lake Challenge 2 Icin Bekleme",
+      "description": "Greenwood Lake Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7554": {
+      "title": "Greenwood Lake Challenge 3 Icin Bekleme",
+      "description": "Greenwood Lake Challenge 3 gorevini zaten tamamladin. Yeniden katilmak icin 1 hafta sonra geri don.",
+      "goal": "1 hafta bekle"
+    },
+    "7555": {
+      "title": "Nidabehl Challenge 1 Icin Bekleme",
+      "description": "Nidabehl Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7556": {
+      "title": "Nidabehl Challenge 2 Icin Bekleme",
+      "description": "Nidabehl Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7557": {
+      "title": "Valfreyja Challenge 1 Icin Bekleme",
+      "description": "Valfreyja Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7558": {
+      "title": "Valfreyja Challenge 2 Icin Bekleme",
+      "description": "Valfreyja Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7559": {
+      "title": "Gloria Challenge 1 Icin Bekleme",
+      "description": "Gloria Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7560": {
+      "title": "Gloria Challenge 2 Icin Bekleme",
+      "description": "Gloria Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7561": {
+      "title": "Kafragaten Challenge 1",
+      "description": "Kafragaten guild dungeon'da 30 Crusader, 30 Rogue ve 30 Alchemist yen.",
+      "goal": "Her turden 30 tane yen"
+    },
+    "7562": {
+      "title": "Kafragaten Challenge 2",
+      "description": "Kafragaten guild dungeon'da 30 Sage, 30 Monk ve 30 Bard yen.",
+      "goal": "Her turden 30 tane yen"
+    },
+    "7563": {
+      "title": "Kafragaten Challenge 1 Icin Bekleme",
+      "description": "Kafragaten Challenge 1 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
+    },
+    "7564": {
+      "title": "Kafragaten Challenge 2 Icin Bekleme",
+      "description": "Kafragaten Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
+      "goal": "1 gun bekle"
     }
   }
 }
