@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.28.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60935-62204 Museum Murder finali, Eye of the Beholder, Rune Midgard Exposition ve Summer Sports Festa bloklarindan 60 benzersiz pending ID dahil",
+    "version": "7.29.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 62205-62266 Summer Sports Festa, Back to School, Talk like a Pirate, 2012 Halloween ve The Lion's Roar bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -23581,6 +23581,306 @@
     "62204": {
       "title": "Summer Sports Festa",
       "description": "Aslan ile Geffen'deki southern fountain'in eastern corner'ina kadar yarisa gir.",
+      "goal": ""
+    },
+    "62205": {
+      "title": "Summer Sports Festa",
+      "description": "Geffen Inn'deki Madame Mansur'a don.",
+      "goal": ""
+    },
+    "62206": {
+      "title": "Summer Sports Festa",
+      "description": "Madame Mansur kalan delegeleri oyunlar icin Geffen'e gelmeye ikna etmeli. Yeni delegeler geldiginde gelecek hafta ona don.",
+      "goal": ""
+    },
+    "62207": {
+      "title": "Summer Sports Festa",
+      "description": "Weapon Shop Manager'i bul ve onunla konus.",
+      "goal": ""
+    },
+    "62208": {
+      "title": "Summer Sports Festa",
+      "description": "Port Malaya delegesi Lawrence Llaguno'ya don.",
+      "goal": ""
+    },
+    "62209": {
+      "title": "Summer Sports Festa",
+      "description": "Brasilis delegesiyle konus.",
+      "goal": ""
+    },
+    "62210": {
+      "title": "Summer Sports Festa",
+      "description": "Terra Track veya Franklin Field'a don ve delegelerle konusmayi tamamladigini bildir.",
+      "goal": ""
+    },
+    "62211": {
+      "title": "Okula Donus: Mobster Cenneti",
+      "description": "50 Mobster yen, sonra Inspector Device ile bulusmak icin docks'a git.",
+      "goal": ""
+    },
+    "62212": {
+      "title": "Okula Donus Matematik Sayaci",
+      "description": "Timer sona erene kadar bekle.",
+      "goal": ""
+    },
+    "62213": {
+      "title": "Korsan Gibi Konus: Izlude'a Rapor Ver",
+      "description": "Izlude entrance'taki Coastal Guard Captain'a rapor ver.",
+      "goal": ""
+    },
+    "62214": {
+      "title": "Korsan Gibi Konus: Alberta'ya Rapor Ver",
+      "description": "Alberta entrance'taki Coastal Guard Lieutenant'a rapor ver.",
+      "goal": ""
+    },
+    "62215": {
+      "title": "Korsan Gibi Konus: Sokaklari Temizle (Izlude)",
+      "description": "20 Enraged Obeaune ve 10 Enraged Swordfish yen, sonra Captain'a don.",
+      "goal": ""
+    },
+    "62216": {
+      "title": "Korsan Gibi Konus: Sokaklari Temizle (Alberta)",
+      "description": "20 Enraged Iara ve 10 Enraged Kapha yen, sonra Lieutenant'a don.",
+      "goal": ""
+    },
+    "62217": {
+      "title": "Korsan Gibi Konus: Alberta Island Tarzi",
+      "description": "Ferry ile Alberta Island'a git ve General'a rapor ver.",
+      "goal": ""
+    },
+    "62218": {
+      "title": "Korsan Gibi Konus: General Sorunlari",
+      "description": "General sorunu anlamiyor. Seni dinleyecek baska birini bulman gerekiyor. Island'daki civilians ile konusmayi dene.",
+      "goal": ""
+    },
+    "62219": {
+      "title": "Korsan Gibi Konus: Pek de Wyse Degil",
+      "description": "Wyse the Unlikely yardimci olabilir. Onu Einbroch'ta dock edilmis Airship'in ustunde bulabilirsin.",
+      "goal": ""
+    },
+    "62220": {
+      "title": "Korsan Gibi Konus: Erzak Gorevi",
+      "description": "Wyse, Einbroch weapon shop'taki Aneka'dan supplies almani istedi.",
+      "goal": ""
+    },
+    "62221": {
+      "title": "Korsan Gibi Konus: Gizli Tasiyici",
+      "description": "Weapon Shop'tan Airship'e crates tasimaya hazirlan; disguise gerekebilir.",
+      "goal": ""
+    },
+    "62222": {
+      "title": "Korsan Gibi Konus: Dikkatli Ol",
+      "description": "Crates'i Weapon Shop'tan Airship'teki Quarter Master'a teslim et; guard'lara yakalanma.",
+      "goal": ""
+    },
+    "62223": {
+      "title": "Korsan Gibi Konus: Yelken Ac",
+      "description": "Wyse'a yola cikmaya hazir oldugunu soyle.",
+      "goal": ""
+    },
+    "62224": {
+      "title": "Korsan Gibi Konus: Veri Madenciligi",
+      "description": "Drilling Machine'in nerede oldugunu ogrenmek icin Einbech'teki mining company'yi arastir.",
+      "goal": ""
+    },
+    "62225": {
+      "title": "Korsan Gibi Konus: Veri Kurekleme",
+      "description": "Daha fazla bilgi sahibi birini bulmaya calis.",
+      "goal": ""
+    },
+    "62226": {
+      "title": "Korsan Gibi Konus: K-k-kod Kirici",
+      "description": "Planlar Einbech sokaklarindaki bir drilling machine'in icinde.",
+      "goal": ""
+    },
+    "62227": {
+      "title": "Korsan Gibi Konus: Donus",
+      "description": "Planlari Einbroch'taki Wyse the Unlikely'ye geri gotur.",
+      "goal": ""
+    },
+    "62228": {
+      "title": "Korsan Gibi Konus: Yukari ve Uzaklara",
+      "description": "Wyse the Unlikely ile konusup Airship'e bin.",
+      "goal": ""
+    },
+    "62229": {
+      "title": "Korsan Gibi Konus: Harita Okuma",
+      "description": "Airship navigation hakkinda Aneka ile konus.",
+      "goal": ""
+    },
+    "62230": {
+      "title": "Korsan Gibi Konus: Yaralamak Icin Ates Et",
+      "description": "Gunner ile konus ve monsters arasindan yol acmak icin atislarini yonlendir.",
+      "goal": ""
+    },
+    "62231": {
+      "title": "Korsan Gibi Konus: Ekibi Bul",
+      "description": "Mining crew'i bul.",
+      "goal": ""
+    },
+    "62232": {
+      "title": "Korsan Gibi Konus: Pengineering Gorevi",
+      "description": "Pengineer'i Izlude Dungeon 6'nin guneybati kosesine kadar koru.",
+      "goal": ""
+    },
+    "62233": {
+      "title": "Korsan Gibi Konus: Yarali",
+      "description": "Machine'i durdurdun ama patladi! Medical attention alman iyi olur.",
+      "goal": ""
+    },
+    "62234": {
+      "title": "Korsan Gibi Konus: Izlude Irene",
+      "description": "Izlude Irene'in seni aradigi soylendi.",
+      "goal": ""
+    },
+    "62235": {
+      "title": "Korsan Gibi Konus Sayaci",
+      "description": "Bu durumun 20 saat sonra tekrar baslayabilecegini hissediyorsun.",
+      "goal": ""
+    },
+    "62236": {
+      "title": "Izlude VIP Dungeon Erisimi",
+      "description": "Gecici VIP ayari.",
+      "goal": ""
+    },
+    "62237": {
+      "title": "Pengineer Arkadaslik Istegi",
+      "description": "Pengineer tekrar friend request'ini kabul edene kadar 1 saat beklemelisin. Daha fazla icecek almasi gerekiyor!",
+      "goal": ""
+    },
+    "62238": {
+      "title": "Midgardian Mercenary Sayaci",
+      "description": "3 saat sonra tekrar Midgardian Mercenary recruit edebilirsin.",
+      "goal": ""
+    },
+    "62241": {
+      "title": "2012 Halloween: Payon'da Iyilik Yap",
+      "description": "Cilgin old man'in iddialarini arastirmak icin Payon Cave 1F'ye git.",
+      "goal": ""
+    },
+    "62242": {
+      "title": "2012 Halloween: Oluleri Avla",
+      "description": "10 Skeleton ve Zombie yen, sonra Renaud de Mantauban'a don.",
+      "goal": ""
+    },
+    "62243": {
+      "title": "2012 Halloween: Geffen Altindaki Golge",
+      "description": "Darkness kaynagini bulmak icin Geffen Dungeon 2F'ye bak.",
+      "goal": ""
+    },
+    "62244": {
+      "title": "2012 Halloween: Glast Heim'in Golgesi",
+      "description": "Glast Heim Abbey'e git ve kirik pew'ler arasinda darkness kaynagini bul.",
+      "goal": ""
+    },
+    "62245": {
+      "title": "2012 Halloween: Batik Golge",
+      "description": "Sunken Ship'e dal ve 1F'deki darkness source ile savas.",
+      "goal": ""
+    },
+    "62246": {
+      "title": "2012 Halloween: Orc Golgesi",
+      "description": "Orc Dungeon 2F'ye in ve darkness kaynagini bul.",
+      "goal": ""
+    },
+    "62247": {
+      "title": "2012 Halloween: Ghoul Avcisi",
+      "description": "20 Ghoul yen ve yaptiklarinin sonucunu gormek icin Shadow Font'a don.",
+      "goal": ""
+    },
+    "62248": {
+      "title": "2012 Halloween: Evil Druid Avlama",
+      "description": "20 Evil Druid yen ve yaptiklarinin sonucunu gormek icin Shadow Font'a don.",
+      "goal": ""
+    },
+    "62249": {
+      "title": "2012 Halloween: Korsan Iskeletlerin Sonu",
+      "description": "20 Pirate Skeleton yen ve yaptiklarinin sonucunu gormek icin Shadow Font'a don.",
+      "goal": ""
+    },
+    "62250": {
+      "title": "2012 Halloween: Orc Avlama",
+      "description": "20 Orc Skeleton yen ve yaptiklarinin sonucunu gormek icin Shadow Font'a don.",
+      "goal": ""
+    },
+    "62251": {
+      "title": "2012 Halloween: Ormandan Kacis",
+      "description": "Font'un icine cekildin. Kacmak icin forest icinde yolunu bul.",
+      "goal": ""
+    },
+    "62252": {
+      "title": "2012 Halloween: Kamp Kurma",
+      "description": "Font icindeki dark shadowland'den kactin. Geffen'in hemen batisindaki Camp'i bul.",
+      "goal": ""
+    },
+    "62253": {
+      "title": "2012 Halloween: Amatsu'ya Yolculuk",
+      "description": "Orada yukselen darkness raporlarini arastirmak icin Amatsu'ya git.",
+      "goal": ""
+    },
+    "62254": {
+      "title": "2012 Halloween: Eve Donus",
+      "description": "Paladin camp'ine don ve Amatsu'da undead'lerin yukselisini bildir.",
+      "goal": ""
+    },
+    "62255": {
+      "title": "2012 Halloween: Geffen'i Savun",
+      "description": "Jorge Gnomero'yu bul ve Geffen savunmasini organize etmesine yardim et.",
+      "goal": ""
+    },
+    "62256": {
+      "title": "2012 Halloween: Geffen Savunmasi A",
+      "description": "Room A: Enemy general savasa girene kadar Invaded Geffen'e girebilirsin.",
+      "goal": ""
+    },
+    "62257": {
+      "title": "2012 Halloween: Geffen Savunmasi B",
+      "description": "Room B: Enemy general savasa girene kadar Invaded Geffen'e girebilirsin.",
+      "goal": ""
+    },
+    "62258": {
+      "title": "2012 Halloween: Geffen Savunmasi C",
+      "description": "Room C: Enemy general savasa girene kadar Invaded Geffen'e girebilirsin.",
+      "goal": ""
+    },
+    "62259": {
+      "title": "2012 Halloween: Savunma Tekrar Sayaci",
+      "description": "Geffen'in 8 saat sonra tekrar tehlikeye girebilecegini hissediyorsun.",
+      "goal": ""
+    },
+    "62260": {
+      "title": "Aslanin Kukremesi: Orovan Yine Kayip",
+      "description": "Glast Heim'in ust merkezinde Orovan'i bul.",
+      "goal": ""
+    },
+    "62261": {
+      "title": "Aslanin Kukremesi: Saatleri Kim Izliyor?",
+      "description": "Orovan'in Pocket Watch'unu Glast Heim'in kuzeybati kosesinde ara.",
+      "goal": ""
+    },
+    "62262": {
+      "title": "Aslanin Kukremesi: Saatleri Kim Izliyor?",
+      "description": "Orovan'in Pocket Watch'unu Glast Heim'in guneybati kosesinde ara.",
+      "goal": ""
+    },
+    "62263": {
+      "title": "Aslanin Kukremesi: Saatleri Kim Izliyor?",
+      "description": "Orovan'in Pocket Watch'unu Glast Heim'in kuzeydogu kosesinde ara.",
+      "goal": ""
+    },
+    "62264": {
+      "title": "Aslanin Kukremesi: Saatleri Kim Izliyor?",
+      "description": "Orovan'in Pocket Watch'unu Glast Heim'in guneydogu kosesinde ara.",
+      "goal": ""
+    },
+    "62265": {
+      "title": "Aslanin Kukremesi: Orovan'in Donusu",
+      "description": "Pocket Watch'u Orovan'a geri ver.",
+      "goal": ""
+    },
+    "62266": {
+      "title": "Aslanin Kukremesi: Heykel Isi",
+      "description": "Glast Heim 2'nin merkezindeki Statues'i bul.",
       "goal": ""
     }
   }
