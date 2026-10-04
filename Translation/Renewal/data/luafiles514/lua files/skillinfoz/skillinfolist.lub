@@ -8369,7 +8369,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_BASIC] = {
 		"NV_BASIC",
-		SkillName = "Basic Skill",
+		SkillName = "Temel Beceri",
 		MaxLv = 9,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8378,7 +8378,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MG_STONECURSE] = {
 		"MG_STONECURSE",
-		SkillName = "Stone Curse",
+		SkillName = "Tas Laneti",
 		MaxLv = 10,
 		SpAmount = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 16 },
 		bSeperateLv = false,
@@ -8386,7 +8386,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.CR_PROVIDENCE] = {
 		"CR_PROVIDENCE",
-		SkillName = "Providence",
+		SkillName = "Ilahi Koruma",
 		MaxLv = 5,
 		SpAmount = { 30, 30, 30, 30, 30 },
 		bSeperateLv = false,
@@ -8410,7 +8410,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.CR_DEFENDER] = {
 		"CR_DEFENDER",
-		SkillName = "Defender",
+		SkillName = "Savunmaci",
 		MaxLv = 5,
 		SpAmount = { 30, 30, 30, 30, 30 },
 		bSeperateLv = false,
@@ -8432,7 +8432,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.CR_SPEARQUICKEN] = {
 		"CR_SPEARQUICKEN",
-		SkillName = "Spear Quicken",
+		SkillName = "Mizrak Hizlandirma",
 		MaxLv = 10,
 		SpAmount = { 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 },
 		bSeperateLv = true,
@@ -8443,7 +8443,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_SUMMON_TERA] = {
 		"SO_SUMMON_TERA",
-		SkillName = "Summon Tera",
+		SkillName = "Tera Cagir",
 		MaxLv = 3,
 		SpAmount = { 100, 150, 200 },
 		bSeperateLv = true,
@@ -8455,7 +8455,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_IRONHAND] = {
 		"MO_IRONHAND",
-		SkillName = "Iron Hand",
+		SkillName = "Demir El",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8468,7 +8468,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_SUMMON_VENTUS] = {
 		"SO_SUMMON_VENTUS",
-		SkillName = "Summon Ventus",
+		SkillName = "Ventus Cagir",
 		MaxLv = 3,
 		SpAmount = { 100, 150, 200 },
 		bSeperateLv = true,
@@ -8480,7 +8480,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_SPIRITSRECOVERY] = {
 		"MO_SPIRITSRECOVERY",
-		SkillName = "Spirit Recovery",
+		SkillName = "Ruh Yenilenmesi",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8492,7 +8492,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_EL_ANALYSIS] = {
 		"SO_EL_ANALYSIS",
-		SkillName = "4 Elemental Analysis",
+		SkillName = "4 Element Analizi",
 		MaxLv = 2,
 		SpAmount = { 10, 20 },
 		bSeperateLv = true,
@@ -8506,7 +8506,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_CALLSPIRITS] = {
 		"MO_CALLSPIRITS",
-		SkillName = "Call Spirits",
+		SkillName = "Ruh Cagir",
 		MaxLv = 5,
 		SpAmount = { 8, 8, 8, 8, 8 },
 		bSeperateLv = false,
@@ -8517,7 +8517,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_VARETYR_SPEAR] = {
 		"SO_VARETYR_SPEAR",
-		SkillName = "Varetyr Spear",
+		SkillName = "Varetyr Mizragi",
 		MaxLv = 10,
 		SpAmount = { 65, 70, 75, 80, 85, 90, 95, 100, 105, 110 },
 		bSeperateLv = false,
@@ -8529,7 +8529,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_ABSORBSPIRITS] = {
 		"MO_ABSORBSPIRITS",
-		SkillName = "Absorp Spirits",
+		SkillName = "Ruhlari Em",
 		MaxLv = 1,
 		SpAmount = { 5 },
 		bSeperateLv = false,
@@ -8540,7 +8540,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_VACUUM_EXTREME] = {
 		"SO_VACUUM_EXTREME",
-		SkillName = "Extreme Vacuum",
+		SkillName = "Asiri Vakum",
 		MaxLv = 5,
 		SpAmount = { 34, 42, 50, 58, 66 },
 		bSeperateLv = true,
@@ -8551,7 +8551,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_TRIPLEATTACK] = {
 		"MO_TRIPLEATTACK",
-		SkillName = "Triple Attack",
+		SkillName = "Uclu Saldiri",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8563,7 +8563,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EL_POWER_OF_GAIA] = {
 		"EL_POWER_OF_GAIA",
-		SkillName = "Power of Gaia",
+		SkillName = "Gaia'nin Gucu",
 		MaxLv = 1,
 		SpAmount = { 80 },
 		bSeperateLv = false,
@@ -8571,7 +8571,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_BODYRELOCATION] = {
 		"MO_BODYRELOCATION",
-		SkillName = "Body Relocation",
+		SkillName = "Beden Yer Degistirme",
 		MaxLv = 1,
 		SpAmount = { 14 },
 		bSeperateLv = false,
@@ -8584,7 +8584,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_DODGE] = {
 		"MO_DODGE",
-		SkillName = "Dodge",
+		SkillName = "Kacinma",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8597,7 +8597,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_EARTHGRAVE] = {
 		"SO_EARTHGRAVE",
-		SkillName = "Earth Grave",
+		SkillName = "Toprak Mezari",
 		MaxLv = 5,
 		SpAmount = { 62, 70, 78, 86, 94 },
 		bSeperateLv = true,
@@ -8608,7 +8608,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_INVESTIGATE] = {
 		"MO_INVESTIGATE",
-		SkillName = "Investigate",
+		SkillName = "Derin Inceleme",
 		MaxLv = 5,
 		SpAmount = { 10, 14, 17, 19, 20 },
 		bSeperateLv = true,
@@ -8619,7 +8619,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_SPELLFIST] = {
 		"SO_SPELLFIST",
-		SkillName = "Spell Fist",
+		SkillName = "Buyu Yumrugu",
 		MaxLv = 10,
 		SpAmount = { 40, 44, 48, 52, 56, 60, 64, 68, 72, 76 },
 		bSeperateLv = true,
@@ -8630,7 +8630,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_FINGEROFFENSIVE] = {
 		"MO_FINGEROFFENSIVE",
-		SkillName = "Finger Offensive",
+		SkillName = "Parmak Saldirisi",
 		MaxLv = 5,
 		SpAmount = { 12, 16, 20, 24, 28 },
 		bSeperateLv = true,
@@ -8641,7 +8641,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_ELECTRICWALK] = {
 		"SO_ELECTRICWALK",
-		SkillName = "Electric Walk",
+		SkillName = "Elektrik Yuruyusu",
 		MaxLv = 5,
 		SpAmount = { 30, 34, 38, 42, 46 },
 		bSeperateLv = true,
@@ -8652,7 +8652,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_STEELBODY] = {
 		"MO_STEELBODY",
-		SkillName = "Steel Body",
+		SkillName = "Celik Beden",
 		MaxLv = 5,
 		SpAmount = { 200, 200, 200, 200, 200 },
 		bSeperateLv = false,
@@ -8663,7 +8663,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_UNLIMITED_HUMMING_VOICE] = {
 		"WM_UNLIMITED_HUMMING_VOICE",
-		SkillName = "Unlimited Humming Voice",
+		SkillName = "Sinirsiz Mirilti Sesi",
 		MaxLv = 5,
 		SpAmount = { 120, 130, 140, 150, 160 },
 		bSeperateLv = true,
@@ -8675,7 +8675,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_BLADESTOP] = {
 		"MO_BLADESTOP",
-		SkillName = "Blade Stop",
+		SkillName = "Bicak Durdurma",
 		MaxLv = 5,
 		SpAmount = { 10, 10, 10, 10, 10 },
 		bSeperateLv = false,
@@ -8686,7 +8686,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WA_SWING_DANCE] = {
 		"WA_SWING_DANCE",
-		SkillName = "Swing Dance",
+		SkillName = "Swing Dansi",
 		MaxLv = 5,
 		SpAmount = { 96, 112, 128, 144, 160 },
 		bSeperateLv = true,
@@ -8697,7 +8697,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_EXPLOSIONSPIRITS] = {
 		"MO_EXPLOSIONSPIRITS",
-		SkillName = "Explosion Spirits",
+		SkillName = "Ruh Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 15, 15, 15, 15, 15 },
 		bSeperateLv = false,
@@ -8708,7 +8708,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_SATURDAY_NIGHT_FEVER] = {
 		"WM_SATURDAY_NIGHT_FEVER",
-		SkillName = "Saturday Night Fever",
+		SkillName = "Cumartesi Gecesi Atesi",
 		MaxLv = 5,
 		SpAmount = { 150, 160, 170, 180, 190 },
 		bSeperateLv = true,
@@ -8719,7 +8719,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_EXTREMITYFIST] = {
 		"MO_EXTREMITYFIST",
-		SkillName = "Asura Strike",
+		SkillName = "Asura Darbesi",
 		MaxLv = 5,
 		SpAmount = { 1, 1, 1, 1, 1 },
 		bSeperateLv = false,
@@ -8731,7 +8731,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MG_FIREBALL] = {
 		"MG_FIREBALL",
-		SkillName = "Fire Ball",
+		SkillName = "Ates Topu",
 		MaxLv = 10,
 		SpAmount = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
 		bSeperateLv = false,
@@ -8742,7 +8742,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_CHAINCOMBO] = {
 		"MO_CHAINCOMBO",
-		SkillName = "Chain Combo",
+		SkillName = "Zincir Kombosu",
 		MaxLv = 5,
 		SpAmount = { 5, 6, 7, 8, 9 },
 		bSeperateLv = true,
@@ -8753,7 +8753,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_SOUND_OF_DESTRUCTION] = {
 		"WM_SOUND_OF_DESTRUCTION",
-		SkillName = "Song of Destruction",
+		SkillName = "Yikim Sesi",
 		MaxLv = 5,
 		SpAmount = { 50, 60, 70, 80, 90 },
 		bSeperateLv = true,
@@ -8765,7 +8765,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MO_COMBOFINISH] = {
 		"MO_COMBOFINISH",
-		SkillName = "Combo Finish",
+		SkillName = "Kombo Bitirisi",
 		MaxLv = 5,
 		SpAmount = { 3, 4, 5, 6, 7 },
 		bSeperateLv = true,
@@ -8776,7 +8776,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_DANCE_WITH_WUG] = {
 		"WM_DANCE_WITH_WUG",
-		SkillName = "Dance with Warg",
+		SkillName = "Warg ile Dans",
 		MaxLv = 5,
 		SpAmount = { 120, 140, 160, 180, 200 },
 		bSeperateLv = true,
@@ -8796,7 +8796,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_ADVANCEDBOOK] = {
 		"SA_ADVANCEDBOOK",
-		SkillName = "Advanced Book",
+		SkillName = "Ileri Kitap Bilgisi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8805,7 +8805,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_SONG_OF_MANA] = {
 		"WM_SONG_OF_MANA",
-		SkillName = "Song of Mana",
+		SkillName = "Mana Sarkisi",
 		MaxLv = 5,
 		SpAmount = { 120, 140, 160, 180, 200 },
 		bSeperateLv = true,
@@ -8825,7 +8825,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_CASTCANCEL] = {
 		"SA_CASTCANCEL",
-		SkillName = "Cast Cancel",
+		SkillName = "Buyu Iptali",
 		MaxLv = 5,
 		SpAmount = { 2, 2, 2, 2, 2 },
 		bSeperateLv = false,
@@ -8836,7 +8836,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_WHITEIMPRISON] = {
 		"WL_WHITEIMPRISON",
-		SkillName = "White Imprison",
+		SkillName = "Beyaz Hapis",
 		MaxLv = 5,
 		SpAmount = { 50, 55, 60, 65, 70 },
 		bSeperateLv = true,
@@ -8847,7 +8847,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_MAGICROD] = {
 		"SA_MAGICROD",
-		SkillName = "Magic Rod",
+		SkillName = "Buyu Cubugu",
 		MaxLv = 5,
 		SpAmount = { 2, 2, 2, 2, 2 },
 		bSeperateLv = false,
@@ -8869,7 +8869,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_SPELLBREAKER] = {
 		"SA_SPELLBREAKER",
-		SkillName = "Spell Breaker",
+		SkillName = "Buyu Bozucu",
 		MaxLv = 5,
 		SpAmount = { 10, 10, 10, 10, 10 },
 		bSeperateLv = false,
@@ -8894,7 +8894,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_FREECAST] = {
 		"SA_FREECAST",
-		SkillName = "Free Cast",
+		SkillName = "Serbest Buyu",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -8906,7 +8906,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_GREAT_ECHO] = {
 		"WM_GREAT_ECHO",
-		SkillName = "Great Echo",
+		SkillName = "Buyuk Yanki",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -8917,7 +8917,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_AUTOSPELL] = {
 		"SA_AUTOSPELL",
-		SkillName = "Auto Spell",
+		SkillName = "Otomatik Buyu",
 		MaxLv = 10,
 		SpAmount = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
 		bSeperateLv = false,
@@ -8928,7 +8928,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_ARROWSTORM] = {
 		"RA_ARROWSTORM",
-		SkillName = "Arrow Storm",
+		SkillName = "Ok Firtinasi",
 		MaxLv = 10,
 		SpAmount = { 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 },
 		bSeperateLv = true,
@@ -8939,7 +8939,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_FLAMELAUNCHER] = {
 		"SA_FLAMELAUNCHER",
-		SkillName = "Flame Launcher",
+		SkillName = "Alev Aktarimi",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -8951,7 +8951,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_WUGRIDER] = {
 		"RA_WUGRIDER",
-		SkillName = "Warg Rider",
+		SkillName = "Warg Binicisi",
 		MaxLv = 3,
 		SpAmount = { 2, 2, 2 },
 		bSeperateLv = false,
@@ -8962,7 +8962,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_FROSTWEAPON] = {
 		"SA_FROSTWEAPON",
-		SkillName = "Frost Weapon",
+		SkillName = "Buz Silahi",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -8974,7 +8974,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_MAGENTATRAP] = {
 		"RA_MAGENTATRAP",
-		SkillName = "Magenta Trap",
+		SkillName = "Magenta Tuzagi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -8985,7 +8985,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_LIGHTNINGLOADER] = {
 		"SA_LIGHTNINGLOADER",
-		SkillName = "Lightning Loader",
+		SkillName = "Yildirim Aktarimi",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -8997,7 +8997,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_PILEBUNKER] = {
 		"NC_PILEBUNKER",
-		SkillName = "Pile Bunker",
+		SkillName = "Kazik Delici",
 		MaxLv = 3,
 		SpAmount = { 50, 50, 50 },
 		bSeperateLv = true,
@@ -9008,7 +9008,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_SEISMICWEAPON] = {
 		"SA_SEISMICWEAPON",
-		SkillName = "Seismic Weapon",
+		SkillName = "Sismik Silah",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
@@ -9020,7 +9020,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_B_SIDESLIDE] = {
 		"NC_B_SIDESLIDE",
-		SkillName = "Back Slide",
+		SkillName = "Geri Kayma",
 		MaxLv = 1,
 		SpAmount = { 5 },
 		bSeperateLv = false,
@@ -9031,7 +9031,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_DRAGONOLOGY] = {
 		"SA_DRAGONOLOGY",
-		SkillName = "Dragonology",
+		SkillName = "Ejderha Bilgisi",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9043,7 +9043,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_NEUTRALBARRIER] = {
 		"NC_NEUTRALBARRIER",
-		SkillName = "Neutral Barrier",
+		SkillName = "Notr Bariyer",
 		MaxLv = 3,
 		SpAmount = { 80, 90, 100 },
 		bSeperateLv = true,
@@ -9054,7 +9054,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SA_VOLCANO] = {
 		"SA_VOLCANO",
-		SkillName = "Volcano",
+		SkillName = "Volkan",
 		MaxLv = 5,
 		SpAmount = { 48, 46, 44, 42, 40 },
 		bSeperateLv = false,
@@ -15528,7 +15528,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DEADLYCURSE2] = {
 		"NPC_DEADLYCURSE2",
-		SkillName = "���̵� ���鸮 Ŀ��",
+		SkillName = "¿ÍÀÌµå µ¥µé¸® Ä¿½º",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = true,
