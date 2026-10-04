@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.16.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 18070-19128 Baba Yaga, Moscovia Whale Island ve Eye of Hellion bloklarindan 60 pending kayit dahil",
+    "version": "7.17.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 19129-50019 Hellion finali, Criatura, Geffen band investigation ve Pirate Treasure bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -19981,6 +19981,306 @@
     "19128": {
       "title": "The Eye of Hellion",
       "description": "Chilias'Tyus, tablet parcalarini birlestirebilecek tek kisinin Welshyun oldugunu soyluyor.",
+      "goal": ""
+    },
+    "19129": {
+      "title": "The Eye of Hellion",
+      "description": "Completed Tablet elinde. Gorevin tamamlandigini bilmesi icin Chilias'Tyus'a gotur.",
+      "goal": ""
+    },
+    "19200": {
+      "title": "Troy ile RPS",
+      "description": "Troy'a ancak sure dolduktan sonra tekrar meydan okuyabilirsin.",
+      "goal": ""
+    },
+    "21001": {
+      "title": "Shipwreck'ten Kacis",
+      "description": "Storm sonrasi desert island'da batan ship'ten kacmalisin. Hala onboard olan yaralilari ara.",
+      "goal": "Captain ile konus"
+    },
+    "21002": {
+      "title": "Ilk Savas",
+      "description": "Poring'in caldigi ship repair malzemelerini bul. Crew senden 2 Lumber geri getirmeni istedi. Poring'leri yen ve wood'u al.",
+      "goal": "Crew'e 2 Lumber teslim et"
+    },
+    "21003": {
+      "title": "Motion Sickness Icin Ilac",
+      "description": "Yolculukta tanistigin Reno'ya yardim et. Criatura Academy Clinic'teki Therapist'e Herbal Medicine sor.",
+      "goal": "Therapist'e Herbal Medicine sor"
+    },
+    "21004": {
+      "title": "Temel Herbal Medicine",
+      "description": "Therapist potion malzemesi olarak Red Herb istiyor. Criatura Academy onundeki Red Plant'i bul.",
+      "goal": "Criatura Academy disinda Red Plant bul"
+    },
+    "21005": {
+      "title": "Konumu Kaydet",
+      "description": "Iyi ki bunu aldim.",
+      "goal": ""
+    },
+    "21006": {
+      "title": "Reno Icin Iyi Haber",
+      "description": "Therapist'ten aldigini Reno'ya ver.",
+      "goal": "Reno ile konus"
+    },
+    "21007": {
+      "title": "Ilk Arkadasim",
+      "description": "Iyi bir arkadas buldum.",
+      "goal": ""
+    },
+    "21008": {
+      "title": "Ilk Savas",
+      "description": "Poring'in caldigi ship repair malzemelerini bul. Crew senden 2 Lumber geri getirmeni istedi. Poring'leri yen ve wood'u al.",
+      "goal": "Crew'e 2 Lumber teslim et"
+    },
+    "21924": {
+      "title": "Egitim Tavsiyesi",
+      "description": "Sprakki, Payon'da yapacak bir sey olabilecegini soyledi. Izlude square'deki Kafra staff ile Payon'a git.",
+      "goal": "Kafra staff ile konus"
+    },
+    "21925": {
+      "title": "Adventurer Guild Cagrisi",
+      "description": "Izlude'daki Criatura Academy seni acilen cagiriyor. Sprakki'ye git.",
+      "goal": "Sprakki ile konus"
+    },
+    "21926": {
+      "title": "Goddess Follower Pesinde",
+      "description": "Knight Merik, Bran hakkinda Alberta'dan ihbar almis. Bran'in izini surmek icin Alberta'da Bedrowa ile gorus.",
+      "goal": "Bedrowa ile konus"
+    },
+    "21927": {
+      "title": "Supheli Shipwreck",
+      "description": "Bedrowa, Bran'in bir boat kiralayip shipwreck'e gittigini soyledi. Shipwreck cevresini arastir, iceri gir ve icini tara.",
+      "goal": "Shipwreck island'a git"
+    },
+    "21928": {
+      "title": "Poring Village",
+      "description": "Eden Group, Prontera cevresinde yayilan Poring Village soylentisinin dogrulugunu arastirmanizi istiyor. Prontera west'te bilgi topla.",
+      "goal": ""
+    },
+    "21929": {
+      "title": "Shipwreck Island'a Git",
+      "description": "Bran shipwreck island'da saklaniyor gibi. Alberta harbor yakinindaki sailor ile shipwreck'e git ve arastir.",
+      "goal": "Supheli shipwreck'i arastir"
+    },
+    "40000": {
+      "title": "Lighthalzen Pickpocket",
+      "description": "Suspicious Guy ile tekrar konusmadan once en az 5 dakika bekle.",
+      "goal": ""
+    },
+    "40001": {
+      "title": "Criminal Investigation",
+      "description": "Agent York, Geffen fountain yakinindaki Vince Noir'i bulmani istedi.",
+      "goal": ""
+    },
+    "40002": {
+      "title": "Ling Mynmei",
+      "description": "Vince Noir sana Raccoon Doll verdi ve Geffen'deki bir bar'da Ling Mynmei'yi bulup doll'u ona goturmeni soyledi.",
+      "goal": ""
+    },
+    "40003": {
+      "title": "Mynmei'yi Ozgurlestir",
+      "description": "Old Lady Kroot ile konus ve Ling Mynmei'yi work servitude contract'tan serbest birakmaya ikna et.",
+      "goal": ""
+    },
+    "40006": {
+      "title": "Yasli Kadinla Bilek Guresi",
+      "description": "Old Lady Kroot'a arm wrestling challenge yaptin. 5000 zeny ode ve onu yenmeyi dene.",
+      "goal": ""
+    },
+    "40007": {
+      "title": "Bir Kadinin Kalbine Giden Yol",
+      "description": "Old Lady Kroot'a Bomber Steak getirirsen Ling Mynmei contract bedelini 50000 zeny'ye dusurecek.",
+      "goal": ""
+    },
+    "40008": {
+      "title": "Yasli Kadinin Borcunu Ode",
+      "description": "Old Lady Kroot'a 100000 zeny vererek Ling Mynmei'nin contract'ini kapat.",
+      "goal": ""
+    },
+    "40009": {
+      "title": "Ling Mynmei Ozgur",
+      "description": "Ling Mynmei'ye contract'ini Old Lady Kroot'tan basariyla satin aldigini soyle.",
+      "goal": ""
+    },
+    "40010": {
+      "title": "Howard Moon",
+      "description": "Geffen'de bir yerde calisan Howard Moon'u bul.",
+      "goal": ""
+    },
+    "40011": {
+      "title": "Storage Room'u Su Bas",
+      "description": "Howard Moon fuudmaart storage room'u su basmasi icin yardim istiyor. Geffen'deki 4 control'u OFF yap ve sonra Howard Moon ile konus.",
+      "goal": "4 Flood Control'u kapattiktan sonra Howard Moon ile konus"
+    },
+    "40012": {
+      "title": "Flood Control 1",
+      "description": "Ilk flood control device'i kapattin.",
+      "goal": ""
+    },
+    "40013": {
+      "title": "Flood Control 2",
+      "description": "Ikinci flood control device'i kapattin.",
+      "goal": ""
+    },
+    "40014": {
+      "title": "Flood Control 3",
+      "description": "Ucuncu flood control device'i kapattin.",
+      "goal": ""
+    },
+    "40015": {
+      "title": "Flood Control 4",
+      "description": "Dorduncu flood control device'i kapattin.",
+      "goal": ""
+    },
+    "40016": {
+      "title": "Naota",
+      "description": "Son band member Naota'yi domestic airship icinde bul. Airship'e Hugel, Juno, Einbroch veya Lighthalzen'dan binebilirsin.",
+      "goal": ""
+    },
+    "40017": {
+      "title": "Jymmy'nin Isini Sabote Et",
+      "description": "Chicken'i drug ile etkisiz hale getir ve airship casino'daki machine'lere 3 cheat detector yerlestir. Bitince Dealer ile konus.",
+      "goal": ""
+    },
+    "40018": {
+      "title": "Drugged Chicken",
+      "description": "Bu, Jymmy'nin goon'larini etkisiz hale getirmeye yeter.",
+      "goal": ""
+    },
+    "40019": {
+      "title": "Cheat Detector 1",
+      "description": "Ilk cheat detector'u basariyla kurdun.",
+      "goal": ""
+    },
+    "40020": {
+      "title": "Cheat Detector 2",
+      "description": "Ikinci cheat detector'u basariyla kurdun.",
+      "goal": ""
+    },
+    "40021": {
+      "title": "Cheat Detector 3",
+      "description": "Ucuncu cheat detector'u basariyla kurdun.",
+      "goal": ""
+    },
+    "40022": {
+      "title": "Sucustu",
+      "description": "Jymmy'nin scam yaptigina dair kanitin var. Naota ile tekrar konus.",
+      "goal": ""
+    },
+    "40023": {
+      "title": "Ship Engine'ini Sabote Et",
+      "description": "Casino'yu gecip ship'in on tarafina git ve sword'a benzeyen switch'i kullanarak lower deck'e gir.",
+      "goal": ""
+    },
+    "40024": {
+      "title": "Cannon'u Atesle",
+      "description": "Cannon'u ship engine'lerine cevir ve ates et.",
+      "goal": ""
+    },
+    "40025": {
+      "title": "Jymmy the Thumb'u Bul",
+      "description": "Engine sabotaji hazir. Captain's Quarters'da Jimmy the Thumb ile yuzles.",
+      "goal": ""
+    },
+    "40026": {
+      "title": "Airship'ten Parasute Atla",
+      "description": "Birkac siyrikla kacmayi basardin. Vincent Noir ve diger band member'lari Izlude armory'de bul.",
+      "goal": ""
+    },
+    "50000": {
+      "title": "Pirate Dagger Malzemeleri",
+      "description": "Weather Beaten Old Man su malzemeleri getirirsen Pirate Dagger verecek: 2 Alcohol, 2 Karvodailnirol, 20 Steel, 8 Oridecon, 1 Iron Hammer ve 15 Trunk.",
+      "goal": ""
+    },
+    "50001": {
+      "title": "Weather Beaten Old Man",
+      "description": "Weather Beaten Old Man ile konusmaya devam et.",
+      "goal": ""
+    },
+    "50002": {
+      "title": "Kayip Hazine?",
+      "description": "Old Man, treasure'ini Turtle General bulunan cave swamp'inin icine sakladigini soyluyor.",
+      "goal": ""
+    },
+    "50003": {
+      "title": "Kayip Hazine?",
+      "description": "Old Man, treasure'ini Turtle General bulunan cave swamp'inin icine sakladigini soyluyor.",
+      "goal": ""
+    },
+    "50004": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Bir map piece buldun. Weather Beaten Old Man'in treasure'ini aramaya devam et.",
+      "goal": ""
+    },
+    "50005": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Rusty broken key buldun. Treasure'i aramaya devam et.",
+      "goal": ""
+    },
+    "50006": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Baska bir map piece buldun. Treasure'i aramaya devam et.",
+      "goal": ""
+    },
+    "50007": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Baska bir rusty broken key buldun. Treasure'i aramaya devam et.",
+      "goal": ""
+    },
+    "50008": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Rusty shovel buldun. Treasure yakin olmali.",
+      "goal": ""
+    },
+    "50009": {
+      "title": "Old Man'in Hazinesi",
+      "description": "Pirate treasure chest'i buldun. Weather Beaten Old Man'e geri gotur.",
+      "goal": ""
+    },
+    "50010": {
+      "title": "Ozel Lock Pick",
+      "description": "Old Man chest'i acacak special lock pick yapmak icin 10 Steel, 2 Elunium, 2 Oridecon, 2 Glass Bead, 10 Rusty Screw ve 100000 zeny istiyor.",
+      "goal": ""
+    },
+    "50011": {
+      "title": "Special Lock Pick",
+      "description": "Lock pick'in yapimi zaman aliyor. Wesley'e tekrar tekrar sorup bitirip bitirmedigini kontrol et.",
+      "goal": ""
+    },
+    "50012": {
+      "title": "Lock Pick'i Kullan",
+      "description": "Special lock pick hazir. Wesley treasure chest'i acmana yardim edecek.",
+      "goal": ""
+    },
+    "50013": {
+      "title": "Kirilan Lock Pick",
+      "description": "Treasure chest'i acmaya calisirken lock pick kirildi. Wesley tamir edebilmeli.",
+      "goal": ""
+    },
+    "50015": {
+      "title": "Bos Treasure Box",
+      "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
+      "goal": ""
+    },
+    "50016": {
+      "title": "Bos Treasure Box",
+      "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
+      "goal": ""
+    },
+    "50017": {
+      "title": "Bos Treasure Box",
+      "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
+      "goal": ""
+    },
+    "50018": {
+      "title": "Bos Treasure Box",
+      "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
+      "goal": ""
+    },
+    "50019": {
+      "title": "Bos Treasure Box",
+      "description": "J Roger'in East Comodo Cave'e gomdugu bos treasure box'i bul ve geri getir.",
       "goal": ""
     }
   }
