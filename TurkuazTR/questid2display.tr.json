@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.75.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8076-8088 Klitzer ve Calla iliskisi, aile gorusmesi ve kiyafet gorevleri dahil",
+    "version": "6.76.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8089-8099 Phobe, calinan gemstone ve Vincent ile 8100-8105 High Priest Zhed gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -10382,6 +10382,91 @@
       "title": "Klitzer ve Calla",
       "description": "Klitzer artik Calla'nin ailesinin onayini kazanmak ve sevgisine layik olmak icin elinden geleni yapmaya karar verdi.",
       "goal": ""
+    },
+    "8089": {
+      "title": "Calinan Gemstone",
+      "description": "Gemstone'un, kayboldugu siralarda ortadan kaybolan hizmetkar Phobe tarafindan calinmis olabileceginden supheleniliyor. Diger hizmetkarlardan nerede oldugunu ogren.",
+      "goal": "Phobe'un yerini arastir"
+    },
+    "8090": {
+      "title": "Mr. Manson",
+      "description": "Yeni calisan fazla bir sey bilmiyor. Daha deneyimli personelden Mr. Manson'i konakta bul ve Phobe hakkinda soru sor.",
+      "goal": "Mr. Manson'i bul"
+    },
+    "8091": {
+      "title": "Bahcivan Jenny",
+      "description": "Mr. Manson, Phobe'u kendisine bahcivan Jenny'nin tanittigini soyledi. Jenny uzun suredir Sir Zhed icin calisiyor ve cocuklari seviyor.",
+      "goal": "Jenny'yi bul"
+    },
+    "8092": {
+      "title": "Pazarda Arama",
+      "description": "Phobe hakkinda bilgi bulmak icin pazara gidip etrafa sor.",
+      "goal": "Pazara git"
+    },
+    "8093": {
+      "title": "Gizemli Mesaj",
+      "description": "Pazarda biri, Phobe'u arayan kisinin Ice Cave'e gelmesini isteyen gizemli bir mesaj birakti. Adi Rogan ya da buna benzer bir seydi.",
+      "goal": "Ice Cave'e git"
+    },
+    "8094": {
+      "title": "Tuzaga mi Dustuk?",
+      "description": "Rogan adinin uydurma oldugu ve Vincent'in Phobe'u soran herkesi ortadan kaldirmak icin tuzak kurdugu ortaya cikti. Vincent'a geri don.",
+      "goal": "Vincent'a geri don"
+    },
+    "8095": {
+      "title": "Phobe'u Bul",
+      "description": "Sir Zhed donmeden gemstone ve Phobe bulunursa sorun cozulabilir. Phobe bir cocuk; muhtemelen kasabada bir yerde saklaniyor.",
+      "goal": "Phobe'u bul"
+    },
+    "8096": {
+      "title": "Calinan Gemstone Bulundu",
+      "description": "Phobe eve hemen donmek istemiyor ama annesine iyi oldugunu ve endiselenmemesini soylemeni istedi.",
+      "goal": "Vincent'a geri don"
+    },
+    "8097": {
+      "title": "Jenny'ye Haber Ver",
+      "description": "Vincent gemstone'u geri gotururken, esi Jenny'ye ogullarinin iyi oldugunu soylemeni istedi.",
+      "goal": "Jenny ile konus"
+    },
+    "8098": {
+      "title": "Sirri Koru",
+      "description": "Jenny yardimlarin icin tesekkur etti. Vincent'a geri don.",
+      "goal": "Vincent'a geri don"
+    },
+    "8099": {
+      "title": "Vincent'in Tavsiye Mektubu",
+      "description": "Vincent senin icin bir recommendation letter yazdi. Mektubu en kisa zamanda Sir Zhed'e teslim et.",
+      "goal": "Sir Zhed ile gorus"
+    },
+    "8100": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "High Priest Zhed tavsiye mektubunu tamamlarken, 40 Glacial Heart topladiktan sonra gitmen gereken Pope's Office'in yolunu anlatiyor.",
+      "goal": "40 Glacial Heart topla ve Pope ile gorus"
+    },
+    "8101": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "Pope seninle konusmaktan memnun oldu ancak hizmete katilmasi gerekiyor. Simdi Zhed'e geri don.",
+      "goal": "Zhed'e geri don"
+    },
+    "8102": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "Konusma henuz bitmedi. Bu arada yan odada bekleyip dinlen.",
+      "goal": "Yan odada bekle"
+    },
+    "8103": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "Birisi sana High Priest Zhed'e fazla yaklasmaman konusunda uyarida bulundu. Aksi halde basini belaya sokabilirsin.",
+      "goal": "Zhed'e geri don"
+    },
+    "8104": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "^FF0000Holy Ground'a yaklasmaman^000000 konusunda acikca uyarildin.",
+      "goal": "Holy Ground'dan uzak dur"
+    },
+    "8105": {
+      "title": "High Priest Zhed'in Tavsiyesi",
+      "description": "Bekento sorun cikarmaman icin uyarilmisti ama bu kez sen ona sorun cikarmissin. Cogu izinsiz giren agir ceza alir; Zhed seni bu kez hafif bir uyariyla birakti.",
+      "goal": "Zhed'e geri don"
     }
   }
 }
