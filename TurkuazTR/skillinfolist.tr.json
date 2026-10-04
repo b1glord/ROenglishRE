@@ -1,0 +1,196 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
+    "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "NV_BASIC ile baslayan oyuncu skill blogunda ilk 60 SkillName cevirisini tutar",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
+  "source_ref": "9542c3dbd71ff9a69a6096b9f4d8848a7346387e",
+  "encoding_policy": "UTF-8 source; patch degerleri ASCII Turkce",
+  "selection_policy": "SKILL_INFO_LIST icinde NV_BASIC ve sonrasi gorunen skill adlari",
+  "patches": {
+    "NV_BASIC": {
+      "name": "Temel Beceri"
+    },
+    "MG_STONECURSE": {
+      "name": "Tas Laneti"
+    },
+    "CR_PROVIDENCE": {
+      "name": "Ilahi Koruma"
+    },
+    "AB_EUCHARISTICA": {
+      "name": "Eucharistica"
+    },
+    "CR_DEFENDER": {
+      "name": "Savunmaci"
+    },
+    "AB_SILENTIUM": {
+      "name": "Silentium"
+    },
+    "CR_SPEARQUICKEN": {
+      "name": "Mizrak Hizlandirma"
+    },
+    "SO_SUMMON_TERA": {
+      "name": "Tera Cagir"
+    },
+    "MO_IRONHAND": {
+      "name": "Demir El"
+    },
+    "SO_SUMMON_VENTUS": {
+      "name": "Ventus Cagir"
+    },
+    "MO_SPIRITSRECOVERY": {
+      "name": "Ruh Yenilenmesi"
+    },
+    "SO_EL_ANALYSIS": {
+      "name": "4 Element Analizi"
+    },
+    "MO_CALLSPIRITS": {
+      "name": "Ruh Cagir"
+    },
+    "SO_VARETYR_SPEAR": {
+      "name": "Varetyr Mizragi"
+    },
+    "MO_ABSORBSPIRITS": {
+      "name": "Ruhlari Em"
+    },
+    "SO_VACUUM_EXTREME": {
+      "name": "Asiri Vakum"
+    },
+    "MO_TRIPLEATTACK": {
+      "name": "Uclu Saldiri"
+    },
+    "EL_POWER_OF_GAIA": {
+      "name": "Gaia'nin Gucu"
+    },
+    "MO_BODYRELOCATION": {
+      "name": "Beden Yer Degistirme"
+    },
+    "MO_DODGE": {
+      "name": "Kacinma"
+    },
+    "SO_EARTHGRAVE": {
+      "name": "Toprak Mezari"
+    },
+    "MO_INVESTIGATE": {
+      "name": "Derin Inceleme"
+    },
+    "SO_SPELLFIST": {
+      "name": "Buyu Yumrugu"
+    },
+    "MO_FINGEROFFENSIVE": {
+      "name": "Parmak Saldirisi"
+    },
+    "SO_ELECTRICWALK": {
+      "name": "Elektrik Yuruyusu"
+    },
+    "MO_STEELBODY": {
+      "name": "Celik Beden"
+    },
+    "WM_UNLIMITED_HUMMING_VOICE": {
+      "name": "Sinirsiz Mirilti Sesi"
+    },
+    "MO_BLADESTOP": {
+      "name": "Bicak Durdurma"
+    },
+    "WA_SWING_DANCE": {
+      "name": "Swing Dansi"
+    },
+    "MO_EXPLOSIONSPIRITS": {
+      "name": "Ruh Patlamasi"
+    },
+    "WM_SATURDAY_NIGHT_FEVER": {
+      "name": "Cumartesi Gecesi Atesi"
+    },
+    "MO_EXTREMITYFIST": {
+      "name": "Asura Darbesi"
+    },
+    "MG_FIREBALL": {
+      "name": "Ates Topu"
+    },
+    "MO_CHAINCOMBO": {
+      "name": "Zincir Kombosu"
+    },
+    "WM_SOUND_OF_DESTRUCTION": {
+      "name": "Yikim Sesi"
+    },
+    "MO_COMBOFINISH": {
+      "name": "Kombo Bitirisi"
+    },
+    "WM_DANCE_WITH_WUG": {
+      "name": "Warg ile Dans"
+    },
+    "SA_ADVANCEDBOOK": {
+      "name": "Ileri Kitap Bilgisi"
+    },
+    "WM_SONG_OF_MANA": {
+      "name": "Mana Sarkisi"
+    },
+    "SA_CASTCANCEL": {
+      "name": "Buyu Iptali"
+    },
+    "WL_WHITEIMPRISON": {
+      "name": "Beyaz Hapis"
+    },
+    "SA_MAGICROD": {
+      "name": "Buyu Cubugu"
+    },
+    "WL_STASIS": {
+      "name": "Stasis"
+    },
+    "SA_SPELLBREAKER": {
+      "name": "Buyu Bozucu"
+    },
+    "WL_TETRAVORTEX": {
+      "name": "Tetra Vortex"
+    },
+    "SA_FREECAST": {
+      "name": "Serbest Buyu"
+    },
+    "WM_GREAT_ECHO": {
+      "name": "Buyuk Yanki"
+    },
+    "SA_AUTOSPELL": {
+      "name": "Otomatik Buyu"
+    },
+    "RA_ARROWSTORM": {
+      "name": "Ok Firtinasi"
+    },
+    "SA_FLAMELAUNCHER": {
+      "name": "Alev Aktarimi"
+    },
+    "RA_WUGRIDER": {
+      "name": "Warg Binicisi"
+    },
+    "SA_FROSTWEAPON": {
+      "name": "Buz Silahi"
+    },
+    "RA_MAGENTATRAP": {
+      "name": "Magenta Tuzagi"
+    },
+    "SA_LIGHTNINGLOADER": {
+      "name": "Yildirim Aktarimi"
+    },
+    "NC_PILEBUNKER": {
+      "name": "Kazik Delici"
+    },
+    "SA_SEISMICWEAPON": {
+      "name": "Sismik Silah"
+    },
+    "NC_B_SIDESLIDE": {
+      "name": "Geri Kayma"
+    },
+    "SA_DRAGONOLOGY": {
+      "name": "Ejderha Bilgisi"
+    },
+    "NC_NEUTRALBARRIER": {
+      "name": "Notr Bariyer"
+    },
+    "SA_VOLCANO": {
+      "name": "Volkan"
+    }
+  }
+}
