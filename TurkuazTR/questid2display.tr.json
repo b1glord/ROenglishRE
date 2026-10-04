@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.13.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 5606-5616 B-sinifi Morroc Sphinx ve Pyramid teslimat gorevleri dahil",
+    "version": "6.14.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 5648-5674 kalan B-sinifi Abyss, Juperos, Clock Tower ve Glast Heim teslimat gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6232,6 +6232,56 @@
       "title": "B-Sinifi Teslimat Gorevi",
       "description": "Morroc Pyramid B1 (moc_pryd05) icindeki Rune Knight Press'e 10 Orange Potion teslim et. Alici (102,84) koordinatlari yakininda.",
       "goal": "Rune Knight Press'e 10 Orange Potion teslim et"
+    },
+    "5648": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Abyss Lake Dungeon 2F (abyss_02) icindeki Rune Knight Wallaby'ye 10 Berserk Potion teslim et. Alici (262,274) koordinatlari yakininda.",
+      "goal": "Rune Knight Wallaby'ye 10 Berserk Potion teslim et"
+    },
+    "5650": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Juperos Ruins 2F (juperos_02) icindeki Rune Knight Baramil'e 10 Berserk Potion teslim et. Alici (46,76) koordinatlari yakininda.",
+      "goal": "Rune Knight Baramil'e 10 Berserk Potion teslim et"
+    },
+    "5654": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower B2 (alde_dun02) icindeki Mage Rurik'e 10 Fly Wing teslim et. Alici (262,250) koordinatlari yakininda.",
+      "goal": "Mage Rurik'e 10 Fly Wing teslim et"
+    },
+    "5656": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower B3 (alde_dun03) icindeki Knight Eopon'a 10 Fly Wing teslim et. Alici (273,72) koordinatlari yakininda.",
+      "goal": "Knight Eopon'a 10 Fly Wing teslim et"
+    },
+    "5658": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower 2F (c_tower2) icindeki Archer Ado'ya 10 Fly Wing teslim et. Alici (253,33) koordinatlari yakininda.",
+      "goal": "Archer Ado'ya 10 Fly Wing teslim et"
+    },
+    "5660": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Aldebaran Clock Tower 3F (c_tower3) icindeki Wizard Yorik'e 10 Fly Wing teslim et. Alici (143,227) koordinatlari yakininda.",
+      "goal": "Wizard Yorik'e 10 Fly Wing teslim et"
+    },
+    "5662": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim Church (gl_church) icindeki Mes'e 5 Yggdrasil Leaf teslim et. Alici (148,38) koordinatlari yakininda.",
+      "goal": "Mes'e 5 Yggdrasil Leaf teslim et"
+    },
+    "5664": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim Churchyard (gl_chyard) icindeki Arch Bishop Tiles'a 10 Blue Gemstone teslim et. Alici (156,52) koordinatlari yakininda.",
+      "goal": "Arch Bishop Tiles'a 10 Blue Gemstone teslim et"
+    },
+    "5668": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim Prison 1F (gl_prison) icindeki Rogue Instructor Flex'e 20 Trap teslim et. Alici (34,75) koordinatlari yakininda.",
+      "goal": "Rogue Instructor Flex'e 20 Trap teslim et"
+    },
+    "5674": {
+      "title": "B-Sinifi Teslimat Gorevi",
+      "description": "Glast Heim Staircase (gl_step) icindeki Desert Warrior Set'e 10 Fly Wing teslim et. Alici (30,10) koordinatlari yakininda.",
+      "goal": "Desert Warrior Set'e 10 Fly Wing teslim et"
     }
   }
 }
