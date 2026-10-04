@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.38.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7147-7151 Eden Group Orc Village egitim gorevleri dahil",
+    "version": "6.39.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7152-7155 Eden Group Orc Dungeon egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7175,6 +7175,26 @@
     },
     "7151": {
       "title": "Orc Village'i Fethet",
+      "description": "Hooksha'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7152": {
+      "title": "Orc Dungeon'i Fethet",
+      "description": "Orc Village'da Hooksha adli Eden Group uyesini bul. Kafra Employee yakinindaki kulubede.",
+      "goal": "Orc Village'da Hooksha'yi bul"
+    },
+    "7153": {
+      "title": "Orc Dungeon'i Fethet",
+      "description": "Orc Dungeon'da cok sayida Undead canavar var. Temizlige 20 Orc Zombie avlayarak basla.",
+      "goal": "20 Orc Zombie yen"
+    },
+    "7154": {
+      "title": "Orc Dungeon'i Fethet",
+      "description": "Siradaki hedef Orc Skeleton. Orc Zombie'lerin curumus kalintilari olan bu canavarlardan 20 tane avla.",
+      "goal": "20 Orc Skeleton yen"
+    },
+    "7155": {
+      "title": "Orc Dungeon'i Fethet",
       "description": "Hooksha'nin verdigi egitimi tamamladin. Odulun icin Eden Group Office'e geri don.",
       "goal": "Instructor Boya'ya rapor ver"
     }
