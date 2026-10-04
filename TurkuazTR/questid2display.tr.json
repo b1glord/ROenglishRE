@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.20.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60115-60174 Caramel-Alligator-Creamy-Dokebi-Juperos-Ice Titan ve diger field hunting bloklarindan 60 pending kayit dahil",
+    "version": "7.21.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60175-60338 Niflheim-Louyang-Juperos hunting, Endless Tower, Dragon ve Turtle Island bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -21181,6 +21181,306 @@
     "60174": {
       "title": "Disguise Avi",
       "description": "Niflheim'daki olu bir adam Disguise avlamana yardim etmeni istedi. 100 Disguise avla.",
+      "goal": ""
+    },
+    "60175": {
+      "title": "Disguise Avi",
+      "description": "Niflheim'daki olu bir adam Disguise avlamana yardim etmeni istedi. 150 Disguise avla.",
+      "goal": ""
+    },
+    "60176": {
+      "title": "Loli Ruri Avi",
+      "description": "Niflheim'daki olu bir adam Loli Ruri avlamana yardim etmeni istedi. 50 Loli Ruri avla.",
+      "goal": ""
+    },
+    "60177": {
+      "title": "Loli Ruri Avi",
+      "description": "Niflheim'daki olu bir adam Loli Ruri avlamana yardim etmeni istedi. 100 Loli Ruri avla.",
+      "goal": ""
+    },
+    "60178": {
+      "title": "Loli Ruri Avi",
+      "description": "Niflheim'daki olu bir adam Loli Ruri avlamana yardim etmeni istedi. 150 Loli Ruri avla.",
+      "goal": ""
+    },
+    "60179": {
+      "title": "Mantis Avi",
+      "description": "Louyang'daki bir Researcher arastirmasi icin 50 Mantis avlamani istedi.",
+      "goal": ""
+    },
+    "60180": {
+      "title": "Mantis Avi",
+      "description": "Louyang'daki bir Researcher arastirmasi icin 100 Mantis avlamani istedi.",
+      "goal": ""
+    },
+    "60181": {
+      "title": "Mantis Avi",
+      "description": "Louyang'daki bir Researcher arastirmasi icin 150 Mantis avlamani istedi.",
+      "goal": ""
+    },
+    "60182": {
+      "title": "Dancing Dragon Avi",
+      "description": "Louyang Royal Tomb'daki bir Dragon Hunter 50 Dancing Dragon avlamani istedi.",
+      "goal": ""
+    },
+    "60183": {
+      "title": "Dancing Dragon Avi",
+      "description": "Louyang Royal Tomb'daki bir Dragon Hunter 100 Dancing Dragon avlamani istedi.",
+      "goal": ""
+    },
+    "60184": {
+      "title": "Dancing Dragon Avi",
+      "description": "Louyang Royal Tomb'daki bir Dragon Hunter 150 Dancing Dragon avlamani istedi.",
+      "goal": ""
+    },
+    "60185": {
+      "title": "Necromancer Avi",
+      "description": "Cursed Monastery'deki Resentful Zombie 20 Necromancer avlamani istedi.",
+      "goal": ""
+    },
+    "60186": {
+      "title": "Necromancer Avi",
+      "description": "Cursed Monastery'deki Resentful Zombie 40 Necromancer avlamani istedi.",
+      "goal": ""
+    },
+    "60187": {
+      "title": "Necromancer Avi",
+      "description": "Cursed Monastery'deki Resentful Zombie 60 Necromancer avlamani istedi.",
+      "goal": ""
+    },
+    "60188": {
+      "title": "Apocalypse Avi",
+      "description": "Juperos'taki bir Researcher calismasi icin 50 Apocalypse avlamani istedi.",
+      "goal": ""
+    },
+    "60189": {
+      "title": "Apocalypse Avi",
+      "description": "Juperos'taki bir Researcher calismasi icin 100 Apocalypse avlamani istedi.",
+      "goal": ""
+    },
+    "60190": {
+      "title": "Apocalypse Avi",
+      "description": "Juperos'taki bir Researcher calismasi icin 150 Apocalypse avlamani istedi.",
+      "goal": ""
+    },
+    "60200": {
+      "title": "Endless Tower Effect",
+      "description": "Endless Tower'in garip etkileri nedeniyle haftada yalnizca bir kez girebilirsin. Sure dolana kadar bekle.",
+      "goal": ""
+    },
+    "60201": {
+      "title": "Endless Tower Time Limit",
+      "description": "Endless Tower erisim suresi 4 saattir.",
+      "goal": ""
+    },
+    "60205": {
+      "title": "Izlude Arena",
+      "description": "Izlude Arena'ya girdin. Kendini kanitlama zamani.",
+      "goal": ""
+    },
+    "60206": {
+      "title": "Izlude Arena",
+      "description": "Arena'yi olabildigince hizli tamamla.",
+      "goal": ""
+    },
+    "60207": {
+      "title": "Izlude Arena",
+      "description": "Arena'yi olabildigince hizli tamamla.",
+      "goal": ""
+    },
+    "60208": {
+      "title": "God Item Creation",
+      "description": "",
+      "goal": ""
+    },
+    "60209": {
+      "title": "MVP Summoning",
+      "description": "Summoning room'daki tum monster'lari yenmek icin 15 dakikan var.",
+      "goal": ""
+    },
+    "60210": {
+      "title": "God Item Creation",
+      "description": "",
+      "goal": ""
+    },
+    "60211": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Report'u bar'daki Geologist Gio'ya geri gotur.",
+      "goal": ""
+    },
+    "60212": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Geologist Gio, institute'taki bookshelf'inde bulunan kucuk goodie box'tan cikan ilk seyi alabilecegini soyluyor.",
+      "goal": ""
+    },
+    "60213": {
+      "title": "Thor Volcano Base Camp",
+      "description": "Gio'nun goodie box'undan odulunu aldiktan sonra High Priest Zhed'e don ve Thor Volcano'da bulduklarini rapor et.",
+      "goal": ""
+    },
+    "60214": {
+      "title": "MVP Summoning Timer",
+      "description": "MVP Summoner hizmetlerine erismek icin 4 saatin var.",
+      "goal": ""
+    },
+    "60301": {
+      "title": "Dragon Avi",
+      "description": "Geffen Field'da Sir Galahad icin 100 ground Green Petite avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60302": {
+      "title": "Dragon Avi",
+      "description": "Geffen Field'da Sir Galahad icin 200 ground Green Petite avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60303": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Hyria icin 100 Green Ferus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60304": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Hyria icin 200 Green Ferus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60305": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Hyria icin 100 Red Ferus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60306": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Hyria icin 200 Red Ferus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60307": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Kern icin 50 Blue Acidus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60308": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Kern icin 100 Blue Acidus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60309": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Kern icin 100 Gold Acidus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60310": {
+      "title": "Dragon Avi",
+      "description": "Abyss Lake'te Kern icin 200 Gold Acidus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60311": {
+      "title": "Dragon Avi",
+      "description": "Geffen Field'da Sir Galahad icin 100 flying Blue Petite avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60312": {
+      "title": "Dragon Avi",
+      "description": "Geffen Field'da Sir Galahad icin 200 flying Blue Petite avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60313": {
+      "title": "Leaf Cat Avi",
+      "description": "Ayothaya'da Lillia icin 150 Leaf Cat avlamayi kabul ettin. Leaf Cat Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60314": {
+      "title": "Leaf Cat Avi",
+      "description": "Ayothaya'da Lillia icin 300 Leaf Cat avlamayi kabul ettin. Leaf Cat Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60315": {
+      "title": "Novus Avi",
+      "description": "Hugel'de Will icin 100 Novus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60316": {
+      "title": "Novus Avi",
+      "description": "Hugel'de Will icin 200 Novus Dragon avlamayi kabul ettin. Baby Dragon Hat varsa bonus EXP alabilirsin.",
+      "goal": ""
+    },
+    "60321": {
+      "title": "Permeter Shell Tekmele",
+      "description": "100 Permeter Turtle avla ve Turtle Island Dungeon 2F'deki Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60322": {
+      "title": "Permeter Shell Tekmele",
+      "description": "200 Permeter Turtle avla ve Turtle Island Dungeon 2F'deki Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60323": {
+      "title": "Solider Shell Tekmele",
+      "description": "100 Solider Turtle avla ve Turtle Island Dungeon 2F'deki Boy'a rapor ver.",
+      "goal": ""
+    },
+    "60324": {
+      "title": "Solider Shell Tekmele",
+      "description": "200 Solider Turtle avla ve Turtle Island Dungeon 2F'deki Boy'a rapor ver.",
+      "goal": ""
+    },
+    "60325": {
+      "title": "Freezer Shell Tekmele",
+      "description": "100 Freezer Turtle avla ve Good Turtles Village'daki Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60326": {
+      "title": "Freezer Shell Tekmele",
+      "description": "200 Freezer Turtle avla ve Good Turtles Village'daki Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60327": {
+      "title": "Heater Shell Tekmele",
+      "description": "100 Heater Turtle avla ve Good Turtles Village'daki Boy'a rapor ver.",
+      "goal": ""
+    },
+    "60328": {
+      "title": "Heater Shell Tekmele",
+      "description": "200 Heater Turtle avla ve Good Turtles Village'daki Boy'a rapor ver.",
+      "goal": ""
+    },
+    "60329": {
+      "title": "Assaulter Shell Tekmele",
+      "description": "100 Assaulter Turtle avla ve Turtle Palace'taki Zombie Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60330": {
+      "title": "Assaulter Shell Tekmele",
+      "description": "200 Assaulter Turtle avla ve Turtle Palace'taki Zombie Girl'e rapor ver.",
+      "goal": ""
+    },
+    "60331": {
+      "title": "Remover Avi",
+      "description": "50 Remover avla ve Somatology Laboratory'deki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60332": {
+      "title": "Remover Avi",
+      "description": "100 Remover avla ve Somatology Laboratory'deki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60333": {
+      "title": "Vanberk Isilla Avi",
+      "description": "40 Vanberk ve 40 Isilla avla, Rachel Sanctuary Holy Ground'daki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60334": {
+      "title": "Vanberk Isilla Avi",
+      "description": "100 Vanberk ve 100 Isilla avla, Rachel Sanctuary Holy Ground'daki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60337": {
+      "title": "Anubis Avi",
+      "description": "40 Anubis avla ve Sphinx 4F'deki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60338": {
+      "title": "Anubis Avi",
+      "description": "100 Anubis avla ve Sphinx 4F'deki Gen.R.Rick'e don.",
       "goal": ""
     }
   }
