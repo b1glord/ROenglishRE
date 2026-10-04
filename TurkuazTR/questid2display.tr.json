@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "7.21.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 60175-60338 Niflheim-Louyang-Juperos hunting, Endless Tower, Dragon ve Turtle Island bloklarindan 60 pending kayit dahil",
+    "version": "7.22.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 60339-60461 V.I.P.E.R., Bathroom Ghost, Eden avlari, Rachel-Nogg-Biolab ve Gramps bloklarindan 60 pending kayit dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -21481,6 +21481,306 @@
     "60338": {
       "title": "Anubis Avi",
       "description": "100 Anubis avla ve Sphinx 4F'deki Gen.R.Rick'e don.",
+      "goal": ""
+    },
+    "60339": {
+      "title": "Kaniti Parcalari",
+      "description": "Hugel, Einbroch, Einbech ve Juno cevresindeki snake'leri avla, Shreds of Evidence bul ve Payon'daki Agent York'a gotur.",
+      "goal": ""
+    },
+    "60340": {
+      "title": "V.I.P.E.R. Headquarters",
+      "description": "Kaniti, V.I.P.E.R. headquarters'in Einbroch Field 9'da oldugunu gosteriyor. Oraya git ve O'Riley'nin tutuluyor olabilecegi factory'yi ara.",
+      "goal": ""
+    },
+    "60341": {
+      "title": "O'Riley'yi Bul",
+      "description": "Wall'da O'Riley'nin Beacon Island Pharos Lighthouse'ta tutuldugunu gosteren bir note buldun. Muhtemelen oradaki bir ship'te tutuluyor.",
+      "goal": ""
+    },
+    "60351": {
+      "title": "Bathroom Ghost",
+      "description": "Toilet'ten bir seyler duyuyorsun. Pedro'nun sarkisinin ikinci satiri \"Mother the water is flooding!\" idi. Moon 3 kez kaybolursa endiselenme.",
+      "goal": ""
+    },
+    "60352": {
+      "title": "Bathroom Ghost",
+      "description": "Faucet'ten bir seyler duyuyorsun. Pedro'nun sarkisinin ucuncu satiri \"Mother the drought has started!\" idi. Waterfall yardim edecek.",
+      "goal": ""
+    },
+    "60353": {
+      "title": "Bathroom Ghost",
+      "description": "Carpet'ten bir seyler duyuyorsun. Pedro'nun sarkisinin dorduncu satiri \"Mother where are my friends?\" idi. 7 arkadasin uyuyor; uyandirma zamani.",
+      "goal": ""
+    },
+    "60354": {
+      "title": "Bathroom Ghost",
+      "description": "Mirror'dan bir seyler duyuyorsun. Pedro'nun sarkisinin besinci satiri \"Where are you mom?\" idi. Waterfall yardim edecek.",
+      "goal": ""
+    },
+    "60355": {
+      "title": "Bathroom Ghost",
+      "description": "Ghost ortaya cikti ve bulanik toilet'in icinde kayboldu.",
+      "goal": ""
+    },
+    "60401": {
+      "title": "Drops Avi",
+      "description": "Drops'lari Morocc Field 7'de bulabilirsin. Odul icin Eden Group Headquarters'taki Sprakki ile konus.",
+      "goal": "10 Drops avla"
+    },
+    "60402": {
+      "title": "Lunatic ve Fabre Avi",
+      "description": "Prontera'nin kuzey ve dogu field'larinda bulunurlar. Odul icin Eden Group Headquarters'taki Sprakki ile konus.",
+      "goal": "10 Lunatic ve 10 Fabre avla"
+    },
+    "60403": {
+      "title": "ChonChon ve Pupa Avi",
+      "description": "ChonChon ve Pupa'lari Geffen'in dogu ve bati field'larinda bulabilirsin. Odul icin Sprakki ile konus.",
+      "goal": "20 ChonChon ve 10 Pupa avla"
+    },
+    "60404": {
+      "title": "Peco Peco Egg Avi",
+      "description": "Peco Peco Egg'leri Morocc'un guneyindeki Sograt Desert bolgelerinde bulabilirsin. Odul icin Sprakki ile konus.",
+      "goal": "20 Peco Peco Egg avla"
+    },
+    "60405": {
+      "title": "Willow ve Picky Avi",
+      "description": "Willow'lari Payon'un guneyinde, Picky'leri Morocc'un guneyinde bulabilirsin. Odul icin Sprakki ile konus.",
+      "goal": "20 Willow ve 20 Picky avla"
+    },
+    "60406": {
+      "title": "Orc Archer Avi",
+      "description": "100 Orc Archer avla ve Geffen Field 14 eastern warp'taki Derk Novitze'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60407": {
+      "title": "Orc Archer Avi",
+      "description": "200 Orc Archer avla ve Geffen Field 14 eastern warp'taki Derk Novitze'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60408": {
+      "title": "High Orc Avi",
+      "description": "100 High Orc avla ve Geffen Field 14 eastern warp'taki Jason Childs'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60409": {
+      "title": "High Orc Avi",
+      "description": "200 High Orc avla ve Geffen Field 14 eastern warp'taki Jason Childs'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60410": {
+      "title": "Isilla Avi",
+      "description": "100 Isilla avla ve Rachel Sanctuary Holy Ground 1F'deki Fitz'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60411": {
+      "title": "Isilla Avi",
+      "description": "200 Isilla avla ve Rachel Sanctuary Holy Ground 1F'deki Ulrich'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60412": {
+      "title": "Vanberk Avi",
+      "description": "100 Vanberk avla ve Rachel Sanctuary Holy Ground 1F'deki Ulrich'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60413": {
+      "title": "Vanberk Avi",
+      "description": "200 Vanberk avla ve Rachel Sanctuary Holy Ground 1F'deki Ulrich'e don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60414": {
+      "title": "Hodremlin Avi",
+      "description": "100 Hodremlin avla ve Rachel Sanctuary Holy Ground 3F'deki Stein'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60415": {
+      "title": "Hodremlin Avi",
+      "description": "200 Hodremlin avla ve Rachel Sanctuary Holy Ground 3F'deki Stein'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60416": {
+      "title": "Agav Avi",
+      "description": "100 Agav avla ve Rachel Sanctuary Holy Ground 5F'deki Robert'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60417": {
+      "title": "Agav Avi",
+      "description": "200 Agav avla ve Rachel Sanctuary Holy Ground 5F'deki Robert'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60418": {
+      "title": "West Orc Village Access",
+      "description": "Bu ozel VIP bolgesine tam 7 gun erisebilirsin. Sure dolunca map erisimi kapanacak.",
+      "goal": ""
+    },
+    "60427": {
+      "title": "Ground Deleter Avi",
+      "description": "100 Ground Deleter avla ve Nogg Road 2F'deki Deleter Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60428": {
+      "title": "Ground Deleter Avi",
+      "description": "200 Ground Deleter avla ve Nogg Road 2F'deki Deleter Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60429": {
+      "title": "Nightmare Terror Avi",
+      "description": "100 Nightmare Terror avla ve Nogg Road 2F'deki Nightmare Terror Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60430": {
+      "title": "Nightmare Terror Avi",
+      "description": "200 Nightmare Terror avla ve Nogg Road 2F'deki Nightmare Terror Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60431": {
+      "title": "Laurell Weinder Avi",
+      "description": "100 Laurell Weinder avla ve Somatology Laboratory 2F'deki Mage Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60432": {
+      "title": "Laurell Weinder Avi",
+      "description": "200 Laurell Weinder avla ve Somatology Laboratory 2F'deki Mage Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60433": {
+      "title": "Armeyer Dinze Avi",
+      "description": "100 Armeyer Dinze avla ve Somatology Laboratory 2F'deki Merchant Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60434": {
+      "title": "Armeyer Dinze Avi",
+      "description": "200 Armeyer Dinze avla ve Somatology Laboratory 2F'deki Merchant Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60435": {
+      "title": "Egnigem Cenia Avi",
+      "description": "100 Egnigem Cenia avla ve Somatology Laboratory 2F'deki Swordman Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60436": {
+      "title": "Egnigem Cenia Avi",
+      "description": "200 Egnigem Cenia avla ve Somatology Laboratory 2F'deki Swordman Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60437": {
+      "title": "Errende Ebecee Avi",
+      "description": "100 Errende Ebecee avla ve Somatology Laboratory 2F'deki Acolyte Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60438": {
+      "title": "Errende Ebecee Avi",
+      "description": "200 Errende Ebecee avla ve Somatology Laboratory 2F'deki Acolyte Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60439": {
+      "title": "Kavach Icarus Avi",
+      "description": "100 Kavach Icarus avla ve Somatology Laboratory 2F'deki Archer Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60440": {
+      "title": "Kavach Icarus Avi",
+      "description": "200 Kavach Icarus avla ve Somatology Laboratory 2F'deki Archer Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60441": {
+      "title": "Wickebine Tres Avi",
+      "description": "100 Wickebine Tres avla ve Somatology Laboratory 2F'deki Thief Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60442": {
+      "title": "Wickebine Tres Avi",
+      "description": "200 Wickebine Tres avla ve Somatology Laboratory 2F'deki Thief Hunter'a don. +7 Yggdrasil Crown varsa EXP odulunu bolme secenegin var.",
+      "goal": ""
+    },
+    "60443": {
+      "title": "Alarm Avi",
+      "description": "400 Alarm avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60444": {
+      "title": "Av Gorevi Suresi 1",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60445": {
+      "title": "Desert Wolf Avi",
+      "description": "Rachel Field 1'de 400 Desert Wolf avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60446": {
+      "title": "Ragged Zombie Avi",
+      "description": "Nameless Island'da 400 Ragged Zombie avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60447": {
+      "title": "Cecil Damon Avi",
+      "description": "Somatology Laboratory 3F'de 400 Cecil Damon avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60448": {
+      "title": "Av Gorevi Suresi 2",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60449": {
+      "title": "Av Gorevi Suresi 3",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60450": {
+      "title": "Av Gorevi Suresi 4",
+      "description": "Yeni bir mission almadan once surenin dolmasini bekle.",
+      "goal": ""
+    },
+    "60451": {
+      "title": "Enchanted Peach Tree Avi",
+      "description": "Kunlun Dungeon'da 400 Enchanted Peach Tree avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60452": {
+      "title": "Zipper Bear Avi",
+      "description": "Kunlun Dungeon'da 400 Zipper Bear avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60453": {
+      "title": "Succubus Avi",
+      "description": "Geffenia'da 400 Succubus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60454": {
+      "title": "Incubus Avi",
+      "description": "Geffenia'da 400 Incubus avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60455": {
+      "title": "Uni-Horn Scaraba Avi",
+      "description": "Kamidal Mountain'da 400 Uni-Horn Scaraba avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60456": {
+      "title": "Horn Scaraba Avi",
+      "description": "Kamidal Mountain'da 400 Horn Scaraba avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60457": {
+      "title": "Eden Group'a Katil",
+      "description": "Town'daki Eden Group Guide'lardan biriyle konusup Eden Group'a git. 1F'de desk arkasindaki Secretary Lime Evenor'u bul ve gruba katil.",
+      "goal": "Eden Group'a gir ve Lime Evenor ile konus"
+    },
+    "60459": {
+      "title": "Gazeti Avi",
+      "description": "Ice Cave'de 400 Gazeti avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60460": {
+      "title": "Ice Titan Avi",
+      "description": "Ice Titan avla ve odul icin Eden Group'taki Gramps'e don.",
+      "goal": ""
+    },
+    "60461": {
+      "title": "Skogul Avi",
+      "description": "Odin Temple'da 400 Skogul avla ve odul icin Eden Group'taki Gramps'e don.",
       "goal": ""
     }
   }
