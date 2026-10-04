@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.22.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7012-7019 Rayan Moore takip ve arastirma gorev zinciri dahil",
+    "version": "6.23.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7020-7037 Rayan Moore Dandelion sorusturmasi ve iz surme gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -6567,6 +6567,96 @@
       "title": "Rayan Moore'un Pesinde",
       "description": "Gunlugu ve kristali Mr. Kidd'e teslim ettin ancak onun son sozlerini aklindan cikaramiyorsun.",
       "goal": "Gorev tamamlandi"
+    },
+    "7020": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Bir anda ofkelendin ve dusmanlari dovme istegine engel olamadin. Dandelion uyelerinin hepsini durdur.",
+      "goal": "Tum Dandelion uyelerini durdur"
+    },
+    "7021": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Bir Dandelion Gang uyesinin uzerinde Sealed Magic Scroll buldun. Onemli gorunuyor; Mr. Kidd'e gotur.",
+      "goal": "Mr. Kidd'e rapor ver"
+    },
+    "7022": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Sihirli parsomende ne oldugunu arastirman gerekiyor. Echinacea hangi bilgine danisacagini biliyor.",
+      "goal": "Echinacea ile konus"
+    },
+    "7023": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Echinacea, Defaria adinda bir bilginden bahsetti. Onu bul ve sihirli parsomen hakkinda konus.",
+      "goal": "Defaria ile konus"
+    },
+    "7024": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Defaria, parsomenin muhrunu acmak icin bazi malzemeler istedi.",
+      "goal": "30 Holy Water, 30 Rune of Darkness, 30 Bloody Rune"
+    },
+    "7025": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Gerekli tum malzemeleri topladiktan sonra Defaria'ya geri don.",
+      "goal": "Defaria ile konus"
+    },
+    "7026": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Parsomenin muhru acildi. Bu tur parsomeler genellikle organizasyon uyelerini bir araya toplamak icin kullaniliyor. Kullanmadan once Mr. Kidd ile konusmak daha guvenli olabilir.",
+      "goal": "Parsomeni kullanmadan once durumu degerlendir"
+    },
+    "7027": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Parsomenle ulastigin binayi arastirirken Dandelion uyelerinin kendi aralarinda catistigini ogrendin.",
+      "goal": "Mr. Kidd'e rapor ver"
+    },
+    "7028": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Sinir yakinindaki bos evin bodrumunda duyduklarini Mr. Kidd'e anlattin. Dandelion icinde ciddi bir catismaya donusebilir; baskin icin uygun zaman olabilir.",
+      "goal": "Sinir yakinindaki bos evi arastir"
+    },
+    "7029": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rayan Moore sonunda yakalandi. Mr. Kidd onu sorgulanmasi icin Rin'e goturecek. Ayrintilari Mr. Kidd'den ogren.",
+      "goal": "Mr. Kidd ile konus"
+    },
+    "7030": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Mr. Kidd sana Bloody Crystal of Darkness ve bir gunluk verdi. Son gorevin gunlugu Rin'e goturmek.",
+      "goal": "Gunlugu Rin'e teslim et"
+    },
+    "7031": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rayan kacti; belki de onu Satan Morocc goturdu. Gunlukla birlikte sihirli dalga desen kodunu Echinacea'ya bildir.",
+      "goal": "(SDHF92F-SDF)"
+    },
+    "7032": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rayan kacti; belki de onu Satan Morocc goturdu. Gunlukla birlikte sihirli dalga desen kodunu Echinacea'ya bildir.",
+      "goal": "(VWNM94GVWN90)"
+    },
+    "7033": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Rayan kacti; belki de onu Satan Morocc goturdu. Gunlukla birlikte sihirli dalga desen kodunu Echinacea'ya bildir.",
+      "goal": "(CM3-TRDFGHE0)"
+    },
+    "7034": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Echinacea sihirli dalganin gucunu belirlemek icin desen kodunu analiz ediyor. Bu iz Rayan'a, hatta Satan Morocc'a kadar uzanabilir.",
+      "goal": "Echinacea'nin analizini bekle"
+    },
+    "7035": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Kampin guneyindeki mana detector bulunan binaya git ve iz surme sonucunu sor.",
+      "goal": "Mana detector binasinda sonucu ogren"
+    },
+    "7036": {
+      "title": "Rayan Moore'un Pesinde",
+      "description": "Iz surme basarisiz oldu ancak tas hala saglam; yonetici Rayan'in bir yerde hayatta oldugunu dusunuyor. Echinacea'ya rapor ver ve yeni bir iz surme yolu sor.",
+      "goal": "Echinacea'ya rapor ver"
+    },
+    "7037": {
+      "title": "Dava Kapandi mi?",
+      "description": "Dava kapanmis gorunuyor ama Dandelion meselesi hala aklini kurcaliyor. Echinacea yardimci olmadigi icin baska birine danis.",
+      "goal": "Dandelion meselesi hakkinda bilgi ara"
     }
   }
 }
