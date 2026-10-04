@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.33.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7117-7127 ilk gorev ve Novice temel egitim gorevleri dahil",
+    "version": "6.34.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7128-7132 Eden Group Desert egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7057,6 +7057,31 @@
       "title": "Savas Temelleri - Thief",
       "description": "Thief Manual'i kusanarak Double Attack ve Improve Dodge becerilerini 5 Willow avlarken dene.",
       "goal": "5 Willow yen"
+    },
+    "7128": {
+      "title": "Colu Fethet",
+      "description": "Morroc'un guneydogu alaninda, Oasis yakininda Talking Dog'u bul. Ona Boya'nin ne kadar harika oldugunu soyle.",
+      "goal": "Desert Oasis'te Talking Dog'u bul"
+    },
+    "7129": {
+      "title": "Colu Fethet",
+      "description": "Oasis cevresini temizlemek icin 10 Condor avla.",
+      "goal": "10 Condor yen"
+    },
+    "7130": {
+      "title": "Colu Fethet",
+      "description": "Gurultucu Baby Desert Wolf'lari avla.",
+      "goal": "10 Baby Desert Wolf yen"
+    },
+    "7131": {
+      "title": "Colu Fethet",
+      "description": "Scorpion'lar colde insanlara pusu kurup zehirliyor. Oasis'i daha guvenli yapmak icin en az 5 Scorpion avla.",
+      "goal": "5 Scorpion yen"
+    },
+    "7132": {
+      "title": "Colu Fethet",
+      "description": "Col egitimini tamamladin. Sonuclari Eden Group Office'teki Instructor Boya'ya bildir.",
+      "goal": "Instructor Boya'ya rapor ver"
     }
   }
 }
