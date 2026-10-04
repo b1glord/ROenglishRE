@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.41.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7160-7165 Prontera Shadow Workshop ve Deception anahtar gorevleri dahil",
+    "version": "6.42.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7166-7172 Rachel Shadow Workshop, sifre ve Illusion anahtar gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7247,6 +7247,41 @@
       "title": "Deception Anahtari",
       "description": "Turtle Island'daki gizli yerde hazine yerine kucuk bir anahtar buldun. Prontera Shadow Workshop'taki Graham'a don ve bulduklarini bildir.",
       "goal": "Graham'a rapor ver"
+    },
+    "7166": {
+      "title": "Rachel Shadow Workshop",
+      "description": "Rachel'daki Shadow Workshop'a git ve yoneticiyle konus. Graham'in seni gonderdigini soylersen sonraki ipucunu acacak sifreyi verecek.",
+      "goal": "Rachel Shadow Workshop yoneticisiyle konus"
+    },
+    "7167": {
+      "title": "Gizemli Sifre",
+      "description": "Rachel sube yoneticisi Paul'un gosterdigi sifrenin anlamini coz. Sifre: (R-E-N-N-N-D / L-N-N-W-W-N-D). Cozdugunde Paul ile konus.",
+      "goal": "Sifreyi coz ve Paul ile konus"
+    },
+    "7168": {
+      "title": "Gizemli Sifre - 3",
+      "description": "Paul'dan sifreyi ve anahtar kelimeyi aldin. Sifre: (R-E-N-N-N-D / L-N-N-W-W-N-D). Yer adi ve yonu gosterdigi anlasiliyor. Anahtar kelime: (SEED).",
+      "goal": "Sifrenin gosterdigi yeri bul"
+    },
+    "7169": {
+      "title": "Gizemli Sifre - 3",
+      "description": "Paul'dan sifreyi ve anahtar kelimeyi aldin. Sifre: (R-E-N-N-N-D / L-N-N-W-W-N-D). Yer adi ve yonu gosterdigi anlasiliyor. Anahtar kelime: (FOOT).",
+      "goal": "Sifrenin gosterdigi yeri bul"
+    },
+    "7170": {
+      "title": "Gizemli Sifre - 3",
+      "description": "Paul'dan sifreyi ve anahtar kelimeyi aldin. Sifre: (R-E-N-N-N-D / L-N-N-W-W-N-D). Yer adi ve yonu gosterdigi anlasiliyor. Anahtar kelime: (COLD).",
+      "goal": "Sifrenin gosterdigi yeri bul"
+    },
+    "7171": {
+      "title": "Shadow of Illusion'i Avla",
+      "description": "Shadow of Deception gibi, baska bir golgeye guclu bicimde bagli bir alev buldun. Bu bagi kesmek icin Shadow of Illusion'i yen.",
+      "goal": "Shadow of Illusion'i yen"
+    },
+    "7172": {
+      "title": "Illusion Anahtari",
+      "description": "Ice Cave'in derinlerinde buldugun sey Illusion Anahtariydi. Hazine yine orada degildi. Rachel'a don ve Paul'a rapor ver.",
+      "goal": "Paul'a rapor ver"
     }
   }
 }
