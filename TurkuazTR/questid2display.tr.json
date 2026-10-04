@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.61.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7543-7564 guild challenge bekleme sureleri ve Kafragaten challenge gorevleri dahil",
+    "version": "6.62.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7565-7577 Rayan Moore, dimensional gap ve Thanatos Tower gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -9162,6 +9162,66 @@
       "title": "Kafragaten Challenge 2 Icin Bekleme",
       "description": "Kafragaten Challenge 2 gorevini zaten tamamladin. Yeniden katilmak icin 1 gun sonra geri don.",
       "goal": "1 gun bekle"
+    },
+    "7565": {
+      "title": "Rayan Moore'un Donusu",
+      "description": "Rayan Moore'un verdigi bilgiler sayesinde dimensional gap bulundu. Eclage'de tutsak tutulurken nasil oldugunu ogren.",
+      "goal": "Rayan Moore ile konus"
+    },
+    "7566": {
+      "title": "Boyut Yolcusu",
+      "description": "Dimensional device'lar, zaman ve uzay arasindaki dimensional gap'e girmek icin ozel olarak uretilmistir.",
+      "goal": "Dimensional device hakkinda bilgi edin"
+    },
+    "7568": {
+      "title": "Kuleyi Kesfet",
+      "description": "Dimensional gap uzerinden Thanatos Tower'i kesfetmen istendi.",
+      "goal": "Thanatos Tower'i kesfet"
+    },
+    "7569": {
+      "title": "Yaralilari Tedavi Et",
+      "description": "Yarali askerleri first-aid kit kullanarak tedavi et.",
+      "goal": "Yarali askerleri tedavi et"
+    },
+    "7570": {
+      "title": "Demonlari Yok Et",
+      "description": "Demonlar ust kattan istila ediyor. Her tur Evil Shadow'dan 7 tane yok et.",
+      "goal": "Evil Shadow'lari yok et"
+    },
+    "7571": {
+      "title": "Kule Seferi",
+      "description": "Kule, tanrilar ile demonlar arasindaki savas sirasinda Thanatos liderligindeki bir demon kabilesi tarafindan insa edildi. Satan Morocc, Rune Midgard'a yeniden girmek icin kuleyi etkinlestirdi.",
+      "goal": "Kule seferine devam et"
+    },
+    "7572": {
+      "title": "Lucile...?",
+      "description": "Demon's Tower'daki gizemli kiz Lucile, bedenini geri kazanmasina yardim etmeni istedi.",
+      "goal": "Lucile'e yardim et"
+    },
+    "7573": {
+      "title": "Magic Swordman Thanatos",
+      "description": "Magic Swordman Thanatos, Satan Morocc'u basariyla muhurlayabilmek icin demonun Magic Seal'larinin yaklasmasini engellemek zorunda.",
+      "goal": "Magic Seal'lari yok et"
+    },
+    "7574": {
+      "title": "Thanatos Tower",
+      "description": "Yuzlerce yil once Magic Swordman Thanatos, Satan Morocc'un gucunu burada muhurladigi icin kuleye Thanatos Tower deniyor.",
+      "goal": "Thanatos Tower hakkinda bilgi edin"
+    },
+    "7575": {
+      "title": "Kotu Takipciler",
+      "description": "Evil Follower'lari yok et.",
+      "goal": "Evil Follower'lari yok et"
+    },
+    "7576": {
+      "title": "Morocc Castle Muhru",
+      "description": "Gelecekte biri, Thanatos Tower muhurluyken Morocc Castle'da Satan Morocc'u yeniden uyandirmaya calisacak.",
+      "goal": "Morocc Castle muhru hakkinda bilgi edin"
+    },
+    "7577": {
+      "title": "Uzay Bozulmasi",
+      "description": "Zaman ve uzayi kesfetmek bedenini dengesizlestirdi. Aklini kaybetmemek icin tekrar girmeden once dinlen.",
+      "goal": "Tekrar girmeden once bekleme suresinin dolmasini bekle"
     }
   }
 }
