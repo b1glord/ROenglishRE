@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.35.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7133-7137 Eden Group Prontera Culvert egitim gorevleri dahil",
+    "version": "6.36.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7138-7141 Eden Group Ghost Cave egitim gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7106,6 +7106,26 @@
     "7137": {
       "title": "Culvert'i Fethet",
       "description": "Standing Cat'in verdigi egitimi tamamladin. Eden Group Office'e don ve Instructor Boya'ya ilerlemeni bildir.",
+      "goal": "Instructor Boya'ya rapor ver"
+    },
+    "7138": {
+      "title": "Ghost Cave'i Fethet",
+      "description": "Payon Archer Village'in batisindaki magaranin onunde duran Eden Group uyesi Karl'i bul.",
+      "goal": "Magara onunde Karl'i bul"
+    },
+    "7139": {
+      "title": "Ghost Cave'i Fethet",
+      "description": "Magarada bircok tehlikeli canavar var. Bunlardan biri Skeleton.",
+      "goal": "15 Skeleton yen"
+    },
+    "7140": {
+      "title": "Ghost Cave'i Fethet",
+      "description": "Diger canavarlarin dusurdugu esyalari toplayan yesil Poporing'leri avla.",
+      "goal": "10 Poporing yen"
+    },
+    "7141": {
+      "title": "Ghost Cave'i Fethet",
+      "description": "Karl'in verdigi egitimi tamamladin. Odulun icin Eden Group Office'e don.",
       "goal": "Instructor Boya'ya rapor ver"
     }
   }
