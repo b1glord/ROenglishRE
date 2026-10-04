@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.82.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 8211-8228 Shurank Swordman egitimi, Dequ'ee sorusturmasi ve Bankley zinciri dahil",
+    "version": "6.83.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 8229-8240 Guarnien Merchant egitimi, Discount, Over Charge, Push Cart ve Vending gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -11037,6 +11037,66 @@
       "title": "Shurank'in Dersi",
       "description": "Shurank'in son dersi Magnum Break hakkinda. Dikkatle dinle.",
       "goal": "Shurank'in dersini dinle"
+    },
+    "8229": {
+      "title": "Guarnien'in Dersi",
+      "description": "Bir Merchant, satacagi mallari tasiyamiyorsa gercek bir Merchant sayilmaz. Increase Weight Limit skill'ini Level 4'e getir.",
+      "goal": "Increase Weight Limit'i gelistir ve Guarnien'e don"
+    },
+    "8230": {
+      "title": "Guarnien'in Dersi",
+      "description": "Guarnien Mammonite skill'inden ve temel Item Appraisal'dan bahsedecek. Simdilik derse biraz ara veriyor.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8231": {
+      "title": "Guarnien'in Dersi",
+      "description": "Sirada ^FF0000Discount^000000 skill'i var.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8232": {
+      "title": "Guarnien'in Dersi",
+      "description": "Gercek bir Merchant olmaya yaklasmak icin Discount skill'ini Level 4'e kadar ogren.",
+      "goal": "Discount'i gelistir ve Guarnien'e don"
+    },
+    "8233": {
+      "title": "Guarnien'in Dersi",
+      "description": "Bir sonraki ders biraz daha zorlayici olacak. Hazir oldugunda geri don.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8234": {
+      "title": "Prontera Pazar Arastirmasi",
+      "description": "Prontera'da 10 Red Potion satan NPC'ler var. Gorevin, 10 Red Potion'i en ucuz fiyata satin almak.",
+      "goal": "En ucuz 10 Red Potion'i al ve Guarnien'e don"
+    },
+    "8235": {
+      "title": "Guarnien'in Dersi",
+      "description": "Siradaki konu ^871F78Over Charge^000000 skill'i.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8236": {
+      "title": "Guarnien'in Dersi",
+      "description": "Over Charge, Discount gibi Level 10'a kadar gelistirilebilen Passive bir skill. Siradaki gorev olarak Over Charge'i Level 4'e getir.",
+      "goal": "Over Charge'i gelistir ve Guarnien'e don"
+    },
+    "8237": {
+      "title": "Guarnien'in Dersi",
+      "description": "Push Cart, bir Merchant icin en onemli skill'lerden biri. Guarnien'in dersini dikkatle dinle.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8238": {
+      "title": "Guarnien'in Dersi",
+      "description": "Push Cart ogrenmek icin once Increase Weight Limit Level 5 gerekiyor. Kafra Ladies'den ucret karsiligi PushCart alinabilir. Push Cart skill'ini Level 4'e getir.",
+      "goal": "Push Cart'i gelistir ve Guarnien'e don"
+    },
+    "8239": {
+      "title": "Guarnien'in Dersi",
+      "description": "Son derste Merchant'in en karakteristik skill'i olan ^871F78Vending^000000 anlatilacak.",
+      "goal": "Guarnien'in dersini dinle"
+    },
+    "8240": {
+      "title": "Guarnien'in Dersi",
+      "description": "Son gorev olarak Vending skill'ini Level 4'e getir. Tamamladiginda Guarnien sana kucuk bir odul verecek.",
+      "goal": "Vending'i gelistir ve Guarnien'e don"
     }
   }
 }
