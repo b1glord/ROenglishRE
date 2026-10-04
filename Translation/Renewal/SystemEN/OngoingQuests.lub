@@ -22349,207 +22349,207 @@ QuestInfoList = {
 		Summary = "Detached Palace'ta Muyeon ile konus"
 	},
 	[7790] = {
-		Title = "Rock Ridge, Land of Opportunities",
+		Title = "Rock Ridge, Firsatlar Diyari",
 		Description = {
-			"^0000FFKaram Pucci^000000 has waived the ship fare to Rock Ridge as a complimentary service."
+			"Karam Pucci, jest olarak Rock Ridge gemi ucretinden seni muaf tuttu."
 		},
-		Summary = ""
+		Summary = "Rock Ridge'e git"
 	},
 	[7791] = {
-		Title = "Problems in Rock Ridge",
+		Title = "Rock Ridge'deki Sorunlar",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFKaram Pucci^000000 said Rock Ridge needs help. I should go to Rock Ridge and talk to ^0000FFMayor Costello^000000 by the dock."
+			"Karam Pucci, Rock Ridge'in yardima ihtiyaci oldugunu soyledi. Rock Ridge'e git ve limandaki Mayor Costello ile konus."
 		},
-		Summary = "Talk to Costello",
+		Summary = "Costello ile konus",
 		NpcSpr = "4_m_costell",
 		NpcNavi = "harboro1",
 		NpcPosX = 80,
 		NpcPosY = 218
 	},
 	[7792] = {
-		Title = "Problems in Rock Ridge 2",
+		Title = "Rock Ridge'deki Sorunlar 2",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFMayor Costello^000000 said Rock Ridge is in trouble because of the Buffalo Bandits, and that he wants me to solve the problem in concert with the sheriff. I should go to the sheriff\'s office and meet Wyatt Warp."
+			"Mayor Costello, Buffalo Bandits yuzunden Rock Ridge'in zor durumda oldugunu ve sheriff ile birlikte sorunu cozmeni istedigini soyledi. ^4d4dffSheriff's office'e git ve Wyatt Warp ile gorus.^000000"
 		},
-		Summary = "Talk to Wyatt Warp",
+		Summary = "Wyatt Warp ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
 		NpcPosY = 30
 	},
 	[7793] = {
-		Title = "Good News",
+		Title = "Iyi Haber",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFJohnny James^000000, the leader of the Buffalo Bandits, only wants to negotiate with ^0000FFMayor Costello^000000. I should deliver this exciting news to ^0000FFCostello^000000 at the dock."
+			"Buffalo Bandits lideri Johnny James yalnizca Mayor Costello ile pazarlik etmek istiyor. Bu haberi ^4d4dfflimandaki Costello'ya^000000 ilet."
 		},
-		Summary = "Talk to Costello",
+		Summary = "Costello ile konus",
 		NpcSpr = "4_m_costell",
 		NpcNavi = "harboro1",
 		NpcPosX = 80,
 		NpcPosY = 218
 	},
 	[7794] = {
-		Title = "Expected Response",
+		Title = "Beklenen Tepki",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFCostello^000000, too afraid of the bandits to go negotiate with them, asked me to go on his behalf. I should go tell ^0000FFSheriff Warp^000000."
+			"Haydutlarla gorusmeye korkan Costello, kendi yerine senin gitmeni istedi. Sheriff Warp'a haber ver."
 		},
-		Summary = "Talk to Wyatt Warp",
+		Summary = "Wyatt Warp ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
 		NpcPosY = 30
 	},
 	[7795] = {
-		Title = "Negotiation on the Railroad",
+		Title = "Demiryolunda Pazarlik",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"The negotiation meeting will take place by the ^0000FFunmoving freight train^000000. I can find it if I exit the village through the eastern gate and follow the railroad."
+			"Pazarlik toplantisi ^4d4dffhareketsiz yuk treninin^000000 yaninda yapilacak. Koyun dogu kapisindan cik ve demiryolunu takip et."
 		},
-		Summary = "Find Unmoving Freight Train",
+		Summary = "Unmoving Freight Train'i bul",
 		NpcSpr = "4_m_johnnyjames"
 	},
 	[7796] = {
-		Title = "Unexpected Arrest",
+		Title = "Beklenmedik Tutuklama",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFCactus vigilantes^000000 have helped us capture the leader of the Buffalo Bandits, ^0000FFJohnny James^000000. I should return to the sheriff\'s office and talk to ^0000FFthe Sheriffs^000000 about our next move."
+			"Cactus vigilante'ler Buffalo Bandits lideri Johnny James'i yakalamaya yardim etti. ^4d4dffSheriff's office'e don ve sonraki adimi Wyatt ile Ivoka'yla konus.^000000"
 		},
-		Summary = "Talk to Wyatt and Ivoka",
+		Summary = "Wyatt ve Ivoka ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
 		NpcPosY = 30
 	},
 	[7797] = {
-		Title = "Hear Me Out 1",
+		Title = "Beni Dinle 1",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"Like ^0000FFIvoka^000000 suggested, I should talk to ^0000FFJohnny James^000000 and plant a seed of doubt in his mind about ^0000FFAlbert Ford^000000."
+			"Ivoka'nin onerdigi gibi Johnny James ile konus ve Albert Ford hakkinda kafasina suphe dusur."
 		},
-		Summary = "Talk to Johnny James",
+		Summary = "Johnny James ile konus",
 		NpcSpr = "4_m_johnnyjames"
 	},
 	[7798] = {
-		Title = "Perfectly Primed",
+		Title = "Tam Kivaminda",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFJohnny James^000000 is convinced that ^0000FFAlbert Ford^000000 betrayed him. He asked me to get rid of ^0000FFAlbert^000000 and bring his mane as proof. I should report to the ^0000FFSheriff^000000 for now."
+			"Johnny James, Albert Ford'un kendisine ihanet ettigine ikna oldu. Albert'i ortadan kaldirip kanit olarak yelesini getirmeni istedi. Simdilik Sheriff'e rapor ver."
 		},
-		Summary = "Talk to Wyatt Warp",
+		Summary = "Wyatt Warp ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
 		NpcPosY = 30
 	},
 	[7799] = {
-		Title = "Shawn McCurdy's Weapon 1",
+		Title = "Shawn McCurdy'nin Silahi 1",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFSheriff Warp^000000 said ^0000FFForeman McCurdy^000000 has a good bargaining chip. He\'s at the plaza."
+			"Sheriff Warp, ^4d4dffForeman McCurdy^000000'nin guclu bir pazarlik kozu oldugunu soyledi. Onu meydanda bul."
 		},
-		Summary = "Talk to Shawn McCurdy",
+		Summary = "Shawn McCurdy ile konus",
 		NpcSpr = "4_m_seanmccurdy",
 		NpcNavi = "harboro1",
 		NpcPosX = 288,
 		NpcPosY = 193
 	},
 	[7800] = {
-		Title = "Shawn McCurdy's Weapon 2",
+		Title = "Shawn McCurdy'nin Silahi 2",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"I could get some purple ores, which I thought could no longer be mined because of the ^0000FFBuffalo Bandits^000000. I should find ^0000FFShawn McCurdy^000000 south from the entrance to the mine."
+			"Buffalo Bandits yuzunden artik cikarilamadigini sandigin purple ore'lardan bulabildin. Shawn McCurdy'yi ^4d4dffmaden girisinin guneyinde^000000 bul."
 		},
-		Summary = "Talk to Shawn McCurdy",
+		Summary = "Shawn McCurdy ile konus",
 		NpcSpr = "4_m_seanmccurdy",
 		NpcNavi = "rockmi2",
 		NpcPosX = 10,
 		NpcPosY = 86
 	},
 	[7801] = {
-		Title = "Shawn McCurdy's Weapon 3",
+		Title = "Shawn McCurdy'nin Silahi 3",
 		IconName = "ico_lq.bmp",
 		Description = {
 			"We were able to sneak into the second floor of the mine. I should get 1 <ITEM>Purple Ore<INFO>25247</INFO></ITEM>, and then talk to Shawn."
 		},
-		Summary = "1 Purple Ore"
+		Summary = "1 Purple Ore getir"
 	},
 	[7802] = {
-		Title = "Hear Me Out 2",
+		Title = "Beni Dinle 2",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"I should ^009900knock on the signaling rock 3 times^000000, and then talk to ^0000FFAlbert Ford^000000 about his gang\'s future."
+			"^4d4dffSignal rock'a 3 kez vur^000000 ve Albert Ford ile cetesinin gelecegi hakkinda konus."
 		},
-		Summary = "Talk to Albert Ford",
+		Summary = "Albert Ford ile konus",
 		NpcSpr = "4_m_albertford",
 		NpcNavi = "rockrdg2",
 		NpcPosX = 295,
 		NpcPosY = 309
 	},
 	[7803] = {
-		Title = "Happy for Broken Trust",
+		Title = "Kirilan Guvenden Memnun",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFAlbert Ford^000000, convinced ^0000FFJohnny James^000000 betrayed his gang, has agreed to make a deal. I should deliver ^0000FFAlbert\'s Mane^000000 to ^0000FFJohnny James^000000 as proof."
+			"Johnny James'in ceteye ihanet ettigine inanan Albert Ford anlasma yapmayi kabul etti. Kanit olarak Albert's Mane'i Johnny James'e teslim et."
 		},
-		Summary = "Talk to Johnny James",
+		Summary = "Johnny James ile konus",
 		NpcSpr = "4_m_johnnyjames"
 	},
 	[7804] = {
-		Title = "Location of the Ores",
+		Title = "Cevherlerin Yeri",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFJohnny^000000 told me where he hid the ores: \"^009900Under the elevator on the second floor of the mine^000000\". I should report to ^0000FFSheriff Warp^000000 with this information."
+			"Johnny, cevherleri ^4d4dffmadenin ikinci katindaki asansorun altina^000000 sakladigini soyledi. Bu bilgiyi Sheriff Warp'a bildir."
 		},
-		Summary = "Talk to Wyatt Warp",
+		Summary = "Wyatt Warp ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
 		NpcPosY = 30
 	},
 	[7805] = {
-		Title = "Location of the Ores 2",
+		Title = "Cevherlerin Yeri 2",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"^0000FFShawn McCurdy^000000 is at the ^009900temporary entrance to the second floor of the mine^000000. I should tell him where the ores are and follow him to the inside of the mine."
+			"^4d4dffShawn McCurdy^000000, ^4d4dffmadenin ikinci katina acilan gecici giriste^000000. Cevherlerin yerini soyle ve onunla madene gir."
 		},
-		Summary = "Talk to Shawn McCurdy",
+		Summary = "Shawn McCurdy ile konus",
 		NpcSpr = "4_m_seanmccurdy",
 		NpcNavi = "rockmi2",
 		NpcPosX = 10,
 		NpcPosY = 86
 	},
 	[7806] = {
-		Title = "Location of the Ores 3",
+		Title = "Cevherlerin Yeri 3",
 		IconName = "ico_lq.bmp",
 		Description = {
 			"The broken elevator is to the north from the center of the second floor. I should find an <ITEM>Ore Box<INFO>25248</INFO></ITEM> underneath the elevator, and bring it to ^0000FFShawn McCurdy^000000."
 		},
-		Summary = "Find 1 Ore Box",
+		Summary = "1 Ore Box getir",
 		NpcSpr = "4_m_seanmccurdy",
 		NpcNavi = "rockmi2",
 		NpcPosX = 10,
 		NpcPosY = 86
 	},
 	[7807] = {
-		Title = "Ace up Our Sleeve",
+		Title = "Gizli Kozumuz",
 		IconName = "ico_lq.bmp",
 		Description = {
 			"I should get rid of some ^0000FFBuffalo Bandits^000000 and collect 5 <ITEM>Brown Mufflers<INFO>25283</INFO></ITEM> and 5 <ITEM>Robber Scarves<INFO>25278</INFO></ITEM> to show ^0000FFAlbert Ford^000000. He\'ll hit the roof."
 		},
-		Summary = "5 Brown Mufflers and 5 Bandit Scarves",
+		Summary = "5 Brown Muffler ve 5 Bandit Scarf topla",
 		NpcSpr = "4_m_johnnyjames"
 	},
 	[7808] = {
-		Title = "Case Solved",
+		Title = "Dava Cozuldu",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"I might have burned my bridges with ^0000FFAlbert Ford^000000, but I don\'t care. I don\'t have to see him anymore. I should report to ^0000FFSheriff Warp^000000."
+			"Albert Ford ile arandaki kopruleri yakmis olabilirsin ama artik onu gormene gerek yok. Sheriff Warp'a rapor ver."
 		},
-		Summary = "Talk to Wyatt Warp",
+		Summary = "Wyatt Warp ile konus",
 		NpcSpr = "4_m_yattwarp",
 		NpcNavi = "har_in01",
 		NpcPosX = 20,
@@ -22561,10 +22561,10 @@ QuestInfoList = {
 		}
 	},
 	[7809] = {
-		Title = "Collecting Ores",
+		Title = "Cevherleri Toplama",
 		IconName = "ico_lq.bmp",
 		Description = {
-			"Collected the ores."
+			"Cevherleri topladin."
 		},
 		Summary = ""
 	},
