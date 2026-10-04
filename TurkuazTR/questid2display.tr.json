@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/questid2display.tr.json",
     "purpose": "questid2display.txt Turkce ceviri patch kaynagi",
     "module": "Config - JSON",
-    "version": "6.42.0",
-    "description": "Quest ID bazinda ASCII Turkce patchleri; 7166-7172 Rachel Shadow Workshop, sifre ve Illusion anahtar gorevleri dahil",
+    "version": "6.43.0",
+    "description": "Quest ID bazinda ASCII Turkce patchleri; 7173-7179 Juno ve Lighthalzen Shadow Workshop, Pleasure anahtari ve Thanatos Tower hedefi gorevleri dahil",
     "dependency_layer": "Config"
   },
   "source_path": "Translation/Renewal/data/questid2display.txt",
@@ -7282,6 +7282,41 @@
       "title": "Illusion Anahtari",
       "description": "Ice Cave'in derinlerinde buldugun sey Illusion Anahtariydi. Hazine yine orada degildi. Rachel'a don ve Paul'a rapor ver.",
       "goal": "Paul'a rapor ver"
+    },
+    "7173": {
+      "title": "Paul'dan Haled'e Mesaj",
+      "description": "Juno Shadow Workshop'taki Haled'i bul. Yardim etmeyi reddederse Paul'un mesajini ilet: I know what you did last summer!",
+      "goal": "Haled'i bul ve Paul'un mesajini ilet"
+    },
+    "7174": {
+      "title": "Gizemli Sifre",
+      "description": "Haled'in ipucu kisa bir sarki. Sarginin gosterdigi yeri bul: Life Tree'nin ince koku / Yasayanlardan akan gozyasi / Vardilar ama biz degildiler / Unutulmus gecenin sakinleri.",
+      "goal": "Sarkinin gosterdigi yeri bul"
+    },
+    "7175": {
+      "title": "Shadow of Pleasure'i Avla",
+      "description": "Alev, genc bir kadini gosterir gibi guclu bicimde dalgalanip sondu. Shadow of Pleasure'i yen.",
+      "goal": "Shadow of Pleasure'i yen"
+    },
+    "7176": {
+      "title": "Pleasure Anahtari",
+      "description": "Bu kez de hazine yerine bir anahtar buldun. Hazinenin nerede oldugu hala belirsiz. Juno'daki Haled'e don ve rapor ver.",
+      "goal": "Haled'e rapor ver"
+    },
+    "7177": {
+      "title": "Lighthalzen Workshop",
+      "description": "Haled, ipucunun hazine yerini gostermemesine kizdi ve son ipucunu bilen Lighthalzen sube yoneticisi Vicente ile gorusmeni istedi.",
+      "goal": "Vicente ile konus"
+    },
+    "7178": {
+      "title": "Anahtarlarin Hedefi",
+      "description": "Deception, Illusion ve Pleasure anahtarlarinin Thanatos Tower'daki gizli heykel icin oldugunu ogrendin. Isik direginin gorundugu kulenin 1. katina git.",
+      "goal": "Thanatos Tower 1. kattaki gizli heykeli bul"
+    },
+    "7179": {
+      "title": "Hazine mi?",
+      "description": "Uc anahtari kullandin ama hazine yerine bir firca buldun. Vicente'ye hemen donup durumu bildir.",
+      "goal": "Vicente'ye rapor ver"
     }
   }
 }
