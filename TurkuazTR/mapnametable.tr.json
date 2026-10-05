@@ -3,19 +3,47 @@
     "path": "/ROenglishRE/TurkuazTR/mapnametable.tr.json",
     "purpose": "Map name table icindeki oyuncuya gorunen harita adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.1.0",
-    "description": "upstream/latest mapnametable.txt kaynagindaki 436 exact satiri Navi_Data ve worldview onayli Turkce karsiliklariyla esler",
+    "version": "1.2.0",
+    "description": "upstream/latest mapnametable.txt kaynagindaki 611 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/mapnametable.txt",
   "source_ref": "upstream/latest",
   "source_blob_sha": "a642a734e9b5415f568fbfdd92a9fd5225f9d227",
   "source_line_count": 1345,
-  "patch_count": 436,
+  "patch_count": 611,
   "patches": {
+    "2": {
+      "source_en": "dbg_arena.rsw#Dynamic Battleground Arena#",
+      "translation_tr": "dbg_arena.rsw#Dinamik Battleground Arenasi#"
+    },
+    "3": {
+      "source_en": "dbg_dom.rsw#Dynamic Battleground Arena - Domination#",
+      "translation_tr": "dbg_dom.rsw#Dinamik Battleground Arenasi - Hakimiyet#"
+    },
+    "28": {
+      "source_en": "1@gl_he.rsw#Contaminated Dimension#",
+      "translation_tr": "1@gl_he.rsw#Kirlenmis Boyut#"
+    },
+    "31": {
+      "source_en": "1@gol1.rsw#Biological Experiment Center#",
+      "translation_tr": "1@gol1.rsw#Biyolojik Deney Merkezi#"
+    },
+    "32": {
+      "source_en": "1@gol2.rsw#Morgue#",
+      "translation_tr": "1@gol2.rsw#Morg#"
+    },
     "35": {
       "source_en": "prt_mz03_i.rsw#Twisted Labyrinth Forest#",
       "translation_tr": "prt_mz03_i.rsw#Carpik Labirent Ormani#"
+    },
+    "38": {
+      "source_en": "1@halo.rsw#Halloween Festival Hall#",
+      "translation_tr": "1@halo.rsw#Cadilar Bayrami Festival Salonu#"
+    },
+    "41": {
+      "source_en": "1@momo.rsw#Momotaro Experience Hall#",
+      "translation_tr": "1@momo.rsw#Momotaro Deneyim Salonu#"
     },
     "44": {
       "source_en": "1@ant01.rsw#Ant Hell#",
@@ -29,9 +57,53 @@
       "source_en": "1@tre02.rsw#Sunken Ship#",
       "translation_tr": "1@tre02.rsw#Batmis Gemi#"
     },
+    "49": {
+      "source_en": "1@sewb2.rsw#Sewer#",
+      "translation_tr": "1@sewb2.rsw#Kanalizasyon#"
+    },
+    "52": {
+      "source_en": "1@gl_prq.rsw#The Fall of Glastheim#",
+      "translation_tr": "1@gl_prq.rsw#Glastheim'in Dususu#"
+    },
+    "54": {
+      "source_en": "mag_dun03.rsw#Nogg Road Dungeon F3#",
+      "translation_tr": "mag_dun03.rsw#Nogg Road Zindani K3#"
+    },
+    "55": {
+      "source_en": "gl_cas01_.rsw#Abyss Glastheim Castle F1#",
+      "translation_tr": "gl_cas01_.rsw#Ucurum Glastheim Kalesi K1#"
+    },
+    "58": {
+      "source_en": "1@cor.rsw#Core Memorial#",
+      "translation_tr": "1@cor.rsw#Cekirdek Aniti#"
+    },
     "59": {
       "source_en": "1@os_a.rsw#Occupied Battle#",
       "translation_tr": "1@os_a.rsw#Isgal Savasi#"
+    },
+    "60": {
+      "source_en": "1@os_b.rsw#Sealed OS#",
+      "translation_tr": "1@os_b.rsw#Muhurlu OS#"
+    },
+    "61": {
+      "source_en": "1@rgsr.rsw#Regenschirm Corporate Research Institute#",
+      "translation_tr": "1@rgsr.rsw#Regenschirm Kurumsal Arastirma Enstitusu#"
+    },
+    "62": {
+      "source_en": "rgsr_in.rsw#Rekenber Research Institute#",
+      "translation_tr": "rgsr_in.rsw#Rekenber Arastirma Enstitusu#"
+    },
+    "63": {
+      "source_en": "pub_cat.rsw#Bullet Cat#",
+      "translation_tr": "pub_cat.rsw#Mermi Kedisi#"
+    },
+    "64": {
+      "source_en": "sp_cor.rsw#Special Border Area Cor#",
+      "translation_tr": "sp_cor.rsw#Ozel Sinir Bolgesi Cor#"
+    },
+    "65": {
+      "source_en": "sp_os.rsw#Special Border Area OS#",
+      "translation_tr": "sp_os.rsw#Ozel Sinir Bolgesi OS#"
     },
     "66": {
       "source_en": "sp_rudus.rsw#Rudus, Experiment Waste Disposal F1#",
@@ -49,6 +121,10 @@
       "source_en": "star_in.rsw#Inside Yu Seong Lim#",
       "translation_tr": "star_in.rsw#Yu Seong Lim Ici#"
     },
+    "75": {
+      "source_en": "1@soul.rsw#Soul Passage#",
+      "translation_tr": "1@soul.rsw#Ruh Gecidi#"
+    },
     "78": {
       "source_en": "com_d02_i.rsw#Luanda, the North Cave#",
       "translation_tr": "com_d02_i.rsw#Luanda, Kuzey Magarasi#"
@@ -57,21 +133,73 @@
       "source_en": "ein_d02_i.rsw#Nasarin Empire#",
       "translation_tr": "ein_d02_i.rsw#Nasarin Imparatorlugu#"
     },
+    "84": {
+      "source_en": "vis_h01.rsw#Illusion Corridor F1#",
+      "translation_tr": "vis_h01.rsw#Yanilsama Koridoru K1#"
+    },
+    "85": {
+      "source_en": "vis_h02.rsw#Illusion Corridor F2#",
+      "translation_tr": "vis_h02.rsw#Yanilsama Koridoru K2#"
+    },
+    "86": {
+      "source_en": "vis_h03.rsw#Illusion Corridor F3#",
+      "translation_tr": "vis_h03.rsw#Yanilsama Koridoru K3#"
+    },
+    "87": {
+      "source_en": "vis_h04.rsw#Illusion Corridor F4#",
+      "translation_tr": "vis_h04.rsw#Yanilsama Koridoru K4#"
+    },
+    "90": {
+      "source_en": "2@gl_kh.rsw#Old Glastheim Chivalry F2#",
+      "translation_tr": "2@gl_kh.rsw#Eski Glastheim Sovalye Birligi K2#"
+    },
+    "91": {
+      "source_en": "1@gl_kh.rsw#Old Glastheim Chivalry F1#",
+      "translation_tr": "1@gl_kh.rsw#Eski Glastheim Sovalye Birligi K1#"
+    },
     "94": {
       "source_en": "prt_evt_in.rsw#Hunting Lodge#",
       "translation_tr": "prt_evt_in.rsw#Av Kulubesi#"
+    },
+    "97": {
+      "source_en": "x_prt.rsw#Prontera - Beyond dimension#",
+      "translation_tr": "x_prt.rsw#Prontera - Boyut Otesi#"
+    },
+    "98": {
+      "source_en": "x_lhz.rsw#Lighthalzen - Beyond dimension#",
+      "translation_tr": "x_lhz.rsw#Lighthalzen - Boyut Otesi#"
+    },
+    "99": {
+      "source_en": "x_ra.rsw#Rachel - Beyond dimension#",
+      "translation_tr": "x_ra.rsw#Rachel - Boyut Otesi#"
     },
     "102": {
       "source_en": "lasa_sea.rsw#Cat Tunnel#",
       "translation_tr": "lasa_sea.rsw#Kedi Tuneli#"
     },
+    "103": {
+      "source_en": "1@drdo.rsw#Legend of Dorado#",
+      "translation_tr": "1@drdo.rsw#Dorado Efsanesi#"
+    },
     "106": {
       "source_en": "que_ng.rsw#Unknown Place#",
       "translation_tr": "que_ng.rsw#Bilinmeyen Yer#"
     },
+    "109": {
+      "source_en": "1@crd.rsw#Volcanic island Korodo#",
+      "translation_tr": "1@crd.rsw#Korodo Volkanik Adasi#"
+    },
     "112": {
       "source_en": "tur_d03_i.rsw#Desolate Village#",
       "translation_tr": "tur_d03_i.rsw#Issiz Koy#"
+    },
+    "113": {
+      "source_en": "tur_d04_i.rsw#Bleak Turtle Palace#",
+      "translation_tr": "tur_d04_i.rsw#Issiz Kaplumbaga Sarayi#"
+    },
+    "116": {
+      "source_en": "1@begi.rsw#Poring Town#",
+      "translation_tr": "1@begi.rsw#Poring Kasabasi#"
     },
     "119": {
       "source_en": "1@tre.rsw#Suspicious Shipwreck#",
@@ -88,6 +216,18 @@
     "128": {
       "source_en": "pay_d03_i.rsw#Nightmare of Moonlight#",
       "translation_tr": "pay_d03_i.rsw#Ay Isigi Kabusu#"
+    },
+    "131": {
+      "source_en": "1@xm_d2.rsw#Horror Toy Factory#",
+      "translation_tr": "1@xm_d2.rsw#Korku Oyuncak Fabrikasi#"
+    },
+    "134": {
+      "source_en": "1@gl_k2.rsw#Old Glastheim Chivalry F1#",
+      "translation_tr": "1@gl_k2.rsw#Eski Glastheim Sovalye Birligi K1#"
+    },
+    "135": {
+      "source_en": "2@gl_k2.rsw#Old Glastheim Chivalry F2#",
+      "translation_tr": "2@gl_k2.rsw#Eski Glastheim Sovalye Birligi K2#"
     },
     "140": {
       "source_en": "harboro2.rsw#Underground Waterway#",
@@ -109,6 +249,18 @@
       "source_en": "rockrdg2.rsw#Kiwawa Desert#",
       "translation_tr": "rockrdg2.rsw#Kiwawa Colu#"
     },
+    "147": {
+      "source_en": "1@md_gef.rsw#Friday Memorial#",
+      "translation_tr": "1@md_gef.rsw#Cuma Aniti#"
+    },
+    "148": {
+      "source_en": "1@md_pay.rsw#Weekend Memorial#",
+      "translation_tr": "1@md_pay.rsw#Hafta Sonu Aniti#"
+    },
+    "151": {
+      "source_en": "1@slw.rsw#Central room of Werner Laboratory#",
+      "translation_tr": "1@slw.rsw#Werner Laboratuvari Merkez Odasi#"
+    },
     "152": {
       "source_en": "1@swat.rsw#Heart Hunter Military Base#",
       "translation_tr": "1@swat.rsw#Heart Hunter Askeri Ussu#"
@@ -120,6 +272,14 @@
     "154": {
       "source_en": "slabw01.rsw#Werner Laboratory#",
       "translation_tr": "slabw01.rsw#Werner Laboratuvari#"
+    },
+    "158": {
+      "source_en": "1@pop1.rsw#Pope's Office#",
+      "translation_tr": "1@pop1.rsw#Papanin Ofisi#"
+    },
+    "159": {
+      "source_en": "1@pop2.rsw#Way Back Home#",
+      "translation_tr": "1@pop2.rsw#Eve Donus Yolu#"
     },
     "160": {
       "source_en": "1@pop3.rsw#Sky Garden#",
@@ -181,6 +341,26 @@
       "source_en": "int_land04.rsw#Remote Island#",
       "translation_tr": "int_land04.rsw#Uzak Ada#"
     },
+    "180": {
+      "source_en": "1@mir.rsw#Ritual Room#",
+      "translation_tr": "1@mir.rsw#Rituel Odasi#"
+    },
+    "181": {
+      "source_en": "2@mir.rsw#Ritual Room#",
+      "translation_tr": "2@mir.rsw#Rituel Odasi#"
+    },
+    "182": {
+      "source_en": "1@sthb.rsw#Air Fortress - Inside#",
+      "translation_tr": "1@sthb.rsw#Hava Kalesi - Ic Mekan#"
+    },
+    "183": {
+      "source_en": "1@sthc.rsw#Air Fortress - Secret Chamber#",
+      "translation_tr": "1@sthc.rsw#Hava Kalesi - Gizli Oda#"
+    },
+    "184": {
+      "source_en": "1@sthd.rsw#Air Fortress - Top Floor#",
+      "translation_tr": "1@sthd.rsw#Hava Kalesi - Ust Kat#"
+    },
     "186": {
       "source_en": "prt_cas.rsw#Prontera Central Palace#",
       "translation_tr": "prt_cas.rsw#Prontera Merkez Sarayi#"
@@ -193,6 +373,10 @@
       "source_en": "prt_prison.rsw#Prontera Dungeon#",
       "translation_tr": "prt_prison.rsw#Prontera Zindani#"
     },
+    "189": {
+      "source_en": "prt_lib.rsw#Memorial of Royal Family#",
+      "translation_tr": "prt_lib.rsw#Kraliyet Ailesi Aniti#"
+    },
     "190": {
       "source_en": "prt_lib_q.rsw#Memorial of Past Royal Family#",
       "translation_tr": "prt_lib_q.rsw#Eski Kraliyet Ailesi Aniti#"
@@ -204,6 +388,14 @@
     "192": {
       "source_en": "prt_pri00.rsw#Prontera Prison#",
       "translation_tr": "prt_pri00.rsw#Prontera Hapishanesi#"
+    },
+    "195": {
+      "source_en": "1@ffp.rsw#Remnant Hideout#",
+      "translation_tr": "1@ffp.rsw#Kalinti Siginagi#"
+    },
+    "198": {
+      "source_en": "1@infi.rsw#Infinite Space#",
+      "translation_tr": "1@infi.rsw#Sonsuz Alan#"
     },
     "201": {
       "source_en": "paramk.rsw#Para Market#",
@@ -229,6 +421,14 @@
       "source_en": "un_myst.rsw#Underground Tunnel#",
       "translation_tr": "un_myst.rsw#Yeralti Tuneli#"
     },
+    "209": {
+      "source_en": "1@uns.rsw#The Last room#",
+      "translation_tr": "1@uns.rsw#Son Oda#"
+    },
+    "210": {
+      "source_en": "1@lab.rsw#Central Laboratory#",
+      "translation_tr": "1@lab.rsw#Merkez Laboratuvar#"
+    },
     "213": {
       "source_en": "lhz_dun_n.rsw#Tomb of the Fallen#",
       "translation_tr": "lhz_dun_n.rsw#Dusmuslerin Mezari#"
@@ -237,6 +437,10 @@
       "source_en": "lhz_d_n2.rsw#Void of Vicious Mind#",
       "translation_tr": "lhz_d_n2.rsw#Kotu Dusunceler Boslugu#"
     },
+    "217": {
+      "source_en": "1@glast.rsw#Past Glastheim#",
+      "translation_tr": "1@glast.rsw#Gecmis Glastheim#"
+    },
     "218": {
       "source_en": "1@air1.rsw#Airship#",
       "translation_tr": "1@air1.rsw#Hava Gemisi#"
@@ -244,6 +448,10 @@
     "219": {
       "source_en": "1@air2.rsw#Airship#",
       "translation_tr": "1@air2.rsw#Hava Gemisi#"
+    },
+    "222": {
+      "source_en": "job_gun.rsw#Shelter of Rebellion#",
+      "translation_tr": "job_gun.rsw#Rebellion Siginagi#"
     },
     "225": {
       "source_en": "ver_eju.rsw#Eastern Ruins of Juperos#",
@@ -261,6 +469,14 @@
       "source_en": "verus03.rsw#Verus - Central Plaza#",
       "translation_tr": "verus03.rsw#Verus - Merkez Meydan#"
     },
+    "230": {
+      "source_en": "1@mcd.rsw#Charleston Factory#",
+      "translation_tr": "1@mcd.rsw#Charleston Fabrikasi#"
+    },
+    "233": {
+      "source_en": "e_hugel.rsw#Invaded Hugel#",
+      "translation_tr": "e_hugel.rsw#Istila Edilmis Hugel#"
+    },
     "235": {
       "source_en": "c_tower2_.rsw#Twisted Clock Tower F2#",
       "translation_tr": "c_tower2_.rsw#Carpik Saat Kulesi K2#"
@@ -268,6 +484,10 @@
     "236": {
       "source_en": "c_tower3_.rsw#Twisted Clock Tower F3#",
       "translation_tr": "c_tower3_.rsw#Carpik Saat Kulesi K3#"
+    },
+    "238": {
+      "source_en": "silk_lair.rsw#Python's Lair#",
+      "translation_tr": "silk_lair.rsw#Python'un Ini#"
     },
     "240": {
       "source_en": "moro_vol.rsw#Flame Basin#",
@@ -277,9 +497,41 @@
       "source_en": "moro_cav.rsw#Flame Cave#",
       "translation_tr": "moro_cav.rsw#Alev Magarasi#"
     },
+    "242": {
+      "source_en": "1@dth1.rsw#Bios Island#",
+      "translation_tr": "1@dth1.rsw#Bios Adasi#"
+    },
+    "243": {
+      "source_en": "1@dth2.rsw#Bios Island#",
+      "translation_tr": "1@dth2.rsw#Bios Adasi#"
+    },
+    "244": {
+      "source_en": "1@dth3.rsw#Bios Island#",
+      "translation_tr": "1@dth3.rsw#Bios Adasi#"
+    },
+    "245": {
+      "source_en": "1@rev.rsw#Morse Cave#",
+      "translation_tr": "1@rev.rsw#Morse Magarasi#"
+    },
+    "246": {
+      "source_en": "1@xm_d.rsw#Horror Toy Factory#",
+      "translation_tr": "1@xm_d.rsw#Korku Oyuncak Fabrikasi#"
+    },
+    "247": {
+      "source_en": "1@eom.rsw#Shrine of Demon God#",
+      "translation_tr": "1@eom.rsw#Seytan Tanri Tapinagi#"
+    },
+    "248": {
+      "source_en": "1@jtb.rsw#Dream and Shadow#",
+      "translation_tr": "1@jtb.rsw#Ruyalar ve Golgeler#"
+    },
     "250": {
       "source_en": "dali02.rsw#Dimensional Rift#",
       "translation_tr": "dali02.rsw#Boyutsal Yarik#"
+    },
+    "251": {
+      "source_en": "1@face.rsw#Faceworm's Nest#",
+      "translation_tr": "1@face.rsw#Faceworm Yuvasi#"
     },
     "252": {
       "source_en": "1@sara.rsw#Sara's Memory#",
@@ -289,9 +541,133 @@
       "source_en": "dali.rsw#Dimensional Rift#",
       "translation_tr": "dali.rsw#Boyutsal Yarik#"
     },
+    "254": {
+      "source_en": "1@tnm1.rsw#Demon's Tower - Upper floor#",
+      "translation_tr": "1@tnm1.rsw#Seytan Kulesi - Ust Kat#"
+    },
+    "255": {
+      "source_en": "1@tnm2.rsw#Demon's Tower - Top floor#",
+      "translation_tr": "1@tnm2.rsw#Seytan Kulesi - En Ust Kat#"
+    },
+    "256": {
+      "source_en": "1@tnm3.rsw#Morroc Castle - Basement#",
+      "translation_tr": "1@tnm3.rsw#Morroc Kalesi - Bodrum#"
+    },
+    "257": {
+      "source_en": "1@ge_st.rsw#Geffen Magic Tournament#",
+      "translation_tr": "1@ge_st.rsw#Geffen Buyu Turnuvasi#"
+    },
+    "258": {
+      "source_en": "1@gef.rsw#Geffen Magic Tournament#",
+      "translation_tr": "1@gef.rsw#Geffen Buyu Turnuvasi#"
+    },
+    "259": {
+      "source_en": "1@gef_in.rsw#Geffen Magic Tournament#",
+      "translation_tr": "1@gef_in.rsw#Geffen Buyu Turnuvasi#"
+    },
+    "260": {
+      "source_en": "1@spa.rsw#Ghost Palace#",
+      "translation_tr": "1@spa.rsw#Hayalet Sarayi#"
+    },
+    "262": {
+      "source_en": "1@def01.rsw#Wave Dungeon - Forest#",
+      "translation_tr": "1@def01.rsw#Dalga Zindani - Orman#"
+    },
+    "263": {
+      "source_en": "1@def02.rsw#Wave Dungeon - Sky#",
+      "translation_tr": "1@def02.rsw#Dalga Zindani - Gokyuzu#"
+    },
+    "264": {
+      "source_en": "1@def03.rsw#Wave Dungeon - Lava#",
+      "translation_tr": "1@def03.rsw#Dalga Zindani - Lav#"
+    },
+    "266": {
+      "source_en": "evt_bomb.rsw#Labyrinth Event#",
+      "translation_tr": "evt_bomb.rsw#Labirent Etkinligi#"
+    },
+    "268": {
+      "source_en": "gl_cas02_.rsw#Corridor F2#",
+      "translation_tr": "gl_cas02_.rsw#Koridor K2#"
+    },
     "269": {
       "source_en": "gl_chyard_.rsw#Monastery Churchyard#",
       "translation_tr": "gl_chyard_.rsw#Manastir Mezarligi#"
+    },
+    "270": {
+      "source_en": "2@gl_k.rsw#Old Glastheim Chivalry F2#",
+      "translation_tr": "2@gl_k.rsw#Eski Glastheim Sovalye Birligi K2#"
+    },
+    "271": {
+      "source_en": "1@gl_k.rsw#Old Glastheim Chivalry F1#",
+      "translation_tr": "1@gl_k.rsw#Eski Glastheim Sovalye Birligi K1#"
+    },
+    "274": {
+      "source_en": "te_prtcas01.rsw#Geoborg Castle#",
+      "translation_tr": "te_prtcas01.rsw#Geoborg Kalesi#"
+    },
+    "275": {
+      "source_en": "te_prtcas02.rsw#Richard Castle#",
+      "translation_tr": "te_prtcas02.rsw#Richard Kalesi#"
+    },
+    "276": {
+      "source_en": "te_prtcas03.rsw#Wigner Castle#",
+      "translation_tr": "te_prtcas03.rsw#Wigner Kalesi#"
+    },
+    "277": {
+      "source_en": "te_prtcas04.rsw#Heine Castle#",
+      "translation_tr": "te_prtcas04.rsw#Heine Kalesi#"
+    },
+    "278": {
+      "source_en": "te_prtcas05.rsw#Nerius Castle#",
+      "translation_tr": "te_prtcas05.rsw#Nerius Kalesi#"
+    },
+    "279": {
+      "source_en": "teg_dun01.rsw#Guild Underground Dungeon#",
+      "translation_tr": "teg_dun01.rsw#Lonca Yeralti Zindani#"
+    },
+    "280": {
+      "source_en": "te_alde_gld.rsw#Kafra's Den#",
+      "translation_tr": "te_alde_gld.rsw#Kafra'nin Ini#"
+    },
+    "281": {
+      "source_en": "te_aldecas01.rsw#Glaris Castle#",
+      "translation_tr": "te_aldecas01.rsw#Glaris Kalesi#"
+    },
+    "282": {
+      "source_en": "te_aldecas02.rsw#Defolty Castle#",
+      "translation_tr": "te_aldecas02.rsw#Defolty Kalesi#"
+    },
+    "283": {
+      "source_en": "te_aldecas03.rsw#Sorin Castle#",
+      "translation_tr": "te_aldecas03.rsw#Sorin Kalesi#"
+    },
+    "284": {
+      "source_en": "te_aldecas04.rsw#Bennit Castle#",
+      "translation_tr": "te_aldecas04.rsw#Bennit Kalesi#"
+    },
+    "285": {
+      "source_en": "te_aldecas05.rsw#W Castle#",
+      "translation_tr": "te_aldecas05.rsw#W Kalesi#"
+    },
+    "286": {
+      "source_en": "teg_dun02.rsw#Guild Underground Dungeon#",
+      "translation_tr": "teg_dun02.rsw#Lonca Yeralti Zindani#"
+    },
+    "288": {
+      "source_en": "prt_fild08d.rsw#Prontera Field 8#",
+      "translation_tr": "prt_fild08d.rsw#Prontera Sahasi 8#"
+    },
+    "289": {
+      "source_en": "prt_fild08c.rsw#Prontera Field 8#",
+      "translation_tr": "prt_fild08c.rsw#Prontera Sahasi 8#"
+    },
+    "290": {
+      "source_en": "prt_fild08b.rsw#Prontera Field 8#",
+      "translation_tr": "prt_fild08b.rsw#Prontera Sahasi 8#"
+    },
+    "291": {
+      "source_en": "prt_fild08a.rsw#Prontera Field 8#",
+      "translation_tr": "prt_fild08a.rsw#Prontera Sahasi 8#"
     },
     "293": {
       "source_en": "iz_ac01_d.rsw#Criatura Academy F1#",
@@ -369,6 +745,26 @@
       "source_en": "iz_ac02.rsw#Criatura Academy F2#",
       "translation_tr": "iz_ac02.rsw#Criatura Akademisi K2#"
     },
+    "314": {
+      "source_en": "iz_ng01.rsw#Ninja tutorial map#",
+      "translation_tr": "iz_ng01.rsw#Ninja Egitim Haritasi#"
+    },
+    "315": {
+      "source_en": "treasure_n1.rsw#Izlude Shipwreck B1#",
+      "translation_tr": "treasure_n1.rsw#Izlude Batik Gemi B1#"
+    },
+    "316": {
+      "source_en": "treasure_n2.rsw#Izlude Shipwreck B2#",
+      "translation_tr": "treasure_n2.rsw#Izlude Batik Gemi B2#"
+    },
+    "318": {
+      "source_en": "moc_prydn1.rsw#Morroc Pyramid B1 - Nightmare#",
+      "translation_tr": "moc_prydn1.rsw#Morroc Piramidi B1 - Kabus#"
+    },
+    "319": {
+      "source_en": "moc_prydn2.rsw#Morroc Pyramid B2 - Nightmare#",
+      "translation_tr": "moc_prydn2.rsw#Morroc Piramidi B2 - Kabus#"
+    },
     "321": {
       "source_en": "eclage.rsw#Eclage, Forestic Village#",
       "translation_tr": "eclage.rsw#Eclage, Orman Koyu#"
@@ -377,9 +773,49 @@
       "source_en": "ecl_fild01.rsw#Blooming Flower Land#",
       "translation_tr": "ecl_fild01.rsw#Cicek Acmis Toprak#"
     },
+    "323": {
+      "source_en": "ecl_in01.rsw#Eclage Indoor 1#",
+      "translation_tr": "ecl_in01.rsw#Eclage Ic Mekan 1#"
+    },
+    "324": {
+      "source_en": "ecl_in02.rsw#Eclage Indoor 2#",
+      "translation_tr": "ecl_in02.rsw#Eclage Ic Mekan 2#"
+    },
+    "325": {
+      "source_en": "ecl_in03.rsw#Eclage Indoor 3#",
+      "translation_tr": "ecl_in03.rsw#Eclage Ic Mekan 3#"
+    },
+    "326": {
+      "source_en": "ecl_in04.rsw#Eclage Indoor 4#",
+      "translation_tr": "ecl_in04.rsw#Eclage Ic Mekan 4#"
+    },
+    "327": {
+      "source_en": "1@ecl.rsw#Eclage Interior#",
+      "translation_tr": "1@ecl.rsw#Eclage Ic Mekani#"
+    },
+    "328": {
+      "source_en": "ecl_tdun01.rsw#Bifrost Tower 1F#",
+      "translation_tr": "ecl_tdun01.rsw#Bifrost Kulesi K1#"
+    },
+    "329": {
+      "source_en": "ecl_tdun02.rsw#Bifrost Tower 2F#",
+      "translation_tr": "ecl_tdun02.rsw#Bifrost Kulesi K2#"
+    },
+    "330": {
+      "source_en": "ecl_tdun03.rsw#Bifrost Tower 3F#",
+      "translation_tr": "ecl_tdun03.rsw#Bifrost Kulesi K3#"
+    },
+    "331": {
+      "source_en": "ecl_tdun04.rsw#Bifrost Tower 4F#",
+      "translation_tr": "ecl_tdun04.rsw#Bifrost Kulesi K4#"
+    },
     "332": {
       "source_en": "ecl_hub01.rsw#Eclage Perimeter#",
       "translation_tr": "ecl_hub01.rsw#Eclage Cevresi#"
+    },
+    "333": {
+      "source_en": "que_avan01.rsw#Avant's Laboratory#",
+      "translation_tr": "que_avan01.rsw#Avant Laboratuvari#"
     },
     "336": {
       "source_en": "malaya.rsw#Port Malaya#",
@@ -401,6 +837,106 @@
       "source_en": "ma_dun01.rsw#Bangungot Hospital F1#",
       "translation_tr": "ma_dun01.rsw#Bangungot Hastanesi K1#"
     },
+    "342": {
+      "source_en": "1@ma_h.rsw#Bangungot Hospital F2#",
+      "translation_tr": "1@ma_h.rsw#Bangungot Hastanesi K2#"
+    },
+    "343": {
+      "source_en": "1@ma_c.rsw#Buwaya Cave#",
+      "translation_tr": "1@ma_c.rsw#Buwaya Magarasi#"
+    },
+    "344": {
+      "source_en": "1@ma_b.rsw#Bakonawa Hideout#",
+      "translation_tr": "1@ma_b.rsw#Bakonawa Siginagi#"
+    },
+    "345": {
+      "source_en": "ma_zif01.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif01.rsw#Jeepney Ici#"
+    },
+    "346": {
+      "source_en": "ma_zif02.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif02.rsw#Jeepney Ici#"
+    },
+    "347": {
+      "source_en": "ma_zif03.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif03.rsw#Jeepney Ici#"
+    },
+    "348": {
+      "source_en": "ma_zif04.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif04.rsw#Jeepney Ici#"
+    },
+    "349": {
+      "source_en": "ma_zif05.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif05.rsw#Jeepney Ici#"
+    },
+    "350": {
+      "source_en": "ma_zif06.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif06.rsw#Jeepney Ici#"
+    },
+    "351": {
+      "source_en": "ma_zif07.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif07.rsw#Jeepney Ici#"
+    },
+    "352": {
+      "source_en": "ma_zif08.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif08.rsw#Jeepney Ici#"
+    },
+    "353": {
+      "source_en": "ma_zif09.rsw#Inside of Jeepney#",
+      "translation_tr": "ma_zif09.rsw#Jeepney Ici#"
+    },
+    "354": {
+      "source_en": "job_ko.rsw#Hidden Place#",
+      "translation_tr": "job_ko.rsw#Gizli Yer#"
+    },
+    "356": {
+      "source_en": "gld_dun01_2.rsw#Guild Dungeon Underground F2#",
+      "translation_tr": "gld_dun01_2.rsw#Lonca Zindani Yeralti K2#"
+    },
+    "357": {
+      "source_en": "gld_dun02_2.rsw#Guild Dungeon Underground F2#",
+      "translation_tr": "gld_dun02_2.rsw#Lonca Zindani Yeralti K2#"
+    },
+    "358": {
+      "source_en": "gld_dun03_2.rsw#Guild Dungeon Underground F2#",
+      "translation_tr": "gld_dun03_2.rsw#Lonca Zindani Yeralti K2#"
+    },
+    "359": {
+      "source_en": "gld_dun04_2.rsw#Guild Dungeon Underground F2#",
+      "translation_tr": "gld_dun04_2.rsw#Lonca Zindani Yeralti K2#"
+    },
+    "360": {
+      "source_en": "gld2_ald.rsw#Corridor of the Abyss - Tears of Hero#",
+      "translation_tr": "gld2_ald.rsw#Ucurum Koridoru - Kahramanin Gozyaslari#"
+    },
+    "361": {
+      "source_en": "gld2_gef.rsw#Corridor of the Abyss - Dead Man Hill#",
+      "translation_tr": "gld2_gef.rsw#Ucurum Koridoru - Olu Adam Tepesi#"
+    },
+    "362": {
+      "source_en": "gld2_pay.rsw#Corridor of the Abyss - Ancient Wind#",
+      "translation_tr": "gld2_pay.rsw#Ucurum Koridoru - Antik Ruzgar#"
+    },
+    "363": {
+      "source_en": "gld2_prt.rsw#Corridor of the Abyss - Warrior's Way#",
+      "translation_tr": "gld2_prt.rsw#Ucurum Koridoru - Savascinin Yolu#"
+    },
+    "365": {
+      "source_en": "lhz_dun04.rsw#Somatology Laboratory 4th Basement#",
+      "translation_tr": "lhz_dun04.rsw#Somatoloji Laboratuvari 4. Bodrum#"
+    },
+    "366": {
+      "source_en": "que_lhz.rsw#Lighthalzen Indoor#",
+      "translation_tr": "que_lhz.rsw#Lighthalzen Ic Mekan#"
+    },
+    "367": {
+      "source_en": "1@lhz.rsw#Wolfchev's Lab#",
+      "translation_tr": "1@lhz.rsw#Wolfchev Laboratuvari#"
+    },
+    "369": {
+      "source_en": "mal_in01.rsw#Inside Malangdo#",
+      "translation_tr": "mal_in01.rsw#Malangdo Ici#"
+    },
     "370": {
       "source_en": "mal_in02.rsw#Inside the Ship#",
       "translation_tr": "mal_in02.rsw#Gemi Ici#"
@@ -409,9 +945,29 @@
       "source_en": "mal_dun01.rsw#Starry Coral Area#",
       "translation_tr": "mal_dun01.rsw#Yildizli Mercan Bolgesi#"
     },
+    "372": {
+      "source_en": "1@cash.rsw#Octopus Cave#",
+      "translation_tr": "1@cash.rsw#Ahtapot Magarasi#"
+    },
+    "373": {
+      "source_en": "1@pump.rsw#Culvert#",
+      "translation_tr": "1@pump.rsw#Kanalizasyon#"
+    },
+    "374": {
+      "source_en": "2@pump.rsw#Culvert#",
+      "translation_tr": "2@pump.rsw#Kanalizasyon#"
+    },
+    "375": {
+      "source_en": "evt_hello.rsw#Dead Angel's landing#",
+      "translation_tr": "evt_hello.rsw#Olu Melegin Inis Yeri#"
+    },
     "376": {
       "source_en": "dic_dun03.rsw#Scaraba Hole - Nightmare Mode#",
       "translation_tr": "dic_dun03.rsw#Scaraba Deligi - Kabus Modu#"
+    },
+    "377": {
+      "source_en": "que_house_s.rsw#Strange House#",
+      "translation_tr": "que_house_s.rsw#Tuhaf Ev#"
     },
     "379": {
       "source_en": "dew_in01.rsw#Inside Dewata#",
@@ -428,6 +984,10 @@
     "382": {
       "source_en": "dew_dun02.rsw#Istana Cave#",
       "translation_tr": "dew_dun02.rsw#Istana Magarasi#"
+    },
+    "383": {
+      "source_en": "1@mist.rsw#The Hazy Maze Forest#",
+      "translation_tr": "1@mist.rsw#Puslu Labirent Ormani#"
     },
     "384": {
       "source_en": "mora.rsw#Mora Village#",
@@ -448,6 +1008,14 @@
     "389": {
       "source_en": "dic_in01.rsw#Inside of El Dicastes#",
       "translation_tr": "dic_in01.rsw#El Dicastes Ici#"
+    },
+    "390": {
+      "source_en": "dic_fild01.rsw#Outskirts of Kamidal Mountain F1#",
+      "translation_tr": "dic_fild01.rsw#Kamidal Dagi Dis Bolgesi K1#"
+    },
+    "391": {
+      "source_en": "dic_fild02.rsw#Outskirts of Kamidal Mountain F2#",
+      "translation_tr": "dic_fild02.rsw#Kamidal Dagi Dis Bolgesi K2#"
     },
     "392": {
       "source_en": "dic_dun01.rsw#Kamidal Tunnel#",
@@ -481,17 +1049,73 @@
       "source_en": "bra_dun02.rsw#Beyond the Waterfall#",
       "translation_tr": "bra_dun02.rsw#Selalenin Otesi#"
     },
+    "401": {
+      "source_en": "moc_para01.rsw#Inside of Morroc Eden Group#",
+      "translation_tr": "moc_para01.rsw#Morroc Eden Group Ici#"
+    },
+    "402": {
+      "source_en": "job3_arch01.rsw#Waiting room for Archbishop Job Change#",
+      "translation_tr": "job3_arch01.rsw#Archbishop Job Degisimi Bekleme Odasi#"
+    },
+    "403": {
+      "source_en": "job3_arch02.rsw#Odin Temple#",
+      "translation_tr": "job3_arch02.rsw#Odin Tapinagi#"
+    },
+    "404": {
+      "source_en": "job3_arch03.rsw#Waiting room for Archbishop Job Change#",
+      "translation_tr": "job3_arch03.rsw#Archbishop Job Degisimi Bekleme Odasi#"
+    },
     "405": {
       "source_en": "job3_guil01.rsw#Secret Tavern#",
       "translation_tr": "job3_guil01.rsw#Gizli Meyhane#"
+    },
+    "406": {
+      "source_en": "job3_guil02.rsw#Inside the Old Warehouse#",
+      "translation_tr": "job3_guil02.rsw#Eski Depo Ici#"
+    },
+    "407": {
+      "source_en": "job3_guil03.rsw#Isolated mansion#",
+      "translation_tr": "job3_guil03.rsw#Issiz Malikane#"
+    },
+    "408": {
+      "source_en": "job3_rang01.rsw#Waiting room for Ranger Job Change#",
+      "translation_tr": "job3_rang01.rsw#Ranger Job Degisimi Bekleme Odasi#"
+    },
+    "409": {
+      "source_en": "job3_rang02.rsw#Test room for Ranger Job Change#",
+      "translation_tr": "job3_rang02.rsw#Ranger Job Degisimi Test Odasi#"
     },
     "410": {
       "source_en": "job3_rune01.rsw#Inside of Rune Knight Templar#",
       "translation_tr": "job3_rune01.rsw#Rune Knight Tapinagi Ici#"
     },
+    "411": {
+      "source_en": "job3_rune02.rsw#Test room for Rune Knight Job Change#",
+      "translation_tr": "job3_rune02.rsw#Rune Knight Job Degisimi Test Odasi#"
+    },
+    "412": {
+      "source_en": "job3_rune03.rsw#Test room for Rune Knight Job Change#",
+      "translation_tr": "job3_rune03.rsw#Rune Knight Job Degisimi Test Odasi#"
+    },
+    "413": {
+      "source_en": "job3_war01.rsw#Test room for Warlock Job Change#",
+      "translation_tr": "job3_war01.rsw#Warlock Job Degisimi Test Odasi#"
+    },
+    "414": {
+      "source_en": "job3_war02.rsw#Test room for Warlock Job Change#",
+      "translation_tr": "job3_war02.rsw#Warlock Job Degisimi Test Odasi#"
+    },
     "415": {
       "source_en": "jupe_core2.rsw#Center of Juperos#",
       "translation_tr": "jupe_core2.rsw#Juperos Merkezi#"
+    },
+    "416": {
+      "source_en": "1@nyd.rsw#Nidhoggr's Nest F1#",
+      "translation_tr": "1@nyd.rsw#Nidhoggr Yuvasi K1#"
+    },
+    "417": {
+      "source_en": "2@nyd.rsw#Nidhoggr's Nest F2#",
+      "translation_tr": "2@nyd.rsw#Nidhoggr Yuvasi K2#"
     },
     "418": {
       "source_en": "nyd_dun01.rsw#Yggdrasil Root F1#",
@@ -521,6 +1145,30 @@
       "source_en": "man_in01.rsw#Inside Manuk#",
       "translation_tr": "man_in01.rsw#Manuk Ici#"
     },
+    "425": {
+      "source_en": "man_fild01.rsw#Manuk Field 1#",
+      "translation_tr": "man_fild01.rsw#Manuk Sahasi 1#"
+    },
+    "426": {
+      "source_en": "man_fild02.rsw#Manuk Field 2#",
+      "translation_tr": "man_fild02.rsw#Manuk Sahasi 2#"
+    },
+    "427": {
+      "source_en": "man_fild03.rsw#Manuk Field 3#",
+      "translation_tr": "man_fild03.rsw#Manuk Sahasi 3#"
+    },
+    "429": {
+      "source_en": "spl_fild01.rsw#Splendide Field 1#",
+      "translation_tr": "spl_fild01.rsw#Splendide Sahasi 1#"
+    },
+    "430": {
+      "source_en": "spl_fild02.rsw#Splendide Field 2#",
+      "translation_tr": "spl_fild02.rsw#Splendide Sahasi 2#"
+    },
+    "431": {
+      "source_en": "spl_fild03.rsw#Splendide Field 3#",
+      "translation_tr": "spl_fild03.rsw#Splendide Sahasi 3#"
+    },
     "432": {
       "source_en": "spl_in01.rsw#Inside Splendide#",
       "translation_tr": "spl_in01.rsw#Splendide Ici#"
@@ -541,13 +1189,65 @@
       "source_en": "schg_que01.rsw#Morestone Prairie#",
       "translation_tr": "schg_que01.rsw#Morestone Cayiri#"
     },
+    "440": {
+      "source_en": "schg_dun01.rsw#Schwartzvald Guild Dungeon#",
+      "translation_tr": "schg_dun01.rsw#Schwartzvald Lonca Zindani#"
+    },
     "441": {
       "source_en": "arug_que01.rsw#Morestone Prairie#",
       "translation_tr": "arug_que01.rsw#Morestone Cayiri#"
     },
+    "442": {
+      "source_en": "arug_dun01.rsw#Arunafeltz Guild Dungeon#",
+      "translation_tr": "arug_dun01.rsw#Arunafeltz Lonca Zindani#"
+    },
+    "443": {
+      "source_en": "1@orcs.rsw#Subterranean Orc Cave F1#",
+      "translation_tr": "1@orcs.rsw#Yeralti Ork Magarasi K1#"
+    },
+    "444": {
+      "source_en": "2@orcs.rsw#Subterranean Orc Cave F2#",
+      "translation_tr": "2@orcs.rsw#Yeralti Ork Magarasi K2#"
+    },
+    "445": {
+      "source_en": "1@cata.rsw#Catacombs#",
+      "translation_tr": "1@cata.rsw#Yeralt Mezarlari#"
+    },
+    "446": {
+      "source_en": "2@cata.rsw#Sealed Shrine#",
+      "translation_tr": "2@cata.rsw#Muhurlu Tapinak#"
+    },
     "447": {
       "source_en": "e_tower.rsw#Misty Island#",
       "translation_tr": "e_tower.rsw#Sisli Ada#"
+    },
+    "448": {
+      "source_en": "1@tower.rsw#Endless Tower#",
+      "translation_tr": "1@tower.rsw#Sonsuz Kule#"
+    },
+    "449": {
+      "source_en": "2@tower.rsw#Endless Tower#",
+      "translation_tr": "2@tower.rsw#Sonsuz Kule#"
+    },
+    "450": {
+      "source_en": "3@tower.rsw#Endless Tower#",
+      "translation_tr": "3@tower.rsw#Sonsuz Kule#"
+    },
+    "451": {
+      "source_en": "4@tower.rsw#Endless Tower#",
+      "translation_tr": "4@tower.rsw#Sonsuz Kule#"
+    },
+    "452": {
+      "source_en": "5@tower.rsw#Endless Tower#",
+      "translation_tr": "5@tower.rsw#Sonsuz Kule#"
+    },
+    "453": {
+      "source_en": "6@tower.rsw#Endless Tower (Unknown Area)#",
+      "translation_tr": "6@tower.rsw#Sonsuz Kule - Bilinmeyen Alan#"
+    },
+    "454": {
+      "source_en": "bat_room.rsw#Battlegrounds Waiting Room#",
+      "translation_tr": "bat_room.rsw#Battleground Bekleme Odasi#"
     },
     "476": {
       "source_en": "mosk_in.rsw#Inside Moscovia#",
