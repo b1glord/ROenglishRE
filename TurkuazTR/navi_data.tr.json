@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.1.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 1347 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.2.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 1382 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 1347,
+  "patch_count": 1382,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -989,6 +989,10 @@
       "source_en": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8 \uc870\ud569\uc6d0\"] = \"Alchemist Union Member\",",
       "translation_tr": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8 \uc870\ud569\uc6d0\"] = \"Alchemist Birligi Uyesi\","
     },
+    "341": {
+      "source_en": "\t[\"\ubc1d\ud788\ub9ac\uc758 \uc18d\uc0ad\uc784\"] = \"Whisper of Bukhiri\",",
+      "translation_tr": "\t[\"\ubc1d\ud788\ub9ac\uc758 \uc18d\uc0ad\uc784\"] = \"Bukhiri'nin Fisiltisi\","
+    },
     "342": {
       "source_en": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8\"] = \"Alchemist\",",
       "translation_tr": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8\"] = \"Simyaci\","
@@ -1257,6 +1261,26 @@
       "source_en": "\t[\"\uc544\uc694\ud0c0\uc57c \uac00\uc774\ub4dc \ub178\uc544\"] = \"Ayothaya Guide Noah\",",
       "translation_tr": "\t[\"\uc544\uc694\ud0c0\uc57c \uac00\uc774\ub4dc \ub178\uc544\"] = \"Ayothaya Rehberi Noah\","
     },
+    "455": {
+      "source_en": "\t[\"\uc790\ubb3c\uc1e0\"] = \"Lock\",",
+      "translation_tr": "\t[\"\uc790\ubb3c\uc1e0\"] = \"Kilit\","
+    },
+    "456": {
+      "source_en": "\t[\"\uba38\ub9ac\"] = \"Head\",",
+      "translation_tr": "\t[\"\uba38\ub9ac\"] = \"Bas\","
+    },
+    "457": {
+      "source_en": "\t[\"\uc7a1\ub3d9\uc0ac\ub2c8\"] = \"Junk\",",
+      "translation_tr": "\t[\"\uc7a1\ub3d9\uc0ac\ub2c8\"] = \"Hurda\","
+    },
+    "459": {
+      "source_en": "\t[\"\ubcf4\uc77c\ub7ec\"] = \"Boiler\",",
+      "translation_tr": "\t[\"\ubcf4\uc77c\ub7ec\"] = \"Kazan\","
+    },
+    "460": {
+      "source_en": "\t[\"\ubc38\ube0c\"] = \"Valve\",",
+      "translation_tr": "\t[\"\ubc38\ube0c\"] = \"Vana\","
+    },
     "463": {
       "source_en": "\t[\"\uc790\ub3d9\uc778\ud615 \uacbd\ube44\ud615 \ubca0\ud0c0\"] = \"Automatic Doll Guard Beta\",",
       "translation_tr": "\t[\"\uc790\ub3d9\uc778\ud615 \uacbd\ube44\ud615 \ubca0\ud0c0\"] = \"Otomatik Bebek Muhafizi Beta\","
@@ -1285,13 +1309,41 @@
       "source_en": "\t[\"\ubd84\uc218\ub300\"] = \"Fountain\",",
       "translation_tr": "\t[\"\ubd84\uc218\ub300\"] = \"Cesme\","
     },
+    "491": {
+      "source_en": "\t[\"\uccad\uc18c \ub85c\ubd07\"] = \"Cleaning Robot\",",
+      "translation_tr": "\t[\"\uccad\uc18c \ub85c\ubd07\"] = \"Temizlik Robotu\","
+    },
+    "497": {
+      "source_en": "\t[\"\uc57c\uc639\uc774\"] = \"Big Meow\",",
+      "translation_tr": "\t[\"\uc57c\uc639\uc774\"] = \"Buyuk Miyav\","
+    },
     "500": {
       "source_en": "\t[\"\uc800\ud0dd \uad00\ub9ac\uc790\u03b1\"] = \"Mansion Manager Alpha\",",
       "translation_tr": "\t[\"\uc800\ud0dd \uad00\ub9ac\uc790\u03b1\"] = \"Malikane Yoneticisi Alpha\","
     },
+    "502": {
+      "source_en": "\t[\"\uc911\uacc4\uae30\"] = \"Repeater\",",
+      "translation_tr": "\t[\"\uc911\uacc4\uae30\"] = \"Tekrarlayici\","
+    },
+    "504": {
+      "source_en": "\t[\"\uae30\ubb18\ud55c \ud480\"] = \"Strange Grass\",",
+      "translation_tr": "\t[\"\uae30\ubb18\ud55c \ud480\"] = \"Garip Ot\","
+    },
+    "506": {
+      "source_en": "\t[\"\ub9c8\ub825\uc774 \ub118\uce58\ub294 \ub3cc\"] = \"Stone full of Magic\",",
+      "translation_tr": "\t[\"\ub9c8\ub825\uc774 \ub118\uce58\ub294 \ub3cc\"] = \"Buyu Dolu Tas\","
+    },
+    "508": {
+      "source_en": "\t[\"\ub09a\uc2dc \uc911\uc778 \ub178\ube44\uc2a4\"] = \"Fishing Novice\",",
+      "translation_tr": "\t[\"\ub09a\uc2dc \uc911\uc778 \ub178\ube44\uc2a4\"] = \"Balikci Novice\","
+    },
     "512": {
       "source_en": "\t[\"\ub77c\ud53c\ub124 \ubcd1\uc0ac\"] = \"Laphine Soldier\",",
       "translation_tr": "\t[\"\ub77c\ud53c\ub124 \ubcd1\uc0ac\"] = \"Laphine Askeri\","
+    },
+    "513": {
+      "source_en": "\t[\"\ube44\ud504\ub85c\uc2a4\ud2b8 \ucc28\uc6d0\uc774\ub3d9\uae30\"] = \"Bifrost Dimensional Device\",",
+      "translation_tr": "\t[\"\ube44\ud504\ub85c\uc2a4\ud2b8 \ucc28\uc6d0\uc774\ub3d9\uae30\"] = \"Bifrost Boyut Cihazi\","
     },
     "514": {
       "source_en": "\t[\"\ucc28\uc6d0\uc758 \uade0\uc5f4 \uc548\ub0b4\uc6d0\"] = \"Dimensional Rift Guide\",",
@@ -1301,17 +1353,77 @@
       "source_en": "\t[\"\uc791\uc740 \uad6c\uba4d\"] = \"Small Hole\",",
       "translation_tr": "\t[\"\uc791\uc740 \uad6c\uba4d\"] = \"Kucuk Delik\","
     },
+    "516": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 2\ud638\"] = \"Teleport Cat No.2\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 2\ud638\"] = \"Isinlanma Kedisi No.2\","
+    },
+    "517": {
+      "source_en": "\t[\"\uc8fd\uc740 \ub77c\ud53c\ub124\"] = \"Dead Laphine\",",
+      "translation_tr": "\t[\"\uc8fd\uc740 \ub77c\ud53c\ub124\"] = \"Olu Laphine\","
+    },
+    "518": {
+      "source_en": "\t[\"\ub3d9\uad74\uc758 \uc740\ub454\uc790\"] = \"Recluse\",",
+      "translation_tr": "\t[\"\ub3d9\uad74\uc758 \uc740\ub454\uc790\"] = \"Munzevi\","
+    },
+    "522": {
+      "source_en": "\t[\"\uc6d0\uc8fc\ubbfc \uc804\uc0ac\"] = \"Native Warrior\",",
+      "translation_tr": "\t[\"\uc6d0\uc8fc\ubbfc \uc804\uc0ac\"] = \"Yerli Savasci\","
+    },
+    "525": {
+      "source_en": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uc18c\ub144\"] = \"Brasilis Boy\",",
+      "translation_tr": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uc18c\ub144\"] = \"Brasilisli Cocuk\","
+    },
+    "526": {
+      "source_en": "\t[\"\ud050\ub808\uc774\ud130\"] = \"Curator\",",
+      "translation_tr": "\t[\"\ud050\ub808\uc774\ud130\"] = \"Kurator\","
+    },
     "527": {
       "source_en": "\t[\"\ud638\ud154\uad00\ub9ac\uc778\"] = \"Hotel Keeper\",",
       "translation_tr": "\t[\"\ud638\ud154\uad00\ub9ac\uc778\"] = \"Otel Gorevlisi\","
+    },
+    "528": {
+      "source_en": "\t[\"\uc0ac\ud0d5 \uc81c\uc870\uc5c5\uc790\"] = \"Candy Maker\",",
+      "translation_tr": "\t[\"\uc0ac\ud0d5 \uc81c\uc870\uc5c5\uc790\"] = \"Sekerci\","
+    },
+    "529": {
+      "source_en": "\t[\"\uc774\uc0c1\ud55c \uc544\uc774\"] = \"Strange Kid\",",
+      "translation_tr": "\t[\"\uc774\uc0c1\ud55c \uc544\uc774\"] = \"Garip Cocuk\","
+    },
+    "530": {
+      "source_en": "\t[\"\ub9c8\ubc95\uc0ac \ud30c\uc81c\"] = \"Mage Paje\",",
+      "translation_tr": "\t[\"\ub9c8\ubc95\uc0ac \ud30c\uc81c\"] = \"Buyucu Paje\","
+    },
+    "531": {
+      "source_en": "\t[\"\uc2dd\ubb3c\ud559\uc790 \uce74\ub974\uba58\"] = \"Botanist Karmen\",",
+      "translation_tr": "\t[\"\uc2dd\ubb3c\ud559\uc790 \uce74\ub974\uba58\"] = \"Botanikci Karmen\","
     },
     "532": {
       "source_en": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uc18c\ub140\"] = \"Brasilis Girl\",",
       "translation_tr": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uc18c\ub140\"] = \"Brasilisli Kiz\","
     },
+    "540": {
+      "source_en": "\t[\"\uacfc\uc77c\uc0c1\uc778\"] = \"Fruit Gardener\",",
+      "translation_tr": "\t[\"\uacfc\uc77c\uc0c1\uc778\"] = \"Meyve Yetistiricisi\","
+    },
+    "541": {
+      "source_en": "\t[\"\ud14c\uc774\ubc0d\uc0c1\uc778\"] = \"Pet Groomer\",",
+      "translation_tr": "\t[\"\ud14c\uc774\ubc0d\uc0c1\uc778\"] = \"Evcil Hayvan Bakicisi\","
+    },
     "542": {
       "source_en": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uac00\uc774\ub4dc\"] = \"Brasilis Guide\",",
       "translation_tr": "\t[\"\ube0c\ub77c\uc9c8\ub9ac\uc2a4 \uac00\uc774\ub4dc\"] = \"Brasilis Rehberi\","
+    },
+    "543": {
+      "source_en": "\t[\"\uac70\ub300\ud55c \ud0dc\uc5fd\"] = \"Huge Spring\",",
+      "translation_tr": "\t[\"\uac70\ub300\ud55c \ud0dc\uc5fd\"] = \"Dev Yay\","
+    },
+    "545": {
+      "source_en": "\t[\"\uc758\ubb38\uc758 \uc0c1\uc790\"] = \"Mysterious Box\",",
+      "translation_tr": "\t[\"\uc758\ubb38\uc758 \uc0c1\uc790\"] = \"Gizemli Kutu\","
+    },
+    "546": {
+      "source_en": "\t[\"\ub3d9\uad74\ub9c8\uc744 \uc8fc\ubbfc\"] = \"Cave Settler\",",
+      "translation_tr": "\t[\"\ub3d9\uad74\ub9c8\uc744 \uc8fc\ubbfc\"] = \"Magara Sakini\","
     },
     "547": {
       "source_en": "\t[\"\uad34\ubb3c\uc758 \ud615\uc0c1\uc744 \ub764 \ub0a8\uc790\"] = \"Monsterous Man\",",
@@ -1320,6 +1432,10 @@
     "548": {
       "source_en": "\t[\"\ub3d9\uad74\ub9c8\uc744 \uc18c\ub140\"] = \"\tCave Girl\",",
       "translation_tr": "\t[\"\ub3d9\uad74\ub9c8\uc744 \uc18c\ub140\"] = \"\tMagara Kizi\","
+    },
+    "549": {
+      "source_en": "\t[\"\ud0d0\ud5d8\uac00\"] = \"Explorer\",",
+      "translation_tr": "\t[\"\ud0d0\ud5d8\uac00\"] = \"Kasif\","
     },
     "551": {
       "source_en": "\t[\"\ud574\ub140\"] = \"Seaweed Girl\",",
@@ -1337,13 +1453,37 @@
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
       "translation_tr": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Feribot Gorevlisi\","
     },
+    "556": {
+      "source_en": "\t[\"\ubb34\ubaa8\ud55c \ud0d0\ud5d8\uac00\"] = \"Reckless Explorer\",",
+      "translation_tr": "\t[\"\ubb34\ubaa8\ud55c \ud0d0\ud5d8\uac00\"] = \"Pervasiz Kasif\","
+    },
+    "557": {
+      "source_en": "\t[\"\uc784\uc2dc \ucd9c\uc785\uad6c\"] = \"Temporary Entrance\",",
+      "translation_tr": "\t[\"\uc784\uc2dc \ucd9c\uc785\uad6c\"] = \"Gecici Giris\","
+    },
     "558": {
       "source_en": "\t[\"\uc720\uc801 \uc554\uac70\ub798\uc0c1\"] = \"Artifact Blacksmith\",",
       "translation_tr": "\t[\"\uc720\uc801 \uc554\uac70\ub798\uc0c1\"] = \"Artifact Demircisi\","
     },
+    "559": {
+      "source_en": "\t[\"\uc720\ubb3c\uac10\uc815\uac00\"] = \"Artifcat Appraiser\",",
+      "translation_tr": "\t[\"\uc720\ubb3c\uac10\uc815\uac00\"] = \"Eser Degerleme Uzmani\","
+    },
+    "560": {
+      "source_en": "\t[\"\uc720\ubb3c\uac15\ud654\uc0ac\"] = \"Artifact Reinforcement Company\",",
+      "translation_tr": "\t[\"\uc720\ubb3c\uac15\ud654\uc0ac\"] = \"Eser Guclendirme Uzmani\","
+    },
     "561": {
       "source_en": "\t[\"\ube44\uc0c1\uc2dd\ub7c9\uc0c1\uc778\"] = \"Emergency Food Merchant\",",
       "translation_tr": "\t[\"\ube44\uc0c1\uc2dd\ub7c9\uc0c1\uc778\"] = \"Acil Durum Yiyecek Saticisi\","
+    },
+    "562": {
+      "source_en": "\t[\"\uad6c\uacbd\uafbc\"] = \"Spectator\",",
+      "translation_tr": "\t[\"\uad6c\uacbd\uafbc\"] = \"Izleyici\","
+    },
+    "563": {
+      "source_en": "\t[\"\ud589\uc778\"] = \"Passerby\",",
+      "translation_tr": "\t[\"\ud589\uc778\"] = \"Yoldan Gecen\","
     },
     "564": {
       "source_en": "\t[\"\ubaa8\ud5d8\uac00\"] = \"Adventurer\",",
