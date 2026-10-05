@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.9.0
+# VERSION: 2.0.0
 # DESCRIPTION: Pending raporlarini yeniler; skill, line-overlay ve whole-file registry bilesenlerini dort ortak localization profilinde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
@@ -86,6 +86,18 @@ jobs:
 
       - name: Validate Bilingual profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile bilingual
+
+      - name: Validate English quest profile
+        run: python TurkuazTR/tools/build-quest-profile.py --profile english
+
+      - name: Validate Hybrid quest profile
+        run: python TurkuazTR/tools/build-quest-profile.py --profile hybrid
+
+      - name: Validate Full TR quest profile
+        run: python TurkuazTR/tools/build-quest-profile.py --profile full_tr
+
+      - name: Validate Bilingual quest profile
+        run: python TurkuazTR/tools/build-quest-profile.py --profile bilingual
 
       - name: Validate registered line overlay profiles
         shell: bash
