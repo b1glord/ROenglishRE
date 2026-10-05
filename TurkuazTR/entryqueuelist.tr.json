@@ -1,0 +1,117 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/entryqueuelist.tr.json",
+    "purpose": "Battlefield giris kuyrugu ekranindaki gorunen ad, odul ve zafer kosullarini Turkcelestirir",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest kaynagindaki 25 kullanici gorunur satiri ASCII Turkce ile esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/entryqueue/entryqueuelist.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "113e6913290cd268abaf56193476f19d3405474c",
+  "source_line_count": 105,
+  "patch_count": 25,
+  "patches": {
+    "10": {
+      "source_en": "\t\tDisplayBattleFieldName = \"Tierra Gorge\",",
+      "translation_tr": "\t\tDisplayBattleFieldName = \"Tierra Gorge\","
+    },
+    "20": {
+      "source_en": "\t\tRewardWin = \"3 Bravery Badges\",",
+      "translation_tr": "\t\tRewardWin = \"3 Cesaret Rozeti\","
+    },
+    "21": {
+      "source_en": "\t\tRewardDraw = \"1 Bravery Badge\",",
+      "translation_tr": "\t\tRewardDraw = \"1 Cesaret Rozeti\","
+    },
+    "22": {
+      "source_en": "\t\tRewardLose = \"1 Bravery Badge\",",
+      "translation_tr": "\t\tRewardLose = \"1 Cesaret Rozeti\","
+    },
+    "23": {
+      "source_en": "\t\tVictoryCond = \"When opposing team's Storehouse is destroyed.\",",
+      "translation_tr": "\t\tVictoryCond = \"Rakip takimin Deposu yok edildiginde.\","
+    },
+    "28": {
+      "source_en": "\t\tDisplayBattleFieldName = \"Flavius\",",
+      "translation_tr": "\t\tDisplayBattleFieldName = \"Flavius\","
+    },
+    "38": {
+      "source_en": "\t\tRewardWin = \"9 Valor Badges\",",
+      "translation_tr": "\t\tRewardWin = \"9 Yigitlik Rozeti\","
+    },
+    "39": {
+      "source_en": "\t\tRewardDraw = \"3 Valor Badges\",",
+      "translation_tr": "\t\tRewardDraw = \"3 Yigitlik Rozeti\","
+    },
+    "40": {
+      "source_en": "\t\tRewardLose = \"3 Valor Badges\",",
+      "translation_tr": "\t\tRewardLose = \"3 Yigitlik Rozeti\","
+    },
+    "41": {
+      "source_en": "\t\tVictoryCond = \"When opposing team's Crystal is destroyed.\",",
+      "translation_tr": "\t\tVictoryCond = \"Rakip takimin Kristali yok edildiginde.\","
+    },
+    "46": {
+      "source_en": "\t\tDisplayBattleFieldName = \"KVM (Level 80 and up)\",",
+      "translation_tr": "\t\tDisplayBattleFieldName = \"KVM (Seviye 80 ve uzeri)\","
+    },
+    "56": {
+      "source_en": "\t\tRewardWin = \"5 KVM Points\",",
+      "translation_tr": "\t\tRewardWin = \"5 KVM Puani\","
+    },
+    "57": {
+      "source_en": "\t\tRewardDraw = \"1 KVM Point\",",
+      "translation_tr": "\t\tRewardDraw = \"1 KVM Puani\","
+    },
+    "58": {
+      "source_en": "\t\tRewardLose = \"1 KVM Point\",",
+      "translation_tr": "\t\tRewardLose = \"1 KVM Puani\","
+    },
+    "59": {
+      "source_en": "\t\tVictoryCond = \"When opposing team is annihilated.\",",
+      "translation_tr": "\t\tVictoryCond = \"Rakip takim tamamen yok edildiginde.\","
+    },
+    "64": {
+      "source_en": "\t\tDisplayBattleFieldName = \"KVM (Level 60~79)\",",
+      "translation_tr": "\t\tDisplayBattleFieldName = \"KVM (Seviye 60~79)\","
+    },
+    "74": {
+      "source_en": "\t\tRewardWin = \"2 KVM Points\",",
+      "translation_tr": "\t\tRewardWin = \"2 KVM Puani\","
+    },
+    "75": {
+      "source_en": "\t\tRewardDraw = \"1 KVM Point\",",
+      "translation_tr": "\t\tRewardDraw = \"1 KVM Puani\","
+    },
+    "76": {
+      "source_en": "\t\tRewardLose = \"none\",",
+      "translation_tr": "\t\tRewardLose = \"yok\","
+    },
+    "77": {
+      "source_en": "\t\tVictoryCond = \"When opposing team is annihilated.\",",
+      "translation_tr": "\t\tVictoryCond = \"Rakip takim tamamen yok edildiginde.\","
+    },
+    "82": {
+      "source_en": "\t\tDisplayBattleFieldName = \"KVM (Level 59 and below)\",",
+      "translation_tr": "\t\tDisplayBattleFieldName = \"KVM (Seviye 59 ve alti)\","
+    },
+    "92": {
+      "source_en": "\t\tRewardWin = \"1 KVM Point\",",
+      "translation_tr": "\t\tRewardWin = \"1 KVM Puani\","
+    },
+    "93": {
+      "source_en": "\t\tRewardDraw = \"none\",",
+      "translation_tr": "\t\tRewardDraw = \"yok\","
+    },
+    "94": {
+      "source_en": "\t\tRewardLose = \"none\",",
+      "translation_tr": "\t\tRewardLose = \"yok\","
+    },
+    "95": {
+      "source_en": "\t\tVictoryCond = \"When opposing team is annihilated.\",",
+      "translation_tr": "\t\tVictoryCond = \"Rakip takim tamamen yok edildiginde.\","
+    }
+  }
+}
