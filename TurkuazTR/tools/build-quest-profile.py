@@ -2,7 +2,7 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/build-quest-profile.py
 # PURPOSE: Quest display ve OngoingQuests ciktilarini ortak localization profiline gore uretir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.0.0
+# VERSION: 1.0.1
 # DESCRIPTION: English profilde upstream byte kaynagini korur; diger profillerde mevcut byte-safe quest patch araclarini generated cikisa uygular.
 # DEPENDENCY-LAYER: Tool
 
@@ -16,6 +16,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PROFILE_FILE = REPO_ROOT / "TurkuazTR/localization-profiles.json"
+QUEST_PATCH_FILE = REPO_ROOT / "TurkuazTR/questid2display.tr.json"
 QUEST_PATH = "Translation/Renewal/data/questid2display.txt"
 ONGOING_PATH = "Translation/Renewal/SystemEN/OngoingQuests.lub"
 DEFAULT_SOURCE_REF = "refs/remotes/origin/upstream/latest"
@@ -66,6 +67,7 @@ def run_tool(script: str, source_ref: str, output_path: Path) -> None:
 def main() -> int:
     profiles = load_json(PROFILE_FILE)
     profile_rows = profiles.get("profiles", {})
+    quest_patch_cfg = load_json(QUEST_PATCH_FILE)
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--profile", choices=tuple(profile_rows), required=True)
@@ -110,6 +112,7 @@ def main() -> int:
         "quest_display_mode": quest_mode,
         "ongoing_quests_mode": ongoing_mode,
         "source_ref": args.source_ref,
+        "quest_patch_count": len(quest_patch_cfg.get("patches", {})),
         "quest_output_path": "data/questid2display.txt",
         "ongoing_output_path": "SystemEN/OngoingQuests.lub",
         "quest_output_size": quest_output.stat().st_size,
