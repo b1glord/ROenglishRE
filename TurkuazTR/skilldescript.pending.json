@@ -11,8 +11,91 @@
   "source_encoding": "cp949",
   "patched_count": 826,
   "candidate_count": 0,
+  "empty_description_count": 11,
   "missing_description_count": 46,
   "candidates": [],
+  "empty_descriptions": [
+    {
+      "key": "RK_ABUNDANCE",
+      "order": 218,
+      "line": 9093,
+      "name_original": "Abundance",
+      "lines_en": []
+    },
+    {
+      "key": "RK_STONEHARDSKIN",
+      "order": 222,
+      "line": 9089,
+      "name_original": "Stone Hardskin",
+      "lines_en": []
+    },
+    {
+      "key": "RK_GIANTGROWTH",
+      "order": 224,
+      "line": 9088,
+      "name_original": "Giant Growth",
+      "lines_en": []
+    },
+    {
+      "key": "RK_MILLENNIUMSHIELD",
+      "order": 226,
+      "line": 9085,
+      "name_original": "Millennium Shield",
+      "lines_en": []
+    },
+    {
+      "key": "NPC_MAGICMIRROR",
+      "order": 236,
+      "line": 8762,
+      "name_original": "Magic Mirror",
+      "lines_en": []
+    },
+    {
+      "key": "DA_DREAM",
+      "order": 238,
+      "line": 8737,
+      "name_original": "Black Dream of Gemstone",
+      "lines_en": []
+    },
+    {
+      "key": "DA_SPACE",
+      "order": 239,
+      "line": 8722,
+      "name_original": "Dark Twilight",
+      "lines_en": []
+    },
+    {
+      "key": "DE_NIGHTMARE",
+      "order": 242,
+      "line": 8690,
+      "name_original": "Death Nightmare",
+      "lines_en": []
+    },
+    {
+      "key": "SL_GUNNER",
+      "order": 244,
+      "line": 8675,
+      "name_original": "Gunslinger Spirit",
+      "lines_en": []
+    },
+    {
+      "key": "MB_MUNAKKNOWLEDGE",
+      "order": 246,
+      "line": 8659,
+      "name_original": "Taming Master",
+      "lines_en": []
+    },
+    {
+      "key": "GM_FORCE_TRANSFER",
+      "order": 306,
+      "line": 16243,
+      "name_original": "Force Transfer",
+      "lines_en": [
+        "Max Level: 1",
+        "Description:^000000"
+      ]
+    }
+  ],
   "missing_descriptions": [
     {
       "key": "EL_POWER_OF_GAIA",
@@ -243,89 +326,6 @@
       "key": "AT_QUILL_SPEAR_S",
       "name": "Quill Spear",
       "order": 881
-    }
-  ],
-  "empty_description_count": 11,
-  "empty_descriptions": [
-    {
-      "key": "RK_ABUNDANCE",
-      "order": 218,
-      "line": 9093,
-      "name_original": "Abundance",
-      "lines_en": []
-    },
-    {
-      "key": "RK_STONEHARDSKIN",
-      "order": 222,
-      "line": 9089,
-      "name_original": "Stone Hardskin",
-      "lines_en": []
-    },
-    {
-      "key": "RK_GIANTGROWTH",
-      "order": 224,
-      "line": 9088,
-      "name_original": "Giant Growth",
-      "lines_en": []
-    },
-    {
-      "key": "RK_MILLENNIUMSHIELD",
-      "order": 226,
-      "line": 9085,
-      "name_original": "Millennium Shield",
-      "lines_en": []
-    },
-    {
-      "key": "NPC_MAGICMIRROR",
-      "order": 236,
-      "line": 8762,
-      "name_original": "Magic Mirror",
-      "lines_en": []
-    },
-    {
-      "key": "DA_DREAM",
-      "order": 238,
-      "line": 8737,
-      "name_original": "Black Dream of Gemstone",
-      "lines_en": []
-    },
-    {
-      "key": "DA_SPACE",
-      "order": 239,
-      "line": 8722,
-      "name_original": "Dark Twilight",
-      "lines_en": []
-    },
-    {
-      "key": "DE_NIGHTMARE",
-      "order": 242,
-      "line": 8690,
-      "name_original": "Death Nightmare",
-      "lines_en": []
-    },
-    {
-      "key": "SL_GUNNER",
-      "order": 244,
-      "line": 8675,
-      "name_original": "Gunslinger Spirit",
-      "lines_en": []
-    },
-    {
-      "key": "MB_MUNAKKNOWLEDGE",
-      "order": 246,
-      "line": 8659,
-      "name_original": "Taming Master",
-      "lines_en": []
-    },
-    {
-      "key": "GM_FORCE_TRANSFER",
-      "order": 306,
-      "line": 16243,
-      "name_original": "Force Transfer",
-      "lines_en": [
-        "Max Level: 1",
-        "Description:^000000"
-      ]
     }
   ]
 }
