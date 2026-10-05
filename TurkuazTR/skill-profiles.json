@@ -3,11 +3,20 @@
     "path": "/ROenglishRE/TurkuazTR/skill-profiles.json",
     "purpose": "Turkce skill paketinin isim ve aciklama profil secimlerini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.0.0",
-    "description": "Ayni Turkce aciklama setinden iki istemci profili uretir: Hybrid ve Full TR",
+    "version": "1.1.0",
+    "description": "Ayni skill kaynaklarindan English, Hybrid, Full TR ve Bilingual istemci profilleri uretir",
     "dependency_layer": "Tool"
   },
   "profiles": {
+    "english": {
+      "display_name": "English - Original Skill Name + Original Description",
+      "skill_name": "original",
+      "skill_description": "original",
+      "example": {
+        "name": "Asura Strike",
+        "description": "Original English description"
+      }
+    },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
       "skill_name": "original",
@@ -25,7 +34,17 @@
         "name": "Asura Darbesi",
         "description": "Turkce aciklama"
       }
+    },
+    "bilingual": {
+      "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
+      "skill_name": "bilingual",
+      "skill_description": "tr",
+      "example": {
+        "name": "Asura Darbesi (Asura Strike)",
+        "description": "Turkce aciklama"
+      }
     }
   },
-  "shared_description_patch": "TurkuazTR/skilldescript.tr.json"
+  "shared_description_patch": "TurkuazTR/skilldescript.tr.json",
+  "shared_name_patch": "TurkuazTR/skillinfolist.tr.json"
 }
