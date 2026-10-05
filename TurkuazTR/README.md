@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.0.0
+Version: 2.1.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -127,8 +127,8 @@ Bilingual profil uzun quest metinlerinde iki dili ayni anda gostermez. Iki dil b
 
 - 46 dosya gercek lore, rehber, tarif veya oyun ici okunabilir metin olarak Turkce ceviri hedefidir.
 - 24 adet `1000897.txt` - `1000920.txt` dosyasi eski Kore sunucusu bagisci/oyuncu listeleridir ve ceviri kapsaminda degildir.
-- Ilk 5 kitap tamamlandi: `11018.txt`, `11019.txt`, `7755.txt`, `7129.txt`, `7131.txt`.
-- Kalan gercek kitap sayisi: 41.
+- Ilk 10 kitap tamamlandi: `11018.txt`, `11019.txt`, `7755.txt`, `7129.txt`, `7131.txt`, `7127.txt`, `7128.txt`, `7130.txt`, `7132.txt`, `7133.txt`.
+- Kalan gercek kitap sayisi: 36.
 - Ayrintili durum: `TurkuazTR/books/index.json`.
 - Kitaplar `file-overlays.json` uzerinden source blob SHA kilitli whole-file overlay olarak uretilir.
 - English profil orijinal kaynagi; Hybrid, Full TR ve Bilingual profilleri Turkce kitap metnini kullanir.
