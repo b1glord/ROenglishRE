@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.4.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 60 exact Renewal skill aciklamasi dahil",
+    "version": "1.5.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 80 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -1284,6 +1284,344 @@
         "[Sv 3]: ^777777ATK +400, Sure: 40 saniye^000000",
         "[Sv 4]: ^777777ATK +800, Sure: 50 saniye^000000",
         "[Sv 5]: ^777777ATK +1000, Sure: 60 saniye^000000"
+      ]
+    },
+    "SA_DELUGE": {
+      "name_original": "Deluge",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Frost Weapon 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^7777777x7 hucrelik alani buyuler ve alandaki",
+        "^0000BBSu^777777 elementli saldirilarin hasarini ve ^0000BBSu^777777",
+        "elementli hedeflerin ^CC6600MaksHP^777777 degerini artirir.",
+        "Bu alanda ^000099Water Ball^777777 ve ^000099Aqua Benedicta^777777",
+        "kullanilabilir. Zemini hedefleyen diger ^00A100Sage^777777",
+        "becerileri ^000099Deluge^777777 uzerine kullanilamaz.",
+        "Ilk cast 1 ^990099Blue Gemstone^777777 tuketir; aktif sure boyunca",
+        "tekrar kullanmak ek Gemstone tuketmez.^000000",
+        "[Sv 1]: ^777777Su Hasari +10%, MaksHP +5%^000000",
+        "[Sv 2]: ^777777Su Hasari +14%, MaksHP +9%^000000",
+        "[Sv 3]: ^777777Su Hasari +17%, MaksHP +12%^000000",
+        "[Sv 4]: ^777777Su Hasari +19%, MaksHP +14%^000000",
+        "[Sv 5]: ^777777Su Hasari +20%, MaksHP +15%^000000"
+      ]
+    },
+    "SC_BODYPAINT": {
+      "name_original": "Body Painting",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Shadow Chaser Basic^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin cevresine boya sacarak gizli",
+        "dusmanlari ortaya cikarir. Boyaya maruz kalan hedeflere",
+        "^663399Blind^777777 uygular ve Saldiri Hizi'ni dusurme sansi vardir.",
+        "^990099Paint Brush^777777 gerektirir ve 1 ^990099Surface Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Blind %55, ASPD Dusurme %25, Sure: 5 saniye^000000",
+        "[Sv 2]: ^777777Blind %57, ASPD Dusurme %30, Sure: 7 saniye^000000",
+        "[Sv 3]: ^777777Blind %59, ASPD Dusurme %35, Sure: 9 saniye^000000",
+        "[Sv 4]: ^777777Blind %61, ASPD Dusurme %40, Sure: 11 saniye^000000",
+        "[Sv 5]: ^777777Blind %63, ASPD Dusurme %45, Sure: 13 saniye^000000"
+      ]
+    },
+    "SA_VIOLENTGALE": {
+      "name_original": "Violent Gale",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Lightning Loader 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^7777777x7 hucrelik alani buyuler; ^33CC00Ruzgar^777777",
+        "elementli saldirilarin hasarini ve ^33CC00Ruzgar^777777 elementli",
+        "hedeflerin ^CC6600FLEE^777777 degerini artirir.",
+        "^000099Fire Wall^777777 suresini 1.5 katina cikarir.",
+        "Zemini hedefleyen diger ^00A100Sage^777777 becerileri",
+        "^000099Violent Gale^777777 uzerine kullanilamaz.",
+        "Ilk cast 1 ^990099Blue Gemstone^777777 tuketir; aktif sure boyunca",
+        "tekrar kullanmak ek Gemstone tuketmez.^000000",
+        "[Sv 1]: ^777777Ruzgar Hasari +10%, FLEE +3^000000",
+        "[Sv 2]: ^777777Ruzgar Hasari +14%, FLEE +6^000000",
+        "[Sv 3]: ^777777Ruzgar Hasari +17%, FLEE +9^000000",
+        "[Sv 4]: ^777777Ruzgar Hasari +19%, FLEE +12^000000",
+        "[Sv 5]: ^777777Ruzgar Hasari +20%, FLEE +15^000000"
+      ]
+    },
+    "MG_FIREWALL": {
+      "name_original": "Fire Wall",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Sight 1, Fire Ball 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^77777740 ^CC6600SP^777777 tuketerek bir fire barrier",
+        "olusturur. Yaklasan dusmanlara %50 ^CC6600MATK ^FF0000Fire^777777",
+        "elementli buyu hasari verir ve 2 hucre geri iter.^000000",
+        "[Sv 1]: ^777777Wall basina 3 vurus, Sure: 5 saniye^000000",
+        "[Sv 2]: ^777777Wall basina 4 vurus, Sure: 6 saniye^000000",
+        "[Sv 3]: ^777777Wall basina 5 vurus, Sure: 7 saniye^000000",
+        "[Sv 4]: ^777777Wall basina 6 vurus, Sure: 8 saniye^000000",
+        "[Sv 5]: ^777777Wall basina 7 vurus, Sure: 9 saniye^000000",
+        "[Sv 6]: ^777777Wall basina 8 vurus, Sure: 10 saniye^000000",
+        "[Sv 7]: ^777777Wall basina 9 vurus, Sure: 11 saniye^000000",
+        "[Sv 8]: ^777777Wall basina 10 vurus, Sure: 12 saniye^000000",
+        "[Sv 9]: ^777777Wall basina 11 vurus, Sure: 13 saniye^000000",
+        "[Sv 10]: ^777777Wall basina 12 vurus, Sure: 14 saniye^000000"
+      ]
+    },
+    "SA_LANDPROTECTOR": {
+      "name_original": "Land Protector",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Volcano 3, Deluge 3, Violent Gale 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemini hedefleyen tum spell veya enchantment",
+        "etkilerini engelleyen ya da iptal eden bir alan olusturur.",
+        "Zemini hedefleyen diger ^00A100Sage^777777 becerileri",
+        "^0000FFLand Protector^777777 alaninda kullanilamaz.",
+        "1 ^990099Blue Gemstone^777777 ve 1 ^990099Yellow Gemstone^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 120 saniye / AoE: 7x7^000000",
+        "[Sv 2]: ^777777Sure: 165 saniye / AoE: 7x7^000000",
+        "[Sv 3]: ^777777Sure: 210 saniye / AoE: 9x9^000000",
+        "[Sv 4]: ^777777Sure: 255 saniye / AoE: 9x9^000000",
+        "[Sv 5]: ^777777Sure: 300 saniye / AoE: 11x11^000000"
+      ]
+    },
+    "WM_GLOOMYDAY": {
+      "name_original": "Gloomy Shyness",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Improvised Song 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin ^CC6600SP^777777 tuketimini ve",
+        "^CC6600Sabit Cast Suresi^777777ni artirir. Bazi durumlarda",
+        "hedef fazla depresif olur; ^CC6600FLEE^777777 ve ^CC6600Saldiri Hizi^777777",
+        "azalir ve kullandigi mount kaldirilir.",
+        "Yalnizca PvP/Siege alanlarinda kullanilabilir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Sabit Cast +0.5 sn, SP Tuketimi +10%^000000",
+        "[Sv 2]: ^777777Sabit Cast +1 sn, SP Tuketimi +20%^000000",
+        "[Sv 3]: ^777777Sabit Cast +1.5 sn, SP Tuketimi +30%^000000",
+        "[Sv 4]: ^777777Sabit Cast +2 sn, SP Tuketimi +40%^000000",
+        "[Sv 5]: ^777777Sabit Cast +2.5 sn, SP Tuketimi +50%^000000"
+      ]
+    },
+    "SA_DISPELL": {
+      "name_original": "Dispell",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Spell Breaker 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe uygulanmis tum magic etkileri iptal etme",
+        "sansi vardir. Basari sansi hedefin magic defense degerine",
+        "gore belirlenir. Seviye 5 her durumda %100 basarilidir.",
+        "1 ^990099Yellow Gemstone^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Basari Sansi: 60%^000000",
+        "[Sv 2]: ^777777Basari Sansi: 70%^000000",
+        "[Sv 3]: ^777777Basari Sansi: 80%^000000",
+        "[Sv 4]: ^777777Basari Sansi: 90%^000000",
+        "[Sv 5]: ^777777Basari Sansi: 100%^000000"
+      ]
+    },
+    "LG_FORCEOFVANGUARD": {
+      "name_original": "Vanguard Force",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Royal Guard Basic^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Fiziksel saldiri aldiginda ^0000FFRage Counter^777777",
+        "kazanma sansi verir. Counter'lar ^0000FFBurst Attack^777777 icin",
+        "kullanilabilir. ^0000FFRage Burst^777777 kullanildiginda",
+        "^0000FFVanguard Force^777777 iptal olur. Aktif kalmak icin",
+        "belirli araliklarla ^CC6600SP^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sans %20, Maks Rage Counter: 7^000000",
+        "[Sv 2]: ^777777Sans %32, Maks Rage Counter: 9^000000",
+        "[Sv 3]: ^777777Sans %44, Maks Rage Counter: 11^000000",
+        "[Sv 4]: ^777777Sans %56, Maks Rage Counter: 13^000000",
+        "[Sv 5]: ^777777Sans %68, Maks Rage Counter: 15^000000"
+      ]
+    },
+    "SA_ABRACADABRA": {
+      "name_original": "Abracadabra",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Auto Spell 5, Dispell 1, Land Protector 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Tanimsiz^000000",
+        "Hedef: ^6666CCTanimsiz^000000",
+        "Aciklama: ^777777Rastgele bir skill cast eder. Seviye arttikca",
+        "^0000FFAbracadabra^777777 ile cast edilebilecek skill cesitliligi artar.",
+        "2 ^990099Yellow Gemstone^777777 tuketir. ^000099Disabled Gemstone Consumption^777777",
+        "etkisi altinda olsan bile en az 1 ^990099Yellow Gemstone^777777 tuketir.^000000"
+      ]
+    },
+    "LG_RAYOFGENESIS": {
+      "name_original": "Genesis Ray",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Grand Cross 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Aciklama: ^777777Tanrinin gucunu kullanarak cevrendeki 11x11",
+        "hucre icindeki tum dusmanlara ^009999Holy^777777 elementli buyu hasari verir.",
+        "^0000FFUndead^777777 veya ^0000FFDemon^777777 race monster'larda %50 sansla",
+        "^663399Blind^777777 uygular. Hasar kullananin ^CC6600Base Level^777777 ve",
+        "^CC6600INT^777777 degerine gore artar. ^0000FFInspiration^777777 aktifse",
+        "element ^009999Neutral^777777 olur.^000000",
+        "[Sv 1]: ^777777MATK 350%^000000",
+        "[Sv 2]: ^777777MATK 700%^000000",
+        "[Sv 3]: ^777777MATK 1050%^000000",
+        "[Sv 4]: ^777777MATK 1400%^000000",
+        "[Sv 5]: ^777777MATK 1750%^000000",
+        "[Sv 6]: ^777777MATK 2100%^000000",
+        "[Sv 7]: ^777777MATK 2450%^000000",
+        "[Sv 8]: ^777777MATK 2800%^000000",
+        "[Sv 9]: ^777777MATK 3150%^000000",
+        "[Sv 10]: ^777777MATK 3500%^000000"
+      ]
+    },
+    "SA_MONOCELL": {
+      "name_original": "Mono Cell",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefi beceri suresi boyunca Poring'e donusturur.",
+        "Bu skill yalnizca ^000099Abracadabra^777777 ile cast edilir.^000000"
+      ]
+    },
+    "SA_CLASSCHANGE": {
+      "name_original": "Class Change",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefi beceri suresi boyunca bir ^00A100Boss^777777",
+        "monster'a donusturur. Bu skill yalnizca ^000099Abracadabra^777777",
+        "ile cast edilir.^000000"
+      ]
+    },
+    "SA_SUMMONMONSTER": {
+      "name_original": "Summon Monster",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777^990099Dead Branch^777777 item'i ile ayni yetenege sahiptir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "SA_REVERSEORCISH": {
+      "name_original": "Reverse Orcish",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Hedef: ^777777Otomatik olarak kullanan uzerinde cast edilir.^000000",
+        "Aciklama: ^777777Kullananin yuzunu belirli bir sure Orc'a donusturur.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_LULLABY_DEEPSLEEP": {
+      "name_original": "Deep Sleep Lullaby",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Lesson 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Secilen hedefi ve cevresindekileri ^663399Deep Sleep^777777",
+        "durumuna sokar. Etkilenenler hareket edemez, saldiramaz,",
+        "item/skill kullanamaz ve chat yapamaz. Hasar alirlarsa etki biter.",
+        "Deep Sleep'teki hedef sonraki saldiridan %50 daha fazla hasar alir",
+        "ve her 2 saniyede ^CC6600HP/SP^777777'nin %3'unu yeniler.",
+        "2 ^990099Neck Protection Candy^777777 tuketir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777AoE: 3x3 hucre^000000",
+        "[Sv 2]: ^777777AoE: 3x3 hucre^000000",
+        "[Sv 3]: ^777777AoE: 3x3 hucre^000000",
+        "[Sv 4]: ^777777AoE: 5x5 hucre^000000",
+        "[Sv 5]: ^777777AoE: 5x5 hucre^000000"
+      ]
+    },
+    "SA_DEATH": {
+      "name_original": "Grim Reaper",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefi aninda oldurur. Hedef EXP veya item odulu vermez.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_DEADHILLHERE": {
+      "name_original": "Death Valley",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Circle of Nature 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kutsal bir siir okuyarak olu bir yoldasi diriltir.",
+        "Dirilen oyuncunun ^CC6600HP^777777'si, oluyken sahip oldugu ^CC6600SP^777777 kadar olur.",
+        "Olmeden once 0 ^CC6600SP^777777 varsa 1 ^CC6600HP^777777 ile dirilir.",
+        "1 ^990099Regrettable Tear^777777 tuketir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Basari %100, Hedef SP Tuketimi %50^000000",
+        "[Sv 2]: ^777777Basari %100, Hedef SP Tuketimi %40^000000",
+        "[Sv 3]: ^777777Basari %100, Hedef SP Tuketimi %30^000000",
+        "[Sv 4]: ^777777Basari %100, Hedef SP Tuketimi %20^000000",
+        "[Sv 5]: ^777777Basari %100, Hedef SP Tuketimi %10^000000"
+      ]
+    },
+    "SA_FORTUNE": {
+      "name_original": "Fortune",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefin seviyesi x 100 kadar Zeny kazanir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_SEVERE_RAINSTORM": {
+      "name_original": "Severe Rainstorm",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "19^CC3399Gereksinim: Musical Strike 5^000000",
+        "20^CC3399Gereksinim: Throw Arrow 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^77777711x11 hucrelik alana ok yagmuru indirir ve",
+        "menzildeki hedeflere 12 kez menzilli fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600AGI^777777 ve ^CC6600DEX^777777",
+        "degerlerine gore artar. 10 ^990099Arrow^777777 tuketir; envanterde",
+        "10'dan az Arrow varsa kullanilamaz. ^990099Whip^777777 veya",
+        "^990099Musical Instrument^777777 ile daha fazla hasar verir.",
+        "^990099Bow^777777, ^990099Whip^777777 veya ^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 100% / 120% (Instrument/Whip)^000000",
+        "[Sv 2]: ^777777ATK 200% / 240% (Instrument/Whip)^000000",
+        "[Sv 3]: ^777777ATK 300% / 360% (Instrument/Whip)^000000",
+        "[Sv 4]: ^777777ATK 400% / 480% (Instrument/Whip)^000000",
+        "[Sv 5]: ^777777ATK 500% / 600% (Instrument/Whip)^000000"
+      ]
+    },
+    "SA_TAMINGMONSTER": {
+      "name_original": "Taming Monster",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Tame edilebilir bir monster'i gerekli item olmadan evcillestirir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
       ]
     }
   }
