@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.0.0",
-    "description": "msgstringtable ve achievements bilesenlerinin source, patch ve profile alanlarini kaydeder",
+    "version": "1.1.0",
+    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -19,6 +19,30 @@
       "patch_path": "TurkuazTR/achievements.tr.json",
       "profile_field": "achievements",
       "output_path": "SystemEN/achievements.lub"
+    },
+    "recommended_quests": {
+      "source_path": "Translation/Renewal/SystemEN/RecommendedQuests.lub",
+      "patch_path": "TurkuazTR/recommended_quests.tr.json",
+      "profile_field": "recommended_quests",
+      "output_path": "SystemEN/RecommendedQuests.lub"
+    },
+    "town_info": {
+      "source_path": "Translation/Renewal/SystemEN/Towninfo.lub",
+      "patch_path": "TurkuazTR/towninfo.tr.json",
+      "profile_field": "town_info",
+      "output_path": "SystemEN/Towninfo.lub"
+    },
+    "sign_data": {
+      "source_path": "Translation/Renewal/SystemEN/Sign_Data.lub",
+      "patch_path": "TurkuazTR/sign_data.tr.json",
+      "profile_field": "sign_data",
+      "output_path": "SystemEN/Sign_Data.lub"
+    },
+    "navi_data": {
+      "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
+      "patch_path": "TurkuazTR/navi_data.tr.json",
+      "profile_field": "navi_data",
+      "output_path": "SystemEN/Navi_Data.lub"
     }
   }
 }
