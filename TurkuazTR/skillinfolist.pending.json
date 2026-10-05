@@ -3,115 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.pending.json",
     "purpose": "Henuz Turkce SkillName patchi bulunmayan oyuncu skill adaylarini listeler",
     "module": "Generated Report - JSON",
-    "version": "1.2.0",
-    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; ilk 140 oyuncu skill adi patchlendi",
+    "version": "1.3.0",
+    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; ilk 160 oyuncu skill adi patchlendi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
   "source_ref": "ee2f83493b27a411afa4ce71264040be71e04e15",
-  "patched_count": 140,
-  "candidate_count": 743,
+  "patched_count": 160,
+  "candidate_count": 723,
   "candidates": [
-    {
-      "key": "DC_DONTFORGETME",
-      "name": "Please Don't Forget Me",
-      "order": 141
-    },
-    {
-      "key": "SC_WEAKNESS",
-      "name": "Masquerade Weakness",
-      "order": 142
-    },
-    {
-      "key": "DC_FORTUNEKISS",
-      "name": "Fortune's Kiss",
-      "order": 143
-    },
-    {
-      "key": "SC_UNLUCKY",
-      "name": "Masquerade Unlucky",
-      "order": 144
-    },
-    {
-      "key": "DC_SERVICEFORYOU",
-      "name": "Service For You",
-      "order": 145
-    },
-    {
-      "key": "SC_IGNORANCE",
-      "name": "Masquerade Ignorance",
-      "order": 146
-    },
-    {
-      "key": "SC_GROOMY",
-      "name": "Masquerade Gloomy",
-      "order": 147
-    },
-    {
-      "key": "SC_INVISIBILITY",
-      "name": "Invisibility",
-      "order": 148
-    },
-    {
-      "key": "SC_AUTOSHADOWSPELL",
-      "name": "Auto Shadow Spell",
-      "order": 149
-    },
-    {
-      "key": "SC_REPRODUCE",
-      "name": "Reproduce",
-      "order": 150
-    },
-    {
-      "key": "SC_FATALMENACE",
-      "name": "Fatal Menace",
-      "order": 151
-    },
-    {
-      "key": "NC_MAGICDECOY",
-      "name": "FAW Magic Decoy",
-      "order": 152
-    },
-    {
-      "key": "WE_MALE",
-      "name": "I'll save you",
-      "order": 153
-    },
-    {
-      "key": "NC_AXEBOOMERANG",
-      "name": "Axe Boomerang",
-      "order": 154
-    },
-    {
-      "key": "WE_FEMALE",
-      "name": "I'll sacrifice myself for you",
-      "order": 155
-    },
-    {
-      "key": "MG_THUNDERSTORM",
-      "name": "Thunder Storm",
-      "order": 156
-    },
-    {
-      "key": "WE_CALLPARTNER",
-      "name": "I miss you",
-      "order": 157
-    },
-    {
-      "key": "NC_RESEARCHFE",
-      "name": "Fire Earth Research",
-      "order": 158
-    },
-    {
-      "key": "ITM_TOMAHAWK",
-      "name": "Tomahawk Throwing",
-      "order": 159
-    },
-    {
-      "key": "NC_STEALTHFIELD",
-      "name": "Stealth Field",
-      "order": 160
-    },
     {
       "key": "NC_INFRAREDSCAN",
       "name": "Infrared Scan",
