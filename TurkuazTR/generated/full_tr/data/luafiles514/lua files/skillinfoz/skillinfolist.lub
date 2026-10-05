@@ -14946,7 +14946,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_ABYSS_STRIKE] = {
 		"ABC_ABYSS_STRIKE",
-		SkillName = "Omega Abyss Strike",
+		SkillName = "Omega Ucurum Darbesi",
 		MaxLv = 10,
 		SpAmount = { 125, 125, 125, 125, 125, 125, 125, 125, 125, 125 },
 		ApAmount = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
@@ -14959,7 +14959,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_DEFT_STAB] = {
 		"ABC_DEFT_STAB",
-		SkillName = "Deft Stab",
+		SkillName = "Cevik Saplama",
 		MaxLv = 10,
 		SpAmount = { 45, 48, 51, 54, 57, 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
@@ -14971,7 +14971,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_ABYSS_SQUARE] = {
 		"ABC_ABYSS_SQUARE",
-		SkillName = "Abyss Square",
+		SkillName = "Ucurum Meydani",
 		MaxLv = 5,
 		SpAmount = { 65, 75, 85, 95, 105 },
 		bSeperateLv = true,
@@ -14983,7 +14983,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_FRENZY_SHOT] = {
 		"ABC_FRENZY_SHOT",
-		SkillName = "Frenzy Shot",
+		SkillName = "Cinnet Atisi",
 		MaxLv = 10,
 		SpAmount = { 47, 49, 51, 53, 55, 57, 59, 61, 63, 65 },
 		bSeperateLv = true,
@@ -14995,7 +14995,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_AXE_STOMP] = {
 		"MT_AXE_STOMP",
-		SkillName = "Axe Stomp",
+		SkillName = "Balta Ezisi",
 		MaxLv = 5,
 		SpAmount = { 45, 55, 65, 75, 85 },
 		bSeperateLv = true,
@@ -15006,7 +15006,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_RUSH_QUAKE] = {
 		"MT_RUSH_QUAKE",
-		SkillName = "Rush Quake",
+		SkillName = "Hucum Depremi",
 		MaxLv = 10,
 		SpAmount = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 },
 		ApAmount = { 125, 125, 125, 125, 125, 125, 125, 125, 125, 125 },
@@ -15018,7 +15018,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_M_MACHINE] = {
 		"MT_M_MACHINE",
-		SkillName = "Manufacture Machine",
+		SkillName = "Makine Uretimi",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
@@ -15026,7 +15026,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_A_MACHINE] = {
 		"MT_A_MACHINE",
-		SkillName = "Activation Attack Machine",
+		SkillName = "Saldiri Makinesini Etkinlestir",
 		MaxLv = 5,
 		SpAmount = { 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
@@ -15038,7 +15038,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_D_MACHINE] = {
 		"MT_D_MACHINE",
-		SkillName = "Activation Defense Machine",
+		SkillName = "Savunma Makinesini Etkinlestir",
 		MaxLv = 5,
 		SpAmount = { 43, 46, 49, 52, 55 },
 		bSeperateLv = true,
@@ -15049,7 +15049,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_TWOAXEDEF] = {
 		"MT_TWOAXEDEF",
-		SkillName = "Two-Handed Axe Defending",
+		SkillName = "Cift El Balta Savunmasi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15058,7 +15058,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_ABR_M] = {
 		"MT_ABR_M",
-		SkillName = "ABR Mastery",
+		SkillName = "ABR Ustaligi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15070,7 +15070,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_SUMMON_ABR_BATTLE_WARIOR] = {
 		"MT_SUMMON_ABR_BATTLE_WARIOR",
-		SkillName = "ABR - Battle Warrior",
+		SkillName = "ABR - Savasci",
 		MaxLv = 4,
 		SpAmount = { 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -15081,7 +15081,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_SUMMON_ABR_DUAL_CANNON] = {
 		"MT_SUMMON_ABR_DUAL_CANNON",
-		SkillName = "ABR - Dual Cannon",
+		SkillName = "ABR - Cift Top",
 		MaxLv = 4,
 		SpAmount = { 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -15093,7 +15093,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_SUMMON_ABR_MOTHER_NET] = {
 		"MT_SUMMON_ABR_MOTHER_NET",
-		SkillName = "ABR - Mother Net",
+		SkillName = "ABR - Ana Ag",
 		MaxLv = 4,
 		SpAmount = { 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -15106,7 +15106,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_SUMMON_ABR_INFINITY] = {
 		"MT_SUMMON_ABR_INFINITY",
-		SkillName = "ABR - Infinity",
+		SkillName = "ABR - Sonsuzluk",
 		MaxLv = 4,
 		SpAmount = { 30, 40, 50, 60 },
 		ApAmount = { 180, 160, 140, 120 },
@@ -15121,7 +15121,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABR_DUAL_CANNON_FIRE] = {
 		"ABR_DUAL_CANNON_FIRE",
-		SkillName = "ABR Dual Cannon Fire",
+		SkillName = "ABR Cift Top Atisi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15129,7 +15129,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABR_BATTLE_BUSTER] = {
 		"ABR_BATTLE_BUSTER",
-		SkillName = "ABR Battle Buster",
+		SkillName = "ABR Savas Patlamasi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15137,7 +15137,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABR_NET_REPAIR] = {
 		"ABR_NET_REPAIR",
-		SkillName = "ABR Net Repair",
+		SkillName = "ABR Ag Onarimi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15145,7 +15145,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABR_NET_SUPPORT] = {
 		"ABR_NET_SUPPORT",
-		SkillName = "ABR Net Support",
+		SkillName = "ABR Ag Destegi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15153,7 +15153,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABR_INFINITY_BUSTER] = {
 		"ABR_INFINITY_BUSTER",
-		SkillName = "ABR Infinity Buster",
+		SkillName = "ABR Sonsuzluk Patlamasi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15161,7 +15161,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_SPARK_BLASTER] = {
 		"MT_SPARK_BLASTER",
-		SkillName = "Spark Blaster",
+		SkillName = "Kivilcim Patlamasi",
 		MaxLv = 10,
 		SpAmount = { 48, 52, 56, 60, 64, 68, 72, 76, 80, 84 },
 		bSeperateLv = true,
@@ -15172,7 +15172,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_TRIPLE_LASER] = {
 		"MT_TRIPLE_LASER",
-		SkillName = "Triple Laser",
+		SkillName = "Uclu Lazer",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -15183,7 +15183,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MT_MIGHTY_SMASH] = {
 		"MT_MIGHTY_SMASH",
-		SkillName = "Mighty Smash",
+		SkillName = "Guclu Ezis",
 		MaxLv = 10,
 		SpAmount = { 68, 71, 74, 77, 80, 83, 86, 89, 92, 95 },
 		bSeperateLv = true,
@@ -15194,7 +15194,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_MAGIC_BOOK_M] = {
 		"EM_MAGIC_BOOK_M",
-		SkillName = "Magical Book Mastery",
+		SkillName = "Buyulu Kitap Ustaligi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15203,7 +15203,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SPELL_ENCHANTING] = {
 		"EM_SPELL_ENCHANTING",
-		SkillName = "Spell Enchanting",
+		SkillName = "Buyu Efsunlama",
 		MaxLv = 5,
 		SpAmount = { 43, 46, 49, 52, 55 },
 		bSeperateLv = true,
@@ -15214,7 +15214,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_ACTIVITY_BURN] = {
 		"EM_ACTIVITY_BURN",
-		SkillName = "Activity Burn",
+		SkillName = "Etkinlik Yakma",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
@@ -15225,7 +15225,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_INCREASING_ACTIVITY] = {
 		"EM_INCREASING_ACTIVITY",
-		SkillName = "Increasing Activity",
+		SkillName = "Etkinlik Artirma",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		ApAmount = { 50, 50, 50, 50, 50 },
@@ -15237,7 +15237,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_DIAMOND_STORM] = {
 		"EM_DIAMOND_STORM",
-		SkillName = "Diamond Storm",
+		SkillName = "Elmas Firtinasi",
 		MaxLv = 5,
 		SpAmount = { 80, 84, 88, 92, 96 },
 		bSeperateLv = true,
@@ -15248,7 +15248,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_LIGHTNING_LAND] = {
 		"EM_LIGHTNING_LAND",
-		SkillName = "Lightning Land",
+		SkillName = "Yildirim Diyari",
 		MaxLv = 5,
 		SpAmount = { 94, 98, 102, 106, 110 },
 		bSeperateLv = true,
@@ -15259,7 +15259,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_VENOM_SWAMP] = {
 		"EM_VENOM_SWAMP",
-		SkillName = "Venom Swamp",
+		SkillName = "Zehir Batakligi",
 		MaxLv = 5,
 		SpAmount = { 92, 97, 102, 107, 112 },
 		bSeperateLv = true,
@@ -15270,7 +15270,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_CONFLAGRATION] = {
 		"EM_CONFLAGRATION",
-		SkillName = "Conflagration",
+		SkillName = "Buyuk Yangin",
 		MaxLv = 5,
 		SpAmount = { 97, 101, 105, 109, 113 },
 		bSeperateLv = true,
@@ -15281,7 +15281,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_TERRA_DRIVE] = {
 		"EM_TERRA_DRIVE",
-		SkillName = "Terra Drive",
+		SkillName = "Toprak Yukseltme",
 		MaxLv = 5,
 		SpAmount = { 80, 84, 88, 92, 96 },
 		bSeperateLv = true,
@@ -15292,7 +15292,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_ELEMENTAL_SPIRIT_M] = {
 		"EM_ELEMENTAL_SPIRIT_M",
-		SkillName = "Elemental Spirit Mastery",
+		SkillName = "Element Ruhu Ustaligi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15304,7 +15304,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SUMMON_ELEMENTAL_ARDOR] = {
 		"EM_SUMMON_ELEMENTAL_ARDOR",
-		SkillName = "Summon Elemental Ardor",
+		SkillName = "Element Ardor Cagir",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = true,
@@ -15317,7 +15317,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SUMMON_ELEMENTAL_DILUVIO] = {
 		"EM_SUMMON_ELEMENTAL_DILUVIO",
-		SkillName = "Summon Elemental Diluvio",
+		SkillName = "Element Diluvio Cagir",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = true,
