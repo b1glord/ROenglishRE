@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.4.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 260 exact Renewal skill aciklamasi dahil",
+    "version": "2.5.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 280 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -4701,6 +4701,279 @@
         "Tur: ^339900Destek^000000",
         "Hedef: ^6666CCKullanan^000000",
         "Aciklama: ^777777Kullanildiginda Ninja skill'lerinin tum ^CC6600Fixed Casting Time^777777 degerlerini kaldirir, ^CC6600Variable Casting Time^777777 degerini yariya indirir ve ^CC6600MATK^777777 artirir.^000000"
+      ]
+    },
+    "KG_KAGEHUMI": {
+      "name_original": "Shadow Trampling",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Illusion - Afterimage 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin belirli gizlenme skill'lerini gecici olarak kullanmasini engeller ve aktif olanlari zorla iptal eder.",
+        "Yalnizca PvP ve WoE alanlarinda kullanilabilir.^000000",
+        "[Sv 1]: ^777777AoE: 5x5 hucre^000000",
+        "[Sv 2]: ^777777AoE: 7x7 hucre^000000",
+        "[Sv 3]: ^777777AoE: 9x9 hucre^000000",
+        "[Sv 4]: ^777777AoE: 11x11 hucre^000000",
+        "[Sv 5]: ^777777AoE: 13x13 hucre^000000"
+      ]
+    },
+    "KG_KYOMU": {
+      "name_original": "Empty Shadow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Shadow Trampling 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefteki yansitma etkisini belirli sure kaldirir. ^0000FFEmpty Shadow^777777 etkisi altindayken skill denemeleri basarisiz olabilir.",
+        "1 ^990099Shadow Orb^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777Sure: 20 saniye^000000",
+        "[Sv 4]: ^777777Sure: 25 saniye^000000",
+        "[Sv 5]: ^777777Sure: 30 saniye^000000"
+      ]
+    },
+    "KG_KAGEMUSYA": {
+      "name_original": "Shadow Warrior",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Empty Shadow 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe gecici olarak ^0000FFDouble Attack^777777 verir ve ^0000FFKunai Explosion, Kunai Splash, Cross Slash^777777 ile ^0000FFSwirling Petal^777777 hasarini artirir.",
+        "Aktifken saniyede 1 ^CC6600SP^777777 tuketir. 1 ^990099Shadow Orb^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 90 saniye^000000",
+        "[Sv 3]: ^777777Sure: 120 saniye^000000",
+        "[Sv 4]: ^777777Sure: 150 saniye^000000",
+        "[Sv 5]: ^777777Sure: 180 saniye^000000"
+      ]
+    },
+    "OB_ZANGETSU": {
+      "name_original": "Distorted Crescent",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Illusion - Bewitch 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin mevcut ^CC6600HP^777777 ve ^CC6600SP^777777 durumuna gore ^CC6600MATK^777777 veya ^CC6600ATK^777777 degerini degistirir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 75 saniye^000000",
+        "[Sv 3]: ^777777Sure: 90 saniye^000000",
+        "[Sv 4]: ^777777Sure: 105 saniye^000000",
+        "[Sv 5]: ^777777Sure: 120 saniye^000000"
+      ]
+    },
+    "OB_OBOROGENSOU": {
+      "name_original": "Moonlight Fantasy",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Ominous Red Moonlight 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin mevcut ^CC6600HP^777777 ve ^CC6600SP^777777 durumuna gore bu degerleri rastgele artirir veya azaltir.",
+        "^0000FFMoonlight Fantasy^777777 etkisindeki hedef aldigi hasari cevresindeki hedeflere yayar. Monster'lara uygulanmaz.^000000",
+        "[Sv 1]: ^777777Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777Sure: 20 saniye^000000",
+        "[Sv 4]: ^777777Sure: 25 saniye^000000",
+        "[Sv 5]: ^777777Sure: 30 saniye^000000"
+      ]
+    },
+    "OB_AKAITSUKI": {
+      "name_original": "Ominous Red Moonlight",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Distorted Crescent 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Etki altindaki hedef belirli ^CC6600HP^777777 yenileme skill'lerini aldiginda iyilesmek yerine hasar alir.",
+        "PvP disindaki oyunculara, dostlara ve ^00A100Boss^777777 monster'lara uygulanmaz.^000000",
+        "[Sv 1]: ^777777Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777Sure: 20 saniye^000000",
+        "[Sv 4]: ^777777Sure: 25 saniye^000000",
+        "[Sv 5]: ^777777Sure: 30 saniye^000000"
+      ]
+    },
+    "ECLAGE_RECALL": {
+      "name_original": "Return to Eclage",
+      "lines_tr": [
+        "Etki: ^777777Eclage'a isinlar.",
+        "3 saniye sabit casting suresi.",
+        "5 dakika yeniden kullanim gecikmesi.^000000"
+      ]
+    },
+    "ECL_SNOWFLIP": {
+      "name_original": "Snow Flip",
+      "lines_tr": [
+        "^777777Kar kadar beyazdir; soguk isirmasina dikkat edilmelidir.^000000",
+        "^777777Burning, Bleeding, Deep Sleep ve Sleep durumlarini kaldirir.^000000"
+      ]
+    },
+    "ECL_PEONYMAMY": {
+      "name_original": "Peony Mommy",
+      "lines_tr": [
+        "^777777Bu cicek yapragi annenin gogsu kadar sicaktir.^000000",
+        "^777777Frozen, Freezing ve Crystallization durumlarini kaldirir.^000000"
+      ]
+    },
+    "ECL_SADAGUI": {
+      "name_original": "Slapping Herb",
+      "lines_tr": [
+        "^777777Keskin kokuludur; koklandiginda kafana bir sey vuruyormus gibi hissettirir.^000000",
+        "^777777Stun, Fear, Confuse ve Hallucination durumlarini kaldirir.^000000"
+      ]
+    },
+    "ECL_SEQUOIADUST": {
+      "name_original": "Yggdrasil Dust",
+      "lines_tr": [
+        "^777777Hayat agacindan toplanan toz arindirici guc tasir.^000000",
+        "^777777Stone Curse, Blind, Curse, Poison, Grampus Morph ve Decrease Agility durumlarini kaldirir.^000000"
+      ]
+    },
+    "MER_INVINCIBLEOFF2": {
+      "name_original": "Mind Blaster",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Aciklama: ^777777Takipcilar ile Devil King arasindaki baglantiyi keserek Blessing of Masin etkisini gecersiz kilir. Atis menzili: 2 hucre.^000000"
+      ]
+    },
+    "GC_DARKCROW": {
+      "name_original": "Dark Claw",
+      "lines_tr": [
+        "Maks. Seviye: ^7777775^000000",
+        "^CC3399Gereksinim: Dark Illusion 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmanda 20 saniye suren aci verici bir yara acar ve bazi yakin dovus fiziksel hasar yansitma etkilerini kaldirir.",
+        "Bu sure boyunca yakin dovus fiziksel yansitma etkileri kullanilamaz ve hedef yakin dovus fiziksel saldirilardan ek hasar alir.",
+        "^00A100Boss^777777 monster'lar artan hasarin yalnizca %50'sini alir.^000000",
+        "[Sv 1]: ^777777ATK 100%, Fiziksel Hasar +30%^000000",
+        "[Sv 2]: ^777777ATK 200%, Fiziksel Hasar +60%^000000",
+        "[Sv 3]: ^777777ATK 300%, Fiziksel Hasar +90%^000000",
+        "[Sv 4]: ^777777ATK 400%, Fiziksel Hasar +120%^000000",
+        "[Sv 5]: ^777777ATK 500%, Fiziksel Hasar +150%^000000"
+      ]
+    },
+    "RA_UNLIMIT": {
+      "name_original": "Unlimit",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fear Breeze 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Avcilik ve okculuk tanrisi Ulle'nin gucunu kullanarak 150 saniye boyunca menzilli fiziksel saldiri hasarini buyuk oranda artirir.^000000",
+        "[Sv 1]: ^777777Menzilli Fiziksel Hasar x1.5^000000",
+        "[Sv 2]: ^777777Menzilli Fiziksel Hasar x2.0^000000",
+        "[Sv 3]: ^777777Menzilli Fiziksel Hasar x2.5^000000",
+        "[Sv 4]: ^777777Menzilli Fiziksel Hasar x3.0^000000",
+        "[Sv 5]: ^777777Menzilli Fiziksel Hasar x3.5^000000"
+      ]
+    },
+    "LG_KINGS_GRACE": {
+      "name_original": "King's Grace",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Reflect Damage 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullanana ve yakindaki dostlara kraliyet kutsamasi verir; ^CC6600HP^777777 yeniler ve durum etkilerine karsi korur.",
+        "Su durumlari kaldirir: ^663399Poison, Blind, Frozen, Stone Curse, Stun, Sleep, Bleeding, Curse, Chaos, Hallucination, Silence, Burning, Crystallization, Freezing, Fear^777777 ve ^663399Mandragora Howling^777777.^000000",
+        "[Sv 1]: ^777777Her 5 saniyede HP %4 yeniler^000000",
+        "[Sv 2]: ^777777Her 5 saniyede HP %5 yeniler^000000",
+        "[Sv 3]: ^777777Her 5 saniyede HP %6 yeniler^000000",
+        "[Sv 4]: ^777777Her 5 saniyede HP %7 yeniler^000000",
+        "[Sv 5]: ^777777Her 5 saniyede HP %8 yeniler^000000"
+      ]
+    },
+    "RK_DRAGONBREATH_WATER": {
+      "name_original": "Dragon Breath - Water",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dragon Training 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777^0000FFDragon Breath^777777 ile ^0000BBWater^777777 elementli hasar verir ve dusmanlara ^663399Freezing^777777 uygulayabilir.",
+        "Hasar binicinin durumuna baglidir. ^990099Asir Runestone^777777 skill'i ^009999Ghost^777777 elementine, ^990099Lux Anima Runestone^777777 ise ^009999Neutral^777777 elementine cevirir.",
+        "Iki Runestone birlikte kullanilirsa ^990099Lux Anima Runestone^777777 onceliklidir.^000000"
+      ]
+    },
+    "NC_MAGMA_ERUPTION": {
+      "name_original": "Magma Eruption",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fire Earth Research 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Hedeflenen zeminde 5 saniye boyunca 7x7 alanda lav patlamasi olusturur; hasar verir ve ^663399Stun^777777 ile ^663399Burning^777777 uygulayabilir.",
+        "Ayni anda en fazla 3 patlama olusturulabilir.^000000",
+        "[Sv 1]: ^777777Saniyede 1600 Sabit Hasar, Stun/Burning Sansi 10%^000000",
+        "[Sv 2]: ^777777Saniyede 2000 Sabit Hasar, Stun/Burning Sansi 20%^000000",
+        "[Sv 3]: ^777777Saniyede 2400 Sabit Hasar, Stun/Burning Sansi 30%^000000",
+        "[Sv 4]: ^777777Saniyede 2800 Sabit Hasar, Stun/Burning Sansi 40%^000000",
+        "[Sv 5]: ^777777Saniyede 3200 Sabit Hasar, Stun/Burning Sansi 50%^000000"
+      ]
+    },
+    "WM_FRIGG_SONG": {
+      "name_original": "Frigg's Song",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Lesson 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Yakindaki dostlarin ^CC6600MaksHP^777777 degerini artirir ve 60 saniye boyunca ^CC6600HP^777777 yeniler.",
+        "PvP veya WoE alaninda yalnizca kullanan ve yakindaki party uyelerini etkiler. 1 ^990099Regrettable Tears^777777 tuketir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777AoE 7x7, MaksHP +5%, saniyede 100 HP yeniler^000000",
+        "[Sv 2]: ^777777AoE 9x9, MaksHP +10%, saniyede 120 HP yeniler^000000",
+        "[Sv 3]: ^777777AoE 11x11, MaksHP +15%, saniyede 140 HP yeniler^000000",
+        "[Sv 4]: ^777777AoE 13x13, MaksHP +20%, saniyede 160 HP yeniler^000000",
+        "[Sv 5]: ^777777AoE 15x15, MaksHP +25%, saniyede 180 HP yeniler^000000"
+      ]
+    },
+    "SO_ELEMENTAL_SHIELD": {
+      "name_original": "Elemental Shield",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Elemental Control 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Cagirilmis ^0000FFElemental^777777'in buyusunu tuketerek ^00A100Sorcerer^777777 ve ekrandaki party uyelerinin bulundugu hucrelerde magic bariyer olusturur.",
+        "Bariyer HP'si 0 olunca veya sure bitince kaybolur ve yalnizca yakin dovus fiziksel hasarini engeller. Kullanildiginda cagirilmis ^00A100Elemental^777777 kaybolur.",
+        "1 ^990099Blue Gemstone^777777 tuketir.^000000"
+      ]
+    },
+    "SC_ESCAPE": {
+      "name_original": "Escape",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Triangle Shot 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullanan zemine aninda bir trap birakir ve geriye sicrama yapar. Yurunenemeyen hucre veya duvarlarin uzerinden geri sicrama yapamaz.",
+        "1 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Geri Sicrama: 5 hucre^000000",
+        "[Sv 2]: ^777777Geri Sicrama: 6 hucre^000000",
+        "[Sv 3]: ^777777Geri Sicrama: 7 hucre^000000",
+        "[Sv 4]: ^777777Geri Sicrama: 8 hucre^000000",
+        "[Sv 5]: ^777777Geri Sicrama: 9 hucre^000000"
       ]
     }
   }
