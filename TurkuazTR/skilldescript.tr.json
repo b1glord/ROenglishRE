@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.3.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 40 exact Renewal skill aciklamasi dahil",
+    "version": "1.4.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 60 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -899,6 +899,391 @@
         "[Sv 3]: ^777777Basari Sansi: 70%, Sure: 14 saniye^000000",
         "[Sv 4]: ^777777Basari Sansi: 80%, Sure: 16 saniye^000000",
         "[Sv 5]: ^777777Basari Sansi: 90%, Sure: 18 saniye^000000"
+      ]
+    },
+    "SA_MAGICROD": {
+      "name_original": "Magic Rod",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Advanced Book 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Bir skill ile saldiriya ugrarken",
+        "^0000FFMagic Rod^777777 dogru anda kullanilirsa, dusmanin",
+        "skill icin harcadigi ^CC6600SP^777777 hasar yerine kullanan",
+        "tarafindan emilebilir. ^0000FFSpell Breaker^777777'i",
+        "^0000FFMagic Rod^777777 ile karsilamak basarili olursa",
+        "hedefin ^CC6600SP^777777 degeri %20 azalir.^000000",
+        "[Sv 1]: ^777777Zamanlama: 0.4 saniye, SP Emilimi: 20%^000000",
+        "[Sv 2]: ^777777Zamanlama: 0.6 saniye, SP Emilimi: 40%^000000",
+        "[Sv 3]: ^777777Zamanlama: 0.8 saniye, SP Emilimi: 60%^000000",
+        "[Sv 4]: ^777777Zamanlama: 1.0 saniye, SP Emilimi: 80%^000000",
+        "[Sv 5]: ^777777Zamanlama: 1.2 saniye, SP Emilimi: 100%^000000"
+      ]
+    },
+    "WL_STASIS": {
+      "name_original": "Stasis",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Drain Life 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin cevresindeki havayi durdurur.",
+        "Skill menzilindeki tum hedefler magic skill'leri ve",
+        "bazi song/chorus skill'lerini kullanamaz. Sure hedefin",
+        "^CC6600DEX^777777 ve ^CC6600VIT^777777 degerleriyle azalir.",
+        "Minimum sure 10 saniyedir.^000000",
+        "[Sv 1]: ^777777Sure: 20 saniye / AoE: 19x19 hucre^000000",
+        "[Sv 2]: ^777777Sure: 30 saniye / AoE: 21x21 hucre^000000",
+        "[Sv 3]: ^777777Sure: 40 saniye / AoE: 23x23 hucre^000000",
+        "[Sv 4]: ^777777Sure: 50 saniye / AoE: 25x25 hucre^000000",
+        "[Sv 5]: ^777777Sure: 60 saniye / AoE: 27x27 hucre^000000"
+      ]
+    },
+    "SA_SPELLBREAKER": {
+      "name_original": "Spell Breaker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Magic Rod 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmanin cast ettigi magic spell'i keser,",
+        "spell icin harcanan ^CC6600SP^777777'yi emer ve dusmanin",
+        "^CC6600HP^777777 degerini %2 azaltir. Seviye 5'te bu HP",
+        "hasarinin yarisi kullanan tarafindan emilir. ^00A100Boss^777777",
+        "monster ve ^00A100Guardian^777777'lardan HP emilemez ancak",
+        "Boss spell'lerini kesme sansi %10'dur.^000000",
+        "[Sv 1]: ^777777SP Emilimi: 0%^000000",
+        "[Sv 2]: ^777777SP Emilimi: 25%^000000",
+        "[Sv 3]: ^777777SP Emilimi: 50%^000000",
+        "[Sv 4]: ^777777SP Emilimi: 75%^000000",
+        "[Sv 5]: ^777777SP Emilimi: 100%^000000"
+      ]
+    },
+    "WL_TETRAVORTEX": {
+      "name_original": "Tetra Vortex",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Jack Frost 5,",
+        "Chain Lightning 5, Earth Strain 5, Hell Inferno 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel, Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dort elementi cagirarak ^FF0000Fire^777777,",
+        "^0000BBWater^777777, ^33CC00Wind^777777 ve ^CC5500Earth^777777 elementlerinden",
+        "4 ayri buyu vurusu yapar. Kullanmadan once toplam en az",
+        "4 ^990099Fire Ball^777777, ^990099Lightning Ball^777777, ^990099Water Ball^777777 veya",
+        "^990099Stone Ball^777777 cagrilmis olmalidir. Seviye 6 ve ustunde",
+        "cevredeki dusmanlara da hasar verir. Hedeflerde ^663399Burning^777777,",
+        "^663399Freezing^777777, ^663399Stun^777777 veya ^663399Bleeding^777777 olusabilir.^000000",
+        "[Sv 1]: ^777777MATK 1200% Element x4^000000",
+        "[Sv 2]: ^777777MATK 1600% Element x4^000000",
+        "[Sv 3]: ^777777MATK 2000% Element x4^000000",
+        "[Sv 4]: ^777777MATK 2400% Element x4^000000",
+        "[Sv 5]: ^777777MATK 2800% Element x4^000000",
+        "[Sv 6]: ^777777MATK 3200% Element x4 / AoE: 3x3^000000",
+        "[Sv 7]: ^777777MATK 3600% Element x4 / AoE: 3x3^000000",
+        "[Sv 8]: ^777777MATK 4000% Element x4 / AoE: 5x5^000000",
+        "[Sv 9]: ^777777MATK 4400% Element x4 / AoE: 5x5^000000",
+        "[Sv 10]: ^777777MATK 4800% Element x4 / AoE: 7x7^000000"
+      ]
+    },
+    "SA_FREECAST": {
+      "name_original": "Free Cast",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Cast Cancel 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Magic spell cast ederken hareket etmeyi",
+        "ve saldiri yapmayi saglar.^000000",
+        "[Sv 1]: ^777777Hareket Hizi: 30%, Saldiri Hizi: 55%^000000",
+        "[Sv 2]: ^777777Hareket Hizi: 35%, Saldiri Hizi: 60%^000000",
+        "[Sv 3]: ^777777Hareket Hizi: 40%, Saldiri Hizi: 65%^000000",
+        "[Sv 4]: ^777777Hareket Hizi: 45%, Saldiri Hizi: 70%^000000",
+        "[Sv 5]: ^777777Hareket Hizi: 50%, Saldiri Hizi: 75%^000000",
+        "[Sv 6]: ^777777Hareket Hizi: 55%, Saldiri Hizi: 80%^000000",
+        "[Sv 7]: ^777777Hareket Hizi: 60%, Saldiri Hizi: 85%^000000",
+        "[Sv 8]: ^777777Hareket Hizi: 65%, Saldiri Hizi: 90%^000000",
+        "[Sv 9]: ^777777Hareket Hizi: 70%, Saldiri Hizi: 95%^000000",
+        "[Sv 10]: ^777777Hareket Hizi: 75%, Saldiri Hizi: 100%^000000"
+      ]
+    },
+    "WM_GREAT_ECHO": {
+      "name_original": "Great Echo",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Metallic Sound 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kullanan yuksek sesle sarki soyleyerek",
+        "yakin dusmanlara zarar veren bir ses dalgasi olusturur.",
+        "Hasar ^0000FFLesson^777777 seviyesi ve kullananin ^CC6600Base Level^777777",
+        "degerine gore artar. Party'de baska bir performer varsa",
+        "hasar iki katina cikar. 2 ^990099Neck Protection Candy^777777 tuketir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777AoE: 5x5 hucre, ATK 750%^000000",
+        "[Sv 2]: ^777777AoE: 7x7 hucre, ATK 1250%^000000",
+        "[Sv 3]: ^777777AoE: 7x7 hucre, ATK 1750%^000000",
+        "[Sv 4]: ^777777AoE: 9x9 hucre, ATK 2250%^000000",
+        "[Sv 5]: ^777777AoE: 9x9 hucre, ATK 2750%^000000"
+      ]
+    },
+    "SA_AUTOSPELL": {
+      "name_original": "Auto Spell",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Free Cast 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Fiziksel saldiri yaparken belirli bir sansla",
+        "bazi magic spell'leri otomatik cast eder. ^0000FFAuto Spell^777777 ile",
+        "cast edilen spell'ler normal SP maliyetinin 2/3'unu tuketir",
+        "ve Auto Spell seviyesinin yarisi seviyesinde kullanilir.",
+        "Ogrenilmis spell seviyesi bundan dusukse o seviye kullanilir.",
+        "Kullananin ogrenmedigi spell'ler cast edilemez.^000000",
+        "[Sv 1]: ^777777Sans: 2%, Fire/Cold/Lightning Bolt acilir^000000",
+        "[Sv 2]: ^777777Sans: 4%^000000",
+        "[Sv 3]: ^777777Sans: 6%^000000",
+        "[Sv 4]: ^777777Sans: 8%, Soul Strike + Fire Ball acilir^000000",
+        "[Sv 5]: ^777777Sans: 10%^000000",
+        "[Sv 6]: ^777777Sans: 12%^000000",
+        "[Sv 7]: ^777777Sans: 14%, Frost Diver + Earth Spike acilir^000000",
+        "[Sv 8]: ^777777Sans: 16%^000000",
+        "[Sv 9]: ^777777Sans: 18%^000000",
+        "[Sv 10]: ^777777Sans: 20%, Thunder Storm + Heavens Drive acilir^000000"
+      ]
+    },
+    "RA_ARROWSTORM": {
+      "name_original": "Arrow Storm",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Aimed Bolt 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara ok yagmuru",
+        "ile menzilli fiziksel hasar verir. Hasar kullananin",
+        "^CC6600Base Level^777777 degerine gore artar. ^0000FFFear Breeze^777777 aktifse",
+        "daha fazla hasar verir. 5 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 380%/450%(Fear Breeze), AoE: 5x5^000000",
+        "[Sv 2]: ^777777ATK 560%/700%(Fear Breeze), AoE: 5x5^000000",
+        "[Sv 3]: ^777777ATK 740%/950%(Fear Breeze), AoE: 5x5^000000",
+        "[Sv 4]: ^777777ATK 920%/1200%(Fear Breeze), AoE: 5x5^000000",
+        "[Sv 5]: ^777777ATK 1100%/1450%(Fear Breeze), AoE: 5x5^000000",
+        "[Sv 6]: ^777777ATK 1280%/1700%(Fear Breeze), AoE: 7x7^000000",
+        "[Sv 7]: ^777777ATK 1460%/1950%(Fear Breeze), AoE: 7x7^000000",
+        "[Sv 8]: ^777777ATK 1640%/2200%(Fear Breeze), AoE: 7x7^000000",
+        "[Sv 9]: ^777777ATK 1820%/2450%(Fear Breeze), AoE: 7x7^000000",
+        "[Sv 10]: ^777777ATK 2000%/2700%(Fear Breeze), AoE: 9x9^000000"
+      ]
+    },
+    "SA_FLAMELAUNCHER": {
+      "name_original": "Flame Launcher",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fire Bolt 1, Advanced Book 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Party uyesinin silahina ^FF0000Fire^777777 elementi verir",
+        "ve skill seviyesine gore Fire element hasarini artirir.",
+        "1 ^990099Scarlet Point^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 10 dakika, Fire Hasari +1%^000000",
+        "[Sv 2]: ^777777Sure: 15 dakika, Fire Hasari +2%^000000",
+        "[Sv 3]: ^777777Sure: 20 dakika, Fire Hasari +3%^000000",
+        "[Sv 4]: ^777777Sure: 25 dakika, Fire Hasari +4%^000000",
+        "[Sv 5]: ^777777Sure: 30 dakika, Fire Hasari +5%^000000"
+      ]
+    },
+    "RA_WUGRIDER": {
+      "name_original": "Warg Rider",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Warg Mastery 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^00A100Ranger^777777'in cagirdigi ^0000FFWarg^777777'a binmesini",
+        "saglar. Seviye arttikca ^CC6600Hareket Hizi^777777 artar.",
+        "Warg uzerindeyken bow saldirilari ve Warg'a ozel olmayan",
+        "skill'ler kullanilamaz; trap skill'leri kullanilabilir.",
+        "Cobalt Trap, Magenta Trap, Verdure Trap, Maze Trap ve",
+        "Electric Shocker kullanilabilir.^000000"
+      ]
+    },
+    "SA_FROSTWEAPON": {
+      "name_original": "Frost Weapon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cold Bolt 1, Advanced Book 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Party uyesinin silahina ^0000BBWater^777777 elementi verir",
+        "ve skill seviyesine gore Water element hasarini artirir.",
+        "1 ^990099Indigo Point^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 10 dakika, Water Hasari +1%^000000",
+        "[Sv 2]: ^777777Sure: 15 dakika, Water Hasari +2%^000000",
+        "[Sv 3]: ^777777Sure: 20 dakika, Water Hasari +3%^000000",
+        "[Sv 4]: ^777777Sure: 25 dakika, Water Hasari +4%^000000",
+        "[Sv 5]: ^777777Sure: 30 dakika, Water Hasari +5%^000000"
+      ]
+    },
+    "RA_MAGENTATRAP": {
+      "name_original": "Magenta Trap",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Trap Research 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Bu trap'e basan monster'in elementini ^FF0000Fire^777777",
+        "olarak degistirir. ^00A100Boss^777777 tipi monster ve oyunculari etkilemez.",
+        "1 ^990099Scarlet Point^777777 ve 1 ^990099Special Alloy Trap^777777 tuketir.^000000"
+      ]
+    },
+    "SA_LIGHTNINGLOADER": {
+      "name_original": "Lightning Loader",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Lightning Bolt 1, Advanced Book 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Party uyesinin silahina ^33CC00Wind^777777 elementi verir",
+        "ve skill seviyesine gore Wind element hasarini artirir.",
+        "1 ^990099Yellow Wish Point^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 10 dakika, Wind Hasari +1%^000000",
+        "[Sv 2]: ^777777Sure: 15 dakika, Wind Hasari +2%^000000",
+        "[Sv 3]: ^777777Sure: 20 dakika, Wind Hasari +3%^000000",
+        "[Sv 4]: ^777777Sure: 25 dakika, Wind Hasari +4%^000000",
+        "[Sv 5]: ^777777Sure: 30 dakika, Wind Hasari +5%^000000"
+      ]
+    },
+    "NC_PILEBUNKER": {
+      "name_original": "Pile Bunker",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Knuckle Boost 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777 icinden oldurucu matkaplar cikarir,",
+        "hedefe hasar verir ve hedefteki savunma buff skill'lerini",
+        "iptal edebilir. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777",
+        "degerlerinden etkilenir. Menzil 3 hucredir.",
+        "^990099Pile Bunker^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Iptal Sansi 40%^000000",
+        "[Sv 2]: ^777777Iptal Sansi 55%^000000",
+        "[Sv 3]: ^777777Iptal Sansi 70%^000000"
+      ]
+    },
+    "SA_SEISMICWEAPON": {
+      "name_original": "Seismic Weapon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Stone Curse 1, Advanced Book 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Party uyesinin silahina ^CC5500Earth^777777 elementi verir",
+        "ve skill seviyesine gore Earth element hasarini artirir.",
+        "1 ^990099Lime Green Point^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 10 dakika, Earth Hasari +1%^000000",
+        "[Sv 2]: ^777777Sure: 15 dakika, Earth Hasari +2%^000000",
+        "[Sv 3]: ^777777Sure: 20 dakika, Earth Hasari +3%^000000",
+        "[Sv 4]: ^777777Sure: 25 dakika, Earth Hasari +4%^000000",
+        "[Sv 5]: ^777777Sure: 30 dakika, Earth Hasari +5%^000000"
+      ]
+    },
+    "NC_B_SIDESLIDE": {
+      "name_original": "Back Slide",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Hover 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777 7 hucre geriye hareket eder.",
+        "1 ^990099Mado Gear Fuel^777777 tuketir.^000000"
+      ]
+    },
+    "SA_DRAGONOLOGY": {
+      "name_original": "Dragonology",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Advanced Book 9^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Dragon^777777 monster'lara karsi direnci,",
+        "fiziksel ve buyusel hasari artirir. Seviye arttikca",
+        "^CC6600INT^777777 bonusu en fazla 3'e kadar artar.^000000",
+        "[Sv 1]: ^777777Direnc +4%, Fiziksel Hasar +4%, Buyusel Hasar +2%, INT +1^000000",
+        "[Sv 2]: ^777777Direnc +8%, Fiziksel Hasar +8%, Buyusel Hasar +4%, INT +1^000000",
+        "[Sv 3]: ^777777Direnc +12%, Fiziksel Hasar +12%, Buyusel Hasar +6%, INT +2^000000",
+        "[Sv 4]: ^777777Direnc +16%, Fiziksel Hasar +16%, Buyusel Hasar +8%, INT +2^000000",
+        "[Sv 5]: ^777777Direnc +20%, Fiziksel Hasar +20%, Buyusel Hasar +10%, INT +3^000000"
+      ]
+    },
+    "NC_NEUTRALBARRIER": {
+      "name_original": "Neutral Barrier",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Magnetic Field 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin cevresinde enerji bariyeri olusturur.",
+        "Menzildeki tum hedeflerin ^CC6600DEF^777777 ve ^CC6600MDEF^777777 degerini artirir",
+        "ve tum uzun menzilli saldirilarin hedeflere hasar vermesini",
+        "engeller. ^990099Barrier Generator^777777 gerektirir ve 1 ^990099Mado Gear Fuel^777777 tuketir.^000000",
+        "[Sv 1]: ^777777DEF/MDEF +15%, Sure: 30 saniye^000000",
+        "[Sv 2]: ^777777DEF/MDEF +20%, Sure: 45 saniye^000000",
+        "[Sv 3]: ^777777DEF/MDEF +25%, Sure: 60 saniye^000000"
+      ]
+    },
+    "SA_VOLCANO": {
+      "name_original": "Volcano",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Flame Launcher 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^7777777x7 hucrelik alani enchant eder; tum ^FF0000Fire^777777",
+        "element saldirilarini ve Fire element hedeflerin ^CC6600ATK^777777",
+        "ile ^CC6600MATK^777777 degerlerini artirir. ^009900Ice Wall^777777 ve zemini",
+        "hedefleyen ^00A100Sage^777777 skill'leri ^000099Volcano^777777 uzerine cast edilemez.",
+        "Ilk cast 1 ^990099Blue Gemstone^777777 gerektirir; Volcano aktifken",
+        "tekrar cast etmek Gemstone tuketmez.^000000",
+        "[Sv 1]: ^777777Fire Hasari +10%, ATK/MATK +10^000000",
+        "[Sv 2]: ^777777Fire Hasari +14%, ATK/MATK +15^000000",
+        "[Sv 3]: ^777777Fire Hasari +17%, ATK/MATK +20^000000",
+        "[Sv 4]: ^777777Fire Hasari +19%, ATK/MATK +25^000000",
+        "[Sv 5]: ^777777Fire Hasari +20%, ATK/MATK +30^000000"
+      ]
+    },
+    "NC_SILVERSNIPER": {
+      "name_original": "FAW Silver Sniper",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fire Earth Research 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900FAW^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine uzun menzilli saldirilar yapan bir",
+        "^0000FFFAW (Fixed Automatic Weapon)^777777 kurar. En fazla 2 FAW",
+        "yerlestirilebilir. ^990099Oridecon Hammer^777777 ve ^990099Mini Furnace^777777",
+        "gerektirir; 2 ^990099Steel^777777 ve 1 ^990099Iron^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK +0, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777ATK +200, Sure: 30 saniye^000000",
+        "[Sv 3]: ^777777ATK +400, Sure: 40 saniye^000000",
+        "[Sv 4]: ^777777ATK +800, Sure: 50 saniye^000000",
+        "[Sv 5]: ^777777ATK +1000, Sure: 60 saniye^000000"
       ]
     }
   }
