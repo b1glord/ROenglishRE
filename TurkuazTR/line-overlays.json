@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.8.0",
-    "description": "Exact-source localization bilesenlerinin kaynak, patch, profil ve output yollarini; battlefield yardim ve kuyruk ekranlari dahil kaydeder",
+    "version": "1.9.0",
+    "description": "Exact-source localization bilesenlerinin kaynak, patch, profil ve output yollarini; battlefield, kuyruk ve state icon tooltiplerini dahil kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -109,6 +109,12 @@
       "patch_path": "TurkuazTR/battlefieldinfo.tr.json",
       "profile_field": "battlefield_info",
       "output_path": "data/luafiles514/lua files/battlefield/battlefieldinfo.lub"
+    },
+    "state_icons": {
+      "source_path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+      "patch_path": "TurkuazTR/stateiconinfo.tr.json",
+      "profile_field": "state_icons",
+      "output_path": "data/luafiles514/lua files/stateicon/stateiconinfo.lub"
     }
   }
 }

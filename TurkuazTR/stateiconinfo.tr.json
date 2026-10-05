@@ -1,0 +1,1006 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/stateiconinfo.tr.json",
+    "purpose": "State icon tooltip basliklarini mevcut Turkce skill sozlugu ile exact-source overlay olarak yerellestirir",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "stateiconinfo.lub icindeki mevcut skill sozluguyle guvenle eslesen 247 kullanici gorunur durum basligini ASCII Turkceye cevirir; aciklamalar sonraki dilimlerde tamamlanir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "93cdb0bd37d37ac9a5a6a28ca0d22b3eedfd8dd4",
+  "source_line_count": 7967,
+  "patch_count": 247,
+  "scope": "translated_titles_only",
+  "patches": {
+    "42": {
+      "source_en": "\t\t{ \"Berserk\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cinnet\", COLOR_TITLE_BUFF },"
+    },
+    "51": {
+      "source_en": "\t\t{ \"Beyond of Warcry\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savas Cigliginin Otesi\", COLOR_TITLE_BUFF },"
+    },
+    "94": {
+      "source_en": "\t\t{ \"Madness Canceller\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cinnet Sonlandirici\", COLOR_TITLE_BUFF },"
+    },
+    "122": {
+      "source_en": "\t\t{ \"Hallucination Walk\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Halusinasyon Yuruyusu\", COLOR_TITLE_BUFF },"
+    },
+    "202": {
+      "source_en": "\t\t{ \"Gloomy Shyness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kasvetli Cekingenlik\", COLOR_TITLE_BUFF },"
+    },
+    "261": {
+      "source_en": "\t\t{ \"Warg Rider\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Warg Binicisi\", COLOR_TITLE_BUFF },"
+    },
+    "280": {
+      "source_en": "\t\t{ \"Body Painting\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Vucut Boyama\", COLOR_TITLE_BUFF },"
+    },
+    "309": {
+      "source_en": "\t\t{ \"Adjustment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ayarlama\", COLOR_TITLE_BUFF },"
+    },
+    "320": {
+      "source_en": "\t\t{ \"Auto Spell\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Otomatik Buyu\", COLOR_TITLE_BUFF },"
+    },
+    "379": {
+      "source_en": "\t\t{ \"Fear Breeze\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Korku Esintisi\", COLOR_TITLE_BUFF },"
+    },
+    "475": {
+      "source_en": "\t\t{ \"Parry\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savusturma\", COLOR_TITLE_BUFF },"
+    },
+    "598": {
+      "source_en": "\t\t{ \"Stealth Field\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gizlilik Alani\", COLOR_TITLE_BUFF },"
+    },
+    "638": {
+      "source_en": "\t\t{ \"Renovatio\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yenilenme\", COLOR_TITLE_BUFF },"
+    },
+    "751": {
+      "source_en": "\t\t{ \"Spear Quicken\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mizrak Hizlandirma\", COLOR_TITLE_BUFF },"
+    },
+    "767": {
+      "source_en": "\t\t{ \"Assumptio\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kutsal Himaye\", COLOR_TITLE_BUFF },"
+    },
+    "858": {
+      "source_en": "\t\t{ \"Echo Song\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yanki Sarkisi\", COLOR_TITLE_BUFF },"
+    },
+    "904": {
+      "source_en": "\t\t{ \"Enchant Deadly Poison\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Olumcul Zehir Buyusu\", COLOR_TITLE_BUFF },"
+    },
+    "924": {
+      "source_en": "\t\t{ \"Providence\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ilahi Koruma\", COLOR_TITLE_BUFF },"
+    },
+    "953": {
+      "source_en": "\t\t{ \"True Sight\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gercek Gorus\", COLOR_TITLE_BUFF },"
+    },
+    "980": {
+      "source_en": "\t\t{ \"Tension Relax\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Rahatlama\", COLOR_TITLE_BUFF },"
+    },
+    "1014": {
+      "source_en": "\t\t{ \"Reproduce\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kopyalama\", COLOR_TITLE_BUFF },"
+    },
+    "1023": {
+      "source_en": "\t\t{ \"Acceleration\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hizlanma\", COLOR_TITLE_BUFF },"
+    },
+    "1032": {
+      "source_en": "\t\t{ \"Ninja Aura\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ninja Aurasi\", COLOR_TITLE_BUFF },"
+    },
+    "1041": {
+      "source_en": "\t\t{ \"Vanguard Force\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Oncu Kuvvet\", COLOR_TITLE_BUFF },"
+    },
+    "1069": {
+      "source_en": "\t\t{ \"Frost Weapon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buz Silahi\", COLOR_TITLE_BUFF },"
+    },
+    "1088": {
+      "source_en": "\t\t{ \"Gentle Touch-Energy Gain\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Nazik Dokunus - Enerji Kazanimi\", COLOR_TITLE_BUFF },"
+    },
+    "1099": {
+      "source_en": "\t\t{ \"Neutral Barrier\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Notr Bariyer\", COLOR_TITLE_BUFF },"
+    },
+    "1190": {
+      "source_en": "\t\t{ \"Seismic Weapon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sismik Silah\", COLOR_TITLE_BUFF },"
+    },
+    "1250": {
+      "source_en": "\t\t{ \"Recognized Spell\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Taninmis Buyu\", COLOR_TITLE_BUFF },"
+    },
+    "1394": {
+      "source_en": "\t\t{ \"Lightning Loader\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yildirim Aktarimi\", COLOR_TITLE_BUFF },"
+    },
+    "1507": {
+      "source_en": "\t\t{ \"Assumptio\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kutsal Himaye\", COLOR_TITLE_BUFF },"
+    },
+    "1560": {
+      "source_en": "\t\t{ \"Inspiration\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ilham\", COLOR_TITLE_BUFF },"
+    },
+    "1588": {
+      "source_en": "\t\t{ \"Gentle Touch-Revitalize\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Nazik Dokunus - Canlandirma\", COLOR_TITLE_BUFF },"
+    },
+    "1646": {
+      "source_en": "\t\t{ \"Swing Dance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Swing Dansi\", COLOR_TITLE_BUFF },"
+    },
+    "1701": {
+      "source_en": "\t\t{ \"Invisibility\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gorunmezlik\", COLOR_TITLE_BUFF },"
+    },
+    "1713": {
+      "source_en": "\t\t{ \"Abundance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Bolluk\", COLOR_TITLE_BUFF },"
+    },
+    "1748": {
+      "source_en": "\t\t{ \"Auto Shadow Spell\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Otomatik Golge Buyusu\", COLOR_TITLE_BUFF },"
+    },
+    "1759": {
+      "source_en": "\t\t{ \"Mystical Amplification\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Buyusel Guclendirme\", COLOR_TITLE_BUFF }, "
+    },
+    "1795": {
+      "source_en": "\t\t{ \"Spore Explosion\", COLOR_TITLE_DEBUFF }, ",
+      "translation_tr": "\t\t{ \"Spor Patlamasi\", COLOR_TITLE_DEBUFF }, "
+    },
+    "1930": {
+      "source_en": "\t\t{ \"Gatling Fever\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gatling Cinneti\", COLOR_TITLE_BUFF },"
+    },
+    "2014": {
+      "source_en": "\t\t{ \"Prestige\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Itibar\", COLOR_TITLE_BUFF },"
+    },
+    "2060": {
+      "source_en": "\t\t{ \"Flame Launcher\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Alev Aktarimi\", COLOR_TITLE_BUFF },"
+    },
+    "2137": {
+      "source_en": "\t\t{ \"Lightning Walk\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yildirim Yuruyusu\", COLOR_TITLE_BUFF },"
+    },
+    "2314": {
+      "source_en": "\t\t{ \"Odin's Power\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Odin'in Gucu\", COLOR_TITLE_BUFF },"
+    },
+    "2558": {
+      "source_en": "\t\t{ \"Masquerade Gloomy\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Maskeli Keder\", COLOR_TITLE_DEBUFF },"
+    },
+    "2569": {
+      "source_en": "\t\t{ \"Masquerade Ignorance\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Maskeli Cehalet\", COLOR_TITLE_DEBUFF },"
+    },
+    "2590": {
+      "source_en": "\t\t{ \"Masquerade Unlucky\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Maskeli Sanssizlik\", COLOR_TITLE_DEBUFF },"
+    },
+    "2601": {
+      "source_en": "\t\t{ \"Masquerade Weakness\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Maskeli Zayiflik\", COLOR_TITLE_DEBUFF },"
+    },
+    "2612": {
+      "source_en": "\t\t{ \"Steel Body\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Celik Beden\", COLOR_TITLE_BUFF },"
+    },
+    "2706": {
+      "source_en": "\t\t{ \"Asura Strike\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Asura Darbesi\", COLOR_TITLE_DEBUFF },"
+    },
+    "2800": {
+      "source_en": "\t\t{ \"Shadow Trampling\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Golge Ezme\", COLOR_TITLE_DEBUFF },"
+    },
+    "2812": {
+      "source_en": "\t\t{ \"Empty Shadow\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Bos Golge\", COLOR_TITLE_DEBUFF },"
+    },
+    "2822": {
+      "source_en": "\t\t{ \"Shadow Warrior\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golge Savascisi\", COLOR_TITLE_BUFF },"
+    },
+    "2834": {
+      "source_en": "\t\t{ \"Distorted Crescent\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Carpilmis Hilal\", COLOR_TITLE_BUFF },"
+    },
+    "2843": {
+      "source_en": "\t\t{ \"Moonlight Fantasy\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ay Isigi Duslemi\", COLOR_TITLE_BUFF },"
+    },
+    "2902": {
+      "source_en": "\t\t{ \"Ray of Protection\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Koruma Isini\", COLOR_TITLE_BUFF },"
+    },
+    "3241": {
+      "source_en": "\t\t{ \"Frigg's Song\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Frigg'in Sarkisi\", COLOR_TITLE_BUFF },"
+    },
+    "3272": {
+      "source_en": "\t\t{ \"Full Throttle\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tam Gaz\", COLOR_TITLE_BUFF },"
+    },
+    "3291": {
+      "source_en": "\t\t{ \"Unlimit\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sinirsiz\", COLOR_TITLE_BUFF },"
+    },
+    "3300": {
+      "source_en": "\t\t{ \"King's Grace\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kralin Lutfu\", COLOR_TITLE_BUFF },"
+    },
+    "3546": {
+      "source_en": "\t\t{ \"Bound Trap\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Baglama Tuzagi\", COLOR_TITLE_DEBUFF },"
+    },
+    "3555": {
+      "source_en": "\t\t{ \"Eternal Chain\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sonsuz Zincir\", COLOR_TITLE_BUFF },"
+    },
+    "3564": {
+      "source_en": "\t\t{ \"Crimson Marker\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Kizil Isaret\", COLOR_TITLE_DEBUFF },"
+    },
+    "3573": {
+      "source_en": "\t\t{ \"Platinum Alter\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Platin Degisim\", COLOR_TITLE_BUFF },"
+    },
+    "3582": {
+      "source_en": "\t\t{ \"Heat Barrel\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Isinmis Namlu\", COLOR_TITLE_BUFF },"
+    },
+    "3594": {
+      "source_en": "\t\t{ \"Anti-Material Blast\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Materyal Karsiti Patlama\", COLOR_TITLE_DEBUFF },"
+    },
+    "3829": {
+      "source_en": "\t\t{ \"Expiatio\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kefaret\", COLOR_TITLE_BUFF },"
+    },
+    "3847": {
+      "source_en": "\t\t{ \"Exceed Break\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sinir Asimi\", COLOR_TITLE_BUFF },"
+    },
+    "3885": {
+      "source_en": "\t\t{ \"Stone Curse\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Tas Laneti\", COLOR_TITLE_DEBUFF },"
+    },
+    "3990": {
+      "source_en": "\t\t{ \"Deadly Poison\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Olumcul Zehir\", COLOR_TITLE_DEBUFF },"
+    },
+    "4009": {
+      "source_en": "\t\t{ \"Cursed Circle\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Lanetli Cember\", COLOR_TITLE_DEBUFF },"
+    },
+    "4248": {
+      "source_en": "\t\t{ \"Hide\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Saklanma\", COLOR_TITLE_BUFF },"
+    },
+    "4256": {
+      "source_en": "\t\t{ \"Fresh Shrimp\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Taze Karides\", COLOR_TITLE_BUFF },"
+    },
+    "4274": {
+      "source_en": "\t\t{ \"Tuna Party\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ton Baligi Partisi\", COLOR_TITLE_BUFF },"
+    },
+    "4283": {
+      "source_en": "\t\t{ \"Arclouse Dash\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Arclouse Atagi\", COLOR_TITLE_BUFF },"
+    },
+    "4293": {
+      "source_en": "\t\t{ \"Bite\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Isirma\", COLOR_TITLE_DEBUFF },"
+    },
+    "4324": {
+      "source_en": "\t\t{ \"Stoop\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Egilme\", COLOR_TITLE_BUFF },"
+    },
+    "4360": {
+      "source_en": "\t\t{ \"Hiss\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tislama\", COLOR_TITLE_BUFF },"
+    },
+    "4378": {
+      "source_en": "\t\t{ \"Chattering\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cene Calma\", COLOR_TITLE_BUFF },"
+    },
+    "4388": {
+      "source_en": "\t\t{ \"Grooming\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Bakim\", COLOR_TITLE_BUFF },"
+    },
+    "4406": {
+      "source_en": "\t\t{ \"Magical Bullet\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyulu Mermi\", COLOR_TITLE_BUFF },"
+    },
+    "4415": {
+      "source_en": "\t\t{ \"Howling Mine\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Uluyan Mayin\", COLOR_TITLE_DEBUFF },"
+    },
+    "4681": {
+      "source_en": "\t\t{ \"Lauda Agnus\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kuzuya Ovgu\", COLOR_TITLE_BUFF },"
+    },
+    "4699": {
+      "source_en": "\t\t{ \"Sun Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gunes Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "4709": {
+      "source_en": "\t\t{ \"Lunar Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ay Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "4719": {
+      "source_en": "\t\t{ \"Star Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yildiz Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "4729": {
+      "source_en": "\t\t{ \"Universe Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Evren Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "4742": {
+      "source_en": "\t\t{ \"Light of Sun\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gunes Isigi\", COLOR_TITLE_BUFF },"
+    },
+    "4751": {
+      "source_en": "\t\t{ \"Light of Moon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ay Isigi\", COLOR_TITLE_BUFF },"
+    },
+    "4760": {
+      "source_en": "\t\t{ \"Light of Star\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yildiz Isigi\", COLOR_TITLE_BUFF },"
+    },
+    "4782": {
+      "source_en": "\t\t{ \"Book of Creating Star\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yildiz Yaratma Kitabi\", COLOR_TITLE_DEBUFF },"
+    },
+    "4788": {
+      "source_en": "\t\t{ \"Gravity Control\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yercekim Kontrolu\", COLOR_TITLE_DEBUFF },"
+    },
+    "4796": {
+      "source_en": "\t\t{ \"Soul Collect\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ruh Toplama\", COLOR_TITLE_BUFF },"
+    },
+    "4825": {
+      "source_en": "\t\t{ \"Shadow Soul\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golge Ruhu\", COLOR_TITLE_BUFF },"
+    },
+    "4835": {
+      "source_en": "\t\t{ \"Fairy Soul\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Peri Ruhu\", COLOR_TITLE_BUFF },"
+    },
+    "4845": {
+      "source_en": "\t\t{ \"Falcon Soul\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sahin Ruhu\", COLOR_TITLE_BUFF },"
+    },
+    "4855": {
+      "source_en": "\t\t{ \"Golem Soul\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golem Ruhu\", COLOR_TITLE_BUFF },"
+    },
+    "4863": {
+      "source_en": "\t\t{ \"Soul Division\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Ruh Bolunmesi\", COLOR_TITLE_DEBUFF },"
+    },
+    "4871": {
+      "source_en": "\t\t{ \"Falling Star\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dusen Yildiz\", COLOR_TITLE_BUFF },"
+    },
+    "4882": {
+      "source_en": "\t\t{ \"Book of Dimension\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Boyut Kitabi\", COLOR_TITLE_BUFF },"
+    },
+    "4910": {
+      "source_en": "\t\t{ \"Sacrifice\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Fedakarlik\", COLOR_TITLE_BUFF },"
+    },
+    "4949": {
+      "source_en": "\t\t{ \"Basilica\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Bazilika\", COLOR_TITLE_BUFF }, "
+    },
+    "4960": {
+      "source_en": "\t\t{ \"Assumptio\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Kutsal Himaye\", COLOR_TITLE_BUFF }, "
+    },
+    "4970": {
+      "source_en": "\t\t{ \"Mr. Kim A Rich Man\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Zengin Bay Kim\", COLOR_TITLE_BUFF },"
+    },
+    "4980": {
+      "source_en": "\t\t{ \"The Ring of Nibelungen\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Nibelungen Yuzugu\", COLOR_TITLE_BUFF },"
+    },
+    "4990": {
+      "source_en": "\t\t{ \"Drum of Battlefield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savas Alani Davulu\", COLOR_TITLE_BUFF },"
+    },
+    "4999": {
+      "source_en": "\t\t{ \"Invulnerable Siegfried\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yenilmez Siegfried\", COLOR_TITLE_BUFF },"
+    },
+    "5009": {
+      "source_en": "\t\t{ \"Adaptation to Circumstances\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kosullara Uyum\", COLOR_TITLE_BUFF },"
+    },
+    "5019": {
+      "source_en": "\t\t{ \"Into the Abyss\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucuruma\", COLOR_TITLE_BUFF },"
+    },
+    "5029": {
+      "source_en": "\t\t{ \"Service For You\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Senin Icin Hizmet\", COLOR_TITLE_BUFF },"
+    },
+    "5039": {
+      "source_en": "\t\t{ \"Fortune's Kiss\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sans Opucugu\", COLOR_TITLE_BUFF },"
+    },
+    "5049": {
+      "source_en": "\t\t{ \"Humming\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mirildanma\", COLOR_TITLE_BUFF },"
+    },
+    "5058": {
+      "source_en": "\t\t{ \"Poem of Bragi\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Bragi'nin Siiri\", COLOR_TITLE_BUFF },"
+    },
+    "5068": {
+      "source_en": "\t\t{ \"Assassin Cross of Sunset\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gunbatimi Assassin Cross'u\", COLOR_TITLE_BUFF },"
+    },
+    "5077": {
+      "source_en": "\t\t{ \"Whistle\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Islik\", COLOR_TITLE_BUFF },"
+    },
+    "5086": {
+      "source_en": "\t\t{ \"Apple of Idun\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Idun'un Elmasi\", COLOR_TITLE_BUFF },"
+    },
+    "5106": {
+      "source_en": "\t\t{ \"Eternal Chaos\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Ebedi Kaos\", COLOR_TITLE_DEBUFF },"
+    },
+    "5115": {
+      "source_en": "\t\t{ \"Loki's Wail\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Loki'nin Feryadi\", COLOR_TITLE_DEBUFF },"
+    },
+    "5202": {
+      "source_en": "\t\t{ \"Song of Destruction\", COLOR_TITLE_DEBUFF }, ",
+      "translation_tr": "\t\t{ \"Yikim Sesi\", COLOR_TITLE_DEBUFF }, "
+    },
+    "5211": {
+      "source_en": "\t\t{ \"Unlimited Humming Voice\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sinirsiz Mirilti Sesi\", COLOR_TITLE_BUFF },"
+    },
+    "5237": {
+      "source_en": "\t\t{ \"Giant Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Devasa Buyume\", COLOR_TITLE_BUFF },"
+    },
+    "5283": {
+      "source_en": "\t\t{ \"Aura Blade\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Aura Kilici\", COLOR_TITLE_BUFF }, "
+    },
+    "5292": {
+      "source_en": "\t\t{ \"Concentration\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Odaklanma\", COLOR_TITLE_BUFF },"
+    },
+    "5301": {
+      "source_en": "\t\t{ \"Dark Claw\", COLOR_TITLE_DEBUFF }, ",
+      "translation_tr": "\t\t{ \"Karanlik Pence\", COLOR_TITLE_DEBUFF }, "
+    },
+    "5311": {
+      "source_en": "\t\t{ \"Poisoning Weapon\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Zehirli Silah\", COLOR_TITLE_BUFF }, "
+    },
+    "5406": {
+      "source_en": "\t\t{ \"Servant Weapon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hizmetkar Silah\", COLOR_TITLE_BUFF },"
+    },
+    "5425": {
+      "source_en": "\t\t{ \"Charging Pierce\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yuklenmis Delis\", COLOR_TITLE_BUFF },"
+    },
+    "5435": {
+      "source_en": "\t\t{ \"Dragonic Aura\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ejderha Aurasi\", COLOR_TITLE_BUFF },"
+    },
+    "5446": {
+      "source_en": "\t\t{ \"Vigor\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dinclik\", COLOR_TITLE_BUFF },"
+    },
+    "5456": {
+      "source_en": "\t\t{ \"Deadly Projection\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Olumcul Yansitma\", COLOR_TITLE_BUFF },"
+    },
+    "5465": {
+      "source_en": "\t\t{ \"Destructive Hurricane\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yikici Kasirga\", COLOR_TITLE_BUFF },"
+    },
+    "5475": {
+      "source_en": "\t\t{ \"Climax\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Doruk\", COLOR_TITLE_BUFF },"
+    },
+    "5496": {
+      "source_en": "\t\t{ \"All Bloom\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tum Ciceklenme\", COLOR_TITLE_BUFF },"
+    },
+    "5505": {
+      "source_en": "\t\t{ \"Crystal Impact\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kristal Darbesi\", COLOR_TITLE_BUFF },"
+    },
+    "5517": {
+      "source_en": "\t\t{ \"Guard Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savunma Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "5527": {
+      "source_en": "\t\t{ \"Attack Stance\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Saldiri Durusu\", COLOR_TITLE_BUFF },"
+    },
+    "5537": {
+      "source_en": "\t\t{ \"Guardian Shield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Koruyucu Kalkan\", COLOR_TITLE_BUFF },"
+    },
+    "5546": {
+      "source_en": "\t\t{ \"Rebound Shield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Geri Tepme Kalkani\", COLOR_TITLE_BUFF },"
+    },
+    "5555": {
+      "source_en": "\t\t{ \"Holy Shield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kutsal Kalkan\", COLOR_TITLE_BUFF },"
+    },
+    "5566": {
+      "source_en": "\t\t{ \"Ultimate Sacrifice\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Nihai Fedakarlik\", COLOR_TITLE_BUFF },"
+    },
+    "5575": {
+      "source_en": "\t\t{ \"Grand Judgement\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyuk Yargi\", COLOR_TITLE_BUFF },"
+    },
+    "5585": {
+      "source_en": "\t\t{ \"Shield Shooting\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kalkan Atisi\", COLOR_TITLE_BUFF },"
+    },
+    "5595": {
+      "source_en": "\t\t{ \"Powerful Faith\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Guclu Inanc\", COLOR_TITLE_BUFF },"
+    },
+    "5605": {
+      "source_en": "\t\t{ \"Sincere Faith\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Samimi Inanc\", COLOR_TITLE_BUFF },"
+    },
+    "5615": {
+      "source_en": "\t\t{ \"Firm Faith\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Saglam Inanc\", COLOR_TITLE_BUFF },"
+    },
+    "5635": {
+      "source_en": "\t\t{ \"First Brand\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ilk Damga\", COLOR_TITLE_BUFF },"
+    },
+    "5653": {
+      "source_en": "\t\t{ \"Judge\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yargic\", COLOR_TITLE_BUFF },"
+    },
+    "5666": {
+      "source_en": "\t\t{ \"Third Exorcism Flame\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucuncu Ruh Kovma Alevi\", COLOR_TITLE_BUFF },"
+    },
+    "5679": {
+      "source_en": "\t\t{ \"First Faith Power\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ilk Inanc Gucu\", COLOR_TITLE_BUFF },"
+    },
+    "5692": {
+      "source_en": "\t\t{ \"Massive Flame Blaster\", COLOR_TITLE_BUFF }, ",
+      "translation_tr": "\t\t{ \"Dev Alev Patlamasi\", COLOR_TITLE_BUFF }, "
+    },
+    "5702": {
+      "source_en": "\t\t{ \"Shadow Exceed\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golge Asimi\", COLOR_TITLE_BUFF },"
+    },
+    "5722": {
+      "source_en": "\t\t{ \"Potent Venom\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Guclu Zehir\", COLOR_TITLE_BUFF },"
+    },
+    "5740": {
+      "source_en": "\t\t{ \"Enchanting Shadow\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyulu Golge\", COLOR_TITLE_BUFF },"
+    },
+    "5814": {
+      "source_en": "\t\t{ \"Wind Sign\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ruzgar Isareti\", COLOR_TITLE_BUFF },"
+    },
+    "5823": {
+      "source_en": "\t\t{ \"Calamity Gale\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Felaket Ruzgari\", COLOR_TITLE_BUFF },"
+    },
+    "5836": {
+      "source_en": "\t\t{ \"Mystic Symphony\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mistik Senfoni\", COLOR_TITLE_BUFF },"
+    },
+    "5856": {
+      "source_en": "\t\t{ \"Sound Blend\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ses Harmani\", COLOR_TITLE_BUFF },"
+    },
+    "5865": {
+      "source_en": "\t\t{ \"Geffenia Nocturne\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Geffenia Nokturnu\", COLOR_TITLE_BUFF },"
+    },
+    "5874": {
+      "source_en": "\t\t{ \"Raphsody of Mineworker\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Madenci Rapsodisi\", COLOR_TITLE_BUFF },"
+    },
+    "5883": {
+      "source_en": "\t\t{ \"Musical Interlude\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Muzikal Ara\", COLOR_TITLE_BUFF },"
+    },
+    "5902": {
+      "source_en": "\t\t{ \"March of Prontera\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Prontera Marsi\", COLOR_TITLE_BUFF },"
+    },
+    "5912": {
+      "source_en": "\t\t{ \"Strip Shadow\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golgeyi Soy\", COLOR_TITLE_BUFF },"
+    },
+    "5921": {
+      "source_en": "\t\t{ \"Abyss Dagger\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucurum Hanceri\", COLOR_TITLE_BUFF },"
+    },
+    "5930": {
+      "source_en": "\t\t{ \"From the Abyss\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucurumdan\", COLOR_TITLE_BUFF },"
+    },
+    "5940": {
+      "source_en": "\t\t{ \"Abyss Slayer\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucurum Avcisi\", COLOR_TITLE_BUFF },"
+    },
+    "5950": {
+      "source_en": "\t\t{ \"Axe Stomp\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Balta Ezisi\", COLOR_TITLE_BUFF },"
+    },
+    "5959": {
+      "source_en": "\t\t{ \"Activation Attack Machine\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Saldiri Makinesini Etkinlestir\", COLOR_TITLE_BUFF },"
+    },
+    "5969": {
+      "source_en": "\t\t{ \"Activation Defense Machine\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savunma Makinesini Etkinlestir\", COLOR_TITLE_BUFF },"
+    },
+    "5979": {
+      "source_en": "\t\t{ \"Spell Enchanting\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyu Efsunlama\", COLOR_TITLE_BUFF },"
+    },
+    "6115": {
+      "source_en": "\t\t{ \"Full Shadow Protection\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tam Golge Korumasi\", COLOR_TITLE_BUFF },"
+    },
+    "6124": {
+      "source_en": "\t\t{ \"Research Report\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Arastirma Raporu\", COLOR_TITLE_BUFF },"
+    },
+    "6232": {
+      "source_en": "\t\t{ \"Tempering\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tavlama\", COLOR_TITLE_BUFF },"
+    },
+    "6290": {
+      "source_en": "\t\t{ \"Hell Tree Powder\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cehennem Agaci Tozu\", COLOR_TITLE_BUFF },"
+    },
+    "6374": {
+      "source_en": "\t\t{ \"Star Burst\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yildiz Patlamasi\", COLOR_TITLE_DEBUFF },"
+    },
+    "6383": {
+      "source_en": "\t\t{ \"Enchanting Sky\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyulu Gok\", COLOR_TITLE_BUFF },"
+    },
+    "6392": {
+      "source_en": "\t\t{ \"Talisman of Protection\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Koruma Tilsimi\", COLOR_TITLE_BUFF },"
+    },
+    "6401": {
+      "source_en": "\t\t{ \"Talisman of Warrior\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savasci Tilsimi\", COLOR_TITLE_BUFF },"
+    },
+    "6410": {
+      "source_en": "\t\t{ \"Talisman of Magician\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyucu Tilsimi\", COLOR_TITLE_BUFF },"
+    },
+    "6419": {
+      "source_en": "\t\t{ \"Talisman of Five Elements\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Bes Element Tilsimi\", COLOR_TITLE_BUFF },"
+    },
+    "6512": {
+      "source_en": "\t\t{ \"Kisul Rampage\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kisul Hiddeti\", COLOR_TITLE_BUFF },"
+    },
+    "6521": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6524": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6525": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6526": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6527": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6534": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6537": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6538": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6539": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6540": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6547": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6550": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6551": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6552": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6553": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6560": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6563": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6564": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6565": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6566": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6573": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6576": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6577": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6578": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6579": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6586": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6589": {
+      "source_en": "\t\t{ \"Catnip Meteor\" },",
+      "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
+    },
+    "6590": {
+      "source_en": "\t\t{ \"Hyunrok Breeze\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Esintisi\" },"
+    },
+    "6591": {
+      "source_en": "\t\t{ \"Hyunrok Cannon\" },",
+      "translation_tr": "\t\t{ \"Hyunrok Topu\" },"
+    },
+    "6592": {
+      "source_en": "\t\t{ \"Hyunrok Spirit Power\" }",
+      "translation_tr": "\t\t{ \"Hyunrok Ruh Gucu\" }"
+    },
+    "6599": {
+      "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6608": {
+      "source_en": "\t\t{ \"Temporary Communion\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gecici Uyum\", COLOR_TITLE_BUFF },"
+    },
+    "6617": {
+      "source_en": "\t\t{ \"Blessing of Mystical Creatures\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mistik Yaratiklarin Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6635": {
+      "source_en": "\t\t{ \"Intensive Aim\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yogun Nisan\", COLOR_TITLE_BUFF },"
+    },
+    "6645": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6654": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6663": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6672": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6681": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6690": {
+      "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6699": {
+      "source_en": "\t\t{ \"Auto Firing Launcher\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Otomatik Atesleyici\", COLOR_TITLE_BUFF },"
+    },
+    "6708": {
+      "source_en": "\t\t{ \"Hidden Card\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gizli Kart\", COLOR_TITLE_BUFF },"
+    },
+    "6718": {
+      "source_en": "\t\t{ \"Grenade Mastery\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"El Bombasi Ustaligi\", COLOR_TITLE_BUFF },"
+    },
+    "6728": {
+      "source_en": "\t\t{ \"Shield Chain Rush\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Kalkan Zinciri Hucumu\", COLOR_TITLE_DEBUFF },"
+    },
+    "6759": {
+      "source_en": "\t\t{ \"Breaking Limit\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Siniri Asma\", COLOR_TITLE_BUFF },"
+    },
+    "7262": {
+      "source_en": "\t\t{ \"Mystery Powder\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gizemli Toz\", COLOR_TITLE_BUFF },"
+    },
+    "7419": {
+      "source_en": "\t\t{ \"Wild Walk\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Vahsi Yuruyus\", COLOR_TITLE_BUFF },"
+    },
+    "7429": {
+      "source_en": "\t\t{ \"Overcoming Crisis\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Krizi Asma\", COLOR_TITLE_BUFF },"
+    },
+    "7683": {
+      "source_en": "\t\t{ \"Transformation: Werewolf\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Donusum - Kurtadam\", COLOR_TITLE_BUFF },"
+    },
+    "7701": {
+      "source_en": "\t\t{ \"Blood Howling\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kanli Uluma\", COLOR_TITLE_BUFF },"
+    },
+    "7711": {
+      "source_en": "\t\t{ \"Transformation: Wereraptor\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Donusum - Raptor\", COLOR_TITLE_BUFF },"
+    },
+    "7729": {
+      "source_en": "\t\t{ \"Preening\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tuy Bakimi\", COLOR_TITLE_BUFF },"
+    },
+    "7739": {
+      "source_en": "\t\t{ \"Truth of Ice\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buz Gercegi\", COLOR_TITLE_BUFF },"
+    },
+    "7747": {
+      "source_en": "\t\t{ \"Truth of Wind\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ruzgar Gercegi\", COLOR_TITLE_BUFF },"
+    },
+    "7755": {
+      "source_en": "\t\t{ \"Truth of Earth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Toprak Gercegi\", COLOR_TITLE_BUFF },"
+    },
+    "7783": {
+      "source_en": "\t\t{ \"Iron Howling\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Demir Uluma\", COLOR_TITLE_BUFF },"
+    },
+    "7792": {
+      "source_en": "\t\t{ \"Wind Veil\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ruzgar Perdesi\", COLOR_TITLE_BUFF },"
+    },
+    "7802": {
+      "source_en": "\t\t{ \"Ice Pillar\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buz Sutunu\", COLOR_TITLE_BUFF },"
+    },
+    "7839": {
+      "source_en": "\t\t{ \"Nature Protection\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Doga Korumasi\", COLOR_TITLE_BUFF },"
+    },
+    "7849": {
+      "source_en": "\t\t{ \"Pulse of Madness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cinnet Nabzi\", COLOR_TITLE_BUFF },"
+    },
+    "7858": {
+      "source_en": "\t\t{ \"Alpha Phase\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Alfa Evresi\", COLOR_TITLE_BUFF },"
+    },
+    "7867": {
+      "source_en": "\t\t{ \"Apex Phase\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Zirve Evresi\", COLOR_TITLE_BUFF },"
+    },
+    "7878": {
+      "source_en": "\t\t{ \"Flip Flap\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kanat Cirpisi\", COLOR_TITLE_BUFF },"
+    },
+    "7888": {
+      "source_en": "\t\t{ \"Flip Flap\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kanat Cirpisi\", COLOR_TITLE_BUFF },"
+    },
+    "7941": {
+      "source_en": "\t\t{ \"Glacial Monolith\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buzul Monoliti\", COLOR_TITLE_BUFF },"
+    },
+    "7950": {
+      "source_en": "\t\t{ \"Nature Harmony\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Doga Uyumu\", COLOR_TITLE_BUFF },"
+    },
+    "7962": {
+      "source_en": "\t\t{ \"Solid Stomp\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Saglam Ezis\", COLOR_TITLE_BUFF },"
+    }
+  }
+}

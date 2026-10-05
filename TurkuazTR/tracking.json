@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "2.3.0",
-    "description": "Ceviri durum aracinin ana localization, harita, battlefield ve diger gorunen overlay kaynaklarini takip etmesini saglar",
+    "version": "2.4.0",
+    "description": "Ceviri durum aracinin ana localization, harita, battlefield, state icon ve diger gorunen overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
   "locale": "tr-TR",
@@ -239,6 +239,18 @@
       "name": "battlefield_info",
       "path": "Translation/Renewal/data/luafiles514/lua files/battlefield/battlefieldinfo.lub",
       "patch_path": "TurkuazTR/battlefieldinfo.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "state_icons",
+      "path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+      "patch_path": "TurkuazTR/stateiconinfo.tr.json",
       "generated_profiles": [
         "english",
         "hybrid",

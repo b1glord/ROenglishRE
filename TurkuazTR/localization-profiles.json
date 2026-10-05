@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/localization-profiles.json",
     "purpose": "TurkuazTR generated istemci profillerinin tum localization bilesenleri icin dil modlarini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.12.0",
-    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay, battlefield, kitap ve quest localization bilesenlerinde tanimlar",
+    "version": "1.13.0",
+    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay, battlefield, state icon, kitap ve quest localization bilesenlerinde tanimlar",
     "dependency_layer": "Tool"
   },
   "profiles": {
@@ -33,7 +33,8 @@
       "card_prefix_names": "original",
       "recommended_quests_basic": "original",
       "entry_queue": "original",
-      "battlefield_info": "original"
+      "battlefield_info": "original",
+      "state_icons": "original"
     },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
@@ -60,7 +61,8 @@
       "card_prefix_names": "tr",
       "recommended_quests_basic": "tr",
       "entry_queue": "tr",
-      "battlefield_info": "tr"
+      "battlefield_info": "tr",
+      "state_icons": "tr"
     },
     "full_tr": {
       "display_name": "Full TR - Turkce Skill Name + Turkce Aciklama",
@@ -87,7 +89,8 @@
       "card_prefix_names": "tr",
       "recommended_quests_basic": "tr",
       "entry_queue": "tr",
-      "battlefield_info": "tr"
+      "battlefield_info": "tr",
+      "state_icons": "tr"
     },
     "bilingual": {
       "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
@@ -114,7 +117,8 @@
       "card_prefix_names": "tr",
       "recommended_quests_basic": "tr",
       "entry_queue": "tr",
-      "battlefield_info": "tr"
+      "battlefield_info": "tr",
+      "state_icons": "tr"
     }
   }
 }
