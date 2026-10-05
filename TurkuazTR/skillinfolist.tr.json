@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.3.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 140 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.4.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 160 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -571,6 +571,86 @@
     "EL_PYROTECHNIC": {
       "name_original": "Pyrotechnic",
       "name_tr": "Piroteknik"
+    },
+    "DC_DONTFORGETME": {
+      "name_original": "Please Don't Forget Me",
+      "name_tr": "Lutfen Beni Unutma"
+    },
+    "SC_WEAKNESS": {
+      "name_original": "Masquerade Weakness",
+      "name_tr": "Maskeli Zayiflik"
+    },
+    "DC_FORTUNEKISS": {
+      "name_original": "Fortune's Kiss",
+      "name_tr": "Sans Opucugu"
+    },
+    "SC_UNLUCKY": {
+      "name_original": "Masquerade Unlucky",
+      "name_tr": "Maskeli Sanssizlik"
+    },
+    "DC_SERVICEFORYOU": {
+      "name_original": "Service For You",
+      "name_tr": "Senin Icin Hizmet"
+    },
+    "SC_IGNORANCE": {
+      "name_original": "Masquerade Ignorance",
+      "name_tr": "Maskeli Cehalet"
+    },
+    "SC_GROOMY": {
+      "name_original": "Masquerade Gloomy",
+      "name_tr": "Maskeli Keder"
+    },
+    "SC_INVISIBILITY": {
+      "name_original": "Invisibility",
+      "name_tr": "Gorunmezlik"
+    },
+    "SC_AUTOSHADOWSPELL": {
+      "name_original": "Auto Shadow Spell",
+      "name_tr": "Otomatik Golge Buyusu"
+    },
+    "SC_REPRODUCE": {
+      "name_original": "Reproduce",
+      "name_tr": "Kopyalama"
+    },
+    "SC_FATALMENACE": {
+      "name_original": "Fatal Menace",
+      "name_tr": "Olumcul Tehdit"
+    },
+    "NC_MAGICDECOY": {
+      "name_original": "FAW Magic Decoy",
+      "name_tr": "FAW Buyulu Yem"
+    },
+    "WE_MALE": {
+      "name_original": "I'll save you",
+      "name_tr": "Seni Kurtaracagim"
+    },
+    "NC_AXEBOOMERANG": {
+      "name_original": "Axe Boomerang",
+      "name_tr": "Balta Bumerangi"
+    },
+    "WE_FEMALE": {
+      "name_original": "I'll sacrifice myself for you",
+      "name_tr": "Senin Icin Kendimi Feda Edecegim"
+    },
+    "MG_THUNDERSTORM": {
+      "name_original": "Thunder Storm",
+      "name_tr": "Gok Gurultulu Firtina"
+    },
+    "WE_CALLPARTNER": {
+      "name_original": "I miss you",
+      "name_tr": "Seni Ozledim"
+    },
+    "NC_RESEARCHFE": {
+      "name_original": "Fire Earth Research",
+      "name_tr": "Ates ve Toprak Arastirmasi"
+    },
+    "ITM_TOMAHAWK": {
+      "name_original": "Tomahawk Throwing",
+      "name_tr": "Tomahawk Firlatma"
+    },
+    "NC_STEALTHFIELD": {
+      "name_original": "Stealth Field",
+      "name_tr": "Gizlilik Alani"
     }
   },
   "name_profiles": {
