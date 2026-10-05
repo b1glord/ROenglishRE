@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/worldviewdata_language.tr.json",
     "purpose": "World view harita/konum adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.2.0",
-    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 377 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.3.0",
+    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 377 exact satiri Turkce karsiliklariyla esler; upstream satir eklemelerine gore rebase edildi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/worldviewdata/worldviewdata_language.lub",
@@ -1437,87 +1437,87 @@
       "source_en": "\tMSI_45_ODIN_PAST = \"Ancient Odin Temple\",",
       "translation_tr": "\tMSI_45_ODIN_PAST = \"Antik Odin Tapinagi\","
     },
-    "400": {
+    "403": {
       "source_en": "\tMSI_100_ICECASTLE = \"Town\",",
       "translation_tr": "\tMSI_100_ICECASTLE = \"Kasaba\","
     },
-    "401": {
+    "404": {
       "source_en": "\tMSI_100_JOR_TAIL = \"Frozen Tail\",",
       "translation_tr": "\tMSI_100_JOR_TAIL = \"Donmus Kuyruk\","
     },
-    "402": {
+    "405": {
       "source_en": "\tMSI_100_JOR_BACK1 = \"Frozen Scale Hill\",",
       "translation_tr": "\tMSI_100_JOR_BACK1 = \"Donmus Pul Tepesi\","
     },
-    "403": {
+    "406": {
       "source_en": "\tMSI_100_JOR_BACK2 = \"Frozen Scale Plains\",",
       "translation_tr": "\tMSI_100_JOR_BACK2 = \"Donmus Pul Ovasi\","
     },
-    "404": {
+    "407": {
       "source_en": "\tMSI_100_JOR_BACK3 = \"Frozen Scale Glacier\",",
       "translation_tr": "\tMSI_100_JOR_BACK3 = \"Donmus Pul Buzulu\","
     },
-    "405": {
+    "408": {
       "source_en": "\tMSI_100_JOR_BACK4 = \"Frozen Scale Beach\",",
       "translation_tr": "\tMSI_100_JOR_BACK4 = \"Donmus Pul Plaji\","
     },
-    "406": {
+    "409": {
       "source_en": "\tMSI_100_JOR_BACK5 = \"Ancient Ice Canyon East\",",
       "translation_tr": "\tMSI_100_JOR_BACK5 = \"Antik Buz Kanyonu - Dogu\","
     },
-    "407": {
+    "410": {
       "source_en": "\tMSI_100_JOR_BACK6 = \"Ancient Ice Canyon West\",",
       "translation_tr": "\tMSI_100_JOR_BACK6 = \"Antik Buz Kanyonu - Bati\","
     },
-    "408": {
+    "411": {
       "source_en": "\tMSI_100_JOR_TWICE = \"Drift Ice Zone\",",
       "translation_tr": "\tMSI_100_JOR_TWICE = \"Suruklenen Buz Bolgesi\","
     },
-    "409": {
+    "412": {
       "source_en": "\tMSI_100_JOR_TWIG = \"Twig's Nest\",",
       "translation_tr": "\tMSI_100_JOR_TWIG = \"Dal Yuvasi\","
     },
-    "410": {
+    "413": {
       "source_en": "\tMSI_47_PRONTERA_MARKET_STREET = \"Prontera Market Street\",",
       "translation_tr": "\tMSI_47_PRONTERA_MARKET_STREET = \"Prontera Pazar Caddesi\","
     },
-    "411": {
+    "414": {
       "source_en": "\tMSI_DUN47_MARKET = \"Market Street\",",
       "translation_tr": "\tMSI_DUN47_MARKET = \"Pazar Caddesi\","
     },
-    "412": {
+    "415": {
       "source_en": "\tMSI_100_CH1_GEFFEN = \"Village\",",
       "translation_tr": "\tMSI_100_CH1_GEFFEN = \"Koy\","
     },
-    "413": {
+    "416": {
       "source_en": "\tMSI_100_HEM_FILD = \"King's Eye\",",
       "translation_tr": "\tMSI_100_HEM_FILD = \"Kralin Gozu\","
     },
-    "415": {
+    "418": {
       "source_en": "\tMSI_1_HEM_DUN01 = \"Destroyed Verus\",",
       "translation_tr": "\tMSI_1_HEM_DUN01 = \"Yikilmis Verus\","
     },
-    "416": {
+    "419": {
       "source_en": "\tMSI_1_CH1_GFN01 = \"East of Encroached Geffenia\",",
       "translation_tr": "\tMSI_1_CH1_GFN01 = \"Istila Edilmis Geffenia Dogusu\","
     },
-    "417": {
+    "420": {
       "source_en": "\tMSI_1_CH1_GFN03 = \"West of Encroached Geffenia\",",
       "translation_tr": "\tMSI_1_CH1_GFN03 = \"Istila Edilmis Geffenia Batisi\","
     },
-    "418": {
+    "421": {
       "source_en": "\tMSI_101_YGG_ROOTS = \"Village\",",
       "translation_tr": "\tMSI_101_YGG_ROOTS = \"Koy\","
     },
-    "419": {
+    "422": {
       "source_en": "\tMSI_DUN47 = \"Destroyed Verus\",",
       "translation_tr": "\tMSI_DUN47 = \"Yikilmis Verus\","
     },
-    "420": {
+    "423": {
       "source_en": "\tMSI_DUN48 = \"Encroached Geffenia\",",
       "translation_tr": "\tMSI_DUN48 = \"Istila Edilmis Geffenia\","
     },
-    "421": {
+    "424": {
       "source_en": "\tMSI_DUN49 = \"Encroached Geffenia\"",
       "translation_tr": "\tMSI_DUN49 = \"Istila Edilmis Geffenia\""
     }
