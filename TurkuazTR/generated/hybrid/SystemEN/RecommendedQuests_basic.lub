@@ -1,0 +1,31 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+RecommendedQuestInfoList = {}
+RecommendedQuestInfoList = {
+	[1] = {
+		Title = "Ragnarok Online'a Hos Geldiniz!",
+		IconName = "ico_gq.bmp",
+		Summary = "Acemi maceracilara yardim sagliyoruz.",
+		NpcSpr = "4_F_01",
+		NpcNavi = "iz_ac01",
+		NpcPosX = 102,
+		NpcPosY = 44,
+		BgName = "reco_01.bmp",
+		QuestInfo1 = {
+			"Hos geldiniz!",
+			"Criatura Akademisi Acemiler icin cesitli bilgiler sunar. Henuz Criatura Akademisini ziyaret etmediyseniz yararli bilgiler ve esyalar icin bizi ziyaret edin."
+		},
+		QuestInfo2 = {
+			"$$Acemi$$ hos geldin!!",
+			"Baslangic%%Destegi%%Ekmek!!Ekmek!!",
+			"&*Ucretsiz*& danisma mevcut!!"
+		},
+		QuestInfo3 = {
+			"^ff0000Bu sayfa gorev icin degil, guncelleme amaciyla kullanilir. Gorevleri tamamlamak bu kayitlari kaldirmaz.^000000"
+		}
+	}
+}

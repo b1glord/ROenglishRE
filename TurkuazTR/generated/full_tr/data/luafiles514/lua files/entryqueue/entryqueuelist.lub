@@ -1,0 +1,104 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230919
+
+EntryQueueList = {
+	[1] = {
+		BattleFieldName = "Tierra Gorge",
+		DisplayBattleFieldName = "Tierra Gorge",
+		AllianceNum = 6,
+		EnemyNum = 6,
+		PrivateApply = 1,
+		PartyApply = 1,
+		GuildApply = 1,
+		JobGroup = 4,
+		EnterCondType = 2,
+		EnterCondValue1 = 80,
+		EnterCondValue2 = 0,
+		RewardWin = "3 Cesaret Rozeti",
+		RewardDraw = "1 Cesaret Rozeti",
+		RewardLose = "1 Cesaret Rozeti",
+		VictoryCond = "Rakip takimin Deposu yok edildiginde.",
+		MiniMapFile = "bat_a01.bmp"
+	},
+	[2] = {
+		BattleFieldName = "Flavius",
+		DisplayBattleFieldName = "Flavius",
+		AllianceNum = 6,
+		EnemyNum = 6,
+		PrivateApply = 1,
+		PartyApply = 1,
+		GuildApply = 1,
+		JobGroup = 4,
+		EnterCondType = 2,
+		EnterCondValue1 = 80,
+		EnterCondValue2 = 0,
+		RewardWin = "9 Yigitlik Rozeti",
+		RewardDraw = "3 Yigitlik Rozeti",
+		RewardLose = "3 Yigitlik Rozeti",
+		VictoryCond = "Rakip takimin Kristali yok edildiginde.",
+		MiniMapFile = "bat_b01.bmp"
+	},
+	[3] = {
+		BattleFieldName = "KVM (Level 80 and up)",
+		DisplayBattleFieldName = "KVM (Seviye 80 ve uzeri)",
+		AllianceNum = 5,
+		EnemyNum = 5,
+		PrivateApply = 1,
+		PartyApply = 1,
+		GuildApply = 1,
+		JobGroup = 0,
+		EnterCondType = 2,
+		EnterCondValue1 = 80,
+		EnterCondValue2 = 0,
+		RewardWin = "5 KVM Puani",
+		RewardDraw = "1 KVM Puani",
+		RewardLose = "1 KVM Puani",
+		VictoryCond = "Rakip takim tamamen yok edildiginde.",
+		MiniMapFile = "bat_c01.bmp"
+	},
+	[4] = {
+		BattleFieldName = "KVM (Level 60~79)",
+		DisplayBattleFieldName = "KVM (Seviye 60~79)",
+		AllianceNum = 5,
+		EnemyNum = 5,
+		PrivateApply = 1,
+		PartyApply = 1,
+		GuildApply = 1,
+		JobGroup = 0,
+		EnterCondType = 3,
+		EnterCondValue1 = 60,
+		EnterCondValue2 = 79,
+		RewardWin = "2 KVM Puani",
+		RewardDraw = "1 KVM Puani",
+		RewardLose = "yok",
+		VictoryCond = "Rakip takim tamamen yok edildiginde.",
+		MiniMapFile = "bat_c01.bmp"
+	},
+	[5] = {
+		BattleFieldName = "KVM (Level 59 and below)",
+		DisplayBattleFieldName = "KVM (Seviye 59 ve alti)",
+		AllianceNum = 5,
+		EnemyNum = 5,
+		PrivateApply = 1,
+		PartyApply = 1,
+		GuildApply = 1,
+		JobGroup = 0,
+		EnterCondType = 1,
+		EnterCondValue1 = 59,
+		EnterCondValue2 = 0,
+		RewardWin = "1 KVM Puani",
+		RewardDraw = "yok",
+		RewardLose = "yok",
+		VictoryCond = "Rakip takim tamamen yok edildiginde.",
+		MiniMapFile = "bat_c01.bmp"
+	}
+}
+
+function ReadEntryQueueList()
+	for id, table in pairs(EntryQueueList) do
+		AddEntryQueue(id, table.BattleFieldName, table.DisplayBattleFieldName, table.AllianceNum, table.EnemyNum, table.PrivateApply, table.PartyApply, table.GuildApply, table.JobGroup, table.EnterCondType, table.EnterCondValue1, table.EnterCondValue2, table.RewardWin, table.RewardDraw, table.RewardLose, table.VictoryCond, table.MiniMapFile)
+	end
+end

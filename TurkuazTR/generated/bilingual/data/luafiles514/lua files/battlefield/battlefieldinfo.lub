@@ -1,0 +1,201 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230919
+
+BATTLE_FIELD_ID = { 
+	HELP = -1, 
+	TIERA = 11, 
+	FLAVIUS = 21,
+	KVM = 31
+}
+BATTLE_FIELD_NAME = {
+	[BATTLE_FIELD_ID.FLAVIUS] = "Flavian_Help",	[BATTLE_FIELD_ID.TIERA] = "Tiera_Help",	[BATTLE_FIELD_ID.KVM] = "Kvm_Help"
+}
+BATTLE_FIELD_HELP = {
+	[BATTLE_FIELD_ID.HELP] = {
+		"[Ayarlar]",
+		"^0000FF1. Simgeyi Goster^000000",
+		" Grafik Ayarlari penceresinde,",
+		" Temel Bilgi ve Savas Alani simgesi alt kisimda bulunur",
+		" Acilip kapatilabilir.",
+		"",
+		"^0000FF2. Kisayol Ayarlari^000000",
+		" Ayarlar penceresi kisayolu, UI sekmeleri",
+		" Savas alani penceresinin konumunu ayarlayin",
+		" Kisayol tuslarini ozellestirebilirsiniz.",
+		"",
+		"^0000FF3. Komutlar^000000",
+		" ^FF0000/btg^000000",
+		"	:Savas Alani simgesini Ac/Kapat",
+		" ^FF0000/btst^000000",
+		"	:Savas Alani penceresi konumunu Ac/Kapat",
+		"",
+		"",
+		"[Ozellikler]",
+		"^0000FF1. Savas Alani bilgilerini goruntule.^000000",
+		" Savas Alani penceresinin konumunu ayarlayin,",
+		" penceredeki Savas Alani adina tiklayarak",
+		" ilgili bilgileri goruntuleyebilirsiniz.",
+		"",
+		"^0000FF2. Nasil Kayit Olunur^000000",
+		" Katilmak istediginiz savas alani icin ilgili NPC kayit gorevlisine tiklayin.",
+		"",
+		"^0000FF3. Kuyruk Durumu^000000",
+		" Goruntule dugmesine tiklayarak",
+		" ilgili Savas Alaninin mevcut",
+		" kuyruk durumunu kontrol edebilirsiniz.",
+		"",
+		"",
+		"[Istisnalar]",
+		"^0000FF1. Su durumlarda basvuru ^FF0000yapilamaz^0000FF:^000000",
+		" - Savas Alani zaten devam ediyorsa",
+		" - Bir WoE haritasindaysaniz",
+		" - Bir Anit Zindaninin icindeyseniz",
+		" - Karakteriniz olu durumdaysa",
+		"",
+		"^0000FF2. Su durumlarda basvuru ^FF0000iptal edilir^0000FF:^000000",
+		" - Savas alanina girerken karakteriniz olurse",
+		" - Savas Alani zaten devam ediyorsa",
+		" - Bir WoE haritasindaysaniz",
+		" - Bir Anit Zindaninin icindeyseniz",
+		" - Oyun calismiyorsa",
+		"",
+		"^0000FF3. Savas Alani isinlanmasi su durumda ^FF0000beklemededir^0000FF:^000000",
+		" - Isinlanma su anda mumkun degilse.",
+		" - Diger katilimcilar henuz hazir degilse.",
+		" Bir sure beklerseniz",
+		" savas alanina otomatik olarak isinlanirsiniz.",
+		"",
+		"",
+		"[Katilim Odulleri]",
+		"^0000FF1. Puanlar^000000",
+		" Savas Alani maci tamamlandiginda",
+		" kazanan tarafa gore ^FF0000belirli miktarda puan^000000",
+		" kazanilabilir.",
+		" Biriktirdiginiz puanlarla",
+		" cesitli esyalar alabilirsiniz.",
+		"",
+		"^0000FF2. Puan/Rozet Takasi^000000",
+		" Kayit Gorevlisi Maroll'a tiklayarak",
+		" Savas Alani bolgesine isinlanin.",
+		" Orada cesitli esyalarla takas yapan",
+		" NPC'leri bulabilirsiniz.",
+		"",
+		"^0000FF3. Puan Odulunun Degisebildigi Durumlar^000000",
+		" - Bazi katilimcilar maci terk etmisse.",
+		" - Maci terk edenler ^FF000000odul alamaz^000000.",
+		" - Odul miktari dinamik olarak degisebilir",
+		"   katilimci sayisina bagli olarak",
+		"   mac basladiktan sonraki belirli bir",
+		"   sure icinde.",
+		" - Odul miktari",
+		"   mac sirasinda hesaplanir."
+	},
+	[BATTLE_FIELD_ID.FLAVIUS] = {
+		"1. ^0000FFAd^000000: Flavius Savas Alani",
+		"",
+		"2. ^0000FFMac Turu^000000: ^FF000010^000000 vs ^FF000010^000000",
+		"",
+		"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000",
+		"",
+		"4. ^0000FFAciklama^000000",
+		" Savasi kazanmak icin rakip takimin",
+		" ^FF0000Kristali^000000 yok edilmelidir.",
+		" Ancak kristalin yakininda",
+		" onu koruyan guclu muhafizlar oldugunu unutmayin.",
+		" Kristali basariyla yok eden takima",
+		" 1 puan verilir.",
+		" Takiminiz",
+		" 2 puana ulastiginda kazanir.",
+		"",
+		"5. ^0000FFKamp Bilgisi^000000",
+		" Kamp A - Guillaume takimi.",
+		" Kamp B - Croix takimi.",
+		"",
+		" Taraflar hakkinda daha fazla bilgi icin",
+		" Battlefield Bekleme Odasi'na gidin.",
+		" Gidip", 
+		" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.",
+	},
+	[BATTLE_FIELD_ID.TIERA] = {
+		"1. ^0000FFAd^000000: Tierra Gorge",
+		"",
+		"2. ^0000FFMac Turu^000000: ^FF000010^000000 vs ^FF000010^000000",
+		"",
+		"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000",
+		"",
+		"4. ^0000FFAciklama^000000",
+		" Savasi kazanmak icin rakip takimin",
+		" ^FF0000Deposu^000000 yok edilmelidir.",
+		" Merkez Ussu (Tarafsiz Kamp) ele gecirerek",
+		" kendi ana kampiniz yerine bu bolgede yeniden dogabilirsiniz.",
+		" Bir muhafiz cagirmak iyi bir stratejidir.",
+		" Ancak yine de",
+		" ana kampinizdaki Depoyu savunmaniz gerektigini unutmayin.",
+		"",
+		"5. ^0000FFKamp Bilgisi^000000",
+		" Kamp A - Guillaume takimi.",
+		" Kamp B - Croix takimi.",
+		"",
+		" Taraflar hakkinda daha fazla bilgi icin",
+		" Battlefield Bekleme Odasi'na gidin.",
+		" Gidip", 
+		" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.",
+	},
+	[BATTLE_FIELD_ID.KVM] = {
+		"1. ^0000FFAd^000000: Krieger von Midgard",
+		"",
+		"2. ^0000FFMac Turu^000000: ^FF00005^000000 vs ^FF00005^000000",
+		"",
+		"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000",
+		"",
+		"4. ^0000FFAciklama^000000",
+		" Bazi bolgelerde 'asker'",
+		"	Krieger olarak adlandirilir.",
+		" Baska bir deyisle \"Krieger von Midgard\"",
+		" Midgard Askerleri anlamina gelir.",
+		" Rakip tarafi yenin.",
+		" Savas alani bolgesinde",
+		" en cesur asker oldugunuzu kanitlayin.",
+		"",
+		"5. ^0000FFKamp Bilgisi^000000",
+		" Kamp A - Guillaume takimi.",
+		" Kamp B - Croix takimi.",
+		"",
+		" Taraflar hakkinda daha fazla bilgi icin",
+		" Battlefield Bekleme Odasi'na gidin.",
+		" Gidip", 
+		" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.",
+	}
+}
+
+function SetBattleFieldNo(battleFieldNo)
+	if battleFieldNo == -1 then
+		return battleFieldNo
+	end
+	return math.floor(battleFieldNo / 10) * 10 + 1
+end
+
+function GetBattleFieldName(battleFieldNo)
+	local fieldName = ""
+	battleFieldNo = SetBattleFieldNo(battleFieldNo)
+	if BATTLE_FIELD_NAME[battleFieldNo] ~= nil then
+		fieldName = BATTLE_FIELD_NAME[battleFieldNo]
+	end
+	return fieldName
+end
+
+function GetBattleFieldHelp(battleFieldNo)
+	local descript = ""
+	battleFieldNo = SetBattleFieldNo(battleFieldNo)
+	local help = BATTLE_FIELD_HELP[battleFieldNo]
+	if help ~= nil then
+		for i, v in pairs(help) do
+			descript = descript .. v
+			descript = descript .. "\r\n"
+		end
+	end
+	return descript
+end

@@ -1,0 +1,62 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+title_tbl = {
+	[1000] = "Hayatin Kavusagi",
+	[1001] = "Uzman",
+	[1002] = "Uzman Uye",
+	[1003] = "Usta",
+	[1004] = "Buyuk Usta",
+	[1005] = "Acemi Maceraci",
+	[1006] = "Kidemli Maceraci",
+	[1007] = "Usta Maceraci",
+	[1008] = "Ejderhanin",
+	[1009] = "Deliligin",
+	[1010] = "Celik Beden",
+	[1011] = "Sari Simsek",
+	[1012] = "Keskin",
+	[1013] = "Sansli",
+	[1014] = "Ask ve Nefretin Vucut Bulmus Hali",
+	[1015] = "Manyak",
+	[1016] = "Yeniden Dogmus",
+	[1017] = "Kan Kirmizisi",
+	[1018] = "Acemi Isinlayici",
+	[1019] = "Benimle Dalga Gec Yoyo",
+	[1020] = "Kumarbaz",
+	[1021] = "Savas Kilavuzu Ustasi",
+	[1022] = "Evli",
+	[1023] = "Azimli",
+	[1024] = "Caliskan",
+	[1025] = "Poring Tutkunu",
+	[1026] = "Arka Acici",
+	[1027] = "Hayvansever",
+	[1028] = "Seytan Sozlesmelisi",
+	[1029] = "Monster Kizlari",
+	[1030] = "Monster Oglanlari",
+	[1031] = "Vizyoner",
+	[1032] = "Buyuyen Filiz",
+	[1033] = "Aile Kurucu",
+	[1034] = "VIP",
+	[1035] = "Ork Avcisi",
+	[1036] = "Ork Kahramani",
+	[1037] = "Kaplumbaga Avcisi",
+	[1038] = "Dryad Avcisi",
+	[1039] = "Zaman Avcisi",
+	[1040] = "Raydric Avcisi",
+	[1041] = "Olum Avcisi",
+	[1042] = "Undead Avcisi",
+	[1043] = "Strouf Avcisi",
+	[1044] = "Sting Avcisi",
+	[1045] = "Yanilsama Fatihi",
+	[1046] = "Kral Yapici"
+}
+
+GetTitleString = function(titleID)
+	if title_tbl[titleID] ~= nil then
+		return title_tbl[titleID]
+	end
+	return ""
+end
