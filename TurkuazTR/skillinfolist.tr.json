@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.19.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 670 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.20.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 705 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2691,6 +2691,146 @@
     "MH_GLANZEN_SPIES": {
       "name_original": "Glanzen Spies",
       "name_tr": "Glanzen Spies"
+    },
+    "MH_HEILIGE_PFERD": {
+      "name_original": "Heilige Pferd",
+      "name_tr": "Heilige Pferd"
+    },
+    "MH_GOLDENE_TONE": {
+      "name_original": "Goldene Tone",
+      "name_tr": "Goldene Tone"
+    },
+    "MH_BLAZING_LAVA": {
+      "name_original": "Blazing Lava",
+      "name_tr": "Alevli Lav"
+    },
+    "SKE_SKY_MASTERY": {
+      "name_original": "Sky Mastery",
+      "name_tr": "Gok Ustaligi"
+    },
+    "SKE_WAR_BOOK_MASTERY": {
+      "name_original": "War Book Mastery",
+      "name_tr": "Savas Kitabi Ustaligi"
+    },
+    "SKE_RISING_SUN": {
+      "name_original": "Rising Sun",
+      "name_tr": "Dogmakta Olan Gunes"
+    },
+    "SKE_NOON_BLAST": {
+      "name_original": "Noon Blast",
+      "name_tr": "Ogle Patlamasi"
+    },
+    "SKE_SUNSET_BLAST": {
+      "name_original": "Sunset Blast",
+      "name_tr": "Gun Batimi Patlamasi"
+    },
+    "SKE_RISING_MOON": {
+      "name_original": "Rising Moon",
+      "name_tr": "Dogmakta Olan Ay"
+    },
+    "SKE_MIDNIGHT_KICK": {
+      "name_original": "Midnight Kick",
+      "name_tr": "Gece Yarisi Tekmesi"
+    },
+    "SKE_DAWN_BREAK": {
+      "name_original": "Dawn Break",
+      "name_tr": "Safak Kirilisi"
+    },
+    "SKE_TWINKLING_GALAXY": {
+      "name_original": "Twinkling Galaxy",
+      "name_tr": "Parildayan Galaksi"
+    },
+    "SKE_STAR_BURST": {
+      "name_original": "Star Burst",
+      "name_tr": "Yildiz Patlamasi"
+    },
+    "SKE_STAR_CANNON": {
+      "name_original": "Star Cannon",
+      "name_tr": "Yildiz Topu"
+    },
+    "SKE_ALL_IN_THE_SKY": {
+      "name_original": "All in the Sky",
+      "name_tr": "Gokteki Her Sey"
+    },
+    "SKE_ENCHANTING_SKY": {
+      "name_original": "Enchanting Sky",
+      "name_tr": "Buyulu Gok"
+    },
+    "SOA_TALISMAN_MASTERY": {
+      "name_original": "Talisman Mastery",
+      "name_tr": "Tilsim Ustaligi"
+    },
+    "SOA_SOUL_MASTERY": {
+      "name_original": "Soul Mastery",
+      "name_tr": "Ruh Ustaligi"
+    },
+    "SOA_TALISMAN_OF_PROTECTION": {
+      "name_original": "Talisman of Protection",
+      "name_tr": "Koruma Tilsimi"
+    },
+    "SOA_TALISMAN_OF_WARRIOR": {
+      "name_original": "Talisman of Warrior",
+      "name_tr": "Savasci Tilsimi"
+    },
+    "SOA_TALISMAN_OF_MAGICIAN": {
+      "name_original": "Talisman of Magician",
+      "name_tr": "Buyucu Tilsimi"
+    },
+    "SOA_SOUL_GATHERING": {
+      "name_original": "Soul Gathering",
+      "name_tr": "Ruh Toplama"
+    },
+    "SOA_TOTEM_OF_TUTELARY": {
+      "name_original": "Talisman of Tutelary",
+      "name_tr": "Koruyucu Tilsim"
+    },
+    "SOA_TALISMAN_OF_FIVE_ELEMENTS": {
+      "name_original": "Talisman of Five Elements",
+      "name_tr": "Bes Element Tilsimi"
+    },
+    "SOA_TALISMAN_OF_SOUL_STEALING": {
+      "name_original": "Talisman of Soul Stealing",
+      "name_tr": "Ruh Calma Tilsimi"
+    },
+    "SOA_EXORCISM_OF_MALICIOUS_SOUL": {
+      "name_original": "Exorcism of Malicious Soul",
+      "name_tr": "Kotu Ruhu Kovma"
+    },
+    "SOA_TALISMAN_OF_BLUE_DRAGON": {
+      "name_original": "Talisman of Blue Dragon",
+      "name_tr": "Mavi Ejderha Tilsimi"
+    },
+    "SOA_TALISMAN_OF_WHITE_TIGER": {
+      "name_original": "Talisman of White Tiger",
+      "name_tr": "Beyaz Kaplan Tilsimi"
+    },
+    "SOA_TALISMAN_OF_RED_PHOENIX": {
+      "name_original": "Talisman of Red Phoenix",
+      "name_tr": "Kizil Anka Tilsimi"
+    },
+    "SOA_TALISMAN_OF_BLACK_TORTOISE": {
+      "name_original": "Talisman of Black Tortoise",
+      "name_tr": "Kara Kaplumbaga Tilsimi"
+    },
+    "SOA_TALISMAN_OF_FOUR_BEARING_GOD": {
+      "name_original": "Talisman of Four Bearing God",
+      "name_tr": "Dort Yon Tanrisi Tilsimi"
+    },
+    "SOA_CIRCLE_OF_DIRECTIONS_AND_ELEMENTALS": {
+      "name_original": "Circle of Directions and Elementals",
+      "name_tr": "Yonler ve Elementler Cemberi"
+    },
+    "SOA_SOUL_OF_HEAVEN_AND_EARTH": {
+      "name_original": "Soul of Heaven and Earth",
+      "name_tr": "Gok ve Yer Ruhu"
+    },
+    "SH_MYSTICAL_CREATURE_MASTERY": {
+      "name_original": "Mystical Creature Mastery",
+      "name_tr": "Mistik Yaratik Ustaligi"
+    },
+    "SH_COMMUNE_WITH_CHUL_HO": {
+      "name_original": "Commune With Chulho",
+      "name_tr": "Chulho ile Uyum"
     }
   },
   "name_profiles": {
@@ -2703,5 +2843,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 670
+  "patch_count": 705
 }
