@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.20.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 705 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.21.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 740 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2831,6 +2831,146 @@
     "SH_COMMUNE_WITH_CHUL_HO": {
       "name_original": "Commune With Chulho",
       "name_tr": "Chulho ile Uyum"
+    },
+    "SH_CHUL_HO_SONIC_CLAW": {
+      "name_original": "Chulho Sonic Claw",
+      "name_tr": "Chulho Sonik Pencesi"
+    },
+    "SH_HOWLING_OF_CHUL_HO": {
+      "name_original": "Howling of Chulho",
+      "name_tr": "Chulho Kukremesi"
+    },
+    "SH_HOGOGONG_STRIKE": {
+      "name_original": "Hogogong Strike",
+      "name_tr": "Hogogong Darbesi"
+    },
+    "SH_COMMUNE_WITH_KI_SUL": {
+      "name_original": "Commune With Kisul",
+      "name_tr": "Kisul ile Uyum"
+    },
+    "SH_KI_SUL_WATER_SPRAYING": {
+      "name_original": "Kisul Water Spraying",
+      "name_tr": "Kisul Su Puskurtme"
+    },
+    "SH_MARINE_FESTIVAL_OF_KI_SUL": {
+      "name_original": "Marine Festival of Kisul",
+      "name_tr": "Kisul Deniz Festivali"
+    },
+    "SH_SANDY_FESTIVAL_OF_KI_SUL": {
+      "name_original": "Sandy Festival of Kisul",
+      "name_tr": "Kisul Kum Festivali"
+    },
+    "SH_KI_SUL_RAMPAGE": {
+      "name_original": "Kisul Rampage",
+      "name_tr": "Kisul Hiddeti"
+    },
+    "SH_COMMUNE_WITH_HYUN_ROK": {
+      "name_original": "Commune With Hyunrok",
+      "name_tr": "Hyunrok ile Uyum"
+    },
+    "SH_COLORS_OF_HYUN_ROK": {
+      "name_original": "Colors of Hyunrok",
+      "name_tr": "Hyunrok'un Renkleri"
+    },
+    "SH_HYUN_ROKS_BREEZE": {
+      "name_original": "Hyunrok Breeze",
+      "name_tr": "Hyunrok Esintisi"
+    },
+    "SH_HYUN_ROK_CANNON": {
+      "name_original": "Hyunrok Cannon",
+      "name_tr": "Hyunrok Topu"
+    },
+    "SH_TEMPORARY_COMMUNION": {
+      "name_original": "Temporary Communion",
+      "name_tr": "Gecici Uyum"
+    },
+    "SH_BLESSING_OF_MYSTICAL_CREATURES": {
+      "name_original": "Blessing of Mystical Creatures",
+      "name_tr": "Mistik Yaratiklarin Kutsamasi"
+    },
+    "NW_P_F_I": {
+      "name_original": "P.F.I",
+      "name_tr": "P.F.I"
+    },
+    "NW_GRENADE_MASTERY": {
+      "name_original": "Grenade Mastery",
+      "name_tr": "El Bombasi Ustaligi"
+    },
+    "NW_INTENSIVE_AIM": {
+      "name_original": "Intensive Aim",
+      "name_tr": "Yogun Nisan"
+    },
+    "NW_GRENADE_FRAGMENT": {
+      "name_original": "Grenade Fragment",
+      "name_tr": "El Bombasi Parcasi"
+    },
+    "NW_THE_VIGILANTE_AT_NIGHT": {
+      "name_original": "The Vigilante at Night",
+      "name_tr": "Gece Nobetcisi"
+    },
+    "NW_THE_VIGILANTE_AT_NIGHT_GUN_SHOTGUN": {
+      "name_original": "The Vigilante at Night",
+      "name_tr": "Gece Nobetcisi"
+    },
+    "NW_THE_VIGILANTE_AT_NIGHT_GUN_GATLING": {
+      "name_original": "The Vigilante at Night",
+      "name_tr": "Gece Nobetcisi"
+    },
+    "NW_ONLY_ONE_BULLET": {
+      "name_original": "Only One Bullet",
+      "name_tr": "Tek Mermi"
+    },
+    "NW_SPIRAL_SHOOTING": {
+      "name_original": "Spiral Shooting",
+      "name_tr": "Spiral Atis"
+    },
+    "NW_MAGAZINE_FOR_ONE": {
+      "name_original": "Magazine for One",
+      "name_tr": "Tek Kisilik Sarjor"
+    },
+    "NW_WILD_FIRE": {
+      "name_original": "Wild Fire",
+      "name_tr": "Vahsi Ates"
+    },
+    "NW_BASIC_GRENADE": {
+      "name_original": "Basic Grenade",
+      "name_tr": "Temel El Bombasi"
+    },
+    "NW_HASTY_FIRE_IN_THE_HOLE": {
+      "name_original": "Hasty Fire in the Hole",
+      "name_tr": "Hizli El Bombasi Atisi"
+    },
+    "NW_GRENADES_DROPPING": {
+      "name_original": "Grenade Dropping",
+      "name_tr": "El Bombasi Yagmuru"
+    },
+    "NW_AUTO_FIRING_LAUNCHER": {
+      "name_original": "Auto Firing Launcher",
+      "name_tr": "Otomatik Atesleyici"
+    },
+    "NW_HIDDEN_CARD": {
+      "name_original": "Hidden Card",
+      "name_tr": "Gizli Kart"
+    },
+    "NW_MISSION_BOMBARD": {
+      "name_original": "Mission Bombard",
+      "name_tr": "Gorev Bombardimani"
+    },
+    "HN_SELFSTUDY_TATICS": {
+      "name_original": "Self Study Tactics",
+      "name_tr": "Kendi Kendine Taktik Calismasi"
+    },
+    "HN_SELFSTUDY_SOCERY": {
+      "name_original": "Self Study Sorcery",
+      "name_tr": "Kendi Kendine Buyu Calismasi"
+    },
+    "HN_DOUBLEBOWLINGBASH": {
+      "name_original": "Double Bowling Bash",
+      "name_tr": "Cift Bowling Darbesi"
+    },
+    "HN_SHIELD_CHAIN_RUSH": {
+      "name_original": "Shield Chain Rush",
+      "name_tr": "Kalkan Zinciri Hucumu"
     }
   },
   "name_profiles": {
@@ -2843,5 +2983,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 705
+  "patch_count": 740
 }
