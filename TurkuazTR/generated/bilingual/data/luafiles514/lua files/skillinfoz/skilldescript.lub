@@ -474,7 +474,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Azalan Hasar: 30^000000"
 	},
 	[SKID.AL_DEMONBANE] = {
-		"Demon Bane",
+		"Iblis Avcisi (Demon Bane)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Divine Protection 3^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -5708,7 +5708,7 @@ SKILL_DESCRIPT = {
 		"Aciklama: ^777777Kullananin ^CC6600MATK^777777 degerine esit, hedefin ^CC6600Defense^777777 degerinden etkilenen ^009999Neutral^777777 elementli hasar verir.^000000"
 	},
 	[SKID.HW_MAGICPOWER] = {
-		"Mystical Amplification",
+		"Buyusel Guclendirme (Mystical Amplification)",
 		"Maks. Seviye: 10",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Destek^000000",
@@ -5805,7 +5805,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777MaksSP +20%^000000"
 	},
 	[SKID.PA_PRESSURE] = {
-		"Pressure (Gloria Domini)",
+		"Baski (Pressure)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Endure 5, Faith 5, Shield Charge 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5819,7 +5819,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777MATK 1250%^000000"
 	},
 	[SKID.PA_SACRIFICE] = {
-		"Sacrifice (Martyr's Reckoning)",
+		"Fedakarlik (Sacrifice)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Endure 1, Devotion 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5834,7 +5834,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Hasar x1.4^000000"
 	},
 	[SKID.PA_GOSPEL] = {
-		"Gospel (Battle Chant)",
+		"Kutsal Ilahi (Gospel)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Faith 8, Divine Protection 3, Demon Bane 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5845,7 +5845,7 @@ SKILL_DESCRIPT = {
 		"^0000FFGospel^777777 kullanimi sirasinda kullanan ^663399Silence^777777 olursa skill iptal edilir.^000000"
 	},
 	[SKID.CH_PALMSTRIKE] = {
-		"Palm Strike",
+		"Avuc Darbesi (Palm Strike)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Iron Hand 7, Call Spirits 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5860,7 +5860,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777ATK 700%^000000"
 	},
 	[SKID.CH_TIGERFIST] = {
-		"Tiger Fist",
+		"Kaplan Yumrugu (Tiger Fist)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Iron Hand 5, Triple Attack 5, Combo Finish 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5875,7 +5875,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777ATK 1250%, Sabitleme Sansi 60%^000000"
 	},
 	[SKID.CH_CHAINCRUSH] = {
-		"Chain Crush Combo",
+		"Zincir Ezme Kombosu (Chain Crush Combo)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Iron Hand 5, Call Spirits 5, Tiger Fist 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5921,7 +5921,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^77777780% Chance^000000"
 	},
 	[SKID.PF_HPCONVERSION] = {
-		"Indulge",
+		"HP Donusumu (Indulge)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Increase SP Recovery 1, Magic Rod 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5935,7 +5935,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777SP +50%^000000"
 	},
 	[SKID.PF_SOULCHANGE] = {
-		"Soul Change",
+		"Ruh Degisimi (Soul Change)",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Magic Rod 3, Spell Breaker 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5945,7 +5945,7 @@ SKILL_DESCRIPT = {
 		"Kullananin aldigi ^CC6600SP^777777, ^CC6600MaksSP^777777 limitini asamaz.^000000"
 	},
 	[SKID.PF_SOULBURN] = {
-		"Soul Burn",
+		"Ruh Yakma (Soul Burn)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Cast Cancel 5, Magic Rod 3, Dispell 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -6080,7 +6080,7 @@ SKILL_DESCRIPT = {
 		"1 ^663399Karvodailnirol^000000"
 	},
 	[SKID.ASC_KATAR] = {
-		"Advanced Katar Mastery",
+		"Ileri Katar Ustaligi (Advanced Katar Mastery)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Double Attack 5, Katar Mastery 7^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -6092,7 +6092,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Hasar +20%^000000"
 	},
 	[SKID.ASC_EDP] = {
-		"Enchant Deadly Poison",
+		"Olumcul Zehir Buyusu (Enchant Deadly Poison)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Create Deadly Poison 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -6102,7 +6102,7 @@ SKILL_DESCRIPT = {
 		"Zehirlenen hedefin ^CC6600HP^777777 degeri ^663399Poison^777777 suresince hizla azalir. 1 ^990099Poison Bottle^777777 tuketir.^000000"
 	},
 	[SKID.ASC_BREAKER] = {
-		"Soul Destroyer",
+		"Ruh Yok Edici (Soul Destroyer)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Double Attack 5, Envenom 5, Cloaking 3, Enchant Poison 6^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -6122,7 +6122,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777ATK 1500%^000000"
 	},
 	[SKID.SN_SIGHT] = {
-		"True Sight",
+		"Gercek Gorus (True Sight)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Owl's Eye 10, Vulture's Eye 10, Improve Concentration 10, Falconry Mastery 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -6141,7 +6141,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777HIT +30%, Hasar +20%, Critical +10^000000"
 	},
 	[SKID.SN_FALCONASSAULT] = {
-		"Falcon Assault",
+		"Sahin Taarruzu (Falcon Assault)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Vulture's Eye 5, Falconry Mastery 1, Blitz Beat 5, Steel Crow 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -6150,7 +6150,7 @@ SKILL_DESCRIPT = {
 		"Aciklama: ^777777^0000FFFalcon^777777'a hedefe guclu bir saldiri yapmasini emreder. Hasar skill seviyesi ve kullananin ^CC6600Base Level^777777 degerine gore artar.^000000"
 	},
 	[SKID.SN_SHARPSHOOTING] = {
-		"Sharp Shooting",
+		"Keskin Atis (Sharp Shooting)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Double Strafe 5, Improve Concentration 10^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -7963,7 +7963,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^7777775,000~10,000 Zeny^000000"
 	},
 	[SKID.NJ_TATAMIGAESHI] = {
-		"Flip Tatami",
+		"Tatami Cevirme (Flip Tatami)",
 		"Maks. Seviye: 5",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^FF0000Fiziksel Yakin Dovus^000000",
@@ -8304,7 +8304,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777MATK 600%, Range: 9 cells^000000"
 	},
 	[SKID.NJ_NEN] = {
-		"Ninja Aura",
+		"Ninja Aurasi (Ninja Aura)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Ninja Mastery 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -8584,7 +8584,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777ATK 2550%^000000"
 	},
 	[SKID.RK_DEATHBOUND] = {
-		"Death Bound",
+		"Olum Bagi (Death Bound)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Auto Counter 1, Enchant Blade 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -8676,7 +8676,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777ATK 2250%^000000"
 	},
 	[SKID.RK_DRAGONTRAINING] = {
-		"Dragon Training",
+		"Ejderha Egitimi (Dragon Training)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Cavalry Mastery 1^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -8825,7 +8825,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777ATK 2150%^000000"
 	},
 	[SKID.GC_DARKILLUSION] = {
-		"Dark Illusion",
+		"Karanlik Yanilsama (Dark Illusion)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Cross Impact 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -13416,7 +13416,7 @@ Masquerade Unlucky 3^000000",
 		" 33% Chance of Healing Enemy^000000"
 	},
 	[SKID.HVAN_INSTRUCT] = {
-		"Change Instruction",
+		"Talimat Degistirme (Change Instruction)",
 		"Maks. Seviye: 5",
 		"Beceri Turu: ^6666CCPasif^000000",
 		"Aciklama: ^777777Homunculus'un INT ve STR degerlerini artirir.^000000",
@@ -13958,7 +13958,7 @@ Masquerade Unlucky 3^000000",
 		"yeniler. Kullanildiktan sonra 5 dakika boyunca tekrar cast edilemez.^000000"
 	},
 	[SKID.GD_EMERGENCYCALL] = {
-		"Emergency Call",
+		"Acil Cagri (Emergency Call)",
 		"Tur: ^339900Destek^000000",
 		"Hedef: ^6666CCTum Cevrimici Guild Uyeleri^000000",
 		"Aciklama: ^777777Yalnizca WoE (Guild War) sirasinda kullanilabilir. Guildmaster tum cevrimici guild uyelerini yanina cagirir.",
@@ -14157,7 +14157,7 @@ Masquerade Unlucky 3^000000",
 		"[Lv 5]: ^777777Duration: 21 seconds^000000"
 	},
 	[SKID.MH_STAHL_HORN] = {
-		"Stahl Horn",
+		"Celik Boynuz (Stahl Horn)",
 		"Maks. Seviye: 10",
 		"Aciklama: ^777777Tek hedefe atilip hasar verir ve ^663399Stun^777777 uygular.",
 		"Hasar ^0000FFHomunculus^777777'un ^CC6600Base Level^777777 ve ^CC6600VIT^777777 degerlerine gore artar.^000000",
