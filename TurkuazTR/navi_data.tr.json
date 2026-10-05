@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.16.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 2272 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.17.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 2273 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 2272,
+  "patch_count": 2273,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -8148,6 +8148,10 @@
     "4051": {
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 4\uce35\"] = \"Prontera Culvert F4\",",
       "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 4\uce35\"] = \"Prontera Kanalizasyonu K4\","
+    },
+    "4052": {
+      "source_en": "\t[\"\ucd1d\uc54c \ud0c4 \uc57c\uc639\uc774\"] = \"Gun Bullet Cat\",",
+      "translation_tr": "\t[\"\ucd1d\uc54c \ud0c4 \uc57c\uc639\uc774\"] = \"Mermiye Binen Kedi\","
     },
     "4053": {
       "source_en": "\t[\"\uc720\ub178\uc758 \ubc84\ub824\uc9c4 \uc9d1 \ub0b4\ubd80\"] = \"Inside of the Abandoned House in Yuno\",",
