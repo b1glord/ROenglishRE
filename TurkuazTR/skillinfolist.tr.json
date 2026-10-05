@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.16.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 565 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.17.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 600 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2271,6 +2271,146 @@
     "WH_ADVANCED_TRAP": {
       "name_original": "Advanced Trap",
       "name_tr": "Gelismis Tuzak"
+    },
+    "WH_WIND_SIGN": {
+      "name_original": "Wind Sign",
+      "name_tr": "Ruzgar Isareti"
+    },
+    "WH_NATUREFRIENDLY": {
+      "name_original": "Nature Friendly",
+      "name_tr": "Doga Dostu"
+    },
+    "WH_HAWKRUSH": {
+      "name_original": "Hawk Rush",
+      "name_tr": "Sahin Hucumu"
+    },
+    "WH_HAWK_M": {
+      "name_original": "Hawk Mastery",
+      "name_tr": "Sahin Ustaligi"
+    },
+    "WH_CALAMITYGALE": {
+      "name_original": "Calamity Gale",
+      "name_tr": "Felaket Ruzgari"
+    },
+    "WH_HAWKBOOMERANG": {
+      "name_original": "Hawk Boomerang",
+      "name_tr": "Sahin Bumerangi"
+    },
+    "WH_GALESTORM": {
+      "name_original": "Gale Storm",
+      "name_tr": "Ruzgar Firtinasi"
+    },
+    "WH_DEEPBLINDTRAP": {
+      "name_original": "Deep Blinding Trap",
+      "name_tr": "Derin Kor Eden Tuzak"
+    },
+    "WH_SOLIDTRAP": {
+      "name_original": "Solid Trap",
+      "name_tr": "Saglam Tuzak"
+    },
+    "WH_SWIFTTRAP": {
+      "name_original": "Swift Trap",
+      "name_tr": "Cevik Tuzak"
+    },
+    "WH_FLAMETRAP": {
+      "name_original": "Flame Trap",
+      "name_tr": "Alev Tuzagi"
+    },
+    "WH_CRESCIVE_BOLT": {
+      "name_original": "Cresive Bolt",
+      "name_tr": "Yukselen Ok"
+    },
+    "TR_STAGE_MANNER": {
+      "name_original": "Stage Manner",
+      "name_tr": "Sahne Tavri"
+    },
+    "TR_RETROSPECTION": {
+      "name_original": "Retrospection",
+      "name_tr": "Geriye Bakis"
+    },
+    "TR_MYSTIC_SYMPHONY": {
+      "name_original": "Mystic Symphony",
+      "name_tr": "Mistik Senfoni"
+    },
+    "TR_KVASIR_SONATA": {
+      "name_original": "Sonata of Kvasir",
+      "name_tr": "Kvasir Sonati"
+    },
+    "TR_ROSEBLOSSOM": {
+      "name_original": "Rose Blossom",
+      "name_tr": "Gul Ciceklenmesi"
+    },
+    "TR_RHYTHMSHOOTING": {
+      "name_original": "Rhythm Shooting",
+      "name_tr": "Ritim Atisi"
+    },
+    "TR_METALIC_FURY": {
+      "name_original": "Metallic Fury",
+      "name_tr": "Metalik Ofke"
+    },
+    "TR_SOUNDBLEND": {
+      "name_original": "Sound Blend",
+      "name_tr": "Ses Harmani"
+    },
+    "TR_GEF_NOCTURN": {
+      "name_original": "Geffenia Nocturne",
+      "name_tr": "Geffenia Nokturnu"
+    },
+    "TR_ROKI_CAPRICCIO": {
+      "name_original": "Capriccio of Roki",
+      "name_tr": "Roki Kapricyosu"
+    },
+    "TR_AIN_RHAPSODY": {
+      "name_original": "Raphsody of Mineworker",
+      "name_tr": "Madenci Rapsodisi"
+    },
+    "TR_MUSICAL_INTERLUDE": {
+      "name_original": "Musical Interlude",
+      "name_tr": "Muzikal Ara"
+    },
+    "TR_JAWAII_SERENADE": {
+      "name_original": "Serenade of Jawaii",
+      "name_tr": "Jawaii Serenadi"
+    },
+    "TR_NIPELHEIM_REQUIEM": {
+      "name_original": "Requiem of Nifleheim",
+      "name_tr": "Niflheim Requiemi"
+    },
+    "TR_PRON_MARCH": {
+      "name_original": "March of Prontera",
+      "name_tr": "Prontera Marsi"
+    },
+    "ABC_DAGGER_AND_BOW_M": {
+      "name_original": "Dagger & Bow Mastery",
+      "name_tr": "Hancer ve Yay Ustaligi"
+    },
+    "ABC_MAGIC_SWORD_M": {
+      "name_original": "Magic Sword Mastery",
+      "name_tr": "Buyulu Kilic Ustaligi"
+    },
+    "ABC_STRIP_SHADOW": {
+      "name_original": "Strip Shadow",
+      "name_tr": "Golgeyi Soy"
+    },
+    "ABC_ABYSS_DAGGER": {
+      "name_original": "Abyss Dagger",
+      "name_tr": "Ucurum Hanceri"
+    },
+    "ABC_UNLUCKY_RUSH": {
+      "name_original": "Unlucky Rush",
+      "name_tr": "Ugursuz Hucum"
+    },
+    "ABC_CHAIN_REACTION_SHOT": {
+      "name_original": "Chain Reaction Shot",
+      "name_tr": "Zincirleme Tepki Atisi"
+    },
+    "ABC_FROM_THE_ABYSS": {
+      "name_original": "From the Abyss",
+      "name_tr": "Ucurumdan"
+    },
+    "ABC_ABYSS_SLAYER": {
+      "name_original": "Abyss Slayer",
+      "name_tr": "Ucurum Avcisi"
     }
   },
   "name_profiles": {
@@ -2283,5 +2423,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 565
+  "patch_count": 600
 }
