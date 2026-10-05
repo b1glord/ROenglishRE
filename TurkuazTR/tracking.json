@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "2.0.0",
-    "description": "Ceviri durum aracinin ana localization dosyalarini, ortak profilleri ve overlay kaynaklarini takip etmesini saglar",
+    "version": "2.1.0",
+    "description": "Ceviri durum aracinin ana localization, yardim, unvan, harita, random option ve kart prefix overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
   "locale": "tr-TR",
@@ -138,6 +138,78 @@
       ],
       "related_generated_path": "Translation/Renewal/SystemEN/OngoingQuests.lub",
       "overlay_type": "record"
+    },
+    {
+      "name": "help_messages",
+      "path": "Translation/Renewal/data/luafiles514/lua files/datainfo/helpmsgstr.lub",
+      "patch_path": "TurkuazTR/helpmsgstr.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "titles",
+      "path": "Translation/Renewal/data/luafiles514/lua files/datainfo/titletable.lub",
+      "patch_path": "TurkuazTR/titletable.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "worldview",
+      "path": "Translation/Renewal/data/luafiles514/lua files/worldviewdata/worldviewdata_language.lub",
+      "patch_path": "TurkuazTR/worldviewdata_language.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "map_names",
+      "path": "Translation/Renewal/data/mapnametable.txt",
+      "patch_path": "TurkuazTR/mapnametable.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "random_option_names",
+      "path": "Translation/Renewal/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+      "patch_path": "TurkuazTR/addrandomoptionnametable.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
+    },
+    {
+      "name": "card_prefix_names",
+      "path": "Translation/Renewal/data/cardprefixnametable.txt",
+      "patch_path": "TurkuazTR/cardprefixnametable.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
     }
   ],
   "intentional_english_path": "TurkuazTR/intentional-english.json",
