@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 1.6.0
+# Version: 1.7.0
 # Aciklama: Upstream 2026, Turkce overlay ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -56,31 +56,31 @@ sync:
     profiles: "TurkuazTR/localization-profiles.json"
   achievements:
     status: translated_partial
-    translated_lines: 1637
+    translated_lines: 1638
     strategy: exact_source_overlay
     patch: "TurkuazTR/achievements.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   recommended_quests:
     status: translated_partial
-    translated_lines: 252
+    translated_lines: 270
     strategy: exact_source_overlay
     patch: "TurkuazTR/recommended_quests.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   town_info:
-    status: translated_partial
-    translated_lines: 2
+    status: translated_complete
+    translated_lines: 4
     strategy: exact_source_overlay
     patch: "TurkuazTR/towninfo.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   sign_data:
-    status: translated_partial
-    translated_lines: 53
+    status: translated_complete
+    translated_lines: 61
     strategy: exact_source_overlay
     patch: "TurkuazTR/sign_data.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   navi_data:
     status: translated_partial
-    translated_lines: 1327
+    translated_lines: 1926
     strategy: exact_source_overlay
     patch: "TurkuazTR/navi_data.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
