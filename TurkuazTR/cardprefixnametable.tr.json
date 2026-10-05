@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/cardprefixnametable.tr.json",
     "purpose": "Renewal kart prefix/suffix gorunen adlari icin ASCII Turkce exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "cardprefixnametable.txt temel 4001-4100 kart adi blogundaki 100 satiri Turkcelestirir",
+    "version": "1.1.0",
+    "description": "cardprefixnametable.txt temel 4001-4200 kart adi bloklarindaki 200 satiri Turkcelestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/cardprefixnametable.txt",
   "source_ref": "upstream/latest",
   "source_blob_sha": "717a5c79110e5a38e1a03453b397b83193a852d6",
   "source_line_count": 1619,
-  "patch_count": 100,
+  "patch_count": 200,
   "patches": {
     "1": {
       "source_en": "4001#Lucky#",
@@ -412,6 +412,406 @@
     "100": {
       "source_en": "4100#Soul-Enchanted#",
       "translation_tr": "4100#Ruh Buyulu#"
+    },
+    "101": {
+      "source_en": "4101#of Gnome#",
+      "translation_tr": "4101#Gnome'un#"
+    },
+    "102": {
+      "source_en": "4102#Mocking#",
+      "translation_tr": "4102#Alayci#"
+    },
+    "103": {
+      "source_en": "4103#Clairvoyant#",
+      "translation_tr": "4103#Durugorulu#"
+    },
+    "104": {
+      "source_en": "4104#Chaos#",
+      "translation_tr": "4104#Kaos#"
+    },
+    "105": {
+      "source_en": "4105#Unfrozen#",
+      "translation_tr": "4105#Donmaz#"
+    },
+    "106": {
+      "source_en": "4106#Ancient#",
+      "translation_tr": "4106#Antik#"
+    },
+    "107": {
+      "source_en": "4107#Fledged#",
+      "translation_tr": "4107#Kanatli#"
+    },
+    "108": {
+      "source_en": "4108#Innoxious#",
+      "translation_tr": "4108#Zararsiz#"
+    },
+    "109": {
+      "source_en": "4109#Flameguard#",
+      "translation_tr": "4109#Alev Muhafizi#"
+    },
+    "110": {
+      "source_en": "4110#Viper's#",
+      "translation_tr": "4110#Engeregin#"
+    },
+    "111": {
+      "source_en": "4111#Decussate#",
+      "translation_tr": "4111#Capraz#"
+    },
+    "112": {
+      "source_en": "4112#Peerless#",
+      "translation_tr": "4112#Essiz#"
+    },
+    "113": {
+      "source_en": "4113#of Ghost#",
+      "translation_tr": "4113#Ruhun#"
+    },
+    "114": {
+      "source_en": "4114#Poisoning#",
+      "translation_tr": "4114#Zehirleyici#"
+    },
+    "115": {
+      "source_en": "4115#Malicious#",
+      "translation_tr": "4115#Kotucul#"
+    },
+    "116": {
+      "source_en": "4116#Divine#",
+      "translation_tr": "4116#Ilahi#"
+    },
+    "117": {
+      "source_en": "4117#Hybrid#",
+      "translation_tr": "4117#Hibrit#"
+    },
+    "118": {
+      "source_en": "4118#Dragoon#",
+      "translation_tr": "4118#Ejderha Savascisi#"
+    },
+    "119": {
+      "source_en": "4119#Evil#",
+      "translation_tr": "4119#Kotu#"
+    },
+    "120": {
+      "source_en": "4120#of Dragoon#",
+      "translation_tr": "4120#Ejderha Savascisinin#"
+    },
+    "121": {
+      "source_en": "4121#Perfect#",
+      "translation_tr": "4121#Kusursuz#"
+    },
+    "122": {
+      "source_en": "4122#Adurate#",
+      "translation_tr": "4122#Dayanikli#"
+    },
+    "123": {
+      "source_en": "4123#Bearer's#",
+      "translation_tr": "4123#Tasiyicinin#"
+    },
+    "124": {
+      "source_en": "4124#Plasterer's#",
+      "translation_tr": "4124#Sivacinin#"
+    },
+    "125": {
+      "source_en": "4125#Aqua#",
+      "translation_tr": "4125#Su#"
+    },
+    "126": {
+      "source_en": "4126#Titan#",
+      "translation_tr": "4126#Titan#"
+    },
+    "127": {
+      "source_en": "4127#Insomniac#",
+      "translation_tr": "4127#Uykusuz#"
+    },
+    "128": {
+      "source_en": "4128#of Deaf#",
+      "translation_tr": "4128#Sagirin#"
+    },
+    "129": {
+      "source_en": "4129#of Rogue#",
+      "translation_tr": "4129#Rogue'un#"
+    },
+    "130": {
+      "source_en": "4130#Divine#",
+      "translation_tr": "4130#Ilahi#"
+    },
+    "131": {
+      "source_en": "4131#Hasty#",
+      "translation_tr": "4131#Aceleci#"
+    },
+    "132": {
+      "source_en": "4132#of Gemstone#",
+      "translation_tr": "4132#Mucevherin#"
+    },
+    "133": {
+      "source_en": "4133#Immune#",
+      "translation_tr": "4133#Bagisik#"
+    },
+    "134": {
+      "source_en": "4134#Spiritual#",
+      "translation_tr": "4134#Ruhani#"
+    },
+    "135": {
+      "source_en": "4135#Mirror#",
+      "translation_tr": "4135#Ayna#"
+    },
+    "136": {
+      "source_en": "4136#from Hell#",
+      "translation_tr": "4136#Cehennemden#"
+    },
+    "137": {
+      "source_en": "4137#of Infinity#",
+      "translation_tr": "4137#Sonsuzlugun#"
+    },
+    "138": {
+      "source_en": "4138#Satanic#",
+      "translation_tr": "4138#Seytani#"
+    },
+    "139": {
+      "source_en": "4139#of Moonlight#",
+      "translation_tr": "4139#Ay Isiginin#"
+    },
+    "140": {
+      "source_en": "4140#Liberation#",
+      "translation_tr": "4140#Ozgurluk#"
+    },
+    "141": {
+      "source_en": "4141#Deadly#",
+      "translation_tr": "4141#Olumcul#"
+    },
+    "142": {
+      "source_en": "4142#of Berserk#",
+      "translation_tr": "4142#Berserk'in#"
+    },
+    "143": {
+      "source_en": "4143#Neutral#",
+      "translation_tr": "4143#Notr#"
+    },
+    "144": {
+      "source_en": "4144#of Eternity#",
+      "translation_tr": "4144#Ebediyetin#"
+    },
+    "145": {
+      "source_en": "4145#of Bigmouth#",
+      "translation_tr": "4145#Gevezenin#"
+    },
+    "146": {
+      "source_en": "4146#Reflect#",
+      "translation_tr": "4146#Yansitma#"
+    },
+    "147": {
+      "source_en": "4147#Scythelike#",
+      "translation_tr": "4147#Tirpanvari#"
+    },
+    "148": {
+      "source_en": "4148#of Kirin#",
+      "translation_tr": "4148#Kirin'in#"
+    },
+    "149": {
+      "source_en": "4149#of Clear Sky#",
+      "translation_tr": "4149#Acik Gokyuzunun#"
+    },
+    "150": {
+      "source_en": "4150#of Resist Spell Power#",
+      "translation_tr": "4150#Buyu Gucu Direnci#"
+    },
+    "151": {
+      "source_en": "4151#of Nature Destroyer#",
+      "translation_tr": "4151#Doga Yok Edicinin#"
+    },
+    "152": {
+      "source_en": "4152#Juicy#",
+      "translation_tr": "4152#Sulu#"
+    },
+    "153": {
+      "source_en": "4153#Cancer#",
+      "translation_tr": "4153#Yengec#"
+    },
+    "154": {
+      "source_en": "4154#of Candy Smell#",
+      "translation_tr": "4154#Seker Kokusunun#"
+    },
+    "155": {
+      "source_en": "4155#Fatal Goblin#",
+      "translation_tr": "4155#Olumcul Goblin#"
+    },
+    "156": {
+      "source_en": "4156#Fatal Frame#",
+      "translation_tr": "4156#Olumcul Cerceve#"
+    },
+    "157": {
+      "source_en": "4157#Hard Hit#",
+      "translation_tr": "4157#Sert Darbe#"
+    },
+    "158": {
+      "source_en": "4158#of Slaughter#",
+      "translation_tr": "4158#Katliamin#"
+    },
+    "159": {
+      "source_en": "4159#High Level#",
+      "translation_tr": "4159#Yuksek Level#"
+    },
+    "160": {
+      "source_en": "4160#High Level#",
+      "translation_tr": "4160#Yuksek Level#"
+    },
+    "161": {
+      "source_en": "4161#Anti-Magic#",
+      "translation_tr": "4161#Buyu Karsiti#"
+    },
+    "162": {
+      "source_en": "4162#of Blind#",
+      "translation_tr": "4162#Korlugun#"
+    },
+    "163": {
+      "source_en": "4163#Wild#",
+      "translation_tr": "4163#Vahsi#"
+    },
+    "164": {
+      "source_en": "4164#Fisherman's#",
+      "translation_tr": "4164#Balikcinin#"
+    },
+    "165": {
+      "source_en": "4165#Insect Soul Gain#",
+      "translation_tr": "4165#Bocek Ruh Kazanimi#"
+    },
+    "166": {
+      "source_en": "4166#of Jinx#",
+      "translation_tr": "4166#Ugursuzlugun#"
+    },
+    "167": {
+      "source_en": "4167#Beast Soul Gain#",
+      "translation_tr": "4167#Canavar Ruh Kazanimi#"
+    },
+    "168": {
+      "source_en": "4168#of Doom#",
+      "translation_tr": "4168#Felaketin#"
+    },
+    "169": {
+      "source_en": "4169#of Spell Master#",
+      "translation_tr": "4169#Buyu Ustasinin#"
+    },
+    "170": {
+      "source_en": "4170#of Hardening#",
+      "translation_tr": "4170#Sertlesmenin#"
+    },
+    "171": {
+      "source_en": "4171#Soul Drain#",
+      "translation_tr": "4171#Ruh Emme#"
+    },
+    "172": {
+      "source_en": "4172#Slash#",
+      "translation_tr": "4172#Kesik#"
+    },
+    "173": {
+      "source_en": "4173#of Hypnotism#",
+      "translation_tr": "4173#Hipnozun#"
+    },
+    "174": {
+      "source_en": "4174#Deviant#",
+      "translation_tr": "4174#Sapkin#"
+    },
+    "175": {
+      "source_en": "4175#Pushing#",
+      "translation_tr": "4175#Itici#"
+    },
+    "176": {
+      "source_en": "4176#Fatal Serpent#",
+      "translation_tr": "4176#Olumcul Yilan#"
+    },
+    "177": {
+      "source_en": "4177#of Green Stone#",
+      "translation_tr": "4177#Yesil Tasin#"
+    },
+    "178": {
+      "source_en": "4178#of Bow Master#",
+      "translation_tr": "4178#Yay Ustasinin#"
+    },
+    "179": {
+      "source_en": "4179#of Highlight#",
+      "translation_tr": "4179#Vurgunun#"
+    },
+    "180": {
+      "source_en": "4180#Dragonic Soul Gain#",
+      "translation_tr": "4180#Ejderha Ruh Kazanimi#"
+    },
+    "181": {
+      "source_en": "4181#of Silence#",
+      "translation_tr": "4181#Sessizligin#"
+    },
+    "182": {
+      "source_en": "4182#Demonic Soul Gain#",
+      "translation_tr": "4182#Iblis Ruh Kazanimi#"
+    },
+    "183": {
+      "source_en": "4183#Werewolf#",
+      "translation_tr": "4183#Kurt Adam#"
+    },
+    "184": {
+      "source_en": "4184#Break#",
+      "translation_tr": "4184#Kirma#"
+    },
+    "185": {
+      "source_en": "4185#of Wisdom#",
+      "translation_tr": "4185#Bilgeligin#"
+    },
+    "186": {
+      "source_en": "4186#Strenuous#",
+      "translation_tr": "4186#Zorlu#"
+    },
+    "187": {
+      "source_en": "4187#of Gloomy Night#",
+      "translation_tr": "4187#Kasvetli Gecenin#"
+    },
+    "188": {
+      "source_en": "4188#of Red Stone#",
+      "translation_tr": "4188#Kirmizi Tasin#"
+    },
+    "189": {
+      "source_en": "4189#of Misfortune#",
+      "translation_tr": "4189#Talihsizligin#"
+    },
+    "190": {
+      "source_en": "4190#of Laugh Maker#",
+      "translation_tr": "4190#Guldurenin#"
+    },
+    "191": {
+      "source_en": "4191#of Life Stream#",
+      "translation_tr": "4191#Yasam Akisinin#"
+    },
+    "192": {
+      "source_en": "4192#Fatal Pisces#",
+      "translation_tr": "4192#Olumcul Balik#"
+    },
+    "193": {
+      "source_en": "4193#of Patience#",
+      "translation_tr": "4193#Sabrin#"
+    },
+    "194": {
+      "source_en": "4194#of Stun#",
+      "translation_tr": "4194#Sersemletmenin#"
+    },
+    "195": {
+      "source_en": "4195#of Blue Stone#",
+      "translation_tr": "4195#Mavi Tasin#"
+    },
+    "196": {
+      "source_en": "4196#of Jellopy#",
+      "translation_tr": "4196#Jellopy'nin#"
+    },
+    "197": {
+      "source_en": "4197#High Luck#",
+      "translation_tr": "4197#Yuksek Sans#"
+    },
+    "198": {
+      "source_en": "4198#of True Sight#",
+      "translation_tr": "4198#Gercek Gorunun#"
+    },
+    "199": {
+      "source_en": "4199#of Dash#",
+      "translation_tr": "4199#Atakligin#"
+    },
+    "200": {
+      "source_en": "4200#of Resist Spell Power#",
+      "translation_tr": "4200#Buyu Gucu Direnci#"
     }
   }
 }
