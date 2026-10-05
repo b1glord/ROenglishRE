@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.8.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 340 exact Renewal skill aciklamasi dahil",
+    "version": "2.9.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 360 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -5718,6 +5718,361 @@
         "Tur: ^FF0000Zayiflatma^000000",
         "Hedef: ^6666CC1 Karakter^000000",
         "Aciklama: ^777777Dusmana ^663399Stun^777777 uygulayabilen bir mermi atar. Hedef kullanan ne kadar yakinsa Stun sansi o kadar yuksektir. 1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_SINGLEACTION": {
+      "name_original": "Single Action",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Gunslinger^777777 icin temel skill'dir; silahlari daha hizli ve isabetli ateslemeyi saglar.^000000",
+        "[Sv 1]: ^777777HIT +2, Saldiri Hizi +1%^000000",
+        "[Sv 2]: ^777777HIT +4, Saldiri Hizi +1%^000000",
+        "[Sv 3]: ^777777HIT +6, Saldiri Hizi +2%^000000",
+        "[Sv 4]: ^777777HIT +8, Saldiri Hizi +2%^000000",
+        "[Sv 5]: ^777777HIT +10, Saldiri Hizi +3%^000000",
+        "[Sv 6]: ^777777HIT +12, Saldiri Hizi +3%^000000",
+        "[Sv 7]: ^777777HIT +14, Saldiri Hizi +4%^000000",
+        "[Sv 8]: ^777777HIT +16, Saldiri Hizi +4%^000000",
+        "[Sv 9]: ^777777HIT +18, Saldiri Hizi +5%^000000",
+        "[Sv 10]: ^777777HIT +20, Saldiri Hizi +5%^000000"
+      ]
+    },
+    "GS_SNAKEEYE": {
+      "name_original": "Snake Eyes",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Gun^777777 sinifi silah takiliyken ^CC6600Saldiri Menzili^777777 ve ^CC6600HIT^777777 degerini artirir.^000000",
+        "[Sv 1]: ^777777HIT ve Menzil +1^000000",
+        "[Sv 2]: ^777777HIT ve Menzil +2^000000",
+        "[Sv 3]: ^777777HIT ve Menzil +3^000000",
+        "[Sv 4]: ^777777HIT ve Menzil +4^000000",
+        "[Sv 5]: ^777777HIT ve Menzil +5^000000",
+        "[Sv 6]: ^777777HIT ve Menzil +6^000000",
+        "[Sv 7]: ^777777HIT ve Menzil +7^000000",
+        "[Sv 8]: ^777777HIT ve Menzil +8^000000",
+        "[Sv 9]: ^777777HIT ve Menzil +9^000000",
+        "[Sv 10]: ^777777HIT ve Menzil +10^000000"
+      ]
+    },
+    "GS_TRACKING": {
+      "name_original": "Tracking",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Single Action 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe dikkatlice nis an alarak cok yuksek hasar verir. Skill seviyesi arttikca ^CC6600Casting Time^777777 ve hasar artar.",
+        "^990099Revolver^777777 veya ^990099Rifle^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 300%, Cast Time: 0.6 saniye^000000",
+        "[Sv 2]: ^777777ATK 400%, Cast Time: 0.7 saniye^000000",
+        "[Sv 3]: ^777777ATK 500%, Cast Time: 0.8 saniye^000000",
+        "[Sv 4]: ^777777ATK 600%, Cast Time: 0.9 saniye^000000",
+        "[Sv 5]: ^777777ATK 700%, Cast Time: 1.0 saniye^000000",
+        "[Sv 6]: ^777777ATK 800%, Cast Time: 1.1 saniye^000000",
+        "[Sv 7]: ^777777ATK 900%, Cast Time: 1.2 saniye^000000",
+        "[Sv 8]: ^777777ATK 1000%, Cast Time: 1.3 saniye^000000",
+        "[Sv 9]: ^777777ATK 1100%, Cast Time: 1.4 saniye^000000",
+        "[Sv 10]: ^777777ATK 1200%, Cast Time: 1.5 saniye^000000"
+      ]
+    },
+    "GS_DISARM": {
+      "name_original": "Disarm",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tracking 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin uzuvlarina ates ederek saldiri yapmasini engeller. Skill seviyesi basari sansini etkiler.",
+        "Monster'larda ^CC6600Attack^777777 degerini %25 azaltir; ^00A100Boss^777777 monster'lari etkilemez. Menzil 9 hucredir.",
+        "^990099Revolver^777777 veya ^990099Rifle^777777 gerektirir.^000000"
+      ]
+    },
+    "GS_PIERCINGSHOT": {
+      "name_original": "Piercing Shot (Wounding Shot)",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tracking 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^CC6600Defense^777777 delen hasar verir ve hedefe ^663399Bleeding^777777 uygulama sansi vardir.",
+        "^990099Revolver^777777 veya ^990099Rifle^777777 gerektirir. Rifle ile daha fazla hasar verir.^000000",
+        "[Sv 1]: ^777777ATK 220% / 280%(^990099Rifle^777777), Bleeding 3%^000000",
+        "[Sv 2]: ^777777ATK 240% / 310%(^990099Rifle^777777), Bleeding 6%^000000",
+        "[Sv 3]: ^777777ATK 260% / 340%(^990099Rifle^777777), Bleeding 9%^000000",
+        "[Sv 4]: ^777777ATK 280% / 370%(^990099Rifle^777777), Bleeding 12%^000000",
+        "[Sv 5]: ^777777ATK 300% / 400%(^990099Rifle^777777), Bleeding 15%^000000"
+      ]
+    },
+    "GS_RAPIDSHOWER": {
+      "name_original": "Rapid Shower (Trigger Happy Shot)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Chain Action 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmana hizla 5 atis yapar. 1 ^990099Bullet^777777 tuketir ve ^990099Revolver^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 550%^000000",
+        "[Sv 2]: ^777777ATK 600%^000000",
+        "[Sv 3]: ^777777ATK 650%^000000",
+        "[Sv 4]: ^777777ATK 700%^000000",
+        "[Sv 5]: ^777777ATK 750%^000000",
+        "[Sv 6]: ^777777ATK 800%^000000",
+        "[Sv 7]: ^777777ATK 850%^000000",
+        "[Sv 8]: ^777777ATK 900%^000000",
+        "[Sv 9]: ^777777ATK 950%^000000",
+        "[Sv 10]: ^777777ATK 1000%^000000"
+      ]
+    },
+    "GS_DESPERADO": {
+      "name_original": "Desperado",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Rapid Shower 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^77777710 ^990099Bullet^777777 tuketerek kullananin etrafindaki 7 hucrelik alanda rastgele saldirilar yapar. Her kullanim en fazla 10 vurus yapabilir.",
+        "^990099Revolver^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 100%^000000",
+        "[Sv 2]: ^777777ATK 150%^000000",
+        "[Sv 3]: ^777777ATK 200%^000000",
+        "[Sv 4]: ^777777ATK 250%^000000",
+        "[Sv 5]: ^777777ATK 300%^000000",
+        "[Sv 6]: ^777777ATK 350%^000000",
+        "[Sv 7]: ^777777ATK 400%^000000",
+        "[Sv 8]: ^777777ATK 450%^000000",
+        "[Sv 9]: ^777777ATK 500%^000000",
+        "[Sv 10]: ^777777ATK 550%^000000"
+      ]
+    },
+    "GS_GATLINGFEVER": {
+      "name_original": "Gatling Fever",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Rapid Shower 7, Desperado 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^CC6600Saldiri Hizi^777777 ve hasari gecici olarak artirir; ^CC6600FLEE^777777 ve ^CC6600Hareket Hizi^777777 azalir. Skill tekrar kullanilirsa ^0000FFGatling Fever^777777 durumu iptal olur.",
+        "^990099Gatling Gun^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Hasar +30, After Attack Delay -1%, FLEE -5, Sure 30 sn^000000",
+        "[Sv 2]: ^777777Hasar +40, After Attack Delay -2%, FLEE -10, Sure 45 sn^000000",
+        "[Sv 3]: ^777777Hasar +50, After Attack Delay -3%, FLEE -15, Sure 60 sn^000000",
+        "[Sv 4]: ^777777Hasar +60, After Attack Delay -4%, FLEE -20, Sure 75 sn^000000",
+        "[Sv 5]: ^777777Hasar +70, After Attack Delay -5%, FLEE -25, Sure 90 sn^000000",
+        "[Sv 6]: ^777777Hasar +80, After Attack Delay -6%, FLEE -30, Sure 105 sn^000000",
+        "[Sv 7]: ^777777Hasar +90, After Attack Delay -7%, FLEE -35, Sure 120 sn^000000",
+        "[Sv 8]: ^777777Hasar +100, After Attack Delay -8%, FLEE -40, Sure 135 sn^000000",
+        "[Sv 9]: ^777777Hasar +110, After Attack Delay -9%, FLEE -45, Sure 150 sn^000000",
+        "[Sv 10]: ^777777Hasar +120, After Attack Delay -10%, FLEE -50, Sure 165 sn^000000"
+      ]
+    },
+    "GS_DUST": {
+      "name_original": "Dust (Crowd Control Shot)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Single Action 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yakin mesafeden atis yaparak dusmani 5 hucre geri iter. ^990099Shotgun^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 150%^000000",
+        "[Sv 2]: ^777777ATK 200%^000000",
+        "[Sv 3]: ^777777ATK 250%^000000",
+        "[Sv 4]: ^777777ATK 300%^000000",
+        "[Sv 5]: ^777777ATK 350%^000000",
+        "[Sv 6]: ^777777ATK 400%^000000",
+        "[Sv 7]: ^777777ATK 450%^000000",
+        "[Sv 8]: ^777777ATK 500%^000000",
+        "[Sv 9]: ^777777ATK 550%^000000",
+        "[Sv 10]: ^777777ATK 600%^000000"
+      ]
+    },
+    "GS_FULLBUSTER": {
+      "name_original": "Full Buster (Full Blast)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dust 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ayni anda birden fazla mermi atarak dusmana cok yuksek hasar verir. Dusuk ihtimalle kullanana ^663399Blind^777777 uygular.",
+        "2 ^990099Bullet^777777 tuketir. ^990099Shotgun^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 400%^000000",
+        "[Sv 2]: ^777777ATK 500%^000000",
+        "[Sv 3]: ^777777ATK 600%^000000",
+        "[Sv 4]: ^777777ATK 700%^000000",
+        "[Sv 5]: ^777777ATK 800%^000000",
+        "[Sv 6]: ^777777ATK 900%^000000",
+        "[Sv 7]: ^777777ATK 1000%^000000",
+        "[Sv 8]: ^777777ATK 1100%^000000",
+        "[Sv 9]: ^777777ATK 1200%^000000",
+        "[Sv 10]: ^777777ATK 1300%^000000"
+      ]
+    },
+    "GS_SPREADATTACK": {
+      "name_original": "Spread Attack",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Single Action 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^7777775 ^990099Bullet^777777 tuketerek genis bir alana hasar yayar. ^990099Shotgun^777777 veya ^990099Grenade Launcher^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 230% / AoE: 3x3^000000",
+        "[Sv 2]: ^777777ATK 260% / AoE: 3x3^000000",
+        "[Sv 3]: ^777777ATK 290% / AoE: 3x3^000000",
+        "[Sv 4]: ^777777ATK 320% / AoE: 5x5^000000",
+        "[Sv 5]: ^777777ATK 350% / AoE: 5x5^000000",
+        "[Sv 6]: ^777777ATK 380% / AoE: 5x5^000000",
+        "[Sv 7]: ^777777ATK 410% / AoE: 7x7^000000",
+        "[Sv 8]: ^777777ATK 440% / AoE: 7x7^000000",
+        "[Sv 9]: ^777777ATK 470% / AoE: 7x7^000000",
+        "[Sv 10]: ^777777ATK 500% / AoE: 9x9^000000"
+      ]
+    },
+    "GS_GROUNDDRIFT": {
+      "name_original": "Ground Drift (Gunslinger Mine)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Spread Attack 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine ^990099Sphere^777777 yerlestirir; dusman yaklastiginda patlar. Patlama etkisi kullanilan Sphere turune gore degisir.",
+        "^990099Grenade Launcher^777777 gerektirir ve her mine icin 1 ^990099Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 220%, Sure: 3 saniye^000000",
+        "[Sv 2]: ^777777ATK 240%, Sure: 6 saniye^000000",
+        "[Sv 3]: ^777777ATK 260%, Sure: 9 saniye^000000",
+        "[Sv 4]: ^777777ATK 280%, Sure: 12 saniye^000000",
+        "[Sv 5]: ^777777ATK 300%, Sure: 15 saniye^000000",
+        "[Sv 6]: ^777777ATK 320%, Sure: 18 saniye^000000",
+        "[Sv 7]: ^777777ATK 340%, Sure: 21 saniye^000000",
+        "[Sv 8]: ^777777ATK 360%, Sure: 24 saniye^000000",
+        "[Sv 9]: ^777777ATK 380%, Sure: 27 saniye^000000",
+        "[Sv 10]: ^777777ATK 400%, Sure: 30 saniye^000000"
+      ]
+    },
+    "GS_CHAINACTION": {
+      "name_original": "Chain Action",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Single Action 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Revolver^777777 ile saldirirken tek saldirida iki atis yapma sansi verir. Skill seviyesi arttikca cift atis sansi artar.",
+        "1 ^990099Bullet^777777 tuketir ve ^990099Revolver^777777 gerektirir.^000000"
+      ]
+    },
+    "RL_FLICKER": {
+      "name_original": "Flicker (Flashing Signal)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Ekrandaki kullanan kaynakli ^0000FFHowling Mine^777777 ve ^0000FFBound Trap^777777 etkilerini etkinlestirip patlatir.",
+        "1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "RL_RICHS_COIN": {
+      "name_original": "Rich's Coin (Fortune of the Rich)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777100 ^990099Zeny^777777 tuketerek 10 ^990099Coin^777777 uretir. Bu skill ogrenildikten sonra ^0000FFCoin Flip^777777 basarisiz oldugunda Coin tuketmez.^000000"
+      ]
+    },
+    "RL_E_CHAIN": {
+      "name_original": "Eternal Chain (Infinite Chain)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Coin Flip 1, Chain Action 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Skill suresince takili silah turunden bagimsiz olarak ^0000FFChain Action^777777 kullanilmasini saglar. Etkin Chain Action seviyesi ogrenilmis ^0000FFEternal Chain^777777 seviyesine baglidir.",
+        "1 ^990099Coin^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 45 saniye^000000",
+        "[Sv 2]: ^777777Sure: 60 saniye^000000",
+        "[Sv 3]: ^777777Sure: 75 saniye^000000",
+        "[Sv 4]: ^777777Sure: 90 saniye^000000",
+        "[Sv 5]: ^777777Sure: 105 saniye^000000",
+        "[Sv 6]: ^777777Sure: 120 saniye^000000",
+        "[Sv 7]: ^777777Sure: 135 saniye^000000",
+        "[Sv 8]: ^777777Sure: 150 saniye^000000",
+        "[Sv 9]: ^777777Sure: 165 saniye^000000",
+        "[Sv 10]: ^777777Sure: 180 saniye^000000"
+      ]
+    },
+    "RL_QD_SHOT": {
+      "name_original": "Quick Draw Shot (Tailwind Shot)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Chain Action 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFChain Action^777777 tetiklendikten sonra kullanilabilir ve hedefe ek hasar verir. ^CC6600Job Level^777777 ek saldiri sayisini etkiler.",
+        "21x21 alanda ^0000FFCrimson Marker^777777 etkisindeki hedef varsa o hedef de ek hasar alir.^000000"
+      ]
+    },
+    "RL_C_MARKER": {
+      "name_original": "Crimson Marker (Blood Brand)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ^990099Crimson Death Mark^777777 koyar, ^CC6600FLEE^777777 degerini 10 azaltir ve mini map uzerinden takip edilmesini saglar.",
+        "Ayni anda en fazla 3 ^0000FFCrimson Marker^777777 aktif olabilir. ^0000FFQuick Draw Shot, Dragon Tail^777777 ve ^0000FFHammer of God^777777 hasarini artirir. Sure 50 saniyedir.",
+        "1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "RL_P_ALTER": {
+      "name_original": "Platinum Alter",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Rich's Coin 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^990099Silver Bullet^777777 takiliyken kullanilabilir. Tum ^990099Coin^777777'leri tuketerek ^CC6600ATK^777777 artirir; bonus skill seviyesi ve tuketilen Coin sayisina baglidir.",
+        "Ayrica belirli sure ve vurus sayisi icin bariyer olusturur. ^0000FFHoly Light^777777 bariyeri iptal eder. Silah veya mermi degistirilirse buff biter ancak bariyer kalir.",
+        "^0000FFMadness Canceller^777777 ve ^0000FFHeat Barrel^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777MaksHP'nin %5'i Bariyer, 4 Vurus, Sure 30 saniye^000000",
+        "[Sv 2]: ^777777MaksHP'nin %10'u Bariyer, 5 Vurus, Sure 45 saniye^000000",
+        "[Sv 3]: ^777777MaksHP'nin %15'i Bariyer, 6 Vurus, Sure 60 saniye^000000",
+        "[Sv 4]: ^777777MaksHP'nin %20'si Bariyer, 7 Vurus, Sure 75 saniye^000000",
+        "[Sv 5]: ^777777MaksHP'nin %25'i Bariyer, 8 Vurus, Sure 90 saniye^000000"
+      ]
+    },
+    "RL_B_TRAP": {
+      "name_original": "Bound Trap (Dark Pit)",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Flicker 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine hareket kisitlayan trap yerlestirir. Etki alanina giren hedeflerin ^CC6600Hareket^777777 hizi buyuk oranda azalir; sure hedefin ^CC6600STR^777777 degerinden etkilenir.",
+        "^0000FFFlicker^777777, Bound Trap etkisindeki hedeflerde trap'i kaldirir ve ek hasar verir. Ayni anda yalnizca 1 ^990099Trap^777777 aktif olabilir.",
+        "Hasar kullananin ^CC6600DEX^777777, hedefin ^CC6600HP^777777 ve skill seviyesine gore artar. Sure 4 saniyenin altina inmez. 1 ^990099Special Alloy Trap^777777 ve 1 ^990099Coin^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 3x3, Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777AoE 5x5, Sure: 11 saniye^000000",
+        "[Sv 3]: ^777777AoE 5x5, Sure: 12 saniye^000000",
+        "[Sv 4]: ^777777AoE 7x7, Sure: 13 saniye^000000",
+        "[Sv 5]: ^777777AoE 7x7, Sure: 14 saniye^000000"
       ]
     }
   }
