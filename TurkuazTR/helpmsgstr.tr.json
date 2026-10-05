@@ -1,0 +1,333 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/helpmsgstr.tr.json",
+    "purpose": "Renewal helpmsgstr.lub komut yardim metinleri icin ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest helpmsgstr.lub kaynagindaki 79 exact satiri ASCII Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/helpmsgstr.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "f9a78978142987c45de01b5b11b83126c2aede82",
+  "source_line_count": 87,
+  "patch_count": 79,
+  "patches": {
+    "8": {
+      "source_en": "\t\"/tip : Opens \\\"Tip of the Day\\\" window\",",
+      "translation_tr": "\t\"/tip : \\\"Gunun Ipucu\\\" penceresini acar\","
+    },
+    "9": {
+      "source_en": "\t\"/h or /help: Shows this Command Help List\",",
+      "translation_tr": "\t\"/h veya /help: Bu komut yardim listesini gosterir\","
+    },
+    "10": {
+      "source_en": "\t\"/w or /who: Shows the number of current players connected.\",",
+      "translation_tr": "\t\"/w veya /who: Bagli oyuncu sayisini gosterir.\","
+    },
+    "11": {
+      "source_en": "\t\"/music: Turns BGM On/Off\",",
+      "translation_tr": "\t\"/music: BGM'yi Acar/Kapatir\","
+    },
+    "12": {
+      "source_en": "\t\"/sound: Turns Sound Effects On/Off\",",
+      "translation_tr": "\t\"/sound: Ses efektlerini Acar/Kapatir\","
+    },
+    "13": {
+      "source_en": "\t\"/effect: Effects On/Off\",",
+      "translation_tr": "\t\"/effect: Efektleri Acar/Kapatir\","
+    },
+    "14": {
+      "source_en": "\t\"/where: Shows your current location\",",
+      "translation_tr": "\t\"/where: Mevcut konumunu gosterir\","
+    },
+    "15": {
+      "source_en": "\t\"/skip : Turns Frame Skip On/Off\",",
+      "translation_tr": "\t\"/skip : Kare atlamayi Acar/Kapatir\","
+    },
+    "16": {
+      "source_en": "\t\"/v (0~127): Controls the volume of the Sound Effects\",",
+      "translation_tr": "\t\"/v (0~127): Ses efektlerinin seviyesini ayarlar\","
+    },
+    "17": {
+      "source_en": "\t\"/bv (0~127): Controls the volume of the BGM\",",
+      "translation_tr": "\t\"/bv (0~127): BGM ses seviyesini ayarlar\","
+    },
+    "18": {
+      "source_en": "\t\"/ex (Character Name): Blocks whispering from the Character\",",
+      "translation_tr": "\t\"/ex (Karakter Adi): Karakterden gelen fisiltilari engeller\","
+    },
+    "19": {
+      "source_en": "\t\"/ex: View a list of Characters you have Blocked\",",
+      "translation_tr": "\t\"/ex: Engelledigin karakterlerin listesini gosterir\","
+    },
+    "20": {
+      "source_en": "\t\"/in (Character Name): Allows whispering from the Character\",",
+      "translation_tr": "\t\"/in (Karakter Adi): Karakterden fisilti almaya izin verir\","
+    },
+    "21": {
+      "source_en": "\t\"/inall: Allows whispers from anyone\",",
+      "translation_tr": "\t\"/inall: Herkesten fisilti almaya izin verir\","
+    },
+    "22": {
+      "source_en": "\t\"/exall: Blocks whispers from everyone\",",
+      "translation_tr": "\t\"/exall: Herkesten gelen fisiltilari engeller\","
+    },
+    "23": {
+      "source_en": "\t\"/organize [PartyName] To organize a party. /leave to withdraw from a party.\",",
+      "translation_tr": "\t\"/organize [PartiAdi] Parti kurar. /leave partiden ayrilir.\","
+    },
+    "24": {
+      "source_en": "\t\"/sit: Sit command. If you are sitting, you will stand instead.\",",
+      "translation_tr": "\t\"/sit: Oturur. Zaten oturuyorsan ayaga kalkarsin.\","
+    },
+    "25": {
+      "source_en": "\t\"/stand: Stand command. If you are standing, you will sit instead.\",",
+      "translation_tr": "\t\"/stand: Ayaga kalkar. Zaten ayaktaysan oturursun.\","
+    },
+    "26": {
+      "source_en": "\t\"/chat: Creates a Chat Room\",",
+      "translation_tr": "\t\"/chat: Sohbet odasi olusturur\","
+    },
+    "27": {
+      "source_en": "\t\"/q: Leaves a Chat Room\",",
+      "translation_tr": "\t\"/q: Sohbet odasindan ayrilir\","
+    },
+    "28": {
+      "source_en": "\t\"/organize [PartyName] To organize a party.\",",
+      "translation_tr": "\t\"/organize [PartiAdi] Parti kurar.\","
+    },
+    "29": {
+      "source_en": "\t\"/leave to withdraw from a party.\",",
+      "translation_tr": "\t\"/leave partiden ayrilir.\","
+    },
+    "30": {
+      "source_en": "\t\"/expel [Character Name] kicks a Character out of your party\",",
+      "translation_tr": "\t\"/expel [Karakter Adi] karakteri partiden atar\","
+    },
+    "31": {
+      "source_en": "\t\"F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, Equipment and Skills into it for faster access.\",",
+      "translation_tr": "\t\"F12 hizli erisim penceresini acar; iyilestirme esyalari, ekipmanlar ve skiller buraya suruklenebilir.\","
+    },
+    "32": {
+      "source_en": "\t\"If Party Leader right click on a character a menu appears to request a player to join the party.\",",
+      "translation_tr": "\t\"Parti lideri bir karaktere sag tiklarsa oyuncuyu partiye davet etme menusu acilir.\","
+    },
+    "33": {
+      "source_en": "\t\"[Alt] + [End]: Turns HP/SP Bar On/Off\",",
+      "translation_tr": "\t\"[Alt] + [End]: HP/SP cubugunu Acar/Kapatir\","
+    },
+    "34": {
+      "source_en": "\t\"[Alt] + [Home]: Turns Ground Cursor On/Off\",",
+      "translation_tr": "\t\"[Alt] + [Home]: Zemin imlecini Acar/Kapatir\","
+    },
+    "35": {
+      "source_en": "\t\"[Insert]: Makes you sit or stand.\",",
+      "translation_tr": "\t\"[Insert]: Oturur veya ayaga kalkarsin.\","
+    },
+    "36": {
+      "source_en": "\t\"[Alt] + [=]: Fix the interval error between letters.\",",
+      "translation_tr": "\t\"[Alt] + [=]: Harfler arasindaki bosluk hatasini duzeltir.\","
+    },
+    "37": {
+      "source_en": "\t\"[F10]: To toggle Chat Window size; [Alt] + [F10]: Toggle Chat Window On/Off\",",
+      "translation_tr": "\t\"[F10]: Sohbet penceresi boyutunu degistirir; [Alt] + [F10]: Sohbet penceresini Acar/Kapatir\","
+    },
+    "38": {
+      "source_en": "\t\"How to Whisper: Enter a Character's Name on the left side of chat window and type your message on the right side. The Tab key helps you move between these boxes.\",",
+      "translation_tr": "\t\"Fisilti: Sohbet penceresinin soluna karakter adini, sagina mesaji yaz. Tab tusu alanlar arasinda gecis yapar.\","
+    },
+    "39": {
+      "source_en": "\t\"/!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/\u00a2\u00ae|.,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Emotion icons corresponding to Alt + (1~9) Ctrl + (-=\\\\)\",",
+      "translation_tr": "\t\"/!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/\u00a2\u00ae|.,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Alt + (1~9) Ctrl + (-=\\\\) ile eslesen duygu ikonlari\","
+    },
+    "40": {
+      "source_en": "\t\"How to Speak to Party: Add % in front of every message. (example: \\\\\\\"%hi\\\\\\\")\",",
+      "translation_tr": "\t\"Parti sohbeti: Her mesajdan once % ekle. (ornek: \\\\\\\"%selam\\\\\\\")\","
+    },
+    "41": {
+      "source_en": "\t\"How to Take Screen Shots: Press [Print Screen] or [Scroll Lock].\",",
+      "translation_tr": "\t\"Ekran goruntusu almak icin [Print Screen] veya [Scroll Lock] tusuna bas.\","
+    },
+    "42": {
+      "source_en": "\t\"/memo: To memorize a place as Warp Point (If you have Warp Portal skill)\",",
+      "translation_tr": "\t\"/memo: Konumu Warp Point olarak kaydeder (Warp Portal skillin varsa)\","
+    },
+    "43": {
+      "source_en": "\t\"/snap: Turns snap On/Off for fights, /skillsnap: Turns snap On/Off for skills. /itemsnap: Turns snap On/Off for items on the grounds.#\",",
+      "translation_tr": "\t\"/snap: Savasta hedef yakalamayi Acar/Kapatir, /skillsnap: skill hedeflemeyi Acar/Kapatir. /itemsnap: yerdeki esya hedeflemeyi Acar/Kapatir.#\","
+    },
+    "44": {
+      "source_en": "\t\"/savechat: Save a Chat Log\",",
+      "translation_tr": "\t\"/savechat: Sohbet kaydini kaydeder\","
+    },
+    "45": {
+      "source_en": "\t\"/camera: Camera Zooming On/Off. /miss: Toggle ''Miss'' display On/Off\",",
+      "translation_tr": "\t\"/camera: Kamera yakinlastirmayi Acar/Kapatir. /miss: ''Miss'' gosterimini Acar/Kapatir\","
+    },
+    "46": {
+      "source_en": "\t\"How to Open Whispering List: Press [Alt] + [H].\",",
+      "translation_tr": "\t\"Fisilti listesini acmak icin [Alt] + [H] tusuna bas.\","
+    },
+    "47": {
+      "source_en": "\t\"/fog: Fog effect. On/Off\",",
+      "translation_tr": "\t\"/fog: Sis efektini Acar/Kapatir\","
+    },
+    "48": {
+      "source_en": "\t\"/notalkmsg2: Hides chat messages(including guild chat). On/Off\",",
+      "translation_tr": "\t\"/notalkmsg2: Sohbet mesajlarini (lonca dahil) gizler. Ac/Kapat\","
+    },
+    "49": {
+      "source_en": "\t\"/bingbing: Rotates player counter clockwise. ^^;;\",",
+      "translation_tr": "\t\"/bingbing: Karakteri saat yonunun tersine dondurur. ^^;;\","
+    },
+    "50": {
+      "source_en": "\t\"/bangbang: Rotates player clockwise. ^^;;\",",
+      "translation_tr": "\t\"/bangbang: Karakteri saat yonunde dondurur. ^^;;\","
+    },
+    "51": {
+      "source_en": "\t\"/aura: Simplify Aura effect On/Off\",",
+      "translation_tr": "\t\"/aura: Aura efektini sadelestirir. Ac/Kapat\","
+    },
+    "52": {
+      "source_en": "\t\"/aura2 : Turn Aura completly On Off\",",
+      "translation_tr": "\t\"/aura2 : Aura efektini tamamen Acar/Kapatir\","
+    },
+    "53": {
+      "source_en": "\t\"/showname: Change the name font type.\",",
+      "translation_tr": "\t\"/showname: Isim yazi tipini degistirir.\","
+    },
+    "54": {
+      "source_en": "\t\"/q3 : /quickspell (/q1) + /quickspell2 (/q2)\",",
+      "translation_tr": "\t\"/q3 : /quickspell (/q1) + /quickspell2 (/q2)\","
+    },
+    "55": {
+      "source_en": "\t\"/set1 : /nc + /showname + /sf + /wi, /set2 : + /q3\",",
+      "translation_tr": "\t\"/set1 : /nc + /showname + /sf + /wi, /set2 : + /q3\","
+    },
+    "56": {
+      "source_en": "\t\"/doridori: Shake head ^^;;\",",
+      "translation_tr": "\t\"/doridori: Kafayi sallar ^^;;\","
+    },
+    "57": {
+      "source_en": "\t\"/quickspell: Right-click menu enables you to use skills assigned to the F9 hotkey. On/Off\",",
+      "translation_tr": "\t\"/quickspell: Sag tik ile F9 kisayoluna atanmis skilleri kullanmani saglar. Ac/Kapat\","
+    },
+    "58": {
+      "source_en": "\t\"/quickspell2: By rolling the mouse wheel up and down, you are able to use skills registered on F7 and F8 hotkeys. On/Off\",",
+      "translation_tr": "\t\"/quickspell2: Fare tekerlegiyle F7 ve F8'e atanmis skilleri kullanmani saglar. Ac/Kapat\","
+    },
+    "59": {
+      "source_en": "\t\"/emotion: views the emoticon list.\",",
+      "translation_tr": "\t\"/emotion: Duygu ikonlari listesini gosterir.\","
+    },
+    "60": {
+      "source_en": "\t\"/hi or /hi message: Send greetings to people who are online and registered on your Friend List.\",",
+      "translation_tr": "\t\"/hi veya /hi mesaj: Cevrimici arkadas listendekilere selam gonderir.\","
+    },
+    "61": {
+      "source_en": "\t\"/notrade: Declines trade offers automatically. On/Off\",",
+      "translation_tr": "\t\"/notrade: Ticaret tekliflerini otomatik reddeder. Ac/Kapat\","
+    },
+    "62": {
+      "source_en": "\t\"/hunting: You can check the your hunting list.\",",
+      "translation_tr": "\t\"/hunting: Av listesini gosterir.\","
+    },
+    "63": {
+      "source_en": "\t\"/alchemist: Shows top 10 Alchemists in the server.\",",
+      "translation_tr": "\t\"/alchemist: Sunucudaki ilk 10 Alchemist'i gosterir.\","
+    },
+    "64": {
+      "source_en": "\t\"/blacksmith: Shows top 10 Blacksmiths in the server.\",",
+      "translation_tr": "\t\"/blacksmith: Sunucudaki ilk 10 Blacksmith'i gosterir.\","
+    },
+    "65": {
+      "source_en": "\t\"/window: Display windows will snap/dock together. On/Off\",",
+      "translation_tr": "\t\"/window: Pencerelerin birbirine yaslanmasini Acar/Kapatir\","
+    },
+    "66": {
+      "source_en": "\t\"/skillfail: Display red font message when skill fails. On/Off\",",
+      "translation_tr": "\t\"/skillfail: Skill basarisizliginda kirmizi mesaji Acar/Kapatir\","
+    },
+    "67": {
+      "source_en": "\t\"/notalkmsg: Chat will not be displayed in chat window. On/Off\",",
+      "translation_tr": "\t\"/notalkmsg: Sohbet mesajlarinin gosterimini Acar/Kapatir\","
+    },
+    "68": {
+      "source_en": "\t\"/noshift: You may use your \\\"force heal\\\" ability without the Shift key. On/Off\",",
+      "translation_tr": "\t\"/noshift: Shift tusu olmadan \\\"force heal\\\" kullanmani saglar. Ac/Kapat\","
+    },
+    "69": {
+      "source_en": "\t\"/noctrl | /nc: Auto attack without pressing ctrl key. On/Off\",",
+      "translation_tr": "\t\"/noctrl | /nc: Ctrl tusuna basmadan otomatik saldiriyi Acar/Kapatir\","
+    },
+    "70": {
+      "source_en": "\t\"/loginout: Shows guildsmen and friends online status. On/Off\",",
+      "translation_tr": "\t\"/loginout: Lonca ve arkadas cevrimici durumunu Acar/Kapatir\","
+    },
+    "71": {
+      "source_en": "\t\"/shopping: Enables you to open a shop with a single left-click and close your shop with a single right-click. On/Off\",",
+      "translation_tr": "\t\"/shopping: Dukkani sol tikla acip sag tikla kapatmayi etkinlestirir. Ac/Kapat\","
+    },
+    "72": {
+      "source_en": "\t\"ALT+Y: Opens a window which allows you to use various commands with ease.\",",
+      "translation_tr": "\t\"ALT+Y: Cesitli komutlari kolayca kullanabilecegin pencereyi acar.\","
+    },
+    "73": {
+      "source_en": "\t\"/tingonly: You can hear only sound like a chat room entry.\",",
+      "translation_tr": "\t\"/tingonly: Yalnizca sohbet odasina giris gibi bildirim seslerini duymani saglar.\","
+    },
+    "74": {
+      "source_en": "\t\"/monsterhp: Toggles monster HP information when attacking. On/Off\",",
+      "translation_tr": "\t\"/monsterhp: Saldirirken monster HP bilgisini Acar/Kapatir\","
+    },
+    "75": {
+      "source_en": "\t\"Hunting and Equipment quests are available through the Eden Group. Find them via the '+' mark on the mini-map of each city.\",",
+      "translation_tr": "\t\"Av ve ekipman gorevleri Eden Group uzerinden alinabilir. Sehir mini haritalarindaki '+' isaretinden bulabilirsin.\","
+    },
+    "76": {
+      "source_en": "\t\" -------------- Navigation Chat Commands -------------- \",",
+      "translation_tr": "\t\" -------------- Navigasyon Sohbet Komutlari -------------- \","
+    },
+    "77": {
+      "source_en": "\t\"/navigation    /navi  :  /navi prontera 100/100           ->> MAP X/Y\",",
+      "translation_tr": "\t\"/navigation    /navi  :  /navi prontera 100/100           ->> HARITA X/Y\","
+    },
+    "78": {
+      "source_en": "\t\"/navigation2  /navi2 :  /navi2 prontera 100/100 1/1/1 ->> MAP X/Y Scroll/Service/Airship (1:Enable 0: Disable)\",",
+      "translation_tr": "\t\"/navigation2  /navi2 :  /navi2 prontera 100/100 1/1/1 ->> HARITA X/Y Kaydirma/Servis/Hava Gemisi (1:Acik 0:Kapali)\","
+    },
+    "79": {
+      "source_en": "\t\" -------------- Navigation UI Commands -------------- \",",
+      "translation_tr": "\t\" -------------- Navigasyon Arayuz Komutlari -------------- \","
+    },
+    "80": {
+      "source_en": "\t\"$$all         : Outputs all the results (Type of navigation can be specified).\",",
+      "translation_tr": "\t\"$$all         : Tum sonuclari gosterir (navigasyon turu belirtilebilir).\","
+    },
+    "81": {
+      "source_en": "\t\"$$lv30       : Monsters of that level are displayed (Amount may vary).\",",
+      "translation_tr": "\t\"$$lv30       : Bu leveldeki monsterlari gosterir (sayi degisebilir).\","
+    },
+    "82": {
+      "source_en": "\t\"$$lv20~30  : Monster of that level range are displayed (Amount may vary).\",",
+      "translation_tr": "\t\"$$lv20~30  : Bu level araligindaki monsterlari gosterir (sayi degisebilir).\","
+    },
+    "83": {
+      "source_en": "\t\"/return: Disables event clothes such as Wedding and Santa Costumes.\",",
+      "translation_tr": "\t\"/return: Dugun ve Noel kostumu gibi etkinlik kiyafetlerini kapatir.\","
+    },
+    "84": {
+      "source_en": "\t\"/zoom: Turn Zoom Out On/Off.\",",
+      "translation_tr": "\t\"/zoom: Uzaklastirmayi Acar/Kapatir.\","
+    },
+    "85": {
+      "source_en": "\t\"/showshop: Displays all stalls on screen. On/Off\",",
+      "translation_tr": "\t\"/showshop: Ekrandaki tum tezgahlari gosterir. Ac/Kapat\","
+    },
+    "86": {
+      "source_en": "\t\"/call : Allows/Prevents being called by Calling skills. On/Off\"",
+      "translation_tr": "\t\"/call : Cagirma skilleriyle cagrilmayi izin verir/engeller. Ac/Kapat\""
+    }
+  }
+}
