@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.7.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 120 exact Renewal skill aciklamasi dahil",
+    "version": "1.8.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 140 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -2318,6 +2318,423 @@
         "[Sv 3]: ^777777Freezing Sansi: 30%^000000",
         "[Sv 4]: ^777777Freezing Sansi: 35%^000000",
         "[Sv 5]: ^777777Freezing Sansi: 40%^000000"
+      ]
+    },
+    "LG_EXEEDBREAK": {
+      "name_original": "Exceed Break",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Banishing Point 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Gucunu toplayarak bir sonraki",
+        "saldirinin hasarini artirir. Kullanana gelen",
+        "bir yakin dovus fiziksel saldirisi skill'i iptal eder.",
+        "Skill hasari bu etkiden faydalanmaz.",
+        "^CC6600Hareket Hizi^777777 skill aktifken azalir.^000000",
+        "[Sv 1]: ^777777ATK 100%^000000",
+        "[Sv 2]: ^777777ATK 200%^000000",
+        "[Sv 3]: ^777777ATK 300%^000000",
+        "[Sv 4]: ^777777ATK 400%^000000",
+        "[Sv 5]: ^777777ATK 500%^000000"
+      ]
+    },
+    "BA_WHISTLE": {
+      "name_original": "Whistle",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dissonance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Song Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullananin ve skill menzilindeki party",
+        "uyelerinin ^CC6600FLEE^777777 ve ^CC6600Perfect Dodge^777777 oranlarini",
+        "180 saniye boyunca artirir. Diger ^0000FFSong^777777 skill'leriyle",
+        "ust uste binmez. ^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777FLEE +20, Perfect Dodge +1^000000",
+        "[Sv 2]: ^777777FLEE +22, Perfect Dodge +1^000000",
+        "[Sv 3]: ^777777FLEE +24, Perfect Dodge +2^000000",
+        "[Sv 4]: ^777777FLEE +26, Perfect Dodge +2^000000",
+        "[Sv 5]: ^777777FLEE +28, Perfect Dodge +3^000000",
+        "[Sv 6]: ^777777FLEE +30, Perfect Dodge +3^000000",
+        "[Sv 7]: ^777777FLEE +32, Perfect Dodge +4^000000",
+        "[Sv 8]: ^777777FLEE +34, Perfect Dodge +4^000000",
+        "[Sv 9]: ^777777FLEE +36, Perfect Dodge +5^000000",
+        "[Sv 10]: ^777777FLEE +40, Perfect Dodge +5^000000"
+      ]
+    },
+    "MG_LIGHTNINGBOLT": {
+      "name_original": "Lightning Bolt",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe yildirim dusurerek her vurus",
+        "basina %100 ^CC6600MATK ^33CC00Wind^777777 elementli buyu hasari verir.^000000",
+        "[Sv 1]: ^7777771 Vurus, SP Tuketimi: 12^000000",
+        "[Sv 2]: ^7777772 Vurus, SP Tuketimi: 14^000000",
+        "[Sv 3]: ^7777773 Vurus, SP Tuketimi: 16^000000",
+        "[Sv 4]: ^7777774 Vurus, SP Tuketimi: 18^000000",
+        "[Sv 5]: ^7777775 Vurus, SP Tuketimi: 20^000000",
+        "[Sv 6]: ^7777776 Vurus, SP Tuketimi: 22^000000",
+        "[Sv 7]: ^7777777 Vurus, SP Tuketimi: 24^000000",
+        "[Sv 8]: ^7777778 Vurus, SP Tuketimi: 26^000000",
+        "[Sv 9]: ^7777779 Vurus, SP Tuketimi: 28^000000",
+        "[Sv 10]: ^77777710 Vurus, SP Tuketimi: 30^000000"
+      ]
+    },
+    "BA_ASSASSINCROSS": {
+      "name_original": "Assassin Cross of Sunset",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dissonance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Song Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Skill menzilindeki tum oyuncularin",
+        "^CC6600After Attack Delay^777777 degerini 180 saniye azaltir.",
+        "Diger ^0000FFSong^777777 skill'leriyle ust uste binmez.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777After Attack Delay -1%^000000",
+        "[Sv 2]: ^777777After Attack Delay -3%^000000",
+        "[Sv 3]: ^777777After Attack Delay -5%^000000",
+        "[Sv 4]: ^777777After Attack Delay -7%^000000",
+        "[Sv 5]: ^777777After Attack Delay -9%^000000",
+        "[Sv 6]: ^777777After Attack Delay -11%^000000",
+        "[Sv 7]: ^777777After Attack Delay -13%^000000",
+        "[Sv 8]: ^777777After Attack Delay -15%^000000",
+        "[Sv 9]: ^777777After Attack Delay -17%^000000",
+        "[Sv 10]: ^777777After Attack Delay -20%^000000"
+      ]
+    },
+    "LG_RAGEBURST": {
+      "name_original": "Burst Attack",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFVanguard Force^777777 ile biriken tum",
+        "^0000FFRage Counter^777777'lari tuketerek bir dusmana yuksek",
+        "hasar verir.^000000"
+      ]
+    },
+    "BA_POEMBRAGI": {
+      "name_original": "Poem of Bragi",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dissonance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Song Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Skill menzilindeki tum oyuncularin",
+        "^CC6600Variable Casting Time^777777 ve ^CC6600After Skill Delay^777777",
+        "degerlerini 180 saniye azaltir. Diger ^000099Song^777777",
+        "skill'leriyle ust uste binmez.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Variable Casting Time -2%,",
+        "After Skill Delay -3%^000000",
+        "[Sv 2]: ^777777Variable Casting Time -4%,",
+        "After Skill Delay -6%^000000",
+        "[Sv 3]: ^777777Variable Casting Time -6%,",
+        "After Skill Delay -9%^000000",
+        "[Sv 4]: ^777777Variable Casting Time -8%,",
+        "After Skill Delay -12%^000000",
+        "[Sv 5]: ^777777Variable Casting Time -10%,",
+        "After Skill Delay -15%^000000",
+        "[Sv 6]: ^777777Variable Casting Time -12%,",
+        "After Skill Delay -18%^000000",
+        "[Sv 7]: ^777777Variable Casting Time -14%,",
+        "After Skill Delay -21%^000000",
+        "[Sv 8]: ^777777Variable Casting Time -16%,",
+        "After Skill Delay -24%^000000",
+        "[Sv 9]: ^777777Variable Casting Time -18%,",
+        "After Skill Delay -27%^000000",
+        "[Sv 10]: ^777777Variable Casting Time -20%,",
+        "After Skill Delay -30%^000000"
+      ]
+    },
+    "ML_DEVOTION": {
+      "name_original": "Devotion",
+      "lines_tr": [
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Party Uyesi^000000",
+        "Aciklama: ^777777Hedef party uyesine gelecek tum hasari",
+        "kullananin almasini saglar. Devotion yalnizca kullanan ile",
+        "party uyesi arasindaki seviye farki 10'dan azsa calisir.",
+        "Party uyesi skill menzilinden cikarsa veya olurse etki iptal olur.",
+        "Devotion diger Crusader veya Paladin siniflarina kullanilamaz.^000000"
+      ]
+    },
+    "BA_APPLEIDUN": {
+      "name_original": "Apple of Idun",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dissonance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Song Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Skill menzilindeki tum oyuncularin",
+        "^CC6600MaksHP^777777 ve aldiklari ^CC6600Healing^777777 miktarini",
+        "180 saniye boyunca artirir. Diger ^000099Song^777777 skill'leriyle",
+        "ust uste binmez. ^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777MaksHP +10%, Alinan Healing +2%^000000",
+        "[Sv 2]: ^777777MaksHP +11%, Alinan Healing +4%^000000",
+        "[Sv 3]: ^777777MaksHP +12%, Alinan Healing +6%^000000",
+        "[Sv 4]: ^777777MaksHP +13%, Alinan Healing +8%^000000",
+        "[Sv 5]: ^777777MaksHP +14%, Alinan Healing +10%^000000",
+        "[Sv 6]: ^777777MaksHP +15%, Alinan Healing +12%^000000",
+        "[Sv 7]: ^777777MaksHP +16%, Alinan Healing +14%^000000",
+        "[Sv 8]: ^777777MaksHP +17%, Alinan Healing +16%^000000",
+        "[Sv 9]: ^777777MaksHP +18%, Alinan Healing +18%^000000",
+        "[Sv 10]: ^777777MaksHP +20%, Alinan Healing +20%^000000"
+      ]
+    },
+    "LG_TRAMPLE": {
+      "name_original": "Trample",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Royal Guard Basic^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullananin cevresindeki Trap'ler^000000",
+        "Aciklama: ^777777Kullananin cevresindeki 5x5 alani",
+        "ezerek tum trap'leri yok eder.",
+        "Patlayici turdeki trap'ler bu skill ile tetiklenir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 50%^000000",
+        "[Sv 2]: ^777777Basari Sansi 75%^000000",
+        "[Sv 3]: ^777777Basari Sansi 100%^000000"
+      ]
+    },
+    "DC_DANCINGLESSON": {
+      "name_original": "Dancing Lesson",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Whip^777777 sinifi silahlarin hasarini artirir.",
+        "^CC6600MaksSP^777777 bonusu her zaman uygulanir; ^CC6600ATK^777777 ve",
+        "^CC6600Critical^777777 bonuslari yalnizca ^990099Whip^777777 sinifi",
+        "silah takiliyken uygulanir.^000000",
+        "[Sv 1]: ^777777Hasar +3, Critical +1, MaksSP +1%^000000",
+        "[Sv 2]: ^777777Hasar +6, Critical +2, MaksSP +2%^000000",
+        "[Sv 3]: ^777777Hasar +9, Critical +3, MaksSP +3%^000000",
+        "[Sv 4]: ^777777Hasar +12, Critical +4, MaksSP +4%^000000",
+        "[Sv 5]: ^777777Hasar +15, Critical +5, MaksSP +5%^000000",
+        "[Sv 6]: ^777777Hasar +18, Critical +6, MaksSP +6%^000000",
+        "[Sv 7]: ^777777Hasar +21, Critical +7, MaksSP +7%^000000",
+        "[Sv 8]: ^777777Hasar +24, Critical +8, MaksSP +8%^000000",
+        "[Sv 9]: ^777777Hasar +27, Critical +9, MaksSP +9%^000000",
+        "[Sv 10]: ^777777Hasar +30, Critical +10, MaksSP +10%^000000"
+      ]
+    },
+    "SC_MAELSTROM": {
+      "name_original": "Maelstrom",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Chaos Panic 3,\nMasquerade Unlucky 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine donen bir daire cizer ve",
+        "zemine kullanilan diger buyuleri emer. Kullanan,",
+        "emilen buyunun seviyesine gore SP yeniler.",
+        "^990099Paint Brush^777777 gerektirir.",
+        "2 ^990099Surface Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 7 saniye^000000",
+        "[Sv 2]: ^777777Sure: 14 saniye^000000",
+        "[Sv 3]: ^777777Sure: 21 saniye^000000"
+      ]
+    },
+    "DC_THROWARROW": {
+      "name_original": "Throw Arrow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dancing Lesson 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^990099Whip^777777 kullanarak ^0000FFDance^777777 skill'leri",
+        "aktifken bile guclu bir ok salvosu atar.",
+        "Saldirinin elementi ^990099Arrow^777777 elementine gore belirlenir.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 150% x2^000000",
+        "[Sv 2]: ^777777ATK 190% x2^000000",
+        "[Sv 3]: ^777777ATK 230% x2^000000",
+        "[Sv 4]: ^777777ATK 270% x2^000000",
+        "[Sv 5]: ^777777ATK 310% x2^000000"
+      ]
+    },
+    "SC_CHAOSPANIC": {
+      "name_original": "Chaos Panic",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Manhole 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine donen bir sekil cizer ve hedefi",
+        "kaosa surukler. Yakalanan hedef yonunu kaybederek",
+        "anormal hareket eder. Monster'larda confusion etkisi",
+        "olusturur ve saldiri hedefini rastgele degistirir.",
+        "^990099Paint Brush^777777 gerektirir.",
+        "2 ^990099Surface Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 5 saniye^000000",
+        "[Sv 2]: ^777777Sure: 10 saniye^000000",
+        "[Sv 3]: ^777777Sure: 15 saniye^000000"
+      ]
+    },
+    "DC_UGLYDANCE": {
+      "name_original": "Ugly Dance",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Adaptation to Circumstances 1,",
+        "Dancing Lesson 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Dance Skill^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777^0000FFUgly Dance^777777 menzilindeki dusmanlarin",
+        "^CC6600SP^777777 degerini surekli azaltir.",
+        "Yalnizca PvP/Siege Mode'da kullanilabilir.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Azalan SP: 12%, Basari Sansi: 25%^000000",
+        "[Sv 2]: ^777777Azalan SP: 14%, Basari Sansi: 30%^000000",
+        "[Sv 3]: ^777777Azalan SP: 16%, Basari Sansi: 35%^000000",
+        "[Sv 4]: ^777777Azalan SP: 18%, Basari Sansi: 40%^000000",
+        "[Sv 5]: ^777777Azalan SP: 20%, Basari Sansi: 45%^000000"
+      ]
+    },
+    "SC_DIMENSIONDOOR": {
+      "name_original": "Dimension Door",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Manhole 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine sihirli bir kapi cizer ve",
+        "uzerine basan hedefi rastgele bir konuma isinlar.",
+        "^990099Paint Brush^777777 gerektirir.",
+        "1 ^990099Surface Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 4 saniye^000000",
+        "[Sv 2]: ^777777Sure: 8 saniye^000000",
+        "[Sv 3]: ^777777Sure: 12 saniye^000000"
+      ]
+    },
+    "DC_SCREAM": {
+      "name_original": "Scream",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Encore 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Gorus Menzili^000000",
+        "Aciklama: ^777777Kullananin gorus alanindaki dusmanlara",
+        "^663399Stun^777777 uygular; dusuk bir sansla party uyelerine de",
+        "^663399Stun^777777 uygulanabilir.^000000",
+        "[Sv 1]: ^777777Stun Sansi: 30%^000000",
+        "[Sv 2]: ^777777Stun Sansi: 35%^000000",
+        "[Sv 3]: ^777777Stun Sansi: 40%^000000",
+        "[Sv 4]: ^777777Stun Sansi: 45%^000000",
+        "[Sv 5]: ^777777Stun Sansi: 50%^000000"
+      ]
+    },
+    "SC_MANHOLE": {
+      "name_original": "Manhole",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Flag Graffiti 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine 1 manhole cizer ve 1 hedefi",
+        "cukura dusurur. Yakalanan hedef saldiri dahil",
+        "hicbir eylem yapamaz.",
+        "^990099Paint Brush^777777 gerektirir.",
+        "1 ^990099Surface Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 5 saniye^000000",
+        "[Sv 2]: ^777777Sure: 10 saniye^000000",
+        "[Sv 3]: ^777777Sure: 15 saniye^000000"
+      ]
+    },
+    "DC_HUMMING": {
+      "name_original": "Humming",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ugly Dance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Dance Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullananin ve skill menzilindeki party",
+        "uyelerinin ^CC6600HIT^777777 degerini 180 saniye artirir.",
+        "Diger ^0000FFDance^777777 skill'leriyle ust uste binmez.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777HIT +4^000000",
+        "[Sv 2]: ^777777HIT +8^000000",
+        "[Sv 3]: ^777777HIT +12^000000",
+        "[Sv 4]: ^777777HIT +16^000000",
+        "[Sv 5]: ^777777HIT +20^000000",
+        "[Sv 6]: ^777777HIT +24^000000",
+        "[Sv 7]: ^777777HIT +28^000000",
+        "[Sv 8]: ^777777HIT +32^000000",
+        "[Sv 9]: ^777777HIT +36^000000",
+        "[Sv 10]: ^777777HIT +40^000000"
+      ]
+    },
+    "DC_DONTFORGETME": {
+      "name_original": "Please Don't Forget Me",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ugly Dance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Dance Skill^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777Skill menzilindeki tum dusmanlarin",
+        "^CC6600Saldiri Hizi^777777 ve ^CC6600Hareket Hizi^777777 degerlerini",
+        "60 saniye azaltir. ^000099Please Don't Forget Me^777777 ayrica",
+        "skill suresince Hareket ve Saldiri Hizini artiran durumlari iptal eder.",
+        "Diger ^0000FFDance^777777 skill'leriyle ust uste binmez.",
+        "Yalnizca PvP/Siege Mode'da kullanilabilir.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Saldiri Hizi -3%, Hareket Hizi -2%^000000",
+        "[Sv 2]: ^777777Saldiri Hizi -6%, Hareket Hizi -4%^000000",
+        "[Sv 3]: ^777777Saldiri Hizi -9%, Hareket Hizi -6%^000000",
+        "[Sv 4]: ^777777Saldiri Hizi -12%, Hareket Hizi -8%^000000",
+        "[Sv 5]: ^777777Saldiri Hizi -15%, Hareket Hizi -10%^000000",
+        "[Sv 6]: ^777777Saldiri Hizi -18%, Hareket Hizi -12%^000000",
+        "[Sv 7]: ^777777Saldiri Hizi -21%, Hareket Hizi -14%^000000",
+        "[Sv 8]: ^777777Saldiri Hizi -24%, Hareket Hizi -16%^000000",
+        "[Sv 9]: ^777777Saldiri Hizi -27%, Hareket Hizi -18%^000000",
+        "[Sv 10]: ^777777Saldiri Hizi -30%, Hareket Hizi -20%^000000"
+      ]
+    },
+    "SC_WEAKNESS": {
+      "name_original": "Masquerade Weakness",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Masquerade Enervation 1,",
+        "Masquerade Groomy 1,",
+        "Masquerade Ignorance 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin MaksHP'sini azaltir ve",
+        "silah ile shield'ini gecici olarak cikarir.",
+        "Hedef skill suresince silah veya shield takamaz.",
+        "Basari sansi kullanan ile hedefin seviye ve statlarina baglidir.",
+        "^990099Makeover Brush^777777 gerektirir.",
+        "1 ^990099Face Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MaksHP -10%, Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777MaksHP -20%, Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777MaksHP -30%, Sure: 20 saniye^000000"
       ]
     }
   }
