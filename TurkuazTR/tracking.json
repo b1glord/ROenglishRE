@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "description": "Ceviri durum aracinin ana localization dosyalarini, ortak profilleri ve overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
@@ -52,19 +52,47 @@
     },
     {
       "name": "recommended_quests",
-      "path": "Translation/Renewal/SystemEN/RecommendedQuests.lub"
+      "path": "Translation/Renewal/SystemEN/RecommendedQuests.lub",
+      "patch_path": "TurkuazTR/recommended_quests.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ]
     },
     {
       "name": "town_info",
-      "path": "Translation/Renewal/SystemEN/Towninfo.lub"
+      "path": "Translation/Renewal/SystemEN/Towninfo.lub",
+      "patch_path": "TurkuazTR/towninfo.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ]
     },
     {
       "name": "sign_data",
-      "path": "Translation/Renewal/SystemEN/Sign_Data.lub"
+      "path": "Translation/Renewal/SystemEN/Sign_Data.lub",
+      "patch_path": "TurkuazTR/sign_data.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ]
     },
     {
       "name": "navi_data",
-      "path": "Translation/Renewal/SystemEN/Navi_Data.lub"
+      "path": "Translation/Renewal/SystemEN/Navi_Data.lub",
+      "patch_path": "TurkuazTR/navi_data.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ]
     },
     {
       "name": "quest_display",
