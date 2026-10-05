@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.12.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 425 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.13.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 460 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1711,6 +1711,146 @@
     "SP_SOULCOLLECT": {
       "name_original": "Soul Collect",
       "name_tr": "Ruh Toplama"
+    },
+    "SP_SOULREVOLVE": {
+      "name_original": "Soul Revolution",
+      "name_tr": "Ruh Devrimi"
+    },
+    "SP_SOULEXPLOSION": {
+      "name_original": "Soul Explosion",
+      "name_tr": "Ruh Patlamasi"
+    },
+    "SP_KAUTE": {
+      "name_original": "Kaute",
+      "name_tr": "Kaute"
+    },
+    "SP_SOULENERGY": {
+      "name_original": "Soul Energy Research",
+      "name_tr": "Ruh Enerjisi Arastirmasi"
+    },
+    "SJ_FALLINGSTAR_ATK2": {
+      "name_original": "Falling Star",
+      "name_tr": "Dusen Yildiz"
+    },
+    "SJ_FALLINGSTAR_ATK": {
+      "name_original": "Falling Star",
+      "name_tr": "Dusen Yildiz"
+    },
+    "NV_BREAKTHROUGH": {
+      "name_original": "Breakthrough",
+      "name_tr": "Atilim"
+    },
+    "NV_HELPANGEL": {
+      "name_original": "Angel, help Me!",
+      "name_tr": "Melek Bana Yardim Et"
+    },
+    "NV_TRANSCENDENCE": {
+      "name_original": "Transcendence",
+      "name_tr": "Yukselis"
+    },
+    "SR_SKYNETBLOW": {
+      "name_original": "Sky Net Blow",
+      "name_tr": "Gok Agi Darbesi"
+    },
+    "SR_LIGHTNINGWALK": {
+      "name_original": "Lightning Walk",
+      "name_tr": "Yildirim Yuruyusu"
+    },
+    "SR_GATEOFHELL": {
+      "name_original": "Gate of Hell",
+      "name_tr": "Cehennem Kapisi"
+    },
+    "SR_GENTLETOUCH_CHANGE": {
+      "name_original": "Gentle Touch - Change",
+      "name_tr": "Nazik Dokunus - Degisim"
+    },
+    "SR_EARTHSHAKER": {
+      "name_original": "Earth Shaker",
+      "name_tr": "Yer Sarsici"
+    },
+    "SR_KNUCKLEARROW": {
+      "name_original": "Knuckle Arrow",
+      "name_tr": "Yumruk Oku"
+    },
+    "SR_ASSIMILATEPOWER": {
+      "name_original": "Power Absorb",
+      "name_tr": "Guc Emme"
+    },
+    "SR_GENTLETOUCH_QUIET": {
+      "name_original": "Gentle Touch Silence",
+      "name_tr": "Nazik Dokunus - Sessizlik"
+    },
+    "SR_DRAGONCOMBO": {
+      "name_original": "Dragon Combo",
+      "name_tr": "Ejderha Kombosu"
+    },
+    "SR_RIDEINLIGHTNING": {
+      "name_original": "Ride in Lightning",
+      "name_tr": "Yildirima Binis"
+    },
+    "SR_HOWLINGOFLION": {
+      "name_original": "Howling of Lion",
+      "name_tr": "Aslan Kukremesi"
+    },
+    "SR_TIGERCANNON": {
+      "name_original": "Tiger Cannon",
+      "name_tr": "Kaplan Topu"
+    },
+    "SR_CRESCENTELBOW": {
+      "name_original": "Crescent Elbow",
+      "name_tr": "Hilal Dirsegi"
+    },
+    "SR_RAISINGDRAGON": {
+      "name_original": "Rising Dragon",
+      "name_tr": "Yukselen Ejderha"
+    },
+    "SR_POWERVELOCITY": {
+      "name_original": "Power Implantation",
+      "name_tr": "Guc Aktarimi"
+    },
+    "SR_GENTLETOUCH_ENERGYGAIN": {
+      "name_original": "Gentle Touch-Energy Gain",
+      "name_tr": "Nazik Dokunus - Enerji Kazanimi"
+    },
+    "SR_FALLENEMPIRE": {
+      "name_original": "Fallen Empire",
+      "name_tr": "Yikik Imparatorluk"
+    },
+    "SR_WINDMILL": {
+      "name_original": "Windmill",
+      "name_tr": "Yel Degirmeni"
+    },
+    "SR_GENTLETOUCH_CURE": {
+      "name_original": "Gentle Touch-Cure",
+      "name_tr": "Nazik Dokunus - Tedavi"
+    },
+    "SR_GENTLETOUCH_REVITALIZE": {
+      "name_original": "Gentle Touch-Revitalize",
+      "name_tr": "Nazik Dokunus - Canlandirma"
+    },
+    "SR_CURSEDCIRCLE": {
+      "name_original": "Cursed Circle",
+      "name_tr": "Lanetli Cember"
+    },
+    "SR_RAMPAGEBLASTER": {
+      "name_original": "Rampage Blaster",
+      "name_tr": "Hiddet Patlamasi"
+    },
+    "SR_FLASHCOMBO": {
+      "name_original": "Flash Combo",
+      "name_tr": "Hizli Kombo"
+    },
+    "RK_LUXANIMA": {
+      "name_original": "Lux Anima",
+      "name_tr": "Lux Anima"
+    },
+    "DK_SERVANTWEAPON": {
+      "name_original": "Servant Weapon",
+      "name_tr": "Hizmetkar Silah"
+    },
+    "DK_SERVANT_W_SIGN": {
+      "name_original": "Servant Weapon - Sign",
+      "name_tr": "Hizmetkar Silah - Isaret"
     }
   },
   "name_profiles": {
@@ -1723,5 +1863,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 425
+  "patch_count": 460
 }
