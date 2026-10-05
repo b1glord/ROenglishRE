@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 1.4.0
+# Version: 1.5.0
 # Aciklama: Upstream 2026, Turkce overlay ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -24,13 +24,27 @@ pins:
 
 sync:
   tipoftheday:
-    status: translated_exact_base
+    status: translated_source_locked
+    strategy: source_blob_whole_file_overlay
+    patch: "TurkuazTR/tipoftheday.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
   guild_tip:
-    status: translated_for_latest_upstream
+    status: translated_source_locked
+    strategy: source_blob_whole_file_overlay
+    patch: "TurkuazTR/guild_tip.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
   ba_frostjoke:
-    status: translated_exact_base
+    status: translated_partial
+    translated_lines: 100
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/ba_frostjoke.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
   dc_scream:
-    status: translated_exact_base
+    status: translated_partial
+    translated_lines: 105
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/dc_scream.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
   msgstringtable:
     status: translated_complete
     translated_lines: 3499
