@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.9.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 160 exact Renewal skill aciklamasi dahil",
+    "version": "2.0.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 180 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -3067,6 +3067,331 @@
         "Aciklama: ^777777Asiri isinmis ^0000FFMado Gear^777777'i aninda sogutur. Sogutma cihazinin kalitesi",
         "azaltilan overheat puanini etkiler. ^990099Cooling Device^777777 gerektirir ve",
         "1 ^990099Mado Gear Fuel^777777 tuketir.^000000"
+      ]
+    },
+    "NC_SHAPESHIFT": {
+      "name_original": "Shape Shift",
+      "lines_tr": [
+        "Maks. Seviye: 4",
+        "^CC3399Gereksinim: Remodel Mainframe 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777 elementini degistirir.",
+        "^990099Shape Shifter^777777 gerektirir; 2 ^990099Mado Gear Fuel^777777 ve ^990099Enchanted Stone^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Fire elementine cevirir, 3 Scarlet Point tuketir^000000",
+        "[Sv 2]: ^777777Earth elementine cevirir, 3 Lime Green Point tuketir^000000",
+        "[Sv 3]: ^777777Wind elementine cevirir, 3 Yellow Wish Point tuketir^000000",
+        "[Sv 4]: ^777777Water elementine cevirir, 3 Indigo Point tuketir^000000"
+      ]
+    },
+    "NC_SELFDESTRUCTION": {
+      "name_original": "Self Destruction",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Remodel Mainframe 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777'i kendini imha ettirerek cevresinde buyuk hasar verir.",
+        "Kullanan ^0000FFMado Gear^777777'i kaybeder ve tum ^CC6600SP^777777 tuketilir.",
+        "^990099Self-Destruct Device^777777 gerektirir ve 3 ^990099Mado Gear Fuel^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE: 5x5 hucre^000000",
+        "[Sv 2]: ^777777AoE: 7x7 hucre^000000",
+        "[Sv 3]: ^777777AoE: 9x9 hucre^000000"
+      ]
+    },
+    "NC_MAINFRAME": {
+      "name_original": "Remodel Mainframe",
+      "lines_tr": [
+        "Maks. Seviye: 4",
+        "^CC3399Gereksinim: Mado Gear License 4^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777 ana govdesini gelistirerek ^CC6600Defense^777777 ve ^0000FFOverheat Limit^777777 degerini artirir.",
+        "^0000FFOverheat^777777 sirasinda Mado Gear surekli hasar alir. Overheat limiti 999'dur ve 0'a indiginde etki biter.^000000",
+        "[Sv 1]: ^777777Defense +40, Overheat Limit 200^000000",
+        "[Sv 2]: ^777777Defense +60, Overheat Limit 280^000000",
+        "[Sv 3]: ^777777Defense +80, Overheat Limit 360^000000",
+        "[Sv 4]: ^777777Defense +100, Overheat Limit 450^000000"
+      ]
+    },
+    "NC_ACCELERATION": {
+      "name_original": "Acceleration",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Mado Gear License 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777'in ^CC6600Hareket Hizi^777777 degerini gecici olarak artirir.",
+        "^990099Accelerator^777777 gerektirir ve 1 ^990099Mado Gear Fuel^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 90 saniye^000000",
+        "[Sv 3]: ^777777Sure: 120 saniye^000000"
+      ]
+    },
+    "NC_ARMSCANNON": {
+      "name_original": "Arm Cannon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Flame Launcher 2, Cold Slower 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Menzil: ^7777779 hucre^000000",
+        "Aciklama: ^777777Bir cannon ball atarak hedefe ve cevresindeki dusmanlara ozel menzilli fiziksel hasar verir.",
+        "Hasar elementi takili ^990099Cannon Ball^777777'a baglidir. Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.",
+        "1 ^990099Cannon Ball^777777 ve 1 ^990099Mado Gear Fuel^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 750% / AoE: 3x3^000000",
+        "[Sv 2]: ^777777ATK 1100% / AoE: 3x3^000000",
+        "[Sv 3]: ^777777ATK 1450% / AoE: 5x5^000000",
+        "[Sv 4]: ^777777ATK 1800% / AoE: 5x5^000000",
+        "[Sv 5]: ^777777ATK 2150% / AoE: 7x7^000000"
+      ]
+    },
+    "NC_VULCANARM": {
+      "name_original": "Vulcan Arm",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Knuckle Boost 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Menzil: ^77777713 hucre^000000",
+        "Aciklama: ^777777^0000FFMado Gear^777777'e takili buyuk kalibreli silahla hedefe ve cevresine saldirir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600DEX^777777 degerine gore artar.",
+        "1 ^990099Vulcan Bullet^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 230% / AoE: 5x5^000000",
+        "[Sv 2]: ^777777ATK 460% / AoE: 5x5^000000",
+        "[Sv 3]: ^777777ATK 690% / AoE: 5x5^000000"
+      ]
+    },
+    "RA_ICEBOUNDTRAP": {
+      "name_original": "Ice Bound Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Detonator 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Trap tetiklendiginde 3x3 alana hasar verir ve ^663399Freezing^777777 uygular.",
+        "Skill seviyesi Freezing uygulama sansini artirir. 1 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 60%^000000",
+        "[Sv 2]: ^777777Basari Sansi 70%^000000",
+        "[Sv 3]: ^777777Basari Sansi 80%^000000",
+        "[Sv 4]: ^777777Basari Sansi 90%^000000",
+        "[Sv 5]: ^777777Basari Sansi 100%^000000"
+      ]
+    },
+    "RA_FIRINGTRAP": {
+      "name_original": "Firing Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Detonator 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Trap tetiklendiginde 5x5 alana hasar verir ve ^663399Burning^777777 uygular.",
+        "Skill seviyesi Burning uygulama sansini artirir. 1 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 60%^000000",
+        "[Sv 2]: ^777777Basari Sansi 70%^000000",
+        "[Sv 3]: ^777777Basari Sansi 80%^000000",
+        "[Sv 4]: ^777777Basari Sansi 90%^000000",
+        "[Sv 5]: ^777777Basari Sansi 100%^000000"
+      ]
+    },
+    "RA_VERDURETRAP": {
+      "name_original": "Verdure Trap",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Trap Research 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Trap'e basan monster'in elementini ^33CC00Wind^777777 elementine cevirir.",
+        "^00A100Boss^777777 turu monster'lari veya oyunculari etkilemez.",
+        "1 ^990099Yellow Wish Point^777777 ve 1 ^990099Special Alloy Trap^777777 tuketir.^000000"
+      ]
+    },
+    "RA_COBALTTRAP": {
+      "name_original": "Cobalt Trap",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Trap Research 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Trap'e basan monster'in elementini ^0000BBWater^777777 elementine cevirir.",
+        "^00A100Boss^777777 turu monster'lari veya oyunculari etkilemez.",
+        "1 ^990099Indigo Point^777777 ve 1 ^990099Special Alloy Trap^777777 tuketir.^000000"
+      ]
+    },
+    "RA_SENSITIVEKEEN": {
+      "name_original": "Sensitive Keen",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tooth of Warg 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFWarg^777777 duyularini kullanarak gizli trap ve dusmanlari ortaya cikarir.",
+        "Dusmanlara ^0000FFWarg Bite^777777 ile saldirma sansi vardir.^000000",
+        "[Sv 1]: ^777777AoE: 7x7, ATK 150%, Warg Bite Sansi 8%^000000",
+        "[Sv 2]: ^777777AoE: 9x9, ATK 200%, Warg Bite Sansi 16%^000000",
+        "[Sv 3]: ^777777AoE: 11x11, ATK 250%, Warg Bite Sansi 24%^000000",
+        "[Sv 4]: ^777777AoE: 13x13, ATK 300%, Warg Bite Sansi 32%^000000",
+        "[Sv 5]: ^777777AoE: 15x15, ATK 350%, Warg Bite Sansi 40%^000000"
+      ]
+    },
+    "RA_TOOTHOFWUG": {
+      "name_original": "Tooth of Warg",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Warg Mastery 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^0000FFWarg^777777 skill'lerinin hasarini artirir.^000000",
+        "[Sv 1]: ^777777Hasar +30^000000",
+        "[Sv 2]: ^777777Hasar +60^000000",
+        "[Sv 3]: ^777777Hasar +90^000000",
+        "[Sv 4]: ^777777Hasar +120^000000",
+        "[Sv 5]: ^777777Hasar +150^000000",
+        "[Sv 6]: ^777777Hasar +180^000000",
+        "[Sv 7]: ^777777Hasar +210^000000",
+        "[Sv 8]: ^777777Hasar +240^000000",
+        "[Sv 9]: ^777777Hasar +270^000000",
+        "[Sv 10]: ^777777Hasar +300^000000"
+      ]
+    },
+    "RA_WUGDASH": {
+      "name_original": "Warg Dash",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Warg Rider 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWarg^777777 uzerindeyken kullanilabilir. Warg'i duz bir hatta hizla kosturur;",
+        "skill tekrar kullanilirsa durur. Duvar veya dusmana carpilinca otomatik durur.",
+        "^00A100Ranger^777777 ^0000FFWarg Strike^777777 ogrenmisse carptigi dusmana hasar verir.^000000"
+      ]
+    },
+    "RA_ELECTRICSHOCKER": {
+      "name_original": "Electric Shocker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Shockwave Trap 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap (Gorunur)^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^663399Hedefi sabitler^777777 ve her saniye belirli miktarda ^CC6600SP^777777 emer.",
+        "^0000FFElectric Shocker^777777, ^0000FFRemove Trap^777777 ile kaldirilamaz.",
+        "1 ^990099Special Alloy Trap^777777 gerektirir. En fazla 3 trap kurulabilir.^000000",
+        "[Sv 1]: ^777777Saniyede SP %5 emer, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777Saniyede SP %10 emer, Sure: 22 saniye^000000",
+        "[Sv 3]: ^777777Saniyede SP %15 emer, Sure: 24 saniye^000000",
+        "[Sv 4]: ^777777Saniyede SP %20 emer, Sure: 26 saniye^000000",
+        "[Sv 5]: ^777777Saniyede SP %25 emer, Sure: 28 saniye^000000"
+      ]
+    },
+    "RA_DETONATOR": {
+      "name_original": "Detonator",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Cluster Bomb 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Zemindeki trap'leri aninda tetikler. Hedeflenen alanin etrafinda 7x7 menzile sahiptir.",
+        "^00A100Hunter^777777 trap'lerini de tetikleyebilir; diger oyuncularin trap'lerini tetiklemez.",
+        "Tetiklenebilen trap'ler: ^0000FFBlast Mine, Claymore Trap, Sandman, Talkie Box, Firing Trap, Cluster Bomb^777777 ve ^0000FFIce Bound Trap^777777.^000000"
+      ]
+    },
+    "RA_AIMEDBOLT": {
+      "name_original": "Aimed Bolt",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ankle Snare 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe yogun ok atisi yaparak 5 vurusluk yuksek menzilli fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar; ^0000FFFear Breeze^777777 aktifse daha fazla hasar verir.",
+        "3 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 520% / 835%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 2]: ^777777ATK 540% / 870%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 3]: ^777777ATK 560% / 905%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 4]: ^777777ATK 580% / 940%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 5]: ^777777ATK 600% / 975%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 6]: ^777777ATK 620% / 1010%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 7]: ^777777ATK 640% / 1045%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 8]: ^777777ATK 660% / 1080%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 9]: ^777777ATK 680% / 1115%(^0000FFFear Breeze^777777)^000000",
+        "[Sv 10]: ^777777ATK 700% / 1150%(^0000FFFear Breeze^777777)^000000"
+      ]
+    },
+    "RA_RANGERMAIN": {
+      "name_original": "Ranger Main",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ranger Basic Skill^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Brute, Plant^777777 ve ^00A100Fish^777777 monster'larina verilen hasari artirir ve bu monster'lardan alinan hasari azaltir.^000000",
+        "[Sv 1]: ^777777Hasar ve Direnc +5^000000",
+        "[Sv 2]: ^777777Hasar ve Direnc +10^000000",
+        "[Sv 3]: ^777777Hasar ve Direnc +15^000000",
+        "[Sv 4]: ^777777Hasar ve Direnc +20^000000",
+        "[Sv 5]: ^777777Hasar ve Direnc +25^000000",
+        "[Sv 6]: ^777777Hasar ve Direnc +30^000000",
+        "[Sv 7]: ^777777Hasar ve Direnc +35^000000",
+        "[Sv 8]: ^777777Hasar ve Direnc +40^000000",
+        "[Sv 9]: ^777777Hasar ve Direnc +45^000000",
+        "[Sv 10]: ^777777Hasar ve Direnc +50^000000"
+      ]
+    },
+    "RA_FEARBREEZE": {
+      "name_original": "Fear Breeze",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Camouflage 1, Arrow Storm 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Skill suresince normal menzilli saldirilarin hedefe birden fazla kez vurma sansi olur.",
+        "Ek saldirilar Arrow tuketir.^000000",
+        "[Sv 1]: ^777777Saldiri Sayisi +1, Tetiklenme 12%, Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Saldiri Sayisi +1, Tetiklenme 12%, Sure: 90 saniye^000000",
+        "[Sv 3]: ^777777Saldiri Sayisi +1~2, Tetiklenme 21%, Sure: 120 saniye^000000",
+        "[Sv 4]: ^777777Saldiri Sayisi +1~3, Tetiklenme 27%, Sure: 150 saniye^000000",
+        "[Sv 5]: ^777777Saldiri Sayisi +1~4, Tetiklenme 30%, Sure: 180 saniye^000000"
+      ]
+    },
+    "WL_RELEASE": {
+      "name_original": "Release",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "^CC3399Gereksinim: Warlock Basic Skill^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFReading Spellbook^777777 ile kaydedilen bir spell'i etkinlestirir veya aktif",
+        "^990099Fire Ball, Lightning Ball, Water Ball^777777 ve/veya ^990099Stone Ball^777777'lari serbest birakarak tek hedefe buyu hasari verir.^000000",
+        "[Sv 1]: ^777777Kayitli bir spell'i etkinlestirir^000000",
+        "[Sv 2]: ^777777Tum aktif Summon Ball'lari serbest birakir^000000"
+      ]
+    },
+    "WL_SUMMONSTONE": {
+      "name_original": "Summon Stone Ball",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "^CC3399Gereksinim: Heaven's Drive 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777280 saniye boyunca surekli ^CC6600SP^777777 tuketerek en fazla 5 ^990099Stone Ball^777777 cagirir.",
+        "Seviye 2 mevcut tum ^990099Summon Ball^777777'lari kaldirip yerine 5 Stone Ball cagirir.",
+        "^0000FFRelease^777777 ile verilen hasar kullananin ^CC6600Base Level^777777 ve ^CC6600Job Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^7777771 Stone Ball cagirir^000000",
+        "[Sv 2]: ^7777775 Stone Ball cagirir^000000"
       ]
     }
   }
