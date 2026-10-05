@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.22.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 775 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.23.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 810 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -3111,6 +3111,146 @@
     "MT_ENERGY_CANNONADE": {
       "name_original": "Energy Cannonade",
       "name_tr": "Enerji Topcu Atesi"
+    },
+    "BO_MYSTERY_POWDER": {
+      "name_original": "Mystery Powder",
+      "name_tr": "Gizemli Toz"
+    },
+    "BO_DUST_EXPLOSION": {
+      "name_original": "Dust Explosion",
+      "name_tr": "Toz Patlamasi"
+    },
+    "SHC_CROSS_SLASH": {
+      "name_original": "Cross Slash",
+      "name_tr": "Capraz Kesik"
+    },
+    "ABC_HIT_AND_SLIDING": {
+      "name_original": "Hit And Sliding",
+      "name_tr": "Vur ve Kay"
+    },
+    "ABC_CHASING_BREAK": {
+      "name_original": "Chasing Break",
+      "name_tr": "Takip Darbesi"
+    },
+    "ABC_CHASING_SHOT": {
+      "name_original": "Chasing Shot",
+      "name_tr": "Takip Atisi"
+    },
+    "TR_RHYTHMICAL_WAVE": {
+      "name_original": "Rhythmical Wave",
+      "name_tr": "Ritmik Dalga"
+    },
+    "SS_FOUR_CHARM": {
+      "name_original": "Four Colors Charm",
+      "name_tr": "Dort Renk Tilsimi"
+    },
+    "NW_WILD_SHOT": {
+      "name_original": "Wild Shot",
+      "name_tr": "Vahsi Atis"
+    },
+    "NW_MIDNIGHT_FALLEN": {
+      "name_original": "Midnight Fallen",
+      "name_tr": "Gece Yarisi Dususu"
+    },
+    "DK_DRAGONIC_PIERCE": {
+      "name_original": "Dragonic Pierce",
+      "name_tr": "Ejderha Delisi"
+    },
+    "IG_IMPERIAL_PRESSURE": {
+      "name_original": "Imperial Pressure",
+      "name_tr": "Imparatorluk Baskisi"
+    },
+    "ABC_ABYSS_FLAME": {
+      "name_original": "Abyss Flame",
+      "name_tr": "Ucurum Alevi"
+    },
+    "ABC_ABYSS_FLAME_ATK": {
+      "name_original": "Abyss Flame",
+      "name_tr": "Ucurum Alevi"
+    },
+    "AG_ENERGY_CONVERSION": {
+      "name_original": "Energy Conversion",
+      "name_tr": "Enerji Donusumu"
+    },
+    "EM_PSYCHIC_STREAM": {
+      "name_original": "Psychic Stream",
+      "name_tr": "Psisik Akis"
+    },
+    "CD_DIVINUS_FLOS": {
+      "name_original": "Divinus Flos",
+      "name_tr": "Divinus Flos"
+    },
+    "IQ_BLAZING_FLAME_BLAST": {
+      "name_original": "Blazing Flame Blast",
+      "name_tr": "Alevli Yangin Patlamasi"
+    },
+    "WH_WILD_WALK": {
+      "name_original": "Wild Walk",
+      "name_tr": "Vahsi Yuruyus"
+    },
+    "SKE_SKY_SUN": {
+      "name_original": "Sky Sun",
+      "name_tr": "Gok Gunesi"
+    },
+    "SKE_SKY_MOON": {
+      "name_original": "Sky Moon",
+      "name_tr": "Gok Ayi"
+    },
+    "SKE_STAR_LIGHT_KICK": {
+      "name_original": "Star Light Kick",
+      "name_tr": "Yildiz Isigi Tekmesi"
+    },
+    "HN_OVERCOMING_CRISIS": {
+      "name_original": "Overcoming Crisis",
+      "name_tr": "Krizi Asma"
+    },
+    "SH_CHUL_HO_BATTERING": {
+      "name_original": "Chulho Battering",
+      "name_tr": "Chulho Ezisi"
+    },
+    "SH_HYUN_ROK_SPIRIT_POWER": {
+      "name_original": "Hyunrok Spirit Power",
+      "name_tr": "Hyunrok Ruh Gucu"
+    },
+    "DR_TRUTH_OF_WIND": {
+      "name_original": "Truth of Wind",
+      "name_tr": "Ruzgar Gercegi"
+    },
+    "DR_TRUTH_OF_ICE": {
+      "name_original": "Truth of Ice",
+      "name_tr": "Buz Gercegi"
+    },
+    "DR_TRUTH_OF_EARTH": {
+      "name_original": "Truth of Earth",
+      "name_tr": "Toprak Gercegi"
+    },
+    "DR_ICE_TOTEM": {
+      "name_original": "Ice Totem",
+      "name_tr": "Buz Totemi"
+    },
+    "DR_ICE_CLOUD": {
+      "name_original": "Ice Cloud",
+      "name_tr": "Buz Bulutu"
+    },
+    "DR_CUTTING_WIND": {
+      "name_original": "Cutting Wind",
+      "name_tr": "Kesici Ruzgar"
+    },
+    "DR_WIND_BOMB": {
+      "name_original": "Wind Bomb",
+      "name_tr": "Ruzgar Bombasi"
+    },
+    "DR_EARTH_FLOWER": {
+      "name_original": "Earth Flower",
+      "name_tr": "Toprak Cicegi"
+    },
+    "DR_AROUND_FLOWER": {
+      "name_original": "Around Flower",
+      "name_tr": "Cevre Cicegi"
+    },
+    "DR_NATURE_LOGIC": {
+      "name_original": "Nature Logic",
+      "name_tr": "Doga Mantigi"
     }
   },
   "name_profiles": {
@@ -3123,5 +3263,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 775
+  "patch_count": 810
 }
