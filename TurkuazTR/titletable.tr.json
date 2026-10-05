@@ -1,0 +1,205 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/titletable.tr.json",
+    "purpose": "Renewal titletable.lub karakter unvanlari icin ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest titletable.lub kaynagindaki 47 exact satiri ASCII Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/titletable.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "b75a96a00112a82b06c84ea72c0a3b1e2970ef69",
+  "source_line_count": 63,
+  "patch_count": 47,
+  "patches": {
+    "8": {
+      "source_en": "\t[1000] = \"Junction of life\",",
+      "translation_tr": "\t[1000] = \"Hayatin Kavusagi\","
+    },
+    "9": {
+      "source_en": "\t[1001] = \"Specialist\",",
+      "translation_tr": "\t[1001] = \"Uzman\","
+    },
+    "10": {
+      "source_en": "\t[1002] = \"Expert\",",
+      "translation_tr": "\t[1002] = \"Uzman Uye\","
+    },
+    "11": {
+      "source_en": "\t[1003] = \"Master\",",
+      "translation_tr": "\t[1003] = \"Usta\","
+    },
+    "12": {
+      "source_en": "\t[1004] = \"Grand Master\",",
+      "translation_tr": "\t[1004] = \"Buyuk Usta\","
+    },
+    "13": {
+      "source_en": "\t[1005] = \"Novice Adventurer\",",
+      "translation_tr": "\t[1005] = \"Acemi Maceraci\","
+    },
+    "14": {
+      "source_en": "\t[1006] = \"Veteran Adventurer\",",
+      "translation_tr": "\t[1006] = \"Kidemli Maceraci\","
+    },
+    "15": {
+      "source_en": "\t[1007] = \"Master Adventurer\",",
+      "translation_tr": "\t[1007] = \"Usta Maceraci\","
+    },
+    "16": {
+      "source_en": "\t[1008] = \"of Dragon\",",
+      "translation_tr": "\t[1008] = \"Ejderhanin\","
+    },
+    "17": {
+      "source_en": "\t[1009] = \"of Madness\",",
+      "translation_tr": "\t[1009] = \"Deliligin\","
+    },
+    "18": {
+      "source_en": "\t[1010] = \"Steel Body\",",
+      "translation_tr": "\t[1010] = \"Celik Beden\","
+    },
+    "19": {
+      "source_en": "\t[1011] = \"The Yellow Flash\",",
+      "translation_tr": "\t[1011] = \"Sari Simsek\","
+    },
+    "20": {
+      "source_en": "\t[1012] = \"Keen\",",
+      "translation_tr": "\t[1012] = \"Keskin\","
+    },
+    "21": {
+      "source_en": "\t[1013] = \"Lucky\",",
+      "translation_tr": "\t[1013] = \"Sansli\","
+    },
+    "22": {
+      "source_en": "\t[1014] = \"Incarnation of Love and Hatred\",",
+      "translation_tr": "\t[1014] = \"Ask ve Nefretin Vucut Bulmus Hali\","
+    },
+    "23": {
+      "source_en": "\t[1015] = \"Maniac\",",
+      "translation_tr": "\t[1015] = \"Manyak\","
+    },
+    "24": {
+      "source_en": "\t[1016] = \"Reborn\",",
+      "translation_tr": "\t[1016] = \"Yeniden Dogmus\","
+    },
+    "25": {
+      "source_en": "\t[1017] = \"Bloody Red\",",
+      "translation_tr": "\t[1017] = \"Kan Kirmizisi\","
+    },
+    "26": {
+      "source_en": "\t[1018] = \"Novice Teleporter\",",
+      "translation_tr": "\t[1018] = \"Acemi Isinlayici\","
+    },
+    "27": {
+      "source_en": "\t[1019] = \"Mock me yoyo\",",
+      "translation_tr": "\t[1019] = \"Benimle Dalga Gec Yoyo\","
+    },
+    "28": {
+      "source_en": "\t[1020] = \"Gambler\",",
+      "translation_tr": "\t[1020] = \"Kumarbaz\","
+    },
+    "29": {
+      "source_en": "\t[1021] = \"Battle Manual Master\",",
+      "translation_tr": "\t[1021] = \"Savas Kilavuzu Ustasi\","
+    },
+    "30": {
+      "source_en": "\t[1022] = \"Married Person\",",
+      "translation_tr": "\t[1022] = \"Evli\","
+    },
+    "31": {
+      "source_en": "\t[1023] = \"Persistent\",",
+      "translation_tr": "\t[1023] = \"Azimli\","
+    },
+    "32": {
+      "source_en": "\t[1024] = \"Hard Worker\",",
+      "translation_tr": "\t[1024] = \"Caliskan\","
+    },
+    "33": {
+      "source_en": "\t[1025] = \"Poring Mania\",",
+      "translation_tr": "\t[1025] = \"Poring Tutkunu\","
+    },
+    "34": {
+      "source_en": "\t[1026] = \"Back Opener\",",
+      "translation_tr": "\t[1026] = \"Arka Acici\","
+    },
+    "35": {
+      "source_en": "\t[1027] = \"Animal Lover\",",
+      "translation_tr": "\t[1027] = \"Hayvansever\","
+    },
+    "36": {
+      "source_en": "\t[1028] = \"Devil Contractor\",",
+      "translation_tr": "\t[1028] = \"Seytan Sozlesmelisi\","
+    },
+    "37": {
+      "source_en": "\t[1029] = \"Monster Girls\",",
+      "translation_tr": "\t[1029] = \"Monster Kizlari\","
+    },
+    "38": {
+      "source_en": "\t[1030] = \"Monster Boys\",",
+      "translation_tr": "\t[1030] = \"Monster Oglanlari\","
+    },
+    "39": {
+      "source_en": "\t[1031] = \"Visionary\",",
+      "translation_tr": "\t[1031] = \"Vizyoner\","
+    },
+    "40": {
+      "source_en": "\t[1032] = \"Growing Bud\",",
+      "translation_tr": "\t[1032] = \"Buyuyen Filiz\","
+    },
+    "41": {
+      "source_en": "\t[1033] = \"Family Maker\",",
+      "translation_tr": "\t[1033] = \"Aile Kurucu\","
+    },
+    "42": {
+      "source_en": "\t[1034] = \"VIP\",",
+      "translation_tr": "\t[1034] = \"VIP\","
+    },
+    "43": {
+      "source_en": "\t[1035] = \"Orc Slayer\",",
+      "translation_tr": "\t[1035] = \"Ork Avcisi\","
+    },
+    "44": {
+      "source_en": "\t[1036] = \"Orc Hero\",",
+      "translation_tr": "\t[1036] = \"Ork Kahramani\","
+    },
+    "45": {
+      "source_en": "\t[1037] = \"Turtle Slayer\",",
+      "translation_tr": "\t[1037] = \"Kaplumbaga Avcisi\","
+    },
+    "46": {
+      "source_en": "\t[1038] = \"Dryad Slayer\",",
+      "translation_tr": "\t[1038] = \"Dryad Avcisi\","
+    },
+    "47": {
+      "source_en": "\t[1039] = \"Time Slayer\",",
+      "translation_tr": "\t[1039] = \"Zaman Avcisi\","
+    },
+    "48": {
+      "source_en": "\t[1040] = \"Raydric Slayer\",",
+      "translation_tr": "\t[1040] = \"Raydric Avcisi\","
+    },
+    "49": {
+      "source_en": "\t[1041] = \"Death Slayer\",",
+      "translation_tr": "\t[1041] = \"Olum Avcisi\","
+    },
+    "50": {
+      "source_en": "\t[1042] = \"Undead Slayer\",",
+      "translation_tr": "\t[1042] = \"Undead Avcisi\","
+    },
+    "51": {
+      "source_en": "\t[1043] = \"Strouf Slayer\",",
+      "translation_tr": "\t[1043] = \"Strouf Avcisi\","
+    },
+    "52": {
+      "source_en": "\t[1044] = \"Sting Slayer\",",
+      "translation_tr": "\t[1044] = \"Sting Avcisi\","
+    },
+    "53": {
+      "source_en": "\t[1045] = \"Conqueror of Illusion\",",
+      "translation_tr": "\t[1045] = \"Yanilsama Fatihi\","
+    },
+    "54": {
+      "source_en": "\t[1046] = \"King Maker\"",
+      "translation_tr": "\t[1046] = \"Kral Yapici\""
+    }
+  }
+}
