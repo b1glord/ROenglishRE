@@ -1,0 +1,24 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/file-overlays.json",
+    "purpose": "Satir yapisi upstream ile birebir olmayan whole-file localization overlay bilesenlerini tanimlar",
+    "module": "Translation Overlay Registry - JSON",
+    "version": "1.0.0",
+    "description": "tipoftheday ve guild_tip icin source blob SHA kilitli whole-file overlay builder ayarlarini kaydeder",
+    "dependency_layer": "Tool"
+  },
+  "components": {
+    "tipoftheday": {
+      "source_path": "Translation/Renewal/tipoftheday.txt",
+      "patch_path": "TurkuazTR/tipoftheday.tr.json",
+      "profile_field": "tipoftheday",
+      "output_path": "tipoftheday.txt"
+    },
+    "guild_tip": {
+      "source_path": "Translation/Renewal/data/GuildTip.txt",
+      "patch_path": "TurkuazTR/guild_tip.tr.json",
+      "profile_field": "guild_tip",
+      "output_path": "data/GuildTip.txt"
+    }
+  }
+}
