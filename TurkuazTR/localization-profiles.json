@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/localization-profiles.json",
     "purpose": "TurkuazTR generated istemci profillerinin tum localization bilesenleri icin dil modlarini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.8.0",
-    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay, yardim, unvan, harita, kitap ve quest localization bilesenlerinde tanimlar",
+    "version": "1.9.0",
+    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay, yardim, unvan, harita, random option, kitap ve quest localization bilesenlerinde tanimlar",
     "dependency_layer": "Tool"
   },
   "profiles": {
@@ -28,7 +28,8 @@
       "help_messages": "original",
       "titles": "original",
       "worldview": "original",
-      "map_names": "original"
+      "map_names": "original",
+      "random_option_names": "original"
     },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
@@ -50,7 +51,8 @@
       "help_messages": "tr",
       "titles": "tr",
       "worldview": "tr",
-      "map_names": "tr"
+      "map_names": "tr",
+      "random_option_names": "tr"
     },
     "full_tr": {
       "display_name": "Full TR - Turkce Skill Name + Turkce Aciklama",
@@ -72,7 +74,8 @@
       "help_messages": "tr",
       "titles": "tr",
       "worldview": "tr",
-      "map_names": "tr"
+      "map_names": "tr",
+      "random_option_names": "tr"
     },
     "bilingual": {
       "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
@@ -94,7 +97,8 @@
       "help_messages": "tr",
       "titles": "tr",
       "worldview": "tr",
-      "map_names": "tr"
+      "map_names": "tr",
+      "random_option_names": "tr"
     }
   }
 }
