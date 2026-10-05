@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/localization-profiles.json",
     "purpose": "TurkuazTR generated istemci profillerinin tum localization bilesenleri icin dil modlarini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.0.0",
-    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill ve msgstringtable bilesenlerinde ortak tanimlar",
+    "version": "1.1.0",
+    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, msgstringtable ve achievements bilesenlerinde ortak tanimlar",
     "dependency_layer": "Tool"
   },
   "profiles": {
@@ -12,25 +12,29 @@
       "display_name": "English - Original Skill Name + Original Description",
       "skill_name": "original",
       "skill_description": "original",
-      "msgstringtable": "original"
+      "msgstringtable": "original",
+      "achievements": "original"
     },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
       "skill_name": "original",
       "skill_description": "tr",
-      "msgstringtable": "tr"
+      "msgstringtable": "tr",
+      "achievements": "tr"
     },
     "full_tr": {
       "display_name": "Full TR - Turkce Skill Name + Turkce Aciklama",
       "skill_name": "tr",
       "skill_description": "tr",
-      "msgstringtable": "tr"
+      "msgstringtable": "tr",
+      "achievements": "tr"
     },
     "bilingual": {
       "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
       "skill_name": "bilingual",
       "skill_description": "tr",
-      "msgstringtable": "tr"
+      "msgstringtable": "tr",
+      "achievements": "tr"
     }
   }
 }
