@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.11.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 400 exact Renewal skill aciklamasi dahil",
+    "version": "2.12.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 420 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -6740,6 +6740,335 @@
         "[Sv 3]: ^777777MATK +30, Variable Casting Time -7%, Sure 180 saniye^000000",
         "[Sv 4]: ^777777MATK +40, Variable Casting Time -7%, Sure 240 saniye^000000",
         "[Sv 5]: ^777777MATK +50, Variable Casting Time -10%, Sure 300 saniye^000000"
+      ]
+    },
+    "SP_CURSEEXPLOSION": {
+      "name_original": "Curse Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Curse of Wicked Soul 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve 7x7 alandaki cevresindeki dusmanlara ^009999Shadow^777777 elementli buyu hasari verir. ^663399Evil Curse^777777 etkisindeki hedeflere daha fazla hasar verir.^000000",
+        "[Sv 1]: ^777777MATK 500% / 1700%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 2]: ^777777MATK 600% / 1900%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 3]: ^777777MATK 700% / 2100%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 4]: ^777777MATK 800% / 2300%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 5]: ^777777MATK 900% / 2500%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 6]: ^777777MATK 1000% / 2700%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 7]: ^777777MATK 1200% / 2900%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 8]: ^777777MATK 1300% / 3100%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 9]: ^777777MATK 1400% / 3300%(^0000FFCursed Hedef^777777)^000000",
+        "[Sv 10]: ^777777MATK 1500% / 3500%(^0000FFCursed Hedef^777777)^000000"
+      ]
+    },
+    "SP_SOULCURSE": {
+      "name_original": "Curse of Wicked Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Reaper 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Aciklama: ^777777Kotu ruhlari kullanarak hedefe ve cevresindeki dusmanlara ^663399Evil Curse^777777 uygular. Cursed hedefler ^009999Shadow^777777 elementli saldirilardan %100 fazla hasar alir.",
+        "^00A100Boss^777777 monster'lar ve ^00A100Oyuncular^777777 icin bu artis %20'dir. 3 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Curse Sansi 40% / AoE 7x7^000000",
+        "[Sv 2]: ^777777Curse Sansi 50% / AoE 7x7^000000",
+        "[Sv 3]: ^777777Curse Sansi 60% / AoE 7x7^000000",
+        "[Sv 4]: ^777777Curse Sansi 70% / AoE 7x7^000000",
+        "[Sv 5]: ^777777Curse Sansi 80% / AoE 7x7^000000"
+      ]
+    },
+    "SP_SPA": {
+      "name_original": "Espa",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Esha 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe buyu hasari verir. ^0000FFEspa^777777 kullanildiktan sonraki 5 saniye icinde ^0000FFEswhoo^777777 kullanilabilir. Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.",
+        "Oyunculara kullanilamaz. 1 ^990099Soul Energy^777777 tuketir; Seviye 10'da Soul Energy tuketmez.^000000",
+        "[Sv 1]: ^777777MATK 750%^000000",
+        "[Sv 2]: ^777777MATK 1000%^000000",
+        "[Sv 3]: ^777777MATK 1250%^000000",
+        "[Sv 4]: ^777777MATK 1500%^000000",
+        "[Sv 5]: ^777777MATK 1750%^000000",
+        "[Sv 6]: ^777777MATK 2000%^000000",
+        "[Sv 7]: ^777777MATK 2250%^000000",
+        "[Sv 8]: ^777777MATK 2500%^000000",
+        "[Sv 9]: ^777777MATK 2750%^000000",
+        "[Sv 10]: ^777777MATK 3000%, Soul Energy tuketmez^000000"
+      ]
+    },
+    "SP_SHA": {
+      "name_original": "Esha",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Reaper 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara buyu hasari verir, ^CC6600Hareket Hizi^777777 degerini yariya indirir. ^0000FFEsha^777777 kullanildiktan sonraki 5 saniye icinde ^0000FFEsma^777777 kullanilabilir.",
+        "Oyunculara kullanilamaz. 1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MATK 5%, Hareket Hizi Azalma Suresi 3 saniye^000000",
+        "[Sv 2]: ^777777MATK 10%, Hareket Hizi Azalma Suresi 4 saniye^000000",
+        "[Sv 3]: ^777777MATK 15%, Hareket Hizi Azalma Suresi 5 saniye^000000",
+        "[Sv 4]: ^777777MATK 20%, Hareket Hizi Azalma Suresi 6 saniye^000000",
+        "[Sv 5]: ^777777MATK 25%, Hareket Hizi Azalma Suresi 7 saniye^000000"
+      ]
+    },
+    "SP_SWHOO": {
+      "name_original": "Eswhoo",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Espa 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara buyu hasari verir. ^0000FFEswhoo^777777 kullanildiktan sonraki 5 saniye icinde ^0000FFEsma^777777 kullanilabilir. Hasar ^CC6600Base Level^777777 ile artar.",
+        "Oyunculara kullanilamaz. 2 ^990099Soul Energy^777777 tuketir; Seviye 10'da 1 Soul Energy tuketir.^000000",
+        "[Sv 1]: ^777777MATK 1700% / AoE 3x3^000000",
+        "[Sv 2]: ^777777MATK 1900% / AoE 3x3^000000",
+        "[Sv 3]: ^777777MATK 2100% / AoE 3x3^000000",
+        "[Sv 4]: ^777777MATK 2300% / AoE 5x5^000000",
+        "[Sv 5]: ^777777MATK 2500% / AoE 5x5^000000",
+        "[Sv 6]: ^777777MATK 2700% / AoE 5x5^000000",
+        "[Sv 7]: ^777777MATK 2900% / AoE 7x7^000000",
+        "[Sv 8]: ^777777MATK 3100% / AoE 7x7^000000",
+        "[Sv 9]: ^777777MATK 3300% / AoE 7x7^000000",
+        "[Sv 10]: ^777777MATK 3500% / AoE 9x9^000000"
+      ]
+    },
+    "SP_SOULUNITY": {
+      "name_original": "Soul Unity",
+      "lines_tr": [
+        "Maks. Seviye: 7",
+        "^CC3399Gereksinim: Soul Energy Research 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin ve party uyelerinin ruhlarini baglar. Soul Unity etkisindeki oyuncular her 3 saniyede belirli miktarda ^CC6600HP^777777 yeniler ve uzerlerinde ^0000FFKaute^777777 kullanilabilir.",
+        "Kullanan ^663399Silence^777777 veya ^663399Curse^777777 durumuna girerse skill iptal olur. 10 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777HP Yenileme 150 / AoE 3x3^000000",
+        "[Sv 2]: ^777777HP Yenileme 300 / AoE 3x3^000000",
+        "[Sv 3]: ^777777HP Yenileme 450 / AoE 5x5^000000",
+        "[Sv 4]: ^777777HP Yenileme 600 / AoE 5x5^000000",
+        "[Sv 5]: ^777777HP Yenileme 750 / AoE 7x7^000000",
+        "[Sv 6]: ^777777HP Yenileme 900 / AoE 7x7^000000",
+        "[Sv 7]: ^777777HP Yenileme 1050 / AoE 9x9^000000"
+      ]
+    },
+    "SP_SOULDIVISION": {
+      "name_original": "Soul Division",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Esha 5, Espa 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca WoE ve PvP modunda kullanilabilir. Hedefin ruhunu bozarak mantikli dusunmesini gecici olarak engeller ve 5 saniye boyunca ^CC6600After Skill Delay^777777 degerini artirir.",
+        "1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777After Skill Delay +10%^000000",
+        "[Sv 2]: ^777777After Skill Delay +20%^000000",
+        "[Sv 3]: ^777777After Skill Delay +30%^000000",
+        "[Sv 4]: ^777777After Skill Delay +40%^000000",
+        "[Sv 5]: ^777777After Skill Delay +50%^000000"
+      ]
+    },
+    "SP_SOULREAPER": {
+      "name_original": "Soul Reaper",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Collect 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Saldiri yaparken ruh toplar. Skill suresince belirli sansla 1 ^990099Soul Energy^777777 kazanilir. 2 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Toplama Sansi 15%, Sure 90 saniye^000000",
+        "[Sv 2]: ^777777Toplama Sansi 20%, Sure 120 saniye^000000",
+        "[Sv 3]: ^777777Toplama Sansi 25%, Sure 150 saniye^000000",
+        "[Sv 4]: ^777777Toplama Sansi 30%, Sure 180 saniye^000000",
+        "[Sv 5]: ^777777Toplama Sansi 35%, Sure 210 saniye^000000"
+      ]
+    },
+    "SP_SOULCOLLECT": {
+      "name_original": "Soul Collect",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Basic Skill^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^00A100Soul Reaper^777777 skill'leri icin gereken ^990099Soul Energy^777777'yi belirli araliklarla toplar. Temel maksimum Soul Energy miktari 5'tir.",
+        "Maksimum miktara ulasildiginda yeni Soul Energy toplanmaz.^000000",
+        "[Sv 1]: ^777777Her 60 saniyede 1 Soul Energy^000000",
+        "[Sv 2]: ^777777Her 50 saniyede 1 Soul Energy^000000",
+        "[Sv 3]: ^777777Her 40 saniyede 1 Soul Energy^000000",
+        "[Sv 4]: ^777777Her 30 saniyede 1 Soul Energy^000000",
+        "[Sv 5]: ^777777Her 20 saniyede 1 Soul Energy^000000"
+      ]
+    },
+    "SP_SOULREVOLVE": {
+      "name_original": "Soul Revolution",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Soul Energy Research 3, Kaute 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^990099Soul Buff^777777 aktif hedeflerde kullanilabilir. Kendine veya party uyesine atanmis Soul'u enerjiyle doldurarak ^CC6600SP^777777 yeniler.",
+        "1 ^990099Soul Buff^777777 tuketir.^000000",
+        "[Sv 1]: ^777777SP Yenileme 50^000000",
+        "[Sv 2]: ^777777SP Yenileme 100^000000",
+        "[Sv 3]: ^777777SP Yenileme 150^000000"
+      ]
+    },
+    "SP_SOULEXPLOSION": {
+      "name_original": "Soul Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Curse Explosion 2, Shadow's Soul 1, Fairy's Soul 1, Falcon's Soul 1, Golem's Soul 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca WoE ve PvP modunda kullanilabilir. Hedefe atanmis ^990099Soul Buff^777777'i patlatarak mevcut ^CC6600HP^777777 degerine oranli hasar verir.",
+        "Hedefte Soul Buff yoksa veya kalan HP %10'un altindaysa kullanilamaz. 10 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Mevcut HP'nin %30'u kadar hasar^000000",
+        "[Sv 2]: ^777777Mevcut HP'nin %40'i kadar hasar^000000",
+        "[Sv 3]: ^777777Mevcut HP'nin %50'si kadar hasar^000000",
+        "[Sv 4]: ^777777Mevcut HP'nin %60'i kadar hasar^000000",
+        "[Sv 5]: ^777777Mevcut HP'nin %70'i kadar hasar^000000"
+      ]
+    },
+    "SP_KAUTE": {
+      "name_original": "Kaute",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Energy Research 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^990099Soul Energy^777777 kullanarak kendi ^CC6600HP^777777 degerini feda eder ve hedefin ^CC6600SP^777777 degerini yeniler. Yalnizca kendine, aile uyelerine, diger ^00A100Soul Linker^777777 siniflarina veya ^0000FFSoul Unity^777777 etkisindeki hedeflere kullanilabilir.",
+        "Kalan HP %30'un altindaysa kullanilamaz. 5 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MaksHP %12 tuketir, SP %12 yeniler^000000",
+        "[Sv 2]: ^777777MaksHP %14 tuketir, SP %14 yeniler^000000",
+        "[Sv 3]: ^777777MaksHP %16 tuketir, SP %16 yeniler^000000",
+        "[Sv 4]: ^777777MaksHP %18 tuketir, SP %18 yeniler^000000",
+        "[Sv 5]: ^777777MaksHP %20 tuketir, SP %20 yeniler^000000"
+      ]
+    },
+    "SP_SOULENERGY": {
+      "name_original": "Soul Energy Research",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Collect 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Soul'dan yayilan ozel enerjiyi inceleyerek toplanabilecek maksimum ^990099Soul Energy^777777 miktarini artirir.^000000",
+        "[Sv 1]: ^777777Maksimum Soul Energy 8^000000",
+        "[Sv 2]: ^777777Maksimum Soul Energy 11^000000",
+        "[Sv 3]: ^777777Maksimum Soul Energy 14^000000",
+        "[Sv 4]: ^777777Maksimum Soul Energy 17^000000",
+        "[Sv 5]: ^777777Maksimum Soul Energy 20^000000"
+      ]
+    },
+    "NV_BREAKTHROUGH": {
+      "name_original": "Breakthrough",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Duzenli egitimle kazanilan ileri fiziksel yeteneklerdir. Seviye basina ^CC6600MaksHP, MaksSP, ATK^777777 ve ^CC6600Healing^777777 miktarini artirir.^000000",
+        "[Sv 1]: ^777777ATK +15, MaksHP +350, MaksSP +30, Healing +2%^000000",
+        "[Sv 2]: ^777777ATK +30, MaksHP +700, MaksSP +60, Healing +4%^000000",
+        "[Sv 3]: ^777777ATK +45, MaksHP +1050, MaksSP +90, Healing +6%^000000",
+        "[Sv 4]: ^777777ATK +60, MaksHP +1400, MaksSP +120, Healing +8%^000000",
+        "[Sv 5]: ^777777ATK +100, MaksHP +2000, MaksSP +200, Healing +10%^000000"
+      ]
+    },
+    "NV_HELPANGEL": {
+      "name_original": "Angel, Help me!",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Meleklerin krizdeki ^00A100Novice^777777'lari kurtarma arzusunu hisseder. Kullanan dahil 15x15 alandaki party uyelerinin ^CC6600HP^777777 ve ^CC6600SP^777777 degerlerini yeniler.^000000",
+        "[Sv 1]: ^777777Saniyede HP +1000, SP +350, Sure 20 saniye, Cooldown 300 saniye^000000"
+      ]
+    },
+    "NV_TRANSCENDENCE": {
+      "name_original": "Transcendence",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Duzenli egitimle kazanilan ileri zihinsel yeteneklerdir. Seviye basina ^CC6600MaksHP, MaksSP, MATK^777777 ve ^CC6600Healing^777777 miktarini artirir.^000000",
+        "[Sv 1]: ^777777MATK +15, MaksHP +350, MaksSP +30, Healing +2%^000000",
+        "[Sv 2]: ^777777MATK +30, MaksHP +700, MaksSP +60, Healing +4%^000000",
+        "[Sv 3]: ^777777MATK +45, MaksHP +1050, MaksSP +90, Healing +6%^000000",
+        "[Sv 4]: ^777777MATK +60, MaksHP +1400, MaksSP +120, Healing +8%^000000",
+        "[Sv 5]: ^777777MATK +100, MaksHP +2000, MaksSP +200, Healing +10%^000000"
+      ]
+    },
+    "SR_SKYNETBLOW": {
+      "name_original": "Sky Net Blow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dragon Combo 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Donerek vurup firtina olusturur ve yakindaki tum dusmanlara hasar verir. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600AGI^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 200%^000000",
+        "[Sv 2]: ^777777ATK 400%^000000",
+        "[Sv 3]: ^777777ATK 600%^000000",
+        "[Sv 4]: ^777777ATK 800%^000000",
+        "[Sv 5]: ^777777ATK 1000%^000000"
+      ]
+    },
+    "SR_LIGHTNINGWALK": {
+      "name_original": "Lightning Walk",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Windmill 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Tek hedefli menzilli veya magic saldiri ile hedef alindiginda belirli sansla aninda saldirana sicrarsin. Aktifken duzenli ^CC6600SP^777777 tuketir ve kullanmak icin ^CC6600HP^777777 harcar.",
+        "Skill tetiklendikten sonra etki sona erer.^000000",
+        "[Sv 1]: ^777777Sans 45%, Sure 5 saniye^000000",
+        "[Sv 2]: ^777777Sans 50%, Sure 6 saniye^000000",
+        "[Sv 3]: ^777777Sans 55%, Sure 7 saniye^000000",
+        "[Sv 4]: ^777777Sans 60%, Sure 8 saniye^000000",
+        "[Sv 5]: ^777777Sans 65%, Sure 9 saniye^000000"
+      ]
+    },
+    "SR_GATEOFHELL": {
+      "name_original": "Gate of Hell",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Rampage Blaster 1, Tiger Cannon 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe sayisiz darbe indirir. Kullananin ^CC6600HP^777777 degeri ne kadar dusukse hasar o kadar artar. ^0000FFFallen Empire^777777 sonrasinda kullanilabilir ve bu durumda hasar daha da artar.",
+        "2 ^990099Spirit Sphere^777777 tuketir.^000000"
+      ]
+    },
+    "SR_GENTLETOUCH_CHANGE": {
+      "name_original": "Gentle Touch-Change",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Gentle Touch-Energy Gain 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Baski noktasi teknikleriyle ^CC6600Attack Power^777777 ve ^CC6600Saldiri Hizi^777777 artirir. Aktifken ^0000FFRampage Blaster^777777 ve ^0000FFKnuckle Arrow^777777 hasarini artirir.",
+        "^0000FFGentle Touch-Revitalize^777777 ile birlikte kullanilamaz. 1 ^990099Spirit Sphere^777777 ve belirli miktarda ^CC6600HP^777777 tuketir.^000000",
+        "[Sv 1]: ^777777HP %1 tuketir, ATK +8, ATK +1%^000000",
+        "[Sv 2]: ^777777HP %2 tuketir, ATK +16, ATK +2%^000000",
+        "[Sv 3]: ^777777HP %3 tuketir, ATK +24, ATK +3%^000000",
+        "[Sv 4]: ^777777HP %4 tuketir, ATK +32, ATK +4%^000000",
+        "[Sv 5]: ^777777HP %5 tuketir, ATK +40, ATK +5%^000000"
       ]
     }
   }
