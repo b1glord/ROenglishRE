@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.9.0",
+    "version": "2.0.0",
     "description": "Ceviri durum aracinin ana localization dosyalarini, ortak profilleri ve overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
@@ -128,7 +128,16 @@
     },
     {
       "name": "quest_display",
-      "path": "Translation/Renewal/data/questid2display.txt"
+      "path": "Translation/Renewal/data/questid2display.txt",
+      "patch_path": "TurkuazTR/questid2display.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "related_generated_path": "Translation/Renewal/SystemEN/OngoingQuests.lub",
+      "overlay_type": "record"
     }
   ],
   "intentional_english_path": "TurkuazTR/intentional-english.json",
