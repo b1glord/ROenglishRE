@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.4.0
+Version: 2.5.0
 Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -124,6 +124,21 @@ Profil davranisi:
 - `bilingual`: Turkce quest display + Turkce OngoingQuests.
 
 Bilingual profil uzun quest metinlerinde iki dili ayni anda gostermez. Iki dil birlikte yalnizca kisa skill adlarinda kullanilir. Quest patchleri kaynak byte yapisini, satir sonlarini ve OngoingQuests icindeki korumali NAVI/ITEM taglarini muhafaza eder.
+
+
+## Pet konusma localization modeli
+
+`Translation/Renewal/data/pettalktable.xml` once encoding ve kaynak kalitesine gore envanterlendi.
+
+- Toplam 6417 metin dugumu bulundu.
+- 5181 dugum / 3902 benzersiz ifade temiz ASCII Ingilizce ve dogrudan Turkce ceviri adayidir.
+- 952 dugum karisik encoding/mojibake tasir; kaynak dogrulanmadan ceviriye alinmaz.
+- 160 dugum agir non-ASCII kaynaktir; once kaynak dil/encoding tespiti gerekir.
+- 124 dugum neutral/kisa ifade olarak ayri tutulur.
+- Canonical pending envanter: `TurkuazTR/pettalktable.pending.json`.
+- Yeniden uretim araci: `TurkuazTR/tools/extract-pettalk-pending.py`.
+
+Bozuk encoding metinleri Turkceye uydurularak sabitlenmez. Temiz Ingilizce bloklar once cevrilir; sorunlu bloklar upstream veya dogru encoding kaynagi ile karsilastirildiktan sonra ele alinir.
 
 
 ## Oyun ici kitap localization modeli
