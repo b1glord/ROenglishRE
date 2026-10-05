@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.28.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 740 exact Renewal skill aciklamasi dahil",
+    "version": "2.29.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 760 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -13451,6 +13451,384 @@
         "[Sv 3]: ^777777MATK 11700+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 7x7 hucre^000000",
         "[Sv 4]: ^777777MATK 14350+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 7x7 hucre^000000",
         "[Sv 5]: ^777777MATK 17000+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "ABC_ABYSS_FLAME": {
+      "name_original": "Abyss Flame",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Magic Sword Mastery 5,",
+        "From The Abyss 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedef merkezli alevler olusturarak hedefe ve cevresindeki dusmanlara 5 kez ^FF0000Fire^777777 elementli buyu hasari verir.",
+        "Ayni anda kullanan merkezli ^0000FFAbyss Flames^777777 yayarak cevresine 3 kez ^FF0000Fire^777777 elementli buyu hasari verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600SPL^777777 ve ^0000FFMagic Sword Mastery^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 500+(^0000FFMastery^777777 Sv x15)%/Kullanan: Vurus Basina MATK 820+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 1000+(^0000FFMastery^777777 Sv x30)%/Kullanan: Vurus Basina MATK 1640+(^0000FFMastery^777777 Sv x60)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 1500+(^0000FFMastery^777777 Sv x45)%/Kullanan: Vurus Basina MATK 2640+(^0000FFMastery^777777 Sv x90)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 2000+(^0000FFMastery^777777 Sv x60)%/Kullanan: Vurus Basina MATK 3280+(^0000FFMastery^777777 Sv x120)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 2500+(^0000FFMastery^777777 Sv x75)%/Kullanan: Vurus Basina MATK 4100+(^0000FFMastery^777777 Sv x150)%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "AG_ENERGY_CONVERSION": {
+      "name_original": "Energy Conversion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Recognized Spell 2, Climax 1^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF000013/11/9/7/5^000000",
+        "Aciklama: ^777777Enerji donusumu yoluyla ^CC6600AP^777777'nin bir kismini ^CC6600SP^777777'ye cevirir.^000000",
+        "[Sv 1]: ^77777780 SP yeniler^000000",
+        "[Sv 2]: ^777777240 SP yeniler^000000",
+        "[Sv 3]: ^777777480 SP yeniler^000000",
+        "[Sv 4]: ^777777800 SP yeniler^000000",
+        "[Sv 5]: ^7777771200 SP yeniler^000000"
+      ]
+    },
+    "EM_PSYCHIC_STREAM": {
+      "name_original": "Psychic Stream",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Magic Book Mastery 5,",
+        "Diamond Storm 3,",
+        "Conflagration 3, Lightning Land 3,",
+        "Terra Drive 3, Venom Swamp 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Maliyeti: ^FF00005^000000",
+        "Aciklama: ^777777Buyu akisina karisarak aninda hedefe dogru hareket eder ve hedefe ve cevresine ^009999Neutral^777777 elementli buyu hasari verir.",
+        "Buyu akisini kullanmak gerektiginden ^0000FFEnergy Coat^777777 etkisiyle korunurken skill kullanilamaz.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600SPL^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 5600%, Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777MATK 9450%, Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777MATK 13300%, Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777MATK 17150%, Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777MATK 21000%, Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "CD_DIVINUS_FLOS": {
+      "name_original": "Divinus Flos",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Adoramus 5, Framen 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Kutsal bir cicek actirarak hedefe ve cevresindeki 7x7 hucreye ^009999Holy^777777 elementli buyu hasari verir.",
+        "^0000FFAncilla^777777 etkisi aktifse skill elementi ^009999Neutral^777777 olur.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600SPL^777777 ve ^0000FFFidus Animus^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 4000+(^0000FFFidus Animus^777777 Sv x70)%^000000",
+        "[Sv 2]: ^777777MATK 8000+(^0000FFFidus Animus^777777 Sv x70)%^000000",
+        "[Sv 3]: ^777777MATK 12000+(^0000FFFidus Animus^777777 Sv x70)%^000000",
+        "[Sv 4]: ^777777MATK 16000+(^0000FFFidus Animus^777777 Sv x70)%^000000",
+        "[Sv 5]: ^777777MATK 20000+(^0000FFFidus Animus^777777 Sv x70)%^000000"
+      ]
+    },
+    "IQ_BLAZING_FLAME_BLAST": {
+      "name_original": "Blazing Flame Blast",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Massive Flame Blaster 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFExplosion Spirits^777777 durumunda kullanilabilir.",
+        "Hedefe menzilli fiziksel hasar verir. ^0000FFMassive Flame Blaster^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 5800/7700(^0000FFM. Flame Blaster^777777)%^000000",
+        "[Sv 2]: ^777777ATK 9600/11900(^0000FFM. Flame Blaster^777777)%^000000",
+        "[Sv 3]: ^777777ATK 13400/16100(^0000FFM. Flame Blaster^777777)%^000000",
+        "[Sv 4]: ^777777ATK 17200/20300(^0000FFM. Flame Blaster^777777)%^000000",
+        "[Sv 5]: ^777777ATK 21000/24500(^0000FFM. Flame Blaster^777777)%^000000"
+      ]
+    },
+    "WH_WILD_WALK": {
+      "name_original": "Wild Walk",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Nature Friendly 3, Hawk Rush 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Maliyeti: ^FF00005^000000",
+        "Aciklama: ^777777^0000FFHawk^777777 hedefe 3 kez menzilli fiziksel hasar verir.",
+        "^0000FFHawk^777777'in olusturdugu ruzgar kisa sureligine ^CC6600FLEE^777777 ve ^CC6600Hareket Hizi^777777 degerlerini artirir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600CON^777777, ^0000FFSteel Crow^777777 ve ^0000FFNature Friendly^777777 skill seviyelerine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^0000FFWarg^777777 uzerindeyken de kullanilabilir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 4600%, FLEE +100, Hareket Hizi +25%, Sure: 6 saniye^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 7400%, FLEE +150, Hareket Hizi +25%, Sure: 9 saniye^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 10200%, FLEE +200, Hareket Hizi +50%, Sure: 12 saniye^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 13000%, FLEE +250, Hareket Hizi +50%, Sure: 15 saniye^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 15800%, FLEE +300, Hareket Hizi +75%, Sure: 18 saniye^000000"
+      ]
+    },
+    "SKE_SKY_SUN": {
+      "name_original": "Sky Sun",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Noon Blast 3, Sunset Blast 3,",
+        "Enchanting Sky 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFCelestial Unity^777777 etkisi sirasinda kullanilabilir.",
+        "Kavurucu gunesin gucunu aninda serbest birakarak kullananin cevresindeki dusmanlara yakin dovus fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFSky Mastery^777777 skill seviyesine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 1900+(^0000FFMastery^777777 Sv x7)%/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777ATK 3550+(^0000FFMastery^777777 Sv x14)%/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777ATK 5200+(^0000FFMastery^777777 Sv x21)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777ATK 6850+(^0000FFMastery^777777 Sv x28)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777ATK 8500+(^0000FFMastery^777777 Sv x35)%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "SKE_SKY_MOON": {
+      "name_original": "Sky Moon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Midnight Kick 3, Dawn Break 3,",
+        "Enchanting Sky 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFCelestial Unity^777777 etkisi sirasinda kullanilabilir.",
+        "Ay isigini yayarak hedefe ve cevresindeki dusmanlara 3 kez yakin dovus fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFSky Mastery^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1750+(^0000FFMastery^777777 Sv x9)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 2250+(^0000FFMastery^777777 Sv x18)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 2750+(^0000FFMastery^777777 Sv x27)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 3250+(^0000FFMastery^777777 Sv x36)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 3750+(^0000FFMastery^777777 Sv x45)%/Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "SKE_STAR_LIGHT_KICK": {
+      "name_original": "Star Light Kick",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Star Burst 3, Star Cannon 3,",
+        "Enchanting Sky 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFCelestial Unity^777777 etkisi sirasinda kullanilabilir.",
+        "Aninda hedefe atilarak hedefe ve cevresindeki dusmanlara 7 kez yakin dovus fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFSky Mastery^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 600+(^0000FFMastery^777777 Sv x5)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 800+(^0000FFMastery^777777 Sv x10)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 1000+(^0000FFMastery^777777 Sv x15)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1200+(^0000FFMastery^777777 Sv x20)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 1400+(^0000FFMastery^777777 Sv x25)%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "HN_OVERCOMING_CRISIS": {
+      "name_original": "Overcoming Crisis",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Self Study Tactics 5,",
+        "Self Study Sorcery 5^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF000050^000000",
+        "Aciklama: ^777777300 saniye boyunca ^CC6600MaxHP^777777 degerini artirir. Kullananin ^CC6600HP^777777 degerini tamamen yeniler ve skill suresi boyunca ^CC6600P.ATK^777777 ile ^CC6600S.MATK^777777 degerlerini artirir.^000000",
+        "[Sv 1]: ^777777MaxHP +15000, P.ATK & S.MATK +3^000000",
+        "[Sv 2]: ^777777MaxHP +30000, P.ATK & S.MATK +6^000000",
+        "[Sv 3]: ^777777MaxHP +45000, P.ATK & S.MATK +9^000000",
+        "[Sv 4]: ^777777MaxHP +60000, P.ATK & S.MATK +12^000000",
+        "[Sv 5]: ^777777MaxHP +75000, P.ATK & S.MATK +15^000000"
+      ]
+    },
+    "SH_CHUL_HO_BATTERING": {
+      "name_original": "Chulho Battering",
+      "lines_tr": [
+        "Maks. Seviye: 7",
+        "^CC3399Gereksinim: Mystical Creature Mastery 7,",
+        "Chulho Sonic Claw 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF1^000000",
+        "Aciklama: ^777777^990099Chulho^777777'nun keskin pencleriyle hedefe ve cevresindeki dusmanlara 5 kez menzilli fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFMystical Creature Mastery^777777 skill seviyesine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 800+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 1050+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 1300+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1550+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 1800+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 2050+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 2300+(^0000FFMastery^777777 Sv x70)%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "SH_HYUN_ROK_SPIRIT_POWER": {
+      "name_original": "Hyunrok Spirit Power",
+      "lines_tr": [
+        "Maks. Seviye: 7",
+        "^CC3399Gereksinim: Mystical Creature Mastery 7,",
+        "Hyunrok Breeze 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF1^000000",
+        "Aciklama: ^777777^990099Hyunrok^777777'un guclu ruh gucunu serbest birakarak hedefe ve cevresindeki dusmanlara 7 kez ^009999Neutral^777777 elementli buyu hasari verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600SPL^777777 ve ^0000FFMystical Creature Mastery^777777 skill seviyesine gore artar.",
+        "Hasar elementi ^0000FFColors of Hyunrok^777777'a gore degisebilir.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 550+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 750+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 950+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 1150+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 1350+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina MATK 1550+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina MATK 1750+(^0000FFMastery^777777 Sv x30)%/Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "DR_TRUTH_OF_WIND": {
+      "name_original": "Truth of Wind",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Nature Logic 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Ruzgarin gerceginde ustalasarak ^33CC00Wind^777777 elementli buyu hasarini ve ^33CC00Wind^777777 elementli skill'leri guclendirir.^000000"
+      ]
+    },
+    "DR_TRUTH_OF_ICE": {
+      "name_original": "Truth of Ice",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Nature Logic 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Buzun gerceginde ustalasarak ^0000BBWater^777777 elementli buyu hasarini ve ^0000BBWater^777777 elementli skill'leri guclendirir.^000000"
+      ]
+    },
+    "DR_TRUTH_OF_EARTH": {
+      "name_original": "Truth of Earth",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Nature Logic 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Topragin gerceginde ustalasarak ^CC5500Earth^777777 elementli buyu hasarini ve ^CC5500Earth^777777 elementli skill'leri guclendirir.^000000"
+      ]
+    },
+    "DR_ICE_TOTEM": {
+      "name_original": "Ice Totem",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin uzerine buz totemi dusurerek 2 kez ^0000BBWater^777777 buyu hasari verir.",
+        "^0000FFTruth of Ice^777777 durumundaysa hasar kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 100%^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 200%^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 300%^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 400%^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 500%^000000",
+        "[Sv 6]: ^777777Vurus Basina MATK 600%^000000",
+        "[Sv 7]: ^777777Vurus Basina MATK 700%^000000",
+        "[Sv 8]: ^777777Vurus Basina MATK 800%^000000",
+        "[Sv 9]: ^777777Vurus Basina MATK 900%^000000",
+        "[Sv 10]: ^777777Vurus Basina MATK 1000%^000000"
+      ]
+    },
+    "DR_ICE_CLOUD": {
+      "name_original": "Ice Cloud",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ice Totem 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin cevresinde buz bulutu olusturarak hedefe ve cevresindeki dusmanlara 4 kez ^0000BBWater^777777 elementli buyu hasari verir.",
+        "^0000FFTruth of Ice^777777 durumundaysa hasar kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 50%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 100%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 150%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 200%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 250%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina MATK 300%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina MATK 350%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina MATK 400%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina MATK 450%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina MATK 500%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "DR_CUTTING_WIND": {
+      "name_original": "Cutting Wind",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe keskin bir ruzgar savurarak 2 kez ^33CC00Wind^777777 elementli buyu hasari verir.",
+        "^0000FFTruth of Wind^777777 durumundaysa vurus sayisi 4'e cikar ve hasar kullananin ^CC6600Base Level^777777 ile ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 50%^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 100%^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 150%^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 200%^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 250%^000000",
+        "[Sv 6]: ^777777Vurus Basina MATK 300%^000000",
+        "[Sv 7]: ^777777Vurus Basina MATK 350%^000000",
+        "[Sv 8]: ^777777Vurus Basina MATK 400%^000000",
+        "[Sv 9]: ^777777Vurus Basina MATK 450%^000000",
+        "[Sv 10]: ^777777Vurus Basina MATK 500%^000000"
+      ]
+    },
+    "DR_WIND_BOMB": {
+      "name_original": "Wind Bomb",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Cutting Wind 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ruzgar kuresi firlatarak hedefe ve cevresindeki dusmanlara 4 kez ^33CC00Wind^777777 elementli buyu hasari verir.",
+        "^0000FFTruth of Wind^777777 durumundaysa vurus sayisi 6'ya cikar ve hasar kullananin ^CC6600Base Level^777777 ile ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina MATK 50%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina MATK 100%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina MATK 150%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina MATK 200%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina MATK 250%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina MATK 300%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina MATK 350%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina MATK 400%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina MATK 450%\\Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina MATK 500%\\Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "DR_EARTH_FLOWER": {
+      "name_original": "Earth Flower",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin uzerinde cicek actirarak ^CC5500Earth^777777 elementli buyu hasari verir.",
+        "^0000FFTruth of Earth^777777 durumundaysa hasar kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777MATK 100%^000000",
+        "[Sv 2]: ^777777MATK 200%^000000",
+        "[Sv 3]: ^777777MATK 300%^000000",
+        "[Sv 4]: ^777777MATK 400%^000000",
+        "[Sv 5]: ^777777MATK 500%^000000",
+        "[Sv 6]: ^777777MATK 600%^000000",
+        "[Sv 7]: ^777777MATK 700%^000000",
+        "[Sv 8]: ^777777MATK 800%^000000",
+        "[Sv 9]: ^777777MATK 900%^000000",
+        "[Sv 10]: ^777777MATK 1000%^000000"
       ]
     }
   }
