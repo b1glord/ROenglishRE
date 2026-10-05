@@ -11110,7 +11110,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_YAMIKUMO] = {
 		"KO_YAMIKUMO",
-		SkillName = "Shadow Hiding",
+		SkillName = "Golgede Saklanma (Shadow Hiding)",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -11121,7 +11121,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_RIGHT] = {
 		"KO_RIGHT",
-		SkillName = "Righthand Mastery",
+		SkillName = "Sag El Ustaligi (Righthand Mastery)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -11130,7 +11130,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_LEFT] = {
 		"KO_LEFT",
-		SkillName = "Lefthand Mastery",
+		SkillName = "Sol El Ustaligi (Lefthand Mastery)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -11139,7 +11139,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_JYUMONJIKIRI] = {
 		"KO_JYUMONJIKIRI",
-		SkillName = "Cross Slash",
+		SkillName = "Capraz Kesik (Cross Slash)",
 		MaxLv = 10,
 		SpAmount = { 10, 12, 14, 16, 18, 20, 22, 24, 26, 28 },
 		bSeperateLv = true,
@@ -11150,7 +11150,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_SETSUDAN] = {
 		"KO_SETSUDAN",
-		SkillName = "Soul Cutter",
+		SkillName = "Ruh Kesici (Soul Cutter)",
 		MaxLv = 5,
 		SpAmount = { 12, 16, 20, 24, 28 },
 		bSeperateLv = true,
@@ -11161,7 +11161,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_BAKURETSU] = {
 		"KO_BAKURETSU",
-		SkillName = "Kunai Explosion",
+		SkillName = "Kunai Patlamasi (Kunai Explosion)",
 		MaxLv = 5,
 		SpAmount = { 5, 6, 7, 8, 9 },
 		bSeperateLv = true,
@@ -11172,7 +11172,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_HAPPOKUNAI] = {
 		"KO_HAPPOKUNAI",
-		SkillName = "Kunai Splash",
+		SkillName = "Kunai Sacilmasi (Kunai Splash)",
 		MaxLv = 5,
 		SpAmount = { 12, 14, 16, 18, 20 },
 		bSeperateLv = true,
@@ -11183,7 +11183,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_MUCHANAGE] = {
 		"KO_MUCHANAGE",
-		SkillName = "Rapid Throw",
+		SkillName = "Hizli Firlatma (Rapid Throw)",
 		MaxLv = 10,
 		SpAmount = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -11194,7 +11194,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_HUUMARANKA] = {
 		"KO_HUUMARANKA",
-		SkillName = "Swirling Petal",
+		SkillName = "Donen Taçyapragi (Swirling Petal)",
 		MaxLv = 10,
 		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
@@ -11216,7 +11216,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_MEIKYOUSISUI] = {
 		"KO_MEIKYOUSISUI",
-		SkillName = "Pure Soul",
+		SkillName = "Saf Ruh (Pure Soul)",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		bSeperateLv = true,
@@ -11227,7 +11227,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_ZANZOU] = {
 		"KO_ZANZOU",
-		SkillName = "Illusion - Shadow",
+		SkillName = "Yanilsama - Golge (Illusion - Shadow)",
 		MaxLv = 5,
 		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = true,
@@ -11238,7 +11238,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_KYOUGAKU] = {
 		"KO_KYOUGAKU",
-		SkillName = "Illusion - Shock",
+		SkillName = "Yanilsama - Sok (Illusion - Shock)",
 		MaxLv = 5,
 		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = true,
@@ -11249,7 +11249,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_JYUSATSU] = {
 		"KO_JYUSATSU",
-		SkillName = "Illusion - Death",
+		SkillName = "Yanilsama - Olum (Illusion - Death)",
 		MaxLv = 5,
 		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = true,
@@ -11260,7 +11260,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_KAHU_ENTEN] = {
 		"KO_KAHU_ENTEN",
-		SkillName = "Fire Charm",
+		SkillName = "Ates Tilsimi (Fire Charm)",
 		MaxLv = 1,
 		SpAmount = { 20 },
 		bSeperateLv = false,
@@ -11268,7 +11268,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_HYOUHU_HUBUKI] = {
 		"KO_HYOUHU_HUBUKI",
-		SkillName = "Ice Charm",
+		SkillName = "Buz Tilsimi (Ice Charm)",
 		MaxLv = 1,
 		SpAmount = { 20 },
 		bSeperateLv = false,
@@ -11276,7 +11276,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_KAZEHU_SEIRAN] = {
 		"KO_KAZEHU_SEIRAN",
-		SkillName = "Wind Charm",
+		SkillName = "Ruzgar Tilsimi (Wind Charm)",
 		MaxLv = 1,
 		SpAmount = { 20 },
 		bSeperateLv = false,
@@ -11284,7 +11284,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_DOHU_KOUKAI] = {
 		"KO_DOHU_KOUKAI",
-		SkillName = "Earth Charm",
+		SkillName = "Toprak Tilsimi (Earth Charm)",
 		MaxLv = 1,
 		SpAmount = { 20 },
 		bSeperateLv = false,
@@ -11292,7 +11292,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_KAIHOU] = {
 		"KO_KAIHOU",
-		SkillName = "Release Ninja Spell",
+		SkillName = "Ninja Buyusunu Serbest Birak (Release Ninja Spell)",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -11306,7 +11306,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_ZENKAI] = {
 		"KO_ZENKAI",
-		SkillName = "Cast Ninja Spell",
+		SkillName = "Ninja Buyusu Yap (Cast Ninja Spell)",
 		MaxLv = 1,
 		SpAmount = { 30 },
 		bSeperateLv = false,
@@ -11318,7 +11318,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_GENWAKU] = {
 		"KO_GENWAKU",
-		SkillName = "Illusion - Bewitch",
+		SkillName = "Yanilsama - Buyuleme (Illusion - Bewitch)",
 		MaxLv = 5,
 		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = true,
@@ -11329,7 +11329,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KO_IZAYOI] = {
 		"KO_IZAYOI",
-		SkillName = "16th Night",
+		SkillName = "On Altinci Gece (16th Night)",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -11340,7 +11340,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KG_KAGEHUMI] = {
 		"KG_KAGEHUMI",
-		SkillName = "Shadow Trampling",
+		SkillName = "Golge Ezme (Shadow Trampling)",
 		MaxLv = 5,
 		SpAmount = { 25, 30, 35, 40, 45 },
 		bSeperateLv = true,
@@ -11351,7 +11351,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KG_KYOMU] = {
 		"KG_KYOMU",
-		SkillName = "Empty Shadow",
+		SkillName = "Bos Golge (Empty Shadow)",
 		MaxLv = 5,
 		SpAmount = { 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -11362,7 +11362,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KG_KAGEMUSYA] = {
 		"KG_KAGEMUSYA",
-		SkillName = "Shadow Warrior",
+		SkillName = "Golge Savascisi (Shadow Warrior)",
 		MaxLv = 5,
 		SpAmount = { 60, 65, 70, 75, 80 },
 		bSeperateLv = true,
@@ -11373,7 +11373,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.OB_ZANGETSU] = {
 		"OB_ZANGETSU",
-		SkillName = "Distorted Crescent",
+		SkillName = "Carpilmis Hilal (Distorted Crescent)",
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		bSeperateLv = true,
@@ -11384,7 +11384,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.OB_OBOROGENSOU] = {
 		"OB_OBOROGENSOU",
-		SkillName = "Moonlight Fantasy",
+		SkillName = "Ay Isigi Duslemi (Moonlight Fantasy)",
 		MaxLv = 5,
 		SpAmount = { 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
@@ -11395,7 +11395,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.OB_AKAITSUKI] = {
 		"OB_AKAITSUKI",
-		SkillName = "Ominous Red Moonlight",
+		SkillName = "Ugursuz Kizil Ay Isigi (Ominous Red Moonlight)",
 		MaxLv = 5,
 		SpAmount = { 20, 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -11406,7 +11406,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ECLAGE_RECALL] = {
 		"ECLAGE_RECALL",
-		SkillName = "Return to Eclage",
+		SkillName = "Eclage'a Donus (Return to Eclage)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11414,7 +11414,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ECL_SNOWFLIP] = {
 		"ECL_SNOWFLIP",
-		SkillName = "Snow Flip",
+		SkillName = "Kar Savurmasi (Snow Flip)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11422,7 +11422,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ECL_PEONYMAMY] = {
 		"ECL_PEONYMAMY",
-		SkillName = "Peony Mommy",
+		SkillName = "Sakayik Anne (Peony Mommy)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11430,7 +11430,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ECL_SADAGUI] = {
 		"ECL_SADAGUI",
-		SkillName = "Slapping Herb",
+		SkillName = "Tokatlayan Ot (Slapping Herb)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11438,7 +11438,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ECL_SEQUOIADUST] = {
 		"ECL_SEQUOIADUST",
-		SkillName = "Yggdrasil Dust",
+		SkillName = "Yggdrasil Tozu (Yggdrasil Dust)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11446,7 +11446,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_RAY_OF_PROTECTION] = {
 		"ALL_RAY_OF_PROTECTION",
-		SkillName = "Ray of Protection",
+		SkillName = "Koruma Isini (Ray of Protection)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11454,7 +11454,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MER_INVINCIBLEOFF2] = {
 		"MER_INVINCIBLEOFF2",
-		SkillName = "Mind Blaster",
+		SkillName = "Zihin Patlatma (Mind Blaster)",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
