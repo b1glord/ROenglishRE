@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/mapnametable.tr.json",
     "purpose": "Map name table icindeki oyuncuya gorunen harita adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.4.0",
-    "description": "upstream/latest mapnametable.txt kaynagindaki 1107 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.5.0",
+    "description": "upstream/latest mapnametable.txt kaynagindaki 1144 exact satiri Turkce karsiliklariyla esler; kalan satirlar canonical ozel ad/etkinlik adidir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/mapnametable.txt",
   "source_ref": "upstream/latest",
   "source_blob_sha": "a642a734e9b5415f568fbfdd92a9fd5225f9d227",
   "source_line_count": 1345,
-  "patch_count": 1107,
+  "patch_count": 1144,
   "patches": {
     "2": {
       "source_en": "dbg_arena.rsw#Dynamic Battleground Arena#",
@@ -1248,6 +1248,14 @@
     "454": {
       "source_en": "bat_room.rsw#Battlegrounds Waiting Room#",
       "translation_tr": "bat_room.rsw#Battleground Bekleme Odasi#"
+    },
+    "455": {
+      "source_en": "bat_a01.rsw#Tierra Valley#",
+      "translation_tr": "bat_a01.rsw#Tierra Vadisi#"
+    },
+    "456": {
+      "source_en": "bat_a02.rsw#Tierra Valley#",
+      "translation_tr": "bat_a02.rsw#Tierra Vadisi#"
     },
     "469": {
       "source_en": "arug_cas01.rsw#Mardol Castle#",
@@ -3397,6 +3405,10 @@
       "source_en": "c_tower4.rsw#Clock Tower F4#",
       "translation_tr": "c_tower4.rsw#Saat Kulesi K4#"
     },
+    "1021": {
+      "source_en": "gl_cas01.rsw#Glastheim F1#",
+      "translation_tr": "gl_cas01.rsw#Glastheim K1#"
+    },
     "1022": {
       "source_en": "gl_cas02.rsw#Glastheim F2#",
       "translation_tr": "gl_cas02.rsw#Glastheim Kalesi K2#"
@@ -3456,6 +3468,14 @@
     "1036": {
       "source_en": "gl_step.rsw#Glastheim Staircase Dungeon#",
       "translation_tr": "gl_step.rsw#Glastheim Merdiven Zindani#"
+    },
+    "1039": {
+      "source_en": "que_job02.rsw#Job Quest 2#",
+      "translation_tr": "que_job02.rsw#Job Gorevi 2#"
+    },
+    "1040": {
+      "source_en": "que_job03.rsw#Job Quest 3#",
+      "translation_tr": "que_job03.rsw#Job Gorevi 3#"
     },
     "1041": {
       "source_en": "ordeal_a00.rsw#Battle Ordeal Mode#",
@@ -4436,6 +4456,134 @@
     "1312": {
       "source_en": "pvp_y_8-1.rsw#PvP : Room Prontera#",
       "translation_tr": "pvp_y_8-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1313": {
+      "source_en": "pvp_y_1-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_1-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1314": {
+      "source_en": "pvp_y_2-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_2-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1315": {
+      "source_en": "pvp_y_3-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_3-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1316": {
+      "source_en": "pvp_y_4-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_4-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1317": {
+      "source_en": "pvp_y_5-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_5-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1318": {
+      "source_en": "pvp_y_6-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_6-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1319": {
+      "source_en": "pvp_y_7-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_7-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1320": {
+      "source_en": "pvp_y_8-2.rsw#PvP : Room Izlude#",
+      "translation_tr": "pvp_y_8-2.rsw#PvP : Izlude Odasi#"
+    },
+    "1321": {
+      "source_en": "pvp_y_1-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_1-3.rsw#PvP : Payon Odasi#"
+    },
+    "1322": {
+      "source_en": "pvp_y_2-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_2-3.rsw#PvP : Payon Odasi#"
+    },
+    "1323": {
+      "source_en": "pvp_y_3-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_3-3.rsw#PvP : Payon Odasi#"
+    },
+    "1324": {
+      "source_en": "pvp_y_4-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_4-3.rsw#PvP : Payon Odasi#"
+    },
+    "1325": {
+      "source_en": "pvp_y_5-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_5-3.rsw#PvP : Payon Odasi#"
+    },
+    "1326": {
+      "source_en": "pvp_y_6-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_6-3.rsw#PvP : Payon Odasi#"
+    },
+    "1327": {
+      "source_en": "pvp_y_7-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_7-3.rsw#PvP : Payon Odasi#"
+    },
+    "1328": {
+      "source_en": "pvp_y_8-3.rsw#PvP : Room Payon#",
+      "translation_tr": "pvp_y_8-3.rsw#PvP : Payon Odasi#"
+    },
+    "1329": {
+      "source_en": "pvp_y_1-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_1-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1330": {
+      "source_en": "pvp_y_2-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_2-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1331": {
+      "source_en": "pvp_y_3-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_3-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1332": {
+      "source_en": "pvp_y_4-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_4-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1333": {
+      "source_en": "pvp_y_5-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_5-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1334": {
+      "source_en": "pvp_y_6-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_6-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1335": {
+      "source_en": "pvp_y_7-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_7-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1336": {
+      "source_en": "pvp_y_8-4.rsw#PvP : Room Alberta#",
+      "translation_tr": "pvp_y_8-4.rsw#PvP : Alberta Odasi#"
+    },
+    "1337": {
+      "source_en": "pvp_y_1-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_1-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1338": {
+      "source_en": "pvp_y_2-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_2-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1339": {
+      "source_en": "pvp_y_3-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_3-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1340": {
+      "source_en": "pvp_y_4-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_4-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1341": {
+      "source_en": "pvp_y_5-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_5-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1342": {
+      "source_en": "pvp_y_6-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_6-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1343": {
+      "source_en": "pvp_y_7-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_7-5.rsw#PvP : Morroc Odasi#"
+    },
+    "1344": {
+      "source_en": "pvp_y_8-5.rsw#PvP : Room Morroc#",
+      "translation_tr": "pvp_y_8-5.rsw#PvP : Morroc Odasi#"
     },
     "1345": {
       "source_en": "pvp_2vs2.rsw#PvP : Event Coliseum#",
