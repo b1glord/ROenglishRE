@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.5.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 80 exact Renewal skill aciklamasi dahil",
+    "version": "1.6.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 100 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -1622,6 +1622,331 @@
         "Hedef: ^6666CCDusman^000000",
         "Aciklama: ^777777Tame edilebilir bir monster'i gerekli item olmadan evcillestirir.",
         "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "MI_RUSH_WINDMILL": {
+      "name_original": "Windmill Rush",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Deep Sleep Lullaby 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullananin ve party uyelerinin ^CC6600ATK^777777",
+        "ve ^CC6600Hareket Hizi^777777 degerlerini 180 saniye artirir.",
+        "Diger ^00A100Minstrel^777777 sarkilariyla birikmez.",
+        "^CC6600ATK^777777 bonusu kullananin ^0000FFLesson^777777 seviyesine gore artar.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK +7 +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 2]: ^777777ATK +10 +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 3]: ^777777ATK +13 +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 4]: ^777777ATK +15 +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 5]: ^777777ATK +20 +(^0000FFLesson^777777 Sv)^000000"
+      ]
+    },
+    "SA_QUESTION": {
+      "name_original": "?",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedef [?] ifadesini gosterir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_REVERBERATION": {
+      "name_original": "Reverberation",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "19^CC3399Gereksinim: Dissonance 5^000000",
+        "20^CC3399Gereksinim: Ugly Dance 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yuksek frekansli bir ses dalgasi olusturur ve",
+        "5x5 hucrelik hedef alandaki tum dusmanlara elementli",
+        "buyu hasari verir. Hasarin elementi takili ^990099Arrow^777777",
+        "turune gore belirlenir. 5 ^990099Arrow^777777 tuketir;",
+        "envanterde 5'ten az Arrow varsa kullanilamaz.^000000",
+        "[Sv 1]: ^777777MATK 1000%^000000",
+        "[Sv 2]: ^777777MATK 1300%^000000",
+        "[Sv 3]: ^777777MATK 1600%^000000",
+        "[Sv 4]: ^777777MATK 1900%^000000",
+        "[Sv 5]: ^777777MATK 2200%^000000"
+      ]
+    },
+    "SA_GRAVITY": {
+      "name_original": "Gravity",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin basinin uzerinde Gravity logosu belirir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_METALICSOUND": {
+      "name_original": "Metallic Sound",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Reverberation 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yuksek perdeli bir ses olusturarak ^009999Neutral^777777",
+        "elementli buyu hasari verir. ^663399Sleep^777777 durumundaki",
+        "dusmanlara daha fazla hasar verir. Hasar ^0000FFLesson^777777",
+        "seviyesi ve ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 120% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 2]: ^777777MATK 240% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 3]: ^777777MATK 360% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 4]: ^777777MATK 480% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 5]: ^777777MATK 600% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 6]: ^777777MATK 720% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 7]: ^777777MATK 840% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 8]: ^777777MATK 960% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 9]: ^777777MATK 1080% +(^0000FFLesson^777777 Sv x60)%^000000",
+        "[Sv 10]: ^777777MATK 1200% +(^0000FFLesson^777777 Sv x60)%^000000"
+      ]
+    },
+    "SA_LEVELUP": {
+      "name_original": "Level Up",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin seviyesini otomatik olarak artirir.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_LESSON": {
+      "name_original": "Lesson",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "19^CC3399Gereksinim: Minstrel Basic Skill^000000",
+        "20^CC3399Gereksinim: Wanderer Basic Skill^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Her seviyede ^CC6600MaksSP^777777 ve ^CC6600SP^777777 yenilenmesini",
+        "artirir. Seviye 5'in uzerine ciktiginda performer,",
+        "2nd Class dance, song veya ensemble kullanirken",
+        "3rd Class skill'lerini kullanabilir.^000000",
+        "[Sv 1]: ^777777MaksSP +30, Her 10 sn 6 SP yeniler^000000",
+        "[Sv 2]: ^777777MaksSP +60, Her 10 sn 9 SP yeniler^000000",
+        "[Sv 3]: ^777777MaksSP +90, Her 10 sn 12 SP yeniler^000000",
+        "[Sv 4]: ^777777MaksSP +120, Her 10 sn 15 SP yeniler^000000",
+        "[Sv 5]: ^777777MaksSP +150, Her 10 sn 18 SP yeniler^000000",
+        "[Sv 6]: ^777777MaksSP +180, Her 10 sn 21 SP yeniler^000000",
+        "[Sv 7]: ^777777MaksSP +200, Her 10 sn 24 SP yeniler^000000",
+        "[Sv 8]: ^777777MaksSP +240, Her 10 sn 27 SP yeniler^000000",
+        "[Sv 9]: ^777777MaksSP +270, Her 10 sn 30 SP yeniler^000000",
+        "[Sv 10]: ^777777MaksSP +300, Her 10 sn 33 SP yeniler^000000"
+      ]
+    },
+    "SA_INSTANTDEATH": {
+      "name_original": "Instant Death",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullanani oldurur. Kullanan ^CC6600EXP^777777 kaybeder.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "MI_ECHOSONG": {
+      "name_original": "Echo Song",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Deep Sleep Lullaby 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullananin ve party uyelerinin defense degerini",
+        "180 saniye artirir. ^CC6600DEF^777777 bonusu ^0000FFLesson^777777 seviyesi",
+        "ve kullananin ^CC6600Job Level^777777 degerine gore artar.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777DEF +6% / AoE: 15x15 hucre^000000",
+        "[Sv 2]: ^777777DEF +12% / AoE: 17x17 hucre^000000",
+        "[Sv 3]: ^777777DEF +18% / AoE: 19x19 hucre^000000",
+        "[Sv 4]: ^777777DEF +24% / AoE: 21x21 hucre^000000",
+        "[Sv 5]: ^777777DEF +30% / AoE: 23x23 hucre^000000"
+      ]
+    },
+    "SA_FULLRECOVERY": {
+      "name_original": "Full Recovery",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^CC6600HP^777777 ve ^CC6600SP^777777'yi tamamen yeniler ve",
+        "tum abnormal status etkilerini temizler.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "WM_DOMINION_IMPULSE": {
+      "name_original": "Dominion Impulse",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Reverberation 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Guclu bir ciglik salar ve hedef konumun",
+        "10 hucre cevresindeki tum ^0000FFReverberation^777777 etkilerini",
+        "aktif eder. Diger performer'larin biraktigi",
+        "^0000FFReverberation^777777 etkilerini de tetikler.^000000"
+      ]
+    },
+    "SA_COMA": {
+      "name_original": "Coma",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin ^CC6600HP^777777 ve ^CC6600SP^777777 degerlerini 1'e dusurur.",
+        "Not: Yalnizca ^000099Abracadabra^777777 ile cast edilebilen ozel skill.^000000"
+      ]
+    },
+    "MG_FIREBOLT": {
+      "name_original": "Fire Bolt",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Atesten yapilmis bir ok ile hedefe saldirir.",
+        "Her vurus %100 ^CC6600MATK ^FF0000Fire^777777 elementli buyu hasari verir.^000000",
+        "[Sv 1]: ^7777771 Vurus, SP Tuketimi: 12^000000",
+        "[Sv 2]: ^7777772 Vurus, SP Tuketimi: 14^000000",
+        "[Sv 3]: ^7777773 Vurus, SP Tuketimi: 16^000000",
+        "[Sv 4]: ^7777774 Vurus, SP Tuketimi: 18^000000",
+        "[Sv 5]: ^7777775 Vurus, SP Tuketimi: 20^000000",
+        "[Sv 6]: ^7777776 Vurus, SP Tuketimi: 22^000000",
+        "[Sv 7]: ^7777777 Vurus, SP Tuketimi: 24^000000",
+        "[Sv 8]: ^7777778 Vurus, SP Tuketimi: 26^000000",
+        "[Sv 9]: ^7777779 Vurus, SP Tuketimi: 28^000000",
+        "[Sv 10]: ^77777710 Vurus, SP Tuketimi: 30^000000"
+      ]
+    },
+    "BD_ADAPTATION": {
+      "name_original": "Adaptation to Circumstances",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Performans sirasinda ortaya cikan beklenmedik",
+        "durumlara uyum saglar. ^0000FFSong^777777, ^0000FFDance^777777 ve",
+        "^0000FFEnsemble^777777 skill'lerinin zaman icindeki ^CC6600SP^777777",
+        "tuketimini %20 azaltir. ^0000FFEncore^777777 ile birlikte kullanilabilir.^000000"
+      ]
+    },
+    "WM_BEYOND_OF_WARCRY": {
+      "name_original": "Beyond of Warcry",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Lerad's Dew 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Aciklama: ^777777Kullanan ve en az bir baska performer",
+        "birlikte soylediginde, cevredeki dusmanlarin ^CC6600MaksHP^777777",
+        "ve ^CC6600STR^777777 degerlerini dusurur. Basari sansi",
+        "^0000FFLesson^777777 seviyesine gore artar. Yalnizca PvP/Siege",
+        "alaninda kullanilabilir. 10 ^990099Neck Protection Candy^777777 tuketir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 15% +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 2]: ^777777Basari Sansi 18% +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 3]: ^777777Basari Sansi 21% +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 4]: ^777777Basari Sansi 24% +(^0000FFLesson^777777 Sv)^000000",
+        "[Sv 5]: ^777777Basari Sansi 27% +(^0000FFLesson^777777 Sv)^000000"
+      ]
+    },
+    "BD_ENCORE": {
+      "name_original": "Encore",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Adaptation to Circumstances 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Son kullanilan ^0000FFSong^777777, ^0000FFDance^777777 veya",
+        "^0000FFEnsemble^777777 skill'ini tekrar cast eder.",
+        "^0000FFEncore^777777 ile kullanilan skill yalnizca gerekli ^CC6600SP^777777'nin",
+        "yarisini tuketir. Son performans skill'i kullanilabilir degilse",
+        "^0000FFEncore^777777 basarisiz olur.^000000"
+      ]
+    },
+    "BD_LULLABY": {
+      "name_original": "Lullaby",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "19^CC3399Gereksinim: Whistle 10^000000",
+        "20^CC3399Gereksinim: Humming 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777Menzildeki dusmanlara belirli bir sansla",
+        "^663399Sleep^777777 uygular. ^00A100Boss^777777 monster'larda etkisizdir.",
+        "Diger ^0000FFEnsemble^777777 skill'leriyle birikmez.",
+        "Ensemble yalnizca party'deki ^00A100Bard/Dancer^777777 9x9 hucre",
+        "icindeyse aktif olabilir. 10 saniye boyunca skill kullanamaz,",
+        "^CC6600Hareket Hizi^777777 ve ^CC6600Saldiri Hizi^777777 azalir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000"
+      ]
+    },
+    "SO_PSYCHIC_WAVE": {
+      "name_original": "Psychic Wave",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dispell 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel, AoE^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Bir alandaki hedeflere psisik enerji dalgasi",
+        "gondererek coklu ^009999Neutral^777777 elementli buyu hasari verir.",
+        "^990099Staff^777777 veya ^990099Book^777777 takiliysa hasar iki kez uygulanir.",
+        "Hasar skill seviyesi ile kullananin ^CC6600Base Level^777777 ve",
+        "^CC6600INT^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777AoE: 7x7 hucre, 3 vurus^000000",
+        "[Sv 2]: ^777777AoE: 7x7 hucre, 4 vurus^000000",
+        "[Sv 3]: ^777777AoE: 9x9 hucre, 5 vurus^000000",
+        "[Sv 4]: ^777777AoE: 9x9 hucre, 6 vurus^000000",
+        "[Sv 5]: ^777777AoE: 11x11 hucre, 7 vurus^000000"
+      ]
+    },
+    "BD_RICHMANKIM": {
+      "name_original": "Mr. Kim A Rich Man",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Invulnerable Siegfried 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Menzilde yenilen monster'lardan kazanilan ^CC6600EXP^777777",
+        "miktarini kullanan ve party uyeleri icin 180 saniye artirir.",
+        "Diger ^0000FFEnsemble^777777 skill'leriyle birikmez. Ensemble yalnizca",
+        "party'deki ^00A100Bard/Dancer^777777 9x9 hucre icindeyse aktif olabilir.",
+        "10 saniye boyunca skill kullanamaz, ^CC6600Hareket Hizi^777777 ve",
+        "^CC6600Saldiri Hizi^777777 azalir. ^990099Musical Instrument^777777 veya",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777EXP +20%^000000",
+        "[Sv 2]: ^777777EXP +30%^000000",
+        "[Sv 3]: ^777777EXP +40%^000000",
+        "[Sv 4]: ^777777EXP +50%^000000",
+        "[Sv 5]: ^777777EXP +60%^000000"
+      ]
+    },
+    "SO_SUMMON_AGNI": {
+      "name_original": "Summon Agni",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Elemental Control 1, Warmer 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Cagirma^000000",
+        "Hedef: ^6666CCKullananin cevresi^000000",
+        "Aciklama: ^777777Ates ruhu Agni'yi cagirir.",
+        "Skill seviyesine gore katalizor olarak 3 ^990099Red Blood^777777,",
+        "6 ^990099Red Blood^777777 veya 1 ^990099Flame Heart^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 600 saniye, Her 10 saniyede 5 SP tuketir^000000",
+        "[Sv 2]: ^777777Sure: 900 saniye, Her 10 saniyede 8 SP tuketir^000000",
+        "[Sv 3]: ^777777Sure: 1200 saniye, Her 10 saniyede 11 SP tuketir^000000"
       ]
     }
   }
