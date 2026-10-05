@@ -16043,7 +16043,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_CHUL_HO_SONIC_CLAW] = {
 		"SH_CHUL_HO_SONIC_CLAW",
-		SkillName = "Chulho Sonic Claw",
+		SkillName = "Chulho Sonik Pencesi (Chulho Sonic Claw)",
 		MaxLv = 7,
 		SpAmount = { 42, 44, 46, 48, 50, 52, 54 },
 		bSeperateLv = true,
@@ -16054,7 +16054,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_HOWLING_OF_CHUL_HO] = {
 		"SH_HOWLING_OF_CHUL_HO",
-		SkillName = "Howling of Chulho",
+		SkillName = "Chulho Kukremesi (Howling of Chulho)",
 		MaxLv = 7,
 		SpAmount = { 72, 72, 72, 72, 72, 72, 72 },
 		bSeperateLv = true,
@@ -16066,7 +16066,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_HOGOGONG_STRIKE] = {
 		"SH_HOGOGONG_STRIKE",
-		SkillName = "Hogogong Strike",
+		SkillName = "Hogogong Darbesi (Hogogong Strike)",
 		MaxLv = 7,
 		SpAmount = { 54, 57, 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
@@ -16078,7 +16078,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_COMMUNE_WITH_KI_SUL] = {
 		"SH_COMMUNE_WITH_KI_SUL",
-		SkillName = "Commune With Kisul",
+		SkillName = "Kisul ile Uyum (Commune With Kisul)",
 		MaxLv = 1,
 		bSeperateLv = false,
 		IsPassive = true,
@@ -16090,7 +16090,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_KI_SUL_WATER_SPRAYING] = {
 		"SH_KI_SUL_WATER_SPRAYING",
-		SkillName = "Kisul Water Spraying",
+		SkillName = "Kisul Su Puskurtme (Kisul Water Spraying)",
 		MaxLv = 7,
 		SpAmount = { 61, 65, 69, 73, 77, 81, 85 },
 		bSeperateLv = true,
@@ -16101,7 +16101,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_MARINE_FESTIVAL_OF_KI_SUL] = {
 		"SH_MARINE_FESTIVAL_OF_KI_SUL",
-		SkillName = "Marine Festival of Kisul",
+		SkillName = "Kisul Deniz Festivali (Marine Festival of Kisul)",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -16113,7 +16113,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_SANDY_FESTIVAL_OF_KI_SUL] = {
 		"SH_SANDY_FESTIVAL_OF_KI_SUL",
-		SkillName = "Sandy Festival of Kisul",
+		SkillName = "Kisul Kum Festivali (Sandy Festival of Kisul)",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -16125,7 +16125,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_KI_SUL_RAMPAGE] = {
 		"SH_KI_SUL_RAMPAGE",
-		SkillName = "Kisul Rampage",
+		SkillName = "Kisul Hiddeti (Kisul Rampage)",
 		MaxLv = 7,
 		SpAmount = { 90, 100, 110, 120, 130, 140, 150 },
 		bSeperateLv = true,
@@ -16138,7 +16138,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_COMMUNE_WITH_HYUN_ROK] = {
 		"SH_COMMUNE_WITH_HYUN_ROK",
-		SkillName = "Commune With Hyunrok",
+		SkillName = "Hyunrok ile Uyum (Commune With Hyunrok)",
 		MaxLv = 1,
 		bSeperateLv = false,
 		IsPassive = true,
@@ -16150,7 +16150,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_COLORS_OF_HYUN_ROK] = {
 		"SH_COLORS_OF_HYUN_ROK",
-		SkillName = "Colors of Hyunrok",
+		SkillName = "Hyunrok'un Renkleri (Colors of Hyunrok)",
 		MaxLv = 7,
 		SpAmount = { 90, 90, 90, 90, 90, 90, 90 },
 		bSeperateLv = true,
@@ -16161,7 +16161,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_HYUN_ROKS_BREEZE] = {
 		"SH_HYUN_ROKS_BREEZE",
-		SkillName = "Hyunrok Breeze",
+		SkillName = "Hyunrok Esintisi (Hyunrok Breeze)",
 		MaxLv = 7,
 		SpAmount = { 58, 64, 70, 76, 82, 88, 94 },
 		bSeperateLv = true,
@@ -16173,7 +16173,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_HYUN_ROK_CANNON] = {
 		"SH_HYUN_ROK_CANNON",
-		SkillName = "Hyunrok Cannon",
+		SkillName = "Hyunrok Topu (Hyunrok Cannon)",
 		MaxLv = 7,
 		SpAmount = { 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
@@ -16185,7 +16185,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_TEMPORARY_COMMUNION] = {
 		"SH_TEMPORARY_COMMUNION",
-		SkillName = "Temporary Communion",
+		SkillName = "Gecici Uyum (Temporary Communion)",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		ApAmount = { 125, 125, 125, 125, 125 },
@@ -16197,7 +16197,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_BLESSING_OF_MYSTICAL_CREATURES] = {
 		"SH_BLESSING_OF_MYSTICAL_CREATURES",
-		SkillName = "Blessing of Mystical Creatures",
+		SkillName = "Mistik Yaratiklarin Kutsamasi (Blessing of Mystical Creatures)",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		ApAmount = { 100, 100, 100, 100, 100 },
@@ -16219,7 +16219,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_GRENADE_MASTERY] = {
 		"NW_GRENADE_MASTERY",
-		SkillName = "Grenade Mastery",
+		SkillName = "El Bombasi Ustaligi (Grenade Mastery)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16228,7 +16228,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_INTENSIVE_AIM] = {
 		"NW_INTENSIVE_AIM",
-		SkillName = "Intensive Aim",
+		SkillName = "Yogun Nisan (Intensive Aim)",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -16239,7 +16239,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_GRENADE_FRAGMENT] = {
 		"NW_GRENADE_FRAGMENT",
-		SkillName = "Grenade Fragment",
+		SkillName = "El Bombasi Parcasi (Grenade Fragment)",
 		MaxLv = 7,
 		SpAmount = { 50, 50, 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -16250,7 +16250,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_THE_VIGILANTE_AT_NIGHT] = {
 		"NW_THE_VIGILANTE_AT_NIGHT",
-		SkillName = "The Vigilante at Night",
+		SkillName = "Gece Nobetcisi (The Vigilante at Night)",
 		MaxLv = 5,
 		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
@@ -16262,7 +16262,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_THE_VIGILANTE_AT_NIGHT_GUN_SHOTGUN] = {
 		"NW_THE_VIGILANTE_AT_NIGHT_GUN_SHOTGUN",
-		SkillName = "The Vigilante at Night",
+		SkillName = "Gece Nobetcisi (The Vigilante at Night)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16270,7 +16270,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_THE_VIGILANTE_AT_NIGHT_GUN_GATLING] = {
 		"NW_THE_VIGILANTE_AT_NIGHT_GUN_GATLING",
-		SkillName = "The Vigilante at Night",
+		SkillName = "Gece Nobetcisi (The Vigilante at Night)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16278,7 +16278,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_ONLY_ONE_BULLET] = {
 		"NW_ONLY_ONE_BULLET",
-		SkillName = "Only One Bullet",
+		SkillName = "Tek Mermi (Only One Bullet)",
 		MaxLv = 5,
 		SpAmount = { 39, 43, 47, 51, 55 },
 		bSeperateLv = true,
@@ -16290,7 +16290,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_SPIRAL_SHOOTING] = {
 		"NW_SPIRAL_SHOOTING",
-		SkillName = "Spiral Shooting",
+		SkillName = "Spiral Atis (Spiral Shooting)",
 		MaxLv = 5,
 		SpAmount = { 48, 53, 58, 63, 68 },
 		bSeperateLv = true,
@@ -16302,7 +16302,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_MAGAZINE_FOR_ONE] = {
 		"NW_MAGAZINE_FOR_ONE",
-		SkillName = "Magazine for One",
+		SkillName = "Tek Kisilik Sarjor (Magazine for One)",
 		MaxLv = 5,
 		SpAmount = { 42, 46, 50, 54, 58 },
 		bSeperateLv = true,
@@ -16314,7 +16314,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_WILD_FIRE] = {
 		"NW_WILD_FIRE",
-		SkillName = "Wild Fire",
+		SkillName = "Vahsi Ates (Wild Fire)",
 		MaxLv = 5,
 		SpAmount = { 51, 55, 59, 63, 67 },
 		bSeperateLv = true,
@@ -16326,7 +16326,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_BASIC_GRENADE] = {
 		"NW_BASIC_GRENADE",
-		SkillName = "Basic Grenade",
+		SkillName = "Temel El Bombasi (Basic Grenade)",
 		MaxLv = 5,
 		SpAmount = { 36, 42, 48, 54, 60 },
 		bSeperateLv = true,
@@ -16337,7 +16337,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_HASTY_FIRE_IN_THE_HOLE] = {
 		"NW_HASTY_FIRE_IN_THE_HOLE",
-		SkillName = "Hasty Fire in the Hole",
+		SkillName = "Hizli El Bombasi Atisi (Hasty Fire in the Hole)",
 		MaxLv = 5,
 		SpAmount = { 50, 53, 56, 59, 62 },
 		bSeperateLv = true,
@@ -16348,7 +16348,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_GRENADES_DROPPING] = {
 		"NW_GRENADES_DROPPING",
-		SkillName = "Grenade Dropping",
+		SkillName = "El Bombasi Yagmuru (Grenade Dropping)",
 		MaxLv = 5,
 		SpAmount = { 60, 66, 72, 78, 84 },
 		bSeperateLv = true,
@@ -16359,7 +16359,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_AUTO_FIRING_LAUNCHER] = {
 		"NW_AUTO_FIRING_LAUNCHER",
-		SkillName = "Auto Firing Launcher",
+		SkillName = "Otomatik Atesleyici (Auto Firing Launcher)",
 		MaxLv = 5,
 		SpAmount = { 90, 100, 110, 120, 130 },
 		bSeperateLv = true,
@@ -16370,7 +16370,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_HIDDEN_CARD] = {
 		"NW_HIDDEN_CARD",
-		SkillName = "Hidden Card",
+		SkillName = "Gizli Kart (Hidden Card)",
 		MaxLv = 10,
 		SpAmount = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 },
 		ApAmount = { 125, 125, 125, 125, 125, 125, 125, 125, 125, 125 },
@@ -16383,7 +16383,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_MISSION_BOMBARD] = {
 		"NW_MISSION_BOMBARD",
-		SkillName = "Mission Bombard",
+		SkillName = "Gorev Bombardimani (Mission Bombard)",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		ApAmount = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
@@ -16396,7 +16396,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HN_SELFSTUDY_TATICS] = {
 		"HN_SELFSTUDY_TATICS",
-		SkillName = "Self Study Tactics",
+		SkillName = "Kendi Kendine Taktik Calismasi (Self Study Tactics)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16405,7 +16405,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HN_SELFSTUDY_SOCERY] = {
 		"HN_SELFSTUDY_SOCERY",
-		SkillName = "Self Study Sorcery",
+		SkillName = "Kendi Kendine Buyu Calismasi (Self Study Sorcery)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16414,7 +16414,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HN_DOUBLEBOWLINGBASH] = {
 		"HN_DOUBLEBOWLINGBASH",
-		SkillName = "Double Bowling Bash",
+		SkillName = "Cift Bowling Darbesi (Double Bowling Bash)",
 		MaxLv = 10,
 		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
@@ -16425,7 +16425,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HN_SHIELD_CHAIN_RUSH] = {
 		"HN_SHIELD_CHAIN_RUSH",
-		SkillName = "Shield Chain Rush",
+		SkillName = "Kalkan Zinciri Hucumu (Shield Chain Rush)",
 		MaxLv = 10,
 		SpAmount = { 35, 38, 41, 44, 47, 50, 53, 56, 59, 62 },
 		bSeperateLv = true,
