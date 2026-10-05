@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.19.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 560 exact Renewal skill aciklamasi dahil",
+    "version": "2.20.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 580 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -9597,6 +9597,379 @@
         "[Sv 3]: ^777777MATK 11550% / 13950% (^0000FFSound Brand^777777), AoE 5x5^000000",
         "[Sv 4]: ^777777MATK 15400% / 18600% (^0000FFSound Brand^777777), AoE 7x7^000000",
         "[Sv 5]: ^777777MATK 19250% / 23250% (^0000FFSound Brand^777777), AoE 9x9^000000"
+      ]
+    },
+    "TR_SOUNDBLEND": {
+      "name_original": "Sound Blend",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Metallic Sound 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF1 (Sv 1~3), 2 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe buyu hasari verir ve ^0000FFSonic Brand^777777 uygular. Sonic Brand suresi skill seviyesine baglidir; patlamadan once hasar verir ve elementi takili ^990099Arrow^777777'a gore belirlenir.",
+        "Sonic Brand ile isaretli hedefler ^0000FFReverberation, Metallic Sound, Rose Blossom^777777 ve ^0000FFRhythm Shooting^777777'dan daha fazla hasar alir. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar. ^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777MATK 120%, Sonic Brand 10 saniye^000000",
+        "[Sv 2]: ^777777MATK 240%, Sonic Brand 10 saniye^000000",
+        "[Sv 3]: ^777777MATK 360%, Sonic Brand 15 saniye^000000",
+        "[Sv 4]: ^777777MATK 480%, Sonic Brand 15 saniye^000000",
+        "[Sv 5]: ^777777MATK 600%, Sonic Brand 20 saniye^000000"
+      ]
+    },
+    "TR_GEF_NOCTURN": {
+      "name_original": "Geffenia Nocturne",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Stage Manner 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Skill menzilindeki normal monster'larin ve dusman oyuncularin ^CC6600MRES^777777 degerini 30 saniye azaltma sansi verir. Ekranda ayni party'den baska bir performer varsa etkinlik artar.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 15x15^000000",
+        "[Sv 2]: ^777777AoE 15x15^000000",
+        "[Sv 3]: ^777777AoE 17x17^000000",
+        "[Sv 4]: ^777777AoE 21x21^000000",
+        "[Sv 5]: ^777777AoE 23x23^000000"
+      ]
+    },
+    "TR_ROKI_CAPRICCIO": {
+      "name_original": "Capriccio of Roki",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Serenade of Jawaii 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Cevredeki dusman oyunculara ^663399Unlucky^777777 ve ^663399Confusion^777777 uygulama sansi verir. Ekranda ayni party'den baska bir performer varsa etkinlik artar. Yalnizca PvP alanlarinda kullanilabilir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 15x15^000000",
+        "[Sv 2]: ^777777AoE 15x15^000000",
+        "[Sv 3]: ^777777AoE 17x17^000000",
+        "[Sv 4]: ^777777AoE 21x21^000000",
+        "[Sv 5]: ^777777AoE 23x23^000000"
+      ]
+    },
+    "TR_AIN_RHAPSODY": {
+      "name_original": "Rhapsody of Mineworker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Stage Manner 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Skill menzilindeki normal monster'larin ve dusman oyuncularin ^CC6600RES^777777 degerini 30 saniye azaltma sansi verir. Ekranda ayni party'den baska bir performer varsa etkinlik artar.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 15x15^000000",
+        "[Sv 2]: ^777777AoE 15x15^000000",
+        "[Sv 3]: ^777777AoE 17x17^000000",
+        "[Sv 4]: ^777777AoE 21x21^000000",
+        "[Sv 5]: ^777777AoE 23x23^000000"
+      ]
+    },
+    "TR_MUSICAL_INTERLUDE": {
+      "name_original": "Musical Interlude",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Raphsody of Mineworker 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF10^000000",
+        "Aciklama: ^777777Kullananin ve skill menzilindeki party uyelerinin ^CC6600RES^777777 degerini 180 saniye artirir. Ekranda ayni party'den baska bir performer varsa etkinlik artar.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777RES +10, AoE 15x15^000000",
+        "[Sv 2]: ^777777RES +15, AoE 15x15^000000",
+        "[Sv 3]: ^777777RES +20, AoE 17x17^000000",
+        "[Sv 4]: ^777777RES +25, AoE 21x21^000000",
+        "[Sv 5]: ^777777RES +30, AoE 23x23^000000"
+      ]
+    },
+    "TR_JAWAII_SERENADE": {
+      "name_original": "Serenade of Jawaii",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Geffenia Nocturne 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF10^000000",
+        "Aciklama: ^777777Kullananin ve skill menzilindeki party uyelerinin ^CC6600S.MATK^777777 ve ^CC6600Hareket Hizi^777777 degerlerini 180 saniye artirir. Ekranda ayni party'den baska bir performer varsa etkinlik artar.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777S.MATK +10, AoE 15x15^000000",
+        "[Sv 2]: ^777777S.MATK +15, AoE 15x15^000000",
+        "[Sv 3]: ^777777S.MATK +20, AoE 17x17^000000",
+        "[Sv 4]: ^777777S.MATK +25, AoE 21x21^000000",
+        "[Sv 5]: ^777777S.MATK +30, AoE 23x23^000000"
+      ]
+    },
+    "TR_NIPELHEIM_REQUIEM": {
+      "name_original": "Requiem of Nifleheim",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Musical Interlude 1, March of Prontera 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Cevredeki dusman oyunculara ^663399Gloomy^777777 ve ^663399Curse^777777 uygulama sansi verir. Ekranda ayni party'den baska bir performer varsa etkinlik artar. Yalnizca PvP alanlarinda kullanilabilir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 15x15^000000",
+        "[Sv 2]: ^777777AoE 15x15^000000",
+        "[Sv 3]: ^777777AoE 17x17^000000",
+        "[Sv 4]: ^777777AoE 21x21^000000",
+        "[Sv 5]: ^777777AoE 23x23^000000"
+      ]
+    },
+    "TR_PRON_MARCH": {
+      "name_original": "March of Prontera",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Raphsody of Mineworker 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF10^000000",
+        "Aciklama: ^777777Kullananin ve skill menzilindeki party uyelerinin ^CC6600P.ATK^777777 ve ^CC6600Hareket Hizi^777777 degerlerini 180 saniye artirir. Ekranda ayni party'den baska bir performer varsa etkinlik artar.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Neck Protection Candy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777P.ATK +3, AoE 15x15^000000",
+        "[Sv 2]: ^777777P.ATK +6, AoE 15x15^000000",
+        "[Sv 3]: ^777777P.ATK +9, AoE 17x17^000000",
+        "[Sv 4]: ^777777P.ATK +12, AoE 21x21^000000",
+        "[Sv 5]: ^777777P.ATK +15, AoE 23x23^000000"
+      ]
+    },
+    "ABC_DAGGER_AND_BOW_M": {
+      "name_original": "Dagger & Bow Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Dagger^777777 veya ^990099Bow^777777 takiliyken hedef boyutuna gore fiziksel hasari artirir.^000000",
+        "[Sv 1]: ^777777Small +1%, Medium +2%, Large +2%^000000",
+        "[Sv 2]: ^777777Small +2%, Medium +3%, Large +4%^000000",
+        "[Sv 3]: ^777777Small +3%, Medium +5%, Large +6%^000000",
+        "[Sv 4]: ^777777Small +4%, Medium +6%, Large +8%^000000",
+        "[Sv 5]: ^777777Small +5%, Medium +8%, Large +10%^000000",
+        "[Sv 6]: ^777777Small +6%, Medium +9%, Large +12%^000000",
+        "[Sv 7]: ^777777Small +7%, Medium +11%, Large +14%^000000",
+        "[Sv 8]: ^777777Small +8%, Medium +12%, Large +16%^000000",
+        "[Sv 9]: ^777777Small +9%, Medium +14%, Large +18%^000000",
+        "[Sv 10]: ^777777Small +10%, Medium +15%, Large +20%^000000"
+      ]
+    },
+    "ABC_MAGIC_SWORD_M": {
+      "name_original": "Magic Sword Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Reproduce 5, Auto Shadow Spell 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Dagger^777777 veya ^990099One-Handed Sword^777777 takiliyken hedef boyutuna gore buyusel hasari artirir.^000000",
+        "[Sv 1]: ^777777Small +2%, Medium +2%, Large +2%^000000",
+        "[Sv 2]: ^777777Small +3%, Medium +3%, Large +3%^000000",
+        "[Sv 3]: ^777777Small +5%, Medium +5%, Large +5%^000000",
+        "[Sv 4]: ^777777Small +6%, Medium +6%, Large +6%^000000",
+        "[Sv 5]: ^777777Small +8%, Medium +8%, Large +8%^000000",
+        "[Sv 6]: ^777777Small +9%, Medium +9%, Large +9%^000000",
+        "[Sv 7]: ^777777Small +11%, Medium +11%, Large +11%^000000",
+        "[Sv 8]: ^777777Small +12%, Medium +12%, Large +12%^000000",
+        "[Sv 9]: ^777777Small +14%, Medium +14%, Large +14%^000000",
+        "[Sv 10]: ^777777Small +15%, Medium +15%, Large +15%^000000"
+      ]
+    },
+    "ABC_STRIP_SHADOW": {
+      "name_original": "Strip Shadow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Divest Accessory 1, Dagger & Bow Mastery 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin tum ^990099Shadow Equipment^777777 ekipmanlarini cikarir ve skill suresince yeniden takilmasini engeller. Monster'larda kullanildiginda fiziksel ve buyusel direnci azaltir.^000000",
+        "[Sv 1]: ^777777Strip Sansi 20%, Sure 60 saniye^000000",
+        "[Sv 2]: ^777777Strip Sansi 25%, Sure 70 saniye^000000",
+        "[Sv 3]: ^777777Strip Sansi 30%, Sure 80 saniye^000000",
+        "[Sv 4]: ^777777Strip Sansi 35%, Sure 90 saniye^000000",
+        "[Sv 5]: ^777777Strip Sansi 40%, Sure 100 saniye^000000"
+      ]
+    },
+    "ABC_ABYSS_DAGGER": {
+      "name_original": "Abyss Dagger",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fatal Menace 5, Dagger & Bow Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin 7x7 cevresindeki hedeflere iki kez yakin dovus fiziksel hasar verir. Skill suresince ^0000FFFatal Menace^777777 hasarini artirir.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar. ^990099Dagger^777777 veya ^990099One-Handed Sword^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1750%, Etki 3 saniye^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 3150%, Etki 6 saniye^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 4550%, Etki 9 saniye^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 5950%, Etki 12 saniye^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 7350%, Etki 15 saniye^000000"
+      ]
+    },
+    "ABC_UNLUCKY_RUSH": {
+      "name_original": "Unlucky Rush",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Abyss Dagger 3, Dagger & Bow Mastery 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe aninda atilarak yakin dovus fiziksel hasar verir ve ^663399Unlucky^777777 uygulama sansi vardir. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777ATK 400%, Unlucky Sansi 40%^000000",
+        "[Sv 2]: ^777777ATK 700%, Unlucky Sansi 50%^000000",
+        "[Sv 3]: ^777777ATK 1000%, Unlucky Sansi 60%^000000",
+        "[Sv 4]: ^777777ATK 1300%, Unlucky Sansi 70%^000000",
+        "[Sv 5]: ^777777ATK 1600%, Unlucky Sansi 80%^000000"
+      ]
+    },
+    "ABC_CHAIN_REACTION_SHOT": {
+      "name_original": "Chain Reaction Shot",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Triangle Shot 5, Dagger & Bow Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara menzilli fiziksel hasar verir, ardindan ana hedefin 7x7 cevresindeki hedeflere ek menzilli fiziksel hasar uygular.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. ^990099Bow^777777 gerektirir ve 7 ^990099Arrow^777777 tuketir; kullanmak icin en az 8 Arrow gerekir.^000000",
+        "[Sv 1]: ^777777ATK 850% / 3600% (Ikincil), AoE 5x5^000000",
+        "[Sv 2]: ^777777ATK 1700% / 6250% (Ikincil), AoE 5x5^000000",
+        "[Sv 3]: ^777777ATK 2550% / 8900% (Ikincil), AoE 7x7^000000",
+        "[Sv 4]: ^777777ATK 3400% / 11500% (Ikincil), AoE 7x7^000000",
+        "[Sv 5]: ^777777ATK 4250% / 14200% (Ikincil), AoE 9x9^000000"
+      ]
+    },
+    "ABC_FROM_THE_ABYSS": {
+      "name_original": "From the Abyss",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Magic Sword Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FF4/8/12/16/20^000000",
+        "Aciklama: ^777777Skill suresince abyss gucu tasiyan kureler cagirir. Kullanildiginda 5 ^0000FFAbyss Sphere^777777 olusur. Fiziksel hasar verildiginde 1 Abyss Sphere tuketilerek hedefe ve 9x9 cevresindeki dusmanlara 5 kez ^009999Neutral^777777 elementli buyu hasari verme sansi vardir.",
+        "Skill suresince yeni Abyss Sphere'ler olusur. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.^000000",
+        "[Sv 1]: ^777777MATK 800%, Sure 30 saniye, Sphere Araligi 2.5 saniye^000000",
+        "[Sv 2]: ^777777MATK 1450%, Sure 60 saniye, Sphere Araligi 2 saniye^000000",
+        "[Sv 3]: ^777777MATK 2100%, Sure 90 saniye, Sphere Araligi 1.5 saniye^000000",
+        "[Sv 4]: ^777777MATK 2750%, Sure 120 saniye, Sphere Araligi 1 saniye^000000",
+        "[Sv 5]: ^777777MATK 3400%, Sure 150 saniye, Sphere Araligi 0.5 saniye^000000"
+      ]
+    },
+    "ABC_ABYSS_SLAYER": {
+      "name_original": "Abyss Slayer",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Abyss Dagger 5, Deft Stab 5^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000120^000000",
+        "Aciklama: ^777777Kullananin bedenini 300 saniye abyss gucuyle doldurarak yeteneklerini hizla artirir.^000000",
+        "[Sv 1]: ^777777P.ATK/S.MATK +12, HIT +120^000000",
+        "[Sv 2]: ^777777P.ATK/S.MATK +14, HIT +140^000000",
+        "[Sv 3]: ^777777P.ATK/S.MATK +16, HIT +160^000000",
+        "[Sv 4]: ^777777P.ATK/S.MATK +18, HIT +180^000000",
+        "[Sv 5]: ^777777P.ATK/S.MATK +20, HIT +200^000000",
+        "[Sv 6]: ^777777P.ATK/S.MATK +22, HIT +220^000000",
+        "[Sv 7]: ^777777P.ATK/S.MATK +24, HIT +240^000000",
+        "[Sv 8]: ^777777P.ATK/S.MATK +26, HIT +260^000000",
+        "[Sv 9]: ^777777P.ATK/S.MATK +28, HIT +280^000000",
+        "[Sv 10]: ^777777P.ATK/S.MATK +30, HIT +300^000000"
+      ]
+    },
+    "ABC_ABYSS_STRIKE": {
+      "name_original": "Omega Abyss Strike",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: From the Abyss 3, Abyss Square 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Maliyeti: ^FF000010^000000",
+        "Aciklama: ^777777Hedeflenen alana guclu meteor dusurerek 9x9 alandaki tum hedeflere ^FF0000Fire^777777 elementli buyu hasari verir. ^00A100Angel^777777 ve ^00A100Demon^777777 monster'lara ek hasar verir.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.^000000",
+        "[Sv 1]: ^777777MATK 2650% / 2850% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 2]: ^777777MATK 5300% / 5700% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 3]: ^777777MATK 7950% / 8550% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 4]: ^777777MATK 1060% / 11400% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 5]: ^777777MATK 13250% / 14250% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 6]: ^777777MATK 15900% / 17100% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 7]: ^777777MATK 18550% / 19950% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 8]: ^777777MATK 21200% / 22800% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 9]: ^777777MATK 23850% / 25650% (^00A100Angel/Demon^777777)^000000",
+        "[Sv 10]: ^777777MATK 26500% / 28500% (^00A100Angel/Demon^777777)^000000"
+      ]
+    },
+    "ABC_DEFT_STAB": {
+      "name_original": "Deft Stab",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Abyss Dagger 3, Dagger & Bow Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara hizla 5 kez yakin dovus fiziksel hasar verir. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1250%, AoE 5x5^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1800%, AoE 5x5^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2350%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 2900%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 3450%, AoE 5x5^000000",
+        "[Sv 6]: ^777777Vurus basina ATK 4000%, AoE 7x7^000000",
+        "[Sv 7]: ^777777Vurus basina ATK 4550%, AoE 7x7^000000",
+        "[Sv 8]: ^777777Vurus basina ATK 5100%, AoE 7x7^000000",
+        "[Sv 9]: ^777777Vurus basina ATK 5650%, AoE 7x7^000000",
+        "[Sv 10]: ^777777Vurus basina ATK 6200%, AoE 7x7^000000"
+      ]
+    },
+    "ABC_ABYSS_SQUARE": {
+      "name_original": "Abyss Square",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: From the Abyss 1, Magic Sword Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Yenileme: ^0054FF5^000000",
+        "Aciklama: ^777777Hedeflenen 7x7 alanda abyss'i uyandirarak ^009999Neutral^777777 elementli buyu hasari verir. Kullanan skill menzilindeyse hasar iki kez uygulanir.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar. ^0000FFFrom the Abyss^777777 aktifken fiziksel hasar verildiginde ogrenilmis seviyede ^0000FFAbyss Square^777777 otomatik tetiklenebilir; otomatik kullanim ^CC6600AP^777777 yenilemez.^000000",
+        "[Sv 1]: ^777777MATK 900 + (^0000FFMagic Sword Mastery^777777 Sv x50)%^000000",
+        "[Sv 2]: ^777777MATK 1800 + (^0000FFMagic Sword Mastery^777777 Sv x100)%^000000",
+        "[Sv 3]: ^777777MATK 2700 + (^0000FFMagic Sword Mastery^777777 Sv x150)%^000000",
+        "[Sv 4]: ^777777MATK 3600 + (^0000FFMagic Sword Mastery^777777 Sv x200)%^000000",
+        "[Sv 5]: ^777777MATK 4500 + (^0000FFMagic Sword Mastery^777777 Sv x250)%^000000"
+      ]
+    },
+    "ABC_FRENZY_SHOT": {
+      "name_original": "Frenzy Shot",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Chain Reaction Shot 3, Dagger & Bow Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3^000000",
+        "Aciklama: ^777777Hedefe iki kez menzilli fiziksel hasar verir ve 3 kez hasar verme sansi vardir. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^990099Bow^777777 gerektirir ve 3 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1175%, Tetiklenme Sansi 5%^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 2000%, Tetiklenme Sansi 10%^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2825%, Tetiklenme Sansi 15%^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3650%, Tetiklenme Sansi 20%^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4475%, Tetiklenme Sansi 25%^000000",
+        "[Sv 6]: ^777777Vurus basina ATK 5300%, Tetiklenme Sansi 30%^000000",
+        "[Sv 7]: ^777777Vurus basina ATK 6125%, Tetiklenme Sansi 35%^000000",
+        "[Sv 8]: ^777777Vurus basina ATK 6950%, Tetiklenme Sansi 40%^000000",
+        "[Sv 9]: ^777777Vurus basina ATK 7775%, Tetiklenme Sansi 45%^000000",
+        "[Sv 10]: ^777777Vurus basina ATK 8600%, Tetiklenme Sansi 50%^000000"
       ]
     }
   }
