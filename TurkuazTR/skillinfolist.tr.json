@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.11.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 390 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.12.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 425 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1571,6 +1571,146 @@
     "WE_CALLALLFAMILY": {
       "name_original": "We are with You",
       "name_tr": "Seninleyiz"
+    },
+    "WE_ONEFOREVER": {
+      "name_original": "Death can not separate us",
+      "name_tr": "Olum Bizi Ayiramaz"
+    },
+    "WE_CHEERUP": {
+      "name_original": "Mom Dad cheer up",
+      "name_tr": "Anne Baba Haydi"
+    },
+    "SJ_LIGHTOFMOON": {
+      "name_original": "Light of Moon",
+      "name_tr": "Ay Isigi"
+    },
+    "SJ_LUNARSTANCE": {
+      "name_original": "Lunar Stance",
+      "name_tr": "Ay Durusu"
+    },
+    "SJ_FULLMOONKICK": {
+      "name_original": "Full Moon Kick",
+      "name_tr": "Dolunay Tekmesi"
+    },
+    "SJ_NEWMOONKICK": {
+      "name_original": "New Moon Kick",
+      "name_tr": "Yeni Ay Tekmesi"
+    },
+    "SJ_LIGHTOFSTAR": {
+      "name_original": "Light of Star",
+      "name_tr": "Yildiz Isigi"
+    },
+    "SJ_STARSTANCE": {
+      "name_original": "Star Stance",
+      "name_tr": "Yildiz Durusu"
+    },
+    "SJ_FLASHKICK": {
+      "name_original": "Flash Kick",
+      "name_tr": "Parlama Tekmesi"
+    },
+    "SJ_STAREMPEROR": {
+      "name_original": "Advent of the Star Emperor",
+      "name_tr": "Yildiz Imparatorunun Gelisi"
+    },
+    "SJ_NOVAEXPLOSING": {
+      "name_original": "Nova Explosion",
+      "name_tr": "Nova Patlamasi"
+    },
+    "SJ_UNIVERSESTANCE": {
+      "name_original": "Universe Stance",
+      "name_tr": "Evren Durusu"
+    },
+    "SJ_FALLINGSTAR": {
+      "name_original": "Falling Star",
+      "name_tr": "Dusen Yildiz"
+    },
+    "SJ_GRAVITYCONTROL": {
+      "name_original": "Gravity Control",
+      "name_tr": "Yercekim Kontrolu"
+    },
+    "SJ_BOOKOFDIMENSION": {
+      "name_original": "Book of Dimension",
+      "name_tr": "Boyut Kitabi"
+    },
+    "SJ_BOOKOFCREATINGSTAR": {
+      "name_original": "Book of Creating Star",
+      "name_tr": "Yildiz Yaratma Kitabi"
+    },
+    "SJ_DOCUMENT": {
+      "name_original": "Document of the Sun, Moon and Stars",
+      "name_tr": "Gunes Ay ve Yildiz Belgesi"
+    },
+    "SJ_PURIFY": {
+      "name_original": "Purification of the Sun, Moon and Stars",
+      "name_tr": "Gunes Ay ve Yildiz Arinmasi"
+    },
+    "SJ_LIGHTOFSUN": {
+      "name_original": "Light of Sun",
+      "name_tr": "Gunes Isigi"
+    },
+    "SJ_SUNSTANCE": {
+      "name_original": "Sun Stance",
+      "name_tr": "Gunes Durusu"
+    },
+    "SJ_SOLARBURST": {
+      "name_original": "Solar Burst",
+      "name_tr": "Gunes Patlamasi"
+    },
+    "SJ_PROMINENCEKICK": {
+      "name_original": "Prominence Kick",
+      "name_tr": "Gunes Cikintisi Tekmesi"
+    },
+    "SP_SOULGOLEM": {
+      "name_original": "Golem Soul",
+      "name_tr": "Golem Ruhu"
+    },
+    "SP_SOULSHADOW": {
+      "name_original": "Shadow Soul",
+      "name_tr": "Golge Ruhu"
+    },
+    "SP_SOULFALCON": {
+      "name_original": "Falcon Soul",
+      "name_tr": "Sahin Ruhu"
+    },
+    "SP_SOULFAIRY": {
+      "name_original": "Fairy Soul",
+      "name_tr": "Peri Ruhu"
+    },
+    "SP_CURSEEXPLOSION": {
+      "name_original": "Curse Explosion",
+      "name_tr": "Lanet Patlamasi"
+    },
+    "SP_SOULCURSE": {
+      "name_original": "Curse of Wicked Soul",
+      "name_tr": "Kotu Ruh Laneti"
+    },
+    "SP_SPA": {
+      "name_original": "Espa",
+      "name_tr": "Espa"
+    },
+    "SP_SHA": {
+      "name_original": "Esha",
+      "name_tr": "Esha"
+    },
+    "SP_SWHOO": {
+      "name_original": "Eswhoo",
+      "name_tr": "Eswhoo"
+    },
+    "SP_SOULUNITY": {
+      "name_original": "Soul Unity",
+      "name_tr": "Ruh Birligi"
+    },
+    "SP_SOULDIVISION": {
+      "name_original": "Soul Division",
+      "name_tr": "Ruh Bolunmesi"
+    },
+    "SP_SOULREAPER": {
+      "name_original": "Soul Reaper",
+      "name_tr": "Ruh Bicici"
+    },
+    "SP_SOULCOLLECT": {
+      "name_original": "Soul Collect",
+      "name_tr": "Ruh Toplama"
     }
   },
   "name_profiles": {
@@ -1583,5 +1723,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 390
+  "patch_count": 425
 }
