@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.5.0",
-    "description": "Ceviri durum aracinin ana localization dosyalarini, Navi ve quest display yapisini takip etmesini saglar",
+    "version": "1.6.0",
+    "description": "Ceviri durum aracinin ana localization dosyalarini, ortak profilleri ve overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
   "locale": "tr-TR",
@@ -30,7 +30,14 @@
     },
     {
       "name": "msgstringtable",
-      "path": "Translation/Renewal/data/msgstringtable.txt"
+      "path": "Translation/Renewal/data/msgstringtable.txt",
+      "patch_path": "TurkuazTR/msgstringtable.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ]
     },
     {
       "name": "achievements",
@@ -57,5 +64,6 @@
       "path": "Translation/Renewal/data/questid2display.txt"
     }
   ],
-  "intentional_english_path": "TurkuazTR/intentional-english.json"
+  "intentional_english_path": "TurkuazTR/intentional-english.json",
+  "localization_profiles_path": "TurkuazTR/localization-profiles.json"
 }
