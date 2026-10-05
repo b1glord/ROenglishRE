@@ -5485,14 +5485,14 @@ SKILL_DESCRIPT = {
 		"Ayni haritada bulunmalidir. Aile uyesi ayni party'de olmalidir.^000000"
 	},
 	[SKID.WE_ONEFOREVER] = {
-		"Death can not separate us",
+		"Olum Bizi Ayiramaz",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Destek^000000",
 		"Hedef: ^6666CCKO olmus Aile Uyesi^000000",
 		"Aciklama: ^777777Aile uyesini MaksHP'sinin %30'u ile diriltir. Aile uyesi Undead elementliyse kullanilamaz.^000000"
 	},
 	[SKID.WE_CHEERUP] = {
-		"Mom Dad cheer up",
+		"Anne Baba Haydi",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Destek^000000",
 		"Hedef: ^6666CCKullananin cevresindeki Aile Uyeleri^000000",
@@ -16174,14 +16174,14 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777ATK 3200%: 1200% Normal + 2000% Patlama^000000"
 	},
 	[SKID.SJ_PURIFY] = {
-		"Purification of Sun Moon Star",
+		"Gunes Ay ve Yildiz Arinmasi",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Demon of Sun Moon Star 10^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
 		"Aciklama: ^777777^0000FFDemon of Sun Moon Star^777777 gorus cezasini yariya indirir.^000000"
 	},
 	[SKID.SJ_DOCUMENT] = {
-		"Document of Sun Moon Star",
+		"Gunes Ay ve Yildiz Belgesi",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Feeling of Sun Moon Star 3, Hatred of Sun Moon Star 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16193,7 +16193,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777Tumunu sifirlar, Cooldown 60 saniye^000000"
 	},
 	[SKID.SJ_PROMINENCEKICK] = {
-		"Prominence Kick",
+		"Gunes Cikintisi Tekmesi",
 		"Maks. Seviye: 7",
 		"^CC3399Gereksinim: Sun Stance 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16209,7 +16209,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 7]: ^777777ATK 500%^000000"
 	},
 	[SKID.SJ_SOLARBURST] = {
-		"Solar Burst",
+		"Gunes Patlamasi",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Prominence Kick 7^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16229,7 +16229,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 10]: ^777777ATK 3200% / AoE 7x7^000000"
 	},
 	[SKID.SJ_LIGHTOFSUN] = {
-		"Light of Sun",
+		"Gunes Isigi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Solar Burst 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16243,7 +16243,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Hasar +25%, Sure: 60 saniye^000000"
 	},
 	[SKID.SJ_SUNSTANCE] = {
-		"Sun Stance",
+		"Gunes Durusu",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Document of Sun Moon Star 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16255,7 +16255,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777ATK +5%^000000"
 	},
 	[SKID.SJ_LUNARSTANCE] = {
-		"Lunar Stance",
+		"Ay Durusu",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Document of Sun Moon Star 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16267,7 +16267,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777MaksHP +5%^000000"
 	},
 	[SKID.SJ_STARSTANCE] = {
-		"Star Stance",
+		"Yildiz Durusu",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Document of Sun Moon Star 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16279,7 +16279,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777After Attack Delay -10%^000000"
 	},
 	[SKID.SJ_UNIVERSESTANCE] = {
-		"Universe Stance",
+		"Evren Durusu",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Sun Stance 3, Lunar Stance 3, Star Stance 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16291,7 +16291,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777Tum Statlar +5^000000"
 	},
 	[SKID.SJ_NEWMOONKICK] = {
-		"New Moon Kick",
+		"Yeni Ay Tekmesi",
 		"Maks. Seviye: 7",
 		"^CC3399Gereksinim: Lunar Stance 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16309,7 +16309,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 7]: ^777777ATK 1400% / AoE 7x7^000000"
 	},
 	[SKID.SJ_FULLMOONKICK] = {
-		"Full Moon Kick",
+		"Dolunay Tekmesi",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: New Moon Kick 7^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16329,7 +16329,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 10]: ^777777ATK 2100% / AoE 7x7^000000"
 	},
 	[SKID.SJ_LIGHTOFMOON] = {
-		"Light of Moon",
+		"Ay Isigi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Full Moon Kick 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16343,7 +16343,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Hasar +25%, Sure: 60 saniye^000000"
 	},
 	[SKID.SJ_FLASHKICK] = {
-		"Flash Kick",
+		"Parlama Tekmesi",
 		"Maks. Seviye: 7",
 		"^CC3399Gereksinim: Star Stance 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16359,7 +16359,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 7]: ^777777ATK 100%, Star Mark Suresi 10 saniye^000000"
 	},
 	[SKID.SJ_FALLINGSTAR] = {
-		"Falling Star",
+		"Dusen Yildiz",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Flash Kick 7^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16379,7 +16379,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 10]: ^777777ATK 1100% / AoE 5x5^000000"
 	},
 	[SKID.SJ_LIGHTOFSTAR] = {
-		"Light of Star",
+		"Yildiz Isigi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Falling Star 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16393,7 +16393,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Hasar +25%, Sure: 60 saniye^000000"
 	},
 	[SKID.SJ_NOVAEXPLOSING] = {
-		"Nova Explosion",
+		"Nova Patlamasi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Universe Stance 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16408,7 +16408,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777ATK 700%, Cooldown 20 saniye^000000"
 	},
 	[SKID.SJ_GRAVITYCONTROL] = {
-		"Gravity Control",
+		"Yercekim Kontrolu",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Universe Stance 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16419,7 +16419,7 @@ Masquerade Unlucky 3^000000",
 		"Havadaki hedefe skill tekrar kullanilirsa etki iptal olur.^000000"
 	},
 	[SKID.SJ_STAREMPEROR] = {
-		"Advent of the Star Emperor",
+		"Yildiz Imparatorunun Gelisi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Universe Stance 3, Nova Explosion 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16433,7 +16433,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777ATK 1800% / AoE 7x7^000000"
 	},
 	[SKID.SJ_BOOKOFCREATINGSTAR] = {
-		"Book of Creating Star",
+		"Yildiz Yaratma Kitabi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Document of Sun Moon Star 3, Advent of the Star Emperor 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16448,7 +16448,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Sure 10 sn / AoE 5x5 / 20 Vurus^000000"
 	},
 	[SKID.SJ_BOOKOFDIMENSION] = {
-		"Book of Dimension",
+		"Boyut Kitabi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Document of Sun Moon Star 3, Advent of the Star Emperor 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16463,7 +16463,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Sure 60 sn, Cooldown 30 sn^000000"
 	},
 	[SKID.SP_SOULCOLLECT] = {
-		"Soul Collect",
+		"Ruh Toplama",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Basic Skill^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16505,7 +16505,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777MaksHP %20 tuketir, SP %20 yeniler^000000"
 	},
 	[SKID.SP_SOULUNITY] = {
-		"Soul Unity",
+		"Ruh Birligi",
 		"Maks. Seviye: 7",
 		"^CC3399Gereksinim: Soul Energy Research 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16535,7 +16535,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 3]: ^777777SP Yenileme 150^000000"
 	},
 	[SKID.SP_SOULSHADOW] = {
-		"Shadow's Soul",
+		"Golge Ruhu",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Unity 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16550,7 +16550,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Critical +20, ASPD +3, Sure 300 saniye^000000"
 	},
 	[SKID.SP_SOULFAIRY] = {
-		"Fairy's Soul",
+		"Peri Ruhu",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Unity 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16565,7 +16565,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777MATK +50, Variable Casting Time -10%, Sure 300 saniye^000000"
 	},
 	[SKID.SP_SOULFALCON] = {
-		"Falcon's Soul",
+		"Sahin Ruhu",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Revolution 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16580,7 +16580,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777ATK +50, HIT +15, Sure 300 saniye^000000"
 	},
 	[SKID.SP_SOULGOLEM] = {
-		"Golem's Soul",
+		"Golem Ruhu",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Revolution 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16595,7 +16595,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777DEF +300, MDEF +40, Sure 300 saniye^000000"
 	},
 	[SKID.SP_SOULREAPER] = {
-		"Soul Reaper",
+		"Ruh Bicici",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Collect 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16609,7 +16609,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Toplama Sansi 35%, Sure 210 saniye^000000"
 	},
 	[SKID.SP_SOULCURSE] = {
-		"Curse of Wicked Soul",
+		"Kotu Ruh Laneti",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Soul Reaper 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16623,7 +16623,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 5]: ^777777Curse Sansi 80% / AoE 7x7^000000"
 	},
 	[SKID.SP_CURSEEXPLOSION] = {
-		"Curse Explosion",
+		"Lanet Patlamasi",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Curse of Wicked Soul 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -16697,7 +16697,7 @@ Masquerade Unlucky 3^000000",
 		"[Sv 10]: ^777777MATK 3500% / AoE 9x9^000000"
 	},
 	[SKID.SP_SOULDIVISION] = {
-		"Soul Division",
+		"Ruh Bolunmesi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Esha 5, Espa 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
