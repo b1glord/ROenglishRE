@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.23.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 810 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.24.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 845 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -3251,6 +3251,146 @@
     "DR_NATURE_LOGIC": {
       "name_original": "Nature Logic",
       "name_tr": "Doga Mantigi"
+    },
+    "DR_NATURE_SHIELD": {
+      "name_original": "Nature Shield",
+      "name_tr": "Doga Kalkani"
+    },
+    "DR_WEREWOLF": {
+      "name_original": "Transformation: Werewolf",
+      "name_tr": "Donusum - Kurtadam"
+    },
+    "DR_ENRAGE_WOLF": {
+      "name_original": "Enrage Wolf",
+      "name_tr": "Ofkeli Kurt"
+    },
+    "DR_NOMERCY_CLAW": {
+      "name_original": "No Mercy Claw",
+      "name_tr": "Acimasiz Pence"
+    },
+    "DR_CRUEL_BITE": {
+      "name_original": "Cruel Bite",
+      "name_tr": "Zalim Isirik"
+    },
+    "DR_HUNGER": {
+      "name_original": "Hunger",
+      "name_tr": "Aclik"
+    },
+    "DR_BLOOD_HOWLING": {
+      "name_original": "Blood Howling",
+      "name_tr": "Kanli Uluma"
+    },
+    "DR_BEASTY_NOSE": {
+      "name_original": "Beasty Nose",
+      "name_tr": "Yirtici Burun"
+    },
+    "DR_WERERAPTOR": {
+      "name_original": "Transformation: Wereraptor",
+      "name_tr": "Donusum - Raptor"
+    },
+    "DR_ENRAGE_RAPTOR": {
+      "name_original": "Enrage Raptor",
+      "name_tr": "Ofkeli Raptor"
+    },
+    "DR_SHOOTING_FEATHER": {
+      "name_original": "Shooting Feather",
+      "name_tr": "Tuy Atisi"
+    },
+    "DR_FLICKING_TONADO": {
+      "name_original": "Flicking Tornado",
+      "name_tr": "Savrulan Hortum"
+    },
+    "DR_LOW_FLIGHT": {
+      "name_original": "Low Flight",
+      "name_tr": "Alcak Ucus"
+    },
+    "DR_PREENING": {
+      "name_original": "Preening",
+      "name_tr": "Tuy Bakimi"
+    },
+    "DR_SHARPE_EYES": {
+      "name_original": "Sharp Eyes",
+      "name_tr": "Keskin Gozler"
+    },
+    "KR_DOUBLE_SLASH": {
+      "name_original": "Double Slash",
+      "name_tr": "Cift Kesik"
+    },
+    "KR_NASTY_SLASH": {
+      "name_original": "Nasty Slash",
+      "name_tr": "Acimasiz Kesik"
+    },
+    "KR_CLAW_WAVE": {
+      "name_original": "Claw Wave",
+      "name_tr": "Pence Dalgasi"
+    },
+    "KR_CHOP_CHOP": {
+      "name_original": "Chop Chop",
+      "name_tr": "Kesip Bicme"
+    },
+    "KR_IRON_HOWLING": {
+      "name_original": "Iron Howling",
+      "name_tr": "Demir Uluma"
+    },
+    "KR_WOLF_INSTINCT": {
+      "name_original": "Wolf Instinct",
+      "name_tr": "Kurt Icgudusu"
+    },
+    "KR_SHARPEN_GUST": {
+      "name_original": "Sharpen Gust",
+      "name_tr": "Keskin Ruzgar"
+    },
+    "KR_SHARPEN_HAIL": {
+      "name_original": "Sharpen Hail",
+      "name_tr": "Keskin Dolu"
+    },
+    "KR_FEATHER_SPRINKLE": {
+      "name_original": "Feather Sprinkle",
+      "name_tr": "Tuy Sacilmasi"
+    },
+    "KR_TYPHOON_WING": {
+      "name_original": "Typhoon Wing",
+      "name_tr": "Tayfun Kanadi"
+    },
+    "KR_WIND_VEIL": {
+      "name_original": "Wind Veil",
+      "name_tr": "Ruzgar Perdesi"
+    },
+    "KR_RAPTORIAL_INSTINCT": {
+      "name_original": "Raptorial Instinct",
+      "name_tr": "Raptor Icgudusu"
+    },
+    "KR_ICE_PILLAR": {
+      "name_original": "Ice Pillar",
+      "name_tr": "Buz Sutunu"
+    },
+    "KR_ICE_SPLASH": {
+      "name_original": "Ice Splash",
+      "name_tr": "Buz Sicramasi"
+    },
+    "KR_THUNDERING_FOCUS": {
+      "name_original": "Thundering Focus",
+      "name_tr": "Gok Gurultulu Odak"
+    },
+    "KR_THUNDERING_FOCUS_S": {
+      "name_original": "Enhanced Thundering Focus",
+      "name_tr": "Gelismis Gok Gurultulu Odak"
+    },
+    "KR_THUNDERING_ORB": {
+      "name_original": "Thundering Orb",
+      "name_tr": "Gok Gurultulu Kure"
+    },
+    "KR_THUNDERING_ORB_S": {
+      "name_original": "Enhanced Thundering Orb",
+      "name_tr": "Gelismis Gok Gurultulu Kure"
+    },
+    "KR_THUNDERING_CALL": {
+      "name_original": "Thundering Call",
+      "name_tr": "Gok Gurultulu Cagri"
+    },
+    "KR_THUNDERING_CALL_S": {
+      "name_original": "Enhanced Thundering Call",
+      "name_tr": "Gelismis Gok Gurultulu Cagri"
     }
   },
   "name_profiles": {
@@ -3263,5 +3403,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 810
+  "patch_count": 845
 }
