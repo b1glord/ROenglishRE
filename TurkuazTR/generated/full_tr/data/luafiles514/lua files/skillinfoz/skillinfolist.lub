@@ -16831,7 +16831,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BO_MYSTERY_POWDER] = {
 		"BO_MYSTERY_POWDER",
-		SkillName = "Mystery Powder",
+		SkillName = "Gizemli Toz",
 		MaxLv = 5,
 		SpAmount = { 82, 82, 82, 82, 82 },
 		bSeperateLv = false,
@@ -16842,7 +16842,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BO_DUST_EXPLOSION] = {
 		"BO_DUST_EXPLOSION",
-		SkillName = "Dust Explosion",
+		SkillName = "Toz Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 64, 67, 70, 73, 76 },
 		bSeperateLv = true,
@@ -16853,7 +16853,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_CROSS_SLASH] = {
 		"SHC_CROSS_SLASH",
-		SkillName = "Cross Slash",
+		SkillName = "Capraz Kesik",
 		MaxLv = 5,
 		SpAmount = { 58, 63, 68, 73, 78 },
 		bSeperateLv = false,
@@ -16865,7 +16865,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_HIT_AND_SLIDING] = {
 		"ABC_HIT_AND_SLIDING",
-		SkillName = "Hit And Sliding",
+		SkillName = "Vur ve Kay",
 		MaxLv = 5,
 		SpAmount = { 43, 46, 49, 52, 55 },
 		bSeperateLv = false,
@@ -16876,7 +16876,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_CHASING_BREAK] = {
 		"ABC_CHASING_BREAK",
-		SkillName = "Chasing Break",
+		SkillName = "Takip Darbesi",
 		MaxLv = 5,
 		SpAmount = { 62, 66, 70, 74, 78 },
 		bSeperateLv = false,
@@ -16887,7 +16887,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_CHASING_SHOT] = {
 		"ABC_CHASING_SHOT",
-		SkillName = "Chasing Shot",
+		SkillName = "Takip Atisi",
 		MaxLv = 5,
 		SpAmount = { 85, 90, 95, 100, 105 },
 		bSeperateLv = false,
@@ -16898,7 +16898,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.TR_RHYTHMICAL_WAVE] = {
 		"TR_RHYTHMICAL_WAVE",
-		SkillName = "Rhythmical Wave",
+		SkillName = "Ritmik Dalga",
 		MaxLv = 5,
 		SpAmount = { 78, 84, 90, 96, 102 },
 		bSeperateLv = true,
@@ -16909,7 +16909,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SS_FOUR_CHARM] = {
 		"SS_FOUR_CHARM",
-		SkillName = "Four Colors Charm",
+		SkillName = "Dort Renk Tilsimi",
 		MaxLv = 1,
 		SpAmount = { 90 },
 		ApAmount = { 20 },
@@ -16922,7 +16922,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_WILD_SHOT] = {
 		"NW_WILD_SHOT",
-		SkillName = "Wild Shot",
+		SkillName = "Vahsi Atis",
 		MaxLv = 5,
 		SpAmount = { 60, 63, 66, 69, 72 },
 		bSeperateLv = false,
@@ -16935,7 +16935,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NW_MIDNIGHT_FALLEN] = {
 		"NW_MIDNIGHT_FALLEN",
-		SkillName = "Midnight Fallen",
+		SkillName = "Gece Yarisi Dususu",
 		MaxLv = 5,
 		SpAmount = { 50, 55, 60, 65, 70 },
 		bSeperateLv = false,
@@ -16948,7 +16948,7 @@ SKILL_INFO_LIST = {
 	}, 
 	[SKID.DK_DRAGONIC_PIERCE] = {
 		"DK_DRAGONIC_PIERCE",
-		SkillName = "Dragonic Pierce",
+		SkillName = "Ejderha Delisi",
 		MaxLv = 5,
 		SpAmount = { 45, 50, 55, 60, 65 },
 		bSeperateLv = true,
@@ -16959,7 +16959,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_IMPERIAL_PRESSURE] = {
 		"IG_IMPERIAL_PRESSURE",
-		SkillName = "Imperial Pressure",
+		SkillName = "Imparatorluk Baskisi",
 		MaxLv = 5,
 		SpAmount = { 89, 93, 97, 101, 105 },
 		bSeperateLv = true,
@@ -16971,7 +16971,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_ABYSS_FLAME] = {
 		"ABC_ABYSS_FLAME",
-		SkillName = "Abyss Flame",
+		SkillName = "Ucurum Alevi",
 		MaxLv = 5,
 		SpAmount = { 82, 86, 90, 94, 98 },
 		bSeperateLv = true,
@@ -16983,7 +16983,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ABC_ABYSS_FLAME_ATK] = {
 		"ABC_ABYSS_FLAME_ATK",
-		SkillName = "Abyss Flame",
+		SkillName = "Ucurum Alevi",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -16991,7 +16991,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_ENERGY_CONVERSION] = {
 		"AG_ENERGY_CONVERSION",
-		SkillName = "Energy Conversion",
+		SkillName = "Enerji Donusumu",
 		MaxLv = 5,
 		SpAmount = { 10, 10, 10, 10, 10 },
 		ApAmount = { 13, 11, 9, 7, 5 },
@@ -17004,7 +17004,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_PSYCHIC_STREAM] = {
 		"EM_PSYCHIC_STREAM",
-		SkillName = "Psychic Stream",
+		SkillName = "Psisik Akis",
 		MaxLv = 5,
 		SpAmount = { 77, 84, 91, 98, 105 },
 		ApAmount = { 5, 5, 5, 5, 5 },
@@ -17033,7 +17033,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_BLAZING_FLAME_BLAST] = {
 		"IQ_BLAZING_FLAME_BLAST",
-		SkillName = "Blazing Flame Blast",
+		SkillName = "Alevli Yangin Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
@@ -17044,7 +17044,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WH_WILD_WALK] = {
 		"WH_WILD_WALK",
-		SkillName = "Wild Walk",
+		SkillName = "Vahsi Yuruyus",
 		MaxLv = 5,
 		SpAmount = { 63, 66, 69, 72, 75 },
 		ApAmount = { 5, 5, 5, 5, 5 },
@@ -17057,7 +17057,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SKE_SKY_SUN] = {
 		"SKE_SKY_SUN",
-		SkillName = "Sky Sun",
+		SkillName = "Gok Gunesi",
 		MaxLv = 5,
 		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
@@ -17070,7 +17070,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SKE_SKY_MOON] = {
 		"SKE_SKY_MOON",
-		SkillName = "Sky Moon",
+		SkillName = "Gok Ayi",
 		MaxLv = 5,
 		SpAmount = { 56, 59, 62, 65, 68 },
 		bSeperateLv = true,
@@ -17083,7 +17083,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SKE_STAR_LIGHT_KICK] = {
 		"SKE_STAR_LIGHT_KICK",
-		SkillName = "Star Light Kick",
+		SkillName = "Yildiz Isigi Tekmesi",
 		MaxLv = 5,
 		SpAmount = { 52, 57, 62, 67, 72 },
 		bSeperateLv = true,
@@ -17096,7 +17096,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HN_OVERCOMING_CRISIS] = {
 		"HN_OVERCOMING_CRISIS",
-		SkillName = "Overcoming Crisis",
+		SkillName = "Krizi Asma",
 		MaxLv = 5,
 		SpAmount = { 70, 73, 76, 79, 82 },
 		ApAmount = { 50, 50, 50, 50, 50 },
@@ -17109,7 +17109,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_CHUL_HO_BATTERING] = {
 		"SH_CHUL_HO_BATTERING",
-		SkillName = "Chulho Battering",
+		SkillName = "Chulho Ezisi",
 		MaxLv = 7,
 		SpAmount = { 64, 66, 68, 70, 72, 74, 76 },
 		bSeperateLv = true,
@@ -17121,7 +17121,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SH_HYUN_ROK_SPIRIT_POWER] = {
 		"SH_HYUN_ROK_SPIRIT_POWER",
-		SkillName = "Hyunrok Spirit Power",
+		SkillName = "Hyunrok Ruh Gucu",
 		MaxLv = 7,
 		SpAmount = { 70, 73, 76, 79, 82, 85, 88 },
 		bSeperateLv = true,
@@ -17133,7 +17133,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_TRUTH_OF_WIND] = {
 		"DR_TRUTH_OF_WIND",
-		SkillName = "Truth of Wind",
+		SkillName = "Ruzgar Gercegi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -17144,7 +17144,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_TRUTH_OF_ICE] = {
 		"DR_TRUTH_OF_ICE",
-		SkillName = "Truth of Ice",
+		SkillName = "Buz Gercegi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -17155,7 +17155,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_TRUTH_OF_EARTH] = {
 		"DR_TRUTH_OF_EARTH",
-		SkillName = "Truth of Earth",
+		SkillName = "Toprak Gercegi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -17166,7 +17166,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_ICE_TOTEM] = {
 		"DR_ICE_TOTEM",
-		SkillName = "Ice Totem",
+		SkillName = "Buz Totemi",
 		MaxLv = 10,
 		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
@@ -17175,7 +17175,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_ICE_CLOUD] = {
 		"DR_ICE_CLOUD",
-		SkillName = "Ice Cloud",
+		SkillName = "Buz Bulutu",
 		MaxLv = 10,
 		SpAmount = { 32, 34, 36, 38, 40, 42, 44, 46, 48, 50 },
 		bSeperateLv = true,
@@ -17186,7 +17186,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_CUTTING_WIND] = {
 		"DR_CUTTING_WIND",
-		SkillName = "Cutting Wind",
+		SkillName = "Kesici Ruzgar",
 		MaxLv = 10,
 		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
@@ -17195,7 +17195,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_WIND_BOMB] = {
 		"DR_WIND_BOMB",
-		SkillName = "Wind Bomb",
+		SkillName = "Ruzgar Bombasi",
 		MaxLv = 10,
 		SpAmount = { 32, 34, 36, 38, 40, 42, 44, 46, 48, 50 },
 		bSeperateLv = true,
@@ -17206,7 +17206,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_EARTH_FLOWER] = {
 		"DR_EARTH_FLOWER",
-		SkillName = "Earth Flower",
+		SkillName = "Toprak Cicegi",
 		MaxLv = 10,
 		SpAmount = { 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 },
 		bSeperateLv = true,
@@ -17215,7 +17215,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_AROUND_FLOWER] = {
 		"DR_AROUND_FLOWER",
-		SkillName = "Around Flower",
+		SkillName = "Cevre Cicegi",
 		MaxLv = 10,
 		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
 		bSeperateLv = true,
@@ -17226,7 +17226,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DR_NATURE_LOGIC] = {
 		"DR_NATURE_LOGIC",
-		SkillName = "Nature Logic",
+		SkillName = "Doga Mantigi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
