@@ -2,8 +2,8 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/build-line-overlay-profile.py
 # PURPOSE: Exact-source satir overlay kullanan localization bilesenlerini ortak profile gore uretir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.1.0
-# DESCRIPTION: line-overlays registry, localization profiles ve component patch dosyalarini multi-encoding exact-source kontroluyle byte-safe uygular.
+# VERSION: 1.2.0
+# DESCRIPTION: line-overlays registry, localization profiles ve component patch dosyalarini kaynak satirin eslesen encodingini koruyan multi-encoding exact-source kontroluyle byte-safe uygular.
 # DEPENDENCY-LAYER: Tool
 
 from __future__ import annotations
@@ -100,24 +100,24 @@ def main() -> int:
 
             body, eol = split_content_and_eol(source_lines[index])
             expected = patch.get("source_en", "")
-            source_matches = False
+            matched_encoding = None
             for source_encoding in ("utf-8", "cp949", "euc-kr", "cp1252", "latin-1"):
                 try:
                     if expected.encode(source_encoding) == body:
-                        source_matches = True
+                        matched_encoding = source_encoding
                         break
                 except UnicodeEncodeError:
                     continue
-            if not source_matches:
+            if matched_encoding is None:
                 stale.append(f"{line_no}:source-degisti")
                 continue
 
             translated = patch.get("translation_tr", "")
             try:
-                translated_bytes = translated.encode("ascii")
+                translated_bytes = translated.encode(matched_encoding)
             except UnicodeEncodeError as exc:
                 raise SystemExit(
-                    f"{args.component}:{line_no}: Turkce patch ASCII degil"
+                    f"{args.component}:{line_no}: ceviri {matched_encoding} ile kodlanamiyor"
                 ) from exc
 
             output_lines[index] = translated_bytes + eol
