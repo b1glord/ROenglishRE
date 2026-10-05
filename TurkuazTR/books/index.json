@@ -1,0 +1,168 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/books/index.json",
+    "purpose": "Renewal data/book dosyalarinin Turkce localization kapsam ve ilerleme durumunu takip eder",
+    "module": "Translation Tracking - JSON",
+    "version": "1.0.0",
+    "description": "Eski Kore sunucu bagisci listelerini ceviri kapsamindan ayirir; gercek lore/rehber kitaplarini source-SHA kilitli whole-file overlay olarak takip eder",
+    "dependency_layer": "Tool"
+  },
+  "source_root": "Translation/Renewal/data/book",
+  "total_source_files": 70,
+  "translation_target_count": 46,
+  "translated_count": 5,
+  "pending_count": 41,
+  "ignored_count": 24,
+  "translated_files": [
+    "11018.txt",
+    "11019.txt",
+    "7755.txt",
+    "7129.txt",
+    "7131.txt"
+  ],
+  "pending_files": [
+    "11000.txt",
+    "11001.txt",
+    "11002.txt",
+    "11003.txt",
+    "11004.txt",
+    "11005.txt",
+    "11006.txt",
+    "11007.txt",
+    "11008.txt",
+    "11009.txt",
+    "11010.txt",
+    "11011.txt",
+    "11017.txt",
+    "11022.txt",
+    "11023.txt",
+    "11024.txt",
+    "11056.txt",
+    "11057.txt",
+    "11058.txt",
+    "11059.txt",
+    "11060.txt",
+    "11061.txt",
+    "11064.txt",
+    "7127.txt",
+    "7128.txt",
+    "7130.txt",
+    "7132.txt",
+    "7133.txt",
+    "7144.txt",
+    "7434.txt",
+    "7472.txt",
+    "7473.txt",
+    "7474.txt",
+    "7475.txt",
+    "7476.txt",
+    "7477.txt",
+    "7478.txt",
+    "7479.txt",
+    "7480.txt",
+    "7481.txt",
+    "prontera bible01.txt"
+  ],
+  "ignored_files": [
+    {
+      "file": "1000897.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000898.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000899.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000900.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000901.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000902.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000903.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000904.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000905.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000906.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000907.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000908.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000909.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000910.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000911.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000912.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000913.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000914.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000915.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000916.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000917.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000918.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000919.txt",
+      "reason": "legacy Korean server donor/player list"
+    },
+    {
+      "file": "1000920.txt",
+      "reason": "legacy Korean server donor/player list"
+    }
+  ],
+  "notes": [
+    "11064.txt Korean kaynakli gercek oyun ici rehberdir ve ceviri hedefidir.",
+    "prontera bible01.txt 11000.txt ile ayni Rune-Midgarts lore metnini farkli satir duzeniyle tekrarlar; ceviri yeniden kullanilabilir."
+  ]
+}
