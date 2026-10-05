@@ -1,0 +1,49 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/recommended_quests_basic.tr.json",
+    "purpose": "Criatura Academy temel onerilen gorev ekranini Turkcelestirir",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest kaynagindaki 8 kullanici gorunur satiri ASCII Turkce ile esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/RecommendedQuests_basic.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "c431f82144c3c6442fddc47a3081f1f2c4f57521",
+  "source_line_count": 31,
+  "patch_count": 8,
+  "patches": {
+    "10": {
+      "source_en": "\t\tTitle = \"Welcome to Ragnarok Online!\",",
+      "translation_tr": "\t\tTitle = \"Ragnarok Online'a Hos Geldiniz!\","
+    },
+    "12": {
+      "source_en": "\t\tSummary = \"We provide help for Novice adventurer.\",",
+      "translation_tr": "\t\tSummary = \"Acemi maceracilara yardim sagliyoruz.\","
+    },
+    "19": {
+      "source_en": "\t\t\t\"Welcome!\",",
+      "translation_tr": "\t\t\t\"Hos geldiniz!\","
+    },
+    "20": {
+      "source_en": "\t\t\t\"The Criatura academy offers a variety of information for Novice. If you haven't visited The Criatura academy, please visit us to get useful informations and items.\"",
+      "translation_tr": "\t\t\t\"Criatura Akademisi Acemiler icin cesitli bilgiler sunar. Henuz Criatura Akademisini ziyaret etmediyseniz yararli bilgiler ve esyalar icin bizi ziyaret edin.\""
+    },
+    "23": {
+      "source_en": "\t\t\t\"$$Novice$$ welcome!!\",",
+      "translation_tr": "\t\t\t\"$$Acemi$$ hos geldin!!\","
+    },
+    "24": {
+      "source_en": "\t\t\t\"Beginner%%Support%%Bread!!Bread!!\",",
+      "translation_tr": "\t\t\t\"Baslangic%%Destegi%%Ekmek!!Ekmek!!\","
+    },
+    "25": {
+      "source_en": "\t\t\t\"&*Free*& consult OK!!\"",
+      "translation_tr": "\t\t\t\"&*Ucretsiz*& danisma mevcut!!\""
+    },
+    "28": {
+      "source_en": "\t\t\t\"^ff0000This page is intended for update, not quest. Please note that completing quests will not remove them.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev icin degil, guncelleme amaciyla kullanilir. Gorevleri tamamlamak bu kayitlari kaldirmaz.^000000\""
+    }
+  }
+}
