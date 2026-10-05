@@ -1,0 +1,15 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/guild_tip.tr.json",
+    "purpose": "guild_tip icin upstream source blobuna kilitli ASCII Turkce whole-file overlay",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "Satir veya blok yapisi upstream ile birebir olmadigi icin source blob SHA dogrulanarak tum Turkce dosya uretilir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/GuildTip.txt",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "22b021729727e9916fd7c4a89ea6b3f3e6098a63",
+  "translation_source_blob_sha": "65356c81c6c341e2c95f4a8606db64d9da0ef631",
+  "translation_tr": "[ Lonca Kurulumu ]\n 1. Lonca kurmak icin bir \"Emperium\" gerekir.\n 2. Bir Emperium elde ettiyseniz\n /guild \"lonca adi\" komutunu yazarak veya\n \"Create Guild\" dugmesine basarak\n bir lonca olusturabilirsiniz.\n 3. Lonca penceresini acmak icin\n Alt+G tuslarini kullanin.\n#\n[ Lonca Bilgileri ]\n 1. Bu pencerede su bilgileri gorebilirsiniz:\n Lonca Adi, EXP, Lonca Seviyesi, Lonca Amblemi,\n Lider Adi, Uye Sayisi,\n Ortalama Uye Seviyesi, Muttefikler ve Dusman Loncalar.\n\n 2. Uye Bilgileri:\n Lonca uyelerinin bilgilerini goruntulemenizi saglar.\n Yetkiniz varsa bir uyeyi loncadan cikarabilir\n veya sag tiklayarak loncadan ayrilabilirsiniz.\n\n 3. Pozisyon Ayarlari:\n Uyelerin rutbesini ve loncaya aktaracagi\n lonca deneyimi oranini ayarlayabilirsiniz.\n Katki orani en fazla %50 olabilir.\n Loncaya aktarilan deneyim bilgisi,\n loncadan ayrilinca sifirlanir.\n\n 4. Lonca Becerileri:\n Lonca seviye atladiginda lonca lideri,\n kullanilabilir becerilere puan yatirarak\n lonca becerilerini gelistirebilir.\n\n 5. Uzaklastirilanlar Listesi:\n Loncadan cikarilan uyeleri ve\n cikarilma nedenlerini gosterir.\n\n 6. Duyurular:\n Lonca lideri sohbet penceresi uzerinden\n uyelere cesitli duyurular gonderebilir.\n#\n[ Lonca Amblemleri ]\n 1. 24x24 piksel boyutunda,\n 256 renkli bitmap (BMP) bir amblem olusturun.\n\n 2. Ragnarok'un kurulu oldugu klasorde\n \"Emblem\" adinda bir klasor olusturun ve\n amblem dosyasini buraya kopyalayin.\n\n 3. Lonca Bilgileri penceresinde\n amblemin gorundugu bolumdeki\n \"Edit\" dugmesine basarak amblemi uygulayabilirsiniz.\n\n 4. Amblemi yalnizca Lonca Lideri degistirebilir\n ve istedigi zaman yeni bir amblem uygulayabilir.\n#"
+}
