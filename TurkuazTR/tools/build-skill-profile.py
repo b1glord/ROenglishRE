@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # PATH: /ROenglishRE/TurkuazTR/tools/build-skill-profile.py
-# PURPOSE: Hybrid ve Full TR skill paketlerini ortak patch kaynaklarindan uretir.
+# PURPOSE: English, Hybrid, Full TR ve Bilingual skill paketlerini ortak patch kaynaklarindan uretir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.0.0
-# DESCRIPTION: SkillName ve skill description patchlerini uygular; kaynak description encodingini korur.
+# VERSION: 1.1.0
+# DESCRIPTION: SkillName ve skill description profil secimlerini config tabanli uygular; kaynak description encodingini korur.
 # DEPENDENCY-LAYER: Tool
 
 from __future__ import annotations
@@ -46,18 +46,29 @@ def lua_quote(value: str) -> str:
     return f'"{value}"'
 
 
-def choose_name(name_patch: dict, key: str, profile: str) -> str | None:
+def choose_name(name_patch: dict, key: str, name_mode: str) -> str | None:
     row = name_patch.get("patches", {}).get(key)
     if not row:
         return None
-    if profile == "hybrid":
-        return row.get("name_original")
-    return row.get("name_tr")
+
+    original = row.get("name_original")
+    translated = row.get("name_tr")
+
+    if name_mode == "original":
+        return original
+    if name_mode == "tr":
+        return translated
+    if name_mode == "bilingual":
+        if translated and original and translated != original:
+            return f"{translated} ({original})"
+        return translated or original
+
+    raise ValueError(f"Bilinmeyen skill_name modu: {name_mode}")
 
 
-def apply_skill_names(text: str, name_patch: dict, profile: str) -> str:
+def apply_skill_names(text: str, name_patch: dict, name_mode: str) -> str:
     def repl(match: re.Match[str]) -> str:
-        selected = choose_name(name_patch, match.group(2), profile)
+        selected = choose_name(name_patch, match.group(2), name_mode)
         if not selected:
             return match.group(0)
         return f"{match.group(1)}{selected}{match.group(4)}"
@@ -85,8 +96,14 @@ def apply_skill_descriptions(
     text: str,
     name_patch: dict,
     desc_patch: dict,
-    profile: str,
+    name_mode: str,
+    description_mode: str,
 ) -> tuple[str, list[str]]:
+    if description_mode == "original":
+        return text, []
+    if description_mode != "tr":
+        raise ValueError(f"Bilinmeyen skill_description modu: {description_mode}")
+
     patches = desc_patch.get("patches", {})
     blocks = split_blocks(text)
     block_map = {key: (start, end) for start, end, key in blocks}
@@ -98,7 +115,7 @@ def apply_skill_descriptions(
             continue
         start, end = block_map[key]
         selected_name = (
-            choose_name(name_patch, key, profile)
+            choose_name(name_patch, key, name_mode)
             or patch.get("name_original")
             or key
         )
@@ -112,14 +129,17 @@ def apply_skill_descriptions(
 
 
 def main() -> int:
+    profiles = load_json(PROFILE_FILE)
+    profile_rows = profiles.get("profiles", {})
+
     parser = argparse.ArgumentParser()
-    parser.add_argument("--profile", choices=("hybrid", "full_tr"), required=True)
+    parser.add_argument("--profile", choices=tuple(profile_rows), required=True)
     parser.add_argument("--output-root", type=Path)
     args = parser.parse_args()
 
-    profiles = load_json(PROFILE_FILE)
-    if args.profile not in profiles.get("profiles", {}):
-        raise SystemExit(f"Bilinmeyen profil: {args.profile}")
+    profile = profile_rows[args.profile]
+    name_mode = profile.get("skill_name", "original")
+    description_mode = profile.get("skill_description", "original")
 
     name_patch = load_json(NAME_PATCH)
     desc_patch = load_json(DESC_PATCH)
@@ -127,12 +147,13 @@ def main() -> int:
     info_text = INFO_SOURCE.read_text(encoding="utf-8")
     desc_text, desc_encoding = read_text_with_encoding(DESC_SOURCE)
 
-    generated_info = apply_skill_names(info_text, name_patch, args.profile)
+    generated_info = apply_skill_names(info_text, name_patch, name_mode)
     generated_desc, missing = apply_skill_descriptions(
         desc_text,
         name_patch,
         desc_patch,
-        args.profile,
+        name_mode,
+        description_mode,
     )
 
     output_root = args.output_root or (REPO_ROOT / "TurkuazTR/generated" / args.profile)
@@ -150,6 +171,8 @@ def main() -> int:
 
     report = {
         "profile": args.profile,
+        "skill_name_mode": name_mode,
+        "skill_description_mode": description_mode,
         "source_description_encoding": desc_encoding,
         "name_patch_count": len(name_patch.get("patches", {})),
         "description_patch_count": len(desc_patch.get("patches", {})),
