@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.25.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 880 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.26.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 883 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -3531,6 +3531,18 @@
     "AT_QUILL_SPEAR": {
       "name_original": "Quill Spear",
       "name_tr": "Tuy Mizragi"
+    },
+    "AT_QUILL_SPEAR_S": {
+      "name_original": "Quill Spear",
+      "name_tr": "Tuy Mizragi"
+    },
+    "AT_TEMPEST_FLAP": {
+      "name_original": "Tempest Flap",
+      "name_tr": "Firtina Cirpisi"
+    },
+    "AT_AERO_SYNC": {
+      "name_original": "Aero Sync",
+      "name_tr": "Hava Uyumu"
     }
   },
   "name_profiles": {
@@ -3543,5 +3555,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 880
+  "patch_count": 883
 }
