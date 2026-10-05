@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Turkce skill pending raporunu yeniler ve Hybrid/Full TR builderlarini dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.1.0
+# VERSION: 1.2.0
 # DESCRIPTION: Pending raporunu yeniler; Hybrid ve Full TR generated skill paketlerini uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
@@ -35,6 +35,9 @@ jobs:
           ref: translation/tr
           fetch-depth: 0
 
+      - name: Generate skill name pending report
+        run: python TurkuazTR/tools/extract-skillinfolist-pending.py
+
       - name: Generate description pending report
         run: python TurkuazTR/tools/extract-skilldescript-pending.py
 
@@ -49,6 +52,7 @@ jobs:
         run: |
           git config user.name "Turkuaz Translation Bot"
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
+          git add TurkuazTR/skillinfolist.pending.json
           git add TurkuazTR/skilldescript.pending.json
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
