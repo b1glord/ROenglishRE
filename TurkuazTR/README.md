@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.5.0
+Version: 1.6.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -51,7 +51,7 @@ Skill adlari kaynakta iki alanla birlikte tutulur:
 - `name_original`: upstream/orijinal Ingilizce ad.
 - `name_tr`: ASCII Turkce ad.
 
-`TurkuazTR/skill-profiles.json` dort ayri cikis tanimlar:
+`TurkuazTR/localization-profiles.json` dort ayri cikis tanimlar:
 
 - `english`: Ingilizce skill adi + orijinal Ingilizce aciklama.
 - `hybrid`: Ingilizce skill adi + Turkce aciklama.
@@ -80,7 +80,16 @@ Su anda ortak line-overlay modeline tasinan bilesenler:
 - `town_info`: 2 exact Turkce satir.
 - `sign_data`: 53 exact Turkce satir.
 - `navi_data`: 1327 exact Turkce satir.
+- `ba_frostjoke`: 100 exact ASCII Turkce satir.
+- `dc_scream`: 105 exact ASCII Turkce satir.
 
-`line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder. Satir yapisi upstream ile birebir olmayan `tipoftheday`, `GuildTip`, `ba_frostjoke` ve `dc_scream` bu modele zorlanmaz; bunlar icin record-aware donusum gerekir.
+`line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder.
+
+Satir yapisi upstream ile birebir olmayan dosyalar `file-overlays.json` registry'si ile source blob SHA kilitli whole-file overlay olarak yonetilir:
+
+- `tipoftheday`: ASCII Turkce whole-file overlay.
+- `guild_tip`: ASCII Turkce whole-file overlay.
+
+Upstream source blob degisirse whole-file build fail olur ve ceviri yeni upstream ile tekrar gozden gecirilmeden sessizce uygulanmaz.
 
 English profili upstream kaynagini degistirmeden kullanir. Hybrid, Full TR ve Bilingual profilleri line-overlay bilesenlerinde Turkce patch uygular. Bilingual farki su anda skill adlarinda `Turkce (English)` bicimindedir; uzun UI metinlerinde gereksiz cift dil gosterimi yapilmaz.
