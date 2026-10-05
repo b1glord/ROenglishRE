@@ -15330,7 +15330,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SUMMON_ELEMENTAL_PROCELLA] = {
 		"EM_SUMMON_ELEMENTAL_PROCELLA",
-		SkillName = "Summon Elemental Procella",
+		SkillName = "Element Procella Cagir",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = true,
@@ -15343,7 +15343,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SUMMON_ELEMENTAL_TERREMOTUS] = {
 		"EM_SUMMON_ELEMENTAL_TERREMOTUS",
-		SkillName = "Summon Elemental Terremotus",
+		SkillName = "Element Terremotus Cagir",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = true,
@@ -15356,7 +15356,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_SUMMON_ELEMENTAL_SERPENS] = {
 		"EM_SUMMON_ELEMENTAL_SERPENS",
-		SkillName = "Summon Elemental Serpens",
+		SkillName = "Element Serpens Cagir",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = true,
@@ -15372,7 +15372,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_ELEMENTAL_BUSTER] = {
 		"EM_ELEMENTAL_BUSTER",
-		SkillName = "Elemental Buster",
+		SkillName = "Element Patlamasi",
 		MaxLv = 10,
 		SpAmount = { 140, 140, 140, 140, 140, 140, 140, 140, 140, 140 },
 		ApAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
@@ -15389,7 +15389,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_ELEMENTAL_VEIL] = {
 		"EM_ELEMENTAL_VEIL",
-		SkillName = "Elemental Veil",
+		SkillName = "Element Perdesi",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -15400,7 +15400,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_FLAMETECHNIC] = {
 		"EM_EL_FLAMETECHNIC",
-		SkillName = "Flametechnic",
+		SkillName = "Alev Teknigi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15408,7 +15408,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_FLAMEARMOR] = {
 		"EM_EL_FLAMEARMOR",
-		SkillName = "Flame Armor",
+		SkillName = "Alev Zirhi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15416,7 +15416,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_FLAMEROCK] = {
 		"EM_EL_FLAMEROCK",
-		SkillName = "Flame Rock",
+		SkillName = "Alev Kayasi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15424,7 +15424,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_COLD_FORCE] = {
 		"EM_EL_COLD_FORCE",
-		SkillName = "Cold Force",
+		SkillName = "Soguk Guc",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15432,7 +15432,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_CRYSTAL_ARMOR] = {
 		"EM_EL_CRYSTAL_ARMOR",
-		SkillName = "Crystal Armor",
+		SkillName = "Kristal Zirh",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15440,7 +15440,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_AGE_OF_ICE] = {
 		"EM_EL_AGE_OF_ICE",
-		SkillName = "Age of Ice",
+		SkillName = "Buz Cagi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15448,7 +15448,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_GRACE_BREEZE] = {
 		"EM_EL_GRACE_BREEZE",
-		SkillName = "Grace Breeze",
+		SkillName = "Zarif Esinti",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15456,7 +15456,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_EYES_OF_STORM] = {
 		"EM_EL_EYES_OF_STORM",
-		SkillName = "Eyes of Storm",
+		SkillName = "Firtinanin Gozleri",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15464,7 +15464,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_STORM_WIND] = {
 		"EM_EL_STORM_WIND",
-		SkillName = "Storm Wind",
+		SkillName = "Firtina Ruzgari",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15472,7 +15472,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_EARTH_CARE] = {
 		"EM_EL_EARTH_CARE",
-		SkillName = "Earth Care",
+		SkillName = "Toprak Himayesi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15480,7 +15480,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_STRONG_PROTECTION] = {
 		"EM_EL_STRONG_PROTECTION",
-		SkillName = "Strong Protection",
+		SkillName = "Guclu Koruma",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15488,7 +15488,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_AVALANCHE] = {
 		"EM_EL_AVALANCHE",
-		SkillName = "Avalanche",
+		SkillName = "Cig",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15496,7 +15496,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_DEEP_POISONING] = {
 		"EM_EL_DEEP_POISONING",
-		SkillName = "Deep Poisoning",
+		SkillName = "Derin Zehirlenme",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15504,7 +15504,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_POISON_SHIELD] = {
 		"EM_EL_POISON_SHIELD",
-		SkillName = "Poison Shield",
+		SkillName = "Zehir Kalkani",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15512,7 +15512,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.EM_EL_DEADLY_POISON] = {
 		"EM_EL_DEADLY_POISON",
-		SkillName = "Deadly Poison",
+		SkillName = "Olumcul Zehir",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -15520,7 +15520,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_AP_HEAL] = {
 		"GM_AP_HEAL",
-		SkillName = "Activity",
+		SkillName = "Etkinlik",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -15528,7 +15528,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DEADLYCURSE2] = {
 		"NPC_DEADLYCURSE2",
-		SkillName = "¿ÍÀÌµå µ¥µé¸® Ä¿½º",
+		SkillName = "Olumcul Lanet",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = true,
@@ -15543,7 +15543,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_BLAST_FORGE] = {
 		"MH_BLAST_FORGE",
-		SkillName = "Blast Forge",
+		SkillName = "Patlama Ocagi",
 		MaxLv = 10,
 		SpAmount = { 52, 59, 66, 73, 80, 87, 94, 101, 108, 115 },
 		bSeperateLv = true,
@@ -15551,7 +15551,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_TEMPERING] = {
 		"MH_TEMPERING",
-		SkillName = "Tempering",
+		SkillName = "Tavlama",
 		MaxLv = 10,
 		SpAmount = { 83, 91, 99, 107, 115, 123, 131, 139, 147, 155 },
 		bSeperateLv = true,
@@ -15559,7 +15559,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_CLASSY_FLUTTER] = {
 		"MH_CLASSY_FLUTTER",
-		SkillName = "Classy Flutter",
+		SkillName = "Zarif Cirpinis",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15568,7 +15568,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_TWISTER_CUTTER] = {
 		"MH_TWISTER_CUTTER",
-		SkillName = "Twister Cutter",
+		SkillName = "Hortum Kesici",
 		MaxLv = 10,
 		SpAmount = { 106, 112, 118, 124, 130, 136, 142, 148, 154, 160 },
 		bSeperateLv = true,
@@ -15576,7 +15576,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_ABSOLUTE_ZEPHYR] = {
 		"MH_ABSOLUTE_ZEPHYR",
-		SkillName = "Absolute Zephyr",
+		SkillName = "Mutlak Meltem",
 		MaxLv = 10,
 		SpAmount = { 122, 129, 136, 143, 150, 157, 164, 171, 178, 185 },
 		bSeperateLv = true,
@@ -15584,7 +15584,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_BRUSHUP_CLAW] = {
 		"MH_BRUSHUP_CLAW",
-		SkillName = "Brushup Claw",
+		SkillName = "Keskinlestirilmis Pence",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15593,7 +15593,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_BLAZING_AND_FURIOUS] = {
 		"MH_BLAZING_AND_FURIOUS",
-		SkillName = "Blazing And Furious",
+		SkillName = "Alevli ve Ofkeli",
 		MaxLv = 10,
 		SpAmount = { 103, 108, 113, 118, 123, 128, 133, 138, 143, 148 },
 		bSeperateLv = true,
@@ -15601,7 +15601,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_THE_ONE_FIGHTER_RISES] = {
 		"MH_THE_ONE_FIGHTER_RISES",
-		SkillName = "The One Fighter Rises",
+		SkillName = "Tek Savasci Yukselir",
 		MaxLv = 10,
 		SpAmount = { 100, 106, 112, 118, 124, 130, 136, 142, 148, 154 },
 		bSeperateLv = true,
@@ -15609,7 +15609,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_POLISHING_NEEDLE] = {
 		"MH_POLISHING_NEEDLE",
-		SkillName = "Polishing Needle",
+		SkillName = "Parlatma Ignesi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -15618,7 +15618,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_TOXIN_OF_MANDARA] = {
 		"MH_TOXIN_OF_MANDARA",
-		SkillName = "Toxin Of Mandara",
+		SkillName = "Mandara Toksini",
 		MaxLv = 10,
 		SpAmount = { 60, 65, 70, 75, 80, 85, 90, 95, 100, 105 },
 		bSeperateLv = true,
@@ -15626,7 +15626,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MH_NEEDLE_STINGER] = {
 		"MH_NEEDLE_STINGER",
-		SkillName = "Needle Stinger",
+		SkillName = "Igne Sokusu",
 		MaxLv = 10,
 		SpAmount = { 74, 82, 90, 98, 106, 114, 122, 130, 138, 146 },
 		bSeperateLv = true,
