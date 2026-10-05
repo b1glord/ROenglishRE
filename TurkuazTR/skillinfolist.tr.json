@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.6.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 215 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.7.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 250 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -871,6 +871,146 @@
     "HW_MAGICCRASHER": {
       "name_original": "Magic Crasher",
       "name_tr": "Buyu Kirici"
+    },
+    "GC_DARKILLUSION": {
+      "name_original": "Dark Illusion",
+      "name_tr": "Karanlik Yanilsama"
+    },
+    "HW_MAGICPOWER": {
+      "name_original": "Mystical Amplification",
+      "name_tr": "Buyusel Guclendirme"
+    },
+    "RK_ABUNDANCE": {
+      "name_original": "Abundance",
+      "name_tr": "Bolluk"
+    },
+    "PA_PRESSURE": {
+      "name_original": "Pressure",
+      "name_tr": "Baski"
+    },
+    "AL_DEMONBANE": {
+      "name_original": "Demon Bane",
+      "name_tr": "Iblis Avcisi"
+    },
+    "PA_SACRIFICE": {
+      "name_original": "Sacrifice",
+      "name_tr": "Fedakarlik"
+    },
+    "RK_STONEHARDSKIN": {
+      "name_original": "Stone Hardskin",
+      "name_tr": "Tas Deri"
+    },
+    "PA_GOSPEL": {
+      "name_original": "Gospel",
+      "name_tr": "Kutsal Ilahi"
+    },
+    "RK_GIANTGROWTH": {
+      "name_original": "Giant Growth",
+      "name_tr": "Devasa Buyume"
+    },
+    "CH_PALMSTRIKE": {
+      "name_original": "Palm Strike",
+      "name_tr": "Avuc Darbesi"
+    },
+    "RK_MILLENNIUMSHIELD": {
+      "name_original": "Millennium Shield",
+      "name_tr": "Milenyum Kalkani"
+    },
+    "CH_TIGERFIST": {
+      "name_original": "Tiger Fist",
+      "name_tr": "Kaplan Yumrugu"
+    },
+    "RK_DRAGONTRAINING": {
+      "name_original": "Dragon Training",
+      "name_tr": "Ejderha Egitimi"
+    },
+    "CH_CHAINCRUSH": {
+      "name_original": "Chain Crush Combo",
+      "name_tr": "Zincir Ezme Kombosu"
+    },
+    "RK_DEATHBOUND": {
+      "name_original": "Death Bound",
+      "name_tr": "Olum Bagi"
+    },
+    "PF_HPCONVERSION": {
+      "name_original": "Indulge",
+      "name_tr": "HP Donusumu"
+    },
+    "HVAN_INSTRUCT": {
+      "name_original": "Change Instruction",
+      "name_tr": "Talimat Degistirme"
+    },
+    "PF_SOULCHANGE": {
+      "name_original": "Soul Change",
+      "name_tr": "Ruh Degisimi"
+    },
+    "MH_STAHL_HORN": {
+      "name_original": "Stahl Horn",
+      "name_tr": "Celik Boynuz"
+    },
+    "PF_SOULBURN": {
+      "name_original": "Soul Burn",
+      "name_tr": "Ruh Yakma"
+    },
+    "NPC_MAGICMIRROR": {
+      "name_original": "Magic Mirror",
+      "name_tr": "Buyu Aynasi"
+    },
+    "ASC_KATAR": {
+      "name_original": "Advanced Katar Mastery",
+      "name_tr": "Ileri Katar Ustaligi"
+    },
+    "DA_DREAM": {
+      "name_original": "Black Dream of Gemstone",
+      "name_tr": "Mucevherin Kara Ruyasi"
+    },
+    "DA_SPACE": {
+      "name_original": "Dark Twilight",
+      "name_tr": "Karanlik Alacakaranlik"
+    },
+    "GD_EMERGENCYCALL": {
+      "name_original": "Emergency Call",
+      "name_tr": "Acil Cagri"
+    },
+    "ASC_EDP": {
+      "name_original": "Enchant Deadly Poison",
+      "name_tr": "Olumcul Zehir Buyusu"
+    },
+    "DE_NIGHTMARE": {
+      "name_original": "Death Nightmare",
+      "name_tr": "Olum Kabusu"
+    },
+    "ASC_BREAKER": {
+      "name_original": "Soul Destroyer",
+      "name_tr": "Ruh Yok Edici"
+    },
+    "SL_GUNNER": {
+      "name_original": "Gunslinger Spirit",
+      "name_tr": "Silahsor Ruhu"
+    },
+    "SN_SIGHT": {
+      "name_original": "True Sight",
+      "name_tr": "Gercek Gorus"
+    },
+    "MB_MUNAKKNOWLEDGE": {
+      "name_original": "Taming Master",
+      "name_tr": "Evcillestirme Ustasi"
+    },
+    "SN_FALCONASSAULT": {
+      "name_original": "Falcon Assault",
+      "name_tr": "Sahin Taarruzu"
+    },
+    "NJ_NEN": {
+      "name_original": "Ninja Aura",
+      "name_tr": "Ninja Aurasi"
+    },
+    "SN_SHARPSHOOTING": {
+      "name_original": "Sharp Shooting",
+      "name_tr": "Keskin Atis"
+    },
+    "NJ_TATAMIGAESHI": {
+      "name_original": "Flip Tatami",
+      "name_tr": "Tatami Cevirme"
     }
   },
   "name_profiles": {
@@ -883,5 +1023,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 215
+  "patch_count": 250
 }
