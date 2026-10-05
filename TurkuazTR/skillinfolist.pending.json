@@ -3,115 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.pending.json",
     "purpose": "Henuz Turkce SkillName patchi bulunmayan oyuncu skill adaylarini listeler",
     "module": "Generated Report - JSON",
-    "version": "1.1.0",
-    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; ilk 120 oyuncu skill adi patchlendi",
+    "version": "1.2.0",
+    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; ilk 140 oyuncu skill adi patchlendi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
   "source_ref": "ee2f83493b27a411afa4ce71264040be71e04e15",
-  "patched_count": 120,
-  "candidate_count": 763,
+  "patched_count": 140,
+  "candidate_count": 743,
   "candidates": [
-    {
-      "key": "BA_FROSTJOKER",
-      "name": "Frost Joker",
-      "order": 121
-    },
-    {
-      "key": "LG_EXEEDBREAK",
-      "name": "Exceed Break",
-      "order": 122
-    },
-    {
-      "key": "BA_WHISTLE",
-      "name": "Whistle",
-      "order": 123
-    },
-    {
-      "key": "MG_LIGHTNINGBOLT",
-      "name": "Lightning Bolt",
-      "order": 124
-    },
-    {
-      "key": "BA_ASSASSINCROSS",
-      "name": "Assassin Cross of Sunset",
-      "order": 125
-    },
-    {
-      "key": "LG_RAGEBURST",
-      "name": "Burst Attack",
-      "order": 126
-    },
-    {
-      "key": "BA_POEMBRAGI",
-      "name": "Poem of Bragi",
-      "order": 127
-    },
-    {
-      "key": "ML_DEVOTION",
-      "name": "Devotion",
-      "order": 128
-    },
-    {
-      "key": "BA_APPLEIDUN",
-      "name": "Apple of Idun",
-      "order": 129
-    },
-    {
-      "key": "LG_TRAMPLE",
-      "name": "Trample",
-      "order": 130
-    },
-    {
-      "key": "DC_DANCINGLESSON",
-      "name": "Dancing Lesson",
-      "order": 131
-    },
-    {
-      "key": "SC_MAELSTROM",
-      "name": "Maelstrom",
-      "order": 132
-    },
-    {
-      "key": "DC_THROWARROW",
-      "name": "Throw Arrow",
-      "order": 133
-    },
-    {
-      "key": "SC_CHAOSPANIC",
-      "name": "Chaos Panic",
-      "order": 134
-    },
-    {
-      "key": "DC_UGLYDANCE",
-      "name": "Ugly Dance",
-      "order": 135
-    },
-    {
-      "key": "SC_DIMENSIONDOOR",
-      "name": "Dimension Door",
-      "order": 136
-    },
-    {
-      "key": "DC_SCREAM",
-      "name": "Scream",
-      "order": 137
-    },
-    {
-      "key": "SC_MANHOLE",
-      "name": "Manhole",
-      "order": 138
-    },
-    {
-      "key": "DC_HUMMING",
-      "name": "Humming",
-      "order": 139
-    },
-    {
-      "key": "EL_PYROTECHNIC",
-      "name": "Pyrotechnic",
-      "order": 140
-    },
     {
       "key": "DC_DONTFORGETME",
       "name": "Please Don't Forget Me",
@@ -2694,7 +2594,7 @@
     },
     {
       "key": "NPC_DEADLYCURSE2",
-      "name": "¿ÍÀÌµå µ¥µé¸® Ä¿½º",
+      "name": "\u00bf\u00cd\u00c0\u00cc\u00b5\u00e5 \u00b5\u00a5\u00b5\u00e9\u00b8\u00ae \u00c4\u00bf\u00bd\u00ba",
       "order": 657
     },
     {
