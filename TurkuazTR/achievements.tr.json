@@ -3,14 +3,14 @@
     "path": "/ROenglishRE/TurkuazTR/achievements.tr.json",
     "purpose": "Renewal achievements.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest achievements kaynagindaki 1637 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.0.1",
+    "description": "upstream/latest achievements kaynagindaki 1637 exact satiri Turkce karsiliklariyla esler; fiziksel satir sayisi splitlines semantigiyle sabitlenir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/achievements.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "bbf6c3568c701ecd9195503ce19708cf10f8e933",
-  "source_line_count": 5405,
+  "source_line_count": 5404,
   "patch_count": 1637,
   "patches": {
     "13": {
