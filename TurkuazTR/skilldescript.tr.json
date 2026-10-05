@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.1.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 200 exact Renewal skill aciklamasi dahil",
+    "version": "2.2.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 220 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -3747,6 +3747,337 @@
         "[Sv 8]: ^777777Blok: 14 Vurus^000000",
         "[Sv 9]: ^777777Blok: 15 Vurus^000000",
         "[Sv 10]: ^777777Blok: 16 Vurus^000000"
+      ]
+    },
+    "LK_BERSERK": {
+      "name_original": "Berserk (Frenzy)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Lord Knight Job Level 50 uzeri^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Ofke gucunu kullanarak ^CC6600MaksHP^777777, ^CC6600Hareket Hizi^777777 ve ^CC6600Saldiri Gucu^777777 degerlerini artirir.",
+        "Buna karsilik ^CC6600FLEE^777777 azalir; hareket, saldiri, item kullanimi ve ^CC6600Healing^777777 skill'lerinden destek alma dahil bircok eylem kisitlanir.",
+        "^0000FFBerserk^777777 durumunda her saniye belirli miktarda ^CC6600HP^777777 kaybedilir. Etki bittikten sonra 5 dakika boyunca dogal ^CC6600HP^777777 ve ^CC6600SP^777777 yenilenmesi devre disi kalir.^000000"
+      ]
+    },
+    "AB_EPICLESIS": {
+      "name_original": "Epiclesis",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Ancilla 1, Highness Heal 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777^0000FFTree of Life^777777 cagirir. Agacin 5x5 alanindaki KO olmus karakterleri kaldirir,",
+        "^CC6600MaksHP^777777 degerini artirir ve her 3 saniyede ^CC6600HP^777777 ile ^CC6600SP^777777 yeniler.",
+        "1 ^990099Ancilla^777777 ve 1 ^990099Holy Water^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MaksHP +5%, her 3 sn HP %3 ve SP %2 yeniler^000000",
+        "[Sv 2]: ^777777MaksHP +10%, her 3 sn HP %3 ve SP %2 yeniler^000000",
+        "[Sv 3]: ^777777MaksHP +15%, her 3 sn HP %4 ve SP %3 yeniler^000000",
+        "[Sv 4]: ^777777MaksHP +20%, her 3 sn HP %4 ve SP %3 yeniler^000000",
+        "[Sv 5]: ^777777MaksHP +25%, her 3 sn HP %5 ve SP %4 yeniler^000000"
+      ]
+    },
+    "AB_CHEAL": {
+      "name_original": "Coluceo Heal",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Heal 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullananin ve menzildeki party uyelerinin ^CC6600HP^777777 degerini yeniler.",
+        "^0000FFHeal^777777 etkisi party uyesi sayisina gore artar.^000000",
+        "[Sv 1]: ^777777AoE: 3x3 hucre^000000",
+        "[Sv 2]: ^777777AoE: 7x7 hucre^000000",
+        "[Sv 3]: ^777777AoE: 15x15 hucre^000000"
+      ]
+    },
+    "AB_ANCILLA": {
+      "name_original": "Ancilla",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Clementia 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Uretim^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Bir buyu tasi olan ^990099Ancilla^777777 uretir. ^CC6600SP^777777'nin %10'unu ve 1 ^990099Blue Gemstone^777777 tuketir.",
+        "Kullanildiginda 60 saniye boyunca ^0000FFHealing^777777 skill'lerini %15, ^0000FFSP Recovery^777777 skill'ini %30 artirir.^000000"
+      ]
+    },
+    "HP_ASSUMPTIO": {
+      "name_original": "Assumptio",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Angelus 1, Increase SP Recovery 3, Impositio Manus 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin ^CC6600Defense^777777 ve aldigi ^CC6600Healing^777777 miktarini skill suresince artirir.",
+        "^0000FFKyrie Eleison^777777 ile birlikte kullanilabilir.^000000",
+        "[Sv 1]: ^777777DEF +50, Healing +2%, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777DEF +100, Healing +4%, Sure: 40 saniye^000000",
+        "[Sv 3]: ^777777DEF +150, Healing +6%, Sure: 60 saniye^000000",
+        "[Sv 4]: ^777777DEF +200, Healing +8%, Sure: 80 saniye^000000",
+        "[Sv 5]: ^777777DEF +250, Healing +10%, Sure: 100 saniye^000000"
+      ]
+    },
+    "GC_HALLUCINATIONWALK": {
+      "name_original": "Hallucination Walk",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Phantom Menace 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin hizini maksimuma cikarir, ^CC6600FLEE^777777 artirir ve magic saldirilardan kacma sansi verir.",
+        "Kullanirken ^CC6600HP^777777 tuketir. Skill bittikten sonra 25 saniye boyunca ^CC6600Hareket Hizi^777777 ve ^CC6600ASPD^777777 yariya iner.^000000",
+        "[Sv 1]: ^777777FLEE +50, Kacinma Sansi 10%^000000",
+        "[Sv 2]: ^777777FLEE +100, Kacinma Sansi 20%^000000",
+        "[Sv 3]: ^777777FLEE +150, Kacinma Sansi 30%^000000",
+        "[Sv 4]: ^777777FLEE +200, Kacinma Sansi 40%^000000",
+        "[Sv 5]: ^777777FLEE +250, Kacinma Sansi 50%^000000"
+      ]
+    },
+    "HP_BASILICA": {
+      "name_original": "Basilica",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Gloria 2, Increase SP Recovery 1, Kyrie Eleison 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kutsal gucu bedene alarak kullanani guclendirir. Skill suresince ^009999Holy^777777 elementli buyu hasarini ve",
+        "^009999Shadow^777777 ile ^009999Undead^777777 dusmanlara verilen fiziksel hasari artirir.^000000",
+        "[Sv 1]: ^777777Holy Buyu Hasari +3%, Fiziksel Hasar +5%^000000",
+        "[Sv 2]: ^777777Holy Buyu Hasari +6%, Fiziksel Hasar +10%^000000",
+        "[Sv 3]: ^777777Holy Buyu Hasari +9%, Fiziksel Hasar +15%^000000",
+        "[Sv 4]: ^777777Holy Buyu Hasari +12%, Fiziksel Hasar +20%^000000",
+        "[Sv 5]: ^777777Holy Buyu Hasari +15%, Fiziksel Hasar +25%^000000"
+      ]
+    },
+    "GC_VENOMPRESSURE": {
+      "name_original": "Venom Pressure",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Weapon Blocking 1, Poisoning Weapon 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Zehirlenmis silahla dusmana ^663399Poison^777777 uygular. Skill kullanildiktan sonra ^0000FFPoisoning Weapon^777777 etkisi iptal olur.^000000",
+        "[Sv 1]: ^777777Zehirleme Sansi 75%, HIT +14^000000",
+        "[Sv 2]: ^777777Zehirleme Sansi 80%, HIT +18^000000",
+        "[Sv 3]: ^777777Zehirleme Sansi 85%, HIT +22^000000",
+        "[Sv 4]: ^777777Zehirleme Sansi 90%, HIT +26^000000",
+        "[Sv 5]: ^777777Zehirleme Sansi 95%, HIT +30^000000"
+      ]
+    },
+    "HP_MEDITATIO": {
+      "name_original": "Meditatio",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Increase SP Recovery 5, Lex Divina 5, Aspersio 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^CC6600SP^777777 ve ^CC6600MaksSP^777777 yenilenmesini, ayrica ^CC6600Healing^777777 skill'lerinin yeniledigi ^CC6600HP^777777 miktarini artirir.^000000",
+        "[Sv 1]: ^777777MaksSP +1%, SP Yenileme +3%^000000",
+        "[Sv 2]: ^777777MaksSP +2%, SP Yenileme +6%^000000",
+        "[Sv 3]: ^777777MaksSP +3%, SP Yenileme +9%^000000",
+        "[Sv 4]: ^777777MaksSP +4%, SP Yenileme +12%^000000",
+        "[Sv 5]: ^777777MaksSP +5%, SP Yenileme +15%^000000",
+        "[Sv 6]: ^777777MaksSP +6%, SP Yenileme +18%^000000",
+        "[Sv 7]: ^777777MaksSP +7%, SP Yenileme +21%^000000",
+        "[Sv 8]: ^777777MaksSP +8%, SP Yenileme +24%^000000",
+        "[Sv 9]: ^777777MaksSP +9%, SP Yenileme +27%^000000",
+        "[Sv 10]: ^777777MaksSP +10%, SP Yenileme +30%^000000"
+      ]
+    },
+    "GC_WEAPONCRUSH": {
+      "name_original": "Weapon Crush",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Weapon Blocking 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir saldiri ^0000FFWeapon Blocking^777777 ile basariyla bloklandiginda ^0000FFWeapon Crush^777777 ile karsi saldiri yapilabilir.",
+        "Hedefin silahini dusurme sansi vardir. Skill seviyesi etki suresini ve basari sansini etkiler.^000000"
+      ]
+    },
+    "HW_SOULDRAIN": {
+      "name_original": "Soul Drain",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Increase SP Recovery 5, Soul Strike 7^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^CC6600MaksSP^777777 degerini artirir. Bir dusmani magic veya fiziksel saldiri ile yendiginde",
+        "monster seviyesine bagli miktarda ^CC6600SP^777777 kazanirsin.^000000",
+        "[Sv 1]: ^777777MaksSP +2%^000000",
+        "[Sv 2]: ^777777MaksSP +4%^000000",
+        "[Sv 3]: ^777777MaksSP +6%^000000",
+        "[Sv 4]: ^777777MaksSP +8%^000000",
+        "[Sv 5]: ^777777MaksSP +10%^000000",
+        "[Sv 6]: ^777777MaksSP +12%^000000",
+        "[Sv 7]: ^777777MaksSP +14%^000000",
+        "[Sv 8]: ^777777MaksSP +16%^000000",
+        "[Sv 9]: ^777777MaksSP +18%^000000",
+        "[Sv 10]: ^777777MaksSP +20%^000000"
+      ]
+    },
+    "GC_POISONINGWEAPON": {
+      "name_original": "Poisoning Weapon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Research New Poison 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin silahina ^00A100Guillotine Cross^777777'in yeni poison'larindan birini uygular.",
+        "Etki suresince yakin dovus fiziksel hasari artar ve secilen poison'a gore ek etkiler kazanilir. Fiziksel saldirilar dusmana ^663399Poison^777777 uygulayabilir.^000000",
+        "[Sv 1]: ^777777Zehirleme Sansi 4%, Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Zehirleme Sansi 6%, Sure: 120 saniye^000000",
+        "[Sv 3]: ^777777Zehirleme Sansi 8%, Sure: 180 saniye^000000",
+        "[Sv 4]: ^777777Zehirleme Sansi 10%, Sure: 240 saniye^000000",
+        "[Sv 5]: ^777777Zehirleme Sansi 12%, Sure: 300 saniye^000000",
+        "[Paralysis]: ^777777^CC6600Hareket Hizi^777777 artar.^000000",
+        "[Pyrexia]: ^777777Critical Damage +15%, yakin dovus hasari +15%.^000000",
+        "[Death Hurt]: ^777777Her saniye ^CC6600MaksHP^777777'nin %1'ini yeniler.^000000",
+        "[Leech End]: ^777777^663399Blind^777777 ve ^663399Stun^777777 etkilerine bagisiklik verir.^000000",
+        "[Venom Bleed]: ^777777Yakin dovus yansitma hasarini %30 azaltir.^000000",
+        "[Magic Mushroom]: ^777777After Skill Delay -10%.^000000",
+        "[Toxin]: ^777777Her saniye ^CC6600MaksSP^777777'nin %1'ini yeniler.^000000",
+        "[Oblivion Curse]: ^777777^663399Silence^777777 ve ^663399Curse^777777 etkilerine bagisiklik verir.^000000"
+      ]
+    },
+    "HW_MAGICCRASHER": {
+      "name_original": "Magic Crasher",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Increase SP Recovery 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kullananin ^CC6600MATK^777777 degerine esit, hedefin ^CC6600Defense^777777 degerinden etkilenen ^009999Neutral^777777 elementli hasar verir.^000000"
+      ]
+    },
+    "GC_DARKILLUSION": {
+      "name_original": "Dark Illusion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cross Impact 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmana hizla ulasip saldirir. Dusuk ihtimalle ^0000FFCross Impact^777777 tetikler.^000000",
+        "[Sv 1]: ^777777ATK 100%, Menzil: 5 hucre^000000",
+        "[Sv 2]: ^777777ATK 100%, Menzil: 6 hucre^000000",
+        "[Sv 3]: ^777777ATK 100%, Menzil: 7 hucre^000000",
+        "[Sv 4]: ^777777ATK 100%, Menzil: 8 hucre^000000",
+        "[Sv 5]: ^777777ATK 100%, Menzil: 9 hucre^000000"
+      ]
+    },
+    "HW_MAGICPOWER": {
+      "name_original": "Mystical Amplification",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777180 saniye boyunca ^CC6600MATK^777777 degerini artirir.^000000",
+        "[Sv 1]: ^777777MATK +5%^000000",
+        "[Sv 2]: ^777777MATK +10%^000000",
+        "[Sv 3]: ^777777MATK +15%^000000",
+        "[Sv 4]: ^777777MATK +20%^000000",
+        "[Sv 5]: ^777777MATK +25%^000000",
+        "[Sv 6]: ^777777MATK +30%^000000",
+        "[Sv 7]: ^777777MATK +35%^000000",
+        "[Sv 8]: ^777777MATK +40%^000000",
+        "[Sv 9]: ^777777MATK +45%^000000",
+        "[Sv 10]: ^777777MATK +50%^000000"
+      ]
+    },
+    "PA_PRESSURE": {
+      "name_original": "Pressure (Gloria Domini)",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Endure 5, Faith 5, Shield Charge 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Buyuk bir hac cagirarak dusmani ^009999Holy^777777 elementli buyu hasariyla ezer.^000000",
+        "[Sv 1]: ^777777MATK 650%^000000",
+        "[Sv 2]: ^777777MATK 800%^000000",
+        "[Sv 3]: ^777777MATK 950%^000000",
+        "[Sv 4]: ^777777MATK 1100%^000000",
+        "[Sv 5]: ^777777MATK 1250%^000000"
+      ]
+    },
+    "AL_DEMONBANE": {
+      "name_original": "Demon Bane",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Divine Protection 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Demon^777777 ve ^00A100Undead^777777 monster'lara verilen hasari artirir.",
+        "Base Level hasar bonusunu etkiler. Bu bonus son hasar hesaplandiktan sonra eklenir.^000000",
+        "[Sv 1]: ^777777Hasar +3^000000",
+        "[Sv 2]: ^777777Hasar +6^000000",
+        "[Sv 3]: ^777777Hasar +9^000000",
+        "[Sv 4]: ^777777Hasar +12^000000",
+        "[Sv 5]: ^777777Hasar +15^000000",
+        "[Sv 6]: ^777777Hasar +18^000000",
+        "[Sv 7]: ^777777Hasar +21^000000",
+        "[Sv 8]: ^777777Hasar +24^000000",
+        "[Sv 9]: ^777777Hasar +27^000000",
+        "[Sv 10]: ^777777Hasar +30^000000"
+      ]
+    },
+    "PA_SACRIFICE": {
+      "name_original": "Sacrifice (Martyr's Reckoning)",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Endure 1, Devotion 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Aktiflestirdikten sonraki 5 fiziksel saldirinin hasarini artirir.",
+        "^0000FFSacrifice^777777 ile guclenen her saldiri karakterin ^CC6600MaksHP^777777 degerinin %9'u kadar ^CC6600HP^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Hasar x1^000000",
+        "[Sv 2]: ^777777Hasar x1.1^000000",
+        "[Sv 3]: ^777777Hasar x1.2^000000",
+        "[Sv 4]: ^777777Hasar x1.3^000000",
+        "[Sv 5]: ^777777Hasar x1.4^000000"
+      ]
+    },
+    "PA_GOSPEL": {
+      "name_original": "Gospel (Battle Chant)",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Faith 8, Divine Protection 3, Demon Bane 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullananin Cevresi^000000",
+        "Aciklama: ^777777Bir ilahi soyleyerek menzildeki dusmanlara 10 farkli negatif durumdan birini,",
+        "party uyelerine ise 10 farkli pozitif durumdan birini uygular.",
+        "^0000FFGospel^777777 kullanimi sirasinda kullanan ^663399Silence^777777 olursa skill iptal edilir.^000000"
+      ]
+    },
+    "CH_PALMSTRIKE": {
+      "name_original": "Palm Strike",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Iron Hand 7, Call Spirits 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Avuc iciyle dusmana vurur, geri iter ve 1 saniye gecikmeyle hasar verir.",
+        "Yalnizca ^0000FFExplosion Spirits^777777 durumunda kullanilabilir. Hasar kullananin ^CC6600STR^777777 ve ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 300%^000000",
+        "[Sv 2]: ^777777ATK 400%^000000",
+        "[Sv 3]: ^777777ATK 500%^000000",
+        "[Sv 4]: ^777777ATK 600%^000000",
+        "[Sv 5]: ^777777ATK 700%^000000"
       ]
     }
   }
