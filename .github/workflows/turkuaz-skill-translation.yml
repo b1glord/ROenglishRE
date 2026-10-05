@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill ve line-overlay localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.6.0
-# DESCRIPTION: Pending raporlarini yeniler; skill, msgstringtable ve achievements icin dort ortak localization profilini uretip bot commit'i ile saklar.
+# VERSION: 1.7.0
+# DESCRIPTION: Pending raporlarini yeniler; skill ve registry'deki tum line-overlay bilesenlerini dort ortak localization profilinde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -20,11 +20,19 @@ on:
       - "TurkuazTR/msgstringtable.tr.json"
       - "TurkuazTR/achievements.tr.json"
       - "TurkuazTR/line-overlays.json"
+      - "TurkuazTR/navi_data.tr.json"
+      - "TurkuazTR/sign_data.tr.json"
+      - "TurkuazTR/towninfo.tr.json"
+      - "TurkuazTR/recommended_quests.tr.json"
       - "TurkuazTR/tools/**"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
       - "Translation/Renewal/data/msgstringtable.txt"
       - "Translation/Renewal/SystemEN/achievements.lub"
+      - "Translation/Renewal/SystemEN/Navi_Data.lub"
+      - "Translation/Renewal/SystemEN/Sign_Data.lub"
+      - "Translation/Renewal/SystemEN/Towninfo.lub"
+      - "Translation/Renewal/SystemEN/RecommendedQuests.lub"
 
 permissions:
   contents: write
@@ -70,11 +78,18 @@ jobs:
       - name: Validate Bilingual profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile bilingual
 
-      - name: Validate common line overlay profiles
+      - name: Validate registered line overlay profiles
         shell: bash
         run: |
           set -euo pipefail
-          for component in msgstringtable achievements; do
+          components="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("TurkuazTR/line-overlays.json").read_text(encoding="utf-8"))
+          print(" ".join(data["components"].keys()))
+          PY
+          )"
+          for component in $components; do
             for profile in english hybrid full_tr bilingual; do
               python TurkuazTR/tools/build-line-overlay-profile.py \
                 --component "$component" \
