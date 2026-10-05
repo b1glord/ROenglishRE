@@ -2,7 +2,7 @@
 # Dosya Yolu: /ROenglishRE/Tools/apply_ongoingquests_translation.py
 # Amac: OngoingQuests.lub guvenli alanlarini byte-safe Turkce patch ile gunceller
 # Modul: Tool - Python
-# Version: 1.3.0
+# Version: 1.4.0
 # Aciklama: Title/Summary, guvenli Description ve NAVI/ITEM byte dizilerini birebir koruyan sablonlu Description cevirilerini uygular
 # Bagimli Oldugu Katman: Tool
 
@@ -146,6 +146,7 @@ def main() -> int:
     parser.add_argument("--repo-root", default=None)
     parser.add_argument("--path", default="Translation/Renewal/SystemEN/OngoingQuests.lub")
     parser.add_argument("--patch", default="TurkuazTR/questid2display.tr.json")
+    parser.add_argument("--output-path", default=None)
     parser.add_argument("--source-ref", default="refs/remotes/origin/upstream/latest")
     args = parser.parse_args()
 
@@ -247,7 +248,8 @@ def main() -> int:
             print(f"Satir sonu degisti: satir {index}", file=sys.stderr)
             return 1
 
-    target = repo_root / args.path
+    target = Path(args.output_path).resolve() if args.output_path else (repo_root / args.path)
+    target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(b"".join(output_lines))
 
     print(f"Patch config records: {len(patches)}")
