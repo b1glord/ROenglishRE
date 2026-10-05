@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.6.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 300 exact Renewal skill aciklamasi dahil",
+    "version": "2.7.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 320 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -5185,6 +5185,281 @@
         "^CC3399Gereksinim: Scratch 3^000000",
         "Tur: ^339900Destek^000000",
         "Aciklama: ^7777776 saniye boyunca gelen hasari %90 azaltir. Geri itilirse etki aninda sona erer.^000000"
+      ]
+    },
+    "SU_LOPE": {
+      "name_original": "Lope",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Stoop 1^000000",
+        "Beceri Turu: ^339900Hareket^000000",
+        "Aciklama: ^777777Yuksek sicrama yaparak baska bir konuma ilerler. Gecilemeyen bir hucre hedeflenirse en yakin yurunebilir ileri hucreye iner.",
+        "Fly Wing kullaniminin kapali oldugu haritalarda kullanilamaz. Bu skill ogrenildiginde guild skill'i Emergency Call'un casting ve yeniden kullanim suresi iki katina cikar.^000000",
+        "[Sv 1]: ^7777776 hucre ilerler^000000",
+        "[Sv 2]: ^77777710 hucre ilerler^000000",
+        "[Sv 3]: ^77777714 hucre ilerler^000000"
+      ]
+    },
+    "SU_SPRITEMABLE": {
+      "name_original": "Sprite Marble",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Leap 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Ruhlari kontrol etme yetenegi kazandirir. MaksHP +1000, MaksSP +100.",
+        "Sea Spirit, Earth Spirit ve Life Spirit'i kontrol etmeyi saglar.^000000"
+      ]
+    },
+    "SU_FRESHSHRIMP": {
+      "name_original": "Fresh Shrimp",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sprite Marble 1^000000",
+        "Beceri Turu: ^339900Seafood (Iyilestirme)^000000",
+        "Hedef: ^6666CCOyuncu^000000",
+        "Aciklama: ^777777Kucuk taze karidesin ruhunu emerek 2 dakika boyunca HP yeniler. Standart Seviye 5 Heal miktarinin %50'sini yeniler; Increased Heal Recovery etkisi eklenir.^000000",
+        "[Sv 1]: ^777777Her 10 saniyede yeniler^000000",
+        "[Sv 2]: ^777777Her 9 saniyede yeniler^000000",
+        "[Sv 3]: ^777777Her 8 saniyede yeniler^000000",
+        "[Sv 4]: ^777777Her 7 saniyede yeniler^000000",
+        "[Sv 5]: ^777777Her 6 saniyede yeniler^000000"
+      ]
+    },
+    "SU_BUNCHOFSHRIMP": {
+      "name_original": "Bunch of Shrimp",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Fresh Shrimp 3^000000",
+        "Beceri Turu: ^339900Seafood (Destek)^000000",
+        "Hedef: ^6666CCAyni ekrandaki tum party uyeleri^000000",
+        "Aciklama: ^777777Karides surusunun yardimiyla belirli sure boyunca ATK ve MATK degerlerini %10 artirir. 1 ^990099Shrimp^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 90 saniye^000000",
+        "[Sv 3]: ^777777Sure: 120 saniye^000000",
+        "[Sv 4]: ^777777Sure: 150 saniye^000000",
+        "[Sv 5]: ^777777Sure: 180 saniye^000000"
+      ]
+    },
+    "SU_TUNABELLY": {
+      "name_original": "Tuna Belly",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bunch of Shrimp 3^000000",
+        "Beceri Turu: ^339900Seafood (Iyilestirme)^000000",
+        "Hedef: ^6666CCOyuncu^000000",
+        "Aciklama: ^777777Lezzetli tuna belly ruhunu emerek hedefin MaksHP degerinin belirli bir yuzdesini yeniler.^000000",
+        "[Sv 1]: ^777777MaksHP'nin %10'unu yeniler^000000",
+        "[Sv 2]: ^777777MaksHP'nin %30'unu yeniler^000000",
+        "[Sv 3]: ^777777MaksHP'nin %50'sini yeniler^000000",
+        "[Sv 4]: ^777777MaksHP'nin %70'ini yeniler^000000",
+        "[Sv 5]: ^777777MaksHP'nin %90'ini yeniler^000000"
+      ]
+    },
+    "SU_TUNAPARTY": {
+      "name_original": "Tuna Party",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tuna Belly 3^000000",
+        "Beceri Turu: ^339900Seafood (Destek)^000000",
+        "Hedef: ^6666CCOyuncu^000000",
+        "Aciklama: ^777777Lezzetli tuna ruhu hedefi 30 saniye boyunca korur.^000000",
+        "[Sv 1]: ^777777Tuna Savunmasi: Kullananin MaksHP'sinin %10'u^000000",
+        "[Sv 2]: ^777777Tuna Savunmasi: Kullananin MaksHP'sinin %20'si^000000",
+        "[Sv 3]: ^777777Tuna Savunmasi: Kullananin MaksHP'sinin %30'u^000000",
+        "[Sv 4]: ^777777Tuna Savunmasi: Kullananin MaksHP'sinin %40'i^000000",
+        "[Sv 5]: ^777777Tuna Savunmasi: Kullananin MaksHP'sinin %50'si^000000"
+      ]
+    },
+    "SU_SV_STEMSPEAR": {
+      "name_original": "Silvervine Stem Spear",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sprite Marble 1^000000",
+        "Beceri Turu: ^FF0000Plant (Saldiri)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Silvervine sapinin ruhuyla dusmani deler. Base Level 30'u astiginda skill'in yeniden tetiklenme sansi olur; her 30 Base Level'da sans artar.^000000",
+        "[Sv 1]: ^777777700% Earth buyu hasari, Bleeding sansi 10%^000000",
+        "[Sv 2]: ^777777700% Fire buyu hasari, Bleeding sansi 10%^000000",
+        "[Sv 3]: ^777777700% Water buyu hasari, Bleeding sansi 10%^000000",
+        "[Sv 4]: ^777777700% Wind buyu hasari, Bleeding sansi 10%^000000",
+        "[Sv 5]: ^777777700% Ghost buyu hasari, Bleeding sansi 10%^000000"
+      ]
+    },
+    "SU_SV_ROOTTWIST": {
+      "name_original": "Silvervine Root Twist",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Silvervine Stem Spear 3^000000",
+        "Beceri Turu: ^339900Plant (Destek)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Silvervine kokunun ruhuyla dusmani yerinde baglar. Koklere yakalanan dusman Poison elementli hasar alir.",
+        "Heaven's Drive veya Trample koklere kullanilirsa baglama etkisi kalkar. ^00A100Boss^777777 monster'lara uygulanamaz.^000000",
+        "[Sv 1]: ^777777Sure: 7 saniye^000000",
+        "[Sv 2]: ^777777Sure: 9 saniye^000000",
+        "[Sv 3]: ^777777Sure: 11 saniye^000000",
+        "[Sv 4]: ^777777Sure: 13 saniye^000000",
+        "[Sv 5]: ^777777Sure: 15 saniye^000000"
+      ]
+    },
+    "SU_CN_METEOR": {
+      "name_original": "Catnip Meteor",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Silvervine Root Twist 3^000000",
+        "Beceri Turu: ^FF0000Plant (Saldiri)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Yuksekten dev bir catnip ruhu cagirarak ^009999Neutral^777777 buyu hasari verir. Dusen catnip sayisi skill seviyesine baglidir ve her biri 5x5 alana etki eder.",
+        "Base Level 100 veya uzeriyse hasar ^CC6600Base Level^777777 ve ^CC6600INT^777777 ile ek olarak artar. 1 catnip tuketilirse hedefe Curse uygulama sansi eklenir.^000000",
+        "[Sv 1]: ^777777MATK 300% / AoE: 7x7^000000",
+        "[Sv 2]: ^777777MATK 400% / AoE: 7x7^000000",
+        "[Sv 3]: ^777777MATK 500% / AoE: 7x7^000000",
+        "[Sv 4]: ^777777MATK 600% / AoE: 7x7^000000",
+        "[Sv 5]: ^777777MATK 700% / AoE: 7x7^000000"
+      ]
+    },
+    "SU_CN_POWDERING": {
+      "name_original": "Catnip Powdering",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Catnip Meteor 3^000000",
+        "Beceri Turu: ^339900Plant (Destek)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Belirli sure bir alana Catnip tozu saçar; ATK ve MATK degerlerini %50 azaltir ve hareket hizini dusurur. HP ve SP yenilenmesini buyuk oranda artirir.",
+        "1 ^990099Catnip Fruit^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE: 3x3, Sure: 3 saniye^000000",
+        "[Sv 2]: ^777777AoE: 3x3, Sure: kaynakta belirtilmemis^000000",
+        "[Sv 3]: ^777777AoE: 5x5, Sure: 5 saniye^000000",
+        "[Sv 4]: ^777777AoE: 5x5, Sure: 6 saniye^000000",
+        "[Sv 5]: ^777777AoE: 7x7, Sure: 7 saniye^000000"
+      ]
+    },
+    "SU_PICKYPECK": {
+      "name_original": "Picky Peck",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sprite Marble 1^000000",
+        "Beceri Turu: ^FF0000Animal (Saldiri)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Ofkeli Picky ruhlarini uzaktan hedefe yollar. Hedefin HP'si %50'nin altindaysa hasar iki katina cikar. Base Level 30'u astiginda skill yeniden tetiklenebilir; her 30 Base Level'da sans artar.^000000",
+        "[Sv 1]: ^777777ATK 300%^000000",
+        "[Sv 2]: ^777777ATK 400%^000000",
+        "[Sv 3]: ^777777ATK 500%^000000",
+        "[Sv 4]: ^777777ATK 600%^000000",
+        "[Sv 5]: ^777777ATK 700%^000000"
+      ]
+    },
+    "SU_ARCLOUSEDASH": {
+      "name_original": "Arclouse Dash",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Picky Peck 3^000000",
+        "Beceri Turu: ^339900Animal (Destek)^000000",
+        "Hedef: ^6666CCOyuncu^000000",
+        "Aciklama: ^777777Arclouse ruhunu emerek hedefi bir sure cok cevik yapar. Hedef Doram ise uzun menzilli fiziksel saldirilar %10 artar.^000000",
+        "[Sv 1]: ^777777Sure 60 sn, AGI +20, Hareket Hizi artar^000000",
+        "[Sv 2]: ^777777Sure 70 sn, AGI +25, Hareket Hizi artar^000000",
+        "[Sv 3]: ^777777Sure 80 sn, AGI +30, Hareket Hizi artar^000000",
+        "[Sv 4]: ^777777Sure 90 sn, AGI +35, Hareket Hizi artar^000000",
+        "[Sv 5]: ^777777Sure 100 sn, AGI +40, Hareket Hizi artar^000000"
+      ]
+    },
+    "SU_SCAROFTAROU": {
+      "name_original": "Scar of Tarou",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Arclouse Dash 3^000000",
+        "Beceri Turu: ^FF0000Animal (Saldiri)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Tarou ruhunun yarasini hedefe aktarir. Bite etkisi skill seviyesi, DEX ve kalan MaksHP'den etkilenir.",
+        "Heal, Cure, Clearance, Highness Heal ve Coluceo Heal etkiyi kaldirabilir. ^00A100Boss^777777 monster'larda durum etkisi islemez fakat hasar iki katina cikar.",
+        "Base Level 30'u astiginda skill yeniden tetiklenebilir; her 30 Base Level'da sans artar.^000000",
+        "[Sv 1]: ^777777ATK 100%, Bite Wound: 9 sn MaksHP sabit miktar azalir^000000",
+        "[Sv 2]: ^777777ATK 200%, Bite Wound: 9 sn MaksHP sabit miktar azalir^000000",
+        "[Sv 3]: ^777777ATK 300%, Bite Wound: 9 sn MaksHP sabit miktar azalir^000000",
+        "[Sv 4]: ^777777ATK 400%, Bite Wound: 9 sn MaksHP sabit miktar azalir^000000",
+        "[Sv 5]: ^777777ATK 500%, Bite Wound: 9 sn MaksHP sabit miktar azalir^000000"
+      ]
+    },
+    "SU_LUNATICCARROTBEAT": {
+      "name_original": "Lunatic Carrot Beat",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Scar of Tarou 3^000000",
+        "Beceri Turu: ^FF0000Animal (Saldiri)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Lunatic ruhunun ofkesiyle havuclari dusmanlara saldirir. Base Level 100 veya uzeriyse hasar ^CC6600Base Level^777777 ve ^CC6600INT^777777 ile ek olarak artar.",
+        "1 Carrot tuketilirse dusmana Stun uygulama sansi eklenir.^000000",
+        "[Sv 1]: ^777777ATK 300% / AoE: 3x3^000000",
+        "[Sv 2]: ^777777ATK 400% / AoE: 3x3^000000",
+        "[Sv 3]: ^777777ATK 500% / AoE: 5x5^000000",
+        "[Sv 4]: ^777777ATK 600% / AoE: 5x5^000000",
+        "[Sv 5]: ^777777ATK 700% / AoE: 7x7^000000"
+      ]
+    },
+    "SU_POWEROFSEA": {
+      "name_original": "Power of Sea",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Tuna Party 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Sea Spirit'in gucunu kazanir. Healing skill'lerini %10 artirir. Seafood tabanli skill'lere 20'den fazla skill point yatirilmissa iyilestirme etkisi ek %20 artar.^000000"
+      ]
+    },
+    "SU_POWEROFLAND": {
+      "name_original": "Power of Earth",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Catnip Powdering 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Earth Spirit'in gucunu kazanir. INT +20. Plant tabanli skill'lere 20'den fazla skill point yatirilmissa MATK %20 artar.^000000"
+      ]
+    },
+    "SU_POWEROFLIFE": {
+      "name_original": "Power of Life",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Lunatic Carrot Beat 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Life Spirit'in gucunu kazanir. FLEE, HIT ve CRIT +20. Animal tabanli skill'lere 20'den fazla skill point yatirilmissa uzun menzilli fiziksel saldiri %20 artar.^000000"
+      ]
+    },
+    "SU_SOULATTACK": {
+      "name_original": "Soul Attack",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Sprite Marble 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefin ruhuna yuksek hasar veren menzilli saldiri saglar.^000000"
+      ]
+    },
+    "SU_POWEROFFLOCK": {
+      "name_original": "Power of Flock",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hiss 5^000000",
+        "Beceri Turu: ^339900Animal (Destek)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Urpertici bir poz vererek skill alanindaki tum hedeflere Fear ve Frozen uygular.^000000",
+        "[Sv 1]: ^777777AoE: 7x7^000000",
+        "[Sv 2]: ^777777AoE: 9x9^000000",
+        "[Sv 3]: ^777777AoE: 11x11^000000",
+        "[Sv 4]: ^777777AoE: 13x13^000000",
+        "[Sv 5]: ^777777AoE: Tum ekran^000000"
+      ]
+    },
+    "SU_SVG_SPIRIT": {
+      "name_original": "Spirit of Savage",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Power of Lock 5^000000",
+        "Beceri Turu: ^FF0000Animal (Saldiri)^000000",
+        "Aciklama: ^777777Savage ruhunu cagirarak belirli bir hedef noktasina duz hat boyunca saldirir ve yolundaki tum hedeflere hasar verir.^000000",
+        "[Sv 1]: ^777777ATK 400%^000000",
+        "[Sv 2]: ^777777ATK 550%^000000",
+        "[Sv 3]: ^777777ATK 700%^000000",
+        "[Sv 4]: ^777777ATK 850%^000000",
+        "[Sv 5]: ^777777ATK 1000%^000000"
       ]
     }
   }
