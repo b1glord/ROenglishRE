@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.4.0
+Version: 1.5.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -75,6 +75,12 @@ Exact satir bazli ceviriler `TurkuazTR/line-overlays.json` registry'si ile yonet
 Su anda ortak line-overlay modeline tasinan bilesenler:
 
 - `msgstringtable`: 3499 exact Turkce satir; inceleme bekleyen satir 0.
-- `achievements`: 1637 exact Turkce satir; kalan Ingilizce icerik sonraki ceviri turlarinda incelenecek.
+- `achievements`: 1637 exact Turkce satir.
+- `recommended_quests`: 252 exact Turkce satir.
+- `town_info`: 2 exact Turkce satir.
+- `sign_data`: 53 exact Turkce satir.
+- `navi_data`: 1327 exact Turkce satir.
+
+`line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder. Satir yapisi upstream ile birebir olmayan `tipoftheday`, `GuildTip`, `ba_frostjoke` ve `dc_scream` bu modele zorlanmaz; bunlar icin record-aware donusum gerekir.
 
 English profili upstream kaynagini degistirmeden kullanir. Hybrid, Full TR ve Bilingual profilleri line-overlay bilesenlerinde Turkce patch uygular. Bilingual farki su anda skill adlarinda `Turkce (English)` bicimindedir; uzun UI metinlerinde gereksiz cift dil gosterimi yapilmaz.
