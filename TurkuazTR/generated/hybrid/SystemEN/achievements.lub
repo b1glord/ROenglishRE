@@ -1,0 +1,5404 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20260322
+
+achievement_tbl = {
+	[110000] = {
+		UI_Type = 0,
+		group = "EAT",
+		major = 4,
+		minor = 0,
+		title = "Bu saatte yemek yemek kilo aldirmaz",
+		content = {
+			summary = "Gece 1 - Gece atistirmasi zamani.",
+			details = "Bigfoot'un istedigi yemegi getir ve hirsli bir bakis acisi kazan."
+		},
+		resource = { [1] = { text = "Bigfoot'un istedigi yemegi getir ve hirsli bir bakis acisi kazan." } },
+		reward = {},
+		score = 10
+	},
+	[110001] = {
+		UI_Type = 0,
+		group = "SEE",
+		major = 4,
+		minor = 0,
+		title = "Bu bir kutup hayrani",
+		content = {
+			summary = "Kutup hayranlarinin hayatina kisa bir bakis",
+			details = "Wigner ailesine akin eden tum kutup hayranlariyla tanisalim"
+		},
+		resource = {
+			[1] = { text = "Yanggatjip Kyusu" },
+			[2] = { text = "Fine Anak" },
+			[3] = { text = "Havali Delikanli" },
+			[4] = { text = "Guzel Bir Es" },
+			[5] = { text = "Asagi Koyun Bekari" },
+			[6] = { text = "Aksiyonun En Iyi Anak'i" },
+			[7] = { text = "Savas Gucunun En Iyi Bekari" }
+		},
+		reward = {},
+		score = 10
+	},
+	[120001] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Prontera Alani Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Prontera'nin kuzey alaninda gizli hazineyi bul"
+		},
+		resource = { [1] = { text = "Prontera'nin kuzey alaninda gizli hazineyi bul" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120002] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Prontera Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kuzey Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kuzey Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120003] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Prontera Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kuzey Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kuzey Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120004] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Bati Prontera Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Bati Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Bati Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120005] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Bati Prontera Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Bati Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Bati Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120006] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Prontera Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120007] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Prontera Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120008] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Prontera Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120009] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Prontera Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120010] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Prontera Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Prontera alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Prontera alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120011] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Geffen Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120012] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guneydogu Geffen Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guneydogu Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guneydogu Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120013] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzeybati Geffen Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kuzeybati Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kuzeybati Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120014] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzeybati Geffen Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kuzeybati Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kuzeybati Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120015] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzeybati Geffen Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kuzeybati Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kuzeybati Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120016] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Geffen Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120017] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Geffen Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guney Geffen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guney Geffen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120018] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120019] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120020] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120021] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120022] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120023] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Colu Alan Kesfi (6)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sograt Colu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sograt Colu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120024] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guneybati Payon Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guneybati Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guneybati Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120025] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guneybati Payon Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guneybati Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guneybati Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120026] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guneybati Payon Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guneybati Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guneybati Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120027] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guneybati Payon Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Guneybati Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Guneybati Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120028] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Payon Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120029] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Payon Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120030] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Payon Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120031] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Dogu Payon Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dogu Payon alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dogu Payon alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120032] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Mjolnir Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120033] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Mjolnir Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120034] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Mjolnir Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120035] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Mjolnir Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120036] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Kuzey Mjolnir Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120037] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120038] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120039] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120040] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120041] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120042] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Mjolnir Alan Kesfi (6)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Mjolnir alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Mjolnir alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120043] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Guney Aldebaran Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Aldebaran alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Aldebaran alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120044] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120045] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120046] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120047] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120048] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120049] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (6)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120050] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (7)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120051] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Alan Kesfi (8)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120052] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Sinir Kontrol Noktasi Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sinir Kontrol Noktasi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sinir Kontrol Noktasi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120053] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Sinir Kontrol Noktasi Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sinir Kontrol Noktasi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sinir Kontrol Noktasi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120054] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Kiel Hyre Malikanesi Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kiel Hyre Malikanesi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kiel Hyre Malikanesi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120055] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "El Mes Platosu Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "El Mes Platosu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "El Mes Platosu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120056] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "El Mes Platosu Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "El Mes Platosu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "El Mes Platosu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120057] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "El Mes Platosu Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "El Mes Platosu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "El Mes Platosu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120058] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "El Mes Vadisi Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "El Mes Vadisi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "El Mes Vadisi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120059] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Kiel Hyre Akademisi Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kiel Hyre Akademisi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kiel Hyre Akademisi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120060] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Muhafiz Kampi Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Muhafiz Kampi alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Muhafiz Kampi alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120061] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Yuno Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Yuno alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Yuno alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120062] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Thanatos Tower Onu Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "front of Thanatos Tower alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "front of Thanatos Tower alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120063] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Hugel Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Hugel alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Hugel alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120064] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Hugel Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Hugel alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Hugel alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120065] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Hugel Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Hugel alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Hugel alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120066] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Abyss Lake Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Abyss Lake alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Abyss Lake alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120067] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120068] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120069] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120070] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120071] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120072] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (6)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120073] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (7)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120074] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Alan Kesfi (8)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120075] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Lighthalzen Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Lighthalzen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Lighthalzen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120076] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Lighthalzen Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Lighthalzen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Lighthalzen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120077] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Lighthalzen Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Lighthalzen alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Lighthalzen alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120078] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Audhumbla Ovalari Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Audhumbla Ovalari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Audhumbla Ovalari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120079] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Ovalari Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Ovalari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Ovalari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120080] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Ovalari Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Ovalari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Ovalari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120081] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Ovalari Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Ovalari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Ovalari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120082] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Audhumbla Cayirlari Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Audhumbla Cayirlari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Audhumbla Cayirlari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120083] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Audhumbla Cayirlari Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel Audhumbla Cayirlari alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel Audhumbla Cayirlari alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120084] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Portus Luna Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Portus Luna alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Portus Luna alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120085] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Veins alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Veins alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120086] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Veins alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Veins alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120087] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Veins alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Veins alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120088] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Alan Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Veins alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Veins alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120089] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Alan Kesfi (5)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Veins alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Veins alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120090] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Eclage Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Eclage alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Eclage alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120091] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Kuzey Bitfrost Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "north Bifrost alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "north Bifrost alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120092] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Guney Bifrost Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "south Bifrost alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "south Bifrost alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120093] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Splendide Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Splendide alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Splendide alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120094] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Splendide Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Splendide alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Splendide alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120095] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Splendide Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Splendide alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Splendide alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120096] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Manuk Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Manuk alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Manuk alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120097] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Manuk Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Manuk alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Manuk alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120098] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Manuk Alan Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Manuk alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Manuk alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120099] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Kamidal Dis Kesimleri Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kamidal Dis Kesimleri alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kamidal Dis Kesimleri alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120100] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Kamidal Dis Kesimleri Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kamidal Dis Kesimleri alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kamidal Dis Kesimleri alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120101] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Amatsu Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Amatsu alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Amatsu alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120102] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Kunlun Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kunlun alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kunlun alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120103] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Gonryun Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Gonryun alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Gonryun alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120104] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Ayothaya Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Ayothaya alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Ayothaya alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120105] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Moscovia Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Moscovia alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Moscovia alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120106] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Brasilis Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Brasilis alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Brasilis alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120107] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Dewata Alan Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Dewata alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Dewata alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120108] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Malaya Alan Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Malaya alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Malaya alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120109] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Malaya Alan Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Malaya alanindaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Malaya alanindaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 10
+	},
+	[120110] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Abbey Yeralti Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Abbey Yeralti dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Abbey Yeralti dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120111] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Abyss Lake Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Abyss Lake dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Abyss Lake dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120112] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Clock Tower Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Clock Tower dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Clock Tower dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120113] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Amatsu Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Amatsu dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Amatsu dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120114] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Ant Hell Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Ant Hell dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Ant Hell dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120115] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Ayothaya Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Ayothaya dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Ayothaya dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120116] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Comodo Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Comodo dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Comodo dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120117] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Brasilis Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Brasilis dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Brasilis dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120118] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Clock Tower Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Clock Tower dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Clock Tower dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120119] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Istana Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Istana dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Istana dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120120] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Scaraba Hole Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Scaraba Hole dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Scaraba Hole dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120121] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Bitfrost Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Bifrost dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Bifrost dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120122] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Einbroch Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Einbroch dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Einbroch dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120123] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Geffen Yeralti Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Geffen Yeralti dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Geffen Yeralti dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120124] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Glastheim Dungeon Kesfi (1)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Glastheim dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Glastheim dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120125] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Glastheim Dungeon Kesfi (2)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Glastheim dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Glastheim dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120126] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Glastheim Dungeon Kesfi (3)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Glastheim dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Glastheim dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120127] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Glastheim Dungeon Kesfi (4)",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Glastheim dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Glastheim dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120128] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Kunlun Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Kunlun dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Kunlun dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120129] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Rachel Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Rachel dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Rachel dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120130] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Sphinx Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sphinx dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sphinx dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120131] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Izlude Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Izlude dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Izlude dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120132] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Robot Factory Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Robot Factory dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Robot Factory dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120133] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Bio Lab Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Bio Lab dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Bio Lab dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120134] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Gonryun Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Gonryun dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Gonryun dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120135] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Nogg Road Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Nogg Road dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Nogg Road dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120136] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Coal Mine Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Coal Mine dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Coal Mine dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120137] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Pyramid Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Pyramid dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Pyramid dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120138] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Orc Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Orc dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Orc dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120139] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Payon Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Payon dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Payon dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120140] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Labyrinth Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Labyrinth dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Labyrinth dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120141] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Denizalti Tuneli Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Denizalti Tuneli dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Denizalti Tuneli dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120142] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Thanatos Tower Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Thanatos Tower dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Thanatos Tower dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120143] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Thor Volcano Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Thor Volcano dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Thor Volcano dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120144] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Sunken Ship Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Sunken Ship dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Sunken Ship dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120145] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Turtle Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Turtle dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Turtle dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[120146] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 5,
+		title = "Toy Factory Dungeon Kesfi",
+		content = {
+			summary = "Gizli hazineyi kesfet",
+			details = "Toy Factory dungeon'indaki hazineyi kesfet"
+		},
+		resource = { [1] = { text = "Toy Factory dungeon'indaki hazineyi kesfet" } },
+		reward = { item = 22876 },
+		score = 20
+	},
+	[127001] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Prontera Katkisi",
+		content = {
+			summary = "Rune Midgard sehir itibari",
+			details = "Prontera halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127002] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Geffen Katkisi",
+		content = {
+			summary = "Rune Midgard sehir itibari",
+			details = "Geffen halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127003] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Morocc Katkisi",
+		content = {
+			summary = "Rune Midgard sehir itibari",
+			details = "Morocc halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127004] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Payon Katkisi",
+		content = {
+			summary = "Rune Midgard sehir itibari",
+			details = "Payon halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127005] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Yuno Katkisi",
+		content = {
+			summary = "Schwartzvald sehir itibari",
+			details = "Yuno halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127006] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Lighthalzen Katkisi",
+		content = {
+			summary = "Schwartzvald sehir itibari",
+			details = "Lighthalzen halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127007] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Einbroch Katkisi",
+		content = {
+			summary = "Schwartzvald sehir itibari",
+			details = "Einbroch halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127008] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Rachel Katkisi",
+		content = {
+			summary = "Arunafeltz sehir itibari",
+			details = "Rachel halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[127009] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Veins Katkisi",
+		content = {
+			summary = "Arunafeltz sehir itibari",
+			details = "Veins halkinin sizin hakkindaki degerlendirmesi"
+		},
+		resource = {
+			[1] = { text = "Yabanci", count = 3000 },
+			[2] = { text = "Kasaba Yenisi", count = 6000 },
+			[3] = { text = "Komsu", count = 12000 },
+			[4] = { text = "Taninmis Kisi", count = 20000 },
+			[5] = { text = "Ustun Vatandas", count = 1000 }
+		},
+		score = 10
+	},
+	[128000] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Davetsiz Misafir",
+		content = {
+			summary = "Celine Kimi'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Celine Kimi yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128001] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Garip Misafir",
+		content = {
+			summary = "Celine Kimi'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Celine Kimi yok et", count = 10 } },
+		reward = {},
+		score = 10
+	},
+	[128002] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Belki arkadas olabiliriz...",
+		content = {
+			summary = "Celine Kimi'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "25 Celine Kimi yok et", count = 25 } },
+		reward = {},
+		score = 20
+	},
+	[128003] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Iyi Kalpli Yabanci",
+		content = {
+			summary = "Celine Kimi'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Celine Kimi yok et", count = 50 } },
+		reward = {},
+		score = 30
+	},
+	[128004] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kimi'nin En Iyi Arkadasi",
+		content = {
+			summary = "Celine Kimi'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "100 Celine Kimi yok et", count = 100 } },
+		reward = {},
+		score = 50
+	},
+	[128005] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Acemi Balikci",
+		content = {
+			summary = "Bakonawa'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Bakonawa yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128006] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Usta Avci",
+		content = {
+			summary = "Bakonawa'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Bakonawa yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128007] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Ritim Ustasi",
+		content = {
+			summary = "Bakonawa'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Bakonawa yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128008] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Cesur Maceraci",
+		content = {
+			summary = "Baphomet'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Baphomet yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128009] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Baphomet'ten Nefret Ediyorum",
+		content = {
+			summary = "Baphomet'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Baphomet yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128010] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kecilerin Belasi",
+		content = {
+			summary = "Baphomet'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Baphomet yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128011] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Siradan Turist",
+		content = {
+			summary = "Grim Reaper Ankou'yu yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Grim Reaper Ankou yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128012] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Issiz Bolge Ustasi",
+		content = {
+			summary = "Grim Reaper Ankou'yu yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Grim Reaper Ankou yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128013] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Sanirim Bunu Yiyebilirim",
+		content = {
+			summary = "Grim Reaper Ankou'yu yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Grim Reaper Ankou yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128014] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Sindirimi Zor Et",
+		content = {
+			summary = "Buwaya'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Buwaya yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128015] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Kacis Ustasi",
+		content = {
+			summary = "Buwaya'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Buwaya yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128016] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 2,
+		title = "Olumsuz Avci",
+		content = {
+			summary = "Buwaya'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Buwaya yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128017] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Ayaga Kalk ve Umutsuzlugu Yen",
+		content = {
+			summary = "God of Despair Morocc'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 God of Despair Morocc yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128018] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Umut Alevi",
+		content = {
+			summary = "God of Despair Morocc'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 God of Despair Morocc yok et", count = 10 } },
+		reward = {},
+		score = 10
+	},
+	[128019] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Yukselen Aurora",
+		content = {
+			summary = "God of Despair Morocc'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "25 God of Despair Morocc yok et", count = 25 } },
+		reward = {},
+		score = 20
+	},
+	[128020] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Kim Umutsuz? Ben Umutsuzum!",
+		content = {
+			summary = "God of Despair Morocc'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 God of Despair Morocc yok et", count = 50 } },
+		reward = {},
+		score = 30
+	},
+	[128021] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Bu Dunyayi Kurtarmak Icin Tanri Olurum",
+		content = {
+			summary = "God of Despair Morocc'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "100 God of Despair Morocc yok et", count = 100 } },
+		reward = {},
+		score = 50
+	},
+	[128022] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Lejyon Morocc'a Merhamet Etmez",
+		content = {
+			summary = "Morocc Necromancer'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Morocc Necromancer yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128023] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Lejyon Morocc'tan Korkmaz",
+		content = {
+			summary = "Morocc Necromancer'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Morocc Necromancer yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128024] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 1,
+		title = "Zayif Kafatasi Lejyonu Muhafizi",
+		content = {
+			summary = "Morocc Necromancer'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Morocc Necromancer yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128025] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kraliceyle Gorusme",
+		content = {
+			summary = "Faceworm Queen'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Faceworm Queen yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128026] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Sicak Toprak",
+		content = {
+			summary = "Earth Faceworm Queen'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Earth Faceworm Queen yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128027] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Mukemmel Su",
+		content = {
+			summary = "Water Faceworm Queen'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Water Faceworm Queen yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128028] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Hos Esinti",
+		content = {
+			summary = "Wind Faceworm Queen'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Wind Faceworm Queen yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128029] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Eski Kale Ziyaretcisi",
+		content = {
+			summary = "Amdarais'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Amdarais yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128030] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Eski Kalenin Lordu",
+		content = {
+			summary = "Amdarais'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Amdarais yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128031] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Eski Kalenin Fatihi",
+		content = {
+			summary = "Amdarais'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Amdarais yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128032] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Ofkeli Acemi",
+		content = {
+			summary = "Amdarais (Superior)'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Amdarais (Superior) yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128033] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Umut Nisani",
+		content = {
+			summary = "Amdarais (Superior)'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Amdarais (Superior) yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128034] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Halkin Koruyucusu",
+		content = {
+			summary = "Amdarais (Superior)'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Amdarais (Superior) yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128035] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Zaman Yolcusu",
+		content = {
+			summary = "Sarah Irene'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Sarah Irene yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128036] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Antik Kalinti Restoratoru",
+		content = {
+			summary = "Sarah Irene'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Sarah Irene yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128037] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kalinti Tasima Ustasi",
+		content = {
+			summary = "Sarah Irene'yi yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Sarah Irene yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128038] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kaptana Kacisi Goster",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Ferlock yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128039] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Zayif Kaptana Kacisi Goster",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Ferlock yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128040] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Gemide Isyan",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Ferlock yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128041] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Gemide Kargasa",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Ferlock yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128042] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Gemide Ayaklanma",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Ferlock yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128043] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Isyanin Ayaklanmasi",
+		content = {
+			summary = "Ferlock'u yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Ferlock yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128044] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Buyu Turnuvasi Sampiyonu",
+		content = {
+			summary = "Fenrir'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Fenrir yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128045] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kolezyum Gladyatoru",
+		content = {
+			summary = "Fenrir'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Fenrir yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128046] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kolezyum Avcisi",
+		content = {
+			summary = "Fenrir'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Fenrir yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128047] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Endless Tower Meydan Okuyucusu",
+		content = {
+			summary = "Naght Sieger'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Naght Sieger yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128048] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Endless Tower Avcisi",
+		content = {
+			summary = "Naght Sieger'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Naght Sieger yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128049] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Kulenin Lordu",
+		content = {
+			summary = "Naght Sieger'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Naght Sieger yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[128050] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Acemi Ruh Kovucu",
+		content = {
+			summary = "Bangungot Soul Pillar'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "1 Bangungot soul pillar yok et", count = 1 } },
+		reward = {},
+		score = 10
+	},
+	[128051] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Deneyimli Ruh Kovucu",
+		content = {
+			summary = "Bangungot Soul Pillar'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "10 Bangungot soul pillar yok et", count = 10 } },
+		reward = {},
+		score = 20
+	},
+	[128052] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Efsanevi Ruh Kovucu",
+		content = {
+			summary = "Bangungot Soul Pillar'i yok et",
+			details = "Dungeon sonuna kadar ilerle"
+		},
+		resource = { [1] = { text = "50 Bangungot soul pillar yok et", count = 50 } },
+		reward = {},
+		score = 50
+	},
+	[129001] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Prontera Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Prontera cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "North Prontera Alan Kesfi (1) tamamlandi", shortcut = 120001 },
+			[2] = { text = "North Prontera Alan Kesfi (2) tamamlandi", shortcut = 120002 },
+			[3] = { text = "North Prontera Alan Kesfi (3) tamamlandi", shortcut = 120003 },
+			[4] = { text = "West Prontera Alan Kesfi (1) tamamlandi", shortcut = 120004 },
+			[5] = { text = "West Prontera Alan Kesfi (2) tamamlandi", shortcut = 120005 },
+			[6] = { text = "East Prontera Alan Kesfi (1) tamamlandi", shortcut = 120006 },
+			[7] = { text = "South Prontera Alan Kesfi (1) tamamlandi", shortcut = 120007 },
+			[8] = { text = "South Prontera Alan Kesfi (2) tamamlandi", shortcut = 120008 },
+			[9] = { text = "South Prontera Alan Kesfi (3) tamamlandi", shortcut = 120009 },
+			[10] = { text = "South Prontera Alan Kesfi (4) tamamlandi", shortcut = 120010 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129002] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Geffen Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Geffen cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "East Geffen Alan Kesfi (1) tamamlandi", shortcut = 120011 },
+			[2] = { text = "Southeast Geffen Alan Kesfi (1) tamamlandi", shortcut = 120012 },
+			[3] = { text = "Northwest Geffen Alan Kesfi (1) tamamlandi", shortcut = 120013 },
+			[4] = { text = "Northwest Geffen Alan Kesfi (2) tamamlandi", shortcut = 120014 },
+			[5] = { text = "Northwest Geffen Alan Kesfi (3) tamamlandi", shortcut = 120015 },
+			[6] = { text = "South Geffen Alan Kesfi (1) tamamlandi", shortcut = 120016 },
+			[7] = { text = "South Geffen Alan Kesfi (2) tamamlandi", shortcut = 120017 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129003] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Sograt Desert Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Sograt Desert cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Sograt Desert Alan Kesfi (1) tamamlandi", shortcut = 120018 },
+			[2] = { text = "Sograt Desert Alan Kesfi (2) tamamlandi", shortcut = 120019 },
+			[3] = { text = "Sograt Desert Alan Kesfi (3) tamamlandi", shortcut = 120020 },
+			[4] = { text = "Sograt Desert Alan Kesfi (4) tamamlandi", shortcut = 120021 },
+			[5] = { text = "Sograt Desert Alan Kesfi (5) tamamlandi", shortcut = 120022 },
+			[6] = { text = "Sograt Desert Alan Kesfi (6) tamamlandi", shortcut = 120023 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129004] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Payon Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Payon cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Southwest Payon Alan Kesfi (1) tamamlandi", shortcut = 120024 },
+			[2] = { text = "Southwest Payon Alan Kesfi (2) tamamlandi", shortcut = 120025 },
+			[3] = { text = "Southwest Payon Alan Kesfi (3) tamamlandi", shortcut = 120026 },
+			[4] = { text = "Southwest Payon Alan Kesfi (4) tamamlandi", shortcut = 120027 },
+			[5] = { text = "East Payon Alan Kesfi (1) tamamlandi", shortcut = 120028 },
+			[6] = { text = "East Payon Alan Kesfi (2) tamamlandi", shortcut = 120029 },
+			[7] = { text = "East Payon Alan Kesfi (3) tamamlandi", shortcut = 120030 },
+			[8] = { text = "East Payon Alan Kesfi (4) tamamlandi", shortcut = 120031 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129005] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "North Mjolnir Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "north Mjolnir cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "North Mjolnir Alan Kesfi (1) tamamlandi", shortcut = 120032 },
+			[2] = { text = "North Mjolnir Alan Kesfi (2) tamamlandi", shortcut = 120033 },
+			[3] = { text = "North Mjolnir Alan Kesfi (3) tamamlandi", shortcut = 120034 },
+			[4] = { text = "North Mjolnir Alan Kesfi (4) tamamlandi", shortcut = 120035 },
+			[5] = { text = "North Mjolnir Alan Kesfi (5) tamamlandi", shortcut = 120036 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129006] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "South Mjolnir Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "south Mjolnir cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "South Mjolnir Alan Kesfi (1) tamamlandi", shortcut = 120037 },
+			[2] = { text = "South Mjolnir Alan Kesfi (2) tamamlandi", shortcut = 120038 },
+			[3] = { text = "South Mjolnir Alan Kesfi (3) tamamlandi", shortcut = 120039 },
+			[4] = { text = "South Mjolnir Alan Kesfi (4) tamamlandi", shortcut = 120040 },
+			[5] = { text = "South Mjolnir Alan Kesfi (5) tamamlandi", shortcut = 120041 },
+			[6] = { text = "South Mjolnir Alan Kesfi (6) tamamlandi", shortcut = 120042 },
+			[7] = { text = "South Aldebaran Alan Kesfi (1) tamamlandi", shortcut = 120043 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129007] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Comodo Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Comodo cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Comodo Alan Kesfi (1) tamamlandi", shortcut = 120044 },
+			[2] = { text = "Comodo Alan Kesfi (2) tamamlandi", shortcut = 120045 },
+			[3] = { text = "Comodo Alan Kesfi (3) tamamlandi", shortcut = 120046 },
+			[4] = { text = "Comodo Alan Kesfi (4) tamamlandi", shortcut = 120047 },
+			[5] = { text = "Comodo Alan Kesfi (5) tamamlandi", shortcut = 120048 },
+			[6] = { text = "Comodo Alan Kesfi (6) tamamlandi", shortcut = 120049 },
+			[7] = { text = "Comodo Alan Kesfi (7) tamamlandi", shortcut = 120050 },
+			[8] = { text = "Comodo Alan Kesfi (8) tamamlandi", shortcut = 120051 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129008] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 0,
+		title = "Rune Midgard Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Rune Midgard cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Prontera Kasifi", shortcut = 129001 },
+			[2] = { text = "Geffen Kasifi", shortcut = 129002 },
+			[3] = { text = "Sograt Desert Kasifi", shortcut = 129003 },
+			[4] = { text = "Payon Kasifi", shortcut = 129004 },
+			[5] = { text = "North Mjolnir Kasifi", shortcut = 129005 },
+			[6] = { text = "South Mjolnir Kasifi", shortcut = 129006 },
+			[7] = { text = "Comodo Kasifi", shortcut = 129007 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129009] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Yuno Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Yuno cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Border Checkpoint Alan Kesfi (1) tamamlandi", shortcut = 120052 },
+			[2] = { text = "Border Checkpoint Alan Kesfi (2) tamamlandi", shortcut = 120053 },
+			[3] = { text = "Kiel Hyre Mansion Alan Kesfi (1) tamamlandi", shortcut = 120054 },
+			[4] = { text = "El Mes Plateau Alan Kesfi (1) tamamlandi", shortcut = 120055 },
+			[5] = { text = "El Mes Plateau Alan Kesfi (2) tamamlandi", shortcut = 120056 },
+			[6] = { text = "El Mes Plateau Alan Kesfi (3) tamamlandi", shortcut = 120057 },
+			[7] = { text = "El Mes Gorge Alan Kesfi (1) tamamlandi", shortcut = 120058 },
+			[8] = { text = "Kiel Hyre Academy Alan Kesfi (1) tamamlandi", shortcut = 120059 },
+			[9] = { text = "Guard Camp Alan Kesfi (1) tamamlandi", shortcut = 120060 },
+			[10] = { text = "Yuno Alan Kesfi (1) tamamlandi", shortcut = 120061 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129010] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Hugel Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Hugel cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Front of Thanatos Tower Alan Kesfi (1) tamamlandi", shortcut = 120062 },
+			[2] = { text = "Hugel Alan Kesfi (1) tamamlandi", shortcut = 120063 },
+			[3] = { text = "Hugel Alan Kesfi (2) tamamlandi", shortcut = 120064 },
+			[4] = { text = "Hugel Alan Kesfi (3) tamamlandi", shortcut = 120065 },
+			[5] = { text = "Abyss Lake Alan Kesfi (1) tamamlandi", shortcut = 120066 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129011] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Einbroch Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Einbroch cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Einbroch Alan Kesfi (1) tamamlandi", shortcut = 120067 },
+			[2] = { text = "Einbroch Alan Kesfi (2) tamamlandi", shortcut = 120068 },
+			[3] = { text = "Einbroch Alan Kesfi (3) tamamlandi", shortcut = 120069 },
+			[4] = { text = "Einbroch Alan Kesfi (4) tamamlandi", shortcut = 120070 },
+			[5] = { text = "Einbroch Alan Kesfi (5) tamamlandi", shortcut = 120071 },
+			[6] = { text = "Einbroch Alan Kesfi (6) tamamlandi", shortcut = 120072 },
+			[7] = { text = "Einbroch Alan Kesfi (7) tamamlandi", shortcut = 120073 },
+			[8] = { text = "Einbroch Alan Kesfi (8) tamamlandi", shortcut = 120074 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129012] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Lighthalzen Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Lighthalzen cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Lighthalzen Alan Kesfi (1) tamamlandi", shortcut = 120075 },
+			[2] = { text = "Lighthalzen Alan Kesfi (2) tamamlandi", shortcut = 120076 },
+			[3] = { text = "Lighthalzen Alan Kesfi (3) tamamlandi", shortcut = 120077 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129013] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 1,
+		title = "Schwarzwald Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Schwarzwald cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Yuno Kasifi", shortcut = 129009 },
+			[2] = { text = "Hugel Kasifi", shortcut = 129010 },
+			[3] = { text = "Einbroch Kasifi", shortcut = 129011 },
+			[4] = { text = "Lighthalzen Kasifi", shortcut = 129012 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129014] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Rachel Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Rachel cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Rachel Audhumbla Plains Alan Kesfi (1) tamamlandi", shortcut = 120078 },
+			[2] = { text = "Rachel Plains Alan Kesfi (1) tamamlandi", shortcut = 120079 },
+			[3] = { text = "Rachel Plains Alan Kesfi (2) tamamlandi", shortcut = 120080 },
+			[4] = { text = "Rachel Plains Alan Kesfi (3) tamamlandi", shortcut = 120081 },
+			[5] = { text = "Rachel Audhumbla Grassland Alan Kesfi (1) tamamlandi", shortcut = 120082 },
+			[6] = { text = "Rachel Audhumbla Grassland Alan Kesfi (2) tamamlandi", shortcut = 120083 },
+			[7] = { text = "Portus Luna Alan Kesfi (1) tamamlandi", shortcut = 120084 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129015] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Veins Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Veins cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Veins Alan Kesfi (1) tamamlandi", shortcut = 120085 },
+			[2] = { text = "Veins Alan Kesfi (2) tamamlandi", shortcut = 120086 },
+			[3] = { text = "Veins Alan Kesfi (3) tamamlandi", shortcut = 120087 },
+			[4] = { text = "Veins Alan Kesfi (4) tamamlandi", shortcut = 120088 },
+			[5] = { text = "Veins Alan Kesfi (5) tamamlandi", shortcut = 120089 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129016] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 2,
+		title = "Arunafeltz Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Arunafeltz cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Rachel Kasifi", shortcut = 129014 },
+			[2] = { text = "Veins Kasifi", shortcut = 129015 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129017] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Laphine Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Laphine cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Eclage Alan Kesfi (1) tamamlandi", shortcut = 120090 },
+			[2] = { text = "North Bitfrost Alan Kesfi (1) tamamlandi", shortcut = 120091 },
+			[3] = { text = "South Bitfrost Alan Kesfi (1) tamamlandi", shortcut = 120092 },
+			[4] = { text = "Splendide Alan Kesfi (1) tamamlandi", shortcut = 120093 },
+			[5] = { text = "Splendide Alan Kesfi (2) tamamlandi", shortcut = 120094 },
+			[6] = { text = "Splendide Alan Kesfi (3) tamamlandi", shortcut = 120095 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129018] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Manuk Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Manuk cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Manuk Alan Kesfi (1) tamamlandi", shortcut = 120096 },
+			[2] = { text = "Manuk Alan Kesfi (2) tamamlandi", shortcut = 120097 },
+			[3] = { text = "Manuk Alan Kesfi (3) tamamlandi", shortcut = 120098 },
+			[4] = { text = "Outskirts of Kamidal Alan Kesfi (1) tamamlandi", shortcut = 120099 },
+			[5] = { text = "Outskirts of Kamidal Alan Kesfi (2) tamamlandi", shortcut = 120100 }
+		},
+		reward = { item = 644 },
+		score = 20
+	},
+	[129019] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 3,
+		title = "Eclage Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Eclage cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Laphine Kasifi", shortcut = 129017 },
+			[2] = { text = "Manuk Kasifi", shortcut = 120918 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129020] = {
+		UI_Type = 0,
+		group = "ADVENTURE",
+		major = 2,
+		minor = 4,
+		title = "Bolgesel Alan Kasifi",
+		content = {
+			summary = "Alan kesfi hedeflerini tamamla",
+			details = "Localizing fields cevresindeki kesifleri tamamla"
+		},
+		resource = {
+			[1] = { text = "Amatsu Alan Kesfi (1) tamamlandi", shortcut = 120101 },
+			[2] = { text = "Kunlun Alan Kesfi (1) tamamlandi", shortcut = 120102 },
+			[3] = { text = "Gonryun Alan Kesfi (1) tamamlandi", shortcut = 120103 },
+			[4] = { text = "Ayothaya Alan Kesfi (1) tamamlandi", shortcut = 120104 },
+			[5] = { text = "Moscovia Alan Kesfi (1) tamamlandi", shortcut = 120105 },
+			[6] = { text = "Brasilis Alan Kesfi (1) tamamlandi", shortcut = 120106 },
+			[7] = { text = "Dewata Alan Kesfi (1) tamamlandi", shortcut = 120107 },
+			[8] = { text = "Malaya Alan Kesfi (1) tamamlandi", shortcut = 120108 },
+			[9] = { text = "Malaya Alan Kesfi (2) tamamlandi", shortcut = 120109 }
+		},
+		reward = { item = 617 },
+		score = 50
+	},
+	[129021] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 5,
+		minor = 0,
+		title = "Glast Heim Challenge Mode",
+		content = {
+			summary = "Glast Heim Challenge Mode tamamlandi.",
+			details = "Memorial Dungeon sonuna kadar tamamla"
+		},
+		resource = {
+			[1] = { text = "Basarili challenge sayisi", count = 100 }
+		},
+		reward = { title = 1045 },
+		score = 10
+	},
+	[130000] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 4,
+		minor = 0,
+		title = "Sosyete Ilk Cikisi",
+		content = {
+			summary = "Yedi Kraliyet Ailesini ziyaret et",
+			details = "Dogu ve bati saraylarindaki yedi Kraliyet Ailesini ziyaret et."
+		},
+		resource = {
+			[1] = { text = "Heine Royal Family'yi ziyaret et ve konusma baslat" },
+			[2] = { text = "Nerius Royal Family'yi ziyaret et ve konusma baslat" },
+			[3] = { text = "Walter Royal Family'yi ziyaret et ve konusma baslat" },
+			[4] = { text = "Wigner Royal Family'yi ziyaret et ve konusma baslat" },
+			[5] = { text = "Richard Royal Family'yi ziyaret et ve konusma baslat" },
+			[6] = { text = "Gaebolg Royal Family'yi ziyaret et ve konusma baslat" },
+			[7] = { text = "Lugenburg Royal Family'yi ziyaret et ve konusma baslat" }
+		},
+		reward = { title = 1034 },
+		score = 10
+	},
+	[130005] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 4,
+		minor = 0,
+		title = "Krallari Yaratan Kisi",
+		content = {
+			summary = "Benim yarattigim kral",
+			details = "Terra Gloria'nin ihtisamini geri getir ve kahramanlarini taclandir."
+		},
+		resource = {
+			[1] = { text = "Rune-Midgards'in yeni kralinin tac giyme torenine katil" }
+		},
+		reward = { title = 1046 },
+		score = 10
+	},
+	[170000] = {
+		UI_Type = 0,
+		group = "HEAR",
+		major = 4,
+		minor = 0,
+		title = "Sarki Odasi Tesaduf Degil",
+		content = {
+			summary = "Saray muzisyeninin gizli sarkisini dinle",
+			details = "Bes saray muzisyeninin gizli sarkisini dinle"
+		},
+		resource = { [1] = { text = "Bes saray muzisyeninin gizli sarkisini dinle" } },
+		reward = {},
+		score = 10
+	},
+	[190000] = {
+		UI_Type = 1,
+		group = "CHATTING",
+		major = 4,
+		minor = 1,
+		title = "Ticaret Sehri Ittifak Calisani",
+		content = {
+			summary = "Buyuk ticaret sehrinin ittifak calisani",
+			details = "Merchant City Alliance'in tum isteklerini tamamlamak istiyorsan daha cok calis!"
+		},
+		resource = {
+			[1] = { text = "Acemi Amethyst sinifi", count = 1 },
+			[2] = { text = "Uzman Sardonyx sinifi", count = 10 },
+			[3] = { text = "Yetkin Aquamarine sinifi", count = 30 },
+			[4] = { text = "Parlayan Diamond sinifi", count = 100 }
+		},
+		reward = {},
+		score = 50
+	},
+	[200000] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Ilk Aurayi Kazan!",
+		content = {
+			summary = "Base Level 99 seviyesine ulas!",
+			details = "Base Level 99 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Base Level 99 seviyesine ulas" } },
+		reward = { title = 1000, buff = 10, item = 12549 },
+		score = 50
+	},
+	[200001] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Ikinci Aurayi Kazan!",
+		content = {
+			summary = "Base Level 150 seviyesine ulas!",
+			details = "Base Level 150 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Base Level 150 seviyesine ulas" } },
+		reward = { title = 1001, buff = 10, item = 5364 },
+		score = 60
+	},
+	[200002] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Ucuncu Aurayi Kazan!",
+		content = {
+			summary = "Base Level 175 seviyesine ulas!",
+			details = "Base Level 175 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Base Level 175 seviyesine ulas" } },
+		reward = { title = 1002, buff = 10, item = 18880 },
+		score = 70
+	},
+	[200003] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Usta Job Seviyesi!",
+		content = {
+			summary = "Job Level 50 seviyesine ulas!",
+			details = "Job Level 50 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Job Level 50 seviyesine ulas" } },
+		reward = { title = 1003, buff = 10, item = 617 },
+		score = 30
+	},
+	[200004] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Buyuk Usta Job Seviyesi!",
+		content = {
+			summary = "Job Level 70 seviyesine ulas!",
+			details = "Job Level 70 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Job Level 70 seviyesine ulas" } },
+		reward = { title = 1004, buff = 10, item = 12817 },
+		score = 50
+	},
+	[200005] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Resmi Maceraci",
+		content = {
+			summary = "1. sinifa gec.",
+			details = "Acolyte, Merchant, Swordman, Mage, Thief veya Archer."
+		},
+		resource = { [1] = { text = "1. sinifa gec" } },
+		reward = { buff = 12 },
+		score = 10
+	},
+	[200006] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Job Degisiminin Ilk Adimi!",
+		content = {
+			summary = "Job degisiminin ilk adimi",
+			details = "Acolyte, Merchant, Swordman, Mage, Thief veya Archer."
+		},
+		resource = { [1] = { text = "Job degisiminin ilk adimi" } },
+		reward = { buff = 12 },
+		score = 20
+	},
+	[200007] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Deneyimli Maceraci! (1)",
+		content = {
+			summary = "2-1 siniflarina gec",
+			details = "Knight, Blacksmith, Assassin, Wizard, Priest veya Hunter."
+		},
+		resource = { [1] = { text = "2-1 siniflarina gec" } },
+		reward = { buff = 12 },
+		score = 25
+	},
+	[200008] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Deneyimli Maceraci! (2)",
+		content = {
+			summary = "2-2 siniflarina gec",
+			details = "Crusader, Alchemist, Rogue, Sage, Monk, Bard veya Dancer."
+		},
+		resource = { [1] = { text = "2-2 siniflarina gec" } },
+		reward = { buff = 12 },
+		score = 25
+	},
+	[200009] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Savasci (1)",
+		content = {
+			summary = "Transcendent 2-1 siniflarina gec",
+			details = "Lord Knight, White Smith, Assassin Cross, High Wizard, High Priest veya Sniper."
+		},
+		resource = { [1] = { text = "Transcendent 2-1 siniflarina gec" } },
+		reward = { buff = 12 },
+		score = 30
+	},
+	[200010] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Savasci (2)",
+		content = {
+			summary = "Transcendent 2-2 siniflarina gec",
+			details = "Paladin, Creator, Stalker, Professor, Champion, Clown veya Gypsy."
+		},
+		resource = { [1] = { text = "Transcendent 2-2 siniflarina gec" } },
+		reward = { buff = 12 },
+		score = 30
+	},
+	[200011] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Elit Maceraci! (1)",
+		content = {
+			summary = "3-1 siniflarina gec",
+			details = "Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop veya Ranger."
+		},
+		resource = { [1] = { text = "3-1 siniflarina gec" } },
+		reward = { buff = 12, item = 16483 },
+		score = 50
+	},
+	[200012] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Transcendent! (1)",
+		content = {
+			summary = "Transcendent sonrasi 3-1 siniflarina gec",
+			details = "Transcendent sonrasi Rune Knight, Mechanic, Guillotine Cross, Warlock, Arch Bishop veya Ranger."
+		},
+		resource = { [1] = { text = "Transcendent sonrasi 3-1 siniflarina gec" } },
+		reward = { buff = 12, item = 16483 },
+		score = 60
+	},
+	[200013] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Elit Maceraci! (2)",
+		content = {
+			summary = "3-2 siniflarina gec",
+			details = "Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel veya Wanderer."
+		},
+		resource = { [1] = { text = "3-2 siniflarina gec" } },
+		reward = { buff = 12, item = 16483 },
+		score = 50
+	},
+	[200014] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Transcendent! (2)",
+		content = {
+			summary = "Transcendent sonrasi 3-2 siniflarina gec",
+			details = "Transcendent sonrasi Royal Guard, Geneticist, Shadow Chaser, Sorcerer, Sura, Minstrel veya Wanderer."
+		},
+		resource = { [1] = { text = "Transcendent sonrasi 3-2 siniflarina gec" } },
+		reward = { buff = 12, item = 16483 },
+		score = 60
+	},
+	[200015] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Ozel Karakterin Yolu",
+		content = {
+			summary = "Expanded siniflara gec",
+			details = "Taekwon, Gunslinger, Super Novice, Ninja veya Druid."
+		},
+		resource = { [1] = { text = "Expanded siniflara gec" } },
+		reward = { buff = 12 },
+		score = 10
+	},
+	[200016] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Benim Yolum Bu!",
+		content = {
+			summary = "Expanded 2. siniflara gec",
+			details = "Soul Linker, Star Gladiator, Rebellion, Oboro/Kagerou veya Karnos."
+		},
+		resource = { [1] = { text = "Expanded 2. siniflar" } },
+		reward = { buff = 12, item = 16483 },
+		score = 20
+	},
+	[200017] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Muazzam Guc!",
+		content = {
+			summary = "Base STR 90 degerine ulas",
+			details = "Base STR degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base STR 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200018] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Tasan Buyu!",
+		content = {
+			summary = "Base INT 90 degerine ulas",
+			details = "Base INT degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base INT 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200019] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Saglam Beden ve Zihin!",
+		content = {
+			summary = "Base VIT 90 degerine ulas",
+			details = "Base VIT degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base VIT 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200020] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Isik Hizi",
+		content = {
+			summary = "Base AGI 90 degerine ulas",
+			details = "Base AGI degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base AGI 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200021] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Sahin Gozleri",
+		content = {
+			summary = "Base DEX 90 degerine ulas",
+			details = "Base DEX degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base DEX 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200022] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Maksimum Sans",
+		content = {
+			summary = "Base LUK 90 degerine ulas",
+			details = "Base LUK degerini 90 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base LUK 90 degerine ulas" } },
+		reward = {},
+		score = 10
+	},
+	[200023] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Ejderha Gucu!",
+		content = {
+			summary = "Base STR 125 degerine ulas",
+			details = "Base STR degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base STR 125 degerine ulas" } },
+		reward = { buff = 319 },
+		score = 20
+	},
+	[200024] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Buyu Cilginligi",
+		content = {
+			summary = "Base INT 125 degerine ulas",
+			details = "Base INT degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base INT 125 degerine ulas" } },
+		reward = { buff = 611 },
+		score = 20
+	},
+	[200025] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Kaya Sertligi",
+		content = {
+			summary = "Base VIT 125 degerine ulas",
+			details = "Base VIT degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base VIT 125 degerine ulas" } },
+		reward = { buff = 293 },
+		score = 20
+	},
+	[200026] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Isik Hizi",
+		content = {
+			summary = "Base AGI 125 degerine ulas",
+			details = "Base AGI degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base AGI 125 degerine ulas" } },
+		reward = { buff = 296 },
+		score = 20
+	},
+	[200027] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Falcon Gozleri",
+		content = {
+			summary = "Base DEX 125 degerine ulas",
+			details = "Base DEX degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base DEX 125 degerine ulas" } },
+		reward = { buff = 295 },
+		score = 20
+	},
+	[200028] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Sans Atesi",
+		content = {
+			summary = "Base LUK 125 degerine ulas",
+			details = "Base LUK degerini 125 veya daha yuksek yap."
+		},
+		resource = { [1] = { text = "Base LUK 125 degerine ulas" } },
+		reward = { buff = 21 },
+		score = 20
+	},
+	[200029] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Sevgi ve Nefretin Vucut Bulmus Hali",
+		content = {
+			summary = "Novice olarak Base Level 99'a ulas",
+			details = "Novice sinifi olarak Base Level 99'a ulas."
+		},
+		resource = { [1] = { text = "Novice olarak Base Level 99'a ulas" } },
+		reward = { buff = 10, item = 16483 },
+		score = 30
+	},
+	[200030] = {
+		UI_Type = 0,
+		group = "GOAL_STATUS",
+		major = 1,
+		minor = 0,
+		title = "Bunu Gercekten Seviyorum!",
+		content = {
+			summary = "1. sinif olarak Base Level 99'a ulas",
+			details = "1. sinif olarak Base Level 99'a ulas."
+		},
+		resource = { [1] = { text = "1. sinif olarak Base Level 99'a ulas" } },
+		reward = { buff = 10, item = 101948 },
+		score = 30
+	},
+	[200031] = {
+		UI_Type = 0,
+		group = "JOB_CHANGE",
+		major = 1,
+		minor = 0,
+		title = "Valhalla'da Yeniden Dog!",
+		content = {
+			summary = "Transcendent Novice sinifina gec",
+			details = "Transcendent Novice olmak icin Valkyrie ile konus."
+		},
+		resource = { [1] = { text = "Transcendent Novice sinifina gec" } },
+		reward = { buff = 12, item = 22808 },
+		score = 10
+	},
+	[200032] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Yeni Bir Maceranin Baslangici!",
+		content = {
+			summary = "Base Lv 100 seviyesine ulas!",
+			details = "Base Level 100 seviyesine ulas."
+		},
+		resource = { [1] = { text = "Base Level 100 seviyesine ulas" } },
+		reward = { item = 23585 },
+		score = 10
+	},
+	[200033] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Yeni Kararlilik! (1)",
+		content = {
+			summary = "Base Lv 170 seviyesine ulas (3-1 classes)!",
+			details = "Base Level 170 seviyesine ulas (3-1 classes)."
+		},
+		resource = { [1] = { text = "Base Level 170 seviyesine ulas" } },
+		reward = { item = 6959 },
+		score = 50
+	},
+	[200034] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Yeni Kararlilik! (2)",
+		content = {
+			summary = "Base Lv 170 seviyesine ulas (3-2 classes)!",
+			details = "Base Level 170 seviyesine ulas (3-2 classes)."
+		},
+		resource = { [1] = { text = "Base Level 170 seviyesine ulas" } },
+		reward = { item = 6959 },
+		score = 50
+	},
+	[200035] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 1,
+		minor = 0,
+		title = "Seviye 200'e Ulasildi!",
+		content = {
+			summary = "Base Lv 200 seviyesine ulas!",
+			details = "Base Level 200 seviyesine ulas."
+		},
+		resource = {[1] = { text = "Base Level 200'e ulas" } },
+		reward = { buff = 10, item = 400124 },
+		score = 100
+	},
+	[230100] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Poring Sevgidir",
+		content = {
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Gercek bir Poring tutkunusun!"
+		},
+		resource = {
+			[1] = { text = "'Poring - evcillestirme' basarimini tamamla", shortcut = 230101 },
+			[2] = { text = "'Drops - evcillestirme' basarimini tamamla", shortcut = 230102 },
+			[3] = { text = "'Poporing - evcillestirme' basarimini tamamla", shortcut = 230103 },
+			[4] = { text = "'Novice Poring - evcillestirme' basarimini tamamla", shortcut = 230104 }
+		},
+		reward = { title = 1025, buff = 12 },
+		score = 50
+	},
+	[230110] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Entomolog",
+		content = {
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Gercek bir Entomolog olmak icin bocek toplamaya karar verdin!"
+		},
+		resource = {
+			[1] = { text = "'Chonchon - evcillestirme' basarimini tamamla", shortcut = 230111 },
+			[2] = { text = "'Steel Chonchon - evcillestirme' basarimini tamamla", shortcut = 230112 },
+			[3] = { text = "'Hunter Fly - evcillestirme' basarimini tamamla", shortcut = 230113 },
+			[4] = { text = "'Rocker - evcillestirme' basarimini tamamla", shortcut = 230114 },
+			[5] = { text = "'Spore - evcillestirme' basarimini tamamla", shortcut = 230115 },
+			[6] = { text = "'Poison Spore - evcillestirme' basarimini tamamla", shortcut = 230116 }
+		},
+		reward = { title = 1026, buff = 12 },
+		score = 50
+	},
+	[230120] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Hayvanlar Dostumuzdur",
+		content = {
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Gercek bir hayvan dostu olmaya karar verdin!"
+		},
+		resource = {
+			[1] = { text = "'Lunatic - evcillestirme' basarimini tamamla", shortcut = 230121 },
+			[2] = { text = "'Picky - evcillestirme' basarimini tamamla", shortcut = 230122 },
+			[3] = { text = "'Savage Bebe - evcillestirme' basarimini tamamla", shortcut = 230123 },
+			[4] = { text = "'Baby Desert Wolf - evcillestirme' basarimini tamamla", shortcut = 230124 },
+			[5] = { text = "'Smokie - evcillestirme' basarimini tamamla", shortcut = 230125 },
+			[6] = { text = "'Yoyo - evcillestirme' basarimini tamamla", shortcut = 230126 },
+			[7] = { text = "'Peco Peco - evcillestirme' basarimini tamamla", shortcut = 230127 },
+			[8] = { text = "'Petite - evcillestirme' basarimini tamamla", shortcut = 230128 }
+		},
+		reward = { title = 1027, buff = 12 },
+		score = 50
+	},
+	[230140] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Monster Girls Birlesin!!",
+		content = {
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Monster Girls ekibini kurmaya karar verdin!"
+		},
+		resource = {
+			[1] = { text = "'Munak - evcillestirme' basarimini tamamla", shortcut = 230141 },
+			[2] = { text = "'Isis - evcillestirme' basarimini tamamla", shortcut = 230142 },
+			[3] = { text = "'Sohee - evcillestirme' basarimini tamamla", shortcut = 230143 },
+			[4] = { text = "'Zherlthsh - evcillestirme' basarimini tamamla", shortcut = 230144 },
+			[5] = { text = "'Alice - evcillestirme' basarimini tamamla", shortcut = 230145 },
+			[6] = { text = "'Succubus - evcillestirme' basarimini tamamla", shortcut = 230146 },
+			[7] = { text = "'Loli Ruri - evcillestirme' basarimini tamamla", shortcut = 230147 }
+		},
+		reward = { title = 1029, buff = 12 },
+		score = 50
+	},
+	[230101] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Poring - evcillestirme",
+		content = {
+			summary = "Poring basariyla evcillestir",
+			details = "Poring pet edin. 'Unripe Apple' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Poring basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230102] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Drops - evcillestirme",
+		content = {
+			summary = "Drops basariyla evcillestir",
+			details = "Drops pet edin. 'Orange Juice' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Drops basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230103] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Poporing - evcillestirme",
+		content = {
+			summary = "Poporing basariyla evcillestir",
+			details = "Poporing pet edin. 'Bitter Herb' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Poporing basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230104] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Novice Poring - evcillestirme",
+		content = {
+			summary = "Novice Poring basariyla evcillestir",
+			details = "Novice Poring pet edin. 'Little Unripe Apple' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Novice Poring basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230111] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Chonchon - evcillestirme",
+		content = {
+			summary = "Chonchon basariyla evcillestir",
+			details = "Chonchon pet edin. 'Rotten Fish' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Chonchon basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230112] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Steel Chonchon - evcillestirme",
+		content = {
+			summary = "Steel Chonchon basariyla evcillestir",
+			details = "Steel Chonchon pet edin. 'Rusty Iron' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Steel Chonchon basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230113] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Hunter Fly - evcillestirme",
+		content = {
+			summary = "Hunter Fly basariyla evcillestir",
+			details = "Hunter Fly pet edin. 'Monster Juice' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Hunter Fly basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230114] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Rocker - evcillestirme",
+		content = {
+			summary = "Rocker basariyla evcillestir",
+			details = "Rocker pet edin. 'Singing Flower' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Rocker basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230115] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Spore - evcillestirme",
+		content = {
+			summary = "Spore basariyla evcillestir",
+			details = "Spore pet edin. 'Dew Laden Moss' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Spore basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230116] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Poison Spore - evcillestirme",
+		content = {
+			summary = "Poison Spore basariyla evcillestir",
+			details = "Poison Spore pet edin. 'Deadly Noxious Herb' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Poison Spore basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230121] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Lunatic - evcillestirme",
+		content = {
+			summary = "Lunatic basariyla evcillestir",
+			details = "Lunatic pet edin. 'Rainbow Carrot' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Lunatic basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230122] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Picky - evcillestirme",
+		content = {
+			summary = "Picky basariyla evcillestir",
+			details = "Picky pet edin. 'Earthworm the Dude' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Picky basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230123] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Savage Bebe - evcillestirme",
+		content = {
+			summary = "Savage Bebe basariyla evcillestir",
+			details = "Savage Bebe pet edin. 'Sweet Milk' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Savage Bebe basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230124] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Baby Desert Wolf - evcillestirme",
+		content = {
+			summary = "Baby Desert Wolf basariyla evcillestir",
+			details = "Baby Desert Wolf pet edin. 'Well-Dried Bone' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Baby Desert Wolf basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230125] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Smokie - evcillestirme",
+		content = {
+			summary = "Smokie basariyla evcillestir",
+			details = "Smokie pet edin. 'Baked Yam' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Smokie basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230126] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Yoyo - evcillestirme",
+		content = {
+			summary = "Yoyo basariyla evcillestir",
+			details = "Yoyo pet edin. 'Tropical Banana' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Yoyo basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230127] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Peco Peco - evcillestirme",
+		content = {
+			summary = "Peco Peco basariyla evcillestir",
+			details = "Peco Peco pet edin. 'Fatty Chubby Earthworm' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Peco Peco basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230128] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Petite - evcillestirme",
+		content = {
+			summary = "Petite basariyla evcillestir",
+			details = "Petite pet edin. 'Shining Stone' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Petite basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230141] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Munak - evcillestirme",
+		content = {
+			summary = "Munak basariyla evcillestir",
+			details = "Munak pet edin. 'No Recipient' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Munak basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230142] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Isis - evcillestirme",
+		content = {
+			summary = "Isis basariyla evcillestir",
+			details = "Isis pet edin. 'Armlet of Obedience' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Isis basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230143] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Sohee - evcillestirme",
+		content = {
+			summary = "Sohee basariyla evcillestir",
+			details = "Sohee pet edin. 'Silver Knife of Chastity' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Sohee basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230144] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Zherlthsh - evcillestirme",
+		content = {
+			summary = "Zherlthsh basariyla evcillestir",
+			details = "Zherlthsh pet edin. 'Forbidden Red Candle' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Zherlthsh basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230145] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Alice - evcillestirme",
+		content = {
+			summary = "Alice basariyla evcillestir",
+			details = "Alice pet edin. 'Soft Apron' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Alice basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230146] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Succubus - evcillestirme",
+		content = {
+			summary = "Succubus basariyla evcillestir",
+			details = "Succubus pet edin. 'Boy's Pure Heart' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Succubus basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[230147] = {
+		UI_Type = 0,
+		group = "TAMING",
+		major = 3,
+		minor = 1,
+		title = "Loli Ruri - evcillestirme",
+		content = {
+			summary = "Loli Ruri basariyla evcillestir",
+			details = "Loli Ruri pet edin. 'Very Red Juice' kullanabilirsin."
+		},
+		resource = { [1] = { text = "Loli Ruri basariyla evcillestir" } },
+		reward = {},
+		score = 10
+	},
+	[220000] = {
+		UI_Type = 0,
+		group = "CHATTING",
+		major = 1,
+		minor = 2,
+		title = "Topluluga Basla",
+		content = {
+			summary = "Sohbet odasi olustur",
+			details = "Bir sohbet odasi olustur. Kisayol: Alt+C."
+		},
+		resource = { [1] = { text = "Sohbet odasi olustur" } },
+		reward = {},
+		score = 10
+	},
+	[220001] = {
+		UI_Type = 0,
+		group = "CHATTING_DYING",
+		major = 1,
+		minor = 2,
+		title = "Oluyken Bile Sohbet",
+		content = {
+			summary = "KO durumundayken sohbet odasi olustur",
+			details = "KO durumundayken sohbet odasi olustur. Kisayol: Alt+C."
+		},
+		resource = { [1] = { text = "KO durumundayken sohbet odasi olustur" } },
+		reward = {},
+		score = 10
+	},
+	[220002] = {
+		UI_Type = 0,
+		group = "CHATTING20",
+		major = 1,
+		minor = 2,
+		title = "Sohbet Kalabaligi",
+		content = {
+			summary = "Sohbet odasini 20 kisiyle doldur",
+			details = "Insanlari topla ve sohbet odasini 20 kisiyle doldur."
+		},
+		resource = { [1] = { text = "Sohbet odasini 20 kisiyle doldur" } },
+		reward = {},
+		score = 10
+	},
+	[220003] = {
+		UI_Type = 0,
+		group = "ADD_FRIEND",
+		major = 1,
+		minor = 2,
+		title = "Arkadas~ Arkadas~",
+		content = {
+			summary = "1 kisiyi arkadas olarak ekle",
+			details = "Bir arkadas edin ve yolculuga birlikte baslayin."
+		},
+		resource = { [1] = { text = "1 kisiyi arkadas olarak ekle" } },
+		reward = {},
+		score = 10
+	},
+	[220004] = {
+		UI_Type = 0,
+		group = "ADD_FRIEND",
+		major = 1,
+		minor = 2,
+		title = "Populer Kisi",
+		content = {
+			summary = "10 kisiyi arkadas olarak ekle",
+			details = "Arkadas listene 10 kisi ekle ve birlikte maceraya cik."
+		},
+		resource = { [1] = { text = "10 kisiyi arkadas olarak ekle" } },
+		reward = {},
+		score = 10
+	},
+	[220005] = {
+		UI_Type = 0,
+		group = "PARTY",
+		major = 1,
+		minor = 2,
+		title = "Parti Kuralim~",
+		content = {
+			summary = "Bir parti olustur",
+			details = "Tek basina macera zor! Bir parti olustur."
+		},
+		resource = { [1] = { text = "Bir parti olustur" } },
+		reward = {},
+		score = 10
+	},
+	[220006] = {
+		UI_Type = 0,
+		group = "MARRY",
+		major = 1,
+		minor = 2,
+		title = "Evlendin mi..?",
+		content = {
+			summary = "Evlen",
+			details = "Bu dunyayi sevgiyle doldur. Sevdigin kisiyle evlen."
+		},
+		resource = { [1] = { text = "Evlen" } },
+		reward = { title = 1022 },
+		score = 20
+	},
+	[220007] = {
+		UI_Type = 0,
+		group = "BABY",
+		major = 1,
+		minor = 2,
+		title = "Beni Buyutur musun?",
+		content = {
+			summary = "Bir aile tarafindan evlat edinil",
+			details = "Ailenin yardimiyla zorlu dunyanin ustesinden gel."
+		},
+		resource = { [1] = { text = "Bir aile tarafindan evlat edinil" } },
+		reward = { title = 1032 },
+		score = 20
+	},
+	[220008] = {
+		UI_Type = 0,
+		group = "BABY",
+		major = 1,
+		minor = 2,
+		title = "Ebeveyn Olmak",
+		content = {
+			summary = "Bir cocuk evlat edin",
+			details = "Bir cocuk evlat edin ve guzel bir aile hikayesi olustur."
+		},
+		resource = { [1] = { text = "Bir cocuk evlat edin" } },
+		reward = { title = 1033 },
+		score = 20
+	},
+	[220009] = {
+		UI_Type = 1,
+		group = "SPEND_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Piyasa Ekonomisini Canlandir (1)",
+		content = {
+			summary = "Vending dukkaninda 10,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 10,000 Zeny harca."
+		},
+		resource = { [1] = { text = "Vending dukkaninda 10,000 Zeny harca", count = 10000 } },
+		reward = {},
+		score = 10
+	},
+	[220010] = {
+		UI_Type = 1,
+		group = "SPEND_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Piyasa Ekonomisini Canlandir (2)",
+		content = {
+			summary = "Vending dukkaninda 100,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 100,000 Zeny harca."
+		},
+		resource = { [1] = { text = "Vending dukkaninda 100,000 Zeny harca", count = 100000 } },
+		reward = {},
+		score = 15
+	},
+	[220011] = {
+		UI_Type = 1,
+		group = "SPEND_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Piyasa Ekonomisini Canlandir (3)",
+		content = {
+			summary = "Vending dukkaninda 500,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 500,000 Zeny harca."
+		},
+		resource = { [1] = { text = "Vending dukkaninda 500,000 Zeny harca", count = 500000 } },
+		reward = {},
+		score = 20
+	},
+	[220012] = {
+		UI_Type = 1,
+		group = "SPEND_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Piyasa Ekonomisini Canlandir (4)",
+		content = {
+			summary = "Vending dukkaninda 1,000,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 1,000,000 Zeny harca."
+		},
+		resource = { [1] = { text = "Vending dukkaninda 1,000,000 Zeny harca", count = 1000000 } },
+		reward = {},
+		score = 30
+	},
+	[220013] = {
+		UI_Type = 1,
+		group = "SPEND_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Piyasa Ekonomisini Canlandir (5)",
+		content = {
+			summary = "Vending dukkaninda 5,000,000 Zeny harca",
+			details = "Piyasa ekonomisine katkida bulun. Vending dukkaninda 5,000,000 Zeny harca."
+		},
+		resource = { [1] = { text = "Vending dukkaninda 5,000,000 Zeny harca", count = 5000000 } },
+		reward = {},
+		score = 50
+	},
+	[220014] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (1)",
+		content = {
+			summary = "Seviye 1 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 1 silahi basariyla +7 refine et."
+		},
+		resource = { [1] = { text = "Seviye 1 silahi basariyla +7 refine et" } },
+		reward = {},
+		score = 10
+	},
+	[220015] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (2)",
+		content = {
+			summary = "Seviye 1 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 1 silahi basariyla +12 refine et."
+		},
+		resource = { [1] = { text = "Seviye 1 silahi basariyla +12 refine et" } },
+		reward = {},
+		score = 15
+	},
+	[220016] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (3)",
+		content = {
+			summary = "Seviye 2 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 2 silahi basariyla +7 refine et."
+		},
+		resource = { [1] = { text = "Seviye 2 silahi basariyla +7 refine et" } },
+		reward = {},
+		score = 10
+	},
+	[220017] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (4)",
+		content = {
+			summary = "Seviye 2 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 2 silahi basariyla +12 refine et."
+		},
+		resource = { [1] = { text = "Seviye 2 silahi basariyla +12 refine et" } },
+		reward = {},
+		score = 15
+	},
+	[220018] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (5)",
+		content = {
+			summary = "Seviye 3 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 3 silahi basariyla +7 refine et."
+		},
+		resource = { [1] = { text = "Seviye 3 silahi basariyla +7 refine et" } },
+		reward = {},
+		score = 15
+	},
+	[220019] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (6)",
+		content = {
+			summary = "Seviye 3 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 3 silahi basariyla +12 refine et."
+		},
+		resource = { [1] = { text = "Seviye 3 silahi basariyla +12 refine et" } },
+		reward = {},
+		score = 20
+	},
+	[220020] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (7)",
+		content = {
+			summary = "Seviye 4 silahi basariyla +7 refine et",
+			details = "Sansin nerede? Seviye 4 silahi basariyla +7 refine et."
+		},
+		resource = { [1] = { text = "Seviye 4 silahi basariyla +7 refine et" } },
+		reward = {},
+		score = 20
+	},
+	[220021] = {
+		UI_Type = 0,
+		group = "ENCHANT_SUCCESS",
+		major = 1,
+		minor = 1,
+		title = "Refine Etmeden Duramiyorum! (8)",
+		content = {
+			summary = "Seviye 4 silahi basariyla +12 refine et",
+			details = "Sansin nerede? Seviye 4 silahi basariyla +12 refine et."
+		},
+		resource = { [1] = { text = "Seviye 4 silahi basariyla +12 refine et" } },
+		reward = {},
+		score = 30
+	},
+	[220022] = {
+		UI_Type = 0,
+		group = "ENCHANT_FAIL",
+		major = 1,
+		minor = 1,
+		title = "Insanin Hirsi Bitmez..",
+		content = {
+			summary = "Refine basarisizligini deneyimle",
+			details = "Hirsin sonu yoktur. Hatadan ders al ve bir refine basarisizligi deneyimle."
+		},
+		resource = { [1] = { text = "Refine basarisizligini deneyimle" } },
+		reward = {},
+		score = 10
+	},
+	[220023] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (1)",
+		content = {
+			summary = "NPC'ye satildiginda 100 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 100 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 100 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 10
+	},
+	[220024] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (2)",
+		content = {
+			summary = "NPC'ye satildiginda 1,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 1,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 1,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 10
+	},
+	[220025] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (3)",
+		content = {
+			summary = "NPC'ye satildiginda 5,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 5,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 5,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 15
+	},
+	[220026] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (4)",
+		content = {
+			summary = "NPC'ye satildiginda 10,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 10,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 10,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 15
+	},
+	[220027] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (5)",
+		content = {
+			summary = "NPC'ye satildiginda 50,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 50,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 50,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 20
+	},
+	[220028] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (6)",
+		content = {
+			summary = "NPC'ye satildiginda 100,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 100,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 100,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 20
+	},
+	[220029] = {
+		UI_Type = 0,
+		group = "GET_ITEM",
+		major = 1,
+		minor = 1,
+		title = "Buldum! (7)",
+		content = {
+			summary = "NPC'ye satildiginda 150,000 Zeny'den degerli bir esya elde et",
+			details = "Sanslisin! NPC'ye satildiginda 150,000 Zeny'den degerli bir esya elde et."
+		},
+		resource = { [1] = { text = "NPC'ye satildiginda 150,000 Zeny'den degerli bir esya elde et" } },
+		reward = {},
+		score = 30
+	},
+	[220030] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (1)",
+		content = {
+			summary = "Uzerinde 10,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 10,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 10,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 10
+	},
+	[220031] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (2)",
+		content = {
+			summary = "Uzerinde 100,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 100,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 100,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 15
+	},
+	[220032] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (3)",
+		content = {
+			summary = "Uzerinde 1,000,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 1,000,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 1,000,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 20
+	},
+	[220033] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (4)",
+		content = {
+			summary = "Uzerinde 10,000,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 10,000,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 10,000,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 25
+	},
+	[220034] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (5)",
+		content = {
+			summary = "Uzerinde 100,000,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 100,000,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 100,000,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 30
+	},
+	[220035] = {
+		UI_Type = 0,
+		group = "GET_ZENY",
+		major = 1,
+		minor = 1,
+		title = "Zenginler Krali (6)",
+		content = {
+			summary = "Uzerinde 1,000,000,000 Zeny'den fazla bulundur",
+			details = "Para her sey degil mi? Uzerinde 1,000,000,000 Zeny'den fazla bulundur."
+		},
+		resource = { [1] = { text = "Uzerinde 1,000,000,000 Zeny'den fazla bulundur" } },
+		reward = {},
+		score = 40
+	},
+	[230200] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 3,
+		minor = 1,
+		title = "Poring Arastirmacisi",
+		content = {
+			summary = "Tum hedef gorevlerini tamamla",
+			details = "Poring ne bitki ne de hayvan olan ilginc bir yaratik. Onu daha iyi tanimak icin dogrudan karsilas."
+		},
+		resource = {
+			[1] = { text = "'Poring Yasamini Kesfet (1)' basarimini tamamla", shortcut = 230201 },
+			[2] = { text = "'Poring Yasamini Kesfet (2)' basarimini tamamla", shortcut = 230202 },
+			[3] = { text = "'Poring Yasamini Kesfet (3)' basarimini tamamla", shortcut = 230203 }
+		},
+		reward = {},
+		score = 10
+	},
+	[230201] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 3,
+		minor = 1,
+		title = "Poring Yasamini Kesfet (1)",
+		content = {
+			summary = "Hedef yaratigi avla",
+			details = "Poringlerin gorunumu yasadiklari ortama gore degisir. Kolay rakiplerle basla."
+		},
+		resource = {
+			[1] = { text = "10 Poring avla", count = 10 },
+			[2] = { text = "10 Novice Poring avla", count = 10 },
+			[3] = { text = "10 Drops avla", count = 10 },
+			[4] = { text = "10 Poporing avla", count = 10 },
+			[5] = { text = "10 Marin avla", count = 10 }
+		},
+		reward = {},
+		score = 10
+	},
+	[230202] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 3,
+		minor = 1,
+		title = "Poring Yasamini Kesfet (2)",
+		content = {
+			summary = "Hedef yaratigi avla",
+			details = "Poring dunyasinda cok guclu olanlar da var. Guclu rakiplere dikkat et."
+		},
+		resource = {
+			[1] = { text = "1 Mastering avla", count = 1 },
+			[2] = { text = "1 Devilring avla", count = 1 },
+			[3] = { text = "1 Angelring avla", count = 1 },
+			[4] = { text = "1 Arch Angelring avla", count = 1 },
+			[5] = { text = "1 Ghostring avla", count = 1 }
+		},
+		reward = {},
+		score = 20
+	},
+	[230203] = {
+		UI_Type = 1,
+		group = "BATTLE",
+		major = 3,
+		minor = 1,
+		title = "Poring Yasamini Kesfet (3)",
+		content = {
+			summary = "Hedef yaratigi avla",
+			details = "Poring ailesinde parlak gorunumlu turler de var. Daha fazla arastirma gerekiyor."
+		},
+		resource = {
+			[1] = { text = "5 Metalring avla", count = 5 },
+			[2] = { text = "5 Heavy Metalring avla", count = 5 },
+			[3] = { text = "5 Magmaring avla", count = 5 } },
+		reward = {},
+		score = 20
+	},
+	[240000] = {
+		UI_Type = 0,
+		group = "GOAL_LEVEL",
+		major = 6,
+		minor = 0,
+		title = "Ilk Tanitim Gorevini Tamamla",
+		content = {
+			summary = "Ilk tanitim gorevini tamamla.",
+			details = "Ilk tanitim gorevini tamamla."
+		},
+		resource = { [1] = { text = "Ilk tanitim gorevini tamamla" } },
+		reward = {},
+		score = 10
+	},
+	[240001] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 1'ye Ulas",
+		content = {
+			summary = "Base Level 1'ye ulas",
+			details = "Base Level 1'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 1'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240002] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 2'ye Ulas",
+		content = {
+			summary = "Base Level 2'ye ulas",
+			details = "Base Level 2'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 2'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240003] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 3'ye Ulas",
+		content = {
+			summary = "Base Level 3'ye ulas",
+			details = "Base Level 3'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 3'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240004] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 4'ye Ulas",
+		content = {
+			summary = "Base Level 4'ye ulas",
+			details = "Base Level 4'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 4'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240005] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 5'ye Ulas",
+		content = {
+			summary = "Base Level 5'ye ulas",
+			details = "Base Level 5'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 5'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240006] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 6'ye Ulas",
+		content = {
+			summary = "Base Level 6'ye ulas",
+			details = "Base Level 6'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 6'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240007] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 7'ye Ulas",
+		content = {
+			summary = "Base Level 7'ye ulas",
+			details = "Base Level 7'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 7'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240008] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 8'ye Ulas",
+		content = {
+			summary = "Base Level 8'ye ulas",
+			details = "Base Level 8'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 8'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240009] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 9'ye Ulas",
+		content = {
+			summary = "Base Level 9'ye ulas",
+			details = "Base Level 9'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 9'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240010] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 10'ye Ulas",
+		content = {
+			summary = "Base Level 10'ye ulas",
+			details = "Base Level 10'ye ulas. Bir unvan kazanacaksin."
+		},
+		resource = { [1] = { text = "Base Level 10'ye ulas" } },
+		reward = { title = 1023, buff = 12, item = 644 },
+		score = 10
+	},
+	[240011] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 11'ye Ulas",
+		content = {
+			summary = "Base Level 11'ye ulas",
+			details = "Base Level 11'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 11'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240012] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 12'ye Ulas",
+		content = {
+			summary = "Base Level 12'ye ulas",
+			details = "Base Level 12'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 12'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240013] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 13'ye Ulas",
+		content = {
+			summary = "Base Level 13'ye ulas",
+			details = "Base Level 13'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 13'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240014] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 14'ye Ulas",
+		content = {
+			summary = "Base Level 14'ye ulas",
+			details = "Base Level 14'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 14'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240015] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 15'ye Ulas",
+		content = {
+			summary = "Base Level 15'ye ulas",
+			details = "Base Level 15'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 15'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240016] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 16'ye Ulas",
+		content = {
+			summary = "Base Level 16'ye ulas",
+			details = "Base Level 16'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 16'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240017] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 17'ye Ulas",
+		content = {
+			summary = "Base Level 17'ye ulas",
+			details = "Base Level 17'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 17'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240018] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 18'ye Ulas",
+		content = {
+			summary = "Base Level 18'ye ulas",
+			details = "Base Level 18'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 18'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240019] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 19'ye Ulas",
+		content = {
+			summary = "Base Level 19'ye ulas",
+			details = "Base Level 19'ye ulas."
+		},
+		resource = { [1] = { text = "Base Level 19'ye ulas" } },
+		reward = { buff = 12, item = 644 },
+		score = 10
+	},
+	[240020] = {
+		UI_Type = 0,
+		group = "GOAL_ACHIEVE",
+		major = 6,
+		minor = 0,
+		title = "Base Level 20'ye Ulas",
+		content = {
+			summary = "Base Level 20'ye ulas",
+			details = "Base Level 20'ye ulas. Bir unvan kazanacaksin."
+		},
+		resource = { [1] = { text = "Base Level 20'ye ulas" } },
+		reward = { title = 1024, buff = 12, item = 644 },
+		score = 10
+	},
+	[220036] = {
+		UI_Type = 0,
+		group = "EAT",
+		major = 1,
+		minor = 2,
+		title = "Acik Hava Baslangici",
+		content = {
+			summary = "Outdoor Cooking Kit elde et",
+			details = "Outdoor Cooking Kit elde et"
+		},
+		resource = { [1] = { text = "Outdoor Cooking Kit elde et" } },
+		reward = {},
+		score = 20
+	},
+	[220037] = {
+		UI_Type = 0,
+		group = "EAT",
+		major = 1,
+		minor = 2,
+		title = "Sef Olmanin Ilk Adimi",
+		content = {
+			summary = "Level 1 Cooking elde et",
+			details = "Level 1 Cooking elde et"
+		},
+		resource = { [1] = { text = "Level 1 Cooking elde et" } },
+		reward = {},
+		score = 20
+	}
+}
+
+function main()
+	for achieveID, achieveInfo in pairs(achievement_tbl) do
+		result, msg = InsertAchieveInfo(achieveID, achieveInfo.title, achieveInfo.content.summary, achieveInfo.content.details, achieveInfo.score)
+		if not result then
+			return false, msg
+		end
+		if nil ~= achieveInfo.resource then
+			for index, resource in ipairs(achieveInfo.resource) do
+				if nil ~= resource.shortcut then
+					shortcut = resource.shortcut
+				else
+					shortcut = -1
+				end
+				if 0 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, 0, shortcut)
+				elseif 1 == achieveInfo.UI_Type then
+					result, msg = InsertAchieveResource(achieveID, resource.text, resource.count, shortcut)
+				end
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		if nil ~= achieveInfo.reward then
+			if nil ~= achieveInfo.reward.item then
+				result, msg = InsertAchieveRewardItem(achieveID, achieveInfo.reward.item)
+			end
+			if nil ~= achieveInfo.reward.title then
+				result, msg = InsertAchieveRewardTitle(achieveID, achieveInfo.reward.title)
+				if not result then
+					return false, msg
+				end
+			end
+			if nil ~= achieveInfo.reward.buff then
+				result, msg = InsertAchieveRewardBuff(achieveID, achieveInfo.reward.buff)
+				if not result then
+					return false, msg
+				end
+			end
+		end
+		result, msg = InsertAchieveUIType(achieveID, achieveInfo.UI_Type, achieveInfo.group)
+		if not result then
+			return false, msg
+		end
+		result, msg = SetAchieveIDByTab(achieveID, achieveInfo.major, achieveInfo.minor)
+		if not result then
+			return false, msg
+		end
+	end
+	return true, "good"
+end
