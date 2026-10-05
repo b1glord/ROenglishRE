@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.6.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 100 exact Renewal skill aciklamasi dahil",
+    "version": "1.7.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 120 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -1947,6 +1947,377 @@
         "[Sv 1]: ^777777Sure: 600 saniye, Her 10 saniyede 5 SP tuketir^000000",
         "[Sv 2]: ^777777Sure: 900 saniye, Her 10 saniyede 8 SP tuketir^000000",
         "[Sv 3]: ^777777Sure: 1200 saniye, Her 10 saniyede 11 SP tuketir^000000"
+      ]
+    },
+    "BD_ETERNALCHAOS": {
+      "name_original": "Eternal Chaos",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Loki's Wail 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullananlarin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777Menzildeki tum dusmanlarin ^CC6600Defense^777777",
+        "degerini 60 saniye boyunca 0'a indirir. ^0000FFEnsemble^777777",
+        "yalnizca party'deki ^00A100Bard/Dancer^777777 9x9 hucre icindeyse",
+        "aktif edilebilir. Kullananlar 10 saniye skill kullanamaz,",
+        "^CC6600Hareket Hizi^777777 ve ^CC6600Saldiri Hizi^777777 azalir.",
+        "Yalnizca PvP/Siege Mode'da kullanilabilir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000"
+      ]
+    },
+    "SO_FIRE_INSIGNIA": {
+      "name_original": "Fire Insignia",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Summon Agni 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^7777773x3 hucrelik alana ^FF0000Fire^777777 insignia cizer.",
+        "^FF0000Fire^777777 armor kullanan veya Fire elementli monster'lar",
+        "her 5 saniyede %1 ^CC6600HP^777777 yeniler. ^CC5500Earth^777777 armor kullanan",
+        "veya Earth elementli monster'lar her 5 saniyede %1 HP kaybeder.",
+        "Alan icindeki tum hedefler ^0000BBWater^777777 saldirilarindan 1.5x hasar alir.",
+        "Beceri seviyesine gore ^990099Scarlet Point^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Agni ATK +20%, her 3 saniyedeki HP/SP yenilenmesi 2x^000000",
+        "[Sv 2]: ^777777Hasar +50, silahi Fire element yapar, Fiziksel ATK +10%^000000",
+        "[Sv 3]: ^777777MATK +50, Fire buyu hasari +25%^000000"
+      ]
+    },
+    "BD_DRUMBATTLEFIELD": {
+      "name_original": "Drum of Battlefield",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "19^CC3399Gereksinim: Apple of Idun 10^000000",
+        "20^CC3399Gereksinim: Service For You 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullananin ve menzildeki party uyelerinin",
+        "^CC6600ATK^777777 ve ^CC6600DEF^777777 degerlerini 180 saniye artirir.",
+        "^0000FFEnsemble^777777 yalnizca party'deki ^00A100Bard/Dancer^777777 9x9",
+        "hucre icindeyse aktif edilir. Kullananlar 10 saniye skill kullanamaz,",
+        "^CC6600Hareket Hizi^777777 ve ^CC6600Saldiri Hizi^777777 azalir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK +20, DEF +15^000000",
+        "[Sv 2]: ^777777ATK +25, DEF +30^000000",
+        "[Sv 3]: ^777777ATK +30, DEF +45^000000",
+        "[Sv 4]: ^777777ATK +35, DEF +60^000000",
+        "[Sv 5]: ^777777ATK +40, DEF +75^000000"
+      ]
+    },
+    "BD_RINGNIBELUNGEN": {
+      "name_original": "The Ring of Nibelungen",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Drum of Battlefield 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullanana ve menzildeki party uyelerine 60 saniye",
+        "asagidaki rastgele buff'lardan birini verir. ^0000FFEnsemble^777777",
+        "yalnizca party'deki ^00A100Bard/Dancer^777777 9x9 hucre icindeyse aktif edilir.",
+        "Kullananlar 10 saniye skill kullanamaz, Hareket ve Saldiri Hizi azalir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "^CC6600 > [Saldiri Hizi -20%]",
+        " > [ATK +20%]",
+        " > [MATK +20%]",
+        " > [MaksHP +30%]",
+        " > [MaksSP +30%]",
+        " > [Tum Statlar +15]",
+        " > [HIT +50]",
+        " > [FLEE +50]",
+        " > [Skill SP Tuketimi -30%]",
+        " > [HP Yenilenmesi +100%]",
+        " > [SP Yenilenmesi +100%]^000000"
+      ]
+    },
+    "GN_SPORE_EXPLOSION": {
+      "name_original": "Spore Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Special Pharmacy 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ^990099Bomb Mushroom Spore^777777 yerlestirir.",
+        "Spore kendiliginden patlayarak hedefe ve cevresindeki dusmanlara",
+        "hasar verir. Hedefler 5 saniye boyunca daha fazla menzilli fiziksel",
+        "hasar alir (normal dusman %10, Boss %5). Hasar kullananin",
+        "^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore artar.",
+        "1 ^990099Bomb Mushroom Spore^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 600% / AoE: 3x3^000000",
+        "[Sv 2]: ^777777ATK 800% / AoE: 3x3^000000",
+        "[Sv 3]: ^777777ATK 1000% / AoE: 5x5^000000",
+        "[Sv 4]: ^777777ATK 1200% / AoE: 5x5^000000",
+        "[Sv 5]: ^777777ATK 1400% / AoE: 7x7^000000",
+        "[Sv 6]: ^777777ATK 1600% / AoE: 7x7^000000",
+        "[Sv 7]: ^777777ATK 1800% / AoE: 9x9^000000",
+        "[Sv 8]: ^777777ATK 2000% / AoE: 9x9^000000",
+        "[Sv 9]: ^777777ATK 2200% / AoE: 11x11^000000",
+        "[Sv 10]: ^777777ATK 2400% / AoE: 11x11^000000"
+      ]
+    },
+    "BD_ROKISWEIL": {
+      "name_original": "Loki's Wail",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "19^CC3399Gereksinim: Assassin Cross of Sunset 10^000000",
+        "20^CC3399Gereksinim: Please Don't Forget Me 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullananlarin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777Kullananlar disindaki tum skill ve magic spell'leri",
+        "30 saniye boyunca menzil icinde devre disi birakir. ^0000FFEnsemble^777777",
+        "yalnizca party'deki ^00A100Bard/Dancer^777777 9x9 hucre icindeyse aktif edilir.",
+        "Kullananlar 10 saniye skill kullanamaz; Hareket ve Saldiri Hizi azalir.",
+        "Yalnizca PvP/Siege Mode'da kullanilabilir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000"
+      ]
+    },
+    "BD_INTOABYSS": {
+      "name_original": "Into the Abyss",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Lullaby 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Party uyelerinin 180 saniye boyunca skill'leri",
+        "^990099Gemstone^777777 gereksinimi olmadan kullanmasini saglar.",
+        "^0000FFEnsemble^777777 yalnizca party'deki ^00A100Bard/Dancer^777777 9x9 hucre",
+        "icindeyse aktif edilir. Kullananlar 10 saniye skill kullanamaz;",
+        "Hareket ve Saldiri Hizi azalir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000"
+      ]
+    },
+    "GN_S_PHARMACY": {
+      "name_original": "Special Pharmacy",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Geneticist Basic^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Uretim^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Geneticist daha fazla potion veya liquid medicine",
+        "uretebilir. Uretilebilecek miktar ^00A100Genetic^777777'in ^CC6600INT^777777",
+        "degerine ve skill seviyesine gore artar. Liquid medicine yapmak icin",
+        "uygun bir ^990099Potion Making Manual^777777 gerekir.^000000"
+      ]
+    },
+    "BD_SIEGFRIED": {
+      "name_original": "Invulnerable Siegfried",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "19^CC3399Gereksinim: Poem of Bragi 10^000000",
+        "20^CC3399Gereksinim: Fortune's Kiss 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Ensemble Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777180 saniye boyunca ^FF0000Fire^777777, ^0000BBWater^777777,",
+        "^CC5500Earth^777777 ve ^33CC00Wind^777777 elementlerine direnc; ^663399Blind^777777,",
+        "^663399Frozen^777777, ^663399Petrified^777777, ^663399Stun^777777, ^663399Curse^777777,",
+        "^663399Sleep^777777 ve ^663399Silence^777777 durumlarina tolerans verir.",
+        "^0000FFEnsemble^777777 yalnizca party'deki Bard/Dancer 9x9 hucre icindeyse aktif edilir.",
+        "Kullananlar 10 saniye skill kullanamaz; Hareket ve Saldiri Hizi azalir.",
+        "^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Element Direnci +3%, Tolerans +5%^000000",
+        "[Sv 2]: ^777777Element Direnci +6%, Tolerans +10%^000000",
+        "[Sv 3]: ^777777Element Direnci +9%, Tolerans +15%^000000",
+        "[Sv 4]: ^777777Element Direnci +12%, Tolerans +20%^000000",
+        "[Sv 5]: ^777777Element Direnci +15%, Tolerans +25%^000000"
+      ]
+    },
+    "GD_RESTORE": {
+      "name_original": "Restore",
+      "lines_tr": [
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCGuild Uyeleri^000000",
+        "Menzil: ^777777Guildmaster'in Gorus Alani^000000",
+        "Aciklama: ^777777Yalnizca WoE (Guild War) sirasinda kullanilabilir.",
+        "Guildmaster ekrandaki tum Guild uyelerinin Maks HP/SP'sinin %90'ini",
+        "yeniler. Kullanildiktan sonra 5 dakika boyunca tekrar cast edilemez.^000000"
+      ]
+    },
+    "BD_RAGNAROK": {
+      "name_original": "Ragnarok",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^ee0000Bu skill Gravity tarafindan kaldirildi.^000000",
+        "Bilgi yok; rastgele alan skill'i cast ederek oyunculari ve",
+        "monster'lari birlikte etkilemesi planlanmisti.^000000"
+      ]
+    },
+    "LG_INSPIRATION": {
+      "name_original": "Inspiration",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Shield Spell 3, Genesis Ray 4, Piety 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Holy Spirit'i bedene kabul ederek ^CC6600HIT^777777,",
+        "statlar, ^CC6600ATK^777777, ^CC6600MATK^777777 ve ^CC6600MaksHP^777777 degerlerini",
+        "gecici olarak artirir. Aura belirli buff ve status etkilerini engeller",
+        "ve zamanla HP/SP tuketir. HP veya SP 0 olursa ya da sure biterse",
+        "skill sona erer. Poison, Blind, Stun, Silence, Confusion, Stone Curse,",
+        "Sleep, Bleeding, Curse, Burning, Frozen, Freezing, Fear, Toxin,",
+        "Paralyze, Venom Bleed, Magic Mushroom, Death Hurt, Pyrexia, Oblivion,",
+        "Leech End, Deep Sleep, Frenzy ve tum Masquerade etkilerine karsi korur.^000000",
+        "[Sv 1]: ^777777HIT +12, Tum Statlar +6, MaksHP +4%, ATK/MATK +40, Sure 60 sn, 5 sn'de HP %3/SP %4 tuketir^000000",
+        "[Sv 2]: ^777777HIT +24, Tum Statlar +12, MaksHP +8%, ATK/MATK +80, Sure 90 sn, 5 sn'de HP %2.5/SP %3.5 tuketir^000000",
+        "[Sv 3]: ^777777HIT +36, Tum Statlar +18, MaksHP +12%, ATK/MATK +120, Sure 120 sn, 5 sn'de HP %2/SP %3 tuketir^000000",
+        "[Sv 4]: ^777777HIT +48, Tum Statlar +24, MaksHP +16%, ATK/MATK +160, Sure 150 sn, 5 sn'de HP %1.5/SP %2.5 tuketir^000000",
+        "[Sv 5]: ^777777HIT +60, Tum Statlar +30, MaksHP +20%, ATK/MATK +200, Sure 180 sn, 5 sn'de HP %1/SP %2 tuketir^000000"
+      ]
+    },
+    "BA_MUSICALLESSON": {
+      "name_original": "Musical Lesson",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Musical Instrument^777777 sinifi silah hasarini artirir.",
+        "^CC6600MaksSP^777777 bonusu her zaman uygulanir; ^CC6600ATK^777777 ve ^CC6600ASPD^777777",
+        "bonuslari yalnizca Musical Instrument takiliyken uygulanir.^000000",
+        "[Sv 1]: ^777777Hasar +3, ASPD +1%, MaksSP +1%^000000",
+        "[Sv 2]: ^777777Hasar +6, ASPD +2%, MaksSP +2%^000000",
+        "[Sv 3]: ^777777Hasar +9, ASPD +3%, MaksSP +3%^000000",
+        "[Sv 4]: ^777777Hasar +12, ASPD +4%, MaksSP +4%^000000",
+        "[Sv 5]: ^777777Hasar +15, ASPD +5%, MaksSP +5%^000000",
+        "[Sv 6]: ^777777Hasar +18, ASPD +6%, MaksSP +6%^000000",
+        "[Sv 7]: ^777777Hasar +21, ASPD +7%, MaksSP +7%^000000",
+        "[Sv 8]: ^777777Hasar +24, ASPD +8%, MaksSP +8%^000000",
+        "[Sv 9]: ^777777Hasar +27, ASPD +9%, MaksSP +9%^000000",
+        "[Sv 10]: ^777777Hasar +30, ASPD +10%, MaksSP +10%^000000"
+      ]
+    },
+    "LG_PIETY": {
+      "name_original": "Piety",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Faith 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Senin ve yakindaki party uyelerinin armor'una",
+        "^009999Holy^777777 element kazandirir. 2 ^990099Holy Water^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 80 saniye^000000",
+        "[Sv 3]: ^777777Sure: 100 saniye^000000",
+        "[Sv 4]: ^777777Sure: 120 saniye^000000",
+        "[Sv 5]: ^777777Sure: 140 saniye^000000"
+      ]
+    },
+    "BA_MUSICALSTRIKE": {
+      "name_original": "Musical Strike",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Musical Lesson 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir instrument kullanarak ^0000FFSong^777777 skill'leri",
+        "aktifken bile guclu bir ok salvosu atar. Saldirinin elementi",
+        "^990099Arrow^777777 elementine gore belirlenir.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 150% x2^000000",
+        "[Sv 2]: ^777777ATK 190% x2^000000",
+        "[Sv 3]: ^777777ATK 230% x2^000000",
+        "[Sv 4]: ^777777ATK 270% x2^000000",
+        "[Sv 5]: ^777777ATK 310% x2^000000"
+      ]
+    },
+    "LG_PRESTIGE": {
+      "name_original": "Prestige",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Trample 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Buyu saldirilarindan gelen hasari tamamen",
+        "atlatma sansi verirken fiziksel defense'i artirir. Kacinma sansi",
+        "statlara baglidir; ^0000FFDefender^777777 seviyesi fiziksel defense",
+        "oranini etkiler.^000000",
+        "[Sv 1]: ^777777Sure: 30 saniye^000000",
+        "[Sv 2]: ^777777Sure: 45 saniye^000000",
+        "[Sv 3]: ^777777Sure: 60 saniye^000000",
+        "[Sv 4]: ^777777Sure: 75 saniye^000000",
+        "[Sv 5]: ^777777Sure: 90 saniye^000000"
+      ]
+    },
+    "BA_DISSONANCE": {
+      "name_original": "Dissonance",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Adaptation to Circumstances 1, Musical Lesson 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Song Skill^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Menzil: ^7777779x9 AoE^000000",
+        "Aciklama: ^777777Skill suresi boyunca menzildeki dusmanlara",
+        "surekli hasar verir. Hasar kullananin ^CC6600Job Level^777777 ve skill",
+        "seviyesine gore artar. Yalnizca PvP/Siege Mode'da kullanilabilir.",
+        "^990099Musical Instrument^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777MATK 110%^000000",
+        "[Sv 2]: ^777777MATK 120%^000000",
+        "[Sv 3]: ^777777MATK 130%^000000",
+        "[Sv 4]: ^777777MATK 140%^000000",
+        "[Sv 5]: ^777777MATK 150%^000000"
+      ]
+    },
+    "ALL_ODINS_POWER": {
+      "name_original": "Odin's Power",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Gecici olarak ^CC6600Buyusel^777777 ve ^CC6600Fiziksel Saldiri Hasari^777777",
+        "artirir; ancak ^CC6600DEF^777777 ve ^CC6600MDEF^777777 degerlerini dusurur.^000000",
+        "[Sv 1]: ^77777760 saniye ATK/MATK +70, DEF/MDEF -20^000000",
+        "[Sv 2]: ^77777760 saniye ATK/MATK +100, DEF/MDEF -40^000000"
+      ]
+    },
+    "BA_FROSTJOKE": {
+      "name_original": "Frost Joker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Encore 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Gorus Menzili^000000",
+        "Aciklama: ^777777Dusmanlara ^663399Freezing^777777 uygular; dusuk bir sansla",
+        "party uyelerine de Freezing uygulanabilir.^000000",
+        "[Sv 1]: ^777777Freezing Sansi: 20%^000000",
+        "[Sv 2]: ^777777Freezing Sansi: 25%^000000",
+        "[Sv 3]: ^777777Freezing Sansi: 30%^000000",
+        "[Sv 4]: ^777777Freezing Sansi: 35%^000000",
+        "[Sv 5]: ^777777Freezing Sansi: 40%^000000"
+      ]
+    },
+    "BA_FROSTJOKER": {
+      "name_original": "Frost Joker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Encore 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Gorus Menzili^000000",
+        "Aciklama: ^777777Dusmanlara ^663399Freezing^777777 uygular; dusuk bir sansla",
+        "party uyelerine de Freezing uygulanabilir.^000000",
+        "[Sv 1]: ^777777Freezing Sansi: 20%^000000",
+        "[Sv 2]: ^777777Freezing Sansi: 25%^000000",
+        "[Sv 3]: ^777777Freezing Sansi: 30%^000000",
+        "[Sv 4]: ^777777Freezing Sansi: 35%^000000",
+        "[Sv 5]: ^777777Freezing Sansi: 40%^000000"
       ]
     }
   }
