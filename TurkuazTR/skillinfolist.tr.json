@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.13.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 460 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.14.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 495 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1851,6 +1851,146 @@
     "DK_SERVANT_W_SIGN": {
       "name_original": "Servant Weapon - Sign",
       "name_tr": "Hizmetkar Silah - Isaret"
+    },
+    "DK_SERVANT_W_PHANTOM": {
+      "name_original": "Servant Weapon - Phantom",
+      "name_tr": "Hizmetkar Silah - Hayalet"
+    },
+    "DK_SERVANT_W_DEMOL": {
+      "name_original": "Servant Weapon - Demolition",
+      "name_tr": "Hizmetkar Silah - Yikim"
+    },
+    "DK_CHARGINGPIERCE": {
+      "name_original": "Charging Pierce",
+      "name_tr": "Yuklenmis Delis"
+    },
+    "DK_TWOHANDDEF": {
+      "name_original": "Two Handed Defense",
+      "name_tr": "Cift El Savunmasi"
+    },
+    "DK_HACKANDSLASHER": {
+      "name_original": "Hack and Slasher",
+      "name_tr": "Kes ve Parcala"
+    },
+    "DK_DRAGONIC_AURA": {
+      "name_original": "Dragonic Aura",
+      "name_tr": "Ejderha Aurasi"
+    },
+    "DK_MADNESS_CRUSHER": {
+      "name_original": "Madness Crusher",
+      "name_tr": "Cinnet Ezici"
+    },
+    "DK_VIGOR": {
+      "name_original": "Vigor",
+      "name_tr": "Dinclik"
+    },
+    "DK_STORMSLASH": {
+      "name_original": "Storm Slash",
+      "name_tr": "Firtina Kesigi"
+    },
+    "DK_DRAGONIC_BREATH": {
+      "name_original": "Dragonic Breath",
+      "name_tr": "Ejderha Nefesi"
+    },
+    "AG_DEADLY_PROJECTION": {
+      "name_original": "Deadly Projection",
+      "name_tr": "Olumcul Yansitma"
+    },
+    "AG_DESTRUCTIVE_HURRICANE": {
+      "name_original": "Destructive Hurricane",
+      "name_tr": "Yikici Kasirga"
+    },
+    "AG_RAIN_OF_CRYSTAL": {
+      "name_original": "Rain of Crystal",
+      "name_tr": "Kristal Yagmuru"
+    },
+    "AG_MYSTERY_ILLUSION": {
+      "name_original": "Mystery Illusion",
+      "name_tr": "Gizemli Yanilsama"
+    },
+    "AG_VIOLENT_QUAKE": {
+      "name_original": "Violent Quake",
+      "name_tr": "Siddetli Deprem"
+    },
+    "AG_SOUL_VC_STRIKE": {
+      "name_original": "Soul Vulcan Strike",
+      "name_tr": "Ruh Vulkan Darbesi"
+    },
+    "AG_STRANTUM_TREMOR": {
+      "name_original": "Strantum Tremor",
+      "name_tr": "Strantum Sarsintisi"
+    },
+    "AG_ALL_BLOOM": {
+      "name_original": "All Bloom",
+      "name_tr": "Tum Ciceklenme"
+    },
+    "AG_CRYSTAL_IMPACT": {
+      "name_original": "Crystal Impact",
+      "name_tr": "Kristal Darbesi"
+    },
+    "AG_TORNADO_STORM": {
+      "name_original": "Tornado Storm",
+      "name_tr": "Hortum Firtinasi"
+    },
+    "AG_FLORAL_FLARE_ROAD": {
+      "name_original": "Floral Flare Road",
+      "name_tr": "Cicek Alevi Yolu"
+    },
+    "AG_CLIMAX": {
+      "name_original": "Climax",
+      "name_tr": "Doruk"
+    },
+    "AG_ASTRAL_STRIKE": {
+      "name_original": "Astral Strike",
+      "name_tr": "Astral Darbe"
+    },
+    "AG_ROCK_DOWN": {
+      "name_original": "Rock Down",
+      "name_tr": "Kaya Dususu"
+    },
+    "AG_STORM_CANNON": {
+      "name_original": "Storm Cannon",
+      "name_tr": "Firtina Topu"
+    },
+    "AG_CRIMSON_ARROW": {
+      "name_original": "Crimson Arrow",
+      "name_tr": "Kizil Ok"
+    },
+    "AG_FROZEN_SLASH": {
+      "name_original": "Frozen Slash",
+      "name_tr": "Donmus Kesik"
+    },
+    "AG_TWOHANDSTAFF": {
+      "name_original": "Two-Handed Staff Mastery",
+      "name_tr": "Cift El Asa Ustaligi"
+    },
+    "IQ_POWERFUL_FAITH": {
+      "name_original": "Powerful Faith",
+      "name_tr": "Guclu Inanc"
+    },
+    "IQ_FIRM_FAITH": {
+      "name_original": "Firm Faith",
+      "name_tr": "Saglam Inanc"
+    },
+    "IQ_WILL_OF_FAITH": {
+      "name_original": "Will of Faith",
+      "name_tr": "Inanc Iradesi"
+    },
+    "IQ_OLEUM_SANCTUM": {
+      "name_original": "Oleum Sanctum",
+      "name_tr": "Oleum Sanctum"
+    },
+    "IQ_SINCERE_FAITH": {
+      "name_original": "Sincere Faith",
+      "name_tr": "Samimi Inanc"
+    },
+    "IQ_FIRST_BRAND": {
+      "name_original": "First Brand",
+      "name_tr": "Ilk Damga"
+    },
+    "IQ_FIRST_FAITH_POWER": {
+      "name_original": "First Faith Power",
+      "name_tr": "Ilk Inanc Gucu"
     }
   },
   "name_profiles": {
@@ -1863,5 +2003,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 460
+  "patch_count": 495
 }
