@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/localization-profiles.json",
     "purpose": "TurkuazTR generated istemci profillerinin tum localization bilesenleri icin dil modlarini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "English, Hybrid, Full TR ve Bilingual profillerini skill ve ortak line-overlay localization bilesenlerinde tanimlar",
     "dependency_layer": "Tool"
   },
@@ -17,7 +17,9 @@
       "recommended_quests": "original",
       "town_info": "original",
       "sign_data": "original",
-      "navi_data": "original"
+      "navi_data": "original",
+      "ba_frostjoke": "original",
+      "dc_scream": "original"
     },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
@@ -28,7 +30,9 @@
       "recommended_quests": "tr",
       "town_info": "tr",
       "sign_data": "tr",
-      "navi_data": "tr"
+      "navi_data": "tr",
+      "ba_frostjoke": "tr",
+      "dc_scream": "tr"
     },
     "full_tr": {
       "display_name": "Full TR - Turkce Skill Name + Turkce Aciklama",
@@ -39,7 +43,9 @@
       "recommended_quests": "tr",
       "town_info": "tr",
       "sign_data": "tr",
-      "navi_data": "tr"
+      "navi_data": "tr",
+      "ba_frostjoke": "tr",
+      "dc_scream": "tr"
     },
     "bilingual": {
       "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
@@ -50,7 +56,9 @@
       "recommended_quests": "tr",
       "town_info": "tr",
       "sign_data": "tr",
-      "navi_data": "tr"
+      "navi_data": "tr",
+      "ba_frostjoke": "tr",
+      "dc_scream": "tr"
     }
   }
 }
