@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.9.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 320 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.10.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 355 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1291,6 +1291,146 @@
     "SU_BUNCHOFSHRIMP": {
       "name_original": "Bunch of Shrimp",
       "name_tr": "Karides Surusu"
+    },
+    "SU_TUNABELLY": {
+      "name_original": "Tuna Belly",
+      "name_tr": "Ton Baligi Gobegi"
+    },
+    "SU_TUNAPARTY": {
+      "name_original": "Tuna Party",
+      "name_tr": "Ton Baligi Partisi"
+    },
+    "SU_SV_STEMSPEAR": {
+      "name_original": "Silvervine Stem Spear",
+      "name_tr": "Silvervine Sap Mizragi"
+    },
+    "SU_SV_ROOTTWIST": {
+      "name_original": "Silvervine Root Twist",
+      "name_tr": "Silvervine Kok Burgusu"
+    },
+    "SU_CN_METEOR": {
+      "name_original": "Catnip Meteor",
+      "name_tr": "Kedi Nanesi Meteoru"
+    },
+    "SU_CN_POWDERING": {
+      "name_original": "Catnip Powdering",
+      "name_tr": "Kedi Nanesi Tozu"
+    },
+    "SU_PICKYPECK": {
+      "name_original": "Picky Peck",
+      "name_tr": "Picky Gagalama"
+    },
+    "SU_ARCLOUSEDASH": {
+      "name_original": "Arclouse Dash",
+      "name_tr": "Arclouse Atagi"
+    },
+    "SU_SCAROFTAROU": {
+      "name_original": "Scar of Tarou",
+      "name_tr": "Tarou Yarasi"
+    },
+    "SU_LUNATICCARROTBEAT": {
+      "name_original": "Lunatic Carrot Beat",
+      "name_tr": "Lunatic Havuc Darbesi"
+    },
+    "SU_POWEROFSEA": {
+      "name_original": "Power of Sea",
+      "name_tr": "Denizin Gucu"
+    },
+    "SU_POWEROFLAND": {
+      "name_original": "Power of Earth",
+      "name_tr": "Topragin Gucu"
+    },
+    "SU_POWEROFLIFE": {
+      "name_original": "Power of Life",
+      "name_tr": "Yasamin Gucu"
+    },
+    "SU_SOULATTACK": {
+      "name_original": "Soul Attack",
+      "name_tr": "Ruh Saldirisi"
+    },
+    "SU_POWEROFFLOCK": {
+      "name_original": "Power of Flock",
+      "name_tr": "Surunun Gucu"
+    },
+    "SU_SVG_SPIRIT": {
+      "name_original": "Spirit of Savage",
+      "name_tr": "Savage Ruhu"
+    },
+    "SU_HISS": {
+      "name_original": "Hiss",
+      "name_tr": "Tislama"
+    },
+    "SU_NYANGGRASS": {
+      "name_original": "Nyang Grass",
+      "name_tr": "Nyang Otu"
+    },
+    "SU_GROOMING": {
+      "name_original": "Grooming",
+      "name_tr": "Bakim"
+    },
+    "SU_PURRING": {
+      "name_original": "Purring",
+      "name_tr": "Mirlama"
+    },
+    "SU_SHRIMPARTY": {
+      "name_original": "Tasty Shrimp Party",
+      "name_tr": "Lezzetli Karides Partisi"
+    },
+    "SU_SPIRITOFLIFE": {
+      "name_original": "Spirit of Life",
+      "name_tr": "Yasam Ruhu"
+    },
+    "SU_MEOWMEOW": {
+      "name_original": "Meow Meow",
+      "name_tr": "Miyav Miyav"
+    },
+    "SU_SPIRITOFLAND": {
+      "name_original": "Spirit of Earth",
+      "name_tr": "Toprak Ruhu"
+    },
+    "SU_CHATTERING": {
+      "name_original": "Chattering",
+      "name_tr": "Cene Calma"
+    },
+    "SU_SPIRITOFSEA": {
+      "name_original": "Spirit of Sea",
+      "name_tr": "Deniz Ruhu"
+    },
+    "ALL_GLASTHEIM_RECALL": {
+      "name_original": "Return to Glastheim",
+      "name_tr": "Glastheim'a Donus"
+    },
+    "GS_GLITTERING": {
+      "name_original": "Coin Flip",
+      "name_tr": "Yazi Tura"
+    },
+    "GS_FLING": {
+      "name_original": "Fling",
+      "name_tr": "Firlatma"
+    },
+    "GS_TRIPLEACTION": {
+      "name_original": "Triple Action",
+      "name_tr": "Uclu Atis"
+    },
+    "GS_BULLSEYE": {
+      "name_original": "Bull's Eye",
+      "name_tr": "Tam Isabet"
+    },
+    "GS_MADNESSCANCEL": {
+      "name_original": "Madness Canceller",
+      "name_tr": "Cinnet Sonlandirici"
+    },
+    "GS_ADJUSTMENT": {
+      "name_original": "Adjustment",
+      "name_tr": "Ayarlama"
+    },
+    "GS_INCREASING": {
+      "name_original": "Increasing Accuracy",
+      "name_tr": "Isabet Artisi"
+    },
+    "GS_MAGICALBULLET": {
+      "name_original": "Magical Bullet",
+      "name_tr": "Buyulu Mermi"
     }
   },
   "name_profiles": {
@@ -1303,5 +1443,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 320
+  "patch_count": 355
 }
