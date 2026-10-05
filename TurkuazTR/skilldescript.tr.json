@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.32.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 820 exact Renewal skill aciklamasi dahil",
+    "version": "2.33.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 826 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -15051,6 +15051,144 @@
         "[Sv 3]: ^777777Vurus Basina ATK 1500%/2250%(^0000FFMadness^777777 Seviye 1)^000000",
         "[Sv 4]: ^777777Vurus Basina ATK 1750%/2500%(^0000FFMadness^777777 Seviye 1)^000000",
         "[Sv 5]: ^777777Vurus Basina ATK 2000%/2750%(^0000FFMadness^777777 Seviye 1)^000000"
+      ]
+    },
+    "AT_FLIP_FLAP": {
+      "name_original": "Flip Flap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sixth Sense 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Guclu bir kanat cirpma ile formasyonu yeniden duzenleyerek sure boyunca menzilli fiziksel hasari ve ^CC6600Critical^777777 sansini artirir.^000000",
+        "[Sv 1]: ^777777Menzilli Fiziksel Hasar +6%/Critical +3/Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Menzilli Fiziksel Hasar +12%/Critical +6/Sure: 120 saniye^000000",
+        "[Sv 3]: ^777777Menzilli Fiziksel Hasar +18%/Critical +9/Sure: 180 saniye^000000",
+        "[Sv 4]: ^777777Menzilli Fiziksel Hasar +24%/Critical +12/Sure: 240 saniye^000000",
+        "[Sv 5]: ^777777Menzilli Fiziksel Hasar +30%/Critical +15/Sure: 300 saniye^000000"
+      ]
+    },
+    "AT_APEX_PHASE": {
+      "name_original": "Apex Phase",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Flip Flap 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000120^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Gokyuzu yirticisinin icgudusu kanatlari sarar; sure boyunca ^0000FFRaptor^777777 saldiri skill'lerine buff kazandirir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 120 saniye^000000",
+        "[Sv 3]: ^777777Sure: 180 saniye^000000",
+        "[Sv 4]: ^777777Sure: 240 saniye^000000",
+        "[Sv 5]: ^777777Sure: 300 saniye^000000"
+      ]
+    },
+    "AT_PINION_SHOT": {
+      "name_original": "Pinion Shot",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Sixth Sense 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Keskin tuylerle avi hizla bastirarak hedef dusmana menzilli fiziksel hasar verir.",
+        "Skill kullanildiginda 1 ^0000FFGale Charge^777777 stack kazanir; en fazla 5 stack birikir. Maksimum stack'e ulastiktan sonra kullanilirsa kullananin cevresindeki 9x9 hucrede bulunan tum party uyelerine ^0000FFGale Acceleration^777777 durumu verir.",
+        " ",
+        "^000000[Gale Acceleration]:^777777",
+        "Tum elementlerle yakin/menzilli fiziksel ve buyusel hasari %15 artirir.",
+        "^0000FFPinion Shot^777777 hasari kullananin ^CC6600Base Level^777777 ve ^CC6600CON^777777 degerine gore ek olarak artar.",
+        " ",
+        "^8041D9Apex Phase^777777 durumundayken etki guclenir:",
+        "^0000FFPinion Shot^777777 hasari +30%.",
+        "Kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 2600%^000000",
+        "[Sv 2]: ^777777ATK 5200%^000000",
+        "[Sv 3]: ^777777ATK 7500%^000000",
+        "[Sv 4]: ^777777ATK 10400%^000000",
+        "[Sv 5]: ^777777ATK 13000%^000000",
+        "[Sv 6]: ^777777ATK 15600%^000000",
+        "[Sv 7]: ^777777ATK 18200%^000000",
+        "[Sv 8]: ^777777ATK 20800%^000000",
+        "[Sv 9]: ^777777ATK 23400%^000000",
+        "[Sv 10]: ^777777ATK 26000%^000000"
+      ]
+    },
+    "AT_QUILL_SPEAR": {
+      "name_original": "Quill Spear",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Pinion Shot 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF3^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Ruzgarla guclendirilmis tuy mizragi avi deler; hedefe ve hedef cevresindeki 3x7 hucre icindeki tum dusmanlara menzilli fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600CON^777777 degerine gore ek olarak artar.",
+        " ",
+        "^8041D9Apex Phase^777777 durumundayken etki guclenir:",
+        "^0000FFQuill Spear^777777 hasari +30%.",
+        "Kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "Etki Alani 5x7 hucre olur.^000000",
+        "[Sv 1]: ^777777ATK 2100%^000000",
+        "[Sv 2]: ^777777ATK 4200%^000000",
+        "[Sv 3]: ^777777ATK 6300%^000000",
+        "[Sv 4]: ^777777ATK 8400%^000000",
+        "[Sv 5]: ^777777ATK 10500%^000000",
+        "[Sv 6]: ^777777ATK 12600%^000000",
+        "[Sv 7]: ^777777ATK 14700%^000000",
+        "[Sv 8]: ^777777ATK 16800%^000000",
+        "[Sv 9]: ^777777ATK 18900%^000000",
+        "[Sv 10]: ^777777ATK 21000%^000000"
+      ]
+    },
+    "AT_TEMPEST_FLAP": {
+      "name_original": "Tempest Flap",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Quill Spear 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Maliyeti: ^FF000020^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Kanatlari siddetle cirparak firtina salar ve hedefe ve menzildeki tum dusmanlara menzilli fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600CON^777777 degerine gore ek olarak artar.",
+        " ",
+        "^8041D9Apex Phase^777777 durumundayken etki guclenir:",
+        "Kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^0000FFTempest Flap^777777 hasari +30%.",
+        "Vurus sayisi 3'e cikar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1400%^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 2800%^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 4200%^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 5600%^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 7000%^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 8400%^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 9800%^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 11200%^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 12600%^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 14000%^000000"
+      ]
+    },
+    "AT_AERO_SYNC": {
+      "name_original": "Aero Sync",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Flip Flap 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Maliyeti: ^FF000030^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 ve ^0000FFFlip Flap^777777 durumunda kullanilabilir. Gokyuzunun akisiyla tasinarak 7 hucre icindeki bir party uyesine aninda ilerler ve hedefe ^0000FFFlip Flap^777777 etkisi uygular.",
+        "^0000FFFlip Flap^777777 etkisi kullananin ogrendigi maksimum skill seviyesinde uygulanir. Kullanan baska bir kisiden ^0000FFFlip Flap^777777 etkisi almissa kullanilamaz.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 120 saniye^000000",
+        "[Sv 3]: ^777777Sure: 180 saniye^000000",
+        "[Sv 4]: ^777777Sure: 240 saniye^000000",
+        "[Sv 5]: ^777777Sure: 300 saniye^000000"
       ]
     }
   }
