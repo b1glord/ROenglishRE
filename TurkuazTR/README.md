@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.6.0
+Version: 1.7.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -93,3 +93,22 @@ Satir yapisi upstream ile birebir olmayan dosyalar `file-overlays.json` registry
 Upstream source blob degisirse whole-file build fail olur ve ceviri yeni upstream ile tekrar gozden gecirilmeden sessizce uygulanmaz.
 
 English profili upstream kaynagini degistirmeden kullanir. Hybrid, Full TR ve Bilingual profilleri line-overlay bilesenlerinde Turkce patch uygular. Bilingual farki su anda skill adlarinda `Turkce (English)` bicimindedir; uzun UI metinlerinde gereksiz cift dil gosterimi yapilmaz.
+
+
+## Quest profil modeli
+
+`questid2display.txt` ve `OngoingQuests.lub` satir bazli generic overlay yerine record-aware byte-safe patch araclariyla yonetilir.
+
+- Canonical Turkce patch: `TurkuazTR/questid2display.tr.json`
+- Quest display apply: `Tools/apply_questid2display_translation.py`
+- OngoingQuests apply: `Tools/apply_ongoingquests_translation.py`
+- Ortak profil builder: `TurkuazTR/tools/build-quest-profile.py`
+
+Profil davranisi:
+
+- `english`: upstream quest display + upstream OngoingQuests.
+- `hybrid`: Turkce quest display + Turkce OngoingQuests.
+- `full_tr`: Turkce quest display + Turkce OngoingQuests.
+- `bilingual`: Turkce quest display + Turkce OngoingQuests.
+
+Bilingual profil uzun quest metinlerinde iki dili ayni anda gostermez. Iki dil birlikte yalnizca kisa skill adlarinda kullanilir. Quest patchleri kaynak byte yapisini, satir sonlarini ve OngoingQuests icindeki korumali NAVI/ITEM taglarini muhafaza eder.
