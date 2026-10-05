@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.2.0
+Version: 1.3.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -42,3 +42,20 @@ Status araci `msgstringtable.txt` icin:
 - gercek ceviri incelemesi gereken yeni satirlari
 
 ayri ayri raporlar. Upstream'de yeni veya degismis bir satir exact listeye otomatik girmez; yeniden incelenmesi gerekir.
+
+
+## Skill profilleri
+
+Skill adlari kaynakta iki alanla birlikte tutulur:
+
+- `name_original`: upstream/orijinal Ingilizce ad.
+- `name_tr`: ASCII Turkce ad.
+
+`TurkuazTR/skill-profiles.json` dort ayri cikis tanimlar:
+
+- `english`: Ingilizce skill adi + orijinal Ingilizce aciklama.
+- `hybrid`: Ingilizce skill adi + Turkce aciklama.
+- `full_tr`: Turkce skill adi + Turkce aciklama.
+- `bilingual`: `Turkce (English)` skill adi + Turkce aciklama.
+
+Generated paketler `TurkuazTR/generated/<profile>/` altinda tutulur. Boylece ceviri verisi tek yerde saklanir; istemciye verilecek dil profili ayri secilir.
