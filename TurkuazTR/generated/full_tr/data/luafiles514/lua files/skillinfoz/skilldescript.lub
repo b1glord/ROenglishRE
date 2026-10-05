@@ -436,7 +436,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^77777710 Vurus, SP Tuketimi: 30^000000"
 	},
 	[SKID.MG_THUNDERSTORM] = {
-		"Thunder Storm",
+		"Gok Gurultulu Firtina",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Lightning Bolt 4^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5030,7 +5030,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777HIT +40^000000"
 	},
 	[SKID.DC_DONTFORGETME] = {
-		"Please Don't Forget Me",
+		"Lutfen Beni Unutma",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Ugly Dance 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5056,7 +5056,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Saldiri Hizi -30%, Hareket Hizi -20%^000000"
 	},
 	[SKID.DC_FORTUNEKISS] = {
-		"Fortune's Kiss",
+		"Sans Opucugu",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Ugly Dance 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5079,7 +5079,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Critical +10, Critical Damage +20%^000000"
 	},
 	[SKID.DC_SERVICEFORYOU] = {
-		"Service For You",
+		"Senin Icin Hizmet",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Ugly Dance 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5426,7 +5426,7 @@ SKILL_DESCRIPT = {
 		"Has 150 seconds duration.^000000"
 	},
 	[SKID.WE_MALE] = {
-		"I'll save you",
+		"Seni Kurtaracagim",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Iyilestirme^000000",
 		"Hedef: ^6666CCKullanan^000000",
@@ -5434,7 +5434,7 @@ SKILL_DESCRIPT = {
 		"Kalan ^CC6600HP^777777, ^CC6600MaksHP^777777'nin %10'undan azsa kullanilamaz.^000000"
 	},
 	[SKID.WE_FEMALE] = {
-		"I'll sacrifice myself for you",
+		"Senin Icin Kendimi Feda Edecegim",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Iyilestirme^000000",
 		"Hedef: ^6666CCKullanan^000000",
@@ -5442,7 +5442,7 @@ SKILL_DESCRIPT = {
 		"Kalan ^CC6600SP^777777, ^CC6600MaksSP^777777'nin %10'undan azsa kullanilamaz.^000000"
 	},
 	[SKID.WE_CALLPARTNER] = {
-		"I miss you",
+		"Seni Ozledim",
 		"Beceri Turu: ^3F0099Aktif^000000",
 		"Tur: ^339900Destek^000000",
 		"Hedef: ^6666CCKullanan^000000",
@@ -5499,7 +5499,7 @@ SKILL_DESCRIPT = {
 		"Aciklama: ^777777Kullananin etrafindaki 7x7 alanda ebeveynlerin statlarini 60 saniye boyunca 3 artirir.^000000"
 	},
 	[SKID.ITM_TOMAHAWK] = {
-		"Tomahawk Throwing",
+		"Tomahawk Firlatma",
 		"Beceri Turu: ^6666CCItem Skill^000000",
 		"Aciklama: ^777777Bir baltayi dusmana firlatarak hasar verir.^000000"
 	},
@@ -10480,7 +10480,7 @@ SKILL_DESCRIPT = {
 		"[Sv 3]: ^777777DEF/MDEF +25%, Sure: 60 saniye^000000"
 	},
 	[SKID.NC_STEALTHFIELD] = {
-		"Stealth Field",
+		"Gizlilik Alani",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Analyze 3, Neutral Barrier 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10537,7 +10537,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777Damage +50, HIT +30^000000"
 	},
 	[SKID.NC_RESEARCHFE] = {
-		"Fire Earth Research",
+		"Ates ve Toprak Arastirmasi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Mechanic Basic^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -10550,7 +10550,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Direnc +50, Hasar +50^000000"
 	},
 	[SKID.NC_AXEBOOMERANG] = {
-		"Axe Boomerang",
+		"Balta Bumerangi",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Axe Training 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10622,7 +10622,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777ATK +1000, Sure: 60 saniye^000000"
 	},
 	[SKID.NC_MAGICDECOY] = {
-		"FAW Magic Decoy",
+		"FAW Buyulu Yem",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: FAW Silver Sniper 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10650,7 +10650,7 @@ SKILL_DESCRIPT = {
 		"Consumes 1 ^990099Monkey Wrench^777777.^000000"
 	},
 	[SKID.SC_FATALMENACE] = {
-		"Fatal Menace",
+		"Olumcul Tehdit",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Intimidate 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10670,7 +10670,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777ATK 1200%, HIT +20 / AoE: 5x5^000000"
 	},
 	[SKID.SC_REPRODUCE] = {
-		"Reproduce",
+		"Kopyalama",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Plagiarism 5^000000",
 		"Beceri Turu: ^3F0099Aktif (Toggle)^000000",
@@ -10683,7 +10683,7 @@ SKILL_DESCRIPT = {
 		"artiran item veya linker gibi ozel etkiler uygulanmaz.^000000"
 	},
 	[SKID.SC_AUTOSHADOWSPELL] = {
-		"Auto Shadow Spell",
+		"Otomatik Golge Buyusu",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Reproduce 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10765,7 +10765,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Blind %63, ASPD Dusurme %45, Sure: 13 saniye^000000"
 	},
 	[SKID.SC_INVISIBILITY] = {
-		"Invisibility",
+		"Gorunmezlik",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Auto Shadow Spell 7,",
 		"Deadly Infection 5, Masquerade Unlucky 3^000000",
@@ -10824,7 +10824,7 @@ SKILL_DESCRIPT = {
 		"[Lv 3]: ^777777Damage -50%, Duration: 20 seconds^000000"
 	},
 	[SKID.SC_GROOMY] = {
-		"Masquerade Gloomy",
+		"Maskeli Keder",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Body Painting 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10839,7 +10839,7 @@ SKILL_DESCRIPT = {
 		"[Sv 3]: ^777777Saldiri Hizi +50%, HIT -60%, Sure: 20 saniye^000000"
 	},
 	[SKID.SC_IGNORANCE] = {
-		"Masquerade Ignorance",
+		"Maskeli Cehalet",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Body Painting 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -10879,7 +10879,7 @@ SKILL_DESCRIPT = {
 		"Duration: 20 seconds^000000"
 	},
 	[SKID.SC_UNLUCKY] = {
-		"Masquerade Unlucky",
+		"Maskeli Sanssizlik",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Masquerade Laziness 1,",
 		"Masquerade Weakness 1^000000",
@@ -10896,7 +10896,7 @@ SKILL_DESCRIPT = {
 		"[Sv 3]: ^777777Critical -30, Perfect Dodge -30, Sure: 20 saniye^000000"
 	},
 	[SKID.SC_WEAKNESS] = {
-		"Masquerade Weakness",
+		"Maskeli Zayiflik",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Masquerade Enervation 1,",
 		"Masquerade Groomy 1,",

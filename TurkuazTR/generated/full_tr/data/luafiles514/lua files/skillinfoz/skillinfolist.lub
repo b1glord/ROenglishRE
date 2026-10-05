@@ -9904,7 +9904,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DC_DONTFORGETME] = {
 		"DC_DONTFORGETME",
-		SkillName = "Please Don't Forget Me",
+		SkillName = "Lutfen Beni Unutma",
 		MaxLv = 10,
 		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
@@ -9915,7 +9915,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_WEAKNESS] = {
 		"SC_WEAKNESS",
-		SkillName = "Masquerade Weakness",
+		SkillName = "Maskeli Zayiflik",
 		MaxLv = 3,
 		SpAmount = { 30, 40, 50 },
 		bSeperateLv = true,
@@ -9928,7 +9928,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DC_FORTUNEKISS] = {
 		"DC_FORTUNEKISS",
-		SkillName = "Fortune's Kiss",
+		SkillName = "Sans Opucugu",
 		MaxLv = 10,
 		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
@@ -9939,7 +9939,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_UNLUCKY] = {
 		"SC_UNLUCKY",
-		SkillName = "Masquerade Unlucky",
+		SkillName = "Maskeli Sanssizlik",
 		MaxLv = 3,
 		SpAmount = { 30, 40, 50 },
 		bSeperateLv = true,
@@ -9951,7 +9951,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DC_SERVICEFORYOU] = {
 		"DC_SERVICEFORYOU",
-		SkillName = "Service For You",
+		SkillName = "Senin Icin Hizmet",
 		MaxLv = 10,
 		SpAmount = { 60, 63, 66, 69, 72, 75, 78, 81, 84, 87 },
 		bSeperateLv = true,
@@ -9962,7 +9962,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_IGNORANCE] = {
 		"SC_IGNORANCE",
-		SkillName = "Masquerade Ignorance",
+		SkillName = "Maskeli Cehalet",
 		MaxLv = 3,
 		SpAmount = { 30, 40, 50 },
 		bSeperateLv = true,
@@ -9973,7 +9973,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_GROOMY] = {
 		"SC_GROOMY",
-		SkillName = "Masquerade Gloomy",
+		SkillName = "Maskeli Keder",
 		MaxLv = 3,
 		SpAmount = { 30, 40, 50 },
 		bSeperateLv = true,
@@ -9984,7 +9984,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_INVISIBILITY] = {
 		"SC_INVISIBILITY",
-		SkillName = "Invisibility",
+		SkillName = "Gorunmezlik",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		bSeperateLv = true,
@@ -9997,7 +9997,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_AUTOSHADOWSPELL] = {
 		"SC_AUTOSHADOWSPELL",
-		SkillName = "Auto Shadow Spell",
+		SkillName = "Otomatik Golge Buyusu",
 		MaxLv = 10,
 		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
@@ -10008,7 +10008,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_REPRODUCE] = {
 		"SC_REPRODUCE",
-		SkillName = "Reproduce",
+		SkillName = "Kopyalama",
 		MaxLv = 10,
 		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
@@ -10019,7 +10019,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_FATALMENACE] = {
 		"SC_FATALMENACE",
-		SkillName = "Fatal Menace",
+		SkillName = "Olumcul Tehdit",
 		MaxLv = 10,
 		SpAmount = { 10, 14, 18, 22, 26, 30, 34, 38, 42, 46 },
 		bSeperateLv = true,
@@ -10030,7 +10030,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_MAGICDECOY] = {
 		"NC_MAGICDECOY",
-		SkillName = "FAW Magic Decoy",
+		SkillName = "FAW Buyulu Yem",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -10041,7 +10041,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_MALE] = {
 		"WE_MALE",
-		SkillName = "I'll save you",
+		SkillName = "Seni Kurtaracagim",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -10049,7 +10049,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_AXEBOOMERANG] = {
 		"NC_AXEBOOMERANG",
-		SkillName = "Axe Boomerang",
+		SkillName = "Balta Bumerangi",
 		MaxLv = 5,
 		SpAmount = { 20, 22, 24, 26, 28 },
 		bSeperateLv = true,
@@ -10060,7 +10060,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_FEMALE] = {
 		"WE_FEMALE",
-		SkillName = "I'll sacrifice myself for you",
+		SkillName = "Senin Icin Kendimi Feda Edecegim",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -10068,7 +10068,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MG_THUNDERSTORM] = {
 		"MG_THUNDERSTORM",
-		SkillName = "Thunder Storm",
+		SkillName = "Gok Gurultulu Firtina",
 		MaxLv = 10,
 		SpAmount = { 29, 34, 39, 44, 49, 54, 59, 64, 69, 74 },
 		bSeperateLv = true,
@@ -10079,7 +10079,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_CALLPARTNER] = {
 		"WE_CALLPARTNER",
-		SkillName = "I miss you",
+		SkillName = "Seni Ozledim",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -10087,7 +10087,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_RESEARCHFE] = {
 		"NC_RESEARCHFE",
-		SkillName = "Fire Earth Research",
+		SkillName = "Ates ve Toprak Arastirmasi",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10096,7 +10096,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ITM_TOMAHAWK] = {
 		"ITM_TOMAHAWK",
-		SkillName = "Tomahawk Throwing",
+		SkillName = "Tomahawk Firlatma",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -10104,7 +10104,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_STEALTHFIELD] = {
 		"NC_STEALTHFIELD",
-		SkillName = "Stealth Field",
+		SkillName = "Gizlilik Alani",
 		MaxLv = 3,
 		SpAmount = { 80, 100, 120 },
 		bSeperateLv = true,
