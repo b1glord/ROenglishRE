@@ -1,0 +1,481 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/battlefieldinfo.tr.json",
+    "purpose": "Battlefield yardim, kural ve mod aciklamalarini ASCII Turkce ile yerellestirir",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "battlefieldinfo.lub icindeki 116 kullanici gorunur satiri Turkcelestirir; komut ve dahili ID adlari korunur",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/battlefield/battlefieldinfo.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "123ae8f98e39155e74fa622765dacb57642e2117",
+  "source_line_count": 202,
+  "patch_count": 116,
+  "patches": {
+    "18": {
+      "source_en": "\t\t\"[Settings]\",",
+      "translation_tr": "\t\t\"[Ayarlar]\","
+    },
+    "19": {
+      "source_en": "\t\t\"^0000FF1. Display Icon^000000\",",
+      "translation_tr": "\t\t\"^0000FF1. Simgeyi Goster^000000\","
+    },
+    "20": {
+      "source_en": "\t\t\" Graphics Settings window,\",",
+      "translation_tr": "\t\t\" Grafik Ayarlari penceresinde,\","
+    },
+    "21": {
+      "source_en": "\t\t\" Basic Information and Battle Icon are located at the bottom\",",
+      "translation_tr": "\t\t\" Temel Bilgi ve Savas Alani simgesi alt kisimda bulunur\","
+    },
+    "22": {
+      "source_en": "\t\t\" Can be turned On/Off.\",",
+      "translation_tr": "\t\t\" Acilip kapatilabilir.\","
+    },
+    "24": {
+      "source_en": "\t\t\"^0000FF2. Hotkey Settings^000000\",",
+      "translation_tr": "\t\t\"^0000FF2. Kisayol Ayarlari^000000\","
+    },
+    "25": {
+      "source_en": "\t\t\" Settings window shortcut, UI Tabs\",",
+      "translation_tr": "\t\t\" Ayarlar penceresi kisayolu, UI sekmeleri\","
+    },
+    "26": {
+      "source_en": "\t\t\" Setup the window position of the battlefield\",",
+      "translation_tr": "\t\t\" Savas alani penceresinin konumunu ayarlayin\","
+    },
+    "27": {
+      "source_en": "\t\t\" Can customize shortcut keys.\",",
+      "translation_tr": "\t\t\" Kisayol tuslarini ozellestirebilirsiniz.\","
+    },
+    "29": {
+      "source_en": "\t\t\"^0000FF3. Instruction^000000\",",
+      "translation_tr": "\t\t\"^0000FF3. Komutlar^000000\","
+    },
+    "31": {
+      "source_en": "\t\t\"\t:Turns Battle Icon On/Off\",",
+      "translation_tr": "\t\t\"\t:Savas Alani simgesini Ac/Kapat\","
+    },
+    "33": {
+      "source_en": "\t\t\"\t:Set the Battlefield Window Position On/Off\",",
+      "translation_tr": "\t\t\"\t:Savas Alani penceresi konumunu Ac/Kapat\","
+    },
+    "36": {
+      "source_en": "\t\t\"[Feature]\",",
+      "translation_tr": "\t\t\"[Ozellikler]\","
+    },
+    "37": {
+      "source_en": "\t\t\"^0000FF1. View Information about Battlefield.^000000\",",
+      "translation_tr": "\t\t\"^0000FF1. Savas Alani bilgilerini goruntule.^000000\","
+    },
+    "38": {
+      "source_en": "\t\t\" Settings Battlefield window position,\",",
+      "translation_tr": "\t\t\" Savas Alani penceresinin konumunu ayarlayin,\","
+    },
+    "39": {
+      "source_en": "\t\t\" By clicking the Battlefield name from the window,\",",
+      "translation_tr": "\t\t\" penceredeki Savas Alani adina tiklayarak\","
+    },
+    "40": {
+      "source_en": "\t\t\" you will be able to view a certain information about it.\",",
+      "translation_tr": "\t\t\" ilgili bilgileri goruntuleyebilirsiniz.\","
+    },
+    "42": {
+      "source_en": "\t\t\"^0000FF2. How to Signup^000000\",",
+      "translation_tr": "\t\t\"^0000FF2. Nasil Kayit Olunur^000000\","
+    },
+    "43": {
+      "source_en": "\t\t\" Click the specific NPC recruiter for the battlefield you want.\",",
+      "translation_tr": "\t\t\" Katilmak istediginiz savas alani icin ilgili NPC kayit gorevlisine tiklayin.\","
+    },
+    "45": {
+      "source_en": "\t\t\"^0000FF3. Queue Status^000000\",",
+      "translation_tr": "\t\t\"^0000FF3. Kuyruk Durumu^000000\","
+    },
+    "46": {
+      "source_en": "\t\t\" Click the View Button to check\",",
+      "translation_tr": "\t\t\" Goruntule dugmesine tiklayarak\","
+    },
+    "47": {
+      "source_en": "\t\t\" the current queue status of the\",",
+      "translation_tr": "\t\t\" ilgili Savas Alaninin mevcut\","
+    },
+    "48": {
+      "source_en": "\t\t\" corresponding Battlefield.\",",
+      "translation_tr": "\t\t\" kuyruk durumunu kontrol edebilirsiniz.\","
+    },
+    "51": {
+      "source_en": "\t\t\"[Exceptions]\",",
+      "translation_tr": "\t\t\"[Istisnalar]\","
+    },
+    "52": {
+      "source_en": "\t\t\"^0000FF1. Application is ^FF0000not^0000FF available when^000000\",",
+      "translation_tr": "\t\t\"^0000FF1. Su durumlarda basvuru ^FF0000yapilamaz^0000FF:^000000\","
+    },
+    "53": {
+      "source_en": "\t\t\" - Battlefield is already in progress\",",
+      "translation_tr": "\t\t\" - Savas Alani zaten devam ediyorsa\","
+    },
+    "54": {
+      "source_en": "\t\t\" - You are in a WoE map\",",
+      "translation_tr": "\t\t\" - Bir WoE haritasindaysaniz\","
+    },
+    "55": {
+      "source_en": "\t\t\" - You are currently inside a Memorial Dungeon\",",
+      "translation_tr": "\t\t\" - Bir Anit Zindaninin icindeyseniz\","
+    },
+    "56": {
+      "source_en": "\t\t\" - Your character is dead\",",
+      "translation_tr": "\t\t\" - Karakteriniz olu durumdaysa\","
+    },
+    "58": {
+      "source_en": "\t\t\"^0000FF2. Application is ^FF0000cancelled^0000FF when^000000\",",
+      "translation_tr": "\t\t\"^0000FF2. Su durumlarda basvuru ^FF0000iptal edilir^0000FF:^000000\","
+    },
+    "59": {
+      "source_en": "\t\t\" - Your character suddenly died when entering the battlefield\",",
+      "translation_tr": "\t\t\" - Savas alanina girerken karakteriniz olurse\","
+    },
+    "60": {
+      "source_en": "\t\t\" - Battlefield is already in progress\",",
+      "translation_tr": "\t\t\" - Savas Alani zaten devam ediyorsa\","
+    },
+    "61": {
+      "source_en": "\t\t\" - You are in a WoE map\",",
+      "translation_tr": "\t\t\" - Bir WoE haritasindaysaniz\","
+    },
+    "62": {
+      "source_en": "\t\t\" - You are currently inside a Memorial Dungeon\",",
+      "translation_tr": "\t\t\" - Bir Anit Zindaninin icindeyseniz\","
+    },
+    "63": {
+      "source_en": "\t\t\" - Game is not running\",",
+      "translation_tr": "\t\t\" - Oyun calismiyorsa\","
+    },
+    "65": {
+      "source_en": "\t\t\"^0000FF3. Battlefield Teleportation is ^FF0000pending^0000FF when^000000\",",
+      "translation_tr": "\t\t\"^0000FF3. Savas Alani isinlanmasi su durumda ^FF0000beklemededir^0000FF:^000000\","
+    },
+    "66": {
+      "source_en": "\t\t\" - The teleportation is currently not possible.\",",
+      "translation_tr": "\t\t\" - Isinlanma su anda mumkun degilse.\","
+    },
+    "67": {
+      "source_en": "\t\t\" - Other participants are not ready yet.\",",
+      "translation_tr": "\t\t\" - Diger katilimcilar henuz hazir degilse.\","
+    },
+    "68": {
+      "source_en": "\t\t\" If you just wait long enough, you will be\",",
+      "translation_tr": "\t\t\" Bir sure beklerseniz\","
+    },
+    "69": {
+      "source_en": "\t\t\" teleported to the battlfield automatically.\",",
+      "translation_tr": "\t\t\" savas alanina otomatik olarak isinlanirsiniz.\","
+    },
+    "72": {
+      "source_en": "\t\t\"[Rewards for Playing]\",",
+      "translation_tr": "\t\t\"[Katilim Odulleri]\","
+    },
+    "73": {
+      "source_en": "\t\t\"^0000FF1. Points^000000\",",
+      "translation_tr": "\t\t\"^0000FF1. Puanlar^000000\","
+    },
+    "74": {
+      "source_en": "\t\t\" If the full length Battlefield is done\",",
+      "translation_tr": "\t\t\" Savas Alani maci tamamlandiginda\","
+    },
+    "75": {
+      "source_en": "\t\t\" Depending on the winner ^FF0000a certain amount of points^000000\",",
+      "translation_tr": "\t\t\" kazanan tarafa gore ^FF0000belirli miktarda puan^000000\","
+    },
+    "76": {
+      "source_en": "\t\t\" can be obtained.\",",
+      "translation_tr": "\t\t\" kazanilabilir.\","
+    },
+    "77": {
+      "source_en": "\t\t\" You can obtain various items\",",
+      "translation_tr": "\t\t\" Biriktirdiginiz puanlarla\","
+    },
+    "78": {
+      "source_en": "\t\t\" by using the points accumulated.\",",
+      "translation_tr": "\t\t\" cesitli esyalar alabilirsiniz.\","
+    },
+    "80": {
+      "source_en": "\t\t\"^0000FF2. Points/Badges Exchanging^000000\",",
+      "translation_tr": "\t\t\"^0000FF2. Puan/Rozet Takasi^000000\","
+    },
+    "81": {
+      "source_en": "\t\t\" Click the Maroll the Recruiter\",",
+      "translation_tr": "\t\t\" Kayit Gorevlisi Maroll'a tiklayarak\","
+    },
+    "82": {
+      "source_en": "\t\t\" to warp to the Battlefield area.\",",
+      "translation_tr": "\t\t\" Savas Alani bolgesine isinlanin.\","
+    },
+    "83": {
+      "source_en": "\t\t\" From there you can find the\",",
+      "translation_tr": "\t\t\" Orada cesitli esyalarla takas yapan\","
+    },
+    "84": {
+      "source_en": "\t\t\" NPCs that exchanges for various items.\",",
+      "translation_tr": "\t\t\" NPC'leri bulabilirsiniz.\","
+    },
+    "86": {
+      "source_en": "\t\t\"^0000FF3. Situations for Point Reward Changes^000000\",",
+      "translation_tr": "\t\t\"^0000FF3. Puan Odulunun Degisebildigi Durumlar^000000\","
+    },
+    "87": {
+      "source_en": "\t\t\" - Some participants have deserted the match.\",",
+      "translation_tr": "\t\t\" - Bazi katilimcilar maci terk etmisse.\","
+    },
+    "88": {
+      "source_en": "\t\t\" - Deserters ^FF000000won't recieve^000000 any reward.\",",
+      "translation_tr": "\t\t\" - Maci terk edenler ^FF000000odul alamaz^000000.\","
+    },
+    "89": {
+      "source_en": "\t\t\" - The reward amount may change dynamically\",",
+      "translation_tr": "\t\t\" - Odul miktari dinamik olarak degisebilir\","
+    },
+    "90": {
+      "source_en": "\t\t\"   depending on the number of participants\",",
+      "translation_tr": "\t\t\"   katilimci sayisina bagli olarak\","
+    },
+    "91": {
+      "source_en": "\t\t\"   within a certain period of time after the\",",
+      "translation_tr": "\t\t\"   mac basladiktan sonraki belirli bir\","
+    },
+    "92": {
+      "source_en": "\t\t\"   start of the match.\",",
+      "translation_tr": "\t\t\"   sure icinde.\","
+    },
+    "93": {
+      "source_en": "\t\t\" - The reward amount is calculated\",",
+      "translation_tr": "\t\t\" - Odul miktari\","
+    },
+    "94": {
+      "source_en": "\t\t\"   during the match.\"",
+      "translation_tr": "\t\t\"   mac sirasinda hesaplanir.\""
+    },
+    "97": {
+      "source_en": "\t\t\"1. ^0000FFName^000000: Flavius Battlefield\",",
+      "translation_tr": "\t\t\"1. ^0000FFAd^000000: Flavius Savas Alani\","
+    },
+    "99": {
+      "source_en": "\t\t\"2. ^0000FFMatch Type^000000: ^FF000010^000000 vs ^FF000010^000000\",",
+      "translation_tr": "\t\t\"2. ^0000FFMac Turu^000000: ^FF000010^000000 vs ^FF000010^000000\","
+    },
+    "101": {
+      "source_en": "\t\t\"3. ^0000FFRequired Level^000000: ^FF0000Level 80 and up^000000\",",
+      "translation_tr": "\t\t\"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000\","
+    },
+    "103": {
+      "source_en": "\t\t\"4. ^0000FFDescription^000000\",",
+      "translation_tr": "\t\t\"4. ^0000FFAciklama^000000\","
+    },
+    "104": {
+      "source_en": "\t\t\" To win the battle, the opposing team's\",",
+      "translation_tr": "\t\t\" Savasi kazanmak icin rakip takimin\","
+    },
+    "105": {
+      "source_en": "\t\t\" ^FF0000Crystal^000000 must be destroyed.\",",
+      "translation_tr": "\t\t\" ^FF0000Kristali^000000 yok edilmelidir.\","
+    },
+    "106": {
+      "source_en": "\t\t\" However, keep in mind that near the crystal\",",
+      "translation_tr": "\t\t\" Ancak kristalin yakininda\","
+    },
+    "107": {
+      "source_en": "\t\t\" there are powerful guardians defending it.\",",
+      "translation_tr": "\t\t\" onu koruyan guclu muhafizlar oldugunu unutmayin.\","
+    },
+    "108": {
+      "source_en": "\t\t\" 1 Point will be given to the team\",",
+      "translation_tr": "\t\t\" Kristali basariyla yok eden takima\","
+    },
+    "109": {
+      "source_en": "\t\t\" for successfully destroying the crystal.\",",
+      "translation_tr": "\t\t\" 1 puan verilir.\","
+    },
+    "110": {
+      "source_en": "\t\t\" Your team wins when you\",",
+      "translation_tr": "\t\t\" Takiminiz\","
+    },
+    "111": {
+      "source_en": "\t\t\" obtain 2 points.\",",
+      "translation_tr": "\t\t\" 2 puana ulastiginda kazanir.\","
+    },
+    "113": {
+      "source_en": "\t\t\"5. ^0000FFCamp Information^000000\",",
+      "translation_tr": "\t\t\"5. ^0000FFKamp Bilgisi^000000\","
+    },
+    "114": {
+      "source_en": "\t\t\" Camp A - Guillaume team.\",",
+      "translation_tr": "\t\t\" Kamp A - Guillaume takimi.\","
+    },
+    "115": {
+      "source_en": "\t\t\" Camp B - Croix team.\",",
+      "translation_tr": "\t\t\" Kamp B - Croix takimi.\","
+    },
+    "117": {
+      "source_en": "\t\t\" For more information about each sides\",",
+      "translation_tr": "\t\t\" Taraflar hakkinda daha fazla bilgi icin\","
+    },
+    "118": {
+      "source_en": "\t\t\" go to \\'Battlefield Waiting Room\\'.\",",
+      "translation_tr": "\t\t\" Battlefield Bekleme Odasi'na gidin.\","
+    },
+    "119": {
+      "source_en": "\t\t\" You can go and talk to a \", ",
+      "translation_tr": "\t\t\" Gidip\", "
+    },
+    "120": {
+      "source_en": "\t\t\" \\'^FF0000Maroll Battle Recruiter^000000\\' NPC\",",
+      "translation_tr": "\t\t\" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.\","
+    },
+    "123": {
+      "source_en": "\t\t\"1. ^0000FFName^000000: Tierra Gorge\",",
+      "translation_tr": "\t\t\"1. ^0000FFAd^000000: Tierra Gorge\","
+    },
+    "125": {
+      "source_en": "\t\t\"2. ^0000FFMatch Type^000000: ^FF000010^000000 vs ^FF000010^000000\",",
+      "translation_tr": "\t\t\"2. ^0000FFMac Turu^000000: ^FF000010^000000 vs ^FF000010^000000\","
+    },
+    "127": {
+      "source_en": "\t\t\"3. ^0000FFRequired Level^000000: ^FF0000Level 80 and up^000000\",",
+      "translation_tr": "\t\t\"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000\","
+    },
+    "129": {
+      "source_en": "\t\t\"4. ^0000FFDescription^000000\",",
+      "translation_tr": "\t\t\"4. ^0000FFAciklama^000000\","
+    },
+    "130": {
+      "source_en": "\t\t\" To win the battle, the opposing team's\",",
+      "translation_tr": "\t\t\" Savasi kazanmak icin rakip takimin\","
+    },
+    "131": {
+      "source_en": "\t\t\" ^FF0000Storehouse^000000 must be destroyed.\",",
+      "translation_tr": "\t\t\" ^FF0000Deposu^000000 yok edilmelidir.\","
+    },
+    "132": {
+      "source_en": "\t\t\" By occupying the Central Base(Neutral Camp)\",",
+      "translation_tr": "\t\t\" Merkez Ussu (Tarafsiz Kamp) ele gecirerek\","
+    },
+    "133": {
+      "source_en": "\t\t\" you will be able to respawn in that area instead of your base camp.\",",
+      "translation_tr": "\t\t\" kendi ana kampiniz yerine bu bolgede yeniden dogabilirsiniz.\","
+    },
+    "134": {
+      "source_en": "\t\t\" Summoning a guardian is a good strategy.\",",
+      "translation_tr": "\t\t\" Bir muhafiz cagirmak iyi bir stratejidir.\","
+    },
+    "135": {
+      "source_en": "\t\t\" However, do not forget that you still have to \",",
+      "translation_tr": "\t\t\" Ancak yine de\","
+    },
+    "136": {
+      "source_en": "\t\t\" defend your Storehouse in your base camp.\",",
+      "translation_tr": "\t\t\" ana kampinizdaki Depoyu savunmaniz gerektigini unutmayin.\","
+    },
+    "138": {
+      "source_en": "\t\t\"5. ^0000FFCamp Information^000000\",",
+      "translation_tr": "\t\t\"5. ^0000FFKamp Bilgisi^000000\","
+    },
+    "139": {
+      "source_en": "\t\t\" Camp A - Guillaume team.\",",
+      "translation_tr": "\t\t\" Kamp A - Guillaume takimi.\","
+    },
+    "140": {
+      "source_en": "\t\t\" Camp B - Croix team.\",",
+      "translation_tr": "\t\t\" Kamp B - Croix takimi.\","
+    },
+    "142": {
+      "source_en": "\t\t\" For more information about each sides\",",
+      "translation_tr": "\t\t\" Taraflar hakkinda daha fazla bilgi icin\","
+    },
+    "143": {
+      "source_en": "\t\t\" go to \\'Battlefield Waiting Room\\'.\",",
+      "translation_tr": "\t\t\" Battlefield Bekleme Odasi'na gidin.\","
+    },
+    "144": {
+      "source_en": "\t\t\" You can go and talk to a \", ",
+      "translation_tr": "\t\t\" Gidip\", "
+    },
+    "145": {
+      "source_en": "\t\t\" \\'^FF0000Maroll Battle Recruiter^000000\\' NPC\",",
+      "translation_tr": "\t\t\" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.\","
+    },
+    "148": {
+      "source_en": "\t\t\"1. ^0000FFName^000000: Krieger von Midgard\",",
+      "translation_tr": "\t\t\"1. ^0000FFAd^000000: Krieger von Midgard\","
+    },
+    "150": {
+      "source_en": "\t\t\"2. ^0000FFMatch Type^000000: ^FF00005^000000 vs ^FF00005^000000\",",
+      "translation_tr": "\t\t\"2. ^0000FFMac Turu^000000: ^FF00005^000000 vs ^FF00005^000000\","
+    },
+    "152": {
+      "source_en": "\t\t\"3. ^0000FFRequired Level^000000: ^FF0000Level 80 and up^000000\",",
+      "translation_tr": "\t\t\"3. ^0000FFGerekli Seviye^000000: ^FF0000Seviye 80 ve uzeri^000000\","
+    },
+    "154": {
+      "source_en": "\t\t\"4. ^0000FFDescription^000000\",",
+      "translation_tr": "\t\t\"4. ^0000FFAciklama^000000\","
+    },
+    "155": {
+      "source_en": "\t\t\" In some areas a \\'soldier\\'\",",
+      "translation_tr": "\t\t\" Bazi bolgelerde 'asker'\","
+    },
+    "156": {
+      "source_en": "\t\t\"\tis called Krieger.\",",
+      "translation_tr": "\t\t\"\tKrieger olarak adlandirilir.\","
+    },
+    "157": {
+      "source_en": "\t\t\" In other words \\\"Krieger von Midgard\\\" means\",",
+      "translation_tr": "\t\t\" Baska bir deyisle \\\"Krieger von Midgard\\\"\","
+    },
+    "158": {
+      "source_en": "\t\t\" Soldiers of Midgard.\",",
+      "translation_tr": "\t\t\" Midgard Askerleri anlamina gelir.\","
+    },
+    "159": {
+      "source_en": "\t\t\" Defeat the opposing side.\",",
+      "translation_tr": "\t\t\" Rakip tarafi yenin.\","
+    },
+    "160": {
+      "source_en": "\t\t\" from the battlefield area\",",
+      "translation_tr": "\t\t\" Savas alani bolgesinde\","
+    },
+    "161": {
+      "source_en": "\t\t\" to prove that you are the bravest soldier..\",",
+      "translation_tr": "\t\t\" en cesur asker oldugunuzu kanitlayin.\","
+    },
+    "163": {
+      "source_en": "\t\t\"5. ^0000FFCamp Information^000000\",",
+      "translation_tr": "\t\t\"5. ^0000FFKamp Bilgisi^000000\","
+    },
+    "164": {
+      "source_en": "\t\t\" Camp A - Guillaume team.\",",
+      "translation_tr": "\t\t\" Kamp A - Guillaume takimi.\","
+    },
+    "165": {
+      "source_en": "\t\t\" Camp B - Croix team.\",",
+      "translation_tr": "\t\t\" Kamp B - Croix takimi.\","
+    },
+    "167": {
+      "source_en": "\t\t\" For more information about each sides\",",
+      "translation_tr": "\t\t\" Taraflar hakkinda daha fazla bilgi icin\","
+    },
+    "168": {
+      "source_en": "\t\t\" go to \\'Battlefield Waiting Room\\'.\",",
+      "translation_tr": "\t\t\" Battlefield Bekleme Odasi'na gidin.\","
+    },
+    "169": {
+      "source_en": "\t\t\" You can go and talk to a \", ",
+      "translation_tr": "\t\t\" Gidip\", "
+    },
+    "170": {
+      "source_en": "\t\t\" \\'^FF0000Maroll Battle Recruiter^000000\\' NPC\",",
+      "translation_tr": "\t\t\" ^FF0000Maroll Savas Kayit Gorevlisi^000000 NPC'si ile konusabilirsiniz.\","
+    }
+  }
+}
