@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.2.0
-# Aciklama: Upstream 2026, Turkce overlay ve 2022 client entegrasyon dallarini sabitler
+# Version: 2.3.0
+# Aciklama: Upstream 2026, Turkce overlay, yardim/unvan/harita localization ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -95,12 +95,36 @@ sync:
     patch: "TurkuazTR/sign_data.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   navi_data:
-    status: translated_partial
+    status: translated_complete
     translated_lines: 2273
     review_scope: "generic_npc_object_and_map_labels_complete"
     intentional_remaining: "canonical_proper_names_and_monster_names"
     strategy: exact_source_overlay
     patch: "TurkuazTR/navi_data.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
+  help_messages:
+    status: translated_complete
+    translated_lines: 79
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/helpmsgstr.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
+  titles:
+    status: translated_complete
+    translated_lines: 47
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/titletable.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
+  worldview:
+    status: translated_complete_with_intentional_names
+    translated_lines: 377
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/worldviewdata_language.tr.json"
+    profiles: "TurkuazTR/localization-profiles.json"
+  map_names:
+    status: translated_complete_with_intentional_names
+    translated_lines: 1144
+    strategy: exact_source_overlay
+    patch: "TurkuazTR/mapnametable.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   quest_display:
     status: translated_record_overlay
