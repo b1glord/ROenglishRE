@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.8.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 140 exact Renewal skill aciklamasi dahil",
+    "version": "1.9.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 160 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -2735,6 +2735,338 @@
         "[Sv 1]: ^777777MaksHP -10%, Sure: 10 saniye^000000",
         "[Sv 2]: ^777777MaksHP -20%, Sure: 15 saniye^000000",
         "[Sv 3]: ^777777MaksHP -30%, Sure: 20 saniye^000000"
+      ]
+    },
+    "DC_FORTUNEKISS": {
+      "name_original": "Fortune's Kiss",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ugly Dance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Dance Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullananin ve menzildeki party uyelerinin",
+        "^CC6600Critical^777777 ve ^CC6600Critical Damage^777777 degerlerini 180 saniye artirir.",
+        "Diger ^0000FFDance^777777 skill'leriyle ust uste binmez.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Critical +1, Critical Damage +2%^000000",
+        "[Sv 2]: ^777777Critical +2, Critical Damage +4%^000000",
+        "[Sv 3]: ^777777Critical +3, Critical Damage +6%^000000",
+        "[Sv 4]: ^777777Critical +4, Critical Damage +8%^000000",
+        "[Sv 5]: ^777777Critical +5, Critical Damage +10%^000000",
+        "[Sv 6]: ^777777Critical +6, Critical Damage +12%^000000",
+        "[Sv 7]: ^777777Critical +7, Critical Damage +14%^000000",
+        "[Sv 8]: ^777777Critical +8, Critical Damage +16%^000000",
+        "[Sv 9]: ^777777Critical +9, Critical Damage +18%^000000",
+        "[Sv 10]: ^777777Critical +10, Critical Damage +20%^000000"
+      ]
+    },
+    "SC_UNLUCKY": {
+      "name_original": "Masquerade Unlucky",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Masquerade Laziness 1,",
+        "Masquerade Weakness 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin ^CC6600Critical^777777 ve ^CC6600Perfect Dodge^777777 degerlerini azaltir.",
+        "Hedef her skill kullandiginda belirli miktarda Zeny tuketir.",
+        "Hedefe ^663399Poison^777777, ^663399Blind^777777 veya ^663399Silence^777777 durumlarindan birini uygular.",
+        "Basari sansi kullanan ve hedefin seviye ve statlarina baglidir.",
+        "^990099Makeover Brush^777777 gerektirir. 1 ^990099Face Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Critical -10, Perfect Dodge -10, Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777Critical -20, Perfect Dodge -20, Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777Critical -30, Perfect Dodge -30, Sure: 20 saniye^000000"
+      ]
+    },
+    "DC_SERVICEFORYOU": {
+      "name_original": "Service For You",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ugly Dance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Dance Skill^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Menzil: ^77777731x31 AoE^000000",
+        "Aciklama: ^777777Kullananin ve menzildeki party uyelerinin ^CC6600MaksSP^777777 degerini artirir,",
+        "^CC6600SP^777777 tuketimini 180 saniye azaltir. Diger ^0000FFDance^777777 skill'leriyle ust uste binmez.",
+        "^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777MaksSP +10%, SP Tuketimi -6%^000000",
+        "[Sv 2]: ^777777MaksSP +11%, SP Tuketimi -7%^000000",
+        "[Sv 3]: ^777777MaksSP +12%, SP Tuketimi -8%^000000",
+        "[Sv 4]: ^777777MaksSP +13%, SP Tuketimi -9%^000000",
+        "[Sv 5]: ^777777MaksSP +14%, SP Tuketimi -10%^000000",
+        "[Sv 6]: ^777777MaksSP +15%, SP Tuketimi -11%^000000",
+        "[Sv 7]: ^777777MaksSP +16%, SP Tuketimi -12%^000000",
+        "[Sv 8]: ^777777MaksSP +17%, SP Tuketimi -13%^000000",
+        "[Sv 9]: ^777777MaksSP +18%, SP Tuketimi -14%^000000",
+        "[Sv 10]: ^777777MaksSP +20%, SP Tuketimi -15%^000000"
+      ]
+    },
+    "SC_IGNORANCE": {
+      "name_original": "Masquerade Ignorance",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Body Painting 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin SP'sinin yarisini emer. Monster'larda emilen SP miktari",
+        "monster seviyesine baglidir. Etki aktifken hedef magic veya skill kullanamaz.",
+        "Basari sansi kullanan ve hedefin seviye ve statlarina baglidir.",
+        "^990099Makeover Brush^777777 gerektirir. 1 ^990099Face Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777100 SP Emer, Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777200 SP Emer, Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777300 SP Emer, Sure: 20 saniye^000000"
+      ]
+    },
+    "SC_GROOMY": {
+      "name_original": "Masquerade Gloomy",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Body Painting 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin HIT ve saldiri hizini dusurur. Hedefin hayvani,",
+        "pet'i veya Homunculus'u bu skill ile kaldirilir. Basari sansi kullanan ve hedefin",
+        "seviye ve statlarina baglidir. ^990099Makeover Brush^777777 gerektirir.",
+        "1 ^990099Face Paint^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Saldiri Hizi +30%, HIT -20%, Sure: 10 saniye^000000",
+        "[Sv 2]: ^777777Saldiri Hizi +40%, HIT -40%, Sure: 15 saniye^000000",
+        "[Sv 3]: ^777777Saldiri Hizi +50%, HIT -60%, Sure: 20 saniye^000000"
+      ]
+    },
+    "SC_INVISIBILITY": {
+      "name_original": "Invisibility",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Auto Shadow Spell 7,",
+        "Deadly Infection 5, Masquerade Unlucky 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullanani gorunmez yapar. Gorunmezken saldiri yapilabilir ancak",
+        "saldiri elementi Ghost Element Level 1 olur. Surekli SP tuketir ve aktifken",
+        "diger skill veya item'lar kullanilamaz. SP 0 olursa iptal olur.",
+        "Bazi detection skill'lerini yok sayar.^000000",
+        "[Sv 1]: ^777777CRIT +20, Saldiri Hizi +40%, Saniyede SP %10 tuketir^000000",
+        "[Sv 2]: ^777777CRIT +40, Saldiri Hizi +30%, Saniyede SP %8 tuketir^000000",
+        "[Sv 3]: ^777777CRIT +60, Saldiri Hizi +20%, Saniyede SP %6 tuketir^000000",
+        "[Sv 4]: ^777777CRIT +80, Saldiri Hizi +10%, Saniyede SP %5 tuketir^000000",
+        "[Sv 5]: ^777777CRIT +100, Normal Saldiri Hizi, Saniyede SP %2 tuketir^000000"
+      ]
+    },
+    "SC_AUTOSHADOWSPELL": {
+      "name_original": "Auto Shadow Spell",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Reproduce 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^990099Plagiarism^777777 veya ^990099Reproduce^777777 ile ogrenilen bir magic skill'i kullanir.",
+        "Skill suresince ^CC6600MATK^777777 artar ve fiziksel saldirilar ogrenilen magic skill'i tetikleyebilir.^000000",
+        "[Sv 1]: ^777777Tetiklenme 28%, Skill Sv 3, MATK +5, Sure 60 sn^000000",
+        "[Sv 2]: ^777777Tetiklenme 26%, Skill Sv 3, MATK +10, Sure 80 sn^000000",
+        "[Sv 3]: ^777777Tetiklenme 24%, Skill Sv 4, MATK +15, Sure 100 sn^000000",
+        "[Sv 4]: ^777777Tetiklenme 22%, Skill Sv 4, MATK +20, Sure 120 sn^000000",
+        "[Sv 5]: ^777777Tetiklenme 20%, Skill Sv 5, MATK +25, Sure 140 sn^000000",
+        "[Sv 6]: ^777777Tetiklenme 18%, Skill Sv 5, MATK +30, Sure 160 sn^000000",
+        "[Sv 7]: ^777777Tetiklenme 16%, Skill Sv 6, MATK +35, Sure 180 sn^000000",
+        "[Sv 8]: ^777777Tetiklenme 14%, Skill Sv 6, MATK +40, Sure 200 sn^000000",
+        "[Sv 9]: ^777777Tetiklenme 12%, Skill Sv 7, MATK +45, Sure 220 sn^000000",
+        "[Sv 10]: ^777777Tetiklenme 15%, Skill Sv 7, MATK +50, Sure 300 sn^000000"
+      ]
+    },
+    "SC_REPRODUCE": {
+      "name_original": "Reproduce",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Plagiarism 5^000000",
+        "Beceri Turu: ^3F0099Aktif (Toggle)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Dusmandan alinan son skill'i ogrenmeye yarar. Tekrar kullanildiginda",
+        "etki kapanir ve yeni ogrenilen skill korunur. Yalnizca 1 skill ogrenilebilir;",
+        "ogrenilen seviye Reproduce seviyesine baglidir. Reproduce ile alinan skill normalden",
+        "%30 daha fazla SP tuketir. Gercek skill point yatirilmadigi icin ogrenilen seviyeyi",
+        "artiran item veya linker gibi ozel etkiler uygulanmaz.^000000"
+      ]
+    },
+    "SC_FATALMENACE": {
+      "name_original": "Fatal Menace",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Intimidate 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara hasar verir. ^990099Dagger^777777 sinifi",
+        "silah takiliysa skill iki kez vurur. Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 120%, HIT -30 / AoE: 3x3^000000",
+        "[Sv 2]: ^777777ATK 240%, HIT -25 / AoE: 3x3^000000",
+        "[Sv 3]: ^777777ATK 360%, HIT -20 / AoE: 3x3^000000",
+        "[Sv 4]: ^777777ATK 480%, HIT -15 / AoE: 3x3^000000",
+        "[Sv 5]: ^777777ATK 600%, HIT -10 / AoE: 3x3^000000",
+        "[Sv 6]: ^777777ATK 720%, HIT +0 / AoE: 5x5^000000",
+        "[Sv 7]: ^777777ATK 840%, HIT +5 / AoE: 5x5^000000",
+        "[Sv 8]: ^777777ATK 960%, HIT +10 / AoE: 5x5^000000",
+        "[Sv 9]: ^777777ATK 1080%, HIT +15 / AoE: 5x5^000000",
+        "[Sv 10]: ^777777ATK 1200%, HIT +20 / AoE: 5x5^000000"
+      ]
+    },
+    "NC_MAGICDECOY": {
+      "name_original": "FAW Magic Decoy",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: FAW Silver Sniper 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900FAW^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine magic saldirilar yapan bir ^0000FFFAW (Fixed Automatic Weapon)^777777 kurar.",
+        "En fazla 2 ^0000FFFAW^777777 kurulabilir. ^990099Oridecon Hammer^777777 ve ^990099Mini Furnace^777777 gerekir;",
+        "2 ^990099Iron^777777, 1 ^990099Brigan^777777 ve 2 enchanted stone tuketir.^000000",
+        "[Sv 1]: ^777777MATK 300, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777MATK 350, Sure: 30 saniye^000000",
+        "[Sv 3]: ^777777MATK 400, Sure: 40 saniye^000000",
+        "[Sv 4]: ^777777MATK 450, Sure: 50 saniye^000000",
+        "[Sv 5]: ^777777MATK 500, Sure: 60 saniye^000000"
+      ]
+    },
+    "WE_MALE": {
+      "name_original": "I'll save you",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kendi ^CC6600MaksHP^777777 degerinin %10'u kadar HP tuketerek esinin ^CC6600HP^777777 degerini yeniler.",
+        "Kalan ^CC6600HP^777777, ^CC6600MaksHP^777777'nin %10'undan azsa kullanilamaz.^000000"
+      ]
+    },
+    "NC_AXEBOOMERANG": {
+      "name_original": "Axe Boomerang",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Axe Training 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir ^990099Axe^777777'i boomerang gibi hedefe firlatarak hasar verir.",
+        "^990099Axe^777777 agirligi verilen hasari etkiler.^000000",
+        "[Sv 1]: ^777777ATK 300% + Axe Agirligi, Menzil: 5 hucre^000000",
+        "[Sv 2]: ^777777ATK 350% + Axe Agirligi, Menzil: 6 hucre^000000",
+        "[Sv 3]: ^777777ATK 400% + Axe Agirligi, Menzil: 7 hucre^000000",
+        "[Sv 4]: ^777777ATK 450% + Axe Agirligi, Menzil: 8 hucre^000000",
+        "[Sv 5]: ^777777ATK 500% + Axe Agirligi, Menzil: 9 hucre^000000"
+      ]
+    },
+    "WE_FEMALE": {
+      "name_original": "I'll sacrifice myself for you",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kendi ^CC6600MaksSP^777777 degerinin %10'u kadar SP tuketerek esinin ^CC6600SP^777777 degerini yeniler.",
+        "Kalan ^CC6600SP^777777, ^CC6600MaksSP^777777'nin %10'undan azsa kullanilamaz.^000000"
+      ]
+    },
+    "MG_THUNDERSTORM": {
+      "name_original": "Thunder Storm",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Lightning Bolt 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Belirlenen konuma yildirim dusurur; 5x5 alandaki hedeflere her vurus",
+        "basina %100 ^CC6600MATK ^33CC00Wind^777777 elementli buyu hasari verir.^000000",
+        "[Sv 1]: ^7777771 Vurus, SP Tuketimi: 29^000000",
+        "[Sv 2]: ^7777772 Vurus, SP Tuketimi: 34^000000",
+        "[Sv 3]: ^7777773 Vurus, SP Tuketimi: 39^000000",
+        "[Sv 4]: ^7777774 Vurus, SP Tuketimi: 44^000000",
+        "[Sv 5]: ^7777775 Vurus, SP Tuketimi: 49^000000",
+        "[Sv 6]: ^7777776 Vurus, SP Tuketimi: 54^000000",
+        "[Sv 7]: ^7777777 Vurus, SP Tuketimi: 59^000000",
+        "[Sv 8]: ^7777778 Vurus, SP Tuketimi: 64^000000",
+        "[Sv 9]: ^7777779 Vurus, SP Tuketimi: 69^000000",
+        "[Sv 10]: ^77777710 Vurus, SP Tuketimi: 74^000000"
+      ]
+    },
+    "WE_CALLPARTNER": {
+      "name_original": "I miss you",
+      "lines_tr": [
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Esini bulundugun konuma cagirir. WoE alanlari gibi bazi bolgelerde kullanilamaz.^000000"
+      ]
+    },
+    "NC_RESEARCHFE": {
+      "name_original": "Fire Earth Research",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Mechanic Basic^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^FF0000Fire^777777 ve ^CC5500Earth^777777 elementli monster'lari arastirarak",
+        "^00A100Mechanic^777777'in bu monster'lara verdigi hasari ve direncini artirir.^000000",
+        "[Sv 1]: ^777777Direnc +10, Hasar +10^000000",
+        "[Sv 2]: ^777777Direnc +20, Hasar +20^000000",
+        "[Sv 3]: ^777777Direnc +30, Hasar +30^000000",
+        "[Sv 4]: ^777777Direnc +40, Hasar +40^000000",
+        "[Sv 5]: ^777777Direnc +50, Hasar +50^000000"
+      ]
+    },
+    "ITM_TOMAHAWK": {
+      "name_original": "Tomahawk Throwing",
+      "lines_tr": [
+        "Beceri Turu: ^6666CCItem Skill^000000",
+        "Aciklama: ^777777Bir baltayi dusmana firlatarak hasar verir.^000000"
+      ]
+    },
+    "NC_STEALTHFIELD": {
+      "name_original": "Stealth Field",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Analyze 3, Neutral Barrier 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullananin etrafinda 5x5 stealth bariyeri olusturur ve alandaki hedefleri gizler.",
+        "^0000FFStealth Field^777777 icindeki hedefler yari gorunur olur ve skill'lerle hedeflenemez.",
+        "Aktifken kullananin ^CC6600SP^777777 degerini surekli tuketir ve ^CC6600Hareket Hizi^777777 %20 azalir.",
+        "Iki ^0000FFStealth Field^777777 ust uste gelirse etki aninda iptal olur.",
+        "^990099Camouflage Generator^777777 gerektirir ve 2 ^990099Mado Gear Fuel^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE: 5x5, Sure: 15 saniye^000000",
+        "[Sv 2]: ^777777AoE: 5x5, Sure: 20 saniye^000000",
+        "[Sv 3]: ^777777AoE: 5x5, Sure: 25 saniye^000000"
+      ]
+    },
+    "NC_INFRAREDSCAN": {
+      "name_original": "Infrared Scan",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Shape Shift 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin cevresindeki dusmanlar^000000",
+        "Aciklama: ^777777Kullananin etrafindaki 15x15 alani infrared scanner ile tarayarak gizli dusmanlari tespit eder.",
+        "Skill menzilindeki tum dusmanlarin ^CC6600FLEE^777777 degerini %20 azaltir.^000000"
+      ]
+    },
+    "NC_EMERGENCYCOOL": {
+      "name_original": "Emergency Cool",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Self Destruction 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Asiri isinmis ^0000FFMado Gear^777777'i aninda sogutur. Sogutma cihazinin kalitesi",
+        "azaltilan overheat puanini etkiler. ^990099Cooling Device^777777 gerektirir ve",
+        "1 ^990099Mado Gear Fuel^777777 tuketir.^000000"
       ]
     }
   }
