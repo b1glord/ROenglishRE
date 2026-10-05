@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/tracking.json",
     "purpose": "Turkce localization takip dosyalarini ve upstream senkron sabitlerini tanimlar",
     "module": "Config - JSON",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "description": "Ceviri durum aracinin ana localization dosyalarini, ortak profilleri ve overlay kaynaklarini takip etmesini saglar",
     "dependency_layer": "Config"
   },
@@ -14,19 +14,51 @@
   "files": [
     {
       "name": "tipoftheday",
-      "path": "Translation/Renewal/tipoftheday.txt"
+      "path": "Translation/Renewal/tipoftheday.txt",
+      "patch_path": "TurkuazTR/tipoftheday.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "whole_file"
     },
     {
       "name": "guild_tip",
-      "path": "Translation/Renewal/data/GuildTip.txt"
+      "path": "Translation/Renewal/data/GuildTip.txt",
+      "patch_path": "TurkuazTR/guild_tip.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "whole_file"
     },
     {
       "name": "ba_frostjoke",
-      "path": "Translation/Renewal/data/ba_frostjoke.txt"
+      "path": "Translation/Renewal/data/ba_frostjoke.txt",
+      "patch_path": "TurkuazTR/ba_frostjoke.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
     },
     {
       "name": "dc_scream",
-      "path": "Translation/Renewal/data/dc_scream.txt"
+      "path": "Translation/Renewal/data/dc_scream.txt",
+      "patch_path": "TurkuazTR/dc_scream.tr.json",
+      "generated_profiles": [
+        "english",
+        "hybrid",
+        "full_tr",
+        "bilingual"
+      ],
+      "overlay_type": "line"
     },
     {
       "name": "msgstringtable",
@@ -100,5 +132,7 @@
     }
   ],
   "intentional_english_path": "TurkuazTR/intentional-english.json",
-  "localization_profiles_path": "TurkuazTR/localization-profiles.json"
+  "localization_profiles_path": "TurkuazTR/localization-profiles.json",
+  "line_overlay_registry_path": "TurkuazTR/line-overlays.json",
+  "file_overlay_registry_path": "TurkuazTR/file-overlays.json"
 }
