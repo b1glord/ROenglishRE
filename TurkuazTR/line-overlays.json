@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.9.0",
-    "description": "Exact-source localization bilesenlerinin kaynak, patch, profil ve output yollarini; battlefield, kuyruk ve state icon tooltiplerini dahil kaydeder",
+    "version": "1.10.0",
+    "description": "Exact-source localization bilesenlerinin kaynak, patch, profil ve output yollarini; battlefield, kuyruk, state icon ve pet konusmalarini dahil kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -115,6 +115,12 @@
       "patch_path": "TurkuazTR/stateiconinfo.tr.json",
       "profile_field": "state_icons",
       "output_path": "data/luafiles514/lua files/stateicon/stateiconinfo.lub"
+    },
+    "pet_talk": {
+      "source_path": "Translation/Renewal/data/pettalktable.xml",
+      "patch_path": "TurkuazTR/pettalktable.tr.json",
+      "profile_field": "pet_talk",
+      "output_path": "data/pettalktable.xml"
     }
   }
 }
