@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.24.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 845 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.25.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 880 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -3391,6 +3391,146 @@
     "KR_THUNDERING_CALL_S": {
       "name_original": "Enhanced Thundering Call",
       "name_tr": "Gelismis Gok Gurultulu Cagri"
+    },
+    "KR_EARTH_DRILL": {
+      "name_original": "Earth Drill",
+      "name_tr": "Toprak Matkabi"
+    },
+    "KR_EARTH_STAMP": {
+      "name_original": "Earth Stamp",
+      "name_tr": "Toprak Ezisi"
+    },
+    "KR_EARTH_BUD": {
+      "name_original": "Earth Bud",
+      "name_tr": "Toprak Tomurcugu"
+    },
+    "KR_NATURE_VIGOUR": {
+      "name_original": "Nature Vigour",
+      "name_tr": "Doga Dincligi"
+    },
+    "KR_NATURE_PROTECTION": {
+      "name_original": "Nature Protection",
+      "name_tr": "Doga Korumasi"
+    },
+    "KR_GROUND_BLOOM": {
+      "name_original": "Ground Bloom",
+      "name_tr": "Zemin Ciceklenmesi"
+    },
+    "AT_GRAVITY_HOLE": {
+      "name_original": "Gravity Hole",
+      "name_tr": "Yercekim Cukuru"
+    },
+    "AT_NATURE_AID": {
+      "name_original": "Nature Aid",
+      "name_tr": "Doga Yardimi"
+    },
+    "AT_NATURE_HARMONY": {
+      "name_original": "Nature Harmony",
+      "name_tr": "Doga Uyumu"
+    },
+    "AT_GLACIER_MONOLITH": {
+      "name_original": "Glacial Monolith",
+      "name_tr": "Buzul Monoliti"
+    },
+    "AT_GLACIER_NOVA": {
+      "name_original": "Glacial Nova",
+      "name_tr": "Buzul Novasi"
+    },
+    "AT_GLACIER_SHARD": {
+      "name_original": "Glacial Shard",
+      "name_tr": "Buzul Parcasi"
+    },
+    "AT_GLACIER_STOMP": {
+      "name_original": "Glacial Stomp",
+      "name_tr": "Buzul Ezisi"
+    },
+    "AT_CHILLING_BLAST": {
+      "name_original": "Chilling Blast",
+      "name_tr": "Dondurucu Patlama"
+    },
+    "AT_ROARING_CHARGE": {
+      "name_original": "Roaring Charge",
+      "name_tr": "Kukreyen Hucum"
+    },
+    "AT_ROARING_CHARGE_S": {
+      "name_original": "Enhanced Roaring Charge",
+      "name_tr": "Gelismis Kukreyen Hucum"
+    },
+    "AT_ROARING_PIERCER": {
+      "name_original": "Roaring Piercer",
+      "name_tr": "Kukreyen Delici"
+    },
+    "AT_ROARING_PIERCER_S": {
+      "name_original": "Enhanced Roaring Piercer",
+      "name_tr": "Gelismis Kukreyen Delici"
+    },
+    "AT_FURIOS_STORM": {
+      "name_original": "Furious Storm",
+      "name_tr": "Ofkeli Firtina"
+    },
+    "AT_TERRA_HARVEST": {
+      "name_original": "Terra Harvest",
+      "name_tr": "Toprak Hasadi"
+    },
+    "AT_TERRA_WAVE": {
+      "name_original": "Terra Wave",
+      "name_tr": "Toprak Dalgasi"
+    },
+    "AT_SOLID_STOMP": {
+      "name_original": "Solid Stomp",
+      "name_tr": "Saglam Ezis"
+    },
+    "AT_SIXTH_SENSE": {
+      "name_original": "Sixth Sense",
+      "name_tr": "Altinci His"
+    },
+    "AT_PULSE_OF_MADNESS": {
+      "name_original": "Pulse of Madness",
+      "name_tr": "Cinnet Nabzi"
+    },
+    "AT_ALPHA_PHASE": {
+      "name_original": "Alpha Phase",
+      "name_tr": "Alfa Evresi"
+    },
+    "AT_PRIMAL_CLAW": {
+      "name_original": "Primal Claw",
+      "name_tr": "Ilkel Pence"
+    },
+    "AT_FERAL_CLAW": {
+      "name_original": "Feral Claw",
+      "name_tr": "Vahsi Pence"
+    },
+    "AT_ALPHA_CLAW": {
+      "name_original": "Alpha Claw",
+      "name_tr": "Alfa Pencesi"
+    },
+    "AT_SAVAGE_LUNGE": {
+      "name_original": "Savage Lunge",
+      "name_tr": "Vahsi Atlayis"
+    },
+    "AT_FRENZY_FANG": {
+      "name_original": "Frenzy Fang",
+      "name_tr": "Cinnet Disi"
+    },
+    "AT_FLIP_FLAP": {
+      "name_original": "Flip Flap",
+      "name_tr": "Kanat Cirpisi"
+    },
+    "AT_APEX_PHASE": {
+      "name_original": "Apex Phase",
+      "name_tr": "Zirve Evresi"
+    },
+    "AT_PINION_SHOT": {
+      "name_original": "Pinion Shot",
+      "name_tr": "Kanat Tuyu Atisi"
+    },
+    "AT_ZEPHYR_LINK": {
+      "name_original": "Zephyr Link",
+      "name_tr": "Meltem Bagi"
+    },
+    "AT_QUILL_SPEAR": {
+      "name_original": "Quill Spear",
+      "name_tr": "Tuy Mizragi"
     }
   },
   "name_profiles": {
@@ -3403,5 +3543,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 845
+  "patch_count": 880
 }
