@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.4.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 160 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.5.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 180 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -651,6 +651,86 @@
     "NC_STEALTHFIELD": {
       "name_original": "Stealth Field",
       "name_tr": "Gizlilik Alani"
+    },
+    "NC_INFRAREDSCAN": {
+      "name_original": "Infrared Scan",
+      "name_tr": "Kizilotesi Tarama"
+    },
+    "NC_EMERGENCYCOOL": {
+      "name_original": "Emergency Cool",
+      "name_tr": "Acil Sogutma"
+    },
+    "NC_SHAPESHIFT": {
+      "name_original": "Shape Shift",
+      "name_tr": "Sekil Degistirme"
+    },
+    "NC_SELFDESTRUCTION": {
+      "name_original": "Self Destruction",
+      "name_tr": "Kendini Imha"
+    },
+    "NC_MAINFRAME": {
+      "name_original": "Remodel Mainframe",
+      "name_tr": "Ana Govde Yenileme"
+    },
+    "NC_ACCELERATION": {
+      "name_original": "Acceleration",
+      "name_tr": "Hizlanma"
+    },
+    "NC_ARMSCANNON": {
+      "name_original": "Arm Cannon",
+      "name_tr": "Kol Topu"
+    },
+    "NC_VULCANARM": {
+      "name_original": "Vulcan Arm",
+      "name_tr": "Vulkan Kolu"
+    },
+    "RA_ICEBOUNDTRAP": {
+      "name_original": "Ice Bound Trap",
+      "name_tr": "Buz Baglama Tuzagi"
+    },
+    "RA_FIRINGTRAP": {
+      "name_original": "Firing Trap",
+      "name_tr": "Atesleme Tuzagi"
+    },
+    "RA_VERDURETRAP": {
+      "name_original": "Verdure Trap",
+      "name_tr": "Yesillik Tuzagi"
+    },
+    "RA_COBALTTRAP": {
+      "name_original": "Cobalt Trap",
+      "name_tr": "Kobalt Tuzagi"
+    },
+    "RA_SENSITIVEKEEN": {
+      "name_original": "Sensitive Keen",
+      "name_tr": "Hassas Algilama"
+    },
+    "RA_TOOTHOFWUG": {
+      "name_original": "Tooth of Warg",
+      "name_tr": "Warg Disi"
+    },
+    "RA_WUGDASH": {
+      "name_original": "Warg Dash",
+      "name_tr": "Warg Kosusu"
+    },
+    "RA_ELECTRICSHOCKER": {
+      "name_original": "Electric Shock",
+      "name_tr": "Elektrik Soku"
+    },
+    "RA_DETONATOR": {
+      "name_original": "Detonator",
+      "name_tr": "Patlatici"
+    },
+    "RA_AIMEDBOLT": {
+      "name_original": "Aimed Bolt",
+      "name_tr": "Nisanli Ok"
+    },
+    "RA_RANGERMAIN": {
+      "name_original": "Ranger Main",
+      "name_tr": "Ranger Ustaligi"
+    },
+    "RA_FEARBREEZE": {
+      "name_original": "Fear Breeze",
+      "name_tr": "Korku Esintisi"
     }
   },
   "name_profiles": {
