@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.17.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 520 exact Renewal skill aciklamasi dahil",
+    "version": "2.18.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 540 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -8902,6 +8902,373 @@
         "[Sv 8]: ^777777MATK 14850% / 18200% (^00A100Demon/Undead^777777), AoE 9x9^000000",
         "[Sv 9]: ^777777MATK 16950% / 20450% (^00A100Demon/Undead^777777), AoE 9x9^000000",
         "[Sv 10]: ^777777MATK 21150% / 22700% (^00A100Demon/Undead^777777), AoE 11x11^000000"
+      ]
+    },
+    "CD_DILECTIO_HEAL": {
+      "name_original": "Dilectio Heal",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Coluceo Heal 3, Highness Heal 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF1^000000",
+        "Aciklama: ^777777Kullanan dahil hedeflenen party uyesinin ve yakindaki party uyelerinin ^CC6600HP^777777 degerini yeniler.^000000",
+        "[Sv 1]: ^777777Iyilestirme Etkisi +10%, AoE 3x3^000000",
+        "[Sv 2]: ^777777Iyilestirme Etkisi +25%, AoE 3x3^000000",
+        "[Sv 3]: ^777777Iyilestirme Etkisi +30%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Iyilestirme Etkisi +35%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Iyilestirme Etkisi +40%, AoE 7x7^000000"
+      ]
+    },
+    "CD_RELIGIO": {
+      "name_original": "Religio",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Clementia 3, Dilectio Heal 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Skill suresince hedefin inancini en ust seviyeye cikararak ^CC6600SPL, WIS^777777 ve ^CC6600STA^777777 degerlerini artirir.^000000",
+        "[Sv 1]: ^777777SPL/WIS/STA +2, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777SPL/WIS/STA +4, Sure 150 saniye^000000",
+        "[Sv 3]: ^777777SPL/WIS/STA +6, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777SPL/WIS/STA +8, Sure 210 saniye^000000",
+        "[Sv 5]: ^777777SPL/WIS/STA +10, Sure 240 saniye^000000"
+      ]
+    },
+    "CD_BENEDICTUM": {
+      "name_original": "Benedictum",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cantocandidus 3, Dilectio Heal 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefi kutsayarak skill suresince ^CC6600POW, CRT^777777 ve ^CC6600CON^777777 degerlerini artirir.^000000",
+        "[Sv 1]: ^777777POW/CRT/CON +2, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777POW/CRT/CON +4, Sure 150 saniye^000000",
+        "[Sv 3]: ^777777POW/CRT/CON +6, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777POW/CRT/CON +8, Sure 210 saniye^000000",
+        "[Sv 5]: ^777777POW/CRT/CON +10, Sure 240 saniye^000000"
+      ]
+    },
+    "CD_PETITIO": {
+      "name_original": "Petitio",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Duple Light 10, Mace & Book Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3^000000",
+        "Aciklama: ^777777Hedefe ve yakindaki hedeflere fiziksel hasar verir. ^990099Mace^777777 takiliyken menzilli fiziksel, ^990099Book^777777 takiliyken yakin dovus fiziksel hasar olarak uygulanir.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir. ^0000FFDuple Light^777777 aktifken fiziksel saldirilarda ogrenilmis seviyede ^0000FFPetitio^777777 otomatik tetiklenebilir; otomatik tetiklemede ^CC6600AP^777777 yenilenmez. Mace veya Book gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 1375 + (^0000FFMace & Book Mastery^777777 Sv 50)%, AoE 3x3^000000",
+        "[Sv 2]: ^777777ATK 2750 + (^0000FFMace & Book Mastery^777777 Sv 100)%, AoE 3x3^000000",
+        "[Sv 3]: ^777777ATK 4125 + (^0000FFMace & Book Mastery^777777 Sv 150)%, AoE 3x3^000000",
+        "[Sv 4]: ^777777ATK 5500 + (^0000FFMace & Book Mastery^777777 Sv 200)%, AoE 3x3^000000",
+        "[Sv 5]: ^777777ATK 6875 + (^0000FFMace & Book Mastery^777777 Sv 250)%, AoE 5x5^000000",
+        "[Sv 6]: ^777777ATK 8250 + (^0000FFMace & Book Mastery^777777 Sv 300)%, AoE 5x5^000000",
+        "[Sv 7]: ^777777ATK 9625 + (^0000FFMace & Book Mastery^777777 Sv 350)%, AoE 5x5^000000",
+        "[Sv 8]: ^777777ATK 11000 + (^0000FFMace & Book Mastery^777777 Sv 400)%, AoE 5x5^000000",
+        "[Sv 9]: ^777777ATK 12375 + (^0000FFMace & Book Mastery^777777 Sv 450)%, AoE 7x7^000000",
+        "[Sv 10]: ^777777ATK 13750 + (^0000FFMace & Book Mastery^777777 Sv 500)%, AoE 7x7^000000"
+      ]
+    },
+    "CD_FRAMEN": {
+      "name_original": "Framen",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Judex 10, Fidus Animus 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3^000000",
+        "Aciklama: ^777777Kutsal ruhlarin gucunu cagirarak hedefe ve cevresindeki dusmanlara ^009999Holy^777777 elementli buyu hasari verir. ^00A100Demon^777777 ve ^00A100Undead^777777 monster'lara daha fazla hasar verir. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.^000000",
+        "[Sv 1]: ^777777MATK 1550+(^0000FFFidus Animus^777777 Sv x5)% / 1600+(^0000FFFidus Animus^777777 Sv x5)% (^00A100Demon/Undead^777777), AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 3100+(^0000FFFidus Animus^777777 Sv x10)% / 3200+(^0000FFFidus Animus^777777 Sv x10)% (^00A100Demon/Undead^777777), AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 4650+(^0000FFFidus Animus^777777 Sv x15)% / 4800+(^0000FFFidus Animus^777777 Sv x15)% (^00A100Demon/Undead^777777), AoE 5x5^000000",
+        "[Sv 4]: ^777777MATK 6200+(^0000FFFidus Animus^777777 Sv x20)% / 6400+(^0000FFFidus Animus^777777 Sv x20)% (^00A100Demon/Undead^777777), AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 7750+(^0000FFFidus Animus^777777 Sv x25)% / 8000+(^0000FFFidus Animus^777777 Sv x25)% (^00A100Demon/Undead^777777), AoE 7x7^000000"
+      ]
+    },
+    "BO_BIONIC_PHARMACY": {
+      "name_original": "Bionic Pharmacy",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Special Pharmacy 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Uretim^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^77777730 ^CC6600SP^777777 tuketerek ilac uretir. Her denemede 1 ^990099Beaker^777777 tuketilir; her ilac farkli malzeme gerektirir:",
+        "^0000FFIcicle Acid Bottle^777777: 1 ^990099Bottle Grenade^777777, 1 ^990099Acid Bottle^777777, 2 ^990099Indigo Point^777777.",
+        "^0000FFEarth Acid Bottle^777777: 1 ^990099Bottle Grenade^777777, 1 ^990099Acid Bottle^777777, 2 ^990099Lime Green Point^777777.",
+        "^0000FFGale Acid Bottle^777777: 1 ^990099Bottle Grenade^777777, 1 ^990099Acid Bottle^777777, 2 ^990099Yellow Wish Point^777777.",
+        "^0000FFFlame Acid Bottle^777777: 1 ^990099Bottle Grenade^777777, 1 ^990099Acid Bottle^777777, 2 ^990099Scarlet Point^777777.",
+        "^0000FFAdvanced Coating Potion^777777: 10 ^990099Glistening Coat^777777, 5 ^990099Empty Bottle^777777.",
+        "^0000FFGreater Plant Bottle^777777: 10 ^990099Plant Bottle^777777, 5 ^990099Mandragora Flowerpot^777777, 2 ^990099Thorny Plant Seed^777777, 2 ^990099Blood Sucker Plant Seed^777777.",
+        "^0000FFEye Cleaner^777777 (^663399Deep Blind^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 3 ^990099White Herb^777777, 3 ^990099Green Herb^777777.",
+        "^0000FFEar Cleaner^777777 (^663399Silence^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 2 ^990099Blue Herb^777777, 3 ^990099Green Herb^777777.",
+        "^0000FFTonic^777777 (^663399Lethargy^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 2 ^990099Yggdrasil Berry^777777, 3 ^990099Royal Jelly^777777.",
+        "^0000FFCompressed Fire Extinguisher^777777 (^663399Blaze^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 5 ^990099Crystal Blue^777777, 3 ^990099Iron^777777.",
+        "^0000FFLucky Water^777777 (^663399Unlucky^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 10 ^990099Clover^777777, 3 ^990099Green Herb^777777.",
+        "^0000FFStrong Antidote^777777 (^663399Severe Poison^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 5 ^990099Holy Water^777777, 3 ^990099Poison Bottle^777777, 10 ^990099Green Herb^777777.",
+        "^0000FFHigh Calorie Chocolate^777777 (^663399Gloomy^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 3 ^990099Cacao^777777, 3 ^990099Royal Jelly^777777, 5 ^990099Yggdrasil Seed^777777.",
+        "^0000FFRefined Holy Water^777777 (^663399Holy Fire^777777 iyilestirir): 10 ^990099Empty Bottle^777777, 10 ^990099Holy Water^777777, 3 ^990099Royal Jelly^777777.^000000",
+        "[Sv 1]: ^777777Maksimum uretim miktari 11^000000",
+        "[Sv 2]: ^777777Maksimum uretim miktari 12^000000",
+        "[Sv 3]: ^777777Maksimum uretim miktari 13^000000",
+        "[Sv 4]: ^777777Maksimum uretim miktari 14^000000",
+        "[Sv 5]: ^777777Maksimum uretim miktari 15^000000"
+      ]
+    },
+    "BO_BIONICS_M": {
+      "name_original": "Bionic Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Cagrilan ^0000FFPlant Creature^777777 yeteneklerini guclendirir.^000000",
+        "[Sv 1]: ^777777ATK +600, MaksHP +40000, MaksSP +20, DEF +20, MDEF +4, FLEE +10^000000",
+        "[Sv 2]: ^777777ATK +1200, MaksHP +80000, MaksSP +40, DEF +40, MDEF +8, FLEE +20^000000",
+        "[Sv 3]: ^777777ATK +1800, MaksHP +120000, MaksSP +60, DEF +60, MDEF +12, FLEE +30^000000",
+        "[Sv 4]: ^777777ATK +2400, MaksHP +160000, MaksSP +80, DEF +80, MDEF +16, FLEE +40^000000",
+        "[Sv 5]: ^777777ATK +3000, MaksHP +200000, MaksSP +100, DEF +100, MDEF +20, FLEE +50^000000",
+        "[Sv 6]: ^777777ATK +3600, MaksHP +240000, MaksSP +120, DEF +120, MDEF +24, FLEE +60^000000",
+        "[Sv 7]: ^777777ATK +4200, MaksHP +280000, MaksSP +140, DEF +140, MDEF +28, FLEE +70^000000",
+        "[Sv 8]: ^777777ATK +4800, MaksHP +320000, MaksSP +160, DEF +160, MDEF +32, FLEE +80^000000",
+        "[Sv 9]: ^777777ATK +5400, MaksHP +360000, MaksSP +180, DEF +180, MDEF +36, FLEE +90^000000",
+        "[Sv 10]: ^777777ATK +6000, MaksHP +400000, MaksSP +200, DEF +200, MDEF +40, FLEE +100^000000"
+      ]
+    },
+    "BO_THE_WHOLE_PROTECTION": {
+      "name_original": "The Whole Protection",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bionic Pharmacy 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Kullananin ve yakindaki party uyelerinin silah ve ekipmanlarini cikarilma veya kirilmaya karsi korur. 3 ^990099Advanced Coating Potion^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 60 saniye / AoE 15x15^000000",
+        "[Sv 2]: ^777777Sure 90 saniye / AoE 15x15^000000",
+        "[Sv 3]: ^777777Sure 120 saniye / AoE 15x15^000000",
+        "[Sv 4]: ^777777Sure 150 saniye / AoE 31x31^000000",
+        "[Sv 5]: ^777777Sure 180 saniye / AoE 31x31^000000"
+      ]
+    },
+    "BO_ADVANCE_PROTECTION": {
+      "name_original": "Full Shadow Protection",
+      "lines_tr": [
+        "Maks. Seviye: 4",
+        "^CC3399Gereksinim: Bionic Pharmacy 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "AP Yenileme: ^0054FF2 (Sv 1~2), 3 (Sv 3~4)^000000",
+        "Aciklama: ^777777Hedefin Shadow Equipment'larini cikarilma veya kirilmaya karsi korur. 1 ^990099Advanced Coating Potion^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 90 saniye^000000",
+        "[Sv 2]: ^777777Sure 120 saniye^000000",
+        "[Sv 3]: ^777777Sure 150 saniye^000000",
+        "[Sv 4]: ^777777Sure 180 saniye^000000"
+      ]
+    },
+    "BO_ACIDIFIED_ZONE_WATER": {
+      "name_original": "Acidified Zone Water",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Acidified Zone Wind 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF4 (Sv 1~3), 5 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 7 kez ^0000BBWater^777777 elementli fiziksel hasar verir. Bir oyuncu bu skill ile vurulursa ayni hucrede Acid Zone olusma ihtimali dusuktur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar. 2 ^990099Icicle Acid Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 400%, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 800%, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 1200%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 1600%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 2000%, AoE 7x7^000000"
+      ]
+    },
+    "BO_ACIDIFIED_ZONE_GROUND": {
+      "name_original": "Acidified Zone Ground",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bionic Mastery 3, Bionic Pharmacy 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF4 (Sv 1~3), 5 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 7 kez ^CC5500Earth^777777 elementli fiziksel hasar verir. Bir oyuncu bu skill ile vurulursa ayni hucrede Acid Zone olusma ihtimali dusuktur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar. 2 ^990099Earth Acid Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 400%, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 800%, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 1200%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 1600%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 2000%, AoE 7x7^000000"
+      ]
+    },
+    "BO_ACIDIFIED_ZONE_FIRE": {
+      "name_original": "Acidified Zone Fire",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Acidified Zone Ground 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF4 (Sv 1~3), 5 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 7 kez ^FF0000Fire^777777 elementli fiziksel hasar verir. Bir oyuncu bu skill ile vurulursa ayni hucrede Acid Zone olusma ihtimali dusuktur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar. 2 ^990099Flame Acid Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 400%, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 800%, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 1200%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 1600%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 2000%, AoE 7x7^000000"
+      ]
+    },
+    "BO_ACIDIFIED_ZONE_WIND": {
+      "name_original": "Acidified Zone Wind",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bionic Mastery 3, Bionic Pharmacy 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF4 (Sv 1~3), 5 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 7 kez ^33CC00Wind^777777 elementli fiziksel hasar verir. Bir oyuncu bu skill ile vurulursa ayni hucrede Acid Zone olusma ihtimali dusuktur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar. 2 ^990099Gale Acid Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 400%, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 800%, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 1200%, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 1600%, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 2000%, AoE 7x7^000000"
+      ]
+    },
+    "BO_WOODENWARRIOR": {
+      "name_original": "Wooden Warrior",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Creeper 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Cagirma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Wooden Warrior cagirir. Ayni anda yalnizca 1 ^0000FFWooden Warrior^777777 bulunabilir. Cagriliyken ^0000FFCart Tornado^777777 ve ^0000FFCart Cannon^777777 hasarini artirir. 2 ^990099Greater Plant Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 120 saniye^000000",
+        "[Sv 2]: ^777777Sure 180 saniye^000000",
+        "[Sv 3]: ^777777Sure 240 saniye^000000",
+        "[Sv 4]: ^777777Sure 300 saniye^000000",
+        "[Sv 5]: ^777777Sure 360 saniye^000000"
+      ]
+    },
+    "BO_WOODEN_FAIRY": {
+      "name_original": "Wooden Fairy",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Creeper 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Cagirma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FF20^000000",
+        "Aciklama: ^777777Wooden Fairy cagirir. Ayni anda yalnizca 1 ^0000FFWooden Fairy^777777 bulunabilir. Cagriliyken ^0000FFSpore Explosion^777777 hasarini artirir. 2 ^990099Greater Plant Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 120 saniye^000000",
+        "[Sv 2]: ^777777Sure 180 saniye^000000",
+        "[Sv 3]: ^777777Sure 240 saniye^000000",
+        "[Sv 4]: ^777777Sure 300 saniye^000000",
+        "[Sv 5]: ^777777Sure 360 saniye^000000"
+      ]
+    },
+    "BO_CREEPER": {
+      "name_original": "Creeper",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bionic Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Cagirma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FF10^000000",
+        "Aciklama: ^777777Dayanikli bir Vine Monster cagirir. Ayni anda yalnizca 1 ^0000FFVine Monster^777777 bulunabilir. 1 ^990099Greater Plant Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 120 saniye^000000",
+        "[Sv 2]: ^777777Sure 180 saniye^000000",
+        "[Sv 3]: ^777777Sure 240 saniye^000000",
+        "[Sv 4]: ^777777Sure 300 saniye^000000",
+        "[Sv 5]: ^777777Sure 360 saniye^000000"
+      ]
+    },
+    "BO_RESEARCHREPORT": {
+      "name_original": "Research Report",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Acidified Zone Fire 3, Acidified Zone Water 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000100^000000",
+        "Aciklama: ^777777Kullananin arastirmasini raporlayarak 150 saniye boyunca ^0000FFAcidified^777777 turu skill'lerin hasarini ve ^00A100Formless^777777 ile ^00A100Plant^777777 monster'lara verilen hasari artirir.",
+        "Acidified turu skill hasari ayrica kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777Acidified skill hasari +50%, Malzeme Tuketimi -1^000000"
+      ]
+    },
+    "BO_HELLTREE": {
+      "name_original": "Hell Tree",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Wooden Fairy 3, Wooden Warrior 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Cagirma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000100/90/80/70/60^000000",
+        "Aciklama: ^777777Hell Tree cagirir. Ayni anda yalnizca 1 ^0000FFHell Tree^777777 bulunabilir. 3 ^990099Greater Plant Bottle^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Sure 60 saniye^000000",
+        "[Sv 2]: ^777777Sure 90 saniye^000000",
+        "[Sv 3]: ^777777Sure 120 saniye^000000",
+        "[Sv 4]: ^777777Sure 150 saniye^000000",
+        "[Sv 5]: ^777777Sure 180 saniye^000000"
+      ]
+    },
+    "BO_EXPLOSIVE_POWDER": {
+      "name_original": "Explosive Powder",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bionic Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Uçucu patlayici toz sacarak cevredeki dusmanlara 3 kez yakin dovus fiziksel hasar verir. ^0000FFResearch Report^777777 etkisindeyken daha fazla hasar verir ve 5 kez vurur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1150% / 1250% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1800% / 2000% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2450% / 2350% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3100% / 3500% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 3750% / 4250% (^0000FFResearch Report^777777), AoE 7x7^000000"
+      ]
+    },
+    "BO_MAYHEMIC_THORNS": {
+      "name_original": "Mayhemic Thorns",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Bionic Mastery 5, Explosive Powder 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Dev bir dikenli bitki cagirarak hedefe ve cevresindeki dusmanlara 3 kez menzilli fiziksel hasar verir. ^0000FFResearch Report^777777 etkisindeyken daha fazla hasar verir ve 4 kez vurur.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 540% / 740% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 880% / 1080% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 1220% / 1420% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 1560% / 1760% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 1900% / 2100% (^0000FFResearch Report^777777), AoE 7x7^000000",
+        "[Sv 6]: ^777777Vurus basina ATK 2240% / 2440% (^0000FFResearch Report^777777), AoE 9x9^000000",
+        "[Sv 7]: ^777777Vurus basina ATK 2580% / 2780% (^0000FFResearch Report^777777), AoE 9x9^000000",
+        "[Sv 8]: ^777777Vurus basina ATK 2920% / 3120% (^0000FFResearch Report^777777), AoE 9x9^000000",
+        "[Sv 9]: ^777777Vurus basina ATK 3260% / 3460% (^0000FFResearch Report^777777), AoE 9x9^000000",
+        "[Sv 10]: ^777777Vurus basina ATK 3600% / 3800% (^0000FFResearch Report^777777), AoE 9x9^000000"
       ]
     }
   }
