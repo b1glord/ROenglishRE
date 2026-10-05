@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill ve line-overlay localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.7.0
+# VERSION: 1.8.0
 # DESCRIPTION: Pending raporlarini yeniler; skill ve registry'deki tum line-overlay bilesenlerini dort ortak localization profilinde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
@@ -21,6 +21,8 @@ on:
       - "TurkuazTR/achievements.tr.json"
       - "TurkuazTR/line-overlays.json"
       - "TurkuazTR/navi_data.tr.json"
+      - "TurkuazTR/dc_scream.tr.json"
+      - "TurkuazTR/ba_frostjoke.tr.json"
       - "TurkuazTR/sign_data.tr.json"
       - "TurkuazTR/towninfo.tr.json"
       - "TurkuazTR/recommended_quests.tr.json"
@@ -28,6 +30,8 @@ on:
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
       - "Translation/Renewal/data/msgstringtable.txt"
+      - "Translation/Renewal/data/dc_scream.txt"
+      - "Translation/Renewal/data/ba_frostjoke.txt"
       - "Translation/Renewal/SystemEN/achievements.lub"
       - "Translation/Renewal/SystemEN/Navi_Data.lub"
       - "Translation/Renewal/SystemEN/Sign_Data.lub"
