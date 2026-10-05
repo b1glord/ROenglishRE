@@ -456,7 +456,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^77777710 Vurus, SP Tuketimi: 74^000000"
 	},
 	[SKID.AL_DP] = {
-		"Divine Protection",
+		"Ilahi Koruma (Divine Protection)",
 		"Maks. Seviye: 10",
 		"14^CC3399Gereksinim: Cure 1^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -5504,7 +5504,7 @@ SKILL_DESCRIPT = {
 		"Aciklama: ^777777Bir baltayi dusmana firlatarak hasar verir.^000000"
 	},
 	[SKID.LK_AURABLADE] = {
-		"Aura Blade",
+		"Aura Kilici (Aura Blade)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Bash 5, Magnum Break 5, Two Handed Sword Mastery 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5518,7 +5518,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Ek Hasar: Base Level x8^000000"
 	},
 	[SKID.LK_PARRYING] = {
-		"Parry",
+		"Savusturma (Parry)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Provoke 5, Two-Handed Sword Mastery 10, Two-Hand Quicken 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5538,7 +5538,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Blok Sansi 50%^000000"
 	},
 	[SKID.LK_CONCENTRATION] = {
-		"Concentration (Spear Dynamo)",
+		"Odaklanma (Concentration)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Increase HP Recovery 5, Spear Mastery 5, Riding 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5552,7 +5552,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777HIT +50, ATK +15%, DEF -15%^000000"
 	},
 	[SKID.LK_TENSIONRELAX] = {
-		"Tension Relax",
+		"Rahatlama (Tension Relax)",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Provoke 5, Increase HP Recovery 10, Endure 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5562,7 +5562,7 @@ SKILL_DESCRIPT = {
 		"Kullanan ayaga kalkarsa, ekipman degistirirse veya consumable kullanirsa etki iptal olur.^000000"
 	},
 	[SKID.LK_BERSERK] = {
-		"Berserk (Frenzy)",
+		"Cinnet (Berserk)",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Lord Knight Job Level 50 uzeri^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5638,7 +5638,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777ATK 150%^000000"
 	},
 	[SKID.HP_ASSUMPTIO] = {
-		"Assumptio",
+		"Kutsal Himaye (Assumptio)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Angelus 1, Increase SP Recovery 3, Impositio Manus 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5653,7 +5653,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777DEF +250, Healing +10%, Sure: 100 saniye^000000"
 	},
 	[SKID.HP_BASILICA] = {
-		"Basilica",
+		"Bazilika (Basilica)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Gloria 2, Increase SP Recovery 1, Kyrie Eleison 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5668,7 +5668,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Holy Buyu Hasari +15%, Fiziksel Hasar +25%^000000"
 	},
 	[SKID.HP_MEDITATIO] = {
-		"Meditatio",
+		"Meditasyon (Meditatio)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Increase SP Recovery 5, Lex Divina 5, Aspersio 3^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -5699,7 +5699,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777-20% SP Consumption^000000"
 	},
 	[SKID.HW_MAGICCRASHER] = {
-		"Magic Crasher",
+		"Buyu Kirici (Magic Crasher)",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Increase SP Recovery 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -5787,7 +5787,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777MATK 350%, Hits: 5^000000"
 	},
 	[SKID.HW_SOULDRAIN] = {
-		"Soul Drain",
+		"Ruh Emme (Soul Drain)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Increase SP Recovery 5, Soul Strike 7^000000",
 		"Beceri Turu: ^6666CCPasif^000000",
@@ -8895,7 +8895,7 @@ SKILL_DESCRIPT = {
 		"Consumes 1 ^990099Antidote^777777.^000000"
 	},
 	[SKID.GC_POISONINGWEAPON] = {
-		"Poisoning Weapon",
+		"Zehirli Silah (Poisoning Weapon)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Research New Poison 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -8964,7 +8964,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777ATK 1800%/AoE: 5x5 cells^000000"
 	},
 	[SKID.GC_WEAPONCRUSH] = {
-		"Weapon Crush",
+		"Silah Ezme (Weapon Crush)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Weapon Blocking 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -8974,7 +8974,7 @@ SKILL_DESCRIPT = {
 		"Hedefin silahini dusurme sansi vardir. Skill seviyesi etki suresini ve basari sansini etkiler.^000000"
 	},
 	[SKID.GC_VENOMPRESSURE] = {
-		"Venom Pressure",
+		"Zehir Baskisi (Venom Pressure)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Weapon Blocking 1, Poisoning Weapon 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9043,7 +9043,7 @@ SKILL_DESCRIPT = {
 		"by this will be revealed.^000000"
 	},
 	[SKID.GC_HALLUCINATIONWALK] = {
-		"Hallucination Walk",
+		"Halusinasyon Yuruyusu (Hallucination Walk)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Phantom Menace 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9129,7 +9129,7 @@ SKILL_DESCRIPT = {
 		"[Lv 10]: ^777777MATK 1000%^000000"
 	},
 	[SKID.AB_ANCILLA] = {
-		"Ancilla",
+		"Kutsal Tas (Ancilla)",
 		"Maks. Seviye: 1",
 		"^CC3399Gereksinim: Clementia 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9201,7 +9201,7 @@ SKILL_DESCRIPT = {
 		"[Lv 3]: ^777777AoE: 15x15 cells, Duration: 240 seconds^000000"
 	},
 	[SKID.AB_CHEAL] = {
-		"Coluceo Heal",
+		"Toplu Sifa (Coluceo Heal)",
 		"Maks. Seviye: 3",
 		"^CC3399Gereksinim: Heal 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9214,7 +9214,7 @@ SKILL_DESCRIPT = {
 		"[Sv 3]: ^777777AoE: 15x15 hucre^000000"
 	},
 	[SKID.AB_EPICLESIS] = {
-		"Epiclesis",
+		"Kutsal Cagri (Epiclesis)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Ancilla 1, Highness Heal 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9230,7 +9230,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777MaksHP +25%, her 3 sn HP %5 ve SP %4 yeniler^000000"
 	},
 	[SKID.AB_PRAEFATIO] = {
-		"Praefatio",
+		"Baslangic Duasi (Praefatio)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Kyrie Eleison 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9250,7 +9250,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Blok: 16 Vurus^000000"
 	},
 	[SKID.AB_ORATIO] = {
-		"Oratio",
+		"Dua (Oratio)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Praefatio 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9269,7 +9269,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777Basari Sansi 90%, Direnc -20%^000000"
 	},
 	[SKID.AB_LAUDAAGNUS] = {
-		"Lauda Agnus",
+		"Kuzuya Ovgu (Lauda Agnus)",
 		"Maks. Seviye: 4",
 		"^CC3399Gereksinim: Status Recovery 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9356,7 +9356,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777AoE: 5x5 cells^000000"
 	},
 	[SKID.AB_RENOVATIO] = {
-		"Renovatio",
+		"Yenilenme (Renovatio)",
 		"Maks. Seviye: 4",
 		"^CC3399Gereksinim: Coluceo Heal 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9399,7 +9399,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777Success Chance 100%^000000"
 	},
 	[SKID.AB_EXPIATIO] = {
-		"Expiatio",
+		"Kefaret (Expiatio)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Oratio 5, Duple Light 5^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9414,7 +9414,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Defense %25 Yok Sayilir, Sure: 270 saniye^000000"
 	},
 	[SKID.AB_DUPLELIGHT] = {
-		"Duple Light",
+		"Cifte Isik (Duple Light)",
 		"Maks. Seviye: 10",
 		"^CC3399Gereksinim: Aspersio 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9469,7 +9469,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Basari Sansi: 90%, Sure: 18 saniye^000000"
 	},
 	[SKID.WL_SOULEXPANSION] = {
-		"Soul Expansion",
+		"Ruh Genislemesi (Soul Expansion)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Drain Life 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9485,7 +9485,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777MATK 2000%^000000"
 	},
 	[SKID.WL_JACKFROST] = {
-		"Jack Frost",
+		"Kis Ayazi (Jack Frost)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Frost Misty 2^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9500,7 +9500,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777MATK 2500% / 4200%(^663399Frost^777777)^000000"
 	},
 	[SKID.WL_FROSTMISTY] = {
-		"Frost Misty",
+		"Ayaz Sisi (Frost Misty)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Summon Water Ball 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9531,7 +9531,7 @@ SKILL_DESCRIPT = {
 		"[Lv 5]: ^777777MATK 4000%^000000"
 	},
 	[SKID.WL_MARSHOFABYSS] = {
-		"Marsh of Abyss",
+		"Ucurum Batakligi (Marsh of Abyss)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Quagmire 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9546,7 +9546,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Hareket Hizi -90%^000000"
 	},
 	[SKID.WL_RECOGNIZEDSPELL] = {
-		"Recognized Spell",
+		"Taninmis Buyu (Recognized Spell)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Release 2, Stasis 1, White Imprison 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9616,7 +9616,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777Sure: 60 saniye / AoE: 27x27 hucre^000000"
 	},
 	[SKID.WL_DRAINLIFE] = {
-		"Drain Life",
+		"Yasam Emme (Drain Life)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Radius 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9675,7 +9675,7 @@ SKILL_DESCRIPT = {
 		"AoE: 5x5 cells^000000"
 	},
 	[SKID.WL_COMET] = {
-		"Comet",
+		"Kuyruklu Yildiz (Comet)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Hell Inferno 3^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9691,7 +9691,7 @@ SKILL_DESCRIPT = {
 		"[Sv 5]: ^777777MATK 6000%^000000"
 	},
 	[SKID.WL_CHAINLIGHTNING] = {
-		"Chain Lightning",
+		"Zincir Yildirim (Chain Lightning)",
 		"Maks. Seviye: 5",
 		"^CC3399Gereksinim: Summon Ball Lightning 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9733,7 +9733,7 @@ SKILL_DESCRIPT = {
 		"[Sv 10]: ^777777MATK 4800% Element x4 / AoE: 7x7^000000"
 	},
 	[SKID.WL_SUMMONFB] = {
-		"Summon Fire Ball",
+		"Ates Kuresi Cagir (Summon Fire Ball)",
 		"Maks. Seviye: 2",
 		"^CC3399Gereksinim: Meteor Storm 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9780,7 +9780,7 @@ SKILL_DESCRIPT = {
 		"[Lv 2]: ^777777Summon 5 Water Balls^000000"
 	},
 	[SKID.WL_SUMMONSTONE] = {
-		"Summon Stone Ball",
+		"Tas Kuresi Cagir (Summon Stone)",
 		"Maks. Seviye: 2",
 		"^CC3399Gereksinim: Heaven's Drive 1^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",
@@ -9793,7 +9793,7 @@ SKILL_DESCRIPT = {
 		"[Sv 2]: ^7777775 Stone Ball cagirir^000000"
 	},
 	[SKID.WL_RELEASE] = {
-		"Release",
+		"Serbest Birakma (Release)",
 		"Maks. Seviye: 2",
 		"^CC3399Gereksinim: Warlock Basic Skill^000000",
 		"Beceri Turu: ^3F0099Aktif^000000",

@@ -10338,7 +10338,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_RELEASE] = {
 		"WL_RELEASE",
-		SkillName = "Release",
+		SkillName = "Serbest Birakma (Release)",
 		MaxLv = 2,
 		SpAmount = { 10, 10 },
 		bSeperateLv = true,
@@ -10346,7 +10346,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_SUMMONSTONE] = {
 		"WL_SUMMONSTONE",
-		SkillName = "Summon Stone",
+		SkillName = "Tas Kuresi Cagir (Summon Stone)",
 		MaxLv = 2,
 		SpAmount = { 10, 50 },
 		bSeperateLv = true,
@@ -10357,7 +10357,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_SUMMONFB] = {
 		"WL_SUMMONFB",
-		SkillName = "Summon Fire Ball",
+		SkillName = "Ates Kuresi Cagir (Summon Fire Ball)",
 		MaxLv = 2,
 		SpAmount = { 10, 50 },
 		bSeperateLv = true,
@@ -10368,7 +10368,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_CHAINLIGHTNING] = {
 		"WL_CHAINLIGHTNING",
-		SkillName = "Chain Lightning",
+		SkillName = "Zincir Yildirim (Chain Lightning)",
 		MaxLv = 5,
 		SpAmount = { 80, 90, 100, 110, 120 },
 		bSeperateLv = true,
@@ -10379,7 +10379,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_COMET] = {
 		"WL_COMET",
-		SkillName = "Comet",
+		SkillName = "Kuyruklu Yildiz (Comet)",
 		MaxLv = 5,
 		SpAmount = { 70, 90, 110, 130, 150 },
 		bSeperateLv = true,
@@ -10390,7 +10390,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_DRAINLIFE] = {
 		"WL_DRAINLIFE",
-		SkillName = "Drain Life",
+		SkillName = "Yasam Emme (Drain Life)",
 		MaxLv = 5,
 		SpAmount = { 20, 24, 28, 32, 36 },
 		bSeperateLv = true,
@@ -10401,7 +10401,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_RECOGNIZEDSPELL] = {
 		"WL_RECOGNIZEDSPELL",
-		SkillName = "Recognized Spell",
+		SkillName = "Taninmis Buyu (Recognized Spell)",
 		MaxLv = 5,
 		SpAmount = { 100, 120, 140, 160, 180 },
 		bSeperateLv = true,
@@ -10414,7 +10414,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AL_DP] = {
 		"AL_DP",
-		SkillName = "Divine Protection",
+		SkillName = "Ilahi Koruma (Divine Protection)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10427,7 +10427,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_MARSHOFABYSS] = {
 		"WL_MARSHOFABYSS",
-		SkillName = "Marsh of Abyss",
+		SkillName = "Ucurum Batakligi (Marsh of Abyss)",
 		MaxLv = 5,
 		SpAmount = { 40, 42, 44, 46, 48 },
 		bSeperateLv = true,
@@ -10438,7 +10438,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_JACKFROST] = {
 		"WL_JACKFROST",
-		SkillName = "Jack Frost",
+		SkillName = "Kis Ayazi (Jack Frost)",
 		MaxLv = 5,
 		SpAmount = { 50, 60, 70, 80, 90 },
 		bSeperateLv = true,
@@ -10449,7 +10449,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_FROSTMISTY] = {
 		"WL_FROSTMISTY",
-		SkillName = "Frost Misty",
+		SkillName = "Ayaz Sisi (Frost Misty)",
 		MaxLv = 5,
 		SpAmount = { 40, 48, 56, 64, 72 },
 		bSeperateLv = true,
@@ -10460,7 +10460,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_SOULEXPANSION] = {
 		"WL_SOULEXPANSION",
-		SkillName = "Soul Expansion",
+		SkillName = "Ruh Genislemesi (Soul Expansion)",
 		MaxLv = 5,
 		SpAmount = { 30, 35, 40, 45, 50 },
 		bSeperateLv = true,
@@ -10471,7 +10471,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_DUPLELIGHT] = {
 		"AB_DUPLELIGHT",
-		SkillName = "Duple Light",
+		SkillName = "Cifte Isik (Duple Light)",
 		MaxLv = 10,
 		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
 		bSeperateLv = true,
@@ -10482,7 +10482,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_EXPIATIO] = {
 		"AB_EXPIATIO",
-		SkillName = "Expiatio",
+		SkillName = "Kefaret (Expiatio)",
 		MaxLv = 5,
 		SpAmount = { 35, 40, 45, 50, 55 },
 		bSeperateLv = true,
@@ -10494,7 +10494,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LK_AURABLADE] = {
 		"LK_AURABLADE",
-		SkillName = "Aura Blade",
+		SkillName = "Aura Kilici (Aura Blade)",
 		MaxLv = 5,
 		SpAmount = { 18, 26, 34, 42, 50 },
 		bSeperateLv = true,
@@ -10506,7 +10506,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_RENOVATIO] = {
 		"AB_RENOVATIO",
-		SkillName = "Renovatio",
+		SkillName = "Yenilenme (Renovatio)",
 		MaxLv = 4,
 		SpAmount = { 240, 280, 320, 360 },
 		bSeperateLv = false,
@@ -10517,7 +10517,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LK_PARRYING] = {
 		"LK_PARRYING",
-		SkillName = "Parry",
+		SkillName = "Savusturma (Parry)",
 		MaxLv = 10,
 		SpAmount = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -10530,7 +10530,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_LAUDAAGNUS] = {
 		"AB_LAUDAAGNUS",
-		SkillName = "Lauda Agnus",
+		SkillName = "Kuzuya Ovgu (Lauda Agnus)",
 		MaxLv = 4,
 		SpAmount = { 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -10541,7 +10541,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LK_CONCENTRATION] = {
 		"LK_CONCENTRATION",
-		SkillName = "Concentration",
+		SkillName = "Odaklanma (Concentration)",
 		MaxLv = 5,
 		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
@@ -10554,7 +10554,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_ORATIO] = {
 		"AB_ORATIO",
-		SkillName = "Oratio",
+		SkillName = "Dua (Oratio)",
 		MaxLv = 10,
 		SpAmount = { 35, 38, 41, 44, 47, 50, 53, 56, 59, 62 },
 		bSeperateLv = false,
@@ -10565,7 +10565,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LK_TENSIONRELAX] = {
 		"LK_TENSIONRELAX",
-		SkillName = "Tension Relax",
+		SkillName = "Rahatlama (Tension Relax)",
 		MaxLv = 1,
 		SpAmount = { 15 },
 		bSeperateLv = false,
@@ -10578,7 +10578,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_PRAEFATIO] = {
 		"AB_PRAEFATIO",
-		SkillName = "Praefatio",
+		SkillName = "Baslangic Duasi (Praefatio)",
 		MaxLv = 10,
 		SpAmount = { 90, 100, 110, 120, 130, 140, 150, 160, 170, 180 },
 		bSeperateLv = false,
@@ -10589,7 +10589,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LK_BERSERK] = {
 		"LK_BERSERK",
-		SkillName = "Berserk",
+		SkillName = "Cinnet (Berserk)",
 		MaxLv = 1,
 		SpAmount = { 200 },
 		bSeperateLv = false,
@@ -10597,7 +10597,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_EPICLESIS] = {
 		"AB_EPICLESIS",
-		SkillName = "Epiclesis",
+		SkillName = "Kutsal Cagri (Epiclesis)",
 		MaxLv = 5,
 		SpAmount = { 300, 300, 300, 300, 300 },
 		bSeperateLv = true,
@@ -10609,7 +10609,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_CHEAL] = {
 		"AB_CHEAL",
-		SkillName = "Coluceo Heal",
+		SkillName = "Toplu Sifa (Coluceo Heal)",
 		MaxLv = 3,
 		SpAmount = { 200, 220, 240 },
 		bSeperateLv = true,
@@ -10620,7 +10620,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AB_ANCILLA] = {
 		"AB_ANCILLA",
-		SkillName = "Ancilla",
+		SkillName = "Kutsal Tas (Ancilla)",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -10631,7 +10631,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HP_ASSUMPTIO] = {
 		"HP_ASSUMPTIO",
-		SkillName = "Assumptio",
+		SkillName = "Kutsal Himaye (Assumptio)",
 		MaxLv = 5,
 		SpAmount = { 20, 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -10644,7 +10644,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GC_HALLUCINATIONWALK] = {
 		"GC_HALLUCINATIONWALK",
-		SkillName = "Hallucination Walk",
+		SkillName = "Halusinasyon Yuruyusu (Hallucination Walk)",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		bSeperateLv = false,
@@ -10655,7 +10655,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HP_BASILICA] = {
 		"HP_BASILICA",
-		SkillName = "Basilica",
+		SkillName = "Bazilika (Basilica)",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -10668,7 +10668,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GC_VENOMPRESSURE] = {
 		"GC_VENOMPRESSURE",
-		SkillName = "Venom Pressure",
+		SkillName = "Zehir Baskisi (Venom Pressure)",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = false,
@@ -10680,7 +10680,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HP_MEDITATIO] = {
 		"HP_MEDITATIO",
-		SkillName = "Meditatio",
+		SkillName = "Meditasyon (Meditatio)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10694,7 +10694,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GC_WEAPONCRUSH] = {
 		"GC_WEAPONCRUSH",
-		SkillName = "Weapon Crush",
+		SkillName = "Silah Ezme (Weapon Crush)",
 		MaxLv = 5,
 		SpAmount = { 20, 20, 20, 20, 20 },
 		bSeperateLv = false,
@@ -10705,7 +10705,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HW_SOULDRAIN] = {
 		"HW_SOULDRAIN",
-		SkillName = "Soul Drain",
+		SkillName = "Ruh Emme (Soul Drain)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10718,7 +10718,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GC_POISONINGWEAPON] = {
 		"GC_POISONINGWEAPON",
-		SkillName = "Poisoning Weapon",
+		SkillName = "Zehirli Silah (Poisoning Weapon)",
 		MaxLv = 5,
 		SpAmount = { 20, 24, 28, 32, 36 },
 		bSeperateLv = true,
@@ -10729,7 +10729,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.HW_MAGICCRASHER] = {
 		"HW_MAGICCRASHER",
-		SkillName = "Magic Crasher",
+		SkillName = "Buyu Kirici (Magic Crasher)",
 		MaxLv = 1,
 		SpAmount = { 8 },
 		bSeperateLv = false,
