@@ -13361,7 +13361,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_SERVANT_W_PHANTOM] = {
 		"DK_SERVANT_W_PHANTOM",
-		SkillName = "Servant Weapon - Phantom",
+		SkillName = "Hizmetkar Silah - Hayalet",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -13373,7 +13373,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_SERVANT_W_DEMOL] = {
 		"DK_SERVANT_W_DEMOL",
-		SkillName = "Servant Weapon - Demolition",
+		SkillName = "Hizmetkar Silah - Yikim",
 		MaxLv = 5,
 		SpAmount = { 30, 35, 40, 45, 50 },
 		bSeperateLv = true,
@@ -13384,7 +13384,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_CHARGINGPIERCE] = {
 		"DK_CHARGINGPIERCE",
-		SkillName = "Charging Pierce",
+		SkillName = "Yuklenmis Delis",
 		MaxLv = 10,
 		SpAmount = { 25, 30, 35, 40, 45, 50, 55, 60, 65, 70 },
 		bSeperateLv = true,
@@ -13395,7 +13395,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_TWOHANDDEF] = {
 		"DK_TWOHANDDEF",
-		SkillName = "Two Handed Defense",
+		SkillName = "Cift El Savunmasi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13404,7 +13404,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_HACKANDSLASHER] = {
 		"DK_HACKANDSLASHER",
-		SkillName = "Hack and Slasher",
+		SkillName = "Kes ve Parcala",
 		MaxLv = 10,
 		SpAmount = { 36, 40, 44, 48, 52, 56, 60, 64, 68, 72 },
 		bSeperateLv = true,
@@ -13415,7 +13415,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_DRAGONIC_AURA] = {
 		"DK_DRAGONIC_AURA",
-		SkillName = "Dragonic Aura",
+		SkillName = "Ejderha Aurasi",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		ApAmount = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
@@ -13429,7 +13429,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_MADNESS_CRUSHER] = {
 		"DK_MADNESS_CRUSHER",
-		SkillName = "Madness Crusher",
+		SkillName = "Cinnet Ezici",
 		MaxLv = 5,
 		SpAmount = { 27, 34, 41, 48, 55 },
 		bSeperateLv = true,
@@ -13441,7 +13441,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_VIGOR] = {
 		"DK_VIGOR",
-		SkillName = "Vigor",
+		SkillName = "Dinclik",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		ApAmount = { 125, 125, 125, 125, 125, 125, 125, 125, 125, 125 },
@@ -13454,7 +13454,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_STORMSLASH] = {
 		"DK_STORMSLASH",
-		SkillName = "Storm Slash",
+		SkillName = "Firtina Kesigi",
 		MaxLv = 5,
 		SpAmount = { 35, 40, 45, 50, 55 },
 		bSeperateLv = true,
@@ -13466,7 +13466,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_DRAGONIC_BREATH] = {
 		"DK_DRAGONIC_BREATH",
-		SkillName = "Dragonic Breath",
+		SkillName = "Ejderha Nefesi",
 		MaxLv = 10,
 		SpAmount = { 61, 64, 67, 70, 73, 76, 79, 82, 85, 88 },
 		bSeperateLv = true,
@@ -13478,7 +13478,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_DEADLY_PROJECTION] = {
 		"AG_DEADLY_PROJECTION",
-		SkillName = "Deadly Projection",
+		SkillName = "Olumcul Yansitma",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -13489,7 +13489,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_DESTRUCTIVE_HURRICANE] = {
 		"AG_DESTRUCTIVE_HURRICANE",
-		SkillName = "Destructive Hurricane",
+		SkillName = "Yikici Kasirga",
 		MaxLv = 5,
 		SpAmount = { 170, 174, 178, 182, 186 },
 		bSeperateLv = true,
@@ -13500,7 +13500,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_RAIN_OF_CRYSTAL] = {
 		"AG_RAIN_OF_CRYSTAL",
-		SkillName = "Rain of Crystal",
+		SkillName = "Kristal Yagmuru",
 		MaxLv = 5,
 		SpAmount = { 85, 95, 105, 115, 125 },
 		bSeperateLv = true,
@@ -13511,7 +13511,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_MYSTERY_ILLUSION] = {
 		"AG_MYSTERY_ILLUSION",
-		SkillName = "Mystery Illusion",
+		SkillName = "Gizemli Yanilsama",
 		MaxLv = 5,
 		SpAmount = { 78, 86, 94, 102, 110 },
 		bSeperateLv = true,
@@ -13523,7 +13523,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_VIOLENT_QUAKE] = {
 		"AG_VIOLENT_QUAKE",
-		SkillName = "Violent Quake",
+		SkillName = "Siddetli Deprem",
 		MaxLv = 5,
 		SpAmount = { 110, 114, 118, 122, 126 },
 		bSeperateLv = true,
@@ -13534,7 +13534,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_SOUL_VC_STRIKE] = {
 		"AG_SOUL_VC_STRIKE",
-		SkillName = "Soul Vulcan Strike",
+		SkillName = "Ruh Vulkan Darbesi",
 		MaxLv = 5,
 		SpAmount = { 90, 95, 100, 105, 110 },
 		bSeperateLv = true,
@@ -13546,7 +13546,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_STRANTUM_TREMOR] = {
 		"AG_STRANTUM_TREMOR",
-		SkillName = "Strantum Tremor",
+		SkillName = "Strantum Sarsintisi",
 		MaxLv = 5,
 		SpAmount = { 74, 79, 84, 89, 94 },
 		bSeperateLv = true,
@@ -13557,7 +13557,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_ALL_BLOOM] = {
 		"AG_ALL_BLOOM",
-		SkillName = "All Bloom",
+		SkillName = "Tum Ciceklenme",
 		MaxLv = 5,
 		SpAmount = { 94, 102, 110, 118, 126 },
 		bSeperateLv = true,
@@ -13568,7 +13568,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_CRYSTAL_IMPACT] = {
 		"AG_CRYSTAL_IMPACT",
-		SkillName = "Crystal Impact",
+		SkillName = "Kristal Darbesi",
 		MaxLv = 5,
 		SpAmount = { 170, 174, 178, 182, 186 },
 		bSeperateLv = true,
@@ -13579,7 +13579,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_TORNADO_STORM] = {
 		"AG_TORNADO_STORM",
-		SkillName = "Tornado Storm",
+		SkillName = "Hortum Firtinasi",
 		MaxLv = 5,
 		SpAmount = { 78, 82, 86, 90, 94 },
 		bSeperateLv = true,
@@ -13590,7 +13590,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_FLORAL_FLARE_ROAD] = {
 		"AG_FLORAL_FLARE_ROAD",
-		SkillName = "Floral Flare Road",
+		SkillName = "Cicek Alevi Yolu",
 		MaxLv = 5,
 		SpAmount = { 70, 76, 82, 88, 94 },
 		bSeperateLv = true,
@@ -13601,7 +13601,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_CLIMAX] = {
 		"AG_CLIMAX",
-		SkillName = "Climax",
+		SkillName = "Doruk",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		ApAmount = { 125, 125, 125, 125, 125 },
@@ -13614,7 +13614,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_ASTRAL_STRIKE] = {
 		"AG_ASTRAL_STRIKE",
-		SkillName = "Astral Strike",
+		SkillName = "Astral Darbe",
 		MaxLv = 10,
 		SpAmount = { 130, 130, 130, 130, 130, 130, 130, 130, 130, 130 },
 		ApAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
@@ -13628,7 +13628,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_ROCK_DOWN] = {
 		"AG_ROCK_DOWN",
-		SkillName = "Rock Down",
+		SkillName = "Kaya Dususu",
 		MaxLv = 5,
 		SpAmount = { 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
@@ -13639,7 +13639,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_STORM_CANNON] = {
 		"AG_STORM_CANNON",
-		SkillName = "Storm Cannon",
+		SkillName = "Firtina Topu",
 		MaxLv = 5,
 		SpAmount = { 76, 79, 82, 85, 88 },
 		bSeperateLv = true,
@@ -13650,7 +13650,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_CRIMSON_ARROW] = {
 		"AG_CRIMSON_ARROW",
-		SkillName = "Crimson Arrow",
+		SkillName = "Kizil Ok",
 		MaxLv = 5,
 		SpAmount = { 74, 78, 82, 86, 90 },
 		bSeperateLv = true,
@@ -13661,7 +13661,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_FROZEN_SLASH] = {
 		"AG_FROZEN_SLASH",
-		SkillName = "Frozen Slash",
+		SkillName = "Donmus Kesik",
 		MaxLv = 5,
 		SpAmount = { 103, 106, 109, 112, 115 },
 		bSeperateLv = true,
@@ -13672,7 +13672,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AG_TWOHANDSTAFF] = {
 		"AG_TWOHANDSTAFF",
-		SkillName = "Two-Handed Staff Mastery",
+		SkillName = "Cift El Asa Ustaligi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13681,7 +13681,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_POWERFUL_FAITH] = {
 		"IQ_POWERFUL_FAITH",
-		SkillName = "Powerful Faith",
+		SkillName = "Guclu Inanc",
 		MaxLv = 5,
 		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
@@ -13692,7 +13692,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_FIRM_FAITH] = {
 		"IQ_FIRM_FAITH",
-		SkillName = "Firm Faith",
+		SkillName = "Saglam Inanc",
 		MaxLv = 5,
 		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
@@ -13703,7 +13703,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_WILL_OF_FAITH] = {
 		"IQ_WILL_OF_FAITH",
-		SkillName = "Will of Faith",
+		SkillName = "Inanc Iradesi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13724,7 +13724,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_SINCERE_FAITH] = {
 		"IQ_SINCERE_FAITH",
-		SkillName = "Sincere Faith",
+		SkillName = "Samimi Inanc",
 		MaxLv = 5,
 		SpAmount = { 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
@@ -13735,7 +13735,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_FIRST_BRAND] = {
 		"IQ_FIRST_BRAND",
-		SkillName = "First Brand",
+		SkillName = "Ilk Damga",
 		MaxLv = 5,
 		SpAmount = { 46, 50, 54, 58, 62 },
 		bSeperateLv = true,
@@ -13746,7 +13746,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_FIRST_FAITH_POWER] = {
 		"IQ_FIRST_FAITH_POWER",
-		SkillName = "First Faith Power",
+		SkillName = "Ilk Inanc Gucu",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
