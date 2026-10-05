@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.14.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 495 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.15.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 530 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1991,6 +1991,146 @@
     "IQ_FIRST_FAITH_POWER": {
       "name_original": "First Faith Power",
       "name_tr": "Ilk Inanc Gucu"
+    },
+    "IQ_THIRD_PUNISH": {
+      "name_original": "Third Punish",
+      "name_tr": "Ucuncu Ceza"
+    },
+    "IQ_THIRD_FLAME_BOMB": {
+      "name_original": "Third Flame Bomb",
+      "name_tr": "Ucuncu Alev Bombasi"
+    },
+    "IQ_THIRD_CONSECRATION": {
+      "name_original": "Third Consecration",
+      "name_tr": "Ucuncu Kutsama"
+    },
+    "IQ_SECOND_FLAME": {
+      "name_original": "Second Flame",
+      "name_tr": "Ikinci Alev"
+    },
+    "IQ_SECOND_FAITH": {
+      "name_original": "Second Faith",
+      "name_tr": "Ikinci Inanc"
+    },
+    "IQ_SECOND_JUDGEMENT": {
+      "name_original": "Second Judgement",
+      "name_tr": "Ikinci Yargi"
+    },
+    "IQ_EXPOSION_BLASTER": {
+      "name_original": "Explosion Blaster",
+      "name_tr": "Patlama Topu"
+    },
+    "IQ_MASSIVE_F_BLASTER": {
+      "name_original": "Massive Flame Blaster",
+      "name_tr": "Dev Alev Patlamasi"
+    },
+    "IQ_JUDGE": {
+      "name_original": "Judge",
+      "name_tr": "Yargic"
+    },
+    "IQ_THIRD_EXOR_FLAME": {
+      "name_original": "Third Exorcism Flame",
+      "name_tr": "Ucuncu Ruh Kovma Alevi"
+    },
+    "IG_GUARD_STANCE": {
+      "name_original": "Guard Stance",
+      "name_tr": "Savunma Durusu"
+    },
+    "IG_GUARDIAN_SHIELD": {
+      "name_original": "Guardian Shield",
+      "name_tr": "Koruyucu Kalkan"
+    },
+    "IG_REBOUND_SHIELD": {
+      "name_original": "Rebound Shield",
+      "name_tr": "Geri Tepme Kalkani"
+    },
+    "IG_SHIELD_MASTERY": {
+      "name_original": "Shield Mastery",
+      "name_tr": "Kalkan Ustaligi"
+    },
+    "IG_SPEAR_SWORD_M": {
+      "name_original": "Spear & Sword Mastery",
+      "name_tr": "Mizrak ve Kilic Ustaligi"
+    },
+    "IG_ATTACK_STANCE": {
+      "name_original": "Attack Stance",
+      "name_tr": "Saldiri Durusu"
+    },
+    "IG_ULTIMATE_SACRIFICE": {
+      "name_original": "Ultimate Sacrifice",
+      "name_tr": "Nihai Fedakarlik"
+    },
+    "IG_HOLY_SHIELD": {
+      "name_original": "Holy Shield",
+      "name_tr": "Kutsal Kalkan"
+    },
+    "IG_GRAND_JUDGEMENT": {
+      "name_original": "Grand Judgement",
+      "name_tr": "Buyuk Yargi"
+    },
+    "IG_JUDGEMENT_CROSS": {
+      "name_original": "Judgement Cross",
+      "name_tr": "Yargi Haci"
+    },
+    "IG_SHIELD_SHOOTING": {
+      "name_original": "Shield Shooting",
+      "name_tr": "Kalkan Atisi"
+    },
+    "IG_OVERSLASH": {
+      "name_original": "Overslash",
+      "name_tr": "Asiri Kesik"
+    },
+    "IG_CROSS_RAIN": {
+      "name_original": "Cross Rain",
+      "name_tr": "Hac Yagmuru"
+    },
+    "SHC_DANCING_KNIFE": {
+      "name_original": "Dancing Knives",
+      "name_tr": "Dans Eden Bicaklar"
+    },
+    "SHC_SAVAGE_IMPACT": {
+      "name_original": "Savage Impact",
+      "name_tr": "Vahsi Darbe"
+    },
+    "SHC_SHADOW_SENSE": {
+      "name_original": "Shadow Sense",
+      "name_tr": "Golge Sezgisi"
+    },
+    "SHC_ETERNAL_SLASH": {
+      "name_original": "Eternal Slash",
+      "name_tr": "Sonsuz Kesik"
+    },
+    "SHC_ENCHANTING_SHADOW": {
+      "name_original": "Enchanting Shadow",
+      "name_tr": "Buyulu Golge"
+    },
+    "SHC_POTENT_VENOM": {
+      "name_original": "Potent Venom",
+      "name_tr": "Guclu Zehir"
+    },
+    "SHC_SHADOW_EXCEED": {
+      "name_original": "Shadow Exceed",
+      "name_tr": "Golge Asimi"
+    },
+    "SHC_FATAL_SHADOW_CROW": {
+      "name_original": "Fatal Shadow Claw",
+      "name_tr": "Olumcul Golge Pencesi"
+    },
+    "SHC_SHADOW_STAB": {
+      "name_original": "Shadow Stab",
+      "name_tr": "Golge Saplamasi"
+    },
+    "SHC_IMPACT_CRATER": {
+      "name_original": "Impact Crater",
+      "name_tr": "Darbe Krateri"
+    },
+    "CD_REPARATIO": {
+      "name_original": "Reparatio",
+      "name_tr": "Reparatio"
+    },
+    "CD_MEDIALE_VOTUM": {
+      "name_original": "Mediale Votum",
+      "name_tr": "Mediale Votum"
     }
   },
   "name_profiles": {
@@ -2003,5 +2143,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 495
+  "patch_count": 530
 }
