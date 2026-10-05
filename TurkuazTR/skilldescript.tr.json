@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.10.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 380 exact Renewal skill aciklamasi dahil",
+    "version": "2.11.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 400 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -6415,6 +6415,331 @@
         "[Sv 5]: ^777777ATK 1200% / AoE 7x7^000000",
         "[Sv 6]: ^777777ATK 1300% / AoE 7x7^000000",
         "[Sv 7]: ^777777ATK 1400% / AoE 7x7^000000"
+      ]
+    },
+    "SJ_LIGHTOFSTAR": {
+      "name_original": "Light of Star",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Falling Star 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Star^777777 ozel skill: Yildiz isigini cekerek ^0000FFFalling Star^777777 hasarini artirir. ^0000FFLight of Sun^777777 ve ^0000FFLight of Moon^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777Hasar +5%, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777Hasar +10%, Sure: 30 saniye^000000",
+        "[Sv 3]: ^777777Hasar +15%, Sure: 40 saniye^000000",
+        "[Sv 4]: ^777777Hasar +20%, Sure: 50 saniye^000000",
+        "[Sv 5]: ^777777Hasar +25%, Sure: 60 saniye^000000"
+      ]
+    },
+    "SJ_STARSTANCE": {
+      "name_original": "Star Stance",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Document of Sun Moon Star 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Stance Skill^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yildiz isigiyla hareket etmek icin durus hazirlar. Aktifken ^000099Star^777777 skill'leri kullanilabilir ve ^CC6600Saldiri Hizi^777777 artar.^000000",
+        "[Sv 1]: ^777777After Attack Delay -6%^000000",
+        "[Sv 2]: ^777777After Attack Delay -8%^000000",
+        "[Sv 3]: ^777777After Attack Delay -10%^000000"
+      ]
+    },
+    "SJ_FLASHKICK": {
+      "name_original": "Flash Kick",
+      "lines_tr": [
+        "Maks. Seviye: 7",
+        "^CC3399Gereksinim: Star Stance 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^000099Star^777777 ozel skill: Ayaklari yildiz isigiyla guclendirip dusmani tekmeler ve ^990099Star Mark^777777 ile isaretler. Ayni anda en fazla 5 Star Mark aktif olabilir.^000000",
+        "[Sv 1]: ^777777ATK 100%, Star Mark Suresi 4 saniye^000000",
+        "[Sv 2]: ^777777ATK 100%, Star Mark Suresi 5 saniye^000000",
+        "[Sv 3]: ^777777ATK 100%, Star Mark Suresi 6 saniye^000000",
+        "[Sv 4]: ^777777ATK 100%, Star Mark Suresi 7 saniye^000000",
+        "[Sv 5]: ^777777ATK 100%, Star Mark Suresi 8 saniye^000000",
+        "[Sv 6]: ^777777ATK 100%, Star Mark Suresi 9 saniye^000000",
+        "[Sv 7]: ^777777ATK 100%, Star Mark Suresi 10 saniye^000000"
+      ]
+    },
+    "SJ_STAREMPEROR": {
+      "name_original": "Advent of the Star Emperor",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Universe Stance 3, Nova Explosion 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Space^777777 ozel skill: Yalnizca WoE ve PvP modunda kullanilabilir. Evrenin birligini kavrayan ^00A100Star Emperor^777777 gucunu serbest birakarak cevredeki dusmanlara hasar verir.^000000",
+        "[Sv 1]: ^777777ATK 1000% / AoE 7x7^000000",
+        "[Sv 2]: ^777777ATK 1200% / AoE 7x7^000000",
+        "[Sv 3]: ^777777ATK 1400% / AoE 7x7^000000",
+        "[Sv 4]: ^777777ATK 1600% / AoE 7x7^000000",
+        "[Sv 5]: ^777777ATK 1800% / AoE 7x7^000000"
+      ]
+    },
+    "SJ_NOVAEXPLOSING": {
+      "name_original": "Nova Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Universe Stance 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^000099Space^777777 ozel skill: Yalnizca WoE ve PvP modunda kullanilabilir. Hedefe hicbir etkiyle azaltilamayan sabit ^009999Neutral^777777 elementli hasar verir.",
+        "Evren enerjisini tuketen kullanan, skill sonrasinda 2 saniye boyunca baska skill kullanamaz.^000000",
+        "[Sv 1]: ^777777ATK 300%, Cooldown 20 saniye^000000",
+        "[Sv 2]: ^777777ATK 400%, Cooldown 20 saniye^000000",
+        "[Sv 3]: ^777777ATK 500%, Cooldown 20 saniye^000000",
+        "[Sv 4]: ^777777ATK 600%, Cooldown 20 saniye^000000",
+        "[Sv 5]: ^777777ATK 700%, Cooldown 20 saniye^000000"
+      ]
+    },
+    "SJ_UNIVERSESTANCE": {
+      "name_original": "Universe Stance",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Sun Stance 3, Lunar Stance 3, Star Stance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Stance Skill^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Evren enerjisiyle hareket etmek icin durus hazirlar. Aktifken ^000099Space^777777 ve diger ^000099Stance^777777 skill'leri kullanilabilir. Tum ^CC6600Stat^777777 degerlerini artirir.^000000",
+        "[Sv 1]: ^777777Tum Statlar +3^000000",
+        "[Sv 2]: ^777777Tum Statlar +4^000000",
+        "[Sv 3]: ^777777Tum Statlar +5^000000"
+      ]
+    },
+    "SJ_FALLINGSTAR": {
+      "name_original": "Falling Star",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Flash Kick 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Star^777777 ozel skill: Fiziksel saldirilarin ^990099Star Mark^777777 ile isaretli hedefe ^0000FFFalling Star^777777 dusurme sansi vardir. Star Mark hedefe ve cevresine hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 200% / AoE 5x5^000000",
+        "[Sv 2]: ^777777ATK 300% / AoE 5x5^000000",
+        "[Sv 3]: ^777777ATK 400% / AoE 5x5^000000",
+        "[Sv 4]: ^777777ATK 500% / AoE 5x5^000000",
+        "[Sv 5]: ^777777ATK 600% / AoE 5x5^000000",
+        "[Sv 6]: ^777777ATK 700% / AoE 5x5^000000",
+        "[Sv 7]: ^777777ATK 800% / AoE 5x5^000000",
+        "[Sv 8]: ^777777ATK 900% / AoE 5x5^000000",
+        "[Sv 9]: ^777777ATK 1000% / AoE 5x5^000000",
+        "[Sv 10]: ^777777ATK 1100% / AoE 5x5^000000"
+      ]
+    },
+    "SJ_GRAVITYCONTROL": {
+      "name_original": "Gravity Control",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Universe Stance 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^000099Space^777777 ozel skill: Yalnizca WoE ve PvP modunda kullanilabilir. Hedefin yercekimini bukerek havaya kaldirir; hedef saldiri yapamaz veya hareket edemez.",
+        "^0000FFGravity Control^777777 sona erdiginde hedef duser ve ^009999Neutral^777777 elementli hasar alir. Dusme hasari kullananin ^CC6600Attack Power^777777 ve hedefin ^CC6600Weight^777777 degerine gore belirlenir.",
+        "Havadaki hedefe skill tekrar kullanilirsa etki iptal olur.^000000"
+      ]
+    },
+    "SJ_BOOKOFDIMENSION": {
+      "name_original": "Book of Dimension",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Document of Sun Moon Star 3, Advent of the Star Emperor 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Space^777777 ozel skill: Yalnizca WoE ve PvP modunda kullanilabilir. Baska bir boyutun gucunu odunc alarak evren enerjisinin verimini belirli sure artirir.",
+        "Sure icinde ^0000FFNova Explosion^777777 kullanilirsa ^CC6600Skill Cooldown^777777 ve ^CC6600After Skill Delay^777777 kaldirilir. ^0000FFAdvent of the Star Emperor^777777 kullanilirsa 30 saniye boyunca dayanimi kullananin ^CC6600MaksSP^777777 degerine esit iki savunma kuresi olusturur.^000000",
+        "[Sv 1]: ^777777Sure 60 sn, Cooldown 150 sn^000000",
+        "[Sv 2]: ^777777Sure 60 sn, Cooldown 120 sn^000000",
+        "[Sv 3]: ^777777Sure 60 sn, Cooldown 90 sn^000000",
+        "[Sv 4]: ^777777Sure 60 sn, Cooldown 60 sn^000000",
+        "[Sv 5]: ^777777Sure 60 sn, Cooldown 30 sn^000000"
+      ]
+    },
+    "SJ_BOOKOFCREATINGSTAR": {
+      "name_original": "Book of Creating Star",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Document of Sun Moon Star 3, Advent of the Star Emperor 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^000099Space^777777 ozel skill: Yalnizca WoE ve PvP modunda kullanilabilir. Evren gucu yuksek yercekimli yapay bir yildiz olusturur.",
+        "Kullanan bu yercekim alanina girdiginde tum dusmanlarin ^CC6600Hareket Hizi^777777 %90 azalir ve belirli araliklarla hasar alir.^000000",
+        "[Sv 1]: ^777777Sure 6 sn / AoE 5x5 / 12 Vurus^000000",
+        "[Sv 2]: ^777777Sure 7 sn / AoE 5x5 / 14 Vurus^000000",
+        "[Sv 3]: ^777777Sure 8 sn / AoE 5x5 / 16 Vurus^000000",
+        "[Sv 4]: ^777777Sure 9 sn / AoE 5x5 / 18 Vurus^000000",
+        "[Sv 5]: ^777777Sure 10 sn / AoE 5x5 / 20 Vurus^000000"
+      ]
+    },
+    "SJ_DOCUMENT": {
+      "name_original": "Document of Sun Moon Star",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Feeling of Sun Moon Star 3, Hatred of Sun Moon Star 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFFeeling^777777 ve ^0000FFHatred of Sun Moon Star^777777 ile belirlenmis harita ve monster atamalarini sifirlar.^000000",
+        "[Sv 1]: ^777777Haritalari sifirlar, Cooldown 60 saniye^000000",
+        "[Sv 2]: ^777777Monster'lari sifirlar, Cooldown 60 saniye^000000",
+        "[Sv 3]: ^777777Tumunu sifirlar, Cooldown 60 saniye^000000"
+      ]
+    },
+    "SJ_PURIFY": {
+      "name_original": "Purification of Sun Moon Star",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Demon of Sun Moon Star 10^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^0000FFDemon of Sun Moon Star^777777 gorus cezasini yariya indirir.^000000"
+      ]
+    },
+    "SJ_LIGHTOFSUN": {
+      "name_original": "Light of Sun",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Solar Burst 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Sun^777777 ozel skill: Gunes isigini cekerek ^0000FFSolar Burst^777777 hasarini artirir. ^0000FFLight of the Moon^777777 ve ^0000FFLight of the Star^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777Hasar +5%, Sure: 20 saniye^000000",
+        "[Sv 2]: ^777777Hasar +10%, Sure: 30 saniye^000000",
+        "[Sv 3]: ^777777Hasar +15%, Sure: 40 saniye^000000",
+        "[Sv 4]: ^777777Hasar +20%, Sure: 50 saniye^000000",
+        "[Sv 5]: ^777777Hasar +25%, Sure: 60 saniye^000000"
+      ]
+    },
+    "SJ_SUNSTANCE": {
+      "name_original": "Sun Stance",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Document of Sun Moon Star 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Stance Skill^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Gunes isigiyla hareket etmek icin durus hazirlar. Aktifken ^000099Sun^777777 skill'leri kullanilabilir ve ^CC6600ATK^777777 artar.^000000",
+        "[Sv 1]: ^777777ATK +3%^000000",
+        "[Sv 2]: ^777777ATK +4%^000000",
+        "[Sv 3]: ^777777ATK +5%^000000"
+      ]
+    },
+    "SJ_SOLARBURST": {
+      "name_original": "Solar Burst",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Prominence Kick 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^000099Sun^777777 ozel skill: ^0000FFProminence Kick^777777 sonrasinda kullanilmalidir. Gunes enerjisini bedene yukleyerek cevredeki dusmanlara hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 1220% / AoE 7x7^000000",
+        "[Sv 2]: ^777777ATK 1440% / AoE 7x7^000000",
+        "[Sv 3]: ^777777ATK 1660% / AoE 7x7^000000",
+        "[Sv 4]: ^777777ATK 1880% / AoE 7x7^000000",
+        "[Sv 5]: ^777777ATK 2100% / AoE 7x7^000000",
+        "[Sv 6]: ^777777ATK 2320% / AoE 7x7^000000",
+        "[Sv 7]: ^777777ATK 2540% / AoE 7x7^000000",
+        "[Sv 8]: ^777777ATK 2760% / AoE 7x7^000000",
+        "[Sv 9]: ^777777ATK 2980% / AoE 7x7^000000",
+        "[Sv 10]: ^777777ATK 3200% / AoE 7x7^000000"
+      ]
+    },
+    "SJ_PROMINENCEKICK": {
+      "name_original": "Prominence Kick",
+      "lines_tr": [
+        "Maks. Seviye: 7",
+        "^CC3399Gereksinim: Sun Stance 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^000099Sun^777777 ozel skill: Hedefe ve cevresindeki dusmanlara kirmizi alevle tekme atar. 3x3 alandaki dusmanlara ek %100 fiziksel hasar verir. Ardindan ^0000FFSolar Burst^777777 kullanilabilir.^000000",
+        "[Sv 1]: ^777777ATK 200%^000000",
+        "[Sv 2]: ^777777ATK 250%^000000",
+        "[Sv 3]: ^777777ATK 300%^000000",
+        "[Sv 4]: ^777777ATK 350%^000000",
+        "[Sv 5]: ^777777ATK 400%^000000",
+        "[Sv 6]: ^777777ATK 450%^000000",
+        "[Sv 7]: ^777777ATK 500%^000000"
+      ]
+    },
+    "SP_SOULGOLEM": {
+      "name_original": "Golem's Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Revolution 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ruhu ^0000FFGolem's Soul^777777'a cevirip kendine veya baska bir oyuncuya aktarir. Skill suresince ^CC6600DEF^777777 ve ^CC6600MDEF^777777 artar.",
+        "Farkli bir ^990099Soul Buff^777777 aktif olan hedefte kullanilamaz. 1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777DEF +60, MDEF +20, Sure 60 saniye^000000",
+        "[Sv 2]: ^777777DEF +120, MDEF +25, Sure 120 saniye^000000",
+        "[Sv 3]: ^777777DEF +180, MDEF +30, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777DEF +240, MDEF +35, Sure 240 saniye^000000",
+        "[Sv 5]: ^777777DEF +300, MDEF +40, Sure 300 saniye^000000"
+      ]
+    },
+    "SP_SOULSHADOW": {
+      "name_original": "Shadow's Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Unity 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ruhu ^0000FFShadow's Soul^777777'a cevirip kendine veya baska bir oyuncuya aktarir. Skill suresince ^CC6600Critical^777777 ve ^CC6600Saldiri Hizi^777777 artar.",
+        "Farkli bir ^990099Soul Buff^777777 aktif olan hedefte kullanilamaz. 1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Critical +12, ASPD +1, Sure 60 saniye^000000",
+        "[Sv 2]: ^777777Critical +14, ASPD +1, Sure 120 saniye^000000",
+        "[Sv 3]: ^777777Critical +16, ASPD +2, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777Critical +18, ASPD +2, Sure 240 saniye^000000",
+        "[Sv 5]: ^777777Critical +20, ASPD +3, Sure 300 saniye^000000"
+      ]
+    },
+    "SP_SOULFALCON": {
+      "name_original": "Falcon's Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Revolution 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ruhu ^0000FFFalcon's Soul^777777'a cevirip kendine veya baska bir oyuncuya aktarir. Skill suresince ^CC6600ATK^777777 ve ^CC6600HIT^777777 artar.",
+        "Farkli bir ^990099Soul Buff^777777 aktif olan hedefte kullanilamaz. 1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK +10, HIT +10, Sure 60 saniye^000000",
+        "[Sv 2]: ^777777ATK +20, HIT +10, Sure 120 saniye^000000",
+        "[Sv 3]: ^777777ATK +30, HIT +13, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777ATK +40, HIT +13, Sure 240 saniye^000000",
+        "[Sv 5]: ^777777ATK +50, HIT +15, Sure 300 saniye^000000"
+      ]
+    },
+    "SP_SOULFAIRY": {
+      "name_original": "Fairy's Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Unity 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ruhu ^0000FFFairy's Soul^777777'a cevirip kendine veya baska bir oyuncuya aktarir. Skill suresince ^CC6600MATK^777777 artar ve ^CC6600Variable Casting Time^777777 azalir.",
+        "Farkli bir ^990099Soul Buff^777777 aktif olan hedefte kullanilamaz. 1 ^990099Soul Energy^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MATK +10, Variable Casting Time -5%, Sure 60 saniye^000000",
+        "[Sv 2]: ^777777MATK +20, Variable Casting Time -5%, Sure 120 saniye^000000",
+        "[Sv 3]: ^777777MATK +30, Variable Casting Time -7%, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777MATK +40, Variable Casting Time -7%, Sure 240 saniye^000000",
+        "[Sv 5]: ^777777MATK +50, Variable Casting Time -10%, Sure 300 saniye^000000"
       ]
     }
   }
