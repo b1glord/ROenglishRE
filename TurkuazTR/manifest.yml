@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 1.8.0
+# Version: 1.9.0
 # Aciklama: Upstream 2026, Turkce overlay ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -34,14 +34,16 @@ sync:
     patch: "TurkuazTR/guild_tip.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   ba_frostjoke:
-    status: translated_partial
+    status: translated_complete
     translated_lines: 100
+    intentional_english_lines: 19
     strategy: exact_source_overlay
     patch: "TurkuazTR/ba_frostjoke.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   dc_scream:
-    status: translated_partial
+    status: translated_complete
     translated_lines: 105
+    neutral_lines: 12
     strategy: exact_source_overlay
     patch: "TurkuazTR/dc_scream.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
@@ -55,14 +57,18 @@ sync:
     patch: "TurkuazTR/msgstringtable.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   achievements:
-    status: translated_partial
+    status: translated_complete
     translated_lines: 1638
+    intentional_english_lines: 2
+    neutral_lines: 364
     strategy: exact_source_overlay
     patch: "TurkuazTR/achievements.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   recommended_quests:
-    status: translated_partial
+    status: translated_complete
     translated_lines: 270
+    intentional_english_lines: 10
+    neutral_lines: 100
     strategy: exact_source_overlay
     patch: "TurkuazTR/recommended_quests.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
@@ -81,6 +87,8 @@ sync:
   navi_data:
     status: translated_partial
     translated_lines: 2273
+    review_scope: "generic_npc_object_and_map_labels_complete"
+    intentional_remaining: "canonical_proper_names_and_monster_names"
     strategy: exact_source_overlay
     patch: "TurkuazTR/navi_data.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
