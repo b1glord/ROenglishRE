@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.17.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 600 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.18.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 635 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2411,6 +2411,146 @@
     "ABC_ABYSS_SLAYER": {
       "name_original": "Abyss Slayer",
       "name_tr": "Ucurum Avcisi"
+    },
+    "ABC_ABYSS_STRIKE": {
+      "name_original": "Omega Abyss Strike",
+      "name_tr": "Omega Ucurum Darbesi"
+    },
+    "ABC_DEFT_STAB": {
+      "name_original": "Deft Stab",
+      "name_tr": "Cevik Saplama"
+    },
+    "ABC_ABYSS_SQUARE": {
+      "name_original": "Abyss Square",
+      "name_tr": "Ucurum Meydani"
+    },
+    "ABC_FRENZY_SHOT": {
+      "name_original": "Frenzy Shot",
+      "name_tr": "Cinnet Atisi"
+    },
+    "MT_AXE_STOMP": {
+      "name_original": "Axe Stomp",
+      "name_tr": "Balta Ezisi"
+    },
+    "MT_RUSH_QUAKE": {
+      "name_original": "Rush Quake",
+      "name_tr": "Hucum Depremi"
+    },
+    "MT_M_MACHINE": {
+      "name_original": "Manufacture Machine",
+      "name_tr": "Makine Uretimi"
+    },
+    "MT_A_MACHINE": {
+      "name_original": "Activation Attack Machine",
+      "name_tr": "Saldiri Makinesini Etkinlestir"
+    },
+    "MT_D_MACHINE": {
+      "name_original": "Activation Defense Machine",
+      "name_tr": "Savunma Makinesini Etkinlestir"
+    },
+    "MT_TWOAXEDEF": {
+      "name_original": "Two-Handed Axe Defending",
+      "name_tr": "Cift El Balta Savunmasi"
+    },
+    "MT_ABR_M": {
+      "name_original": "ABR Mastery",
+      "name_tr": "ABR Ustaligi"
+    },
+    "MT_SUMMON_ABR_BATTLE_WARIOR": {
+      "name_original": "ABR - Battle Warrior",
+      "name_tr": "ABR - Savasci"
+    },
+    "MT_SUMMON_ABR_DUAL_CANNON": {
+      "name_original": "ABR - Dual Cannon",
+      "name_tr": "ABR - Cift Top"
+    },
+    "MT_SUMMON_ABR_MOTHER_NET": {
+      "name_original": "ABR - Mother Net",
+      "name_tr": "ABR - Ana Ag"
+    },
+    "MT_SUMMON_ABR_INFINITY": {
+      "name_original": "ABR - Infinity",
+      "name_tr": "ABR - Sonsuzluk"
+    },
+    "ABR_DUAL_CANNON_FIRE": {
+      "name_original": "ABR Dual Cannon Fire",
+      "name_tr": "ABR Cift Top Atisi"
+    },
+    "ABR_BATTLE_BUSTER": {
+      "name_original": "ABR Battle Buster",
+      "name_tr": "ABR Savas Patlamasi"
+    },
+    "ABR_NET_REPAIR": {
+      "name_original": "ABR Net Repair",
+      "name_tr": "ABR Ag Onarimi"
+    },
+    "ABR_NET_SUPPORT": {
+      "name_original": "ABR Net Support",
+      "name_tr": "ABR Ag Destegi"
+    },
+    "ABR_INFINITY_BUSTER": {
+      "name_original": "ABR Infinity Buster",
+      "name_tr": "ABR Sonsuzluk Patlamasi"
+    },
+    "MT_SPARK_BLASTER": {
+      "name_original": "Spark Blaster",
+      "name_tr": "Kivilcim Patlamasi"
+    },
+    "MT_TRIPLE_LASER": {
+      "name_original": "Triple Laser",
+      "name_tr": "Uclu Lazer"
+    },
+    "MT_MIGHTY_SMASH": {
+      "name_original": "Mighty Smash",
+      "name_tr": "Guclu Ezis"
+    },
+    "EM_MAGIC_BOOK_M": {
+      "name_original": "Magical Book Mastery",
+      "name_tr": "Buyulu Kitap Ustaligi"
+    },
+    "EM_SPELL_ENCHANTING": {
+      "name_original": "Spell Enchanting",
+      "name_tr": "Buyu Efsunlama"
+    },
+    "EM_ACTIVITY_BURN": {
+      "name_original": "Activity Burn",
+      "name_tr": "Etkinlik Yakma"
+    },
+    "EM_INCREASING_ACTIVITY": {
+      "name_original": "Increasing Activity",
+      "name_tr": "Etkinlik Artirma"
+    },
+    "EM_DIAMOND_STORM": {
+      "name_original": "Diamond Storm",
+      "name_tr": "Elmas Firtinasi"
+    },
+    "EM_LIGHTNING_LAND": {
+      "name_original": "Lightning Land",
+      "name_tr": "Yildirim Diyari"
+    },
+    "EM_VENOM_SWAMP": {
+      "name_original": "Venom Swamp",
+      "name_tr": "Zehir Batakligi"
+    },
+    "EM_CONFLAGRATION": {
+      "name_original": "Conflagration",
+      "name_tr": "Buyuk Yangin"
+    },
+    "EM_TERRA_DRIVE": {
+      "name_original": "Terra Drive",
+      "name_tr": "Toprak Yukseltme"
+    },
+    "EM_ELEMENTAL_SPIRIT_M": {
+      "name_original": "Elemental Spirit Mastery",
+      "name_tr": "Element Ruhu Ustaligi"
+    },
+    "EM_SUMMON_ELEMENTAL_ARDOR": {
+      "name_original": "Summon Elemental Ardor",
+      "name_tr": "Element Ardor Cagir"
+    },
+    "EM_SUMMON_ELEMENTAL_DILUVIO": {
+      "name_original": "Summon Elemental Diluvio",
+      "name_tr": "Element Diluvio Cagir"
     }
   },
   "name_profiles": {
@@ -2423,5 +2563,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 600
+  "patch_count": 635
 }
