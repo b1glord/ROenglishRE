@@ -1,0 +1,229 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/sign_data.tr.json",
+    "purpose": "Renewal Sign_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest Sign_Data.lub kaynagindaki 53 exact satiri Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/Sign_Data.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "d285c0421e4aa4c423a57103c5db8e444cc49b4f",
+  "source_line_count": 84,
+  "patch_count": 53,
+  "patches": {
+    "18": {
+      "source_en": "\t[\"\uc785\ub825\uc548\ud558\uc168\uc2b5\ub2c8\ub2e4\"] = \"Cannot enter\",",
+      "translation_tr": "\t[\"\uc785\ub825\uc548\ud558\uc168\uc2b5\ub2c8\ub2e4\"] = \"Giris yapilamaz\","
+    },
+    "19": {
+      "source_en": "\t[\"  \ub9c8\uc77c\ub9ac\uc9c0 \uc2a4\ud1a4\uad50\ud658\"] = \"  Mileage Stone Exchange\",",
+      "translation_tr": "\t[\"  \ub9c8\uc77c\ub9ac\uc9c0 \uc2a4\ud1a4\uad50\ud658\"] = \"  Mileage Stone Takasi\","
+    },
+    "20": {
+      "source_en": "\t[\"  180Lv\ubbf8\ub9cc \ucd9c\uc785\uae08\uc9c0\"] = \"  Entry: Level 180+\",",
+      "translation_tr": "\t[\"  180Lv\ubbf8\ub9cc \ucd9c\uc785\uae08\uc9c0\"] = \"  Giris: Level 180+\","
+    },
+    "21": {
+      "source_en": "\t[\"  190Lv\ubbf8\ub9cc \ucd9c\uc785\uae08\uc9c0\"] = \"  Entry: Level 190+\",",
+      "translation_tr": "\t[\"  190Lv\ubbf8\ub9cc \ucd9c\uc785\uae08\uc9c0\"] = \"  Giris: Level 190+\","
+    },
+    "22": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ud639\ud55c\"] = \"  Specimen Environment - Cold\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ud639\ud55c\"] = \"  Ornek Ortami - Soguk\","
+    },
+    "23": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ud654\uc5fc\"] = \"  Specimen Environment - Flame\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ud654\uc5fc\"] = \"  Ornek Ortami - Alev\","
+    },
+    "24": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ucd08\uc6d0\"] = \"  Specimen Environment - Grassland\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ucd08\uc6d0\"] = \"  Ornek Ortami - Cayir\","
+    },
+    "25": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc8fd\uc74c\"] = \"  Specimen Environment - Death\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc8fd\uc74c\"] = \"  Ornek Ortami - Olum\","
+    },
+    "27": {
+      "source_en": "\t[\"  \uae30\ubcf8 \uc7a5\ube44 \uc9c0\uc6d0\"] = \"  Basic Equipment Support\",",
+      "translation_tr": "\t[\"  \uae30\ubcf8 \uc7a5\ube44 \uc9c0\uc6d0\"] = \"  Temel Ekipman Destegi\","
+    },
+    "28": {
+      "source_en": "\t[\"  \uc911\uae09 \uace0\uae09 \ubb34\uae30 \uc9c0\uc6d0\"] = \"  Intermediate / Advanced Weapon Support\",",
+      "translation_tr": "\t[\"  \uc911\uae09 \uace0\uae09 \ubb34\uae30 \uc9c0\uc6d0\"] = \"  Orta / Ileri Silah Destegi\","
+    },
+    "29": {
+      "source_en": "\t[\"  \uace0\uae09 \ubc29\uc5b4\uad6c \uc9c0\uc6d0\"] = \"  Advanced Armor Support\",",
+      "translation_tr": "\t[\"  \uace0\uae09 \ubc29\uc5b4\uad6c \uc9c0\uc6d0\"] = \"  Ileri Zirh Destegi\","
+    },
+    "30": {
+      "source_en": "\t[\"  \uc250\ub3c4\uc6b0 \uc7a5\ube44 \ub300\uc5ec\"] = \"  Shadow Equipment Rental\",",
+      "translation_tr": "\t[\"  \uc250\ub3c4\uc6b0 \uc7a5\ube44 \ub300\uc5ec\"] = \"  Shadow Equipment Kiralama\","
+    },
+    "31": {
+      "source_en": "\t[\"  \ub099\uc6d0\ub2e8 \uacf5\uac04\uc774\ub3d9\uc0ac\"] = \"  Eden Warper\",",
+      "translation_tr": "\t[\"  \ub099\uc6d0\ub2e8 \uacf5\uac04\uc774\ub3d9\uc0ac\"] = \"  Eden Isinlayicisi\","
+    },
+    "32": {
+      "source_en": "\t[\"   \ub099\uc6d0\ub2e8 \uacf5\uac04\uc774\ub3d9\uc0ac\"] = \"   Eden Warper\",",
+      "translation_tr": "\t[\"   \ub099\uc6d0\ub2e8 \uacf5\uac04\uc774\ub3d9\uc0ac\"] = \"   Eden Isinlayicisi\","
+    },
+    "33": {
+      "source_en": "\t[\"  \uc5ec\uac1d\uc120 \uc2b9\uc120\"] = \"  Ferry Service\",",
+      "translation_tr": "\t[\"  \uc5ec\uac1d\uc120 \uc2b9\uc120\"] = \"  Feribot Hizmeti\","
+    },
+    "34": {
+      "source_en": "\t[\"  \uc54c\ubca0\ub974\ud0c0\ud589\"] = \"  To Alberta\",",
+      "translation_tr": "\t[\"  \uc54c\ubca0\ub974\ud0c0\ud589\"] = \"  Alberta'ya\","
+    },
+    "35": {
+      "source_en": "\t[\"  \ub09c\ud30c\uc120\ud589\"] = \"  To Sunken Ship\",",
+      "translation_tr": "\t[\"  \ub09c\ud30c\uc120\ud589\"] = \"  Sunken Ship'e\","
+    },
+    "36": {
+      "source_en": "\t[\"  \uc774\uc988\ub8e8\ub4dc\ud589\"] = \"  To Izlude\",",
+      "translation_tr": "\t[\"  \uc774\uc988\ub8e8\ub4dc\ud589\"] = \"  Izlude'a\","
+    },
+    "37": {
+      "source_en": "\t[\"  \uc790\uc640\uc774\ud589\"] = \"  To Jawai\",",
+      "translation_tr": "\t[\"  \uc790\uc640\uc774\ud589\"] = \"  Jawai'ye\","
+    },
+    "38": {
+      "source_en": "\t[\"  \ub8e8\ud2f0\uc5d0\ud589\"] = \"  To Lutie\",",
+      "translation_tr": "\t[\"  \ub8e8\ud2f0\uc5d0\ud589\"] = \"  Lutie'ye\","
+    },
+    "39": {
+      "source_en": "\t[\"  \uc624\ub518\uc2e0\uc804 \ud589\"] = \"  To Odin Temple\",",
+      "translation_tr": "\t[\"  \uc624\ub518\uc2e0\uc804 \ud589\"] = \"  Odin Temple'a\","
+    },
+    "40": {
+      "source_en": "\t[\"  \ud718\uac94 \ud589\"] = \"  To Hugel\",",
+      "translation_tr": "\t[\"  \ud718\uac94 \ud589\"] = \"  Hugel'e\","
+    },
+    "41": {
+      "source_en": "\t[\"  \uc6a9\uc9c0\uc131 \ud589\"] = \"  To Louyang\",",
+      "translation_tr": "\t[\"  \uc6a9\uc9c0\uc131 \ud589\"] = \"  Louyang'a\","
+    },
+    "42": {
+      "source_en": "\t[\"  \uc54c\ubca0\ub974\ud0c0 \ud589\"] = \"  To Alberta\",",
+      "translation_tr": "\t[\"  \uc54c\ubca0\ub974\ud0c0 \ud589\"] = \"  Alberta'ya\","
+    },
+    "43": {
+      "source_en": "\t[\"  \uc544\ub9c8\ucbd4 \ud589\"] = \"  To Amatsu\",",
+      "translation_tr": "\t[\"  \uc544\ub9c8\ucbd4 \ud589\"] = \"  Amatsu'ya\","
+    },
+    "44": {
+      "source_en": "\t[\"  \uc544\uc694\ud0c0\uc57c \ud589\"] = \"  To Ayothaya\",",
+      "translation_tr": "\t[\"  \uc544\uc694\ud0c0\uc57c \ud589\"] = \"  Ayothaya'ya\","
+    },
+    "45": {
+      "source_en": "\t[\"  \ube0c\ub77c\uc9c8\ub9ac\uc2a4 \ud589\"] = \"  To Brasilis\",",
+      "translation_tr": "\t[\"  \ube0c\ub77c\uc9c8\ub9ac\uc2a4 \ud589\"] = \"  Brasilis'e\","
+    },
+    "46": {
+      "source_en": "\t[\"  \ucfe4\ub8ec \ud589\"] = \"  To Gonryun\",",
+      "translation_tr": "\t[\"  \ucfe4\ub8ec \ud589\"] = \"  Gonryun'a\","
+    },
+    "47": {
+      "source_en": "\t[\"  \ud3ec\ud2b8\ub9d0\ub77c\uc57c \ud589\"] = \"  To Malaya\",",
+      "translation_tr": "\t[\"  \ud3ec\ud2b8\ub9d0\ub77c\uc57c \ud589\"] = \"  Malaya'ya\","
+    },
+    "48": {
+      "source_en": "\t[\"  \ub370\uc640\ud0c0 \ud589\"] = \"  To Dewata\",",
+      "translation_tr": "\t[\"  \ub370\uc640\ud0c0 \ud589\"] = \"  Dewata'ya\","
+    },
+    "49": {
+      "source_en": "\t[\"  \ubaa8\uc2a4\ucf54\ube44\uc544 \ud589\"] = \"  To Moscovia\",",
+      "translation_tr": "\t[\"  \ubaa8\uc2a4\ucf54\ube44\uc544 \ud589\"] = \"  Moscovia'ya\","
+    },
+    "50": {
+      "source_en": "\t[\"  \ub77d \ub9bf\uc9c0 \ud589\"] = \"  To Rock Ridge\",",
+      "translation_tr": "\t[\"  \ub77d \ub9bf\uc9c0 \ud589\"] = \"  Rock Ridge'e\","
+    },
+    "51": {
+      "source_en": "\t[\"  \uac70\ubd81\uc12c \ud589\"] = \"  To Turtle Dungeon\",",
+      "translation_tr": "\t[\"  \uac70\ubd81\uc12c \ud589\"] = \"  Turtle Dungeon'a\","
+    },
+    "52": {
+      "source_en": "\t[\"  \ub77c\uc790\ub0d0 \ud589\"] = \"  To Lasagna\",",
+      "translation_tr": "\t[\"  \ub77c\uc790\ub0d0 \ud589\"] = \"  Lasagna'ya\","
+    },
+    "53": {
+      "source_en": "\t[\"  \ub9d0\ub791\ub3c4 \ud589\"] = \"  To Malangdo\",",
+      "translation_tr": "\t[\"  \ub9d0\ub791\ub3c4 \ud589\"] = \"  Malangdo'ya\","
+    },
+    "58": {
+      "source_en": "\t[\"  \uacb0\ud63c \uc2e0\uccad\"] = \"  Marriage Application\",",
+      "translation_tr": "\t[\"  \uacb0\ud63c \uc2e0\uccad\"] = \"  Evlilik Basvurusu\","
+    },
+    "59": {
+      "source_en": "\t[\"  \ub3c5\ub9bd \ub3c4\uc6b0\ubbf8\"] = \"  Independent Helper\",",
+      "translation_tr": "\t[\"  \ub3c5\ub9bd \ub3c4\uc6b0\ubbf8\"] = \"  Bagimsizlik Yardimcisi\","
+    },
+    "60": {
+      "source_en": "\t[\"  \ube44\uacf5\uc815 \ucd9c\uad6c\"] = \"  Exit\",",
+      "translation_tr": "\t[\"  \ube44\uacf5\uc815 \ucd9c\uad6c\"] = \"  Cikis\","
+    },
+    "61": {
+      "source_en": "\t[\"  \uc720\ub178-\ub77c\ud5ec \ud589\"] = \"  To Yuno-Rachel\",",
+      "translation_tr": "\t[\"  \uc720\ub178-\ub77c\ud5ec \ud589\"] = \"  Yuno-Rachel Hatti\","
+    },
+    "62": {
+      "source_en": "\t[\"  \uc720\ub178-\uc774\uc988\ub8e8\ub4dc \ud589\"] = \"  To Yuno-Izlude\",",
+      "translation_tr": "\t[\"  \uc720\ub178-\uc774\uc988\ub8e8\ub4dc \ud589\"] = \"  Yuno-Izlude Hatti\","
+    },
+    "63": {
+      "source_en": "\t[\"  \uc774\uc988\ub8e8\ub4dc-\ub77c\ud5ec \ud589\"] = \"  Izlude to Rachel\",",
+      "translation_tr": "\t[\"  \uc774\uc988\ub8e8\ub4dc-\ub77c\ud5ec \ud589\"] = \"  Izlude-Rachel Hatti\","
+    },
+    "64": {
+      "source_en": "\t[\"  \uc288\ubc1c\uce20\ubc1c\ub4dc \uad6d\ub0b4\uc120\"] = \"  Schwartzvald Rebublic\",",
+      "translation_tr": "\t[\"  \uc288\ubc1c\uce20\ubc1c\ub4dc \uad6d\ub0b4\uc120\"] = \"  Schwartzvald Cumhuriyeti\","
+    },
+    "65": {
+      "source_en": "\t[\"  \ub4f1\uae09\uac15\ud654\uc18c\"] = \"  Grade Enhancement\",",
+      "translation_tr": "\t[\"  \ub4f1\uae09\uac15\ud654\uc18c\"] = \"  Grade Gelistirme\","
+    },
+    "66": {
+      "source_en": "\t[\"  \uba54\uac00 \ubd80\uc2a4\ud130 \uc9c0\uc6d0\"] = \"  Mega Booster Support\",",
+      "translation_tr": "\t[\"  \uba54\uac00 \ubd80\uc2a4\ud130 \uc9c0\uc6d0\"] = \"  Mega Booster Destegi\","
+    },
+    "67": {
+      "source_en": "\t[\" \ubd80\uc2a4\ud130\uc77c\ub8e8\uc2dc\uc628\uc778\ucc48\ud2b8\"] = \" Booster Illusion Enchantment\",",
+      "translation_tr": "\t[\" \ubd80\uc2a4\ud130\uc77c\ub8e8\uc2dc\uc628\uc778\ucc48\ud2b8\"] = \" Booster Illusion Enchant\","
+    },
+    "68": {
+      "source_en": "\t[\" \ubd80\uc2a4\ud130\uc624\ud1a0\ub9e4\ud2f1\uc778\ucc48\ud2b8\"] = \" Booster Automatic Enchantment\",",
+      "translation_tr": "\t[\" \ubd80\uc2a4\ud130\uc624\ud1a0\ub9e4\ud2f1\uc778\ucc48\ud2b8\"] = \" Booster Automatic Enchant\","
+    },
+    "69": {
+      "source_en": "\t[\" \ubaa8\ud5d8\uac00 \ud3b8\uc758\uc13c\ud130\"] = \" Adventurer Convenience Center\",",
+      "translation_tr": "\t[\" \ubaa8\ud5d8\uac00 \ud3b8\uc758\uc13c\ud130\"] = \" Maceraci Hizmet Merkezi\","
+    },
+    "70": {
+      "source_en": "\t[\"  \ucc28\uc6d0 \uc218\ud638 \uae30\ub150\uad00\"] = \"  Dimensional Guardian Memorial\",",
+      "translation_tr": "\t[\"  \ucc28\uc6d0 \uc218\ud638 \uae30\ub150\uad00\"] = \"  Boyutsal Muhafiz Aniti\","
+    },
+    "71": {
+      "source_en": "\t[\"  1\ucc28 \uc804\uc9c1 \uc548\ub0b4\"] = \"  1st Job Change Guide\",",
+      "translation_tr": "\t[\"  1\ucc28 \uc804\uc9c1 \uc548\ub0b4\"] = \"  1. Job Degisim Rehberi\","
+    },
+    "72": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc131\uc804\"] = \"  Specimen Environment - Temple\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc131\uc804\"] = \"  Ornek Ortami - Tapinak\","
+    },
+    "73": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ub9f9\ub3c5\"] = \"  Specimen Environment - Venom\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \ub9f9\ub3c5\"] = \"  Ornek Ortami - Zehir\","
+    },
+    "74": {
+      "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc601\ud63c\"] = \"  Specimen Environment - Soul\",",
+      "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc601\ud63c\"] = \"  Ornek Ortami - Ruh\","
+    },
+    "75": {
+      "source_en": "\t[\"  \ubbf8\uc6a9 \ucfe0\ud3f0,\ucf54\uc2a4\ud2ac \ubcc0\uacbd \ud2f0\ucf13\"] = \"  Beauty Coupon, Costume Change Ticket\",",
+      "translation_tr": "\t[\"  \ubbf8\uc6a9 \ucfe0\ud3f0,\ucf54\uc2a4\ud2ac \ubcc0\uacbd \ud2f0\ucf13\"] = \"  Guzellik Kuponu, Costume Degisim Bileti\","
+    }
+  }
+}
