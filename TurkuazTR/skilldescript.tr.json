@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.12.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 420 exact Renewal skill aciklamasi dahil",
+    "version": "2.13.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 440 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -7069,6 +7069,349 @@
         "[Sv 3]: ^777777HP %3 tuketir, ATK +24, ATK +3%^000000",
         "[Sv 4]: ^777777HP %4 tuketir, ATK +32, ATK +4%^000000",
         "[Sv 5]: ^777777HP %5 tuketir, ATK +40, ATK +5%^000000"
+      ]
+    },
+    "SR_EARTHSHAKER": {
+      "name_original": "Earth Shaker",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dragon Combo 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Zeminden sarsinti dalgasi gondererek etki alanindaki tum hedeflere hasar verir. ^0000FFHiding/Cloaking^777777 durumundaki dusmanlari ortaya cikarir ve ek hasar verir.",
+        "^00A100Guardian^777777 haric monster'lar 5 saniye boyunca ^0000FFRampage Blaster^777777'dan ek hasar alir. Hasar kullananin ^CC6600STR^777777 degerinden etkilenir.^000000",
+        "[Sv 1]: ^777777ATK 300% / AoE 3x3^000000",
+        "[Sv 2]: ^777777ATK 600% / AoE 5x5^000000",
+        "[Sv 3]: ^777777ATK 900% / AoE 7x7^000000",
+        "[Sv 4]: ^777777ATK 1200% / AoE 9x9^000000",
+        "[Sv 5]: ^777777ATK 1500% / AoE 11x11^000000"
+      ]
+    },
+    "SR_KNUCKLEARROW": {
+      "name_original": "Knuckle Arrow",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Lightning Walk 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kullanan ile hedefi aninda yan yana getirir, hedefe hasar verir ve geri iter. Geri itilirken duvar veya engele carparsa ek hasar alir.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar; geri itilemeyen ^00A100Boss^777777 monster'lara karsi daha yuksektir.",
+        "1 ^990099Spirit Sphere^777777 tuketir; Seviye 6 ve uzerinde Spirit Sphere tuketmez.^000000",
+        "[Sv 1]: ^777777ATK 600% / +150% Geri Itme / 700% (^00A100Boss^777777)^000000",
+        "[Sv 2]: ^777777ATK 700% / +300% Geri Itme / 900% (^00A100Boss^777777)^000000",
+        "[Sv 3]: ^777777ATK 800% / +450% Geri Itme / 1100% (^00A100Boss^777777)^000000",
+        "[Sv 4]: ^777777ATK 900% / +600% Geri Itme / 1300% (^00A100Boss^777777)^000000",
+        "[Sv 5]: ^777777ATK 1000% / +750% Geri Itme / 1500% (^00A100Boss^777777)^000000",
+        "[Sv 6]: ^777777ATK 1100% / +900% Geri Itme / 1700% (^00A100Boss^777777)^000000",
+        "[Sv 7]: ^777777ATK 1200% / +1050% Geri Itme / 1900% (^00A100Boss^777777)^000000",
+        "[Sv 8]: ^777777ATK 1300% / +1200% Geri Itme / 2100% (^00A100Boss^777777)^000000",
+        "[Sv 9]: ^777777ATK 1400% / +1350% Geri Itme / 2300% (^00A100Boss^777777)^000000",
+        "[Sv 10]: ^777777ATK 1500% / +1500% Geri Itme / 2500% (^00A100Boss^777777)^000000"
+      ]
+    },
+    "SR_ASSIMILATEPOWER": {
+      "name_original": "Power Absorb",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Absorp Spirits 1, Power Implantation 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777775x5 alandaki tum hedeflerin Spirit Sphere'lerini emerek ^CC6600SP^777777 yeniler.^000000"
+      ]
+    },
+    "SR_GENTLETOUCH_QUIET": {
+      "name_original": "Gentle Touch-Silence",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sura Basic Skill^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Baski noktasi tekniklerini kullanarak hedefe hasar verir ve ^663399Silence^777777 uygular. Kullananin ^CC6600DEX^777777 degeri hasari buyuk oranda artirir.^000000",
+        "[Sv 1]: ^777777Menzil 2 hucre, Hasar 100%^000000",
+        "[Sv 2]: ^777777Menzil 2 hucre, Hasar 200%^000000",
+        "[Sv 3]: ^777777Menzil 2 hucre, Hasar 300%^000000",
+        "[Sv 4]: ^777777Menzil 2 hucre, Hasar 400%^000000",
+        "[Sv 5]: ^777777Menzil 2 hucre, Hasar 500%^000000"
+      ]
+    },
+    "SR_DRAGONCOMBO": {
+      "name_original": "Dragon Combo",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Triple Attack 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Tek hedefe hizla iki darbe vurur ve ^663399Stun^777777 uygulama sansi vardir. Ardindan ^0000FFFallen Empire^777777 combo olarak kullanilabilir.^000000",
+        "[Sv 1]: ^777777ATK 180%, Stun Sansi 2%^000000",
+        "[Sv 2]: ^777777ATK 260%, Stun Sansi 3%^000000",
+        "[Sv 3]: ^777777ATK 340%, Stun Sansi 4%^000000",
+        "[Sv 4]: ^777777ATK 420%, Stun Sansi 5%^000000",
+        "[Sv 5]: ^777777ATK 500%, Stun Sansi 6%^000000",
+        "[Sv 6]: ^777777ATK 580%, Stun Sansi 7%^000000",
+        "[Sv 7]: ^777777ATK 660%, Stun Sansi 8%^000000",
+        "[Sv 8]: ^777777ATK 740%, Stun Sansi 9%^000000",
+        "[Sv 9]: ^777777ATK 820%, Stun Sansi 10%^000000",
+        "[Sv 10]: ^777777ATK 900%, Stun Sansi 11%^000000"
+      ]
+    },
+    "SR_RIDEINLIGHTNING": {
+      "name_original": "Ride in Lightning",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Finger Offensive 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777^990099Spirit Sphere^777777'leri firlatarak patlama olusturur ve alandaki tum hedeflere menzilli fiziksel hasar verir. ^990099Knuckle^777777 takiliyken ek hasar verir.",
+        "2 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 40% / 90% (^990099Knuckle^777777), AoE 3x3, 1 Vurus^000000",
+        "[Sv 2]: ^777777ATK 80% / 180% (^990099Knuckle^777777), AoE 3x3, 2 Vurus^000000",
+        "[Sv 3]: ^777777ATK 120% / 270% (^990099Knuckle^777777), AoE 5x5, 3 Vurus^000000",
+        "[Sv 4]: ^777777ATK 160% / 360% (^990099Knuckle^777777), AoE 5x5, 4 Vurus^000000",
+        "[Sv 5]: ^777777ATK 200% / 450% (^990099Knuckle^777777), AoE 7x7, 5 Vurus^000000"
+      ]
+    },
+    "SR_HOWLINGOFLION": {
+      "name_original": "Howling of Lion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Power Absorb 1, Ride in Lightning 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Aslan kukremesi olusturarak cevredeki tum hedeflere hasar verir. Hedefte ^00A100Minstrel^777777 veya ^00A100Wanderer^777777 sarki etkisi varsa iptal eder.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar. 3 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 5x5, ATK 500%^000000",
+        "[Sv 2]: ^777777AoE 5x5, ATK 1000%^000000",
+        "[Sv 3]: ^777777AoE 7x7, ATK 1500%^000000",
+        "[Sv 4]: ^777777AoE 7x7, ATK 2000%^000000",
+        "[Sv 5]: ^777777AoE 9x9, ATK 2500%^000000"
+      ]
+    },
+    "SR_TIGERCANNON": {
+      "name_original": "Tiger Cannon",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Fallen Empire 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Kullananin ^CC6600MaksHP^777777 ve ^CC6600MaksSP^777777 yuzdelerine dayali olarak hedefe ve cevresindeki dusmanlara ozel yakin dovus fiziksel hasari verir.",
+        "Yalnizca ^0000FFExplosion Spirits^777777 durumunda kullanilabilir ve ^0000FFFallen Empire^777777 sonrasinda ek hasar verir. 2 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 5x5, MaksHP 12% / MaksSP 6%^000000",
+        "[Sv 2]: ^777777AoE 5x5, MaksHP 14% / MaksSP 7%^000000",
+        "[Sv 3]: ^777777AoE 5x5, MaksHP 16% / MaksSP 8%^000000",
+        "[Sv 4]: ^777777AoE 5x5, MaksHP 18% / MaksSP 9%^000000",
+        "[Sv 5]: ^777777AoE 5x5, MaksHP 20% / MaksSP 10%^000000",
+        "[Sv 6]: ^777777AoE 7x7, MaksHP 22% / MaksSP 11%^000000",
+        "[Sv 7]: ^777777AoE 7x7, MaksHP 24% / MaksSP 12%^000000",
+        "[Sv 8]: ^777777AoE 7x7, MaksHP 26% / MaksSP 13%^000000",
+        "[Sv 9]: ^777777AoE 7x7, MaksHP 28% / MaksSP 14%^000000",
+        "[Sv 10]: ^777777AoE 7x7, MaksHP 30% / MaksSP 15%^000000"
+      ]
+    },
+    "SR_CRESCENTELBOW": {
+      "name_original": "Crescent Elbow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Windmill 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Saldiriya karsi koyma sansi verir; dusmana hasar verip geri iterken hasarin bir kismini kullanan da alir. Hedefin ^CC6600HP^777777 degeri ne kadar yuksekse hasar o kadar artar.",
+        "2 ^990099Spirit Sphere^777777 tuketir. ^00A100Boss^777777 monster'larda calismaz.^000000",
+        "[Sv 1]: ^777777Sans 55%, Sure 3 saniye^000000",
+        "[Sv 2]: ^777777Sans 60%, Sure 4 saniye^000000",
+        "[Sv 3]: ^777777Sans 65%, Sure 5 saniye^000000",
+        "[Sv 4]: ^777777Sans 70%, Sure 6 saniye^000000",
+        "[Sv 5]: ^777777Sans 75%, Sure 7 saniye^000000"
+      ]
+    },
+    "SR_RAISINGDRAGON": {
+      "name_original": "Rising Dragon",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Power Implantation 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Zihinsel ve ruhsal gucu gecici olarak artirir. Daha fazla ^990099Spirit Sphere^777777 toplamayi saglar; ^CC6600MaksHP^777777 ve ^CC6600MaksSP^777777 degerlerini skill seviyesine esit yuzdeyle, ayrica ^CC6600Saldiri Hizi^777777'ni artirir.",
+        "Skill aktifken ^0000FFExplosion Spirits^777777 durumu korunur.^000000",
+        "[Sv 1]: ^777777Maks Spirit Sphere 6, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777Maks Spirit Sphere 7, Sure 140 saniye^000000",
+        "[Sv 3]: ^777777Maks Spirit Sphere 8, Sure 160 saniye^000000",
+        "[Sv 4]: ^777777Maks Spirit Sphere 9, Sure 180 saniye^000000",
+        "[Sv 5]: ^777777Maks Spirit Sphere 10, Sure 200 saniye^000000",
+        "[Sv 6]: ^777777Maks Spirit Sphere 11, Sure 220 saniye^000000",
+        "[Sv 7]: ^777777Maks Spirit Sphere 12, Sure 240 saniye^000000",
+        "[Sv 8]: ^777777Maks Spirit Sphere 13, Sure 260 saniye^000000",
+        "[Sv 9]: ^777777Maks Spirit Sphere 14, Sure 280 saniye^000000",
+        "[Sv 10]: ^777777Maks Spirit Sphere 15, Sure 300 saniye^000000"
+      ]
+    },
+    "SR_POWERVELOCITY": {
+      "name_original": "Power Implantation",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Call Spirits 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Tum Spirit Sphere'lerini secilen hedefe aktarir.^000000"
+      ]
+    },
+    "SR_GENTLETOUCH_ENERGYGAIN": {
+      "name_original": "Gentle Touch-Energy Gain",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Gentle Touch-Cure 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Baski noktasi teknikleriyle dovus ruhunu guclendirir; fiziksel hasar verdiginde veya aldiginda ^990099Spirit Sphere^777777 kazanma sansi verir.",
+        "Aktifken ^0000FFCombo Finish, Chain Crush Combo^777777 ve ^0000FFTiger Fist^777777 hasarini artirir.^000000",
+        "[Sv 1]: ^777777HP %1 tuketir, Sans 15%^000000",
+        "[Sv 2]: ^777777HP %2 tuketir, Sans 20%^000000",
+        "[Sv 3]: ^777777HP %3 tuketir, Sans 25%^000000",
+        "[Sv 4]: ^777777HP %4 tuketir, Sans 30%^000000",
+        "[Sv 5]: ^777777HP %5 tuketir, Sans 35%^000000"
+      ]
+    },
+    "SR_FALLENEMPIRE": {
+      "name_original": "Fallen Empire",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Dragon Combo 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Omuz ve yumruklarla yukari dogru vurup tek hedefe hasar verir. Yalnizca ^0000FFDragon Combo^777777 sonrasinda kullanilabilir. Ardindan ^0000FFTiger Cannon^777777 ve ^0000FFGates of Hell^777777 kullanilabilir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore artar. 2 ^990099Spirit Sphere^777777 tuketir; Seviye 6 ve uzerinde 1 Spirit Sphere tuketir.^000000",
+        "[Sv 1]: ^777777ATK 350%^000000",
+        "[Sv 2]: ^777777ATK 600%^000000",
+        "[Sv 3]: ^777777ATK 850%^000000",
+        "[Sv 4]: ^777777ATK 1100%^000000",
+        "[Sv 5]: ^777777ATK 1350%^000000",
+        "[Sv 6]: ^777777ATK 1600%^000000",
+        "[Sv 7]: ^777777ATK 1850%^000000",
+        "[Sv 8]: ^777777ATK 2100%^000000",
+        "[Sv 9]: ^777777ATK 2350%^000000",
+        "[Sv 10]: ^777777ATK 2600%^000000"
+      ]
+    },
+    "SR_WINDMILL": {
+      "name_original": "Windmill",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Cursed Circle 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Yere yakin donerek tekme atar, kullananin etrafindaki 5x5 alandaki hedeflere hasar verir ve oyunculari oturmaya zorlar. Monster'lara ^663399Stun^777777 uygular.",
+        "^00A100Mini-Boss^777777 ve ^00A100Boss^777777 monster'larda calismaz.^000000"
+      ]
+    },
+    "SR_GENTLETOUCH_CURE": {
+      "name_original": "Gentle Touch-Cure",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Gentle Touch-Silence 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Baski noktasi teknikleriyle hedefin ^663399Abnormal Status^777777 etkilerini iyilestirir ve ^CC6600HP^777777 yeniler. Skill seviyesi arttikca basari sansi artar.",
+        "^663399Stone Curse, Freezing, Stun, Poison, Blind, Silence, Hallucination, Burning^777777 ve ^663399Guillotine Cross Poison^777777 etkilerini kaldirir. Kendini Stone Curse, Freezing ve Stun'dan kurtarabilir.",
+        "1 ^990099Spirit Sphere^777777 tuketir.^000000"
+      ]
+    },
+    "SR_GENTLETOUCH_REVITALIZE": {
+      "name_original": "Gentle Touch-Revitalize",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Gentle Touch-Energy Gain 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Baski noktasi teknikleriyle ^CC6600MaksHP^777777 ve ^CC6600Defense^777777 degerlerini artirir, dogal ^CC6600HP Recovery^777777 oranini iyilestirir. Aktifken ^0000FFTiger Cannon^777777 ve ^0000FFGate of Hell^777777 hasarini artirir.",
+        "^0000FFGentle Touch-Change^777777 ile birlikte kullanilamaz. 1 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MaksHP +2%, DEF +20, HP Recovery +80%^000000",
+        "[Sv 2]: ^777777MaksHP +4%, DEF +40, HP Recovery +110%^000000",
+        "[Sv 3]: ^777777MaksHP +6%, DEF +60, HP Recovery +140%^000000",
+        "[Sv 4]: ^777777MaksHP +8%, DEF +80, HP Recovery +170%^000000",
+        "[Sv 5]: ^777777MaksHP +10%, DEF +100, HP Recovery +200%^000000"
+      ]
+    },
+    "SR_CURSEDCIRCLE": {
+      "name_original": "Cursed Circle",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Blade Stop 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Alandaki tum dusmanlar skill suresince hareket edemez, saldiri yapamaz ve ^663399Silence^777777 durumuna girer. Kullanan baska bir skill kullanirsa ^0000FFCursed Circle^777777 iptal olur.",
+        "1 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE 3x3, Sure 3 saniye^000000",
+        "[Sv 2]: ^777777AoE 3x3, Sure 4 saniye^000000",
+        "[Sv 3]: ^777777AoE 5x5, Sure 5 saniye^000000",
+        "[Sv 4]: ^777777AoE 5x5, Sure 6 saniye^000000",
+        "[Sv 5]: ^777777AoE 7x7, Sure 7 saniye^000000"
+      ]
+    },
+    "SR_RAMPAGEBLASTER": {
+      "name_original": "Rampage Blaster",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Earth Shaker 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^7777777x7 alandaki tum dusmanlara uzun menzilli fiziksel hasar verir. Yalnizca ^0000FFExplosion Spirits^777777 durumunda kullanilabilir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve skill seviyesine gore artar. 3 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 350% / 550% (^0000FFEarth Shaker^777777)^000000",
+        "[Sv 2]: ^777777ATK 700% / 1100% (^0000FFEarth Shaker^777777)^000000",
+        "[Sv 3]: ^777777ATK 1050% / 1650% (^0000FFEarth Shaker^777777)^000000",
+        "[Sv 4]: ^777777ATK 1400% / 2200% (^0000FFEarth Shaker^777777)^000000",
+        "[Sv 5]: ^777777ATK 1750% / 2750% (^0000FFEarth Shaker^777777)^000000"
+      ]
+    },
+    "SR_FLASHCOMBO": {
+      "name_original": "Flash Combo",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dragon Combo 3, Fallen Empire 3, Tiger Cannon 5, Sky Net Blow 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFDragon Combo, Fallen Empire^777777 ve ^0000FFTiger Cannon^777777 olmak uzere 3 combo saldirisini cok hizli arka arkaya etkinlestirir. Her skill ogrenilmis maksimum seviyesinde kullanilir.",
+        "Combo tamamlanana kadar baska skill veya item kullanilamaz.^000000",
+        "[Sv 1]: ^7777775 Spirit Sphere, 4 saniye ATK +40^000000",
+        "[Sv 2]: ^7777775 Spirit Sphere, 4 saniye ATK +60^000000",
+        "[Sv 3]: ^7777774 Spirit Sphere, 4 saniye ATK +80^000000",
+        "[Sv 4]: ^7777774 Spirit Sphere, 4 saniye ATK +100^000000",
+        "[Sv 5]: ^7777773 Spirit Sphere, 4 saniye ATK +120^000000"
+      ]
+    },
+    "DK_SERVANTWEAPON": {
+      "name_original": "Servant Weapon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Yenileme: ^0054FFSkill Seviyesi x 6^000000",
+        "Aciklama: ^777777Silah govdelerini aura biciminde kontrol eder. Uc yakin dovus fiziksel saldiri yapildiginda ve 9x9 alandaki dusmanlara ek hasar verir. En fazla 5 Weapon Aura kontrol edilebilir; dolum suresi ve etkinlesme sansi skill seviyesine baglidir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar. Kullananin ^CC6600Critical^777777 sansina bagli olarak toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1450%, Sure 30 saniye^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 2300%, Sure 60 saniye^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 3150%, Sure 90 saniye^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 4000%, Sure 120 saniye^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4850%, Sure 150 saniye^000000"
       ]
     }
   }
