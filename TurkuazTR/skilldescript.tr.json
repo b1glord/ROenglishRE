@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.2.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 220 exact Renewal skill aciklamasi dahil",
+    "version": "2.3.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 240 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -4078,6 +4078,325 @@
         "[Sv 3]: ^777777ATK 500%^000000",
         "[Sv 4]: ^777777ATK 600%^000000",
         "[Sv 5]: ^777777ATK 700%^000000"
+      ]
+    },
+    "CH_TIGERFIST": {
+      "name_original": "Tiger Fist",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Iron Hand 5, Triple Attack 5, Combo Finish 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFCombo Finish^777777 sonrasinda kullanilabilen combo skill'idir. Hedefi kisa sure sabitler.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar. 1 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 650%, Sabitleme Sansi 20%^000000",
+        "[Sv 2]: ^777777ATK 800%, Sabitleme Sansi 30%^000000",
+        "[Sv 3]: ^777777ATK 950%, Sabitleme Sansi 40%^000000",
+        "[Sv 4]: ^777777ATK 1100%, Sabitleme Sansi 50%^000000",
+        "[Sv 5]: ^777777ATK 1250%, Sabitleme Sansi 60%^000000"
+      ]
+    },
+    "RK_DRAGONTRAINING": {
+      "name_original": "Dragon Training",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cavalry Mastery 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^0000FFDragon^777777 uzerindeyken ^CC6600ASPD^777777 cezasini azaltir ve ^CC6600Maksimum Agirlik Limiti^777777'ni artirir.",
+        "^0000FFDragon Breath^777777 hasarini artirir; ^990099Spear^777777 silahlarin boyut cezasini yok saymasini ve saldiri gucunun biraz artmasini saglar.^000000",
+        "[Sv 1]: ^777777Dragon Breath ve Dragon Breath - Water Hasari +100%^000000",
+        "[Sv 2]: ^777777Dragon Breath ve Dragon Breath - Water Hasari +110%^000000",
+        "[Sv 3]: ^777777Dragon Breath ve Dragon Breath - Water Hasari +120%^000000",
+        "[Sv 4]: ^777777Dragon Breath ve Dragon Breath - Water Hasari +130%^000000",
+        "[Sv 5]: ^777777Dragon Breath ve Dragon Breath - Water Hasari +140%^000000"
+      ]
+    },
+    "CH_CHAINCRUSH": {
+      "name_original": "Chain Crush Combo",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Iron Hand 5, Call Spirits 5, Tiger Fist 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFCombo Finish^777777 veya ^0000FFTiger Fist^777777 sonrasinda kullanilabilen combo skill'idir.",
+        "Ardindan ^0000FFAsura Strike^777777 kullanilabilir. Hasar ^CC6600Base Level^777777 ile artar. 1 ^990099Spirit Sphere^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 200%^000000",
+        "[Sv 2]: ^777777ATK 400%^000000",
+        "[Sv 3]: ^777777ATK 600%^000000",
+        "[Sv 4]: ^777777ATK 800%^000000",
+        "[Sv 5]: ^777777ATK 1000%^000000",
+        "[Sv 6]: ^777777ATK 1200%^000000",
+        "[Sv 7]: ^777777ATK 1400%^000000",
+        "[Sv 8]: ^777777ATK 1600%^000000",
+        "[Sv 9]: ^777777ATK 1800%^000000",
+        "[Sv 10]: ^777777ATK 2000%^000000"
+      ]
+    },
+    "RK_DEATHBOUND": {
+      "name_original": "Death Bound",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Auto Counter 1, Enchant Blade 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Alinan hasari buyutup saldirana geri yansitir. Buyutulen hasarin bir kismi kullanana da geri doner.",
+        "^00A100Boss^777777 monster'larda kullanilamaz.^000000",
+        "[Sv 1]: ^777777Hasar Buyutme 600%^000000",
+        "[Sv 2]: ^777777Hasar Buyutme 700%^000000",
+        "[Sv 3]: ^777777Hasar Buyutme 800%^000000",
+        "[Sv 4]: ^777777Hasar Buyutme 900%^000000",
+        "[Sv 5]: ^777777Hasar Buyutme 1000%^000000",
+        "[Sv 6]: ^777777Hasar Buyutme 1100%^000000",
+        "[Sv 7]: ^777777Hasar Buyutme 1200%^000000",
+        "[Sv 8]: ^777777Hasar Buyutme 1300%^000000",
+        "[Sv 9]: ^777777Hasar Buyutme 1400%^000000",
+        "[Sv 10]: ^777777Hasar Buyutme 1500%^000000"
+      ]
+    },
+    "PF_HPCONVERSION": {
+      "name_original": "Indulge",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Increase SP Recovery 1, Magic Rod 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^CC6600MaksHP^777777'nin %10'u kadar ^CC6600HP^777777 tuketerek skill seviyesine gore ^CC6600SP^777777 yeniler.^000000",
+        "[Sv 1]: ^777777SP +10%^000000",
+        "[Sv 2]: ^777777SP +20%^000000",
+        "[Sv 3]: ^777777SP +30%^000000",
+        "[Sv 4]: ^777777SP +40%^000000",
+        "[Sv 5]: ^777777SP +50%^000000"
+      ]
+    },
+    "HVAN_INSTRUCT": {
+      "name_original": "Change Instruction",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Homunculus'un INT ve STR degerlerini artirir.^000000",
+        "[Sv 1]: ^777777INT +1, STR +1^000000",
+        "[Sv 2]: ^777777INT +2, STR +1^000000",
+        "[Sv 3]: ^777777INT +2, STR +3^000000",
+        "[Sv 4]: ^777777INT +4, STR +4^000000",
+        "[Sv 5]: ^777777INT +5, STR +4^000000"
+      ]
+    },
+    "PF_SOULCHANGE": {
+      "name_original": "Soul Change",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Magic Rod 3, Spell Breaker 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kullananin kalan ^CC6600SP^777777 degeriyle hedefin kalan ^CC6600SP^777777 degerini takas eder.",
+        "Kullananin aldigi ^CC6600SP^777777, ^CC6600MaksSP^777777 limitini asamaz.^000000"
+      ]
+    },
+    "MH_STAHL_HORN": {
+      "name_original": "Stahl Horn",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Aciklama: ^777777Tek hedefe atilip hasar verir ve ^663399Stun^777777 uygular.",
+        "Hasar ^0000FFHomunculus^777777'un ^CC6600Base Level^777777 ve ^CC6600VIT^777777 degerlerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 1800%, Stun Sansi 22%^000000",
+        "[Sv 2]: ^777777ATK 2100%, Stun Sansi 24%^000000",
+        "[Sv 3]: ^777777ATK 2400%, Stun Sansi 26%^000000",
+        "[Sv 4]: ^777777ATK 2700%, Stun Sansi 28%^000000",
+        "[Sv 5]: ^777777ATK 3000%, Stun Sansi 30%^000000",
+        "[Sv 6]: ^777777ATK 3300%, Stun Sansi 32%^000000",
+        "[Sv 7]: ^777777ATK 3600%, Stun Sansi 34%^000000",
+        "[Sv 8]: ^777777ATK 3900%, Stun Sansi 36%^000000",
+        "[Sv 9]: ^777777ATK 4200%, Stun Sansi 38%^000000",
+        "[Sv 10]: ^777777ATK 4500%, Stun Sansi 40%^000000"
+      ]
+    },
+    "PF_SOULBURN": {
+      "name_original": "Soul Burn",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cast Cancel 5, Magic Rod 3, Dispell 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin ^CC6600SP^777777 degerini bosaltma sansi olan bir spell kullanir.",
+        "Seviye 5'te ayrica kullananin kalan ^CC6600SP^777777 degerinin iki kati kadar hasar verir; skill basarisiz olursa bu hasari kullanan alir.",
+        "Yalnizca WoE ve PvP haritalarinda kullanilabilir; her kullanimdan sonra 15 saniye gecikme vardir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 40%^000000",
+        "[Sv 2]: ^777777Basari Sansi 50%^000000",
+        "[Sv 3]: ^777777Basari Sansi 60%^000000",
+        "[Sv 4]: ^777777Basari Sansi 70%^000000",
+        "[Sv 5]: ^777777Basari Sansi 70%^000000"
+      ]
+    },
+    "ASC_KATAR": {
+      "name_original": "Advanced Katar Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Double Attack 5, Katar Mastery 7^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Katar^777777 sinifi silahlarla verilen hasari artirir.^000000",
+        "[Sv 1]: ^777777Hasar +12%^000000",
+        "[Sv 2]: ^777777Hasar +14%^000000",
+        "[Sv 3]: ^777777Hasar +16%^000000",
+        "[Sv 4]: ^777777Hasar +18%^000000",
+        "[Sv 5]: ^777777Hasar +20%^000000"
+      ]
+    },
+    "GD_EMERGENCYCALL": {
+      "name_original": "Emergency Call",
+      "lines_tr": [
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCTum Cevrimici Guild Uyeleri^000000",
+        "Aciklama: ^777777Yalnizca WoE (Guild War) sirasinda kullanilabilir. Guildmaster tum cevrimici guild uyelerini yanina cagirir.",
+        "Kullanildiktan sonra 5 dakika tekrar kullanilamaz.^000000"
+      ]
+    },
+    "ASC_EDP": {
+      "name_original": "Enchant Deadly Poison",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Create Deadly Poison 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Takili ^990099Weapon^777777'i deadly poison ile guclendirir; hasari artirir ve hedefi zehirleme sansi verir.",
+        "Zehirlenen hedefin ^CC6600HP^777777 degeri ^663399Poison^777777 suresince hizla azalir. 1 ^990099Poison Bottle^777777 tuketir.^000000"
+      ]
+    },
+    "ASC_BREAKER": {
+      "name_original": "Soul Destroyer",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Double Attack 5, Envenom 5, Cloaking 3, Enchant Poison 6^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe menzilli fiziksel hasar verir. Hasar kullananin ^CC6600Base Level, STR^777777 ve ^CC6600INT^777777 degerlerine gore artar.",
+        "Kullananin ^CC6600Critical^777777 sansinin yarisina gore toplam ^CC6600Critical Damage^777777'in yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 150%^000000",
+        "[Sv 2]: ^777777ATK 300%^000000",
+        "[Sv 3]: ^777777ATK 450%^000000",
+        "[Sv 4]: ^777777ATK 600%^000000",
+        "[Sv 5]: ^777777ATK 750%^000000",
+        "[Sv 6]: ^777777ATK 900%^000000",
+        "[Sv 7]: ^777777ATK 1050%^000000",
+        "[Sv 8]: ^777777ATK 1200%^000000",
+        "[Sv 9]: ^777777ATK 1350%^000000",
+        "[Sv 10]: ^777777ATK 1500%^000000"
+      ]
+    },
+    "SN_SIGHT": {
+      "name_original": "True Sight",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Owl's Eye 10, Vulture's Eye 10, Improve Concentration 10, Falconry Mastery 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Tum ^CC6600Stat^777777 degerlerine +5 verir; ^CC6600HIT^777777, ^990099Weapon^777777 hasari ve ^CC6600Critical^777777 degerini artirir.^000000",
+        "[Sv 1]: ^777777HIT +3%, Hasar +2%, Critical +1^000000",
+        "[Sv 2]: ^777777HIT +6%, Hasar +4%, Critical +2^000000",
+        "[Sv 3]: ^777777HIT +9%, Hasar +6%, Critical +3^000000",
+        "[Sv 4]: ^777777HIT +12%, Hasar +8%, Critical +4^000000",
+        "[Sv 5]: ^777777HIT +15%, Hasar +10%, Critical +5^000000",
+        "[Sv 6]: ^777777HIT +18%, Hasar +12%, Critical +6^000000",
+        "[Sv 7]: ^777777HIT +21%, Hasar +14%, Critical +7^000000",
+        "[Sv 8]: ^777777HIT +24%, Hasar +16%, Critical +8^000000",
+        "[Sv 9]: ^777777HIT +27%, Hasar +18%, Critical +9^000000",
+        "[Sv 10]: ^777777HIT +30%, Hasar +20%, Critical +10^000000"
+      ]
+    },
+    "SN_FALCONASSAULT": {
+      "name_original": "Falcon Assault",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Vulture's Eye 5, Falconry Mastery 1, Blitz Beat 5, Steel Crow 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFFalcon^777777'a hedefe guclu bir saldiri yapmasini emreder. Hasar skill seviyesi ve kullananin ^CC6600Base Level^777777 degerine gore artar.^000000"
+      ]
+    },
+    "NJ_NEN": {
+      "name_original": "Ninja Aura",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Ninja Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Ruhsal enerjiyi yogunlastirarak ^0000FFNinja Aura^777777 durumuna girer; ^CC6600INT^777777 ve ^CC6600STR^777777 artar.",
+        "Bu durum ^0000FFMirror Image^777777 ve ^0000FFKilling Strike^777777 skill'lerini kullanmayi saglar; bu skill'lerden biri kullanilinca Ninja Aura sona erer.^000000",
+        "[Sv 1]: ^777777STR ve INT +1, Sure: 30 saniye^000000",
+        "[Sv 2]: ^777777STR ve INT +2, Sure: 45 saniye^000000",
+        "[Sv 3]: ^777777STR ve INT +3, Sure: 60 saniye^000000",
+        "[Sv 4]: ^777777STR ve INT +4, Sure: 75 saniye^000000",
+        "[Sv 5]: ^777777STR ve INT +5, Sure: 90 saniye^000000"
+      ]
+    },
+    "SN_SHARPSHOOTING": {
+      "name_original": "Sharp Shooting",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Double Strafe 5, Improve Concentration 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Menzil: ^77777711 hucre^000000",
+        "Aciklama: ^777777Hedefe cok guclu bir ok atarak ona ve 5x5 alandaki dusmanlara menzilli fiziksel hasar verir.",
+        "Toplam ^CC6600Critical Damage^777777'in yarisini uygulama sansi yuksektir ve kullananin ^CC6600Critical^777777 sansinin %50'si eklenir.^000000",
+        "[Sv 1]: ^777777ATK 600%^000000",
+        "[Sv 2]: ^777777ATK 900%^000000",
+        "[Sv 3]: ^777777ATK 1200%^000000",
+        "[Sv 4]: ^777777ATK 1500%^000000",
+        "[Sv 5]: ^777777ATK 1800%^000000"
+      ]
+    },
+    "NJ_TATAMIGAESHI": {
+      "name_original": "Flip Tatami",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Tatamiyi kaldirarak kullananin etrafindaki 4x4 alanin 3 saniye boyunca uzun menzilli fiziksel hasari yok saymasini saglar.",
+        "Her kullanimdan sonra 3 saniye ^CC6600After Cast Delay^777777 vardir. Menzildeki dusmanlara hasar verip 3 hucre geri itme sansi bulunur.^000000",
+        "[Sv 1]: ^7777771 hucre, ATK 110%^000000",
+        "[Sv 2]: ^7777772 hucre, ATK 120%^000000",
+        "[Sv 3]: ^7777772 hucre, ATK 130%^000000",
+        "[Sv 4]: ^7777773 hucre, ATK 140%^000000",
+        "[Sv 5]: ^7777773 hucre, ATK 150%^000000"
+      ]
+    },
+    "KO_YAMIKUMO": {
+      "name_original": "Shadow Hiding",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "^CC3399Gereksinim: Shadow Slash 5^000000",
+        "Aciklama: ^777777Kullanani gizler. ^00A100Rogue^777777 sinifinin ^0000FFHide^777777 skill'iyle ayni etkiye sahiptir.",
+        "^CC6600SP^777777 tamamen biterse veya skill tekrar kullanilirsa sona erer. Aktifken surekli ^CC6600SP^777777 tuketir.^000000"
+      ]
+    },
+    "KO_RIGHT": {
+      "name_original": "Right Hand Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Her iki elde silah varken sag elin azalan saldiri gucunu geri kazandirir.",
+        "Seviye 4 ve 5'te tek elle silah kullanmaya gore daha yuksek saldiri saglar.^000000",
+        "[Sv 1]: ^777777Hasar 80%^000000",
+        "[Sv 2]: ^777777Hasar 90%^000000",
+        "[Sv 3]: ^777777Hasar 100%^000000",
+        "[Sv 4]: ^777777Hasar 110%^000000",
+        "[Sv 5]: ^777777Hasar 120%^000000"
       ]
     }
   }
