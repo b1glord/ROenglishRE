@@ -68,6 +68,7 @@ def main() -> int:
         "--patch",
         default="TurkuazTR/questid2display.tr.json",
     )
+    parser.add_argument("--output-path", default=None)
     parser.add_argument(
         "--source-ref",
         default="refs/remotes/origin/upstream/latest",
