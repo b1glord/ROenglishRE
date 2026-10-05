@@ -91,7 +91,7 @@ RecommendedQuestInfoList = {
 		BgName = "reco_67.bmp",
 		QuestInfo1 = {
 			"Maceraci.",
-			"How are you?",
+			"Nasilsin?",
 			"World Tree'nin genc yapraklarina dokunurken, ruzgari takip eden yeni bir yolculugun baslamak uzere oldugunu fark ettim.",
 			"Ruzgarin basladigi Ashwood Village'da adimlarinin bize katilmasini umuyorum.",
 			"",
@@ -116,7 +116,7 @@ RecommendedQuestInfoList = {
 		QuestInfo1 = {
 			"Ey gelecek vadeden genc maceraci!",
 			"World Tree'nin gucunu miras alip donusmek istemez misin?",
-			"<NAVI>[Small Ash Tree]<INFO>izlude,118,252,0,101,0</INFO></NAVI>"
+			"<NAVI>[Kucuk Disbudak Agaci]<INFO>izlude,118,252,0,101,0</INFO></NAVI>"
 		},
 		QuestInfo2 = {
 			"Novice",
@@ -142,8 +142,8 @@ RecommendedQuestInfoList = {
 		},
 		QuestInfo3 = {
 			"Baslangic Noktasi",
-			"<NAVI>[Prontera Field]<INFO>prt_fild05,353,252,0,101,0</INFO></NAVI>",
-			"<NAVI>[Payon Fild]<INFO>pay_fild01,308,341,0,101,0</INFO></NAVI>"
+			"<NAVI>[Prontera Sahasi]<INFO>prt_fild05,353,252,0,101,0</INFO></NAVI>",
+			"<NAVI>[Payon Sahasi]<INFO>pay_fild01,308,341,0,101,0</INFO></NAVI>"
 		}
 	},
 	[70] = {
@@ -204,7 +204,7 @@ RecommendedQuestInfoList = {
 			"<NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> bul ve hemen incele!"
 		},
 		QuestInfo2 = {
-			"Rune Tablets,",
+			"Runik Tabletler,",
 			"gercekten cok iyiler..."
 		},
 		QuestInfo3 = {
@@ -220,7 +220,7 @@ RecommendedQuestInfoList = {
 			"Jormungand Cult'un onemli isimleri Serpent's Nest'i terk edip daha derinlere cekildi.",
 			"Bagot ve Lasgand'i bulup karanlik planlarini bozmak icin,",
 			"maceracilar daha once kesfetmedikleri yeni bir bolgeye giderek yabanci yaratiklarla karsilasiyor.",
-			"Meow"
+			"Miyav"
 		},
 		QuestInfo2 = {
 			"Gereksinimler:",
@@ -228,9 +228,9 @@ RecommendedQuestInfoList = {
 			"^3275f0Base Level 215 veya uzeri^000000"
 		},
 		QuestInfo3 = {
-			"^ee1073Meow^000000",
-			"^ee1073Meow^000000",
-			"^ee1073Meow^000000"
+			"^ee1073Miyav^000000",
+			"^ee1073Miyav^000000",
+			"^ee1073Miyav^000000"
 		}
 	},
 	[74] = {
@@ -245,7 +245,7 @@ RecommendedQuestInfoList = {
 		},
 		QuestInfo2 = {
 			"Sasirtici!",
-			"And a",
+			"Ve bir",
 			"^3275f0buyuk surpriz!!!!^000000"
 		},
 		QuestInfo3 = {
@@ -279,12 +279,12 @@ RecommendedQuestInfoList = {
 		Summary = "Expanded joblara da gecebilirsin!",
 		BgName = "reco_76.bmp",
 		QuestInfo1 = {
-			"<NAVI>[Rebellion to Nightwatch]<INFO>einbroch,313,324,0,101,0</INFO></NAVI>",
-			"<NAVI>[Star Emperor to Sky Emperor]<INFO>payon,213,202,0,101,0</INFO></NAVI>",
-			"<NAVI>[Soul Reaper to Soul Ascetic]<INFO>payon,197,119,0,101,0</INFO></NAVI>",
-			"<NAVI>[Kagerou, Oboro to Shinkiro, Shiranui]<INFO>amatsu,82,118,0,101,0</INFO></NAVI>",
-			"<NAVI>[Summoner to Spirit Handler]<INFO>payon,165,116,0,101,0</INFO></NAVI>",
-			"<NAVI>[Super Novice to Hyper Novice]<INFO>aldebaran,110,70,0,101,0</INFO></NAVI>"
+			"<NAVI>[Rebellion -> Nightwatch]<INFO>einbroch,313,324,0,101,0</INFO></NAVI>",
+			"<NAVI>[Star Emperor -> Sky Emperor]<INFO>payon,213,202,0,101,0</INFO></NAVI>",
+			"<NAVI>[Soul Reaper -> Soul Ascetic]<INFO>payon,197,119,0,101,0</INFO></NAVI>",
+			"<NAVI>[Kagerou, Oboro -> Shinkiro, Shiranui]<INFO>amatsu,82,118,0,101,0</INFO></NAVI>",
+			"<NAVI>[Summoner -> Spirit Handler]<INFO>payon,165,116,0,101,0</INFO></NAVI>",
+			"<NAVI>[Super Novice -> Hyper Novice]<INFO>aldebaran,110,70,0,101,0</INFO></NAVI>"
 		},
 		QuestInfo2 = {
 			"Base Level 200",
@@ -377,7 +377,7 @@ RecommendedQuestInfoList = {
 		}
 	},
 	[81] = {
-		Title = "Constellation Tower",
+		Title = "Takimyildiz Kulesi",
 		IconName = "ico_sc.bmp",
 		Summary = "Yeni sahibiyle yuzles",
 		NpcSpr = "4_ED_OSCAR",
@@ -500,7 +500,7 @@ RecommendedQuestInfoList = {
 		}
 	},
 	[87] = {
-		Title = "Glastheim Challenge Mode",
+		Title = "Glastheim Meydan Okuma Modu",
 		IconName = "ico_sc.bmp",
 		Summary = "Boyutsal hatalari kontrol et",
 		NpcSpr = "4_ED_OSCAR",
