@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.10.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 355 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.11.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 390 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1431,6 +1431,146 @@
     "GS_MAGICALBULLET": {
       "name_original": "Magical Bullet",
       "name_tr": "Buyulu Mermi"
+    },
+    "GS_CRACKER": {
+      "name_original": "Cracker",
+      "name_tr": "Sersemletici Atis"
+    },
+    "GS_SINGLEACTION": {
+      "name_original": "Single Action",
+      "name_tr": "Tek Atis"
+    },
+    "GS_SNAKEEYE": {
+      "name_original": "Snake Eyes",
+      "name_tr": "Yilan Gozu"
+    },
+    "GS_TRACKING": {
+      "name_original": "Tracking",
+      "name_tr": "Hedef Takibi"
+    },
+    "GS_DISARM": {
+      "name_original": "Disarm",
+      "name_tr": "Silahsizlandirma"
+    },
+    "GS_PIERCINGSHOT": {
+      "name_original": "Piercing Shot",
+      "name_tr": "Delici Atis"
+    },
+    "GS_RAPIDSHOWER": {
+      "name_original": "Rapid Shower",
+      "name_tr": "Hizli Yaylim"
+    },
+    "GS_DESPERADO": {
+      "name_original": "Desperado",
+      "name_tr": "Caresiz Atis"
+    },
+    "GS_GATLINGFEVER": {
+      "name_original": "Gatling Fever",
+      "name_tr": "Gatling Cinneti"
+    },
+    "GS_DUST": {
+      "name_original": "Dust",
+      "name_tr": "Savurma Atisi"
+    },
+    "GS_FULLBUSTER": {
+      "name_original": "Full Buster",
+      "name_tr": "Tam Yaylim"
+    },
+    "GS_SPREADATTACK": {
+      "name_original": "Spread Attack",
+      "name_tr": "Yayilim Atisi"
+    },
+    "GS_GROUNDDRIFT": {
+      "name_original": "Ground Drift",
+      "name_tr": "Zemin Mayini"
+    },
+    "GS_CHAINACTION": {
+      "name_original": "Chain Action",
+      "name_tr": "Zincir Atis"
+    },
+    "RL_FLICKER": {
+      "name_original": "Flicker",
+      "name_tr": "Parlama Sinyali"
+    },
+    "RL_RICHS_COIN": {
+      "name_original": "Rich's Coin",
+      "name_tr": "Zengin Parasi"
+    },
+    "RL_E_CHAIN": {
+      "name_original": "Eternal Chain",
+      "name_tr": "Sonsuz Zincir"
+    },
+    "RL_QD_SHOT": {
+      "name_original": "Quick Draw Shot",
+      "name_tr": "Hizli Cekis Atisi"
+    },
+    "RL_C_MARKER": {
+      "name_original": "Crimson Marker",
+      "name_tr": "Kizil Isaret"
+    },
+    "RL_P_ALTER": {
+      "name_original": "Platinum Alter",
+      "name_tr": "Platin Degisim"
+    },
+    "RL_B_TRAP": {
+      "name_original": "Bound Trap",
+      "name_tr": "Baglama Tuzagi"
+    },
+    "RL_HEAT_BARREL": {
+      "name_original": "Heat Barrel",
+      "name_tr": "Isinmis Namlu"
+    },
+    "RL_FIREDANCE": {
+      "name_original": "Fire Dance",
+      "name_tr": "Ates Dansi"
+    },
+    "RL_FALLEN_ANGEL": {
+      "name_original": "Fallen Angel",
+      "name_tr": "Dusmus Melek"
+    },
+    "RL_MASS_SPIRAL": {
+      "name_original": "Mass Spiral",
+      "name_tr": "Kutle Spirali"
+    },
+    "RL_AM_BLAST": {
+      "name_original": "Anti-Material Blast",
+      "name_tr": "Materyal Karsiti Patlama"
+    },
+    "RL_HAMMER_OF_GOD": {
+      "name_original": "Hammer of God",
+      "name_tr": "Tanrinin Cekici"
+    },
+    "RL_R_TRIP": {
+      "name_original": "Round Trip",
+      "name_tr": "Tam Tur"
+    },
+    "RL_FIRE_RAIN": {
+      "name_original": "Fire Rain",
+      "name_tr": "Ates Yagmuru"
+    },
+    "RL_BANISHING_BUSTER": {
+      "name_original": "Banishing Buster",
+      "name_tr": "Surgun Patlamasi"
+    },
+    "RL_S_STORM": {
+      "name_original": "Shattering Storm",
+      "name_tr": "Parcalayici Firtina"
+    },
+    "RL_SLUGSHOT": {
+      "name_original": "Slug Shot",
+      "name_tr": "Agir Mermi Atisi"
+    },
+    "RL_D_TAIL": {
+      "name_original": "Dragon Tail",
+      "name_tr": "Ejderha Kuyrugu"
+    },
+    "RL_H_MINE": {
+      "name_original": "Howling Mine",
+      "name_tr": "Uluyan Mayin"
+    },
+    "WE_CALLALLFAMILY": {
+      "name_original": "We are with You",
+      "name_tr": "Seninleyiz"
     }
   },
   "name_profiles": {
@@ -1443,5 +1583,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 355
+  "patch_count": 390
 }
