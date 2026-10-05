@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.29.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 760 exact Renewal skill aciklamasi dahil",
+    "version": "2.30.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 780 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -13829,6 +13829,390 @@
         "[Sv 8]: ^777777MATK 800%^000000",
         "[Sv 9]: ^777777MATK 900%^000000",
         "[Sv 10]: ^777777MATK 1000%^000000"
+      ]
+    },
+    "DR_AROUND_FLOWER": {
+      "name_original": "Around Flower",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Earth Flower 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin cevresinde cicekler actirarak dusmanlara ^CC5500Earth^777777 elementli buyu hasari verir.",
+        "^0000FFTruth of Earth^777777 durumundaysa hasar kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777MATK 100%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777MATK 200%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777MATK 300%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777MATK 400%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777MATK 500%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 6]: ^777777MATK 600%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777MATK 700%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 8]: ^777777MATK 800%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 9]: ^777777MATK 900%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 10]: ^777777MATK 1000%/Etki Alani: 5x5 hucre^000000"
+      ]
+    },
+    "DR_NATURE_LOGIC": {
+      "name_original": "Nature Logic",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Doganin yasalarini anlayarak kullananin ^CC6600MATK^777777 degerini artirir.^000000",
+        "[Sv 1]: ^777777MATK +25^000000",
+        "[Sv 2]: ^777777MATK +30^000000",
+        "[Sv 3]: ^777777MATK +35^000000",
+        "[Sv 4]: ^777777MATK +40^000000",
+        "[Sv 5]: ^777777MATK +45^000000",
+        "[Sv 6]: ^777777MATK +50^000000",
+        "[Sv 7]: ^777777MATK +55^000000",
+        "[Sv 8]: ^777777MATK +60^000000",
+        "[Sv 9]: ^777777MATK +65^000000",
+        "[Sv 10]: ^777777MATK +70^000000"
+      ]
+    },
+    "DR_NATURE_SHIELD": {
+      "name_original": "Nature Shield",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Gecici olarak ^CC6600INT^777777, ^CC6600VIT^777777, ^CC6600DEF^777777 ve ^CC6600MDEF^777777 degerlerini artirir.^000000",
+        "[Sv 1]: ^777777DEF +10 / INT/VIT/MDEF +1^000000",
+        "[Sv 2]: ^777777DEF +20 / INT/VIT/MDEF +2^000000",
+        "[Sv 3]: ^777777DEF +30 / INT/VIT/MDEF +3^000000",
+        "[Sv 4]: ^777777DEF +40 / INT/VIT/MDEF +4^000000",
+        "[Sv 5]: ^777777DEF +50 / INT/VIT/MDEF +5^000000",
+        "[Sv 6]: ^777777DEF +60 / INT/VIT/MDEF +6^000000",
+        "[Sv 7]: ^777777DEF +70 / INT/VIT/MDEF +7^000000",
+        "[Sv 8]: ^777777DEF +80 / INT/VIT/MDEF +8^000000",
+        "[Sv 9]: ^777777DEF +90 / INT/VIT/MDEF +9^000000",
+        "[Sv 10]: ^777777DEF +100 / INT/VIT/MDEF +10^000000"
+      ]
+    },
+    "DR_WEREWOLF": {
+      "name_original": "Transformation: Werewolf",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif (Toggle)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Insan formundan cikip guclu kurt ruhunu uyandirir.",
+        "Donusumden sonra ^990099Wolf^777777 skill'leri kullanilabilir.",
+        "^990099Wereraptor^777777, ^0000FFTruth of Ice^777777, ^0000FFTruth of Wind^777777 veya ^0000FFTruth of Earth^777777 durumundayken kullanilamaz.^000000",
+        "[Sv 1]: ^777777Wolf skill'lerini kullanmayi saglar/MaxHP +10%^000000"
+      ]
+    },
+    "DR_ENRAGE_WOLF": {
+      "name_original": "Enrage Wolf",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Blood Howling 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir.",
+        "Kurdun vahsiligi ofkelendirilerek yirticiya donusur. 300 saniye boyunca ^990099Wolf^777777 skill hasarini ve Yakin Fiziksel Hasari artirir.^000000",
+        "[Sv 1]: ^777777Yakin Fiziksel Hasar +2%^000000",
+        "[Sv 2]: ^777777Yakin Fiziksel Hasar +4%^000000",
+        "[Sv 3]: ^777777Yakin Fiziksel Hasar +6%^000000",
+        "[Sv 4]: ^777777Yakin Fiziksel Hasar +8%^000000",
+        "[Sv 5]: ^777777Yakin Fiziksel Hasar +10%^000000"
+      ]
+    },
+    "DR_NOMERCY_CLAW": {
+      "name_original": "No Mercy Claw",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Transformation: Werewolf 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. Acimasiz penclerle menzildeki tum dusmanlara 2 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFEnrage: Wolf^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 80%/120%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 160%/240%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 240%/360%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 320%/480%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 400%/600%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 480%/720%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 560%/840%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 640%/960%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 720%/1080%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 800%/1200%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000"
+      ]
+    },
+    "DR_CRUEL_BITE": {
+      "name_original": "Cruel Bite",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: No Mercy Claw 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. 5 hucre icindeki dusmana aninda atilarak 2 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFEnrage: Wolf^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 60%/80%(^0000FFEnraged^777777)^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 120%/160%(^0000FFEnraged^777777)^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 180%/240%(^0000FFEnraged^777777)^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 240%/320%(^0000FFEnraged^777777)^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 300%/400%(^0000FFEnraged^777777)^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 360%/480%(^0000FFEnraged^777777)^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 420%/560%(^0000FFEnraged^777777)^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 480%/640%(^0000FFEnraged^777777)^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 540%/720%(^0000FFEnraged^777777)^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 600%/800%(^0000FFEnraged^777777)^000000"
+      ]
+    },
+    "DR_HUNGER": {
+      "name_original": "Hunger",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Cruel Bite 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. ^CC6600SP^777777'nin %10'unu tuketerek tek hedefe yakin dovus fiziksel hasar verir ve verilen hasarin bir kismini ^CC6600HP^777777 olarak emer.",
+        "Emilen ^CC6600HP^777777 ^0000FF100,000^777777 degerini asamaz. ^0000FFEnrage: Wolf^777777 aktifken hasar artar.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar. (^CC6600SP^777777 tuketim azaltma etkilerinden etkilenmez.)^000000",
+        "[Sv 1]: ^777777ATK 80%/120%(^0000FFEnraged^777777)/Emilen HP 1%^000000",
+        "[Sv 2]: ^777777ATK 160%/240%(^0000FFEnraged^777777)/Emilen HP 1%^000000",
+        "[Sv 3]: ^777777ATK 240%/360%(^0000FFEnraged^777777)/Emilen HP 2%^000000",
+        "[Sv 4]: ^777777ATK 320%/480%(^0000FFEnraged^777777)/Emilen HP 2%^000000",
+        "[Sv 5]: ^777777ATK 400%/600%(^0000FFEnraged^777777)/Emilen HP 3%^000000",
+        "[Sv 6]: ^777777ATK 480%/720%(^0000FFEnraged^777777)/Emilen HP 3%^000000",
+        "[Sv 7]: ^777777ATK 560%/840%(^0000FFEnraged^777777)/Emilen HP 4%^000000",
+        "[Sv 8]: ^777777ATK 640%/960%(^0000FFEnraged^777777)/Emilen HP 4%^000000",
+        "[Sv 9]: ^777777ATK 720%/1080%(^0000FFEnraged^777777)/Emilen HP 5%^000000",
+        "[Sv 10]: ^777777ATK 800%/1200%(^0000FFEnraged^777777)/Emilen HP 5%^000000"
+      ]
+    },
+    "DR_BLOOD_HOWLING": {
+      "name_original": "Blood Howling",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Transformation: Werewolf 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. Uluyarak kullananin savas duyusunu gecici olarak uyandirir.^000000",
+        "[Sv 1]: ^777777STR +2/LUK +2/HIT +10^000000",
+        "[Sv 2]: ^777777STR +4/LUK +4/HIT +20^000000",
+        "[Sv 3]: ^777777STR +6/LUK +6/HIT +30^000000",
+        "[Sv 4]: ^777777STR +8/LUK +8/HIT +40^000000",
+        "[Sv 5]: ^777777STR +10/LUK +10/HIT +50^000000"
+      ]
+    },
+    "DR_BEASTY_NOSE": {
+      "name_original": "Beasty Nose",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda uygulanir. Gelismis koku duyusuyla dusmanlari algilayarak saldiri hizini artirir.^000000",
+        "[Sv 1]: ^777777ASPD artar (After Attack Delay -1%).^000000",
+        "[Sv 2]: ^777777ASPD artar (After Attack Delay -2%)^000000",
+        "[Sv 3]: ^777777ASPD artar (After Attack Delay -3%)^000000",
+        "[Sv 4]: ^777777ASPD artar (After Attack Delay -4%)^000000",
+        "[Sv 5]: ^777777ASPD artar (After Attack Delay -5%)^000000",
+        "[Sv 6]: ^777777ASPD artar (After Attack Delay -6%)^000000",
+        "[Sv 7]: ^777777ASPD artar (After Attack Delay -7%)^000000",
+        "[Sv 8]: ^777777ASPD artar (After Attack Delay -8%)^000000",
+        "[Sv 9]: ^777777ASPD artar (After Attack Delay -9%)^000000",
+        "[Sv 10]: ^777777ASPD artar (After Attack Delay -10%)^000000"
+      ]
+    },
+    "DR_WERERAPTOR": {
+      "name_original": "Transformation: Wereraptor",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif (Toggle)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Insan formundan cikip gokyuzunde suzulen raptor ruhunu uyandirir.",
+        "Donusumden sonra ^990099Raptor^777777 skill'leri kullanilabilir.",
+        "^990099Werewolf^777777, ^0000FFTruth of Ice^777777, ^0000FFTruth of Wind^777777 veya ^0000FFTruth of Earth^777777 durumundayken kullanilamaz.^000000",
+        "[Sv 1]: ^777777Raptor skill'lerini kullanmayi saglar/Hareket Hizi +25%^000000"
+      ]
+    },
+    "DR_ENRAGE_RAPTOR": {
+      "name_original": "Enrage Raptor",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Preening 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Raptor'un vahsiligi ofkelendirilerek gokyuzunun avcisina donusur.",
+        "300 saniye boyunca ^990099Raptor^777777 skill hasarini ve Menzilli Fiziksel Hasari artirir.^000000",
+        "[Sv 1]: ^777777Menzilli Fiziksel Hasar +2%^000000",
+        "[Sv 2]: ^777777Menzilli Fiziksel Hasar +4%^000000",
+        "[Sv 3]: ^777777Menzilli Fiziksel Hasar +6%^000000",
+        "[Sv 4]: ^777777Menzilli Fiziksel Hasar +8%^000000",
+        "[Sv 5]: ^777777Menzilli Fiziksel Hasar +10%^000000"
+      ]
+    },
+    "DR_SHOOTING_FEATHER": {
+      "name_original": "Shooting Feather",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Transformation: Wereraptor 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Guclendirilmis tuylerle hedefe 2 kez uzun menzilli fiziksel hasar verir.",
+        "^0000FFEnrage: Raptor^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600DEX^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 20%/40%(^0000FFEnraged^777777)^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 40%/80%(^0000FFEnraged^777777)^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 60%/120%(^0000FFEnraged^777777)^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 80%/160%(^0000FFEnraged^777777)^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 100%/200%(^0000FFEnraged^777777)^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 120%/240%(^0000FFEnraged^777777)^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 140%/280%(^0000FFEnraged^777777)^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 160%/320%(^0000FFEnraged^777777)^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 180%/360%(^0000FFEnraged^777777)^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 200%/400%(^0000FFEnraged^777777)^000000"
+      ]
+    },
+    "DR_FLICKING_TONADO": {
+      "name_original": "Flicking Tornado",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Low Flight 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Hedefte guclu bir tornado birakarak hedef cevresindeki dusmanlara menzilli fiziksel hasar verir.",
+        "Ardindan kullanan geri cekilir. ^0000FFEnrage: Raptor^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600DEX^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777ATK 100%/150%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Geri Cekilme: 3 hucre^000000",
+        "[Sv 2]: ^777777ATK 200%/300%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Geri Cekilme: 3 hucre^000000",
+        "[Sv 3]: ^777777ATK 300%/450%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Geri Cekilme: 3 hucre^000000",
+        "[Sv 4]: ^777777ATK 400%/600%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Geri Cekilme: 3 hucre^000000",
+        "[Sv 5]: ^777777ATK 500%/750%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Geri Cekilme: 3 hucre^000000",
+        "[Sv 6]: ^777777ATK 600%/900%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Geri Cekilme: 5 hucre^000000",
+        "[Sv 7]: ^777777ATK 700%/1050%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Geri Cekilme: 5 hucre^000000",
+        "[Sv 8]: ^777777ATK 800%/1200%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Geri Cekilme: 5 hucre^000000",
+        "[Sv 9]: ^777777ATK 900%/1350%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Geri Cekilme: 5 hucre^000000",
+        "[Sv 10]: ^777777ATK 1000%/1500%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Geri Cekilme: 5 hucre^000000"
+      ]
+    },
+    "DR_LOW_FLIGHT": {
+      "name_original": "Low Flight",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Shooting Feather 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Alcaktan yuksek hizla ucarak hedefe aninda yaklasir ve hedefe ve cevresindeki dusmanlara 3 kez menzilli fiziksel hasar verir.",
+        "^0000FFEnrage: Raptor^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600DEX^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 20%/40%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Menzil: 5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 40%/80%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Menzil: 5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 60%/120%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre/Menzil: 5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 80%/160%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Menzil: 5 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 100%/200%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Menzil: 5 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 120%/240%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Menzil: 7 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 140%/280%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre/Menzil: 7 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 160%/320%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Menzil: 7 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 180%/360%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Menzil: 7 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 200%/400%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre/Menzil: 7 hucre^000000"
+      ]
+    },
+    "DR_PREENING": {
+      "name_original": "Preening",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Transformation: Wereraptor 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda kullanilabilir. Tuylerini duzelterek gecici olarak daha cevik hale gelir.^000000",
+        "[Sv 1]: ^777777AGI +2/DEX +2/FLEE +10^000000",
+        "[Sv 2]: ^777777AGI +4/DEX +4/FLEE +20^000000",
+        "[Sv 3]: ^777777AGI +6/DEX +6/FLEE +30^000000",
+        "[Sv 4]: ^777777AGI +8/DEX +8/FLEE +40^000000",
+        "[Sv 5]: ^777777AGI +10/DEX +10/FLEE +50^000000"
+      ]
+    },
+    "DR_SHARPE_EYES": {
+      "name_original": "Sharp Eyes",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWereraptor^777777 durumunda uygulanir. Keskin gozler zayif noktalari dogru algilayarak isabeti artirir.^000000",
+        "[Sv 1]: ^777777HIT +5^000000",
+        "[Sv 2]: ^777777HIT +10^000000",
+        "[Sv 3]: ^777777HIT +15^000000",
+        "[Sv 4]: ^777777HIT +20^000000",
+        "[Sv 5]: ^777777HIT +25^000000",
+        "[Sv 6]: ^777777HIT +30^000000",
+        "[Sv 7]: ^777777HIT +35^000000",
+        "[Sv 8]: ^777777HIT +40^000000",
+        "[Sv 9]: ^777777HIT +45^000000",
+        "[Sv 10]: ^777777HIT +50^000000"
+      ]
+    },
+    "KR_DOUBLE_SLASH": {
+      "name_original": "Double Slash",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Menzil: ^7777773 hucre^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. Iki guclu capraz darbe indirerek hedefe ve cevresindeki hedeflere 2 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFEnrage: Wolf^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1200%/1600%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 1280%/1680%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 1360%/1760%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1440%/1840%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 1520%/1920%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 1600%/2000%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 1680%/2080%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 1760%/2160%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 1840%/2240%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 1920%/2320%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "KR_NASTY_SLASH": {
+      "name_original": "Nasty Slash",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Double Slash 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Menzil: ^7777773 hucre^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. Vahsi bir darbeyle hedefe ve cevresindeki dusmanlara 2 kez yakin dovus fiziksel hasar verir.",
+        "Ardindan 5 hucre geriye hareket eder. ^0000FFEnrage: Wolf^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777ATK 1150%/1450%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777ATK 1200%/1500%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777ATK 1250%/1550%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777ATK 1300%/1600%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777ATK 1350%/1650%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000"
+      ]
+    },
+    "KR_CLAW_WAVE": {
+      "name_original": "Claw Wave",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Nasty Slash 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Menzil: ^7777777 hucre^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFWerewolf^777777 durumunda kullanilabilir. Hedef konumda keskin bir dalga olusturarak menzildeki dusmanlara 3 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFEnrage: Wolf^777777 aktifken hasar artar. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600STR^777777 degerine gore ek olarak artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 880%/1200%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 950%/1270%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 1020%/1340%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1090%/1410%(^0000FFEnraged^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 1160%/1480%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 6]: ^777777Vurus Basina ATK 1230%/1550%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777Vurus Basina ATK 1300%/1620%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 8]: ^777777Vurus Basina ATK 1370%/1690%(^0000FFEnraged^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 9]: ^777777Vurus Basina ATK 1440%/1760%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777Vurus Basina ATK 1510%/1830%(^0000FFEnraged^777777)/Etki Alani: 7x7 hucre^000000"
       ]
     }
   }
