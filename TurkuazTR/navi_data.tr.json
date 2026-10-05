@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.8.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 1776 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.9.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 1837 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 1776,
+  "patch_count": 1837,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -1765,6 +1765,10 @@
       "source_en": "\t[\"\ubd80\uc871 \uc0ac\uc6d0 \uad00\ub9ac\uc778\"] = \"Tribe Manager\",",
       "translation_tr": "\t[\"\ubd80\uc871 \uc0ac\uc6d0 \uad00\ub9ac\uc778\"] = \"Kabile Yoneticisi\","
     },
+    "719": {
+      "source_en": "\t[\"\ubd80\uc871 \uc6b0\ub450\uba38\ub9ac \ud30c\uc774\ucf54\"] = \"Tribal Chief Paiko\",",
+      "translation_tr": "\t[\"\ubd80\uc871 \uc6b0\ub450\uba38\ub9ac \ud30c\uc774\ucf54\"] = \"Kabile Reisi Paiko\","
+    },
     "723": {
       "source_en": "\t[\"\uc2dd\ub2f9 \uc8fc\uc778\"] = \"Restaurant Owner\",",
       "translation_tr": "\t[\"\uc2dd\ub2f9 \uc8fc\uc778\"] = \"Restoran Sahibi\","
@@ -2045,9 +2049,17 @@
       "source_en": "\t[\"\ub9ac\ubca8\ub9ac\uc628 \ub300\uc6d0\"] = \"Rebellion Crew\",",
       "translation_tr": "\t[\"\ub9ac\ubca8\ub9ac\uc628 \ub300\uc6d0\"] = \"Rebellion Uyesi\","
     },
+    "913": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ud14c\uc77c\ub9c1\"] = \"Investigator Tailing\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ud14c\uc77c\ub9c1\"] = \"Arastirmaci Tailing\","
+    },
     "916": {
       "source_en": "\t[\"\ud0c0\uaca9\ub300 \uc9c0\ud718\uad00\"] = \"Striker Unit Commander\",",
       "translation_tr": "\t[\"\ud0c0\uaca9\ub300 \uc9c0\ud718\uad00\"] = \"Striker Birligi Komutani\","
+    },
+    "917": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uc778\ud53c\uc720\"] = \"Investigator Bast Oil\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uc778\ud53c\uc720\"] = \"Arastirmaci Bast Oil\","
     },
     "920": {
       "source_en": "\t[\"\ube14\ub799\uc2a4\ubbf8\uc2a4 \uc7ad\"] = \"Blacksmith Jack\",",
@@ -2633,6 +2645,10 @@
       "source_en": "\t[\"\ub300\uc7a5\uc7a5\uc774 \ub4dc\ub77c\uc774\"] = \"Blacksmith Dry\",",
       "translation_tr": "\t[\"\ub300\uc7a5\uc7a5\uc774 \ub4dc\ub77c\uc774\"] = \"Demirci Dry\","
     },
+    "1402": {
+      "source_en": "\t[\"\uc218\ud638\uc790 \ub808\uc628\"] = \"Guardian Leon\",",
+      "translation_tr": "\t[\"\uc218\ud638\uc790 \ub808\uc628\"] = \"Koruyucu Leon\","
+    },
     "1409": {
       "source_en": "\t[\"\ubca8\uad70\ub4dc \uc5f0\uad6c\uc2e4\"] = \"Belgund Laboratory\",",
       "translation_tr": "\t[\"\ubca8\uad70\ub4dc \uc5f0\uad6c\uc2e4\"] = \"Belgund Laboratuvari\","
@@ -2640,6 +2656,10 @@
     "1410": {
       "source_en": "\t[\"\ube0c\ub9ac\ub4dc\"] = \"Bridesmaids\",",
       "translation_tr": "\t[\"\ube0c\ub9ac\ub4dc\"] = \"Nedimeler\","
+    },
+    "1411": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub3c4\ube0c\"] = \"Investigator Dove\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub3c4\ube0c\"] = \"Arastirmaci Dove\","
     },
     "1412": {
       "source_en": "\t[\"\ub9c8\ubc95\uc0ac\uc758 \uce5c\uad6c\"] = \"Friend of the Wizard\",",
@@ -2696,6 +2716,10 @@
     "1472": {
       "source_en": "\t[\"\ubb34\uc11c\uc6b4 \uc544\uc800\uc528\"] = \"Scary Man\",",
       "translation_tr": "\t[\"\ubb34\uc11c\uc6b4 \uc544\uc800\uc528\"] = \"Korkunc Adam\","
+    },
+    "1477": {
+      "source_en": "\t[\"\ub85c\uadf8\uc815\ubcf4\uc6d0\"] = \"Rogue Investigator\",",
+      "translation_tr": "\t[\"\ub85c\uadf8\uc815\ubcf4\uc6d0\"] = \"Rogue Arastirmacisi\","
     },
     "1479": {
       "source_en": "\t[\"\uc815\ubcf4 \ub2f4\ub2f9 \ub85c\uadf8 \uae38\ub4dc\uc6d0\"] = \"Rogue Agent\",",
@@ -2981,6 +3005,10 @@
       "source_en": "\t[\"\ubc14\ud150\ub354\"] = \"Bartender\",",
       "translation_tr": "\t[\"\ubc14\ud150\ub354\"] = \"Barmen\","
     },
+    "1622": {
+      "source_en": "\t[\"\uce58\uc548 \ub2f4\ub2f9\"] = \"Security in charge\",",
+      "translation_tr": "\t[\"\uce58\uc548 \ub2f4\ub2f9\"] = \"Guvenlik Sorumlusu\","
+    },
     "1625": {
       "source_en": "\t[\"\uacbd\uace0\ubb38\"] = \"Warning\",",
       "translation_tr": "\t[\"\uacbd\uace0\ubb38\"] = \"Uyari\","
@@ -3088,6 +3116,14 @@
     "1771": {
       "source_en": "\t[\"\uc758\ubb38\uc758 \uc7a5\uce58\"] = \"Mysterious Device\",",
       "translation_tr": "\t[\"\uc758\ubb38\uc758 \uc7a5\uce58\"] = \"Gizemli Aygit\","
+    },
+    "1772": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub9ac\ud53c\ub9ac\"] = \"Investigator Lipiri\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub9ac\ud53c\ub9ac\"] = \"Arastirmaci Lipiri\","
+    },
+    "1773": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ubaa8\ub2e4\uce74\"] = \"Investigator Modaka\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ubaa8\ub2e4\uce74\"] = \"Arastirmaci Modaka\","
     },
     "1774": {
       "source_en": "\t[\"\uad00\ub9ac\uc790\"] = \"Manager\",",
@@ -3372,6 +3408,10 @@
     "1965": {
       "source_en": "\t[\"\ub300\uae30\ubb18\"] = \"Waiting Cat\",",
       "translation_tr": "\t[\"\ub300\uae30\ubb18\"] = \"Bekleyen Kedi\","
+    },
+    "1968": {
+      "source_en": "\t[\"\uccad\uc18c\ubd80 \ubbf8\uc2f1\"] = \"Missing, the Cleaner\",",
+      "translation_tr": "\t[\"\uccad\uc18c\ubd80 \ubbf8\uc2f1\"] = \"Temizlikci Missing\","
     },
     "1969": {
       "source_en": "\t[\"\ud0c0\ub77d\ucc9c\uc0ac\uc758 \uc7a5\uc778\"] = \"Fallen Angel Smith\",",
@@ -4073,6 +4113,10 @@
       "source_en": "\t[\"\uc6a9\uc0ac\uc758 \uc99d\ud45c \uad50\ud658\uc6d0\"] = \"Hero Token Exchanger\",",
       "translation_tr": "\t[\"\uc6a9\uc0ac\uc758 \uc99d\ud45c \uad50\ud658\uc6d0\"] = \"Hero Token Takas Gorevlisi\","
     },
+    "2294": {
+      "source_en": "\t[\"\uc218\ud638\uc790 \ub2c8\ub4dc\ud638\uadf8\"] = \"Guardian Nidhoggur\",",
+      "translation_tr": "\t[\"\uc218\ud638\uc790 \ub2c8\ub4dc\ud638\uadf8\"] = \"Koruyucu Nidhoggur\","
+    },
     "2295": {
       "source_en": "\t[\"\uc804\ucd08\uae30\uc9c0 \uc218\ud638\uc790\"] = \"Outpost Guard\",",
       "translation_tr": "\t[\"\uc804\ucd08\uae30\uc9c0 \uc218\ud638\uc790\"] = \"Karakol Muhafizi\","
@@ -4689,6 +4733,10 @@
       "source_en": "\t[\"\uc548\uacbd \uc4f4 \uc5ec\uc790\"] = \"Woman with Glasses\",",
       "translation_tr": "\t[\"\uc548\uacbd \uc4f4 \uc5ec\uc790\"] = \"Gozluklu Kadin\","
     },
+    "2674": {
+      "source_en": "\t[\"\uc870\uc0ac\ub2e8\uc6d0 \ub8cc\uc2a8\"] = \"Investigator Ryoson\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\ub2e8\uc6d0 \ub8cc\uc2a8\"] = \"Arastirmaci Ryoson\","
+    },
     "2677": {
       "source_en": "\t[\"\uc0ac\uc11c \ud1a0\ub77c\"] = \"Librarian Torah\",",
       "translation_tr": "\t[\"\uc0ac\uc11c \ud1a0\ub77c\"] = \"Kutuphaneci Torah\","
@@ -4748,6 +4796,10 @@
     "2718": {
       "source_en": "\t[\"\ub77c\uc790\ub0d0 \uacb0\ud63c \uc548\ub0b4 \ub3c4\uc6b0\ubbf8\"] = \"Lasagna Marriage Guide\",",
       "translation_tr": "\t[\"\ub77c\uc790\ub0d0 \uacb0\ud63c \uc548\ub0b4 \ub3c4\uc6b0\ubbf8\"] = \"Lasagna Evlilik Rehberi\","
+    },
+    "2719": {
+      "source_en": "\t[\"\uc8fc\uc784\ubcf5\uc0ac\"] = \"Chief Acolyte\",",
+      "translation_tr": "\t[\"\uc8fc\uc784\ubcf5\uc0ac\"] = \"Bas Acolyte\","
     },
     "2720": {
       "source_en": "\t[\"\ud558\uc774 \ud504\ub9ac\uc2a4\ud2b8\"] = \"High Priest\",",
@@ -4925,9 +4977,33 @@
       "source_en": "\t[\"\ud751\ubc1c\uc758 \ub0a8\uc790\"] = \"Black Hair Boy\",",
       "translation_tr": "\t[\"\ud751\ubc1c\uc758 \ub0a8\uc790\"] = \"Siyah Sacli Cocuk\","
     },
+    "2867": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uc2dc\uc544\ub77c\"] = \"Investigator Ciara\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uc2dc\uc544\ub77c\"] = \"Arastirmaci Ciara\","
+    },
     "2868": {
       "source_en": "\t[\"\uc0ac\ub0e5\uafbc \uc0ac\ub9bc\"] = \"Hunter Sarim\",",
       "translation_tr": "\t[\"\uc0ac\ub0e5\uafbc \uc0ac\ub9bc\"] = \"Avci Sarim\","
+    },
+    "2870": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub85c\ub80c\"] = \"Investigator Lauren\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub85c\ub80c\"] = \"Arastirmaci Lauren\","
+    },
+    "2871": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uc2a4\ucfe0\ub9c8\ub9ac\"] = \"Investigator Sukumari\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uc2a4\ucfe0\ub9c8\ub9ac\"] = \"Arastirmaci Sukumari\","
+    },
+    "2872": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ubc1c\ub80c\uc824\ub77c\"] = \"Investigator Valenzella\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ubc1c\ub80c\uc824\ub77c\"] = \"Arastirmaci Valenzella\","
+    },
+    "2873": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uce78\ud22c\"] = \"Investigator Cantu\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uce78\ud22c\"] = \"Arastirmaci Cantu\","
+    },
+    "2874": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub974\uc2dc\uc544\"] = \"Investigator Lecia\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub974\uc2dc\uc544\"] = \"Arastirmaci Lecia\","
     },
     "2875": {
       "source_en": "\t[\"\uc0ac\ub0e5\uafbc \ud558\ub9bc\"] = \"Hunter Harim\",",
@@ -4940,6 +5016,10 @@
     "2877": {
       "source_en": "\t[\"\uacac\uc2b5\uc2e0\uad00\"] = \"Apprentice Priestess\",",
       "translation_tr": "\t[\"\uacac\uc2b5\uc2e0\uad00\"] = \"Cirak Rahibe\","
+    },
+    "2878": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ucc28\uce74\ub9ac\ub098\"] = \"Investigator Chakarina\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ucc28\uce74\ub9ac\ub098\"] = \"Arastirmaci Chakarina\","
     },
     "2879": {
       "source_en": "\t[\"\uacf5\ud56d \uacbd\ube44\ub300\"] = \"Airport Guard\",",
@@ -5001,6 +5081,10 @@
       "source_en": "\t[\"\uac00\uac8c \uc8fc\uc778\"] = \"Shop Owner\",",
       "translation_tr": "\t[\"\uac00\uac8c \uc8fc\uc778\"] = \"Dukkan Sahibi\","
     },
+    "2932": {
+      "source_en": "\t[\"\uc131\ubb3c \ud310\ub9e4\uc6d0\"] = \"Relic Salesman\",",
+      "translation_tr": "\t[\"\uc131\ubb3c \ud310\ub9e4\uc6d0\"] = \"Kutsal Eser Saticisi\","
+    },
     "2938": {
       "source_en": "\t[\"\ub9c8\uc744 \uc8fc\ubbfc\"] = \"Villager\",",
       "translation_tr": "\t[\"\ub9c8\uc744 \uc8fc\ubbfc\"] = \"Koylu\","
@@ -5056,6 +5140,10 @@
     "2976": {
       "source_en": "\t[\"\ub9ac\ubca8\ub9ac\uc628 \ub300\uc7a5\"] = \"Rebellion Leader\",",
       "translation_tr": "\t[\"\ub9ac\ubca8\ub9ac\uc628 \ub300\uc7a5\"] = \"Rebellion Lideri\","
+    },
+    "2977": {
+      "source_en": "\t[\"\ud2b9\uc218\ubd80\ub300 \ub300\ub300\uc7a5\"] = \"Special Forces Battalion Chief\",",
+      "translation_tr": "\t[\"\ud2b9\uc218\ubd80\ub300 \ub300\ub300\uc7a5\"] = \"Ozel Kuvvetler Tabur Komutani\","
     },
     "2978": {
       "source_en": "\t[\"\ub9ac\ubca8\ub9ac\uc628 \uacbd\ube44\ub300\uc7a5\"] = \"Rebellion Guard Leader\",",
@@ -5136,6 +5224,10 @@
     "3033": {
       "source_en": "\t[\"\ub2c8\ub2e4\ubd50 \uc218\ub828\uad50\uad00\"] = \"Nidhoggur Training Instructor\",",
       "translation_tr": "\t[\"\ub2c8\ub2e4\ubd50 \uc218\ub828\uad50\uad00\"] = \"Nidhoggur Egitim Egitmeni\","
+    },
+    "3041": {
+      "source_en": "\t[\"\ubcf4\ucd08\"] = \"Sentry\",",
+      "translation_tr": "\t[\"\ubcf4\ucd08\"] = \"Nobetci\","
     },
     "3043": {
       "source_en": "\t[\"\uc815\ucc30\ub300\"] = \"Scout\",",
@@ -5233,13 +5325,29 @@
       "source_en": "\t[\"\uae30\uc0ac\ub2e8\"] = \"Temple Knight\",",
       "translation_tr": "\t[\"\uae30\uc0ac\ub2e8\"] = \"Tapinak Sovalyasi\","
     },
+    "3113": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ud130\uc5bc\"] = \"Investigator Tulle\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ud130\uc5bc\"] = \"Arastirmaci Tulle\","
+    },
     "3114": {
       "source_en": "\t[\"\uc11c\ubc14\uc774\ubc8c \uad50\uad00 \ub808\uc2a4\ud050\"] = \"Survival Instructor Rescue\",",
       "translation_tr": "\t[\"\uc11c\ubc14\uc774\ubc8c \uad50\uad00 \ub808\uc2a4\ud050\"] = \"Hayatta Kalma Egitmeni Rescue\","
     },
+    "3117": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ud2f0\ub4c4\"] = \"Investigator Tidun\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ud2f0\ub4c4\"] = \"Arastirmaci Tidun\","
+    },
+    "3118": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ud2b8\uc13c\uc11c\"] = \"Investigator Sensor\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ud2b8\uc13c\uc11c\"] = \"Arastirmaci Sensor\","
+    },
     "3120": {
       "source_en": "\t[\"\ud130\ubcf4\ud2b8\ub799 \uc0c1\uc778\"] = \"Turbo Track Merchant\",",
       "translation_tr": "\t[\"\ud130\ubcf4\ud2b8\ub799 \uc0c1\uc778\"] = \"Turbo Track Tuccari\","
+    },
+    "3121": {
+      "source_en": "\t[\"\uc6b0\ud0c4\uc871 \ucd94\uc7a5\"] = \"Wootan Tribe Chief\",",
+      "translation_tr": "\t[\"\uc6b0\ud0c4\uc871 \ucd94\uc7a5\"] = \"Wootan Kabile Reisi\","
     },
     "3122": {
       "source_en": "\t[\"\uc6b0\ud0c4\uc871 \uc0e4\uba3c\"] = \"Wootan Tribe Shaman\",",
@@ -5345,6 +5453,22 @@
       "source_en": "\t[\"\ubaa8\ud5d8\uac00 \ub2ec\ub9ac\"] = \"Adventurer Dally\",",
       "translation_tr": "\t[\"\ubaa8\ud5d8\uac00 \ub2ec\ub9ac\"] = \"Maceraci Dally\","
     },
+    "3178": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uc11c\uc774\ub8ec\"] = \"Investigator Xu Yilun\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uc11c\uc774\ub8ec\"] = \"Arastirmaci Xu Yilun\","
+    },
+    "3179": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub4c0\"] = \"Investigator Dew\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub4c0\"] = \"Arastirmaci Dew\","
+    },
+    "3180": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \ub77c\ub0d0\"] = \"Investigator Ranya\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \ub77c\ub0d0\"] = \"Arastirmaci Ranya\","
+    },
+    "3183": {
+      "source_en": "\t[\"\uc870\uc0ac\uad00 \uc170\ube0c\ucf54\"] = \"Investigator Shevko\",",
+      "translation_tr": "\t[\"\uc870\uc0ac\uad00 \uc170\ube0c\ucf54\"] = \"Arastirmaci Shevko\","
+    },
     "3187": {
       "source_en": "\t[\"\uc220\uc5d0 \ucde8\ud55c \ub0a8\uc790\"] = \"Drunken Man\",",
       "translation_tr": "\t[\"\uc220\uc5d0 \ucde8\ud55c \ub0a8\uc790\"] = \"Sarhos Adam\","
@@ -5440,6 +5564,10 @@
     "3243": {
       "source_en": "\t[\"\ubb38\uba85\ud559\uc790\"] = \"Civilization Researcher\",",
       "translation_tr": "\t[\"\ubb38\uba85\ud559\uc790\"] = \"Uygarlik Arastirmacisi\","
+    },
+    "3244": {
+      "source_en": "\t[\"\uce58\uc548\ub300\uc7a5 \uce90\uc2ac\ub7ec\"] = \"Police Chief Kesler\",",
+      "translation_tr": "\t[\"\uce58\uc548\ub300\uc7a5 \uce90\uc2ac\ub7ec\"] = \"Polis Sefi Kesler\","
     },
     "3245": {
       "source_en": "\t[\"\uce58\uc548\ub300\uc6d0 \ud53c\ud504\uc2a4\"] = \"Police Officer Piffs\",",
@@ -5572,6 +5700,10 @@
     "3361": {
       "source_en": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacbd\ube44\ubcd1\"] = \"Schwarzwald Guard\",",
       "translation_tr": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacbd\ube44\ubcd1\"] = \"Schwarzwald Muhafizi\","
+    },
+    "3362": {
+      "source_en": "\t[\"\ubcc4\uc7a5\uc9c0\uae30\"] = \"Villa Guardian\",",
+      "translation_tr": "\t[\"\ubcc4\uc7a5\uc9c0\uae30\"] = \"Villa Koruyucusu\","
     },
     "3365": {
       "source_en": "\t[\"\ubc1c\uad74\uc9c0 \uc548\ub0b4\uc6d0\"] = \"Excavation Site Guide\",",
@@ -6112,6 +6244,18 @@
     "3746": {
       "source_en": "\t[\"\ubc14\ub974\ubb38\ud2b8 \uc800\ud0dd \uc815\uc6d0\"] = \"Varmundt's Mansion Garden\",",
       "translation_tr": "\t[\"\ubc14\ub974\ubb38\ud2b8 \uc800\ud0dd \uc815\uc6d0\"] = \"Varmundt Malikane Bahcesi\","
+    },
+    "3747": {
+      "source_en": "\t[\"\uc81c 1 \ub9c8\ub825\ubc1c\uc804\uc18c\"] = \"1st Power Plant\",",
+      "translation_tr": "\t[\"\uc81c 1 \ub9c8\ub825\ubc1c\uc804\uc18c\"] = \"1. Enerji Santrali\","
+    },
+    "3748": {
+      "source_en": "\t[\"\ud558\uc218\ucc98\ub9ac\uc7a5\"] = \"Sewage Treatment Plant\",",
+      "translation_tr": "\t[\"\ud558\uc218\ucc98\ub9ac\uc7a5\"] = \"Atiksu Aritma Tesisi\","
+    },
+    "3749": {
+      "source_en": "\t[\"\uc81c 2 \ub9c8\ub825\ubc1c\uc804\uc18c\"] = \"2nd Power Plant\",",
+      "translation_tr": "\t[\"\uc81c 2 \ub9c8\ub825\ubc1c\uc804\uc18c\"] = \"2. Enerji Santrali\","
     },
     "3750": {
       "source_en": "\t[\"\ucf54\ubaa8\ub3c4 \uc11c\ucabd \ub3d9\uad74 \uce74\ub8e8\"] = \"Karu, the West Cave\",",
@@ -7049,9 +7193,29 @@
       "source_en": "\t[\"\ubd80\uc9c0\ub7f0\ud55c \ubcd1\uc815 \uc559\ub4dc\ub808\"] = \"Diligent Soldier Andre\",",
       "translation_tr": "\t[\"\ubd80\uc9c0\ub7f0\ud55c \ubcd1\uc815 \uc559\ub4dc\ub808\"] = \"Caliskan Asker Andre\","
     },
+    "4357": {
+      "source_en": "\t[\"\uace0\uc7a5\ub09c \uccad\uc18c\ub85c\ubd07\u03a9\"] = \"Broken Cleaning Robot O\",",
+      "translation_tr": "\t[\"\uace0\uc7a5\ub09c \uccad\uc18c\ub85c\ubd07\u03a9\"] = \"Bozuk Temizlik Robotu O\","
+    },
+    "4359": {
+      "source_en": "\t[\"\uace0\uc7a5\ub09c \uacbd\ube44\ud615 \ubca0\ud0c0\"] = \"Broken Security Beta\",",
+      "translation_tr": "\t[\"\uace0\uc7a5\ub09c \uacbd\ube44\ud615 \ubca0\ud0c0\"] = \"Bozuk Guvenlik Beta\","
+    },
     "4360": {
       "source_en": "\t[\"\uace0\uc7a5\ub09c \ucc3d\uace0 \uad00\ub9ac\uc790\"] = \"Broken Warehouse Manager\",",
       "translation_tr": "\t[\"\uace0\uc7a5\ub09c \ucc3d\uace0 \uad00\ub9ac\uc790\"] = \"Bozuk Depo Yoneticisi\","
+    },
+    "4361": {
+      "source_en": "\t[\"\uace0\uc7a5\ub09c \uc138\uc2e0\uc0ac\"] = \"Broken Cleaner\",",
+      "translation_tr": "\t[\"\uace0\uc7a5\ub09c \uc138\uc2e0\uc0ac\"] = \"Bozuk Temizlikci\","
+    },
+    "4371": {
+      "source_en": "\t[\"\uccad\uc18c\ub85c\ubd07\u03a9\"] = \"Cleaning Robot O\",",
+      "translation_tr": "\t[\"\uccad\uc18c\ub85c\ubd07\u03a9\"] = \"Temizlik Robotu O\","
+    },
+    "4372": {
+      "source_en": "\t[\"\uac00\ub514\uc5b8 \ubd80\ud488\"] = \"Guardian Parts\",",
+      "translation_tr": "\t[\"\uac00\ub514\uc5b8 \ubd80\ud488\"] = \"Koruyucu Parcalari\","
     },
     "4456": {
       "source_en": "\t[\"\uc2dc\uacc4\ud0d1 \uad00\ub9ac\uc790\"] = \"Clock Tower Manager\",",
@@ -7068,6 +7232,54 @@
     "4549": {
       "source_en": "\t[\"\uc131\uc2e4\ud55c \ub208\ub3d9\uc790\"] = \"Faithful Manager\",",
       "translation_tr": "\t[\"\uc131\uc2e4\ud55c \ub208\ub3d9\uc790\"] = \"Sadik Yonetici\","
+    },
+    "5327": {
+      "source_en": "\t[\"\ud6c8\ub828\uc6a9 \ub3cc\uae30\ub465(\uc2dd\ubb3c\ud615)\"] = \"Training Pillar (Plant Race)\",",
+      "translation_tr": "\t[\"\ud6c8\ub828\uc6a9 \ub3cc\uae30\ub465(\uc2dd\ubb3c\ud615)\"] = \"Egitim Sutunu - Bitki Irki\","
+    },
+    "5371": {
+      "source_en": "\t[\"\uace0\ucca0\ub85c\ubd07\"] = \"Scrap Metal Robot\",",
+      "translation_tr": "\t[\"\uace0\ucca0\ub85c\ubd07\"] = \"Hurda Metal Robot\","
+    },
+    "5372": {
+      "source_en": "\t[\"\uc218\ub9ac\ub85c\ubd07 \ud130\ubcf4\"] = \"Repair Robot Turbo\",",
+      "translation_tr": "\t[\"\uc218\ub9ac\ub85c\ubd07 \ud130\ubcf4\"] = \"Onarim Robotu Turbo\","
+    },
+    "5373": {
+      "source_en": "\t[\"\ud0d0\uc0ac\ub85c\ubd07 \ud130\ubcf4\"] = \"Exploration Robot Turbo\",",
+      "translation_tr": "\t[\"\ud0d0\uc0ac\ub85c\ubd07 \ud130\ubcf4\"] = \"Kesif Robotu Turbo\","
+    },
+    "5381": {
+      "source_en": "\t[\"\uad74\uc0ad\uae30 \ub85c\ubd07\"] = \"Excavator Robot\",",
+      "translation_tr": "\t[\"\uad74\uc0ad\uae30 \ub85c\ubd07\"] = \"Ekskavator Robotu\","
+    },
+    "5382": {
+      "source_en": "\t[\"\uc815\ucc30 \ub85c\ubd07\"] = \"Reconnaissance Robot\",",
+      "translation_tr": "\t[\"\uc815\ucc30 \ub85c\ubd07\"] = \"Gozlem Robotu\","
+    },
+    "5386": {
+      "source_en": "\t[\"\uc218\ub9ac \ub85c\ubd07\"] = \"Repair Robot Turbo\",",
+      "translation_tr": "\t[\"\uc218\ub9ac \ub85c\ubd07\"] = \"Onarim Robotu Turbo\","
+    },
+    "5387": {
+      "source_en": "\t[\"\ud0d0\uc0ac \ub85c\ubd07\"] = \"Exploration Robot Turbo\",",
+      "translation_tr": "\t[\"\ud0d0\uc0ac \ub85c\ubd07\"] = \"Kesif Robotu Turbo\","
+    },
+    "5524": {
+      "source_en": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ube68\uac15)\"] = \"Garden Boundary Stone (Red)\",",
+      "translation_tr": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ube68\uac15)\"] = \"Bahce Sinir Tasi - Kirmizi\","
+    },
+    "5525": {
+      "source_en": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ub178\ub791)\"] = \"Garden Boundary Stone (Yellow)\",",
+      "translation_tr": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ub178\ub791)\"] = \"Bahce Sinir Tasi - Sari\","
+    },
+    "5526": {
+      "source_en": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ucd08\ub85d)\"] = \"Garden Boundary Stone (Green)\",",
+      "translation_tr": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ucd08\ub85d)\"] = \"Bahce Sinir Tasi - Yesil\","
+    },
+    "5527": {
+      "source_en": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ud30c\ub791)\"] = \"Garden Boundary Stone (Blue)\",",
+      "translation_tr": "\t[\"\uc815\uc6d0 \uacbd\uacc4\uc11d(\ud30c\ub791)\"] = \"Bahce Sinir Tasi - Mavi\","
     },
     "5538": {
       "source_en": "\t[\"\uc815\uc6d0\uc758 \uad00\ub9ac\uc790\"] = \"Herosria Keeper\",",
@@ -7093,6 +7305,30 @@
       "source_en": "\t[\"\uc218\uc0c1\ud55c \uc544\uc708 \uc774\ubcd1\"] = \"Suspicious Private Irwin\",",
       "translation_tr": "\t[\"\uc218\uc0c1\ud55c \uc544\uc708 \uc774\ubcd1\"] = \"Supheli Er Irwin\","
     },
+    "5555": {
+      "source_en": "\t[\"\uc694\ub974\ucee4 \uc0ac\uc5ed\uc790\"] = \"Yorker Worker\",",
+      "translation_tr": "\t[\"\uc694\ub974\ucee4 \uc0ac\uc5ed\uc790\"] = \"Yorker Iscisi\","
+    },
+    "5556": {
+      "source_en": "\t[\"\uc694\ub974\ucee4 \uad50\uc5ed\uc790\"] = \"Yorker Religious Worker\",",
+      "translation_tr": "\t[\"\uc694\ub974\ucee4 \uad50\uc5ed\uc790\"] = \"Yorker Dini Gorevlisi\","
+    },
+    "5562": {
+      "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uc131\uc9c0 \uc218\ud638\uc790\"] = \"Jormungandr Sanctuary Guardian\",",
+      "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uc131\uc9c0 \uc218\ud638\uc790\"] = \"Jormungandr Kutsal Alan Koruyucusu\","
+    },
+    "5567": {
+      "source_en": "\t[\"\uc694\uc2a4\ud130 \uccad\uc18c\ubd80\"] = \"Yoster Cleaner\",",
+      "translation_tr": "\t[\"\uc694\uc2a4\ud130 \uccad\uc18c\ubd80\"] = \"Yoster Temizlikcisi\","
+    },
+    "5578": {
+      "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uc131\uc9c0 \uccad\uc18c\ubd80\"] = \"Jormungandr Sanctuary Cleaner\",",
+      "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uc131\uc9c0 \uccad\uc18c\ubd80\"] = \"Jormungandr Kutsal Alan Temizlikcisi\","
+    },
+    "5580": {
+      "source_en": "\t[\"\uc131\uc9c0 \uccad\uc18c \ubc18\uc7a5\"] = \"Sanctuary Cleaning Chief\",",
+      "translation_tr": "\t[\"\uc131\uc9c0 \uccad\uc18c \ubc18\uc7a5\"] = \"Kutsal Alan Temizlik Sefi\","
+    },
     "5588": {
       "source_en": "\t[\"\uac01\uc131 \uc694\ub974\ud22c\uc2a4 \uc8fc\uc220\uc0ac\"] = \"Awakened Yortus Shaman\",",
       "translation_tr": "\t[\"\uac01\uc131 \uc694\ub974\ud22c\uc2a4 \uc8fc\uc220\uc0ac\"] = \"Uyanmis Yortus Samani\","
@@ -7112,6 +7348,14 @@
     "5616": {
       "source_en": "\t[\"\uc0ac\uc790\uc758 \uc778\ub3c4\uc790\"] = \"Guide of Dead\",",
       "translation_tr": "\t[\"\uc0ac\uc790\uc758 \uc778\ub3c4\uc790\"] = \"Oluler Rehberi\","
+    },
+    "5650": {
+      "source_en": "\t[\"\uc7a0\uc2dd\ub2f9\ud55c \ud0d0\uc0ac\ub85c\ubd07\"] = \"Encroached Exploration Robot\",",
+      "translation_tr": "\t[\"\uc7a0\uc2dd\ub2f9\ud55c \ud0d0\uc0ac\ub85c\ubd07\"] = \"Istila Edilmis Kesif Robotu\","
+    },
+    "5651": {
+      "source_en": "\t[\"\uc7a0\uc2dd\ub2f9\ud55c \uc218\ub9ac\ub85c\ubd07\"] = \"Encroached Repair Robot\",",
+      "translation_tr": "\t[\"\uc7a0\uc2dd\ub2f9\ud55c \uc218\ub9ac\ub85c\ubd07\"] = \"Istila Edilmis Onarim Robotu\","
     },
     "5656": {
       "source_en": "\t[\"\ubd88\uc0ac\uc758 \uad70\ub2e8\uc7a5\uad50\"] = \"Immortal Legion Officer\",",
