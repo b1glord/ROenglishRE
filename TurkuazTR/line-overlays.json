@@ -1,0 +1,24 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
+    "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
+    "module": "Translation Overlay Registry - JSON",
+    "version": "1.0.0",
+    "description": "msgstringtable ve achievements bilesenlerinin source, patch ve profile alanlarini kaydeder",
+    "dependency_layer": "Tool"
+  },
+  "components": {
+    "msgstringtable": {
+      "source_path": "Translation/Renewal/data/msgstringtable.txt",
+      "patch_path": "TurkuazTR/msgstringtable.tr.json",
+      "profile_field": "msgstringtable",
+      "output_path": "data/msgstringtable.txt"
+    },
+    "achievements": {
+      "source_path": "Translation/Renewal/SystemEN/achievements.lub",
+      "patch_path": "TurkuazTR/achievements.tr.json",
+      "profile_field": "achievements",
+      "output_path": "SystemEN/achievements.lub"
+    }
+  }
+}
