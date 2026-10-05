@@ -1,0 +1,171 @@
+/savechat : sohbet penceresinin icerigini kaydeder
+#
+Ctrl tusuna basili tutup * tusuna basarak mini haritayi opak (saydam olmayan) ve yari saydam gorunumler arasinda degistirin.
+#
+Shift tusuna basili tutup sag fare tusuyla surukleyerek bakis acisini ayarlayin. Orijinal aciya donmek icin Shift tusuna basili tutarak sag fare tusuna cift tiklayin.
+#
+Ctrl tusuna basili tutup sag fare tusuyla surukleyerek yakinlastirma ve uzaklastirma yapin. Orijinal yakinlastirmaya donmek icin Ctrl tusuna basili tutup sag fare tusuna cift tiklayin. Fare tekerlegini kullanarak da yakinlastirma ve uzaklastirma yapilabilir.
+#
+Fare imlecini canavarlarin uzerine getirdiginizde imlec bir kilic sekline donusur ve bu sekilde saldirabilirsiniz.
+#
+Bir canavari oldurerek kazanilan deneyim (EXP), o canavara verilen hasar miktariyla orantilidir.
+Ayni canavara birden fazla oyuncu saldirirsa, ilk saldiran oyuncu daha fazla deneyim puani kazanir.
+#
+Ctrl tusuna basili tutarak bir canavara saldirirsaniz, otomatik hedefleme (lock-on) moduna gecilir ve karakter canavar olunceye kadar hedefe otomatik olarak saldirir.
+Otomatik saldiri modunu iptal etmek icin herhangi bir yere tiklamaniz yeterlidir.
+#
+Yerdeki bir esyayi almak icin [Sol tiklama] yapin. Aldiginiz esyalar envanterinizde (inventory) goruntulenecektir.
+#
+Bir esyaya sag tiklayarak o esyanin aciklamasini goruntuleyebilirsiniz.
+#
+Ayaklarinizin altindaki iki cubuk HP ve SP gostergesidir. Yesil olan HP (can), mavi olan SP (mana/enerji) degerini gosterir. HP sifira dustugunde karakteriniz olur. Uyari amaciyla, HP %25 veya altina indiginde HP cubugu kirmiziya doner.
+#
+EXP cubugu %100 doldugunda karakterin temel seviyesi (Base Level) artar ve oyuncuya, istedigi ozelliklere serbestce dagitabilecegi Stat (ozellik) puanlari verilir.
+#
+EXP cubugunun altindaki JOBEXP cubugu %100 doldugunda, karakterin is seviyesi (Job Level) artar ve oyuncuya, istedigi becerilere serbestce dagitabilecegi Skill (yetenek) puani verilir.
+#
+Oyuncular sabit durduklarinda HP ve SP yavas bir sekilde yenilenir.
+Oyuncu oturdugunda (sit komutu ile) yenilenme hizi iki katina cikar.
+Ancak, oyuncunun tasidigi agirlik maksimum kapasitenin %50'sini asarsa, HP ve SP otomatik olarak yenilenmez.
+#
+Agirlik (Weight): Tasinan yuk ve maksimum tasima kapasitesi olarak gosterilir.
+Oyuncular maksimum yuk sinirini asan esyalari tasiyamazlar.
+Tasinan agirlik, maksimum kapasitenin %50'sini gectiginde kirmiziya doner ve HP/SP otomatik yenilenmesi durur.
+Agirlik, maksimum kapasitenin %90'ini gectiginde ise oyuncu artik saldiri yapamaz veya beceri (skill) kullanamaz.
+#
+Zeny : Ragnarok Online oyununda kullanilan para birimidir. Oyuncular alisveris yaptiginda veya ticaret gerceklestirdiginde, Zeny miktari otomatik olarak dusulur.
+#
+Karakterin temel seviyesi (Base Level) yukseldiginde, oyuncuya istedigi niteliklere (atributlere) dagitabilecegi Stat (ozellik) puanlari verilir.
+#
+STR (Strength - Guc): Oyuncunun fiziksel saldiri gucunu dogrudan etkiler. Guc degeri ne kadar yuksekse, o kadar fazla esya tasinabilir. Gucu artirmak saldiri gucunu de artirir.
+#
+DEX (Dexterity - Ceviklik/Beceri): Silah kullanimini dogrudan etkiler. Ceviklik degeri ne kadar yuksekse, silahlar o kadar verimli hale gelir. Yay ve ok kullanilirken DEX degeri arttikca saldiri gucu ve isabet orani yukselir; ayrica buyu yapma suresini (cast suresini) de etkiler.
+#
+AGI (Agility - Ceviklik): Oyuncunun cevikligini dogrudan etkiler. Ceviklik arttikca dusman saldirilarindan kacinma olasiligi yukselir ve farkli silahlarin saldiri hizi da artar.
+#
+VIT (Vitality - Dayaniklilik): Oyuncunun savunma gucu ve HP'siyle dogrudan iliskilidir. VIT degeri arttikca savunma gucu yukselir, alinan hasar azalir; ayrica maksimum HP miktari ve HP yenilenme hizi da artar.
+#
+INT (Intelligence - Zeka): Oyuncunun SP (mana/enerji) degeriyle dogrudan iliskilidir. INT degeri yukseldikce buyu saldiri gucu (MATK) ve buyu savunmasi (MDEF) artar.
+#
+LUK (Luck - Sans): Sans degeri bircok unsuru etkiler. LUK degeri arttikca kritik vurus yapma olasiligi ve sadece sans faktoruyle dusman saldirilarindan kacinma ihtimali artar.
+#
+[Print Screen] veya [Scroll Lock] tuslarina basarak ekran goruntusu alabilirsiniz. Alinan ekran goruntuleri [ScreenShot] klasorune kaydedilir.
+#
+[F10] : Sohbet penceresinin boyutunu ayarlamak icin kullanilir.
+#
+[F11] : Yalnizca temel bilgi penceresi ve sohbet penceresini acik birakir; diger tum pencereleri kapatir.
+#
+[F12] : Kisayol cubugunu acar veya kapatir.
+Sik kullanilan esyalari veya becerileri (skill) F1-F9 tuslarina surukleyin; ardindan ilgili tusa basarak hizlica kullanabilirsiniz.
+#
+[INSERT] : Otur veya kalk. (Sohbet penceresine [/sit] veya [/stand] yazmakla esdegerdir.)
+Otururken HP ve SP yenilenme hizi ayakta durmaya gore iki kat daha fazladir.
+#
+[Alt] + [End] : Karakterin altindaki HP/SP cubuklarini acar veya kapatir.
+#
+[Alt] + [Home] : Mini haritada erisilebilir alanlarin gosterimini acar veya kapatir.
+#
+[Alt] + [=] : Girdi modunu cift bayt (double-byte) ve tek bayt (single-byte) arasinda degistirir. Cift bayt karakterlerle girilen komutlar calistirilmaz; yalnizca tek bayt karakterlerle girilen komutlar yurutulur.
+#
+[Alt] + [F10] : Sohbet penceresini acar veya kapatir.
+#
+[Alt] + [1~9] : Asagidaki duygulari (emote) kullanir - unlem, soru isareti, muzik, kalp, ter, ampul, ofke, bulut, para ve tutulma.
+[Ctrl] + [-,=,w] : Tas, kagit ve makas emote'larini kullanir.
+#
+/WHO : Su anda cevrimici olan oyuncu sayisini gosterir.
+#
+/WHERE : Oyuncunun mevcut konumunu ve koordinatlarini gosterir.
+#
+/H : Temel komutlarin aciklamalarini gosterir.
+#
+/BGM : Arka plan muzigini acar veya kapatir.
+Ayrica [Alt] + [0] tuslarina basarak da yapilabilir.
+#
+/SOUND : Ses efektlerini acar veya kapatir.
+Ayrica [Alt] + [0] tuslarina basarak da yapilabilir.
+#
+/EFFECT : Oyundaki cesitli gorsel efektleri acar veya kapatir.
+Efektler kapatildiginda oyun daha akici calisir.
+#
+/SKIP : Ekran senkronizasyonunu acar veya kapatir.
+#
+/EX [karakter adi] : Belirtilen oyuncudan gelen tum ozel (1:1) sohbet mesajlarini yok sayar.
+/IN [karakter adi] : Belirtilen oyuncudan gelen ozel (1:1) sohbet mesajlarini kabul eder.
+#
+/EXALL : Tum oyunculardan gelen sohbet mesajlarini yok sayar.
+/INALL : Tum oyunculardan gelen sohbet mesajlarini kabul eder.
+#
+/EX : Su anda yok sayilan (engellenen) oyuncularin listesini gosterir.
+#
+/ORGANIZE [parti adi] : Yeni bir parti (grup) olusturur.
+Parti liderleri (kaptanlar), diger oyunculari partiye katilmaya davet edebilir.
+#
+Partiye davet etmek istediginiz oyuncuya sag tiklayin ve "Invite into party" secenegini secerek oyuncuyu davet edin.
+#
+/LEAVE : Mevcut partinizden (grubunuzdan) ayrilirsiniz.
+Bu komutu kullandiginizda ek bir onay penceresi gosterilmez.
+#
+/EXPEL [karakter adi] : Parti lideri, belirtilen uyeyi partiden cikarabilir.
+Bu komutu kullandiginizda ek bir onay penceresi gosterilmez.
+#
+Sohbet penceresinin sag alt kosesindeki [daire] simgesine tiklayin ve "party channel" secenegini secerek parti kanali uzerinden grup uyeleriyle sohbet edin.
+#
+% : Mesajin basina % isareti ekleyerek dogrudan parti kanalina mesaj gonderebilirsiniz.
+Alternatif olarak, [Ctrl] tusunu basili tutup [Enter] tusuna basarak mesajinizi parti uyelerine gonderebilirsiniz.
+#
+Ekranin sag ust kosesindeki mini harita, tum parti uyelerinin konumlarini gosterir.
+#
+1:1 Sohbet : Sohbet penceresinin sol kismina karakter adini, sag kismina mesajinizi yazin.
+[TAB] tusuna basarak iki alan arasinda hizlica gecis yapabilirsiniz.
+#
+Mini haritadaki [+] ve [-] tuslari haritayi yakinlastirir veya uzaklastirir.
+#
+[MVP Sistemi] : Boss seviyesindeki canavarlarla savasirken, en fazla hasar veren oyuncunun hakkini korumak icin Boss'un MVP esyasi otomatik olarak o oyuncunun envanterine eklenir.
+Eger Boss canavar MVP esyasi dusurmezse, oyuncuya bunun yerine deneyimin (EXP) %50'si kadar telafi odulu verilir.
+#
+Oyun pencere modunda oynanirken tasinabilir.
+[Alt] + [Space] tuslarina basin ve ardindan [M] tusuna basarak pencere tasima moduna gecin.
+Daha sonra yon tuslarini veya fareyi kullanarak oyun penceresini hareket ettirin.
+#
+/fog : Sis efektini acar veya kapatir.
+Sis efekti, farkli haritalardaki hava kosullarini daha gercekci gosterir.
+Dusuk donanimli bilgisayarlarda bu efekt islem yukunu artirabilir. Oyun donarsa veya anormal sekilde kapanirsa sis efektini kapatmaniz onerilir.
+Ayarlar (Config) menusunden sis efektini kalici olarak acabilir veya kapatabilirsiniz.
+#
+Canavarlardan elde edilen esyalar tanimlanmamis (unidentified) halde olur.
+Esyalarin ozelliklerini ve kullanim amacini gormek icin, esya dukkanlarindan satin alinan buyutecleri (Magnifier) kullanarak tanimlama islemi yapabilirsiniz.
+#
+Avci (Hunter) sinifi oyuncular, Tuzak (Trap) serisi becerileri kullanmak istiyorsa envanterlerinde "Booby Trap" esyasina sahip olmalidir.
+#
+Bir lonca (guild) kurmak icin bir adet Emperium gereklidir.
+Komut: /GUILD [lonca_adi]
+Lonca adi ozel karakter veya bosluk iceremez.
+[Alt] + [G] tuslarina basarak lonca penceresini acabilirsiniz.
+#
+Lonca uyeleri, lonca sohbetini (guild chat) kullanmak icin su yontemleri kullanabilir:
+/GC [mesaj] ya da $ [mesaj] yazabilirler - ayrica [Alt] + [Enter] tuslarina basarak da lonca sohbetini acabilirler.
+#
+Bir karta sahip ekipmana kart takmak icin once esyayi cikarin, ardindan karta cift tiklayin.
+Kartin takilabilecegi uygun esyalarin listesi gorunecek ve buradan secim yapabilirsiniz.
+#
+Nezaket puani sisteminin aciklamasi:
+-- Yeni baslayanlar (Novice) bu sistemi Temel Beceriler (Basic Skills) seviyeleri 8'e ulastiktan sonra kullanabilir.
+-- Bir oyuncuya sag tiklayin ve "Courtesy Point Ver" secenegini secerek nezaket puani verebilirsiniz.
+#
+Bazi anormal durumlarin aciklamalari:
+-- Sersemleme (Stun) : Sersemletildiginde oyuncu hareket edemez.
+-- Karanlik (Darkness) : Ekran karanliklasir; canavarlar icin bu, gorus mesafesinin azalmasi anlamina gelir.
+-- Donma (Frozen) : Oyuncu hareket edemez; yalnizca saldiriya ugradiginda cozulur.
+#
+Karakter oldugunde deneyim puani (EXP) duser.
+Bir beceri (skill) kullandiktan veya savastan sonra, oyundan cikmadan once 5 saniyelik bir bekleme suresi uygulanir.
+#
+Depolama, kayit noktalari (save point) ve itme arabasi (pushcart) kiralama islemleri icin Kafra personeliyle konusun.
+#
+[Alt] + [J] : Evcil hayvan (pet) bilgilerini goruntulemek icin kullanilir.
+#
+Bir oyuncuyu takip etmek icin : [Shift] tusuna basili tutun ve oyuncuya sag tiklayin.
+#
+[Alt] + [L] : Duygu (emote) cubugunu acmak icin kullanilir.
+[Alt] + [M] veya [Alt] + [L] tuslarina basarak istediginiz ifadeyi secebilirsiniz.
+#
