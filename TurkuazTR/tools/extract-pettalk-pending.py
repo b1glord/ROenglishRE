@@ -8,6 +8,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 from collections import OrderedDict
@@ -32,8 +33,11 @@ def classify(value: str) -> str:
 
 
 def main() -> int:
-    text = SOURCE.read_text(encoding="utf-8")
+    raw = SOURCE.read_bytes()
+    text = raw.decode("utf-8")
     lines = text.splitlines()
+    blob_header = f"blob {len(raw)}\\0".encode("ascii")
+    source_blob_sha = hashlib.sha1(blob_header + raw).hexdigest()
     groups: dict[str, OrderedDict[str, dict]] = {
         "readable_ascii": OrderedDict(),
         "mixed_encoding": OrderedDict(),
@@ -86,6 +90,7 @@ def main() -> int:
         },
         "source_path": "Translation/Renewal/data/pettalktable.xml",
         "source_ref": "upstream/latest",
+        "source_blob_sha": source_blob_sha,
         "source_line_count": len(lines),
         "text_node_count": node_count,
         **summary,
