@@ -13758,7 +13758,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_THIRD_PUNISH] = {
 		"IQ_THIRD_PUNISH",
-		SkillName = "Third Punish",
+		SkillName = "Ucuncu Ceza (Third Punish)",
 		MaxLv = 5,
 		SpAmount = { 56, 62, 68, 74, 80 },
 		bSeperateLv = true,
@@ -13769,7 +13769,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_THIRD_FLAME_BOMB] = {
 		"IQ_THIRD_FLAME_BOMB",
-		SkillName = "Third Flame Bomb",
+		SkillName = "Ucuncu Alev Bombasi (Third Flame Bomb)",
 		MaxLv = 5,
 		SpAmount = { 74, 78, 82, 86, 90 },
 		bSeperateLv = true,
@@ -13780,7 +13780,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_THIRD_CONSECRATION] = {
 		"IQ_THIRD_CONSECRATION",
-		SkillName = "Third Consecration",
+		SkillName = "Ucuncu Kutsama (Third Consecration)",
 		MaxLv = 5,
 		SpAmount = { 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
@@ -13791,7 +13791,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_SECOND_FLAME] = {
 		"IQ_SECOND_FLAME",
-		SkillName = "Second Flame",
+		SkillName = "Ikinci Alev (Second Flame)",
 		MaxLv = 5,
 		SpAmount = { 51, 57, 63, 69, 75 },
 		bSeperateLv = true,
@@ -13802,7 +13802,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_SECOND_FAITH] = {
 		"IQ_SECOND_FAITH",
-		SkillName = "Second Faith",
+		SkillName = "Ikinci Inanc (Second Faith)",
 		MaxLv = 5,
 		SpAmount = { 41, 47, 53, 59, 65 },
 		bSeperateLv = true,
@@ -13813,7 +13813,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_SECOND_JUDGEMENT] = {
 		"IQ_SECOND_JUDGEMENT",
-		SkillName = "Second Judgement",
+		SkillName = "Ikinci Yargi (Second Judgement)",
 		MaxLv = 5,
 		SpAmount = { 50, 55, 60, 65, 70 },
 		bSeperateLv = true,
@@ -13824,7 +13824,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_EXPOSION_BLASTER] = {
 		"IQ_EXPOSION_BLASTER",
-		SkillName = "Explosion Blaster",
+		SkillName = "Patlama Topu (Explosion Blaster)",
 		MaxLv = 5,
 		SpAmount = { 105, 110, 115, 120, 125 },
 		bSeperateLv = true,
@@ -13835,7 +13835,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_MASSIVE_F_BLASTER] = {
 		"IQ_MASSIVE_F_BLASTER",
-		SkillName = "Massive Flame Blaster",
+		SkillName = "Dev Alev Patlamasi (Massive Flame Blaster)",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		ApAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
@@ -13849,7 +13849,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_JUDGE] = {
 		"IQ_JUDGE",
-		SkillName = "Judge",
+		SkillName = "Yargic (Judge)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		ApAmount = { 80, 70, 60, 50, 40 },
@@ -13861,7 +13861,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IQ_THIRD_EXOR_FLAME] = {
 		"IQ_THIRD_EXOR_FLAME",
-		SkillName = "Third Exorcism Flame",
+		SkillName = "Ucuncu Ruh Kovma Alevi (Third Exorcism Flame)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		ApAmount = { 120, 105, 90, 75, 60 },
@@ -13873,7 +13873,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_GUARD_STANCE] = {
 		"IG_GUARD_STANCE",
-		SkillName = "Guard Stance",
+		SkillName = "Savunma Durusu (Guard Stance)",
 		MaxLv = 5,
 		SpAmount = { 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -13884,7 +13884,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_GUARDIAN_SHIELD] = {
 		"IG_GUARDIAN_SHIELD",
-		SkillName = "Guardian Shield",
+		SkillName = "Koruyucu Kalkan (Guardian Shield)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 }, 
 		ApAmount = { 35, 35, 35, 35, 35 },
@@ -13896,7 +13896,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_REBOUND_SHIELD] = {
 		"IG_REBOUND_SHIELD",
-		SkillName = "Rebound Shield",
+		SkillName = "Geri Tepme Kalkani (Rebound Shield)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
@@ -13907,7 +13907,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_SHIELD_MASTERY] = {
 		"IG_SHIELD_MASTERY",
-		SkillName = "Shield Mastery",
+		SkillName = "Kalkan Ustaligi (Shield Mastery)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13916,7 +13916,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_SPEAR_SWORD_M] = {
 		"IG_SPEAR_SWORD_M",
-		SkillName = "Spear & Sword Mastery",
+		SkillName = "Mizrak ve Kilic Ustaligi (Spear & Sword Mastery)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13925,7 +13925,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_ATTACK_STANCE] = {
 		"IG_ATTACK_STANCE",
-		SkillName = "Attack Stance",
+		SkillName = "Saldiri Durusu (Attack Stance)",
 		MaxLv = 5,
 		SpAmount = { 50, 50, 50, 50, 50 },
 		bSeperateLv = true,
@@ -13936,7 +13936,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_ULTIMATE_SACRIFICE] = {
 		"IG_ULTIMATE_SACRIFICE",
-		SkillName = "Ultimate Sacrifice",
+		SkillName = "Nihai Fedakarlik (Ultimate Sacrifice)",
 		MaxLv = 5,
 		SpAmount = { 120, 120, 120, 120, 120 },
 		bSeperateLv = true,
@@ -13948,7 +13948,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_HOLY_SHIELD] = {
 		"IG_HOLY_SHIELD",
-		SkillName = "Holy Shield",
+		SkillName = "Kutsal Kalkan (Holy Shield)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
@@ -13960,7 +13960,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_GRAND_JUDGEMENT] = {
 		"IG_GRAND_JUDGEMENT",
-		SkillName = "Grand Judgement",
+		SkillName = "Buyuk Yargi (Grand Judgement)",
 		MaxLv = 10,
 		SpAmount = { 51, 54, 57, 60, 63, 66, 69, 72, 75, 78 },
 		ApAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
@@ -13973,7 +13973,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_JUDGEMENT_CROSS] = {
 		"IG_JUDGEMENT_CROSS",
-		SkillName = "Judgement Cross",
+		SkillName = "Yargi Haci (Judgement Cross)",
 		MaxLv = 10,
 		SpAmount = { 60, 65, 70, 75, 80, 85, 90, 95, 100, 105 },
 		ApAmount = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
@@ -13986,7 +13986,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_SHIELD_SHOOTING] = {
 		"IG_SHIELD_SHOOTING",
-		SkillName = "Shield Shooting",
+		SkillName = "Kalkan Atisi (Shield Shooting)",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -13998,7 +13998,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_OVERSLASH] = {
 		"IG_OVERSLASH",
-		SkillName = "Overslash",
+		SkillName = "Asiri Kesik (Overslash)",
 		MaxLv = 10,
 		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
@@ -14009,7 +14009,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.IG_CROSS_RAIN] = {
 		"IG_CROSS_RAIN",
-		SkillName = "Cross Rain",
+		SkillName = "Hac Yagmuru (Cross Rain)",
 		MaxLv = 10,
 		SpAmount = { 67, 70, 73, 76, 79, 82, 85, 88, 91, 94 },
 		bSeperateLv = true,
@@ -14020,7 +14020,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_DANCING_KNIFE] = {
 		"SHC_DANCING_KNIFE",
-		SkillName = "Dancing Knives",
+		SkillName = "Dans Eden Bicaklar (Dancing Knives)",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -14031,7 +14031,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_SAVAGE_IMPACT] = {
 		"SHC_SAVAGE_IMPACT",
-		SkillName = "Savage Impact",
+		SkillName = "Vahsi Darbe (Savage Impact)",
 		MaxLv = 10,
 		SpAmount = { 45, 48, 51, 54, 57, 60, 63, 66, 69, 72 },
 		bSeperateLv = true,
@@ -14043,7 +14043,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_SHADOW_SENSE] = {
 		"SHC_SHADOW_SENSE",
-		SkillName = "Shadow Sense",
+		SkillName = "Golge Sezgisi (Shadow Sense)",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -14052,7 +14052,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_ETERNAL_SLASH] = {
 		"SHC_ETERNAL_SLASH",
-		SkillName = "Eternal Slash",
+		SkillName = "Sonsuz Kesik (Eternal Slash)",
 		MaxLv = 5,
 		SpAmount = { 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
@@ -14065,7 +14065,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_ENCHANTING_SHADOW] = {
 		"SHC_ENCHANTING_SHADOW",
-		SkillName = "Enchanting Shadow",
+		SkillName = "Buyulu Golge (Enchanting Shadow)",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
@@ -14077,7 +14077,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_POTENT_VENOM] = {
 		"SHC_POTENT_VENOM",
-		SkillName = "Potent Venom",
+		SkillName = "Guclu Zehir (Potent Venom)",
 		MaxLv = 10,
 		SpAmount = { 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -14089,7 +14089,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_SHADOW_EXCEED] = {
 		"SHC_SHADOW_EXCEED",
-		SkillName = "Shadow Exceed",
+		SkillName = "Golge Asimi (Shadow Exceed)",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		ApAmount = { 156, 152, 148, 144, 140, 136, 132, 128, 124, 120 },
@@ -14103,7 +14103,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_FATAL_SHADOW_CROW] = {
 		"SHC_FATAL_SHADOW_CROW",
-		SkillName = "Fatal Shadow Claw",
+		SkillName = "Olumcul Golge Pencesi (Fatal Shadow Claw)",
 		MaxLv = 10,
 		SpAmount = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 },
 		ApAmount = { 125, 125, 125, 125, 125, 125, 125, 125, 125, 125 },
@@ -14116,7 +14116,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_SHADOW_STAB] = {
 		"SHC_SHADOW_STAB",
-		SkillName = "Shadow Stab",
+		SkillName = "Golge Saplamasi (Shadow Stab)",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -14130,7 +14130,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SHC_IMPACT_CRATER] = {
 		"SHC_IMPACT_CRATER",
-		SkillName = "Impact Crater",
+		SkillName = "Darbe Krateri (Impact Crater)",
 		MaxLv = 5,
 		SpAmount = { 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
