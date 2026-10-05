@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.14.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 460 exact Renewal skill aciklamasi dahil",
+    "version": "2.15.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 480 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -7802,6 +7802,354 @@
         "[Sv 3]: ^777777MATK 4600% / AoE 11x11^000000",
         "[Sv 4]: ^777777MATK 6000% / AoE 11x11^000000",
         "[Sv 5]: ^777777MATK 7400% / AoE 13x13^000000"
+      ]
+    },
+    "AG_TORNADO_STORM": {
+      "name_original": "Tornado Storm",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Chain Lightning 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Hedeflenen alanda guclu simseklerle birlikte tornado olusturur ve menzildeki tum hedeflere ^33CC00Wind^777777 elementli buyu hasari verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600SPL^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 860% / AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 1620% / AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 2380% / AoE 7x7^000000",
+        "[Sv 4]: ^777777MATK 3140% / AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 3900% / AoE 9x9^000000"
+      ]
+    },
+    "AG_FLORAL_FLARE_ROAD": {
+      "name_original": "Floral Flare Road",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Crimson Rock 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Kullananin baktigi yonde yanan yapraklar olusturur; skill suresince hedeflenen alana giren dusmanlara ^FF0000Fire^777777 elementli buyu hasari verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600SPL^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 790% / AoE 3x3^000000",
+        "[Sv 2]: ^777777MATK 1530% / AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 2270% / AoE 7x7^000000",
+        "[Sv 4]: ^777777MATK 3010% / AoE 9x9^000000",
+        "[Sv 5]: ^777777MATK 3750% / AoE 11x11^000000"
+      ]
+    },
+    "AG_CLIMAX": {
+      "name_original": "Climax",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tetra Vortex 5, Two-Handed Staff Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000125^000000",
+        "Aciklama: ^777777300 saniye boyunca belirli skill'lere ozel etkiler kazandirir. Etki ^0000FFClimax^777777 seviyesine gore degisir.^000000",
+        "[Sv 1]: ^777777Climax Seviye 1 verir^000000",
+        "[Sv 2]: ^777777Climax Seviye 2 verir^000000",
+        "[Sv 3]: ^777777Climax Seviye 3 verir^000000",
+        "[Sv 4]: ^777777Climax Seviye 4 verir^000000",
+        "[Sv 5]: ^777777Climax Seviye 5 verir^000000"
+      ]
+    },
+    "AG_ASTRAL_STRIKE": {
+      "name_original": "Astral Strike",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Comet 5, Mystery Illusion 3, Deadly Projection 3^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Maliyeti: ^FF000015^000000",
+        "Aciklama: ^777777Zemine guclu meteor dusurerek ^009999Neutral^777777 elementli buyu hasari verir ve 6 saniye boyunca ek hasar uygular. ^00A100Undead^777777 ve ^00A100Dragon^777777 monster'lara daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600SPL^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 3300% / 3450% (^00A100Undead/Dragon^777777) / 650% Ek / AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 5900% / 6200% (^00A100Undead/Dragon^777777) / 1300% Ek / AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 8500% / 8950% (^00A100Undead/Dragon^777777) / 1950% Ek / AoE 5x5^000000",
+        "[Sv 4]: ^777777MATK 11100% / 11700% (^00A100Undead/Dragon^777777) / 2600% Ek / AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 13700% / 14450% (^00A100Undead/Dragon^777777) / 3250% Ek / AoE 7x7^000000",
+        "[Sv 6]: ^777777MATK 16000% / 17200% (^00A100Undead/Dragon^777777) / 3900% Ek / AoE 7x7^000000",
+        "[Sv 7]: ^777777MATK 18900% / 19950% (^00A100Undead/Dragon^777777) / 4550% Ek / AoE 9x9^000000",
+        "[Sv 8]: ^777777MATK 21500% / 22700% (^00A100Undead/Dragon^777777) / 5200% Ek / AoE 9x9^000000",
+        "[Sv 9]: ^777777MATK 24100% / 25450% (^00A100Undead/Dragon^777777) / 5850% Ek / AoE 9x9^000000",
+        "[Sv 10]: ^777777MATK 26700% / 28200% (^00A100Undead/Dragon^777777) / 6500% Ek / AoE 11x11^000000"
+      ]
+    },
+    "AG_ROCK_DOWN": {
+      "name_original": "Rock Down",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Stratum Tremor 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefin uzerine buyuk kaya dusurerek hedefe ve yakindaki dusmanlara ^CC5500Earth^777777 elementli buyu hasari verir. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.",
+        "^0000FFClimax^777777 aktifse seviye fark etmeksizin hasar artar.^000000",
+        "[Sv 1]: ^777777MATK 1550% / 1850% (^0000FFClimax^777777), AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 3100% / 3700% (^0000FFClimax^777777), AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 4650% / 5550% (^0000FFClimax^777777), AoE 5x5^000000",
+        "[Sv 4]: ^777777MATK 6200% / 7400% (^0000FFClimax^777777), AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 7750% / 9250% (^0000FFClimax^777777), AoE 7x7^000000"
+      ]
+    },
+    "AG_STORM_CANNON": {
+      "name_original": "Storm Cannon",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Tornado Storm 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe dogru duz hat boyunca ruzgar girdabi firlatarak yolundaki hedeflere ^33CC00Wind^777777 elementli buyu hasari verir. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.",
+        "^0000FFClimax^777777 aktifse seviye fark etmeksizin hasar artar.^000000",
+        "[Sv 1]: ^777777MATK 1550% / 1850% (^0000FFClimax^777777)^000000",
+        "[Sv 2]: ^777777MATK 3100% / 3700% (^0000FFClimax^777777)^000000",
+        "[Sv 3]: ^777777MATK 4650% / 5550% (^0000FFClimax^777777)^000000",
+        "[Sv 4]: ^777777MATK 6200% / 7400% (^0000FFClimax^777777)^000000",
+        "[Sv 5]: ^777777MATK 7750% / 9250% (^0000FFClimax^777777)^000000"
+      ]
+    },
+    "AG_CRIMSON_ARROW": {
+      "name_original": "Crimson Arrow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Floral Flare Road 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe duz hat boyunca ates oku firlatarak yolundaki hedeflere ^FF0000Fire^777777 elementli buyu hasari verir. Ok hedefe carptiginda patlar ve hedef ile cevresine ek Fire buyu hasari verir.",
+        "Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar. ^0000FFClimax^777777 aktifse ok ve patlama hasari iki katina cikar.^000000",
+        "[Sv 1]: ^777777MATK 400% / 750% Patlama, AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 800% / 1500% Patlama, AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 1200% / 2250% Patlama, AoE 5x5^000000",
+        "[Sv 4]: ^777777MATK 1600% / 3000% Patlama, AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 2000% / 3750% Patlama, AoE 7x7^000000"
+      ]
+    },
+    "AG_FROZEN_SLASH": {
+      "name_original": "Frozen Slash",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Rain of Crystal 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Keskin buz kullanarak kullananin menzilindeki hedeflere ^0000BBWater^777777 elementli buyu hasari verir. Hasar ^CC6600Base Level^777777 ve ^CC6600SPL^777777 ile artar.",
+        "^0000FFClimax^777777 aktifse seviye fark etmeksizin hasar artar.^000000",
+        "[Sv 1]: ^777777MATK 1400% / 1900% (^0000FFClimax^777777), AoE 9x9^000000",
+        "[Sv 2]: ^777777MATK 2350% / 3200% (^0000FFClimax^777777), AoE 9x9^000000",
+        "[Sv 3]: ^777777MATK 3300% / 4500% (^0000FFClimax^777777), AoE 11x11^000000",
+        "[Sv 4]: ^777777MATK 4250% / 5800% (^0000FFClimax^777777), AoE 11x11^000000",
+        "[Sv 5]: ^777777MATK 5200% / 7100% (^0000FFClimax^777777), AoE 13x13^000000"
+      ]
+    },
+    "AG_TWOHANDSTAFF": {
+      "name_original": "Two-Handed Staff Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^990099Two-Handed Staff^777777 takiliyken ^CC6600S.MATK^777777 artirir.^000000",
+        "[Sv 1]: ^777777S.MATK +2^000000",
+        "[Sv 2]: ^777777S.MATK +4^000000",
+        "[Sv 3]: ^777777S.MATK +6^000000",
+        "[Sv 4]: ^777777S.MATK +8^000000",
+        "[Sv 5]: ^777777S.MATK +10^000000",
+        "[Sv 6]: ^777777S.MATK +12^000000",
+        "[Sv 7]: ^777777S.MATK +14^000000",
+        "[Sv 8]: ^777777S.MATK +16^000000",
+        "[Sv 9]: ^777777S.MATK +18^000000",
+        "[Sv 10]: ^777777S.MATK +20^000000"
+      ]
+    },
+    "IQ_POWERFUL_FAITH": {
+      "name_original": "Powerful Faith",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Will of Faith 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Inanci guclendirerek ^CC6600ATK^777777 ve ^CC6600P.ATK^777777 artirir. ^0000FFFirm Faith^777777 ve ^0000FFSincere Faith^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777ATK +10, P.ATK +7, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777ATK +15, P.ATK +9, Sure 150 saniye^000000",
+        "[Sv 3]: ^777777ATK +20, P.ATK +11, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777ATK +25, P.ATK +13, Sure 210 saniye^000000",
+        "[Sv 5]: ^777777ATK +30, P.ATK +15, Sure 240 saniye^000000"
+      ]
+    },
+    "IQ_FIRM_FAITH": {
+      "name_original": "Firm Faith",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Will of Faith 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Inanci guclendirerek ^CC6600MaksHP^777777 ve ^CC6600RES^777777 artirir. ^0000FFPowerful Faith^777777 ve ^0000FFSincere Faith^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777MaksHP +2%, RES +8, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777MaksHP +4%, RES +16, Sure 150 saniye^000000",
+        "[Sv 3]: ^777777MaksHP +6%, RES +24, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777MaksHP +8%, RES +32, Sure 210 saniye^000000",
+        "[Sv 5]: ^777777MaksHP +10%, RES +40, Sure 240 saniye^000000"
+      ]
+    },
+    "IQ_WILL_OF_FAITH": {
+      "name_original": "Will of Faith",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Yikim inancini guclendirir; ^00A100Demon^777777 ve ^00A100Undead^777777 monster'lara verilen fiziksel hasari artirir ve onlardan alinan hasari azaltir.^000000",
+        "[Sv 1]: ^777777ATK +3%, Alinan Hasar -1%^000000",
+        "[Sv 2]: ^777777ATK +4%, Alinan Hasar -2%^000000",
+        "[Sv 3]: ^777777ATK +5%, Alinan Hasar -3%^000000",
+        "[Sv 4]: ^777777ATK +6%, Alinan Hasar -4%^000000",
+        "[Sv 5]: ^777777ATK +7%, Alinan Hasar -5%^000000",
+        "[Sv 6]: ^777777ATK +8%, Alinan Hasar -6%^000000",
+        "[Sv 7]: ^777777ATK +9%, Alinan Hasar -7%^000000",
+        "[Sv 8]: ^777777ATK +10%, Alinan Hasar -8%^000000",
+        "[Sv 9]: ^777777ATK +11%, Alinan Hasar -9%^000000",
+        "[Sv 10]: ^777777ATK +12%, Alinan Hasar -10%^000000"
+      ]
+    },
+    "IQ_OLEUM_SANCTUM": {
+      "name_original": "Oleum Sanctum",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Aqua Benedicta 1, Will of Faith 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullananin Cevresindeki Dusmanlar^000000",
+        "Aciklama: ^777777Yakindaki dusmanlari kutsal yag ile vaftiz ederek menzilli fiziksel hasar verir ve skill suresince menzilli fiziksel saldirilardan ek hasar almalarini saglayan debuff uygular.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 2500%, AoE 7x7, Sure 3 saniye^000000",
+        "[Sv 2]: ^777777ATK 4500%, AoE 7x7, Sure 4 saniye^000000",
+        "[Sv 3]: ^777777ATK 6500%, AoE 7x7, Sure 5 saniye^000000",
+        "[Sv 4]: ^777777ATK 8500%, AoE 9x9, Sure 6 saniye^000000",
+        "[Sv 5]: ^777777ATK 10500%, AoE 9x9, Sure 7 saniye^000000"
+      ]
+    },
+    "IQ_SINCERE_FAITH": {
+      "name_original": "Sincere Faith",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Will of Faith 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Inanci guclendirerek ^CC6600ASPD^777777 ve ^CC6600Perfect HIT^777777 artirir. ^0000FFPowerful Faith^777777 ve ^0000FFFirm Faith^777777 ile birlikte kullanilamaz.^000000",
+        "[Sv 1]: ^777777ASPD +1, Perfect HIT +4%, Sure 120 saniye^000000",
+        "[Sv 2]: ^777777ASPD +1, Perfect HIT +8%, Sure 150 saniye^000000",
+        "[Sv 3]: ^777777ASPD +2, Perfect HIT +12%, Sure 180 saniye^000000",
+        "[Sv 4]: ^777777ASPD +2, Perfect HIT +16%, Sure 210 saniye^000000",
+        "[Sv 5]: ^777777ASPD +3, Perfect HIT +20%, Sure 240 saniye^000000"
+      ]
+    },
+    "IQ_FIRST_BRAND": {
+      "name_original": "First Brand",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Will of Faith 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara yakin dovus fiziksel hasar verir ve ^0000FFBrand^777777 uygular. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777ATK 450%, Brand 1 sn, AoE 3x3^000000",
+        "[Sv 2]: ^777777ATK 900%, Brand 2 sn, AoE 3x3^000000",
+        "[Sv 3]: ^777777ATK 1350%, Brand 3 sn, AoE 5x5^000000",
+        "[Sv 4]: ^777777ATK 1800%, Brand 4 sn, AoE 5x5^000000",
+        "[Sv 5]: ^777777ATK 2250%, Brand 5 sn, AoE 7x7^000000"
+      ]
+    },
+    "IQ_FIRST_FAITH_POWER": {
+      "name_original": "First Faith Power",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Will of Faith 3, First Brand 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Gercek inanci kabul ederek savasa girer. 300 saniye boyunca ^0000FFFallen Empire^777777'in ^990099Spirit Sphere^777777 tuketimini kaldirir.^000000",
+        "[Sv 1]: ^777777Cooldown 180 saniye^000000",
+        "[Sv 2]: ^777777Cooldown 150 saniye^000000",
+        "[Sv 3]: ^777777Cooldown 120 saniye^000000",
+        "[Sv 4]: ^777777Cooldown 90 saniye^000000",
+        "[Sv 5]: ^777777Cooldown 60 saniye^000000"
+      ]
+    },
+    "IQ_THIRD_PUNISH": {
+      "name_original": "Third Punish",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Second Faith 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFFirst Faith Power, Judge^777777 veya ^0000FFThird Exorcism Flame^777777 aktifken kullanilabilir. ^0000FFJudgement Brand^777777 ile isaretli hedefe ve 7x7 cevresindeki dusmanlara 3 kez yakin dovus fiziksel hasar verir.",
+        "Ardindan tum hedeflerdeki Judgement Brand kaldirilir ve ^0000FFDangerous Soul Collect^777777 otomatik kullanilir. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar; critical sansina gore toplam critical hasarin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 2250%^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 4050%^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 5850%^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 7650%^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 9450%^000000"
+      ]
+    },
+    "IQ_THIRD_FLAME_BOMB": {
+      "name_original": "Third Flame Bomb",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Second Judgement 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFThird Exorcism Flame^777777 aktifken kullanilabilir. ^0000FFJudgement Brand^777777 ile isaretli hedefe ve 7x7 cevresindeki dusmanlara yakin dovus fiziksel hasar verir.",
+        "Ardindan tum hedeflerdeki Judgement Brand kaldirilir. Kalan ^0000FFSpirit Sphere^777777 sayisina gore vurus sayisi en fazla 3'e cikar. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777ATK 650 + (MaksHP %20)%^000000",
+        "[Sv 2]: ^777777ATK 1300 + (MaksHP %20)%^000000",
+        "[Sv 3]: ^777777ATK 1950 + (MaksHP %20)%^000000",
+        "[Sv 4]: ^777777ATK 2600 + (MaksHP %20)%^000000",
+        "[Sv 5]: ^777777ATK 3250 + (MaksHP %20)%^000000"
+      ]
+    },
+    "IQ_THIRD_CONSECRATION": {
+      "name_original": "Third Consecration",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Second Judgement 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFJudge^777777 veya ^0000FFThird Exorcism Flame^777777 aktifken kullanilabilir. ^0000FFJudgement Brand^777777 ile isaretli hedefe ve 7x7 cevresindeki dusmanlara 5 kez yakin dovus fiziksel hasar verir.",
+        "Ardindan tum hedeflerdeki Judgement Brand kaldirilir. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1250%^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 2500%^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 3750%^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 5000%^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 6250%^000000"
+      ]
+    },
+    "IQ_SECOND_FLAME": {
+      "name_original": "Second Flame",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Third Exorcism Flame 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF4^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFThird Exorcism Flame^777777 aktifken kullanilabilir. ^0000FFBrand^777777 veya ^0000FFJudgement Brand^777777 ile isaretli hedefe ve 7x7 cevresindeki dusmanlara yakin dovus fiziksel hasar verir.",
+        "Brand etkisindeki hedefler 5 saniye Judgement Brand ile isaretlenir; hedef zaten Judgement Brand tasiyorsa suresi yenilenir. Hasar ^CC6600Base Level^777777 ve ^CC6600POW^777777 ile artar.^000000",
+        "[Sv 1]: ^777777ATK 3100%^000000",
+        "[Sv 2]: ^777777ATK 6000%^000000",
+        "[Sv 3]: ^777777ATK 8900%^000000",
+        "[Sv 4]: ^777777ATK 11800%^000000",
+        "[Sv 5]: ^777777ATK 14700%^000000"
       ]
     }
   }
