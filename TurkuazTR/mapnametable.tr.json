@@ -3,23 +3,31 @@
     "path": "/ROenglishRE/TurkuazTR/mapnametable.tr.json",
     "purpose": "Map name table icindeki oyuncuya gorunen harita adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest mapnametable.txt kaynagindaki 403 exact satiri Navi_Data onayli Turkce karsiliklariyla esler",
+    "version": "1.1.0",
+    "description": "upstream/latest mapnametable.txt kaynagindaki 436 exact satiri Navi_Data ve worldview onayli Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/mapnametable.txt",
   "source_ref": "upstream/latest",
   "source_blob_sha": "a642a734e9b5415f568fbfdd92a9fd5225f9d227",
   "source_line_count": 1345,
-  "patch_count": 403,
+  "patch_count": 436,
   "patches": {
     "35": {
       "source_en": "prt_mz03_i.rsw#Twisted Labyrinth Forest#",
       "translation_tr": "prt_mz03_i.rsw#Carpik Labirent Ormani#"
     },
+    "44": {
+      "source_en": "1@ant01.rsw#Ant Hell#",
+      "translation_tr": "1@ant01.rsw#Karinca Cehennemi#"
+    },
     "45": {
       "source_en": "1@izd02.rsw#Undersea Tunnel B2#",
       "translation_tr": "1@izd02.rsw#Sualti Tuneli B2#"
+    },
+    "46": {
+      "source_en": "1@tre02.rsw#Sunken Ship#",
+      "translation_tr": "1@tre02.rsw#Batmis Gemi#"
     },
     "59": {
       "source_en": "1@os_a.rsw#Occupied Battle#",
@@ -401,6 +409,10 @@
       "source_en": "mal_dun01.rsw#Starry Coral Area#",
       "translation_tr": "mal_dun01.rsw#Yildizli Mercan Bolgesi#"
     },
+    "376": {
+      "source_en": "dic_dun03.rsw#Scaraba Hole - Nightmare Mode#",
+      "translation_tr": "dic_dun03.rsw#Scaraba Deligi - Kabus Modu#"
+    },
     "379": {
       "source_en": "dew_in01.rsw#Inside Dewata#",
       "translation_tr": "dew_in01.rsw#Dewata Ici#"
@@ -412,6 +424,10 @@
     "381": {
       "source_en": "dew_dun01.rsw#Volcanic Island of Krakatoa#",
       "translation_tr": "dew_dun01.rsw#Krakatoa Volkanik Adasi#"
+    },
+    "382": {
+      "source_en": "dew_dun02.rsw#Istana Cave#",
+      "translation_tr": "dew_dun02.rsw#Istana Magarasi#"
     },
     "384": {
       "source_en": "mora.rsw#Mora Village#",
@@ -561,6 +577,18 @@
       "source_en": "nameless_in.rsw#Inside Nameless Island#",
       "translation_tr": "nameless_in.rsw#Isimsiz Ada Ici#"
     },
+    "504": {
+      "source_en": "abbey01.rsw#Cursed Abbey Dungeon F1#",
+      "translation_tr": "abbey01.rsw#Lanetli Manastir Zindani K1#"
+    },
+    "505": {
+      "source_en": "abbey02.rsw#Cursed Abbey Dungeon F2#",
+      "translation_tr": "abbey02.rsw#Lanetli Manastir Zindani K2#"
+    },
+    "506": {
+      "source_en": "abbey03.rsw#Cursed Abbey Dungeon F3#",
+      "translation_tr": "abbey03.rsw#Lanetli Manastir Zindani K3#"
+    },
     "507": {
       "source_en": "que_temsky.rsw#Pope's Room (Sky Garden)#",
       "translation_tr": "que_temsky.rsw#Papanin Odasi - Gok Bahcesi#"
@@ -621,6 +649,10 @@
       "source_en": "ra_fild01.rsw#Audumra Grass Land#",
       "translation_tr": "ra_fild01.rsw#Audumra Cayiri#"
     },
+    "540": {
+      "source_en": "ra_fild02.rsw#Oz Gorge#",
+      "translation_tr": "ra_fild02.rsw#Oz Bogazi#"
+    },
     "541": {
       "source_en": "ra_fild03.rsw#Ida Plane#",
       "translation_tr": "ra_fild03.rsw#Ida Ovasi#"
@@ -633,6 +665,10 @@
       "source_en": "ra_fild05.rsw#Audumra Grass Land#",
       "translation_tr": "ra_fild05.rsw#Audumra Cayiri#"
     },
+    "545": {
+      "source_en": "ra_fild07.rsw#Oz Gorge#",
+      "translation_tr": "ra_fild07.rsw#Oz Bogazi#"
+    },
     "546": {
       "source_en": "ra_fild08.rsw#Ida Plane#",
       "translation_tr": "ra_fild08.rsw#Ida Ovasi#"
@@ -640,6 +676,10 @@
     "547": {
       "source_en": "ra_fild09.rsw#Audumra Grass Land#",
       "translation_tr": "ra_fild09.rsw#Audumra Cayiri#"
+    },
+    "548": {
+      "source_en": "ra_fild10.rsw#Oz Gorge#",
+      "translation_tr": "ra_fild10.rsw#Oz Bogazi#"
     },
     "549": {
       "source_en": "ra_fild11.rsw#Ida Plane#",
@@ -749,6 +789,18 @@
       "source_en": "que_job01.rsw#Private Pub#",
       "translation_tr": "que_job01.rsw#Gizli Meyhane#"
     },
+    "586": {
+      "source_en": "abyss_01.rsw#Abyss Lakes Underground Cave F1#",
+      "translation_tr": "abyss_01.rsw#Ucurum Golleri Yeralti Magarasi K1#"
+    },
+    "587": {
+      "source_en": "abyss_02.rsw#Abyss Lakes Underground Cave F2#",
+      "translation_tr": "abyss_02.rsw#Ucurum Golleri Yeralti Magarasi K2#"
+    },
+    "588": {
+      "source_en": "abyss_03.rsw#Abyss Lakes Underground Cave F3#",
+      "translation_tr": "abyss_03.rsw#Ucurum Golleri Yeralti Magarasi K3#"
+    },
     "604": {
       "source_en": "tha_scene01.rsw#Thanatos Tower Entrance#",
       "translation_tr": "tha_scene01.rsw#Thanatos Kulesi Girisi#"
@@ -764,6 +816,14 @@
     "613": {
       "source_en": "jupe_cave.rsw#Juperos Dungeon Entrance#",
       "translation_tr": "jupe_cave.rsw#Juperos Zindan Girisi#"
+    },
+    "614": {
+      "source_en": "juperos_01.rsw#The Ruins of Juperos F1#",
+      "translation_tr": "juperos_01.rsw#Juperos Harabeleri K1#"
+    },
+    "615": {
+      "source_en": "juperos_02.rsw#The Ruins of Juperos F2#",
+      "translation_tr": "juperos_02.rsw#Juperos Harabeleri K2#"
     },
     "616": {
       "source_en": "jupe_gate.rsw#Juperos, Restricted Zone#",
@@ -801,6 +861,18 @@
       "source_en": "airplane_01.rsw#Airship#",
       "translation_tr": "airplane_01.rsw#Hava Gemisi#"
     },
+    "630": {
+      "source_en": "lhz_dun01.rsw#Somatology Laboratory F1#",
+      "translation_tr": "lhz_dun01.rsw#Somatoloji Laboratuvari K1#"
+    },
+    "631": {
+      "source_en": "lhz_dun02.rsw#Somatology Laboratory F2#",
+      "translation_tr": "lhz_dun02.rsw#Somatoloji Laboratuvari K2#"
+    },
+    "632": {
+      "source_en": "lhz_dun03.rsw#Somatology Laboratory F3#",
+      "translation_tr": "lhz_dun03.rsw#Somatoloji Laboratuvari K3#"
+    },
     "634": {
       "source_en": "y_airport.rsw#Yuno Airport#",
       "translation_tr": "y_airport.rsw#Yuno Havaalani#"
@@ -836,6 +908,10 @@
     "662": {
       "source_en": "turbo_room.rsw#Waiting Room#",
       "translation_tr": "turbo_room.rsw#Bekleme Odasi#"
+    },
+    "663": {
+      "source_en": "yuno_fild12.rsw#Border Checkpoint#",
+      "translation_tr": "yuno_fild12.rsw#Sinir Kontrol Noktasi#"
     },
     "664": {
       "source_en": "yuno_fild11.rsw#Yuno Field#",
@@ -876,6 +952,22 @@
     "677": {
       "source_en": "que_god01.rsw#Quest Map#",
       "translation_tr": "que_god01.rsw#Gorev Haritasi#"
+    },
+    "679": {
+      "source_en": "gefenia04.rsw#Geffenia F4#",
+      "translation_tr": "gefenia04.rsw#Geffenia K4#"
+    },
+    "680": {
+      "source_en": "gefenia03.rsw#Geffenia F3#",
+      "translation_tr": "gefenia03.rsw#Geffenia K3#"
+    },
+    "681": {
+      "source_en": "gefenia02.rsw#Geffenia F2#",
+      "translation_tr": "gefenia02.rsw#Geffenia K2#"
+    },
+    "682": {
+      "source_en": "gefenia01.rsw#Geffenia F1#",
+      "translation_tr": "gefenia01.rsw#Geffenia K1#"
     },
     "684": {
       "source_en": "jawaii_in.rsw#Inside Jawaii#",
@@ -1209,6 +1301,10 @@
       "source_en": "mjolnir_12.rsw#Mt.Mjolnir North Foothills#",
       "translation_tr": "mjolnir_12.rsw#Mjolnir Dagi Kuzey Etekleri#"
     },
+    "836": {
+      "source_en": "prt_monk.rsw#St. Capitolina Abbey#",
+      "translation_tr": "prt_monk.rsw#Aziz Capitolina Manastiri#"
+    },
     "849": {
       "source_en": "in_orcs01.rsw#Inside Orc Village#",
       "translation_tr": "in_orcs01.rsw#Ork Koyu Ic Mekan#"
@@ -1216,6 +1312,14 @@
     "869": {
       "source_en": "in_moc_16.rsw#Assassin Clan#",
       "translation_tr": "in_moc_16.rsw#Suikastci Lonca#"
+    },
+    "901": {
+      "source_en": "anthell01.rsw#Ant Hell F1#",
+      "translation_tr": "anthell01.rsw#Karinca Cehennemi K1#"
+    },
+    "902": {
+      "source_en": "anthell02.rsw#Ant Hell F2#",
+      "translation_tr": "anthell02.rsw#Karinca Cehennemi K2#"
     },
     "903": {
       "source_en": "gef_dun00.rsw#Geffen Dungeon B1#",
@@ -1280,6 +1384,18 @@
     "924": {
       "source_en": "moc_prydb1.rsw#Thief Guild#",
       "translation_tr": "moc_prydb1.rsw#Hirsiz Lonca#"
+    },
+    "925": {
+      "source_en": "mjo_dun01.rsw#Mjolnir Dead Pit F1#",
+      "translation_tr": "mjo_dun01.rsw#Mjolnir Olu Cukuru K1#"
+    },
+    "926": {
+      "source_en": "mjo_dun02.rsw#Mjolnir Dead Pit F2#",
+      "translation_tr": "mjo_dun02.rsw#Mjolnir Olu Cukuru K2#"
+    },
+    "927": {
+      "source_en": "mjo_dun03.rsw#Mjolnir Dead Pit F3#",
+      "translation_tr": "mjo_dun03.rsw#Mjolnir Olu Cukuru K3#"
     },
     "928": {
       "source_en": "orcsdun01.rsw#Orc Dungeon F1#",
@@ -1565,17 +1681,33 @@
       "source_en": "que_sign02.rsw#Valley of Gyoll#",
       "translation_tr": "que_sign02.rsw#Gyoll Vadisi#"
     },
+    "1072": {
+      "source_en": "prontera_x.rsw#Prontera City, Capital of Rune Midgard#",
+      "translation_tr": "prontera_x.rsw#Rune Midgard Baskenti Prontera Sehri#"
+    },
     "1073": {
       "source_en": "alberta_x.rsw#Alberta#",
       "translation_tr": "alberta_x.rsw#Liman Sehri Alberta#"
+    },
+    "1076": {
+      "source_en": "izlude_x.rsw#Izlude Town#",
+      "translation_tr": "izlude_x.rsw#Izlude Kasabasi#"
     },
     "1077": {
       "source_en": "prt_church_x.rsw#The Sanctuary#",
       "translation_tr": "prt_church_x.rsw#Kutsal Alan#"
     },
+    "1078": {
+      "source_en": "prontera_s.rsw#Prontera City, Capital of Rune Midgard#",
+      "translation_tr": "prontera_s.rsw#Rune Midgard Baskenti Prontera Sehri#"
+    },
     "1079": {
       "source_en": "pay_arche_s.rsw#Archer Village#",
       "translation_tr": "pay_arche_s.rsw#Okcu Koyu#"
+    },
+    "1098": {
+      "source_en": "izlude07.rsw#Izlude Town#",
+      "translation_tr": "izlude07.rsw#Izlude Kasabasi#"
     },
     "1126": {
       "source_en": "prt_dugn00.rsw#Prontera Dungeon#",
