@@ -12976,7 +12976,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULREVOLVE] = {
 		"SP_SOULREVOLVE",
-		SkillName = "Soul Revolution",
+		SkillName = "Ruh Devrimi",
 		MaxLv = 3,
 		SpAmount = { 50, 100, 150 },
 		bSeperateLv = true,
@@ -12988,7 +12988,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULEXPLOSION] = {
 		"SP_SOULEXPLOSION",
-		SkillName = "Soul Explosion",
+		SkillName = "Ruh Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 30, 60, 90, 120, 150 },
 		bSeperateLv = true,
@@ -13014,7 +13014,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SP_SOULENERGY] = {
 		"SP_SOULENERGY",
-		SkillName = "Soul Energy Research",
+		SkillName = "Ruh Enerjisi Arastirmasi",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13026,7 +13026,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR_ATK2] = {
 		"SJ_FALLINGSTAR_ATK2",
-		SkillName = "Falling Star",
+		SkillName = "Dusen Yildiz",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13034,7 +13034,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR_ATK] = {
 		"SJ_FALLINGSTAR_ATK",
-		SkillName = "Falling Star",
+		SkillName = "Dusen Yildiz",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13042,7 +13042,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_BREAKTHROUGH] = {
 		"NV_BREAKTHROUGH",
-		SkillName = "Breakthrough",
+		SkillName = "Atilim",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13052,7 +13052,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_HELPANGEL] = {
 		"NV_HELPANGEL",
-		SkillName = "Angel, help Me!",
+		SkillName = "Melek Bana Yardim Et",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -13061,7 +13061,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NV_TRANSCENDENCE] = {
 		"NV_TRANSCENDENCE",
-		SkillName = "Transcendence",
+		SkillName = "Yukselis",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -13071,7 +13071,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_SKYNETBLOW] = {
 		"SR_SKYNETBLOW",
-		SkillName = "Sky Net Blow",
+		SkillName = "Gok Agi Darbesi",
 		MaxLv = 5,
 		SpAmount = { 12, 14, 16, 18, 20 },
 		bSeperateLv = true,
@@ -13082,7 +13082,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_LIGHTNINGWALK] = {
 		"SR_LIGHTNINGWALK",
-		SkillName = "Lightning Walk",
+		SkillName = "Yildirim Yuruyusu",
 		MaxLv = 5,
 		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -13093,7 +13093,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GATEOFHELL] = {
 		"SR_GATEOFHELL",
-		SkillName = "Gate of Hell",
+		SkillName = "Cehennem Kapisi",
 		MaxLv = 10,
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
 		bSeperateLv = true,
@@ -13105,7 +13105,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GENTLETOUCH_CHANGE] = {
 		"SR_GENTLETOUCH_CHANGE",
-		SkillName = "Gentle Touch - Change",
+		SkillName = "Nazik Dokunus - Degisim",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -13118,7 +13118,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_EARTHSHAKER] = {
 		"SR_EARTHSHAKER",
-		SkillName = "Earth Shaker",
+		SkillName = "Yer Sarsici",
 		MaxLv = 5,
 		SpAmount = { 36, 40, 44, 48, 52 },
 		bSeperateLv = true,
@@ -13129,7 +13129,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_KNUCKLEARROW] = {
 		"SR_KNUCKLEARROW",
-		SkillName = "Knuckle Arrow",
+		SkillName = "Yumruk Oku",
 		MaxLv = 10,
 		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
 		bSeperateLv = false,
@@ -13140,7 +13140,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_ASSIMILATEPOWER] = {
 		"SR_ASSIMILATEPOWER",
-		SkillName = "Power Absorb",
+		SkillName = "Guc Emme",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -13152,7 +13152,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GENTLETOUCH_QUIET] = {
 		"SR_GENTLETOUCH_QUIET",
-		SkillName = "Gentle Touch Silence",
+		SkillName = "Nazik Dokunus - Sessizlik",
 		MaxLv = 5,
 		SpAmount = { 20, 25, 30, 35, 40 },
 		bSeperateLv = true,
@@ -13161,7 +13161,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_DRAGONCOMBO] = {
 		"SR_DRAGONCOMBO",
-		SkillName = "Dragon Combo",
+		SkillName = "Ejderha Kombosu",
 		MaxLv = 10,
 		SpAmount = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
 		bSeperateLv = true,
@@ -13172,7 +13172,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_RIDEINLIGHTNING] = {
 		"SR_RIDEINLIGHTNING",
-		SkillName = "Ride in Lightning",
+		SkillName = "Yildirima Binis",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -13183,7 +13183,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_HOWLINGOFLION] = {
 		"SR_HOWLINGOFLION",
-		SkillName = "Howling of Lion",
+		SkillName = "Aslan Kukremesi",
 		MaxLv = 5,
 		SpAmount = { 70, 70, 70, 70, 70 },
 		bSeperateLv = true,
@@ -13195,7 +13195,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_TIGERCANNON] = {
 		"SR_TIGERCANNON",
-		SkillName = "Tiger Cannon",
+		SkillName = "Kaplan Topu",
 		MaxLv = 10,
 		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
@@ -13206,7 +13206,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_CRESCENTELBOW] = {
 		"SR_CRESCENTELBOW",
-		SkillName = "Crescent Elbow",
+		SkillName = "Hilal Dirsegi",
 		MaxLv = 5,
 		SpAmount = { 80, 80, 80, 80, 80 },
 		bSeperateLv = false,
@@ -13217,7 +13217,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_RAISINGDRAGON] = {
 		"SR_RAISINGDRAGON",
-		SkillName = "Rising Dragon",
+		SkillName = "Yukselen Ejderha",
 		MaxLv = 10,
 		SpAmount = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
 		bSeperateLv = true,
@@ -13229,7 +13229,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_POWERVELOCITY] = {
 		"SR_POWERVELOCITY",
-		SkillName = "Power Implantation",
+		SkillName = "Guc Aktarimi",
 		MaxLv = 1,
 		SpAmount = { 50 },
 		bSeperateLv = false,
@@ -13240,7 +13240,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GENTLETOUCH_ENERGYGAIN] = {
 		"SR_GENTLETOUCH_ENERGYGAIN",
-		SkillName = "Gentle Touch-Energy Gain",
+		SkillName = "Nazik Dokunus - Enerji Kazanimi",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -13251,7 +13251,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_FALLENEMPIRE] = {
 		"SR_FALLENEMPIRE",
-		SkillName = "Fallen Empire",
+		SkillName = "Yikik Imparatorluk",
 		MaxLv = 10,
 		SpAmount = { 18, 21, 24, 27, 30, 33, 36, 39, 42, 45 },
 		bSeperateLv = false,
@@ -13262,7 +13262,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_WINDMILL] = {
 		"SR_WINDMILL",
-		SkillName = "Windmill",
+		SkillName = "Yel Degirmeni",
 		MaxLv = 1,
 		SpAmount = { 45 },
 		bSeperateLv = false,
@@ -13273,7 +13273,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GENTLETOUCH_CURE] = {
 		"SR_GENTLETOUCH_CURE",
-		SkillName = "Gentle Touch-Cure",
+		SkillName = "Nazik Dokunus - Tedavi",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = false,
@@ -13284,7 +13284,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_GENTLETOUCH_REVITALIZE] = {
 		"SR_GENTLETOUCH_REVITALIZE",
-		SkillName = "Gentle Touch-Revitalize",
+		SkillName = "Nazik Dokunus - Canlandirma",
 		MaxLv = 5,
 		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
@@ -13297,7 +13297,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_CURSEDCIRCLE] = {
 		"SR_CURSEDCIRCLE",
-		SkillName = "Cursed Circle",
+		SkillName = "Lanetli Cember",
 		MaxLv = 5,
 		SpAmount = { 40, 60, 80, 100, 120 },
 		bSeperateLv = false,
@@ -13308,7 +13308,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_RAMPAGEBLASTER] = {
 		"SR_RAMPAGEBLASTER",
-		SkillName = "Rampage Blaster",
+		SkillName = "Hiddet Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 100, 100, 100, 100, 100 },
 		bSeperateLv = false,
@@ -13319,7 +13319,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SR_FLASHCOMBO] = {
 		"SR_FLASHCOMBO",
-		SkillName = "Flash Combo",
+		SkillName = "Hizli Kombo",
 		MaxLv = 5,
 		SpAmount = { 65, 65, 65, 65, 65 },
 		bSeperateLv = true,
@@ -13342,7 +13342,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_SERVANTWEAPON] = {
 		"DK_SERVANTWEAPON",
-		SkillName = "Servant Weapon",
+		SkillName = "Hizmetkar Silah",
 		MaxLv = 5,
 		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
@@ -13350,7 +13350,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DK_SERVANT_W_SIGN] = {
 		"DK_SERVANT_W_SIGN",
-		SkillName = "Servant Weapon - Sign",
+		SkillName = "Hizmetkar Silah - Isaret",
 		MaxLv = 5,
 		SpAmount = { 15, 15, 15, 15, 15 },
 		bSeperateLv = true,
