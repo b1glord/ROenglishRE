@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.21.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 740 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.22.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 775 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2971,6 +2971,146 @@
     "HN_SHIELD_CHAIN_RUSH": {
       "name_original": "Shield Chain Rush",
       "name_tr": "Kalkan Zinciri Hucumu"
+    },
+    "HN_MEGA_SONIC_BLOW": {
+      "name_original": "Mega Sonic Blow",
+      "name_tr": "Mega Sonik Darbe"
+    },
+    "HN_SPIRAL_PIERCE_MAX": {
+      "name_original": "Spiral Pierce Max",
+      "name_tr": "Maksimum Spiral Delis"
+    },
+    "HN_METEOR_STORM_BUSTER": {
+      "name_original": "Meteor Storm Buster",
+      "name_tr": "Meteor Firtinasi Patlamasi"
+    },
+    "HN_JUPITEL_THUNDER_STORM": {
+      "name_original": "Jupitel Thunderstorm",
+      "name_tr": "Jupitel Yildirim Firtinasi"
+    },
+    "HN_JACK_FROST_NOVA": {
+      "name_original": "Jack Frost Nova",
+      "name_tr": "Jack Frost Novasi"
+    },
+    "HN_HELLS_DRIVE": {
+      "name_original": "Hell's Drive",
+      "name_tr": "Cehennem Surusu"
+    },
+    "HN_GROUND_GRAVITATION": {
+      "name_original": "Ground Gravitation",
+      "name_tr": "Zemin Yercekimi"
+    },
+    "HN_NAPALM_VULCAN_STRIKE": {
+      "name_original": "Napalm Vulcan Strike",
+      "name_tr": "Napalm Vulkan Darbesi"
+    },
+    "HN_BREAKINGLIMIT": {
+      "name_original": "Breaking Limit",
+      "name_tr": "Siniri Asma"
+    },
+    "HN_RULEBREAK": {
+      "name_original": "Rule Break",
+      "name_tr": "Kural Bozma"
+    },
+    "SS_SHINKIROU": {
+      "name_original": "Mirage",
+      "name_tr": "Serap"
+    },
+    "SS_TOKEDASU": {
+      "name_original": "Melt Away",
+      "name_tr": "Eriyip Kaybolma"
+    },
+    "SS_SHIMIRU": {
+      "name_original": "Infiltrate",
+      "name_tr": "Sizma"
+    },
+    "SS_AKUMUKESU": {
+      "name_original": "Nightmare Erasion",
+      "name_tr": "Kabusu Silme"
+    },
+    "SS_KAGEGARI": {
+      "name_original": "Shadow Hunting",
+      "name_tr": "Golge Avi"
+    },
+    "SS_KAGENOMAI": {
+      "name_original": "Shadow Dance",
+      "name_tr": "Golge Dansi"
+    },
+    "SS_KAGEGISSEN": {
+      "name_original": "Shadow Flash",
+      "name_tr": "Golge Parlamasi"
+    },
+    "SS_FUUMASHOUAKU": {
+      "name_original": "Huuma Shuriken - Grasp",
+      "name_tr": "Huuma Shuriken - Kavrayis"
+    },
+    "SS_FUUMAKOUCHIKU": {
+      "name_original": "Huuma Shuriken - Construct",
+      "name_tr": "Huuma Shuriken - Olusturma"
+    },
+    "SS_KUNAIWAIKYOKU": {
+      "name_original": "Kunai - Distortion",
+      "name_tr": "Kunai - Carpilm"
+    },
+    "SS_KUNAIKAITEN": {
+      "name_original": "Kunai - Rotation",
+      "name_tr": "Kunai - Donus"
+    },
+    "SS_KUNAIKUSSETSU": {
+      "name_original": "Kunai - Refraction",
+      "name_tr": "Kunai - Kirilma"
+    },
+    "SS_SEKIENHOU": {
+      "name_original": "Red Flame Cannon",
+      "name_tr": "Kizil Alev Topu"
+    },
+    "SS_REIKETSUHOU": {
+      "name_original": "Cold Blooded Cannon",
+      "name_tr": "Soguk Kanli Top"
+    },
+    "SS_RAIDENPOU": {
+      "name_original": "Thundering Cannon",
+      "name_tr": "Gok Gurultulu Top"
+    },
+    "SS_KINRYUUHOU": {
+      "name_original": "Golden Dragon Cannon",
+      "name_tr": "Altin Ejderha Topu"
+    },
+    "SS_ANTENPOU": {
+      "name_original": "Darkening Cannon",
+      "name_tr": "Karartma Topu"
+    },
+    "SS_KAGEAKUMU": {
+      "name_original": "Shadow - Nightmare",
+      "name_tr": "Golge - Kabus"
+    },
+    "SS_HITOUAKUMU": {
+      "name_original": "Kunai - Nightmare",
+      "name_tr": "Kunai - Kabus"
+    },
+    "SS_ANKOKURYUUAKUMU": {
+      "name_original": "Dark Dragon - Nightmare",
+      "name_tr": "Kara Ejderha - Kabus"
+    },
+    "IG_RADIANT_SPEAR": {
+      "name_original": "Radiant Spear",
+      "name_tr": "Isiltili Mizrak"
+    },
+    "IG_IMPERIAL_CROSS": {
+      "name_original": "Imperial Cross",
+      "name_tr": "Imparatorluk Haci"
+    },
+    "MT_RUSH_STRIKE": {
+      "name_original": "Rush Strike",
+      "name_tr": "Hucum Darbesi"
+    },
+    "MT_POWERFUL_SWING": {
+      "name_original": "Powerful Swing",
+      "name_tr": "Guclu Savurus"
+    },
+    "MT_ENERGY_CANNONADE": {
+      "name_original": "Energy Cannonade",
+      "name_tr": "Enerji Topcu Atesi"
     }
   },
   "name_profiles": {
@@ -2983,5 +3123,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 740
+  "patch_count": 775
 }
