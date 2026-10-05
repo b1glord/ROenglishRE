@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.8.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 285 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.9.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 320 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1151,6 +1151,146 @@
     "MER_INVINCIBLEOFF2": {
       "name_original": "Mind Blaster",
       "name_tr": "Zihin Patlatma"
+    },
+    "GC_DARKCROW": {
+      "name_original": "Dark Claw",
+      "name_tr": "Karanlik Pence"
+    },
+    "RA_UNLIMIT": {
+      "name_original": "Unlimit",
+      "name_tr": "Sinirsiz"
+    },
+    "LG_KINGS_GRACE": {
+      "name_original": "King's Grace",
+      "name_tr": "Kralin Lutfu"
+    },
+    "RK_DRAGONBREATH_WATER": {
+      "name_original": "Dragon Breath - Water",
+      "name_tr": "Ejderha Nefesi - Su"
+    },
+    "NC_MAGMA_ERUPTION": {
+      "name_original": "Magma Eruption",
+      "name_tr": "Magma Patlamasi"
+    },
+    "WM_FRIGG_SONG": {
+      "name_original": "Frigg's Song",
+      "name_tr": "Frigg'in Sarkisi"
+    },
+    "SO_ELEMENTAL_SHIELD": {
+      "name_original": "Elemental Shield",
+      "name_tr": "Element Kalkani"
+    },
+    "SC_ESCAPE": {
+      "name_original": "Escape",
+      "name_tr": "Kacis"
+    },
+    "AB_OFFERTORIUM": {
+      "name_original": "Offertorium",
+      "name_tr": "Offertorium"
+    },
+    "WL_TELEKINESIS_INTENSE": {
+      "name_original": "Telekinesis Intense",
+      "name_tr": "Yogun Telekinezi"
+    },
+    "ALL_FULL_THROTTLE": {
+      "name_original": "Full Throttle",
+      "name_tr": "Tam Gaz"
+    },
+    "GN_ILLUSIONDOPING": {
+      "name_original": "Illusion Doping",
+      "name_tr": "Yanilsama Dopingi"
+    },
+    "GM_ITEM_ATKMAX": {
+      "name_original": "Maximum physical damage item",
+      "name_tr": "Maksimum Fiziksel Hasar Esyasi"
+    },
+    "GM_ITEM_ATKMIN": {
+      "name_original": "Minimum physical damage item",
+      "name_tr": "Minimum Fiziksel Hasar Esyasi"
+    },
+    "GM_ITEM_MATKMAX": {
+      "name_original": "Maximum magical damage item",
+      "name_tr": "Maksimum Buyusel Hasar Esyasi"
+    },
+    "GM_ITEM_MATKMIN": {
+      "name_original": "Minimum magical damage item",
+      "name_tr": "Minimum Buyusel Hasar Esyasi"
+    },
+    "NPC_REVERBERATION": {
+      "name_original": "Reverberation",
+      "name_tr": "Yankilanma"
+    },
+    "NPC_LEX_AETERNA": {
+      "name_original": "Lex Aeterna",
+      "name_tr": "Lex Aeterna"
+    },
+    "BA_POEMBRAGI2": {
+      "name_original": "Poem of Bragi",
+      "name_tr": "Bragi'nin Siiri"
+    },
+    "DC_FORTUNEKISS2": {
+      "name_original": "Fortune's kiss",
+      "name_tr": "Sans Opucugu"
+    },
+    "GM_FORCE_TRANSFER": {
+      "name_original": "Force Transfer",
+      "name_tr": "Zorla Aktarim"
+    },
+    "GD_GUILD_STORAGE": {
+      "name_original": "Guild Storage Expansion",
+      "name_tr": "Lonca Deposu Genisletme"
+    },
+    "GM_WIDE_RESURRECTION": {
+      "name_original": "Wide Resurrection",
+      "name_tr": "Genis Alan Diriltme"
+    },
+    "ALL_PRONTERA_RECALL": {
+      "name_original": "Return to Prontera",
+      "name_tr": "Prontera'ya Donus"
+    },
+    "ALL_THANATOS_RECALL": {
+      "name_original": "Return to Thanatos",
+      "name_tr": "Thanatos'a Donus"
+    },
+    "MC_CARTDECORATE": {
+      "name_original": "Change Cart 2",
+      "name_tr": "Arabayi Degistir 2"
+    },
+    "SU_BASIC_SKILL": {
+      "name_original": "New Basic Skill",
+      "name_tr": "Yeni Temel Beceri"
+    },
+    "SU_BITE": {
+      "name_original": "Bite",
+      "name_tr": "Isirma"
+    },
+    "SU_HIDE": {
+      "name_original": "Hide",
+      "name_tr": "Saklanma"
+    },
+    "SU_SCRATCH": {
+      "name_original": "Scratch",
+      "name_tr": "Tirmalama"
+    },
+    "SU_STOOP": {
+      "name_original": "Stoop",
+      "name_tr": "Egilme"
+    },
+    "SU_LOPE": {
+      "name_original": "Lope",
+      "name_tr": "Uzun Sicrama"
+    },
+    "SU_SPRITEMABLE": {
+      "name_original": "Sprite Marble",
+      "name_tr": "Ruh Bilyesi"
+    },
+    "SU_FRESHSHRIMP": {
+      "name_original": "Fresh Shrimp",
+      "name_tr": "Taze Karides"
+    },
+    "SU_BUNCHOFSHRIMP": {
+      "name_original": "Bunch of Shrimp",
+      "name_tr": "Karides Surusu"
     }
   },
   "name_profiles": {
@@ -1163,5 +1303,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 285
+  "patch_count": 320
 }
