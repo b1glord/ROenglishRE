@@ -17603,7 +17603,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_EARTH_DRILL] = {
 		"KR_EARTH_DRILL",
-		SkillName = "Earth Drill",
+		SkillName = "Toprak Matkabi (Earth Drill)",
 		MaxLv = 10,
 		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
 		bSeperateLv = true,
@@ -17614,7 +17614,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_EARTH_STAMP] = {
 		"KR_EARTH_STAMP",
-		SkillName = "Earth Stamp",
+		SkillName = "Toprak Ezisi (Earth Stamp)",
 		MaxLv = 10,
 		SpAmount = { 33, 35, 37, 39, 41, 43, 45, 47, 49, 51 },
 		bSeperateLv = true,
@@ -17625,7 +17625,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_EARTH_BUD] = {
 		"KR_EARTH_BUD",
-		SkillName = "Earth Bud",
+		SkillName = "Toprak Tomurcugu (Earth Bud)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17637,7 +17637,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_NATURE_VIGOUR] = {
 		"KR_NATURE_VIGOUR",
-		SkillName = "Nature Vigour",
+		SkillName = "Doga Dincligi (Nature Vigour)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17647,7 +17647,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_NATURE_PROTECTION] = {
 		"KR_NATURE_PROTECTION",
-		SkillName = "Nature Protection",
+		SkillName = "Doga Korumasi (Nature Protection)",
 		MaxLv = 5,
 		SpAmount = { 30, 35, 40, 45, 50 },
 		bSeperateLv = true,
@@ -17660,7 +17660,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KR_GROUND_BLOOM] = {
 		"KR_GROUND_BLOOM",
-		SkillName = "Ground Bloom",
+		SkillName = "Zemin Ciceklenmesi (Ground Bloom)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17669,7 +17669,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_GRAVITY_HOLE] = {
 		"AT_GRAVITY_HOLE",
-		SkillName = "Gravity Hole",
+		SkillName = "Yercekim Cukuru (Gravity Hole)",
 		MaxLv = 5,
 		SpAmount = { 110, 120, 130, 140, 150 },
 		ApAmount = { 40, 38, 36, 33, 30 },
@@ -17681,7 +17681,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_NATURE_AID] = {
 		"AT_NATURE_AID",
-		SkillName = "Nature Aid",
+		SkillName = "Doga Yardimi (Nature Aid)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17690,7 +17690,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_NATURE_HARMONY] = {
 		"AT_NATURE_HARMONY",
-		SkillName = "Nature Harmony",
+		SkillName = "Doga Uyumu (Nature Harmony)",
 		MaxLv = 5,
 		SpAmount = { 90, 92, 94, 97, 100 },
 		ApAmount = { 40, 40, 40, 40, 40 },
@@ -17704,7 +17704,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_GLACIER_MONOLITH] = {
 		"AT_GLACIER_MONOLITH",
-		SkillName = "Glacial Monolith",
+		SkillName = "Buzul Monoliti (Glacial Monolith)",
 		MaxLv = 10,
 		SpAmount = { 105, 107, 109, 111, 114, 117, 120, 123, 126, 130 },
 		bSeperateLv = true,
@@ -17715,7 +17715,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_GLACIER_NOVA] = {
 		"AT_GLACIER_MONOLITH",
-		SkillName = "Glacial Nova",
+		SkillName = "Buzul Novasi (Glacial Nova)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -17724,7 +17724,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_GLACIER_SHARD] = {
 		"AT_GLACIER_SHARD",
-		SkillName = "Glacial Shard",
+		SkillName = "Buzul Parcasi (Glacial Shard)",
 		MaxLv = 10,
 		SpAmount = { 70, 72, 74, 77, 80, 83, 86, 89, 92, 95 },
 		bSeperateLv = true,
@@ -17735,7 +17735,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_GLACIER_STOMP] = {
 		"AT_GLACIER_STOMP",
-		SkillName = "Glacial Stomp",
+		SkillName = "Buzul Ezisi (Glacial Stomp)",
 		MaxLv = 5,
 		SpAmount = { 80, 82, 84, 87, 90 },
 		bSeperateLv = true,
@@ -17746,7 +17746,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_CHILLING_BLAST] = {
 		"AT_CHILLING_BLAST",
-		SkillName = "Chilling Blast",
+		SkillName = "Dondurucu Patlama (Chilling Blast)",
 		MaxLv = 5,
 		SpAmount = { 110, 112, 114, 117, 120 },
 		ApAmount = { 15, 14, 13, 12, 10 },
@@ -17759,7 +17759,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ROARING_CHARGE] = {
 		"AT_ROARING_CHARGE",
-		SkillName = "Roaring Charge",
+		SkillName = "Kukreyen Hucum (Roaring Charge)",
 		MaxLv = 5,
 		SpAmount = { 80, 85, 90, 95, 100 },
 		bSeperateLv = true,
@@ -17770,7 +17770,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ROARING_CHARGE_S] = {
 		"AT_ROARING_CHARGE",
-		SkillName = "Enhanced Roaring Charge",
+		SkillName = "Gelismis Kukreyen Hucum (Enhanced Roaring Charge)",
 		MaxLv = 5,
 		SpAmount = { 80, 85, 90, 95, 100 },
 		bSeperateLv = true,
@@ -17779,7 +17779,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ROARING_PIERCER] = {
 		"AT_ROARING_PIERCER",
-		SkillName = "Roaring Piercer",
+		SkillName = "Kukreyen Delici (Roaring Piercer)",
 		MaxLv = 10,
 		SpAmount = { 100, 101, 102, 104, 106, 108, 111, 114, 117, 120 },
 		bSeperateLv = true,
@@ -17790,7 +17790,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ROARING_PIERCER_S] = {
 		"AT_ROARING_PIERCER",
-		SkillName = "Enhanced Roaring Piercer",
+		SkillName = "Gelismis Kukreyen Delici (Enhanced Roaring Piercer)",
 		MaxLv = 10,
 		SpAmount = { 100, 101, 102, 104, 106, 108, 111, 114, 117, 120 },
 		bSeperateLv = true,
@@ -17801,7 +17801,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_FURIOS_STORM] = {
 		"AT_FURIOS_STORM",
-		SkillName = "Furious Storm",
+		SkillName = "Ofkeli Firtina (Furious Storm)",
 		MaxLv = 5,
 		SpAmount = { 85, 89, 93, 97, 100 },
 		ApAmount = { 20, 19, 18, 17, 15 },
@@ -17815,7 +17815,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_TERRA_HARVEST] = {
 		"AT_TERRA_HARVEST",
-		SkillName = "Terra Harvest",
+		SkillName = "Toprak Hasadi (Terra Harvest)",
 		MaxLv = 10,
 		SpAmount = { 80, 81, 82, 84, 86, 88, 91, 94, 97, 100 },
 		bSeperateLv = true,
@@ -17826,7 +17826,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_TERRA_WAVE] = {
 		"AT_TERRA_WAVE",
-		SkillName = "Terra Wave",
+		SkillName = "Toprak Dalgasi (Terra Wave)",
 		MaxLv = 10,
 		SpAmount = { 90, 94, 98, 102, 105, 108, 111, 114, 117, 120 },
 		bSeperateLv = true,
@@ -17837,7 +17837,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_SOLID_STOMP] = {
 		"AT_SOLID_STOMP",
-		SkillName = "Solid Stomp",
+		SkillName = "Saglam Ezis (Solid Stomp)",
 		MaxLv = 5,
 		SpAmount = { 110, 112, 114, 117, 120 },
 		ApAmount = { 20, 19, 18, 17, 15 },
@@ -17850,7 +17850,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_SIXTH_SENSE] = {
 		"AT_SIXTH_SENSE",
-		SkillName = "Sixth Sense",
+		SkillName = "Altinci His (Sixth Sense)",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -17859,7 +17859,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_PULSE_OF_MADNESS] = {
 		"AT_PULSE_OF_MADNESS",
-		SkillName = "Pulse of Madness",
+		SkillName = "Cinnet Nabzi (Pulse of Madness)",
 		MaxLv = 5,
 		SpAmount = { 20, 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -17870,7 +17870,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ALPHA_PHASE] = {
 		"AT_ALPHA_PHASE",
-		SkillName = "Alpha Phase",
+		SkillName = "Alfa Evresi (Alpha Phase)",
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		ApAmount = { 120, 120, 120, 120, 120 },
@@ -17882,7 +17882,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_PRIMAL_CLAW] = {
 		"AT_PRIMAL_CLAW",
-		SkillName = "Primal Claw",
+		SkillName = "Ilkel Pence (Primal Claw)",
 		MaxLv = 5,
 		SpAmount = { 33, 36, 39, 42, 45 },
 		bSeperateLv = true,
@@ -17893,7 +17893,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_FERAL_CLAW] = {
 		"AT_FERAL_CLAW",
-		SkillName = "Feral Claw",
+		SkillName = "Vahsi Pence (Feral Claw)",
 		MaxLv = 5,
 		SpAmount = { 38, 41, 44, 47, 50 },
 		bSeperateLv = true,
@@ -17904,7 +17904,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ALPHA_CLAW] = {
 		"AT_ALPHA_CLAW",
-		SkillName = "Alpha Claw",
+		SkillName = "Alfa Pencesi (Alpha Claw)",
 		MaxLv = 5,
 		SpAmount = { 39, 43, 47, 51, 55 },
 		bSeperateLv = true,
@@ -17915,7 +17915,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_SAVAGE_LUNGE] = {
 		"AT_SAVAGE_LUNGE",
-		SkillName = "Savage Lunge",
+		SkillName = "Vahsi Atlayis (Savage Lunge)",
 		MaxLv = 10,
 		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
 		ApAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
@@ -17927,7 +17927,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_FRENZY_FANG] = {
 		"AT_FRENZY_FANG",
-		SkillName = "Frenzy Fang",
+		SkillName = "Cinnet Disi (Frenzy Fang)",
 		MaxLv = 5,
 		SpAmount = { 24, 28, 32, 36, 40 },
 		bSeperateLv = true,
@@ -17938,7 +17938,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_FLIP_FLAP] = {
 		"AT_FLIP_FLAP",
-		SkillName = "Flip Flap",
+		SkillName = "Kanat Cirpisi (Flip Flap)",
 		MaxLv = 5,
 		SpAmount = { 20, 30, 40, 50, 60 },
 		bSeperateLv = true,
@@ -17949,7 +17949,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_APEX_PHASE] = {
 		"AT_APEX_PHASE",
-		SkillName = "Apex Phase",
+		SkillName = "Zirve Evresi (Apex Phase)",
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		ApAmount = { 120, 120, 120, 120, 120 },
@@ -17961,7 +17961,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_PINION_SHOT] = {
 		"AT_PINION_SHOT",
-		SkillName = "Pinion Shot",
+		SkillName = "Kanat Tuyu Atisi (Pinion Shot)",
 		MaxLv = 10,
 		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
@@ -17972,7 +17972,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_ZEPHYR_LINK] = {
 		"AT_ZEPHYR_LINK",
-		SkillName = "Zephyr Link",
+		SkillName = "Meltem Bagi (Zephyr Link)",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = true,
@@ -17980,7 +17980,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.AT_QUILL_SPEAR] = {
 		"AT_QUILL_SPEAR",
-		SkillName = "Quill Spear",
+		SkillName = "Tuy Mizragi (Quill Spear)",
 		MaxLv = 10,
 		SpAmount = { 39, 43, 47, 51, 55, 59, 63, 67, 71, 75 },
 		bSeperateLv = true,
