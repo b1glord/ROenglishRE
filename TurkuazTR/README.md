@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.7.0
+Version: 1.8.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -51,6 +51,13 @@ Skill adlari kaynakta iki alanla birlikte tutulur:
 - `name_original`: upstream/orijinal Ingilizce ad.
 - `name_tr`: ASCII Turkce ad.
 
+Skill ceviri durumu:
+
+- `skillinfolist.tr.json`: 883 Turkce skill adi, gercek pending 0.
+- `skilldescript.tr.json`: 826 Turkce skill aciklamasi, gercek ceviri adayi 0.
+- Kaynakta blok olup aciklamasi bos/placeholder olan 11 skill `empty_descriptions` olarak ayri raporlanir.
+- Kaynak `skilldescript.lub` icinde aciklama blogu bulunmayan 46 skill `missing_descriptions` olarak ayri raporlanir; bunlara uydurma metin eklenmez.
+
 `TurkuazTR/localization-profiles.json` dort ayri cikis tanimlar:
 
 - `english`: Ingilizce skill adi + orijinal Ingilizce aciklama.
@@ -75,11 +82,11 @@ Exact satir bazli ceviriler `TurkuazTR/line-overlays.json` registry'si ile yonet
 Su anda ortak line-overlay modeline tasinan bilesenler:
 
 - `msgstringtable`: 3499 exact Turkce satir; inceleme bekleyen satir 0.
-- `achievements`: 1637 exact Turkce satir.
-- `recommended_quests`: 252 exact Turkce satir.
-- `town_info`: 2 exact Turkce satir.
-- `sign_data`: 53 exact Turkce satir.
-- `navi_data`: 1327 exact Turkce satir.
+- `achievements`: 1638 exact Turkce satir.
+- `recommended_quests`: 270 exact Turkce satir.
+- `town_info`: 4 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
+- `sign_data`: 61 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
+- `navi_data`: 2273 exact Turkce satir; genel NPC, nesne ve harita etiketleri gozden gecirildi, canonical ozel adlar ve monster adlari korunur.
 - `ba_frostjoke`: 100 exact ASCII Turkce satir.
 - `dc_scream`: 105 exact ASCII Turkce satir.
 
