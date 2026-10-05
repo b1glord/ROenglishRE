@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.18.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 540 exact Renewal skill aciklamasi dahil",
+    "version": "2.19.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 560 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -9269,6 +9269,334 @@
         "[Sv 8]: ^777777Vurus basina ATK 2920% / 3120% (^0000FFResearch Report^777777), AoE 9x9^000000",
         "[Sv 9]: ^777777Vurus basina ATK 3260% / 3460% (^0000FFResearch Report^777777), AoE 9x9^000000",
         "[Sv 10]: ^777777Vurus basina ATK 3600% / 3800% (^0000FFResearch Report^777777), AoE 9x9^000000"
+      ]
+    },
+    "WH_ADVANCED_TRAP": {
+      "name_original": "Advanced Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Trap Research 3^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Wind Hawk^777777 trap'lerinin etkisini artirir. ^0000FFDeep Blind Trap, Swift Trap, Solid Trap^777777 ve ^0000FFFlame Trap^777777 etkinligini guclendirir.^000000",
+        "[Sv 1]: ^777777Sure +3 saniye, Hasar +20%^000000",
+        "[Sv 2]: ^777777Sure +6 saniye, Hasar +40%^000000",
+        "[Sv 3]: ^777777Sure +9 saniye, Hasar +60%, AP Yenileme +1^000000",
+        "[Sv 4]: ^777777Sure +12 saniye, Hasar +80%, AP Yenileme +1^000000",
+        "[Sv 5]: ^777777Sure +15 saniye, Hasar +100%, AP Yenileme +1^000000"
+      ]
+    },
+    "WH_WIND_SIGN": {
+      "name_original": "Wind Sign",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Nature Friendly 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefi skill suresince ^0000FFWind Sign^777777 ile isaretler. Isaretli hedeflere menzilli fiziksel hasar verildiginde ^CC6600AP^777777 yenileme sansi vardir.",
+        "Hedef ^0000FFHiding, Cloaking^777777 veya ^0000FFCloaking Exceed^777777 kullansa bile isaret gorunmeye devam eder.^000000",
+        "[Sv 1]: ^777777Sure 20 saniye, AP Yenileme Sansi 14%^000000",
+        "[Sv 2]: ^777777Sure 30 saniye, AP Yenileme Sansi 20%^000000",
+        "[Sv 3]: ^777777Sure 40 saniye, AP Yenileme Sansi 26%^000000",
+        "[Sv 4]: ^777777Sure 50 saniye, AP Yenileme Sansi 32%^000000",
+        "[Sv 5]: ^777777Sure 60 saniye, AP Yenileme Sansi 40%^000000"
+      ]
+    },
+    "WH_NATUREFRIENDLY": {
+      "name_original": "Nature Friendly",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Wind Hawk^777777'in yaban hayati egitimini gelistirir. ^0000FFHawk^777777 egitimle daha yetkin hale gelir.^000000",
+        "[Sv 1]: ^777777Otomatik Hawk Rush Sansi +20%^000000",
+        "[Sv 2]: ^777777Otomatik Hawk Rush Sansi +40%^000000",
+        "[Sv 3]: ^777777Otomatik Hawk Rush Sansi +60%^000000",
+        "[Sv 4]: ^777777Otomatik Hawk Rush Sansi +80%^000000",
+        "[Sv 5]: ^777777Otomatik Hawk Rush Sansi +100%^000000"
+      ]
+    },
+    "WH_HAWKRUSH": {
+      "name_original": "Hawk Rush",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hawk Mastery 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^0000FFHawk^777777'a hedefe iki kez menzilli fiziksel hasar vermesini emreder. Kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "Menzilli fiziksel saldirilarda her 3 ^CC6600CON^777777 icin %1 sansla ^0000FFHawk Rush^777777 otomatik tetikleme yetenegi verir. ^990099Bow^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 500%^000000",
+        "[Sv 2]: ^777777ATK 1000%^000000",
+        "[Sv 3]: ^777777ATK 1500%^000000",
+        "[Sv 4]: ^777777ATK 2000%^000000",
+        "[Sv 5]: ^777777ATK 2500%^000000"
+      ]
+    },
+    "WH_HAWK_M": {
+      "name_original": "Hawk Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Steel Crow 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Emirleri takip etmesi icin bir ^0000FFHawk^777777 egitir. Hawk, ^0000FFWarg^777777 ile birlikte egitilebilir. Hawk ve Warg ayni anda cagrildiginda ^0000FFWarg Strike^777777 tetiklenme sansi 1/3'e iner.",
+        "^990099Hawk Flute^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Hawk cagirir^000000"
+      ]
+    },
+    "WH_CALAMITYGALE": {
+      "name_original": "Calamity Gale",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Gale Storm 5, Wind Sign 5^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000120^000000",
+        "Aciklama: ^777777Kullananin bedenini ruzgarin ofkesiyle guclendirir. Seviye 5 ^0000FFUnlimit^777777 etkisine ek olarak 180 saniye ^0000FFCalamity Gale^777777 etkisi verir. Unlimit suresi mevcut Unlimit skill suresiyle aynidir.",
+        "^8041D9[Calamity Gale Etkisi]^777777",
+        "^0000FFCrescive Bolt^777777 hasari +20%, ^0000FFGale Storm^777777 critical hasar verebilir; Crescive Bolt ve Gale Storm, ^00A100Brute^777777 ve ^00A100Fish^777777 monster'lara %50 daha fazla hasar verir.^000000",
+        "[Sv 1]: ^777777Sure 180 saniye^000000"
+      ]
+    },
+    "WH_HAWKBOOMERANG": {
+      "name_original": "Hawk Boomerang",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hawk Rush 5^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Maliyeti: ^FF000012^000000",
+        "Aciklama: ^777777^0000FFHawk^777777'a hedefe menzilli fiziksel hasar vermesini emreder. Kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^00A100Brute^777777 ve ^00A100Fish^777777 monster'lara %50 daha fazla hasar verir. Hasar ^CC6600Base Level, CON^777777 ve ^0000FFNature Friendly^777777 seviyesine gore artar. ^990099Bow^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 600%^000000",
+        "[Sv 2]: ^777777ATK 1200%^000000",
+        "[Sv 3]: ^777777ATK 1800%^000000",
+        "[Sv 4]: ^777777ATK 2400%^000000",
+        "[Sv 5]: ^777777ATK 3000%^000000"
+      ]
+    },
+    "WH_GALESTORM": {
+      "name_original": "Gale Storm",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Crescive Bolt 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3 veya daha fazla hedef vurulursa 10^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 5 menzilli fiziksel atis yapar. 3 veya daha fazla hedef vurulursa ^CC6600AP^777777 yeniler. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. 5 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 1350%, AoE 5x5^000000",
+        "[Sv 2]: ^777777ATK 2700%, AoE 5x5^000000",
+        "[Sv 3]: ^777777ATK 4050%, AoE 5x5^000000",
+        "[Sv 4]: ^777777ATK 5400%, AoE 5x5^000000",
+        "[Sv 5]: ^777777ATK 6750%, AoE 7x7^000000",
+        "[Sv 6]: ^777777ATK 8100%, AoE 7x7^000000",
+        "[Sv 7]: ^777777ATK 9450%, AoE 7x7^000000",
+        "[Sv 8]: ^777777ATK 10800%, AoE 7x7^000000",
+        "[Sv 9]: ^777777ATK 12150%, AoE 9x9^000000",
+        "[Sv 10]: ^777777ATK 13500%, AoE 9x9^000000"
+      ]
+    },
+    "WH_DEEPBLINDTRAP": {
+      "name_original": "Deep Blind Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Advanced Trap 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Yenileme: ^0054FF1/1/2/2/3^000000",
+        "Aciklama: ^777777Trap suresince periyodik olarak ^009999Shadow^777777 elementli yakin dovus fiziksel hasar veren trap yerlestirir. Saldiri menzili ve trap suresi skill seviyesiyle artar.",
+        "Bu skill'in tukettigi ^990099Special Alloy Trap^777777, ^0000FFRemove Trap^777777 vb. ile geri alinamaz. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. 2 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 850%, Trap 3 sn, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1700%, Trap 3.5 sn, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2550%, Trap 4 sn, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3400%, Trap 4.5 sn, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4250%, Trap 5 sn, AoE 7x7^000000"
+      ]
+    },
+    "WH_SOLIDTRAP": {
+      "name_original": "Solid Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Advanced Trap 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Yenileme: ^0054FF1/1/2/2/3^000000",
+        "Aciklama: ^777777Trap suresince periyodik olarak ^CC5500Earth^777777 elementli yakin dovus fiziksel hasar veren trap yerlestirir. Saldiri menzili ve trap suresi skill seviyesiyle artar.",
+        "Bu skill'in tukettigi ^990099Special Alloy Trap^777777, ^0000FFRemove Trap^777777 vb. ile geri alinamaz. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. 2 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 850%, Trap 3 sn, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1700%, Trap 3.5 sn, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2550%, Trap 4 sn, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3400%, Trap 4.5 sn, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4250%, Trap 5 sn, AoE 7x7^000000"
+      ]
+    },
+    "WH_SWIFTTRAP": {
+      "name_original": "Swift Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Deep Blind Trap 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Yenileme: ^0054FF1/1/2/2/3^000000",
+        "Aciklama: ^777777Trap suresince periyodik olarak ^33CC00Wind^777777 elementli yakin dovus fiziksel hasar veren trap yerlestirir. Saldiri menzili ve trap suresi skill seviyesiyle artar.",
+        "Bu skill'in tukettigi ^990099Special Alloy Trap^777777, ^0000FFRemove Trap^777777 vb. ile geri alinamaz. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. 2 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 850%, Trap 3 sn, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1700%, Trap 3.5 sn, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2550%, Trap 4 sn, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3400%, Trap 4.5 sn, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4250%, Trap 5 sn, AoE 7x7^000000"
+      ]
+    },
+    "WH_FLAMETRAP": {
+      "name_original": "Flame Trap",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Solid Trap 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^000099Trap^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Yenileme: ^0054FF1/1/2/2/3^000000",
+        "Aciklama: ^777777Trap suresince periyodik olarak ^FF0000Fire^777777 elementli yakin dovus fiziksel hasar veren trap yerlestirir. Saldiri menzili ve trap suresi skill seviyesiyle artar.",
+        "Bu skill'in tukettigi ^990099Special Alloy Trap^777777, ^0000FFRemove Trap^777777 vb. ile geri alinamaz. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar. 2 ^990099Special Alloy Trap^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 850%, Trap 3 sn, AoE 3x3^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 1700%, Trap 3.5 sn, AoE 3x3^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 2550%, Trap 4 sn, AoE 5x5^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 3400%, Trap 4.5 sn, AoE 5x5^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 4250%, Trap 5 sn, AoE 7x7^000000"
+      ]
+    },
+    "WH_CRESCIVE_BOLT": {
+      "name_original": "Crescive Bolt",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Aimed Bolt 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe 1 menzilli fiziksel atis yapar. Yerinde sabit kalip her tekrar kullanimda sonraki kullanim hasari ve ^CC6600SP^777777 tuketimi artar; en fazla 3 stack olur. Maksimum stack'te ^CC6600AP^777777 yenileme 3'e cikar.",
+        "Kullanan hareket ederse, bir skill ile konum degistirirse veya son kullanimdan 10 saniye gecerse stack sifirlanir. Hasar ^CC6600Base Level^777777 ve ^CC6600CON^777777 ile artar; ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir. 1 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 1800%^000000",
+        "[Sv 2]: ^777777ATK 3100%^000000",
+        "[Sv 3]: ^777777ATK 4400%^000000",
+        "[Sv 4]: ^777777ATK 5700%^000000",
+        "[Sv 5]: ^777777ATK 7000%^000000",
+        "[Sv 6]: ^777777ATK 8300%^000000",
+        "[Sv 7]: ^777777ATK 9600%^000000",
+        "[Sv 8]: ^777777ATK 10900%^000000",
+        "[Sv 9]: ^777777ATK 12200%^000000",
+        "[Sv 10]: ^777777ATK 13500%^000000"
+      ]
+    },
+    "TR_STAGE_MANNER": {
+      "name_original": "Stage Manner",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Troubadour/Trouvere^777777 saldiri skill'leri kullanildiginda ^CC6600AP^777777 yenilemesini ve bazi sarki skill'lerinin etkinligini artirir. ^990099Musical Instrument, Bow^777777 veya ^990099Whip^777777 takiliyken ^CC6600P.ATK^777777 ve ^CC6600S.MATK^777777 artar.^000000",
+        "[Sv 1]: ^777777P.ATK/S.MATK +3^000000",
+        "[Sv 2]: ^777777P.ATK/S.MATK +6^000000",
+        "[Sv 3]: ^777777P.ATK/S.MATK +9^000000",
+        "[Sv 4]: ^777777P.ATK/S.MATK +12^000000",
+        "[Sv 5]: ^777777P.ATK/S.MATK +15^000000"
+      ]
+    },
+    "TR_RETROSPECTION": {
+      "name_original": "Retrospection",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Stage Manner 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Son kullanilan sarkiyi yeniden kullanir. Yeniden kullanilan skill %30 daha az ^CC6600SP^777777 tuketir ve normalden 1.5 kat fazla ^CC6600AP^777777 kazandirir.^000000",
+        "[Sv 1]: ^777777Son kullanilan sarkiyi yeniden kullanir.^000000"
+      ]
+    },
+    "TR_MYSTIC_SYMPHONY": {
+      "name_original": "Mystic Symphony",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Metallic Fury 1, Rose Blossom 5^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000125^000000",
+        "Aciklama: ^777777150 saniye boyunca ^0000FFSound Blend, Rhythm Shooting^777777 ve ^0000FFRose Blossom^777777 hasarini %100 artiran buff verir. Skill suresince ^0000FFFish^777777 ve ^0000FFDemi-Human^777777 monster'lara verilen fiziksel ve buyusel hasari artirir.^000000",
+        "[Sv 1]: ^777777Sound Blend, Rhythm Shooting ve Rose Blossom hasarini artirir.^000000"
+      ]
+    },
+    "TR_KVASIR_SONATA": {
+      "name_original": "Sonata of Kvasir",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Capriccio of Loki 1, Requiem of Niflheim 1^000000",
+        "Beceri Turu: ^3F0099Aktif (AP)^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF0000100^000000",
+        "Aciklama: ^77777760 saniye boyunca herhangi bir ^0000FFEnsemble^777777 skill'ini tek basina kullanmayi saglar. Yalnizca party icindeyken kullanilabilir. ^990099Musical Instrument, Bow^777777 veya ^990099Whip^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Ensemble skill'leri tek basina kullanilabilir.^000000"
+      ]
+    },
+    "TR_ROSEBLOSSOM": {
+      "name_original": "Rose Blossom",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Rhythm Shooting 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF3^000000",
+        "Aciklama: ^777777Bir oka cicek tohumu baglayip hedefe menzilli fiziksel hasar verir. Bir sure sonra cicek patlayarak hedefe ve cevresindeki dusmanlara ek menzilli fiziksel hasar verir.",
+        "Hasar ^CC6600Base Level^777777 ile artar. ^0000FFStage Manner^777777 ogrenilmisse ^CC6600CON^777777 da ek hasari etkiler. Hedefte ^0000FFSound Brand^777777 varsa daha fazla hasar verir; bu skill Sound Brand'i kaldirmaz. ^990099Musical Instrument, Bow^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777ATK 2200% / 4400% (AoE), Sound Brand 2400% / 4600%, AoE 5x5^000000",
+        "[Sv 2]: ^777777ATK 4200% / 8250% (AoE), Sound Brand 4600% / 8650%, AoE 5x5^000000",
+        "[Sv 3]: ^777777ATK 6200% / 12100% (AoE), Sound Brand 6800% / 12700%, AoE 7x7^000000",
+        "[Sv 4]: ^777777ATK 8200% / 15950% (AoE), Sound Brand 9000% / 16750%, AoE 7x7^000000",
+        "[Sv 5]: ^777777ATK 10200% / 19800% (AoE), Sound Brand 11200% / 20800%, AoE 9x9^000000"
+      ]
+    },
+    "TR_RHYTHMSHOOTING": {
+      "name_original": "Rhythm Shooting",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF1 (Sv 1~3), 2 (Sv 4~5)^000000",
+        "Aciklama: ^777777Hedefe 3 menzilli fiziksel ok atisi yapar. Hedefte ^0000FFSound Brand^777777 varsa daha fazla hasar verir; bu skill Sound Brand'i kaldirmaz.",
+        "Hasar ^CC6600Base Level^777777 ile artar. ^0000FFStage Manner^777777 ogrenilmisse ^CC6600CON^777777 da ek hasari etkiler. ^990099Musical Instrument, Bow^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Vurus basina ATK 1500% / 1900% (^0000FFSound Brand^777777)^000000",
+        "[Sv 2]: ^777777Vurus basina ATK 2450% / 2950% (^0000FFSound Brand^777777)^000000",
+        "[Sv 3]: ^777777Vurus basina ATK 3400% / 4000% (^0000FFSound Brand^777777)^000000",
+        "[Sv 4]: ^777777Vurus basina ATK 4350% / 5050% (^0000FFSound Brand^777777)^000000",
+        "[Sv 5]: ^777777Vurus basina ATK 5300% / 6100% (^0000FFSound Brand^777777)^000000"
+      ]
+    },
+    "TR_METALIC_FURY": {
+      "name_original": "Metallic Fury",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Sound Blend 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Yenileme: ^0054FF2^000000",
+        "Aciklama: ^777777Guclendirilmis bir ok firlatarak hedefin cevresindeki dusmanlara buyu hasari verir. ^0000FFSound Brand^777777 ile isaretli hedeflere daha fazla hasar verir; bu skill Sound Brand'i kaldirmaz.",
+        "Element, takili ^990099Arrow^777777'a baglidir. Hasar ^CC6600Base Level, SPL^777777 ve ^0000FFStage Manner^777777 seviyesine gore artar. ^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MATK 3850% / 4650% (^0000FFSound Brand^777777), AoE 5x5^000000",
+        "[Sv 2]: ^777777MATK 7700% / 9300% (^0000FFSound Brand^777777), AoE 5x5^000000",
+        "[Sv 3]: ^777777MATK 11550% / 13950% (^0000FFSound Brand^777777), AoE 5x5^000000",
+        "[Sv 4]: ^777777MATK 15400% / 18600% (^0000FFSound Brand^777777), AoE 7x7^000000",
+        "[Sv 5]: ^777777MATK 19250% / 23250% (^0000FFSound Brand^777777), AoE 9x9^000000"
       ]
     }
   }
