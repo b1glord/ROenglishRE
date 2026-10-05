@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.15.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 2211 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.16.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 2272 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 2211,
+  "patch_count": 2272,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -8517,6 +8517,22 @@
       "source_en": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacf5\ud654\uad6d \uc218\ub3c4 \uc720\ub178\"] = \"Yuno, Capital of Schwarzwald Republic\",",
       "translation_tr": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacf5\ud654\uad6d \uc218\ub3c4 \uc720\ub178\"] = \"Yuno, Schwarzwald Cumhuriyeti Baskenti\","
     },
+    "4150": {
+      "source_en": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uad6d\uacbd \uac80\ubb38\uc18c\"] = \"Border Posts\",",
+      "translation_tr": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uad6d\uacbd \uac80\ubb38\uc18c\"] = \"Sinir Kontrol Noktalari\","
+    },
+    "4151": {
+      "source_en": "\t[\"\ud0ac \ud558\uc774\ub974\uc758 \ubcc4\uc7a5\"] = \"Kiel Hyre's Cottage\",",
+      "translation_tr": "\t[\"\ud0ac \ud558\uc774\ub974\uc758 \ubcc4\uc7a5\"] = \"Kiel Hyre Kulubesi\","
+    },
+    "4152": {
+      "source_en": "\t[\"\uc5d8\uba54\uc2a4 \ud50c\ub808\ud22c\"] = \"El Mes Plateau\",",
+      "translation_tr": "\t[\"\uc5d8\uba54\uc2a4 \ud50c\ub808\ud22c\"] = \"El Mes Platosu\","
+    },
+    "4153": {
+      "source_en": "\t[\"\uc5d8\uba54\uc2a4 \ud611\uace1(\uc2ec\uc5f0\uc758 \uace8\uc9dc\uae30)\"] = \"El Mes Gorge (Valley of Abyss)\",",
+      "translation_tr": "\t[\"\uc5d8\uba54\uc2a4 \ud611\uace1(\uc2ec\uc5f0\uc758 \uace8\uc9dc\uae30)\"] = \"El Mes Kanyonu - Ucurum Vadisi\","
+    },
     "4154": {
       "source_en": "\t[\"\uc720\ub178 \ud0ac \ud558\uc774\ub974 \ud559\uc6d0\"] = \"Kiel Hyre's Academy\",",
       "translation_tr": "\t[\"\uc720\ub178 \ud0ac \ud558\uc774\ub974 \ud559\uc6d0\"] = \"Kiel Hyre Akademisi\","
@@ -8529,9 +8545,29 @@
       "source_en": "\t[\"\uc720\ub178 \ud544\ub4dc\"] = \"Yuno Field\",",
       "translation_tr": "\t[\"\uc720\ub178 \ud544\ub4dc\"] = \"Yuno Sahasi\","
     },
+    "4157": {
+      "source_en": "\t[\"\uc720\ub178 \ub0b4\ubd80\"] = \"Inside Yuno\",",
+      "translation_tr": "\t[\"\uc720\ub178 \ub0b4\ubd80\"] = \"Yuno Ici\","
+    },
     "4158": {
       "source_en": "\t[\"\uc138\uc774\uc9c0 \ucf00\uc2ac\ub0b4\ubd80\"] = \"Inside the Sage Castle\",",
       "translation_tr": "\t[\"\uc138\uc774\uc9c0 \ucf00\uc2ac\ub0b4\ubd80\"] = \"Bilge Kalesi Ici\","
+    },
+    "4159": {
+      "source_en": "\t[\"\uacf5\ud654\uad6d \ub3c4\uc11c\uad00\"] = \"Republic Library\",",
+      "translation_tr": "\t[\"\uacf5\ud654\uad6d \ub3c4\uc11c\uad00\"] = \"Cumhuriyet Kutuphanesi\","
+    },
+    "4160": {
+      "source_en": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uc815\ubd80 \uccad\uc0ac\"] = \"Schwarzwald Government Buildings\",",
+      "translation_tr": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uc815\ubd80 \uccad\uc0ac\"] = \"Schwarzwald Hukumet Binalari\","
+    },
+    "4161": {
+      "source_en": "\t[\"\uc0ac\ub77c\uc758 \uae30\uc5b5\"] = \"Sara's Memory\",",
+      "translation_tr": "\t[\"\uc0ac\ub77c\uc758 \uae30\uc5b5\"] = \"Sara'nin Hatirasi\","
+    },
+    "4162": {
+      "source_en": "\t[\"\uc624\uc2a4 \uc810\ub839\uc804\"] = \"Occupied Battle\",",
+      "translation_tr": "\t[\"\uc624\uc2a4 \uc810\ub839\uc804\"] = \"Isgal Savasi\","
     },
     "4163": {
       "source_en": "\t[\"\uc5b4\uc2a4\ub984\ubc24\uc758 \uc815\uc6d0\"] = \"Twilight Garden\",",
@@ -8545,17 +8581,49 @@
       "source_en": "\t[\"\uc131\uc5ed \uc138\uc2a4\ub8f8\ub2c8\ub974 \uc2ec\uc7a5\ubcf4\uad00\uc18c\"] = \"Sanctuary Sesrumnir Heart Storage\",",
       "translation_tr": "\t[\"\uc131\uc5ed \uc138\uc2a4\ub8f8\ub2c8\ub974 \uc2ec\uc7a5\ubcf4\uad00\uc18c\"] = \"Sesrumnir Kutsal Alan Kalp Deposu\","
     },
+    "4166": {
+      "source_en": "\t[\"\uc740\ud558 \ucc9c\uacc4 \ubd84\uc18c\"] = \"Galactic Celestial Branch\",",
+      "translation_tr": "\t[\"\uc740\ud558 \ucc9c\uacc4 \ubd84\uc18c\"] = \"Galaktik Goksel Sube\","
+    },
     "4167": {
       "source_en": "\t[\"\uc5bc\uc5b4\ubd99\uc740 \ube44\ub298 \uc5b8\ub355\"] = \"Frozen Scale Hill\",",
       "translation_tr": "\t[\"\uc5bc\uc5b4\ubd99\uc740 \ube44\ub298 \uc5b8\ub355\"] = \"Donmus Pul Tepesi\","
+    },
+    "4168": {
+      "source_en": "\t[\"\uc9d1\uc73c\ub85c \uac00\ub294 \uae38\"] = \"The Way Home\",",
+      "translation_tr": "\t[\"\uc9d1\uc73c\ub85c \uac00\ub294 \uae38\"] = \"Eve Donus Yolu\","
     },
     "4169": {
       "source_en": "\t[\"\ud558\ub298 \uc815\uc6d0\"] = \"Sky Garden\",",
       "translation_tr": "\t[\"\ud558\ub298 \uc815\uc6d0\"] = \"Gok Bahcesi\","
     },
+    "4170": {
+      "source_en": "\t[\"\uccb4\uc2a4 \uc815\uc6d0\"] = \"Checkmate\",",
+      "translation_tr": "\t[\"\uccb4\uc2a4 \uc815\uc6d0\"] = \"Satranc Bahcesi\","
+    },
+    "4171": {
+      "source_en": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \uc2ec\uce35 1\uce35\"] = \"Biosphere Depth 1st Floor\",",
+      "translation_tr": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \uc2ec\uce35 1\uce35\"] = \"Biyosfer Derinligi K1\","
+    },
+    "4172": {
+      "source_en": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \uc2ec\uce35 2\uce35\"] = \"Biosphere Depth 2nd Floor\",",
+      "translation_tr": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \uc2ec\uce35 2\uce35\"] = \"Biyosfer Derinligi K2\","
+    },
+    "4173": {
+      "source_en": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\uc601\ud63c\"] = \"Biosphere Specimen Environment - Soul\",",
+      "translation_tr": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\uc601\ud63c\"] = \"Biyosfer Ornek Ortami - Ruh\","
+    },
     "4174": {
       "source_en": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\uc131\uc804\"] = \"Biosphere Specimen Environment - Temple\",",
       "translation_tr": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\uc131\uc804\"] = \"Biyosfer Ornek Ortami - Tapinak\","
+    },
+    "4175": {
+      "source_en": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\ub9f9\ub3c5\"] = \"Biosphere Specimen Environment - Venom\",",
+      "translation_tr": "\t[\"\ubc14\uc774\uc624\uc2a4\ud53c\uc5b4 \ud45c\ubcf8 \ud658\uacbd-\ub9f9\ub3c5\"] = \"Biyosfer Ornek Ortami - Zehir\","
+    },
+    "4176": {
+      "source_en": "\t[\"\ubbf8\uc9c0\uc758 \ube14\ub8e8\ud640\"] = \"Unknown Blue Hole\",",
+      "translation_tr": "\t[\"\ubbf8\uc9c0\uc758 \ube14\ub8e8\ud640\"] = \"Bilinmeyen Mavi Cukur\","
     },
     "4177": {
       "source_en": "\t[\"\uc2dc\uac04\uc758 \uc815\uc6d0-\uc78a\ud600\uc9c4 \uc2dc\uac04 1 \uad6c\uc5ed\"] = \"Garden of Time - Forgotten Time Zone 1\",",
@@ -8589,6 +8657,18 @@
       "source_en": "\t[\"\uc5b4\ucd0c \uc54c\ubca0\ub974\ud0c0\"] = \"Fishing Village Alberta\",",
       "translation_tr": "\t[\"\uc5b4\ucd0c \uc54c\ubca0\ub974\ud0c0\"] = \"Alberta Balikci Koyu\","
     },
+    "4185": {
+      "source_en": "\t[\"\uc5bc\uc5b4\ubd99\uc740 \ube44\ub298 \ud574\ubcc0\"] = \"Frozen Scale Beach\",",
+      "translation_tr": "\t[\"\uc5bc\uc5b4\ubd99\uc740 \ube44\ub298 \ud574\ubcc0\"] = \"Donmus Pul Plaji\","
+    },
+    "4186": {
+      "source_en": "\t[\"\uace0\ub300 \uc5bc\uc74c \ud611\uace1 \ub3d9\ubd80\"] = \"Ancient Ice Canyon East\",",
+      "translation_tr": "\t[\"\uace0\ub300 \uc5bc\uc74c \ud611\uace1 \ub3d9\ubd80\"] = \"Antik Buz Kanyonu - Dogu\","
+    },
+    "4187": {
+      "source_en": "\t[\"\uace0\ub300 \uc5bc\uc74c \ud611\uace1 \uc11c\ubd80\"] = \"Ancient Ice Canyon West\",",
+      "translation_tr": "\t[\"\uace0\ub300 \uc5bc\uc74c \ud611\uace1 \uc11c\ubd80\"] = \"Antik Buz Kanyonu - Bati\","
+    },
     "4188": {
       "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \ub9c8\uc744 \uc694\ub978\ube4c\"] = \"Jormgand Cult Village Jornville\",",
       "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \ub9c8\uc744 \uc694\ub978\ube4c\"] = \"Jormungand Tarikati Koyu Jornville\","
@@ -8597,13 +8677,45 @@
       "source_en": "\t[\"\uc774\uc2a4\uac00\ub974\ub4dc \ube44\ub298\uc12c\"] = \"Issgard Scale Island\",",
       "translation_tr": "\t[\"\uc774\uc2a4\uac00\ub974\ub4dc \ube44\ub298\uc12c\"] = \"Isgard Pul Adasi\","
     },
+    "4190": {
+      "source_en": "\t[\"\ubc40\uc758 \ubbf8\ub85c\"] = \"Snake Labyrinth\",",
+      "translation_tr": "\t[\"\ubc40\uc758 \ubbf8\ub85c\"] = \"Yilan Labirenti\","
+    },
     "4191": {
       "source_en": "\t[\"\uac8c\uc624\ubcf4\ub974\uadf8 \uac70\uc810 \ub8e8\ub098\ud3ec\ub9c8\"] = \"Geoborg Base Lunaforma\",",
       "translation_tr": "\t[\"\uac8c\uc624\ubcf4\ub974\uadf8 \uac70\uc810 \ub8e8\ub098\ud3ec\ub9c8\"] = \"Geoborg Ussu Lunaforma\","
     },
+    "4192": {
+      "source_en": "\t[\"\uc19f\uc544\uc624\ub978 \ub300\uc9c0 \ubd81\ubd80\"] = \"Northern Rising Land\",",
+      "translation_tr": "\t[\"\uc19f\uc544\uc624\ub978 \ub300\uc9c0 \ubd81\ubd80\"] = \"Kuzey Yukselen Toprak\","
+    },
+    "4193": {
+      "source_en": "\t[\"\uc19f\uc544\uc624\ub978 \ub300\uc9c0 \ub0a8\ubd80\"] = \"Southern Rising Land\",",
+      "translation_tr": "\t[\"\uc19f\uc544\uc624\ub978 \ub300\uc9c0 \ub0a8\ubd80\"] = \"Guney Yukselen Toprak\","
+    },
+    "4194": {
+      "source_en": "\t[\"\ubc40\uc2e0\uc758 \ubfcc\ub9ac 1\uce35\"] = \"Snake God's Root 1F\",",
+      "translation_tr": "\t[\"\ubc40\uc2e0\uc758 \ubfcc\ub9ac 1\uce35\"] = \"Yilan Tanrisi Koku K1\","
+    },
+    "4195": {
+      "source_en": "\t[\"\ubc40\uc2e0\uc758 \ubfcc\ub9ac 2\uce35\"] = \"Snake God's Root 2F\",",
+      "translation_tr": "\t[\"\ubc40\uc2e0\uc758 \ubfcc\ub9ac 2\uce35\"] = \"Yilan Tanrisi Koku K2\","
+    },
     "4196": {
       "source_en": "\t[\"\uae4a\uc740 \ubfcc\ub9ac \ub3d9\uad74\"] = \"Deep Root Cave\",",
       "translation_tr": "\t[\"\uae4a\uc740 \ubfcc\ub9ac \ub3d9\uad74\"] = \"Derin Kok Magarasi\","
+    },
+    "4197": {
+      "source_en": "\t[\"\uc131\uc2a4\ub7ec\uc6b4 \ubfcc\ub9ac\"] = \"Sacred Root\",",
+      "translation_tr": "\t[\"\uc131\uc2a4\ub7ec\uc6b4 \ubfcc\ub9ac\"] = \"Kutsal Kok\","
+    },
+    "4198": {
+      "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uc694\ub974\uc2a4\uce7c\ud504 1\uce35\"] = \"Jormungand Cult Shrine 1st Floor\",",
+      "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uc694\ub974\uc2a4\uce7c\ud504 1\uce35\"] = \"Jormungand Tarikati Tapinagi K1\","
+    },
+    "4199": {
+      "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uc694\ub974\uc2a4\uce7c\ud504 2\uce35\"] = \"Jormungand Cult Shrine 2nd Floor\",",
+      "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uc694\ub974\uc2a4\uce7c\ud504 2\uce35\"] = \"Jormungand Tarikati Tapinagi K2\","
     },
     "4200": {
       "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uae30\ubbc8\ub808 1\uce35\"] = \"Jormungand Cult Temple Gimleh 1st Floor\",",
@@ -8613,9 +8725,21 @@
       "source_en": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uae30\ubbc8\ub808 2\uce35\"] = \"Jormungand Cult Temple Gimleh 1st Floor\",",
       "translation_tr": "\t[\"\uc694\ub974\ubb38\uac04\ub4dc \uad50\ub2e8 \uc2e0\uc804 \uae30\ubbc8\ub808 2\uce35\"] = \"Jormungand Tarikati Gimleh Tapinagi 2. Kat\","
     },
+    "4202": {
+      "source_en": "\t[\"\uc720\ube59 \uc9c0\ub300\"] = \"Drift Ice Zone\",",
+      "translation_tr": "\t[\"\uc720\ube59 \uc9c0\ub300\"] = \"Suruklenen Buz Bolgesi\","
+    },
     "4203": {
       "source_en": "\t[\"\uc774\uc2a4\uac00\ub974\ub4dc \uc131\uc18c \uc791\uc740 \uac00\uc9c0\uc758 \ub465\uc9c0\"] = \"Issgard Sanctuary Twig's Nest\",",
       "translation_tr": "\t[\"\uc774\uc2a4\uac00\ub974\ub4dc \uc131\uc18c \uc791\uc740 \uac00\uc9c0\uc758 \ub465\uc9c0\"] = \"Isgard Kutsal Alani Kucuk Dal Yuvasi\","
+    },
+    "4204": {
+      "source_en": "\t[\"\uc548\uc804\ud55c \uc7a5\uc18c\"] = \"Safe Place\",",
+      "translation_tr": "\t[\"\uc548\uc804\ud55c \uc7a5\uc18c\"] = \"Guvenli Yer\","
+    },
+    "4205": {
+      "source_en": "\t[\"\ub8e8\ub098\ud3ec\ub9c8 \ub0b4\ubd80\"] = \"Inside Lunaforma\",",
+      "translation_tr": "\t[\"\ub8e8\ub098\ud3ec\ub9c8 \ub0b4\ubd80\"] = \"Lunaforma Ici\","
     },
     "4206": {
       "source_en": "\t[\"\ucc28\uc6d0 \uc218\ud638 \uae30\ub150\uad00\"] = \"Dimensional Guardian Memorial Guide\",",
@@ -8629,17 +8753,37 @@
       "source_en": "\t[\"\uace0\ub300 \uc2e0\uc804 \uc544\ud06c\ud5e4\ud2b8\"] = \"Ancient Temple Akhet\",",
       "translation_tr": "\t[\"\uace0\ub300 \uc2e0\uc804 \uc544\ud06c\ud5e4\ud2b8\"] = \"Antik Akhet Tapinagi\","
     },
+    "4209": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ud638\ubc15 \ub18d\uc7a5\"] = \"Niflheim Pumpkin Farm\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ud638\ubc15 \ub18d\uc7a5\"] = \"Niflheim Balkabagi Ciftligi\","
+    },
+    "4210": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ub3d9\ucabd \ub3c4\uc11c\uad00\"] = \"Prontera East Library\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ub3d9\ucabd \ub3c4\uc11c\uad00\"] = \"Prontera Dogu Kutuphanesi\","
+    },
     "4211": {
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc2dc\uc7a5 \uac70\ub9ac\"] = \"Prontera Market Street\",",
       "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc2dc\uc7a5 \uac70\ub9ac\"] = \"Prontera Pazar Caddesi\","
+    },
+    "4212": {
+      "source_en": "\t[\"\ub9c8\ub825\uc774 \ub4a4\ud2c0\ub9b0 \ud3c9\uc6d0\"] = \"Power Twisted Plains\",",
+      "translation_tr": "\t[\"\ub9c8\ub825\uc774 \ub4a4\ud2c0\ub9b0 \ud3c9\uc6d0\"] = \"Buyunun Carpittigi Ovalar\","
     },
     "4213": {
       "source_en": "\t[\"\uc2dc\uac04\uc758 \uc815\uc6d0 \uc0dd\uba85\uc758 \uc804\ub2f9\"] = \"Garden of Time - Hall of Life\",",
       "translation_tr": "\t[\"\uc2dc\uac04\uc758 \uc815\uc6d0 \uc0dd\uba85\uc758 \uc804\ub2f9\"] = \"Zaman Bahcesi - Yasam Salonu\","
     },
+    "4214": {
+      "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc624\ub298\uc758 \ubc25\uc0c1\"] = \"Fantasy Series - Today's Table\",",
+      "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc624\ub298\uc758 \ubc25\uc0c1\"] = \"Fantezi Serisi - Bugunun Sofrasi\","
+    },
     "4215": {
       "source_en": "\t[\"\ucc28\uc6d0\ub108\uba38\uc758 \ud504\ub860\ud14c\ub77c \uc57c\uc2dc\uc7a5\"] = \"Prontera Night Market - Beyond Dimension\",",
       "translation_tr": "\t[\"\ucc28\uc6d0\ub108\uba38\uc758 \ud504\ub860\ud14c\ub77c \uc57c\uc2dc\uc7a5\"] = \"Prontera Gece Pazari - Boyut Otesi\","
+    },
+    "4216": {
+      "source_en": "\t[\"\ucc28\uc6d0 \ub108\uba38\uc758 \ud504\ub860\ud14c\ub77c \ub0b4\ubd80\"] = \"Inside Prontera Beyond Dimension\",",
+      "translation_tr": "\t[\"\ucc28\uc6d0 \ub108\uba38\uc758 \ud504\ub860\ud14c\ub77c \ub0b4\ubd80\"] = \"Boyut Otesi Prontera Ici\","
     },
     "4217": {
       "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\ub9b4\ub9ac\uc6c0 \uad81\"] = \"Fantasy Series-Lilium Palace\",",
@@ -8648,6 +8792,22 @@
     "4218": {
       "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc544\ubbf8\ud0a4\ud2f0\uc544 \ube44\ubc00 \uc2e4\ud5d8\uc2e4\"] = \"Fantasy Series-Amicitia's Secret Lab\",",
       "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc544\ubbf8\ud0a4\ud2f0\uc544 \ube44\ubc00 \uc2e4\ud5d8\uc2e4\"] = \"Fantezi Serisi - Amicitia Gizli Laboratuvari\","
+    },
+    "4219": {
+      "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc81c\ub124\ub9ad \uc5f0\uad6c\uc18c\"] = \"Fantasy Series-Genetic Labs\",",
+      "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc81c\ub124\ub9ad \uc5f0\uad6c\uc18c\"] = \"Fantezi Serisi - Genetic Laboratuvarlari\","
+    },
+    "4220": {
+      "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uac70\uc6b8 \uc218\ub3c4\uc6d0\"] = \"Fantasy Series-Mirror Monastery\",",
+      "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uac70\uc6b8 \uc218\ub3c4\uc6d0\"] = \"Fantezi Serisi - Ayna Manastiri\","
+    },
+    "4221": {
+      "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uadf8 \ubaa8\ub4e0 \uc21c\uac04\ub4e4\"] = \"Fantasy Series-All those moments\",",
+      "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uadf8 \ubaa8\ub4e0 \uc21c\uac04\ub4e4\"] = \"Fantezi Serisi - Tum O Anlar\","
+    },
+    "4222": {
+      "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\ud3ec\ub9c1\ud14c\ub77c\"] = \"Fantasy Series-Poring Terra\",",
+      "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\ud3ec\ub9c1\ud14c\ub77c\"] = \"Fantezi Serisi - Poring Terra\","
     },
     "4223": {
       "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\ud558\ud2b8\ud5cc\ud130 \uc591\uc131\uc18c\"] = \"Fantasy Series-Heart Hunter Training Center\",",
@@ -8661,6 +8821,54 @@
       "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc544\uce74\ub370\ubbf8 2\uce35\"] = \"Fantasy Series-Academy 2nd Floor\",",
       "translation_tr": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\uc544\uce74\ub370\ubbf8 2\uce35\"] = \"Fantezi Serisi - Akademi 2. Kat\","
     },
+    "4226": {
+      "source_en": "\t[\"\ud611\uace1 \ud0d0\uc0ac\"] = \"Canyon Exploration\",",
+      "translation_tr": "\t[\"\ud611\uace1 \ud0d0\uc0ac\"] = \"Kanyon Kesfi\","
+    },
+    "4227": {
+      "source_en": "\t[\"\ub048\uc801\uc774\ub294 \ubc14\ub2e4\"] = \"Sticky Sea\",",
+      "translation_tr": "\t[\"\ub048\uc801\uc774\ub294 \ubc14\ub2e4\"] = \"Yapiskan Deniz\","
+    },
+    "4228": {
+      "source_en": "\t[\"\uace0\uc694\ud55c \uad50\ub2e8\uc758 \uc2e0\uc804\"] = \"Shrine of the Serene Order\",",
+      "translation_tr": "\t[\"\uace0\uc694\ud55c \uad50\ub2e8\uc758 \uc2e0\uc804\"] = \"Sessiz Tarikat Tapinagi\","
+    },
+    "4229": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ub2e4\ud06c \uc704\uc2a4\ud37c\"] = \"Second World Dark Whisper\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ub2e4\ud06c \uc704\uc2a4\ud37c\"] = \"Ikinci Dunya - Karanlik Fisilti\","
+    },
+    "4230": {
+      "source_en": "\t[\"\ubb34\ub108\uc9c4 \uac8c\ud39c \ub0b4\ubd80\"] = \"Inside the destroyed Geffen\",",
+      "translation_tr": "\t[\"\ubb34\ub108\uc9c4 \uac8c\ud39c \ub0b4\ubd80\"] = \"Yikilmis Geffen Ici\","
+    },
+    "4231": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ubb34\ub108\uc9c4 \uac8c\ud39c\"] = \"Second World Destroyed Geffen\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ubb34\ub108\uc9c4 \uac8c\ud39c\"] = \"Ikinci Dunya - Yikilmis Geffen\","
+    },
+    "4232": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \uc7a0\uc2dd\ub41c \uac8c\ud398\ub2c8\uc544 \ub3d9\ucabd\"] = \"East of the Second World Encroached Geffenia\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \uc7a0\uc2dd\ub41c \uac8c\ud398\ub2c8\uc544 \ub3d9\ucabd\"] = \"Ikinci Dunya Isgal Edilmis Geffenia - Dogu\","
+    },
+    "4233": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \uc7a0\uc2dd\ub41c \uac8c\ud398\ub2c8\uc544 \uc11c\ucabd\"] = \"West of the Second World Encroached Geffenia\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \uc7a0\uc2dd\ub41c \uac8c\ud398\ub2c8\uc544 \uc11c\ucabd\"] = \"Ikinci Dunya Isgal Edilmis Geffenia - Bati\","
+    },
+    "4234": {
+      "source_en": "\t[\"\ubb34\ub108\uc9c4 \uac8c\ud39c \uc9c0\ud558\"] = \"Destroyed Geffen Basement\",",
+      "translation_tr": "\t[\"\ubb34\ub108\uc9c4 \uac8c\ud39c \uc9c0\ud558\"] = \"Yikilmis Geffen Bodrumu\","
+    },
+    "4235": {
+      "source_en": "\t[\"\uc7ac\ud604\ud55c \uac8c\ud39c \uc2e4\ub0b4\"] = \"Recreated Geffen Interior\",",
+      "translation_tr": "\t[\"\uc7ac\ud604\ud55c \uac8c\ud39c \uc2e4\ub0b4\"] = \"Yeniden Yaratilmis Geffen Ici\","
+    },
+    "4236": {
+      "source_en": "\t[\"\uc7ac\ud604\ud55c \uac8c\ud39c\"] = \"Recreated Geffen\",",
+      "translation_tr": "\t[\"\uc7ac\ud604\ud55c \uac8c\ud39c\"] = \"Yeniden Yaratilmis Geffen\","
+    },
+    "4237": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \ubca0\ub8e8\uc2a4\"] = \"Second World Destroyed Verus\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \ubca0\ub8e8\uc2a4\"] = \"Ikinci Dunya - Yikilmis Verus\","
+    },
     "4238": {
       "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \ubc1c\ud0a4\ub9ac\ub810\ub984\"] = \"Second World Destroyed Valkyrie Realm\",",
       "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \ubc1c\ud0a4\ub9ac\ub810\ub984\"] = \"Ikinci Dunya - Yikilmis Valkyrie Diyari\","
@@ -8669,6 +8877,18 @@
       "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \uac8c\ud39c \ud544\ub4dc\"] = \"Second World Destroyed Geffen Field\",",
       "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ud30c\uad34\ub41c \uac8c\ud39c \ud544\ub4dc\"] = \"Ikinci Dunya - Yikilmis Geffen Sahasi\","
     },
+    "4240": {
+      "source_en": "\t[\"\ubb34\uc2a4\ud3a0\ud5e4\uc784 \ubcfc\ub8ec\ub4dc \uacc4\uace1 \uc678\uacfd\"] = \"Muspelheim Bolund Valley Outskirts\",",
+      "translation_tr": "\t[\"\ubb34\uc2a4\ud3a0\ud5e4\uc784 \ubcfc\ub8ec\ub4dc \uacc4\uace1 \uc678\uacfd\"] = \"Muspelheim Bolund Vadisi Dis Bolgesi\","
+    },
+    "4241": {
+      "source_en": "\t[\"\ubbf8\uc9c0\uc758 \ucc28\uc6d0 \uc77c\uadf8\ub7ec\uc9c4 \ube0c\ub9ac\ubbf8\ub974 1\uce35\"] = \"Unknown Dimension Distorted Brimir 1st Floor\",",
+      "translation_tr": "\t[\"\ubbf8\uc9c0\uc758 \ucc28\uc6d0 \uc77c\uadf8\ub7ec\uc9c4 \ube0c\ub9ac\ubbf8\ub974 1\uce35\"] = \"Bilinmeyen Boyut - Carpik Brimir K1\","
+    },
+    "4242": {
+      "source_en": "\t[\"\ubbf8\uc9c0\uc758 \ucc28\uc6d0 \uc77c\uadf8\ub7ec\uc9c4 \ube0c\ub9ac\ubbf8\ub974 2\uce35\"] = \"Unknown Dimension Distorted Brimir 2nd Floor\",",
+      "translation_tr": "\t[\"\ubbf8\uc9c0\uc758 \ucc28\uc6d0 \uc77c\uadf8\ub7ec\uc9c4 \ube0c\ub9ac\ubbf8\ub974 2\uce35\"] = \"Bilinmeyen Boyut - Carpik Brimir K2\","
+    },
     "4243": {
       "source_en": "\t[\"\uc138\uacc4\uc218\uc758 \uac00\uc7a5\uc790\ub9ac \ubb3c\ud478\ub808 \ub9c8\uc744\"] = \"Water Lily Village at the Edge of the World Tree\",",
       "translation_tr": "\t[\"\uc138\uacc4\uc218\uc758 \uac00\uc7a5\uc790\ub9ac \ubb3c\ud478\ub808 \ub9c8\uc744\"] = \"Dunya Agaci Kenarindaki Nilufar Koyu\","
@@ -8676,6 +8896,30 @@
     "4244": {
       "source_en": "\t[\"\ubb3c\ud478\ub808 \ub9c8\uc744 \ub0b4\ubd80\"] = \"Inside the Water Lily Village\",",
       "translation_tr": "\t[\"\ubb3c\ud478\ub808 \ub9c8\uc744 \ub0b4\ubd80\"] = \"Nilufar Koyu Ici\","
+    },
+    "4245": {
+      "source_en": "\t[\"\ubbf8\ub4dc\uac00\ub974\ub4dc \ubd81\ubd80 \ub4a4\ud2c0\ub9b0 \uc554\ud751\uc758 \ub545\"] = \"Twisted Dark Lands of Northern Midgard\",",
+      "translation_tr": "\t[\"\ubbf8\ub4dc\uac00\ub974\ub4dc \ubd81\ubd80 \ub4a4\ud2c0\ub9b0 \uc554\ud751\uc758 \ub545\"] = \"Midgard Kuzeyi Carpik Karanlik Topraklari\","
+    },
+    "4246": {
+      "source_en": "\t[\"\ub4a4\ud2c0\ub9b0 \uc554\ud751\uc758 \ub545- 1 \uce68\uc2dd\uc9c0\"] = \"Twisted Dark Land - 1 Erosion\",",
+      "translation_tr": "\t[\"\ub4a4\ud2c0\ub9b0 \uc554\ud751\uc758 \ub545- 1 \uce68\uc2dd\uc9c0\"] = \"Carpik Karanlik Toprak - Asinma Bolgesi 1\","
+    },
+    "4247": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ub8e9\uc2a4\"] = \"Zerocell Sector, Abandoned Research Institute in the Second World - Lux\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ub8e9\uc2a4\"] = \"Ikinci Dunya Terk Edilmis Arastirma Enstitusu Zerocell Sektoru - Lux\","
+    },
+    "4248": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ub179\uc2a4\"] = \"Zerocell Sector, Abandoned Research Institute in the Second World - Nox\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ub179\uc2a4\"] = \"Ikinci Dunya Terk Edilmis Arastirma Enstitusu Zerocell Sektoru - Nox\","
+    },
+    "4249": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ube44\ud0c0\"] = \"Zerocell Sector, Abandoned Research Institute in the Second World - Vita\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\ube44\ud0c0\"] = \"Ikinci Dunya Terk Edilmis Arastirma Enstitusu Zerocell Sektoru - Vita\","
+    },
+    "4250": {
+      "source_en": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\uc544\ud06c\"] = \"Zerocell Sector, Abandoned Research Institute in the Second World - Arc\",",
+      "translation_tr": "\t[\"\uc81c 2 \uc138\uacc4 \ubc84\ub824\uc9c4 \uc5f0\uad6c\uc18c \uc81c\ub85c\uc140 \uc139\ud130-\uc544\ud06c\"] = \"Ikinci Dunya Terk Edilmis Arastirma Enstitusu Zerocell Sektoru - Arc\","
     },
     "4251": {
       "source_en": "\t[\"\ud658\uc0c1\ucd1d\uc11c-\ubb34\uc9c0\uac1c \uae38\"] = \"Fantasy Series - Rainbow Road\",",
