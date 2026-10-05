@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.10.0
+# Version: 1.11.0
 # Aciklama: Translation status, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
@@ -68,6 +68,7 @@ jobs:
             TurkuazTR/tools/build-skill-profile.py \
             TurkuazTR/tools/build-line-overlay-profile.py \
             TurkuazTR/tools/build-file-overlay-profile.py \
+            TurkuazTR/tools/build-quest-profile.py \
             TurkuazTR/tools/extract-skillinfolist-pending.py \
             TurkuazTR/tools/extract-skilldescript-pending.py
 
@@ -114,6 +115,14 @@ jobs:
               --profile full_tr \
               --output-root "/tmp/turkuaz-file-overlay-validation/$component"
           done
+
+      - name: Validate generated quest profile
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/build-quest-profile.py \
+            --profile full_tr \
+            --output-root /tmp/turkuaz-quest-validation
 
       - name: Validate achievement Lua structure
         shell: bash
