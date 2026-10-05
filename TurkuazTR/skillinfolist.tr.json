@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.18.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 635 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.19.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 670 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2551,6 +2551,146 @@
     "EM_SUMMON_ELEMENTAL_DILUVIO": {
       "name_original": "Summon Elemental Diluvio",
       "name_tr": "Element Diluvio Cagir"
+    },
+    "EM_SUMMON_ELEMENTAL_PROCELLA": {
+      "name_original": "Summon Elemental Procella",
+      "name_tr": "Element Procella Cagir"
+    },
+    "EM_SUMMON_ELEMENTAL_TERREMOTUS": {
+      "name_original": "Summon Elemental Terremotus",
+      "name_tr": "Element Terremotus Cagir"
+    },
+    "EM_SUMMON_ELEMENTAL_SERPENS": {
+      "name_original": "Summon Elemental Serpens",
+      "name_tr": "Element Serpens Cagir"
+    },
+    "EM_ELEMENTAL_BUSTER": {
+      "name_original": "Elemental Buster",
+      "name_tr": "Element Patlamasi"
+    },
+    "EM_ELEMENTAL_VEIL": {
+      "name_original": "Elemental Veil",
+      "name_tr": "Element Perdesi"
+    },
+    "EM_EL_FLAMETECHNIC": {
+      "name_original": "Flametechnic",
+      "name_tr": "Alev Teknigi"
+    },
+    "EM_EL_FLAMEARMOR": {
+      "name_original": "Flame Armor",
+      "name_tr": "Alev Zirhi"
+    },
+    "EM_EL_FLAMEROCK": {
+      "name_original": "Flame Rock",
+      "name_tr": "Alev Kayasi"
+    },
+    "EM_EL_COLD_FORCE": {
+      "name_original": "Cold Force",
+      "name_tr": "Soguk Guc"
+    },
+    "EM_EL_CRYSTAL_ARMOR": {
+      "name_original": "Crystal Armor",
+      "name_tr": "Kristal Zirh"
+    },
+    "EM_EL_AGE_OF_ICE": {
+      "name_original": "Age of Ice",
+      "name_tr": "Buz Cagi"
+    },
+    "EM_EL_GRACE_BREEZE": {
+      "name_original": "Grace Breeze",
+      "name_tr": "Zarif Esinti"
+    },
+    "EM_EL_EYES_OF_STORM": {
+      "name_original": "Eyes of Storm",
+      "name_tr": "Firtinanin Gozleri"
+    },
+    "EM_EL_STORM_WIND": {
+      "name_original": "Storm Wind",
+      "name_tr": "Firtina Ruzgari"
+    },
+    "EM_EL_EARTH_CARE": {
+      "name_original": "Earth Care",
+      "name_tr": "Toprak Himayesi"
+    },
+    "EM_EL_STRONG_PROTECTION": {
+      "name_original": "Strong Protection",
+      "name_tr": "Guclu Koruma"
+    },
+    "EM_EL_AVALANCHE": {
+      "name_original": "Avalanche",
+      "name_tr": "Cig"
+    },
+    "EM_EL_DEEP_POISONING": {
+      "name_original": "Deep Poisoning",
+      "name_tr": "Derin Zehirlenme"
+    },
+    "EM_EL_POISON_SHIELD": {
+      "name_original": "Poison Shield",
+      "name_tr": "Zehir Kalkani"
+    },
+    "EM_EL_DEADLY_POISON": {
+      "name_original": "Deadly Poison",
+      "name_tr": "Olumcul Zehir"
+    },
+    "GM_AP_HEAL": {
+      "name_original": "Activity",
+      "name_tr": "Etkinlik"
+    },
+    "NPC_DEADLYCURSE2": {
+      "name_original": "\u00bf\u00cd\u00c0\u00cc\u00b5\u00e5 \u00b5\u00a5\u00b5\u00e9\u00b8\u00ae \u00c4\u00bf\u00bd\u00ba",
+      "name_tr": "Olumcul Lanet"
+    },
+    "MH_BLAST_FORGE": {
+      "name_original": "Blast Forge",
+      "name_tr": "Patlama Ocagi"
+    },
+    "MH_TEMPERING": {
+      "name_original": "Tempering",
+      "name_tr": "Tavlama"
+    },
+    "MH_CLASSY_FLUTTER": {
+      "name_original": "Classy Flutter",
+      "name_tr": "Zarif Cirpinis"
+    },
+    "MH_TWISTER_CUTTER": {
+      "name_original": "Twister Cutter",
+      "name_tr": "Hortum Kesici"
+    },
+    "MH_ABSOLUTE_ZEPHYR": {
+      "name_original": "Absolute Zephyr",
+      "name_tr": "Mutlak Meltem"
+    },
+    "MH_BRUSHUP_CLAW": {
+      "name_original": "Brushup Claw",
+      "name_tr": "Keskinlestirilmis Pence"
+    },
+    "MH_BLAZING_AND_FURIOUS": {
+      "name_original": "Blazing And Furious",
+      "name_tr": "Alevli ve Ofkeli"
+    },
+    "MH_THE_ONE_FIGHTER_RISES": {
+      "name_original": "The One Fighter Rises",
+      "name_tr": "Tek Savasci Yukselir"
+    },
+    "MH_POLISHING_NEEDLE": {
+      "name_original": "Polishing Needle",
+      "name_tr": "Parlatma Ignesi"
+    },
+    "MH_TOXIN_OF_MANDARA": {
+      "name_original": "Toxin Of Mandara",
+      "name_tr": "Mandara Toksini"
+    },
+    "MH_NEEDLE_STINGER": {
+      "name_original": "Needle Stinger",
+      "name_tr": "Igne Sokusu"
+    },
+    "MH_LICHT_GEHORN": {
+      "name_original": "Licht Gehorn",
+      "name_tr": "Licht Gehorn"
+    },
+    "MH_GLANZEN_SPIES": {
+      "name_original": "Glanzen Spies",
+      "name_tr": "Glanzen Spies"
     }
   },
   "name_profiles": {
@@ -2563,5 +2703,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 635
+  "patch_count": 670
 }
