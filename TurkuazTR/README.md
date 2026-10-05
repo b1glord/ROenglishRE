@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.3.0
+Version: 1.4.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -59,3 +59,22 @@ Skill adlari kaynakta iki alanla birlikte tutulur:
 - `bilingual`: `Turkce (English)` skill adi + Turkce aciklama.
 
 Generated paketler `TurkuazTR/generated/<profile>/` altinda tutulur. Boylece ceviri verisi tek yerde saklanir; istemciye verilecek dil profili ayri secilir.
+
+
+## Ortak localization overlay modeli
+
+Canonical profil kaynagi `TurkuazTR/localization-profiles.json` dosyasidir.
+
+Exact satir bazli ceviriler `TurkuazTR/line-overlays.json` registry'si ile yonetilir. Her overlay:
+
+- `source_path`: upstream/latest icindeki orijinal Ingilizce kaynak.
+- `patch_path`: yalnizca Turkce degisen satirlari tutan patch dosyasi.
+- `profile_field`: English/Hybrid/Full TR/Bilingual profilinde hangi dil modunun uygulanacagi.
+- `output_path`: generated profil agacindaki hedef dosya.
+
+Su anda ortak line-overlay modeline tasinan bilesenler:
+
+- `msgstringtable`: 3499 exact Turkce satir; inceleme bekleyen satir 0.
+- `achievements`: 1637 exact Turkce satir; kalan Ingilizce icerik sonraki ceviri turlarinda incelenecek.
+
+English profili upstream kaynagini degistirmeden kullanir. Hybrid, Full TR ve Bilingual profilleri line-overlay bilesenlerinde Turkce patch uygular. Bilingual farki su anda skill adlarinda `Turkce (English)` bicimindedir; uzun UI metinlerinde gereksiz cift dil gosterimi yapilmaz.
