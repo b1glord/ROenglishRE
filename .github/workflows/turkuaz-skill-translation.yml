@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
-# PURPOSE: Skill ve msgstringtable pending/generated ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
+# PURPOSE: Skill ve line-overlay localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.5.0
-# DESCRIPTION: Pending raporlarini yeniler; skill ve msgstringtable icin dort ortak localization profilini uretip bot commit'i ile saklar.
+# VERSION: 1.6.0
+# DESCRIPTION: Pending raporlarini yeniler; skill, msgstringtable ve achievements icin dort ortak localization profilini uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -18,10 +18,13 @@ on:
       - "TurkuazTR/skill-profiles.json"
       - "TurkuazTR/localization-profiles.json"
       - "TurkuazTR/msgstringtable.tr.json"
+      - "TurkuazTR/achievements.tr.json"
+      - "TurkuazTR/line-overlays.json"
       - "TurkuazTR/tools/**"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
       - "Translation/Renewal/data/msgstringtable.txt"
+      - "Translation/Renewal/SystemEN/achievements.lub"
 
 permissions:
   contents: write
@@ -67,19 +70,19 @@ jobs:
       - name: Validate Bilingual profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile bilingual
 
-      - name: Validate English msgstringtable
-        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile english
+      - name: Validate common line overlay profiles
+        shell: bash
+        run: |
+          set -euo pipefail
+          for component in msgstringtable achievements; do
+            for profile in english hybrid full_tr bilingual; do
+              python TurkuazTR/tools/build-line-overlay-profile.py \
+                --component "$component" \
+                --profile "$profile"
+            done
+          done
 
-      - name: Validate Hybrid msgstringtable
-        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile hybrid
-
-      - name: Validate Full TR msgstringtable
-        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile full_tr
-
-      - name: Validate Bilingual msgstringtable
-        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile bilingual
-
-      - name: Commit refreshed skill outputs
+      - name: Commit refreshed localization outputs
         shell: bash
         run: |
           git config user.name "Turkuaz Translation Bot"
@@ -91,9 +94,9 @@ jobs:
           git add TurkuazTR/generated/full_tr
           git add TurkuazTR/generated/bilingual
           if git diff --cached --quiet; then
-            echo "Skill pending ve generated ciktilarda degisiklik yok."
+            echo "Localization pending ve generated ciktilarda degisiklik yok."
             exit 0
           fi
-          git commit -m "chore: refresh generated Turkish skill profiles"
+          git commit -m "chore: refresh generated localization profiles"
           git pull --rebase origin translation/tr
           git push origin HEAD:translation/tr
