@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
-# PURPOSE: Turkce skill pending raporunu yeniler ve Hybrid/Full TR builderlarini dogrular.
+# PURPOSE: Skill pending raporlarini yeniler ve English/Hybrid/Full TR/Bilingual builderlarini dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.2.0
-# DESCRIPTION: Pending raporunu yeniler; Hybrid ve Full TR generated skill paketlerini uretip bot commit'i ile saklar.
+# VERSION: 1.3.0
+# DESCRIPTION: Pending raporlarini yeniler; dort skill profilini uretip dogrular ve bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -41,11 +41,17 @@ jobs:
       - name: Generate description pending report
         run: python TurkuazTR/tools/extract-skilldescript-pending.py
 
+      - name: Validate English profile
+        run: python TurkuazTR/tools/build-skill-profile.py --profile english
+
       - name: Validate Hybrid profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile hybrid
 
       - name: Validate Full TR profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile full_tr
+
+      - name: Validate Bilingual profile
+        run: python TurkuazTR/tools/build-skill-profile.py --profile bilingual
 
       - name: Commit refreshed skill outputs
         shell: bash
@@ -54,8 +60,10 @@ jobs:
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
           git add TurkuazTR/skillinfolist.pending.json
           git add TurkuazTR/skilldescript.pending.json
+          git add TurkuazTR/generated/english
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
+          git add TurkuazTR/generated/bilingual
           if git diff --cached --quiet; then
             echo "Skill pending ve generated ciktilarda degisiklik yok."
             exit 0
