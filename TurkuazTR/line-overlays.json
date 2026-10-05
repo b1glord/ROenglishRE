@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.2.0",
-    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini kaydeder",
+    "version": "1.3.0",
+    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini; komut yardimi ve unvanlari dahil kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -55,6 +55,18 @@
       "patch_path": "TurkuazTR/dc_scream.tr.json",
       "profile_field": "dc_scream",
       "output_path": "data/dc_scream.txt"
+    },
+    "help_messages": {
+      "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/helpmsgstr.lub",
+      "patch_path": "TurkuazTR/helpmsgstr.tr.json",
+      "profile_field": "help_messages",
+      "output_path": "data/luafiles514/lua files/datainfo/helpmsgstr.lub"
+    },
+    "titles": {
+      "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/titletable.lub",
+      "patch_path": "TurkuazTR/titletable.tr.json",
+      "profile_field": "titles",
+      "output_path": "data/luafiles514/lua files/datainfo/titletable.lub"
     }
   }
 }
