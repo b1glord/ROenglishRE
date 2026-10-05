@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.3.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 240 exact Renewal skill aciklamasi dahil",
+    "version": "2.4.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 260 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -4397,6 +4397,310 @@
         "[Sv 3]: ^777777Hasar 100%^000000",
         "[Sv 4]: ^777777Hasar 110%^000000",
         "[Sv 5]: ^777777Hasar 120%^000000"
+      ]
+    },
+    "KO_LEFT": {
+      "name_original": "Left Hand Mastery",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Her iki elde silah varken sol elin azalan saldiri gucunu geri kazandirir.^000000",
+        "[Sv 1]: ^777777Hasar 60%^000000",
+        "[Sv 2]: ^777777Hasar 70%^000000",
+        "[Sv 3]: ^777777Hasar 80%^000000",
+        "[Sv 4]: ^777777Hasar 90%^000000",
+        "[Sv 5]: ^777777Hasar 100%^000000"
+      ]
+    },
+    "KO_JYUMONJIKIRI": {
+      "name_original": "Cross Slash",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Shadow Hiding 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin Dovus^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^00A100Kagerou^777777 ve ^00A100Oboro^777777 icin ortak combo skill'idir. Hedefi yaklasik 3 saniye ^663399Cross Wound^777777 durumuna sokar.",
+        "^663399Cross Wound^777777 etkisindeki hedefe yeniden ^0000FFCross Slash^777777 uygulanirsa daha fazla hasar verir. Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 200%, Menzil: 4 hucre^000000",
+        "[Sv 2]: ^777777ATK 400%, Menzil: 4 hucre^000000",
+        "[Sv 3]: ^777777ATK 600%, Menzil: 4 hucre^000000",
+        "[Sv 4]: ^777777ATK 800%, Menzil: 5 hucre^000000",
+        "[Sv 5]: ^777777ATK 1000%, Menzil: 5 hucre^000000",
+        "[Sv 6]: ^777777ATK 1200%, Menzil: 5 hucre^000000",
+        "[Sv 7]: ^777777ATK 1400%, Menzil: 6 hucre^000000",
+        "[Sv 8]: ^777777ATK 1600%, Menzil: 6 hucre^000000",
+        "[Sv 9]: ^777777ATK 1800%, Menzil: 6 hucre^000000",
+        "[Sv 10]: ^777777ATK 2000%, Menzil: 7 hucre^000000"
+      ]
+    },
+    "KO_SETSUDAN": {
+      "name_original": "Soul Cutter",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cross Slash 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefte ^0000FFSoul Linker Spirit^777777 varsa ek hasar verir ve ^0000FFSpirit^777777 durumunu zorla kaldirir.",
+        "Spirit skill seviyesi arttikca verilen hasar da artar.^000000",
+        "[Sv 1]: ^777777Hasar 100%^000000",
+        "[Sv 2]: ^777777Hasar 200%^000000",
+        "[Sv 3]: ^777777Hasar 300%^000000",
+        "[Sv 4]: ^777777Hasar 400%^000000",
+        "[Sv 5]: ^777777Hasar 500%^000000"
+      ]
+    },
+    "KO_BAKURETSU": {
+      "name_original": "Kunai Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Throw Kunai 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir ^990099Explosive Kunai^777777 firlatarak 3x3 alandaki tum dusmanlara hasar verir.",
+        "1 ^990099Explosive Kunai^777777 tuketir.^000000",
+        "[Sv 1]: ^777777Menzil: 7 hucre^000000",
+        "[Sv 2]: ^777777Menzil: 8 hucre^000000",
+        "[Sv 3]: ^777777Menzil: 9 hucre^000000",
+        "[Sv 4]: ^777777Menzil: 10 hucre^000000",
+        "[Sv 5]: ^777777Menzil: 11 hucre^000000"
+      ]
+    },
+    "KO_HAPPOKUNAI": {
+      "name_original": "Kunai Splash",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Kunai Explosion 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin cevresindeki tum dusmanlara ^990099Kunai^777777 firlatir.",
+        "2 ^990099Kunai^777777 tuketir.^000000",
+        "[Sv 1]: ^777777AoE: 9x9 hucre^000000",
+        "[Sv 2]: ^777777AoE: 9x9 hucre^000000",
+        "[Sv 3]: ^777777AoE: 9x9 hucre^000000",
+        "[Sv 4]: ^777777AoE: 9x9 hucre^000000",
+        "[Sv 5]: ^777777AoE: 11x11 hucre^000000"
+      ]
+    },
+    "KO_MUCHANAGE": {
+      "name_original": "Rapid Throw",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Makibishi 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^00A100Ninja^777777 skill'i ^0000FFThrow Coins^777777'in guclendirilmis surumudur. En fazla ^990099100,000 Zeny^777777 firlatarak belirli alanda ^CC6600Defense^777777 yok sayan rastgele splash hasari verir.",
+        "^00A100Boss^777777 monster'lara hasarin yalnizca yarisi uygulanir.^000000",
+        "[Sv 1]: ^77777710,000 Zeny, 5,000~10,000 Hasar^000000",
+        "[Sv 2]: ^77777720,000 Zeny, 10,000~20,000 Hasar^000000",
+        "[Sv 3]: ^77777730,000 Zeny, 15,000~30,000 Hasar^000000",
+        "[Sv 4]: ^77777740,000 Zeny, 20,000~40,000 Hasar^000000",
+        "[Sv 5]: ^77777750,000 Zeny, 25,000~50,000 Hasar^000000",
+        "[Sv 6]: ^77777760,000 Zeny, 30,000~60,000 Hasar^000000",
+        "[Sv 7]: ^77777770,000 Zeny, 35,000~70,000 Hasar^000000",
+        "[Sv 8]: ^77777780,000 Zeny, 40,000~80,000 Hasar^000000",
+        "[Sv 9]: ^77777790,000 Zeny, 45,000~90,000 Hasar^000000",
+        "[Sv 10]: ^777777100,000 Zeny, 50,000~100,000 Hasar^000000"
+      ]
+    },
+    "KO_HUUMARANKA": {
+      "name_original": "Swirling Petal",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Throw Huuma Shuriken 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Bir ^990099Huuma Shuriken^777777 firlatarak hedefe ve cevresine hasar verir. Hasar ^0000FFThrow Huuma Shuriken^777777 seviyesi, ^CC6600Base Level^777777 ve ^CC6600STR^777777 ile artar.",
+        "^990099Huuma Shuriken^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 150%, Menzil: 11 hucre^000000",
+        "[Sv 2]: ^777777ATK 300%, Menzil: 11 hucre^000000",
+        "[Sv 3]: ^777777ATK 450%, Menzil: 11 hucre^000000",
+        "[Sv 4]: ^777777ATK 600%, Menzil: 11 hucre^000000",
+        "[Sv 5]: ^777777ATK 750%, Menzil: 11 hucre^000000",
+        "[Sv 6]: ^777777ATK 900%, Menzil: 11 hucre^000000",
+        "[Sv 7]: ^777777ATK 1050%, Menzil: 11 hucre^000000",
+        "[Sv 8]: ^777777ATK 1200%, Menzil: 11 hucre^000000",
+        "[Sv 9]: ^777777ATK 1350%, Menzil: 11 hucre^000000",
+        "[Sv 10]: ^777777ATK 1500%, Menzil: 11 hucre^000000"
+      ]
+    },
+    "KO_MAKIBISHI": {
+      "name_original": "Makibishi",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Throw Coins 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Dusmanlarin basmasi icin zemine ^990099caltrop^777777 yayar; hedefleri ^663399sabitleme^777777 veya ^663399Stun^777777 durumuna sokabilir. Seviye arttikca daha fazla yayilir.^000000",
+        "[Sv 1]: ^7777773 Makibishi/Caltrop tuketir^000000",
+        "[Sv 2]: ^7777774 Makibishi/Caltrop tuketir^000000",
+        "[Sv 3]: ^7777775 Makibishi/Caltrop tuketir^000000",
+        "[Sv 4]: ^7777776 Makibishi/Caltrop tuketir^000000",
+        "[Sv 5]: ^7777777 Makibishi/Caltrop tuketir^000000"
+      ]
+    },
+    "KO_MEIKYOUSISUI": {
+      "name_original": "Pure Soul",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Ninja Mastery 10^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^77777710 saniye boyunca zihni odaklayarak ^CC6600HP^777777 ve ^CC6600SP^777777 degerlerini hizla yeniler. Bu sirada ^663399hareketsiz^777777 kalinir.",
+        "^0000FFPure Soul^777777 durumundayken alinan hasari tamamen engelleme sansi vardir.^000000",
+        "[Sv 1]: ^777777Saniyede HP %2 / SP %1 yeniler^000000",
+        "[Sv 2]: ^777777Saniyede HP %4 / SP %2 yeniler^000000",
+        "[Sv 3]: ^777777Saniyede HP %6 / SP %3 yeniler^000000",
+        "[Sv 4]: ^777777Saniyede HP %8 / SP %4 yeniler^000000",
+        "[Sv 5]: ^777777Saniyede HP %10 / SP %5 yeniler^000000"
+      ]
+    },
+    "KO_ZANZOU": {
+      "name_original": "Illusion - Shadow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cicada Skin Shed 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Bir ^990099Shinobi^777777 kopyasi olusturur. Kopyanin kendi ^CC6600HP^777777 degeri vardir; HP biterse veya sure dolarsa kaybolur.^000000",
+        "[Sv 1]: ^777777Kopya HP 6000^000000",
+        "[Sv 2]: ^777777Kopya HP 9000^000000",
+        "[Sv 3]: ^777777Kopya HP 12000^000000",
+        "[Sv 4]: ^777777Kopya HP 15000^000000",
+        "[Sv 5]: ^777777Kopya HP 18000^000000"
+      ]
+    },
+    "KO_KYOUGAKU": {
+      "name_original": "Illusion - Shock",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Illusion - Bewitch 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe iluzyon uygulayarak tum statlarini azaltir ve onu bir monster gorunumune donusturur. Etki altinda ekipman degistirilemez veya cikarilamaz.",
+        "Dostlara ve monster'lara uygulanmaz. Yalnizca WoE sirasinda kullanilabilir.^000000",
+        "[Sv 1]: ^777777Tum Statlar 2~3 Azalir^000000",
+        "[Sv 2]: ^777777Tum Statlar 4~6 Azalir^000000",
+        "[Sv 3]: ^777777Tum Statlar 6~9 Azalir^000000",
+        "[Sv 4]: ^777777Tum Statlar 8~12 Azalir^000000",
+        "[Sv 5]: ^777777Tum Statlar 10~15 Azalir^000000"
+      ]
+    },
+    "KO_JYUSATSU": {
+      "name_original": "Illusion - Death",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Illusion - Shock 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe iluzyon uygulayarak ^CC6600HP^777777 degerini azaltir ve ^663399Curse^777777 uygular. Dusuk ihtimalle ^663399Coma^777777 durumuna sokar.",
+        "Yalnizca kullananin ^CC6600Base Level^777777 degerinden dusuk oyunculara uygulanir; monster'lari etkilemez.^000000"
+      ]
+    },
+    "KO_KAHU_ENTEN": {
+      "name_original": "Fire Charm",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 ^990099Fire Charm^777777 kullanarak ^0000FFFire Spirit^777777 cagirir ve ^FF0000Fire^777777 elementli skill hasarini artirir. En fazla 10 Spirit cagrilabilir.",
+        "10 Spirit aktifken silahi ^FF0000Fire^777777 elementine cevirir ve ^CC5500Earth^777777 elementli dusmanlara verilen fiziksel hasari %30 artirir.",
+        "1 ^990099Fire Charm^777777 tuketir.^000000"
+      ]
+    },
+    "KO_HYOUHU_HUBUKI": {
+      "name_original": "Ice Charm",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 ^990099Ice Charm^777777 kullanarak ^0000FFIce Spirit^777777 cagirir ve ^0000BBWater^777777 elementli skill hasarini artirir. En fazla 10 Spirit cagrilabilir.",
+        "10 Spirit aktifken silahi ^0000BBWater^777777 elementine cevirir ve ^FF0000Fire^777777 elementli dusmanlara verilen fiziksel hasari %30 artirir.",
+        "1 ^990099Ice Charm^777777 tuketir.^000000"
+      ]
+    },
+    "KO_KAZEHU_SEIRAN": {
+      "name_original": "Wind Charm",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 ^990099Wind Charm^777777 kullanarak ^0000FFWind Spirit^777777 cagirir ve ^33CC00Wind^777777 elementli skill hasarini artirir. En fazla 10 Spirit cagrilabilir.",
+        "10 Spirit aktifken silahi ^33CC00Wind^777777 elementine cevirir ve ^0000BBWater^777777 elementli dusmanlara verilen fiziksel hasari %30 artirir.",
+        "1 ^990099Wind Charm^777777 tuketir.^000000"
+      ]
+    },
+    "KO_DOHU_KOUKAI": {
+      "name_original": "Earth Charm",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 ^990099Earth Charm^777777 kullanarak ^0000FFEarth Spirit^777777 cagirir ve ^CC5500Earth^777777 elementli skill hasarini artirir. En fazla 10 Spirit cagrilabilir.",
+        "10 Spirit aktifken silahi ^CC5500Earth^777777 elementine cevirir ve ^33CC00Wind^777777 elementli dusmanlara verilen fiziksel hasari %30 artirir.",
+        "1 ^990099Earth Charm^777777 tuketir.^000000"
+      ]
+    },
+    "KO_KAIHOU": {
+      "name_original": "Release Ninja Spell",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Fire Charm 1, Ice Charm 1, Wind Charm 1, Earth Charm 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Ruhsal enerjiyi hedefe serbest birakarak hasar verir. Element, cagirilmis ^0000FFSpirit^777777'lerin elementine baglidir.^000000"
+      ]
+    },
+    "KO_ZENKAI": {
+      "name_original": "Cast Ninja Spell",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Release Ninja Spell 1, 16th Night 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Ruhsal enerjiyi zemine aktararak farkli etkiler uretebilen bir alan olusturur.",
+        "^FF0000Fire Spirit^777777: Menzildeki dusmanlara ^663399Burning^777777 uygular; silah Fire ise saldiriyi artirir.",
+        "^0000BBWater Spirit^777777: ^663399Freezing, Deep Freeze^777777 veya ^663399Frozen^777777 uygular; silah Water ise saldiriyi artirir.",
+        "^33CC00Wind Spirit^777777: ^663399Silence, Sleep^777777 veya ^663399Deep Sleep^777777 uygular; silah Wind ise saldiriyi artirir.",
+        "^CC5500Earth Spirit^777777: ^663399Stone Curse^777777 veya ^663399Poison^777777 uygular; silah Earth ise saldiriyi artirir.^000000"
+      ]
+    },
+    "KO_GENWAKU": {
+      "name_original": "Illusion - Bewitch",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Cicada Skin Shed 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Kullanan ile hedefin konumlarini degistirme sansi vardir. Ayrica belirli ihtimalle hem kullanan hem hedefe ^663399Confuse^777777 uygular.^000000"
+      ]
+    },
+    "KO_IZAYOI": {
+      "name_original": "16th Night",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Ninja Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullanildiginda Ninja skill'lerinin tum ^CC6600Fixed Casting Time^777777 degerlerini kaldirir, ^CC6600Variable Casting Time^777777 degerini yariya indirir ve ^CC6600MATK^777777 artirir.^000000"
       ]
     }
   }
