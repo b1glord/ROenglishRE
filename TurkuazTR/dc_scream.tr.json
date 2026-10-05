@@ -1,0 +1,437 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/dc_scream.tr.json",
+    "purpose": "dc_scream icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest dc_scream kaynagindaki 105 exact satiri ASCII Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/dc_scream.txt",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "70b090f22137235198d3b7bdfb0036c103c97e10",
+  "source_line_count": 117,
+  "patch_count": 105,
+  "patches": {
+    "1": {
+      "source_en": "SCREAM",
+      "translation_tr": "SCREAM (Ciglik)"
+    },
+    "3": {
+      "source_en": "\tNyang-*",
+      "translation_tr": "\tNyang- **"
+    },
+    "5": {
+      "source_en": "\tStop drinking!!",
+      "translation_tr": "\tIcmeyi birak!!"
+    },
+    "6": {
+      "source_en": "\tHey you punk!!",
+      "translation_tr": "\tHey sen, serseri!!"
+    },
+    "7": {
+      "source_en": "\tSee if I ever listen to you!",
+      "translation_tr": "\tBir daha sana asla guvenmem!"
+    },
+    "8": {
+      "source_en": "\tStop smoking!!",
+      "translation_tr": "\tSigara icmeyi birak!!"
+    },
+    "9": {
+      "source_en": "\tStop smoking or else I'm going to join you!!",
+      "translation_tr": "\tSigara icmeyi birak yoksa ben de baslarim!!"
+    },
+    "10": {
+      "source_en": "\tI hate second hand smoking!!",
+      "translation_tr": "\tPasif icicilikten nefret ediyorum!!"
+    },
+    "11": {
+      "source_en": "\tPsh.. not even rich ----!!",
+      "translation_tr": "\tPeh... zengin bile degil ----!!"
+    },
+    "12": {
+      "source_en": "\tYou try living off of this much Zeny!!",
+      "translation_tr": "\tBu kadar Zeny'le yasamayi bir dene sen!!"
+    },
+    "13": {
+      "source_en": "\tGo make some Zeny if you're insulted!!",
+      "translation_tr": "\tAlindiysan git biraz Zeny kazan!!"
+    },
+    "16": {
+      "source_en": "\tSign here sign here!!",
+      "translation_tr": "\tBuraya imzala, buraya!!"
+    },
+    "17": {
+      "source_en": "\tIt's over!! Let's end it here!!",
+      "translation_tr": "\tBitti!! Artik burada sonlandiralim!!"
+    },
+    "18": {
+      "source_en": "\tWhat am I supposed to live off of!!",
+      "translation_tr": "\tBen simdi neyle gecinecegim!!"
+    },
+    "19": {
+      "source_en": "\tTake care of my daughter!!",
+      "translation_tr": "\tKizima iyi bak!!"
+    },
+    "20": {
+      "source_en": "\tClaim your daughter!! You punk!",
+      "translation_tr": "\tKizina sahip cik! Serseri!"
+    },
+    "21": {
+      "source_en": "\tWhat are you going to do about your child!",
+      "translation_tr": "\tCocuguna ne yapacaksin!"
+    },
+    "22": {
+      "source_en": "\tHey you punk--!!",
+      "translation_tr": "\tHey sen, serseri--!!"
+    },
+    "23": {
+      "source_en": "\tHey!! You still call yourself a human!",
+      "translation_tr": "\tHey!! Hala kendine insan mi diyorsun!"
+    },
+    "24": {
+      "source_en": "\tSweety!! Are you really going to leave like this?!",
+      "translation_tr": "\tTatlim!! Gercekten boyle mi gideceksin?!"
+    },
+    "25": {
+      "source_en": "\tAre we.. seriously over? Huh!!!",
+      "translation_tr": "\tBiz... cidden bitti miyiz? Ha!!!"
+    },
+    "26": {
+      "source_en": "\tWhat am I supposed to do without you!!!!",
+      "translation_tr": "\tSensiz ben ne yaparim!!!!"
+    },
+    "27": {
+      "source_en": "\tI'm pregnant!!!!!",
+      "translation_tr": "\tHamileyim!!!!!"
+    },
+    "28": {
+      "source_en": "\tSave me!!",
+      "translation_tr": "\tKurtarin beni!!"
+    },
+    "29": {
+      "source_en": "\tSomebody's following me!",
+      "translation_tr": "\tBiri beni takip ediyor!"
+    },
+    "30": {
+      "source_en": "\tAgh! What do you think you're doing -!",
+      "translation_tr": "\tAgh! Ne yaptigini saniyorsun -!"
+    },
+    "31": {
+      "source_en": "\tHey! Get away from me!",
+      "translation_tr": "\tHey! Benden uzak dur!"
+    },
+    "32": {
+      "source_en": "\tAAAAHHHHH--!! Wha.. Where do you think your hands are going!!!!",
+      "translation_tr": "\tAAAAHHHHH--!! Ne... Ellerin nereye gidiyor saniyorsun!!!!"
+    },
+    "33": {
+      "source_en": "\tWhy are you doing this to me!!",
+      "translation_tr": "\tNeden bunu bana yapiyorsun!!"
+    },
+    "34": {
+      "source_en": "\tWe're still young!!",
+      "translation_tr": "\tBiz hala genciz!!"
+    },
+    "35": {
+      "source_en": "\tWe have our lives in front of us~!!",
+      "translation_tr": "\tOnumuzde uzun bir hayat var~!!"
+    },
+    "36": {
+      "source_en": "\tI'm not ready yet!!",
+      "translation_tr": "\tHazir degilim henuz!!"
+    },
+    "37": {
+      "source_en": "\tNot yet!! Just a little... Wait just a little more!",
+      "translation_tr": "\tHenuz degil!! Biraz... sadece biraz bekle!"
+    },
+    "38": {
+      "source_en": "\tNo--!! I'm a teacher and you're my student!",
+      "translation_tr": "\tHayir--!! Ben ogretmenim ve sen ogrencimsin!"
+    },
+    "39": {
+      "source_en": "\tThis relationship will never work!",
+      "translation_tr": "\tBu iliski asla yurumez!"
+    },
+    "40": {
+      "source_en": "\tLet's meet again when we're more mature!!",
+      "translation_tr": "\tDaha olgunlastigimizda tekrar goruselim!!"
+    },
+    "41": {
+      "source_en": "\tIf you're a little older... then... maybe ~~!",
+      "translation_tr": "\tBiraz daha buyursen... belki ~~!"
+    },
+    "42": {
+      "source_en": "\tYeah! I love him. I love him! Is that such a crime?!",
+      "translation_tr": "\tEvet! Onu seviyorum. Onu seviyorum! Bu suc mu yani?!"
+    },
+    "43": {
+      "source_en": "\tI don't care what other people say.. I love him!",
+      "translation_tr": "\tBaskalari ne derse desin umurumda degil.. Onu seviyorum!"
+    },
+    "44": {
+      "source_en": "\tSorry to you.. but.. I can't help it! I already fell in love!!",
+      "translation_tr": "\tSana uzgunum.. ama.. elimde degil! Zaten asik oldum!!"
+    },
+    "45": {
+      "source_en": "\tHey... why do you have to be my friend's boyfriend?! Why!!",
+      "translation_tr": "\tHey... neden sevgilim arkadasimin erkek arkadasi olmak zorunda?! Neden!!"
+    },
+    "46": {
+      "source_en": "\tWhy my friend!!",
+      "translation_tr": "\tNeden arkadasim!!"
+    },
+    "47": {
+      "source_en": "\tWhy my friend out of all the people~!!!",
+      "translation_tr": "\tNeden tum insanlar icinde arkadasim~!!!"
+    },
+    "48": {
+      "source_en": "\tHoney!!",
+      "translation_tr": "\tTatlim!!"
+    },
+    "49": {
+      "source_en": "\tBabes!!",
+      "translation_tr": "\tSevgilim!!"
+    },
+    "50": {
+      "source_en": "\tLove you babes!!",
+      "translation_tr": "\tSeni seviyorum sevgilim!!"
+    },
+    "51": {
+      "source_en": "\tLove you!",
+      "translation_tr": "\tSeni seviyorum!"
+    },
+    "52": {
+      "source_en": "\tI love you ---!!",
+      "translation_tr": "\tSeni seviyorum ---!!"
+    },
+    "53": {
+      "source_en": "\tLove you lots!!",
+      "translation_tr": "\tCok seviyorum seni!!"
+    },
+    "54": {
+      "source_en": "\tI said I love you!",
+      "translation_tr": "\tSana \"seni seviyorum\" dedim!"
+    },
+    "55": {
+      "source_en": "\tWhat do you want me to do!",
+      "translation_tr": "\tNe yapmami istiyorsun!"
+    },
+    "56": {
+      "source_en": "\tI don't need anything!!",
+      "translation_tr": "\tHicbir seye ihtiyacim yok!!"
+    },
+    "57": {
+      "source_en": "\tYou're all dead! Argh!",
+      "translation_tr": "\tHepiniz oleceksiniz! Argh!"
+    },
+    "58": {
+      "source_en": "\tWas I just a joke to you?!",
+      "translation_tr": "\tBen sadece bir saka miydim senin icin?!"
+    },
+    "59": {
+      "source_en": "\tSay something! Now!!",
+      "translation_tr": "\tBir sey soyle! Hadi!!"
+    },
+    "61": {
+      "source_en": "\t*Sniffles*... waaah!!",
+      "translation_tr": "\t(Hickirir)... waaah!!"
+    },
+    "62": {
+      "source_en": "\tI don't care-!!!",
+      "translation_tr": "\tUmurumda degil-!!!"
+    },
+    "63": {
+      "source_en": "\tHohohoho! Call me your majesty!",
+      "translation_tr": "\tHohohoho! Bana majesteleri deyin!"
+    },
+    "67": {
+      "source_en": "\tAre you going to kill me if I don't give you an item -------!!!!",
+      "translation_tr": "\tBana esya vermezsem beni oldurecek misin -------!!!!"
+    },
+    "68": {
+      "source_en": "\tYou think I'm that easy ------!!!!!",
+      "translation_tr": "\tBeni bu kadar kolay mi sandin ------!!!!!"
+    },
+    "69": {
+      "source_en": "\tNo--------------!!!!!!!",
+      "translation_tr": "\tHayiiiiiiiiiiiiiiiiiiiiiir!!!!!!!"
+    },
+    "70": {
+      "source_en": "\tNo no! NO!!",
+      "translation_tr": "\tHayir hayir! HAYIR!!"
+    },
+    "71": {
+      "source_en": "\tLeave me alone-----------!!!!!",
+      "translation_tr": "\tBeni rahat birak-----------!!!!!"
+    },
+    "72": {
+      "source_en": "\tDon't come-------!!!!",
+      "translation_tr": "\tGelme-------!!!!"
+    },
+    "73": {
+      "source_en": "\tDon't come near me!!",
+      "translation_tr": "\tYaklasma bana!!"
+    },
+    "74": {
+      "source_en": "\tGet away from me!!!!",
+      "translation_tr": "\tBenden uzak dur!!!!"
+    },
+    "76": {
+      "source_en": "\tYou dirty punk!!",
+      "translation_tr": "\tPis serseri!!"
+    },
+    "77": {
+      "source_en": "\tGo away!!",
+      "translation_tr": "\tDefol git!!"
+    },
+    "78": {
+      "source_en": "\tI'm going to cry... if you touch me!!",
+      "translation_tr": "\tBana dokunursan aglarim!!"
+    },
+    "79": {
+      "source_en": "\tI'm going to cry!!!",
+      "translation_tr": "\tAglayacagim!!!"
+    },
+    "80": {
+      "source_en": "\tThose who lie...... don't even have the right to love!!",
+      "translation_tr": "\tYalan soyleyenler...... sevmeye bile layik degildir!!"
+    },
+    "81": {
+      "source_en": "\tNo~ Not here ~*",
+      "translation_tr": "\tHayir~ Burada degil ~"
+    },
+    "83": {
+      "source_en": "\tAHHH~~~~~~~~~~~~~~~",
+      "translation_tr": "\tAHHH~~~~~~~~~~~~~~"
+    },
+    "85": {
+      "source_en": "\tCan't you hear me ~ ???",
+      "translation_tr": "\tBeni duymuyor musun ~ ???"
+    },
+    "86": {
+      "source_en": "\tGet down!",
+      "translation_tr": "\tYere yat!"
+    },
+    "87": {
+      "source_en": "\tYou can't trust me?!",
+      "translation_tr": "\tBana guvenmiyor musun?!"
+    },
+    "88": {
+      "source_en": "\tHug~ me~ closely!!!!!!!!!!!!!!",
+      "translation_tr": "\tSaril~ bana~ sikica!!!!!!!!!!!!!!"
+    },
+    "89": {
+      "source_en": "\tHug me!!",
+      "translation_tr": "\tSaril bana!!"
+    },
+    "90": {
+      "source_en": "\tArgh!! Die. Just die!!!!!!!!!",
+      "translation_tr": "\tArgh!! Ol. Sadece ol!!!!!!!!!!"
+    },
+    "91": {
+      "source_en": "\tPoring ! Poporing !! Popopopopoporing!!!!!!!!!!",
+      "translation_tr": "\tPoring! Poporing!! Popopopopoporing!!!!!!!!!!"
+    },
+    "92": {
+      "source_en": "\tKyaaa~ It's a pervert ~~ Waaah",
+      "translation_tr": "\tKyaaa~ Sapik var ~~ Waaah!"
+    },
+    "93": {
+      "source_en": "\tGuess who ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
+      "translation_tr": "\tTahmin et kim ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+    },
+    "94": {
+      "source_en": "\tAll going to die~~!!!!!!!",
+      "translation_tr": "\tHepiniz oleceksiniz~~!!!!!!!"
+    },
+    "95": {
+      "source_en": "\tShush ~~~~~~!! Be quiet ~~~~!!!!",
+      "translation_tr": "\tSsst ~~~~~~!! Sessiz ol ~~~~!!!!"
+    },
+    "97": {
+      "source_en": "\tEh?! Oh my!!!!",
+      "translation_tr": "\tEh?! Aman Tanrim!!!!"
+    },
+    "98": {
+      "source_en": "\tHuh! What is this!!",
+      "translation_tr": "\tHa! Bu da ne!!"
+    },
+    "99": {
+      "source_en": "\tEh?! What is this!! Who do you think you are! Hah!",
+      "translation_tr": "\tEh?! Bu ne!! Sen kim oldugunu saniyorsun! Ha!"
+    },
+    "100": {
+      "source_en": "\tTake me somewhere ---!!!!!",
+      "translation_tr": "\tBeni bir yere gotur ---!!!!"
+    },
+    "101": {
+      "source_en": "\tI'm lonely!!!!",
+      "translation_tr": "\tYalnizim!!!!"
+    },
+    "102": {
+      "source_en": "\tLonely! I'm lonely and how could you!!!!",
+      "translation_tr": "\tYalnizim! Hem yalnizim hem de bana bunu nasil yaparsin!!!!"
+    },
+    "103": {
+      "source_en": "\tDo you know me?!!!",
+      "translation_tr": "\tBeni taniyor musun?!!!"
+    },
+    "104": {
+      "source_en": "\tI'm not just what you think I am!!!!",
+      "translation_tr": "\tBen senin sandigin kisi degilim!!!!"
+    },
+    "105": {
+      "source_en": "\tThere must be some misunderstanding!!!!!",
+      "translation_tr": "\tKesin bir yanlis anlasilma var!!!!!"
+    },
+    "106": {
+      "source_en": "\tDo you still love me?!!!",
+      "translation_tr": "\tHala beni seviyor musun?!!!"
+    },
+    "107": {
+      "source_en": "\tNot everything is the way you see it!!!!",
+      "translation_tr": "\tHer sey gorundugu gibi degil!!!!"
+    },
+    "108": {
+      "source_en": "\tListen to me!! That's not true! It's a misunderstanding!!!!",
+      "translation_tr": "\tBeni dinle!! Bu dogru degil! Bir yanlis anlasilma!!!"
+    },
+    "109": {
+      "source_en": "\tAm I pretty?!!!!!! Next is!!!!!!!!!!!!!!! Mmm ~*",
+      "translation_tr": "\tGuzel miyim?!!!!!! Siradaki!!!!!!!!!!!!!!! Mmm ~*"
+    },
+    "110": {
+      "source_en": "\tMy skill is lame!! Why? Because it is lame ~_~",
+      "translation_tr": "\tBecerim berbat!! Neden mi? Cunku berbat ~_~"
+    },
+    "111": {
+      "source_en": "\tLame huh? Yeah.",
+      "translation_tr": "\tBerbat ha? Evet."
+    },
+    "112": {
+      "source_en": "\tDamn, I'd have to say that was pretty stupid...",
+      "translation_tr": "\tKahretsin, bu baya aptalcaydi..."
+    },
+    "113": {
+      "source_en": "\tWhat a pathetic sight.",
+      "translation_tr": "\tNe acikli bir manzara."
+    },
+    "114": {
+      "source_en": "\tYes... yes I agree, that in fact was pretty lame.",
+      "translation_tr": "\tEvet... evet katiliyorum, gercekten berbatti."
+    },
+    "115": {
+      "source_en": "\tEnter \"Funny Comment\" Here.",
+      "translation_tr": "\t\"Komik Yorum\" buraya girilsin."
+    },
+    "116": {
+      "source_en": "\tOh boy, what the *Bleep* was that! Little help over here pansies...",
+      "translation_tr": "\tAman Tanrim, bu da neydi boyle! Burada biraz yardim lutfen korkaklar..."
+    },
+    "117": {
+      "source_en": "\tNot the face...NOT THE FACE!",
+      "translation_tr": "\tYuze degil... YUZE DEGIL!"
+    }
+  }
+}
