@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.5.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 280 exact Renewal skill aciklamasi dahil",
+    "version": "2.6.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 300 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -4974,6 +4974,217 @@
         "[Sv 3]: ^777777Geri Sicrama: 7 hucre^000000",
         "[Sv 4]: ^777777Geri Sicrama: 8 hucre^000000",
         "[Sv 5]: ^777777Geri Sicrama: 9 hucre^000000"
+      ]
+    },
+    "AB_OFFERTORIUM": {
+      "name_original": "Offertorium",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Highness Heal 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFHeal, Sanctuary, Highness Heal^777777 ve ^0000FFColuceo Heal^777777 etkinligini artirir. ^0000FFMagnificat^777777 ile birlikte kullanilamaz.",
+        "Su durumlari kaldirir: ^663399Curse, Poison, Hallucination, Confusion, Bleeding, Burning, Freezing, Blind, Mandragora Howling^777777 ve ^663399Guillotine Cross poison^777777 etkileri (^663399Oblivion Curse^777777 haric).^000000",
+        "[Sv 1]: ^777777Heal Gucu x1.3, SP Maliyeti 220%^000000",
+        "[Sv 2]: ^777777Heal Gucu x1.6, SP Maliyeti 240%^000000",
+        "[Sv 3]: ^777777Heal Gucu x1.9, SP Maliyeti 260%^000000",
+        "[Sv 4]: ^777777Heal Gucu x2.2, SP Maliyeti 270%^000000",
+        "[Sv 5]: ^777777Heal Gucu x2.5, SP Maliyeti 300%^000000"
+      ]
+    },
+    "WL_TELEKINESIS_INTENSE": {
+      "name_original": "Telekinesis Intense",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Soul Expansion 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^009999Ghost^777777 buyusu kullananin dolasim sistemine girerek 1 dakika boyunca Ghost buyu hasarini artirir, ^CC6600Variable Cast Time^777777 ve spell ^CC6600SP^777777 maliyetini azaltir.",
+        "^990099Clearance^777777 veya ^990099Dispell^777777 ile kaldirilamaz.^000000",
+        "[Sv 1]: ^777777Ghost Buyu Hasari x1.4, Variable Cast -10%, Ghost SP Maliyeti -10%^000000",
+        "[Sv 2]: ^777777Ghost Buyu Hasari x1.8, Variable Cast -20%, Ghost SP Maliyeti -20%^000000",
+        "[Sv 3]: ^777777Ghost Buyu Hasari x2.2, Variable Cast -30%, Ghost SP Maliyeti -30%^000000",
+        "[Sv 4]: ^777777Ghost Buyu Hasari x2.6, Variable Cast -40%, Ghost SP Maliyeti -40%^000000",
+        "[Sv 5]: ^777777Ghost Buyu Hasari x3, Variable Cast -50%, Ghost SP Maliyeti -50%^000000"
+      ]
+    },
+    "ALL_FULL_THROTTLE": {
+      "name_original": "Full Throttle",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kisa sure icin bedensel sinirlari zorlayarak kullanani guclendirir. Kullanildiginda ^CC6600HP^777777 tamamen yenilenir, tum statlar +20% olur ve ^CC6600Hareket Hizi^777777 artar.",
+        "Etki bittiginde ^0000FFRebound^777777 uygulanir; hareket hizi azalir ve dogal ^CC6600HP/SP^777777 yenilenmesi devre disi kalir. ^990099Dispell^777777 ile kaldirilamaz.^000000",
+        "[Sv 1]: ^77777710 saniye boyunca saniyede HP|SP %6 tuketir^000000",
+        "[Sv 2]: ^77777715 saniye boyunca saniyede HP|SP %4 tuketir^000000",
+        "[Sv 3]: ^77777720 saniye boyunca saniyede HP|SP %3 tuketir^000000",
+        "[Sv 4]: ^77777725 saniye boyunca saniyede HP|SP %2 tuketir^000000",
+        "[Sv 5]: ^77777730 saniye boyunca saniyede HP|SP %1 tuketir^000000"
+      ]
+    },
+    "GN_ILLUSIONDOPING": {
+      "name_original": "Illusion Doping",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Special Pharmacy 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Yogun alkol karisimi firlatarak yuksek ihtimalle ^663399Hallucination^777777 uygular ve ^CC6600HIT^777777 degerini azaltir.",
+        "1 ^990099Alcohol^777777 tuketir.^000000",
+        "[Sv 1]: ^777777100% Hasar / AoE: 9x9^000000",
+        "[Sv 2]: ^777777100% Hasar / AoE: 11x11^000000",
+        "[Sv 3]: ^777777100% Hasar / AoE: 13x13^000000",
+        "[Sv 4]: ^777777100% Hasar / AoE: 15x15^000000",
+        "[Sv 5]: ^777777100% Hasar / AoE: Tum ekran^000000"
+      ]
+    },
+    "GM_ITEM_ATKMAX": {
+      "name_original": "Max Physical item attack rate",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Aciklama: ^777777Fiziksel item saldiri oranini maksimuma cikarir.^000000"
+      ]
+    },
+    "GM_ITEM_ATKMIN": {
+      "name_original": "Minimize Physical item attack rate",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Aciklama: ^777777Fiziksel item saldiri oranini minimuma indirir.^000000"
+      ]
+    },
+    "GM_ITEM_MATKMAX": {
+      "name_original": "Max Magic item attack rate",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Aciklama: ^777777Buyusel item saldiri oranini maksimuma cikarir.^000000"
+      ]
+    },
+    "GM_ITEM_MATKMIN": {
+      "name_original": "Minimize Magic item attack rate",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Aciklama: ^777777Buyusel item saldiri oranini minimuma indirir.^000000"
+      ]
+    },
+    "BA_POEMBRAGI2": {
+      "name_original": "A Poem of Bragi",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Unchained Serenade 3^000000",
+        "Beceri Turu: ^777777Saldiri^000000",
+        "Menzil: ^7777777 hucre^000000",
+        "Aciklama: ^777777Menzildeki dusmanlara belirli araliklarla sabit hasar verir.^000000"
+      ]
+    },
+    "DC_FORTUNEKISS2": {
+      "name_original": "Fortune's kiss",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Ugly Dance 3^000000",
+        "Tur: ^339900Destek^000000",
+        "Menzil: ^7777777 hucre^000000",
+        "Aciklama: ^777777Critical vurma sansini artirir.^000000"
+      ]
+    },
+    "GD_GUILD_STORAGE": {
+      "name_original": "Guild Storage Expansion",
+      "lines_tr": [
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Hedef: ^777777P^000000",
+        "Aciklama: ^777777Guild Storage kullanilmasini saglar ve depo slot sayisini artirir.^000000",
+        "[Sv 1]: ^777777100 Slot^000000",
+        "[Sv 2]: ^777777200 Slot^000000",
+        "[Sv 3]: ^777777300 Slot^000000",
+        "[Sv 4]: ^777777400 Slot^000000",
+        "[Sv 5]: ^777777500 Slot^000000"
+      ]
+    },
+    "GM_WIDE_RESURRECTION": {
+      "name_original": "Wide Resurrection",
+      "lines_tr": [
+        "Beceri Turu: ^000099Aktif^000000",
+        "Hedef: ^777777Olmus Oyuncu^000000",
+        "Aciklama: ^777777Kullananin cevresindeki tum oyunculari diriltir.^000000"
+      ]
+    },
+    "ALL_PRONTERA_RECALL": {
+      "name_original": "Return to Prontera",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "Tur: ^339900Destek^000000",
+        "Aciklama: ^777777Prontera'ya isinlar. Kullanimdan sonra 15 dakika yeniden kullanim gecikmesi vardir.^000000"
+      ]
+    },
+    "ALL_THANATOS_RECALL": {
+      "name_original": "Return to Thanatos",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Tur: ^339900Destek^000000",
+        "Aciklama: ^777777Thanatos Tower'a isinlar. Kullanimdan sonra 5 dakika yeniden kullanim gecikmesi vardir.^000000"
+      ]
+    },
+    "MC_CARTDECORATE": {
+      "name_original": "Change Cart 2",
+      "lines_tr": [
+        "^CC3399Gereksinim: Quest Tamamlama^000000",
+        "Tur: ^339900Destek^000000",
+        "Aciklama: ^777777Cesitli sevimli cart tasarimlari arasindan secim yapmayi saglar.^000000"
+      ]
+    },
+    "SU_BASIC_SKILL": {
+      "name_original": "New Basic Skill",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Temel arayuz skill'lerini etkinlestirir.",
+        "Trading, emotion, oturma, chat room acma, party'ye katilma/kurma ve Kafra storage kullanimi saglanir.^000000"
+      ]
+    },
+    "SU_BITE": {
+      "name_original": "Bite",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: New Basic Skill 1^000000",
+        "Beceri Turu: ^FF0000Saldiri^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Dusmani isirarak saldirir. Zayiflamis hedeflere daha fazla hasar verir. Base Level 30'u astiginda skill'in yeniden tetiklenme sansi vardir; her 30 Base Level'da sans artar.^000000",
+        "[Sv 1]: ^777777200% Hasar^000000"
+      ]
+    },
+    "SU_HIDE": {
+      "name_original": "Hide",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Bite 1^000000",
+        "Tur: ^339900Destek^000000",
+        "Aciklama: ^777777Calilarin arasina saklanarak dusman saldirilarindan kacinir. Dusman detection skill'leriyle bulunabilir.^000000"
+      ]
+    },
+    "SU_SCRATCH": {
+      "name_original": "Scratch",
+      "lines_tr": [
+        "Maks. Seviye: 3",
+        "^CC3399Gereksinim: Hide 1^000000",
+        "Beceri Turu: ^FF0000Saldiri^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Hedefte cizik yarasi acar ve ^663399Bleeding^777777 uygulama sansi vardir. Base Level 30'u astiginda skill'in yeniden tetiklenme sansi olur; her 30 Base Level'da sans artar.^000000",
+        "[Sv 1]: ^777777ATK 100%^000000",
+        "[Sv 2]: ^777777ATK 150%^000000",
+        "[Sv 3]: ^777777ATK 200%^000000"
+      ]
+    },
+    "SU_STOOP": {
+      "name_original": "Stoop",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Scratch 3^000000",
+        "Tur: ^339900Destek^000000",
+        "Aciklama: ^7777776 saniye boyunca gelen hasari %90 azaltir. Geri itilirse etki aninda sona erer.^000000"
       ]
     }
   }
