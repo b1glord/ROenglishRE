@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.9.0
+Version: 2.0.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -119,3 +119,18 @@ Profil davranisi:
 - `bilingual`: Turkce quest display + Turkce OngoingQuests.
 
 Bilingual profil uzun quest metinlerinde iki dili ayni anda gostermez. Iki dil birlikte yalnizca kisa skill adlarinda kullanilir. Quest patchleri kaynak byte yapisini, satir sonlarini ve OngoingQuests icindeki korumali NAVI/ITEM taglarini muhafaza eder.
+
+
+## Oyun ici kitap localization modeli
+
+`Translation/Renewal/data/book/` altindaki 70 kaynak dosya incelendi.
+
+- 46 dosya gercek lore, rehber, tarif veya oyun ici okunabilir metin olarak Turkce ceviri hedefidir.
+- 24 adet `1000897.txt` - `1000920.txt` dosyasi eski Kore sunucusu bagisci/oyuncu listeleridir ve ceviri kapsaminda degildir.
+- Ilk 5 kitap tamamlandi: `11018.txt`, `11019.txt`, `7755.txt`, `7129.txt`, `7131.txt`.
+- Kalan gercek kitap sayisi: 41.
+- Ayrintili durum: `TurkuazTR/books/index.json`.
+- Kitaplar `file-overlays.json` uzerinden source blob SHA kilitli whole-file overlay olarak uretilir.
+- English profil orijinal kaynagi; Hybrid, Full TR ve Bilingual profilleri Turkce kitap metnini kullanir.
+- `11064.txt` Korece kaynakli gercek rehberdir ve ceviri hedefidir.
+- `prontera bible01.txt`, `11000.txt` ile ayni Rune-Midgarts lore metnini farkli satir duzeniyle tekrarlar; Turkce metin yeniden kullanilabilir.
