@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.7.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 320 exact Renewal skill aciklamasi dahil",
+    "version": "2.8.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 340 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -5460,6 +5460,264 @@
         "[Sv 3]: ^777777ATK 700%^000000",
         "[Sv 4]: ^777777ATK 850%^000000",
         "[Sv 5]: ^777777ATK 1000%^000000"
+      ]
+    },
+    "SU_HISS": {
+      "name_original": "Hiss",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Power of Life 1^000000",
+        "Beceri Turu: ^339900Animal (Destek)^000000",
+        "Hedef: ^6666CCParty Uyesi^000000",
+        "Aciklama: ^777777Tehditlere karsi tetikte olur. Kullanan dahil ekrandaki tum party uyelerinin belirli sure hareket hizini artirir.^000000",
+        "[Sv 1]: ^777777Perfect Dodge +50 (3 sn), Hareket Hizi + (3 sn)^000000",
+        "[Sv 2]: ^777777Perfect Dodge +50 (3 sn), Hareket Hizi + (3 sn)^000000",
+        "[Sv 3]: ^777777Perfect Dodge +50 (3 sn), Hareket Hizi + (4 sn)^000000",
+        "[Sv 4]: ^777777Perfect Dodge +50 (3 sn), Hareket Hizi + (4 sn)^000000",
+        "[Sv 5]: ^777777Perfect Dodge +50 (3 sn), Hareket Hizi + (5 sn)^000000"
+      ]
+    },
+    "SU_NYANGGRASS": {
+      "name_original": "Nyang Grass",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Meow Meow 5^000000",
+        "Beceri Turu: ^339900Plant (Destek)^000000",
+        "Hedef: ^6666CCDusman^000000",
+        "Aciklama: ^777777Etki alanindaki dusmanlarin savunma gucunu etkisiz hale getirir; alan terk edilirse etki aninda biter.",
+        "Oyuncu tipi dusmanlarin ekipman DEF ve MDEF degerini 0'a indirir. Monster'larda azalma yalnizca %50'dir.^000000",
+        "[Sv 1]: ^777777AoE: 5x5, Saniyede 6 SP^000000",
+        "[Sv 2]: ^777777AoE: 5x5, Saniyede 7 SP^000000",
+        "[Sv 3]: ^777777AoE: 7x7, Saniyede 8 SP^000000",
+        "[Sv 4]: ^777777AoE: 7x7, Saniyede 9 SP^000000",
+        "[Sv 5]: ^777777AoE: 9x9, Saniyede 10 SP^000000"
+      ]
+    },
+    "SU_GROOMING": {
+      "name_original": "Grooming",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Power of Sea 1^000000",
+        "Beceri Turu: ^339900Seafood (Destek)^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kendini yalayarak yaralari iyilestirir. Stun, Frozen, Stone Curse, Sleep, Silence, Bleeding, Poison, Fear, Mandragora Howling, Freezing ve Crystallization durumlarini kaldirir.",
+        "Skill suresince ^CC6600FLEE^777777 artar.^000000",
+        "[Sv 1]: ^777777FLEE +100, Sure: 3 saniye^000000",
+        "[Sv 2]: ^777777FLEE +100, Sure: 4 saniye^000000",
+        "[Sv 3]: ^777777FLEE +100, Sure: 5 saniye^000000",
+        "[Sv 4]: ^777777FLEE +100, Sure: 6 saniye^000000",
+        "[Sv 5]: ^777777FLEE +100, Sure: 7 saniye^000000"
+      ]
+    },
+    "SU_PURRING": {
+      "name_original": "Purring",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Grooming 5^000000",
+        "Beceri Turu: ^339900Seafood (Destek)^000000",
+        "Hedef: ^6666CCParty Uyesi^000000",
+        "Aciklama: ^777777Kullanan ve ekrandaki tum party uyelerine belirli sure Grooming durumu verir.^000000",
+        "[Sv 1]: ^777777FLEE +100, Sure: 7 saniye^000000",
+        "[Sv 2]: ^777777FLEE +100, Sure: 9 saniye^000000",
+        "[Sv 3]: ^777777FLEE +100, Sure: 11 saniye^000000",
+        "[Sv 4]: ^777777FLEE +100, Sure: 13 saniye^000000",
+        "[Sv 5]: ^777777FLEE +100, Sure: 15 saniye^000000"
+      ]
+    },
+    "SU_SHRIMPARTY": {
+      "name_original": "Tasty Shrimp Party",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Purring 5^000000",
+        "Beceri Turu: ^339900Seafood (Destek)^000000",
+        "Hedef: ^6666CCParty Uyesi^000000",
+        "Aciklama: ^777777Ekrandaki tum party uyelerine skill seviyesine bagli sure boyunca Fresh Shrimp uygular. Kullananin SP yenilenmesini %150 artirir ve Shrimp Party etkisini guclendirir.^000000",
+        "[Sv 1]: ^777777SP Yenilenme Suresi: 12 saniye^000000",
+        "[Sv 2]: ^777777SP Yenilenme Suresi: 14 saniye^000000",
+        "[Sv 3]: ^777777SP Yenilenme Suresi: 16 saniye^000000",
+        "[Sv 4]: ^777777SP Yenilenme Suresi: 18 saniye^000000",
+        "[Sv 5]: ^777777SP Yenilenme Suresi: 20 saniye^000000"
+      ]
+    },
+    "SU_SPIRITOFLIFE": {
+      "name_original": "Spirit of Life",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Spirit of Savage 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Life Spirit'i cagirarak Animal skill'lerini guclendirir. Asagidaki skill'lerin saldiri gucu kullananin kalan HP yuzdesine gore artar:^000000",
+        "* Picky Peck",
+        "* Scar of Tarou",
+        "* Lunatic Carrot Beat",
+        "* Spirit of Savage"
+      ]
+    },
+    "SU_MEOWMEOW": {
+      "name_original": "Meow Meow",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Chattering 5^000000",
+        "Beceri Turu: ^339900Plant (Destek)^000000",
+        "Hedef: ^6666CCParty Uyesi^000000",
+        "Aciklama: ^777777Miyavlayarak dostlarin avcilik icgudusunu uyandirir; kullanan dahil ekrandaki tum party uyelerine ATK +100, MATK +100 ve hareket hizi artisi verir.^000000",
+        "[Sv 1]: ^777777Sure: 8 saniye, Saniyede 100 SP^000000",
+        "[Sv 2]: ^777777Sure: 8 saniye, Saniyede 90 SP^000000",
+        "[Sv 3]: ^777777Sure: 10 saniye, Saniyede 80 SP^000000",
+        "[Sv 4]: ^777777Sure: 10 saniye, Saniyede 70 SP^000000",
+        "[Sv 5]: ^777777Sure: 12 saniye, Saniyede 60 SP^000000"
+      ]
+    },
+    "SU_SPIRITOFLAND": {
+      "name_original": "Spirit of Earth",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Nyang Grass 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Earth Spirit'i cagirarak Plant skill'lerini guclendirir.^000000",
+        "* Silvervine Stem Spear: ^7777773 saniye hareket hizini artirir.^000000",
+        "* Silvervine Root Twist: ^7777773 saniye Base Level'a gore MATK artirir.^000000",
+        "* Catnip Powdering: ^7777773 saniye Perfect Dodge degerini Base Level/12 kadar artirir.^000000",
+        "* Catnip Meteor: ^7777773 saniye uzun menzilli fiziksel veya magic saldiri alindiginda Silvervine Stem Spear'i aninda tetikler.^000000",
+        "* Nyang Grass: ^7777773 saniye Base Level'a gore MATK artirir.^000000"
+      ]
+    },
+    "SU_CHATTERING": {
+      "name_original": "Chattering",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Power of Earth 1^000000",
+        "Beceri Turu: ^339900Plant (Destek)^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Avcilik icgudusunu uyandirarak heyecanlanir. 5 saniye ATK ve MATK +100, 10 saniye hareket hizi artisi verir.^000000",
+        "[Sv 1]: ^777777SP Maliyeti: 50^000000",
+        "[Sv 2]: ^777777SP Maliyeti: 45^000000",
+        "[Sv 3]: ^777777SP Maliyeti: 40^000000",
+        "[Sv 4]: ^777777SP Maliyeti: 35^000000",
+        "[Sv 5]: ^777777SP Maliyeti: 30^000000"
+      ]
+    },
+    "SU_SPIRITOFSEA": {
+      "name_original": "Spirit of Sea",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Tasty Shrimp Party 5^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777Sea Spirit'i cagirarak Seafood skill'lerini guclendirir.^000000",
+        "* Fresh Shrimp: ^777777HP yenilenmesini iki katina cikarir.^000000",
+        "* Bunch of Shrimp: ^777777ATK ve MATK bonus suresini 120 saniye uzatir.^000000",
+        "* Tuna Belly: ^777777Skill cooldown suresini 5 saniye azaltir.^000000",
+        "* Tuna Party: ^777777Tuna savunmasini daha yuksek seviyeye cikarir.^000000",
+        "* Shrimp Party: ^777777Kullananin ve party uyelerinin HP yenilenmesini iki katina cikarir.^000000"
+      ]
+    },
+    "ALL_GLASTHEIM_RECALL": {
+      "name_original": "Return to Glastheim",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "Beceri Turu: ^339900Destek^bb0000 (Donus)^000000",
+        "Aciklama: ^777777Glastheim'a isinlar. 5 dakika yeniden kullanim gecikmesi vardir.^000000"
+      ]
+    },
+    "GS_GLITTERING": {
+      "name_original": "Coin Flip",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 ^990099Zeny^777777 tuketerek ^990099Coin^777777 atar. Yazi gelirse 1 Coin kazanir, tura gelirse 1 Coin kaybeder.",
+        "En fazla 10 ^990099Coin^777777 tutulabilir. Skill seviyesi arttikca yazi gelme sansi artar. ^00A100Gunslinger^777777 Coin'leri kullananin etrafinda parlayan kureler olarak gorunur.^000000"
+      ]
+    },
+    "GS_FLING": {
+      "name_original": "Fling",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^990099Coin^777777 harcayarak dusmana firlatir, hasar verir ve ^CC6600DEF^777777 degerini azaltir. Tek kullanimda en fazla 5 Coin tuketir; daha fazla Coin daha fazla DEF azaltir.^000000"
+      ]
+    },
+    "GS_TRIPLEACTION": {
+      "name_original": "Triple Action",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmana tek saldirida 3 atis yapar. 1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_BULLSEYE": {
+      "name_original": "Bull's Eye",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777^00A100Demi-Human^777777 ve ^00A100Brute^777777 monster'lara %500 hasar verir. ^0000FFBull's Eye^777777, ^00A100Boss^777777 haric dusmanlara %0.1 ihtimalle ^663399Coma^777777 uygulayabilir.",
+        "1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_MADNESSCANCEL": {
+      "name_original": "Madness Canceler (Last Stand)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFMadness Canceler^777777 durumunu etkinlestirir. Kullanan ^663399hareketsiz^777777 kalir ancak +100 hasar ve %20 ^CC6600ASPD^777777 kazanir.",
+        "Etki 15 saniye surer ve ^0000FFAdjustment^777777 ile birlikte kullanilamaz. 1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_ADJUSTMENT": {
+      "name_original": "Adjustment (Gunslinger's Panic)",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 4^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^0000FFAdjustment^777777 durumunu etkinlestirir; ^CC6600FLEE^777777 +30, menzilli fiziksel saldirilardan alinan hasar -20%, ^CC6600HIT^777777 -30 olur.",
+        "Etki 30 saniye surer ve ^0000FFMadness Canceler^777777 ile birlikte kullanilamaz. 2 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_INCREASING": {
+      "name_original": "Increase Accuracy",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^7777771 dakika boyunca ^CC6600HIT^777777 +20, ^CC6600DEX^777777 +4 ve ^CC6600AGI^777777 +4 verir. 4 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_MAGICALBULLET": {
+      "name_original": "Magical Bullet",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Ozel Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Mermi tuketmeden magic atis yapar ve kullananin ^CC6600ATK + MATK^777777 toplamına esit ^009999Ghost^777777 elementli hasar verir. 1 ^990099Coin^777777 tuketir.^000000"
+      ]
+    },
+    "GS_CRACKER": {
+      "name_original": "Cracker",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Coin Flip 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Dusmana ^663399Stun^777777 uygulayabilen bir mermi atar. Hedef kullanan ne kadar yakinsa Stun sansi o kadar yuksektir. 1 ^990099Coin^777777 tuketir.^000000"
       ]
     }
   }
