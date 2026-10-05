@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.4.0",
-    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini; yardim, unvan ve harita adlari dahil kaydeder",
+    "version": "1.5.0",
+    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini; random option metinleri dahil kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -79,6 +79,12 @@
       "patch_path": "TurkuazTR/mapnametable.tr.json",
       "profile_field": "map_names",
       "output_path": "data/mapnametable.txt"
+    },
+    "random_option_names": {
+      "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+      "patch_path": "TurkuazTR/addrandomoptionnametable.tr.json",
+      "profile_field": "random_option_names",
+      "output_path": "data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub"
     }
   }
 }
