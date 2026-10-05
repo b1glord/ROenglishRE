@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.8.0
-# Aciklama: Translation status, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
+# Version: 1.9.0
+# Aciklama: Translation status, ortak overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -64,7 +64,11 @@ jobs:
             Tools/validate_questid2display_translation.py \
             Tools/apply_questid2display_translation.py \
             Tools/validate_ongoingquests_translation.py \
-            Tools/apply_ongoingquests_translation.py
+            Tools/apply_ongoingquests_translation.py \
+            TurkuazTR/tools/build-skill-profile.py \
+            TurkuazTR/tools/build-line-overlay-profile.py \
+            TurkuazTR/tools/extract-skillinfolist-pending.py \
+            TurkuazTR/tools/extract-skilldescript-pending.py
 
       - name: Report translation status
         shell: bash
@@ -73,6 +77,24 @@ jobs:
           python3 Tools/turkuaz_translation_status.py \
             --translation-ref HEAD \
             --upstream-ref refs/remotes/origin/upstream/latest
+
+      - name: Validate registered localization overlays
+        shell: bash
+        run: |
+          set -euo pipefail
+          components="$(python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("TurkuazTR/line-overlays.json").read_text(encoding="utf-8"))
+          print(" ".join(data["components"].keys()))
+          PY
+          )"
+          for component in $components; do
+            python3 TurkuazTR/tools/build-line-overlay-profile.py \
+              --component "$component" \
+              --profile full_tr \
+              --output-root "/tmp/turkuaz-overlay-validation/$component"
+          done
 
       - name: Validate achievement Lua structure
         shell: bash
