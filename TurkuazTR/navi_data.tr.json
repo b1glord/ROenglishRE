@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 1327 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.1.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 1347 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 1327,
+  "patch_count": 1347,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -41,6 +41,10 @@
       "source_en": "\t[\"\ub358\uc804 \ucd9c\uad6c\"] = \"Dungeon Exit\",",
       "translation_tr": "\t[\"\ub358\uc804 \ucd9c\uad6c\"] = \"Dungeon Cikisi\","
     },
+    "17": {
+      "source_en": "\t[\"\ud56d\ubc95\uc0ac \uc0dd\uac15\uc774\"] = \"Navigator Ginger\",",
+      "translation_tr": "\t[\"\ud56d\ubc95\uc0ac \uc0dd\uac15\uc774\"] = \"Rehber Ginger\","
+    },
     "18": {
       "source_en": "\t[\"\uc2b9\ud558\ucc28 \uc11c\ube44\uc2a4\ub85c\uc774\ub4dc\"] = \"Airport Staff\",",
       "translation_tr": "\t[\"\uc2b9\ud558\ucc28 \uc11c\ube44\uc2a4\ub85c\uc774\ub4dc\"] = \"Havaalani Gorevlisi\","
@@ -52,6 +56,10 @@
     "22": {
       "source_en": "\t[\"\uc120\uc6d0\"] = \"Crewman\",",
       "translation_tr": "\t[\"\uc120\uc6d0\"] = \"Murettebat\","
+    },
+    "23": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 2\ud638\"] = \"Teleport Cat No.2\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 2\ud638\"] = \"Isinlanma Kedisi No.2\","
     },
     "24": {
       "source_en": "\t[\"\uce74\ud504\ub77c \uc9c1\uc6d0\"] = \"Kafra Employee\",",
@@ -68,6 +76,10 @@
     "29": {
       "source_en": "\t[\"\ud6c4\uae34\uc758 \ucd94\uc885\uc790\"] = \"Huggin's Follower\",",
       "translation_tr": "\t[\"\ud6c4\uae34\uc758 \ucd94\uc885\uc790\"] = \"Huggin'in Takipcisi\","
+    },
+    "30": {
+      "source_en": "\t[\"\ub9c8\ubc95\uc0ac \ub2d0\ub818\"] = \"Wizard Nillem\",",
+      "translation_tr": "\t[\"\ub9c8\ubc95\uc0ac \ub2d0\ub818\"] = \"Buyucu Nillem\","
     },
     "31": {
       "source_en": "\t[\"\ub099\uc6d0\ub2e8 \uacf5\uac04\uc774\ub3d9\uc0ac\"] = \"Eden Teleport Officer\",",
@@ -89,9 +101,17 @@
       "source_en": "\t[\"\uc5f0\ud569 \uacbd\ube44\ub300\"] = \"Camp Guard\",",
       "translation_tr": "\t[\"\uc5f0\ud569 \uacbd\ube44\ub300\"] = \"Kamp Muhafizi\","
     },
+    "37": {
+      "source_en": "\t[\"\ucd08\uc2dc\uc758 \uc81c\uc790\"] = \"Choshi's Disciple\",",
+      "translation_tr": "\t[\"\ucd08\uc2dc\uc758 \uc81c\uc790\"] = \"Choshi'nin Ogrencisi\","
+    },
     "38": {
       "source_en": "\t[\"\ud0d1\uc2b9\uc218\uc18d \uc11c\ube44\uc2a4\ub85c\uc774\ub4dc\"] = \"Airport Staff\",",
       "translation_tr": "\t[\"\ud0d1\uc2b9\uc218\uc18d \uc11c\ube44\uc2a4\ub85c\uc774\ub4dc\"] = \"Havaalani Gorevlisi\","
+    },
+    "39": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 4\ud638\"] = \"Teleport Cat No.4\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 4\ud638\"] = \"Isinlanma Kedisi No.4\","
     },
     "40": {
       "source_en": "\t[\"\uc785\uc7a5 \ubb38\uc9c0\uae30\"] = \"Entrance Guard\",",
@@ -173,9 +193,17 @@
       "source_en": "\t[\"\ub300\uae30\uc2e4\ub2f4\ub2f9\uc790\"] = \"Waiting Room Staff\",",
       "translation_tr": "\t[\"\ub300\uae30\uc2e4\ub2f4\ub2f9\uc790\"] = \"Bekleme Odasi Gorevlisi\","
     },
+    "72": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 3\ud638\"] = \"Teleport Cat No.3\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 3\ud638\"] = \"Isinlanma Kedisi No.3\","
+    },
     "73": {
       "source_en": "\t[\"\uae38\ub4dc \ub9c8\uc2a4\ud130\"] = \"Guild Master\",",
       "translation_tr": "\t[\"\uae38\ub4dc \ub9c8\uc2a4\ud130\"] = \"Lonca Ustasi\","
+    },
+    "74": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 1\ud638\"] = \"Teleport Cat No.1\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 1\ud638\"] = \"Isinlanma Kedisi No.1\","
     },
     "75": {
       "source_en": "\t[\"\ube5b\ubb34\ub9ac\"] = \"Light Flock\",",
@@ -253,6 +281,14 @@
       "source_en": "\t[\"\ud06c\ub77c\uce74\ud1a0 \ud654\uc0b0 \ubb38\uc9c0\uae30\"] = \"Krakatoa Volcano Gatekeeper\",",
       "translation_tr": "\t[\"\ud06c\ub77c\uce74\ud1a0 \ud654\uc0b0 \ubb38\uc9c0\uae30\"] = \"Krakatoa Volcano Kapicisi\","
     },
+    "100": {
+      "source_en": "\t[\"\uace0\uc591\uc774\"] = \"Cat\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774\"] = \"Kedi\","
+    },
+    "101": {
+      "source_en": "\t[\"\uc57c\uc5c9\uc774\"] = \"Owl\",",
+      "translation_tr": "\t[\"\uc57c\uc5c9\uc774\"] = \"Baykus\","
+    },
     "102": {
       "source_en": "\t[\"\ud568\uc7a5 \uc580\uc13c\"] = \"Captain Janseen\",",
       "translation_tr": "\t[\"\ud568\uc7a5 \uc580\uc13c\"] = \"Kaptan Janseen\","
@@ -280,6 +316,10 @@
     "108": {
       "source_en": "\t[\"\uc5d0\ud074\ub77c\uc96c \uc774\ub3d9\uae30\"] = \"Eclage Teleporter\",",
       "translation_tr": "\t[\"\uc5d0\ud074\ub77c\uc96c \uc774\ub3d9\uae30\"] = \"Eclage Isinlayicisi\","
+    },
+    "109": {
+      "source_en": "\t[\"\uae30\uc0ac \uc5d0\uc77c\ubc14\ub974\"] = \"Knight Ailbar\",",
+      "translation_tr": "\t[\"\uae30\uc0ac \uc5d0\uc77c\ubc14\ub974\"] = \"Sovalye Ailbar\","
     },
     "110": {
       "source_en": "\t[\"\uc218\uc0c1\ud55c \uace0\uc591\uc774\"] = \"Strange Cat\",",
@@ -341,6 +381,10 @@
       "source_en": "\t[\"\ubcf5\uc0ac \ub2f4\ub2f9 \uc5d8\ub9ac\uc2a4\"] = \"Acolyte Leader Alice\",",
       "translation_tr": "\t[\"\ubcf5\uc0ac \ub2f4\ub2f9 \uc5d8\ub9ac\uc2a4\"] = \"Acolyte Lideri Alice\","
     },
+    "133": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 6\ud638\"] = \"Teleport Cat No.6\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 6\ud638\"] = \"Isinlanma Kedisi No.6\","
+    },
     "134": {
       "source_en": "\t[\"\ub514\uce74\uc2a4\ud14c\uc2a4 \ucc28\uc6d0\uc774\ub3d9\uae30\"] = \"Dicastes Dimensional Transporter\",",
       "translation_tr": "\t[\"\ub514\uce74\uc2a4\ud14c\uc2a4 \ucc28\uc6d0\uc774\ub3d9\uae30\"] = \"Dicastes Boyutsal Isinlayicisi\","
@@ -352,6 +396,10 @@
     "139": {
       "source_en": "\t[\"\uac00\ud14c\"] = \"Gate\",",
       "translation_tr": "\t[\"\uac00\ud14c\"] = \"Kapi\","
+    },
+    "140": {
+      "source_en": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 5\ud638\"] = \"Teleport Cat No.5\",",
+      "translation_tr": "\t[\"\uace0\uc591\uc774 \uacf5\uac04\uc774\ub3d9\uc0ac 5\ud638\"] = \"Isinlanma Kedisi No.5\","
     },
     "141": {
       "source_en": "\t[\"\ube44\ud504\ub85c\uc2a4\ud2b8 \ucc28\uc6d0\uc774\ub3d9\uae30\"] = \"Bitfrost Dimensional Device\",",
@@ -381,9 +429,21 @@
       "source_en": "\t[\"\uc815\uc6d0 \uad00\ub9ac\ub0e5\"] = \"Garden Management\",",
       "translation_tr": "\t[\"\uc815\uc6d0 \uad00\ub9ac\ub0e5\"] = \"Bahce Yonetimi\","
     },
+    "149": {
+      "source_en": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Realm\",",
+      "translation_tr": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Diyari\","
+    },
+    "150": {
+      "source_en": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Greenwood Lake\",",
+      "translation_tr": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Yesilorman Golu\","
+    },
     "151": {
       "source_en": "\t[\"\uc2e0\uad00 \ud30c\ub178\"] = \"Priest Pano\",",
       "translation_tr": "\t[\"\uc2e0\uad00 \ud30c\ub178\"] = \"Rahip Pano\","
+    },
+    "152": {
+      "source_en": "\t[\"\uc704\uc131\ub3c4\uc2dc \ub8e8\uc774\ub098\"] = \"Luina, Satellite of Aldebaran\",",
+      "translation_tr": "\t[\"\uc704\uc131\ub3c4\uc2dc \ub8e8\uc774\ub098\"] = \"Luina, Aldebaran Uydu Sehri\","
     },
     "153": {
       "source_en": "\t[\"\uc544\uc708 \ubcd1\uc0ac\"] = \"Irwin Soldier\",",
@@ -520,6 +580,10 @@
     "211": {
       "source_en": "\t[\"\uadc0\uc871\uc2e0\uc0ac\"] = \"Nobleman\",",
       "translation_tr": "\t[\"\uadc0\uc871\uc2e0\uc0ac\"] = \"Asilzade\","
+    },
+    "212": {
+      "source_en": "\t[\"\uac80\uc0ac\"] = \"Swordsman Shimizu\",",
+      "translation_tr": "\t[\"\uac80\uc0ac\"] = \"Kilic Ustasi Shimizu\","
     },
     "214": {
       "source_en": "\t[\"\ud0d1\uc2b9\uc218\uc18d \uc11c\ube44\uc2a4\ub85c\uc774\ub4dc\"] = \"Airport Staff\",",
@@ -713,6 +777,10 @@
       "source_en": "\t[\"\ubc00\ud56d\uc120 \uc120\uc7a5\"] = \"Wheat Ship Captain\",",
       "translation_tr": "\t[\"\ubc00\ud56d\uc120 \uc120\uc7a5\"] = \"Bugday Gemisi Kaptani\","
     },
+    "278": {
+      "source_en": "\t[\"\ubc14\ub4dc\"] = \"Bard\",",
+      "translation_tr": "\t[\"\ubc14\ub4dc\"] = \"Ozan\","
+    },
     "279": {
       "source_en": "\t[\"\uc5b4\ubd80 \ubca0\ub4dc\ub85c\uc640\"] = \"Fisherman Peter\",",
       "translation_tr": "\t[\"\uc5b4\ubd80 \ubca0\ub4dc\ub85c\uc640\"] = \"Balikci Peter\","
@@ -732,6 +800,14 @@
     "283": {
       "source_en": "\t[\"\uad34\ud30d\ud574 \ubcf4\uc774\ub294 \ud560\uc544\ubc84\uc9c0\"] = \"Fastidious Old Man\",",
       "translation_tr": "\t[\"\uad34\ud30d\ud574 \ubcf4\uc774\ub294 \ud560\uc544\ubc84\uc9c0\"] = \"Titiz Yasli Adam\","
+    },
+    "286": {
+      "source_en": "\t[\"\ud06c\ub8e8\uc138\uc774\ub354\"] = \"Crusader\",",
+      "translation_tr": "\t[\"\ud06c\ub8e8\uc138\uc774\ub354\"] = \"Kutsal Savasci\","
+    },
+    "288": {
+      "source_en": "\t[\"\uae30\uc0ac \ud2f0\ubc1c\ud2b8\"] = \"Knight Tybalt\",",
+      "translation_tr": "\t[\"\uae30\uc0ac \ud2f0\ubc1c\ud2b8\"] = \"Sovalye Tybalt\","
     },
     "290": {
       "source_en": "\t[\"\uc774\ub85c\ubaa8\uc758 \uc5b4\uba38\ub2c8\"] = \"Iromo's Mother\",",
@@ -912,6 +988,10 @@
     "340": {
       "source_en": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8 \uc870\ud569\uc6d0\"] = \"Alchemist Union Member\",",
       "translation_tr": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8 \uc870\ud569\uc6d0\"] = \"Alchemist Birligi Uyesi\","
+    },
+    "342": {
+      "source_en": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8\"] = \"Alchemist\",",
+      "translation_tr": "\t[\"\uc54c\ucf00\ubbf8\uc2a4\ud2b8\"] = \"Simyaci\","
     },
     "343": {
       "source_en": "\t[\"\ubb38\uc9c0\uae30\"] = \"Gatekeeper\",",
