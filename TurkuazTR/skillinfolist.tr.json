@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.15.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 530 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.16.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 565 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -2131,6 +2131,146 @@
     "CD_MEDIALE_VOTUM": {
       "name_original": "Mediale Votum",
       "name_tr": "Mediale Votum"
+    },
+    "CD_MACE_BOOK_M": {
+      "name_original": "Mace & Book Mastery",
+      "name_tr": "Topuz ve Kitap Ustaligi"
+    },
+    "CD_ARGUTUS_VITA": {
+      "name_original": "Argutus Vita",
+      "name_tr": "Argutus Vita"
+    },
+    "CD_ARGUTUS_TELUM": {
+      "name_original": "Argutus Telum",
+      "name_tr": "Argutus Telum"
+    },
+    "CD_ARBITRIUM": {
+      "name_original": "Arbitrium",
+      "name_tr": "Arbitrium"
+    },
+    "CD_PRESENS_ACIES": {
+      "name_original": "Presens Acies",
+      "name_tr": "Presens Acies"
+    },
+    "CD_FIDUS_ANIMUS": {
+      "name_original": "Fidus Animus",
+      "name_tr": "Fidus Animus"
+    },
+    "CD_EFFLIGO": {
+      "name_original": "Effligo",
+      "name_tr": "Effligo"
+    },
+    "CD_COMPETENTIA": {
+      "name_original": "Competentia",
+      "name_tr": "Competentia"
+    },
+    "CD_PNEUMATICUS_PROCELLA": {
+      "name_original": "Pneumaticus Procella",
+      "name_tr": "Pneumaticus Procella"
+    },
+    "CD_DILECTIO_HEAL": {
+      "name_original": "Dilectio Heal",
+      "name_tr": "Dilectio Heal"
+    },
+    "CD_RELIGIO": {
+      "name_original": "Religio",
+      "name_tr": "Religio"
+    },
+    "CD_BENEDICTUM": {
+      "name_original": "Benedictum",
+      "name_tr": "Benedictum"
+    },
+    "CD_PETITIO": {
+      "name_original": "Petitio",
+      "name_tr": "Petitio"
+    },
+    "CD_FRAMEN": {
+      "name_original": "Framen",
+      "name_tr": "Framen"
+    },
+    "BO_BIONIC_PHARMACY": {
+      "name_original": "Bionic Pharmacy",
+      "name_tr": "Biyonik Eczacilik"
+    },
+    "BO_BIONICS_M": {
+      "name_original": "Bionics",
+      "name_tr": "Biyonik Ustaligi"
+    },
+    "BO_THE_WHOLE_PROTECTION": {
+      "name_original": "The Whole Protection",
+      "name_tr": "Tam Koruma"
+    },
+    "BO_ADVANCE_PROTECTION": {
+      "name_original": "Full Shadow Protection",
+      "name_tr": "Tam Golge Korumasi"
+    },
+    "BO_ACIDIFIED_ZONE_WATER": {
+      "name_original": "Acidified Zone (Water)",
+      "name_tr": "Asitlenmis Bolge - Su"
+    },
+    "BO_ACIDIFIED_ZONE_GROUND": {
+      "name_original": "Acidified Zone (Earth)",
+      "name_tr": "Asitlenmis Bolge - Toprak"
+    },
+    "BO_ACIDIFIED_ZONE_FIRE": {
+      "name_original": "Acidified Zone (Fire)",
+      "name_tr": "Asitlenmis Bolge - Ates"
+    },
+    "BO_ACIDIFIED_ZONE_WIND": {
+      "name_original": "Acidified Zone (Wind)",
+      "name_tr": "Asitlenmis Bolge - Ruzgar"
+    },
+    "BO_WOODENWARRIOR": {
+      "name_original": "Wooden Warrior",
+      "name_tr": "Ahsap Savasci"
+    },
+    "BO_WOODEN_FAIRY": {
+      "name_original": "Wooden Fairy",
+      "name_tr": "Ahsap Peri"
+    },
+    "BO_CREEPER": {
+      "name_original": "Creeper",
+      "name_tr": "Sarmasik"
+    },
+    "BO_RESEARCHREPORT": {
+      "name_original": "Research Report",
+      "name_tr": "Arastirma Raporu"
+    },
+    "BO_HELLTREE": {
+      "name_original": "Helltree",
+      "name_tr": "Cehennem Agaci"
+    },
+    "NPC_BO_THROWROCK": {
+      "name_original": "Throw Rock",
+      "name_tr": "Kaya Firlat"
+    },
+    "NPC_BO_WOODEN_ATTACK": {
+      "name_original": "Wooden Attack",
+      "name_tr": "Ahsap Saldirisi"
+    },
+    "NPC_BO_HELL_HOWLING": {
+      "name_original": "Hell Howling",
+      "name_tr": "Cehennem Kukremesi"
+    },
+    "NPC_BO_HELL_DUSTY": {
+      "name_original": "Hell Tree Powder",
+      "name_tr": "Cehennem Agaci Tozu"
+    },
+    "NPC_BO_FAIRY_DUSTY": {
+      "name_original": "Fairy Tree Powder",
+      "name_tr": "Peri Agaci Tozu"
+    },
+    "BO_EXPLOSIVE_POWDER": {
+      "name_original": "Explosive Powder",
+      "name_tr": "Patlayici Toz"
+    },
+    "BO_MAYHEMIC_THORNS": {
+      "name_original": "Mayhemic Thorns",
+      "name_tr": "Kaos Dikenleri"
+    },
+    "WH_ADVANCED_TRAP": {
+      "name_original": "Advanced Trap",
+      "name_tr": "Gelismis Tuzak"
     }
   },
   "name_profiles": {
@@ -2143,5 +2283,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 530
+  "patch_count": 565
 }
