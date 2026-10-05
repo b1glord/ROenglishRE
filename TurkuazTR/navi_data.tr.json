@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.5.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 1597 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.6.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 1654 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 1597,
+  "patch_count": 1654,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -6297,6 +6297,110 @@
       "source_en": "\t[\"\ub77c\ud50c\ub808\uc871 \ub9c8\uc744 \ubaa8\ub77c\"] = \"Mora Village\",",
       "translation_tr": "\t[\"\ub77c\ud50c\ub808\uc871 \ub9c8\uc744 \ubaa8\ub77c\"] = \"Mora Koyu\","
     },
+    "3990": {
+      "source_en": "\t[\"\ud654\uc5fc\ub3d9\uad74\"] = \"Flame Cave\",",
+      "translation_tr": "\t[\"\ud654\uc5fc\ub3d9\uad74\"] = \"Alev Magarasi\","
+    },
+    "3994": {
+      "source_en": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uc232\"] = \"Les Forest\",",
+      "translation_tr": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uc232\"] = \"Les Ormani\","
+    },
+    "3995": {
+      "source_en": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uae4a\uc740 \uc232\"] = \"Temny Forest\",",
+      "translation_tr": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uae4a\uc740 \uc232\"] = \"Temny Ormani\","
+    },
+    "3996": {
+      "source_en": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uae4a\uace0 \uae4a\uc740 \uc232\"] = \"Dremuci Forest\",",
+      "translation_tr": "\t[\"\ubaa8\uc2a4\ucf54\ube44\uc544 \uae4a\uace0 \uae4a\uc740 \uc232\"] = \"Dremuci Ormani\","
+    },
+    "4000": {
+      "source_en": "\t[\"\uc774\ub984\uc5c6\ub294 \uc12c\"] = \"Nameless Island\",",
+      "translation_tr": "\t[\"\uc774\ub984\uc5c6\ub294 \uc12c\"] = \"Isimsiz Ada\","
+    },
+    "4001": {
+      "source_en": "\t[\"\uc774\ub984\uc5c6\ub294 \uc12c \ub0b4\ubd80\"] = \"Inside Nameless Island\",",
+      "translation_tr": "\t[\"\uc774\ub984\uc5c6\ub294 \uc12c \ub0b4\ubd80\"] = \"Isimsiz Ada Ici\","
+    },
+    "4002": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub358\uc804 1\uce35 \ub9dd\uc790\uc758 \uc5f0\ud68c\uc7a5\"] = \"Niflheim Dungeon 1st Floor - Dead Man's Banquet Hall\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub358\uc804 1\uce35 \ub9dd\uc790\uc758 \uc5f0\ud68c\uc7a5\"] = \"Niflheim Zindani 1. Kat - Olulerin Ziyafet Salonu\","
+    },
+    "4003": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub358\uc804 2\uce35 \ubb34\ub108\uc9c4 \uc624\ud398\ub77c \ud558\uc6b0\uc2a4\"] = \"Niflheim Dungeon 2nd Floor - Collapsed Opera Hous\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub358\uc804 2\uce35 \ubb34\ub108\uc9c4 \uc624\ud398\ub77c \ud558\uc6b0\uc2a4\"] = \"Niflheim Zindani 2. Kat - Cokmus Opera Binasi\","
+    },
+    "4004": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uc678\ub534\ub9c8\uc744 \uc2a4\ucf08\ub9c1\ud2bc\"] = \"Skellington, a Solitary Village in Niflheim\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uc678\ub534\ub9c8\uc744 \uc2a4\ucf08\ub9c1\ud2bc\"] = \"Skellington, Niflheim Issiz Koyu\","
+    },
+    "4007": {
+      "source_en": "\t[\"\uc8fd\uc740\uc790\uc758 \ub098\ub77c \ub2c8\ud50c\ud5e4\uc784\"] = \"Niflheim, Realm of the Dead\",",
+      "translation_tr": "\t[\"\uc8fd\uc740\uc790\uc758 \ub098\ub77c \ub2c8\ud50c\ud5e4\uc784\"] = \"Niflheim, Oluler Diyari\","
+    },
+    "4010": {
+      "source_en": "\t[\"\uace0\ub300 \uc624\ub518 \uc2e0\uc804\"] = \"Ancient Odin Temple\",",
+      "translation_tr": "\t[\"\uace0\ub300 \uc624\ub518 \uc2e0\uc804\"] = \"Antik Odin Tapinagi\","
+    },
+    "4014": {
+      "source_en": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 1\uce35\"] = \"Orc Dungeon F1\",",
+      "translation_tr": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 1\uce35\"] = \"Ork Zindani K1\","
+    },
+    "4015": {
+      "source_en": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 2\uce35\"] = \"Orc Dungeon F2\",",
+      "translation_tr": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 2\uce35\"] = \"Ork Zindani K2\","
+    },
+    "4019": {
+      "source_en": "\t[\"\ud30c\ub77c\ub9c8\ucf13\"] = \"Para Market\",",
+      "translation_tr": "\t[\"\ud30c\ub77c\ub9c8\ucf13\"] = \"Para Pazari\","
+    },
+    "4020": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \uad81\uc218\ub9c8\uc744\"] = \"Archer Village\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \uad81\uc218\ub9c8\uc744\"] = \"Okcu Koyu\","
+    },
+    "4022": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 1\uce35\"] = \"Payon Cave F1\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 1\uce35\"] = \"Payon Magarasi K1\","
+    },
+    "4023": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 2\uce35\"] = \"Payon Cave F2\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 2\uce35\"] = \"Payon Magarasi K2\","
+    },
+    "4024": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 3\uce35\"] = \"Payon Cave F3\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 3\uce35\"] = \"Payon Magarasi K3\","
+    },
+    "4025": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 4\uce35(\ud3d0\uac00\ucd0c)\"] = \"Payon Cave F4\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 4\uce35(\ud3d0\uac00\ucd0c)\"] = \"Payon Magarasi K4\","
+    },
+    "4026": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 5\uce35(\ud3d0\uac00\ucd0c)\"] = \"Payon Cave F5\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 5\uce35(\ud3d0\uac00\ucd0c)\"] = \"Payon Magarasi K5\","
+    },
+    "4027": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \uc232 \uc18d\"] = \"Payon Forest\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \uc232 \uc18d\"] = \"Payon Ormani\","
+    },
+    "4028": {
+      "source_en": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Greenwood Lake\",",
+      "translation_tr": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Yesilorman Golu\","
+    },
+    "4032": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc911\uc559\uad81\"] = \"Prontera Central Palace\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc911\uc559\uad81\"] = \"Prontera Merkez Sarayi\","
+    },
+    "4034": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc131\ub2f9 \ub0b4\ubd80\"] = \"The Sanctuary\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc131\ub2f9 \ub0b4\ubd80\"] = \"Kutsal Alan\","
+    },
+    "4036": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ud544\ub4dc\"] = \"Prontera Field\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ud544\ub4dc\"] = \"Prontera Sahasi\","
+    },
+    "4037": {
+      "source_en": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Realm\",",
+      "translation_tr": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Diyari\","
+    },
     "4039": {
       "source_en": "\t[\"\uc655\uac00\uc758 \uae30\uc5b5\"] = \"Memorial of Past Royal Family\",",
       "translation_tr": "\t[\"\uc655\uac00\uc758 \uae30\uc5b5\"] = \"Eski Kraliyet Ailesi Aniti\","
@@ -6305,9 +6409,65 @@
       "source_en": "\t[\"\uacfc\uac70 \uc655\uac00\uc758 \uae30\uc5b5\"] = \"Memorial of Past Royal Family\",",
       "translation_tr": "\t[\"\uacfc\uac70 \uc655\uac00\uc758 \uae30\uc5b5\"] = \"Eski Kraliyet Ailesi Aniti\","
     },
+    "4041": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 1\uce35\"] = \"Labyrinth Forest F1\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 1\uce35\"] = \"Labirent Ormani K1\","
+    },
+    "4042": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 2\uce35\"] = \"Labyrinth Forest F2\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 2\uce35\"] = \"Labirent Ormani K2\","
+    },
+    "4043": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 3\uce35\"] = \"Labyrinth Forest F3\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ubbf8\uad81 \uc232 3\uce35\"] = \"Labirent Ormani K3\","
+    },
+    "4044": {
+      "source_en": "\t[\"\ub4a4\ud2c0\ub9b0 \ubbf8\uad81 \uc232\"] = \"Twisted Labyrinth Forest\",",
+      "translation_tr": "\t[\"\ub4a4\ud2c0\ub9b0 \ubbf8\uad81 \uc232\"] = \"Carpik Labirent Ormani\","
+    },
+    "4046": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558\uac10\uc625\"] = \"Prontera Dungeon\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558\uac10\uc625\"] = \"Prontera Zindani\","
+    },
+    "4053": {
+      "source_en": "\t[\"\uc720\ub178\uc758 \ubc84\ub824\uc9c4 \uc9d1 \ub0b4\ubd80\"] = \"Inside of the Abandoned House in Yuno\",",
+      "translation_tr": "\t[\"\uc720\ub178\uc758 \ubc84\ub824\uc9c4 \uc9d1 \ub0b4\ubd80\"] = \"Yuno Terk Edilmis Ev Ici\","
+    },
+    "4055": {
+      "source_en": "\t[\"\ube44\ubc00\uc8fc\uc810\"] = \"Private Pub\",",
+      "translation_tr": "\t[\"\ube44\ubc00\uc8fc\uc810\"] = \"Gizli Meyhane\","
+    },
     "4057": {
       "source_en": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Inside Ancient Shrine\",",
       "translation_tr": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Antik Tapinagin Ici\","
+    },
+    "4058": {
+      "source_en": "\t[\"\ud558\ud2b8\ud5cc\ud130 \uad70\uc218\uae30\uc9c0\"] = \"Heart Hunter Military Base\",",
+      "translation_tr": "\t[\"\ud558\ud2b8\ud5cc\ud130 \uad70\uc218\uae30\uc9c0\"] = \"Heart Hunter Askeri Ussu\","
+    },
+    "4059": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804\"] = \"Thor Volcano Dungeon\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804\"] = \"Thor Volkan Zindani\","
+    },
+    "4071": {
+      "source_en": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Inside Rachel Sanctuary\",",
+      "translation_tr": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Rachel Tapinagi Ici\","
+    },
+    "4072": {
+      "source_en": "\t[\"\ud504\ub808\uc774\uc57c \ub300\uc2e0\uc804(\uc138\uc2a4\ub8f8\ub2c8\ub974)\"] = \"Freya's Grand Temple (Sesilmir)\",",
+      "translation_tr": "\t[\"\ud504\ub808\uc774\uc57c \ub300\uc2e0\uc804(\uc138\uc2a4\ub8f8\ub2c8\ub974)\"] = \"Freya Buyuk Tapinagi - Sesilmir\","
+    },
+    "4073": {
+      "source_en": "\t[\"\uad50\ud669 \uc9d1\ubb34\uc2e4(\ud558\ub298 \uc815\uc6d0)\"] = \"Pope's Room (Sky Garden)\",",
+      "translation_tr": "\t[\"\uad50\ud669 \uc9d1\ubb34\uc2e4(\ud558\ub298 \uc815\uc6d0)\"] = \"Papanin Odasi - Gok Bahcesi\","
+    },
+    "4082": {
+      "source_en": "\t[\"\ubca0\ub974\ub108 \uc5f0\uad6c\uc18c\"] = \"Werner Laboratory\",",
+      "translation_tr": "\t[\"\ubca0\ub974\ub108 \uc5f0\uad6c\uc18c\"] = \"Werner Laboratuvari\","
+    },
+    "4089": {
+      "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ud544\ub4dc\"] = \"Splendide Field\",",
+      "translation_tr": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ud544\ub4dc\"] = \"Splendide Sahasi\","
     },
     "4090": {
       "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \uc57c\uc804\uc0ac\ub839\ubd80 \ub0b4\ubd80\"] = \"Inside Splendide\",",
@@ -6316,6 +6476,74 @@
     "4091": {
       "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub0b4\ubd80\"] = \"Inside Splendide\",",
       "translation_tr": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub0b4\ubd80\"] = \"Splendide Ici\","
+    },
+    "4095": {
+      "source_en": "\t[\"\uc54c \uc218 \uc5c6\ub294\uacf3\"] = \"Thanatos Tower Entrance\",",
+      "translation_tr": "\t[\"\uc54c \uc218 \uc5c6\ub294\uacf3\"] = \"Thanatos Kulesi Girisi\","
+    },
+    "4096": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc15\ubb3c\uad00 \uc785\uad6c\"] = \"Thanatos Tower F1 - Lower Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc15\ubb3c\uad00 \uc785\uad6c\"] = \"Thanatos Kulesi K1 - Alt Seviye\","
+    },
+    "4097": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc15\ubb3c\uad00\"] = \"Thanatos Tower F2 - Lower Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc15\ubb3c\uad00\"] = \"Thanatos Kulesi K2 - Alt Seviye\","
+    },
+    "4098": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc84\ub824\uc9c4 \uacf5\uac04\"] = \"Thanatos Tower F3 - Lower Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \ud558\uce35\ubd80 \ubc84\ub824\uc9c4 \uacf5\uac04\"] = \"Thanatos Kulesi K3 - Alt Seviye\","
+    },
+    "4099": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80\"] = \"Thanatos Tower F5 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80\"] = \"Thanatos Kulesi K5 - Ust Seviye\","
+    },
+    "4100": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \ucc9c\uc0ac\uc758 \ubc29\"] = \"Thanatos Tower F7 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \ucc9c\uc0ac\uc758 \ubc29\"] = \"Thanatos Kulesi K7 - Melek Odasi\","
+    },
+    "4101": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uace0\ub1cc\uc758 \ubc29\"] = \"Thanatos Tower F9 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uace0\ub1cc\uc758 \ubc29\"] = \"Thanatos Kulesi K9 - Istirap Odasi\","
+    },
+    "4102": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc2ac\ud514\uc758 \ubc29\"] = \"Thanatos Tower F10 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc2ac\ud514\uc758 \ubc29\"] = \"Thanatos Kulesi K10 - Keder Odasi\","
+    },
+    "4103": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc808\ub9dd\uc758 \ubc29\"] = \"Thanatos Tower F11 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc808\ub9dd\uc758 \ubc29\"] = \"Thanatos Kulesi K11 - Umutsuzluk Odasi\","
+    },
+    "4104": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc99d\uc624\uc758 \ubc29\"] = \"Thanatos Tower F12 - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uc99d\uc624\uc758 \ubc29\"] = \"Thanatos Kulesi K12 - Nefret Odasi\","
+    },
+    "4105": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc(\uc54c \uc218 \uc5c6\ub294 \uacf3)\"] = \"Thanatos Tower - Boss Area\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc(\uc54c \uc218 \uc5c6\ub294 \uacf3)\"] = \"Thanatos Kulesi - Boss Alani\","
+    },
+    "4106": {
+      "source_en": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uacc4\ub2e8\"] = \"Thanatos Tower Steps - Upper Level\",",
+      "translation_tr": "\t[\"\ud0c0\ub098\ud1a0\uc2a4 \ud0c0\uc6cc \uc0c1\uce35\ubd80 \uacc4\ub2e8\"] = \"Thanatos Kulesi Merdivenleri - Ust Seviye\","
+    },
+    "4107": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ubcd1\ucc38\uae30\uc9c0\"] = \"Thor Volcano Camp\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ubcd1\ucc38\uae30\uc9c0\"] = \"Thor Volkan Kampi\","
+    },
+    "4108": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 1\uce35\"] = \"Thor Volcano Dungeon F1\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 1\uce35\"] = \"Thor Volkan Zindani K1\","
+    },
+    "4109": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 2\uce35\"] = \"Thor Volcano Dungeon F2\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 2\uce35\"] = \"Thor Volkan Zindani K2\","
+    },
+    "4110": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 3\uce35\"] = \"Thor Volcano Dungeon F3\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 3\uce35\"] = \"Thor Volkan Zindani K3\","
+    },
+    "4116": {
+      "source_en": "\t[\"\uc4f8\uc4f8\ud55c \uc591\uac70\ucd0c\"] = \"Desolate Village\",",
+      "translation_tr": "\t[\"\uc4f8\uc4f8\ud55c \uc591\uac70\ucd0c\"] = \"Issiz Koy\","
     },
     "4167": {
       "source_en": "\t[\"\uc5bc\uc5b4\ubd99\uc740 \ube44\ub298 \uc5b8\ub355\"] = \"Frozen Scale Hill\",",
