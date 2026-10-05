@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/Tools/apply_questid2display_translation.py
 # 📌 Amac: questid2display.txt Turkce patchlerini kaynak byte yapisini ve satir sonlarini koruyarak uygular
 # 📌 Tool - Python
-# Version: 2.0.0
+# Version: 2.1.0
 # Aciklama: Upstream blobu byte olarak okur; yalnizca hedef quest alanlarini ASCII byte ile degistirir ve diger byte'lari birebir korur
 # Bagimli Oldugu Katman: Tool
 
@@ -153,7 +153,8 @@ def main() -> int:
             return 1
 
     output = b"".join(output_lines)
-    target = repo_root / args.path
+    target = Path(args.output_path).resolve() if args.output_path else (repo_root / args.path)
+    target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(output)
 
     print(f"Applied quest patches: {len(applied)}")
