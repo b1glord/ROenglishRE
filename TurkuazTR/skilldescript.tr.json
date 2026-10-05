@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.27.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 720 exact Renewal skill aciklamasi dahil",
+    "version": "2.28.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 740 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -13053,6 +13053,404 @@
         "[Sv 8]: ^777777MATK 8050%/Etki Alani: 7x7 hucre^000000",
         "[Sv 9]: ^777777MATK 9000%/Etki Alani: 7x7 hucre^000000",
         "[Sv 10]: ^777777MATK 9950%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "SS_KAGEAKUMU": {
+      "name_original": "Shadow - Nightmare",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Shadow Flash 7^000000",
+        "Beceri Turu: ^339966Aktif (AP)^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Maliyet: ^FF000020^000000",
+        "Aciklama: ^77777713x13 hucre menzilindeki tum dusmanlarin golgelerini emerek guclu yakin dovus fiziksel hasar verir.",
+        "^663399Nightmare^777777 etkisindeki hedeflere 1.5x hasar verir (^663399Nightmare^777777 etkisi iptal edilir).",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 22500%^000000"
+      ]
+    },
+    "SS_HITOUAKUMU": {
+      "name_original": "Kunai - Nightmare",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Kunai - Distortion 5,",
+        "Kunai - Rotation 5, Kunai - Refraction 5^000000",
+        "Beceri Turu: ^339966Aktif (AP)^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Maliyet: ^FF000020^000000",
+        "Aciklama: ^77777713x13 hucre menzilindeki tum dusmanlara cok sayida memorization sacarak guclu menzilli fiziksel hasar verir.",
+        "^663399Nightmare^777777 etkisindeki hedeflere 1.5x hasar verir (^663399Nightmare^777777 etkisi ardindan iptal edilir).",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 22500%^000000"
+      ]
+    },
+    "SS_ANKOKURYUUAKUMU": {
+      "name_original": "Dark Dragon - Nightmare",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Mirage 1, Red Flame Cannon 5,",
+        "Cold Blooded Cannon 5, Thundering Cannon 5,",
+        "Golden Dragon Cannon 5, Darkening Cannon 5^000000",
+        "Beceri Turu: ^339966Aktif (AP)^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Maliyet: ^FF000020^000000",
+        "Aciklama: ^777777Kullananin cevresindeki 11x11 hucrede golge ejderhasini cagirarak guclu ^009999Shadow^777777 elementli buyu hasari verir.",
+        "^663399Nightmare^777777 etkisindeki hedeflere ayni guc seviyesinde ek ^FF0000Fire^777777 elementli buyu hasari verir (^663399Nightmare^777777 etkisi ardindan iptal edilir).",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600SPL^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 17500%^000000",
+        "RO 20th Anniversary Firecracker",
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Event^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Effect^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Ragnarok Online'in 20. yil donumunu kutlamak icin havai fisek atabilirsiniz.^000000",
+        "[Sv 1]: ^7777773 saniye boyunca havai fisek atar^000000"
+      ]
+    },
+    "IG_RADIANT_SPEAR": {
+      "name_original": "Radiant Spear",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Overslash 3, Shield Shooting 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFAttack Stance^777777 durumunda kullanilabilir. Hedefe ve cevresindeki dusmanlara menzilli fiziksel hasar verir.",
+        "^0000FFGrand Judgement^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFSpear & Sword Mastery^777777 skill seviyesine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^990099One-Handed Spear^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 4650+(^0000FFMastery^777777 Sv x50)%/4900+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777ATK 5800+(^0000FFMastery^777777 Sv x50)%/6300+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777ATK 6950+(^0000FFMastery^777777 Sv x50)%/7700+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 4]: ^777777ATK 8100+(^0000FFMastery^777777 Sv x50)%/9100+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 5]: ^777777ATK 9250+(^0000FFMastery^777777 Sv x50)%/10500+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 6]: ^777777ATK 10400+(^0000FFMastery^777777 Sv x50)%/11900+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 7]: ^777777ATK 11550+(^0000FFMastery^777777 Sv x50)%/13300+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 8]: ^777777ATK 12700+(^0000FFMastery^777777 Sv x50)%/14700+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 9]: ^777777ATK 13850+(^0000FFMastery^777777 Sv x50)%/16100+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 10]: ^777777ATK 15000+(^0000FFMastery^777777 Sv x50)%/17500+(^0000FFMastery^777777 Sv x50)%(^0000FFGrand Judgement^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "IG_IMPERIAL_CROSS": {
+      "name_original": "Imperial Cross",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Overslash 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFAttack Stance^777777 durumunda kullanilabilir. Hedefe 3 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFGrand Judgement^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600POW^777777 ve ^0000FFSpear & Sword Mastery^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 3000+(^0000FFMastery^777777 Sv x25)%/3400+(^0000FFMastery^777777 Sv x25)%(^0000FFGrand Judgement^777777)^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 4350+(^0000FFMastery^777777 Sv x25)%/5050+(^0000FFMastery^777777 Sv x25)%(^0000FFGrand Judgement^777777)^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 5700+(^0000FFMastery^777777 Sv x25)%/6700+(^0000FFMastery^777777 Sv x25)%(^0000FFGrand Judgement^777777)^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 7050+(^0000FFMastery^777777 Sv x25)%/8350+(^0000FFMastery^777777 Sv x25)%(^0000FFGrand Judgement^777777)^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 8400+(^0000FFMastery^777777 Sv x25)%/10000+(^0000FFMastery^777777 Sv x25)%(^0000FFGrand Judgement^777777)^000000"
+      ]
+    },
+    "MT_RUSH_STRIKE": {
+      "name_original": "Rush Strike",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Rush Quake 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe dogru atilip baltayla vurur; hedefe ve cevresindeki dusmanlara yakin dovus fiziksel hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.",
+        "^990099Mado Gear^777777 uzerindeyken kullanilamaz. ^990099Two-Handed Axe^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777ATK 4400%/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777ATK 8150%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777ATK 11900%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777ATK 15650%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777ATK 19400%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "MT_POWERFUL_SWING": {
+      "name_original": "Powerful Swing",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Rush Strike 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Baltayla tum gucuyle vurarak hedefe ve cevresindeki dusmanlara 5 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFAxe Stomp^777777 etkisi altindayken daha fazla hasar verir. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.",
+        "^990099Mado Gear^777777 uzerindeyken kullanilamaz. ^990099Two-Handed Axe^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1180%/1380%(^0000FFAxe Stomp^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 2060%/2360%(^0000FFAxe Stomp^777777)/Etki Alani: 3x3 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 2940%/3340%(^0000FFAxe Stomp^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 3820%/4320%(^0000FFAxe Stomp^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 4700%/5300%(^0000FFAxe Stomp^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "MT_ENERGY_CANNONADE": {
+      "name_original": "Energy Cannonade",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Triple Laser 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF3^000000",
+        "Aciklama: ^777777Yalnizca ^990099Mado Gear^777777 uzerindeyken kullanilabilir.",
+        "Hedefe enerji kuresi atesleyerek hedefe ve cevresindeki dusmanlara 7 kez menzilli fiziksel hasar verir.",
+        "Hedefin fiziksel savunmasini yok sayar ve hasar kullananin ^CC6600Base Level^777777 ile ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1000%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 1750%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 2500%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 3250%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 4000%/Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "BO_MYSTERY_POWDER": {
+      "name_original": "Mystery Powder",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Explosive Powder 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe cok ince toz sacarak hedefe ve cevresindeki dusmanlara yakin dovus fiziksel hasar verir.",
+        "Ek olarak kullanan 60 saniye boyunca ^0000FFDust Explosion^777777 kullanabilmesini saglayan ^0000FFMystery Powder^777777 etkisini kazanir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 5500%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777ATK 9500%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777ATK 13500%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777ATK 17500%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777ATK 21500%/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "BO_DUST_EXPLOSION": {
+      "name_original": "Dust Explosion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Mystery Powder 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Yalnizca ^0000FFMystery Powder^777777 etkisi aktifken kullanilabilir. Hedefe dogru toz patlamasi olusturarak hedefe ve cevresindeki dusmanlara 5 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFResearch Report^777777 etkisi altindayken daha fazla hasar verir. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1120%/1380%(^0000FFResearch Report^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 1740%/2210%(^0000FFResearch Report^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 2360%/3040%(^0000FFResearch Report^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 2980%/3870%(^0000FFResearch Report^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 3600%/4700%(^0000FFResearch Report^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "SHC_CROSS_SLASH": {
+      "name_original": "Cross Slash",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Weapon Blocking 3,",
+        "Dancing Knife 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe ve cevresindeki dusmanlara 3 kez yakin dovus fiziksel hasar verir.",
+        "10 saniye boyunca ^0000FFWeapon Blocking^777777 durumu kazandirir. ^0000FFShadow Exceed^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar; kullananin ^CC6600Critical^777777 sansinin yarisina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 300%/360%(^0000FFShadow Exceed^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 600%/720%(^0000FFShadow Exceed^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 900%/1080%(^0000FFShadow Exceed^777777/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1200%/1440%(^0000FFShadow Exceed^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 1500%/1800%(^0000FFShadow Exceed^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "ABC_HIT_AND_SLIDING": {
+      "name_original": "Hit And Sliding",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Dagger & Bow Mastery 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe saldirarak yakin dovus fiziksel hasar verir ve ardindan geriye kayar.",
+        "Kusanilan silah ^990099Bow^777777 ise menzilli fiziksel hasar verir. 60 saniye boyunca ^0000FFChasing^777777 etkisi kazandirir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 3500%/Kayma: 1 hucre^000000",
+        "[Sv 2]: ^777777ATK 7000%/Kayma: 2 hucre^000000",
+        "[Sv 3]: ^777777ATK 10500%/Kayma: 3 hucre^000000",
+        "[Sv 4]: ^777777ATK 14000%/Kayma: 4 hucre^000000",
+        "[Sv 5]: ^777777ATK 17500%/Kayma: 5 hucre^000000",
+        " ",
+        "^CC3D3D[Chasing]^777777",
+        "Asagidaki skill'lerin hasari artar:",
+        "^4641D9[Unlucky Rush]^777777: +(Unlucky Rush Sv x2500)%^000000",
+        "^CC723D[Chain Reaction Shot Secondary Damage]^777777:",
+        "+(Chain Reaction Shot Sv x1100)%^000000"
+      ]
+    },
+    "ABC_CHASING_BREAK": {
+      "name_original": "Chasing Break",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hit And Sliding 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Yakin^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefi takip edip uzerine atilarak hedefe ve cevresindeki dusmanlara 5 kez yakin dovus fiziksel hasar verir.",
+        "^0000FFChasing^777777 etkisi altindayken daha fazla hasar verir ve 7 kez vurur.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777ATK 2000%/2250%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777ATK 2450%/2750%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777ATK 2900%/3250%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777ATK 3350%/3750%(^0000FFChasing^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777ATK 3800%/4250%(^0000FFChasing^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "ABC_CHASING_SHOT": {
+      "name_original": "Chasing Shot",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hit And Sliding 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefi takip edip uzerine atilarak hedefe ve cevresindeki dusmanlara 2 kez menzilli fiziksel hasar verir.",
+        "^0000FFChasing^777777 etkisi altindayken daha fazla hasar verir ve 3 kez vurur.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600CON^777777 degerine gore artar; kullananin ^CC6600Critical^777777 sansinin yarisina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^990099Bow^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 2600%/2850%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 3450%/3700%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 4300%/4550%(^0000FFChasing^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 5150%/5400%(^0000FFChasing^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 6000%/6250%(^0000FFChasing^777777)/Etki Alani: 7x7 hucre^000000"
+      ]
+    },
+    "TR_RHYTHMICAL_WAVE": {
+      "name_original": "Rhythmical Wave",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Metallic Fury 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF3^000000",
+        "Aciklama: ^777777Hedefe sonik buyu yayarak hedefe ve cevresindeki dusmanlara buyu hasari verir.",
+        "^0000FFMystic Symphony^777777 etkisi altindayken daha fazla hasar verir. Hasar kullananin ^CC6600Base Level^777777, ^CC6600SPL^777777 ve ^0000FFStage Manner^777777 skill seviyesine gore artar.",
+        "Element kusanilan ^990099Arrow^777777'a baglidir. ^990099Musical Instrument^777777 veya ^990099Whip^777777 gerektirir. 1 ^990099Arrow^777777 tuketir.^000000",
+        "[Sv 1]: ^777777MATK 3900%/5100%(^0000FFMystic Symphony^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777MATK 7550%/9750%(^0000FFMystic Symphony^777777)/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777MATK 11200%/14400%(^0000FFMystic Symphony^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777MATK 14850%/19050%(^0000FFMystic Symphony^777777)/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777MATK 18500%/23700%(^0000FFMystic Symphony^777777)/Etki Alani: 9x9 hucre^000000"
+      ]
+    },
+    "SS_FOUR_CHARM": {
+      "name_original": "Four Colors Charm",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Release Ninja Spell 1, Mirage 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "AP Maliyeti: ^FF000020^000000",
+        "Aciklama: ^777777Yalnizca ayni elementten 10 spirit cagrilmisken kullanilabilir.",
+        "Cagrilan spirit'lerin elementlerine bagli buyuleri guclendiren bir charm'dir. ^0000FFRed Flame Cannon^777777, ^0000FFThundering Cannon^777777, ^0000FFCold Blooded Cannon^777777 ve ^0000FFGolden Dragon Cannon^777777 hasarini artirir.",
+        "Farkli elementlerden gelen buff'lar ust uste binebilir.^000000",
+        "[Sv 1]: ^777777Sure: 300 saniye^000000",
+        "^CC3D3D[Fire Spirit]:[Four Colors Charm: Fire]^000000",
+        "- ^0000FFRed Flame Cannon^777777 Hasar +8500%^000000",
+        "^4641D9[Ice Spirit]:[Four Colors Charm: Water]^000000",
+        "- ^0000FFCold Blooded Cannon^777777 Hasar +7000%^000000",
+        "^47C83E[Wind Spirit]:[Four Colors Charm: Wind]^000000",
+        "- ^0000FFThundering Cannon^777777 Hasar +8500%^000000",
+        "^CC723D[Earth Spirit]:[Four Colors Charm: Earth]^000000",
+        "- ^0000FFGolden Dragon Cannon^777777 Hasar +5500%^000000"
+      ]
+    },
+    "NW_WILD_SHOT": {
+      "name_original": "Wild Shot",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Only One Bullet 3,",
+        "Spiral Shooting 3, Magazine for One 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF3^000000",
+        "Aciklama: ^777777Hedefin cevresine gelisiguzel ates ederek hedefe ve cevresindeki dusmanlara 7 kez menzilli fiziksel hasar verir.",
+        "^0000FFHidden Card^777777 etkisi altindayken daha fazla hasar verir. Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600CON^777777 degerine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "5 ^990099Bullet^777777 tuketir. ^990099Rifle^777777 veya ^990099Pistol^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1080%/^0000FFHidden Card^777777: ^990099Revolver^777777: 1180% Vurus Basina/^990099Rifle^777777: 1230% Vurus Basina/Etki Alani - Revolver: 5x5 hucre/Rifle: 7x7 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 1310%/^0000FFHidden Card^777777: ^990099Revolver^777777: 1510% Vurus Basina/^990099Rifle^777777: 1610% Vurus Basina/Etki Alani - Revolver: 5x5 hucre/Rifle: 7x7 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 1540%/^0000FFHidden Card^777777: ^990099Revolver^777777: 1840% Vurus Basina/^990099Rifle^777777: 1990% Vurus Basina/Etki Alani - Revolver: 5x5 hucre/Rifle: 7x7 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 1770%/^0000FFHidden Card^777777: ^990099Revolver^777777: 2170% Vurus Basina/^990099Rifle^777777: 2370% Vurus Basina/Etki Alani - Revolver: 7x7 hucre/Rifle: 9x9 hucre^000000",
+        "[Sv 5] :^777777Vurus Basina ATK 2000%/^0000FFHidden Card^777777: ^990099Revolver^777777: 2500% Vurus Basina/^990099Rifle^777777: 2750% Vurus Basina/Etki Alani - Revolver: 7x7 hucre/Rifle: 9x9 hucre^000000"
+      ]
+    },
+    "NW_MIDNIGHT_FALLEN": {
+      "name_original": "Midnight Fallen",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: The Vigilante at Night 3,",
+        "Magazine for One 3, Wild Fire 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Belirlenen alani bombalayarak alandaki dusmanlara 3 kez menzilli fiziksel hasar verir. ^0000FFHidden Card^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hedefin fiziksel savunmasini yok sayar ve hasar kullananin ^CC6600Base Level^777777 ile ^CC6600CON^777777 degerine gore artar.",
+        "5 ^990099Bullet^777777 tuketir. ^990099Shotgun^777777, ^990099Gatling Gun^777777 veya ^990099Grenade Launcher^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 3350%/^0000FFHidden Card^777777: Shotgun 3750%/Gatling Gun 3550%/Grenade Launcher 3690%/Etki Alani - Shotgun: 5x5/Gatling Gun: 7x7/Grenade Launcher: 9x9 hucre^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 4200%/^0000FFHidden Card^777777: Shotgun 5000%/Gatling Gun 4600%/Grenade Launcher 4880%/Etki Alani - Shotgun: 5x5/Gatling Gun: 7x7/Grenade Launcher: 9x9 hucre^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 5050%/^0000FFHidden Card^777777: Shotgun 6250%/Gatling Gun 5650%/Grenade Launcher 6070%/Etki Alani - Shotgun: 5x5/Gatling Gun: 7x7/Grenade Launcher: 9x9 hucre^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 5900%/^0000FFHidden Card^777777: Shotgun 7500%/Gatling Gun 6700%/Grenade Launcher 7260%/Etki Alani - Shotgun: 7x7/Gatling Gun: 9x9/Grenade Launcher: 11x11 hucre^000000",
+        "[Sv 5] :^777777Vurus Basina ATK 6750%/^0000FFHidden Card^777777: Shotgun 8750%/Gatling Gun 7750%/Grenade Launcher 8450%/Etki Alani - Shotgun: 7x7/Gatling Gun: 9x9/Grenade Launcher: 11x11 hucre^000000"
+      ]
+    },
+    "DK_DRAGONIC_PIERCE": {
+      "name_original": "Dragonic Pierce",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hack and Slasher 7^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Fiziksel Menzilli^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Hedefe 5 kez menzilli fiziksel hasar verir. ^0000FFDragonic Aura^777777 etkisi altindayken daha fazla hasar verir.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600POW^777777 degerine gore artar; kullananin ^CC6600Critical^777777 sansina gore toplam ^CC6600Critical Damage^777777 degerinin yarisini uygulayabilir.",
+        "^990099Two-Handed Spear^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Vurus Basina ATK 1630%/1880%(^0000FFDragonic Aura^777777)^000000",
+        "[Sv 2]: ^777777Vurus Basina ATK 2360%/2660%(^0000FFDragonic Aura^777777)^000000",
+        "[Sv 3]: ^777777Vurus Basina ATK 3090%/3440%(^0000FFDragonic Aura^777777)^000000",
+        "[Sv 4]: ^777777Vurus Basina ATK 3820%/4220%(^0000FFDragonic Aura^777777)^000000",
+        "[Sv 5]: ^777777Vurus Basina ATK 4550%/5000%(^0000FFDragonic Aura^777777)^000000"
+      ]
+    },
+    "IG_IMPERIAL_PRESSURE": {
+      "name_original": "Imperial Pressure",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Spear & Sword Mastery 7,",
+        "Guard Stance 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "AP Kazanimi: ^0054FF2^000000",
+        "Aciklama: ^777777Samimi inancin gucuyle hedefi ezer; hedefe ve cevresindeki dusmanlara ^009999Neutral^777777 elementli buyu hasari verir.",
+        "^0000FFGuard Stance^777777 aktifse skill elementi ^009999Holy^777777 olur.",
+        "Hasar kullananin ^CC6600Base Level^777777, ^CC6600SPL^777777 ve ^0000FFSpear & Sword Mastery^777777 skill seviyesine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 6400+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 2]: ^777777MATK 9050+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 5x5 hucre^000000",
+        "[Sv 3]: ^777777MATK 11700+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 4]: ^777777MATK 14350+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 7x7 hucre^000000",
+        "[Sv 5]: ^777777MATK 17000+(^0000FFMastery^777777 Sv x50)%/Etki Alani: 9x9 hucre^000000"
       ]
     }
   }
