@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.2.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 120 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.3.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 140 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -491,6 +491,86 @@
     "BA_FROSTJOKE": {
       "name_original": "Frost Joker",
       "name_tr": "Ayaz Esprisi"
+    },
+    "BA_FROSTJOKER": {
+      "name_original": "Frost Joker",
+      "name_tr": "Ayaz Soytarisi"
+    },
+    "LG_EXEEDBREAK": {
+      "name_original": "Exceed Break",
+      "name_tr": "Sinir Asimi"
+    },
+    "BA_WHISTLE": {
+      "name_original": "Whistle",
+      "name_tr": "Islik"
+    },
+    "MG_LIGHTNINGBOLT": {
+      "name_original": "Lightning Bolt",
+      "name_tr": "Simsek Oku"
+    },
+    "BA_ASSASSINCROSS": {
+      "name_original": "Assassin Cross of Sunset",
+      "name_tr": "Gunbatimi Assassin Cross'u"
+    },
+    "LG_RAGEBURST": {
+      "name_original": "Burst Attack",
+      "name_tr": "Patlama Saldirisi"
+    },
+    "BA_POEMBRAGI": {
+      "name_original": "Poem of Bragi",
+      "name_tr": "Bragi'nin Siiri"
+    },
+    "ML_DEVOTION": {
+      "name_original": "Devotion",
+      "name_tr": "Adanmislik"
+    },
+    "BA_APPLEIDUN": {
+      "name_original": "Apple of Idun",
+      "name_tr": "Idun'un Elmasi"
+    },
+    "LG_TRAMPLE": {
+      "name_original": "Trample",
+      "name_tr": "Cigneme"
+    },
+    "DC_DANCINGLESSON": {
+      "name_original": "Dancing Lesson",
+      "name_tr": "Dans Dersi"
+    },
+    "SC_MAELSTROM": {
+      "name_original": "Maelstrom",
+      "name_tr": "Girdap"
+    },
+    "DC_THROWARROW": {
+      "name_original": "Throw Arrow",
+      "name_tr": "Ok Firlat"
+    },
+    "SC_CHAOSPANIC": {
+      "name_original": "Chaos Panic",
+      "name_tr": "Kaos Panigi"
+    },
+    "DC_UGLYDANCE": {
+      "name_original": "Ugly Dance",
+      "name_tr": "Cirkin Dans"
+    },
+    "SC_DIMENSIONDOOR": {
+      "name_original": "Dimension Door",
+      "name_tr": "Boyut Kapisi"
+    },
+    "DC_SCREAM": {
+      "name_original": "Scream",
+      "name_tr": "Ciglik"
+    },
+    "SC_MANHOLE": {
+      "name_original": "Manhole",
+      "name_tr": "Menhol"
+    },
+    "DC_HUMMING": {
+      "name_original": "Humming",
+      "name_tr": "Mirildanma"
+    },
+    "EL_PYROTECHNIC": {
+      "name_original": "Pyrotechnic",
+      "name_tr": "Piroteknik"
     }
   },
   "name_profiles": {
