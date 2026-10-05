@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.6.0",
-    "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini; kart prefix adlari dahil kaydeder",
+    "version": "1.7.0",
+    "description": "Exact-source localization bilesenlerinin kaynak, patch, profil ve output yollarini; temel onerilen gorev ve battlefield kuyrugu dahil kaydeder",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -91,6 +91,18 @@
       "patch_path": "TurkuazTR/cardprefixnametable.tr.json",
       "profile_field": "card_prefix_names",
       "output_path": "data/cardprefixnametable.txt"
+    },
+    "recommended_quests_basic": {
+      "source_path": "Translation/Renewal/SystemEN/RecommendedQuests_basic.lub",
+      "patch_path": "TurkuazTR/recommended_quests_basic.tr.json",
+      "profile_field": "recommended_quests_basic",
+      "output_path": "SystemEN/RecommendedQuests_basic.lub"
+    },
+    "entry_queue": {
+      "source_path": "Translation/Renewal/data/luafiles514/lua files/entryqueue/entryqueuelist.lub",
+      "patch_path": "TurkuazTR/entryqueuelist.tr.json",
+      "profile_field": "entry_queue",
+      "output_path": "data/luafiles514/lua files/entryqueue/entryqueuelist.lub"
     }
   }
 }
