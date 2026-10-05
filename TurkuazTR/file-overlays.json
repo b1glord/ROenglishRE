@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/file-overlays.json",
     "purpose": "Satir yapisi upstream ile birebir olmayan whole-file localization overlay bilesenlerini tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "tipoftheday, guild_tip ve oyun ici kitaplar icin source blob SHA kilitli whole-file overlay builder ayarlarini kaydeder",
     "dependency_layer": "Tool"
   },
@@ -49,6 +49,36 @@
       "patch_path": "TurkuazTR/books/7131.tr.json",
       "profile_field": "books",
       "output_path": "data/book/7131.txt"
+    },
+    "book_7127": {
+      "source_path": "Translation/Renewal/data/book/7127.txt",
+      "patch_path": "TurkuazTR/books/7127.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/7127.txt"
+    },
+    "book_7128": {
+      "source_path": "Translation/Renewal/data/book/7128.txt",
+      "patch_path": "TurkuazTR/books/7128.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/7128.txt"
+    },
+    "book_7130": {
+      "source_path": "Translation/Renewal/data/book/7130.txt",
+      "patch_path": "TurkuazTR/books/7130.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/7130.txt"
+    },
+    "book_7132": {
+      "source_path": "Translation/Renewal/data/book/7132.txt",
+      "patch_path": "TurkuazTR/books/7132.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/7132.txt"
+    },
+    "book_7133": {
+      "source_path": "Translation/Renewal/data/book/7133.txt",
+      "patch_path": "TurkuazTR/books/7133.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/7133.txt"
     }
   }
 }
