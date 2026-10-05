@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/sign_data.tr.json",
     "purpose": "Renewal Sign_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest Sign_Data.lub kaynagindaki 53 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.1.0",
+    "description": "upstream/latest Sign_Data.lub kaynagindaki 61 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Sign_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "d285c0421e4aa4c423a57103c5db8e444cc49b4f",
   "source_line_count": 84,
-  "patch_count": 53,
+  "patch_count": 61,
   "patches": {
     "18": {
       "source_en": "\t[\"\uc785\ub825\uc548\ud558\uc168\uc2b5\ub2c8\ub2e4\"] = \"Cannot enter\",",
@@ -44,6 +44,10 @@
     "25": {
       "source_en": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc8fd\uc74c\"] = \"  Specimen Environment - Death\",",
       "translation_tr": "\t[\"  \ud45c\ubcf8 \ud658\uacbd - \uc8fd\uc74c\"] = \"  Ornek Ortami - Olum\","
+    },
+    "26": {
+      "source_en": "\t[\"  \ud30c\ub77c\ub9c8\ucf13\"] = \"  Paramarket\",",
+      "translation_tr": "\t[\"  \ud30c\ub77c\ub9c8\ucf13\"] = \"  Para Pazari\","
     },
     "27": {
       "source_en": "\t[\"  \uae30\ubcf8 \uc7a5\ube44 \uc9c0\uc6d0\"] = \"  Basic Equipment Support\",",
@@ -153,6 +157,22 @@
       "source_en": "\t[\"  \ub9d0\ub791\ub3c4 \ud589\"] = \"  To Malangdo\",",
       "translation_tr": "\t[\"  \ub9d0\ub791\ub3c4 \ud589\"] = \"  Malangdo'ya\","
     },
+    "54": {
+      "source_en": "\t[\"  \uc18c\ub4dc \ud074\ub79c\"] = \"  Sword Clan\",",
+      "translation_tr": "\t[\"  \uc18c\ub4dc \ud074\ub79c\"] = \"  Kilic Klani\","
+    },
+    "55": {
+      "source_en": "\t[\"  \uc544\ud06c\uc644\ub4dc \ud074\ub79c\"] = \"  Arc Wand Clan\",",
+      "translation_tr": "\t[\"  \uc544\ud06c\uc644\ub4dc \ud074\ub79c\"] = \"  Arc Wand Klani\","
+    },
+    "56": {
+      "source_en": "\t[\"  \uace8\ub4e0\uba54\uc774\uc2a4 \ud074\ub79c\"] = \"  Golden Mace Clan\",",
+      "translation_tr": "\t[\"  \uace8\ub4e0\uba54\uc774\uc2a4 \ud074\ub79c\"] = \"  Altin Topuz Klani\","
+    },
+    "57": {
+      "source_en": "\t[\"  \ud06c\ub85c\uc2a4\ubcf4\uc6b0 \ud074\ub79c\"] = \"  Crossbow Clan\",",
+      "translation_tr": "\t[\"  \ud06c\ub85c\uc2a4\ubcf4\uc6b0 \ud074\ub79c\"] = \"  Arbalet Klani\","
+    },
     "58": {
       "source_en": "\t[\"  \uacb0\ud63c \uc2e0\uccad\"] = \"  Marriage Application\",",
       "translation_tr": "\t[\"  \uacb0\ud63c \uc2e0\uccad\"] = \"  Evlilik Basvurusu\","
@@ -224,6 +244,18 @@
     "75": {
       "source_en": "\t[\"  \ubbf8\uc6a9 \ucfe0\ud3f0,\ucf54\uc2a4\ud2ac \ubcc0\uacbd \ud2f0\ucf13\"] = \"  Beauty Coupon, Costume Change Ticket\",",
       "translation_tr": "\t[\"  \ubbf8\uc6a9 \ucfe0\ud3f0,\ucf54\uc2a4\ud2ac \ubcc0\uacbd \ud2f0\ucf13\"] = \"  Guzellik Kuponu, Costume Degisim Bileti\","
+    },
+    "76": {
+      "source_en": "\t[\"  \uc77c\ub8e8\uc2dc\uc628 \ud328\uc2a4\"] = \"  Illusion Pass\",",
+      "translation_tr": "\t[\"  \uc77c\ub8e8\uc2dc\uc628 \ud328\uc2a4\"] = \"  Yanilsama Gecidi\","
+    },
+    "77": {
+      "source_en": "\t[\"  \ud604\uc790\uc758 \uc720\uc0b0 \ud328\uc2a4\"] = \"  Sage's Legacy Pass\",",
+      "translation_tr": "\t[\"  \ud604\uc790\uc758 \uc720\uc0b0 \ud328\uc2a4\"] = \"  Bilgenin Mirasi Gecidi\","
+    },
+    "78": {
+      "source_en": "\t[\"  \uae30\ub3c4\uc758 \ubc29\ud5a5 \ud328\uc2a4\"] = \"  Direction of Prayer Pass\",",
+      "translation_tr": "\t[\"  \uae30\ub3c4\uc758 \ubc29\ud5a5 \ud328\uc2a4\"] = \"  Dua Yonu Gecidi\","
     }
   }
 }
