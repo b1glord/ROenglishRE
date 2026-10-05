@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skilldescript.tr.json",
     "purpose": "Renewal skill aciklamalari icin SKID bazli ortak ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "2.0.0",
-    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 180 exact Renewal skill aciklamasi dahil",
+    "version": "2.1.0",
+    "description": "Hybrid ve Full TR profilleri icin ortak ASCII Turkce description patchleri; 200 exact Renewal skill aciklamasi dahil",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub",
@@ -3392,6 +3392,361 @@
         "^0000FFRelease^777777 ile verilen hasar kullananin ^CC6600Base Level^777777 ve ^CC6600Job Level^777777 degerine gore artar.^000000",
         "[Sv 1]: ^7777771 Stone Ball cagirir^000000",
         "[Sv 2]: ^7777775 Stone Ball cagirir^000000"
+      ]
+    },
+    "WL_SUMMONFB": {
+      "name_original": "Summon Fire Ball",
+      "lines_tr": [
+        "Maks. Seviye: 2",
+        "^CC3399Gereksinim: Meteor Storm 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777280 saniye boyunca surekli ^CC6600SP^777777 tuketerek en fazla 5 ^990099Fire Ball^777777 cagirir.",
+        "Seviye 2 mevcut tum ^990099Summon Ball^777777'lari kaldirip yerine 5 Fire Ball cagirir.",
+        "^0000FFRelease^777777 ile verilen hasar kullananin ^CC6600Base Level^777777 ve ^CC6600Job Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^7777771 Fire Ball cagirir^000000",
+        "[Sv 2]: ^7777775 Fire Ball cagirir^000000"
+      ]
+    },
+    "WL_CHAINLIGHTNING": {
+      "name_original": "Chain Lightning",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Summon Ball Lightning 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ^33CC00Wind^777777 elementli buyu hasari veren yildirim cagirir.",
+        "Yildirim, hedefin yakinindaki baska bir dusmani otomatik bulup zincirleme vurur.",
+        "Birden fazla hedef varsa rastgele secer. Yakinlarda baska dusman yoksa ayni hedefe 3 kez vurur.^000000",
+        "[Sv 1]: ^777777MATK 600%, 5 zincir^000000",
+        "[Sv 2]: ^777777MATK 700%, 6 zincir^000000",
+        "[Sv 3]: ^777777MATK 800%, 7 zincir^000000",
+        "[Sv 4]: ^777777MATK 900%, 8 zincir^000000",
+        "[Sv 5]: ^777777MATK 1000%, 9 zincir^000000"
+      ]
+    },
+    "WL_COMET": {
+      "name_original": "Comet",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Hell Inferno 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Uzaydan yikici bir comet cagirarak 13x13 alandaki tum hedeflere ^009999Neutral^777777 elementli buyu hasari verir.",
+        "^663399Magical Intoxication^777777 uygulama sansi vardir; bu durum 20 saniye boyunca tum element direncini %50 azaltir.",
+        "Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 3200%^000000",
+        "[Sv 2]: ^777777MATK 3900%^000000",
+        "[Sv 3]: ^777777MATK 4600%^000000",
+        "[Sv 4]: ^777777MATK 5300%^000000",
+        "[Sv 5]: ^777777MATK 6000%^000000"
+      ]
+    },
+    "WL_DRAINLIFE": {
+      "name_original": "Drain Life",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Radius 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ^009999Neutral^777777 buyu hasari verir ve hasarin bir kismini ^CC6600HP^777777 olarak emer.",
+        "Emme sansi skill seviyesi ve ^CC6600Job Level^777777'e; emilen miktar skill seviyesi ve ^CC6600Base Level^777777'e baglidir.",
+        "Hasar ayrica kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 200%, Hasarin %8'i emilir, Emme Sansi 74%^000000",
+        "[Sv 2]: ^777777MATK 400%, Hasarin %16'si emilir, Emme Sansi 78%^000000",
+        "[Sv 3]: ^777777MATK 600%, Hasarin %24'u emilir, Emme Sansi 82%^000000",
+        "[Sv 4]: ^777777MATK 800%, Hasarin %32'si emilir, Emme Sansi 86%^000000",
+        "[Sv 5]: ^777777MATK 1000%, Hasarin %40'i emilir, Emme Sansi 90%^000000"
+      ]
+    },
+    "WL_RECOGNIZEDSPELL": {
+      "name_original": "Recognized Spell",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Release 2, Stasis 1, White Imprison 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Kullananin buyusel potansiyelini maksimuma cikararak skill suresince magic saldirilarin maksimum hasar vermesini saglar.",
+        "^CC6600SP^777777 tuketimini %25 artirir.^000000",
+        "[Sv 1]: ^777777Sure: 60 saniye^000000",
+        "[Sv 2]: ^777777Sure: 90 saniye^000000",
+        "[Sv 3]: ^777777Sure: 110 saniye^000000",
+        "[Sv 4]: ^777777Sure: 140 saniye^000000",
+        "[Sv 5]: ^777777Sure: 170 saniye^000000"
+      ]
+    },
+    "AL_DP": {
+      "name_original": "Divine Protection",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "14^CC3399Gereksinim: Cure 1^000000",
+        "Beceri Turu: ^6666CCPasif^000000",
+        "Aciklama: ^777777^00A100Demon^777777 ve ^00A100Undead^777777 monster'lardan alinan hasari azaltir.",
+        "Karakterin ^CC6600Level^777777 degeri hasar azalmasini etkiler. Azaltma, son hasar hesaplandiktan sonra uygulanir.^000000",
+        "[Sv 1]: ^777777Azalan Hasar: 3^000000",
+        "[Sv 2]: ^777777Azalan Hasar: 6^000000",
+        "[Sv 3]: ^777777Azalan Hasar: 9^000000",
+        "[Sv 4]: ^777777Azalan Hasar: 12^000000",
+        "[Sv 5]: ^777777Azalan Hasar: 15^000000",
+        "[Sv 6]: ^777777Azalan Hasar: 18^000000",
+        "[Sv 7]: ^777777Azalan Hasar: 21^000000",
+        "[Sv 8]: ^777777Azalan Hasar: 24^000000",
+        "[Sv 9]: ^777777Azalan Hasar: 27^000000",
+        "[Sv 10]: ^777777Azalan Hasar: 30^000000"
+      ]
+    },
+    "WL_MARSHOFABYSS": {
+      "name_original": "Marsh of Abyss",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Quagmire 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Hedefi lanetleyerek ^CC6600Hareket Hizi^777777, ^CC6600Defense^777777 ve ^CC6600FLEE^777777 degerlerini azaltir.",
+        "Etkinlik kullananin ^CC6600INT^777777 ve ^CC6600Job Level^777777 degerine baglidir.^000000",
+        "[Sv 1]: ^777777Hareket Hizi -50%^000000",
+        "[Sv 2]: ^777777Hareket Hizi -60%^000000",
+        "[Sv 3]: ^777777Hareket Hizi -70%^000000",
+        "[Sv 4]: ^777777Hareket Hizi -80%^000000",
+        "[Sv 5]: ^777777Hareket Hizi -90%^000000"
+      ]
+    },
+    "WL_JACKFROST": {
+      "name_original": "Jack Frost",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Frost Misty 2^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel, Zayiflatma^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindekilere ^0000BBWater^777777 elementli hasar verir.",
+        "^663399Frost^777777 durumundaki dusmanlar ek hasar alir. Hasar kullananin ^CC6600Base Level^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 1300% / 1800%(^663399Frost^777777)^000000",
+        "[Sv 2]: ^777777MATK 1600% / 2400%(^663399Frost^777777)^000000",
+        "[Sv 3]: ^777777MATK 1900% / 3000%(^663399Frost^777777)^000000",
+        "[Sv 4]: ^777777MATK 2200% / 3600%(^663399Frost^777777)^000000",
+        "[Sv 5]: ^777777MATK 2500% / 4200%(^663399Frost^777777)^000000"
+      ]
+    },
+    "WL_FROSTMISTY": {
+      "name_original": "Frost Misty",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Summon Water Ball 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCZemin^000000",
+        "Aciklama: ^777777Zemine dondurucu sis salar, hasar verir ve tum dusmanlara ^663399Frost^777777 uygular.",
+        "Frost etkisindeki hedeflerin ^CC6600DEF, Hareket Hizi, Saldiri Hizi^777777 azalir ve ^CC6600Fixed Casting Time^777777 artar.^000000",
+        "[Sv 1]: ^777777MATK 300%, Frost Sansi 30%, 1 Vurus^000000",
+        "[Sv 2]: ^777777MATK 400%, Frost Sansi 35%, 2 Vurus^000000",
+        "[Sv 3]: ^777777MATK 500%, Frost Sansi 40%, 3 Vurus^000000",
+        "[Sv 4]: ^777777MATK 600%, Frost Sansi 45%, 4 Vurus^000000",
+        "[Sv 5]: ^777777MATK 700%, Frost Sansi 50%, 5 Vurus^000000"
+      ]
+    },
+    "WL_SOULEXPANSION": {
+      "name_original": "Soul Expansion",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Drain Life 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Buyusel^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefe ve cevresindekilere 2 vurus ^009999Ghost^777777 elementli buyu hasari verir.",
+        "Hedef ^0000FFWhite Imprison^777777 durumundaysa hasar iki katina cikar.",
+        "Hasar kullananin ^CC6600Base Level^777777 ve ^CC6600INT^777777 degerine gore artar.^000000",
+        "[Sv 1]: ^777777MATK 1200%^000000",
+        "[Sv 2]: ^777777MATK 1400%^000000",
+        "[Sv 3]: ^777777MATK 1600%^000000",
+        "[Sv 4]: ^777777MATK 1800%^000000",
+        "[Sv 5]: ^777777MATK 2000%^000000"
+      ]
+    },
+    "AB_DUPLELIGHT": {
+      "name_original": "Duple Light",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Aspersio 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Violet Granium Light ve Yellow Merriam Light adli iki kutsal isik cagirir.",
+        "Kullanan yakin dovus saldirisi yaptiginda hedefin ek fiziksel ve buyusel hasar alma sansi vardir.^000000",
+        "[Sv 1]: ^777777ATK +165%, MATK +440%, Sure: 90 saniye^000000",
+        "[Sv 2]: ^777777ATK +180%, MATK +480%, Sure: 120 saniye^000000",
+        "[Sv 3]: ^777777ATK +195%, MATK +520%, Sure: 150 saniye^000000",
+        "[Sv 4]: ^777777ATK +210%, MATK +560%, Sure: 180 saniye^000000",
+        "[Sv 5]: ^777777ATK +225%, MATK +600%, Sure: 210 saniye^000000",
+        "[Sv 6]: ^777777ATK +240%, MATK +640%, Sure: 240 saniye^000000",
+        "[Sv 7]: ^777777ATK +255%, MATK +680%, Sure: 270 saniye^000000",
+        "[Sv 8]: ^777777ATK +270%, MATK +720%, Sure: 300 saniye^000000",
+        "[Sv 9]: ^777777ATK +285%, MATK +760%, Sure: 330 saniye^000000",
+        "[Sv 10]: ^777777ATK +300%, MATK +800%, Sure: 360 saniye^000000"
+      ]
+    },
+    "AB_EXPIATIO": {
+      "name_original": "Expiatio",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Oratio 5, Duple Light 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CC1 Karakter^000000",
+        "Aciklama: ^777777Hedefin silahini kutsal gucle guclendirir. Yakin dovus fiziksel saldirilari skill seviyesine gore",
+        "dusmanin fiziksel ve buyusel defense degerlerinin bir kismini yok sayar.^000000",
+        "[Sv 1]: ^777777Defense %5 Yok Sayilir, Sure: 150 saniye^000000",
+        "[Sv 2]: ^777777Defense %10 Yok Sayilir, Sure: 180 saniye^000000",
+        "[Sv 3]: ^777777Defense %15 Yok Sayilir, Sure: 210 saniye^000000",
+        "[Sv 4]: ^777777Defense %20 Yok Sayilir, Sure: 240 saniye^000000",
+        "[Sv 5]: ^777777Defense %25 Yok Sayilir, Sure: 270 saniye^000000"
+      ]
+    },
+    "LK_AURABLADE": {
+      "name_original": "Aura Blade",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Bash 5, Magnum Break 5, Two Handed Sword Mastery 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Takili silahi aura ile guclendirerek kullananin ^CC6600Base Level^777777 degerine bagli ek hasar verir.^000000",
+        "[Sv 1]: ^777777Ek Hasar: Base Level x4^000000",
+        "[Sv 2]: ^777777Ek Hasar: Base Level x5^000000",
+        "[Sv 3]: ^777777Ek Hasar: Base Level x6^000000",
+        "[Sv 4]: ^777777Ek Hasar: Base Level x7^000000",
+        "[Sv 5]: ^777777Ek Hasar: Base Level x8^000000"
+      ]
+    },
+    "AB_RENOVATIO": {
+      "name_original": "Renovatio",
+      "lines_tr": [
+        "Maks. Seviye: 4",
+        "^CC3399Gereksinim: Coluceo Heal 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullananin ve ekrandaki tum party uyelerinin ^CC6600HP^777777 degerini her 5 saniyede belirli oranda yeniler.",
+        "^009999Undead^777777 elementli oyunculari etkilemez.^000000",
+        "[Sv 1]: ^777777Sure: 90 saniye, MaksHP'nin %5'ini yeniler^000000",
+        "[Sv 2]: ^777777Sure: 120 saniye, MaksHP'nin %6'sini yeniler^000000",
+        "[Sv 3]: ^777777Sure: 150 saniye, MaksHP'nin %7'sini yeniler^000000",
+        "[Sv 4]: ^777777Sure: 180 saniye, MaksHP'nin %8'ini yeniler^000000"
+      ]
+    },
+    "LK_PARRYING": {
+      "name_original": "Parry",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Provoke 5, Two-Handed Sword Mastery 10, Two-Hand Quicken 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777^990099Two-Handed Sword^777777 kullanarak fiziksel saldirilari bloklar.",
+        "Basarili blokta kullanan kisa sure duraksar. ^990099Two-Handed Sword^777777 gerektirir.^000000",
+        "[Sv 1]: ^777777Blok Sansi 23%^000000",
+        "[Sv 2]: ^777777Blok Sansi 26%^000000",
+        "[Sv 3]: ^777777Blok Sansi 29%^000000",
+        "[Sv 4]: ^777777Blok Sansi 32%^000000",
+        "[Sv 5]: ^777777Blok Sansi 35%^000000",
+        "[Sv 6]: ^777777Blok Sansi 38%^000000",
+        "[Sv 7]: ^777777Blok Sansi 41%^000000",
+        "[Sv 8]: ^777777Blok Sansi 44%^000000",
+        "[Sv 9]: ^777777Blok Sansi 47%^000000",
+        "[Sv 10]: ^777777Blok Sansi 50%^000000"
+      ]
+    },
+    "AB_LAUDAAGNUS": {
+      "name_original": "Lauda Agnus",
+      "lines_tr": [
+        "Maks. Seviye: 4",
+        "^CC3399Gereksinim: Status Recovery 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Tum party uyelerinden ^663399Freezing, Stone Curse, Frozen, Crystallization, Blind^777777 ve ^663399Burning^777777 durumlarini kaldirir.",
+        "Normal durumdaki party uyelerine kullanildiginda ^CC6600MaksHP^777777 artirir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 70%, MaksHP +4%^000000",
+        "[Sv 2]: ^777777Basari Sansi 80%, MaksHP +6%^000000",
+        "[Sv 3]: ^777777Basari Sansi 90%, MaksHP +8%^000000",
+        "[Sv 4]: ^777777Basari Sansi 100%, MaksHP +10%^000000"
+      ]
+    },
+    "LK_CONCENTRATION": {
+      "name_original": "Concentration (Spear Dynamo)",
+      "lines_tr": [
+        "Maks. Seviye: 5",
+        "^CC3399Gereksinim: Increase HP Recovery 5, Spear Mastery 5, Riding 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Aktifken kullanan ^0000FFEndure^777777 etkisi kazanir, ^CC6600ATK^777777 ve ^CC6600HIT^777777 artar; ^CC6600Defense^777777 azalir.^000000",
+        "[Sv 1]: ^777777HIT +10, ATK +7%, DEF -7%^000000",
+        "[Sv 2]: ^777777HIT +20, ATK +9%, DEF -9%^000000",
+        "[Sv 3]: ^777777HIT +30, ATK +11%, DEF -11%^000000",
+        "[Sv 4]: ^777777HIT +40, ATK +13%, DEF -13%^000000",
+        "[Sv 5]: ^777777HIT +50, ATK +15%, DEF -15%^000000"
+      ]
+    },
+    "AB_ORATIO": {
+      "name_original": "Oratio",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Praefatio 5^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^FF0000Zayiflatma^000000",
+        "Hedef: ^6666CCEkrandaki Dusmanlar^000000",
+        "Aciklama: ^777777Ekrandaki tum dusmanlarin ^009999Holy^777777 direncini 30 saniye azaltir.^000000",
+        "[Sv 1]: ^777777Basari Sansi 45%, Direnc -2%^000000",
+        "[Sv 2]: ^777777Basari Sansi 50%, Direnc -4%^000000",
+        "[Sv 3]: ^777777Basari Sansi 55%, Direnc -6%^000000",
+        "[Sv 4]: ^777777Basari Sansi 60%, Direnc -8%^000000",
+        "[Sv 5]: ^777777Basari Sansi 65%, Direnc -10%^000000",
+        "[Sv 6]: ^777777Basari Sansi 70%, Direnc -12%^000000",
+        "[Sv 7]: ^777777Basari Sansi 75%, Direnc -14%^000000",
+        "[Sv 8]: ^777777Basari Sansi 80%, Direnc -16%^000000",
+        "[Sv 9]: ^777777Basari Sansi 85%, Direnc -18%^000000",
+        "[Sv 10]: ^777777Basari Sansi 90%, Direnc -20%^000000"
+      ]
+    },
+    "LK_TENSIONRELAX": {
+      "name_original": "Tension Relax",
+      "lines_tr": [
+        "Maks. Seviye: 1",
+        "^CC3399Gereksinim: Provoke 5, Increase HP Recovery 10, Endure 3^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Iyilestirme^000000",
+        "Hedef: ^6666CCKullanan^000000",
+        "Aciklama: ^777777Oturup dinlenirken ^CC6600HP^777777 yenilenmesini artirir.",
+        "Kullanan ayaga kalkarsa, ekipman degistirirse veya consumable kullanirsa etki iptal olur.^000000"
+      ]
+    },
+    "AB_PRAEFATIO": {
+      "name_original": "Praefatio",
+      "lines_tr": [
+        "Maks. Seviye: 10",
+        "^CC3399Gereksinim: Kyrie Eleison 1^000000",
+        "Beceri Turu: ^3F0099Aktif^000000",
+        "Tur: ^339900Destek^000000",
+        "Hedef: ^6666CCKullanan ve Party Uyeleri^000000",
+        "Aciklama: ^777777Kullanana ve menzildeki party uyelerine ^0000FFKyrie Eleison^777777 uygular.",
+        "^0000FFKyrie Eleison^777777 etkisi party uyesi sayisina gore guclenir.^000000",
+        "[Sv 1]: ^777777Blok: 7 Vurus^000000",
+        "[Sv 2]: ^777777Blok: 8 Vurus^000000",
+        "[Sv 3]: ^777777Blok: 9 Vurus^000000",
+        "[Sv 4]: ^777777Blok: 10 Vurus^000000",
+        "[Sv 5]: ^777777Blok: 11 Vurus^000000",
+        "[Sv 6]: ^777777Blok: 12 Vurus^000000",
+        "[Sv 7]: ^777777Blok: 13 Vurus^000000",
+        "[Sv 8]: ^777777Blok: 14 Vurus^000000",
+        "[Sv 9]: ^777777Blok: 15 Vurus^000000",
+        "[Sv 10]: ^777777Blok: 16 Vurus^000000"
       ]
     }
   }
