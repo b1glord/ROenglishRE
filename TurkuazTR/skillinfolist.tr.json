@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.7.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 250 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.8.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 285 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -1011,6 +1011,146 @@
     "NJ_TATAMIGAESHI": {
       "name_original": "Flip Tatami",
       "name_tr": "Tatami Cevirme"
+    },
+    "KO_YAMIKUMO": {
+      "name_original": "Shadow Hiding",
+      "name_tr": "Golgede Saklanma"
+    },
+    "KO_RIGHT": {
+      "name_original": "Righthand Mastery",
+      "name_tr": "Sag El Ustaligi"
+    },
+    "KO_LEFT": {
+      "name_original": "Lefthand Mastery",
+      "name_tr": "Sol El Ustaligi"
+    },
+    "KO_JYUMONJIKIRI": {
+      "name_original": "Cross Slash",
+      "name_tr": "Capraz Kesik"
+    },
+    "KO_SETSUDAN": {
+      "name_original": "Soul Cutter",
+      "name_tr": "Ruh Kesici"
+    },
+    "KO_BAKURETSU": {
+      "name_original": "Kunai Explosion",
+      "name_tr": "Kunai Patlamasi"
+    },
+    "KO_HAPPOKUNAI": {
+      "name_original": "Kunai Splash",
+      "name_tr": "Kunai Sacilmasi"
+    },
+    "KO_MUCHANAGE": {
+      "name_original": "Rapid Throw",
+      "name_tr": "Hizli Firlatma"
+    },
+    "KO_HUUMARANKA": {
+      "name_original": "Swirling Petal",
+      "name_tr": "Donen Ta\u00e7yapragi"
+    },
+    "KO_MAKIBISHI": {
+      "name_original": "Makibishi",
+      "name_tr": "Makibishi"
+    },
+    "KO_MEIKYOUSISUI": {
+      "name_original": "Pure Soul",
+      "name_tr": "Saf Ruh"
+    },
+    "KO_ZANZOU": {
+      "name_original": "Illusion - Shadow",
+      "name_tr": "Yanilsama - Golge"
+    },
+    "KO_KYOUGAKU": {
+      "name_original": "Illusion - Shock",
+      "name_tr": "Yanilsama - Sok"
+    },
+    "KO_JYUSATSU": {
+      "name_original": "Illusion - Death",
+      "name_tr": "Yanilsama - Olum"
+    },
+    "KO_KAHU_ENTEN": {
+      "name_original": "Fire Charm",
+      "name_tr": "Ates Tilsimi"
+    },
+    "KO_HYOUHU_HUBUKI": {
+      "name_original": "Ice Charm",
+      "name_tr": "Buz Tilsimi"
+    },
+    "KO_KAZEHU_SEIRAN": {
+      "name_original": "Wind Charm",
+      "name_tr": "Ruzgar Tilsimi"
+    },
+    "KO_DOHU_KOUKAI": {
+      "name_original": "Earth Charm",
+      "name_tr": "Toprak Tilsimi"
+    },
+    "KO_KAIHOU": {
+      "name_original": "Release Ninja Spell",
+      "name_tr": "Ninja Buyusunu Serbest Birak"
+    },
+    "KO_ZENKAI": {
+      "name_original": "Cast Ninja Spell",
+      "name_tr": "Ninja Buyusu Yap"
+    },
+    "KO_GENWAKU": {
+      "name_original": "Illusion - Bewitch",
+      "name_tr": "Yanilsama - Buyuleme"
+    },
+    "KO_IZAYOI": {
+      "name_original": "16th Night",
+      "name_tr": "On Altinci Gece"
+    },
+    "KG_KAGEHUMI": {
+      "name_original": "Shadow Trampling",
+      "name_tr": "Golge Ezme"
+    },
+    "KG_KYOMU": {
+      "name_original": "Empty Shadow",
+      "name_tr": "Bos Golge"
+    },
+    "KG_KAGEMUSYA": {
+      "name_original": "Shadow Warrior",
+      "name_tr": "Golge Savascisi"
+    },
+    "OB_ZANGETSU": {
+      "name_original": "Distorted Crescent",
+      "name_tr": "Carpilmis Hilal"
+    },
+    "OB_OBOROGENSOU": {
+      "name_original": "Moonlight Fantasy",
+      "name_tr": "Ay Isigi Duslemi"
+    },
+    "OB_AKAITSUKI": {
+      "name_original": "Ominous Red Moonlight",
+      "name_tr": "Ugursuz Kizil Ay Isigi"
+    },
+    "ECLAGE_RECALL": {
+      "name_original": "Return to Eclage",
+      "name_tr": "Eclage'a Donus"
+    },
+    "ECL_SNOWFLIP": {
+      "name_original": "Snow Flip",
+      "name_tr": "Kar Savurmasi"
+    },
+    "ECL_PEONYMAMY": {
+      "name_original": "Peony Mommy",
+      "name_tr": "Sakayik Anne"
+    },
+    "ECL_SADAGUI": {
+      "name_original": "Slapping Herb",
+      "name_tr": "Tokatlayan Ot"
+    },
+    "ECL_SEQUOIADUST": {
+      "name_original": "Yggdrasil Dust",
+      "name_tr": "Yggdrasil Tozu"
+    },
+    "ALL_RAY_OF_PROTECTION": {
+      "name_original": "Ray of Protection",
+      "name_tr": "Koruma Isini"
+    },
+    "MER_INVINCIBLEOFF2": {
+      "name_original": "Mind Blaster",
+      "name_tr": "Zihin Patlatma"
     }
   },
   "name_profiles": {
@@ -1023,5 +1163,5 @@
       "description_language": "tr"
     }
   },
-  "patch_count": 250
+  "patch_count": 285
 }
