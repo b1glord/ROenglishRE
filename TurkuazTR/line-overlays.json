@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/line-overlays.json",
     "purpose": "Exact-source satir overlay kullanan localization bilesenlerini ortak builder icin tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Satir yapisi birebir korunan localization bilesenlerinin source, patch, profile ve output yollarini kaydeder",
     "dependency_layer": "Tool"
   },
@@ -43,6 +43,18 @@
       "patch_path": "TurkuazTR/navi_data.tr.json",
       "profile_field": "navi_data",
       "output_path": "SystemEN/Navi_Data.lub"
+    },
+    "ba_frostjoke": {
+      "source_path": "Translation/Renewal/data/ba_frostjoke.txt",
+      "patch_path": "TurkuazTR/ba_frostjoke.tr.json",
+      "profile_field": "ba_frostjoke",
+      "output_path": "data/ba_frostjoke.txt"
+    },
+    "dc_scream": {
+      "source_path": "Translation/Renewal/data/dc_scream.txt",
+      "patch_path": "TurkuazTR/dc_scream.tr.json",
+      "profile_field": "dc_scream",
+      "output_path": "data/dc_scream.txt"
     }
   }
 }
