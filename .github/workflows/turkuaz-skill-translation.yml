@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Turkce skill pending raporunu yeniler ve Hybrid/Full TR builderlarini dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.0.0
-# DESCRIPTION: CP949/EUC-KR skill description kaynagini parse eder; pending raporunu bot commit'i ile gunceller.
+# VERSION: 1.1.0
+# DESCRIPTION: Pending raporunu yeniler; Hybrid ve Full TR generated skill paketlerini uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -44,15 +44,17 @@ jobs:
       - name: Validate Full TR profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile full_tr
 
-      - name: Commit refreshed pending report
+      - name: Commit refreshed skill outputs
         shell: bash
         run: |
           git config user.name "Turkuaz Translation Bot"
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
           git add TurkuazTR/skilldescript.pending.json
+          git add TurkuazTR/generated/hybrid
+          git add TurkuazTR/generated/full_tr
           if git diff --cached --quiet; then
-            echo "Skill pending raporunda degisiklik yok."
+            echo "Skill pending ve generated ciktilarda degisiklik yok."
             exit 0
           fi
-          git commit -m "chore: refresh Turkish skill description pending report"
+          git commit -m "chore: refresh generated Turkish skill profiles"
           git push origin HEAD:translation/tr
