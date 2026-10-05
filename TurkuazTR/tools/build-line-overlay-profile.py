@@ -2,8 +2,8 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/build-line-overlay-profile.py
 # PURPOSE: Exact-source satir overlay kullanan localization bilesenlerini ortak profile gore uretir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.0.0
-# DESCRIPTION: line-overlays registry, localization profiles ve component patch dosyalarini byte-safe uygular.
+# VERSION: 1.1.0
+# DESCRIPTION: line-overlays registry, localization profiles ve component patch dosyalarini multi-encoding exact-source kontroluyle byte-safe uygular.
 # DEPENDENCY-LAYER: Tool
 
 from __future__ import annotations
@@ -99,13 +99,16 @@ def main() -> int:
                 continue
 
             body, eol = split_content_and_eol(source_lines[index])
-            try:
-                source_text = body.decode("utf-8")
-            except UnicodeDecodeError as exc:
-                raise SystemExit(f"{args.component}:{line_no}: UTF-8 decode hatasi") from exc
-
             expected = patch.get("source_en", "")
-            if source_text != expected:
+            source_matches = False
+            for source_encoding in ("utf-8", "cp949", "euc-kr", "cp1252", "latin-1"):
+                try:
+                    if expected.encode(source_encoding) == body:
+                        source_matches = True
+                        break
+                except UnicodeEncodeError:
+                    continue
+            if not source_matches:
                 stale.append(f"{line_no}:source-degisti")
                 continue
 
