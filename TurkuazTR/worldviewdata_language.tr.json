@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/worldviewdata_language.tr.json",
     "purpose": "World view harita/konum adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.1.0",
-    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 306 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.2.0",
+    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 377 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/worldviewdata/worldviewdata_language.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "33a0a17c54a4f7ea8a1a2aee4b77008ba4fb3eb3",
   "source_line_count": 422,
-  "patch_count": 306,
+  "patch_count": 377,
   "patches": {
     "8": {
       "source_en": "\tMSI_1_THA_T01 = \"Thanatos Tower F1 - Lower Level\",",
@@ -729,6 +729,38 @@
       "source_en": "\tMSI_105_VE_FILD07 = \"Veins Field\",",
       "translation_tr": "\tMSI_105_VE_FILD07 = \"Veins Sahasi\","
     },
+    "195": {
+      "source_en": "\tMSI_106_GEF_FILD04 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD04 = \"Geffen Sahasi\","
+    },
+    "196": {
+      "source_en": "\tMSI_106_GEF_FILD05 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD05 = \"Geffen Sahasi\","
+    },
+    "197": {
+      "source_en": "\tMSI_106_GEF_FILD06 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD06 = \"Geffen Sahasi\","
+    },
+    "198": {
+      "source_en": "\tMSI_106_GEF_FILD07 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD07 = \"Geffen Sahasi\","
+    },
+    "199": {
+      "source_en": "\tMSI_106_GEF_FILD08 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD08 = \"Geffen Sahasi\","
+    },
+    "200": {
+      "source_en": "\tMSI_106_GEF_FILD09 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD09 = \"Geffen Sahasi\","
+    },
+    "201": {
+      "source_en": "\tMSI_106_GEF_FILD10 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD10 = \"Geffen Sahasi\","
+    },
+    "202": {
+      "source_en": "\tMSI_106_GEF_FILD11 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_106_GEF_FILD11 = \"Geffen Sahasi\","
+    },
     "215": {
       "source_en": "\tMSI_107_PRT_FILD00 = \"Prontera Field\",",
       "translation_tr": "\tMSI_107_PRT_FILD00 = \"Prontera Sahasi\","
@@ -748,6 +780,10 @@
     "219": {
       "source_en": "\tMSI_107_PRT_MONK = \"St. Capitolina Abbey\",",
       "translation_tr": "\tMSI_107_PRT_MONK = \"Aziz Capitolina Manastiri\","
+    },
+    "220": {
+      "source_en": "\tMSI_107_GEF_FILD00 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_107_GEF_FILD00 = \"Geffen Sahasi\","
     },
     "221": {
       "source_en": "\tMSI_108_PRT_FILD04 = \"Prontera Field\",",
@@ -792,6 +828,18 @@
     "231": {
       "source_en": "\tMSI_108_IZLU2DUN = \"Byalan Island\",",
       "translation_tr": "\tMSI_108_IZLU2DUN = \"Byalan Adasi\","
+    },
+    "232": {
+      "source_en": "\tMSI_108_GEF_FILD01 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_108_GEF_FILD01 = \"Geffen Sahasi\","
+    },
+    "233": {
+      "source_en": "\tMSI_108_GEF_FILD02 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_108_GEF_FILD02 = \"Geffen Sahasi\","
+    },
+    "234": {
+      "source_en": "\tMSI_108_GEF_FILD03 = \"Geffen Field\",",
+      "translation_tr": "\tMSI_108_GEF_FILD03 = \"Geffen Sahasi\","
     },
     "235": {
       "source_en": "\tMSI_108_MOC_FILD01 = \"Morocc Field\",",
@@ -1045,17 +1093,129 @@
       "source_en": "\tMSI_100_DICASTES01 = \"El Dicastes, the Sapha Capital\",",
       "translation_tr": "\tMSI_100_DICASTES01 = \"El Dicastes, Sapha Baskenti\","
     },
+    "301": {
+      "source_en": "\tMSI_100_DIC_FILD01 = \"Outskirts of Kamidal Mountain\",",
+      "translation_tr": "\tMSI_100_DIC_FILD01 = \"Kamidal Dagi Dis Bolgesi\","
+    },
+    "302": {
+      "source_en": "\tMSI_100_DIC_FILD02 = \"Outskirts of Kamidal Mountain\",",
+      "translation_tr": "\tMSI_100_DIC_FILD02 = \"Kamidal Dagi Dis Bolgesi\","
+    },
+    "303": {
+      "source_en": "\tMSI_DUN1 = \"Thanatos Tower\",",
+      "translation_tr": "\tMSI_DUN1 = \"Thanatos Kulesi\","
+    },
+    "304": {
+      "source_en": "\tMSI_DUN2 = \"Magma Dungeon\",",
+      "translation_tr": "\tMSI_DUN2 = \"Magma Zindani\","
+    },
+    "305": {
+      "source_en": "\tMSI_DUN3 = \"Ice Dungeon\",",
+      "translation_tr": "\tMSI_DUN3 = \"Buz Zindani\","
+    },
+    "306": {
+      "source_en": "\tMSI_DUN4 = \"Rachel Sanctuary\",",
+      "translation_tr": "\tMSI_DUN4 = \"Rachel Kutsal Alani\","
+    },
+    "307": {
+      "source_en": "\tMSI_DUN5 = \"Abyss Lake\",",
+      "translation_tr": "\tMSI_DUN5 = \"Ucurum Golu\","
+    },
+    "308": {
+      "source_en": "\tMSI_DUN6 = \"Juperos Ruins\",",
+      "translation_tr": "\tMSI_DUN6 = \"Juperos Harabeleri\","
+    },
+    "309": {
+      "source_en": "\tMSI_DUN7 = \"Kiel Robot Factory\",",
+      "translation_tr": "\tMSI_DUN7 = \"Kiel Robot Fabrikasi\","
+    },
+    "310": {
+      "source_en": "\tMSI_DUN8 = \"Clock Tower\",",
+      "translation_tr": "\tMSI_DUN8 = \"Saat Kulesi\","
+    },
+    "311": {
+      "source_en": "\tMSI_DUN9 = \"Einbech Mine\",",
+      "translation_tr": "\tMSI_DUN9 = \"Einbech Madeni\","
+    },
+    "312": {
+      "source_en": "\tMSI_DUN10 = \"Mjolnir Dead Pit\",",
+      "translation_tr": "\tMSI_DUN10 = \"Mjolnir Olu Cukuru\","
+    },
+    "313": {
+      "source_en": "\tMSI_DUN11 = \"Bio Laboratory\",",
+      "translation_tr": "\tMSI_DUN11 = \"Biyo Laboratuvari\","
+    },
+    "314": {
+      "source_en": "\tMSI_DUN12 = \"Thor Volcano\",",
+      "translation_tr": "\tMSI_DUN12 = \"Thor Volkani\","
+    },
+    "316": {
+      "source_en": "\tMSI_DUN14 = \"Geffen Dungeon\",",
+      "translation_tr": "\tMSI_DUN14 = \"Geffen Zindani\","
+    },
+    "319": {
+      "source_en": "\tMSI_DUN17 = \"Orc Dungeon\",",
+      "translation_tr": "\tMSI_DUN17 = \"Ork Zindani\","
+    },
+    "320": {
+      "source_en": "\tMSI_DUN18 = \"Pyramid\",",
+      "translation_tr": "\tMSI_DUN18 = \"Piramit\","
+    },
+    "321": {
+      "source_en": "\tMSI_DUN19 = \"Sphinx\",",
+      "translation_tr": "\tMSI_DUN19 = \"Sfenks\","
+    },
+    "322": {
+      "source_en": "\tMSI_DUN20 = \"Prontera Culvert\",",
+      "translation_tr": "\tMSI_DUN20 = \"Prontera Kanalizasyoni\","
+    },
     "323": {
       "source_en": "\tMSI_DUN21 = \"Byalan Island\",",
       "translation_tr": "\tMSI_DUN21 = \"Byalan Adasi\","
+    },
+    "324": {
+      "source_en": "\tMSI_DUN22 = \"Payon Cave\",",
+      "translation_tr": "\tMSI_DUN22 = \"Payon Magarasi\","
+    },
+    "325": {
+      "source_en": "\tMSI_DUN23 = \"Sunken Ship\",",
+      "translation_tr": "\tMSI_DUN23 = \"Batmis Gemi\","
     },
     "326": {
       "source_en": "\tMSI_DUN24 = \"Turtle Island\",",
       "translation_tr": "\tMSI_DUN24 = \"Kaplumbaga Adasi\","
     },
+    "327": {
+      "source_en": "\tMSI_DUN25 = \"Beach Cave West\",",
+      "translation_tr": "\tMSI_DUN25 = \"Bati Sahil Magarasi\","
+    },
+    "328": {
+      "source_en": "\tMSI_DUN26 = \"Beach Cave North\",",
+      "translation_tr": "\tMSI_DUN26 = \"Kuzey Sahil Magarasi\","
+    },
+    "329": {
+      "source_en": "\tMSI_DUN27 = \"Beach Cave East\",",
+      "translation_tr": "\tMSI_DUN27 = \"Dogu Sahil Magarasi\","
+    },
+    "330": {
+      "source_en": "\tMSI_DUN28 = \"Ant Hell\",",
+      "translation_tr": "\tMSI_DUN28 = \"Karinca Cehennemi\","
+    },
     "331": {
       "source_en": "\tMSI_DUN29 = \"Nameless Island\",",
       "translation_tr": "\tMSI_DUN29 = \"Isimsiz Ada\","
+    },
+    "332": {
+      "source_en": "\tMSI_DUN30 = \"Labyrinth Forest\",",
+      "translation_tr": "\tMSI_DUN30 = \"Labirent Ormani\","
+    },
+    "333": {
+      "source_en": "\tMSI_DUN38 = \"Bifrost Tower\",",
+      "translation_tr": "\tMSI_DUN38 = \"Bifrost Kulesi\","
+    },
+    "334": {
+      "source_en": "\tMSI_DUN39 = \"Scaraba Hole\",",
+      "translation_tr": "\tMSI_DUN39 = \"Scaraba Deligi\","
     },
     "335": {
       "source_en": "\tMSI_DUN40 = \"Mora Village\",",
@@ -1113,6 +1273,10 @@
       "source_en": "\tMSI_102_LOU_FILD01 = \"Louyang Field\",",
       "translation_tr": "\tMSI_102_LOU_FILD01 = \"Louyang Sahasi\","
     },
+    "349": {
+      "source_en": "\tMSI_102_DUN01 = \"Royal Tomb\",",
+      "translation_tr": "\tMSI_102_DUN01 = \"Kraliyet Mezari\","
+    },
     "350": {
       "source_en": "\tMSI_4_LOU_DUN02 = \"Inside the Royal Tomb\",",
       "translation_tr": "\tMSI_4_LOU_DUN02 = \"Kraliyet Mezari Ici\","
@@ -1129,9 +1293,25 @@
       "source_en": "\tMSI_5_AYO_DUN02 = \"Inside Ancient Shrine\",",
       "translation_tr": "\tMSI_5_AYO_DUN02 = \"Antik Tapinagin Ici\","
     },
+    "356": {
+      "source_en": "\tMSI_DUN31 = \"Amatsu Shrine\",",
+      "translation_tr": "\tMSI_DUN31 = \"Amatsu Tapinagi\","
+    },
     "357": {
       "source_en": "\tMSI_DUN32 = \"Shrine of Seowangmo\",",
       "translation_tr": "\tMSI_DUN32 = \"Seowangmo Tapinagi\","
+    },
+    "358": {
+      "source_en": "\tMSI_DUN33 = \"Royal Tomb\",",
+      "translation_tr": "\tMSI_DUN33 = \"Kraliyet Mezari\","
+    },
+    "359": {
+      "source_en": "\tMSI_DUN34 = \"Ancient Shrine\",",
+      "translation_tr": "\tMSI_DUN34 = \"Antik Tapinak\","
+    },
+    "361": {
+      "source_en": "\tMSI_100_MOSK_FILD02 = \"Okrestnosti Of Moscovia\",",
+      "translation_tr": "\tMSI_100_MOSK_FILD02 = \"Moscovia Cevresi\","
     },
     "362": {
       "source_en": "\tMSI_100_MOSK_DUN01 = \"Les Forest\",",
@@ -1165,6 +1345,10 @@
       "source_en": "\tMSI_102_DEW_DUN01 = \"Volcanic Island of Krakatoa\",",
       "translation_tr": "\tMSI_102_DEW_DUN01 = \"Krakatoa Volkanik Adasi\","
     },
+    "372": {
+      "source_en": "\tMSI_2_DEW_DUN02 = \"Istana Cave\",",
+      "translation_tr": "\tMSI_2_DEW_DUN02 = \"Istana Magarasi\","
+    },
     "373": {
       "source_en": "\tMSI_103_MALAYA = \"Port Malaya\",",
       "translation_tr": "\tMSI_103_MALAYA = \"Malaya Limani\","
@@ -1176,6 +1360,22 @@
     "376": {
       "source_en": "\tMSI_103_MA_SCENE01 = \"Bakonawa Lake\",",
       "translation_tr": "\tMSI_103_MA_SCENE01 = \"Bakonawa Golu\","
+    },
+    "377": {
+      "source_en": "\tMSI_3_MA_DUN01 = \"Bangungot Hospital 1F\",",
+      "translation_tr": "\tMSI_3_MA_DUN01 = \"Bangungot Hastanesi K1\","
+    },
+    "378": {
+      "source_en": "\tMSI_DUN35 = \"Brasilis Dungeon\",",
+      "translation_tr": "\tMSI_DUN35 = \"Brasilis Zindani\","
+    },
+    "379": {
+      "source_en": "\tMSI_DUN36 = \"Istana Cave\",",
+      "translation_tr": "\tMSI_DUN36 = \"Istana Magarasi\","
+    },
+    "380": {
+      "source_en": "\tMSI_DUN37 = \"Bangungot Hospital\",",
+      "translation_tr": "\tMSI_DUN37 = \"Bangungot Hastanesi\","
     },
     "381": {
       "source_en": "\tMSI_100_DALI = \"Dimensional Rift\",",
@@ -1189,17 +1389,57 @@
       "source_en": "\tMSI_DUN42 = \"Dragon Nest\",",
       "translation_tr": "\tMSI_DUN42 = \"Ejderha Yuvasi\","
     },
+    "385": {
+      "source_en": "\tMSI_100_LASA_FILD01 = \"Ravioli Plain\",",
+      "translation_tr": "\tMSI_100_LASA_FILD01 = \"Ravioli Ovasi\","
+    },
     "386": {
       "source_en": "\tMSI_100_LASA_FILD02 = \"Ravioli Forest\",",
       "translation_tr": "\tMSI_100_LASA_FILD02 = \"Ravioli Ormani\","
+    },
+    "387": {
+      "source_en": "\tMSI_1_LASA_DUN01 = \"Dragon Nest 1st floor\",",
+      "translation_tr": "\tMSI_1_LASA_DUN01 = \"Ejderha Yuvasi 1. Kat\","
+    },
+    "388": {
+      "source_en": "\tMSI_1_LASA_DUN02 = \"Dragon Nest 2nd floor\",",
+      "translation_tr": "\tMSI_1_LASA_DUN02 = \"Ejderha Yuvasi 2. Kat\","
+    },
+    "389": {
+      "source_en": "\tMSI_1_LASA_DUN03 = \"Dragon Nest 3rd floor\",",
+      "translation_tr": "\tMSI_1_LASA_DUN03 = \"Ejderha Yuvasi 3. Kat\","
+    },
+    "391": {
+      "source_en": "\tMSI_DUN43 = \"Starlight Coral Zone\",",
+      "translation_tr": "\tMSI_DUN43 = \"Yildiz Isigi Mercan Bolgesi\","
+    },
+    "392": {
+      "source_en": "\tMSI_43_MAL_DUN01 = \"Starlight Coral Zone\",",
+      "translation_tr": "\tMSI_43_MAL_DUN01 = \"Yildiz Isigi Mercan Bolgesi\","
     },
     "393": {
       "source_en": "\tMSI_100_XMAS_FILD01 = \"Lutie Field\",",
       "translation_tr": "\tMSI_100_XMAS_FILD01 = \"Lutie Sahasi\","
     },
+    "395": {
+      "source_en": "\tMSI_1_XMAS_DUN01 = \"Lutie Toy Factory Warehouse\",",
+      "translation_tr": "\tMSI_1_XMAS_DUN01 = \"Lutie Oyuncak Fabrikasi Deposu\","
+    },
+    "396": {
+      "source_en": "\tMSI_1_XMAS_DUN02 = \"Lutie Toy Factory Sorting Station\",",
+      "translation_tr": "\tMSI_1_XMAS_DUN02 = \"Lutie Oyuncak Fabrikasi Ayirma Istasyonu\","
+    },
+    "397": {
+      "source_en": "\tMSI_DUN44 = \"Toy Factory\",",
+      "translation_tr": "\tMSI_DUN44 = \"Oyuncak Fabrikasi\","
+    },
     "398": {
       "source_en": "\tMSI_45_ODIN_PAST = \"Ancient Odin Temple\",",
       "translation_tr": "\tMSI_45_ODIN_PAST = \"Antik Odin Tapinagi\","
+    },
+    "400": {
+      "source_en": "\tMSI_100_ICECASTLE = \"Town\",",
+      "translation_tr": "\tMSI_100_ICECASTLE = \"Kasaba\","
     },
     "401": {
       "source_en": "\tMSI_100_JOR_TAIL = \"Frozen Tail\",",
@@ -1233,9 +1473,53 @@
       "source_en": "\tMSI_100_JOR_TWICE = \"Drift Ice Zone\",",
       "translation_tr": "\tMSI_100_JOR_TWICE = \"Suruklenen Buz Bolgesi\","
     },
+    "409": {
+      "source_en": "\tMSI_100_JOR_TWIG = \"Twig's Nest\",",
+      "translation_tr": "\tMSI_100_JOR_TWIG = \"Dal Yuvasi\","
+    },
     "410": {
       "source_en": "\tMSI_47_PRONTERA_MARKET_STREET = \"Prontera Market Street\",",
       "translation_tr": "\tMSI_47_PRONTERA_MARKET_STREET = \"Prontera Pazar Caddesi\","
+    },
+    "411": {
+      "source_en": "\tMSI_DUN47_MARKET = \"Market Street\",",
+      "translation_tr": "\tMSI_DUN47_MARKET = \"Pazar Caddesi\","
+    },
+    "412": {
+      "source_en": "\tMSI_100_CH1_GEFFEN = \"Village\",",
+      "translation_tr": "\tMSI_100_CH1_GEFFEN = \"Koy\","
+    },
+    "413": {
+      "source_en": "\tMSI_100_HEM_FILD = \"King's Eye\",",
+      "translation_tr": "\tMSI_100_HEM_FILD = \"Kralin Gozu\","
+    },
+    "415": {
+      "source_en": "\tMSI_1_HEM_DUN01 = \"Destroyed Verus\",",
+      "translation_tr": "\tMSI_1_HEM_DUN01 = \"Yikilmis Verus\","
+    },
+    "416": {
+      "source_en": "\tMSI_1_CH1_GFN01 = \"East of Encroached Geffenia\",",
+      "translation_tr": "\tMSI_1_CH1_GFN01 = \"Istila Edilmis Geffenia Dogusu\","
+    },
+    "417": {
+      "source_en": "\tMSI_1_CH1_GFN03 = \"West of Encroached Geffenia\",",
+      "translation_tr": "\tMSI_1_CH1_GFN03 = \"Istila Edilmis Geffenia Batisi\","
+    },
+    "418": {
+      "source_en": "\tMSI_101_YGG_ROOTS = \"Village\",",
+      "translation_tr": "\tMSI_101_YGG_ROOTS = \"Koy\","
+    },
+    "419": {
+      "source_en": "\tMSI_DUN47 = \"Destroyed Verus\",",
+      "translation_tr": "\tMSI_DUN47 = \"Yikilmis Verus\","
+    },
+    "420": {
+      "source_en": "\tMSI_DUN48 = \"Encroached Geffenia\",",
+      "translation_tr": "\tMSI_DUN48 = \"Istila Edilmis Geffenia\","
+    },
+    "421": {
+      "source_en": "\tMSI_DUN49 = \"Encroached Geffenia\"",
+      "translation_tr": "\tMSI_DUN49 = \"Istila Edilmis Geffenia\""
     }
   }
 }
