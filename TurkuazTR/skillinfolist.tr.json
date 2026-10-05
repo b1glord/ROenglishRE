@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/skillinfolist.tr.json",
     "purpose": "Renewal skill adlari icin SKID bazli ASCII Turkce patch kaynagi",
     "module": "Translation Patch - JSON",
-    "version": "1.5.0",
-    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 180 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
+    "version": "1.6.0",
+    "description": "Hybrid ve Full TR profilleri; NV_BASIC sonrasi ilk 215 oyuncu skill adi icin original + ASCII Turkce adlari tutar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
@@ -731,6 +731,146 @@
     "RA_FEARBREEZE": {
       "name_original": "Fear Breeze",
       "name_tr": "Korku Esintisi"
+    },
+    "WL_RELEASE": {
+      "name_original": "Release",
+      "name_tr": "Serbest Birakma"
+    },
+    "WL_SUMMONSTONE": {
+      "name_original": "Summon Stone",
+      "name_tr": "Tas Kuresi Cagir"
+    },
+    "WL_SUMMONFB": {
+      "name_original": "Summon Fire Ball",
+      "name_tr": "Ates Kuresi Cagir"
+    },
+    "WL_CHAINLIGHTNING": {
+      "name_original": "Chain Lightning",
+      "name_tr": "Zincir Yildirim"
+    },
+    "WL_COMET": {
+      "name_original": "Comet",
+      "name_tr": "Kuyruklu Yildiz"
+    },
+    "WL_DRAINLIFE": {
+      "name_original": "Drain Life",
+      "name_tr": "Yasam Emme"
+    },
+    "WL_RECOGNIZEDSPELL": {
+      "name_original": "Recognized Spell",
+      "name_tr": "Taninmis Buyu"
+    },
+    "AL_DP": {
+      "name_original": "Divine Protection",
+      "name_tr": "Ilahi Koruma"
+    },
+    "WL_MARSHOFABYSS": {
+      "name_original": "Marsh of Abyss",
+      "name_tr": "Ucurum Batakligi"
+    },
+    "WL_JACKFROST": {
+      "name_original": "Jack Frost",
+      "name_tr": "Kis Ayazi"
+    },
+    "WL_FROSTMISTY": {
+      "name_original": "Frost Misty",
+      "name_tr": "Ayaz Sisi"
+    },
+    "WL_SOULEXPANSION": {
+      "name_original": "Soul Expansion",
+      "name_tr": "Ruh Genislemesi"
+    },
+    "AB_DUPLELIGHT": {
+      "name_original": "Duple Light",
+      "name_tr": "Cifte Isik"
+    },
+    "AB_EXPIATIO": {
+      "name_original": "Expiatio",
+      "name_tr": "Kefaret"
+    },
+    "LK_AURABLADE": {
+      "name_original": "Aura Blade",
+      "name_tr": "Aura Kilici"
+    },
+    "AB_RENOVATIO": {
+      "name_original": "Renovatio",
+      "name_tr": "Yenilenme"
+    },
+    "LK_PARRYING": {
+      "name_original": "Parry",
+      "name_tr": "Savusturma"
+    },
+    "AB_LAUDAAGNUS": {
+      "name_original": "Lauda Agnus",
+      "name_tr": "Kuzuya Ovgu"
+    },
+    "LK_CONCENTRATION": {
+      "name_original": "Concentration",
+      "name_tr": "Odaklanma"
+    },
+    "AB_ORATIO": {
+      "name_original": "Oratio",
+      "name_tr": "Dua"
+    },
+    "LK_TENSIONRELAX": {
+      "name_original": "Tension Relax",
+      "name_tr": "Rahatlama"
+    },
+    "AB_PRAEFATIO": {
+      "name_original": "Praefatio",
+      "name_tr": "Baslangic Duasi"
+    },
+    "LK_BERSERK": {
+      "name_original": "Berserk",
+      "name_tr": "Cinnet"
+    },
+    "AB_EPICLESIS": {
+      "name_original": "Epiclesis",
+      "name_tr": "Kutsal Cagri"
+    },
+    "AB_CHEAL": {
+      "name_original": "Coluceo Heal",
+      "name_tr": "Toplu Sifa"
+    },
+    "AB_ANCILLA": {
+      "name_original": "Ancilla",
+      "name_tr": "Kutsal Tas"
+    },
+    "HP_ASSUMPTIO": {
+      "name_original": "Assumptio",
+      "name_tr": "Kutsal Himaye"
+    },
+    "GC_HALLUCINATIONWALK": {
+      "name_original": "Hallucination Walk",
+      "name_tr": "Halusinasyon Yuruyusu"
+    },
+    "HP_BASILICA": {
+      "name_original": "Basilica",
+      "name_tr": "Bazilika"
+    },
+    "GC_VENOMPRESSURE": {
+      "name_original": "Venom Pressure",
+      "name_tr": "Zehir Baskisi"
+    },
+    "HP_MEDITATIO": {
+      "name_original": "Meditatio",
+      "name_tr": "Meditasyon"
+    },
+    "GC_WEAPONCRUSH": {
+      "name_original": "Weapon Crush",
+      "name_tr": "Silah Ezme"
+    },
+    "HW_SOULDRAIN": {
+      "name_original": "Soul Drain",
+      "name_tr": "Ruh Emme"
+    },
+    "GC_POISONINGWEAPON": {
+      "name_original": "Poisoning Weapon",
+      "name_tr": "Zehirli Silah"
+    },
+    "HW_MAGICCRASHER": {
+      "name_original": "Magic Crasher",
+      "name_tr": "Buyu Kirici"
     }
   },
   "name_profiles": {
@@ -742,5 +882,6 @@
       "name_field": "name_tr",
       "description_language": "tr"
     }
-  }
+  },
+  "patch_count": 215
 }
