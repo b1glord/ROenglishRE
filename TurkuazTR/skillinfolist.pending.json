@@ -4,27 +4,11 @@
     "purpose": "Henuz Turkce SkillName patchi bulunmayan oyuncu skill adaylarini listeler",
     "module": "Generated Report - JSON",
     "version": "1.0.0",
-    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; 880 oyuncu skill adi patchlendi",
+    "description": "SKILL_INFO_LIST icinde NV_BASIC sinirindan sonraki SkillName kayitlarindan uretilir; 883 oyuncu skill adi patchlendi; backlog kapandi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub",
-  "patched_count": 880,
-  "candidate_count": 3,
-  "candidates": [
-    {
-      "key": "AT_QUILL_SPEAR_S",
-      "name": "Quill Spear",
-      "order": 881
-    },
-    {
-      "key": "AT_TEMPEST_FLAP",
-      "name": "Tempest Flap",
-      "order": 882
-    },
-    {
-      "key": "AT_AERO_SYNC",
-      "name": "Aero Sync",
-      "order": 883
-    }
-  ]
+  "patched_count": 883,
+  "candidate_count": 0,
+  "candidates": []
 }
