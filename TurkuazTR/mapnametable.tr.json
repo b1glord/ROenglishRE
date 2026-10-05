@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/mapnametable.tr.json",
     "purpose": "Map name table icindeki oyuncuya gorunen harita adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.3.0",
-    "description": "upstream/latest mapnametable.txt kaynagindaki 790 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.4.0",
+    "description": "upstream/latest mapnametable.txt kaynagindaki 1107 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/mapnametable.txt",
   "source_ref": "upstream/latest",
   "source_blob_sha": "a642a734e9b5415f568fbfdd92a9fd5225f9d227",
   "source_line_count": 1345,
-  "patch_count": 790,
+  "patch_count": 1107,
   "patches": {
     "2": {
       "source_en": "dbg_arena.rsw#Dynamic Battleground Arena#",
@@ -2725,9 +2725,209 @@
       "source_en": "in_orcs01.rsw#Inside Orc Village#",
       "translation_tr": "in_orcs01.rsw#Ork Koyu Ic Mekan#"
     },
+    "850": {
+      "source_en": "moc_fild01.rsw#Sograt Desert F1#",
+      "translation_tr": "moc_fild01.rsw#Sograt Colu F1#"
+    },
+    "851": {
+      "source_en": "moc_fild02.rsw#Sograt Desert F2#",
+      "translation_tr": "moc_fild02.rsw#Sograt Colu F2#"
+    },
+    "852": {
+      "source_en": "moc_fild03.rsw#Sograt Desert F3#",
+      "translation_tr": "moc_fild03.rsw#Sograt Colu F3#"
+    },
+    "853": {
+      "source_en": "moc_fild04.rsw#Sograt Desert F4#",
+      "translation_tr": "moc_fild04.rsw#Sograt Colu F4#"
+    },
+    "854": {
+      "source_en": "moc_fild05.rsw#Sograt Desert F5#",
+      "translation_tr": "moc_fild05.rsw#Sograt Colu F5#"
+    },
+    "855": {
+      "source_en": "moc_fild06.rsw#Sograt Desert F6#",
+      "translation_tr": "moc_fild06.rsw#Sograt Colu F6#"
+    },
+    "856": {
+      "source_en": "moc_fild07.rsw#Sograt Desert F7#",
+      "translation_tr": "moc_fild07.rsw#Sograt Colu F7#"
+    },
+    "857": {
+      "source_en": "moc_fild08.rsw#Sograt Desert F8#",
+      "translation_tr": "moc_fild08.rsw#Sograt Colu F8#"
+    },
+    "858": {
+      "source_en": "moc_fild09.rsw#Sograt Desert F9#",
+      "translation_tr": "moc_fild09.rsw#Sograt Colu F9#"
+    },
+    "859": {
+      "source_en": "moc_fild10.rsw#Sograt Desert F10#",
+      "translation_tr": "moc_fild10.rsw#Sograt Colu F10#"
+    },
+    "860": {
+      "source_en": "moc_fild11.rsw#Sograt Desert F11#",
+      "translation_tr": "moc_fild11.rsw#Sograt Colu F11#"
+    },
+    "861": {
+      "source_en": "moc_fild12.rsw#Sograt Desert F12#",
+      "translation_tr": "moc_fild12.rsw#Sograt Colu F12#"
+    },
+    "862": {
+      "source_en": "moc_fild13.rsw#Sograt Desert F13#",
+      "translation_tr": "moc_fild13.rsw#Sograt Colu F13#"
+    },
+    "863": {
+      "source_en": "moc_fild14.rsw#Sograt Desert F14#",
+      "translation_tr": "moc_fild14.rsw#Sograt Colu F14#"
+    },
+    "864": {
+      "source_en": "moc_fild15.rsw#Sograt Desert F15#",
+      "translation_tr": "moc_fild15.rsw#Sograt Colu F15#"
+    },
+    "865": {
+      "source_en": "moc_fild16.rsw#Sograt Desert F16#",
+      "translation_tr": "moc_fild16.rsw#Sograt Colu F16#"
+    },
+    "866": {
+      "source_en": "moc_fild17.rsw#Sograt Desert F17#",
+      "translation_tr": "moc_fild17.rsw#Sograt Colu F17#"
+    },
+    "867": {
+      "source_en": "moc_fild18.rsw#Sograt Desert F18#",
+      "translation_tr": "moc_fild18.rsw#Sograt Colu F18#"
+    },
+    "868": {
+      "source_en": "moc_fild19.rsw#Sograt Desert F19#",
+      "translation_tr": "moc_fild19.rsw#Sograt Colu F19#"
+    },
     "869": {
       "source_en": "in_moc_16.rsw#Assassin Clan#",
       "translation_tr": "in_moc_16.rsw#Suikastci Lonca#"
+    },
+    "870": {
+      "source_en": "pay_fild01.rsw#Payon Forest F1#",
+      "translation_tr": "pay_fild01.rsw#Payon Ormani F1#"
+    },
+    "871": {
+      "source_en": "pay_fild02.rsw#Payon Forest F2#",
+      "translation_tr": "pay_fild02.rsw#Payon Ormani F2#"
+    },
+    "872": {
+      "source_en": "pay_fild03.rsw#Payon Forest F3#",
+      "translation_tr": "pay_fild03.rsw#Payon Ormani F3#"
+    },
+    "873": {
+      "source_en": "pay_fild04.rsw#Payon Forest F4#",
+      "translation_tr": "pay_fild04.rsw#Payon Ormani F4#"
+    },
+    "874": {
+      "source_en": "pay_fild05.rsw#Payon Forest F5#",
+      "translation_tr": "pay_fild05.rsw#Payon Ormani F5#"
+    },
+    "875": {
+      "source_en": "pay_fild06.rsw#Payon Forest F6#",
+      "translation_tr": "pay_fild06.rsw#Payon Ormani F6#"
+    },
+    "876": {
+      "source_en": "pay_fild07.rsw#Payon Forest F7#",
+      "translation_tr": "pay_fild07.rsw#Payon Ormani F7#"
+    },
+    "877": {
+      "source_en": "pay_fild08.rsw#Payon Forest F8#",
+      "translation_tr": "pay_fild08.rsw#Payon Ormani F8#"
+    },
+    "878": {
+      "source_en": "pay_fild09.rsw#Payon Forest F9#",
+      "translation_tr": "pay_fild09.rsw#Payon Ormani F9#"
+    },
+    "879": {
+      "source_en": "pay_fild10.rsw#Payon Forest F10#",
+      "translation_tr": "pay_fild10.rsw#Payon Ormani F10#"
+    },
+    "880": {
+      "source_en": "pay_fild11.rsw#Payon Forest F11#",
+      "translation_tr": "pay_fild11.rsw#Payon Ormani F11#"
+    },
+    "881": {
+      "source_en": "new_1-1.rsw#Training Ground#",
+      "translation_tr": "new_1-1.rsw#Egitim Alani#"
+    },
+    "882": {
+      "source_en": "new_2-1.rsw#Training Ground#",
+      "translation_tr": "new_2-1.rsw#Egitim Alani#"
+    },
+    "883": {
+      "source_en": "new_3-1.rsw#Training Ground#",
+      "translation_tr": "new_3-1.rsw#Egitim Alani#"
+    },
+    "884": {
+      "source_en": "new_4-1.rsw#Training Ground#",
+      "translation_tr": "new_4-1.rsw#Egitim Alani#"
+    },
+    "885": {
+      "source_en": "new_5-1.rsw#Training Ground#",
+      "translation_tr": "new_5-1.rsw#Egitim Alani#"
+    },
+    "886": {
+      "source_en": "new_1-2.rsw#Training Ground#",
+      "translation_tr": "new_1-2.rsw#Egitim Alani#"
+    },
+    "887": {
+      "source_en": "new_2-2.rsw#Training Ground#",
+      "translation_tr": "new_2-2.rsw#Egitim Alani#"
+    },
+    "888": {
+      "source_en": "new_3-2.rsw#Training Ground#",
+      "translation_tr": "new_3-2.rsw#Egitim Alani#"
+    },
+    "889": {
+      "source_en": "new_4-2.rsw#Training Ground#",
+      "translation_tr": "new_4-2.rsw#Egitim Alani#"
+    },
+    "890": {
+      "source_en": "new_5-2.rsw#Training Ground#",
+      "translation_tr": "new_5-2.rsw#Egitim Alani#"
+    },
+    "891": {
+      "source_en": "new_1-3.rsw#Training Ground#",
+      "translation_tr": "new_1-3.rsw#Egitim Alani#"
+    },
+    "892": {
+      "source_en": "new_2-3.rsw#Training Ground#",
+      "translation_tr": "new_2-3.rsw#Egitim Alani#"
+    },
+    "893": {
+      "source_en": "new_3-3.rsw#Training Ground#",
+      "translation_tr": "new_3-3.rsw#Egitim Alani#"
+    },
+    "894": {
+      "source_en": "new_4-3.rsw#Training Ground#",
+      "translation_tr": "new_4-3.rsw#Egitim Alani#"
+    },
+    "895": {
+      "source_en": "new_5-3.rsw#Training Ground#",
+      "translation_tr": "new_5-3.rsw#Egitim Alani#"
+    },
+    "896": {
+      "source_en": "new_1-4.rsw#Training Ground#",
+      "translation_tr": "new_1-4.rsw#Egitim Alani#"
+    },
+    "897": {
+      "source_en": "new_2-4.rsw#Training Ground#",
+      "translation_tr": "new_2-4.rsw#Egitim Alani#"
+    },
+    "898": {
+      "source_en": "new_3-4.rsw#Training Ground#",
+      "translation_tr": "new_3-4.rsw#Egitim Alani#"
+    },
+    "899": {
+      "source_en": "new_4-4.rsw#Training Ground#",
+      "translation_tr": "new_4-4.rsw#Egitim Alani#"
+    },
+    "900": {
+      "source_en": "new_5-4.rsw#Training Ground#",
+      "translation_tr": "new_5-4.rsw#Egitim Alani#"
     },
     "901": {
       "source_en": "anthell01.rsw#Ant Hell F1#",
@@ -2748,6 +2948,10 @@
     "905": {
       "source_en": "gef_dun02.rsw#Geffen Dungeon B3#",
       "translation_tr": "gef_dun02.rsw#Geffen Zindani B3#"
+    },
+    "906": {
+      "source_en": "gef_dun03.rsw#Geffenia Dungeon#",
+      "translation_tr": "gef_dun03.rsw#Geffenia Zindani#"
     },
     "907": {
       "source_en": "iz_dun00.rsw#Undersea Tunnel B1#",
@@ -2772,6 +2976,26 @@
     "912": {
       "source_en": "iz_dun05.rsw#Undersea Tunnel B6#",
       "translation_tr": "iz_dun05.rsw#Sualti Tuneli B6#"
+    },
+    "913": {
+      "source_en": "in_sphinx1.rsw#Morroc Sphinx B1#",
+      "translation_tr": "in_sphinx1.rsw#Morroc Sfenksi B1#"
+    },
+    "914": {
+      "source_en": "in_sphinx2.rsw#Morroc Sphinx B2#",
+      "translation_tr": "in_sphinx2.rsw#Morroc Sfenksi B2#"
+    },
+    "915": {
+      "source_en": "in_sphinx3.rsw#Morroc Sphinx B3#",
+      "translation_tr": "in_sphinx3.rsw#Morroc Sfenksi B3#"
+    },
+    "916": {
+      "source_en": "in_sphinx4.rsw#Morroc Sphinx B4#",
+      "translation_tr": "in_sphinx4.rsw#Morroc Sfenksi B4#"
+    },
+    "917": {
+      "source_en": "in_sphinx5.rsw#Morroc Sphinx B5#",
+      "translation_tr": "in_sphinx5.rsw#Morroc Sfenksi B5#"
     },
     "918": {
       "source_en": "moc_pryd01.rsw#Inside Pyramid F1#",
@@ -2869,6 +3093,118 @@
       "source_en": "prt_sewb4.rsw#Prontera Culvert F4#",
       "translation_tr": "prt_sewb4.rsw#Prontera Kanalizasyonu K4#"
     },
+    "942": {
+      "source_en": "treasure01.rsw#Sunken Ship B1#",
+      "translation_tr": "treasure01.rsw#Batik Gemi B1#"
+    },
+    "943": {
+      "source_en": "treasure02.rsw#Sunken Ship B2#",
+      "translation_tr": "treasure02.rsw#Batik Gemi B2#"
+    },
+    "944": {
+      "source_en": "hunter_1-1.rsw#Hunter Guild#",
+      "translation_tr": "hunter_1-1.rsw#Avci Lonca#"
+    },
+    "945": {
+      "source_en": "hunter_2-1.rsw#Hunter Guild#",
+      "translation_tr": "hunter_2-1.rsw#Avci Lonca#"
+    },
+    "946": {
+      "source_en": "hunter_3-1.rsw#Hunter Guild#",
+      "translation_tr": "hunter_3-1.rsw#Avci Lonca#"
+    },
+    "947": {
+      "source_en": "in_hunter.rsw#Hunter Guild#",
+      "translation_tr": "in_hunter.rsw#Avci Lonca#"
+    },
+    "948": {
+      "source_en": "knight_1-1.rsw#The Chivalry#",
+      "translation_tr": "knight_1-1.rsw#Sovalye Birligi#"
+    },
+    "949": {
+      "source_en": "knight_2-1.rsw#The Chivalry#",
+      "translation_tr": "knight_2-1.rsw#Sovalye Birligi#"
+    },
+    "950": {
+      "source_en": "knight_3-1.rsw#The Chivalry#",
+      "translation_tr": "knight_3-1.rsw#Sovalye Birligi#"
+    },
+    "951": {
+      "source_en": "priest_1-1.rsw#The Sanctum#",
+      "translation_tr": "priest_1-1.rsw#Kutsal Alan#"
+    },
+    "952": {
+      "source_en": "priest_2-1.rsw#The Sanctum#",
+      "translation_tr": "priest_2-1.rsw#Kutsal Alan#"
+    },
+    "953": {
+      "source_en": "priest_3-1.rsw#The Sanctum#",
+      "translation_tr": "priest_3-1.rsw#Kutsal Alan#"
+    },
+    "954": {
+      "source_en": "sword_1-1.rsw#Swordman Test Hall#",
+      "translation_tr": "sword_1-1.rsw#Kilic Ustasi Test Salonu#"
+    },
+    "955": {
+      "source_en": "sword_2-1.rsw#Swordman Test Hall#",
+      "translation_tr": "sword_2-1.rsw#Kilic Ustasi Test Salonu#"
+    },
+    "956": {
+      "source_en": "sword_3-1.rsw#Swordman Test Hall#",
+      "translation_tr": "sword_3-1.rsw#Kilic Ustasi Test Salonu#"
+    },
+    "957": {
+      "source_en": "job_thief1.rsw#Mushroom Farm#",
+      "translation_tr": "job_thief1.rsw#Mantar Ciftligi#"
+    },
+    "958": {
+      "source_en": "wizard_1-1.rsw#Wizard Academy#",
+      "translation_tr": "wizard_1-1.rsw#Buyucu Akademisi#"
+    },
+    "959": {
+      "source_en": "wizard_2-1.rsw#Wizard Academy#",
+      "translation_tr": "wizard_2-1.rsw#Buyucu Akademisi#"
+    },
+    "960": {
+      "source_en": "wizard_3-1.rsw#Wizard Academy#",
+      "translation_tr": "wizard_3-1.rsw#Buyucu Akademisi#"
+    },
+    "961": {
+      "source_en": "force_1-1.rsw#Time Limit Fight#",
+      "translation_tr": "force_1-1.rsw#Sureli Savas#"
+    },
+    "962": {
+      "source_en": "force_2-1.rsw#Time Limit Fight#",
+      "translation_tr": "force_2-1.rsw#Sureli Savas#"
+    },
+    "963": {
+      "source_en": "force_3-1.rsw#Time Limit Fight#",
+      "translation_tr": "force_3-1.rsw#Sureli Savas#"
+    },
+    "964": {
+      "source_en": "force_1-2.rsw#Time Limit Fight#",
+      "translation_tr": "force_1-2.rsw#Sureli Savas#"
+    },
+    "965": {
+      "source_en": "force_2-2.rsw#Time Limit Fight#",
+      "translation_tr": "force_2-2.rsw#Sureli Savas#"
+    },
+    "966": {
+      "source_en": "force_3-2.rsw#Time Limit Fight#",
+      "translation_tr": "force_3-2.rsw#Sureli Savas#"
+    },
+    "967": {
+      "source_en": "force_1-3.rsw#Time Limit Fight#",
+      "translation_tr": "force_1-3.rsw#Sureli Savas#"
+    },
+    "968": {
+      "source_en": "force_2-3.rsw#Time Limit Fight#",
+      "translation_tr": "force_2-3.rsw#Sureli Savas#"
+    },
+    "969": {
+      "source_en": "force_3-3.rsw#Time Limit Fight#",
+      "translation_tr": "force_3-3.rsw#Sureli Savas#"
+    },
     "970": {
       "source_en": "ordeal_1-1.rsw#Battle Ordeal Mode#",
       "translation_tr": "ordeal_1-1.rsw#Savas Sinavi Modu#"
@@ -2917,6 +3253,10 @@
       "source_en": "ordeal_3-4.rsw#Battle Ordeal Mode#",
       "translation_tr": "ordeal_3-4.rsw#Savas Sinavi Modu#"
     },
+    "982": {
+      "source_en": "alb_ship.rsw#Alberta Ship#",
+      "translation_tr": "alb_ship.rsw#Alberta Gemisi#"
+    },
     "983": {
       "source_en": "alberta.rsw#Alberta#",
       "translation_tr": "alberta.rsw#Liman Sehri Alberta#"
@@ -2949,6 +3289,22 @@
       "source_en": "geffen_in.rsw#Inside Geffen#",
       "translation_tr": "geffen_in.rsw#Geffen Ici#"
     },
+    "991": {
+      "source_en": "moc_castle.rsw#Morroc Castle#",
+      "translation_tr": "moc_castle.rsw#Morroc Kalesi#"
+    },
+    "992": {
+      "source_en": "moc_ruins.rsw#Morroc Ruins#",
+      "translation_tr": "moc_ruins.rsw#Morroc Harabeleri#"
+    },
+    "993": {
+      "source_en": "morocc.rsw#Morroc Town#",
+      "translation_tr": "morocc.rsw#Morroc Kasabasi#"
+    },
+    "994": {
+      "source_en": "morocc_in.rsw#Inside Morroc#",
+      "translation_tr": "morocc_in.rsw#Morroc Ici#"
+    },
     "995": {
       "source_en": "pay_arche.rsw#Archer Village#",
       "translation_tr": "pay_arche.rsw#Okcu Koyu#"
@@ -2977,6 +3333,10 @@
       "source_en": "prt_in.rsw#Inside Prontera#",
       "translation_tr": "prt_in.rsw#Prontera Ici#"
     },
+    "1002": {
+      "source_en": "prt_castle.rsw#Prontera Castle#",
+      "translation_tr": "prt_castle.rsw#Prontera Kalesi#"
+    },
     "1003": {
       "source_en": "prt_church.rsw#The Sanctuary#",
       "translation_tr": "prt_church.rsw#Kutsal Alan#"
@@ -2996,6 +3356,14 @@
     "1007": {
       "source_en": "monk_in.rsw#Inside St. Abbey#",
       "translation_tr": "monk_in.rsw#St. Capitolina Manastiri Ici#"
+    },
+    "1008": {
+      "source_en": "prt_are_in.rsw#Waiting room#",
+      "translation_tr": "prt_are_in.rsw#Bekleme Odasi#"
+    },
+    "1009": {
+      "source_en": "arena_room.rsw#Waiting room#",
+      "translation_tr": "arena_room.rsw#Bekleme Odasi#"
     },
     "1013": {
       "source_en": "alde_dun01.rsw#Clock Tower B1#",
@@ -3085,6 +3453,10 @@
       "source_en": "gl_sew04.rsw#Glastheim Underground Waterway B4#",
       "translation_tr": "gl_sew04.rsw#Glastheim Yeralti Su Yolu B4#"
     },
+    "1036": {
+      "source_en": "gl_step.rsw#Glastheim Staircase Dungeon#",
+      "translation_tr": "gl_step.rsw#Glastheim Merdiven Zindani#"
+    },
     "1041": {
       "source_en": "ordeal_a00.rsw#Battle Ordeal Mode#",
       "translation_tr": "ordeal_a00.rsw#Savas Sinavi Modu#"
@@ -3093,9 +3465,113 @@
       "source_en": "ordeal_a02.rsw#Battle Ordeal Mode#",
       "translation_tr": "ordeal_a02.rsw#Savas Sinavi Modu#"
     },
+    "1043": {
+      "source_en": "force_map1.rsw#Time Limit Fight#",
+      "translation_tr": "force_map1.rsw#Sureli Savas#"
+    },
+    "1044": {
+      "source_en": "force_map2.rsw#Time Limit Fight#",
+      "translation_tr": "force_map2.rsw#Sureli Savas#"
+    },
+    "1045": {
+      "source_en": "force_map3.rsw#Time Limit Fight#",
+      "translation_tr": "force_map3.rsw#Sureli Savas#"
+    },
+    "1046": {
+      "source_en": "job_hunter.rsw#Hunter Guild#",
+      "translation_tr": "job_hunter.rsw#Avci Lonca#"
+    },
+    "1047": {
+      "source_en": "job_knight.rsw#The Chivalry#",
+      "translation_tr": "job_knight.rsw#Sovalye Birligi#"
+    },
+    "1048": {
+      "source_en": "job_priest.rsw#The Sanctum#",
+      "translation_tr": "job_priest.rsw#Kutsal Alan#"
+    },
+    "1049": {
+      "source_en": "job_sword1.rsw#Swordman Test Hall#",
+      "translation_tr": "job_sword1.rsw#Kilic Ustasi Test Salonu#"
+    },
+    "1050": {
+      "source_en": "job_wizard.rsw#Wizard Academy#",
+      "translation_tr": "job_wizard.rsw#Buyucu Akademisi#"
+    },
+    "1051": {
+      "source_en": "pvp_room.rsw#PvP : Waiting Room#",
+      "translation_tr": "pvp_room.rsw#PvP : Bekleme Odasi#"
+    },
     "1052": {
       "source_en": "que_sign02.rsw#Valley of Gyoll#",
       "translation_tr": "que_sign02.rsw#Gyoll Vadisi#"
+    },
+    "1053": {
+      "source_en": "g_room1-1.rsw#Quiz Revolution#",
+      "translation_tr": "g_room1-1.rsw#Quiz Devrimi#"
+    },
+    "1054": {
+      "source_en": "g_room1-2.rsw#Quiz Revolution#",
+      "translation_tr": "g_room1-2.rsw#Quiz Devrimi#"
+    },
+    "1055": {
+      "source_en": "g_room1-3.rsw#Quiz Revolution#",
+      "translation_tr": "g_room1-3.rsw#Quiz Devrimi#"
+    },
+    "1056": {
+      "source_en": "g_room2.rsw#Quiz Revolution#",
+      "translation_tr": "g_room2.rsw#Quiz Devrimi#"
+    },
+    "1057": {
+      "source_en": "guild_vs1-1.rsw#Guild Arena#",
+      "translation_tr": "guild_vs1-1.rsw#Lonca Arenasi#"
+    },
+    "1058": {
+      "source_en": "guild_vs1-2.rsw#Guild Arena#",
+      "translation_tr": "guild_vs1-2.rsw#Lonca Arenasi#"
+    },
+    "1059": {
+      "source_en": "guild_vs1-3.rsw#Guild Arena#",
+      "translation_tr": "guild_vs1-3.rsw#Lonca Arenasi#"
+    },
+    "1060": {
+      "source_en": "guild_vs1-4.rsw#Guild Arena#",
+      "translation_tr": "guild_vs1-4.rsw#Lonca Arenasi#"
+    },
+    "1061": {
+      "source_en": "guild_vs2-1.rsw#Guild Arena#",
+      "translation_tr": "guild_vs2-1.rsw#Lonca Arenasi#"
+    },
+    "1062": {
+      "source_en": "guild_vs2-2.rsw#Guild Arena#",
+      "translation_tr": "guild_vs2-2.rsw#Lonca Arenasi#"
+    },
+    "1063": {
+      "source_en": "new_zone01.rsw#Training Ground#",
+      "translation_tr": "new_zone01.rsw#Egitim Alani#"
+    },
+    "1064": {
+      "source_en": "new_zone02.rsw#Training Ground#",
+      "translation_tr": "new_zone02.rsw#Egitim Alani#"
+    },
+    "1065": {
+      "source_en": "new_zone03.rsw#Training Ground#",
+      "translation_tr": "new_zone03.rsw#Egitim Alani#"
+    },
+    "1066": {
+      "source_en": "new_zone04.rsw#Training Ground#",
+      "translation_tr": "new_zone04.rsw#Egitim Alani#"
+    },
+    "1067": {
+      "source_en": "que_ng.rsw#Ninja - Gunslinger map#",
+      "translation_tr": "que_ng.rsw#Ninja - Gunslinger Haritasi#"
+    },
+    "1068": {
+      "source_en": "que_san04.rsw#Inside Freya's Temple#",
+      "translation_tr": "que_san04.rsw#Freya Tapinagi Ici#"
+    },
+    "1069": {
+      "source_en": "que_ba.rsw#Unknown#",
+      "translation_tr": "que_ba.rsw#Bilinmeyen#"
     },
     "1072": {
       "source_en": "prontera_x.rsw#Prontera City, Capital of Rune Midgard#",
@@ -3121,9 +3597,165 @@
       "source_en": "pay_arche_s.rsw#Archer Village#",
       "translation_tr": "pay_arche_s.rsw#Okcu Koyu#"
     },
+    "1082": {
+      "source_en": "rwc01.rsw#Ragnarok World Championship Arena 1#",
+      "translation_tr": "rwc01.rsw#Ragnarok Dunya Sampiyonasi Arenasi 1#"
+    },
+    "1083": {
+      "source_en": "rwc02.rsw#Ragnarok World Championship Arena 2#",
+      "translation_tr": "rwc02.rsw#Ragnarok Dunya Sampiyonasi Arenasi 2#"
+    },
+    "1084": {
+      "source_en": "rwc03.rsw#Ragnarok World Championship Arena 3#",
+      "translation_tr": "rwc03.rsw#Ragnarok Dunya Sampiyonasi Arenasi 3#"
+    },
+    "1087": {
+      "source_en": "2007rwc_r.rsw#2007 Ragnarok World Championship Arena Waiting Room#",
+      "translation_tr": "2007rwc_r.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi Bekleme Odasi#"
+    },
+    "1088": {
+      "source_en": "2007rwc_01.rsw#2007 Ragnarok World Championship Arena 1#",
+      "translation_tr": "2007rwc_01.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 1#"
+    },
+    "1089": {
+      "source_en": "2007rwc_02.rsw#2007 Ragnarok World Championship Arena 2#",
+      "translation_tr": "2007rwc_02.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 2#"
+    },
+    "1090": {
+      "source_en": "2007rwc_03.rsw#2007 Ragnarok World Championship Arena 3#",
+      "translation_tr": "2007rwc_03.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 3#"
+    },
+    "1091": {
+      "source_en": "2007rwc_04.rsw#2007 Ragnarok World Championship Arena 4#",
+      "translation_tr": "2007rwc_04.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 4#"
+    },
+    "1092": {
+      "source_en": "2007rwc_05.rsw#2007 Ragnarok World Championship Arena 5#",
+      "translation_tr": "2007rwc_05.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 5#"
+    },
+    "1093": {
+      "source_en": "2007rwc_06.rsw#2007 Ragnarok World Championship Arena 6#",
+      "translation_tr": "2007rwc_06.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 6#"
+    },
+    "1094": {
+      "source_en": "2007rwc_07.rsw#2007 Ragnarok World Championship Arena 7#",
+      "translation_tr": "2007rwc_07.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 7#"
+    },
+    "1095": {
+      "source_en": "2007rwc_08.rsw#2007 Ragnarok World Championship Arena 8#",
+      "translation_tr": "2007rwc_08.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 8#"
+    },
+    "1096": {
+      "source_en": "2007rwc_09.rsw#2007 Ragnarok World Championship Arena 9#",
+      "translation_tr": "2007rwc_09.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 9#"
+    },
+    "1097": {
+      "source_en": "2007rwc_10.rsw#2007 Ragnarok World Championship Arena 10#",
+      "translation_tr": "2007rwc_10.rsw#2007 Ragnarok Dunya Sampiyonasi Arenasi 10#"
+    },
     "1098": {
       "source_en": "izlude07.rsw#Izlude Town#",
       "translation_tr": "izlude07.rsw#Izlude Kasabasi#"
+    },
+    "1099": {
+      "source_en": "guild_rwc1.rsw#Training Room#",
+      "translation_tr": "guild_rwc1.rsw#Egitim Odasi#"
+    },
+    "1100": {
+      "source_en": "guild_rwc2.rsw#Training Room#",
+      "translation_tr": "guild_rwc2.rsw#Egitim Odasi#"
+    },
+    "1101": {
+      "source_en": "guild_rwc3.rsw#Training Room#",
+      "translation_tr": "guild_rwc3.rsw#Egitim Odasi#"
+    },
+    "1102": {
+      "source_en": "guild_rwc4.rsw#Training Room#",
+      "translation_tr": "guild_rwc4.rsw#Egitim Odasi#"
+    },
+    "1103": {
+      "source_en": "guild_rwc5.rsw#Training Room#",
+      "translation_tr": "guild_rwc5.rsw#Egitim Odasi#"
+    },
+    "1106": {
+      "source_en": "fay_vilg00.rsw#Payon Village#",
+      "translation_tr": "fay_vilg00.rsw#Payon Koyu#"
+    },
+    "1107": {
+      "source_en": "fay_vilg01.rsw#Payon Village#",
+      "translation_tr": "fay_vilg01.rsw#Payon Koyu#"
+    },
+    "1108": {
+      "source_en": "gef_vilg00.rsw#Geffen Village#",
+      "translation_tr": "gef_vilg00.rsw#Geffen Koyu#"
+    },
+    "1109": {
+      "source_en": "gef_vilg01.rsw#Geffen Village#",
+      "translation_tr": "gef_vilg01.rsw#Geffen Koyu#"
+    },
+    "1110": {
+      "source_en": "moc_dugn01.rsw#Morroc Dungeon#",
+      "translation_tr": "moc_dugn01.rsw#Morroc Zindani#"
+    },
+    "1111": {
+      "source_en": "moc_dugn02.rsw#Morroc Dungeon#",
+      "translation_tr": "moc_dugn02.rsw#Morroc Zindani#"
+    },
+    "1112": {
+      "source_en": "moc_fild01.rsw#Morroc Field#",
+      "translation_tr": "moc_fild01.rsw#Morroc Sahasi#"
+    },
+    "1113": {
+      "source_en": "moc_fild02.rsw#Morroc Field#",
+      "translation_tr": "moc_fild02.rsw#Morroc Sahasi#"
+    },
+    "1114": {
+      "source_en": "moc_fild03.rsw#Morroc Field#",
+      "translation_tr": "moc_fild03.rsw#Morroc Sahasi#"
+    },
+    "1115": {
+      "source_en": "moc_fild04.rsw#Morroc Field#",
+      "translation_tr": "moc_fild04.rsw#Morroc Sahasi#"
+    },
+    "1116": {
+      "source_en": "moc_intr00.rsw#Inside Morroc#",
+      "translation_tr": "moc_intr00.rsw#Morroc Ici#"
+    },
+    "1117": {
+      "source_en": "moc_intr01.rsw#Inside Morroc#",
+      "translation_tr": "moc_intr01.rsw#Morroc Ici#"
+    },
+    "1118": {
+      "source_en": "moc_intr02.rsw#Inside Morroc#",
+      "translation_tr": "moc_intr02.rsw#Morroc Ici#"
+    },
+    "1119": {
+      "source_en": "moc_intr04.rsw#Inside Morroc#",
+      "translation_tr": "moc_intr04.rsw#Morroc Ici#"
+    },
+    "1120": {
+      "source_en": "moc_vilg00.rsw#Morroc Village#",
+      "translation_tr": "moc_vilg00.rsw#Morroc Koyu#"
+    },
+    "1121": {
+      "source_en": "moc_vilg01.rsw#Morroc Village#",
+      "translation_tr": "moc_vilg01.rsw#Morroc Koyu#"
+    },
+    "1122": {
+      "source_en": "moc_vilg02.rsw#Morroc Village#",
+      "translation_tr": "moc_vilg02.rsw#Morroc Koyu#"
+    },
+    "1123": {
+      "source_en": "probemap.rsw#Probe Map 1#",
+      "translation_tr": "probemap.rsw#Deneme Haritasi 1#"
+    },
+    "1124": {
+      "source_en": "probemap02.rsw#Probe Map 2#",
+      "translation_tr": "probemap02.rsw#Deneme Haritasi 2#"
+    },
+    "1125": {
+      "source_en": "prt_cstl01.rsw#Prontera Castle#",
+      "translation_tr": "prt_cstl01.rsw#Prontera Kalesi#"
     },
     "1126": {
       "source_en": "prt_dugn00.rsw#Prontera Dungeon#",
@@ -3165,6 +3797,42 @@
       "source_en": "prt_intr02.rsw#Inside Prontera#",
       "translation_tr": "prt_intr02.rsw#Prontera Ici#"
     },
+    "1136": {
+      "source_en": "prt_vilg00.rsw#Prontera Village#",
+      "translation_tr": "prt_vilg00.rsw#Prontera Koyu#"
+    },
+    "1137": {
+      "source_en": "prt_vilg01.rsw#Prontera Village#",
+      "translation_tr": "prt_vilg01.rsw#Prontera Koyu#"
+    },
+    "1138": {
+      "source_en": "prt_vilg02.rsw#Prontera Village#",
+      "translation_tr": "prt_vilg02.rsw#Prontera Koyu#"
+    },
+    "1139": {
+      "source_en": "tank_test.rsw#Tank Test 1#",
+      "translation_tr": "tank_test.rsw#Tank Testi 1#"
+    },
+    "1140": {
+      "source_en": "tank_test2.rsw#Tank Test 2#",
+      "translation_tr": "tank_test2.rsw#Tank Testi 2#"
+    },
+    "1141": {
+      "source_en": "test.rsw#Test Map#",
+      "translation_tr": "test.rsw#Test Haritasi#"
+    },
+    "1144": {
+      "source_en": "oldpayon.rsw#Old Payon#",
+      "translation_tr": "oldpayon.rsw#Eski Payon#"
+    },
+    "1145": {
+      "source_en": "oldpay_in01.rsw#Inside Old Payon#",
+      "translation_tr": "oldpay_in01.rsw#Eski Payon Ici#"
+    },
+    "1146": {
+      "source_en": "oldpay_in02.rsw#Inside Old Payon#",
+      "translation_tr": "oldpay_in02.rsw#Eski Payon Ici#"
+    },
     "1147": {
       "source_en": "xmas_x.rsw#Lutie, the Snow Village#",
       "translation_tr": "xmas_x.rsw#Lutie, Kar Koyu#"
@@ -3172,6 +3840,606 @@
     "1148": {
       "source_en": "alberta_d.gat#Alberta#",
       "translation_tr": "alberta_d.gat#Liman Sehri Alberta#"
+    },
+    "1151": {
+      "source_en": "holy_gold.rsw#Gold Sanctuary#",
+      "translation_tr": "holy_gold.rsw#Altin Kutsal Alan#"
+    },
+    "1152": {
+      "source_en": "holy_silver.rsw#Silver Sanctuary#",
+      "translation_tr": "holy_silver.rsw#Gumus Kutsal Alan#"
+    },
+    "1153": {
+      "source_en": "darkness_z.rsw#Darkness Island#",
+      "translation_tr": "darkness_z.rsw#Karanlik Adasi#"
+    },
+    "1154": {
+      "source_en": "baby_para.rsw#Playground#",
+      "translation_tr": "baby_para.rsw#Oyun Alani#"
+    },
+    "1155": {
+      "source_en": "dragon_nest.rsw#Evil Dragon Nest#",
+      "translation_tr": "dragon_nest.rsw#Kotu Ejderha Yuvasi#"
+    },
+    "1156": {
+      "source_en": "dragon_nes2.rsw#Evil Dragon Nest#",
+      "translation_tr": "dragon_nes2.rsw#Kotu Ejderha Yuvasi#"
+    },
+    "1157": {
+      "source_en": "que_new01.rsw#New Year Day Place#",
+      "translation_tr": "que_new01.rsw#Yeni Yil Alani#"
+    },
+    "1158": {
+      "source_en": "que_new02.rsw#New Year Day Place#",
+      "translation_tr": "que_new02.rsw#Yeni Yil Alani#"
+    },
+    "1161": {
+      "source_en": "jp_stage_a.rsw#Stage A#",
+      "translation_tr": "jp_stage_a.rsw#Sahne A#"
+    },
+    "1162": {
+      "source_en": "jp_castle.rsw#Halloween Castle#",
+      "translation_tr": "jp_castle.rsw#Cadilar Bayrami Kalesi#"
+    },
+    "1163": {
+      "source_en": "jp_ruins.rsw#Sandy Beach of Ruins#",
+      "translation_tr": "jp_ruins.rsw#Harabelerin Kumlu Sahili#"
+    },
+    "1164": {
+      "source_en": "jp_magic.rsw#House of Magical#",
+      "translation_tr": "jp_magic.rsw#Buyulu Ev#"
+    },
+    "1165": {
+      "source_en": "jp_stage_b.rsw#Stage B#",
+      "translation_tr": "jp_stage_b.rsw#Sahne B#"
+    },
+    "1166": {
+      "source_en": "jp_dress_a.rsw#Back Stage A#",
+      "translation_tr": "jp_dress_a.rsw#Sahne Arkasi A#"
+    },
+    "1167": {
+      "source_en": "jp_dress_b.rsw#Back Stage B#",
+      "translation_tr": "jp_dress_b.rsw#Sahne Arkasi B#"
+    },
+    "1168": {
+      "source_en": "anothership.rsw#Another Ship#",
+      "translation_tr": "anothership.rsw#Diger Gemi#"
+    },
+    "1169": {
+      "source_en": "jp_event02.rsw#Japanese Event 2#",
+      "translation_tr": "jp_event02.rsw#Japon Etkinligi 2#"
+    },
+    "1170": {
+      "source_en": "jp_event03.rsw#Japanese Event 3#",
+      "translation_tr": "jp_event03.rsw#Japon Etkinligi 3#"
+    },
+    "1171": {
+      "source_en": "jp_event04.rsw#Japanese Event 4#",
+      "translation_tr": "jp_event04.rsw#Japon Etkinligi 4#"
+    },
+    "1172": {
+      "source_en": "jp_event05.rsw#Japanese Event 5#",
+      "translation_tr": "jp_event05.rsw#Japon Etkinligi 5#"
+    },
+    "1173": {
+      "source_en": "jp_event06.rsw#Japanese Event 6#",
+      "translation_tr": "jp_event06.rsw#Japon Etkinligi 6#"
+    },
+    "1174": {
+      "source_en": "pvp_2vs2b.rsw#PvP : Event Coliseum#",
+      "translation_tr": "pvp_2vs2b.rsw#PvP : Etkinlik Kolezyumu#"
+    },
+    "1175": {
+      "source_en": "pvp_2vs2c.rsw#PvP : Event Coliseum#",
+      "translation_tr": "pvp_2vs2c.rsw#PvP : Etkinlik Kolezyumu#"
+    },
+    "1176": {
+      "source_en": "room_00.rsw#Room 0#",
+      "translation_tr": "room_00.rsw#Oda 0#"
+    },
+    "1177": {
+      "source_en": "room_01.rsw#Room 1#",
+      "translation_tr": "room_01.rsw#Oda 1#"
+    },
+    "1178": {
+      "source_en": "room_02.rsw#Room 2#",
+      "translation_tr": "room_02.rsw#Oda 2#"
+    },
+    "1180": {
+      "source_en": "guild_vs2pa.rsw#Prontera Room A#",
+      "translation_tr": "guild_vs2pa.rsw#Prontera Odasi A#"
+    },
+    "1181": {
+      "source_en": "guild_vs2pb.rsw#Prontera Room B#",
+      "translation_tr": "guild_vs2pb.rsw#Prontera Odasi B#"
+    },
+    "1182": {
+      "source_en": "guild_vs2pc.rsw#Prontera Room C#",
+      "translation_tr": "guild_vs2pc.rsw#Prontera Odasi C#"
+    },
+    "1183": {
+      "source_en": "guild_vs2ia.rsw#Izlude Room A#",
+      "translation_tr": "guild_vs2ia.rsw#Izlude Odasi A#"
+    },
+    "1184": {
+      "source_en": "guild_vs2ib.rsw#Izlude Room B#",
+      "translation_tr": "guild_vs2ib.rsw#Izlude Odasi B#"
+    },
+    "1185": {
+      "source_en": "guild_vs2ic.rsw#Izlude Room C#",
+      "translation_tr": "guild_vs2ic.rsw#Izlude Odasi C#"
+    },
+    "1186": {
+      "source_en": "guild_vs2ga.rsw#Geffen Room A#",
+      "translation_tr": "guild_vs2ga.rsw#Geffen Odasi A#"
+    },
+    "1187": {
+      "source_en": "guild_vs2gb.rsw#Geffen Room B#",
+      "translation_tr": "guild_vs2gb.rsw#Geffen Odasi B#"
+    },
+    "1188": {
+      "source_en": "guild_vs2gc.rsw#Geffen Room C#",
+      "translation_tr": "guild_vs2gc.rsw#Geffen Odasi C#"
+    },
+    "1189": {
+      "source_en": "guild_vs2ma.rsw#Morroc Room A#",
+      "translation_tr": "guild_vs2ma.rsw#Morroc Odasi A#"
+    },
+    "1190": {
+      "source_en": "guild_vs2mb.rsw#Morroc Room B#",
+      "translation_tr": "guild_vs2mb.rsw#Morroc Odasi B#"
+    },
+    "1191": {
+      "source_en": "guild_vs2mc.rsw#Morroc Room C#",
+      "translation_tr": "guild_vs2mc.rsw#Morroc Odasi C#"
+    },
+    "1192": {
+      "source_en": "tower_a0.rsw#Tower A0#",
+      "translation_tr": "tower_a0.rsw#Kule A0#"
+    },
+    "1193": {
+      "source_en": "tower_a1.rsw#Tower A1#",
+      "translation_tr": "tower_a1.rsw#Kule A1#"
+    },
+    "1194": {
+      "source_en": "tower_a2.rsw#Tower A2#",
+      "translation_tr": "tower_a2.rsw#Kule A2#"
+    },
+    "1195": {
+      "source_en": "tower_a3.rsw#Tower A3#",
+      "translation_tr": "tower_a3.rsw#Kule A3#"
+    },
+    "1196": {
+      "source_en": "tower_a4.rsw#Tower A4#",
+      "translation_tr": "tower_a4.rsw#Kule A4#"
+    },
+    "1197": {
+      "source_en": "tower_a5.rsw#Tower A5#",
+      "translation_tr": "tower_a5.rsw#Kule A5#"
+    },
+    "1198": {
+      "source_en": "tower_a6.rsw#Tower A6#",
+      "translation_tr": "tower_a6.rsw#Kule A6#"
+    },
+    "1199": {
+      "source_en": "tower_a7.rsw#Tower A7#",
+      "translation_tr": "tower_a7.rsw#Kule A7#"
+    },
+    "1200": {
+      "source_en": "tower_a8.rsw#Tower A8#",
+      "translation_tr": "tower_a8.rsw#Kule A8#"
+    },
+    "1201": {
+      "source_en": "tower_a9.rsw#Tower A9#",
+      "translation_tr": "tower_a9.rsw#Kule A9#"
+    },
+    "1202": {
+      "source_en": "tower_a10.rsw#Tower A10#",
+      "translation_tr": "tower_a10.rsw#Kule A10#"
+    },
+    "1203": {
+      "source_en": "tower_a11.rsw#Tower A11#",
+      "translation_tr": "tower_a11.rsw#Kule A11#"
+    },
+    "1204": {
+      "source_en": "tower_a12.rsw#Tower A12#",
+      "translation_tr": "tower_a12.rsw#Kule A12#"
+    },
+    "1205": {
+      "source_en": "tower_b0.rsw#Tower B0#",
+      "translation_tr": "tower_b0.rsw#Kule B0#"
+    },
+    "1206": {
+      "source_en": "tower_b1.rsw#Tower B1#",
+      "translation_tr": "tower_b1.rsw#Kule B1#"
+    },
+    "1207": {
+      "source_en": "tower_b2.rsw#Tower B2#",
+      "translation_tr": "tower_b2.rsw#Kule B2#"
+    },
+    "1208": {
+      "source_en": "tower_b3.rsw#Tower B3#",
+      "translation_tr": "tower_b3.rsw#Kule B3#"
+    },
+    "1209": {
+      "source_en": "tower_b4.rsw#Tower B4#",
+      "translation_tr": "tower_b4.rsw#Kule B4#"
+    },
+    "1210": {
+      "source_en": "tower_b5.rsw#Tower B5#",
+      "translation_tr": "tower_b5.rsw#Kule B5#"
+    },
+    "1211": {
+      "source_en": "tower_b6.rsw#Tower B6#",
+      "translation_tr": "tower_b6.rsw#Kule B6#"
+    },
+    "1212": {
+      "source_en": "tower_b7.rsw#Tower B7#",
+      "translation_tr": "tower_b7.rsw#Kule B7#"
+    },
+    "1213": {
+      "source_en": "tower_b8.rsw#Tower B8#",
+      "translation_tr": "tower_b8.rsw#Kule B8#"
+    },
+    "1214": {
+      "source_en": "tower_b9.rsw#Tower B9#",
+      "translation_tr": "tower_b9.rsw#Kule B9#"
+    },
+    "1215": {
+      "source_en": "tower_b10.rsw#Tower B10#",
+      "translation_tr": "tower_b10.rsw#Kule B10#"
+    },
+    "1216": {
+      "source_en": "tower_b11.rsw#Tower B11#",
+      "translation_tr": "tower_b11.rsw#Kule B11#"
+    },
+    "1217": {
+      "source_en": "tower_b12.rsw#Tower B12#",
+      "translation_tr": "tower_b12.rsw#Kule B12#"
+    },
+    "1218": {
+      "source_en": "tower_c0.rsw#Tower C0#",
+      "translation_tr": "tower_c0.rsw#Kule C0#"
+    },
+    "1219": {
+      "source_en": "tower_c1.rsw#Tower C1#",
+      "translation_tr": "tower_c1.rsw#Kule C1#"
+    },
+    "1220": {
+      "source_en": "tower_c2.rsw#Tower C2#",
+      "translation_tr": "tower_c2.rsw#Kule C2#"
+    },
+    "1221": {
+      "source_en": "tower_c3.rsw#Tower C3#",
+      "translation_tr": "tower_c3.rsw#Kule C3#"
+    },
+    "1222": {
+      "source_en": "tower_c4.rsw#Tower C4#",
+      "translation_tr": "tower_c4.rsw#Kule C4#"
+    },
+    "1223": {
+      "source_en": "tower_c5.rsw#Tower C5#",
+      "translation_tr": "tower_c5.rsw#Kule C5#"
+    },
+    "1224": {
+      "source_en": "tower_c6.rsw#Tower C6#",
+      "translation_tr": "tower_c6.rsw#Kule C6#"
+    },
+    "1225": {
+      "source_en": "tower_c7.rsw#Tower C7#",
+      "translation_tr": "tower_c7.rsw#Kule C7#"
+    },
+    "1226": {
+      "source_en": "tower_c8.rsw#Tower C8#",
+      "translation_tr": "tower_c8.rsw#Kule C8#"
+    },
+    "1227": {
+      "source_en": "tower_c9.rsw#Tower C9#",
+      "translation_tr": "tower_c9.rsw#Kule C9#"
+    },
+    "1228": {
+      "source_en": "tower_c10.rsw#Tower C10#",
+      "translation_tr": "tower_c10.rsw#Kule C10#"
+    },
+    "1229": {
+      "source_en": "tower_c11.rsw#Tower C11#",
+      "translation_tr": "tower_c11.rsw#Kule C11#"
+    },
+    "1230": {
+      "source_en": "tower_c12.rsw#Tower C12#",
+      "translation_tr": "tower_c12.rsw#Kule C12#"
+    },
+    "1231": {
+      "source_en": "tower_d0.rsw#Tower D0#",
+      "translation_tr": "tower_d0.rsw#Kule D0#"
+    },
+    "1232": {
+      "source_en": "tower_d1.rsw#Tower D1#",
+      "translation_tr": "tower_d1.rsw#Kule D1#"
+    },
+    "1233": {
+      "source_en": "tower_d2.rsw#Tower D2#",
+      "translation_tr": "tower_d2.rsw#Kule D2#"
+    },
+    "1234": {
+      "source_en": "tower_d3.rsw#Tower D3#",
+      "translation_tr": "tower_d3.rsw#Kule D3#"
+    },
+    "1235": {
+      "source_en": "tower_d4.rsw#Tower D4#",
+      "translation_tr": "tower_d4.rsw#Kule D4#"
+    },
+    "1236": {
+      "source_en": "tower_d5.rsw#Tower D5#",
+      "translation_tr": "tower_d5.rsw#Kule D5#"
+    },
+    "1237": {
+      "source_en": "tower_d6.rsw#Tower D6#",
+      "translation_tr": "tower_d6.rsw#Kule D6#"
+    },
+    "1238": {
+      "source_en": "tower_d7.rsw#Tower D7#",
+      "translation_tr": "tower_d7.rsw#Kule D7#"
+    },
+    "1239": {
+      "source_en": "tower_d8.rsw#Tower D8#",
+      "translation_tr": "tower_d8.rsw#Kule D8#"
+    },
+    "1240": {
+      "source_en": "tower_d9.rsw#Tower D9#",
+      "translation_tr": "tower_d9.rsw#Kule D9#"
+    },
+    "1241": {
+      "source_en": "tower_d10.rsw#Tower D10#",
+      "translation_tr": "tower_d10.rsw#Kule D10#"
+    },
+    "1242": {
+      "source_en": "tower_d11.rsw#Tower D11#",
+      "translation_tr": "tower_d11.rsw#Kule D11#"
+    },
+    "1243": {
+      "source_en": "tower_d12.rsw#Tower D12#",
+      "translation_tr": "tower_d12.rsw#Kule D12#"
+    },
+    "1246": {
+      "source_en": "que_moon.rsw#Moon Palace#",
+      "translation_tr": "que_moon.rsw#Ay Sarayi#"
+    },
+    "1247": {
+      "source_en": "que_moc_16.rsw#Moon Palace, Mob Area#",
+      "translation_tr": "que_moc_16.rsw#Ay Sarayi, Mob Alani#"
+    },
+    "1250": {
+      "source_en": "ein_polu.rsw#Indoor#",
+      "translation_tr": "ein_polu.rsw#Ic Mekan#"
+    },
+    "1251": {
+      "source_en": "poring_c01.rsw#Poring Waiting Room#",
+      "translation_tr": "poring_c01.rsw#Poring Bekleme Odasi#"
+    },
+    "1252": {
+      "source_en": "poring_c02.rsw#Poring Market#",
+      "translation_tr": "poring_c02.rsw#Poring Pazari#"
+    },
+    "1255": {
+      "source_en": "gl_in01_ev.rsw#Event Crazy Drops#",
+      "translation_tr": "gl_in01_ev.rsw#Cilgin Drops Etkinligi#"
+    },
+    "1258": {
+      "source_en": "evt_zombie.rsw#Run from Zombies#",
+      "translation_tr": "evt_zombie.rsw#Zombilerden Kacis#"
+    },
+    "1260": {
+      "source_en": "arcadanias.rsw#Arcadanias, Satellite World#",
+      "translation_tr": "arcadanias.rsw#Arcadanias, Uydu Dunya#"
+    },
+    "1262": {
+      "source_en": "pvp_y_room.rsw#PvP : Waiting Room#",
+      "translation_tr": "pvp_y_room.rsw#PvP : Bekleme Odasi#"
+    },
+    "1263": {
+      "source_en": "pvp_n_room.rsw#PvP : Waiting Room#",
+      "translation_tr": "pvp_n_room.rsw#PvP : Bekleme Odasi#"
+    },
+    "1264": {
+      "source_en": "pvp_c_room.rsw#PvP : Waiting Room#",
+      "translation_tr": "pvp_c_room.rsw#PvP : Bekleme Odasi#"
+    },
+    "1265": {
+      "source_en": "pvp_n_1-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_1-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1266": {
+      "source_en": "pvp_n_2-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_2-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1267": {
+      "source_en": "pvp_n_3-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_3-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1268": {
+      "source_en": "pvp_n_4-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_4-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1269": {
+      "source_en": "pvp_n_5-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_5-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1270": {
+      "source_en": "pvp_n_6-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_6-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1271": {
+      "source_en": "pvp_n_7-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_7-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1272": {
+      "source_en": "pvp_n_8-1.rsw#PvP : Room Sandwich#",
+      "translation_tr": "pvp_n_8-1.rsw#PvP : Sandwich Odasi#"
+    },
+    "1273": {
+      "source_en": "pvp_n_1-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_1-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1274": {
+      "source_en": "pvp_n_2-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_2-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1275": {
+      "source_en": "pvp_n_3-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_3-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1276": {
+      "source_en": "pvp_n_4-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_4-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1277": {
+      "source_en": "pvp_n_5-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_5-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1278": {
+      "source_en": "pvp_n_6-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_6-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1279": {
+      "source_en": "pvp_n_7-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_7-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1280": {
+      "source_en": "pvp_n_8-2.rsw#PvP : Room Rock On#",
+      "translation_tr": "pvp_n_8-2.rsw#PvP : Rock On Odasi#"
+    },
+    "1281": {
+      "source_en": "pvp_n_1-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_1-3.rsw#PvP : Dort Oda#"
+    },
+    "1282": {
+      "source_en": "pvp_n_2-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_2-3.rsw#PvP : Dort Oda#"
+    },
+    "1283": {
+      "source_en": "pvp_n_3-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_3-3.rsw#PvP : Dort Oda#"
+    },
+    "1284": {
+      "source_en": "pvp_n_4-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_4-3.rsw#PvP : Dort Oda#"
+    },
+    "1285": {
+      "source_en": "pvp_n_5-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_5-3.rsw#PvP : Dort Oda#"
+    },
+    "1286": {
+      "source_en": "pvp_n_6-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_6-3.rsw#PvP : Dort Oda#"
+    },
+    "1287": {
+      "source_en": "pvp_n_7-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_7-3.rsw#PvP : Dort Oda#"
+    },
+    "1288": {
+      "source_en": "pvp_n_8-3.rsw#PvP : Four Room#",
+      "translation_tr": "pvp_n_8-3.rsw#PvP : Dort Oda#"
+    },
+    "1289": {
+      "source_en": "pvp_n_1-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_1-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1290": {
+      "source_en": "pvp_n_2-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_2-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1291": {
+      "source_en": "pvp_n_3-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_3-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1292": {
+      "source_en": "pvp_n_4-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_4-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1293": {
+      "source_en": "pvp_n_5-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_5-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1294": {
+      "source_en": "pvp_n_6-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_6-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1295": {
+      "source_en": "pvp_n_7-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_7-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1296": {
+      "source_en": "pvp_n_8-4.rsw#PvP : Room Undercross#",
+      "translation_tr": "pvp_n_8-4.rsw#PvP : Undercross Odasi#"
+    },
+    "1297": {
+      "source_en": "pvp_n_1-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_1-5.rsw#PvP : Copass Odasi#"
+    },
+    "1298": {
+      "source_en": "pvp_n_2-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_2-5.rsw#PvP : Copass Odasi#"
+    },
+    "1299": {
+      "source_en": "pvp_n_3-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_3-5.rsw#PvP : Copass Odasi#"
+    },
+    "1300": {
+      "source_en": "pvp_n_4-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_4-5.rsw#PvP : Copass Odasi#"
+    },
+    "1301": {
+      "source_en": "pvp_n_5-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_5-5.rsw#PvP : Copass Odasi#"
+    },
+    "1302": {
+      "source_en": "pvp_n_6-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_6-5.rsw#PvP : Copass Odasi#"
+    },
+    "1303": {
+      "source_en": "pvp_n_7-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_7-5.rsw#PvP : Copass Odasi#"
+    },
+    "1304": {
+      "source_en": "pvp_n_8-5.rsw#PvP : Room Copass#",
+      "translation_tr": "pvp_n_8-5.rsw#PvP : Copass Odasi#"
+    },
+    "1305": {
+      "source_en": "pvp_y_1-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_1-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1306": {
+      "source_en": "pvp_y_2-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_2-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1307": {
+      "source_en": "pvp_y_3-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_3-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1308": {
+      "source_en": "pvp_y_4-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_4-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1309": {
+      "source_en": "pvp_y_5-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_5-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1310": {
+      "source_en": "pvp_y_6-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_6-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1311": {
+      "source_en": "pvp_y_7-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_7-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1312": {
+      "source_en": "pvp_y_8-1.rsw#PvP : Room Prontera#",
+      "translation_tr": "pvp_y_8-1.rsw#PvP : Prontera Odasi#"
+    },
+    "1345": {
+      "source_en": "pvp_2vs2.rsw#PvP : Event Coliseum#",
+      "translation_tr": "pvp_2vs2.rsw#PvP : Etkinlik Kolezyumu#"
     }
   }
 }
