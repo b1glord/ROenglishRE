@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/navi_data.tr.json",
     "purpose": "Renewal Navi_Data.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.14.0",
-    "description": "upstream/latest Navi_Data.lub kaynagindaki 2148 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.15.0",
+    "description": "upstream/latest Navi_Data.lub kaynagindaki 2211 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/Navi_Data.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2d044c2c60be5cf18c565c1cd63ff0a73861b3cb",
   "source_line_count": 5713,
-  "patch_count": 2148,
+  "patch_count": 2211,
   "patches": {
     "10": {
       "source_en": "\t[\"\ucf8c\uc18d\uc120\uc6d0\"] = \"Ferry Crewman\",",
@@ -7961,13 +7961,41 @@
       "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uc678\ub534\ub9c8\uc744 \uc2a4\ucf08\ub9c1\ud2bc\"] = \"Skellington, a Solitary Village in Niflheim\",",
       "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uc678\ub534\ub9c8\uc744 \uc2a4\ucf08\ub9c1\ud2bc\"] = \"Skellington, Niflheim Issiz Koyu\","
     },
+    "4005": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uad58\uc758 \uace8\uc9dc\uae30\"] = \"Valley of Gyoll\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \uad58\uc758 \uace8\uc9dc\uae30\"] = \"Gyoll Vadisi\","
+    },
+    "4006": {
+      "source_en": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub0b4\ubd80\"] = \"Inside Niflheim\",",
+      "translation_tr": "\t[\"\ub2c8\ud50c\ud5e4\uc784 \ub0b4\ubd80\"] = \"Niflheim Ici\","
+    },
     "4007": {
       "source_en": "\t[\"\uc8fd\uc740\uc790\uc758 \ub098\ub77c \ub2c8\ud50c\ud5e4\uc784\"] = \"Niflheim, Realm of the Dead\",",
       "translation_tr": "\t[\"\uc8fd\uc740\uc790\uc758 \ub098\ub77c \ub2c8\ud50c\ud5e4\uc784\"] = \"Niflheim, Oluler Diyari\","
     },
+    "4008": {
+      "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub09c\ud3ed\uc790\uc758 \uc0c1\ucc98 1\uce35\"] = \"Yggdrasil Root F1\",",
+      "translation_tr": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub09c\ud3ed\uc790\uc758 \uc0c1\ucc98 1\uce35\"] = \"Yggdrasil Koku K1\","
+    },
+    "4009": {
+      "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub09c\ud3ed\uc790\uc758 \uc0c1\ucc98 2\uce35\"] = \"Yggdrasil Root F2\",",
+      "translation_tr": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub09c\ud3ed\uc790\uc758 \uc0c1\ucc98 2\uce35\"] = \"Yggdrasil Koku K2\","
+    },
     "4010": {
       "source_en": "\t[\"\uace0\ub300 \uc624\ub518 \uc2e0\uc804\"] = \"Ancient Odin Temple\",",
       "translation_tr": "\t[\"\uace0\ub300 \uc624\ub518 \uc2e0\uc804\"] = \"Antik Odin Tapinagi\","
+    },
+    "4011": {
+      "source_en": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \uc11c\ucabd \uc9c0\uc5ed\"] = \"Odin Shrine F1\",",
+      "translation_tr": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \uc11c\ucabd \uc9c0\uc5ed\"] = \"Odin Tapinagi - Bati\","
+    },
+    "4012": {
+      "source_en": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \ub0a8\ucabd \uc9c0\uc5ed\"] = \"Odin Shrine F2\",",
+      "translation_tr": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \ub0a8\ucabd \uc9c0\uc5ed\"] = \"Odin Tapinagi - Guney\","
+    },
+    "4013": {
+      "source_en": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \ubd81\ucabd \uc9c0\uc5ed\"] = \"Odin Shrine F3\",",
+      "translation_tr": "\t[\"\ud718\uac94 \uc624\ub518 \uc2e0\uc804 \ubd81\ucabd \uc9c0\uc5ed\"] = \"Odin Tapinagi - Kuzey\","
     },
     "4014": {
       "source_en": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 1\uce35\"] = \"Orc Dungeon F1\",",
@@ -7977,6 +8005,18 @@
       "source_en": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 2\uce35\"] = \"Orc Dungeon F2\",",
       "translation_tr": "\t[\"\uac8c\ud39c \uc624\ud06c \uc9c0\ud558 \ub3d9\uad74 2\uce35\"] = \"Ork Zindani K2\","
     },
+    "4016": {
+      "source_en": "\t[\"\ubc30\ud2c0\uc624\ub51c\ubaa8\ub4dc\"] = \"Battle Ordeal Mode\",",
+      "translation_tr": "\t[\"\ubc30\ud2c0\uc624\ub51c\ubaa8\ub4dc\"] = \"Savas Sinavi Modu\","
+    },
+    "4017": {
+      "source_en": "\t[\"\uc624\uc988\uc758 \ubbf8\ub85c 1\uce35\"] = \"Oz's Labyrinth 1F\",",
+      "translation_tr": "\t[\"\uc624\uc988\uc758 \ubbf8\ub85c 1\uce35\"] = \"Oz Labirenti K1\","
+    },
+    "4018": {
+      "source_en": "\t[\"\uc624\uc988\uc758 \ubbf8\ub85c 2\uce35\"] = \"Oz's Labyrinth 2F\",",
+      "translation_tr": "\t[\"\uc624\uc988\uc758 \ubbf8\ub85c 2\uce35\"] = \"Oz Labirenti K2\","
+    },
     "4019": {
       "source_en": "\t[\"\ud30c\ub77c\ub9c8\ucf13\"] = \"Para Market\",",
       "translation_tr": "\t[\"\ud30c\ub77c\ub9c8\ucf13\"] = \"Para Pazari\","
@@ -7984,6 +8024,10 @@
     "4020": {
       "source_en": "\t[\"\ud398\uc774\uc698 \uad81\uc218\ub9c8\uc744\"] = \"Archer Village\",",
       "translation_tr": "\t[\"\ud398\uc774\uc698 \uad81\uc218\ub9c8\uc744\"] = \"Okcu Koyu\","
+    },
+    "4021": {
+      "source_en": "\t[\"\uc6d4\uc57c\ud654\uc758 \uc545\ubabd\"] = \"Nightmare of Moonlight\",",
+      "translation_tr": "\t[\"\uc6d4\uc57c\ud654\uc758 \uc545\ubabd\"] = \"Ay Isigi Kabusu\","
     },
     "4022": {
       "source_en": "\t[\"\ud398\uc774\uc698 \ub3d9\uad74 1\uce35\"] = \"Payon Cave F1\",",
@@ -8013,13 +8057,33 @@
       "source_en": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Greenwood Lake\",",
       "translation_tr": "\t[\"\uccad\ub9bc \ud638\uc218\"] = \"Yesilorman Golu\","
     },
+    "4029": {
+      "source_en": "\t[\"\uc0b0\uc545\ub3c4\uc2dc \ud398\uc774\uc698\"] = \"Payon Town\",",
+      "translation_tr": "\t[\"\uc0b0\uc545\ub3c4\uc2dc \ud398\uc774\uc698\"] = \"Payon Kasabasi\","
+    },
+    "4030": {
+      "source_en": "\t[\"\ud398\uc774\uc698 \ub0b4\ubd80\"] = \"Inside Payon\",",
+      "translation_tr": "\t[\"\ud398\uc774\uc698 \ub0b4\ubd80\"] = \"Payon Ici\","
+    },
+    "4031": {
+      "source_en": "\t[\"\ub8ec-\ubbf8\ub4dc\uac00\uce20 \uc655\uad6d \uc218\ub3c4 \ud504\ub860\ud14c\ub77c\"] = \"Prontera, Capital of Rune Midgard\",",
+      "translation_tr": "\t[\"\ub8ec-\ubbf8\ub4dc\uac00\uce20 \uc655\uad6d \uc218\ub3c4 \ud504\ub860\ud14c\ub77c\"] = \"Prontera, Rune Midgard Baskenti\","
+    },
     "4032": {
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc911\uc559\uad81\"] = \"Prontera Central Palace\",",
       "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc911\uc559\uad81\"] = \"Prontera Merkez Sarayi\","
     },
+    "4033": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ubcc4\uad81\"] = \"Prontera Imperial Villa\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ubcc4\uad81\"] = \"Prontera Imparatorluk Villasi\","
+    },
     "4034": {
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc131\ub2f9 \ub0b4\ubd80\"] = \"The Sanctuary\",",
       "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc131\ub2f9 \ub0b4\ubd80\"] = \"Kutsal Alan\","
+    },
+    "4035": {
+      "source_en": "\t[\"\uc0ac\ub0e5\ud130\uc758 \uc624\ub450\ub9c9\"] = \"Hunting Lodge\",",
+      "translation_tr": "\t[\"\uc0ac\ub0e5\ud130\uc758 \uc624\ub450\ub9c9\"] = \"Av Kulubesi\","
     },
     "4036": {
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ud544\ub4dc\"] = \"Prontera Field\",",
@@ -8028,6 +8092,10 @@
     "4037": {
       "source_en": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Realm\",",
       "translation_tr": "\t[\"\ubc1c\ud0a4\ub9ac \ub810\ub984\"] = \"Valkyrie Diyari\","
+    },
+    "4038": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \ub0b4\ubd80\"] = \"Inside Prontera\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \ub0b4\ubd80\"] = \"Prontera Ici\","
     },
     "4039": {
       "source_en": "\t[\"\uc655\uac00\uc758 \uae30\uc5b5\"] = \"Memorial of Past Royal Family\",",
@@ -8061,13 +8129,41 @@
       "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558\uac10\uc625\"] = \"Prontera Dungeon\",",
       "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558\uac10\uc625\"] = \"Prontera Zindani\","
     },
+    "4047": {
+      "source_en": "\t[\"\uce68\uacf5\ub2f9\ud55c \ud504\ub860\ud14c\ub77c\"] = \"Invaded Prontera\",",
+      "translation_tr": "\t[\"\uce68\uacf5\ub2f9\ud55c \ud504\ub860\ud14c\ub77c\"] = \"Isgal Altindaki Prontera\","
+    },
+    "4048": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 1\uce35\"] = \"Prontera Culvert F1\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 1\uce35\"] = \"Prontera Kanalizasyonu K1\","
+    },
+    "4049": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 2\uce35\"] = \"Prontera Culvert F2\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 2\uce35\"] = \"Prontera Kanalizasyonu K2\","
+    },
+    "4050": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 3\uce35\"] = \"Prontera Culvert F3\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 3\uce35\"] = \"Prontera Kanalizasyonu K3\","
+    },
+    "4051": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 4\uce35\"] = \"Prontera Culvert F4\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc9c0\ud558 \uc218\ub85c 4\uce35\"] = \"Prontera Kanalizasyonu K4\","
+    },
     "4053": {
       "source_en": "\t[\"\uc720\ub178\uc758 \ubc84\ub824\uc9c4 \uc9d1 \ub0b4\ubd80\"] = \"Inside of the Abandoned House in Yuno\",",
       "translation_tr": "\t[\"\uc720\ub178\uc758 \ubc84\ub824\uc9c4 \uc9d1 \ub0b4\ubd80\"] = \"Yuno Terk Edilmis Ev Ici\","
     },
+    "4054": {
+      "source_en": "\t[\"\ud018\uc2a4\ud2b8\ub9f5\"] = \"Quest Map\",",
+      "translation_tr": "\t[\"\ud018\uc2a4\ud2b8\ub9f5\"] = \"Gorev Haritasi\","
+    },
     "4055": {
       "source_en": "\t[\"\ube44\ubc00\uc8fc\uc810\"] = \"Private Pub\",",
       "translation_tr": "\t[\"\ube44\ubc00\uc8fc\uc810\"] = \"Gizli Meyhane\","
+    },
+    "4056": {
+      "source_en": "\t[\"\uc54c \uc218 \uc5c6\ub294 \uacf3\"] = \"Unknown Place\",",
+      "translation_tr": "\t[\"\uc54c \uc218 \uc5c6\ub294 \uacf3\"] = \"Bilinmeyen Yer\","
     },
     "4057": {
       "source_en": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Inside Ancient Shrine\",",
@@ -8085,6 +8181,42 @@
       "source_en": "\t[\"\ud1a0\ub974 \ud654\uc0b0 \ub0b4\ubd80\"] = \"Inside Thor Volcano\",",
       "translation_tr": "\t[\"\ud1a0\ub974 \ud654\uc0b0 \ub0b4\ubd80\"] = \"Thor Volkan Ici\","
     },
+    "4061": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc544\uc6b0\ub460\ub77c \ucd08\uc6d0\"] = \"Audumra Grass Land\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc544\uc6b0\ub460\ub77c \ucd08\uc6d0\"] = \"Audumra Cayiri\","
+    },
+    "4062": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc774\ub2e4 \ud3c9\uc6d0\"] = \"Ida Plane\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc774\ub2e4 \ud3c9\uc6d0\"] = \"Ida Ovasi\","
+    },
+    "4064": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc624\uc988 \ud611\uace1\"] = \"Od Canyon\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc624\uc988 \ud611\uace1\"] = \"Od Kanyonu\","
+    },
+    "4065": {
+      "source_en": "\t[\"\ub77c\ud5ec \ub0b4\ubd80\"] = \"Inside Rachel\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \ub0b4\ubd80\"] = \"Rachel Ici\","
+    },
+    "4066": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ubd81\ucabd \uad6c\uc5ed\"] = \"Freya's Sacred Precinct F1\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ubd81\ucabd \uad6c\uc5ed\"] = \"Freya Kutsal Bolgesi K1\","
+    },
+    "4067": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \uc11c\ucabd \uad6c\uc5ed\"] = \"Freya's Sacred Precinct F2\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \uc11c\ucabd \uad6c\uc5ed\"] = \"Freya Kutsal Bolgesi K2\","
+    },
+    "4068": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ub3d9\ucabd \uad6c\uc5ed\"] = \"Freya's Sacred Precinct F3\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ub3d9\ucabd \uad6c\uc5ed\"] = \"Freya Kutsal Bolgesi K3\","
+    },
+    "4069": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ub0a8\ucabd \uad6c\uc5ed\"] = \"Freya's Sacred Precinct F4\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 1\uce35 \ub0a8\ucabd \uad6c\uc5ed\"] = \"Freya Kutsal Bolgesi K4\","
+    },
+    "4070": {
+      "source_en": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 2\uce35 \uc911\uc559 \uad6c\uc5ed\"] = \"Freya's Sacred Precinct F5\",",
+      "translation_tr": "\t[\"\ub77c\ud5ec \uc2e0\uc804 \uc131\uc5ed 2\uce35 \uc911\uc559 \uad6c\uc5ed\"] = \"Freya Kutsal Bolgesi K5\","
+    },
     "4071": {
       "source_en": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Inside Rachel Sanctuary\",",
       "translation_tr": "\t[\"\uc2e0\uc804 \ub0b4\ubd80\"] = \"Rachel Tapinagi Ici\","
@@ -8097,13 +8229,57 @@
       "source_en": "\t[\"\uad50\ud669 \uc9d1\ubb34\uc2e4(\ud558\ub298 \uc815\uc6d0)\"] = \"Pope's Room (Sky Garden)\",",
       "translation_tr": "\t[\"\uad50\ud669 \uc9d1\ubb34\uc2e4(\ud558\ub298 \uc815\uc6d0)\"] = \"Papanin Odasi - Gok Bahcesi\","
     },
+    "4074": {
+      "source_en": "\t[\"\uc544\ub8e8\ub098\ud3a0\uce20 \uad50\uad6d \uc218\ub3c4 \ub77c\ud5ec\"] = \"Rachel, Capital of Arunafelz, the Study Nation\",",
+      "translation_tr": "\t[\"\uc544\ub8e8\ub098\ud3a0\uce20 \uad50\uad6d \uc218\ub3c4 \ub77c\ud5ec\"] = \"Rachel, Arunafelz Kutsal Devleti Baskenti\","
+    },
     "4075": {
       "source_en": "\t[\"RAG-FES \uc804\uc2dc\uc7a5\"] = \"RAG-FES Exhibition Hall\",",
       "translation_tr": "\t[\"RAG-FES \uc804\uc2dc\uc7a5\"] = \"RAG-FES Sergi Salonu\","
     },
+    "4077": {
+      "source_en": "\t[\"\ub808\ucf04\ubca0\ub974 \ubd80\uc124 \uc5f0\uad6c\uc18c\"] = \"Rekenber Institute\",",
+      "translation_tr": "\t[\"\ub808\ucf04\ubca0\ub974 \ubd80\uc124 \uc5f0\uad6c\uc18c\"] = \"Rekenber Enstitusu\","
+    },
+    "4078": {
+      "source_en": "\t[\"\ub77d \ub9bf\uc9c0 \uad11\uc0b0\"] = \"Rockridge Mine\",",
+      "translation_tr": "\t[\"\ub77d \ub9bf\uc9c0 \uad11\uc0b0\"] = \"Rockridge Madeni\","
+    },
+    "4079": {
+      "source_en": "\t[\"\ud0a4\uc640\uc640 \uc0ac\ub9c9\"] = \"Kiwawa Desert\",",
+      "translation_tr": "\t[\"\ud0a4\uc640\uc640 \uc0ac\ub9c9\"] = \"Kiwawa Colu\","
+    },
+    "4080": {
+      "source_en": "\t[\"\uadf8\ub9bc\uc790 \uacf5\ubc29\"] = \"Shadow Workshop\",",
+      "translation_tr": "\t[\"\uadf8\ub9bc\uc790 \uacf5\ubc29\"] = \"Golge Atolyesi\","
+    },
     "4082": {
       "source_en": "\t[\"\ubca0\ub974\ub108 \uc5f0\uad6c\uc18c\"] = \"Werner Laboratory\",",
       "translation_tr": "\t[\"\ubca0\ub974\ub108 \uc5f0\uad6c\uc18c\"] = \"Werner Laboratuvari\","
+    },
+    "4083": {
+      "source_en": "\t[\"\ud2b9\uc218\uacbd\uacc4\uc9c0\uc5ed \ucf54\ub974\"] = \"Special border COR\",",
+      "translation_tr": "\t[\"\ud2b9\uc218\uacbd\uacc4\uc9c0\uc5ed \ucf54\ub974\"] = \"Ozel Sinir Bolgesi COR\","
+    },
+    "4084": {
+      "source_en": "\t[\"\ud2b9\uc218\uacbd\uacc4\uc9c0\uc5ed \uc624\uc2a4\"] = \"Special border OS\",",
+      "translation_tr": "\t[\"\ud2b9\uc218\uacbd\uacc4\uc9c0\uc5ed \uc624\uc2a4\"] = \"Ozel Sinir Bolgesi OS\","
+    },
+    "4085": {
+      "source_en": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 1\uce35\"] = \"Rudus, Experiment Waste Disposal F1\",",
+      "translation_tr": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 1\uce35\"] = \"Rudus, Deney Atigi Alani K1\","
+    },
+    "4086": {
+      "source_en": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 2\uce35\"] = \"Rudus, Experiment Waste Disposal F2\",",
+      "translation_tr": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 2\uce35\"] = \"Rudus, Deney Atigi Alani K2\","
+    },
+    "4087": {
+      "source_en": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 3\uce35\"] = \"Rudus, Experiment Waste Disposal F3\",",
+      "translation_tr": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 3\uce35\"] = \"Rudus, Deney Atigi Alani K3\","
+    },
+    "4088": {
+      "source_en": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 4\uce35\"] = \"Rudus, Experiment Waste Disposal F4\",",
+      "translation_tr": "\t[\"\ud3d0\uae30\uc2e4\ud5d8\uccb4 \uc720\uae30\uc7a5 \ub8e8\ub450\uc2a4 4\uce35\"] = \"Rudus, Deney Atigi Alani K4\","
     },
     "4089": {
       "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ud544\ub4dc\"] = \"Splendide Field\",",
@@ -8116,6 +8292,10 @@
     "4091": {
       "source_en": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub0b4\ubd80\"] = \"Inside Splendide\",",
       "translation_tr": "\t[\"\uc2a4\ud50c\ub791\ub514\ub4dc \ub0b4\ubd80\"] = \"Splendide Ici\","
+    },
+    "4094": {
+      "source_en": "\t[\"\uc720\uc131\ub9bc \uc2e4\ub0b4\"] = \"Inside Yu Seong Lim\",",
+      "translation_tr": "\t[\"\uc720\uc131\ub9bc \uc2e4\ub0b4\"] = \"Yu Seong Lim Ici\","
     },
     "4095": {
       "source_en": "\t[\"\uc54c \uc218 \uc5c6\ub294\uacf3\"] = \"Thanatos Tower Entrance\",",
@@ -8181,6 +8361,26 @@
       "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 3\uce35\"] = \"Thor Volcano Dungeon F3\",",
       "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud1a0\ub974 \ud654\uc0b0 \ub358\uc804 3\uce35\"] = \"Thor Volkan Zindani K3\","
     },
+    "4111": {
+      "source_en": "\t[\"\ud504\ub860\ud14c\ub77c \uc678\uacfd \ud6c8\ub828\uc7a5\"] = \"Prontera Outer Training Grounds\",",
+      "translation_tr": "\t[\"\ud504\ub860\ud14c\ub77c \uc678\uacfd \ud6c8\ub828\uc7a5\"] = \"Prontera Dis Egitim Sahasi\","
+    },
+    "4112": {
+      "source_en": "\t[\"\uc54c\ubca0\ub974\ud0c0 \uce68\ubab0\uc120 1\uce35\"] = \"Sunken Ship F1\",",
+      "translation_tr": "\t[\"\uc54c\ubca0\ub974\ud0c0 \uce68\ubab0\uc120 1\uce35\"] = \"Batik Gemi K1\","
+    },
+    "4113": {
+      "source_en": "\t[\"\uc54c\ubca0\ub974\ud0c0 \uce68\ubab0\uc120 2\uce35\"] = \"Sunken Ship F2\",",
+      "translation_tr": "\t[\"\uc54c\ubca0\ub974\ud0c0 \uce68\ubab0\uc120 2\uce35\"] = \"Batik Gemi K2\","
+    },
+    "4114": {
+      "source_en": "\t[\"\uc774\uc988\ub8e8\ub4dc \ub09c\ud30c\uc120 1\uce35\"] = \"Izlude wreck F1\",",
+      "translation_tr": "\t[\"\uc774\uc988\ub8e8\ub4dc \ub09c\ud30c\uc120 1\uce35\"] = \"Izlude Enkazi K1\","
+    },
+    "4115": {
+      "source_en": "\t[\"\uc774\uc988\ub8e8\ub4dc \ub09c\ud30c\uc120 2\uce35\"] = \"Izlude wreck F2\",",
+      "translation_tr": "\t[\"\uc774\uc988\ub8e8\ub4dc \ub09c\ud30c\uc120 2\uce35\"] = \"Izlude Enkazi K2\","
+    },
     "4116": {
       "source_en": "\t[\"\uc4f8\uc4f8\ud55c \uc591\uac70\ucd0c\"] = \"Desolate Village\",",
       "translation_tr": "\t[\"\uc4f8\uc4f8\ud55c \uc591\uac70\ucd0c\"] = \"Issiz Koy\","
@@ -8205,6 +8405,10 @@
       "source_en": "\t[\"\uad6c\uc591\uad81\"] = \"Turtle Palace\",",
       "translation_tr": "\t[\"\uad6c\uc591\uad81\"] = \"Kaplumbaga Sarayi\","
     },
+    "4122": {
+      "source_en": "\t[\"\uc9c0\ud558 \ub2aa \uc9c0\ub300\"] = \"Underground swamp zone\",",
+      "translation_tr": "\t[\"\uc9c0\ud558 \ub2aa \uc9c0\ub300\"] = \"Yeralti Bataklik Bolgesi\","
+    },
     "4123": {
       "source_en": "\t[\"\ud130\ubcf4\ud2b8\ub799 \ub300\uae30\uc2e4\"] = \"Waiting Room\",",
       "translation_tr": "\t[\"\ud130\ubcf4\ud2b8\ub799 \ub300\uae30\uc2e4\"] = \"Bekleme Odasi\","
@@ -8217,9 +8421,25 @@
       "source_en": "\t[\"\uc6c0\ubc1c\ub77c \ud6d4\uac00 \uc232\"] = \"Hoomga Forest\",",
       "translation_tr": "\t[\"\uc6c0\ubc1c\ub77c \ud6d4\uac00 \uc232\"] = \"Hoomga Ormani\","
     },
+    "4126": {
+      "source_en": "\t[\"\uc6c0\ubc1c\ub77c \uce74\ub77c\ub77c \ub2aa\"] = \"Kalala Swamp\",",
+      "translation_tr": "\t[\"\uc6c0\ubc1c\ub77c \uce74\ub77c\ub77c \ub2aa\"] = \"Kalala Batakligi\","
+    },
+    "4127": {
+      "source_en": "\t[\"\uc6c0\ubc1c\ub77c \ud6d4\uac00 \uc815\uae00\"] = \"Hoomga Jungle\",",
+      "translation_tr": "\t[\"\uc6c0\ubc1c\ub77c \ud6d4\uac00 \uc815\uae00\"] = \"Hoomga Cangili\","
+    },
+    "4128": {
+      "source_en": "\t[\"\uc6c0\ubc1c\ub77c \ub0b4\ubd80\"] = \"Inside Umbala\",",
+      "translation_tr": "\t[\"\uc6c0\ubc1c\ub77c \ub0b4\ubd80\"] = \"Umbala Ici\","
+    },
     "4129": {
       "source_en": "\t[\"\uc6b0\ud0c4\uc871\ub9c8\uc744 \uc6c0\ubc1c\ub77c\"] = \"Wootan Tribe's Village, Umbala\",",
       "translation_tr": "\t[\"\uc6b0\ud0c4\uc871\ub9c8\uc744 \uc6c0\ubc1c\ub77c\"] = \"Wootan Kabilesi Koyu, Umbala\","
+    },
+    "4130": {
+      "source_en": "\t[\"\uc9c0\ud558 \ubc99\ucee4\"] = \"Underground Bunker\",",
+      "translation_tr": "\t[\"\uc9c0\ud558 \ubc99\ucee4\"] = \"Yeralti Siginagi\","
     },
     "4131": {
       "source_en": "\t[\"\uc9c0\ud558 \ud130\ub110\"] = \"Underground Tunnel\",",
@@ -8228,6 +8448,10 @@
     "4132": {
       "source_en": "\t[\"\ubca0\uc778\uc2a4 \ud544\ub4dc\"] = \"Veins Field\",",
       "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ud544\ub4dc\"] = \"Veins Sahasi\","
+    },
+    "4133": {
+      "source_en": "\t[\"\ubca0\uc778\uc2a4 \ub0b4\ubd80\"] = \"Inside Veins\",",
+      "translation_tr": "\t[\"\ubca0\uc778\uc2a4 \ub0b4\ubd80\"] = \"Veins Ici\","
     },
     "4134": {
       "source_en": "\t[\"\ud611\uace1\ub9c8\uc744 \ubca0\uc778\uc2a4\"] = \"Veins, the Canyon Village\",",
@@ -8244,6 +8468,18 @@
     "4137": {
       "source_en": "\t[\"\uc2e4\ud5d8\ub3d9-OPTATIO\"] = \"Laboratory-OPTATIO\",",
       "translation_tr": "\t[\"\uc2e4\ud5d8\ub3d9-OPTATIO\"] = \"Laboratuvar - OPTATIO\","
+    },
+    "4138": {
+      "source_en": "\t[\"\uc5f0\uad6c\ub3d9-WISH\"] = \"Research Building-WISH\",",
+      "translation_tr": "\t[\"\uc5f0\uad6c\ub3d9-WISH\"] = \"Arastirma Binasi - WISH\","
+    },
+    "4139": {
+      "source_en": "\t[\"\ubca0\ub8e8\uc2a4 \uc911\uc559 \uad11\uc7a5\"] = \"Verus - Central Plaza\",",
+      "translation_tr": "\t[\"\ubca0\ub8e8\uc2a4 \uc911\uc559 \uad11\uc7a5\"] = \"Verus - Merkez Meydan\","
+    },
+    "4140": {
+      "source_en": "\t[\"\ubca0\ub8e8\uc2a4 \ubc1c\uad74\uc9c0\"] = \"Verus - Excavation Site\",",
+      "translation_tr": "\t[\"\ubca0\ub8e8\uc2a4 \ubc1c\uad74\uc9c0\"] = \"Verus - Kazi Alani\","
     },
     "4141": {
       "source_en": "\t[\"\ud68c\uc0c9\ub291\ub300 \ub9c8\uc744\"] = \"Gray Wolf Village\",",
@@ -8264,6 +8500,22 @@
     "4145": {
       "source_en": "\t[\"\ub8e8\ud2f0\uc5d0 \ud544\ub4dc\"] = \"Lutie Field\",",
       "translation_tr": "\t[\"\ub8e8\ud2f0\uc5d0 \ud544\ub4dc\"] = \"Lutie Sahasi\","
+    },
+    "4146": {
+      "source_en": "\t[\"\ub8e8\ud2f0\uc5d0 \ub0b4\ubd80\"] = \"Inside Lutie\",",
+      "translation_tr": "\t[\"\ub8e8\ud2f0\uc5d0 \ub0b4\ubd80\"] = \"Lutie Ici\","
+    },
+    "4147": {
+      "source_en": "\t[\"\uc720\ub178 \uacf5\ud56d\"] = \"Yuno Airport\",",
+      "translation_tr": "\t[\"\uc720\ub178 \uacf5\ud56d\"] = \"Yuno Havaalani\","
+    },
+    "4148": {
+      "source_en": "\t[\"\ud750\ubca0\ub974\uac94\ubbf8\ub974\uc758 \uc0d8(\uc774\uadf8\ub4dc\ub77c\uc2e4\uc904\uae30)\"] = \"Hvergelmir's Fountain (Trunk of Yggdrasil)\",",
+      "translation_tr": "\t[\"\ud750\ubca0\ub974\uac94\ubbf8\ub974\uc758 \uc0d8(\uc774\uadf8\ub4dc\ub77c\uc2e4\uc904\uae30)\"] = \"Hvergelmir Cesmesi - Yggdrasil Govdesi\","
+    },
+    "4149": {
+      "source_en": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacf5\ud654\uad6d \uc218\ub3c4 \uc720\ub178\"] = \"Yuno, Capital of Schwarzwald Republic\",",
+      "translation_tr": "\t[\"\uc288\ubc1c\uce20\ubc1c\ub4dc \uacf5\ud654\uad6d \uc218\ub3c4 \uc720\ub178\"] = \"Yuno, Schwarzwald Cumhuriyeti Baskenti\","
     },
     "4154": {
       "source_en": "\t[\"\uc720\ub178 \ud0ac \ud558\uc774\ub974 \ud559\uc6d0\"] = \"Kiel Hyre's Academy\",",
