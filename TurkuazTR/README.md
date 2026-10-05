@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 1.8.0
+Version: 1.9.0
 Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -82,13 +82,13 @@ Exact satir bazli ceviriler `TurkuazTR/line-overlays.json` registry'si ile yonet
 Su anda ortak line-overlay modeline tasinan bilesenler:
 
 - `msgstringtable`: 3499 exact Turkce satir; inceleme bekleyen satir 0.
-- `achievements`: 1638 exact Turkce satir.
-- `recommended_quests`: 270 exact Turkce satir.
+- `achievements`: 1638 exact Turkce satir; 2 ozel ad bilincli korunur, ceviri inceleme acigi 0.
+- `recommended_quests`: 270 exact Turkce satir; kalan gorunen satirlar class/seviye etiketi veya ozel addir, ceviri inceleme acigi 0.
 - `town_info`: 4 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
 - `sign_data`: 61 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
-- `navi_data`: 2273 exact Turkce satir; genel NPC, nesne ve harita etiketleri gozden gecirildi, canonical ozel adlar ve monster adlari korunur.
-- `ba_frostjoke`: 100 exact ASCII Turkce satir.
-- `dc_scream`: 105 exact ASCII Turkce satir.
+- `navi_data`: 2273 exact Turkce satir; genel NPC, nesne ve harita etiketleri tamamlandi, canonical ozel adlar ve monster adlari bilincli korunur.
+- `ba_frostjoke`: 100 exact ASCII Turkce satir; kalan 19 satir skill/monster/joke adi olarak bilincli korunur.
+- `dc_scream`: 105 exact ASCII Turkce satir; kalan 12 satir ceviri gerektirmeyen nida/ses satiridir.
 
 `line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder.
 
