@@ -2,7 +2,7 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/build-skill-profile.py
 # PURPOSE: English, Hybrid, Full TR ve Bilingual skill paketlerini ortak patch kaynaklarindan uretir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.1.0
+# VERSION: 1.2.0
 # DESCRIPTION: SkillName ve skill description profil secimlerini config tabanli uygular; kaynak description encodingini korur.
 # DEPENDENCY-LAYER: Tool
 
@@ -18,7 +18,7 @@ INFO_SOURCE = REPO_ROOT / "Translation/Renewal/data/luafiles514/lua files/skilli
 DESC_SOURCE = REPO_ROOT / "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
 NAME_PATCH = REPO_ROOT / "TurkuazTR/skillinfolist.tr.json"
 DESC_PATCH = REPO_ROOT / "TurkuazTR/skilldescript.tr.json"
-PROFILE_FILE = REPO_ROOT / "TurkuazTR/skill-profiles.json"
+PROFILE_FILE = REPO_ROOT / "TurkuazTR/localization-profiles.json"
 
 INFO_NAME_RE = re.compile(
     r'(\[SKID\.([A-Z0-9_]+)\]\s*=\s*\{.*?SkillName\s*=\s*")([^"]*)(")',
