@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/localization-profiles.json",
     "purpose": "TurkuazTR generated istemci profillerinin tum localization bilesenleri icin dil modlarini tanimlar",
     "module": "Translation Profile - JSON",
-    "version": "1.5.0",
-    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay ve quest localization bilesenlerinde tanimlar",
+    "version": "1.6.0",
+    "description": "English, Hybrid, Full TR ve Bilingual profillerini skill, overlay, kitap ve quest localization bilesenlerinde tanimlar",
     "dependency_layer": "Tool"
   },
   "profiles": {
@@ -23,7 +23,8 @@
       "tipoftheday": "original",
       "guild_tip": "original",
       "quest_display": "original",
-      "ongoing_quests": "original"
+      "ongoing_quests": "original",
+      "books": "original"
     },
     "hybrid": {
       "display_name": "Hybrid - Original Skill Name + Turkce Aciklama",
@@ -40,7 +41,8 @@
       "tipoftheday": "tr",
       "guild_tip": "tr",
       "quest_display": "tr",
-      "ongoing_quests": "tr"
+      "ongoing_quests": "tr",
+      "books": "tr"
     },
     "full_tr": {
       "display_name": "Full TR - Turkce Skill Name + Turkce Aciklama",
@@ -57,7 +59,8 @@
       "tipoftheday": "tr",
       "guild_tip": "tr",
       "quest_display": "tr",
-      "ongoing_quests": "tr"
+      "ongoing_quests": "tr",
+      "books": "tr"
     },
     "bilingual": {
       "display_name": "Bilingual - Turkce + English Skill Name + Turkce Aciklama",
@@ -74,7 +77,8 @@
       "tipoftheday": "tr",
       "guild_tip": "tr",
       "quest_display": "tr",
-      "ongoing_quests": "tr"
+      "ongoing_quests": "tr",
+      "books": "tr"
     }
   }
 }
