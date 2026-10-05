@@ -11462,7 +11462,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GC_DARKCROW] = {
 		"GC_DARKCROW",
-		SkillName = "Dark Claw",
+		SkillName = "Karanlik Pence",
 		MaxLv = 5,
 		SpAmount = { 22, 34, 46, 58, 70 },
 		bSeperateLv = true,
@@ -11473,7 +11473,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_UNLIMIT] = {
 		"RA_UNLIMIT",
-		SkillName = "Unlimit",
+		SkillName = "Sinirsiz",
 		MaxLv = 5,
 		SpAmount = { 100, 120, 140, 160, 180 },
 		bSeperateLv = true,
@@ -11484,7 +11484,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.LG_KINGS_GRACE] = {
 		"LG_KINGS_GRACE",
-		SkillName = "King's Grace",
+		SkillName = "Kralin Lutfu",
 		MaxLv = 5,
 		SpAmount = { 200, 180, 160, 140, 120 },
 		bSeperateLv = false,
@@ -11495,7 +11495,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RK_DRAGONBREATH_WATER] = {
 		"RK_DRAGONBREATH_WATER",
-		SkillName = "Dragon Breath - Water",
+		SkillName = "Ejderha Nefesi - Su",
 		MaxLv = 10,
 		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
@@ -11506,7 +11506,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_MAGMA_ERUPTION] = {
 		"NC_MAGMA_ERUPTION",
-		SkillName = "Magma Eruption",
+		SkillName = "Magma Patlamasi",
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		bSeperateLv = true,
@@ -11517,7 +11517,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WM_FRIGG_SONG] = {
 		"WM_FRIGG_SONG",
-		SkillName = "Frigg's Song",
+		SkillName = "Frigg'in Sarkisi",
 		MaxLv = 5,
 		SpAmount = { 200, 230, 260, 290, 320 },
 		bSeperateLv = true,
@@ -11528,7 +11528,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SO_ELEMENTAL_SHIELD] = {
 		"SO_ELEMENTAL_SHIELD",
-		SkillName = "Elemental Shield",
+		SkillName = "Element Kalkani",
 		MaxLv = 5,
 		SpAmount = { 120, 120, 120, 120, 120 },
 		bSeperateLv = false,
@@ -11539,7 +11539,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SC_ESCAPE] = {
 		"SC_ESCAPE",
-		SkillName = "Escape",
+		SkillName = "Kacis",
 		MaxLv = 5,
 		SpAmount = { 30, 26, 22, 18, 14 },
 		bSeperateLv = true,
@@ -11561,7 +11561,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WL_TELEKINESIS_INTENSE] = {
 		"WL_TELEKINESIS_INTENSE",
-		SkillName = "Telekinesis Intense",
+		SkillName = "Yogun Telekinezi",
 		MaxLv = 5,
 		SpAmount = { 100, 150, 200, 250, 300 },
 		bSeperateLv = true,
@@ -11572,7 +11572,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_FULL_THROTTLE] = {
 		"ALL_FULL_THROTTLE",
-		SkillName = "Full Throttle",
+		SkillName = "Tam Gaz",
 		MaxLv = 5,
 		SpAmount = { 1, 1, 1, 1, 1 },
 		bSeperateLv = true,
@@ -11581,7 +11581,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GN_ILLUSIONDOPING] = {
 		"GN_ILLUSIONDOPING",
-		SkillName = "Illusion Doping",
+		SkillName = "Yanilsama Dopingi",
 		MaxLv = 5,
 		SpAmount = { 60, 70, 80, 90, 100 },
 		bSeperateLv = true,
@@ -11592,7 +11592,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_ITEM_ATKMAX] = {
 		"GM_ITEM_ATKMAX",
-		SkillName = "Maximum physical damage item",
+		SkillName = "Maksimum Fiziksel Hasar Esyasi",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -11600,7 +11600,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_ITEM_ATKMIN] = {
 		"GM_ITEM_ATKMIN",
-		SkillName = "Minimum physical damage item",
+		SkillName = "Minimum Fiziksel Hasar Esyasi",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -11608,7 +11608,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_ITEM_MATKMAX] = {
 		"GM_ITEM_MATKMAX",
-		SkillName = "Maximum magical damage item",
+		SkillName = "Maksimum Buyusel Hasar Esyasi",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -11616,7 +11616,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_ITEM_MATKMIN] = {
 		"GM_ITEM_MATKMIN",
-		SkillName = "Minimum magical damage item",
+		SkillName = "Minimum Buyusel Hasar Esyasi",
 		MaxLv = 1,
 		SpAmount = { 1 },
 		bSeperateLv = false,
@@ -11624,7 +11624,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_REVERBERATION] = {
 		"NPC_REVERBERATION",
-		SkillName = "Reverberation",
+		SkillName = "Yankilanma",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -11654,7 +11654,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.BA_POEMBRAGI2] = {
 		"BA_POEMBRAGI2",
-		SkillName = "Poem of Bragi",
+		SkillName = "Bragi'nin Siiri",
 		MaxLv = 10,
 		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
@@ -11665,7 +11665,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DC_FORTUNEKISS2] = {
 		"DC_FORTUNEKISS2",
-		SkillName = "Fortune's kiss",
+		SkillName = "Sans Opucugu",
 		MaxLv = 10,
 		SpAmount = { 43, 46, 49, 52, 55, 58, 61, 64, 67, 70 },
 		bSeperateLv = true,
@@ -11676,7 +11676,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_FORCE_TRANSFER] = {
 		"GM_FORCE_TRANSFER",
-		SkillName = "Force Transfer",
+		SkillName = "Zorla Aktarim",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11684,7 +11684,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GD_GUILD_STORAGE] = {
 		"GD_GUILD_STORAGE",
-		SkillName = "Guild Storage Expansion",
+		SkillName = "Lonca Deposu Genisletme",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -11693,7 +11693,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.GM_WIDE_RESURRECTION] = {
 		"GM_WIDE_RESURRECTION",
-		SkillName = "Wide Resurrection",
+		SkillName = "Genis Alan Diriltme",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11701,7 +11701,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_PRONTERA_RECALL] = {
 		"ALL_PRONTERA_RECALL",
-		SkillName = "Return to Prontera",
+		SkillName = "Prontera'ya Donus",
 		MaxLv = 2,
 		SpAmount = { 0, 0 },
 		bSeperateLv = false,
@@ -11709,7 +11709,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.ALL_THANATOS_RECALL] = {
 		"ALL_THANATOS_RECALL",
-		SkillName = "Return to Thanatos",
+		SkillName = "Thanatos'a Donus",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11717,7 +11717,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.MC_CARTDECORATE] = {
 		"MC_CARTDECORATE",
-		SkillName = "Change Cart 2",
+		SkillName = "Arabayi Degistir 2",
 		MaxLv = 1,
 		SpAmount = { 40 },
 		bSeperateLv = false,
@@ -11725,7 +11725,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_BASIC_SKILL] = {
 		"SU_BASIC_SKILL",
-		SkillName = "New Basic Skill",
+		SkillName = "Yeni Temel Beceri",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11734,7 +11734,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_BITE] = {
 		"SU_BITE",
-		SkillName = "Bite",
+		SkillName = "Isirma",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -11745,7 +11745,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_HIDE] = {
 		"SU_HIDE",
-		SkillName = "Hide",
+		SkillName = "Saklanma",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -11756,7 +11756,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_SCRATCH] = {
 		"SU_SCRATCH",
-		SkillName = "Scratch",
+		SkillName = "Tirmalama",
 		MaxLv = 3,
 		SpAmount = { 20, 25, 30 },
 		bSeperateLv = true,
@@ -11767,7 +11767,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_STOOP] = {
 		"SU_STOOP",
-		SkillName = "Stoop",
+		SkillName = "Egilme",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -11778,7 +11778,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_LOPE] = {
 		"SU_LOPE",
-		SkillName = "Lope",
+		SkillName = "Uzun Sicrama",
 		MaxLv = 3,
 		SpAmount = { 30, 30, 30 },
 		bSeperateLv = false,
@@ -11789,7 +11789,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_SPRITEMABLE] = {
 		"SU_SPRITEMABLE",
-		SkillName = "Sprite Marble",
+		SkillName = "Ruh Bilyesi",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -11801,7 +11801,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_FRESHSHRIMP] = {
 		"SU_FRESHSHRIMP",
-		SkillName = "Fresh Shrimp",
+		SkillName = "Taze Karides",
 		MaxLv = 5,
 		SpAmount = { 22, 24, 26, 28, 30 },
 		bSeperateLv = true,
@@ -11812,7 +11812,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SU_BUNCHOFSHRIMP] = {
 		"SU_BUNCHOFSHRIMP",
-		SkillName = "Bunch of Shrimp",
+		SkillName = "Karides Surusu",
 		MaxLv = 5,
 		SpAmount = { 44, 48, 52, 56, 60 },
 		bSeperateLv = false,
