@@ -2,8 +2,8 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.2.0
-Aciklama: Upstream senkronu, Turkce calisma dali ve 2022 client cikisini birbirinden ayirir
+Version: 2.3.0
+Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
 
@@ -87,6 +87,10 @@ Su anda ortak line-overlay modeline tasinan bilesenler:
 - `town_info`: 4 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
 - `sign_data`: 61 exact Turkce satir; kullaniciya gorunen Ingilizce acik 0.
 - `navi_data`: 2273 exact Turkce satir; genel NPC, nesne ve harita etiketleri tamamlandi, canonical ozel adlar ve monster adlari bilincli korunur.
+- `help_messages`: 79 komut yardim satiri ASCII Turkce; ceviri acigi 0.
+- `titles`: 47 karakter unvani ASCII Turkce; ceviri acigi 0.
+- `worldview`: 377 harita/konum etiketi Turkce; saf canonical ozel adlar bilincli korunur.
+- `map_names`: 1144 harita etiketi Turkce; kalan satirlar Battle Royale/canonical ozel ad/etkinlik adlaridir.
 - `ba_frostjoke`: 100 exact ASCII Turkce satir; kalan 19 satir skill/monster/joke adi olarak bilincli korunur.
 - `dc_scream`: 105 exact ASCII Turkce satir; kalan 12 satir ceviri gerektirmeyen nida/ses satiridir.
 
