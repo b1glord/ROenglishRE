@@ -1,0 +1,1025 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/recommended_quests.tr.json",
+    "purpose": "Renewal RecommendedQuests.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest RecommendedQuests.lub kaynagindaki 252 exact satiri Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/RecommendedQuests.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "842f13bb09b967bec5bba848f4df2e9ca40eb0f5",
+  "source_line_count": 676,
+  "patch_count": 252,
+  "patches": {
+    "10": {
+      "source_en": "\t\tTitle = \"Welcome to Ragnarok Online!\",",
+      "translation_tr": "\t\tTitle = \"Ragnarok Online'a Hos Geldiniz!\","
+    },
+    "12": {
+      "source_en": "\t\tSummary = \"We provide help for Novice adventurer.\",",
+      "translation_tr": "\t\tSummary = \"Novice maceracilara yardim sunuyoruz.\","
+    },
+    "19": {
+      "source_en": "\t\t\t\"Welcome!\",",
+      "translation_tr": "\t\t\t\"Hos geldiniz!\","
+    },
+    "20": {
+      "source_en": "\t\t\t\"The Criatura academy offers a variety of information for Novice. If you haven't visited The Criatura academy, please visit us to get useful informations and items.\"",
+      "translation_tr": "\t\t\t\"Criatura Academy, Novice maceracilar icin cesitli bilgiler sunar. Henuz ziyaret etmediyseniz yararli bilgiler ve esyalar icin akademiye ugrayin.\""
+    },
+    "23": {
+      "source_en": "\t\t\t\"$$Novice$$ welcome!!\",",
+      "translation_tr": "\t\t\t\"$$Novice$$ hos geldin!!\","
+    },
+    "24": {
+      "source_en": "\t\t\t\"Beginner%%Support%%Bread!!Bread!!\",",
+      "translation_tr": "\t\t\t\"Baslangic%%Destegi%%Ekmek!!Ekmek!!\","
+    },
+    "25": {
+      "source_en": "\t\t\t\"&*Free*& consult OK!!\"",
+      "translation_tr": "\t\t\t\"&*Ucretsiz*& danisma mevcut!!\""
+    },
+    "28": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "32": {
+      "source_en": "\t\tTitle = \"Prontera Spring Flower Festival\",",
+      "translation_tr": "\t\tTitle = \"Prontera Bahar Cicek Festivali\","
+    },
+    "34": {
+      "source_en": "\t\tSummary = \"See you in Prontera in the spring\",",
+      "translation_tr": "\t\tSummary = \"Baharda Prontera'da bulusalim\","
+    },
+    "37": {
+      "source_en": "\t\t\t\"We invite you to the newly revamped Frontera Spring Flower Festival.\",",
+      "translation_tr": "\t\t\t\"Yenilenen Prontera Bahar Cicek Festivali'ne davetlisiniz.\","
+    },
+    "38": {
+      "source_en": "\t\t\t\"Please find <NAVI>[Seri]<INFO>prontera,137,327,0,101,0</INFO></NAVI> at the entrance of Prontera Royal Castle.\"",
+      "translation_tr": "\t\t\t\"Prontera Royal Castle girisindeki <NAVI>[Seri]<INFO>prontera,137,327,0,101,0</INFO></NAVI> ile gorusun.\""
+    },
+    "42": {
+      "source_en": "\t\t\t\"^945945Anyone who is an adventurer with Base Level 20 or higher!^000000\"",
+      "translation_tr": "\t\t\t\"^945945Base Level 20 veya uzeri tum maceracilar katilabilir!^000000\""
+    },
+    "45": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "49": {
+      "source_en": "\t\tTitle = \"Chuseok with the bright full moon\",",
+      "translation_tr": "\t\tTitle = \"Parlak Dolunayla Chuseok\","
+    },
+    "51": {
+      "source_en": "\t\tSummary = \"Enjoy holiday food at Payon!\",",
+      "translation_tr": "\t\tSummary = \"Payon'da bayram yemeklerinin tadini cikarin!\","
+    },
+    "54": {
+      "source_en": "\t\t\t\"This year, a holiday food experience festival will be held in Payon.\",",
+      "translation_tr": "\t\t\t\"Bu yil Payon'da bayram yemekleri deneyim festivali duzenleniyor.\","
+    },
+    "55": {
+      "source_en": "\t\t\t\"Adventurers who didn't go back to their hometowns for Chuseok, would you like to try making songpyeon in <NAVI>[Payon]<INFO>payon,217,109,0,101,0</INFO></NAVI>?\"",
+      "translation_tr": "\t\t\t\"Chuseok icin memleketine donemeyen maceracilar, <NAVI>[Payon]<INFO>payon,217,109,0,101,0</INFO></NAVI> icinde songpyeon yapmayi denemek ister misiniz?\""
+    },
+    "58": {
+      "source_en": "\t\t\t\"We also made songpyeon and ate yakgwa.\",",
+      "translation_tr": "\t\t\t\"Biz de songpyeon yaptik ve yakgwa yedik.\","
+    },
+    "59": {
+      "source_en": "\t\t\t\"Have a happy Chuseok!\"",
+      "translation_tr": "\t\t\t\"Mutlu Chuseoklar!\""
+    },
+    "62": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "66": {
+      "source_en": "\t\tTitle = \"Yuno Autumn Academic Festival\",",
+      "translation_tr": "\t\tTitle = \"Yuno Sonbahar Akademi Festivali\","
+    },
+    "68": {
+      "source_en": "\t\tSummary = \"There are also crispy and delicious snacks!\",",
+      "translation_tr": "\t\tSummary = \"Citir ve lezzetli atistirmaliklar da var!\","
+    },
+    "71": {
+      "source_en": "\t\t\t\"At the Yuno Autumn Academic Festival, various academic societies and groups present their research achievements through various games and events.\",",
+      "translation_tr": "\t\t\t\"Yuno Sonbahar Akademi Festivali'nde cesitli akademik topluluklar arastirma basarilarini oyunlar ve etkinliklerle tanitir.\","
+    },
+    "72": {
+      "source_en": "\t\t\t\"<NAVI>[Lazy]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI> is finally waiting for everyone to come to Yuno!\"",
+      "translation_tr": "\t\t\t\"<NAVI>[Lazy]<INFO>yuno.gat,164,169,0,101,0</INFO></NAVI> sonunda herkesi Yuno'ya bekliyor!\""
+    },
+    "75": {
+      "source_en": "\t\t\t\"Enjoy a bountiful autumn by\",",
+      "translation_tr": "\t\t\t\"Bereketli sonbaharin tadini\","
+    },
+    "76": {
+      "source_en": "\t\t\t\"browsing the various booths at the\",",
+      "translation_tr": "\t\t\t\"Yuno Sonbahar Akademi Festivali'ndeki\","
+    },
+    "77": {
+      "source_en": "\t\t\t\"Yuno Autumn Academic Festival!\"",
+      "translation_tr": "\t\t\t\"cesitli stantlari gezerek cikarin!\""
+    },
+    "80": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "84": {
+      "source_en": "\t\tTitle = \"Chapter 2: Song of the World Tree\",",
+      "translation_tr": "\t\tTitle = \"Bolum 2: World Tree'nin Sarkisi\","
+    },
+    "86": {
+      "source_en": "\t\tSummary = \"~ Fragments of the Apocalypse ~\",",
+      "translation_tr": "\t\tSummary = \"~ Kiyametin Parcalari ~\","
+    },
+    "93": {
+      "source_en": "\t\t\t\"Adventurer.\",",
+      "translation_tr": "\t\t\t\"Maceraci.\","
+    },
+    "95": {
+      "source_en": "\t\t\t\"Before I knew it, as I caressed the young leaves of the World Tree, a new journey was about to begin, following the wind.\",",
+      "translation_tr": "\t\t\t\"World Tree'nin genc yapraklarina dokunurken, ruzgari takip eden yeni bir yolculugun baslamak uzere oldugunu fark ettim.\","
+    },
+    "96": {
+      "source_en": "\t\t\t\"I hope your footsteps can join us in Ashwood Village, where the wind begins.\",",
+      "translation_tr": "\t\t\t\"Ruzgarin basladigi Ashwood Village'da adimlarinin bize katilmasini umuyorum.\","
+    },
+    "98": {
+      "source_en": "\t\t\t\"Sincerely, Lapine Sasha, eagerly awaiting.\"",
+      "translation_tr": "\t\t\t\"Sevgilerle, seni heyecanla bekleyen Lapine Sasha.\""
+    },
+    "101": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "102": {
+      "source_en": "\t\t\t\"^3275f0Base Level 225 or higher^000000\",",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 225 veya uzeri^000000\","
+    },
+    "103": {
+      "source_en": "\t\t\t\"^3275f0Chapter 1: Song of the World Tree^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Bolum 1: World Tree'nin Sarkisi^000000\""
+    },
+    "106": {
+      "source_en": "\t\t\t\"Start Point\",",
+      "translation_tr": "\t\t\t\"Baslangic Noktasi\","
+    },
+    "107": {
+      "source_en": "\t\t\t\"<NAVI>[Lapine Sasha]<INFO>ygg_edge,156,179,0,101,0</INFO></NAVI> is waiting for you.\",",
+      "translation_tr": "\t\t\t\"<NAVI>[Lapine Sasha]<INFO>ygg_edge,156,179,0,101,0</INFO></NAVI> seni bekliyor.\","
+    },
+    "112": {
+      "source_en": "\t\tTitle = \"The World Tree Calls!\",",
+      "translation_tr": "\t\tTitle = \"World Tree Seni Cagiriyor!\","
+    },
+    "114": {
+      "source_en": "\t\tSummary = \"New Class, Druid!\",",
+      "translation_tr": "\t\tSummary = \"Yeni Sinif, Druid!\","
+    },
+    "117": {
+      "source_en": "\t\t\t\"O promising young adventurer!\",",
+      "translation_tr": "\t\t\t\"Ey gelecek vadeden genc maceraci!\","
+    },
+    "118": {
+      "source_en": "\t\t\t\"Wouldn't you transform by inheriting the power of the World Tree?\",",
+      "translation_tr": "\t\t\t\"World Tree'nin gucunu miras alip donusmek istemez misin?\","
+    },
+    "126": {
+      "source_en": "\t\t\t\"^ff0000\u00a4 For detailed information, please meet the Druid Ascendancy NPC.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Ayrintili bilgi icin Druid Ascendancy NPC'si ile gorusun.^000000\""
+    },
+    "130": {
+      "source_en": "\t\tTitle = \"Chapter 1: Song of the World Tree\",",
+      "translation_tr": "\t\tTitle = \"Bolum 1: World Tree'nin Sarkisi\","
+    },
+    "132": {
+      "source_en": "\t\tSummary = \"~ Prelude ~\",",
+      "translation_tr": "\t\tSummary = \"~ Giris ~\","
+    },
+    "135": {
+      "source_en": "\t\t\t\"Hello? How are you? You look so healthy.\",",
+      "translation_tr": "\t\t\t\"Merhaba? Nasilsin? Gayet saglikli gorunuyorsun.\","
+    },
+    "136": {
+      "source_en": "\t\t\t\"If you see me, you are the chosen adventurer!\",",
+      "translation_tr": "\t\t\t\"Beni gorebiliyorsan secilmis maceraci sensin!\","
+    },
+    "137": {
+      "source_en": "\t\t\t\"Are you interested in the end of the world?\"",
+      "translation_tr": "\t\t\t\"Dunyanin sonuyla ilgileniyor musun?\""
+    },
+    "140": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "141": {
+      "source_en": "\t\t\t\"^3275f0Base Level 200 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 200 veya uzeri^000000\""
+    },
+    "144": {
+      "source_en": "\t\t\t\"Start Point\",",
+      "translation_tr": "\t\t\t\"Baslangic Noktasi\","
+    },
+    "150": {
+      "source_en": "\t\tTitle = \"Episode 21: The Age of Heroes\",",
+      "translation_tr": "\t\tTitle = \"Episode 21: Kahramanlar Cagi\","
+    },
+    "152": {
+      "source_en": "\t\tSummary = \"Remember...\",",
+      "translation_tr": "\t\tSummary = \"Hatirla...\","
+    },
+    "155": {
+      "source_en": "\t\t\t\"A small scale island near Issgard,\",",
+      "translation_tr": "\t\t\t\"Issgard yakinlarindaki kucuk bir ada,\","
+    },
+    "156": {
+      "source_en": "\t\t\t\"where a small crack appears, transports the adventurers back in time.\",",
+      "translation_tr": "\t\t\t\"ortaya cikan kucuk bir yarikla maceracilari gecmise tasiyor.\","
+    },
+    "157": {
+      "source_en": "\t\t\t\"<NAVI>[Join]<INFO>jor_tail,233,41,0,101,0</INFO></NAVI> Nyar as he journeys to the past, a time of turbulent times, where heroes fought for a crucial mission to defeat Lasgand!\"",
+      "translation_tr": "\t\t\t\"Lasgand'i yenmek icin kahramanlarin savastigi calkantili gecmise yolculuk eden Nyar'a <NAVI>[katil]<INFO>jor_tail,233,41,0,101,0</INFO></NAVI>!\""
+    },
+    "160": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "161": {
+      "source_en": "\t\t\t\"^3275f0Episode 20^000000 completed\",",
+      "translation_tr": "\t\t\t\"^3275f0Episode 20^000000 tamamlanmis olmali\","
+    },
+    "162": {
+      "source_en": "\t\t\t\"^3275f0Base Level 230 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 230 veya uzeri^000000\""
+    },
+    "166": {
+      "source_en": "\t\t\t\"                  casting\",",
+      "translation_tr": "\t\t\t\"                  hazirlaniyor\","
+    },
+    "167": {
+      "source_en": "\t\t\t\"               casting\",",
+      "translation_tr": "\t\t\t\"               hazirlaniyor\","
+    },
+    "168": {
+      "source_en": "\t\t\t\"                casting\"",
+      "translation_tr": "\t\t\t\"                hazirlaniyor\""
+    },
+    "172": {
+      "source_en": "\t\tTitle = \"Garden of Time\",",
+      "translation_tr": "\t\tTitle = \"Zaman Bahcesi\","
+    },
+    "174": {
+      "source_en": "\t\tSummary = \"The new owner of the forgotten space\",",
+      "translation_tr": "\t\tSummary = \"Unutulmus mekanin yeni sahibi\","
+    },
+    "178": {
+      "source_en": "\t\t\t\"I can't just get rid of this <NAVI>[Portal]<INFO>xmas_fild01,155,245,0,101,0</INFO></NAVI>!\",",
+      "translation_tr": "\t\t\t\"Bu <NAVI>[Portal]<INFO>xmas_fild01,155,245,0,101,0</INFO></NAVI> oylece ortadan kaldirilamaz!\","
+    },
+    "179": {
+      "source_en": "\t\t\t\"I can't even fathom how many years Oscar has lived here, can I?\",",
+      "translation_tr": "\t\t\t\"Oscar'in burada kac yil yasadigini hayal bile edemiyorum.\","
+    },
+    "180": {
+      "source_en": "\t\t\t\"But I still can't stand the sight of him snoozing on the cold ground.\",",
+      "translation_tr": "\t\t\t\"Ama soguk zeminde uyuklamasina da dayanamiyorum.\","
+    },
+    "181": {
+      "source_en": "\t\t\t\"Let's take this abandoned garden for ourselves!\",",
+      "translation_tr": "\t\t\t\"Bu terk edilmis bahceyi kendimize alalim!\","
+    },
+    "182": {
+      "source_en": "\t\t\t\"Do you see the pictures of the mansion I sent you?\",",
+      "translation_tr": "\t\t\t\"Gonderdigim malikane fotograflarini gordun mu?\","
+    },
+    "183": {
+      "source_en": "\t\t\t\"They're a little dark, but I like them!\",",
+      "translation_tr": "\t\t\t\"Biraz karanliklar ama hosuma gidiyor!\","
+    },
+    "184": {
+      "source_en": "\t\t\t\"Please respond quickly!\",",
+      "translation_tr": "\t\t\t\"Lutfen cabuk cevap ver!\","
+    },
+    "189": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "190": {
+      "source_en": "\t\t\t\"^3275f0Base Level 250 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 250 veya uzeri^000000\""
+    },
+    "193": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "197": {
+      "source_en": "\t\tTitle = \"A new discovery! Rune Tablets!\",",
+      "translation_tr": "\t\tTitle = \"Yeni Bir Kesif! Rune Tablets!\","
+    },
+    "199": {
+      "source_en": "\t\tSummary = \"Varmundt's new technology?!\",",
+      "translation_tr": "\t\tSummary = \"Varmundt'un yeni teknolojisi?!\","
+    },
+    "202": {
+      "source_en": "\t\t\t\"The cards piled up in the warehouse have been transformed!\",",
+      "translation_tr": "\t\t\t\"Depoda biriken kartlar donusturuldu!\","
+    },
+    "203": {
+      "source_en": "\t\t\t\"Bring new life to Varmundt's new technology-intensive Rune Tablet...!\",",
+      "translation_tr": "\t\t\t\"Varmundt'un ileri teknoloji Rune Tablet sistemine yeni bir hayat getir...!\","
+    },
+    "204": {
+      "source_en": "\t\t\t\"Find <NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> and check it out right now!\"",
+      "translation_tr": "\t\t\t\"<NAVI>[Rune Stone]<INFO>prontera,161,192,0,101,0</INFO></NAVI> bul ve hemen incele!\""
+    },
+    "208": {
+      "source_en": "\t\t\t\"they're really good...\"",
+      "translation_tr": "\t\t\t\"gercekten cok iyiler...\""
+    },
+    "211": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "215": {
+      "source_en": "\t\tTitle = \"Episode 20: The Immortal\",",
+      "translation_tr": "\t\tTitle = \"Episode 20: Olumsuz\","
+    },
+    "217": {
+      "source_en": "\t\tSummary = \"Let's go to the Ancient Ice Canyon!\",",
+      "translation_tr": "\t\tSummary = \"Ancient Ice Canyon'a gidelim!\","
+    },
+    "220": {
+      "source_en": "\t\t\t\"Key figures of the Jormungand Cult have abandoned the Serpent's Nest and retreated deeper into the depths.\",",
+      "translation_tr": "\t\t\t\"Jormungand Cult'un onemli isimleri Serpent's Nest'i terk edip daha derinlere cekildi.\","
+    },
+    "221": {
+      "source_en": "\t\t\t\"To find Bagot and Lasgand and thwart their sinister ambitions,\",",
+      "translation_tr": "\t\t\t\"Bagot ve Lasgand'i bulup karanlik planlarini bozmak icin,\","
+    },
+    "222": {
+      "source_en": "\t\t\t\"the group of adventurers journey to a new region they've never explored before, encountering unfamiliar creatures.\",",
+      "translation_tr": "\t\t\t\"maceracilar daha once kesfetmedikleri yeni bir bolgeye giderek yabanci yaratiklarla karsilasiyor.\","
+    },
+    "226": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "227": {
+      "source_en": "\t\t\t\"^3275f0Episode 19^000000 completed\",",
+      "translation_tr": "\t\t\t\"^3275f0Episode 19^000000 tamamlanmis olmali\","
+    },
+    "228": {
+      "source_en": "\t\t\t\"^3275f0Base Level 215 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 215 veya uzeri^000000\""
+    },
+    "237": {
+      "source_en": "\t\tTitle = \"Fantasy Series\",",
+      "translation_tr": "\t\tTitle = \"Fantastik Seri\","
+    },
+    "239": {
+      "source_en": "\t\tSummary = \"Meet me at the library east of Prontera.\",",
+      "translation_tr": "\t\tSummary = \"Prontera'nin dogusundaki kutuphanede bulusalim.\","
+    },
+    "242": {
+      "source_en": "\t\t\t\"A new concept in storybooks, where you can interact with characters in a virtual space and progress through the story!\",",
+      "translation_tr": "\t\t\t\"Sanal bir alanda karakterlerle etkilesime girip hikayede ilerleyebilecegin yepyeni bir hikaye kitabi deneyimi!\","
+    },
+    "243": {
+      "source_en": "\t\t\t\"Just in time, ^3169ceProntera East Library is undergoing a major expansion!^000000\",",
+      "translation_tr": "\t\t\t\"Tam zamaninda, ^3169ceProntera East Library buyuk bir genisleme geciriyor!^000000\","
+    },
+    "244": {
+      "source_en": "\t\t\t\"Visit <NAVI>[Prontera East Library]<INFO>prt_elib,18,46,0,101,0</INFO></NAVI> right now!\"",
+      "translation_tr": "\t\t\t\"Hemen <NAVI>[Prontera East Library]<INFO>prt_elib,18,46,0,101,0</INFO></NAVI> adresini ziyaret et!\""
+    },
+    "247": {
+      "source_en": "\t\t\t\"Shocking!\",",
+      "translation_tr": "\t\t\t\"Sasirtici!\","
+    },
+    "249": {
+      "source_en": "\t\t\t\"^3275f0huge twist!!!!^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0buyuk surpriz!!!!^000000\""
+    },
+    "252": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "256": {
+      "source_en": "\t\tTitle = \"Episode 19: Land of Snow Flowers\",",
+      "translation_tr": "\t\tTitle = \"Episode 19: Kar Cicekleri Diyari\","
+    },
+    "258": {
+      "source_en": "\t\tSummary = \"The frozen land beyond the northern sea.\",",
+      "translation_tr": "\t\tSummary = \"Kuzey denizinin otesindeki donmus diyar.\","
+    },
+    "261": {
+      "source_en": "\t\t\t\"The land beyond the northern sea where the legend of ^3169ceJormungand^000000 is told.\",",
+      "translation_tr": "\t\t\t\"Kuzey denizinin otesinde ^3169ceJormungand^000000 efsanesinin anlatildigi diyar.\","
+    },
+    "262": {
+      "source_en": "\t\t\t\"Will the ambitions of\u00ad ^3169ceBagot^000000, who ran away with the piece of Ymir's heart, be stopped? What secrets is the ^3169ceJormungand Cult^000000 hiding?\",",
+      "translation_tr": "\t\t\t\"Ymir'in kalbinin parcasiyla kacan ^3169ceBagot^000000 durdurulabilecek mi? ^3169ceJormungand Cult^000000 hangi sirleri sakliyor?\","
+    },
+    "263": {
+      "source_en": "\t\t\t\"The airship, filled with anxiety, is now departing for ^3169ceIssgard^000000.\"",
+      "translation_tr": "\t\t\t\"Endiseyle dolu airship simdi ^3169ceIssgard^000000 icin yola cikiyor.\""
+    },
+    "266": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "267": {
+      "source_en": "\t\t\t\"^3275f0Episode 18^000000 completed\",",
+      "translation_tr": "\t\t\t\"^3275f0Episode 18^000000 tamamlanmis olmali\","
+    },
+    "268": {
+      "source_en": "\t\t\t\"^3275f0Base Level 200 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^3275f0Base Level 200 veya uzeri^000000\""
+    },
+    "272": {
+      "source_en": "\t\t\t\"Right. Right. Right.\",",
+      "translation_tr": "\t\t\t\"Evet. Evet. Evet.\","
+    },
+    "273": {
+      "source_en": "\t\t\t\"   I'm going to meet you.\"",
+      "translation_tr": "\t\t\t\"   Seninle bulusmaya geliyorum.\""
+    },
+    "277": {
+      "source_en": "\t\tTitle = \"You can do it too! Change your job right now!!\",",
+      "translation_tr": "\t\tTitle = \"Sen de Yapabilirsin! Hemen Job Degistir!!\","
+    },
+    "279": {
+      "source_en": "\t\tSummary = \"You can also do extended jobs!\",",
+      "translation_tr": "\t\tSummary = \"Expanded joblara da gecebilirsin!\","
+    },
+    "295": {
+      "source_en": "\t\t\t\"^ff0000\u00a4 For more detailed information, please check with the NPC for each job.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Ayrintili bilgi icin her job'un NPC'siyle gorusun.^000000\""
+    },
+    "299": {
+      "source_en": "\t\tTitle = \"Varmundt's Biosphere\",",
+      "translation_tr": "\t\tTitle = \"Varmundt'un Biosphere'i\","
+    },
+    "301": {
+      "source_en": "\t\tSummary = \"I would like to ask for your assistance.\",",
+      "translation_tr": "\t\tSummary = \"Yardimini rica etmek istiyorum.\","
+    },
+    "305": {
+      "source_en": "\t\t\t\"Aren't you curious about the artificial habitat that Master Varmundt created within\u00ad the <NAVI>[mansion]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI>?\",",
+      "translation_tr": "\t\t\t\"Usta Varmundt'un <NAVI>[malikane]<INFO>ba_in01,252,353,0,101,0</INFO></NAVI> icinde yarattigi yapay yasam alanini merak etmiyor musun?\","
+    },
+    "306": {
+      "source_en": "\t\t\t\"We desperately need your help to defeat the monsters that have grown strangely strong after being isolated from the outside world for so long.\"",
+      "translation_tr": "\t\t\t\"Dis dunyadan uzun sure izole kaldiklari icin tuhaf bicimde guclenen canavarlari yenmek icin yardimina ihtiyacimiz var.\""
+    },
+    "309": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "310": {
+      "source_en": "\t\t\t\"Base Level 240 or higher\"",
+      "translation_tr": "\t\t\t\"Base Level 240 veya uzeri\""
+    },
+    "313": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "317": {
+      "source_en": "\t\tTitle = \"Sunken Tower\",",
+      "translation_tr": "\t\tTitle = \"Batmis Kule\","
+    },
+    "319": {
+      "source_en": "\t\tSummary = \"Uninvited guests in erosion zones\",",
+      "translation_tr": "\t\tSummary = \"Erozyon bolgesindeki davetsiz misafirler\","
+    },
+    "326": {
+      "source_en": "\t\t\t\"^003355Someone has to do it^000000\",",
+      "translation_tr": "\t\t\t\"^003355Birinin bunu yapmasi gerekiyor^000000\","
+    },
+    "327": {
+      "source_en": "\t\t\t\"\u00b0Unwelcome beings are emerging from beneath the eroded ruins of the sunken Endless Tower!\",",
+      "translation_tr": "\t\t\t\"Batmis Endless Tower'in asinmis kalintilarinin altindan istenmeyen varliklar cikiyor!\","
+    },
+    "328": {
+      "source_en": "\t\t\t\"You may not gain much wealth, but it will be a good experience... no, it could be a good experience. You, who seem to be putting in some effort, are no exception, right?\"",
+      "translation_tr": "\t\t\t\"Buyuk bir servet kazanmayabilirsin ama iyi bir deneyim olabilir. Sen de biraz caba gostermeye hazirsin, degil mi?\""
+    },
+    "331": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "332": {
+      "source_en": "\t\t\t\"^990000Base Level 40 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 40 veya uzeri^000000\""
+    },
+    "335": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "339": {
+      "source_en": "\t\tTitle = \"Illusion of Twins\",",
+      "translation_tr": "\t\tTitle = \"Ikizlerin Illuzyonu\","
+    },
+    "341": {
+      "source_en": "\t\tSummary = \"Four adventurers with identical appearances. Is this an illusion created by someone?\",",
+      "translation_tr": "\t\tSummary = \"Ayni gorunuse sahip dort maceraci. Bu birinin yarattigi illuzyon mu?\","
+    },
+    "344": {
+      "source_en": "\t\t\t\"Somewhere in the Ant Hell Dungeon, someone said they saw an adventurer who looked just like them...\",",
+      "translation_tr": "\t\t\t\"Ant Hell Dungeon'in bir yerinde, birinin kendisine tipatip benzeyen bir maceraci gordugu soyleniyor...\","
+    },
+    "345": {
+      "source_en": "\t\t\t\"I wonder what happened, no one else has ever seen it.\",",
+      "translation_tr": "\t\t\t\"Ne oldugunu merak ediyorum; baska kimse bunu gormemis.\","
+    },
+    "346": {
+      "source_en": "\t\t\t\"Go to <NAVI>[Ant Hell]<INFO>anthell02,177,190,0,101,0</INFO></NAVI> and find out what's going on!\"",
+      "translation_tr": "\t\t\t\"<NAVI>[Ant Hell]<INFO>anthell02,177,190,0,101,0</INFO></NAVI> bolgesine git ve neler oldugunu ogren!\""
+    },
+    "349": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "350": {
+      "source_en": "\t\t\t\"^990000Base Level 160 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 160 veya uzeri^000000\""
+    },
+    "353": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "357": {
+      "source_en": "\t\tTitle = \"Episode 18: Direction of Prayer\",",
+      "translation_tr": "\t\tTitle = \"Episode 18: Duanin Yonu\","
+    },
+    "359": {
+      "source_en": "\t\tSummary = \"What's going on in Rachel?\",",
+      "translation_tr": "\t\tSummary = \"Rachel'da neler oluyor?\","
+    },
+    "366": {
+      "source_en": "\t\t\t\"The signal analysis of the unfair situation that had been going on for a while is finally over!\",",
+      "translation_tr": "\t\t\t\"Bir suredir devam eden tuhaf durumun sinyal analizi sonunda tamamlandi!\","
+    },
+    "367": {
+      "source_en": "\t\t\t\"It seems that the remnants of Illusion are up to something in Rachel, the capital of the religious nation of Arunafeltz.\",",
+      "translation_tr": "\t\t\t\"Illusion kalintilari, dini ulke Arunafeltz'in baskenti Rachel'da bir seyler planliyor gibi gorunuyor.\","
+    },
+    "368": {
+      "source_en": "\t\t\t\"Ellie decides to go to Rachel herself with the adventurers.\"",
+      "translation_tr": "\t\t\t\"Ellie maceracilarla birlikte Rachel'a gitmeye karar verir.\""
+    },
+    "371": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "372": {
+      "source_en": "\t\t\t\"^990000Episode 17.2^000000 completed\",",
+      "translation_tr": "\t\t\t\"^990000Episode 17.2^000000 tamamlanmis olmali\","
+    },
+    "373": {
+      "source_en": "\t\t\t\"^990000Base Level 170 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 170 veya uzeri^000000\""
+    },
+    "376": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "382": {
+      "source_en": "\t\tSummary = \"Face the new owner\",",
+      "translation_tr": "\t\tSummary = \"Yeni sahibiyle yuzles\","
+    },
+    "389": {
+      "source_en": "\t\t\t\"^003355The owner has changed?^000000\",",
+      "translation_tr": "\t\t\t\"^003355Sahibi mi degisti?^000000\","
+    },
+    "390": {
+      "source_en": "\t\t\t\"It seems that someone has overturned a tower, which was called the Endless Tower.\",",
+      "translation_tr": "\t\t\t\"Birisi Endless Tower olarak bilinen kuleyi altust etmis gibi gorunuyor.\","
+    },
+    "391": {
+      "source_en": "\t\t\t\"In a situation where it is impossible to know what kind of danger it is, someone has to identify the new owner.\"",
+      "translation_tr": "\t\t\t\"Tehlikenin ne oldugu bilinmiyor; birinin yeni sahibin kimligini belirlemesi gerekiyor.\""
+    },
+    "394": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "395": {
+      "source_en": "\t\t\t\"^990000Base Level 240 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 240 veya uzeri^000000\""
+    },
+    "398": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "402": {
+      "source_en": "\t\tTitle = \"Traces of Heroes MD Tomb of Regret\",",
+      "translation_tr": "\t\tTitle = \"Traces of Heroes MD: Pismanlik Mezari\","
+    },
+    "404": {
+      "source_en": "\t\tSummary = \"A demon swordsman who was met in the Tomb of Regret and a demon sword that yearned for blood.\",",
+      "translation_tr": "\t\tSummary = \"Pismanlik Mezari'nda karsilasilan iblis kilic ustasi ve kana susamis iblis kilic.\","
+    },
+    "411": {
+      "source_en": "\t\t\t\"We received a request from the princess of the ruins, that the contractor of the magic sword whom he met at the place has been found.\",",
+      "translation_tr": "\t\t\t\"Harabelerin prensesinden, buyulu kilicin sozlesmeli sahibinin bulunduguna dair bir talep aldik.\","
+    },
+    "412": {
+      "source_en": "\t\t\t\"The sword roared and the dead body shed tears.\"",
+      "translation_tr": "\t\t\t\"Kilic kukredi ve cansiz beden goz yasi doktu.\""
+    },
+    "415": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "416": {
+      "source_en": "\t\t\t\"^990000Base Level 220 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 220 veya uzeri^000000\""
+    },
+    "419": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "423": {
+      "source_en": "\t\tTitle = \"Unfair Crash Site\",",
+      "translation_tr": "\t\tTitle = \"Tuhaf Carpma Alani\","
+    },
+    "425": {
+      "source_en": "\t\tSummary = \"A story in a place where unfairness fell.\",",
+      "translation_tr": "\t\tSummary = \"Tuhaf bir seyin dustugu yerde gecen hikaye.\","
+    },
+    "429": {
+      "source_en": "\t\t\t\"A lapine has discovered something at <NAVI>[Dimensional Rift]<INFO>dali02,137,86,0,101,0</INFO></NAVI>.\",",
+      "translation_tr": "\t\t\t\"Bir Lapine, <NAVI>[Dimensional Rift]<INFO>dali02,137,86,0,101,0</INFO></NAVI> bolgesinde bir sey kesfetti.\","
+    },
+    "430": {
+      "source_en": "\t\t\t\"Adventurers were able to go to the place where unfairness fell. Let's explore the now forgotten cavity we found there.\"",
+      "translation_tr": "\t\t\t\"Maceracilar carpma alanina ulasabildi. Orada bulunan ve simdi unutulmus boslugu kesfedelim.\""
+    },
+    "433": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "434": {
+      "source_en": "\t\t\t\"^990000Base Level 215 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 215 veya uzeri^000000\""
+    },
+    "437": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "441": {
+      "source_en": "\t\tTitle = \"Geffen Night Arena\",",
+      "translation_tr": "\t\tTitle = \"Geffen Gece Arenasi\","
+    },
+    "443": {
+      "source_en": "\t\tSummary = \"Hidden Match\",",
+      "translation_tr": "\t\tSummary = \"Gizli Mac\","
+    },
+    "450": {
+      "source_en": "\t\t\t\"^003355Hidden Match^000000\",",
+      "translation_tr": "\t\t\t\"^003355Gizli Mac^000000\","
+    },
+    "451": {
+      "source_en": "\t\t\t\"When the lights in the Geffen Magic Tournament are turned off and the night comes, the real powers hiding their power awaken.\",",
+      "translation_tr": "\t\t\t\"Geffen Magic Tournament isiklari sonup gece geldiginde gucunu saklayan gercek rakipler ortaya cikar.\","
+    },
+    "452": {
+      "source_en": "\t\t\t\"Let's start a true raw fight that is not covered by showmanship and broadcast scripts.\"",
+      "translation_tr": "\t\t\t\"Gosteriden ve yayin senaryolarindan uzak gercek bir dovus baslatalim.\""
+    },
+    "455": {
+      "source_en": "\t\t\t\"Requirements:\",",
+      "translation_tr": "\t\t\t\"Gereksinimler:\","
+    },
+    "456": {
+      "source_en": "\t\t\t\"^990000Base Level 210 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 210 veya uzeri^000000\""
+    },
+    "459": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "463": {
+      "source_en": "\t\tTitle = \"Illusion of Underwater\",",
+      "translation_tr": "\t\tTitle = \"Sualti Illuzyonu\","
+    },
+    "465": {
+      "source_en": "\t\tSummary = \"Reveal the secret of the endlessly deep undersea cave!\",",
+      "translation_tr": "\t\tSummary = \"Sonsuz derinlikteki sualti magarasinin sirrini ortaya cikar!\","
+    },
+    "468": {
+      "source_en": "\t\t\t\"An incident occurred when Shirud, who was fishing in Izlude, disappeared.\",",
+      "translation_tr": "\t\t\t\"Izlude'da balik tutan Shirud kaybolunca bir olay basladi.\","
+    },
+    "469": {
+      "source_en": "\t\t\t\"Three months later, an object he had was discovered.\",",
+      "translation_tr": "\t\t\t\"Uc ay sonra ona ait bir esya bulundu.\","
+    },
+    "470": {
+      "source_en": "\t\t\t\"Go to <NAVI>Izlude<INFO>izlude,132,49,0,101,0</INFO></NAVI> and help finding the missing person!\"",
+      "translation_tr": "\t\t\t\"<NAVI>Izlude<INFO>izlude,132,49,0,101,0</INFO></NAVI> bolgesine git ve kayip kisiyi bulmaya yardim et!\""
+    },
+    "473": {
+      "source_en": "\t\t\t\"Unknown Sea\",",
+      "translation_tr": "\t\t\t\"Bilinmeyen Deniz\","
+    },
+    "474": {
+      "source_en": "\t\t\t\"Deep Sea Cave\"",
+      "translation_tr": "\t\t\t\"Derin Deniz Magarasi\""
+    },
+    "477": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "481": {
+      "source_en": "\t\tTitle = \"Episode 17.2 Sage's Legacy\",",
+      "translation_tr": "\t\tTitle = \"Episode 17.2: Sage'in Mirasi\","
+    },
+    "483": {
+      "source_en": "\t\tSummary = \"Don't fall behind the starters ...\",",
+      "translation_tr": "\t\tSummary = \"Baslayanlarin gerisinde kalma...\","
+    },
+    "490": {
+      "source_en": "\t\t\t\"One side of Cor in the special border area. The sewer pipe, supposedly the only passage, was finally opened.\",",
+      "translation_tr": "\t\t\t\"Ozel sinir bolgesindeki Cor'un bir yaninda, tek gecit oldugu dusunulen kanalizasyon hatti sonunda acildi.\","
+    },
+    "491": {
+      "source_en": "\t\t\t\"Rebelion's crew decided to enter the sewer line to track Illusion.\"",
+      "translation_tr": "\t\t\t\"Rebellion ekibi Illusion'i takip etmek icin kanalizasyon hattina girmeye karar verdi.\""
+    },
+    "494": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "495": {
+      "source_en": "\t\t\t\"Episode ^99000017.1^000000 completed\",",
+      "translation_tr": "\t\t\t\"Episode ^99000017.1^000000 tamamlanmis olmali\","
+    },
+    "496": {
+      "source_en": "\t\t\t\"^990000Base Level 130 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 130 veya uzeri^000000\""
+    },
+    "499": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "505": {
+      "source_en": "\t\tSummary = \"Check for dimensional errors\",",
+      "translation_tr": "\t\tSummary = \"Boyutsal hatalari kontrol et\","
+    },
+    "512": {
+      "source_en": "\t\t\t\"Attempt to close ^003355Dimensions which shouldn't exist^000000,\",",
+      "translation_tr": "\t\t\t\"^003355Var olmamasi gereken boyutlari^000000 kapatmaya calis,\","
+    },
+    "513": {
+      "source_en": "\t\t\t\"which are presumed to have occured at collapse of Glastheim!\",",
+      "translation_tr": "\t\t\t\"bunlarin Glastheim'in cokusu sirasinda ortaya ciktigi dusunuluyor!\","
+    },
+    "514": {
+      "source_en": "\t\t\t\"It is judged that a huge causality will occur when the dimensional guardian's interfere. We need human help.\"",
+      "translation_tr": "\t\t\t\"Boyutsal koruyucular mudahale ederse buyuk bir nedensellik sorunu dogabilir. Insan yardimina ihtiyac var.\""
+    },
+    "517": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "518": {
+      "source_en": "\t\t\t\"^990000Base Level 170 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 170 veya uzeri^000000\""
+    },
+    "521": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "525": {
+      "source_en": "\t\tTitle = \"Max Level raised for Expanded Classes!\",",
+      "translation_tr": "\t\tTitle = \"Expanded Siniflar Icin Max Level Artti!\","
+    },
+    "527": {
+      "source_en": "\t\tSummary = \"Break! the! Limit!\",",
+      "translation_tr": "\t\tSummary = \"Siniri! As!\","
+    },
+    "530": {
+      "source_en": "\t\t\t\"Hello ~~\",",
+      "translation_tr": "\t\t\t\"Merhaba ~~\","
+    },
+    "531": {
+      "source_en": "\t\t\t\"Good to meet you! ^950a0aI'm a cute and cute magical girl who came from a magical country to bring back the time of the stopped expansion level! ^000000\",",
+      "translation_tr": "\t\t\t\"Tanistigimiza sevindim! ^950a0aBen durdurulan Expanded Level zamanini geri getirmek icin buyulu bir ulkeden gelen sevimli bir buyu kiziyim!^000000\","
+    },
+    "532": {
+      "source_en": "\t\t\t\"Now from now on, it is time for you to level up!\"",
+      "translation_tr": "\t\t\t\"Artik level atlama zamani!\""
+    },
+    "535": {
+      "source_en": "\t\t\t\"^eb1842Pretty ~~ Level Up^000000\",",
+      "translation_tr": "\t\t\t\"^eb1842Sevimli ~~ Level Up^000000\","
+    },
+    "540": {
+      "source_en": "\t\t\t\"^3f3199Rebellion/Kagerou/Oborou/Star Emperor/Soul Reaper/Super Novice/Doram friends are affected ~^000000\"",
+      "translation_tr": "\t\t\t\"^3f3199Rebellion/Kagerou/Oborou/Star Emperor/Soul Reaper/Super Novice/Doram siniflari etkilenir ~^000000\""
+    },
+    "544": {
+      "source_en": "\t\tTitle = \"EDDA Biological Research Institute Dungeon - The Expedition\",",
+      "translation_tr": "\t\tTitle = \"EDDA Biological Research Institute Dungeon - Sefer\","
+    },
+    "545": {
+      "source_en": "\t\tSummary = \"The long unknown expedition\",",
+      "translation_tr": "\t\tSummary = \"Uzun ve bilinmeyen sefer\","
+    },
+    "553": {
+      "source_en": "\t\t\t\"^003355Visit those at the Lighthazen's Biomedical Research Institute, which have become obsessed and even fainted.^000000\",",
+      "translation_tr": "\t\t\t\"^003355Lighthalzen Biomedical Research Institute'ta takintili hale gelip bayilanlari ziyaret et.^000000\","
+    },
+    "554": {
+      "source_en": "\t\t\t\"You have to use ^990000Virtual Records^000000 to become a fellow of the 6 ^990000Rune-Midgarts Unofficial Expedtion Teams^000000 and uncover what they've been through.\"",
+      "translation_tr": "\t\t\t\"6 ^990000Rune-Midgarts Unofficial Expedition Team^000000 uyesinin yasadiklarini ortaya cikarmak icin ^990000Virtual Records^000000 kullanmalisin.\""
+    },
+    "557": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "558": {
+      "source_en": "\t\t\t\"^990000Base Level 170 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 170 veya uzeri^000000\""
+    },
+    "561": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "565": {
+      "source_en": "\t\tTitle = \"EDDA - The Fall of Glastheim\",",
+      "translation_tr": "\t\tTitle = \"EDDA - Glastheim'in Dususu\","
+    },
+    "567": {
+      "source_en": "\t\tSummary = \"Witness the truth of history\",",
+      "translation_tr": "\t\tSummary = \"Tarihin gercegine tanik ol\","
+    },
+    "574": {
+      "source_en": "\t\t\t\"^003355The story behind the old Glastheim Memorial.^000000\",",
+      "translation_tr": "\t\t\t\"^003355Eski Glastheim Memorial'in ardindaki hikaye.^000000\","
+    },
+    "575": {
+      "source_en": "\t\t\t\"The appearance of Schmitts, known as a fugitive/tyrant in history.\",",
+      "translation_tr": "\t\t\t\"Tarihte kacak ve tiran olarak bilinen Schmitts'in ortaya cikisi.\","
+    },
+    "576": {
+      "source_en": "\t\t\t\"^990000Time and Space Oscar, which watches and records multiple dimensions of time, witnesses the last moments of Glastheim^000000 and decides to tell the truth to someone ...\"",
+      "translation_tr": "\t\t\t\"^990000Birden fazla zaman boyutunu izleyip kaydeden Time and Space Oscar, Glastheim'in son anlarina tanik olur^000000 ve gercegi birine anlatmaya karar verir...\""
+    },
+    "579": {
+      "source_en": "\t\t\t\"Requirements\",",
+      "translation_tr": "\t\t\t\"Gereksinimler\","
+    },
+    "580": {
+      "source_en": "\t\t\t\"^990000Base Level 130 or higher^000000\"",
+      "translation_tr": "\t\t\t\"^990000Base Level 130 veya uzeri^000000\""
+    },
+    "583": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "587": {
+      "source_en": "\t\tTitle = \"Episode 17.1 is here! Illusion\",",
+      "translation_tr": "\t\tTitle = \"Episode 17.1 Geldi! Illusion\","
+    },
+    "589": {
+      "source_en": "\t\tSummary = \"The full-scale combined operation begins.\",",
+      "translation_tr": "\t\tSummary = \"Tam kapsamli ortak operasyon basliyor.\","
+    },
+    "596": {
+      "source_en": "\t\t\t\"The Episode's stage moves to Schwarzwald!\",",
+      "translation_tr": "\t\t\t\"Episode'un sahnesi Schwarzwald'a tasiniyor!\","
+    },
+    "597": {
+      "source_en": "\t\t\t\"A full-fledged combined operation begins with Rebellions and the Secret Wings.\",",
+      "translation_tr": "\t\t\t\"Rebellion ve Secret Wings ile tam kapsamli ortak operasyon basliyor.\","
+    },
+    "598": {
+      "source_en": "\t\t\t\"Rebellions, which has also established an operational base in Einbroch, is planning to attack a secret research facility discovered with information from the Secret Wings...\"",
+      "translation_tr": "\t\t\t\"Einbroch'ta operasyon ussu kuran Rebellion, Secret Wings bilgisinden bulunan gizli bir arastirma tesisine saldirmayi planliyor...\""
+    },
+    "601": {
+      "source_en": "\t\t\t\"Prerequisites\", ",
+      "translation_tr": "\t\t\t\"On Kosullar\", "
+    },
+    "602": {
+      "source_en": "\t\t\t\"Episode 16.2 complete\",",
+      "translation_tr": "\t\t\t\"Episode 16.2 tamamlanmis olmali\","
+    },
+    "603": {
+      "source_en": "\t\t\t\"Required Level: 110 or higher\"",
+      "translation_tr": "\t\t\t\"Gerekli Level: 110 veya uzeri\""
+    },
+    "606": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "610": {
+      "source_en": "\t\tTitle = \"Episode 16.2 Terra Gloria\",",
+      "translation_tr": "\t\tTitle = \"Episode 16.2: Terra Gloria\","
+    },
+    "612": {
+      "source_en": "\t\tSummary = \"Journey to reclaim the disappeared royal symbol.\",",
+      "translation_tr": "\t\tSummary = \"Kayip kraliyet sembolunu geri alma yolculugu.\","
+    },
+    "619": {
+      "source_en": "\t\t\t\"The young blood of the royal family, Nihil and Spica, want you to join the secret operation.\",",
+      "translation_tr": "\t\t\t\"Kraliyet ailesinin genc uyeleri Nihil ve Spica, gizli operasyona katilmani istiyor.\","
+    },
+    "620": {
+      "source_en": "\t\t\t\"Join us on a journey to reclaim the missing royal symbol!\"",
+      "translation_tr": "\t\t\t\"Kayip kraliyet sembolunu geri almak icin yolculuga katil!\""
+    },
+    "623": {
+      "source_en": "\t\t\t\"Prerequisites\",",
+      "translation_tr": "\t\t\t\"On Kosullar\","
+    },
+    "624": {
+      "source_en": "\t\t\t\"Episode 16.1 complete\",",
+      "translation_tr": "\t\t\t\"Episode 16.1 tamamlanmis olmali\","
+    },
+    "625": {
+      "source_en": "\t\t\t\"Required Level: 100 or higher\"",
+      "translation_tr": "\t\t\t\"Gerekli Level: 100 veya uzeri\""
+    },
+    "628": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "632": {
+      "source_en": "\t\tTitle = \"Episode 16.1 Banquet for Heroes\",",
+      "translation_tr": "\t\tTitle = \"Episode 16.1: Kahramanlar Soleni\","
+    },
+    "634": {
+      "source_en": "\t\tSummary = \"You who have tried! Enjoy!!!\",",
+      "translation_tr": "\t\tSummary = \"Emek verenler, tadini cikarin!!!\","
+    },
+    "641": {
+      "source_en": "\t\t\t\"A banquet is held to celebrate the Morocc's subjugation with the heroes who participated in the expedition.\",",
+      "translation_tr": "\t\t\t\"Morocc'un yenilgisini kutlamak icin sefere katilan kahramanlarla bir solen duzenleniyor.\","
+    },
+    "642": {
+      "source_en": "\t\t\t\"If you are an adventurer who participated in the expedition, please receive a banquet invitation letter!\"",
+      "translation_tr": "\t\t\t\"Sefere katilan bir maceraciysan solen davetiyeni al!\""
+    },
+    "645": {
+      "source_en": "\t\t\t\"Prerequisites\",",
+      "translation_tr": "\t\t\t\"On Kosullar\","
+    },
+    "646": {
+      "source_en": "\t\t\t\"Visit the Expeditionary Camp\",",
+      "translation_tr": "\t\t\t\"Expeditionary Camp'i ziyaret et\","
+    },
+    "647": {
+      "source_en": "\t\t\t\"Required Level: 100 or higher\"",
+      "translation_tr": "\t\t\t\"Gerekli Level: 100 veya uzeri\""
+    },
+    "650": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    },
+    "654": {
+      "source_en": "\t\tTitle = \"Episode 15 Phantasmagorica\",",
+      "translation_tr": "\t\tTitle = \"Episode 15: Phantasmagorica\","
+    },
+    "656": {
+      "source_en": "\t\tSummary = \"Science beyond Juperos\",",
+      "translation_tr": "\t\tSummary = \"Juperos'un otesindeki bilim\","
+    },
+    "663": {
+      "source_en": "\t\t\t\"We are recruiting excavations to participate in the newly discovered Phantasmagorica research.\",",
+      "translation_tr": "\t\t\t\"Yeni kesfedilen Phantasmagorica arastirmasina katilacak kazi ekibi uyeleri ariyoruz.\","
+    },
+    "664": {
+      "source_en": "\t\t\t\"Why not explore the scientific civilization that goes beyond Juperos?\",",
+      "translation_tr": "\t\t\t\"Juperos'un otesindeki bilimsel uygarligi kesfetmeye ne dersin?\","
+    },
+    "665": {
+      "source_en": "\t\t\t\"If you would like to join the excavation team, come to the Eden Group right now!\"",
+      "translation_tr": "\t\t\t\"Kazi ekibine katilmak istiyorsan hemen Eden Group'a gel!\""
+    },
+    "668": {
+      "source_en": "\t\t\t\"Prerequisites\",",
+      "translation_tr": "\t\t\t\"On Kosullar\","
+    },
+    "669": {
+      "source_en": "\t\t\t\"Required Level: 140 or higher\",",
+      "translation_tr": "\t\t\t\"Gerekli Level: 140 veya uzeri\","
+    },
+    "670": {
+      "source_en": "\t\t\t\"Holder of the Eden Group Mark\"",
+      "translation_tr": "\t\t\t\"Eden Group Mark sahibi ol\""
+    },
+    "673": {
+      "source_en": "\t\t\t\"^ff0000This page is an introduction for the update, not the quest. Please note that it will not be deleted even after completing the quest.^000000\"",
+      "translation_tr": "\t\t\t\"^ff0000Bu sayfa gorev degil, guncelleme tanitimidir. Gorev tamamlansa bile silinmez.^000000\""
+    }
+  }
+}
