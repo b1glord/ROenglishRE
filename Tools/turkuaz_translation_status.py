@@ -2,8 +2,8 @@
 # Dosya Yolu: /ROenglishRE/Tools/turkuaz_translation_status.py
 # Amac: Turkce ceviri dosyalarinin upstream karsisindaki durumunu raporlar
 # Modul: Tool - Python
-# Version: 1.1.0
-# Aciklama: Dosya durumuna ek olarak msgstringtable satir kapsamasi ve bilincli Ingilizce satirlari raporlar
+# Version: 2.0.0
+# Aciklama: Dosya senkronuna ek olarak canonical overlay patch, source blob ve generated profil durumunu raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -33,6 +33,13 @@ def read_git_file(repo_root: Path, ref_name: str, file_path: str) -> bytes | Non
     return result.stdout
 
 
+def git_blob_sha(repo_root: Path, ref_name: str, file_path: str) -> str | None:
+    result = run_git(repo_root, "rev-parse", f"{ref_name}:{file_path}")
+    if result.returncode != 0:
+        return None
+    return result.stdout.decode("ascii", errors="ignore").strip()
+
+
 def content_hash(content: bytes | None) -> str:
     if content is None:
         return "-"
@@ -57,6 +64,38 @@ def resolve_status(
         return "upstream-changed-untranslated"
 
     return "needs-review"
+
+
+def overlay_status(
+    repo_root: Path,
+    upstream_ref: str,
+    item: dict,
+) -> tuple[str, int | str, int]:
+    patch_path = item.get("patch_path")
+    if not patch_path:
+        return "-", "-", 0
+
+    absolute_patch = repo_root / patch_path
+    if not absolute_patch.is_file():
+        return "patch-missing", "-", len(item.get("generated_profiles", []))
+
+    patch = json.loads(absolute_patch.read_text(encoding="utf-8"))
+    patch_count = patch.get("patch_count")
+    if patch_count is None and isinstance(patch.get("patches"), dict):
+        patch_count = len(patch["patches"])
+    if patch_count is None:
+        patch_count = "whole"
+
+    expected_blob = patch.get("source_blob_sha")
+    if expected_blob:
+        actual_blob = git_blob_sha(repo_root, upstream_ref, item["path"])
+        status = "overlay-current" if actual_blob == expected_blob else "overlay-source-changed"
+    elif item.get("overlay_type") == "record":
+        status = "record-overlay"
+    else:
+        status = "overlay-unpinned"
+
+    return status, patch_count, len(item.get("generated_profiles", []))
 
 
 def audit_msgstringtable(
@@ -191,6 +230,37 @@ def main() -> int:
     print(f"Review gereken dosya: {review_count}")
     print(f"Eksik dosya/ref: {missing_count}")
 
+    print()
+    print("Canonical overlay durumu:")
+    print(
+        "name".ljust(20),
+        "overlay".ljust(26),
+        "patch".ljust(10),
+        "profiles".ljust(10),
+    )
+    print("-" * 70)
+
+    overlay_error_count = 0
+    for item in config["files"]:
+        status, patch_count, profile_count = overlay_status(
+            repo_root,
+            upstream_ref,
+            item,
+        )
+        if status == "-":
+            continue
+        if status in {"patch-missing", "overlay-source-changed", "overlay-unpinned"}:
+            overlay_error_count += 1
+        print(
+            item["name"].ljust(20),
+            status.ljust(26),
+            str(patch_count).ljust(10),
+            str(profile_count).ljust(10),
+        )
+
+    print()
+    print(f"Overlay source/patch hatasi: {overlay_error_count}")
+
     if msg_audit is not None:
         comparable, translated, intentional, review = msg_audit
         print()
@@ -200,7 +270,7 @@ def main() -> int:
         print(f"  Bilincli Ingilizce/teknik: {intentional}")
         print(f"  Gercek ceviri incelemesi gereken: {review}")
 
-    return 1 if missing_count else 0
+    return 1 if (missing_count or overlay_error_count) else 0
 
 
 if __name__ == "__main__":
