@@ -2,8 +2,8 @@
 # PATH: /ROenglishRE/TurkuazTR/tools/extract-skilldescript-pending.py
 # PURPOSE: Renewal skill aciklamalarindan Turkce ceviri bekleyen adaylari UTF-8 JSON raporuna cikarir.
 # MODULE-FILETYPE: Tool - Python
-# VERSION: 1.0.1
-# DESCRIPTION: CP949/EUC-KR/UTF-8 skilldescript kaynagini okur, SKID bazli pending raporu uretir.
+# VERSION: 1.1.0
+# DESCRIPTION: CP949/EUC-KR/UTF-8 skilldescript kaynagini okur; gercek aday, bos aciklama ve eksik SKID durumlarini ayri raporlar.
 # DEPENDENCY-LAYER: Tool
 
 from __future__ import annotations
@@ -52,6 +52,14 @@ def parse_lua_string(token: str) -> str:
         return body.replace(r'\"', '"').replace(r"\\", "\\")
 
 
+PLACEHOLDER_DESC_RE = re.compile(r"^(?:Max Level:\s*\d+|Description:\^000000)$", re.I)
+
+
+def has_translatable_lines(lines: list[str]) -> bool:
+    meaningful = [line.strip() for line in lines if line.strip()]
+    return any(not PLACEHOLDER_DESC_RE.fullmatch(line) for line in meaningful)
+
+
 def extract_blocks(text: str) -> dict[str, dict]:
     starts = list(BLOCK_START_RE.finditer(text))
     result: dict[str, dict] = {}
@@ -85,6 +93,7 @@ def main() -> int:
     name_rows = name_patch.get("patches", {})
 
     candidates = []
+    empty = []
     missing = []
     for order, (key, current_name) in enumerate(player_entries, start=1):
         if key in patched:
@@ -99,31 +108,35 @@ def main() -> int:
         original_name = name_rows.get(key, {}).get("name_original") or (strings[0] if strings else current_name)
         lines_en = strings[1:] if len(strings) > 1 else []
 
-        candidates.append(
-            {
-                "key": key,
-                "order": order,
-                "line": block["line"],
-                "name_original": original_name,
-                "lines_en": lines_en,
-            }
-        )
+        row = {
+            "key": key,
+            "order": order,
+            "line": block["line"],
+            "name_original": original_name,
+            "lines_en": lines_en,
+        }
+        if has_translatable_lines(lines_en):
+            candidates.append(row)
+        else:
+            empty.append(row)
 
     report = {
         "_file_header": {
             "path": "/ROenglishRE/TurkuazTR/skilldescript.pending.json",
             "purpose": "Henuz Turkce description patchi bulunmayan Renewal oyuncu skill adaylarini listeler",
             "module": "Generated Report - JSON",
-            "version": "1.0.1",
-            "description": "CP949/EUC-KR fallback ile skilldescript.lub kaynagindan SKID bazli uretilir",
+            "version": "1.1.0",
+            "description": "CP949/EUC-KR fallback ile skilldescript.lub kaynagindan SKID bazli uretilir; bos/placeholder bloklar adaylardan ayrilir",
             "dependency_layer": "Tool",
         },
         "source_path": str(DESC_SOURCE.relative_to(REPO_ROOT)).replace("\\", "/"),
         "source_encoding": desc_encoding,
         "patched_count": len(patched),
         "candidate_count": len(candidates),
+        "empty_description_count": len(empty),
         "missing_description_count": len(missing),
         "candidates": candidates,
+        "empty_descriptions": empty,
         "missing_descriptions": missing,
     }
 
