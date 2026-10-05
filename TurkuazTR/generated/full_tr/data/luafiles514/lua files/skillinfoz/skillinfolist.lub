@@ -10116,7 +10116,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_INFRAREDSCAN] = {
 		"NC_INFRAREDSCAN",
-		SkillName = "Infrared Scan",
+		SkillName = "Kizilotesi Tarama",
 		MaxLv = 1,
 		SpAmount = { 45 },
 		bSeperateLv = false,
@@ -10127,7 +10127,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_EMERGENCYCOOL] = {
 		"NC_EMERGENCYCOOL",
-		SkillName = "Emergency Cool",
+		SkillName = "Acil Sogutma",
 		MaxLv = 1,
 		SpAmount = { 20 },
 		bSeperateLv = false,
@@ -10138,7 +10138,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_SHAPESHIFT] = {
 		"NC_SHAPESHIFT",
-		SkillName = "Shape Shift",
+		SkillName = "Sekil Degistirme",
 		MaxLv = 4,
 		SpAmount = { 100, 100, 100, 100 },
 		bSeperateLv = true,
@@ -10149,7 +10149,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_SELFDESTRUCTION] = {
 		"NC_SELFDESTRUCTION",
-		SkillName = "Self Destruction",
+		SkillName = "Kendini Imha",
 		MaxLv = 3,
 		SpAmount = { 200, 200, 200 },
 		bSeperateLv = true,
@@ -10160,7 +10160,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_MAINFRAME] = {
 		"NC_MAINFRAME",
-		SkillName = "Remodel Mainframe",
+		SkillName = "Ana Govde Yenileme",
 		MaxLv = 4,
 		SpAmount = { 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10172,7 +10172,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_ACCELERATION] = {
 		"NC_ACCELERATION",
-		SkillName = "Acceleration",
+		SkillName = "Hizlanma",
 		MaxLv = 3,
 		SpAmount = { 20, 40, 60 },
 		bSeperateLv = true,
@@ -10183,7 +10183,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_ARMSCANNON] = {
 		"NC_ARMSCANNON",
-		SkillName = "Arm Cannon",
+		SkillName = "Kol Topu",
 		MaxLv = 5,
 		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
@@ -10195,7 +10195,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NC_VULCANARM] = {
 		"NC_VULCANARM",
-		SkillName = "Vulcan Arm",
+		SkillName = "Vulkan Kolu",
 		MaxLv = 3,
 		SpAmount = { 9, 12, 15 },
 		bSeperateLv = true,
@@ -10206,7 +10206,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_ICEBOUNDTRAP] = {
 		"RA_ICEBOUNDTRAP",
-		SkillName = "Ice Bound Trap",
+		SkillName = "Buz Baglama Tuzagi",
 		MaxLv = 5,
 		SpAmount = { 10, 10, 10, 10, 10 },
 		bSeperateLv = false,
@@ -10217,7 +10217,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_FIRINGTRAP] = {
 		"RA_FIRINGTRAP",
-		SkillName = "Firing Trap",
+		SkillName = "Atesleme Tuzagi",
 		MaxLv = 5,
 		SpAmount = { 10, 10, 10, 10, 10 },
 		bSeperateLv = false,
@@ -10228,7 +10228,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_VERDURETRAP] = {
 		"RA_VERDURETRAP",
-		SkillName = "Verdure Trap",
+		SkillName = "Yesillik Tuzagi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -10239,7 +10239,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_COBALTTRAP] = {
 		"RA_COBALTTRAP",
-		SkillName = "Cobalt Trap",
+		SkillName = "Kobalt Tuzagi",
 		MaxLv = 1,
 		SpAmount = { 10 },
 		bSeperateLv = false,
@@ -10250,7 +10250,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_SENSITIVEKEEN] = {
 		"RA_SENSITIVEKEEN",
-		SkillName = "Sensitive Keen",
+		SkillName = "Hassas Algilama",
 		MaxLv = 5,
 		SpAmount = { 12, 12, 12, 12, 12 },
 		bSeperateLv = false,
@@ -10261,7 +10261,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_TOOTHOFWUG] = {
 		"RA_TOOTHOFWUG",
-		SkillName = "Tooth of Warg",
+		SkillName = "Warg Disi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10273,7 +10273,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_WUGDASH] = {
 		"RA_WUGDASH",
-		SkillName = "Warg Dash",
+		SkillName = "Warg Kosusu",
 		MaxLv = 1,
 		SpAmount = { 4 },
 		bSeperateLv = false,
@@ -10284,7 +10284,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_ELECTRICSHOCKER] = {
 		"RA_ELECTRICSHOCKER",
-		SkillName = "Electric Shock",
+		SkillName = "Elektrik Soku",
 		MaxLv = 5,
 		SpAmount = { 35, 35, 35, 35, 35 },
 		bSeperateLv = false,
@@ -10295,7 +10295,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_DETONATOR] = {
 		"RA_DETONATOR",
-		SkillName = "Detonator",
+		SkillName = "Patlatici",
 		MaxLv = 1,
 		SpAmount = { 15 },
 		bSeperateLv = false,
@@ -10306,7 +10306,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_AIMEDBOLT] = {
 		"RA_AIMEDBOLT",
-		SkillName = "Aimed Bolt",
+		SkillName = "Nisanli Ok",
 		MaxLv = 10,
 		SpAmount = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
@@ -10317,7 +10317,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_RANGERMAIN] = {
 		"RA_RANGERMAIN",
-		SkillName = "Ranger Main",
+		SkillName = "Ranger Ustaligi",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -10326,7 +10326,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.RA_FEARBREEZE] = {
 		"RA_FEARBREEZE",
-		SkillName = "Fear Breeze",
+		SkillName = "Korku Esintisi",
 		MaxLv = 5,
 		SpAmount = { 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
