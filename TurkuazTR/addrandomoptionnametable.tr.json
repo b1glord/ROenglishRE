@@ -1,0 +1,901 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/addrandomoptionnametable.tr.json",
+    "purpose": "Renewal random option ekran metinleri icin ASCII Turkce exact-source overlay",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest addrandomoptionnametable.lub kaynagindaki 221 aciklayici satiri Turkcelestirir; 27 saf stat formulu canonical kalir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/datainfo/addrandomoptionnametable.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "47346723d41a79672e80709161f3c0d9ec7afbcb",
+  "source_line_count": 262,
+  "patch_count": 221,
+  "patches": {
+    "18": {
+      "source_en": "\t[EnumVAR.VAR_HPACCELERATION[1]] = \"HP Recovery +%d%%\",",
+      "translation_tr": "\t[EnumVAR.VAR_HPACCELERATION[1]] = \"HP Yenilenmesi +%d%%\","
+    },
+    "19": {
+      "source_en": "\t[EnumVAR.VAR_SPACCELERATION[1]] = \"SP Recovery +%d%%\",",
+      "translation_tr": "\t[EnumVAR.VAR_SPACCELERATION[1]] = \"SP Yenilenmesi +%d%%\","
+    },
+    "30": {
+      "source_en": "\t[EnumVAR.VAR_PLUSAVOIDSUCCESSVALUE[1]] = \"Perfect Dodge +%d\",",
+      "translation_tr": "\t[EnumVAR.VAR_PLUSAVOIDSUCCESSVALUE[1]] = \"Mukemmel Kacinma +%d\","
+    },
+    "31": {
+      "source_en": "\t[EnumVAR.VAR_CRITICALSUCCESSVALUE[1]] = \"Critical +%d\",",
+      "translation_tr": "\t[EnumVAR.VAR_CRITICALSUCCESSVALUE[1]] = \"Kritik +%d\","
+    },
+    "32": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_NOTHING[1]] = \"Neutral elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_NOTHING[1]] = \"Notr element direnci +%d%%\","
+    },
+    "33": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_WATER[1]] = \"Water elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_WATER[1]] = \"Su element direnci +%d%%\","
+    },
+    "34": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_GROUND[1]] = \"Earth elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_GROUND[1]] = \"Toprak element direnci +%d%%\","
+    },
+    "35": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_FIRE[1]] = \"Fire elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_FIRE[1]] = \"Ates element direnci +%d%%\","
+    },
+    "36": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_WIND[1]] = \"Wind elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_WIND[1]] = \"Ruzgar element direnci +%d%%\","
+    },
+    "37": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_POISON[1]] = \"Poison elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_POISON[1]] = \"Zehir element direnci +%d%%\","
+    },
+    "38": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_SAINT[1]] = \"Holy elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_SAINT[1]] = \"Kutsal element direnci +%d%%\","
+    },
+    "39": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_DARKNESS[1]] = \"Shadow elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_DARKNESS[1]] = \"Golge element direnci +%d%%\","
+    },
+    "40": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_TELEKINESIS[1]] = \"Ghost elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_TELEKINESIS[1]] = \"Ruh element direnci +%d%%\","
+    },
+    "41": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_UNDEAD[1]] = \"Undead elemental resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_UNDEAD[1]] = \"Undead element direnci +%d%%\","
+    },
+    "42": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_ALLBUTNOTHING[1]] = \"All elemental (except Neutral) resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_ALLBUTNOTHING[1]] = \"Tum elementlere (Notr haric) direnc +%d%%\","
+    },
+    "43": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_NOTHING_USER[1]] = \"Neutral monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_NOTHING_USER[1]] = \"Notr monster direnci +%d%%\","
+    },
+    "44": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_NOTHING_TARGET[1]] = \"ATK +%d%% against Neutral monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_NOTHING_TARGET[1]] = \"Notr monstera karsi ATK +%d%%\","
+    },
+    "45": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_WATER_USER[1]] = \"Water monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_WATER_USER[1]] = \"Su monster direnci +%d%%\","
+    },
+    "46": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_WATER_TARGET[1]] = \"ATK +%d%% against Water monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_WATER_TARGET[1]] = \"Su monstera karsi ATK +%d%%\","
+    },
+    "47": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_GROUND_USER[1]] = \"Earth monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_GROUND_USER[1]] = \"Toprak monster direnci +%d%%\","
+    },
+    "48": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_GROUND_TARGET[1]] = \"ATK +%d%% against Earth monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_GROUND_TARGET[1]] = \"Toprak monstera karsi ATK +%d%%\","
+    },
+    "49": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_FIRE_USER[1]] = \"Fire monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_FIRE_USER[1]] = \"Ates monster direnci +%d%%\","
+    },
+    "50": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_FIRE_TARGET[1]] = \"ATK +%d%% against Fire monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_FIRE_TARGET[1]] = \"Ates monstera karsi ATK +%d%%\","
+    },
+    "51": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_WIND_USER[1]] = \"Wind monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_WIND_USER[1]] = \"Ruzgar monster direnci +%d%%\","
+    },
+    "52": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_WIND_TARGET[1]] = \"ATK +%d%% against Wind monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_WIND_TARGET[1]] = \"Ruzgar monstera karsi ATK +%d%%\","
+    },
+    "53": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_POISON_USER[1]] = \"Poison monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_POISON_USER[1]] = \"Zehir monster direnci +%d%%\","
+    },
+    "54": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_POISON_TARGET[1]] = \"ATK +%d%% against Poison monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_POISON_TARGET[1]] = \"Zehir monstera karsi ATK +%d%%\","
+    },
+    "55": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_SAINT_USER[1]] = \"Holy monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_SAINT_USER[1]] = \"Kutsal monster direnci +%d%%\","
+    },
+    "56": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_SAINT_TARGET[1]] = \"ATK +%d%% against Holy monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_SAINT_TARGET[1]] = \"Kutsal monstera karsi ATK +%d%%\","
+    },
+    "57": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_DARKNESS_USER[1]] = \"Shadow monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_DARKNESS_USER[1]] = \"Golge monster direnci +%d%%\","
+    },
+    "58": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_DARKNESS_TARGET[1]] = \"ATK +%d%% against Shadow monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_DARKNESS_TARGET[1]] = \"Golge monstera karsi ATK +%d%%\","
+    },
+    "59": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_TELEKINESIS_USER[1]] = \"Ghost monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_TELEKINESIS_USER[1]] = \"Ruh monster direnci +%d%%\","
+    },
+    "60": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_TELEKINESIS_TARGET[1]] = \"ATK +%d%% against Ghost monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_TELEKINESIS_TARGET[1]] = \"Ruh monstera karsi ATK +%d%%\","
+    },
+    "61": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_UNDEAD_USER[1]] = \"Undead monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_UNDEAD_USER[1]] = \"Undead monster direnci +%d%%\","
+    },
+    "62": {
+      "source_en": "\t[EnumVAR.DAMAGE_PROPERTY_UNDEAD_TARGET[1]] = \"ATK +%d%% against Undead monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_PROPERTY_UNDEAD_TARGET[1]] = \"Undead monstera karsi ATK +%d%%\","
+    },
+    "63": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_NOTHING_USER[1]] = \"Neutral monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_NOTHING_USER[1]] = \"Notr monster buyu direnci +%d%%\","
+    },
+    "64": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_NOTHING_TARGET[1]] = \"MATK +%d%% against Neutral monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_NOTHING_TARGET[1]] = \"Notr monstera karsi MATK +%d%%\","
+    },
+    "65": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_WATER_USER[1]] = \"Water monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_WATER_USER[1]] = \"Su monster buyu direnci +%d%%\","
+    },
+    "66": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_WATER_TARGET[1]] = \"MATK +%d%% against Water monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_WATER_TARGET[1]] = \"Su monstera karsi MATK +%d%%\","
+    },
+    "67": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_GROUND_USER[1]] = \"Earth monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_GROUND_USER[1]] = \"Toprak monster buyu direnci +%d%%\","
+    },
+    "68": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_GROUND_TARGET[1]] = \"MATK +%d%% against  Earth monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_GROUND_TARGET[1]] = \"Toprak monstera karsi MATK +%d%%\","
+    },
+    "69": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_FIRE_USER[1]] = \"Fire monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_FIRE_USER[1]] = \"Ates monster buyu direnci +%d%%\","
+    },
+    "70": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_FIRE_TARGET[1]] = \"MATK +%d%% against Fire monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_FIRE_TARGET[1]] = \"Ates monstera karsi MATK +%d%%\","
+    },
+    "71": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_WIND_USER[1]] = \"Wind monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_WIND_USER[1]] = \"Ruzgar monster buyu direnci +%d%%\","
+    },
+    "72": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_WIND_TARGET[1]] = \"MATK +%d%% against Wind monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_WIND_TARGET[1]] = \"Ruzgar monstera karsi MATK +%d%%\","
+    },
+    "73": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_POISON_USER[1]] = \"Poison monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_POISON_USER[1]] = \"Zehir monster buyu direnci +%d%%\","
+    },
+    "74": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_POISON_TARGET[1]] = \"MATK +%d%% against Poison monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_POISON_TARGET[1]] = \"Zehir monstera karsi MATK +%d%%\","
+    },
+    "75": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_SAINT_USER[1]] = \"Holy monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_SAINT_USER[1]] = \"Kutsal monster buyu direnci +%d%%\","
+    },
+    "76": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_SAINT_TARGET[1]] = \"MATK +%d%% against Holy monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_SAINT_TARGET[1]] = \"Kutsal monstera karsi MATK +%d%%\","
+    },
+    "77": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_DARKNESS_USER[1]] = \"Shadow monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_DARKNESS_USER[1]] = \"Golge monster buyu direnci +%d%%\","
+    },
+    "78": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_DARKNESS_TARGET[1]] = \"MATK +%d%% against Shadow monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_DARKNESS_TARGET[1]] = \"Golge monstera karsi MATK +%d%%\","
+    },
+    "79": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_TELEKINESIS_USER[1]] = \"Ghost monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_TELEKINESIS_USER[1]] = \"Ruh monster buyu direnci +%d%%\","
+    },
+    "80": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_TELEKINESIS_TARGET[1]] = \"MATK +%d%% against Ghost monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_TELEKINESIS_TARGET[1]] = \"Ruh monstera karsi MATK +%d%%\","
+    },
+    "81": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_UNDEAD_USER[1]] = \"Undead monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_UNDEAD_USER[1]] = \"Undead monster buyu direnci +%d%%\","
+    },
+    "82": {
+      "source_en": "\t[EnumVAR.MDAMAGE_PROPERTY_UNDEAD_TARGET[1]] = \"MATK +%d%% against Undead monster\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_PROPERTY_UNDEAD_TARGET[1]] = \"Undead monstera karsi MATK +%d%%\","
+    },
+    "83": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_NOTHING[1]] = \"Armor Element: Neutral\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_NOTHING[1]] = \"Zirh Elementi: Notr\","
+    },
+    "84": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_WATER[1]] = \"Armor Element: Water\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_WATER[1]] = \"Zirh Elementi: Su\","
+    },
+    "85": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_GROUND[1]] = \"Armor Element: Earth\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_GROUND[1]] = \"Zirh Elementi: Toprak\","
+    },
+    "86": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_FIRE[1]] = \"Armor Element: Fire\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_FIRE[1]] = \"Zirh Elementi: Ates\","
+    },
+    "87": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_WIND[1]] = \"Armor Element: Wind\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_WIND[1]] = \"Zirh Elementi: Ruzgar\","
+    },
+    "88": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_POISON[1]] = \"Armor Element: Poison\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_POISON[1]] = \"Zirh Elementi: Zehir\","
+    },
+    "89": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_SAINT[1]] = \"Armor Element: Holy\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_SAINT[1]] = \"Zirh Elementi: Kutsal\","
+    },
+    "90": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_DARKNESS[1]] = \"Armor Element: Shadow\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_DARKNESS[1]] = \"Zirh Elementi: Golge\","
+    },
+    "91": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_TELEKINESIS[1]] = \"Armor Element: Ghost\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_TELEKINESIS[1]] = \"Zirh Elementi: Ruh\","
+    },
+    "92": {
+      "source_en": "\t[EnumVAR.BODY_ATTR_UNDEAD[1]] = \"Armor Element: Undead\",",
+      "translation_tr": "\t[EnumVAR.BODY_ATTR_UNDEAD[1]] = \"Zirh Elementi: Undead\","
+    },
+    "93": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_NOTHING[1]] = \"Formless monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_NOTHING[1]] = \"Sekilsiz monster direnci +%d%%\","
+    },
+    "94": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_UNDEAD[1]] = \"Undead monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_UNDEAD[1]] = \"Undead monster direnci +%d%%\","
+    },
+    "95": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_ANIMAL[1]] = \"Brute monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_ANIMAL[1]] = \"Hayvan monster direnci +%d%%\","
+    },
+    "96": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_PLANT[1]] = \"Plant monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_PLANT[1]] = \"Bitki monster direnci +%d%%\","
+    },
+    "97": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_INSECT[1]] = \"Insect monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_INSECT[1]] = \"Bocek monster direnci +%d%%\","
+    },
+    "98": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_FISHS[1]] = \"Fish monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_FISHS[1]] = \"Balik monster direnci +%d%%\","
+    },
+    "99": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_DEVIL[1]] = \"Demon monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_DEVIL[1]] = \"Iblis monster direnci +%d%%\","
+    },
+    "100": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_HUMAN[1]] = \"Demihuman monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_HUMAN[1]] = \"Yari Insan monster direnci +%d%%\","
+    },
+    "101": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_ANGEL[1]] = \"Angel monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_ANGEL[1]] = \"Melek monster direnci +%d%%\","
+    },
+    "102": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_DRAGON[1]] = \"Dragon monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_DRAGON[1]] = \"Ejderha monster direnci +%d%%\","
+    },
+    "103": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_NOTHING[1]] = \"ATK +%d%% against Formless monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_NOTHING[1]] = \"Sekilsiz monstera karsi ATK +%d%%\","
+    },
+    "104": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_UNDEAD[1]] = \"ATK +%d%% against Undead monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_UNDEAD[1]] = \"Undead monstera karsi ATK +%d%%\","
+    },
+    "105": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_ANIMAL[1]] = \"ATK +%d%% against Brute monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_ANIMAL[1]] = \"Hayvan monstera karsi ATK +%d%%\","
+    },
+    "106": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_PLANT[1]] = \"ATK +%d%% against Plant monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_PLANT[1]] = \"Bitki monstera karsi ATK +%d%%\","
+    },
+    "107": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_INSECT[1]] = \"ATK +%d%% against Insect monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_INSECT[1]] = \"Bocek monstera karsi ATK +%d%%\","
+    },
+    "108": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_FISHS[1]] = \"ATK +%d%% against Fish monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_FISHS[1]] = \"Balik monstera karsi ATK +%d%%\","
+    },
+    "109": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_DEVIL[1]] = \"ATK +%d%% against Demon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_DEVIL[1]] = \"Iblis monstera karsi ATK +%d%%\","
+    },
+    "110": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_HUMAN[1]] = \"ATK +%d%% against Demihuman monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_HUMAN[1]] = \"Yari Insan monstera karsi ATK +%d%%\","
+    },
+    "111": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_ANGEL[1]] = \"ATK +%d%% against Angel monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_ANGEL[1]] = \"Melek monstera karsi ATK +%d%%\","
+    },
+    "112": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_DRAGON[1]] = \"ATK +%d%% against Dragon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_DRAGON[1]] = \"Ejderha monstera karsi ATK +%d%%\","
+    },
+    "113": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_NOTHING[1]] = \"MATK +%d%% against Formless monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_NOTHING[1]] = \"Sekilsiz monstera karsi MATK +%d%%\","
+    },
+    "114": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_UNDEAD[1]] = \"MATK +%d%% against Undead monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_UNDEAD[1]] = \"Undead monstera karsi MATK +%d%%\","
+    },
+    "115": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_ANIMAL[1]] = \"MATK +%d%% against Brute monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_ANIMAL[1]] = \"Hayvan monstera karsi MATK +%d%%\","
+    },
+    "116": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_PLANT[1]] = \"MATK +%d%% against Plant monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_PLANT[1]] = \"Bitki monstera karsi MATK +%d%%\","
+    },
+    "117": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_INSECT[1]] = \"MATK +%d%% against Insect monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_INSECT[1]] = \"Bocek monstera karsi MATK +%d%%\","
+    },
+    "118": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_FISHS[1]] = \"MATK +%d%% against Fish monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_FISHS[1]] = \"Balik monstera karsi MATK +%d%%\","
+    },
+    "119": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_DEVIL[1]] = \"MATK +%d%% against Devil monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_DEVIL[1]] = \"Iblis monstera karsi MATK +%d%%\","
+    },
+    "120": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_HUMAN[1]] = \"MATK +%d%% against Demihuman monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_HUMAN[1]] = \"Yari Insan monstera karsi MATK +%d%%\","
+    },
+    "121": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_ANGEL[1]] = \"MATK +%d%% against Angel monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_ANGEL[1]] = \"Melek monstera karsi MATK +%d%%\","
+    },
+    "122": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_DRAGON[1]] = \"MATK +%d%% against Dragon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_DRAGON[1]] = \"Ejderha monstera karsi MATK +%d%%\","
+    },
+    "123": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_NOTHING[1]] = \"Critical +%d against Formless monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_NOTHING[1]] = \"Sekilsiz monstera karsi Kritik +%d\","
+    },
+    "124": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_UNDEAD[1]] = \"Critical +%d against Undead monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_UNDEAD[1]] = \"Undead monstera karsi Kritik +%d\","
+    },
+    "125": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_ANIMAL[1]] = \"Critical +%d against Brute monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_ANIMAL[1]] = \"Hayvan monstera karsi Kritik +%d\","
+    },
+    "126": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_PLANT[1]] = \"Critical +%d against Plant monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_PLANT[1]] = \"Bitki monstera karsi Kritik +%d\","
+    },
+    "127": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_INSECT[1]] = \"Critical +%d against Insect monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_INSECT[1]] = \"Bocek monstera karsi Kritik +%d\","
+    },
+    "128": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_FISHS[1]] = \"Critical +%d against Fish monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_FISHS[1]] = \"Balik monstera karsi Kritik +%d\","
+    },
+    "129": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_DEVIL[1]] = \"Critical +%d against Demon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_DEVIL[1]] = \"Iblis monstera karsi Kritik +%d\","
+    },
+    "130": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_HUMAN[1]] = \"Critical +%d against Demihuman monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_HUMAN[1]] = \"Yari Insan monstera karsi Kritik +%d\","
+    },
+    "131": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_ANGEL[1]] = \"Critical +%d against Angel monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_ANGEL[1]] = \"Melek monstera karsi Kritik +%d\","
+    },
+    "132": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_DRAGON[1]] = \"Critical +%d against Dragon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_DRAGON[1]] = \"Ejderha monstera karsi Kritik +%d\","
+    },
+    "133": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_NOTHING[1]] = \"Pierces %d%% DEF of Formless monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_NOTHING[1]] = \"Sekilsiz monster DEF'inin %d%% kadarini deler\","
+    },
+    "134": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_UNDEAD[1]] = \"Pierces %d%% DEF of Undead monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_UNDEAD[1]] = \"Undead monster DEF'inin %d%% kadarini deler\","
+    },
+    "135": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_ANIMAL[1]] = \"Pierces %d%% DEF of Brute monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_ANIMAL[1]] = \"Hayvan monster DEF'inin %d%% kadarini deler\","
+    },
+    "136": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLANT[1]] = \"Pierces %d%% DEF of Plant monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLANT[1]] = \"Bitki monster DEF'inin %d%% kadarini deler\","
+    },
+    "137": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_INSECT[1]] = \"Pierces %d%% DEF of Insect monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_INSECT[1]] = \"Bocek monster DEF'inin %d%% kadarini deler\","
+    },
+    "138": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_FISHS[1]] = \"Pierces %d%% DEF of Fish monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_FISHS[1]] = \"Balik monster DEF'inin %d%% kadarini deler\","
+    },
+    "139": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_DEVIL[1]] = \"Pierces %d%% DEF of Demon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_DEVIL[1]] = \"Iblis monster DEF'inin %d%% kadarini deler\","
+    },
+    "140": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_HUMAN[1]] = \"Pierces %d%% DEF of Demihuman monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_HUMAN[1]] = \"Yari Insan monster DEF'inin %d%% kadarini deler\","
+    },
+    "141": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_ANGEL[1]] = \"Pierces %d%% DEF of Angel monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_ANGEL[1]] = \"Melek monster DEF'inin %d%% kadarini deler\","
+    },
+    "142": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_DRAGON[1]] = \"Pierces %d%% DEF of Dragon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_DRAGON[1]] = \"Ejderha monster DEF'inin %d%% kadarini deler\","
+    },
+    "143": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_NOTHING[1]] = \"Pierces %d%% MDEF of Formless monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_NOTHING[1]] = \"Sekilsiz monster MDEF'inin %d%% kadarini deler\","
+    },
+    "144": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_UNDEAD[1]] = \"Pierces %d%% MDEF of Undead monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_UNDEAD[1]] = \"Undead monster MDEF'inin %d%% kadarini deler\","
+    },
+    "145": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_ANIMAL[1]] = \"Pierces %d%% MDEF of Brute monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_ANIMAL[1]] = \"Hayvan monster MDEF'inin %d%% kadarini deler\","
+    },
+    "146": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLANT[1]] = \"Pierces %d%% MDEF of Plant monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLANT[1]] = \"Bitki monster MDEF'inin %d%% kadarini deler\","
+    },
+    "147": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_INSECT[1]] = \"Pierces %d%% MDEF of Insect monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_INSECT[1]] = \"Bocek monster MDEF'inin %d%% kadarini deler\","
+    },
+    "148": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_FISHS[1]] = \"Pierces %d%% MDEF of Fish monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_FISHS[1]] = \"Balik monster MDEF'inin %d%% kadarini deler\","
+    },
+    "149": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_DEVIL[1]] = \"Pierces %d%% MDEF of Demon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_DEVIL[1]] = \"Iblis monster MDEF'inin %d%% kadarini deler\","
+    },
+    "150": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_HUMAN[1]] = \"Pierces %d%% MDEF of Demihuman monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_HUMAN[1]] = \"Yari Insan monster MDEF'inin %d%% kadarini deler\","
+    },
+    "151": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_ANGEL[1]] = \"Pierces %d%% MDEF of Angel monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_ANGEL[1]] = \"Melek monster MDEF'inin %d%% kadarini deler\","
+    },
+    "152": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_DRAGON[1]] = \"Pierces %d%% MDEF of Dragon monster\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_DRAGON[1]] = \"Ejderha monster MDEF'inin %d%% kadarini deler\","
+    },
+    "153": {
+      "source_en": "\t[EnumVAR.CLASS_DAMAGE_NORMAL_TARGET[1]] = \"ATK +%d%% against Normal monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_DAMAGE_NORMAL_TARGET[1]] = \"Normal monstera karsi ATK +%d%%\","
+    },
+    "154": {
+      "source_en": "\t[EnumVAR.CLASS_DAMAGE_BOSS_TARGET[1]] = \"ATK +%d%% against Boss monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_DAMAGE_BOSS_TARGET[1]] = \"Boss monstera karsi ATK +%d%%\","
+    },
+    "155": {
+      "source_en": "\t[EnumVAR.CLASS_DAMAGE_NORMAL_USER[1]] = \"Normal monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.CLASS_DAMAGE_NORMAL_USER[1]] = \"Normal monster direnci +%d%%\","
+    },
+    "156": {
+      "source_en": "\t[EnumVAR.CLASS_DAMAGE_BOSS_USER[1]] = \"Boss monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.CLASS_DAMAGE_BOSS_USER[1]] = \"Boss monster direnci +%d%%\","
+    },
+    "157": {
+      "source_en": "\t[EnumVAR.CLASS_MDAMAGE_NORMAL[1]] = \"MATK +%d%% against Normal monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_MDAMAGE_NORMAL[1]] = \"Normal monstera karsi MATK +%d%%\","
+    },
+    "158": {
+      "source_en": "\t[EnumVAR.CLASS_MDAMAGE_BOSS[1]] = \"MATK +%d%% against Boss monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_MDAMAGE_BOSS[1]] = \"Boss monstera karsi MATK +%d%%\","
+    },
+    "159": {
+      "source_en": "\t[EnumVAR.CLASS_IGNORE_DEF_PERCENT_NORMAL[1]] = \"Pierces %d%% DEF of Normal monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_IGNORE_DEF_PERCENT_NORMAL[1]] = \"Normal monster DEF'inin %d%% kadarini deler\","
+    },
+    "160": {
+      "source_en": "\t[EnumVAR.CLASS_IGNORE_DEF_PERCENT_BOSS[1]] = \"Pierces %d%% DEF of Boss monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_IGNORE_DEF_PERCENT_BOSS[1]] = \"Boss monster DEF'inin %d%% kadarini deler\","
+    },
+    "161": {
+      "source_en": "\t[EnumVAR.CLASS_IGNORE_MDEF_PERCENT_NORMAL[1]] = \"Pierces %d%% MDEF of Normal monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_IGNORE_MDEF_PERCENT_NORMAL[1]] = \"Normal monster MDEF'inin %d%% kadarini deler\","
+    },
+    "162": {
+      "source_en": "\t[EnumVAR.CLASS_IGNORE_MDEF_PERCENT_BOSS[1]] = \"Pierces %d%% MDEF of Boss monster\",",
+      "translation_tr": "\t[EnumVAR.CLASS_IGNORE_MDEF_PERCENT_BOSS[1]] = \"Boss monster MDEF'inin %d%% kadarini deler\","
+    },
+    "163": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_SMALL_TARGET[1]] = \"ATK +%d%% against Small size monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_SMALL_TARGET[1]] = \"Kucuk boy monstera karsi ATK +%d%%\","
+    },
+    "164": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_MIDIUM_TARGET[1]] = \"ATK +%d%% against Medium size monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_MIDIUM_TARGET[1]] = \"Orta boy monstera karsi ATK +%d%%\","
+    },
+    "165": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_LARGE_TARGET[1]] = \"ATK +%d%% against Large size monster\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_LARGE_TARGET[1]] = \"Buyuk boy monstera karsi ATK +%d%%\","
+    },
+    "166": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_SMALL_USER[1]] = \"Small monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_SMALL_USER[1]] = \"Kucuk boy monster direnci +%d%%\","
+    },
+    "167": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_MIDIUM_USER[1]] = \"Medium monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_MIDIUM_USER[1]] = \"Orta boy monster direnci +%d%%\","
+    },
+    "168": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_LARGE_USER[1]] = \"Large monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_LARGE_USER[1]] = \"Buyuk boy monster direnci +%d%%\","
+    },
+    "169": {
+      "source_en": "\t[EnumVAR.DAMAGE_SIZE_PERFECT[1]] = \"Nullify weapon's damage size penalty\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_SIZE_PERFECT[1]] = \"Silahin boyut hasar cezasini yok sayar\","
+    },
+    "170": {
+      "source_en": "\t[EnumVAR.DAMAGE_CRI_TARGET[1]] = \"Critical Damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_CRI_TARGET[1]] = \"Kritik Hasar +%d%%\","
+    },
+    "171": {
+      "source_en": "\t[EnumVAR.DAMAGE_CRI_USER[1]] = \"Critical Damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_CRI_USER[1]] = \"Kritik Hasar -%d%%\","
+    },
+    "172": {
+      "source_en": "\t[EnumVAR.RANGE_ATTACK_DAMAGE_TARGET[1]] = \"Ranged Physical Damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RANGE_ATTACK_DAMAGE_TARGET[1]] = \"Uzak Fiziksel Hasar +%d%%\","
+    },
+    "173": {
+      "source_en": "\t[EnumVAR.RANGE_ATTACK_DAMAGE_USER[1]] = \"Received Ranged Physical Damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.RANGE_ATTACK_DAMAGE_USER[1]] = \"Alinan Uzak Fiziksel Hasar -%d%%\","
+    },
+    "174": {
+      "source_en": "\t[EnumVAR.HEAL_VALUE[1]] = \"Healing effectiveness +%d%%\",",
+      "translation_tr": "\t[EnumVAR.HEAL_VALUE[1]] = \"Iyilestirme Etkinligi +%d%%\","
+    },
+    "175": {
+      "source_en": "\t[EnumVAR.HEAL_MODIFY_PERCENT[1]] = \"Recovery gained from Healing skills +%d%%\",",
+      "translation_tr": "\t[EnumVAR.HEAL_MODIFY_PERCENT[1]] = \"Iyilestirme skillerinden alinan iyilesme +%d%%\","
+    },
+    "176": {
+      "source_en": "\t[EnumVAR.DEC_SPELL_CAST_TIME[1]] = \"Variable Casting Time -%d%%\",",
+      "translation_tr": "\t[EnumVAR.DEC_SPELL_CAST_TIME[1]] = \"Degisken Cast Suresi -%d%%\","
+    },
+    "177": {
+      "source_en": "\t[EnumVAR.DEC_SPELL_DELAY_TIME[1]] = \"After Skill Delay -%d%%\",",
+      "translation_tr": "\t[EnumVAR.DEC_SPELL_DELAY_TIME[1]] = \"Skill Sonrasi Gecikme -%d%%\","
+    },
+    "178": {
+      "source_en": "\t[EnumVAR.DEC_SP_CONSUMPTION[1]] = \"SP Consumption -%d%%\",",
+      "translation_tr": "\t[EnumVAR.DEC_SP_CONSUMPTION[1]] = \"SP Tuketimi -%d%%\","
+    },
+    "179": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_NOTHING[1]] = \"Weapon Element: Neutral\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_NOTHING[1]] = \"Silah Elementi: Notr\","
+    },
+    "180": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_WATER[1]] = \"Weapon Element: Water\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_WATER[1]] = \"Silah Elementi: Su\","
+    },
+    "181": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_GROUND[1]] = \"Weapon Element: Earth\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_GROUND[1]] = \"Silah Elementi: Toprak\","
+    },
+    "182": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_FIRE[1]] = \"Weapon Element: Fire\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_FIRE[1]] = \"Silah Elementi: Ates\","
+    },
+    "183": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_WIND[1]] = \"Weapon Element: Wind\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_WIND[1]] = \"Silah Elementi: Ruzgar\","
+    },
+    "184": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_POISON[1]] = \"Weapon Element: Poison\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_POISON[1]] = \"Silah Elementi: Zehir\","
+    },
+    "185": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_SAINT[1]] = \"Weapon Element: Holy\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_SAINT[1]] = \"Silah Elementi: Kutsal\","
+    },
+    "186": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_DARKNESS[1]] = \"Weapon Element: Shadow\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_DARKNESS[1]] = \"Silah Elementi: Golge\","
+    },
+    "187": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_TELEKINESIS[1]] = \"Weapon Element: Ghost\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_TELEKINESIS[1]] = \"Silah Elementi: Ruh\","
+    },
+    "188": {
+      "source_en": "\t[EnumVAR.WEAPON_ATTR_UNDEAD[1]] = \"Weapon Element: Undead\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_ATTR_UNDEAD[1]] = \"Silah Elementi: Undead\","
+    },
+    "189": {
+      "source_en": "\t[EnumVAR.WEAPON_INDESTRUCTIBLE[1]] = \"Indestructible in battle\",",
+      "translation_tr": "\t[EnumVAR.WEAPON_INDESTRUCTIBLE[1]] = \"Savasta kirilmaz\","
+    },
+    "190": {
+      "source_en": "\t[EnumVAR.BODY_INDESTRUCTIBLE[1]] = \"Indestructible in battle\",",
+      "translation_tr": "\t[EnumVAR.BODY_INDESTRUCTIBLE[1]] = \"Savasta kirilmaz\","
+    },
+    "191": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_SMALL_TARGET[1]] = \"MATK against Small size monster +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_SMALL_TARGET[1]] = \"Kucuk boy monstera karsi MATK +%d%%\","
+    },
+    "192": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_MIDIUM_TARGET[1]] = \"MATK against Medium size monster +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_MIDIUM_TARGET[1]] = \"Orta boy monstera karsi MATK +%d%%\","
+    },
+    "193": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_LARGE_TARGET[1]] = \"MATK against Large size monster +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_LARGE_TARGET[1]] = \"Buyuk boy monstera karsi MATK +%d%%\","
+    },
+    "194": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_SMALL_USER[1]] = \"Small monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_SMALL_USER[1]] = \"Kucuk boy monster buyu direnci +%d%%\","
+    },
+    "195": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_MIDIUM_USER[1]] = \"Medium monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_MIDIUM_USER[1]] = \"Orta boy monster buyu direnci +%d%%\","
+    },
+    "196": {
+      "source_en": "\t[EnumVAR.MDAMAGE_SIZE_LARGE_USER[1]] = \"Large monster magic resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MDAMAGE_SIZE_LARGE_USER[1]] = \"Buyuk boy monster buyu direnci +%d%%\","
+    },
+    "197": {
+      "source_en": "\t[EnumVAR.ATTR_TOLERACE_ALL[1]] = \"Elemental attacks resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ATTR_TOLERACE_ALL[1]] = \"Element saldirilarina direnc +%d%%\","
+    },
+    "198": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_NOTHING[1]] = \"Formless monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_NOTHING[1]] = \"Sekilsiz monster direnci +%d%%\","
+    },
+    "199": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_UNDEAD[1]] = \"Undead monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_UNDEAD[1]] = \"Undead monster direnci +%d%%\","
+    },
+    "200": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_ANIMAL[1]] = \"Brute monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_ANIMAL[1]] = \"Hayvan monster direnci +%d%%\","
+    },
+    "201": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_PLANT[1]] = \"Plant monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_PLANT[1]] = \"Bitki monster direnci +%d%%\","
+    },
+    "202": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_INSECT[1]] = \"Insect monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_INSECT[1]] = \"Bocek monster direnci +%d%%\","
+    },
+    "203": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_FISHS[1]] = \"Fish monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_FISHS[1]] = \"Balik monster direnci +%d%%\","
+    },
+    "204": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_DEVIL[1]] = \"Demon monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_DEVIL[1]] = \"Iblis monster direnci +%d%%\","
+    },
+    "205": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_HUMAN[1]] = \"Demihuman monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_HUMAN[1]] = \"Yari Insan monster direnci +%d%%\","
+    },
+    "206": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_ANGEL[1]] = \"Angel monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_ANGEL[1]] = \"Melek monster direnci +%d%%\","
+    },
+    "207": {
+      "source_en": "\t[EnumVAR.RACE_WEAPON_TOLERACE_DRAGON[1]] = \"Dragon monster resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_WEAPON_TOLERACE_DRAGON[1]] = \"Ejderha monster direnci +%d%%\","
+    },
+    "208": {
+      "source_en": "\t[EnumVAR.RANGE_WEAPON_ATTACK_DAMAGE_TARGET[1]] = \"Ranged Physical Damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RANGE_WEAPON_ATTACK_DAMAGE_TARGET[1]] = \"Uzak Fiziksel Hasar +%d%%\","
+    },
+    "209": {
+      "source_en": "\t[EnumVAR.RANGE_WEAPON_ATTACK_DAMAGE_USER[1]] = \"Received Ranged Physical Damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.RANGE_WEAPON_ATTACK_DAMAGE_USER[1]] = \"Alinan Uzak Fiziksel Hasar -%d%%\","
+    },
+    "210": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_PLAYER_HUMAN[1]] = \"Demi-Human players resistance + %d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_PLAYER_HUMAN[1]] = \"Yari Insan oyunculara direnc + %d%%\","
+    },
+    "211": {
+      "source_en": "\t[EnumVAR.RACE_TOLERACE_PLAYER_DORAM[1]] = \"Doram players resistance +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_TOLERACE_PLAYER_DORAM[1]] = \"Doram oyunculara direnc +%d%%\","
+    },
+    "212": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_PLAYER_HUMAN[1]] = \"ATK against Demi-Human players +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_PLAYER_HUMAN[1]] = \"Yari Insan oyunculara karsi ATK +%d%%\","
+    },
+    "213": {
+      "source_en": "\t[EnumVAR.RACE_DAMAGE_PLAYER_DORAM[1]] = \"ATK against Doram players +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_DAMAGE_PLAYER_DORAM[1]] = \"Doram oyunculara karsi ATK +%d%%\","
+    },
+    "214": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_PLAYER_HUMAN[1]] = \"MATK against Demi-Human players +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_PLAYER_HUMAN[1]] = \"Yari Insan oyunculara karsi MATK +%d%%\","
+    },
+    "215": {
+      "source_en": "\t[EnumVAR.RACE_MDAMAGE_PLAYER_DORAM[1]] = \"MATK against Doram players +%d%%\",",
+      "translation_tr": "\t[EnumVAR.RACE_MDAMAGE_PLAYER_DORAM[1]] = \"Doram oyunculara karsi MATK +%d%%\","
+    },
+    "216": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_PLAYER_HUMAN[1]] = \"Critical +%d for Demi-Human players\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_PLAYER_HUMAN[1]] = \"Yari Insan oyunculara karsi Kritik +%d\","
+    },
+    "217": {
+      "source_en": "\t[EnumVAR.RACE_CRI_PERCENT_PLAYER_DORAM[1]] = \"Critical +%d for Doram players\",",
+      "translation_tr": "\t[EnumVAR.RACE_CRI_PERCENT_PLAYER_DORAM[1]] = \"Doram oyunculara karsi Kritik +%d\","
+    },
+    "218": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLAYER_HUMAN[1]] = \"Pierces %d%% DEF of Demi-Human players\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLAYER_HUMAN[1]] = \"Yari Insan oyuncu DEF'inin %d%% kadarini deler\","
+    },
+    "219": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLAYER_DORAM[1]] = \"Pierces %d%% DEF of Doram players\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_DEF_PERCENT_PLAYER_DORAM[1]] = \"Doram oyuncu DEF'inin %d%% kadarini deler\","
+    },
+    "220": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLAYER_HUMAN[1]] = \"Pierces %d%% MDEF of Demi-Human players\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLAYER_HUMAN[1]] = \"Yari Insan oyuncu MDEF'inin %d%% kadarini deler\","
+    },
+    "221": {
+      "source_en": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLAYER_DORAM[1]] = \"Pierces %d%% MDEF of Doram players\",",
+      "translation_tr": "\t[EnumVAR.RACE_IGNORE_MDEF_PERCENT_PLAYER_DORAM[1]] = \"Doram oyuncu MDEF'inin %d%% kadarini deler\","
+    },
+    "222": {
+      "source_en": "\t[EnumVAR.REFLECT_DAMAGE_PERCENT[1]] = \"Recieved reflected damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.REFLECT_DAMAGE_PERCENT[1]] = \"Alinan yansitilmis hasar -%d%%\","
+    },
+    "223": {
+      "source_en": "\t[EnumVAR.MELEE_ATTACK_DAMAGE_TARGET[1]] = \"Melee Physical Damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.MELEE_ATTACK_DAMAGE_TARGET[1]] = \"Yakin Fiziksel Hasar +%d%%\","
+    },
+    "224": {
+      "source_en": "\t[EnumVAR.MELEE_ATTACK_DAMAGE_USER[1]] = \"Received Melee Physical Damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.MELEE_ATTACK_DAMAGE_USER[1]] = \"Alinan Yakin Fiziksel Hasar -%d%%\","
+    },
+    "225": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_NOTHING[1]] = \"Neutral elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_NOTHING[1]] = \"Notr element buyu skill hasari +%d%%\","
+    },
+    "226": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_WATER[1]] = \"Water elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_WATER[1]] = \"Su element buyu skill hasari +%d%%\","
+    },
+    "227": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_GROUND[1]] = \"Earth elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_GROUND[1]] = \"Toprak element buyu skill hasari +%d%%\","
+    },
+    "228": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_FIRE[1]] = \"Fire elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_FIRE[1]] = \"Ates element buyu skill hasari +%d%%\","
+    },
+    "229": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_WIND[1]] = \"Wind elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_WIND[1]] = \"Ruzgar element buyu skill hasari +%d%%\","
+    },
+    "230": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_POISON[1]] = \"Poison elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_POISON[1]] = \"Zehir element buyu skill hasari +%d%%\","
+    },
+    "231": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_SAINT[1]] = \"Holy elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_SAINT[1]] = \"Kutsal element buyu skill hasari +%d%%\","
+    },
+    "232": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_DARKNESS[1]] = \"Shadow elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_DARKNESS[1]] = \"Golge element buyu skill hasari +%d%%\","
+    },
+    "233": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_TELEKINESIS[1]] = \"Ghost elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_TELEKINESIS[1]] = \"Ruh element buyu skill hasari +%d%%\","
+    },
+    "234": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_UNDEAD[1]] = \"Undead elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_UNDEAD[1]] = \"Undead element buyu skill hasari +%d%%\","
+    },
+    "235": {
+      "source_en": "\t[EnumVAR.ADDSKILLMDAMAGE_ALL[1]] = \"All elemental magic skill damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDSKILLMDAMAGE_ALL[1]] = \"Tum element buyu skill hasari +%d%%\","
+    },
+    "236": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_NOTHING[1]] = \"Experience gained from Formless race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_NOTHING[1]] = \"Sekilsiz irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "237": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_UNDEAD[1]] = \"Experience gained from Undead race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_UNDEAD[1]] = \"Undead irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "238": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ANIMAL[1]] = \"Experience gained from Brute race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ANIMAL[1]] = \"Hayvan irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "239": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_PLANT[1]] = \"Experience gained from Plant race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_PLANT[1]] = \"Bitki irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "240": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_INSECT[1]] = \"Experience gained from Insect race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_INSECT[1]] = \"Bocek irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "241": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_FISHS[1]] = \"Experience gained from Fish race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_FISHS[1]] = \"Balik irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "242": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_DEVIL[1]] = \"Experience gained from Demon race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_DEVIL[1]] = \"Iblis irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "243": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_HUMAN[1]] = \"Experience gained from Demi-Human race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_HUMAN[1]] = \"Yari Insan irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "244": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ANGEL[1]] = \"Experience gained from Angel race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ANGEL[1]] = \"Melek irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "245": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_DRAGON[1]] = \"Experience gained from Dragon race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_DRAGON[1]] = \"Ejderha irki monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "246": {
+      "source_en": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ALL[1]] = \"Experience gained from all race monsters +%d%%\",",
+      "translation_tr": "\t[EnumVAR.ADDEXPPERCENT_KILLRACE_ALL[1]] = \"Tum irk monsterlardan kazanilan deneyim +%d%%\","
+    },
+    "259": {
+      "source_en": "\t[EnumVAR.DAMAGE_HIT_TARGET[1]] = \"Normal Physical Damage +%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_HIT_TARGET[1]] = \"Normal Fiziksel Hasar +%d%%\","
+    },
+    "260": {
+      "source_en": "\t[EnumVAR.DAMAGE_HIT_USER[1]] = \"Received Normal Physical Damage -%d%%\",",
+      "translation_tr": "\t[EnumVAR.DAMAGE_HIT_USER[1]] = \"Alinan Normal Fiziksel Hasar -%d%%\","
+    }
+  }
+}
