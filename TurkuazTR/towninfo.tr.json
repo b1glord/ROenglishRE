@@ -1,0 +1,25 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/towninfo.tr.json",
+    "purpose": "Renewal Towninfo.lub icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
+    "module": "Translation Patch - JSON",
+    "version": "1.0.0",
+    "description": "upstream/latest Towninfo.lub kaynagindaki 2 exact satiri Turkce karsiliklariyla esler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/Towninfo.lub",
+  "source_ref": "upstream/latest",
+  "source_blob_sha": "97246e601c616b96761bd8cdc2117191bff3a426",
+  "source_line_count": 485,
+  "patch_count": 2,
+  "patches": {
+    "29": {
+      "source_en": "\t\t{ name = [=[Weapon Dealer]=], X = 175, Y = 220, TYPE = 1 },",
+      "translation_tr": "\t\t{ name = [=[Silah Saticisi]=], X = 175, Y = 220, TYPE = 1 },"
+    },
+    "42": {
+      "source_en": "\t\t{ name = \"[=[Weapon Dealer]=]\", X = 135, Y = 263, TYPE = 1 }",
+      "translation_tr": "\t\t{ name = \"[=[Silah Saticisi]=]\", X = 135, Y = 263, TYPE = 1 }"
+    }
+  }
+}
