@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
-# PURPOSE: Skill pending raporlarini yeniler ve English/Hybrid/Full TR/Bilingual builderlarini dogrular.
+# PURPOSE: Skill ve msgstringtable pending/generated ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 1.4.0
-# DESCRIPTION: Pending raporlarini yeniler; dort skill profilini uretip dogrular ve bot commit'i ile saklar.
+# VERSION: 1.5.0
+# DESCRIPTION: Pending raporlarini yeniler; skill ve msgstringtable icin dort ortak localization profilini uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -16,9 +16,12 @@ on:
       - "TurkuazTR/skillinfolist.tr.json"
       - "TurkuazTR/skilldescript.tr.json"
       - "TurkuazTR/skill-profiles.json"
+      - "TurkuazTR/localization-profiles.json"
+      - "TurkuazTR/msgstringtable.tr.json"
       - "TurkuazTR/tools/**"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skillinfolist.lub"
       - "Translation/Renewal/data/luafiles514/lua files/skillinfoz/skilldescript.lub"
+      - "Translation/Renewal/data/msgstringtable.txt"
 
 permissions:
   contents: write
@@ -39,6 +42,13 @@ jobs:
           ref: translation/tr
           fetch-depth: 0
 
+      - name: Fetch upstream source ref
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin \
+            '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest'
+
       - name: Generate skill name pending report
         run: python TurkuazTR/tools/extract-skillinfolist-pending.py
 
@@ -56,6 +66,18 @@ jobs:
 
       - name: Validate Bilingual profile
         run: python TurkuazTR/tools/build-skill-profile.py --profile bilingual
+
+      - name: Validate English msgstringtable
+        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile english
+
+      - name: Validate Hybrid msgstringtable
+        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile hybrid
+
+      - name: Validate Full TR msgstringtable
+        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile full_tr
+
+      - name: Validate Bilingual msgstringtable
+        run: python TurkuazTR/tools/build-msgstringtable-profile.py --profile bilingual
 
       - name: Commit refreshed skill outputs
         shell: bash
