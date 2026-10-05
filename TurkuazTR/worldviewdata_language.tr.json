@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/worldviewdata_language.tr.json",
     "purpose": "World view harita/konum adlarini Turkceleyen exact-source overlay",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 220 exact satiri Navi_Data onayli Turkce karsiliklariyla esler",
+    "version": "1.1.0",
+    "description": "upstream/latest worldviewdata_language.lub kaynagindaki 306 exact satiri Turkce karsiliklariyla esler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/worldviewdata/worldviewdata_language.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "33a0a17c54a4f7ea8a1a2aee4b77008ba4fb3eb3",
   "source_line_count": 422,
-  "patch_count": 220,
+  "patch_count": 306,
   "patches": {
     "8": {
       "source_en": "\tMSI_1_THA_T01 = \"Thanatos Tower F1 - Lower Level\",",
@@ -25,13 +25,25 @@
       "source_en": "\tMSI_1_THA_T03 = \"Thanatos Tower F3 - Lower Level\",",
       "translation_tr": "\tMSI_1_THA_T03 = \"Thanatos Kulesi K3 - Alt Seviye\","
     },
+    "11": {
+      "source_en": "\tMSI_1_THA_T04 = \"Thanatos Tower F4 - Lower Level\",",
+      "translation_tr": "\tMSI_1_THA_T04 = \"Thanatos Kulesi K4 - Alt Seviye\","
+    },
     "12": {
       "source_en": "\tMSI_1_THA_T05 = \"Thanatos Tower F5 - Upper Level\",",
       "translation_tr": "\tMSI_1_THA_T05 = \"Thanatos Kulesi K5 - Ust Seviye\","
     },
+    "13": {
+      "source_en": "\tMSI_1_THA_T06 = \"Thanatos Tower F6 - Upper Level\",",
+      "translation_tr": "\tMSI_1_THA_T06 = \"Thanatos Kulesi K6 - Ust Seviye\","
+    },
     "14": {
       "source_en": "\tMSI_1_THA_T07 = \"Thanatos Tower F7 - Upper Level\",",
       "translation_tr": "\tMSI_1_THA_T07 = \"Thanatos Kulesi K7 - Melek Odasi\","
+    },
+    "15": {
+      "source_en": "\tMSI_1_THA_T08 = \"Thanatos Tower F8 - Upper Level\",",
+      "translation_tr": "\tMSI_1_THA_T08 = \"Thanatos Kulesi K8 - Ust Seviye\","
     },
     "16": {
       "source_en": "\tMSI_1_THA_T09 = \"Thanatos Tower F9 - Upper Level\",",
@@ -48,6 +60,30 @@
     "19": {
       "source_en": "\tMSI_1_THA_T12 = \"Thanatos Tower F12 - Upper Level\",",
       "translation_tr": "\tMSI_1_THA_T12 = \"Thanatos Kulesi K12 - Nefret Odasi\","
+    },
+    "20": {
+      "source_en": "\tMSI_2_MAG_DUN01 = \"Magma Dungeon F1\",",
+      "translation_tr": "\tMSI_2_MAG_DUN01 = \"Magma Zindani K1\","
+    },
+    "21": {
+      "source_en": "\tMSI_2_MAG_DUN02 = \"Magma Dungeon F2\",",
+      "translation_tr": "\tMSI_2_MAG_DUN02 = \"Magma Zindani K2\","
+    },
+    "22": {
+      "source_en": "\tMSI_2_MAG_DUN03 = \"Magma Dungeon F3\",",
+      "translation_tr": "\tMSI_2_MAG_DUN03 = \"Magma Zindani K3\","
+    },
+    "23": {
+      "source_en": "\tMSI_3_ICE_DUN01 = \"Ice Dungeon F1\",",
+      "translation_tr": "\tMSI_3_ICE_DUN01 = \"Buz Zindani K1\","
+    },
+    "24": {
+      "source_en": "\tMSI_3_ICE_DUN02 = \"Ice Dungeon F2\",",
+      "translation_tr": "\tMSI_3_ICE_DUN02 = \"Buz Zindani K2\","
+    },
+    "25": {
+      "source_en": "\tMSI_3_ICE_DUN03 = \"Ice Dungeon F3\",",
+      "translation_tr": "\tMSI_3_ICE_DUN03 = \"Buz Zindani K3\","
     },
     "26": {
       "source_en": "\tMSI_4_RA_SAN01 = \"Freya's Sacred Precinct F1\",",
@@ -69,6 +105,30 @@
       "source_en": "\tMSI_4_RA_SAN05 = \"Freya's Sacred Precinct F5\",",
       "translation_tr": "\tMSI_4_RA_SAN05 = \"Freya Kutsal Bolgesi K5\","
     },
+    "31": {
+      "source_en": "\tMSI_5_ABYSS_01 = \"Abyss Lakes Underground Cave F1\",",
+      "translation_tr": "\tMSI_5_ABYSS_01 = \"Ucurum Golleri Yeralti Magarasi K1\","
+    },
+    "32": {
+      "source_en": "\tMSI_5_ABYSS_02 = \"Abyss Lakes Underground Cave F2\",",
+      "translation_tr": "\tMSI_5_ABYSS_02 = \"Ucurum Golleri Yeralti Magarasi K2\","
+    },
+    "33": {
+      "source_en": "\tMSI_5_ABYSS_03 = \"Abyss Lakes Underground Cave F3\",",
+      "translation_tr": "\tMSI_5_ABYSS_03 = \"Ucurum Golleri Yeralti Magarasi K3\","
+    },
+    "34": {
+      "source_en": "\tMSI_5_ABYSS_04 = \"Abyss Lakes Underground Cave FF\",",
+      "translation_tr": "\tMSI_5_ABYSS_04 = \"Ucurum Golleri Yeralti Magarasi FF\","
+    },
+    "35": {
+      "source_en": "\tMSI_6_JUPEROS_01 = \"The Ruins of Juperos F1\",",
+      "translation_tr": "\tMSI_6_JUPEROS_01 = \"Juperos Harabeleri K1\","
+    },
+    "36": {
+      "source_en": "\tMSI_6_JUPEROS_02 = \"The Ruins of Juperos F2\",",
+      "translation_tr": "\tMSI_6_JUPEROS_02 = \"Juperos Harabeleri K2\","
+    },
     "37": {
       "source_en": "\tMSI_6_JUPE_CORE = \"Center of Juperos\",",
       "translation_tr": "\tMSI_6_JUPE_CORE = \"Juperos Merkezi\","
@@ -76,6 +136,18 @@
     "38": {
       "source_en": "\tMSI_6_VER_EJU = \"Eastern Ruins of Juperos\",",
       "translation_tr": "\tMSI_6_VER_EJU = \"Juperos Dogu Harabeleri\","
+    },
+    "39": {
+      "source_en": "\tMSI_6_VER_TUNN = \"Verus, Tunnel Outskirts\",",
+      "translation_tr": "\tMSI_6_VER_TUNN = \"Verus, Tunel Dis Bolgesi\","
+    },
+    "40": {
+      "source_en": "\tMSI_6_VERUS03 = \"Verus, Excavation Site\",",
+      "translation_tr": "\tMSI_6_VERUS03 = \"Verus, Kazi Alani\","
+    },
+    "41": {
+      "source_en": "\tMSI_6_VERUS04 = \"Verus, Central Plaza\",",
+      "translation_tr": "\tMSI_6_VERUS04 = \"Verus, Merkez Meydani\","
     },
     "42": {
       "source_en": "\tMSI_7_KH_DUN01 = \"Robot Factory F1\",",
@@ -129,6 +201,30 @@
       "source_en": "\tMSI_9_EIN_DUN03 = \"Einbech Mine F3\",",
       "translation_tr": "\tMSI_9_EIN_DUN03 = \"Einbech Madeni K3\","
     },
+    "55": {
+      "source_en": "\tMSI_10_MJO_DUN01 = \"Mjolnir Dead Pit F1\",",
+      "translation_tr": "\tMSI_10_MJO_DUN01 = \"Mjolnir Olu Cukuru K1\","
+    },
+    "56": {
+      "source_en": "\tMSI_10_MJO_DUN02 = \"Mjolnir Dead Pit F2\",",
+      "translation_tr": "\tMSI_10_MJO_DUN02 = \"Mjolnir Olu Cukuru K2\","
+    },
+    "57": {
+      "source_en": "\tMSI_10_MJO_DUN03 = \"Mjolnir Dead Pit F3\",",
+      "translation_tr": "\tMSI_10_MJO_DUN03 = \"Mjolnir Olu Cukuru K3\","
+    },
+    "58": {
+      "source_en": "\tMSI_11_LHZ_DUN01 = \"Somatology Laboratory F1\",",
+      "translation_tr": "\tMSI_11_LHZ_DUN01 = \"Somatoloji Laboratuvari K1\","
+    },
+    "59": {
+      "source_en": "\tMSI_11_LHZ_DUN02 = \"Somatology Laboratory F2\",",
+      "translation_tr": "\tMSI_11_LHZ_DUN02 = \"Somatoloji Laboratuvari K2\","
+    },
+    "60": {
+      "source_en": "\tMSI_11_LHZ_DUN03 = \"Somatology Laboratory F3\",",
+      "translation_tr": "\tMSI_11_LHZ_DUN03 = \"Somatoloji Laboratuvari K3\","
+    },
     "61": {
       "source_en": "\tMSI_12_THOR_V01 = \"Thor Volcano Dungeon\",",
       "translation_tr": "\tMSI_12_THOR_V01 = \"Thor Volkan Zindani\","
@@ -140,6 +236,98 @@
     "63": {
       "source_en": "\tMSI_12_THOR_V03 = \"Thor Volcano Dungeon\",",
       "translation_tr": "\tMSI_12_THOR_V03 = \"Thor Volkan Zindani\","
+    },
+    "64": {
+      "source_en": "\tMSI_13_GL_CAS01 = \"Glast Heim F1\",",
+      "translation_tr": "\tMSI_13_GL_CAS01 = \"Glast Heim K1\","
+    },
+    "65": {
+      "source_en": "\tMSI_13_GL_CAS02 = \"Glast Heim F2\",",
+      "translation_tr": "\tMSI_13_GL_CAS02 = \"Glast Heim K2\","
+    },
+    "66": {
+      "source_en": "\tMSI_13_GL_CHURCH = \"Glast Heim St. Abbey\",",
+      "translation_tr": "\tMSI_13_GL_CHURCH = \"Glast Heim Aziz Manastiri\","
+    },
+    "67": {
+      "source_en": "\tMSI_13_GL_CHYARD = \"Glast Heim Churchyard\",",
+      "translation_tr": "\tMSI_13_GL_CHYARD = \"Glast Heim Kilise Mezarligi\","
+    },
+    "68": {
+      "source_en": "\tMSI_13_GL_DUN01 = \"The Lowest Cave in Glast Heim F1\",",
+      "translation_tr": "\tMSI_13_GL_DUN01 = \"Glast Heim En Alt Magara K1\","
+    },
+    "69": {
+      "source_en": "\tMSI_13_GL_DUN02 = \"The Lowest Cave in Glast Heim F2\",",
+      "translation_tr": "\tMSI_13_GL_DUN02 = \"Glast Heim En Alt Magara K2\","
+    },
+    "70": {
+      "source_en": "\tMSI_13_GL_IN01 = \"Inside Glast Heim\",",
+      "translation_tr": "\tMSI_13_GL_IN01 = \"Glast Heim Ici\","
+    },
+    "71": {
+      "source_en": "\tMSI_13_GL_KNT01 = \"Inside Glast Heim Chivalry F1\",",
+      "translation_tr": "\tMSI_13_GL_KNT01 = \"Glast Heim Sovalye Birligi K1\","
+    },
+    "72": {
+      "source_en": "\tMSI_13_GL_KNT02 = \"Inside Glast Heim Chivalry F2\",",
+      "translation_tr": "\tMSI_13_GL_KNT02 = \"Glast Heim Sovalye Birligi K2\","
+    },
+    "73": {
+      "source_en": "\tMSI_13_GL_PRISON = \"Glast Heim Underprison F1\",",
+      "translation_tr": "\tMSI_13_GL_PRISON = \"Glast Heim Yeralti Hapishanesi K1\","
+    },
+    "74": {
+      "source_en": "\tMSI_13_GL_PRISON1 = \"Glast Heim Underprison F2\",",
+      "translation_tr": "\tMSI_13_GL_PRISON1 = \"Glast Heim Yeralti Hapishanesi K2\","
+    },
+    "75": {
+      "source_en": "\tMSI_13_GL_SEW01 = \"Glast Heim Culvert F1\",",
+      "translation_tr": "\tMSI_13_GL_SEW01 = \"Glast Heim Kanalizasyoni K1\","
+    },
+    "76": {
+      "source_en": "\tMSI_13_GL_SEW02 = \"Glast Heim Culvert F2\",",
+      "translation_tr": "\tMSI_13_GL_SEW02 = \"Glast Heim Kanalizasyoni K2\","
+    },
+    "77": {
+      "source_en": "\tMSI_13_GL_SEW03 = \"Glast Heim Culvert F3\",",
+      "translation_tr": "\tMSI_13_GL_SEW03 = \"Glast Heim Kanalizasyoni K3\","
+    },
+    "78": {
+      "source_en": "\tMSI_13_GL_SEW04 = \"Glast Heim Culvert F4\",",
+      "translation_tr": "\tMSI_13_GL_SEW04 = \"Glast Heim Kanalizasyoni K4\","
+    },
+    "79": {
+      "source_en": "\tMSI_13_GL_STEP = \"Glast Heim Staircase Dungeon\",",
+      "translation_tr": "\tMSI_13_GL_STEP = \"Glast Heim Merdiven Zindani\","
+    },
+    "80": {
+      "source_en": "\tMSI_14_GEF_DUN00 = \"Geffen Dungeon F1\",",
+      "translation_tr": "\tMSI_14_GEF_DUN00 = \"Geffen Zindani K1\","
+    },
+    "81": {
+      "source_en": "\tMSI_14_GEF_DUN01 = \"Geffen Dungeon F2\",",
+      "translation_tr": "\tMSI_14_GEF_DUN01 = \"Geffen Zindani K2\","
+    },
+    "82": {
+      "source_en": "\tMSI_14_GEF_DUN02 = \"Geffen Dungeon F3\",",
+      "translation_tr": "\tMSI_14_GEF_DUN02 = \"Geffen Zindani K3\","
+    },
+    "83": {
+      "source_en": "\tMSI_15_GEFENIA01 = \"Geffenia F1\",",
+      "translation_tr": "\tMSI_15_GEFENIA01 = \"Geffenia K1\","
+    },
+    "84": {
+      "source_en": "\tMSI_15_GEFENIA02 = \"Geffenia F2\",",
+      "translation_tr": "\tMSI_15_GEFENIA02 = \"Geffenia K2\","
+    },
+    "85": {
+      "source_en": "\tMSI_15_GEFENIA03 = \"Geffenia F3\",",
+      "translation_tr": "\tMSI_15_GEFENIA03 = \"Geffenia K3\","
+    },
+    "86": {
+      "source_en": "\tMSI_15_GEFENIA04 = \"Geffenia F4\",",
+      "translation_tr": "\tMSI_15_GEFENIA04 = \"Geffenia K4\","
     },
     "87": {
       "source_en": "\tMSI_16_NIFLHEIM = \"Niflheim, Realm of the Dead\",",
@@ -185,6 +373,26 @@
       "source_en": "\tMSI_18_MOC_PRYD06 = \"Inside Pyramid B2\",",
       "translation_tr": "\tMSI_18_MOC_PRYD06 = \"Morocc Piramidi B2\","
     },
+    "98": {
+      "source_en": "\tMSI_19_IN_SPHINX1 = \"Sphinx F1\",",
+      "translation_tr": "\tMSI_19_IN_SPHINX1 = \"Sfenks K1\","
+    },
+    "99": {
+      "source_en": "\tMSI_19_IN_SPHINX2 = \"Sphinx F2\",",
+      "translation_tr": "\tMSI_19_IN_SPHINX2 = \"Sfenks K2\","
+    },
+    "100": {
+      "source_en": "\tMSI_19_IN_SPHINX3 = \"Sphinx F3\",",
+      "translation_tr": "\tMSI_19_IN_SPHINX3 = \"Sfenks K3\","
+    },
+    "101": {
+      "source_en": "\tMSI_19_IN_SPHINX4 = \"Sphinx F4\",",
+      "translation_tr": "\tMSI_19_IN_SPHINX4 = \"Sfenks K4\","
+    },
+    "102": {
+      "source_en": "\tMSI_19_IN_SPHINX5 = \"Sphinx F5\",",
+      "translation_tr": "\tMSI_19_IN_SPHINX5 = \"Sfenks K5\","
+    },
     "103": {
       "source_en": "\tMSI_20_PRT_SEWB1 = \"Prontera Culvert F1\",",
       "translation_tr": "\tMSI_20_PRT_SEWB1 = \"Prontera Kanalizasyonu K1\","
@@ -200,6 +408,50 @@
     "106": {
       "source_en": "\tMSI_20_PRT_SEWB4 = \"Prontera Culvert F4\",",
       "translation_tr": "\tMSI_20_PRT_SEWB4 = \"Prontera Kanalizasyonu K4\","
+    },
+    "107": {
+      "source_en": "\tMSI_21_IZ_DUN00 = \"Undersea Tunnel F1\",",
+      "translation_tr": "\tMSI_21_IZ_DUN00 = \"Sualti Tuneli K1\","
+    },
+    "108": {
+      "source_en": "\tMSI_21_IZ_DUN01 = \"Undersea Tunnel F2\",",
+      "translation_tr": "\tMSI_21_IZ_DUN01 = \"Sualti Tuneli K2\","
+    },
+    "109": {
+      "source_en": "\tMSI_21_IZ_DUN02 = \"Undersea Tunnel F3\",",
+      "translation_tr": "\tMSI_21_IZ_DUN02 = \"Sualti Tuneli K3\","
+    },
+    "110": {
+      "source_en": "\tMSI_21_IZ_DUN03 = \"Undersea Tunnel F4\",",
+      "translation_tr": "\tMSI_21_IZ_DUN03 = \"Sualti Tuneli K4\","
+    },
+    "111": {
+      "source_en": "\tMSI_21_IZ_DUN04 = \"Undersea Tunnel F5\",",
+      "translation_tr": "\tMSI_21_IZ_DUN04 = \"Sualti Tuneli K5\","
+    },
+    "112": {
+      "source_en": "\tMSI_21_IZ_DUN05 = \"Undersea Tunnel F6\",",
+      "translation_tr": "\tMSI_21_IZ_DUN05 = \"Sualti Tuneli K6\","
+    },
+    "113": {
+      "source_en": "\tMSI_22_PAY_DUN00 = \"Payon Dungeon F1\",",
+      "translation_tr": "\tMSI_22_PAY_DUN00 = \"Payon Zindani K1\","
+    },
+    "114": {
+      "source_en": "\tMSI_22_PAY_DUN01 = \"Payon Dungeon F2\",",
+      "translation_tr": "\tMSI_22_PAY_DUN01 = \"Payon Zindani K2\","
+    },
+    "115": {
+      "source_en": "\tMSI_22_PAY_DUN02 = \"Payon Dungeon F3\",",
+      "translation_tr": "\tMSI_22_PAY_DUN02 = \"Payon Zindani K3\","
+    },
+    "116": {
+      "source_en": "\tMSI_22_PAY_DUN03 = \"Payon Dungeon F4(Village Nuisance)\",",
+      "translation_tr": "\tMSI_22_PAY_DUN03 = \"Payon Zindani K4 - Koy Belasi\","
+    },
+    "117": {
+      "source_en": "\tMSI_22_PAY_DUN04 = \"Payon Dungeon F5(Village Nuisance)\",",
+      "translation_tr": "\tMSI_22_PAY_DUN04 = \"Payon Zindani K5 - Koy Belasi\","
     },
     "118": {
       "source_en": "\tMSI_23_TREASURE01 = \"Sunken Ship F1\",",
@@ -229,9 +481,33 @@
       "source_en": "\tMSI_25_BEACH_DUN = \"Karu, the West Cave\",",
       "translation_tr": "\tMSI_25_BEACH_DUN = \"Karu, Bati Magarasi\","
     },
+    "125": {
+      "source_en": "\tMSI_26_BEACH_DUN2 = \"Ruande, the North Cave\",",
+      "translation_tr": "\tMSI_26_BEACH_DUN2 = \"Ruande, Kuzey Magarasi\","
+    },
     "126": {
       "source_en": "\tMSI_27_BEACH_DUN3 = \"Mao, the East Cave\",",
       "translation_tr": "\tMSI_27_BEACH_DUN3 = \"Mao, Dogu Magarasi\","
+    },
+    "127": {
+      "source_en": "\tMSI_28_ANTHELL01 = \"Ant Hell F1\",",
+      "translation_tr": "\tMSI_28_ANTHELL01 = \"Karinca Cehennemi K1\","
+    },
+    "128": {
+      "source_en": "\tMSI_28_ANTHELL02 = \"Ant Hell F2\",",
+      "translation_tr": "\tMSI_28_ANTHELL02 = \"Karinca Cehennemi K2\","
+    },
+    "129": {
+      "source_en": "\tMSI_29_ABBEY01 = \"Cursed Abbey Dungeon F1\",",
+      "translation_tr": "\tMSI_29_ABBEY01 = \"Lanetli Manastir Zindani K1\","
+    },
+    "130": {
+      "source_en": "\tMSI_29_ABBEY02 = \"Cursed Abbey Dungeon F2\",",
+      "translation_tr": "\tMSI_29_ABBEY02 = \"Lanetli Manastir Zindani K2\","
+    },
+    "131": {
+      "source_en": "\tMSI_29_ABBEY03 = \"Cursed Abbey Dungeon F3\",",
+      "translation_tr": "\tMSI_29_ABBEY03 = \"Lanetli Manastir Zindani K3\","
     },
     "132": {
       "source_en": "\tMSI_30_PRT_MAZE01 = \"Labyrinth Forest F1\",",
@@ -260,6 +536,10 @@
     "138": {
       "source_en": "\tMSI_100_HU_FILD04 = \"Hugel Field\",",
       "translation_tr": "\tMSI_100_HU_FILD04 = \"Hugel Sahasi\","
+    },
+    "139": {
+      "source_en": "\tMSI_100_HU_FILD05 = \"The Abyss Lakes\",",
+      "translation_tr": "\tMSI_100_HU_FILD05 = \"Ucurum Golleri\","
     },
     "140": {
       "source_en": "\tMSI_100_HU_FILD06 = \"Hugel Field\",",
@@ -317,6 +597,10 @@
       "source_en": "\tMSI_101_RA_FILD08 = \"Ida Plane\",",
       "translation_tr": "\tMSI_101_RA_FILD08 = \"Ida Ovasi\","
     },
+    "154": {
+      "source_en": "\tMSI_101_RA_FILD10 = \"Oz Gorge\",",
+      "translation_tr": "\tMSI_101_RA_FILD10 = \"Oz Bogazi\","
+    },
     "155": {
       "source_en": "\tMSI_101_RA_FILD11 = \"Ida Plane\",",
       "translation_tr": "\tMSI_101_RA_FILD11 = \"Ida Ovasi\","
@@ -332,6 +616,10 @@
     "161": {
       "source_en": "\tMSI_102_LHZ_FILD01 = \"Lighthalzen Field\",",
       "translation_tr": "\tMSI_102_LHZ_FILD01 = \"Lighthalzen Sahasi\","
+    },
+    "162": {
+      "source_en": "\tMSI_102_LHZ_FILD02 = \"Lighthalzen Field (Grim Reaper's Valley)\",",
+      "translation_tr": "\tMSI_102_LHZ_FILD02 = \"Lighthalzen Sahasi - Azrail Vadisi\","
     },
     "163": {
       "source_en": "\tMSI_102_LHZ_FILD03 = \"Lighthalzen Field\",",
@@ -393,6 +681,10 @@
       "source_en": "\tMSI_103_YUNO_FILD11 = \"Yuno Field\",",
       "translation_tr": "\tMSI_103_YUNO_FILD11 = \"Yuno Sahasi\","
     },
+    "178": {
+      "source_en": "\tMSI_103_YUNO_FILD12 = \"Border Checkpoint\",",
+      "translation_tr": "\tMSI_103_YUNO_FILD12 = \"Sinir Kontrol Noktasi\","
+    },
     "179": {
       "source_en": "\tMSI_103_ALDE_GLD = \"Luina, the satellite of Aldebaran\",",
       "translation_tr": "\tMSI_103_ALDE_GLD = \"Luina, Aldebaran Uydu Sehri\","
@@ -453,6 +745,10 @@
       "source_en": "\tMSI_107_PRT_FILD03 = \"Prontera Field\",",
       "translation_tr": "\tMSI_107_PRT_FILD03 = \"Prontera Sahasi\","
     },
+    "219": {
+      "source_en": "\tMSI_107_PRT_MONK = \"St. Capitolina Abbey\",",
+      "translation_tr": "\tMSI_107_PRT_MONK = \"Aziz Capitolina Manastiri\","
+    },
     "221": {
       "source_en": "\tMSI_108_PRT_FILD04 = \"Prontera Field\",",
       "translation_tr": "\tMSI_108_PRT_FILD04 = \"Prontera Sahasi\","
@@ -485,9 +781,21 @@
       "source_en": "\tMSI_108_PRT_FILD11 = \"Prontera Field\",",
       "translation_tr": "\tMSI_108_PRT_FILD11 = \"Prontera Sahasi\","
     },
+    "229": {
+      "source_en": "\tMSI_108_PRONTERA = \"Prontera City, Capital of Rune Midgard\",",
+      "translation_tr": "\tMSI_108_PRONTERA = \"Rune Midgard Baskenti Prontera Sehri\","
+    },
+    "230": {
+      "source_en": "\tMSI_108_IZLUDE = \"Izlude Town\",",
+      "translation_tr": "\tMSI_108_IZLUDE = \"Izlude Kasabasi\","
+    },
     "231": {
       "source_en": "\tMSI_108_IZLU2DUN = \"Byalan Island\",",
       "translation_tr": "\tMSI_108_IZLU2DUN = \"Byalan Adasi\","
+    },
+    "235": {
+      "source_en": "\tMSI_108_MOC_FILD01 = \"Morocc Field\",",
+      "translation_tr": "\tMSI_108_MOC_FILD01 = \"Morocc Sahasi\","
     },
     "236": {
       "source_en": "\tMSI_108_PAY_ARCHE = \"Archer Village\",",
@@ -520,6 +828,10 @@
     "243": {
       "source_en": "\tMSI_109_UMBALA = \"Wootan Tribe's Village, Umbala\",",
       "translation_tr": "\tMSI_109_UMBALA = \"Wootan Kabilesi Koyu, Umbala\","
+    },
+    "244": {
+      "source_en": "\tMSI_109_COMODO = \"Beach town, Comodo\",",
+      "translation_tr": "\tMSI_109_COMODO = \"Sahil Kasabasi Comodo\","
     },
     "245": {
       "source_en": "\tMSI_109_CMD_FILD01 = \"Papuchicha Forest\",",
@@ -585,6 +897,18 @@
       "source_en": "\tMSI_110_MOC_RUINS = \"Morocc Ruins\",",
       "translation_tr": "\tMSI_110_MOC_RUINS = \"Morocc Harabeleri\","
     },
+    "261": {
+      "source_en": "\tMSI_110_MOROCC = \"Morocc Town\",",
+      "translation_tr": "\tMSI_110_MOROCC = \"Morocc Kasabasi\","
+    },
+    "262": {
+      "source_en": "\tMSI_111_MOC_FILD02 = \"Morocc Field\",",
+      "translation_tr": "\tMSI_111_MOC_FILD02 = \"Morocc Sahasi\","
+    },
+    "263": {
+      "source_en": "\tMSI_111_MOC_FILD03 = \"Morocc Field\",",
+      "translation_tr": "\tMSI_111_MOC_FILD03 = \"Morocc Sahasi\","
+    },
     "264": {
       "source_en": "\tMSI_111_MOC_FILD13 = \"Sograt Desert\",",
       "translation_tr": "\tMSI_111_MOC_FILD13 = \"Sograt Colu\","
@@ -637,6 +961,18 @@
       "source_en": "\tMSI_111_TUR_DUN01 = \"Turtle Island\",",
       "translation_tr": "\tMSI_111_TUR_DUN01 = \"Kaplumbaga Adasi\","
     },
+    "277": {
+      "source_en": "\tMSI_1_ECL_TDUN01 = \"Eclage Dungeon 01\",",
+      "translation_tr": "\tMSI_1_ECL_TDUN01 = \"Eclage Zindani 01\","
+    },
+    "278": {
+      "source_en": "\tMSI_1_ECL_TDUN02 = \"Eclage Dungeon 02\",",
+      "translation_tr": "\tMSI_1_ECL_TDUN02 = \"Eclage Zindani 02\","
+    },
+    "279": {
+      "source_en": "\tMSI_1_ECL_TDUN03 = \"Eclage Dungeon 03\",",
+      "translation_tr": "\tMSI_1_ECL_TDUN03 = \"Eclage Zindani 03\","
+    },
     "280": {
       "source_en": "\tMSI_2_DIC_DUN01 = \"Kamidal Tunnel\",",
       "translation_tr": "\tMSI_2_DIC_DUN01 = \"Kamidal Tuneli\","
@@ -644,6 +980,10 @@
     "281": {
       "source_en": "\tMSI_2_DIC_DUN02 = \"Scaraba Hall\",",
       "translation_tr": "\tMSI_2_DIC_DUN02 = \"Scaraba Salonu\","
+    },
+    "282": {
+      "source_en": "\tMSI_3_DIC_DUN03 = \"Scaraba Hole - Nightmare Mode\",",
+      "translation_tr": "\tMSI_3_DIC_DUN03 = \"Scaraba Deligi - Kabus Modu\","
     },
     "283": {
       "source_en": "\tMSI_3_MORA = \"Mora Village\",",
@@ -660,6 +1000,10 @@
     "286": {
       "source_en": "\tMSI_100_ECLAGE = \"Eclage, Forestic Village\",",
       "translation_tr": "\tMSI_100_ECLAGE = \"Eclage, Orman Koyu\","
+    },
+    "287": {
+      "source_en": "\tMSI_100_ECL_FILD01 = \"Eclage Field 01\",",
+      "translation_tr": "\tMSI_100_ECL_FILD01 = \"Eclage Sahasi 01\","
     },
     "288": {
       "source_en": "\tMSI_100_BIF_FILD02 = \"Bifrost Bridge\",",
