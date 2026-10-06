@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-pettalk-pending.py
-# 📌 Amac: pettalktable.xml icindeki metin dugumlerini encoding kalitesine gore siniflandirip pending ceviri envanteri uretir
+# 📌 Amac: pettalktable.xml icindeki temiz ASCII Ingilizce metinleri raw-byte guvenli pending envanterine donusturur
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: Okunabilir ASCII Ingilizce, karisik encoding, non-ASCII ve neutral pet konusmalarini ayri raporlar
+# Version: 1.1.0
+# Aciklama: Kaynagi decode etmeden XML metin dugumlerini siniflandirir; yalniz ASCII ceviri adaylarini metin olarak saklar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -17,93 +17,106 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SOURCE = REPO_ROOT / "Translation/Renewal/data/pettalktable.xml"
 OUTPUT = REPO_ROOT / "TurkuazTR/pettalktable.pending.json"
-TAG_RE = re.compile(r"<([A-Za-z0-9_]+)>([^<]*)</\\1>")
+TAG_RE = re.compile(rb"<([A-Za-z0-9_]+)>([^<]*)</\\1>")
+ASCII_LETTER_RE = re.compile(rb"[A-Za-z]")
 
 
-def classify(value: str) -> str:
-    ascii_letters = len(re.findall(r"[A-Za-z]", value))
-    non_ascii = sum(1 for char in value if ord(char) > 127)
-    if ascii_letters >= 3 and non_ascii == 0:
-        return "readable_ascii"
-    if ascii_letters >= 3 and non_ascii > 0:
-        return "mixed_encoding"
-    if non_ascii > 0:
-        return "non_ascii"
-    return "neutral"
+def git_blob_sha(raw: bytes) -> str:
+    header = f"blob {len(raw)}\\0".encode("ascii")
+    return hashlib.sha1(header + raw).hexdigest()
 
 
 def main() -> int:
     raw = SOURCE.read_bytes()
-    text = raw.decode("utf-8")
-    lines = text.splitlines()
-    blob_header = f"blob {len(raw)}\\0".encode("ascii")
-    source_blob_sha = hashlib.sha1(blob_header + raw).hexdigest()
-    groups: dict[str, OrderedDict[str, dict]] = {
-        "readable_ascii": OrderedDict(),
-        "mixed_encoding": OrderedDict(),
-        "non_ascii": OrderedDict(),
-        "neutral": OrderedDict(),
-    }
-    node_count = 0
+    lines = raw.splitlines()
+
+    readable: OrderedDict[bytes, dict] = OrderedDict()
+    mixed_unique: set[bytes] = set()
+    non_ascii_unique: set[bytes] = set()
+    neutral_unique: set[bytes] = set()
+
+    text_node_count = 0
+    readable_nodes = 0
+    mixed_nodes = 0
+    non_ascii_nodes = 0
+    neutral_nodes = 0
 
     for line_no, line in enumerate(lines, start=1):
         for match in TAG_RE.finditer(line):
             value = match.group(2).strip()
             if not value:
                 continue
-            node_count += 1
-            bucket = classify(value)
-            row = groups[bucket].setdefault(
-                value,
-                {"text": value, "first_line": line_no, "count": 0, "tags": set()},
-            )
-            row["count"] += 1
-            row["tags"].add(match.group(1))
 
-    rendered_groups = {}
-    summary = {}
-    for bucket, rows in groups.items():
-        rendered = []
-        node_total = 0
-        for row in rows.values():
-            node_total += row["count"]
-            rendered.append(
+            text_node_count += 1
+            ascii_letters = len(ASCII_LETTER_RE.findall(value))
+            has_non_ascii = any(byte >= 0x80 for byte in value)
+
+            if ascii_letters >= 3 and not has_non_ascii:
+                readable_nodes += 1
+                row = readable.setdefault(
+                    value,
+                    {
+                        "text": value.decode("ascii"),
+                        "first_line": line_no,
+                        "count": 0,
+                        "tags": set(),
+                    },
+                )
+                row["count"] += 1
+                row["tags"].add(match.group(1).decode("ascii"))
+            elif ascii_letters >= 3 and has_non_ascii:
+                mixed_nodes += 1
+                mixed_unique.add(value)
+            elif has_non_ascii:
+                non_ascii_nodes += 1
+                non_ascii_unique.add(value)
+            else:
+                neutral_nodes += 1
+                neutral_unique.add(value)
+
+    payload = {
+        "_file_header": {
+            "path": "/ROenglishRE/TurkuazTR/pettalktable.pending.json",
+            "purpose": "Pet konusma tablosundaki temiz ASCII Ingilizce ceviri adaylarini raw-byte guvenli bicimde envanterler",
+            "module": "Translation Pending - JSON",
+            "version": "1.1.0",
+            "description": "Kaynak XML'i karakter setine zorlamadan siniflandirir; yalnizca tamamen ASCII olan Ingilizce metinleri pending listesine yazar, mixed/non-ASCII gruplari sayisal kalite ozeti olarak tutar",
+            "dependency_layer": "Tool",
+        },
+        "source_path": "Translation/Renewal/data/pettalktable.xml",
+        "source_ref": "upstream/latest",
+        "source_blob_sha": git_blob_sha(raw),
+        "source_line_count": len(lines),
+        "text_node_count": text_node_count,
+        "readable_ascii_nodes": readable_nodes,
+        "readable_ascii_unique": len(readable),
+        "mixed_encoding_nodes": mixed_nodes,
+        "mixed_encoding_unique": len(mixed_unique),
+        "non_ascii_nodes": non_ascii_nodes,
+        "non_ascii_unique": len(non_ascii_unique),
+        "neutral_nodes": neutral_nodes,
+        "neutral_unique": len(neutral_unique),
+        "policy": {
+            "readable_ascii": "Turkce ceviri adayi; metin envanterde tutulur",
+            "mixed_encoding": "Kaynak/encoding dogrulamasi gerekir; metin envantere kopyalanmaz",
+            "non_ascii": "Kaynak dil/encoding tespiti gerekir; metin envantere kopyalanmaz",
+            "neutral": "Ceviri gerektirmeyen veya manuel karar gerektiren kisa ifade; metin envantere kopyalanmaz",
+        },
+        "groups": {
+            "readable_ascii": [
                 {
                     "text": row["text"],
                     "first_line": row["first_line"],
                     "count": row["count"],
                     "tags": sorted(row["tags"]),
                 }
-            )
-        rendered_groups[bucket] = rendered
-        summary[f"{bucket}_nodes"] = node_total
-        summary[f"{bucket}_unique"] = len(rendered)
-
-    payload = {
-        "_file_header": {
-            "path": "/ROenglishRE/TurkuazTR/pettalktable.pending.json",
-            "purpose": "Pet konusma tablosundaki ceviri adaylarini encoding kalitesine gore ayirir ve kontrollu Turkce ceviri dilimleri icin kaynak envanteri saglar",
-            "module": "Translation Pending - JSON",
-            "version": "1.0.0",
-            "description": "Okunabilir ASCII Ingilizce, karisik encoding, non-ASCII ve neutral pet konusmalarini ayri gruplar; bozuk kaynagi otomatik ceviri olarak sabitlemez",
-            "dependency_layer": "Tool",
+                for row in readable.values()
+            ]
         },
-        "source_path": "Translation/Renewal/data/pettalktable.xml",
-        "source_ref": "upstream/latest",
-        "source_blob_sha": source_blob_sha,
-        "source_line_count": len(lines),
-        "text_node_count": node_count,
-        **summary,
-        "policy": {
-            "readable_ascii": "Turkce ceviri adayi",
-            "mixed_encoding": "Once kaynak/encoding duzeltmesi veya upstream karsilastirmasi gerekir",
-            "non_ascii": "Once kaynak dil ve encoding tespiti gerekir",
-            "neutral": "Ceviri gerektirmeyen veya manuel karar gerektiren kisa ifade",
-        },
-        "groups": rendered_groups,
     }
+
     OUTPUT.write_text(
-        json.dumps(payload, indent=2, ensure_ascii=True) + "\\n",
+        json.dumps(payload, indent=2, ensure_ascii=True) + "\n",
         encoding="utf-8",
     )
     return 0
