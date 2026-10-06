@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/file-overlays.json",
     "purpose": "Satir yapisi upstream ile birebir olmayan whole-file localization overlay bilesenlerini tanimlar",
     "module": "Translation Overlay Registry - JSON",
-    "version": "1.3.0",
-    "description": "tipoftheday, guild_tip ve oyun ici kitaplar icin source blob SHA kilitli whole-file overlay builder ayarlarini kaydeder",
+    "version": "1.4.0",
+    "description": "tipoftheday, guild_tip ve oyun ici kitaplar icin source blob SHA kilitli whole-file overlay builder ayarlarini kaydeder; mevcut tum kitap patchlerini registry ile eslestirir",
     "dependency_layer": "Tool"
   },
   "components": {
@@ -109,6 +109,18 @@
       "patch_path": "TurkuazTR/books/11061.tr.json",
       "profile_field": "books",
       "output_path": "data/book/11061.txt"
+    },
+    "book_11024": {
+      "source_path": "Translation/Renewal/data/book/11024.txt",
+      "patch_path": "TurkuazTR/books/11024.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/11024.txt"
+    },
+    "book_11064": {
+      "source_path": "Translation/Renewal/data/book/11064.txt",
+      "patch_path": "TurkuazTR/books/11064.tr.json",
+      "profile_field": "books",
+      "output_path": "data/book/11064.txt"
     }
   }
 }
