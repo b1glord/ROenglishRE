@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.13.0
-# Aciklama: Translation status, pet/item gorunur kapsam auditleri, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
+# Version: 1.14.0
+# Aciklama: Translation status, pet pending/recovery ve item gorunur kapsam auditleri, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -70,6 +70,7 @@ jobs:
             TurkuazTR/tools/build-file-overlay-profile.py \
             TurkuazTR/tools/build-quest-profile.py \
             TurkuazTR/tools/extract-pettalk-pending.py \
+            TurkuazTR/tools/validate-pettalk-recovery.py \
             TurkuazTR/tools/audit-iteminfo-visible.py \
             TurkuazTR/tools/extract-skillinfolist-pending.py \
             TurkuazTR/tools/extract-skilldescript-pending.py
@@ -88,6 +89,12 @@ jobs:
           set -euo pipefail
           python3 TurkuazTR/tools/extract-pettalk-pending.py
           git diff --exit-code -- TurkuazTR/pettalktable.pending.json
+
+      - name: Validate pet talk recovery closure
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/validate-pettalk-recovery.py
 
       - name: Audit visible item info scope
         shell: bash
