@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.10.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, skill/hasar/refine/grade/status kaliplari, servis metinleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
+    "version": "1.11.0",
+    "description": "Item adlarini canonical tutar; exact serbest aciklama overlay'i ile metadata, sistem, skill/hasar/refine/grade/status kalip kurallarini ayri katmanlarda byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -2742,5 +2742,6 @@
       "source": "^0000CCRental Duration:^000000 1 day",
       "translation": "^0000CCKiralama Suresi:^000000 1 gun"
     }
-  ]
+  ],
+  "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
 }
