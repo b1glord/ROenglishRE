@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.49.0
+# Version: 2.50.0
 # Aciklama: Upstream 2026, Turkce overlay, yardim/unvan/harita/random option/kart/state icon localization ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -160,13 +160,15 @@ sync:
     patch: "TurkuazTR/entryqueuelist.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
   state_icons:
-    status: translated_partial
-    translated_lines: 1855
-    translated_title_lines: 247
-    translated_scope: "skill_dictionary_through_fourth_job_and_deep_status_tooltips"
-    remaining_scope: "final_episode_food_buffs_and_intentional_canonical_or_numeric_labels"
+    status: translated_complete_with_intentional_canonical_labels
+    translated_lines: 2108
+    final_audit_translated_lines: 253
+    intentional_lines: 77
+    intentional_unique: 70
+    intentional_scope: "canonical_skill_status_names_and_numeric_stat_labels"
     strategy: exact_source_overlay
     patch: "TurkuazTR/stateiconinfo.tr.json"
+    intentional: "TurkuazTR/stateiconinfo.intentional.json"
     profiles: "TurkuazTR/localization-profiles.json"
   quest_display:
     status: translated_record_overlay
@@ -176,7 +178,7 @@ sync:
     related_output: "Translation/Renewal/SystemEN/OngoingQuests.lub"
     profiles: "TurkuazTR/localization-profiles.json"
   pet_talk:
-    status: translated_safe_complete_source_recovery_pending
+    status: translated_complete_clean_source_with_recovery_isolated
     translated_lines: 4836
     translated_unique_phrases: 3780
     source_lines: 7344
@@ -194,26 +196,39 @@ sync:
     source_recovery: "TurkuazTR/pettalktable.source-recovery.json"
     recovery_candidates: 122
     recovery_nodes: 345
-
+    recovery_policy: "bozuk_kesik_ve_mojibake_kaynak_dogru_kaynak_bulunmadan_cevrilmez"
   item_info:
-    status: visible_scope_audit
+    status: metadata_translation_rules_active
     source: "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
-    source_size_bytes: 22328336
+    source_size_bytes: 22960500
+    source_lines: 632165
+    item_records: 26793
+    visible_field_occurrences: 107172
+    visible_string_count: 368100
+    unique_visible_string_count: 79156
+    name_string_count: 53556
+    unique_name_string_count: 24744
+    description_string_count: 314544
+    unique_description_string_count: 56837
+    natural_description_occurrences: 228307
+    unique_natural_description_count: 56310
+    technical_field_occurrences: 140741
     visible_fields:
       - "unidentifiedDisplayName"
       - "unidentifiedDescriptionName"
       - "identifiedDisplayName"
       - "identifiedDescriptionName"
+    name_policy: "canonical_original"
+    description_policy: "common_metadata_system_phrases_and_values_byte_safe"
     audit_tool: "TurkuazTR/tools/audit-iteminfo-visible.py"
-    source_lines: 632165
-    item_records: 26793
-    visible_field_occurrences: 107172
-    visible_string_count: 384245
-    name_string_count: 53586
-    description_string_count: 330659
-    technical_field_occurrences: 140741
-    note: "Loader/config ve teknik alanlar ceviri kapsaminda degildir"
-
+    legacy_audit_tool: "TurkuazTR/tools/audit-iteminfo-legacy.py"
+    legacy_turkish_recovery_fields: 0
+    builder: "TurkuazTR/tools/build-iteminfo-profile.py"
+    rules: "TurkuazTR/config/iteminfo-rules.json"
+    rule_count: 57
+    validated_initial_replacements_per_tr_profile: 113550
+    profile_field: "item_info"
+    note: "resource names and technical fields remain unchanged; item names remain canonical"
 policy:
   - "Yeni upstream satirlari otomatik Turkcelestirilmez."
   - "Eslesen eski Ingilizce satirlar mevcut Turkce karsiliklariyla korunur."

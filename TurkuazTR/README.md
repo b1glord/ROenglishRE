@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.37.0
+Version: 2.38.0
 Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -93,7 +93,7 @@ Su anda ortak line-overlay modeline tasinan bilesenler:
 - `map_names`: 1144 harita etiketi Turkce; kalan satirlar Battle Royale/canonical ozel ad/etkinlik adlaridir.
 - `ba_frostjoke`: 100 exact ASCII Turkce satir; kalan 19 satir skill/monster/joke adi olarak bilincli korunur.
 - `dc_scream`: 105 exact ASCII Turkce satir; kalan 12 satir ceviri gerektirmeyen nida/ses satiridir.
-- `state_icons`: 2108 exact ASCII Turkce satir ile gorunur tooltip cevirisi tamamlandi; 77 canonical skill/status veya sayisal stat etiketi bilincli olarak orijinal tutulur ve `TurkuazTR/stateiconinfo.intentional.json` icinde kayitlidir.
+- `state_icons`: 2108 exact ASCII Turkce satir ile gorunur tooltip cevirisi tamamlandi; 77 canonical skill/status veya sayisal stat etiketi intentional olarak orijinal tutulur.
 
 `line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder.
 
@@ -172,4 +172,4 @@ Gercek item localization kaynagi `Translation/Renewal/SystemEN/LuaFiles514/itemI
 
 Item audit sonucu: 26793 item kaydi icinde 53586 gorunen ad stringi ve 330659 gorunen aciklama stringi olmak uzere toplam 384245 oyuncu-gorunur string vardir. Bu nedenle item localization, kitaplardan ayri buyuk veri migration modulu olarak ele alinacaktir.
 
-- `item_info`: item adlari canonical tutulur; description alanlarinda tekrar eden metadata, tur/konum degerleri ve sistem cumleleri 57 config kuraliyla byte-safe Turkcelestirilir. Ilk 26 kural CI'da profil basina 113550 replacement uretmistir; kaynak dosya decode edilmeden korunur.
+- `item_info`: 26793 item / 368100 gorunur string audit edildi. Item adlari canonical tutulur; 57 byte-safe kural description metadata ve ortak sistem metinlerine uygulanir. Ilk 26 kural profil basina 113550 replacement uretmistir.
