@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.0.1
-# Aciklama: Kaynak encodingini decode etmeden korur; item adlarini canonical birakir, kurallari bir kez derler ve sadece description alanlarinda uygular
+# Version: 1.1.0
+# Aciklama: Kaynak encodingini decode etmeden korur; exact serbest aciklama overlay'ini O(1) eslesmeyle, sistem kurallarini derlenmis olarak description alanlarinda uygular
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -54,6 +54,38 @@ def prepare_rules(rules: list[dict]) -> list[dict]:
     return prepared
 
 
+def prepare_exact_translations(data: dict) -> dict[bytes, bytes]:
+    prepared: dict[bytes, bytes] = {}
+    for source, translation in data.get("translations", {}).items():
+        source_bytes = source.encode("ascii")
+        target_bytes = translation.encode("ascii")
+        if not source_bytes:
+            raise ValueError("Empty item info exact translation source")
+        if source_bytes == target_bytes:
+            raise ValueError(f"Exact translation does not change source: {source!r}")
+        prepared[source_bytes] = target_bytes
+    return prepared
+
+
+def apply_exact_translations(
+    line: bytes,
+    translations: dict[bytes, bytes],
+    counts: dict[str, int],
+) -> bytes:
+    if not translations:
+        return line
+
+    def replace(match: re.Match[bytes]) -> bytes:
+        source = match.group(1)
+        target = translations.get(source)
+        if target is None:
+            return match.group(0)
+        counts["exact_translation"] = counts.get("exact_translation", 0) + 1
+        return b'"' + target + b'"'
+
+    return STRING_RE.sub(replace, line)
+
+
 def apply_rules(line: bytes, rules: list[dict], counts: dict[str, int]) -> bytes:
     result = line
     for rule in rules:
@@ -95,6 +127,8 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         raise ValueError(f"Unsupported item_info mode: {mode}")
 
     target_fields = {field.encode("ascii") for field in config["target_fields"]}
+    exact_path = REPO_ROOT / config["exact_translation_path"]
+    exact_translations = prepare_exact_translations(load_json(exact_path))
     rules = prepare_rules(config["rules"])
     counts: dict[str, int] = {}
 
@@ -108,6 +142,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
             field, value = field_match.groups()
             active_description = field in target_fields
             if active_description:
+                line = apply_exact_translations(line, exact_translations, counts)
                 line = apply_rules(line, rules, counts)
                 brace_depth = value.count(b"{") - value.count(b"}")
                 if brace_depth <= 0:
@@ -119,6 +154,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
             continue
 
         if active_description:
+            line = apply_exact_translations(line, exact_translations, counts)
             line = apply_rules(line, rules, counts)
             brace_depth += line.count(b"{") - line.count(b"}")
             if brace_depth <= 0:
@@ -132,8 +168,9 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         "profile": profile,
         "mode": mode,
         "total_replacements": sum(counts.values()),
-        "applied_rule_count": len(counts),
-        "rule_counts": dict(sorted(counts.items())),
+        "exact_translation_count": counts.get("exact_translation", 0),
+        "applied_rule_count": len([key for key in counts if key != "exact_translation"]),
+        "rule_counts": dict(sorted((key, value) for key, value in counts.items() if key != "exact_translation")),
         "input_bytes": len(raw),
         "output_bytes": len(built),
     }
