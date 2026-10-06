@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.3.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, element/sure degerleri, ortak hasar kaliplari ve tekrar eden ekipman metinlerini byte-safe cevirir",
+    "version": "1.4.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, element/sure degerleri, refine/grade kaliplari ve tekrar eden ekipman metinlerini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -795,7 +795,7 @@
     {
       "id": "intimacy_status",
       "type": "regex",
-      "pattern": "When intimacy is (\\^[0-9A-Fa-f]{6}(?:Loyal|Cordial)\\^000000):",
+      "pattern": "When intimacy is (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000):",
       "replacement": "Samimiyet \\1 seviyesindeyken:"
     },
     {
@@ -863,6 +863,114 @@
       "type": "literal",
       "source": "<NAVI>[Shadow Exclusive Magic Book]<INFO>itemmall,41,63,0,100,0,0</INFO></NAVI> can grant Random Options with 2 Shadow Essences to it.",
       "translation": "<NAVI>[Shadow Exclusive Magic Book]<INFO>itemmall,41,63,0,100,0,0</INFO></NAVI> uzerine 2 Shadow Essence ile Rastgele Ozellikler eklenebilir."
+    },
+    {
+      "id": "for_each_n_refine_equipped_weapon",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each (\\d+) Refine Levels\\^000000 of equipped \\^990099Weapon\\^000000:",
+      "replacement": "Kusanilan ^990099Silah^000000'in her ^0000FF\\1 Gelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "for_each_base_level",
+      "type": "literal",
+      "source": "For each ^CC6600Base Level^000000:",
+      "translation": "Her ^CC6600Temel Seviye^000000 icin:"
+    },
+    {
+      "id": "for_each_n_base_level_above",
+      "type": "regex",
+      "pattern": "For each \\^0000FF(\\d+) \\^CC6600Base Level\\^000000 above \\^0000FF(\\d+)\\^000000:",
+      "replacement": "^0000FF\\2^000000 uzerindeki her ^0000FF\\1 ^CC6600Temel Seviye^000000 icin:"
+    },
+    {
+      "id": "weapon_grade_bonus_heading",
+      "type": "literal",
+      "source": "^CC3D3D[Bonus by Weapon Grade]^000000",
+      "translation": "^CC3D3D[Silah Grade'ine Gore Bonus]^000000"
+    },
+    {
+      "id": "label_diet",
+      "type": "literal",
+      "source": "^0000CCDiet:^000000",
+      "translation": "^0000CCBeslenme:^000000"
+    },
+    {
+      "id": "diet_pet_food",
+      "type": "literal",
+      "source": "Beslenme:^000000 Pet Food",
+      "translation": "Beslenme:^000000 Pet Mamasi"
+    },
+    {
+      "id": "after_skill_delay_additional",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by additional (\\d+)%\\.",
+      "replacement": "Beceri sonrasi gecikmeyi ek %\\1 azaltir."
+    },
+    {
+      "id": "players_damage_taken",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "physical_damage",
+      "type": "regex",
+      "pattern": "Increases Physical Damage by (\\d+)%\\.",
+      "replacement": "Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "sp_consumption",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption by (\\d+)%\\.",
+      "replacement": "SP Tuketimini %\\1 azaltir."
+    },
+    {
+      "id": "event_item_removed_alt",
+      "type": "literal",
+      "source": "^ff0000(This item will be removed when the event ends.)^000000",
+      "translation": "^ff0000(Etkinlik bittiginde bu esya kaldirilir.)^000000"
+    },
+    {
+      "id": "refine_equal_or_above",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level\\^000000 equal or above \\^0000FF\\+(\\d+)\\^000000:",
+      "replacement": "^0000FF+\\1^000000 ve uzerindeki her Gelistirme Seviyesi icin:"
+    },
+    {
+      "id": "costume_enchant_stone_box",
+      "type": "literal",
+      "source": "A box that contains stones that can be enchanted on an Costume equipment.",
+      "translation": "Costume ekipmanina enchant uygulanabilen taslari iceren bir kutu."
+    },
+    {
+      "id": "font_toggle",
+      "type": "literal",
+      "source": "When double clicked, your font changes and when used again, your font goes back to normal.",
+      "translation": "Cift tiklandiginda yazi tipi degisir; tekrar kullanildiginda normale doner."
+    },
+    {
+      "id": "prevents_colored_status",
+      "type": "regex",
+      "pattern": "Prevents (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status\\.",
+      "replacement": "\\1 durumunu onler."
+    },
+    {
+      "id": "ignore_physical_defense_all_races",
+      "type": "regex",
+      "pattern": "Ignores physical defense of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_physical_resistance_all_races",
+      "type": "regex",
+      "pattern": "Ignores physical resistance of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel direncini %\\2 yok sayar."
+    },
+    {
+      "id": "grade_stat_per_refine",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: (P\\.ATK|S\\.MATK|ATK|MATK) \\+(\\d+) per \\^0000FF(\\d+) Refine Levels\\^000000\\.",
+      "replacement": "[Grade \\1]: \\2 +\\3, her ^0000FF\\4 Gelistirme Seviyesi^000000 icin."
     }
   ]
 }
