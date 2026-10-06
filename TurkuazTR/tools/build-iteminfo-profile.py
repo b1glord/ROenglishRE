@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.1.0
-# Aciklama: Kaynak encodingini decode etmeden korur; exact serbest aciklama overlay'ini O(1) eslesmeyle, sistem kurallarini derlenmis olarak description alanlarinda uygular
+# Version: 1.1.1
+# Aciklama: Exact serbest aciklama overlay'i icin string matcher tanimini tamamlar; byte-safe sistem kurallariyla birlikte description alanlarinda uygular
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
