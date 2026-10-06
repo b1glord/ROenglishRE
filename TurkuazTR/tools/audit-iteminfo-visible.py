@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.3.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; istege bagli baseline ile degismeden kalan dogal aciklama metinlerini ayri raporlar
+# Version: 1.4.0
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; baseline remainder icinden canonical/teknik satirlari eleyip lore ceviri adaylarini ayri raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -41,6 +41,35 @@ def natural_candidate(value: str) -> bool:
     if clean.strip("_ -\t\r\n") == "":
         return False
     return len(LETTER_RE.findall(clean)) >= 4
+
+
+STAT_ONLY_RE = re.compile(
+    r"^(?:(?:Max(?:HP|SP)|HP|SP|ATK|MATK|MDEF|DEF|HIT|FLEE|ASPD|Critical|Perfect Dodge|"
+    r"P\\.ATK|S\\.MATK|POW|STA|WIS|SPL|CON|CRT)(?:\\s*[+\\-]?[0-9.%]+)?"
+    r"(?:,?\\s*)?)+\\.?$",
+    re.IGNORECASE,
+)
+GRADE_STAT_RE = re.compile(r"^\\[Grade [A-D]\\]:\\s*[A-Z.]+\\s*[+\\-]?[0-9.%]+\\.?$")
+SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
+
+
+def lore_candidate(value: str) -> bool:
+    clean = COLOR_RE.sub("", value).strip()
+    if not natural_candidate(clean):
+        return False
+    if clean.startswith("<NAVI>") or "<INFO>" in clean:
+        return False
+    if STAT_ONLY_RE.fullmatch(clean) or GRADE_STAT_RE.fullmatch(clean):
+        return False
+    if SHORT_CANONICAL_RE.fullmatch(clean) and len(clean.split()) <= 4:
+        return False
+    words = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", clean)
+    if len(words) < 5:
+        return False
+    return (
+        any(mark in clean for mark in (".", "!", "?", ":"))
+        or len(words) >= 8
+    )
 
 
 def resolve_source(value: str) -> Path:
@@ -175,6 +204,13 @@ def main() -> int:
         baseline = collect(baseline_path)
         baseline_natural = baseline["natural_description"]
         unchanged_natural = natural_description & baseline_natural
+        unchanged_lore = Counter(
+            {
+                key: value
+                for key, value in unchanged_natural.items()
+                if lore_candidate(key)
+            }
+        )
         payload.update(
             {
                 "baseline_source": display_source(baseline_path),
@@ -182,8 +218,15 @@ def main() -> int:
                     unchanged_natural.values()
                 ),
                 "unique_unchanged_natural_description_count": len(unchanged_natural),
+                "unchanged_lore_candidate_occurrences": sum(
+                    unchanged_lore.values()
+                ),
+                "unique_unchanged_lore_candidate_count": len(unchanged_lore),
                 "top_unchanged_natural_description_strings": top_rows(
                     unchanged_natural, args.top
+                ),
+                "top_unchanged_lore_candidates": top_rows(
+                    unchanged_lore, args.top
                 ),
             }
         )
@@ -197,6 +240,7 @@ def main() -> int:
                 "field_counts",
                 "top_natural_description_strings",
                 "top_unchanged_natural_description_strings",
+                "top_unchanged_lore_candidates",
             }:
                 continue
             print(f"{key}: {value}")
@@ -206,6 +250,10 @@ def main() -> int:
         if "top_unchanged_natural_description_strings" in payload:
             print("top_unchanged_natural_description_strings:")
             for row in payload["top_unchanged_natural_description_strings"]:
+                print(json.dumps(row, ensure_ascii=True, sort_keys=True))
+        if "top_unchanged_lore_candidates" in payload:
+            print("top_unchanged_lore_candidates:")
+            for row in payload["top_unchanged_lore_candidates"]:
                 print(json.dumps(row, ensure_ascii=True, sort_keys=True))
 
     return 0
