@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.39.0
+Version: 2.39.1
 Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -151,7 +151,7 @@ Bozuk encoding metinleri Turkceye uydurularak sabitlenmez. Temiz Ingilizce blokl
 - 46 dosya gercek lore, rehber, tarif veya oyun ici okunabilir metin olarak Turkce ceviri hedefidir.
 - 24 adet `1000897.txt` - `1000920.txt` dosyasi eski Kore sunucusu bagisci/oyuncu listeleridir ve ceviri kapsaminda degildir.
 - Tum 46 gercek lore/rehber kitabi tamamlandi; guncel liste `TurkuazTR/books/index.json` dosyasinda tutulur.
-- Kalan gercek kitap sayisi: 3.
+- Kalan gercek kitap sayisi: 0.
 - Ayrintili durum: `TurkuazTR/books/index.json`.
 - Kitaplar `file-overlays.json` uzerinden source blob SHA kilitli whole-file overlay olarak uretilir.
 - English profil orijinal kaynagi; Hybrid, Full TR ve Bilingual profilleri Turkce kitap metnini kullanir.
@@ -170,6 +170,6 @@ Gercek item localization kaynagi `Translation/Renewal/SystemEN/LuaFiles514/itemI
 - Buyuk dosya kapsam sayimi `TurkuazTR/tools/audit-iteminfo-visible.py` ile CI icinde yapilir.
 
 
-Item audit sonucu: 26793 item kaydi icinde 53586 gorunen ad stringi ve 330659 gorunen aciklama stringi olmak uzere toplam 384245 oyuncu-gorunur string vardir. Bu nedenle item localization, kitaplardan ayri buyuk veri migration modulu olarak ele alinacaktir.
+Item audit sonucu: 26793 item kaydi icinde 53556 gorunen ad stringi ve 314544 gorunen aciklama stringi olmak uzere toplam 368100 oyuncu-gorunur string vardir. Bu nedenle item localization, kitaplardan ayri buyuk veri migration modulu olarak ele alinacaktir.
 
 - `item_info`: item adlari canonical tutulur; description metadata/sistem metinleri 57 byte-safe kural ile Turkcelestirilir. Hybrid/Full TR/Bilingual generated paketlerine `SystemEN/LuaFiles514/itemInfo.lua` otomatik uretilir; English profil kaynak dosyayi kullanir.
