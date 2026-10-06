@@ -93,7 +93,7 @@ Su anda ortak line-overlay modeline tasinan bilesenler:
 - `map_names`: 1144 harita etiketi Turkce; kalan satirlar Battle Royale/canonical ozel ad/etkinlik adlaridir.
 - `ba_frostjoke`: 100 exact ASCII Turkce satir; kalan 19 satir skill/monster/joke adi olarak bilincli korunur.
 - `dc_scream`: 105 exact ASCII Turkce satir; kalan 12 satir ceviri gerektirmeyen nida/ses satiridir.
-- `state_icons`: 1486 exact ASCII Turkce satir; skill sozlugu, standart stat/buff/debuff, ozel, event ve dungeon tooltiplerinin buyuk bolumu kapsanir. Kalan late-game benzersiz aciklamalar ve canonical adlar ayrica tamamlanir.
+- `state_icons`: 1711 exact ASCII Turkce satir; skill sozlugu, stat/buff/debuff, event, dungeon, job ve Doram tooltiplerinin buyuk bolumu kapsanir. Kalan Fourth Job/episode aciklamalari ve canonical adlar son dilimde ayrilir.
 
 `line-overlays.json` registry'sine yeni bir bilesen eklendiginde CI bunu dort profil icin otomatik build eder.
 
