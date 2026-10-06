@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.44.0
+# Version: 2.45.0
 # Aciklama: Upstream 2026, Turkce overlay, yardim/unvan/harita/random option/kart/state icon localization ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -161,10 +161,10 @@ sync:
     profiles: "TurkuazTR/localization-profiles.json"
   state_icons:
     status: translated_partial
-    translated_lines: 1711
+    translated_lines: 1855
     translated_title_lines: 247
-    translated_scope: "skill_dictionary_standard_specialized_event_dungeon_job_and_doram_tooltips"
-    remaining_scope: "remaining_unique_fourth_job_episode_and_intentional_canonical_names"
+    translated_scope: "skill_dictionary_through_fourth_job_and_deep_status_tooltips"
+    remaining_scope: "final_episode_food_buffs_and_intentional_canonical_or_numeric_labels"
     strategy: exact_source_overlay
     patch: "TurkuazTR/stateiconinfo.tr.json"
     profiles: "TurkuazTR/localization-profiles.json"
