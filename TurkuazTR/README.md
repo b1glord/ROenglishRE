@@ -2,8 +2,8 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.39.1
-Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
+Version: 2.40.0
+Aciklama: Upstream senkronu, Turkce calisma dali, tamamlanan UI/state icon kapsami ve itemInfo metadata/system localization fazini dokumante eder
 Bagimli Oldugu Katman: View
 -->
 
@@ -172,4 +172,9 @@ Gercek item localization kaynagi `Translation/Renewal/SystemEN/LuaFiles514/itemI
 
 Item audit sonucu: 26793 item kaydi icinde 53556 gorunen ad stringi ve 314544 gorunen aciklama stringi olmak uzere toplam 368100 oyuncu-gorunur string vardir. Bu nedenle item localization, kitaplardan ayri buyuk veri migration modulu olarak ele alinacaktir.
 
-- `item_info`: item adlari canonical tutulur; description metadata/sistem metinleri 57 byte-safe kural ile Turkcelestirilir. Hybrid/Full TR/Bilingual generated paketlerine `SystemEN/LuaFiles514/itemInfo.lua` otomatik uretilir; English profil kaynak dosyayi kullanir.
+- `item_info`: item adlari canonical tutulur; description metadata/sistem metinleri 176 byte-safe kural ile Turkcelestirilir. Hybrid/Full TR/Bilingual generated paketlerine `SystemEN/LuaFiles514/itemInfo.lua` otomatik uretilir; English profil kaynak dosyayi kullanir.
+- Son dogrulamada 176 kuralin 161'i gercek kaynakta eslesti ve her Turkce profilde 151926 replacement uygulandi.
+- Baseline ile generated ciktiyi karsilastiran remainder auditinde degismeden kalan dogal aciklama tekrar sayisi 99472, benzersiz sayi 51743 olarak olculdu.
+- Yuksek frekansli remainder listesinin ust siralari artik agirlikla `MATK`, `ASPD`, `MDEF`, `MaxHP/MaxSP`, canonical job/item adlari ve NAVI hedeflerinden olusur; bunlar bilincli olarak zorla cevrilmez.
+- Dusuk frekansli serbest item aciklamalari halen buyuk migration backlog'udur; item localization tamamlaniyor olarak degil, guvenli metadata/system fazi genisletilmis olarak takip edilir.
+- Item builder regex/literal kurallarini build basinda bir kez hazirlar; validation ise ayni `full_tr` itemInfo build'ini remainder auditinde tekrar kullanir.
