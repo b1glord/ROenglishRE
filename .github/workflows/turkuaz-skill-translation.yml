@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.2.0
-# DESCRIPTION: Pending raporlarini yeniler; skill, overlay, kitap ve byte-safe itemInfo localization ciktilarini ortak profillerde uretip bot commit'i ile saklar.
+# VERSION: 2.3.0
+# DESCRIPTION: Pending raporlarini yeniler; skill, overlay, kitap, byte-safe itemInfo ve itemInfo lore pending ciktilarini ortak profillerde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -150,6 +150,9 @@ jobs:
               --output "TurkuazTR/generated/$profile/SystemEN/LuaFiles514/itemInfo.lua"
           done
 
+      - name: Generate item info lore pending report
+        run: python TurkuazTR/tools/extract-iteminfo-lore-pending.py
+
       - name: Commit refreshed localization outputs
         shell: bash
         run: |
@@ -157,6 +160,7 @@ jobs:
           git config user.email "turkuaz-translation-bot@users.noreply.github.com"
           git add TurkuazTR/skillinfolist.pending.json
           git add TurkuazTR/skilldescript.pending.json
+          git add TurkuazTR/iteminfo-lore.pending.json
           git add TurkuazTR/generated/english
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
