@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/pettalktable.tr.json",
     "purpose": "Anlami net ve encoding sorunu olmayan pet konusmalarini exact-source overlay ile ASCII Turkceye cevirir",
     "module": "Translation Patch - JSON",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "description": "pettalktable.xml icindeki 351 guvenli benzersiz ifadeyi 903 exact kaynak satirinda Turkcelestirir; mojibake ve belirsiz metinlere dokunmaz",
     "dependency_layer": "Tool"
   },
@@ -341,7 +341,7 @@
     },
     "90": {
       "source_en": "\t\t\t<hunting>\tIs it bad when they hit you so much?\t</hunting>",
-      "translation_tr": "\t\t\t<hunting>\tSana bu kadar vurmalarinin kotu bir sey oldugunu dusunuyorum?\t</hunting>"
+      "translation_tr": "\t\t\t<hunting>\tSana bu kadar vurmalari kotu bir sey mi?\t</hunting>"
     },
     "91": {
       "source_en": "\t\t\t<hunting>\tYou da'man!\t</hunting>",
@@ -817,7 +817,7 @@
     },
     "224": {
       "source_en": "\t\t\t<danger>\tSOMEONE PLEASE... DON'T LET MY MASTER DIE!!! *cries*\t</danger>",
-      "translation_tr": "\t\t\t<danger>\tBIRISI LUT FEN... EFENDIMIN OLMESINE IZIN VERMEYIN!!! *aglar*\t</danger>"
+      "translation_tr": "\t\t\t<danger>\tBIRISI LUTFEN... EFENDIMIN OLMESINE IZIN VERMEYIN!!! *aglar*\t</danger>"
     },
     "225": {
       "source_en": "\t\t\t<danger>\tDon't die! No more yummy for my tummy!\t</danger>",
