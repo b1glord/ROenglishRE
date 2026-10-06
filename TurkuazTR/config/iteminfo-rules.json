@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.11.0",
-    "description": "Item adlarini canonical tutar; exact serbest aciklama overlay'i ile metadata, sistem, skill/hasar/refine/grade/status kalip kurallarini ayri katmanlarda byte-safe cevirir",
+    "version": "1.12.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda refine, random proc, hasar, savunma, enchant ve SP kalip ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -2741,6 +2741,306 @@
       "type": "literal",
       "source": "^0000CCRental Duration:^000000 1 day",
       "translation": "^0000CCKiralama Suresi:^000000 1 gun"
+    },
+    {
+      "id": "stone_awakens_potential",
+      "type": "regex",
+      "pattern": "A stone that awakens the potential of ([^.]+)\\.",
+      "replacement": "\\1 potansiyelini uyandiran bir tas."
+    },
+    {
+      "id": "when_enchanted_with_generic",
+      "type": "regex",
+      "pattern": "When enchanted with (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\1 ile enchant uygulandiginda:"
+    },
+    {
+      "id": "for_each_refine_item_generic",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level\\^000000 of (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\1'in her ^0000FFGelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "for_each_n_refine_item_generic",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each (\\d+) Refine Levels\\^000000 of (?:the )?(\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\2'in her ^0000FF\\1 Gelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "for_each_n_refine_item_plain",
+      "type": "regex",
+      "pattern": "For each (\\d+) Refine Levels? of (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\2'in her \\1 Gelistirme Seviyesi icin:"
+    },
+    {
+      "id": "for_each_refine_above_plain",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level above \\+(\\d+)\\^000000:",
+      "replacement": "^0000FF+\\1 uzerindeki her Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "for_each_n_base_level_plain",
+      "type": "regex",
+      "pattern": "For each (\\d+) \\^CC6600Base Level\\^000000:",
+      "replacement": "Her \\1 ^CC6600Temel Seviye^000000 icin:"
+    },
+    {
+      "id": "for_each_colored_n_base_level",
+      "type": "regex",
+      "pattern": "For each \\^CC6600(\\d+) Base Level\\^000000:",
+      "replacement": "Her ^CC6600\\1 Temel Seviye^000000 icin:"
+    },
+    {
+      "id": "sp_consumption_skill_amount",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) by (\\d+)\\.",
+      "replacement": "\\1 SP Tuketimini \\2 azaltir."
+    },
+    {
+      "id": "sp_consumption_skill_additional",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) by additional (\\d+)\\.",
+      "replacement": "\\1 SP Tuketimini ek \\2 azaltir."
+    },
+    {
+      "id": "random_defeated_monster_drop",
+      "type": "regex",
+      "pattern": "Random chance a defeated monster will drop (.+?)\\.",
+      "replacement": "Yenilen bir canavardan belirli bir sansla \\1 duser."
+    },
+    {
+      "id": "random_defeated_typed_monster_drop",
+      "type": "regex",
+      "pattern": "Random chance a defeated (\\^FF0000[^\\r\\n]+?\\^000000) monsters? will drop (.+?)\\.",
+      "replacement": "Yenilen \\1 canavardan belirli bir sansla \\2 duser."
+    },
+    {
+      "id": "random_drop_when_defeating",
+      "type": "regex",
+      "pattern": "Random chance to drop (.+?) when defeating monsters\\.",
+      "replacement": "Canavarlari yenerken belirli bir sansla \\1 duser."
+    },
+    {
+      "id": "random_autocast_target_physical",
+      "type": "regex",
+      "pattern": "Random chance to auto-cast Level (\\d+) (\\^009900[^\\r\\n]+?\\^000000) on the target when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken belirli bir sansla hedefe Seviye \\1 \\2 otomatik kullanilir."
+    },
+    {
+      "id": "random_autocast_receive_physical",
+      "type": "regex",
+      "pattern": "Random chance to auto-cast Level (\\d+) (\\^009900[^\\r\\n]+?\\^000000) when receiving physical (?:attacks|damage)\\.",
+      "replacement": "Fiziksel hasar alirken belirli bir sansla Seviye \\1 \\2 otomatik kullanilir."
+    },
+    {
+      "id": "random_autocast_deal_physical_attacks",
+      "type": "regex",
+      "pattern": "Random chance to auto-cast Level (\\d+) (\\^009900[^\\r\\n]+?\\^000000) when dealing physical attacks\\.",
+      "replacement": "Fiziksel saldiri yaparken belirli bir sansla Seviye \\1 \\2 otomatik kullanilir."
+    },
+    {
+      "id": "random_inflict_status_dealing_physical",
+      "type": "regex",
+      "pattern": "Random chance to inflict (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken belirli bir sansla \\1 durumu uygular."
+    },
+    {
+      "id": "random_inflict_status_dealing_magical",
+      "type": "regex",
+      "pattern": "Random chance to inflict (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status when dealing magical damage\\.",
+      "replacement": "Buyu hasari verirken belirli bir sansla \\1 durumu uygular."
+    },
+    {
+      "id": "random_inflict_status_attacker",
+      "type": "regex",
+      "pattern": "Random chance to inflict (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status on attacker when receiving physical damage\\.",
+      "replacement": "Fiziksel hasar alirken belirli bir sansla saldirana \\1 durumu uygular."
+    },
+    {
+      "id": "random_inflict_status_target_receive",
+      "type": "regex",
+      "pattern": "Random chance to inflict (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status on the target when receiving physical damage\\.",
+      "replacement": "Fiziksel hasar alirken belirli bir sansla hedefe \\1 durumu uygular."
+    },
+    {
+      "id": "random_absorb_hp_sp",
+      "type": "regex",
+      "pattern": "Random chance to absorb (\\d+)% damage inflicted as HP and (\\d+)% damage as SP when dealing physical attacks\\.",
+      "replacement": "Fiziksel saldirilarda belirli bir sansla verilen hasarin %\\1 kadarini HP, %\\2 kadarini SP olarak emer."
+    },
+    {
+      "id": "random_absorb_hp_physical",
+      "type": "regex",
+      "pattern": "Random chance to absorb (\\d+)% of damage against enemy into HP when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken belirli bir sansla dusmana verilen hasarin %\\1 kadarini HP olarak emer."
+    },
+    {
+      "id": "ignore_magic_enemies",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies by (\\d+)%\\.",
+      "replacement": "Dusmanlarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_magic_enemies_race",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki dusmanlarin buyusel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_magic_enemies_class",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki dusmanlarin buyusel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_magic_all_enemies",
+      "type": "regex",
+      "pattern": "Ignores magical defense of all enemies by (\\d+)%\\.",
+      "replacement": "Tum dusmanlarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_phys_race_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkinin fiziksel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_phys_class_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifinin fiziksel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_phys_race_plain",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkinin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_phys_class_plain",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifinin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_phys_all_monsters",
+      "type": "regex",
+      "pattern": "Ignores physical defense of all monsters by (\\d+)%\\.",
+      "replacement": "Tum canavarlarin fiziksel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_phys_all_enemies",
+      "type": "regex",
+      "pattern": "Ignores physical defense of all enemies by (\\d+)%\\.",
+      "replacement": "Tum dusmanlarin fiziksel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "damage_taken_elemental_plain",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1 elementinden alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_elemental_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental attacks? by additional (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_colored_plain",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_ranged_attacks",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from ranged physical attacks by (\\d+)%\\.",
+      "replacement": "Menzilli fiziksel saldirilardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_all_element_except",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all elemental attacks except (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 haric tum element saldirilarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "physical_monster_race",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "physical_monster_race_additional",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "physical_players_additional",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against (\\^FF0000Players\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 hedeflerine Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "magical_monster_race_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlara Buyu Hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "damage_every_element",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_every_element_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara verilen Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "stone_increases_stat",
+      "type": "regex",
+      "pattern": "A stone that increases ([A-Z][A-Z.]+)\\.",
+      "replacement": "\\1 artiran bir tas."
+    },
+    {
+      "id": "box_which_contains",
+      "type": "regex",
+      "pattern": "A box which contains (.+?)\\.",
+      "replacement": "\\1 iceren bir kutu."
+    },
+    {
+      "id": "grants_auto_orb",
+      "type": "regex",
+      "pattern": "Grants (Automatic Modification Orb \\([^)]+\\)) to equipment\\.",
+      "replacement": "Ekipmana \\1 uygular."
+    },
+    {
+      "id": "can_only_sold_npc_apostrophe",
+      "type": "literal",
+      "source": "^ff0000Can only be sold to NPC's.^000000",
+      "translation": "^ff0000Yalnizca NPC'lere satilabilir.^000000"
+    },
+    {
+      "id": "can_only_moved_storage",
+      "type": "literal",
+      "source": "^FF0000Can only be moved to the storage.^000000",
+      "translation": "^FF0000Yalnizca depoya tasinabilir.^000000"
+    },
+    {
+      "id": "contains_one_following_items",
+      "type": "literal",
+      "source": "Contains one of the following items:",
+      "translation": "Asagidaki esyalardan birini icerir:"
+    },
+    {
+      "id": "contains_one_following",
+      "type": "literal",
+      "source": "Contains one of the following:",
+      "translation": "Asagidakilerden birini icerir:"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
