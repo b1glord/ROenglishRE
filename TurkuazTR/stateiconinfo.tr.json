@@ -3,18 +3,18 @@
     "path": "/ROenglishRE/TurkuazTR/stateiconinfo.tr.json",
     "purpose": "State icon tooltip baslik ve aciklamalarini exact-source overlay ile ASCII Turkce olarak yerellestirir",
     "module": "Translation Patch - JSON",
-    "version": "1.5.0",
-    "description": "stateiconinfo.lub icinde 1232 exact-source kullanici gorunur durum/tooltip satirini ASCII Turkce olarak yerellestirir",
+    "version": "1.6.0",
+    "description": "stateiconinfo.lub icinde 1486 exact-source kullanici gorunur durum/tooltip satirini ASCII Turkce olarak yerellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "93cdb0bd37d37ac9a5a6a28ca0d22b3eedfd8dd4",
   "source_line_count": 7967,
-  "patch_count": 1232,
+  "patch_count": 1486,
   "translated_title_lines": 247,
   "translated_description_lines": 472,
-  "scope": "expanded_safe_titles_standard_and_specialized_tooltips",
+  "scope": "expanded_event_dungeon_and_status_tooltips",
   "patches": {
     "17": {
       "source_en": "\t\t{ \"Maximum Power Thrust\", COLOR_TITLE_BUFF },",
@@ -2692,6 +2692,10 @@
       "source_en": "\t\t{ \"Transforms into a monster\" }",
       "translation_tr": "\t\t{ \"Bir canavara donusur\" }"
     },
+    "2496": {
+      "source_en": "\t\t{ \"Sitting\", COLOR_TITLE_TOGGLE}",
+      "translation_tr": "\t\t{ \"Oturma\", COLOR_TITLE_TOGGLE}"
+    },
     "2501": {
       "source_en": "\t\t{ \"Riding\", COLOR_TITLE_TOGGLE }",
       "translation_tr": "\t\t{ \"Binicilik\", COLOR_TITLE_TOGGLE }"
@@ -2708,25 +2712,85 @@
       "source_en": "\t\t{ \"Increases ASPD\" }",
       "translation_tr": "\t\t{ \"ASPD'yi artirir\" }"
     },
+    "2533": {
+      "source_en": "\t\t{ \"Decreases Variable Cast Time\" }",
+      "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir\" }"
+    },
+    "2541": {
+      "source_en": "\t\t{ \"Gains extra JOB Exp\" }",
+      "translation_tr": "\t\t{ \"Ek JOB EXP kazandirir\" }"
+    },
+    "2548": {
+      "source_en": "\t\t{ \"Masquerade Enervation\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Masquerade Zayiflatma\", COLOR_TITLE_DEBUFF },"
+    },
     "2550": {
       "source_en": "\t\t{ \"Decreases ATK\" },",
       "translation_tr": "\t\t{ \"ATK degerini azaltir.\" },"
+    },
+    "2551": {
+      "source_en": "\t\t{ \"All the Spirit Sphere are destroyed\" }",
+      "translation_tr": "\t\t{ \"Tum Spirit Sphere'leri yok eder\" }"
     },
     "2558": {
       "source_en": "\t\t{ \"Masquerade Gloomy\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Maskeli Keder\", COLOR_TITLE_DEBUFF },"
     },
+    "2560": {
+      "source_en": "\t\t{ \"Decreases ASPD, HIT\" },",
+      "translation_tr": "\t\t{ \"ASPD ve HIT'i azaltir\" },"
+    },
+    "2561": {
+      "source_en": "\t\t{ \"Remove Mount, Pet, Homunculus and Falcon\" },",
+      "translation_tr": "\t\t{ \"Binek, Pet, Homunculus ve Falcon'u kaldirir\" },"
+    },
+    "2562": {
+      "source_en": "\t\t{ \"Unable to remount\" }",
+      "translation_tr": "\t\t{ \"Tekrar binilemez\" }"
+    },
     "2569": {
       "source_en": "\t\t{ \"Masquerade Ignorance\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Maskeli Cehalet\", COLOR_TITLE_DEBUFF },"
+    },
+    "2571": {
+      "source_en": "\t\t{ \"Lost certain amount of SP\" },",
+      "translation_tr": "\t\t{ \"Belirli miktarda SP kaybeder\" },"
+    },
+    "2572": {
+      "source_en": "\t\t{ \"Unable to use Skill and Magic\" }",
+      "translation_tr": "\t\t{ \"Beceri ve Buyu kullanamaz\" }"
+    },
+    "2579": {
+      "source_en": "\t\t{ \"Masquerade Laziness\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Masquerade Tembellik\", COLOR_TITLE_DEBUFF },"
     },
     "2581": {
       "source_en": "\t\t{ \"Decreases Flee, Movement Speed\" },",
       "translation_tr": "\t\t{ \"FLEE ve Hareket Hizini azaltir\" },"
     },
+    "2582": {
+      "source_en": "\t\t{ \"Increases Casting Time\" },",
+      "translation_tr": "\t\t{ \"Kullanma suresini artirir\" },"
+    },
+    "2583": {
+      "source_en": "\t\t{ \"Consume more SP when using skill\" }",
+      "translation_tr": "\t\t{ \"Beceri kullanirken daha fazla SP tuketir\" }"
+    },
     "2590": {
       "source_en": "\t\t{ \"Masquerade Unlucky\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Maskeli Sanssizlik\", COLOR_TITLE_DEBUFF },"
+    },
+    "2592": {
+      "source_en": "\t\t{ \"Decreases Critical rate, Perfect dodge\" },",
+      "translation_tr": "\t\t{ \"Kritik oranini ve Perfect Dodge'u azaltir\" },"
+    },
+    "2593": {
+      "source_en": "\t\t{ \"Consume zeny when using skills\" },",
+      "translation_tr": "\t\t{ \"Beceri kullanirken Zeny tuketir\" },"
+    },
+    "2594": {
+      "source_en": "\t\t{ \"Suffer from certain states\" }",
+      "translation_tr": "\t\t{ \"Belirli durum etkilerine maruz kalir\" }"
     },
     "2601": {
       "source_en": "\t\t{ \"Masquerade Weakness\", COLOR_TITLE_DEBUFF },",
@@ -2736,9 +2800,21 @@
       "source_en": "\t\t{ \"Decreases MaxHP\" },",
       "translation_tr": "\t\t{ \"MaxHP'yi azaltir\" },"
     },
+    "2604": {
+      "source_en": "\t\t{ \"Strip Weapon and Shield\" },",
+      "translation_tr": "\t\t{ \"Silah ve Kalkani cikarir\" },"
+    },
+    "2605": {
+      "source_en": "\t\t{ \"Unable to re-equip Weapon and Shield\" }",
+      "translation_tr": "\t\t{ \"Silah ve Kalkan tekrar kusanamaz\" }"
+    },
     "2612": {
       "source_en": "\t\t{ \"Steel Body\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Celik Beden\", COLOR_TITLE_BUFF },"
+    },
+    "2614": {
+      "source_en": "\t\t{ \"Set DEF and MDEF at high levels\" },",
+      "translation_tr": "\t\t{ \"DEF ve MDEF'i yuksek degerlere ayarlar\" },"
     },
     "2615": {
       "source_en": "\t\t{ \"Decreases ASPD, Movement Speed\" },",
@@ -2748,6 +2824,22 @@
       "source_en": "\t\t{ \"Unable to use skill\" }",
       "translation_tr": "\t\t{ \"Beceri kullanamaz\" }"
     },
+    "2623": {
+      "source_en": "\t\t{ \"Reflect Damage\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hasar Yansitma\", COLOR_TITLE_BUFF },"
+    },
+    "2625": {
+      "source_en": "\t\t{ \"Reflect some part of physical/magical damage to enemy\" },",
+      "translation_tr": "\t\t{ \"Fiziksel/buyusel hasarin bir kismini dusmana yansitir\" },"
+    },
+    "2626": {
+      "source_en": "\t\t{ \"Consume certain amount of SP every sec\" }",
+      "translation_tr": "\t\t{ \"Her saniye belirli miktarda SP tuketir\" }"
+    },
+    "2633": {
+      "source_en": "\t\t{ \"Tao Gunka Scroll\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tao Gunka Parsomeni\", COLOR_TITLE_BUFF },"
+    },
     "2635": {
       "source_en": "\t\t{ \"Increases MaxHP\" },",
       "translation_tr": "\t\t{ \"MaxHP'yi artirir\" },"
@@ -2756,21 +2848,101 @@
       "source_en": "\t\t{ \"Decreases DEF, MDEF\" }",
       "translation_tr": "\t\t{ \"DEF ve MDEF'i azaltir\" }"
     },
+    "2643": {
+      "source_en": "\t\t{ \"Mistress Scroll\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mistress Parsomeni\", COLOR_TITLE_BUFF },"
+    },
+    "2645": {
+      "source_en": "\t\t{ \"Able to use magic without gemstones\" },",
+      "translation_tr": "\t\t{ \"Gemstone olmadan buyu kullanmaya izin verir\" },"
+    },
+    "2646": {
+      "source_en": "\t\t{ \"SP Consumption Increase\" }",
+      "translation_tr": "\t\t{ \"SP Tuketimi Artisi\" }"
+    },
+    "2653": {
+      "source_en": "\t\t{ \"Orc Hero Scroll\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Orc Hero Parsomeni\", COLOR_TITLE_BUFF },"
+    },
     "2655": {
       "source_en": "\t\t{ \"Immune to Stun\" }",
       "translation_tr": "\t\t{ \"Sersemletmeye bagisiktir\" }"
+    },
+    "2662": {
+      "source_en": "\t\t{ \"Orc Lord Scroll\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Orc Lord Parsomeni\", COLOR_TITLE_BUFF },"
+    },
+    "2664": {
+      "source_en": "\t\t{ \"Reflect back some physical melee attack\" }",
+      "translation_tr": "\t\t{ \"Yakin dovus fiziksel saldirisinin bir kismini geri yansitir\" }"
+    },
+    "2671": {
+      "source_en": "\t\t{ \"No Recover State\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yenilenmeme Durumu\", COLOR_TITLE_DEBUFF },"
+    },
+    "2673": {
+      "source_en": "\t\t{ \"Disable natural HP and SP regeneration\" }",
+      "translation_tr": "\t\t{ \"Dogal HP ve SP yenilenmesini devre disi birakir\" }"
+    },
+    "2681": {
+      "source_en": "\t\t{ \"DEF is adjusted to a specific value\" }",
+      "translation_tr": "\t\t{ \"DEF belirli bir degere ayarlanir\" }"
+    },
+    "2689": {
+      "source_en": "\t\t{ \"MDEF is adjusted to a specific value\" }",
+      "translation_tr": "\t\t{ \"MDEF belirli bir degere ayarlanir\" }"
+    },
+    "2694": {
+      "source_en": "\t\t{ \"DEF is adjusted to a specific percentage\" }",
+      "translation_tr": "\t\t{ \"DEF belirli bir yuzdeye ayarlanir\" }"
+    },
+    "2699": {
+      "source_en": "\t\t{ \"MDEF is adjusted to a specific percentage\" }",
+      "translation_tr": "\t\t{ \"MDEF belirli bir yuzdeye ayarlanir\" }"
     },
     "2706": {
       "source_en": "\t\t{ \"Asura Strike\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Asura Darbesi\", COLOR_TITLE_DEBUFF },"
     },
+    "2708": {
+      "source_en": "\t\t{ \"Disables SP recovery\" }",
+      "translation_tr": "\t\t{ \"SP yenilenmesini devre disi birakir\" }"
+    },
+    "2715": {
+      "source_en": "\t\t{ \"ASPD Reinforce Potion\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"ASPD Guclendirme Iksiri\", COLOR_TITLE_BUFF },"
+    },
     "2717": {
       "source_en": "\t\t{ \"Increases Attack Speed\" }",
       "translation_tr": "\t\t{ \"Saldiri Hizini artirir\" }"
     },
+    "2724": {
+      "source_en": "\t\t{ \"Firecracker\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Maytap\", COLOR_TITLE_BUFF },"
+    },
+    "2726": {
+      "source_en": "\t\t{ \"Increases all base stats by 3\" },",
+      "translation_tr": "\t\t{ \"Tum temel statlari 3 artirir\" },"
+    },
     "2727": {
       "source_en": "\t\t{ \"Increases ATK, MATK\" }",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" }"
+    },
+    "2734": {
+      "source_en": "\t\t{ \"Ancient Spirit of Daebujeok\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Daebujeok'un Kadim Ruhu\", COLOR_TITLE_BUFF },"
+    },
+    "2736": {
+      "source_en": "\t\t{ \"Increases physical and magical damage\" },",
+      "translation_tr": "\t\t{ \"Fiziksel ve buyusel hasari artirir\" },"
+    },
+    "2737": {
+      "source_en": "\t\t{ \"against demon monsters\" }",
+      "translation_tr": "\t\t{ \"Demon canavarlara karsi\" }"
+    },
+    "2744": {
+      "source_en": "\t\t{ \"Combat drug\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Savas Ilaci\", COLOR_TITLE_BUFF },"
     },
     "2746": {
       "source_en": "\t\t{ \"Increases ATK and MATK\" },",
@@ -2780,6 +2952,10 @@
       "source_en": "\t\t{ \"Reduces MaxHP, MaxSP\" }",
       "translation_tr": "\t\t{ \"MaxHP ve MaxSP'yi azaltir\" }"
     },
+    "2754": {
+      "source_en": "\t\t{ \"Advanced Combat Drug\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gelismis Savas Ilaci\", COLOR_TITLE_BUFF },"
+    },
     "2756": {
       "source_en": "\t\t{ \"Increases ATK and MATK\" },",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" },"
@@ -2788,13 +2964,57 @@
       "source_en": "\t\t{ \"Reduces MaxHP, MaxSP\" }",
       "translation_tr": "\t\t{ \"MaxHP ve MaxSP'yi azaltir\" }"
     },
+    "2764": {
+      "source_en": "\t\t{ \"Red Booster\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kirmizi Guclendirici\", COLOR_TITLE_BUFF },"
+    },
     "2766": {
       "source_en": "\t\t{ \"Increases ATK, MATK, ASPD\" },",
       "translation_tr": "\t\t{ \"ATK, MATK ve ASPD'yi artirir\" },"
     },
+    "2767": {
+      "source_en": "\t\t{ \"Reduced variable casting time\" },",
+      "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir\" },"
+    },
+    "2768": {
+      "source_en": "\t\t{ \"When receiving Physical and Magical damage\" },",
+      "translation_tr": "\t\t{ \"Fiziksel veya Buyusel hasar alindiginda\" },"
+    },
+    "2769": {
+      "source_en": "\t\t{ \"there is a chance to cast Improve Concentration skill\" }",
+      "translation_tr": "\t\t{ \"Improve Concentration becerisini kullanma sansi vardir\" }"
+    },
+    "2776": {
+      "source_en": "\t\t{ \"Sealed Mirror\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Muhurlu Ayna\", COLOR_TITLE_BUFF },"
+    },
+    "2778": {
+      "source_en": "\t\t{ \"Recover certain HP and SP\" },",
+      "translation_tr": "\t\t{ \"Belirli miktarda HP ve SP yeniler\" },"
+    },
     "2779": {
       "source_en": "\t\t{ \"Immobilize\" },",
       "translation_tr": "\t\t{ \"Hareketsiz Birakir\" },"
+    },
+    "2780": {
+      "source_en": "\t\t{ \"Chance to not receive damange\" },",
+      "translation_tr": "\t\t{ \"Hasar almama sansi verir\" },"
+    },
+    "2781": {
+      "source_en": "\t\t{ \"Using Skills has a chance to get randomly debuffed\" },",
+      "translation_tr": "\t\t{ \"Beceri kullanirken rastgele debuff alma sansi vardir\" },"
+    },
+    "2782": {
+      "source_en": "\t\t{ \"When receiving damage, effect is lifted\" }",
+      "translation_tr": "\t\t{ \"Hasar alindiginda etki sona erer\" }"
+    },
+    "2789": {
+      "source_en": "\t\t{ \"The 16th Night\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"16. Gece\", COLOR_TITLE_BUFF },"
+    },
+    "2791": {
+      "source_en": "\t\t{ \"Removes Fixed Casting Time\" },",
+      "translation_tr": "\t\t{ \"Sabit kullanma suresini kaldirir\" },"
     },
     "2792": {
       "source_en": "\t\t{ \"Reduces Variable Casting Time\" },",
@@ -2812,25 +3032,117 @@
       "source_en": "\t\t{ \"Immobilize\" },",
       "translation_tr": "\t\t{ \"Hareketsiz Birakir\" },"
     },
+    "2803": {
+      "source_en": "\t\t{ \"Release Special Skill\" },",
+      "translation_tr": "\t\t{ \"Ozel Beceriyi Serbest Birakir\" },"
+    },
+    "2804": {
+      "source_en": "\t\t{ \"Unable to use Stealth or Teleport Skill or Item\" },",
+      "translation_tr": "\t\t{ \"Stealth veya Teleport Beceri/Esya kullanamaz\" },"
+    },
+    "2805": {
+      "source_en": "\t\t{ \"Emergency Call Skills cannot be used\" }",
+      "translation_tr": "\t\t{ \"Emergency Call becerileri kullanilamaz\" }"
+    },
     "2812": {
       "source_en": "\t\t{ \"Empty Shadow\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Bos Golge\", COLOR_TITLE_DEBUFF },"
+    },
+    "2814": {
+      "source_en": "\t\t{ \"Null the reflection effect of physical or magic attacks\" },",
+      "translation_tr": "\t\t{ \"Fiziksel veya buyusel saldiri yansitma etkisini gecersiz kilar\" },"
+    },
+    "2815": {
+      "source_en": "\t\t{ \"Chance to fail skill use\" }",
+      "translation_tr": "\t\t{ \"Beceri kullaniminda basarisiz olma sansi\" }"
     },
     "2822": {
       "source_en": "\t\t{ \"Shadow Warrior\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Golge Savascisi\", COLOR_TITLE_BUFF },"
     },
+    "2824": {
+      "source_en": "\t\t{ \"Give Double Attack effect\" },",
+      "translation_tr": "\t\t{ \"Double Attack etkisi verir\" },"
+    },
+    "2825": {
+      "source_en": "\t\t{ \"Consumption of SP per second\" },",
+      "translation_tr": "\t\t{ \"Saniye basina SP tuketimi\" },"
+    },
+    "2826": {
+      "source_en": "\t\t{ \"Increases Kunai Explosion, Kunai Splash, Cross Slash\" },",
+      "translation_tr": "\t\t{ \"Kunai Explosion, Kunai Splash ve Cross Slash hasarini artirir\" },"
+    },
+    "2827": {
+      "source_en": "\t\t{ \"and Swirling Petal damage\" }",
+      "translation_tr": "\t\t{ \"ve Swirling Petal hasarini\" }"
+    },
     "2834": {
       "source_en": "\t\t{ \"Distorted Crescent\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Carpilmis Hilal\", COLOR_TITLE_BUFF },"
+    },
+    "2836": {
+      "source_en": "\t\t{ \"Grant effects based on Base Level\" }",
+      "translation_tr": "\t\t{ \"Base Level'e gore etkiler kazandirir\" }"
     },
     "2843": {
       "source_en": "\t\t{ \"Moonlight Fantasy\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Ay Isigi Duslemi\", COLOR_TITLE_BUFF },"
     },
+    "2845": {
+      "source_en": "\t\t{ \"Randomly increase or decrease HP and SP.\" },",
+      "translation_tr": "\t\t{ \"HP ve SP'yi rastgele artirir veya azaltir.\" },"
+    },
+    "2846": {
+      "source_en": "\t\t{ \"When receiving magic attacks,\" },",
+      "translation_tr": "\t\t{ \"Buyusel saldiri alindiginda,\" },"
+    },
+    "2847": {
+      "source_en": "\t\t{ \"half of the damage will be transfered to another target\" }",
+      "translation_tr": "\t\t{ \"hasarin yarisi baska bir hedefe aktarilir\" }"
+    },
+    "2854": {
+      "source_en": "\t\t{ \"Omnius Moonlight\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Omnius Ay Isigi\", COLOR_TITLE_DEBUFF },"
+    },
+    "2856": {
+      "source_en": "\t\t{ \"Specific HP Recovery Skill\" },",
+      "translation_tr": "\t\t{ \"Belirli HP Yenileme Becerisi\" },"
+    },
+    "2857": {
+      "source_en": "\t\t{ \"Instead of Recovery, receive damage\" },",
+      "translation_tr": "\t\t{ \"Yenilenme yerine hasar alir\" },"
+    },
+    "2858": {
+      "source_en": "\t\t{ \"Receive 1/2 damage of recovery\" }",
+      "translation_tr": "\t\t{ \"Yenilenme miktarinin yarisi kadar hasar alir\" }"
+    },
+    "2865": {
+      "source_en": "\t\t{ \"Mystic Powder\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mistik Toz\", COLOR_TITLE_BUFF },"
+    },
+    "2867": {
+      "source_en": "\t\t{ \"Increases FLEE and LUK\" }",
+      "translation_tr": "\t\t{ \"FLEE ve LUK'u artirir\" }"
+    },
+    "2876": {
+      "source_en": "\t\t{ \"Increases HIT, ASPD\" }",
+      "translation_tr": "\t\t{ \"HIT ve ASPD'yi artirir\" }"
+    },
+    "2883": {
+      "source_en": "\t\t{ \"Mysterious water of life\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gizemli Yasam Suyu\", COLOR_TITLE_BUFF },"
+    },
     "2885": {
       "source_en": "\t\t{ \"Recover HP every 3 seconds\" },",
       "translation_tr": "\t\t{ \"Her 3 saniyede HP yeniler\" },"
+    },
+    "2886": {
+      "source_en": "\t\t{ \"Has no effect on Berserk state\" }",
+      "translation_tr": "\t\t{ \"Berserk durumunda etkisi yoktur\" }"
+    },
+    "2893": {
+      "source_en": "\t\t{ \"Rich Flower Leaf\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Zengin Cicek Yaprag\", COLOR_TITLE_BUFF },"
     },
     "2895": {
       "source_en": "\t\t{ \"Increases Flee\" }",
@@ -2840,25 +3152,169 @@
       "source_en": "\t\t{ \"Ray of Protection\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Koruma Isini\", COLOR_TITLE_BUFF },"
     },
+    "2904": {
+      "source_en": "\t\t{ \"Release from certain state\" },",
+      "translation_tr": "\t\t{ \"Belirli durum etkilerini kaldirir\" },"
+    },
+    "2905": {
+      "source_en": "\t\t{ \"Immune from certain state\" }",
+      "translation_tr": "\t\t{ \"Belirli durum etkilerine bagisiklik verir\" }"
+    },
+    "2912": {
+      "source_en": "\t\t{ \"You feel a powerful\" },",
+      "translation_tr": "\t\t{ \"Guclu bir\" },"
+    },
+    "2913": {
+      "source_en": "\t\t{ \"force within your body.\" },",
+      "translation_tr": "\t\t{ \"kuvvet bedeninizde hissedilir.\" },"
+    },
+    "2921": {
+      "source_en": "\t\t{ \"You feel protected\" },",
+      "translation_tr": "\t\t{ \"Korundugunuzu hissedersiniz\" },"
+    },
+    "2922": {
+      "source_en": "\t\t{ \"by a magic shield.\" },",
+      "translation_tr": "\t\t{ \"buyulu bir kalkan tarafindan.\" },"
+    },
+    "2930": {
+      "source_en": "\t\t{ \"You feel an increased\" },",
+      "translation_tr": "\t\t{ \"Artmis bir\" },"
+    },
+    "2931": {
+      "source_en": "\t\t{ \"efficiency of your healing.\" },",
+      "translation_tr": "\t\t{ \"iyilestirme verimliligi hissedersiniz.\" },"
+    },
+    "2939": {
+      "source_en": "\t\t{ \"You feel countless\" },",
+      "translation_tr": "\t\t{ \"Sayisiz\" },"
+    },
+    "2940": {
+      "source_en": "\t\t{ \"magical defense energy.\" },",
+      "translation_tr": "\t\t{ \"buyusel savunma enerjisi hissedersiniz.\" },"
+    },
     "2948": {
       "source_en": "\t\t{ \"You feel a sudden\" },",
       "translation_tr": "\t\t{ \"Aniden bir his duyarsiniz\" },"
+    },
+    "2949": {
+      "source_en": "\t\t{ \"increase of all your stats.\" },",
+      "translation_tr": "\t\t{ \"tum statlarinizda artis hissedersiniz.\" },"
     },
     "2957": {
       "source_en": "\t\t{ \"You feel a sudden\" },",
       "translation_tr": "\t\t{ \"Aniden bir his duyarsiniz\" },"
     },
+    "2958": {
+      "source_en": "\t\t{ \"increase of your defense.\" },",
+      "translation_tr": "\t\t{ \"savunmanizda artis hissedersiniz.\" },"
+    },
     "2966": {
       "source_en": "\t\t{ \"You feel a sudden\" },",
       "translation_tr": "\t\t{ \"Aniden bir his duyarsiniz\" },"
+    },
+    "2967": {
+      "source_en": "\t\t{ \"increase of MaxHP and MaxSP.\" },",
+      "translation_tr": "\t\t{ \"MaxHP ve MaxSP artis hissedersiniz.\" },"
+    },
+    "2975": {
+      "source_en": "\t\t{ \"Almighty\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yuce Guc\", COLOR_TITLE_BUFF },"
     },
     "2976": {
       "source_en": "\t\t{ \"Increases ATK, MATK\" },",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" },"
     },
+    "2984": {
+      "source_en": "\t\t{ \"The blood of Frozen Giant\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Donmus Dev'in Kani\", COLOR_TITLE_BUFF },"
+    },
+    "2985": {
+      "source_en": "\t\t{ \"Increases damage against player\" },",
+      "translation_tr": "\t\t{ \"Oyunculara karsi hasari artirir\" },"
+    },
+    "2993": {
+      "source_en": "\t\t{ \"Core of Golem\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golem Cekirdegi\", COLOR_TITLE_BUFF },"
+    },
+    "2994": {
+      "source_en": "\t\t{ \"Reduces damage taken from player\" },",
+      "translation_tr": "\t\t{ \"Oyunculardan alinan hasari azaltir\" },"
+    },
+    "3002": {
+      "source_en": "\t\t{ \"Elven tears(Stun)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Stun)\", COLOR_TITLE_BUFF },"
+    },
     "3003": {
       "source_en": "\t\t{ \"Immune to Stun\" },",
       "translation_tr": "\t\t{ \"Sersemletmeye bagisiktir\" },"
+    },
+    "3011": {
+      "source_en": "\t\t{ \"Elven tears(Stone Curse)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Stone Curse)\", COLOR_TITLE_BUFF },"
+    },
+    "3012": {
+      "source_en": "\t\t{ \"Immune to Stone Curse\" },",
+      "translation_tr": "\t\t{ \"Stone Curse'a bagisiklik verir\" },"
+    },
+    "3020": {
+      "source_en": "\t\t{ \"Elven tears(Frozen)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Frozen)\", COLOR_TITLE_BUFF },"
+    },
+    "3021": {
+      "source_en": "\t\t{ \"Immune to Frozen\" },",
+      "translation_tr": "\t\t{ \"Frozen durumuna bagisiklik verir\" },"
+    },
+    "3029": {
+      "source_en": "\t\t{ \"Elven tears(Sleep)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Sleep)\", COLOR_TITLE_BUFF },"
+    },
+    "3030": {
+      "source_en": "\t\t{ \"Immune to Sleep\" },",
+      "translation_tr": "\t\t{ \"Sleep durumuna bagisiklik verir\" },"
+    },
+    "3038": {
+      "source_en": "\t\t{ \"Elven tears(Curse)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Curse)\", COLOR_TITLE_BUFF },"
+    },
+    "3039": {
+      "source_en": "\t\t{ \"Immune to Curse\" },",
+      "translation_tr": "\t\t{ \"Curse durumuna bagisiklik verir\" },"
+    },
+    "3047": {
+      "source_en": "\t\t{ \"Elven tears(Silence)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Silence)\", COLOR_TITLE_BUFF },"
+    },
+    "3048": {
+      "source_en": "\t\t{ \"Immune to Silence\" },",
+      "translation_tr": "\t\t{ \"Silence durumuna bagisiklik verir\" },"
+    },
+    "3056": {
+      "source_en": "\t\t{ \"Elven tears(Blind)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Elf Gozyasi (Blind)\", COLOR_TITLE_BUFF },"
+    },
+    "3057": {
+      "source_en": "\t\t{ \"Immune to Blind\" },",
+      "translation_tr": "\t\t{ \"Blind durumuna bagisiklik verir\" },"
+    },
+    "3065": {
+      "source_en": "\t\t{ \"Increases physical damage against Fish monster\" },",
+      "translation_tr": "\t\t{ \"Fish canavarlara karsi fiziksel hasari artirir\" },"
+    },
+    "3073": {
+      "source_en": "\t\t{ \"Increases magical damage against Fish monster\" },",
+      "translation_tr": "\t\t{ \"Fish canavarlara karsi buyusel hasari artirir\" },"
+    },
+    "3081": {
+      "source_en": "\t\t{ \"Reduces damage taken from Fish monster\" },",
+      "translation_tr": "\t\t{ \"Fish canavarlardan alinan hasari azaltir\" },"
+    },
+    "3089": {
+      "source_en": "\t\t{ \"Increases exp gained\" },",
+      "translation_tr": "\t\t{ \"Kazanilan EXP'yi artirir\" },"
+    },
+    "3090": {
+      "source_en": "\t\t{ \"from killing Fish monster\" },",
+      "translation_tr": "\t\t{ \"Fish canavar oldururken\" },"
     },
     "3098": {
       "source_en": "\t\t{ \"Increases physical damage\" },",
@@ -2875,6 +3331,18 @@
     "3108": {
       "source_en": "\t\t{ \"against Demihuman monster\" },",
       "translation_tr": "\t\t{ \"Demihuman canavarlara karsi\" },"
+    },
+    "3116": {
+      "source_en": "\t\t{ \"Reduces damage taken\" },",
+      "translation_tr": "\t\t{ \"Alinan hasari azaltir\" },"
+    },
+    "3117": {
+      "source_en": "\t\t{ \"from Demihuman monster\" },",
+      "translation_tr": "\t\t{ \"Demihuman canavarlardan\" },"
+    },
+    "3125": {
+      "source_en": "\t\t{ \"Energy storage\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Enerji Depolama\", COLOR_TITLE_BUFF },"
     },
     "3126": {
       "source_en": "\t\t{ \"Increases ATK, MATK\" },",
@@ -2896,6 +3364,10 @@
       "source_en": "\t\t{ \"Increases ATK, MATK\" },",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" },"
     },
+    "3152": {
+      "source_en": "\t\t{ \"Power of Fenrir\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Fenrir'in Gucu\", COLOR_TITLE_BUFF },"
+    },
     "3153": {
       "source_en": "\t\t{ \"Increases MATK\" },",
       "translation_tr": "\t\t{ \"MATK'yi artirir\" },"
@@ -2904,9 +3376,45 @@
       "source_en": "\t\t{ \"Reduces fixed cast time\" },",
       "translation_tr": "\t\t{ \"Sabit kullanma suresini azaltir\" },"
     },
+    "3162": {
+      "source_en": "\t\t{ \"Ice explotion\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Buz Patlamasi\", COLOR_TITLE_DEBUFF },"
+    },
     "3163": {
       "source_en": "\t\t{ \"Reduces movement speed\" },",
       "translation_tr": "\t\t{ \"Hareket hizini azaltir\" },"
+    },
+    "3164": {
+      "source_en": "\t\t{ \"Explode after certain of time\" },",
+      "translation_tr": "\t\t{ \"Belirli bir sure sonra patlar\" },"
+    },
+    "3165": {
+      "source_en": "\t\t{ \"and give area damage.\" },",
+      "translation_tr": "\t\t{ \"ve alan hasari verir.\" },"
+    },
+    "3171": {
+      "source_en": "\t\t{ \"MAX ATK\", COLOR_TITLE_TOGGLE},",
+      "translation_tr": "\t\t{ \"MAKS ATK\", COLOR_TITLE_TOGGLE},"
+    },
+    "3172": {
+      "source_en": "\t\t{ \"Maximum physical damage\" }",
+      "translation_tr": "\t\t{ \"Maksimum fiziksel hasar\" }"
+    },
+    "3178": {
+      "source_en": "\t\t{ \"Minimum physical damage\" }",
+      "translation_tr": "\t\t{ \"Minimum fiziksel hasar\" }"
+    },
+    "3183": {
+      "source_en": "\t\t{ \"MAX MATK\", COLOR_TITLE_TOGGLE},",
+      "translation_tr": "\t\t{ \"MAKS MATK\", COLOR_TITLE_TOGGLE},"
+    },
+    "3184": {
+      "source_en": "\t\t{ \"Maximum magic damage\" }",
+      "translation_tr": "\t\t{ \"Maksimum buyusel hasar\" }"
+    },
+    "3190": {
+      "source_en": "\t\t{ \"Minimum magic damage\" }",
+      "translation_tr": "\t\t{ \"Minimum buyusel hasar\" }"
     },
     "3197": {
       "source_en": "\t\t{ \"Increases LUK\" },",
@@ -2916,6 +3424,34 @@
       "source_en": "\t\t{ \"Increases ATK, MATK\" },",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" },"
     },
+    "3213": {
+      "source_en": "\t\t{ \"Improve HP and SP recovery\" },",
+      "translation_tr": "\t\t{ \"HP ve SP yenilenmesini artirir\" },"
+    },
+    "3221": {
+      "source_en": "\t\t{ \"Chill\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Sogukluk\", COLOR_TITLE_DEBUFF },"
+    },
+    "3222": {
+      "source_en": "\t\t{ \"Immune to Burn\" },",
+      "translation_tr": "\t\t{ \"Burn durumuna bagisiklik verir\" },"
+    },
+    "3230": {
+      "source_en": "\t\t{ \"Burn\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yanma\", COLOR_TITLE_DEBUFF },"
+    },
+    "3231": {
+      "source_en": "\t\t{ \"Increases damage against Fire element monster\" },",
+      "translation_tr": "\t\t{ \"Ates elementli canavarlara karsi hasari artirir\" },"
+    },
+    "3232": {
+      "source_en": "\t\t{ \"Reduces resistance against Fire\" },",
+      "translation_tr": "\t\t{ \"Ates direncini azaltir\" },"
+    },
+    "3233": {
+      "source_en": "\t\t{ \"Periodically damaged by fire\" },",
+      "translation_tr": "\t\t{ \"Periyodik olarak Ates hasari alir\" },"
+    },
     "3241": {
       "source_en": "\t\t{ \"Frigg's Song\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Frigg'in Sarkisi\", COLOR_TITLE_BUFF },"
@@ -2923,6 +3459,34 @@
     "3242": {
       "source_en": "\t\t{ \"Increases MaxHP\" },",
       "translation_tr": "\t\t{ \"MaxHP'yi artirir\" },"
+    },
+    "3243": {
+      "source_en": "\t\t{ \"Recover HP every seconds\" },",
+      "translation_tr": "\t\t{ \"Her saniye HP yeniler\" },"
+    },
+    "3252": {
+      "source_en": "\t\t{ \"Increases the efficiency of heal skills\" },",
+      "translation_tr": "\t\t{ \"Heal becerilerinin verimliligini artirir\" },"
+    },
+    "3253": {
+      "source_en": "\t\t{ \"Increases SP consumption\" },",
+      "translation_tr": "\t\t{ \"SP tuketimini artirir\" },"
+    },
+    "3261": {
+      "source_en": "\t\t{ \"Intense Telekinesis\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yogun Telekinezi\", COLOR_TITLE_BUFF },"
+    },
+    "3262": {
+      "source_en": "\t\t{ \"Increases Ghost element magic damage\" },",
+      "translation_tr": "\t\t{ \"Ghost elementli buyu hasarini artirir\" },"
+    },
+    "3263": {
+      "source_en": "\t\t{ \"Reduces SP consumption of Ghost element magic\" },",
+      "translation_tr": "\t\t{ \"Ghost elementli buyulerin SP tuketimini azaltir\" },"
+    },
+    "3264": {
+      "source_en": "\t\t{ \"Decreases variable cast time of all skills\" },",
+      "translation_tr": "\t\t{ \"Tum becerilerin degisken kullanma suresini azaltir\" },"
     },
     "3272": {
       "source_en": "\t\t{ \"Full Throttle\", COLOR_TITLE_BUFF },",
@@ -2936,81 +3500,245 @@
       "source_en": "\t\t{ \"Increases All Base Stats\" },",
       "translation_tr": "\t\t{ \"Tum Temel Statlari artirir\" },"
     },
+    "3281": {
+      "source_en": "\t\t{ \"Rebound\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Geri Tepme\", COLOR_TITLE_DEBUFF },"
+    },
     "3282": {
       "source_en": "\t\t{ \"Decreases movement speed\" },",
       "translation_tr": "\t\t{ \"Hareket hizini azaltir\" },"
+    },
+    "3283": {
+      "source_en": "\t\t{ \"Disables HP and SP regeneration\" },",
+      "translation_tr": "\t\t{ \"HP ve SP yenilenmesini devre disi birakir\" },"
     },
     "3291": {
       "source_en": "\t\t{ \"Unlimit\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Sinirsiz\", COLOR_TITLE_BUFF },"
     },
+    "3293": {
+      "source_en": "\t\t{ \"Increases damage of ranged attack\" }",
+      "translation_tr": "\t\t{ \"Uzak menzilli saldiri hasarini artirir\" }"
+    },
     "3300": {
       "source_en": "\t\t{ \"King's Grace\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Kralin Lutfu\", COLOR_TITLE_BUFF },"
+    },
+    "3301": {
+      "source_en": "\t\t{ \"Invulnerable\" },",
+      "translation_tr": "\t\t{ \"Yenilmez\" },"
+    },
+    "3302": {
+      "source_en": "\t\t{ \"Disable item use\" },",
+      "translation_tr": "\t\t{ \"Esya kullanimini devre disi birakir\" },"
+    },
+    "3303": {
+      "source_en": "\t\t{ \"Unable to move and attack\" },",
+      "translation_tr": "\t\t{ \"Hareket edemez ve saldiramaz\" },"
+    },
+    "3311": {
+      "source_en": "\t\t{ \"New Oz's Finesse\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"New Oz'un Inceligi\", COLOR_TITLE_BUFF },"
     },
     "3312": {
       "source_en": "\t\t{ \"Increases ATK\" },",
       "translation_tr": "\t\t{ \"ATK'yi artirir\" },"
     },
+    "3320": {
+      "source_en": "\t\t{ \"Aigu's Willpower\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Aigu'nun Iradesi\", COLOR_TITLE_BUFF },"
+    },
     "3321": {
       "source_en": "\t\t{ \"Increase MATK\" },",
       "translation_tr": "\t\t{ \"MATK degerini artirir.\" },"
+    },
+    "3329": {
+      "source_en": "\t\t{ \"Rohtert's Bluff\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Rohtert'in Blufu\", COLOR_TITLE_BUFF },"
+    },
+    "3330": {
+      "source_en": "\t\t{ \"Reduce after-attack delay\" },",
+      "translation_tr": "\t\t{ \"Saldiri sonrasi gecikmeyi azaltir\" },"
+    },
+    "3338": {
+      "source_en": "\t\t{ \"Gelkah's Shyness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gelkah'in Cekingenligi\", COLOR_TITLE_BUFF },"
+    },
+    "3339": {
+      "source_en": "\t\t{ \"Reduce SP consumption\" },",
+      "translation_tr": "\t\t{ \"SP tuketimini azaltir\" },"
+    },
+    "3347": {
+      "source_en": "\t\t{ \"Arang's Innocence\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Arang'in Masumiyeti\", COLOR_TITLE_BUFF },"
+    },
+    "3348": {
+      "source_en": "\t\t{ \"Reduce after-cast delay\" },",
+      "translation_tr": "\t\t{ \"Beceri sonrasi gecikmeyi azaltir\" },"
+    },
+    "3356": {
+      "source_en": "\t\t{ \"Mingmin's Detailedness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mingmin'in Titizligi\", COLOR_TITLE_BUFF },"
+    },
+    "3357": {
+      "source_en": "\t\t{ \"Increase accuracy\" },",
+      "translation_tr": "\t\t{ \"Isabeti artirir\" },"
+    },
+    "3364": {
+      "source_en": "\t\t{ \"Ro.L's Seriousness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ro.L'nin Ciddiyeti\", COLOR_TITLE_BUFF },"
     },
     "3365": {
       "source_en": "\t\t{ \"Increase DEF\" },",
       "translation_tr": "\t\t{ \"DEF degerini artirir.\" },"
     },
+    "3373": {
+      "source_en": "\t\t{ \"Lunain's Attentiveness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunain'in Dikkati\", COLOR_TITLE_BUFF },"
+    },
+    "3374": {
+      "source_en": "\t\t{ \"Increase Heal efficiency\" },",
+      "translation_tr": "\t\t{ \"Heal verimliligini artirir\" },"
+    },
+    "3382": {
+      "source_en": "\t\t{ \"Ragi's Cheesiness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ragi'nin Yapmacikligi\", COLOR_TITLE_BUFF },"
+    },
     "3383": {
       "source_en": "\t\t{ \"Increase MDEF\" },",
       "translation_tr": "\t\t{ \"MDEF degerini artirir.\" },"
+    },
+    "3391": {
+      "source_en": "\t\t{ \"Melody Jack's Requireness\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Melody Jack'in Gereksinimi\", COLOR_TITLE_BUFF },"
     },
     "3392": {
       "source_en": "\t\t{ \"Increase Flee\" },",
       "translation_tr": "\t\t{ \"Flee degerini artirir.\" },"
     },
+    "3400": {
+      "source_en": "\t\t{ \"Let's Cup\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hadi Kupa\", COLOR_TITLE_BUFF },"
+    },
     "3401": {
       "source_en": "\t\t{ \"Increases VIT\" },",
       "translation_tr": "\t\t{ \"VIT'i artirir\" },"
+    },
+    "3402": {
+      "source_en": "\t\t{ \"Increases resistance against Fire element\" },",
+      "translation_tr": "\t\t{ \"Ates elementine direnci artirir\" },"
+    },
+    "3408": {
+      "source_en": "\t\t{ \"Sword Clan\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kilic Klani\", COLOR_TITLE_BUFF },"
+    },
+    "3415": {
+      "source_en": "\t\t{ \"Arc Wand Clan\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Arc Wand Klani\", COLOR_TITLE_BUFF },"
+    },
+    "3422": {
+      "source_en": "\t\t{ \"Golden Mace Clan\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golden Mace Klani\", COLOR_TITLE_BUFF },"
+    },
+    "3429": {
+      "source_en": "\t\t{ \"Crossbow Clan\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Crossbow Klani\", COLOR_TITLE_BUFF },"
+    },
+    "3438": {
+      "source_en": "\t\t{ \"Powerful 30 seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Guclu\", COLOR_TITLE_BUFF },"
     },
     "3439": {
       "source_en": "\t\t{ \"Increases ATK\" },",
       "translation_tr": "\t\t{ \"ATK'yi artirir\" },"
     },
+    "3447": {
+      "source_en": "\t\t{ \"Smart 30 seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Zeki\", COLOR_TITLE_BUFF },"
+    },
     "3448": {
       "source_en": "\t\t{ \"Increases MATK\" },",
       "translation_tr": "\t\t{ \"MATK'yi artirir\" },"
+    },
+    "3456": {
+      "source_en": "\t\t{ \"Stamina 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Dayaniklilik\", COLOR_TITLE_BUFF },"
     },
     "3457": {
       "source_en": "\t\t{ \"Increases MaxHP\" },",
       "translation_tr": "\t\t{ \"MaxHP'yi artirir\" },"
     },
+    "3465": {
+      "source_en": "\t\t{ \"Horse Power 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Beygir Gucu\", COLOR_TITLE_BUFF },"
+    },
     "3466": {
       "source_en": "\t\t{ \"Increases MaxSP\" },",
       "translation_tr": "\t\t{ \"MaxSP'yi artirir\" },"
+    },
+    "3474": {
+      "source_en": "\t\t{ \"Light 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Hafiflik\", COLOR_TITLE_BUFF },"
     },
     "3475": {
       "source_en": "\t\t{ \"Increases FLEE\" },",
       "translation_tr": "\t\t{ \"FLEE'yi artirir\" },"
     },
+    "3483": {
+      "source_en": "\t\t{ \"Faster 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Hiz\", COLOR_TITLE_BUFF },"
+    },
     "3484": {
       "source_en": "\t\t{ \"Increases ASPD\" },",
       "translation_tr": "\t\t{ \"ASPD'yi artirir\" },"
+    },
+    "3492": {
+      "source_en": "\t\t{ \"Strong 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Kuvvet\", COLOR_TITLE_BUFF },"
     },
     "3493": {
       "source_en": "\t\t{ \"Increases DEF\" },",
       "translation_tr": "\t\t{ \"DEF'i artirir\" },"
     },
+    "3501": {
+      "source_en": "\t\t{ \"Safe 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Guvenlik\", COLOR_TITLE_BUFF },"
+    },
     "3502": {
       "source_en": "\t\t{ \"Increases MDEF\" },",
       "translation_tr": "\t\t{ \"MDEF'i artirir\" },"
+    },
+    "3510": {
+      "source_en": "\t\t{ \"Good Luck 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Iyi Sans\", COLOR_TITLE_BUFF },"
     },
     "3511": {
       "source_en": "\t\t{ \"Increases Critical rate\" },",
       "translation_tr": "\t\t{ \"Kritik oranini artirir\" },"
     },
+    "3519": {
+      "source_en": "\t\t{ \"Suits 30 Seconds\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"30 Saniye Uyum\", COLOR_TITLE_BUFF },"
+    },
     "3520": {
       "source_en": "\t\t{ \"Increases HIT\" },",
       "translation_tr": "\t\t{ \"HIT'i artirir\" },"
+    },
+    "3528": {
+      "source_en": "\t\t{ \"Border of the living and the dead!\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yasayanlarla Olulerin Siniri!\", COLOR_TITLE_DEBUFF },"
+    },
+    "3529": {
+      "source_en": "\t\t{ \"Reduces Ghost element damage by 50%.\" },",
+      "translation_tr": "\t\t{ \"Ghost element hasarini %50 azaltir.\" },"
+    },
+    "3537": {
+      "source_en": "\t\t{ \"Duan Festival\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Duan Festivali\", COLOR_TITLE_BUFF },"
+    },
+    "3538": {
+      "source_en": "\t\t{ \"Increases all base stats\" },",
+      "translation_tr": "\t\t{ \"Tum temel statlari artirir\" },"
     },
     "3546": {
       "source_en": "\t\t{ \"Bound Trap\", COLOR_TITLE_DEBUFF },",
@@ -3023,6 +3751,10 @@
     "3555": {
       "source_en": "\t\t{ \"Eternal Chain\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Sonsuz Zincir\", COLOR_TITLE_BUFF },"
+    },
+    "3557": {
+      "source_en": "\t\t{ \"Adds chance to trigger Chain Action\" }",
+      "translation_tr": "\t\t{ \"Chain Action tetikleme sansi verir\" }"
     },
     "3564": {
       "source_en": "\t\t{ \"Crimson Marker\", COLOR_TITLE_DEBUFF },",
@@ -3048,6 +3780,14 @@
       "source_en": "\t\t{ \"Increases ATK\" },",
       "translation_tr": "\t\t{ \"ATK'yi artirir\" },"
     },
+    "3585": {
+      "source_en": "\t\t{ \"Reduces HIT\" },",
+      "translation_tr": "\t\t{ \"HIT'i azaltir\" },"
+    },
+    "3586": {
+      "source_en": "\t\t{ \"Reduces after-attack delay\" },",
+      "translation_tr": "\t\t{ \"Saldiri sonrasi gecikmeyi azaltir\" },"
+    },
     "3587": {
       "source_en": "\t\t{ \"Reduces fixed cast time\" }",
       "translation_tr": "\t\t{ \"Sabit kullanma suresini azaltir\" }"
@@ -3055,6 +3795,14 @@
     "3594": {
       "source_en": "\t\t{ \"Anti-Material Blast\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Materyal Karsiti Patlama\", COLOR_TITLE_DEBUFF },"
+    },
+    "3596": {
+      "source_en": "\t\t{ \"Reduces Neutral element resistance\" }",
+      "translation_tr": "\t\t{ \"Neutral element direncini azaltir\" }"
+    },
+    "3603": {
+      "source_en": "\t\t{ \"Aftermath\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Artci Etki\", COLOR_TITLE_DEBUFF },"
     },
     "3605": {
       "source_en": "\t\t{ \"Unable to use items\" },",
@@ -3068,9 +3816,25 @@
       "source_en": "\t\t{ \"Unable to attack\" }",
       "translation_tr": "\t\t{ \"Saldiramaz\" }"
     },
+    "3615": {
+      "source_en": "\t\t{ \"Increases experience acquired\" }",
+      "translation_tr": "\t\t{ \"Kazanilan deneyimi artirir\" }"
+    },
+    "3622": {
+      "source_en": "\t\t{ \"Beef Rib Stew\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dana Kaburga Yahnisi\", COLOR_TITLE_BUFF },"
+    },
+    "3624": {
+      "source_en": "\t\t{ \"Decreases variable cast time\" },",
+      "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir\" },"
+    },
     "3625": {
       "source_en": "\t\t{ \"Reduces SP Consumption\" }",
       "translation_tr": "\t\t{ \"SP Tuketimini azaltir\" }"
+    },
+    "3632": {
+      "source_en": "\t\t{ \"Pork Rib Stew\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Domuz Kaburga Yahnisi\", COLOR_TITLE_BUFF },"
     },
     "3634": {
       "source_en": "\t\t{ \"Increases ASPD\" },",
@@ -3084,45 +3848,181 @@
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
     },
+    "3644": {
+      "source_en": "\t\t{ \"Increases damage against Shadow element monster.\" },",
+      "translation_tr": "\t\t{ \"Shadow elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3645": {
+      "source_en": "\t\t{ \"Increases Holy resistance.\" }",
+      "translation_tr": "\t\t{ \"Holy direncini artirir.\" }"
+    },
     "3652": {
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
+    },
+    "3654": {
+      "source_en": "\t\t{ \"Increases damage against Earth element monster.\" },",
+      "translation_tr": "\t\t{ \"Toprak elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3655": {
+      "source_en": "\t\t{ \"Increases Fire resistance.\" }",
+      "translation_tr": "\t\t{ \"Ates direncini artirir.\" }"
     },
     "3662": {
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
     },
+    "3664": {
+      "source_en": "\t\t{ \"Increases damage against Fire element monster.\" },",
+      "translation_tr": "\t\t{ \"Ates elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3665": {
+      "source_en": "\t\t{ \"Increases Water resistance.\" }",
+      "translation_tr": "\t\t{ \"Su direncini artirir.\" }"
+    },
     "3672": {
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
+    },
+    "3674": {
+      "source_en": "\t\t{ \"Increases damage against Wind element monster.\" },",
+      "translation_tr": "\t\t{ \"Ruzgar elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3675": {
+      "source_en": "\t\t{ \"Increases Earth resistance.\" }",
+      "translation_tr": "\t\t{ \"Toprak direncini artirir.\" }"
     },
     "3682": {
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
     },
+    "3684": {
+      "source_en": "\t\t{ \"Increases damage against Water element monster.\" },",
+      "translation_tr": "\t\t{ \"Su elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3685": {
+      "source_en": "\t\t{ \"Increases Wind resistance.\" }",
+      "translation_tr": "\t\t{ \"Ruzgar direncini artirir.\" }"
+    },
     "3692": {
       "source_en": "\t\t{ \"Enhanced Element\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Guclendirilmis Element\", COLOR_TITLE_BUFF },"
+    },
+    "3694": {
+      "source_en": "\t\t{ \"Increases damage against Neutral element monster.\" },",
+      "translation_tr": "\t\t{ \"Neutral elementli canavarlara karsi hasari artirir.\" },"
+    },
+    "3695": {
+      "source_en": "\t\t{ \"Increases Neutral resistance.\" }",
+      "translation_tr": "\t\t{ \"Neutral direncini artirir.\" }"
+    },
+    "3702": {
+      "source_en": "\t\t{ \"ACUO Gum\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"ACUO Sakizi\", COLOR_TITLE_BUFF },"
+    },
+    "3704": {
+      "source_en": "\t\t{ \"Increase ATK, MATK\" }",
+      "translation_tr": "\t\t{ \"ATK ve MATK'yi artirir\" }"
+    },
+    "3711": {
+      "source_en": "\t\t{ \"Small Heal Potion\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kucuk Heal Iksiri\", COLOR_TITLE_BUFF },"
+    },
+    "3713": {
+      "source_en": "\t\t{ \"Restore certain amount of HP and SP every 10 sec.\" },",
+      "translation_tr": "\t\t{ \"Her 10 saniyede belirli miktarda HP ve SP yeniler.\" },"
+    },
+    "3714": {
+      "source_en": "\t\t{ \"Has no effect on Berserk state.\" }",
+      "translation_tr": "\t\t{ \"Berserk durumunda etkisi yoktur.\" }"
+    },
+    "3719": {
+      "source_en": "\t\t{ \"Jumping Clan\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Jumping Klani\", COLOR_TITLE_BUFF },"
+    },
+    "3727": {
+      "source_en": "\t\t{ \"OTP Subscriber Benefit\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"OTP Abone Avantaji\", COLOR_TITLE_BUFF },"
+    },
+    "3728": {
+      "source_en": "\t\t{ \"Increase Base Exp and Job Exp\" },",
+      "translation_tr": "\t\t{ \"Base EXP ve Job EXP'yi artirir\" },"
+    },
+    "3729": {
+      "source_en": "\t\t{ \"gained from killing monsters\" },",
+      "translation_tr": "\t\t{ \"canavar oldururken kazanilan\" },"
+    },
+    "3738": {
+      "source_en": "\t\t{ \"Reduce state resistance level penalty\" }",
+      "translation_tr": "\t\t{ \"Durum direnci seviye cezasini azaltir\" }"
+    },
+    "3745": {
+      "source_en": "\t\t{ \"Essence of Time\", COLOR_SYSTEM },",
+      "translation_tr": "\t\t{ \"Zaman Ozu\", COLOR_SYSTEM },"
+    },
+    "3747": {
+      "source_en": "\t\t{ \"Already obtained Integer of Time.\" }",
+      "translation_tr": "\t\t{ \"Integer of Time zaten elde edildi.\" }"
+    },
+    "3754": {
+      "source_en": "\t\t{ \"Limited Power Booster\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sinirli Guc Guclendirici\", COLOR_TITLE_BUFF },"
+    },
+    "3756": {
+      "source_en": "\t\t{ \"Increases ATK, MATK, HIT, FLEE, ASPD\" },",
+      "translation_tr": "\t\t{ \"ATK, MATK, HIT, FLEE ve ASPD'yi artirir\" },"
+    },
+    "3757": {
+      "source_en": "\t\t{ \"Reduces SP consumption\" },",
+      "translation_tr": "\t\t{ \"SP tuketimini azaltir\" },"
     },
     "3758": {
       "source_en": "\t\t{ \"Reduces fixed cast time\" }",
       "translation_tr": "\t\t{ \"Sabit kullanma suresini azaltir\" }"
     },
+    "3765": {
+      "source_en": "\t\t{ \"Sealed Berzebub\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Muhurlu Berzebub\", COLOR_TITLE_BUFF },"
+    },
     "3767": {
       "source_en": "\t\t{ \"Reduces variable cast time\" }",
       "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir\" }"
+    },
+    "3774": {
+      "source_en": "\t\t{ \"Shining Holy Water\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Parlayan Kutsal Su\", COLOR_TITLE_BUFF },"
+    },
+    "3775": {
+      "source_en": "\t\t{ \"Ritual Room, Reduces 10% damage received during Prontera Invasion Dungeon\" },",
+      "translation_tr": "\t\t{ \"Ritual Room ve Prontera Invasion Dungeon icinde alinan hasari %10 azaltir\" },"
+    },
+    "3783": {
+      "source_en": "\t\t{ \"Enrich Celermine Juice\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Zenginlestirilmis Celermine Suyu\", COLOR_TITLE_BUFF },"
     },
     "3785": {
       "source_en": "\t\t{ \"Increases ASPD\" }",
       "translation_tr": "\t\t{ \"ASPD'yi artirir\" }"
     },
+    "3792": {
+      "source_en": "\t\t{ \"HP Increase Potion\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"HP Artis Iksiri\", COLOR_TITLE_BUFF },"
+    },
     "3794": {
       "source_en": "\t\t{ \"Increases MaxHP\" }",
       "translation_tr": "\t\t{ \"MaxHP'yi artirir\" }"
     },
+    "3801": {
+      "source_en": "\t\t{ \"SP Increase Potion\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"SP Artis Iksiri\", COLOR_TITLE_BUFF },"
+    },
     "3803": {
       "source_en": "\t\t{ \"Increases MaxSP\" }",
       "translation_tr": "\t\t{ \"MaxSP'yi artirir\" }"
+    },
+    "3810": {
+      "source_en": "\t\t{ \"Enriched White PotionZ\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Zenginlestirilmis White PotionZ\", COLOR_TITLE_BUFF },"
     },
     "3812": {
       "source_en": "\t\t{ \"Increases natural HP regeneration\" }",
@@ -3140,9 +4040,49 @@
       "source_en": "\t\t{ \"Expiatio\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Kefaret\", COLOR_TITLE_BUFF },"
     },
+    "3831": {
+      "source_en": "\t\t{ \"Ignore portion of target's defense\" }",
+      "translation_tr": "\t\t{ \"Hedefin savunmasinin bir kismini yok sayar\" }"
+    },
+    "3838": {
+      "source_en": "\t\t{ \"Crush Strike\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ezici Vurus\", COLOR_TITLE_BUFF },"
+    },
+    "3840": {
+      "source_en": "\t\t{ \"Increases melee physical attack\" }",
+      "translation_tr": "\t\t{ \"Yakin dovus fiziksel saldirisini artirir\" }"
+    },
     "3847": {
       "source_en": "\t\t{ \"Exceed Break\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Sinir Asimi\", COLOR_TITLE_BUFF },"
+    },
+    "3849": {
+      "source_en": "\t\t{ \"Increases first strike damage\" }",
+      "translation_tr": "\t\t{ \"Ilk vurus hasarini artirir\" }"
+    },
+    "3858": {
+      "source_en": "\t\t{ \"Cannot use Magic, Song or Chorus within the range\" }",
+      "translation_tr": "\t\t{ \"Menzil icinde Buyu, Sarki veya Chorus kullanilamaz\" }"
+    },
+    "3865": {
+      "source_en": "\t\t{ \"Magnetic Field\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Manyetik Alan\", COLOR_TITLE_DEBUFF },"
+    },
+    "3867": {
+      "source_en": "\t\t{ \"Disables movement of all targets within the range\" },",
+      "translation_tr": "\t\t{ \"Menzildeki tum hedeflerin hareketini devre disi birakir\" },"
+    },
+    "3868": {
+      "source_en": "\t\t{ \"Decreases SP\" }",
+      "translation_tr": "\t\t{ \"SP'yi azaltir\" }"
+    },
+    "3875": {
+      "source_en": "\t\t{ \"Vacuum Extreme\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Asiri Vakum\", COLOR_TITLE_DEBUFF },"
+    },
+    "3877": {
+      "source_en": "\t\t{ \"Pull all targets within the range\" },",
+      "translation_tr": "\t\t{ \"Menzildeki tum hedefleri ceker\" },"
     },
     "3878": {
       "source_en": "\t\t{ \"Disable movement\" }",
@@ -3160,25 +4100,101 @@
       "source_en": "\t\t{ \"Decreases MaxHP\" }",
       "translation_tr": "\t\t{ \"MaxHP'yi azaltir\" }"
     },
+    "3895": {
+      "source_en": "\t\t{ \"Frozen\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Donmus\", COLOR_TITLE_DEBUFF },"
+    },
     "3897": {
       "source_en": "\t\t{ \"Disable action and Flee\" },",
       "translation_tr": "\t\t{ \"Hareketi ve FLEE'yi devre disi birakir\" },"
+    },
+    "3898": {
+      "source_en": "\t\t{ \"Reduces DEF, MDEF\" }",
+      "translation_tr": "\t\t{ \"DEF ve MDEF'i azaltir\" }"
+    },
+    "3905": {
+      "source_en": "\t\t{ \"Stun\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Sersemletme\", COLOR_TITLE_DEBUFF },"
     },
     "3907": {
       "source_en": "\t\t{ \"Disable action and Flee\" }",
       "translation_tr": "\t\t{ \"Hareketi ve FLEE'yi devre disi birakir\" }"
     },
+    "3914": {
+      "source_en": "\t\t{ \"Sleep\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Uyku\", COLOR_TITLE_DEBUFF },"
+    },
     "3916": {
       "source_en": "\t\t{ \"Disable action and Flee\" },",
       "translation_tr": "\t\t{ \"Hareketi ve FLEE'yi devre disi birakir\" },"
+    },
+    "3917": {
+      "source_en": "\t\t{ \"Increases critical rate of attacker\" }",
+      "translation_tr": "\t\t{ \"Saldiranin kritik oranini artirir\" }"
+    },
+    "3924": {
+      "source_en": "\t\t{ \"Stone Curse progress\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Stone Curse ilerliyor\", COLOR_TITLE_DEBUFF },"
+    },
+    "3932": {
+      "source_en": "\t\t{ \"Burning\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yanma\", COLOR_TITLE_DEBUFF },"
+    },
+    "3934": {
+      "source_en": "\t\t{ \"Damage every 3 seconds\" },",
+      "translation_tr": "\t\t{ \"Her 3 saniyede hasar verir\" },"
+    },
+    "3935": {
+      "source_en": "\t\t{ \"Reduces MDEF\" }",
+      "translation_tr": "\t\t{ \"MDEF'i azaltir\" }"
+    },
+    "3942": {
+      "source_en": "\t\t{ \"Imprison\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Hapsetme\", COLOR_TITLE_DEBUFF },"
+    },
+    "3944": {
+      "source_en": "\t\t{ \"Disable attack, skill, movement and item use\" }",
+      "translation_tr": "\t\t{ \"Saldiri, beceri, hareket ve esya kullanimini devre disi birakir\" }"
+    },
+    "3951": {
+      "source_en": "\t\t{ \"Poison\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Zehir\", COLOR_TITLE_DEBUFF },"
+    },
+    "3953": {
+      "source_en": "\t\t{ \"Decreases vision\" },",
+      "translation_tr": "\t\t{ \"Gorusu azaltir\" },"
     },
     "3954": {
       "source_en": "\t\t{ \"Decreases DEF\" },",
       "translation_tr": "\t\t{ \"DEF degerini azaltir.\" },"
     },
+    "3955": {
+      "source_en": "\t\t{ \"Decreases HP every 3 seconds\" }",
+      "translation_tr": "\t\t{ \"Her 3 saniyede HP azaltir\" }"
+    },
+    "3962": {
+      "source_en": "\t\t{ \"Curse\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Lanet\", COLOR_TITLE_DEBUFF },"
+    },
+    "3964": {
+      "source_en": "\t\t{ \"Reduces DEF, Movement Speed\" },",
+      "translation_tr": "\t\t{ \"DEF ve Hareket Hizini azaltir\" },"
+    },
+    "3965": {
+      "source_en": "\t\t{ \"LUK become 0\" }",
+      "translation_tr": "\t\t{ \"LUK 0 olur\" }"
+    },
+    "3972": {
+      "source_en": "\t\t{ \"Silence\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Sessizlik\", COLOR_TITLE_DEBUFF },"
+    },
     "3974": {
       "source_en": "\t\t{ \"Cannot use skill\" }",
       "translation_tr": "\t\t{ \"Beceri kullanamaz\" }"
+    },
+    "3981": {
+      "source_en": "\t\t{ \"Chaos\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Kaos\", COLOR_TITLE_DEBUFF },"
     },
     "3990": {
       "source_en": "\t\t{ \"Deadly Poison\", COLOR_TITLE_DEBUFF },",
