@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-pettalk-pending.py
 # 📌 Amac: pettalktable.xml icindeki temiz ASCII Ingilizce metinleri raw-byte guvenli pending envanterine donusturur
 # 📌 Tool - Python
-# Version: 1.1.0
+# Version: 1.1.1
 # Aciklama: Kaynagi decode etmeden XML metin dugumlerini siniflandirir; yalniz ASCII ceviri adaylarini metin olarak saklar
 # Bagimli Oldugu Katman: Tool
 
