@@ -699,32 +699,32 @@
     {
       "id": "element_water",
       "type": "regex",
-      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Water",
-      "replacement": "\\\\1 Su"
+      "pattern": "(Element:\\^[0-9A-Fa-f]{6}) Water",
+      "replacement": "\\1 Su"
     },
     {
       "id": "element_earth",
       "type": "regex",
-      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Earth",
-      "replacement": "\\\\1 Toprak"
+      "pattern": "(Element:\\^[0-9A-Fa-f]{6}) Earth",
+      "replacement": "\\1 Toprak"
     },
     {
       "id": "element_shadow",
       "type": "regex",
-      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Shadow",
-      "replacement": "\\\\1 Golge"
+      "pattern": "(Element:\\^[0-9A-Fa-f]{6}) Shadow",
+      "replacement": "\\1 Golge"
     },
     {
       "id": "element_ghost",
       "type": "regex",
-      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Ghost",
-      "replacement": "\\\\1 Hayalet"
+      "pattern": "(Element:\\^[0-9A-Fa-f]{6}) Ghost",
+      "replacement": "\\1 Hayalet"
     },
     {
       "id": "element_poison",
       "type": "regex",
-      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Poison",
-      "replacement": "\\\\1 Zehir"
+      "pattern": "(Element:\\^[0-9A-Fa-f]{6}) Poison",
+      "replacement": "\\1 Zehir"
     },
     {
       "id": "all_traits",
