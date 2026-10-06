@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.52.0
-# Aciklama: Upstream 2026, Turkce overlay, tamamlanan UI/state icon kapsami ve genisletilmis itemInfo metadata/system localization metriklerini sabitler
+# Version: 2.52.1
+# Aciklama: Upstream 2026, Turkce overlay, tamamlanan ceviri kapsami, source-gap ayrimi ve genisletilmis itemInfo metadata/system localization metriklerini sabitler
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -170,9 +170,26 @@ sync:
     patch: "TurkuazTR/stateiconinfo.tr.json"
     intentional: "TurkuazTR/stateiconinfo.intentional.json"
     profiles: "TurkuazTR/localization-profiles.json"
+  skill_names:
+    status: translated_complete
+    translated_entries: 883
+    pending_translation_candidates: 0
+    pending_report: "TurkuazTR/skillinfolist.pending.json"
+    source_gap_entries: 0
+    source_gap_policy: "candidate_count_0_ise_ceviri_borcu_yoktur"
+  skill_descriptions:
+    status: translated_complete_with_source_gaps
+    translated_entries: 826
+    pending_translation_candidates: 0
+    empty_source_descriptions: 11
+    missing_source_descriptions: 46
+    pending_report: "TurkuazTR/skilldescript.pending.json"
+    source_gap_policy: "bos_veya_kaynakta_olmayan_aciklama_uydurulmaz"
   quest_display:
-    status: translated_record_overlay
+    status: translated_complete_record_overlay
     patch_records: 5597
+    pending_translation_candidates: 0
+    pending_report: "TurkuazTR/questid2display.pending.json"
     strategy: byte_safe_record_overlay
     patch: "TurkuazTR/questid2display.tr.json"
     related_output: "Translation/Renewal/SystemEN/OngoingQuests.lub"
@@ -196,6 +213,8 @@ sync:
     source_recovery: "TurkuazTR/pettalktable.source-recovery.json"
     recovery_candidates: 122
     recovery_nodes: 345
+    pending_translation_candidates: 0
+    translation_debt: 0
     recovery_policy: "bozuk_kesik_ve_mojibake_kaynak_dogru_kaynak_bulunmadan_cevrilmez"
   item_info:
     status: metadata_translation_rules_active
