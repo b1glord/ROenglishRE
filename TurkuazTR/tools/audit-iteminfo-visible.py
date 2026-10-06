@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.2.0
-# Aciklama: identified/unidentified display name ve description alanlarini tarar; kaynak veya generated profil dosyasinda occurrence, unique string ve en sik dogal dil adaylarini raporlar
+# Version: 1.3.0
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; istege bagli baseline ile degismeden kalan dogal aciklama metinlerini ayri raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -30,7 +30,6 @@ VISIBLE_FIELDS = {
     "identifiedDescriptionName",
 }
 NAME_FIELDS = {"unidentifiedDisplayName", "identifiedDisplayName"}
-DESCRIPTION_FIELDS = {"unidentifiedDescriptionName", "identifiedDescriptionName"}
 
 
 def strings(value: str) -> list[str]:
@@ -44,17 +43,22 @@ def natural_candidate(value: str) -> bool:
     return len(LETTER_RE.findall(clean)) >= 4
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--json", action="store_true")
-    parser.add_argument("--source", default=str(SOURCE.relative_to(REPO_ROOT)))
-    args = parser.parse_args()
+def resolve_source(value: str) -> Path:
+    path = Path(value)
+    if not path.is_absolute():
+        path = REPO_ROOT / path
+    return path
 
-    source_path = Path(args.source)
-    if not source_path.is_absolute():
-        source_path = REPO_ROOT / source_path
 
-    text = source_path.read_text(encoding="utf-8", errors="surrogateescape")
+def display_source(path: Path) -> str:
+    try:
+        return str(path.relative_to(REPO_ROOT))
+    except ValueError:
+        return str(path)
+
+
+def collect(path: Path) -> dict[str, object]:
+    text = path.read_text(encoding="utf-8", errors="surrogateescape")
     lines = text.splitlines()
 
     item_count = 0
@@ -111,16 +115,47 @@ def main() -> int:
         {key: value for key, value in description_counter.items() if natural_candidate(key)}
     )
 
-    try:
-        source_display = str(source_path.relative_to(REPO_ROOT))
-    except ValueError:
-        source_display = str(source_path)
-
-    payload = {
-        "source": source_display,
+    return {
         "source_lines": len(lines),
         "item_records": item_count,
         "visible_field_occurrences": visible_field_occurrences,
+        "technical_field_occurrences": technical_field_occurrences,
+        "field_counts": dict(sorted(field_counts.items())),
+        "name_counter": name_counter,
+        "description_counter": description_counter,
+        "all_counter": all_counter,
+        "natural_description": natural_description,
+    }
+
+
+def top_rows(counter: Counter[str], limit: int) -> list[dict[str, object]]:
+    return [
+        {"text": text, "count": count}
+        for text, count in counter.most_common(limit)
+    ]
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--json", action="store_true")
+    parser.add_argument("--source", default=str(SOURCE.relative_to(REPO_ROOT)))
+    parser.add_argument("--baseline-source")
+    parser.add_argument("--top", type=int, default=60)
+    args = parser.parse_args()
+
+    source_path = resolve_source(args.source)
+    data = collect(source_path)
+
+    name_counter = data["name_counter"]
+    description_counter = data["description_counter"]
+    all_counter = data["all_counter"]
+    natural_description = data["natural_description"]
+
+    payload = {
+        "source": display_source(source_path),
+        "source_lines": data["source_lines"],
+        "item_records": data["item_records"],
+        "visible_field_occurrences": data["visible_field_occurrences"],
         "visible_string_count": sum(all_counter.values()),
         "unique_visible_string_count": len(all_counter),
         "name_string_count": sum(name_counter.values()),
@@ -129,26 +164,49 @@ def main() -> int:
         "unique_description_string_count": len(description_counter),
         "natural_description_occurrences": sum(natural_description.values()),
         "unique_natural_description_count": len(natural_description),
-        "technical_field_occurrences": technical_field_occurrences,
-        "field_counts": dict(sorted(field_counts.items())),
+        "technical_field_occurrences": data["technical_field_occurrences"],
+        "field_counts": data["field_counts"],
         "visible_fields": sorted(VISIBLE_FIELDS),
-        "top_natural_description_strings": [
-            {"text": text, "count": count}
-            for text, count in natural_description.most_common(60)
-        ],
+        "top_natural_description_strings": top_rows(natural_description, args.top),
     }
+
+    if args.baseline_source:
+        baseline_path = resolve_source(args.baseline_source)
+        baseline = collect(baseline_path)
+        baseline_natural = baseline["natural_description"]
+        unchanged_natural = natural_description & baseline_natural
+        payload.update(
+            {
+                "baseline_source": display_source(baseline_path),
+                "unchanged_natural_description_occurrences": sum(
+                    unchanged_natural.values()
+                ),
+                "unique_unchanged_natural_description_count": len(unchanged_natural),
+                "top_unchanged_natural_description_strings": top_rows(
+                    unchanged_natural, args.top
+                ),
+            }
+        )
 
     if args.json:
         print(json.dumps(payload, ensure_ascii=True, sort_keys=True))
     else:
         print("itemInfo visible audit")
         for key, value in payload.items():
-            if key in {"field_counts", "top_natural_description_strings"}:
+            if key in {
+                "field_counts",
+                "top_natural_description_strings",
+                "top_unchanged_natural_description_strings",
+            }:
                 continue
             print(f"{key}: {value}")
         print("top_natural_description_strings:")
         for row in payload["top_natural_description_strings"]:
             print(json.dumps(row, ensure_ascii=True, sort_keys=True))
+        if "top_unchanged_natural_description_strings" in payload:
+            print("top_unchanged_natural_description_strings:")
+            for row in payload["top_unchanged_natural_description_strings"]:
+                print(json.dumps(row, ensure_ascii=True, sort_keys=True))
 
     return 0
 
