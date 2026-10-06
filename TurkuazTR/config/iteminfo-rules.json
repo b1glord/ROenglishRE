@@ -1,0 +1,178 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
+    "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
+    "module": "Translation Config - JSON",
+    "version": "1.0.0",
+    "description": "Item adlarini canonical tutar; yalniz identified/unidentified description bloklarinda metadata ve ortak sistem metinlerini cevirir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "profile_field": "item_info",
+  "target_fields": [
+    "unidentifiedDescriptionName",
+    "identifiedDescriptionName"
+  ],
+  "modes": {
+    "original": "Kaynak byte'larini degistirmeden kullanir.",
+    "tr_metadata": "Aciklama bloklarinda Turkce metadata kurallarini uygular."
+  },
+  "rules": [
+    {
+      "id": "label_weight",
+      "type": "literal",
+      "source": "^0000CCWeight:^000000",
+      "translation": "^0000CCAgirlik:^000000"
+    },
+    {
+      "id": "label_requirement",
+      "type": "literal",
+      "source": "^0000CCRequirement:^000000",
+      "translation": "^0000CCGereksinim:^000000"
+    },
+    {
+      "id": "label_armor_level",
+      "type": "literal",
+      "source": "^0000CCArmor Level:^000000",
+      "translation": "^0000CCZirh Seviyesi:^000000"
+    },
+    {
+      "id": "label_position",
+      "type": "literal",
+      "source": "^0000CCPosition:^000000",
+      "translation": "^0000CCKonum:^000000"
+    },
+    {
+      "id": "label_type",
+      "type": "literal",
+      "source": "^0000CCType:^000000",
+      "translation": "^0000CCTur:^000000"
+    },
+    {
+      "id": "label_defense",
+      "type": "literal",
+      "source": "^0000CCDefense:^000000",
+      "translation": "^0000CCSavunma:^000000"
+    },
+    {
+      "id": "label_weapon_level",
+      "type": "literal",
+      "source": "^0000CCWeapon Level:^000000",
+      "translation": "^0000CCSilah Seviyesi:^000000"
+    },
+    {
+      "id": "label_refineable",
+      "type": "literal",
+      "source": "^0000CCRefineable:^000000",
+      "translation": "^0000CCGelistirilebilir:^000000"
+    },
+    {
+      "id": "label_compound_on",
+      "type": "literal",
+      "source": "^0000CCCompound on:^000000",
+      "translation": "^0000CCTakma Yeri:^000000"
+    },
+    {
+      "id": "label_enchanted_by",
+      "type": "literal",
+      "source": "^0000CCCan be enchanted by:^000000",
+      "translation": "^0000CCEnchant Eden:^000000"
+    },
+    {
+      "id": "grade_bonus",
+      "type": "literal",
+      "source": "^CC3D3D[Grade Bonus]^000000",
+      "translation": "^CC3D3D[Grade Bonusu]^000000"
+    },
+    {
+      "id": "rental_item",
+      "type": "literal",
+      "source": "^000088Rental Item^000000",
+      "translation": "^000088Kiralik Esya^000000"
+    },
+    {
+      "id": "not_refundable",
+      "type": "literal",
+      "source": "^FF0000This item is not refundable.^000000",
+      "translation": "^FF0000Bu esya iade edilemez.^000000"
+    },
+    {
+      "id": "indestructible",
+      "type": "literal",
+      "source": "^663399Indestructible in battle^000000",
+      "translation": "^663399Savasta kirilmaz^000000"
+    },
+    {
+      "id": "magnifier_identify",
+      "type": "literal",
+      "source": "Can be identified by using a ^990099Magnifier^000000.",
+      "translation": "^990099Magnifier^000000 kullanilarak tanimlanabilir."
+    },
+    {
+      "id": "all_jobs_except_novice",
+      "type": "literal",
+      "source": "All Jobs except Novice",
+      "translation": "Novice haric tum Joblar"
+    },
+    {
+      "id": "requirement_none",
+      "type": "literal",
+      "source": "Gereksinim:^000000 None",
+      "translation": "Gereksinim:^000000 Yok"
+    },
+    {
+      "id": "position_upper",
+      "type": "literal",
+      "source": "Konum:^000000 Upper",
+      "translation": "Konum:^000000 Ust"
+    },
+    {
+      "id": "position_middle",
+      "type": "literal",
+      "source": "Konum:^000000 Middle",
+      "translation": "Konum:^000000 Orta"
+    },
+    {
+      "id": "position_lower",
+      "type": "literal",
+      "source": "Konum:^000000 Lower",
+      "translation": "Konum:^000000 Alt"
+    },
+    {
+      "id": "refine_level_value",
+      "type": "regex",
+      "pattern": "\\^0000FFRefine Level \\+(\\d+)\\^000000:",
+      "replacement": "^0000FFGelistirme Seviyesi +\\1^000000:"
+    },
+    {
+      "id": "each_refine_level",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level\\^000000:",
+      "replacement": "^0000FFHer Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "each_n_refine_levels",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each (\\d+) Refine Levels\\^000000:",
+      "replacement": "^0000FFHer \\1 Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "base_level",
+      "type": "regex",
+      "pattern": "Base Level (\\d+)",
+      "replacement": "Temel Seviye \\1"
+    },
+    {
+      "id": "variable_cast",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time by (\\d+)%\\.",
+      "replacement": "Degisken kullanma suresini %\\1 azaltir."
+    },
+    {
+      "id": "after_skill_delay",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by (\\d+)%\\.",
+      "replacement": "Beceri sonrasi gecikmeyi %\\1 azaltir."
+    }
+  ]
+}

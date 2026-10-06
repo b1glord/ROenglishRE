@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.35.0
+Version: 2.36.0
 Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -171,3 +171,5 @@ Gercek item localization kaynagi `Translation/Renewal/SystemEN/LuaFiles514/itemI
 
 
 Item audit sonucu: 26793 item kaydi icinde 53586 gorunen ad stringi ve 330659 gorunen aciklama stringi olmak uzere toplam 384245 oyuncu-gorunur string vardir. Bu nedenle item localization, kitaplardan ayri buyuk veri migration modulu olarak ele alinacaktir.
+
+- `item_info`: item adlari canonical tutulur; description alanlarinda tekrar eden metadata ve sistem cumleleri `TurkuazTR/config/iteminfo-rules.json` ile byte-safe Turkcelestirilir. Kaynak dosya decode edilmeden korunur.
