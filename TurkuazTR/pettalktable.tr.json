@@ -3,17 +3,17 @@
     "path": "/ROenglishRE/TurkuazTR/pettalktable.tr.json",
     "purpose": "Anlami net ve encoding sorunu olmayan pet konusmalarini exact-source overlay ile ASCII Turkceye cevirir",
     "module": "Translation Patch - JSON",
-    "version": "1.9.0",
-    "description": "pettalktable.xml icindeki 3539 guvenli benzersiz ifadeyi 4595 exact kaynak satirinda Turkcelestirir; bozuk/kesik kaynaklar recovery havuzunda kalir",
+    "version": "1.10.0",
+    "description": "pettalktable.xml icindeki 3678 guvenli benzersiz ifadeyi 4734 exact kaynak satirinda Turkcelestirir; bozuk/kesik kaynaklar recovery havuzunda kalir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/pettalktable.xml",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2266d8c48e81befd7a6a03d11a58aad8e5c7b0cb",
   "source_line_count": 7344,
-  "patch_count": 4595,
-  "unique_phrase_count": 3539,
-  "scope": "safe_readable_ascii_phrases_v10",
+  "patch_count": 4734,
+  "unique_phrase_count": 3678,
+  "scope": "safe_readable_ascii_phrases_v11",
   "patches": {
     "5": {
       "source_en": "\t\t\t<feeding>\tNot bad, what else ya got?\t</feeding>",
@@ -14323,6 +14323,14 @@
       "source_en": "\t\t\t<dead>\tYou cannot always win, right?\t</dead>",
       "translation_tr": "\t\t\t<dead>\tHer zaman kazanamazsin, degil mi?\t</dead>"
     },
+    "3995": {
+      "source_en": "\t\t\t<dead>\tDon't give up! You can try again!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tPes etme! Tekrar deneyebilirsin!\t</dead>"
+    },
+    "3996": {
+      "source_en": "\t\t\t<stand>\tWell.. What should I start with today??\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tPeki.. Bugun neyle baslamaliyim??\t</stand>"
+    },
     "3997": {
       "source_en": "\t\t\t<stand>\tOk? OK?? Let's go eat together~\t</stand>",
       "translation_tr": "\t\t\t<stand>\tTamam? TAMAM?? Hadi birlikte yemek yiyelim~\t</stand>"
@@ -14359,9 +14367,29 @@
       "source_en": "\t\t\t<perfor_s>\tDon't you hear the carol?\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tNoel sarkisini duymuyor musun?\t</perfor_s>"
     },
+    "4008": {
+      "source_en": "\t\t\t<feeding>\tT.T Too FULL... That's too much....\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tT.T Cok TOKUM... Bu cok fazla....\t</feeding>"
+    },
+    "4009": {
+      "source_en": "\t\t\t<feeding>\tEating alot isn't always good..\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tCok yemek her zaman iyi degildir..\t</feeding>"
+    },
+    "4010": {
+      "source_en": "\t\t\t<hunting>\tSince I have full a stomach, I can help you with hunting!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tMidem dolu olduguna gore avda sana yardim edebilirim!\t</hunting>"
+    },
+    "4011": {
+      "source_en": "\t\t\t<hunting>\t... Too full....I will fall down...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t... Cok tokum.... Duzecegim...\t</hunting>"
+    },
     "4012": {
       "source_en": "\t\t\t<danger>\tToo dangerous! Let's retreat for now!\t</danger>",
       "translation_tr": "\t\t\t<danger>\tCok tehlikeli! Simdilik geri cekilelim!\t</danger>"
+    },
+    "4013": {
+      "source_en": "\t\t\t<danger>\tGot dangerous~! Take your potion fast!!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tTehlikeli oldu~! Iksirini cabuk kullan!!\t</danger>"
     },
     "4014": {
       "source_en": "\t\t\t<dead>\tDon't die...T.T\t</dead>",
@@ -14411,6 +14439,30 @@
       "source_en": "\t\t\t<perfor_s>\tDon't you hear the carol?\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tNoel sarkisini duymuyor musun?\t</perfor_s>"
     },
+    "4028": {
+      "source_en": "\t\t\t<feeding>\tOMG... No more!! Body is too heavy... </feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAman tanrim... Daha fazla yok!! Bedenim cok agir... </feeding>"
+    },
+    "4029": {
+      "source_en": "\t\t\t<feeding>\tI feel dying here!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBurada olecek gibi hissediyorum!\t</feeding>"
+    },
+    "4030": {
+      "source_en": "\t\t\t<hunting>\tI have to make empty stomach for fast attack...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tHizli saldiri icin midemi bosaltmam gerek...\t</hunting>"
+    },
+    "4031": {
+      "source_en": "\t\t\t<hunting>\tNextNextNextNext!!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSonrakiSonrakiSonrakiSonraki!!\t</hunting>"
+    },
+    "4032": {
+      "source_en": "\t\t\t<danger>\tIn this kind of situation, I really want to take out all candies from my stomach. Should be alot.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBoyle bir durumda midemdeki tum sekerleri cikarmak istiyorum. Cok olmali.\t</danger>"
+    },
+    "4033": {
+      "source_en": "\t\t\t<danger>\tYou're gonna die! Too dangerous!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOleceksin! Cok tehlikeli!\t</danger>"
+    },
     "4034": {
       "source_en": "\t\t\t<dead>\tDon't die...T.T\t</dead>",
       "translation_tr": "\t\t\t<dead>\tOlme...T.T\t</dead>"
@@ -14422,6 +14474,10 @@
     "4036": {
       "source_en": "\t\t\t<stand>\tMas..ter... I feel little hungry...\t</stand>",
       "translation_tr": "\t\t\t<stand>\tEfen..dim... biraz aciktim...\t</stand>"
+    },
+    "4037": {
+      "source_en": "\t\t\t<stand>\tLet's go eat together~~ ok? OK??\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHadi birlikte yemek yiyelim~~ tamam mi? TAMAM??\t</stand>"
     },
     "4038": {
       "source_en": "\t\t\t<connect>\tHi! I was waiting for you to eat together~\t</connect>",
@@ -14455,6 +14511,62 @@
       "source_en": "\t\t\t<perfor_s>\tDon't you hear the carol?\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tNoel sarkisini duymuyor musun?\t</perfor_s>"
     },
+    "4050": {
+      "source_en": "\t\t\t<feeding>\tI'm hungry. Give me something to eat. Or else I will go on strike.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAcim. Bana yiyecek bir sey ver. Yoksa greve giderim.\t</feeding>"
+    },
+    "4051": {
+      "source_en": "\t\t\t<feeding>\tI would have left you long ago if I was hungrier.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDaha ac olsaydim seni coktan birakmistim.\t</feeding>"
+    },
+    "4052": {
+      "source_en": "\t\t\t<hunting>\tYes, that's it!! Good!! But is it a long time until mealtime?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tEvet, iste bu!! Guzel!! Ama yemek saatine daha cok var mi?\t</hunting>"
+    },
+    "4053": {
+      "source_en": "\t\t\t<hunting>\tWhoa... Nice. Only thing left is for me to be fed.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tVay... Guzel. Geriye sadece benim beslenmem kaldi.\t</hunting>"
+    },
+    "4054": {
+      "source_en": "\t\t\t<danger>\tHey... you sure? Looks dangerous. Go kill yourself but will you feed me before you do that?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey... emin misin? Tehlikeli gorunuyor. Git kendini oldurt ama once beni besler misin?\t</danger>"
+    },
+    "4055": {
+      "source_en": "\t\t\t<danger>\tHey, be careful. Nobody will feed me if the KP is gone.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey, dikkat et. KP giderse beni kimse beslemez.\t</danger>"
+    },
+    "4056": {
+      "source_en": "\t\t\t<dead>\tGet up! I'm hungry. Get up now!! KP!!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tKalk! Acim. Simdi kalk!! KP!!\t</dead>"
+    },
+    "4057": {
+      "source_en": "\t\t\t<dead>\tKP!! You'll freeze to death falling asleep here!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tKP!! Burada uyursan donarak olursun!\t</dead>"
+    },
+    "4058": {
+      "source_en": "\t\t\t<stand>\tKP! You're drooling all over the food. Give me food!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tKP! Yemegin ustune salya akitiyorsun. Bana yemek ver!!\t</stand>"
+    },
+    "4059": {
+      "source_en": "\t\t\t<stand>\tAren't there any REAL KPs that can feed me instead of one that just stands there? Hold up your hand where I can see it!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSadece dikilen biri yerine beni besleyecek GERCEK bir KP yok mu? Elini gorebilecegim yere kaldir!!\t</stand>"
+    },
+    "4060": {
+      "source_en": "\t\t\t<connect>\tNow you're here? I'm so tired from waiting. Feed me!!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSimdi mi geldin? Beklemekten cok yoruldum. Beni besle!!\t</connect>"
+    },
+    "4061": {
+      "source_en": "\t\t\t<connect>\tSniff, sniff. Oh... this smell... did you eat something yourself?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tKoklar, koklar. Ah... bu koku... kendi basina bir sey mi yedin?\t</connect>"
+    },
+    "4062": {
+      "source_en": "\t\t\t<levelup>\tWhoa- you've become stronger. Congratulations. Now let's eat, OK?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tVay- daha guclu oldun. Tebrikler. Simdi yemek yiyelim, tamam mi?\t</levelup>"
+    },
+    "4063": {
+      "source_en": "\t\t\t<levelup>\tBah- I'm hungry I could die and you come here all healthy, do you? Must feel good, right? Hmph?!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBah- acliktan olebilirim, sen ise sapasaglam geliyorsun. Iyi hissediyorsundur, degil mi? Hmph?!\t</levelup>"
+    },
     "4064": {
       "source_en": "\t\t\t<perfor_1>\tSummoning circle! Appear before me!!\t</perfor_1>",
       "translation_tr": "\t\t\t<perfor_1>\tCagirma cemberi! Karsimda belir!!\t</perfor_1>"
@@ -14471,6 +14583,62 @@
       "source_en": "\t\t\t<perfor_s>\tMunch, munch. I'd better be off eating air at least.\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tHam ham. Bari gidip hava yiyeyim.\t</perfor_s>"
     },
+    "4070": {
+      "source_en": "\t\t\t<feeding>\tI think it's time to eat. Don't you think so?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBence yemek zamani geldi. Sence de oyle degil mi?\t</feeding>"
+    },
+    "4071": {
+      "source_en": "\t\t\t<feeding>\tMunch, munch. Chew, chew. Hmm... Not bad for a quick mix.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHam ham. Cigne cigne. Hmm... Hizli bir karisim icin fena degil.\t</feeding>"
+    },
+    "4072": {
+      "source_en": "\t\t\t<hunting>\tGreat job at battle. Should we eat now?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSavasta harika is. Simdi yemek yiyelim mi?\t</hunting>"
+    },
+    "4073": {
+      "source_en": "\t\t\t<hunting>\tThere is a saying that a great soldier never battles on an empty stomach. Let's eat.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBuyuk asker bos mideyle savasmaz derler. Hadi yiyelim.\t</hunting>"
+    },
+    "4074": {
+      "source_en": "\t\t\t<danger>\tHuh... what... whoa? Wha?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHa... ne... vay? Ne?\t</danger>"
+    },
+    "4075": {
+      "source_en": "\t\t\t<danger>\tFeh- spit! You like this kind of excitement? Huh?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tFeh- tukurur! Boyle heyecani seviyor musun? Ha?\t</danger>"
+    },
+    "4076": {
+      "source_en": "\t\t\t<dead>\tFeh- spit! Come all at once. I fight better than a KP!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tFeh- tukurur! Hepiniz birden gelin. KP'den daha iyi savasirim!\t</dead>"
+    },
+    "4077": {
+      "source_en": "\t\t\t<dead>\tBetter than nothing. Shall we return to the village for now?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHic yoktan iyidir. Simdilik koyumuze donelim mi?\t</dead>"
+    },
+    "4078": {
+      "source_en": "\t\t\t<stand>\tOne! Two! Three! I wasn't just born with these powerful arms and legs of mine.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBir! Iki! Uc! Bu guclu kol ve bacaklarla dogustan gelmedim.\t</stand>"
+    },
+    "4079": {
+      "source_en": "\t\t\t<stand>\tHey. What are you doing, KP? Thinking of your girl back home?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey. Ne yapiyorsun KP? Evdeki kizini mi dusunuyorsun?\t</stand>"
+    },
+    "4080": {
+      "source_en": "\t\t\t<connect>\tOh... met just at the right time. I've found a great restaurant. Let's go there today.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAh... tam zamaninda geldin. Harika bir restoran buldum. Bugun oraya gidelim.\t</connect>"
+    },
+    "4081": {
+      "source_en": "\t\t\t<connect>\tGood morning! Oh, it's not morning?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tGunaydin! Ah, sabah degil mi?\t</connect>"
+    },
+    "4082": {
+      "source_en": "\t\t\t<levelup>\tNot bad for a KP. I think all you need to do is feed me right.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBir KP icin fena degil. Bence tek yapman gereken beni duzgun beslemek.\t</levelup>"
+    },
+    "4083": {
+      "source_en": "\t\t\t<levelup>\tHuk! Huk! Beautiful angel.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHuk! Huk! Guzel melek.\t</levelup>"
+    },
     "4085": {
       "source_en": "\t\t\t<perfor_2>\tMunch, munch. Ha... hmm... nice scent.\t</perfor_2>",
       "translation_tr": "\t\t\t<perfor_2>\tHam ham. Ha... hmm... guzel koku.\t</perfor_2>"
@@ -14478,6 +14646,62 @@
     "4087": {
       "source_en": "\t\t\t<perfor_s>\tMunch, munch. Ha... hmm... nice scent.\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tHam ham. Ha... hmm... guzel koku.\t</perfor_s>"
+    },
+    "4090": {
+      "source_en": "\t\t\t<feeding>\tMorning! Lunch! Dinner! Are the most important meals of a day.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tKahvalti! Ogle yemegi! Aksam yemegi! Gunun en onemli ogunleridir.\t</feeding>"
+    },
+    "4091": {
+      "source_en": "\t\t\t<feeding>\tMust chew at least 30 times with each bite!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHer lokmayi en az 30 kez cignemelisin!\t</feeding>"
+    },
+    "4092": {
+      "source_en": "\t\t\t<hunting>\tBeen through a lot. Keep on and you'll soon...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tCok sey atlattin. Devam et, yakinda...\t</hunting>"
+    },
+    "4093": {
+      "source_en": "\t\t\t<hunting>\tGood! Be strong soon.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tGuzel! Cabuk guclen.\t</hunting>"
+    },
+    "4094": {
+      "source_en": "\t\t\t<danger>\tPotion! Potion! What will you do without me?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tIksir! Iksir! Ben olmasam ne yapardin?\t</danger>"
+    },
+    "4095": {
+      "source_en": "\t\t\t<danger>\tDefinitely! If not now, then sometime in the future. Now let's retreat?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tKesinlikle! Simdi degilse gelecekte. Simdi geri cekilelim mi?\t</danger>"
+    },
+    "4096": {
+      "source_en": "\t\t\t<dead>\tDon't be too disappointed. There are days like this.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCok hayal kirikligina ugrma. Boyle gunler olur.\t</dead>"
+    },
+    "4097": {
+      "source_en": "\t\t\t<dead>\tDon't forget today's shame.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBugunku utanci unutma.\t</dead>"
+    },
+    "4098": {
+      "source_en": "\t\t\t<stand>\tLoyalty!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSadakat!!\t</stand>"
+    },
+    "4099": {
+      "source_en": "\t\t\t<stand>\tAge two! Tikbalang! Reporting for duty.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tIki yasinda! Tikbalang! Goreve hazir.\t</stand>"
+    },
+    "4100": {
+      "source_en": "\t\t\t<connect>\tWhat shall I do today? Please let me know my schedule.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBugun ne yapacagim? Lutfen programimi soyle.\t</connect>"
+    },
+    "4101": {
+      "source_en": "\t\t\t<connect>\tYou'll need some rest and also some breadth of mind. No need to rush through things.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBiraz dinlenmeye ve sakinlige ihtiyacin var. Acele etmene gerek yok.\t</connect>"
+    },
+    "4102": {
+      "source_en": "\t\t\t<levelup>\tCongratulations. I'd better do my best not to fall back.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tTebrikler. Geri kalmamak icin elimden geleni yapmaliyim.\t</levelup>"
+    },
+    "4103": {
+      "source_en": "\t\t\t<levelup>\tHe he he~ Beautiful angel~ you are so pretty.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHe he he~ Guzel melek~ cok guzelsin.\t</levelup>"
     },
     "4104": {
       "source_en": "\t\t\t<perfor_1>\tI know someone with a horse. I'll try to summon him.\t</perfor_1>",
@@ -14495,6 +14719,62 @@
       "source_en": "\t\t\t<perfor_s>\tMunch, munch. Delicious~\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tHam ham. Lezzetli~\t</perfor_s>"
     },
+    "4110": {
+      "source_en": "\t\t\t<feeding>\tHey, KP! I think there is too much food today.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHey KP! Bugun cok fazla yemek var gibi.\t</feeding>"
+    },
+    "4111": {
+      "source_en": "\t\t\t<feeding>\tThere is a lot of food today. Did we get supplies?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBugun cok yemek var. Erzak mi aldik?\t</feeding>"
+    },
+    "4112": {
+      "source_en": "\t\t\t<hunting>\tCan't move cause I'm too full. KP, go and fight instead of me.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tCok tok oldugum icin hareket edemiyorum. KP, benim yerime sen savas.\t</hunting>"
+    },
+    "4113": {
+      "source_en": "\t\t\t<hunting>\tOuch! My armor broke because I ate too much.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tAyy! Cok yedigim icin zirhim kirildi.\t</hunting>"
+    },
+    "4114": {
+      "source_en": "\t\t\t<danger>\tAren't you overconfident about your ability? Don't push it.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tYetenegine fazla guvenmiyor musun? Zorlama.\t</danger>"
+    },
+    "4115": {
+      "source_en": "\t\t\t<danger>\tWhy not take a potion instead of enduring it?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tDayanmak yerine neden iksir kullanmiyorsun?\t</danger>"
+    },
+    "4116": {
+      "source_en": "\t\t\t<dead>\tI won't forget our memories together.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBirlikteki anilarimizi unutmayacagim.\t</dead>"
+    },
+    "4117": {
+      "source_en": "\t\t\t<dead>\tArgh... It's because I ate too much!!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tArgh... Cok yedigim icin oldu!!\t</dead>"
+    },
+    "4118": {
+      "source_en": "\t\t\t<stand>\tI'm full now and have nothing else to do. How about snack time.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSimdi tokum ve yapacak bir seyim yok. Atistirmalik zamani nasil olur?\t</stand>"
+    },
+    "4119": {
+      "source_en": "\t\t\t<stand>\tKP! Hey! Get a hold of yourself! You can't just sleep here when you are full.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tKP! Hey! Kendine gel! Tokken burada uyuyamazsin.\t</stand>"
+    },
+    "4120": {
+      "source_en": "\t\t\t<connect>\tYou here? What is this menu?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tGeldin mi? Bu menu ne?\t</connect>"
+    },
+    "4121": {
+      "source_en": "\t\t\t<connect>\tI've thought it over. I think you should rest today.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tDusundum de, bugun dinlenmelisin.\t</connect>"
+    },
+    "4122": {
+      "source_en": "\t\t\t<levelup>\tOh- it's about time you leveled up. Congratulations.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tAh- level atlama zamanin gelmisti. Tebrikler.\t</levelup>"
+    },
+    "4123": {
+      "source_en": "\t\t\t<levelup>\tUgh... I can't get over your beauty, Beautiful Angel.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOff... Guzelligine doyamiyorum, Guzel Melek.\t</levelup>"
+    },
     "4124": {
       "source_en": "\t\t\t<perfor_1>\tI've always practiced summoning, but never succeeded.\t</perfor_1>",
       "translation_tr": "\t\t\t<perfor_1>\tHer zaman cagirma calistim ama hic basaramadim.\t</perfor_1>"
@@ -14510,6 +14790,62 @@
     "4127": {
       "source_en": "\t\t\t<perfor_s>\tBeat! Box! Booooooxxx! Beat! These are the only 2 words you need to know to beatbox.\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tBeat! Box! Booooooxxx! Beat! Beatbox icin bilmen gereken tek iki kelime bunlar.\t</perfor_s>"
+    },
+    "4130": {
+      "source_en": "\t\t\t<feeding>\tHuk... Huk... I... I can't take it anymore.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHuk... Huk... Ben... artik dayanamiyorum.\t</feeding>"
+    },
+    "4131": {
+      "source_en": "\t\t\t<feeding>\tK... KP... do you plan to kill me?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tK... KP... beni oldurmeyi mi planliyorsun?\t</feeding>"
+    },
+    "4132": {
+      "source_en": "\t\t\t<hunting>\tAlright! Run! Yes! That's it!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tTamam! Kos! Evet! Iste bu!\t</hunting>"
+    },
+    "4133": {
+      "source_en": "\t\t\t<hunting>\tHurry! Hurry! Hurry! Hurry! Hurry!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tCabuk! Cabuk! Cabuk! Cabuk! Cabuk!\t</hunting>"
+    },
+    "4134": {
+      "source_en": "\t\t\t<danger>\tArgh... I'd like to share the food in my belly with you.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tArgh... Karnimdaki yemegi seninle paylasmak isterdim.\t</danger>"
+    },
+    "4135": {
+      "source_en": "\t\t\t<danger>\tYou much have 9 lives.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tDokuz canin olmali.\t</danger>"
+    },
+    "4136": {
+      "source_en": "\t\t\t<dead>\tKP! I will never forget you. Ugh...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tKP! Seni asla unutmayacagim. Off...\t</dead>"
+    },
+    "4137": {
+      "source_en": "\t\t\t<dead>\tMedic!! No medic around? Medic!!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tMedic!! Etrafta medic yok mu? Medic!!\t</dead>"
+    },
+    "4138": {
+      "source_en": "\t\t\t<stand>\tWhat are you dazing at? Let's work this off!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tNeye dalip gittin? Hadi bunu yakalim!!\t</stand>"
+    },
+    "4139": {
+      "source_en": "\t\t\t<stand>\tHa ha ha ha! I'm the great Tikbalang!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHa ha ha ha! Ben buyuk Tikbalang'im!\t</stand>"
+    },
+    "4140": {
+      "source_en": "\t\t\t<connect>\tWelcome. Nice to meet you.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHos geldin. Tanistigimiza memnun oldum.\t</connect>"
+    },
+    "4141": {
+      "source_en": "\t\t\t<connect>\tFeels like its been a long time, no?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tUzun zaman olmus gibi, degil mi?\t</connect>"
+    },
+    "4142": {
+      "source_en": "\t\t\t<levelup>\tLove you! Beautiful Angel!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSeni seviyorum! Guzel Melek!\t</levelup>"
+    },
+    "4143": {
+      "source_en": "\t\t\t<levelup>\tBeautiful Angel- You are even more beautiful today than yesterday!! He he-\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuzel Melek- Bugun dunden bile daha guzelsin!! He he-\t</levelup>"
     },
     "4144": {
       "source_en": "\t\t\t<perfor_1>\tSummoning is difficult. Or maybe I used too little INT?\t</perfor_1>",
@@ -14527,6 +14863,26 @@
       "source_en": "\t\t\t<perfor_s>\tUgh... Did I eat too much? I feel like throwing up.\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tOff... Cok mu yedim? Kusacak gibi hissediyorum.\t</perfor_s>"
     },
+    "4152": {
+      "source_en": "\t\t\t<feeding>\tThank you, i really appreciate it!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTesekkurler, gercekten minnettarim!\t</feeding>"
+    },
+    "4153": {
+      "source_en": "\t\t\t<feeding>\tYou saved me!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBeni kurtardin!\t</feeding>"
+    },
+    "4154": {
+      "source_en": "\t\t\t<feeding>\tI feel overflowing energy!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTasan bir enerji hissediyorum!\t</feeding>"
+    },
+    "4155": {
+      "source_en": "\t\t\t<feeding>\tIt's so, Korekore! Tasty!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tIste bu, Korekore! Lezzetli!\t</feeding>"
+    },
+    "4156": {
+      "source_en": "\t\t\t<hunting>\tIt's about time for you to feed me! I feel so powerless!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBeni beslemenin zamani geldi! Kendimi cok gucsuz hissediyorum!\t</hunting>"
+    },
     "4157": {
       "source_en": "\t\t\t<hunting>\tI feel so exhausted, can we take a break?!\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tCok yoruldum, biraz ara verebilir miyiz?!\t</hunting>"
@@ -14539,9 +14895,41 @@
       "source_en": "\t\t\t<hunting>\tThe most important thing in this world is a strong body!\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tBu dunyadaki en onemli sey guclu bir bedendir!\t</hunting>"
     },
+    "4160": {
+      "source_en": "\t\t\t<danger>\tI wonder, if this the right time to flee?!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAcaba kacmak icin dogru zaman bu mu?!\t</danger>"
+    },
+    "4161": {
+      "source_en": "\t\t\t<danger>\tThis fight is impossible!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBu savas imkansiz!\t</danger>"
+    },
+    "4162": {
+      "source_en": "\t\t\t<danger>\tHey, this gonna be dangerous if you don't recover your wound!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey, yarani iyilestirmezsen bu tehlikeli olacak!\t</danger>"
+    },
+    "4163": {
+      "source_en": "\t\t\t<danger>\tYou will die if you don't treat your wound!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tYarani tedavi etmezsen oleceksin!\t</danger>"
+    },
+    "4164": {
+      "source_en": "\t\t\t<dead>\tWhat a pity...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tNe yazik...\t</dead>"
+    },
     "4165": {
       "source_en": "\t\t\t<dead>\tYou should know your limit...\t</dead>",
       "translation_tr": "\t\t\t<dead>\tSinirini bilmelisin...\t</dead>"
+    },
+    "4166": {
+      "source_en": "\t\t\t<dead>\tGood bye...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHosca kal...\t</dead>"
+    },
+    "4167": {
+      "source_en": "\t\t\t<stand>\tWill you give me food?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBana yemek verecek misin?\t</stand>"
+    },
+    "4168": {
+      "source_en": "\t\t\t<stand>\tHey! that's some tasty stone over there!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey! Orada lezzetli bir tas var!\t</stand>"
     },
     "4169": {
       "source_en": "\t\t\t<stand>\tSigh.... no edible stone around here\t</stand>",
@@ -14558,6 +14946,26 @@
     "4172": {
       "source_en": "\t\t\t<stand>\t*pant* *pant*...Can you give me some stone?\t</stand>",
       "translation_tr": "\t\t\t<stand>\t*nefes nefese*... Bana biraz tas verebilir misin?\t</stand>"
+    },
+    "4173": {
+      "source_en": "\t\t\t<connect>\tDid you come to give me food?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBana yemek vermeye mi geldin?\t</connect>"
+    },
+    "4174": {
+      "source_en": "\t\t\t<connect>\tHoho, it's meal time!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHoho, yemek zamani!\t</connect>"
+    },
+    "4175": {
+      "source_en": "\t\t\t<connect>\tI'm glad you come, i feel reduced bloody circulation in my belly!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tGeldigine sevindim, karnimda kan dolasimi azalmis gibi!\t</connect>"
+    },
+    "4176": {
+      "source_en": "\t\t\t<connect>\tYou finally come!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSonunda geldin!\t</connect>"
+    },
+    "4177": {
+      "source_en": "\t\t\t<connect>\tI've waiting you for a long time!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSeni uzun zamandir bekliyordum!\t</connect>"
     },
     "4178": {
       "source_en": "\t\t\t<levelup>\tCongratulations! I hope i can be as strong as you.\t</levelup>",
@@ -14598,6 +15006,18 @@
     "4187": {
       "source_en": "\t\t\t<perfor_3>\tI feel powerful force near me!\t</perfor_3>",
       "translation_tr": "\t\t\t<perfor_3>\tYakinimda guclu bir kuvvet hissediyorum!\t</perfor_3>"
+    },
+    "4190": {
+      "source_en": "\t\t\t<feeding>\tYou saved me once again!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBeni bir kez daha kurtardin!\t</feeding>"
+    },
+    "4191": {
+      "source_en": "\t\t\t<feeding>\tBest timing!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMukemmel zamanlama!\t</feeding>"
+    },
+    "4192": {
+      "source_en": "\t\t\t<feeding>\tNow i can use my power!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSimdi gucumu kullanabilirim!\t</feeding>"
     },
     "4193": {
       "source_en": "\t\t\t<hunting>\tHey it's dinner time!\t</hunting>",
@@ -14731,6 +15151,26 @@
       "source_en": "\t\t\t<perfor_3>\tI feel powerful force near me!\t</perfor_3>",
       "translation_tr": "\t\t\t<perfor_3>\tYakinimda guclu bir kuvvet hissediyorum!\t</perfor_3>"
     },
+    "4228": {
+      "source_en": "\t\t\t<feeding>\tMy power is now restored!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tGucum simdi geri geldi!!\t</feeding>"
+    },
+    "4229": {
+      "source_en": "\t\t\t<feeding>\tI feel so slim\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tKendimi cok ince hissediyorum\t</feeding>"
+    },
+    "4230": {
+      "source_en": "\t\t\t<feeding>\tIt has nice taste!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTadi guzel!\t</feeding>"
+    },
+    "4231": {
+      "source_en": "\t\t\t<feeding>\tI feel so slim...again\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tYine kendimi cok ince hissediyorum...\t</feeding>"
+    },
+    "4232": {
+      "source_en": "\t\t\t<feeding>\tIt's good...though not delicious\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tGuzel... ama lezzetli degil\t</feeding>"
+    },
     "4233": {
       "source_en": "\t\t\t<hunting>\tHey it's dinner time!\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tHey, aksam yemegi zamani!\t</hunting>"
@@ -14807,6 +15247,10 @@
       "source_en": "\t\t\t<stand>\t*pant* *pant*...Can you give me some stone?\t</stand>",
       "translation_tr": "\t\t\t<stand>\t*nefes nefese*... Bana biraz tas verebilir misin?\t</stand>"
     },
+    "4252": {
+      "source_en": "\t\t\t<stand>\tDid you know? Elunium has good taste! You should try it!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBiliyor muydun? Elunium'un tadi guzel! Denemelisin!\t</stand>"
+    },
     "4253": {
       "source_en": "\t\t\t<connect>\tCome come! Fill this belly!\t</connect>",
       "translation_tr": "\t\t\t<connect>\tGel gel! Su karnimi doldur!\t</connect>"
@@ -14867,6 +15311,30 @@
       "source_en": "\t\t\t<perfor_3>\tI feel powerful force near me!\t</perfor_3>",
       "translation_tr": "\t\t\t<perfor_3>\tYakinimda guclu bir kuvvet hissediyorum!\t</perfor_3>"
     },
+    "4270": {
+      "source_en": "\t\t\t<feeding>\tI feel so great today!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBugun kendimi harika hissediyorum!\t</feeding>"
+    },
+    "4271": {
+      "source_en": "\t\t\t<feeding>\tUuuuuuuo uuuuuo! Strong body is filled with magic now!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tUuuuuuuo uuuuuo! Guclu bedenim simdi buyuyle dolu!\t</feeding>"
+    },
+    "4272": {
+      "source_en": "\t\t\t<feeding>\tIt's fighting time!! Let's go!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSavas zamani!! Hadi gidelim!\t</feeding>"
+    },
+    "4273": {
+      "source_en": "\t\t\t<feeding>\tAt last! my magic power is restored!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSonunda! Buyu gucum geri geldi!\t</feeding>"
+    },
+    "4274": {
+      "source_en": "\t\t\t<feeding>\tBurp! I feel so full!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tGeer! Cok tok hissediyorum!\t</feeding>"
+    },
+    "4275": {
+      "source_en": "\t\t\t<hunting>\tDid you know having a strong body is important?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tGuclu bir bedene sahip olmanin onemli oldugunu biliyor muydun?\t</hunting>"
+    },
     "4276": {
       "source_en": "\t\t\t<hunting>\tNice hit!\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tGuzel vurus!\t</hunting>"
@@ -14918,6 +15386,10 @@
     "4288": {
       "source_en": "\t\t\t<dead>\tIt's time to rematch! c'mon get up!\t</dead>",
       "translation_tr": "\t\t\t<dead>\tRovans zamani! Hadi kalk!\t</dead>"
+    },
+    "4289": {
+      "source_en": "\t\t\t<stand>\tIt's good we spent time without moving~\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHareketsiz zaman gecirmemiz iyi oldu~\t</stand>"
     },
     "4290": {
       "source_en": "\t\t\t<stand>\tCan you guess, how many cousin do i have?\t</stand>",
@@ -14987,6 +15459,22 @@
       "source_en": "\t\t\t<perfor_3>\tI feel powerful force near me!\t</perfor_3>",
       "translation_tr": "\t\t\t<perfor_3>\tYakinimda guclu bir kuvvet hissediyorum!\t</perfor_3>"
     },
+    "4309": {
+      "source_en": "\t\t\t<feeding>\tI feel so great more than before!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tKendimi oncekinden de harika hissediyorum!\t</feeding>"
+    },
+    "4310": {
+      "source_en": "\t\t\t<feeding>\tThank you! You can have the other stones~\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTesekkurler! Diger taslari sen alabilirsin~\t</feeding>"
+    },
+    "4311": {
+      "source_en": "\t\t\t<feeding>\tFeel so great!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tCok iyi hissediyorum!\t</feeding>"
+    },
+    "4312": {
+      "source_en": "\t\t\t<feeding>\tI'm okay. are you okay too? Good!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBen iyiyim. Sen de iyi misin? Guzel!\t</feeding>"
+    },
     "4313": {
       "source_en": "\t\t\t<hunting>\tNice hit!\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tGuzel vurus!\t</hunting>"
@@ -15051,6 +15539,10 @@
       "source_en": "\t\t\t<stand>\tLast week my cousin, Lava, sent some tasty stone, will you try it?\t</stand>",
       "translation_tr": "\t\t\t<stand>\tGecen hafta kuzenim Lava lezzetli bir tas gonderdi, dener misin?\t</stand>"
     },
+    "4329": {
+      "source_en": "\t\t\t<stand>\tIf you want to have strong body, you have to train hard! and eat stone~\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tGuclu bir beden istiyorsan cok calismali ve tas yemelisin~\t</stand>"
+    },
     "4330": {
       "source_en": "\t\t\t<stand>\tMaybe we should rest in here?\t</stand>",
       "translation_tr": "\t\t\t<stand>\tBelki burada biraz dinlenmeliyiz?\t</stand>"
@@ -15107,6 +15599,30 @@
       "source_en": "\t\t\t<perfor_3>\tI feel powerful force near me!\t</perfor_3>",
       "translation_tr": "\t\t\t<perfor_3>\tYakinimda guclu bir kuvvet hissediyorum!\t</perfor_3>"
     },
+    "4348": {
+      "source_en": "\t\t\t<feeding>\tSomething which has been sleeping inside me finally is wakig up!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tIcimde uyuyan bir sey sonunda uyaniyor!\t</feeding>"
+    },
+    "4349": {
+      "source_en": "\t\t\t<feeding>\tBeelzebub\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBeelzebub\t</feeding>"
+    },
+    "4350": {
+      "source_en": "\t\t\t<hunting>\tShare your kills! Its only polite.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOldurduklerini paylas! Bu nezakettir.\t</hunting>"
+    },
+    "4351": {
+      "source_en": "\t\t\t<hunting>\tPoor unfortunate souls\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tZavalli talihsiz ruhlar\t</hunting>"
+    },
+    "4352": {
+      "source_en": "\t\t\t<danger>\tWhat was that?!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tO neydi?!\t</danger>"
+    },
+    "4353": {
+      "source_en": "\t\t\t<danger>\tOops What's happening? I am falling unconscious\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tWhoops, ne oluyor? Bilincimi kaybediyorum\t</danger>"
+    },
     "4354": {
       "source_en": "\t\t\t<dead>\tDon't worry. No matter how hungry I am, I am not going to eat you.\t</dead>",
       "translation_tr": "\t\t\t<dead>\tEndiselenme. Ne kadar ac olursam olayim seni yemeyecegim.\t</dead>"
@@ -15115,17 +15631,37 @@
       "source_en": "\t\t\t<dead>\tLet's go back together to my hometown\t</dead>",
       "translation_tr": "\t\t\t<dead>\tHadi birlikte memleketime donelim\t</dead>"
     },
+    "4356": {
+      "source_en": "\t\t\t<stand>\tNo that guy started moving around\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHayir, o adam hareket etmeye basladi\t</stand>"
+    },
+    "4357": {
+      "source_en": "\t\t\t<stand>\tIt's so painful\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tCok aciyor\t</stand>"
+    },
     "4358": {
       "source_en": "\t\t\t<stand>\tCan't you hear the screaming?\t</stand>",
       "translation_tr": "\t\t\t<stand>\tCigliklari duymuyor musun?\t</stand>"
+    },
+    "4359": {
+      "source_en": "\t\t\t<connect>\tI was thinking that becoming a demon was not such a bad idea.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tIblis olmanin o kadar da kotu bir fikir olmadigini dusunuyordum.\t</connect>"
     },
     "4360": {
       "source_en": "\t\t\t<connect>\tAgain The time for darkness returns.\t</connect>",
       "translation_tr": "\t\t\t<connect>\tKaranlik zamani yeniden donuyor.\t</connect>"
     },
+    "4361": {
+      "source_en": "\t\t\t<levelup>\tHaha\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHaha\t</levelup>"
+    },
     "4362": {
       "source_en": "\t\t\t<levelup>\tIf you want to survive get stronger\t</levelup>",
       "translation_tr": "\t\t\t<levelup>\tHayatta kalmak istiyorsan guclen\t</levelup>"
+    },
+    "4363": {
+      "source_en": "\t\t\t<perfor_1>\tYou seem disengaged, Well, Enjoy while you can.\t</perfor_1>",
+      "translation_tr": "\t\t\t<perfor_1>\tIlgisiz gorunuyorsun. Neyse, firsatin varken keyfini cikar.\t</perfor_1>"
     },
     "4364": {
       "source_en": "\t\t\t<perfor_1>\tHeh\t</perfor_1>",
@@ -15155,6 +15691,14 @@
       "source_en": "\t\t\t<perfor_s>\tChaos!!!! The chaos is coming!!!!!\t</perfor_s>",
       "translation_tr": "\t\t\t<perfor_s>\tKaos!!!! Kaos geliyor!!!!!\t</perfor_s>"
     },
+    "4373": {
+      "source_en": "\t\t\t<feeding>\tYou cannot appease my vanity like this\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBenim gururumu boyle tatmin edemezsin\t</feeding>"
+    },
+    "4374": {
+      "source_en": "\t\t\t<feeding>\tSilly human\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAptal insan\t</feeding>"
+    },
     "4375": {
       "source_en": "\t\t\t<hunting>\tIs this the best you can do?\t</hunting>",
       "translation_tr": "\t\t\t<hunting>\tYapabildiginin en iyisi bu mu?\t</hunting>"
@@ -15167,6 +15711,10 @@
       "source_en": "\t\t\t<danger>\tI can only go this far\t</danger>",
       "translation_tr": "\t\t\t<danger>\tAncak buraya kadar gelebiliyorum\t</danger>"
     },
+    "4378": {
+      "source_en": "\t\t\t<danger>\tI am not hunting. I am being hunted\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBen avlanmiyorum. Avlaniyorum\t</danger>"
+    },
     "4379": {
       "source_en": "\t\t\t<dead>\tDon't worry. No matter how hungry I am, I am not going to eat you.\t</dead>",
       "translation_tr": "\t\t\t<dead>\tEndiselenme. Ne kadar ac olursam olayim seni yemeyecegim.\t</dead>"
@@ -15174,6 +15722,10 @@
     "4380": {
       "source_en": "\t\t\t<dead>\tLet's go back together to my hometown\t</dead>",
       "translation_tr": "\t\t\t<dead>\tHadi birlikte memleketime donelim\t</dead>"
+    },
+    "4381": {
+      "source_en": "\t\t\t<stand>\tThis feeling of hunger is a proof that I am alive.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBu aclik hissi hayatta oldugumun kaniti.\t</stand>"
     },
     "4382": {
       "source_en": "\t\t\t<stand>\tCan't you hear the screaming?\t</stand>",
@@ -15186,6 +15738,10 @@
     "4384": {
       "source_en": "\t\t\t<connect>\tAgain The time for darkness returns.\t</connect>",
       "translation_tr": "\t\t\t<connect>\tKaranlik zamani yeniden donuyor.\t</connect>"
+    },
+    "4385": {
+      "source_en": "\t\t\t<connect>\tIt was a short rest\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tKisa bir dinlenmeydi\t</connect>"
     },
     "4386": {
       "source_en": "\t\t\t<levelup>\tIf you want to survive get stronger\t</levelup>",
