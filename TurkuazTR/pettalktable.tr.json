@@ -3,7 +3,7 @@
     "path": "/ROenglishRE/TurkuazTR/pettalktable.tr.json",
     "purpose": "Anlami net ve encoding sorunu olmayan pet konusmalarini exact-source overlay ile ASCII Turkceye cevirir",
     "module": "Translation Patch - JSON",
-    "version": "1.15.0",
+    "version": "1.9.0",
     "description": "pettalktable.xml icindeki 3539 guvenli benzersiz ifadeyi 4595 exact kaynak satirinda Turkcelestirir; bozuk/kesik kaynaklar recovery havuzunda kalir",
     "dependency_layer": "Tool"
   },
@@ -13,7 +13,7 @@
   "source_line_count": 7344,
   "patch_count": 4595,
   "unique_phrase_count": 3539,
-  "scope": "safe_readable_ascii_phrases_v16",
+  "scope": "safe_readable_ascii_phrases_v10",
   "patches": {
     "5": {
       "source_en": "\t\t\t<feeding>\tNot bad, what else ya got?\t</feeding>",
