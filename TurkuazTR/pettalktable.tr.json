@@ -3,17 +3,17 @@
     "path": "/ROenglishRE/TurkuazTR/pettalktable.tr.json",
     "purpose": "Anlami net ve encoding sorunu olmayan pet konusmalarini exact-source overlay ile ASCII Turkceye cevirir",
     "module": "Translation Patch - JSON",
-    "version": "1.8.0",
-    "description": "pettalktable.xml icindeki 2006 guvenli benzersiz ifadeyi 3062 exact kaynak satirinda Turkcelestirir; bozuk/kesik kaynaklar recovery havuzunda kalir",
+    "version": "1.9.0",
+    "description": "pettalktable.xml icindeki 2225 guvenli benzersiz ifadeyi 3281 exact kaynak satirinda Turkcelestirir; bozuk/kesik kaynaklar recovery havuzunda kalir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/pettalktable.xml",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2266d8c48e81befd7a6a03d11a58aad8e5c7b0cb",
   "source_line_count": 7344,
-  "patch_count": 3062,
-  "unique_phrase_count": 2006,
-  "scope": "safe_readable_ascii_phrases_v9",
+  "patch_count": 3281,
+  "unique_phrase_count": 2225,
+  "scope": "safe_readable_ascii_phrases_v10",
   "patches": {
     "5": {
       "source_en": "\t\t\t<feeding>\tNot bad, what else ya got?\t</feeding>",
@@ -6414,6 +6414,882 @@
     "1797": {
       "source_en": "\t\t\t<dead>\tWhat happened to you?\t</dead>",
       "translation_tr": "\t\t\t<dead>\tSana ne oldu?\t</dead>"
+    },
+    "1798": {
+      "source_en": "\t\t\t<dead>\tOops... hmmm... wonder if he will notice if I take a little bite out of a leg or something?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tWhoops... hmmm... bacagindan biraz isirsam fark eder mi acaba?\t</dead>"
+    },
+    "1799": {
+      "source_en": "\t\t\t<dead>\tHow could you die stranger? Orc thought you were good.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tNasil oldun yabanci? Orc senin iyi oldugunu dusunuyordu.\t</dead>"
+    },
+    "1800": {
+      "source_en": "\t\t\t<stand>\tOrc's legs tired from standing, give Orc food to pass the time.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc ayakta durmaktan yoruldu, vakit gecsin diye Orc'a yemek ver.\t</stand>"
+    },
+    "1801": {
+      "source_en": "\t\t\t<stand>\tMay I ask what you are so serious about?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tNeye bu kadar ciddi baktigini sorabilir miyim?\t</stand>"
+    },
+    "1802": {
+      "source_en": "\t\t\t<stand>\tOrc really want munch-ums.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc gercekten yemek istiyor.\t</stand>"
+    },
+    "1803": {
+      "source_en": "\t\t\t<stand>\tOrc want some fresh grilled meat, you look good...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc taze izgara et istiyor, sen guzel gorunuyorsun...\t</stand>"
+    },
+    "1804": {
+      "source_en": "\t\t\t<connect>\tGood, looks like Orc can start stalking you again for food.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tGuzel, Orc yemek icin seni yine takip edebilir.\t</connect>"
+    },
+    "1805": {
+      "source_en": "\t\t\t<connect>\tHello. Do I have to beg for food today?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tMerhaba. Bugun yemek icin yalvarmam mi gerekecek?\t</connect>"
+    },
+    "1806": {
+      "source_en": "\t\t\t<connect>\t*grunt* Food today? Yes?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t*homurdanir* Bugun yemek var mi? Evet?\t</connect>"
+    },
+    "1807": {
+      "source_en": "\t\t\t<connect>\tOrc happy to see you again.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tOrc seni tekrar gordugune mutlu.\t</connect>"
+    },
+    "1808": {
+      "source_en": "\t\t\t<levelup>\tEh, Orc still stronger.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tEh, Orc hala daha guclu.\t</levelup>"
+    },
+    "1809": {
+      "source_en": "\t\t\t<levelup>\tGood...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuzel...\t</levelup>"
+    },
+    "1810": {
+      "source_en": "\t\t\t<levelup>\tFood, Stranger, Orc need food... oh... congratulation.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tYemek, yabanci, Orc yemek ister... ah... tebrikler.\t</levelup>"
+    },
+    "1811": {
+      "source_en": "\t\t\t<levelup>\tHave time to share food with Orc now?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSimdi Orc ile yemek paylasmaya vaktin var mi?\t</levelup>"
+    },
+    "1814": {
+      "source_en": "\t\t\t<feeding>\tOrc thanks you.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc sana tesekkur eder.\t</feeding>"
+    },
+    "1815": {
+      "source_en": "\t\t\t<feeding>\t*chomp chomp*\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t*ham ham*\t</feeding>"
+    },
+    "1816": {
+      "source_en": "\t\t\t<feeding>\tYum yum.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tNefis nefis.\t</feeding>"
+    },
+    "1817": {
+      "source_en": "\t\t\t<feeding>\tOrc thanks human for food.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc yemek icin insana tesekkur eder.\t</feeding>"
+    },
+    "1818": {
+      "source_en": "\t\t\t<hunting>\tHey, can't human share with Orc?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tHey, insan Orc ile paylasamaz mi?\t</hunting>"
+    },
+    "1819": {
+      "source_en": "\t\t\t<hunting>\tYou go ahead I'll start the fire...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSen onde git, ben atesi yakacagim...\t</hunting>"
+    },
+    "1820": {
+      "source_en": "\t\t\t<hunting>\tOrc need munch-ums.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc yemek ister.\t</hunting>"
+    },
+    "1821": {
+      "source_en": "\t\t\t<hunting>\tHuman look so good today.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tInsan bugun cok guzel gorunuyor.\t</hunting>"
+    },
+    "1822": {
+      "source_en": "\t\t\t<danger>\tHuman's wounds look serious..\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tInsanin yaralari ciddi gorunuyor..\t</danger>"
+    },
+    "1823": {
+      "source_en": "\t\t\t<danger>\tHuman need heal stuffs.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tInsanin heal esyasina ihtiyaci var.\t</danger>"
+    },
+    "1824": {
+      "source_en": "\t\t\t<dead>\tBuh, if Orc wasn't hungry, Orc would have helped...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBuh, Orc ac olmasaydi yardim ederdi...\t</dead>"
+    },
+    "1825": {
+      "source_en": "\t\t\t<dead>\t*sniff*sniff* Dead human...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t*koklar* *koklar* Olu insan...\t</dead>"
+    },
+    "1826": {
+      "source_en": "\t\t\t<dead>\tHuman body smell... not good.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tInsan bedeni kokuyor... iyi degil.\t</dead>"
+    },
+    "1827": {
+      "source_en": "\t\t\t<stand>\tOrc is bored, food would be nice...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc sikildi, yemek iyi olur...\t</stand>"
+    },
+    "1828": {
+      "source_en": "\t\t\t<stand>\tOrc want munch-ums.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc yemek ister.\t</stand>"
+    },
+    "1829": {
+      "source_en": "\t\t\t<stand>\tHuman sleep now.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tInsan simdi uyuyor.\t</stand>"
+    },
+    "1830": {
+      "source_en": "\t\t\t<connect>\tGood day to human, when is lunch?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tInsana iyi gunler, ogle yemegi ne zaman?\t</connect>"
+    },
+    "1831": {
+      "source_en": "\t\t\t<connect>\tHumans are friends, not food.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tInsanlar dosttur, yemek degil.\t</connect>"
+    },
+    "1832": {
+      "source_en": "\t\t\t<connect>\tHuman again.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tYine insan.\t</connect>"
+    },
+    "1833": {
+      "source_en": "\t\t\t<levelup>\tOrc is glad for you, though Orc could beat human in a 1 on 1.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOrc senin adina mutlu, gerci Orc insani bire birde yener.\t</levelup>"
+    },
+    "1834": {
+      "source_en": "\t\t\t<levelup>\tHuman owe Orc food.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tInsan Orc'a yemek borclu.\t</levelup>"
+    },
+    "1837": {
+      "source_en": "\t\t\t<feeding>\tOrc thanks you kindly.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc sana nazikce tesekkur eder.\t</feeding>"
+    },
+    "1838": {
+      "source_en": "\t\t\t<feeding>\tOrc like candy...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc seker sever...\t</feeding>"
+    },
+    "1839": {
+      "source_en": "\t\t\t<hunting>\tOrc thinks your skills are great.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc becerilerinin harika oldugunu dusunuyor.\t</hunting>"
+    },
+    "1840": {
+      "source_en": "\t\t\t<hunting>\tOrc fight too?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc da savassin mi?\t</hunting>"
+    },
+    "1841": {
+      "source_en": "\t\t\t<danger>\tOrc suggests you find healing.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOrc iyilesme bulmani oneriyor.\t</danger>"
+    },
+    "1842": {
+      "source_en": "\t\t\t<danger>\tOrc need bigger axe!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOrc daha buyuk balta ister!\t</danger>"
+    },
+    "1843": {
+      "source_en": "\t\t\t<dead>\tYou should have eaten some meat while battling.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSavasirken biraz et yemeliydin.\t</dead>"
+    },
+    "1844": {
+      "source_en": "\t\t\t<dead>\t*sniff* *sniff* friend is dead thing now.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t*koklar* *koklar* dost simdi olu sey.\t</dead>"
+    },
+    "1845": {
+      "source_en": "\t\t\t<dead>\tHuman body smell really not good. Orc leave to home.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tInsan bedeni gercekten kotu kokuyor. Orc eve gider.\t</dead>"
+    },
+    "1846": {
+      "source_en": "\t\t\t<stand>\tOrc is somewhat bored...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc biraz sikildi...\t</stand>"
+    },
+    "1847": {
+      "source_en": "\t\t\t<stand>\tLook at me, I'm big! And strong!! Not to mention green!!! Orc Lady is definitely going to like me!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBana bak, buyugum! Ve gucluyum!! Bir de yesilim!!! Orc Lady kesin beni sevecek!!\t</stand>"
+    },
+    "1848": {
+      "source_en": "\t\t\t<stand>\tOrc be Orc Hero someday?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc bir gun Orc Hero olur mu?\t</stand>"
+    },
+    "1849": {
+      "source_en": "\t\t\t<connect>\tOrc greets you with honor.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tOrc seni onurla selamlar.\t</connect>"
+    },
+    "1850": {
+      "source_en": "\t\t\t<connect>\tOrc say Hi\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tOrc selam der.\t</connect>"
+    },
+    "1851": {
+      "source_en": "\t\t\t<levelup>\tOrc sees your strength growing, we should battle one day.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOrc gucunun arttigini goruyor, bir gun dovusmeliyiz.\t</levelup>"
+    },
+    "1852": {
+      "source_en": "\t\t\t<levelup>\tOrc know you could do!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOrc yapabilecegini biliyordu!\t</levelup>"
+    },
+    "1855": {
+      "source_en": "\t\t\t<feeding>\tOrc thanks, but Orc is good for now.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc tesekkur eder ama simdilik iyi.\t</feeding>"
+    },
+    "1856": {
+      "source_en": "\t\t\t<feeding>\tOrc full *burp*\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc tok *gegirir*\t</feeding>"
+    },
+    "1857": {
+      "source_en": "\t\t\t<hunting>\tOrc thinks the best time to battle is when Orc's stomach is full of meat!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc'a gore savasmak icin en iyi zaman midesi etle doluyken!\t</hunting>"
+    },
+    "1858": {
+      "source_en": "\t\t\t<hunting>\tOrc look fat?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc sisman mi gorunuyor?\t</hunting>"
+    },
+    "1859": {
+      "source_en": "\t\t\t<danger>\tPlease, take the monster feed for yourself, Orc fine.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tLutfen monster feed'i kendine al, Orc iyi.\t</danger>"
+    },
+    "1860": {
+      "source_en": "\t\t\t<danger>\tOrc see you bleeding, Orc get healers!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOrc kanadigini goruyor, Orc healer getirir!\t</danger>"
+    },
+    "1861": {
+      "source_en": "\t\t\t<dead>\tOrc thinks you forgot about monster feed..\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tOrc monster feed'i unuttugunu dusunuyor..\t</dead>"
+    },
+    "1862": {
+      "source_en": "\t\t\t<stand>\tOrc thinks we should go hunting instead of getting fat... lazy\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc sismanlayip tembellesmek yerine ava gitmemiz gerektigini dusunuyor.\t</stand>"
+    },
+    "1863": {
+      "source_en": "\t\t\t<stand>\tWe got to keep moving master, just standing around no impress Orc lady at all...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHareket etmeliyiz efendim, oylece durmak Orc Lady'yi hic etkilemez...\t</stand>"
+    },
+    "1864": {
+      "source_en": "\t\t\t<stand>\tHuman, waiting human friends?... no Orc friends?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tInsan, insan dostlarini mi bekliyor?... Orc dostu yok mu?\t</stand>"
+    },
+    "1865": {
+      "source_en": "\t\t\t<stand>\tOrc need friend... Orc lonely... maybe Orc Lady come by and be good friend?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc dosta ihtiyac duyar... Orc yalniz... belki Orc Lady gelir ve iyi dost olur?\t</stand>"
+    },
+    "1866": {
+      "source_en": "\t\t\t<connect>\tOrc greets you, Orc wanted company.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tOrc seni selamlar, Orc arkadaslik istiyordu.\t</connect>"
+    },
+    "1867": {
+      "source_en": "\t\t\t<connect>\t*sniff*sniff* Friend!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t*koklar* *koklar* Dost!\t</connect>"
+    },
+    "1868": {
+      "source_en": "\t\t\t<connect>\tOrc greets you, Orc found an Orc Lady while you gone!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tOrc seni selamlar, sen yokken Orc bir Orc Lady buldu!\t</connect>"
+    },
+    "1869": {
+      "source_en": "\t\t\t<levelup>\tHa ha! Friend grows ever stronger!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHa ha! Dost gittikce gucleniyor!\t</levelup>"
+    },
+    "1870": {
+      "source_en": "\t\t\t<levelup>\tOrc salute human's victory!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOrc insanin zaferini selamlar!\t</levelup>"
+    },
+    "1873": {
+      "source_en": "\t\t\t<feeding>\tDo you want Orc to get fat and out of shape?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc'un sismanlayip formdan dusmesini mi istiyorsun?\t</feeding>"
+    },
+    "1874": {
+      "source_en": "\t\t\t<feeding>\tOrc no want food any more. Orc allow human take all.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tOrc artik yemek istemez. Orc insana hepsini almaya izin verir.\t</feeding>"
+    },
+    "1875": {
+      "source_en": "\t\t\t<hunting>\tOrc feels to heavy from all this food.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOrc tum bu yemekten cok agir hissediyor.\t</hunting>"
+    },
+    "1876": {
+      "source_en": "\t\t\t<hunting>\tWait Orc move slow.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBekle, Orc yavas hareket ediyor.\t</hunting>"
+    },
+    "1877": {
+      "source_en": "\t\t\t<danger>\tUh, please, take the monster feed, Orc does not need any right now..\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tEe, lutfen monster feed'i al, Orc'un simdi ihtiyaci yok..\t</danger>"
+    },
+    "1878": {
+      "source_en": "\t\t\t<danger>\tOrc need vomit food for human friend?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOrc insan dostu icin yemegi kusmali mi?\t</danger>"
+    },
+    "1879": {
+      "source_en": "\t\t\t<dead>\tUgh, can someone resurrect Orc's friend? Orc to full to try.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tOff, biri Orc'un dostunu diriltebilir mi? Orc denemek icin cok tok.\t</dead>"
+    },
+    "1880": {
+      "source_en": "\t\t\t<dead>\tHuman feel hung-over too?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tInsan da aksamdan kalma mi?\t</dead>"
+    },
+    "1881": {
+      "source_en": "\t\t\t<dead>\tOrc called Orc fellows to burry human body.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tOrc insan bedenini gommek icin Orc dostlarini cagirdi.\t</dead>"
+    },
+    "1882": {
+      "source_en": "\t\t\t<stand>\tSure, you feed Orc to much and then you make Orc stand around, get fat and lazy... damn you.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tTabii, Orc'u cok besle sonra ayakta beklet, sisman ve tembel olsun... kahretsin.\t</stand>"
+    },
+    "1883": {
+      "source_en": "\t\t\t<stand>\tOrc want sleep.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc uyumak ister.\t</stand>"
+    },
+    "1884": {
+      "source_en": "\t\t\t<stand>\tOrc Lady left me, said Orc too fat.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOrc Lady beni birakti, Orc cok sisman dedi.\t</stand>"
+    },
+    "1885": {
+      "source_en": "\t\t\t<connect>\tHello, Orc hasn't been so full in years.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tMerhaba, Orc yillardir bu kadar tok olmamisti.\t</connect>"
+    },
+    "1886": {
+      "source_en": "\t\t\t<connect>\tHello, what do you say we burn some calories before Orc Lady sees me fat? Eh? Good friend? Happy master?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tMerhaba, Orc Lady beni sisman gormeden biraz kalori yakmaya ne dersin? Ha? Iyi dost? Mutlu efendi?\t</connect>"
+    },
+    "1887": {
+      "source_en": "\t\t\t<levelup>\tOrc is happy for you, Orc should try and loose some weight to get to your level once again.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tOrc senin adina mutlu, Orc tekrar senin seviyene gelmek icin biraz kilo vermeli.\t</levelup>"
+    },
+    "1892": {
+      "source_en": "\t\t\t<feeding>\t.... can I have more food please? Being dead, then an undead then die of starvation can't be good for you...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t.... lutfen biraz daha yemek alabilir miyim? Olmek, sonra undead olmak, sonra acliktan olmek iyi olamaz...\t</feeding>"
+    },
+    "1893": {
+      "source_en": "\t\t\t<feeding>\tAbout time, living being...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTam zamaniydi, yasayan varlik...\t</feeding>"
+    },
+    "1894": {
+      "source_en": "\t\t\t<feeding>\tThanks mortal. I really needed that.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTesekkurler olumlu. Buna gercekten ihtiyacim vardi.\t</feeding>"
+    },
+    "1895": {
+      "source_en": "\t\t\t<feeding>\tSo you have time to kill innocent creatures, but no time giving me a meal?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMasum yaratiklari oldurmeye vaktin var ama bana yemek vermeye yok mu?\t</feeding>"
+    },
+    "1896": {
+      "source_en": "\t\t\t<hunting>\tLiving being... you better watch your back...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tYasayan varlik... arkani kollasan iyi olur...\t</hunting>"
+    },
+    "1898": {
+      "source_en": "\t\t\t<hunting>\tYou know, I am so much more stronger than you...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBiliyor musun, senden cok daha gucluyum...\t</hunting>"
+    },
+    "1899": {
+      "source_en": "\t\t\t<hunting>\tAll this bouncing on my legs is starting to hurt...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBacaklarim ustunde bu kadar ziplama canimi acitmaya basladi...\t</hunting>"
+    },
+    "1900": {
+      "source_en": "\t\t\t<danger>\tBeing alive is so overrated... soon you'll have an end to your suffering.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHayatta olmak cok abartiliyor... yakinda acin sona erecek.\t</danger>"
+    },
+    "1901": {
+      "source_en": "\t\t\t<danger>\t...Mortal...you're in great danger....\t</danger>",
+      "translation_tr": "\t\t\t<danger>\t...Olumlu... buyuk tehlikedesin....\t</danger>"
+    },
+    "1902": {
+      "source_en": "\t\t\t<danger>\tMy poor master hasn't been eating right...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tZavalli efendim duzgun beslenmiyor...\t</danger>"
+    },
+    "1903": {
+      "source_en": "\t\t\t<danger>\tAre you trying to join me on my side?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBenim tarafima katilmaya mi calisiyorsun?\t</danger>"
+    },
+    "1904": {
+      "source_en": "\t\t\t<dead>\t....Can I get some chow now\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t....Simdi biraz yemek alabilir miyim\t</dead>"
+    },
+    "1905": {
+      "source_en": "\t\t\t<dead>\tI will have your body... It's time to feed!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBedenini alacagim... Beslenme zamani!\t</dead>"
+    },
+    "1906": {
+      "source_en": "\t\t\t<dead>\tSucks to be you...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSenin yerinde olmak kotu...\t</dead>"
+    },
+    "1907": {
+      "source_en": "\t\t\t<dead>\t...where is my food at?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t...yemegim nerede?\t</dead>"
+    },
+    "1908": {
+      "source_en": "\t\t\t<stand>\t...Give me one good reason why I shouldn't tear your apart and devour you?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\t...Seni parcalayip yememem icin bana iyi bir sebep ver?\t</stand>"
+    },
+    "1909": {
+      "source_en": "\t\t\t<stand>\tJust because I am undead doesn't mean you can stop feeding me...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tUndead olmam beni beslemeyi birakabilecegin anlamina gelmez...\t</stand>"
+    },
+    "1910": {
+      "source_en": "\t\t\t<stand>\tYou don't seem to use your hands... could I have feast on one of them?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tEllerini pek kullanmiyor gibisin... birini yiyebilir miyim?\t</stand>"
+    },
+    "1911": {
+      "source_en": "\t\t\t<stand>\tCan you see through me? tell me the truth.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tIcimden bakabiliyor musun? Dogruyu soyle.\t</stand>"
+    },
+    "1912": {
+      "source_en": "\t\t\t<stand>\tOoh.. The sun is too bright for me!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOoh.. Gunes benim icin cok parlak!\t</stand>"
+    },
+    "1914": {
+      "source_en": "\t\t\t<connect>\t...Nice weather we're having... let's go eat...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t...Hava guzel... hadi yemek yiyelim...\t</connect>"
+    },
+    "1915": {
+      "source_en": "\t\t\t<connect>\tI am hungry living being...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAcim, yasayan varlik...\t</connect>"
+    },
+    "1916": {
+      "source_en": "\t\t\t<connect>\tHi, feed me now or I will be forced to kill you.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSelam, simdi beni besle yoksa seni oldurmek zorunda kalacagim.\t</connect>"
+    },
+    "1917": {
+      "source_en": "\t\t\t<connect>\tWho are you again?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSen kimdin?\t</connect>"
+    },
+    "1918": {
+      "source_en": "\t\t\t<connect>\tOh, it's you again.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAh, yine sen.\t</connect>"
+    },
+    "1919": {
+      "source_en": "\t\t\t<levelup>\t*Squeeeals* Oh! I'm not dead! Oh.. umm... congrats?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t*ciglik atar* Ah! Olmedim! Ee... tebrikler?\t</levelup>"
+    },
+    "1920": {
+      "source_en": "\t\t\t<levelup>\tGood for you... now feed me...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSenin adina iyi... simdi beni besle...\t</levelup>"
+    },
+    "1921": {
+      "source_en": "\t\t\t<levelup>\tLevel up? Maybe we could celebrate it by giving me one of your body parts?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tLevel up mi? Belki bana bedeninden bir parca vererek kutlayabiliriz?\t</levelup>"
+    },
+    "1922": {
+      "source_en": "\t\t\t<levelup>\tGood job I guess...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSanirim iyi is...\t</levelup>"
+    },
+    "1925": {
+      "source_en": "\t\t\t<feeding>\tMore!!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDaha fazla!!!\t</feeding>"
+    },
+    "1926": {
+      "source_en": "\t\t\t<feeding>\tI needed that. Now I have another year to live...be dead...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBuna ihtiyacim vardi. Simdi bir yil daha yasayabilirim... olu kalabilirim...\t</feeding>"
+    },
+    "1927": {
+      "source_en": "\t\t\t<feeding>\tThanks... you know... you don't look as tasty anymore.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTesekkurler... biliyor musun... artik o kadar lezzetli gorunmuyorsun.\t</feeding>"
+    },
+    "1928": {
+      "source_en": "\t\t\t<feeding>\tAnother dim sum down the hatch...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBir dim sum daha mideye indi...\t</feeding>"
+    },
+    "1929": {
+      "source_en": "\t\t\t<hunting>\tYou might regret turning your back on me...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBana arkani dondugune pisman olabilirsin...\t</hunting>"
+    },
+    "1930": {
+      "source_en": "\t\t\t<hunting>\tYou know I can fight pretty well for a dead girl...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOlu bir kiz icin oldukca iyi savasiyorum...\t</hunting>"
+    },
+    "1931": {
+      "source_en": "\t\t\t<hunting>\tI smell death coming closer....\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOlumun yaklastigini kokluyorum....\t</hunting>"
+    },
+    "1932": {
+      "source_en": "\t\t\t<hunting>\t... My pleasure is your pain..\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t... Senin acin benim zevkim..\t</hunting>"
+    },
+    "1933": {
+      "source_en": "\t\t\t<danger>\tThis is a sign... the evil tells you to buy food... some for you... and more for me.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBu bir isaret... kotuluk sana yemek al diyor... biraz sana... daha cok bana.\t</danger>"
+    },
+    "1934": {
+      "source_en": "\t\t\t<danger>\tSorry mortal, but my amulet can't revive players.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tUzgunum olumlu, ama muskam oyunculari diriltemez.\t</danger>"
+    },
+    "1935": {
+      "source_en": "\t\t\t<danger>\tWe are almost in the same state, being dead and all...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tNeredeyse ayni durumdayiz, ikimiz de olu sayiliriz...\t</danger>"
+    },
+    "1936": {
+      "source_en": "\t\t\t<danger>\tYou are in grave danger...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBuyuk tehlikedesin...\t</danger>"
+    },
+    "1937": {
+      "source_en": "\t\t\t<dead>\tThis is why the living should die... they die anyway.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tYasayanlar bu yuzden olmeli... nasil olsa oluyorlar.\t</dead>"
+    },
+    "1938": {
+      "source_en": "\t\t\t<dead>\tNow we can be friends for... life..?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSimdi hayat boyu... dost olabiliriz..?\t</dead>"
+    },
+    "1939": {
+      "source_en": "\t\t\t<dead>\tSo sad, I liked you enough as it was when you were alive...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCok uzucu, hayattayken seni yeterince seviyordum...\t</dead>"
+    },
+    "1940": {
+      "source_en": "\t\t\t<dead>\tYour pain... is my pleasure.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSenin acin... benim zevkim.\t</dead>"
+    },
+    "1941": {
+      "source_en": "\t\t\t<stand>\tHmm... you seem different... like... food...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHmm... farkli gorunuyorsun... yemek gibi...\t</stand>"
+    },
+    "1942": {
+      "source_en": "\t\t\t<stand>\tCan we go to the Payon caves? I want to see my friends.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tPayon magaralarina gidebilir miyiz? Dostlarimi gormek istiyorum.\t</stand>"
+    },
+    "1943": {
+      "source_en": "\t\t\t<stand>\tWhy stand, when you can hop ?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tZiplamak varken neden ayakta durasin?\t</stand>"
+    },
+    "1944": {
+      "source_en": "\t\t\t<stand>\tIf Munak is useful, you'd keep her right? *smiles and sways back and forth*\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tMunak ise yararsa onu tutarsin, degil mi? *gulumser ve sallanir*\t</stand>"
+    },
+    "1945": {
+      "source_en": "\t\t\t<stand>\tI need some human blood... I mean food...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBiraz insan kanina ihtiyacim var... yani yemek...\t</stand>"
+    },
+    "1946": {
+      "source_en": "\t\t\t<connect>\tF-o-o-d! N-e-e-d f-o-o-d\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tY-e-m-e-k! Y-e-m-e-k l-a-z-i-m\t</connect>"
+    },
+    "1947": {
+      "source_en": "\t\t\t<connect>\tI want blood... I mean... give me something to eat. Oh yes... hi.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tKan istiyorum... yani... bana yiyecek bir sey ver. Ah evet... selam.\t</connect>"
+    },
+    "1948": {
+      "source_en": "\t\t\t<connect>\tOh! I just thought of something I wanted to tell you... ... I forgot...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAh! Sana soylemek istedigim bir sey aklima geldi... unuttum...\t</connect>"
+    },
+    "1949": {
+      "source_en": "\t\t\t<connect>\tHi!*dances a jig and smiles*\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSelam!*dans eder ve gulumser*\t</connect>"
+    },
+    "1950": {
+      "source_en": "\t\t\t<levelup>\tNice for you, now to feed, yes?.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSenin icin guzel, simdi besleme zamani, evet?\t</levelup>"
+    },
+    "1951": {
+      "source_en": "\t\t\t<levelup>\tOne step closer to being strong...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuclu olmaya bir adim daha...\t</levelup>"
+    },
+    "1952": {
+      "source_en": "\t\t\t<levelup>\tIt's nice to see you growing so strong...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBu kadar guclendigini gormek guzel...\t</levelup>"
+    },
+    "1956": {
+      "source_en": "\t\t\t<feeding>\tI'm satisfied... but a little more wouldn't hurt.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDoydum... ama biraz daha zarar vermez.\t</feeding>"
+    },
+    "1957": {
+      "source_en": "\t\t\t<feeding>\tThank you... this is very good...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTesekkurler... bu cok guzel...\t</feeding>"
+    },
+    "1958": {
+      "source_en": "\t\t\t<feeding>\tAre we dieting..?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDiyette miyiz..?\t</feeding>"
+    },
+    "1959": {
+      "source_en": "\t\t\t<feeding>\tThis is even better then that Magnolia I ate in Payon....\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBu Payon'da yedigim Magnolia'dan bile daha iyi....\t</feeding>"
+    },
+    "1960": {
+      "source_en": "\t\t\t<hunting>\tYou lead... I shall follow behind.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSen onde git... ben arkandan gelecegim.\t</hunting>"
+    },
+    "1961": {
+      "source_en": "\t\t\t<hunting>\tPlease, protect me if something tries to attack me...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tLutfen, bir sey bana saldirirsa beni koru...\t</hunting>"
+    },
+    "1962": {
+      "source_en": "\t\t\t<hunting>\tFor someone who is alive, you fight really well....\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tYasayan biri icin gercekten iyi savasiyorsun....\t</hunting>"
+    },
+    "1964": {
+      "source_en": "\t\t\t<danger>\tDon't worry, if you die, it isn't that bad. I mean, look at me.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tEndiselenme, olursen o kadar kotu degil. Bana bak.\t</danger>"
+    },
+    "1965": {
+      "source_en": "\t\t\t<danger>\tPlease watch out, you probably won't like being dead.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tLutfen dikkat et, olu olmayi muhtemelen sevmezsin.\t</danger>"
+    },
+    "1966": {
+      "source_en": "\t\t\t<danger>\tWould you donate some blood to me?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBana biraz kan bagislar misin?\t</danger>"
+    },
+    "1967": {
+      "source_en": "\t\t\t<danger>\t...better eat some reds.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\t...biraz red potion yesen iyi olur.\t</danger>"
+    },
+    "1968": {
+      "source_en": "\t\t\t<dead>\tSee? It wasn't THAT bad, was it?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tGordun mu? O KADAR da kotu degildi, degil mi?\t</dead>"
+    },
+    "1969": {
+      "source_en": "\t\t\t<dead>\tDon't leave me behind! *tearful eyes*\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBeni geride birakma! *gozleri dolar*\t</dead>"
+    },
+    "1970": {
+      "source_en": "\t\t\t<dead>\tDon't go towards the light!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tIsiga gitme!\t</dead>"
+    },
+    "1971": {
+      "source_en": "\t\t\t<dead>\t...You die SOO much... when are you going to stay that way?...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t...COK fazla oluyorsun... ne zaman oyle kalacaksin?...\t</dead>"
+    },
+    "1972": {
+      "source_en": "\t\t\t<stand>\tCan we move? My legs are growing stiff again...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHareket edebilir miyiz? Bacaklarim yine katilasiyor...\t</stand>"
+    },
+    "1973": {
+      "source_en": "\t\t\t<stand>\tBongun is a hunk...but I think my master is cuter than him... shh don't tell him.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBongun yakisikli... ama bence efendim ondan daha tatli... sst ona soyleme.\t</stand>"
+    },
+    "1974": {
+      "source_en": "\t\t\t<stand>\tLet's go shopping! Oh please.....?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tAlisverise gidelim! Lutfen.....?\t</stand>"
+    },
+    "1975": {
+      "source_en": "\t\t\t<stand>\tWhere do ghost buy their food? At the GHOST-ery store!.. oh I kill me... uh, wait that was funny too...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHayaletler yemeklerini nereden alir? GHOST-ery magazasindan!.. Ah beni oldurdum... bir dakika bu da komikti...\t</stand>"
+    },
+    "1976": {
+      "source_en": "\t\t\t<stand>\tWhat you say we go visit the graveyard? I miss my other sisters... they need a master like you who can feed all of us!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tMezarliga gitmeye ne dersin? Diger kiz kardeslerimi ozledim... Hepimizi besleyebilecek senin gibi bir efendiye ihtiyaclari var!\t</stand>"
+    },
+    "1977": {
+      "source_en": "\t\t\t<connect>\t*poke* Those people are staring at me...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t*durter* O insanlar bana bakiyor...\t</connect>"
+    },
+    "1978": {
+      "source_en": "\t\t\t<connect>\tHello there, how about you pull this ancient scripture off my head?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tMerhaba, su eski yaziti kafamdan cekip cikarsan nasil olur?\t</connect>"
+    },
+    "1979": {
+      "source_en": "\t\t\t<connect>\tI was wondering when you would come to see me..\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBeni ne zaman gormeye gelecegini merak ediyordum..\t</connect>"
+    },
+    "1980": {
+      "source_en": "\t\t\t<connect>\tI miss my Bongun...?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBongun'umu ozledim...?\t</connect>"
+    },
+    "1981": {
+      "source_en": "\t\t\t<connect>\t... there you are.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t... iste buradasin.\t</connect>"
+    },
+    "1982": {
+      "source_en": "\t\t\t<levelup>\tWe must thank the evil, they have blessed you with unholy strength!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tKotuluge tesekkur etmeliyiz, seni kutsal olmayan gucle kutsadilar!\t</levelup>"
+    },
+    "1983": {
+      "source_en": "\t\t\t<levelup>\tCongratulations! I'd give you red envelopes of vast wealth... a hug would do instead right, honey?*hugs tightly and smiles*\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tTebrikler! Sana buyuk zenginlik dolu kirmizi zarflar verirdim... yerine sarilmak da olur, degil mi tatlim? *sikica sarilir ve gulumser*\t</levelup>"
+    },
+    "1984": {
+      "source_en": "\t\t\t<levelup>\tNow...you happy? ...Ok...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSimdi... mutlu musun? ...Tamam...\t</levelup>"
+    },
+    "1985": {
+      "source_en": "\t\t\t<levelup>\t...eep, was that an Angel!? *hiss*\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t...eep, o bir melek miydi!? *tisslar*\t</levelup>"
+    },
+    "1988": {
+      "source_en": "\t\t\t<feeding>\tThat's enough, being undead doesn't mean I can't overeat.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tYeter, undead olmam fazla yiyemeyecegim anlamina gelmez.\t</feeding>"
+    },
+    "1989": {
+      "source_en": "\t\t\t<feeding>\tMmm.. all this food is not good for my body...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMmm.. tum bu yemek bedenime iyi gelmiyor...\t</feeding>"
+    },
+    "1990": {
+      "source_en": "\t\t\t<feeding>\tI'm feeling quite plump. I actually didn't think I could still get plump...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tKendimi oldukca tombul hissediyorum. Hala tombullasabilecegimi dusunmezdim...\t</feeding>"
+    },
+    "1991": {
+      "source_en": "\t\t\t<feeding>\t... enough... please...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t... yeter... lutfen...\t</feeding>"
+    },
+    "1992": {
+      "source_en": "\t\t\t<hunting>\tSo much prey... so little time.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tCok av... az zaman.\t</hunting>"
+    },
+    "1993": {
+      "source_en": "\t\t\t<hunting>\tSo much food... how do you expect me to keep hopping like this master?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBu kadar yemek... bu halde nasil ziplamami bekliyorsun efendim?\t</hunting>"
+    },
+    "1994": {
+      "source_en": "\t\t\t<hunting>\t....I want to join you...\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t....Sana katilmak istiyorum...\t</hunting>"
+    },
+    "1995": {
+      "source_en": "\t\t\t<hunting>\t...enough is enough....\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t...yeter artik....\t</hunting>"
+    },
+    "1996": {
+      "source_en": "\t\t\t<danger>\tOwwie! Doesn't that hurt?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAyy! Bu acitmiyor mu?\t</danger>"
+    },
+    "1997": {
+      "source_en": "\t\t\t<danger>\tWatch out, you're almost dead. Well... heal if you want, being dead isn't so bad.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tDikkat et, neredeyse oldun. Neyse... istersen heal yap, olu olmak o kadar kotu degil.\t</danger>"
+    },
+    "1998": {
+      "source_en": "\t\t\t<danger>\tI would heal you, but it would be against the Munak's code.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tSeni iyilestirirdim ama Munak kurallarina aykiri.\t</danger>"
+    },
+    "1999": {
+      "source_en": "\t\t\t<danger>\tOh dear, you're bleeding! Let me get you a handkerchief to wipe you with.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAh canim, kaniyorsun! Silmen icin bir mendil getireyim.\t</danger>"
+    },
+    "2000": {
+      "source_en": "\t\t\t<dead>\tOh well... how about I teach you how to live as an undead?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tNeyse... sana undead olarak nasil yasanacagini ogreteyim mi?\t</dead>"
+    },
+    "2001": {
+      "source_en": "\t\t\t<dead>\tWhatever, tell me when your ready to cross over. I need to digest.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tNeyse, gecmeye hazir oldugunda soyle. Hazmetmem gerek.\t</dead>"
+    },
+    "2002": {
+      "source_en": "\t\t\t<dead>\tIf you don't make it through, I want to be buried with you..\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tKurtulamazsan seninle gomulmek istiyorum..\t</dead>"
+    },
+    "2003": {
+      "source_en": "\t\t\t<dead>\tWhy did you have to be a hero...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tNeden kahraman olmak zorundaydin...\t</dead>"
+    },
+    "2004": {
+      "source_en": "\t\t\t<dead>\t... Oh well....\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t... Neyse....\t</dead>"
+    },
+    "2005": {
+      "source_en": "\t\t\t<stand>\tShould I make friends with a Sohee? They look pretty...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBir Sohee ile arkadas olayim mi? Guzel gorunuyorlar...\t</stand>"
+    },
+    "2006": {
+      "source_en": "\t\t\t<stand>\tIf you are to wait, at least sit. We shall take them out when you're ready.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBekleyeceksen en azindan otur. Hazir oldugunda onlari hallederiz.\t</stand>"
+    },
+    "2007": {
+      "source_en": "\t\t\t<stand>\tDo you think this ancient robe makes me look fat?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSence bu eski cubbe beni sisman mi gosteriyor?\t</stand>"
+    },
+    "2008": {
+      "source_en": "\t\t\t<stand>\tDo you think my hips are too big?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSence kalcalarim cok mu buyuk?\t</stand>"
+    },
+    "2009": {
+      "source_en": "\t\t\t<stand>\tYou know. We undead aren't all that bad, just misunderstood.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBiliyor musun, biz undeadler o kadar kotu degiliz, sadece yanlis anlasiliyoruz.\t</stand>"
+    },
+    "2010": {
+      "source_en": "\t\t\t<connect>\tWelcome back Master, shall we be on our way?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHos geldiniz Efendim, yola cikabilir miyiz?\t</connect>"
+    },
+    "2011": {
+      "source_en": "\t\t\t<connect>\tHe loves me, he loves me not..... OH! Didn't see you standing there *blush*\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBeni seviyor, sevmiyor..... AH! Orada oldugunu gormedim *kizarir*\t</connect>"
+    },
+    "2012": {
+      "source_en": "\t\t\t<connect>\tDid you miss me? Cause I missed you!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBeni ozledin mi? Cunku ben seni ozledim!\t</connect>"
+    },
+    "2013": {
+      "source_en": "\t\t\t<connect>\t*tug*tug* Why, hello there partner!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t*ceker* *ceker* Merhaba ortak!\t</connect>"
+    },
+    "2014": {
+      "source_en": "\t\t\t<levelup>\t*pokes the dead monster, turns around, pokes the master* Hey... you wouldn't do that to my Bongun, would you?!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t*olu canavari durter, donup efendiyi durter* Hey... Bongun'uma bunu yapmazdin, degil mi?!\t</levelup>"
+    },
+    "2015": {
+      "source_en": "\t\t\t<levelup>\tI can feel your strength, it has reached a new level. It is good that both strong beings have come to befriend each other.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGucunu hissedebiliyorum, yeni bir seviyeye ulasti. Iki guclu varligin dost olmasi guzel.\t</levelup>"
+    },
+    "2016": {
+      "source_en": "\t\t\t<levelup>\tGreat job! You are the master of disaster!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHarika is! Sen felaketlerin efendisisin!\t</levelup>"
+    },
+    "2017": {
+      "source_en": "\t\t\t<levelup>\tYou're on a roll my friend!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHarika gidiyorsun dostum!\t</levelup>"
+    },
+    "2020": {
+      "source_en": "\t\t\t<feeding>\tStop feeding me!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBeni beslemeyi birak!!\t</feeding>"
+    },
+    "2021": {
+      "source_en": "\t\t\t<feeding>\tIf I wasn't undead, I'd be dead from over eating.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tUndead olmasaydim fazla yemekten olurdum.\t</feeding>"
+    },
+    "2022": {
+      "source_en": "\t\t\t<feeding>\tWhile your at it, why don't you cut a hole in my stomach to drain the food out?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHazir baslamisken mideme delik acip yemegi bosaltsana?\t</feeding>"
+    },
+    "2023": {
+      "source_en": "\t\t\t<feeding>\tOh my gosh! I can't touch my toes! Not that I could before, but...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAman tanrim! Ayak parmaklarima dokunamiyorum! Gerci once de dokunamiyordum ama...\t</feeding>"
+    },
+    "2024": {
+      "source_en": "\t\t\t<hunting>\tI would feed on our prey... but I'm too full.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tAvimizla beslenirdim... ama cok tokum.\t</hunting>"
+    },
+    "2025": {
+      "source_en": "\t\t\t<hunting>\tHow many times do I have to tell you! ....WAIT for me!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSana kac kez soylemem gerek! ....BENI BEKLE!\t</hunting>"
+    },
+    "2026": {
+      "source_en": "\t\t\t<hunting>\tI can't keep up!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tYetisemiyorum!\t</hunting>"
+    },
+    "2027": {
+      "source_en": "\t\t\t<danger>\tSit down and rest Master. I need to rest too... I feel bloated.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOturup dinlen Efendim. Benim de dinlenmem gerek... sisitim.\t</danger>"
+    },
+    "2028": {
+      "source_en": "\t\t\t<danger>\tThat's going to leave a mark.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBu iz birakir.\t</danger>"
+    },
+    "2029": {
+      "source_en": "\t\t\t<danger>\tYou are in trouble...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBasin belada...\t</danger>"
+    },
+    "2030": {
+      "source_en": "\t\t\t<danger>\tOh, say hi to all my friends in the afterlife!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAh, oteki dunyadaki tum dostlarima selam soyle!\t</danger>"
+    },
+    "2031": {
+      "source_en": "\t\t\t<dead>\tMaster? Master? Get up... please? If you get up, I'll refund some of the food for you to eat. I promise.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tEfendim? Efendim? Kalk... lutfen? Kalkarsan yedirdigin yemegin birazini sana geri veririm. Soz.\t</dead>"
+    },
+    "2032": {
+      "source_en": "\t\t\t<dead>\tYou got blood all over me! Yeesh! You're buying me new cloths.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHer yerime kan bulastirdin! Off! Bana yeni kiyafet alacaksin.\t</dead>"
+    },
+    "2033": {
+      "source_en": "\t\t\t<dead>\tUm... hello?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tEe... alo?\t</dead>"
+    },
+    "2034": {
+      "source_en": "\t\t\t<dead>\tWhat am I supposed to do..?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBen ne yapacagim..?\t</dead>"
+    },
+    "2035": {
+      "source_en": "\t\t\t<stand>\tGood thing I'm dead... or else I wouldn't be able to withstand being so fat.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tIyi ki oluyum... yoksa bu kadar sisman olmaya dayanamazdim.\t</stand>"
+    },
+    "2036": {
+      "source_en": "\t\t\t<stand>\tWhy does everyone want to kill me for my hat?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHerkes neden sapkam icin beni oldurmek istiyor?\t</stand>"
+    },
+    "2037": {
+      "source_en": "\t\t\t<stand>\tThis hat is starting to annoy me.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBu sapka sinirimi bozmaya basladi.\t</stand>"
+    },
+    "2038": {
+      "source_en": "\t\t\t<stand>\tWake up, time to start exercising!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tUyan, egzersiz zamani!\t</stand>"
+    },
+    "2039": {
+      "source_en": "\t\t\t<stand>\tA... I... pretty to you? Be honest...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSence... ben... guzel miyim? Durust ol...\t</stand>"
+    },
+    "2040": {
+      "source_en": "\t\t\t<connect>\tI feel fat... I mean, evil shall guide us.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tKendimi sisman hissediyorum... yani, kotuluk bize yol gostersin.\t</connect>"
     },
     "2319": {
       "source_en": "\t\t\t<danger>\tI'd sstrangle you, but you're already dead...\t</danger>",
