@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.2.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata etiketlerini, sistem kosullarini, ortak hasar kaliplarini ve tekrar eden ekipman metinlerini byte-safe cevirir",
+    "version": "1.3.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, element/sure degerleri, ortak hasar kaliplari ve tekrar eden ekipman metinlerini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -653,6 +653,228 @@
       "type": "literal",
       "source": "Any of the following costume equipment will appear at random.^0000FF",
       "translation": "Asagidaki kostum ekipmanlarindan biri rastgele cikar.^0000FF"
+    },
+    {
+      "id": "label_duration",
+      "type": "regex",
+      "pattern": "\\^0000CCDuration:\\^000000 (\\d+) minutes",
+      "replacement": "^0000CCSure:^000000 \\1 dakika"
+    },
+    {
+      "id": "label_box_weight",
+      "type": "literal",
+      "source": "^0000CCBox Weight:^000000",
+      "translation": "^0000CCKutu Agirligi:^000000"
+    },
+    {
+      "id": "label_item_description",
+      "type": "literal",
+      "source": "Item description:",
+      "translation": "Esya aciklamasi:"
+    },
+    {
+      "id": "label_element",
+      "type": "literal",
+      "source": "^0000CCElement:",
+      "translation": "^0000CCElement:"
+    },
+    {
+      "id": "element_neutral",
+      "type": "literal",
+      "source": "Element:^777777 Neutral",
+      "translation": "Element:^777777 Notr"
+    },
+    {
+      "id": "element_holy",
+      "type": "literal",
+      "source": "Element:^777777 Holy",
+      "translation": "Element:^777777 Kutsal"
+    },
+    {
+      "id": "element_wind",
+      "type": "literal",
+      "source": "Element:^33CC00 Wind",
+      "translation": "Element:^33CC00 Ruzgar"
+    },
+    {
+      "id": "element_fire",
+      "type": "literal",
+      "source": "Element:^FF0000 Fire",
+      "translation": "Element:^FF0000 Ates"
+    },
+    {
+      "id": "element_water",
+      "type": "literal",
+      "source": "Element:^0000FF Water",
+      "translation": "Element:^0000FF Su"
+    },
+    {
+      "id": "element_earth",
+      "type": "literal",
+      "source": "Element:^CC9900 Earth",
+      "translation": "Element:^CC9900 Toprak"
+    },
+    {
+      "id": "element_shadow",
+      "type": "literal",
+      "source": "Element:^666666 Shadow",
+      "translation": "Element:^666666 Golge"
+    },
+    {
+      "id": "element_ghost",
+      "type": "literal",
+      "source": "Element:^CCCCCC Ghost",
+      "translation": "Element:^CCCCCC Hayalet"
+    },
+    {
+      "id": "element_poison",
+      "type": "literal",
+      "source": "Element:^993399 Poison",
+      "translation": "Element:^993399 Zehir"
+    },
+    {
+      "id": "element_undead",
+      "type": "literal",
+      "source": "Element:^660000 Undead",
+      "translation": "Element:^660000 Olumsuz"
+    },
+    {
+      "id": "all_traits",
+      "type": "regex",
+      "pattern": "All Traits \\+(\\d+)",
+      "replacement": "Tum Traitler +\\1"
+    },
+    {
+      "id": "ranged_physical_damage_additional",
+      "type": "regex",
+      "pattern": "Increases Ranged Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "grade_physical_all_size",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Physical Damage against enemies of every size \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum boyutlardaki dusmanlara Fiziksel Hasar +%\\2."
+    },
+    {
+      "id": "cannot_refine_normally",
+      "type": "literal",
+      "source": "^000088Cannot be refined normally.^000000",
+      "translation": "^000088Normal sekilde gelistirilemez.^000000"
+    },
+    {
+      "id": "opened_one_of_following",
+      "type": "literal",
+      "source": "When opened gives one of the following:",
+      "translation": "Acildiginda asagidakilerden birini verir:"
+    },
+    {
+      "id": "incapacitated_effect_disappears",
+      "type": "literal",
+      "source": "If you are incapacitated, the item effect will disappear.",
+      "translation": "Karakter etkisiz hale gelirse esyanin etkisi kaybolur."
+    },
+    {
+      "id": "event_item_deleted",
+      "type": "literal",
+      "source": "^ff0000(The item will be deleted when the event ends.)^000000",
+      "translation": "^ff0000(Etkinlik bittiginde esya silinir.)^000000"
+    },
+    {
+      "id": "contains_following_items",
+      "type": "literal",
+      "source": "It contains the following items:",
+      "translation": "Asagidaki esyalari icerir:"
+    },
+    {
+      "id": "healing_effectiveness",
+      "type": "regex",
+      "pattern": "Increases (\\^009900Healing\\^000000) skills effectiveness by (\\d+)%\\.",
+      "replacement": "\\1 becerilerinin etkinligini %\\2 artirir."
+    },
+    {
+      "id": "not_tradeable_accounts_alt",
+      "type": "literal",
+      "source": "^ff0000This item can not be traded with other accounts.^000000",
+      "translation": "^ff0000Bu esya diger hesaplarla takas edilemez.^000000"
+    },
+    {
+      "id": "works_chat_and_vend",
+      "type": "literal",
+      "source": "Works only for chats said above your head and for vend names.",
+      "translation": "Yalnizca karakterin ustunde gorunen sohbetler ve pazar adlari icin calisir."
+    },
+    {
+      "id": "intimacy_status",
+      "type": "regex",
+      "pattern": "When intimacy is (\\^[0-9A-Fa-f]{6}(?:Loyal|Cordial)\\^000000):",
+      "replacement": "Samimiyet \\1 seviyesindeyken:"
+    },
+    {
+      "id": "equipped_with",
+      "type": "regex",
+      "pattern": "When equipped with (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\1 ile kusanildiginda:"
+    },
+    {
+      "id": "costume_lower_compound_effect",
+      "type": "literal",
+      "source": "Gives the following effects when compounded on a slot of an Costume Lower Headgear.",
+      "translation": "Costume Lower Headgear slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "costume_middle_compound_effect",
+      "type": "literal",
+      "source": "Gives the following effects when compounded on a slot of an Costume Middle Headgear.",
+      "translation": "Costume Middle Headgear slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "costume_upper_compound_effect",
+      "type": "literal",
+      "source": "Gives the following effects when compounded on a slot of an Costume Upper Headgear.",
+      "translation": "Costume Upper Headgear slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "costume_garment_compound_effect",
+      "type": "literal",
+      "source": "Gives the following effects when compounded on a slot of an Costume Garment.",
+      "translation": "Costume Garment slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "magic_egg_outfits",
+      "type": "literal",
+      "source": "A magical egg that pops out outfits when opened.",
+      "translation": "Acildiginda kostumler cikaran buyulu bir yumurta."
+    },
+    {
+      "id": "manastone_description",
+      "type": "literal",
+      "source": "A manastone imbued with mysterious magic.",
+      "translation": "Gizemli buyuyle doldurulmus bir mana tasi."
+    },
+    {
+      "id": "snow_flake_enchant",
+      "type": "literal",
+      "source": "It can be enchanted on Snow Flake Armor.",
+      "translation": "Snow Flake Armor uzerine enchant uygulanabilir."
+    },
+    {
+      "id": "automatic_armor_module",
+      "type": "literal",
+      "source": "Modified module for use with automatic armor.",
+      "translation": "Automatic Armor ile kullanilmak uzere degistirilmis modul."
+    },
+    {
+      "id": "weapon_headgear_grade_condition",
+      "type": "literal",
+      "source": "If the ^990099Weapon^000000's and ^990099Headgear^000000's Grades are ^CC3D3DA^000000 or higher:",
+      "translation": "^990099Silah^000000 ve ^990099Baslik^000000 Grade'leri ^CC3D3DA^000000 veya daha yuksekse:"
+    },
+    {
+      "id": "shadow_magic_book_random_options",
+      "type": "literal",
+      "source": "<NAVI>[Shadow Exclusive Magic Book]<INFO>itemmall,41,63,0,100,0,0</INFO></NAVI> can grant Random Options with 2 Shadow Essences to it.",
+      "translation": "<NAVI>[Shadow Exclusive Magic Book]<INFO>itemmall,41,63,0,100,0,0</INFO></NAVI> uzerine 2 Shadow Essence ile Rastgele Ozellikler eklenebilir."
     }
   ]
 }
