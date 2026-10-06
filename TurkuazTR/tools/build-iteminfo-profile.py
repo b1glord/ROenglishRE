@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.1.1
+# Version: 1.1.2
 # Aciklama: Exact serbest aciklama overlay'i icin string matcher tanimini tamamlar; byte-safe sistem kurallariyla birlikte description alanlarinda uygular
 # Bagimli Oldugu Katman: Tool
 
@@ -18,6 +18,7 @@ PROFILE_PATH = REPO_ROOT / "TurkuazTR/localization-profiles.json"
 CONFIG_PATH = REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json"
 
 FIELD_RE = re.compile(rb"^\s*([A-Za-z][A-Za-z0-9_]*)\s*=\s*(.*)$")
+STRING_RE = re.compile(rb'"((?:\\.|[^"\\])*)"')
 
 
 def load_json(path: Path) -> dict:
