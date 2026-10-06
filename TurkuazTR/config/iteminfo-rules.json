@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.7.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade/stat kaliplari, element degerleri, tekrar eden guvenli sistem cumleleri ve item servis uyarilarini byte-safe cevirir",
+    "version": "1.8.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade/stat/skill kaliplari, element degerleri, servis metinleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -1511,6 +1511,366 @@
       "type": "literal",
       "source": "A ring that has special power ineach shape.",
       "translation": "Her biciminde ozel bir guc tasiyan yuzuk."
+    },
+    {
+      "id": "players_damage_taken_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Players\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "grade_physical_every_race",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Physical Damage against enemies of every race \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum irklardaki dusmanlara Fiziksel Hasar +%\\2."
+    },
+    {
+      "id": "fixed_cast_single_second",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by ([0-9.]+) second\\.",
+      "replacement": "Sabit kullanma suresini \\1 saniye azaltir."
+    },
+    {
+      "id": "label_effect",
+      "type": "literal",
+      "source": "^0000CCEffect:^000000",
+      "translation": "^0000CCEtki:^000000"
+    },
+    {
+      "id": "label_heal",
+      "type": "literal",
+      "source": "^0000CCHeal:^000000",
+      "translation": "^0000CCIyilestirme:^000000"
+    },
+    {
+      "id": "base_effect_heading",
+      "type": "literal",
+      "source": "^FF6633[Base Effect]^000000",
+      "translation": "^FF6633[Temel Etki]^000000"
+    },
+    {
+      "id": "fixed_cast_percent",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by (\\d+)%\\.",
+      "replacement": "Sabit kullanma suresini %\\1 azaltir."
+    },
+    {
+      "id": "ignore_magical_defense_all_race_additional",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of all race, except (\\^FF0000Players\\^000000), by additional (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki dusmanlarin buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "damage_monsters_all_elements",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of all elements by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki canavarlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_all_size_additional",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every size by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "donor_list_description",
+      "type": "literal",
+      "source": "List of donors who have donated part of their property to help those in need.",
+      "translation": "Ihtiyac sahiplerine yardim etmek icin mal varliginin bir kismini bagislayanlarin listesi."
+    },
+    {
+      "id": "growth_services_heading",
+      "type": "literal",
+      "source": "Providing more efficient services for growth:",
+      "translation": "Gelisim icin daha verimli hizmetler sunar:"
+    },
+    {
+      "id": "special_services_prices",
+      "type": "literal",
+      "source": "We offer the following services at special prices. (Consumes Nyangvine):",
+      "translation": "Asagidaki hizmetleri ozel fiyatlarla sunuyoruz. (Nyangvine tuketir):"
+    },
+    {
+      "id": "compounded_with",
+      "type": "regex",
+      "pattern": "When compounded with (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\1 ile birlestirildiginde:"
+    },
+    {
+      "id": "ringtone_customer_description",
+      "type": "literal",
+      "source": "When the ringtone rings, it appears in front of the customer anytime, anywhere.",
+      "translation": "Zil caldiginda her zaman ve her yerde musterinin onunde belirir."
+    },
+    {
+      "id": "headgear_grade_bonus_heading",
+      "type": "literal",
+      "source": "^CC3D3D[Bonus by Headgear's Grade]^000000",
+      "translation": "^CC3D3D[Baslik Grade'ine Gore Bonus]^000000"
+    },
+    {
+      "id": "event_deleted_after_ends",
+      "type": "literal",
+      "source": "^ff0000(The item will be deleted after the event ends.)^000000",
+      "translation": "^ff0000(Esya etkinlik bittikten sonra silinir.)^000000"
+    },
+    {
+      "id": "base_stat_at_least",
+      "type": "regex",
+      "pattern": "Base (\\^CC6600(?:STR|AGI|VIT|INT|DEX|LUK|POW|STA|WIS|SPL|CON|CRT)\\^000000) at least (\\^0000FF\\d+\\^000000):",
+      "replacement": "Temel \\1 en az \\2 ise:"
+    },
+    {
+      "id": "skill_cooldown_seconds",
+      "type": "regex",
+      "pattern": "Decreases (\\^009900[^\\r\\n]+?\\^000000) skill cooldown by ([0-9.]+) seconds\\.",
+      "replacement": "\\1 becerisinin bekleme suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "blacksmith_blessing_consumed",
+      "type": "regex",
+      "pattern": "Each time it is used, (\\d+) Blacksmith's Blessings are consumed as materials\\.",
+      "replacement": "Her kullanimda malzeme olarak \\1 Blacksmith's Blessing tuketilir."
+    },
+    {
+      "id": "movement_speed_plain",
+      "type": "literal",
+      "source": "Increases Movement Speed.",
+      "translation": "Hareket hizini artirir."
+    },
+    {
+      "id": "physical_damage_every_class",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every class by (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "illusionians_transformed",
+      "type": "literal",
+      "source": "It was terribly transformed by the magic interference device installed by the Illusionians.",
+      "translation": "Illusionian'larin kurdugu buyu etkilesim cihazi tarafindan korkunc bicimde donusturuldu."
+    },
+    {
+      "id": "normal_attack_splash_damage",
+      "type": "literal",
+      "source": "Normal attacks inflicts splash damage.",
+      "translation": "Normal saldirilar Alan Hasari verir."
+    },
+    {
+      "id": "purchase_maintenance_end",
+      "type": "regex",
+      "pattern": "This item will no longer be available for purchase after the regular maintenance on ([^.]+)\\.\\^000000",
+      "replacement": "Bu esya \\1 tarihindeki duzenli bakimdan sonra artik satin alinamaz.^000000"
+    },
+    {
+      "id": "higher_level_autocast_alt",
+      "type": "literal",
+      "source": "(If a higher level is learned, auto-casts the learned level instead).",
+      "translation": "(Daha yuksek bir seviye ogrenildiyse onun yerine ogrenilen seviye otomatik kullanilir)."
+    },
+    {
+      "id": "hero_calamity_helmet",
+      "type": "literal",
+      "source": "A helmet that resonates with the power of heroes and calamities.",
+      "translation": "Kahramanlarin ve felaketlerin gucuyle rezonansa giren bir baslik."
+    },
+    {
+      "id": "all_elemental_damage_taken",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all elemental attacks by (\\d+)%\\.",
+      "replacement": "Tum element saldirilarindan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "for_each_trait_stat",
+      "type": "regex",
+      "pattern": "For each \\^0000FF(\\d+)\\^000000 base (\\^CC6600(?:POW|STA|WIS|SPL|CON|CRT)\\^000000):",
+      "replacement": "Her ^0000FF\\1^000000 temel \\2 icin:"
+    },
+    {
+      "id": "skill_damage_additional",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "healing_hp_recovery",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of (\\^009900Healing\\^000000) skills by (\\d+)%\\.",
+      "replacement": "\\1 becerilerinin HP Iyilestirme miktarini %\\2 artirir."
+    },
+    {
+      "id": "physical_damage_every_race",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "good_evil_weapons_amplification",
+      "type": "literal",
+      "source": "It has the effect of amplifying the Good and Evil Weapons.",
+      "translation": "Good ve Evil Silahlarinin etkilerini guclendirme ozelligine sahiptir."
+    },
+    {
+      "id": "unknown_refined_material",
+      "type": "literal",
+      "source": "It is unknown what kind of material is refined, and even similar weapons have different performance.",
+      "translation": "Hangi malzemenin gelistirildigi bilinmez; benzer silahlar bile farkli performans gosterebilir."
+    },
+    {
+      "id": "ordinary_weapon_himelmez",
+      "type": "literal",
+      "source": "It's an ordinary weapon with nothing special, but it is influenced by the magical power of Himelmez.",
+      "translation": "Ozel bir yani olmayan siradan bir silahtir, ancak Himelmez'in buyulu gucunden etkilenmistir."
+    },
+    {
+      "id": "physical_attack_absorb_sp",
+      "type": "regex",
+      "pattern": "Physical attacks have a certain chance to absorb (\\d+)% of the inflicted damage as SP\\.",
+      "replacement": "Fiziksel saldirilar belirli bir sansla verilen hasarin %\\1 kadarini SP olarak emer."
+    },
+    {
+      "id": "costume_wig_description_alt",
+      "type": "literal",
+      "source": "A costume wig that makes you feel like you have changed into a different hairstyle when worn.",
+      "translation": "Takildiginda farkli bir sac stiline gecmis gibi hissettiren kostum perugu."
+    },
+    {
+      "id": "sp_consumption_additional",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption by additional (\\d+)%\\.",
+      "replacement": "SP Tuketimini ek %\\1 azaltir."
+    },
+    {
+      "id": "during_transformation",
+      "type": "literal",
+      "source": "During transformation:",
+      "translation": "Donusum sirasinda:"
+    },
+    {
+      "id": "ignore_physical_defense_race",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkinin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "magical_damage_colored_element",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with (\\^777777[^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 elementiyle Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "physical_damage_players",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 hedeflerine Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "opening_enchantment_stones",
+      "type": "literal",
+      "source": "Opening this will give you one of the following enchantment stones:",
+      "translation": "Acildiginda asagidaki enchant taslarindan birini verir:"
+    },
+    {
+      "id": "refine_enchanted_headgear",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each (\\d+) Refine Levels\\^000000 of enchanted (\\^990099Headgear\\^000000):",
+      "replacement": "Enchant uygulanmis \\2'in her ^0000FF\\1 Gelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "refine_level_above",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level\\^000000 above \\^0000FF\\+(\\d+)\\^000000:",
+      "replacement": "^0000FF+\\1^000000 uzerindeki her Gelistirme Seviyesi icin:"
+    },
+    {
+      "id": "equipped_effect_display",
+      "type": "literal",
+      "source": "^006400Since it is an equipped effect, it still will be displayed even when the effect (/effect) is turned off.^000000",
+      "translation": "^006400Kusanma etkisi oldugu icin efekt (/effect) kapali olsa bile goruntulenmeye devam eder.^000000"
+    },
+    {
+      "id": "silit_pong_warning",
+      "type": "literal",
+      "source": "^FF0000Warning - ^000088Silit Pong^000000 does not work on removing this card!^000000",
+      "translation": "^FF0000Uyari - ^000088Silit Pong^000000 bu karti cikarmada ise yaramaz!^000000"
+    },
+    {
+      "id": "star_essence_description",
+      "type": "literal",
+      "source": "A star essence that strengthens the wearer.",
+      "translation": "Kullanan kisiyi guclendiren bir yildiz ozu."
+    },
+    {
+      "id": "ignore_magical_defense_all_race",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of all race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki dusmanlarin buyusel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "healing_effectiveness_additional",
+      "type": "regex",
+      "pattern": "Increases (\\^009900Healing\\^000000) skills effectiveness by additional (\\d+)%\\.",
+      "replacement": "\\1 becerilerinin etkinligini ek %\\2 artirir."
+    },
+    {
+      "id": "magical_every_element_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with every element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "melee_physical_damage_additional",
+      "type": "regex",
+      "pattern": "Increases Melee Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Yakin Dovus Fiziksel Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "rental_item_plain",
+      "type": "literal",
+      "source": "Rental item",
+      "translation": "Kiralik esya"
+    },
+    {
+      "id": "not_refundable_once_open",
+      "type": "literal",
+      "source": "^ff0000This item not refundable once it is open.",
+      "translation": "^ff0000Bu esya acildiktan sonra iade edilemez."
+    },
+    {
+      "id": "contains_following_items_alt",
+      "type": "literal",
+      "source": "Contains the following items:",
+      "translation": "Asagidaki esyalari icerir:"
+    },
+    {
+      "id": "unlimited_skill_effect",
+      "type": "regex",
+      "pattern": "Enables unlimited effect of (\\^009900[^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\1 etkisini suresiz etkinlestirir."
+    },
+    {
+      "id": "first_aid_box",
+      "type": "literal",
+      "source": "First aid box containing simple medications.",
+      "translation": "Basit ilaclar iceren ilk yardim kutusu."
+    },
+    {
+      "id": "existing_costume_stones",
+      "type": "literal",
+      "source": "Stones from existing costume enchant stone boxes can also be obtained with a relatively low chance.",
+      "translation": "Mevcut kostum enchant tasi kutularindaki taslar da nispeten dusuk bir sansla elde edilebilir."
+    },
+    {
+      "id": "power_mana_consumption",
+      "type": "literal",
+      "source": "The stronger the power, the greater the consumption of mana.",
+      "translation": "Guc arttikca mana tuketimi de artar."
+    },
+    {
+      "id": "enchanted_equipment_grade_heading",
+      "type": "literal",
+      "source": "[Enchanted ^990099Equipment^000000's Grade]",
+      "translation": "[Enchant Uygulanmis ^990099Ekipman^000000 Grade'i]"
     }
   ]
 }
