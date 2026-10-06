@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.16.0
-# Aciklama: Translation status, pet pending/recovery, item gorunur kapsam ve legacy item recovery auditleri, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
+# Version: 1.17.0
+# Aciklama: Translation status, pet pending/recovery, ham ve translated item gorunur kapsam auditleri, legacy item recovery, overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -118,6 +118,17 @@ jobs:
           for profile in english hybrid full_tr bilingual; do
             python3 TurkuazTR/tools/build-iteminfo-profile.py --profile "$profile" --check
           done
+
+      - name: Audit translated item info remainder
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/build-iteminfo-profile.py \
+            --profile full_tr \
+            --output /tmp/turkuaz-iteminfo-full-tr.lua
+          python3 TurkuazTR/tools/audit-iteminfo-visible.py \
+            --source /tmp/turkuaz-iteminfo-full-tr.lua \
+            --json
 
       - name: Validate registered localization overlays
         shell: bash
