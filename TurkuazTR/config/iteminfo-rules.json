@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.6.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade/stat kaliplari, element degerleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
+    "version": "1.7.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade/stat kaliplari, element degerleri, tekrar eden guvenli sistem cumleleri ve item servis uyarilarini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -1133,6 +1133,384 @@
       "type": "literal",
       "source": "Priest, Sage and Star Gladiator",
       "translation": "Priest, Sage ve Star Gladiator"
+    },
+    {
+      "id": "remodel_warning",
+      "type": "literal",
+      "source": "^ff0000Warning! - When remodeling, the inserted cards and Random Options are removed.^000000",
+      "translation": "^ff0000Uyari! - Yeniden modellemede takili kartlar ve Rastgele Ozellikler kaldirilir.^000000"
+    },
+    {
+      "id": "designer_heidam_exchange",
+      "type": "regex",
+      "pattern": "(<NAVI>\\[Designer Heidam\\]<INFO>[^<]+</INFO></NAVI>) can exchange it with (Costume Enchant Stone Box \\d+)\\.",
+      "replacement": "\\1 bunu \\2 ile takas edebilir."
+    },
+    {
+      "id": "enriched_oridecon_description",
+      "type": "literal",
+      "source": "Enriched Oridecon - Can refine level 1~4 Weapons and Shadow weapons and increases the refine chance.",
+      "translation": "Enriched Oridecon - Seviye 1~4 Silahlari ve Shadow silahlarini gelistirebilir ve gelistirme sansini artirir."
+    },
+    {
+      "id": "ignore_physical_defense_all_race",
+      "type": "regex",
+      "pattern": "Ignores physical defense of all race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "resonates_with",
+      "type": "regex",
+      "pattern": "Resonates with ([^.]+)\\.",
+      "replacement": "\\1 ile rezonansa girer."
+    },
+    {
+      "id": "it_resonates_with",
+      "type": "regex",
+      "pattern": "It resonates with ([^.]+)\\.",
+      "replacement": "\\1 ile rezonansa girer."
+    },
+    {
+      "id": "box_capacity_warning",
+      "type": "literal",
+      "source": "^ff0000Caution - Items may be lost if you've exceeded the weight or carrying amount when you open the box!^000000",
+      "translation": "^ff0000Dikkat - Kutuyu actiginizda agirlik veya tasima sinirini astiysaniz esyalar kaybolabilir!^000000"
+    },
+    {
+      "id": "deals_splash_damage",
+      "type": "literal",
+      "source": "Deals Splash Damage.",
+      "translation": "Alan Hasari verir."
+    },
+    {
+      "id": "fixed_cast_additional_seconds",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by additional ([0-9.]+) seconds\\.",
+      "replacement": "Sabit kullanma suresini ek \\1 saniye azaltir."
+    },
+    {
+      "id": "illusion_armor_module",
+      "type": "literal",
+      "source": "Modification module for Illusion Armor.",
+      "translation": "Illusion Armor icin modifikasyon modulu."
+    },
+    {
+      "id": "elemental_damage_taken",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "enable_skill_level",
+      "type": "regex",
+      "pattern": "Enables the use of Level (\\d+) (\\^0000FF[^\\r\\n]+?\\^000000)\\.",
+      "replacement": "Seviye \\1 \\2 kullanmayi saglar."
+    },
+    {
+      "id": "faith_helm_description",
+      "type": "literal",
+      "source": "A helm with the power of faith.",
+      "translation": "Inanc gucunu tasiyan bir baslik."
+    },
+    {
+      "id": "beginner_box_description",
+      "type": "literal",
+      "source": "A specially prepared box for beginners.",
+      "translation": "Yeni baslayanlar icin ozel hazirlanmis bir kutu."
+    },
+    {
+      "id": "all_transcendent_except_novice",
+      "type": "literal",
+      "source": "All Transcendent classes except Novice",
+      "translation": "Novice haric tum Transcendent siniflar"
+    },
+    {
+      "id": "experience_gain_monsters",
+      "type": "regex",
+      "pattern": "Increases experience gained from defeating monsters by (\\d+)%\\.",
+      "replacement": "Canavarlari yenerek kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "vivatus_adulter_amplification",
+      "type": "literal",
+      "source": "It has the effect of amplifying the effects of Vivatus and Adulter weapons.",
+      "translation": "Vivatus ve Adulter silahlarinin etkilerini guclendirme ozelligine sahiptir."
+    },
+    {
+      "id": "magical_damage_every_element",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "ice_flower_magic_stone_enchant",
+      "type": "literal",
+      "source": "You can enchant it with Ice Flower Magic Stones for special abilities.",
+      "translation": "Ozel yetenekler icin Ice Flower Magic Stones ile enchant uygulanabilir."
+    },
+    {
+      "id": "grade_physical_every_element",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Physical Damage against enemies of every element \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum elementlerdeki dusmanlara Fiziksel Hasar +%\\2."
+    },
+    {
+      "id": "open_item_not_refundable",
+      "type": "literal",
+      "source": "^ff0000If you open this item, it is not refundable anymore.^000000",
+      "translation": "^ff0000Bu esya acildiktan sonra iade edilemez.^000000"
+    },
+    {
+      "id": "enchanted_equipment_grade",
+      "type": "regex",
+      "pattern": "If enchanted (\\^990099Equipment\\^000000)'s Grade is (\\^CC3D3D[A-D]\\^000000) or higher:",
+      "replacement": "Enchant uygulanmis \\1 Grade'i \\2 veya daha yuksekse:"
+    },
+    {
+      "id": "ignore_magical_defense_every_race",
+      "type": "regex",
+      "pattern": "Ignores magical defense of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin buyusel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_magical_resistance_every_race",
+      "type": "regex",
+      "pattern": "Ignores magical resistance of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin buyusel direncini %\\2 yok sayar."
+    },
+    {
+      "id": "malangdo_enchantable",
+      "type": "literal",
+      "source": "^ff0000Can be enchanted in Malangdo.^000000",
+      "translation": "^ff0000Malangdo'da enchant uygulanabilir.^000000"
+    },
+    {
+      "id": "using_nyangvine_or_zeny",
+      "type": "literal",
+      "source": "by using Nyangvine or Zeny.",
+      "translation": "Nyangvine veya Zeny kullanilarak."
+    },
+    {
+      "id": "demihuman_damage_taken_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Demi-Human\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "usable_via_heading",
+      "type": "literal",
+      "source": "Usable via:",
+      "translation": "Kullanilabilir:"
+    },
+    {
+      "id": "can_only_be_stored",
+      "type": "literal",
+      "source": "^ff0000Can only be stored.^000000",
+      "translation": "^ff0000Yalnizca depolanabilir.^000000"
+    },
+    {
+      "id": "refine_material_level_result",
+      "type": "literal",
+      "source": "^ff0000The Refine Level of the materials does not affect the result.^000000",
+      "translation": "^ff0000Malzemelerin Gelistirme Seviyesi sonucu etkilemez.^000000"
+    },
+    {
+      "id": "item_effect_heading",
+      "type": "literal",
+      "source": "^FF6633[Item Effect]^000000",
+      "translation": "^FF6633[Esya Etkisi]^000000"
+    },
+    {
+      "id": "contains_following",
+      "type": "literal",
+      "source": "Contains the following:",
+      "translation": "Sunlari icerir:"
+    },
+    {
+      "id": "grade_melee_physical_damage",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Melee Physical Damage \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Yakin Dovus Fiziksel Hasari +%\\2."
+    },
+    {
+      "id": "grade_ranged_physical_damage",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Ranged Physical Damage \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Menzilli Fiziksel Hasar +%\\2."
+    },
+    {
+      "id": "grade_magical_all_size",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Magical Damage against enemies of every size \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum boyutlardaki dusmanlara Buyu Hasari +%\\2."
+    },
+    {
+      "id": "ko_buff_wears_off",
+      "type": "literal",
+      "source": "^000088When player's character KO'd, the buff effect will wear off.^000000",
+      "translation": "^000088Oyuncu karakteri bayildiginda buff etkisi sona erer.^000000"
+    },
+    {
+      "id": "battlefield_champion_weapon",
+      "type": "literal",
+      "source": "A weapon that only a champion of battlefield can wield.",
+      "translation": "Yalnizca savas alaninin sampiyonunun kullanabilecegi bir silah."
+    },
+    {
+      "id": "all_classes_except_novice_line",
+      "type": "literal",
+      "source": "All classes except Novice^000000",
+      "translation": "Novice haric tum siniflar^000000"
+    },
+    {
+      "id": "module_abilities_description",
+      "type": "literal",
+      "source": "It is said to be able to add abilities by attaching various modules.",
+      "translation": "Cesitli moduller takilarak ek yetenekler kazandirabildigi soylenir."
+    },
+    {
+      "id": "event_last_regular_inspection",
+      "type": "regex",
+      "pattern": "\\^ff0000\\(This item will be removed at the last regular inspection in ([^)]+)\\.\\)\\^000000",
+      "replacement": "^ff0000(Bu esya \\1 tarihindeki son duzenli bakimda kaldirilir.)^000000"
+    },
+    {
+      "id": "additional_materials_required_heading",
+      "type": "literal",
+      "source": "^32CD32[Additional Materials Required]^000000",
+      "translation": "^32CD32[Gerekli Ek Malzemeler]^000000"
+    },
+    {
+      "id": "required_weapon_colored_heading",
+      "type": "literal",
+      "source": "^32CD32[Required Weapon]^000000",
+      "translation": "^32CD32[Gerekli Silah]^000000"
+    },
+    {
+      "id": "base_level_below",
+      "type": "regex",
+      "pattern": "\\^CC6600Base Level\\^000000 is below \\^0000FF(\\d+)\\^000000:",
+      "replacement": "^CC6600Temel Seviye^000000 ^0000FF\\1^000000 altindaysa:"
+    },
+    {
+      "id": "box_containing_nyangvines",
+      "type": "regex",
+      "pattern": "A box containing (\\d+) Nyangvines\\.",
+      "replacement": "\\1 Nyangvine iceren bir kutu."
+    },
+    {
+      "id": "box_that_contains",
+      "type": "literal",
+      "source": "A box that contains:",
+      "translation": "Sunlari iceren bir kutu:"
+    },
+    {
+      "id": "woe_pvp_effects",
+      "type": "literal",
+      "source": "*Effects in WoE & PVP area",
+      "translation": "*WoE ve PVP alanindaki etkiler"
+    },
+    {
+      "id": "cannot_trade_other_accounts_variant",
+      "type": "literal",
+      "source": "^ff0000Cannot be traded to other accounts.^000000",
+      "translation": "^ff0000Diger hesaplarla takas edilemez.^000000"
+    },
+    {
+      "id": "navigation_click_instruction",
+      "type": "literal",
+      "source": "Clicking the name below will start the navigation.",
+      "translation": "Asagidaki ada tiklamak navigasyonu baslatir."
+    },
+    {
+      "id": "costume_hair_description_alt",
+      "type": "literal",
+      "source": "Hair for costumes where you can feel a different hairstyle when you put it on your hair.",
+      "translation": "Takildiginda farkli bir sac stilini hissettiren kostum saci."
+    },
+    {
+      "id": "critical_damage_additional",
+      "type": "regex",
+      "pattern": "Increases Critical Damage by additional (\\d+)%\\.",
+      "replacement": "Kritik Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "glacier_weapon_handling",
+      "type": "literal",
+      "source": "It seems to have to be handled in a different way from the existing Glacier weapons.",
+      "translation": "Mevcut Glacier silahlarindan farkli sekilde kullanilmasi gerektigi gorunuyor."
+    },
+    {
+      "id": "new_abilities_emerge",
+      "type": "literal",
+      "source": "New abilities that had not been discovered before began to emerge.",
+      "translation": "Daha once kesfedilmemis yeni yetenekler ortaya cikmaya basladi."
+    },
+    {
+      "id": "hair_brand_new",
+      "type": "literal",
+      "source": "You will feel and look brand new once you attach this to your hair.",
+      "translation": "Bunu sacina taktiginda kendini ve gorunumunu yepyeni hissedersin."
+    },
+    {
+      "id": "selectable_items_heading",
+      "type": "literal",
+      "source": "[Selectable Items]",
+      "translation": "[Secilebilir Esyalar]"
+    },
+    {
+      "id": "sp_consumption_increase",
+      "type": "regex",
+      "pattern": "Increases SP Consumption by (\\d+)%\\.",
+      "replacement": "SP Tuketimini %\\1 artirir."
+    },
+    {
+      "id": "all_jobs_list",
+      "type": "literal",
+      "source": "The list of all jobs.",
+      "translation": "Tum joblarin listesi."
+    },
+    {
+      "id": "refine_fail_decreases_one",
+      "type": "literal",
+      "source": "(If the refining fails, the Refine Level decreases by 1.)",
+      "translation": "(Gelistirme basarisiz olursa Gelistirme Seviyesi 1 azalir.)"
+    },
+    {
+      "id": "basic_service_heading",
+      "type": "literal",
+      "source": "[Basic Service]",
+      "translation": "[Temel Hizmet]"
+    },
+    {
+      "id": "rental_duration_days",
+      "type": "regex",
+      "pattern": "\\^0000CCRental Duration:\\^000000 (\\d+)\\^000000 days",
+      "replacement": "^0000CCKiralama Suresi:^000000 \\1^000000 gun"
+    },
+    {
+      "id": "transcendent_second_classes",
+      "type": "literal",
+      "source": "Transcendent 2nd classes",
+      "translation": "Transcendent 2. siniflar"
+    },
+    {
+      "id": "event_deleted_at_end",
+      "type": "literal",
+      "source": "(The item is deleted at the end of the event.)",
+      "translation": "(Esya etkinlik sonunda silinir.)"
+    },
+    {
+      "id": "certified_kingdom_equipment",
+      "type": "literal",
+      "source": "A certified kingdom equipment for adventurer.",
+      "translation": "Maceracilar icin onayli krallik ekipmani."
+    },
+    {
+      "id": "ring_special_power_shapes",
+      "type": "literal",
+      "source": "A ring that has special power ineach shape.",
+      "translation": "Her biciminde ozel bir guc tasiyan yuzuk."
     }
   ]
 }
