@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.1.0
-# Aciklama: identified/unidentified display name ve description alanlarini tarar; occurrence, unique string ve en sik dogal dil adaylarini raporlar
+# Version: 1.2.0
+# Aciklama: identified/unidentified display name ve description alanlarini tarar; kaynak veya generated profil dosyasinda occurrence, unique string ve en sik dogal dil adaylarini raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
