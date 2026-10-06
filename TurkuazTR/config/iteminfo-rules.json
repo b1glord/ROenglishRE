@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.0.0",
-    "description": "Item adlarini canonical tutar; yalniz identified/unidentified description bloklarinda metadata ve ortak sistem metinlerini cevirir",
+    "version": "1.1.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata etiketlerini, tur/konum degerlerini ve ortak sistem metinlerini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -173,6 +173,192 @@
       "type": "regex",
       "pattern": "Decreases After Skill Delay by (\\d+)%\\.",
       "replacement": "Beceri sonrasi gecikmeyi %\\1 azaltir."
+    },
+    {
+      "id": "refineable_no",
+      "type": "literal",
+      "source": "Gelistirilebilir:^000000 No",
+      "translation": "Gelistirilebilir:^000000 Hayir"
+    },
+    {
+      "id": "refineable_yes",
+      "type": "literal",
+      "source": "Gelistirilebilir:^000000 Yes",
+      "translation": "Gelistirilebilir:^000000 Evet"
+    },
+    {
+      "id": "position_upper_middle",
+      "type": "literal",
+      "source": "Konum:^000000 Upper, Middle",
+      "translation": "Konum:^000000 Ust, Orta"
+    },
+    {
+      "id": "position_middle_lower",
+      "type": "literal",
+      "source": "Konum:^000000 Middle, Lower",
+      "translation": "Konum:^000000 Orta, Alt"
+    },
+    {
+      "id": "position_upper_lower",
+      "type": "literal",
+      "source": "Konum:^000000 Upper, Lower",
+      "translation": "Konum:^000000 Ust, Alt"
+    },
+    {
+      "id": "position_all",
+      "type": "literal",
+      "source": "Konum:^000000 Upper, Middle, Lower",
+      "translation": "Konum:^000000 Ust, Orta, Alt"
+    },
+    {
+      "id": "type_costume",
+      "type": "literal",
+      "source": "Tur:^000000 Costume",
+      "translation": "Tur:^000000 Kostum"
+    },
+    {
+      "id": "type_headgear",
+      "type": "literal",
+      "source": "Tur:^000000 Headgear",
+      "translation": "Tur:^000000 Baslik"
+    },
+    {
+      "id": "type_card",
+      "type": "literal",
+      "source": "Tur:^000000 Card",
+      "translation": "Tur:^000000 Kart"
+    },
+    {
+      "id": "type_accessory",
+      "type": "literal",
+      "source": "Tur:^000000 Accessory",
+      "translation": "Tur:^000000 Aksesuar"
+    },
+    {
+      "id": "type_armor",
+      "type": "literal",
+      "source": "Tur:^000000 Armor",
+      "translation": "Tur:^000000 Zirh"
+    },
+    {
+      "id": "type_shoes",
+      "type": "literal",
+      "source": "Tur:^000000 Shoes",
+      "translation": "Tur:^000000 Ayakkabi"
+    },
+    {
+      "id": "type_garment",
+      "type": "literal",
+      "source": "Tur:^000000 Garment",
+      "translation": "Tur:^000000 Giysi"
+    },
+    {
+      "id": "type_collectible",
+      "type": "literal",
+      "source": "Tur:^000000 Collectible",
+      "translation": "Tur:^000000 Koleksiyon"
+    },
+    {
+      "id": "type_dagger",
+      "type": "literal",
+      "source": "Tur:^000000 Dagger",
+      "translation": "Tur:^000000 Hancer"
+    },
+    {
+      "id": "type_one_handed_staff",
+      "type": "literal",
+      "source": "Tur:^000000 One-Handed Staff",
+      "translation": "Tur:^000000 Tek Elli Asa"
+    },
+    {
+      "id": "type_one_handed_sword",
+      "type": "literal",
+      "source": "Tur:^000000 One-Handed Sword",
+      "translation": "Tur:^000000 Tek Elli Kilic"
+    },
+    {
+      "id": "type_two_handed_sword",
+      "type": "literal",
+      "source": "Tur:^000000 Two-Handed Sword",
+      "translation": "Tur:^000000 Cift Elli Kilic"
+    },
+    {
+      "id": "type_spear",
+      "type": "literal",
+      "source": "Tur:^000000 Spear",
+      "translation": "Tur:^000000 Mizrak"
+    },
+    {
+      "id": "type_bow",
+      "type": "literal",
+      "source": "Tur:^000000 Bow",
+      "translation": "Tur:^000000 Yay"
+    },
+    {
+      "id": "compound_weapon",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Weapon",
+      "translation": "Takma Yeri:^000000 Silah"
+    },
+    {
+      "id": "compound_armor",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Armor",
+      "translation": "Takma Yeri:^000000 Zirh"
+    },
+    {
+      "id": "compound_headgear",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Headgear",
+      "translation": "Takma Yeri:^000000 Baslik"
+    },
+    {
+      "id": "compound_garment",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Garment",
+      "translation": "Takma Yeri:^000000 Giysi"
+    },
+    {
+      "id": "compound_shoes",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Shoes",
+      "translation": "Takma Yeri:^000000 Ayakkabi"
+    },
+    {
+      "id": "compound_accessory",
+      "type": "literal",
+      "source": "Takma Yeri:^000000 Accessory",
+      "translation": "Takma Yeri:^000000 Aksesuar"
+    },
+    {
+      "id": "label_attack",
+      "type": "literal",
+      "source": "^0000CCAttack:^000000",
+      "translation": "^0000CCSaldiri:^000000"
+    },
+    {
+      "id": "label_property",
+      "type": "literal",
+      "source": "^0000CCProperty:^000000",
+      "translation": "^0000CCElement:^000000"
+    },
+    {
+      "id": "label_jobs",
+      "type": "literal",
+      "source": "^0000CCJobs:^000000",
+      "translation": "^0000CCJoblar:^000000"
+    },
+    {
+      "id": "label_class",
+      "type": "literal",
+      "source": "^0000CCClass:^000000",
+      "translation": "^0000CCSinif:^000000"
+    },
+    {
+      "id": "label_slots",
+      "type": "literal",
+      "source": "^0000CCSlots:^000000",
+      "translation": "^0000CCSlotlar:^000000"
     }
   ]
 }
