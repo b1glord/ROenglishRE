@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-pettalk-pending.py
 # 📌 Amac: pettalktable.xml icindeki temiz ASCII Ingilizce metinleri raw-byte guvenli pending envanterine donusturur
 # 📌 Tool - Python
-# Version: 1.1.1
+# Version: 1.1.2
 # Aciklama: Kaynagi decode etmeden XML metin dugumlerini siniflandirir; yalniz ASCII ceviri adaylarini metin olarak saklar
 # Bagimli Oldugu Katman: Tool
 
@@ -17,12 +17,12 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SOURCE = REPO_ROOT / "Translation/Renewal/data/pettalktable.xml"
 OUTPUT = REPO_ROOT / "TurkuazTR/pettalktable.pending.json"
-TAG_RE = re.compile(rb"<([A-Za-z0-9_]+)>([^<]*)</\\1>")
+TAG_RE = re.compile(rb"<([A-Za-z0-9_]+)>([^<]*)</\1>")
 ASCII_LETTER_RE = re.compile(rb"[A-Za-z]")
 
 
 def git_blob_sha(raw: bytes) -> str:
-    header = f"blob {len(raw)}\\0".encode("ascii")
+    header = f"blob {len(raw)}\0".encode("ascii")
     return hashlib.sha1(header + raw).hexdigest()
 
 
