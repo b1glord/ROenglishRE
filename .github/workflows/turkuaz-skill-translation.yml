@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.1.0
-# DESCRIPTION: Pending raporlarini yeniler; skill, line-overlay, whole-file ve kitap localization bilesenlerini dort ortak localization profilinde uretip bot commit'i ile saklar.
+# VERSION: 2.2.0
+# DESCRIPTION: Pending raporlarini yeniler; skill, overlay, kitap ve byte-safe itemInfo localization ciktilarini ortak profillerde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -17,6 +17,7 @@ on:
       - "TurkuazTR/skilldescript.tr.json"
       - "TurkuazTR/skill-profiles.json"
       - "TurkuazTR/localization-profiles.json"
+      - "TurkuazTR/config/iteminfo-rules.json"
       - "TurkuazTR/msgstringtable.tr.json"
       - "TurkuazTR/achievements.tr.json"
       - "TurkuazTR/line-overlays.json"
@@ -43,6 +44,7 @@ on:
       - "Translation/Renewal/SystemEN/Sign_Data.lub"
       - "Translation/Renewal/SystemEN/Towninfo.lub"
       - "Translation/Renewal/SystemEN/RecommendedQuests.lub"
+      - "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
 
 permissions:
   contents: write
@@ -138,6 +140,16 @@ jobs:
             done
           done
 
+      - name: Build localized item info profiles
+        shell: bash
+        run: |
+          set -euo pipefail
+          for profile in hybrid full_tr bilingual; do
+            python TurkuazTR/tools/build-iteminfo-profile.py \
+              --profile "$profile" \
+              --output "TurkuazTR/generated/$profile/SystemEN/LuaFiles514/itemInfo.lua"
+          done
+
       - name: Commit refreshed localization outputs
         shell: bash
         run: |
@@ -149,6 +161,9 @@ jobs:
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
           git add TurkuazTR/generated/bilingual
+          git add TurkuazTR/generated/hybrid/SystemEN/LuaFiles514/itemInfo.lua
+          git add TurkuazTR/generated/full_tr/SystemEN/LuaFiles514/itemInfo.lua
+          git add TurkuazTR/generated/bilingual/SystemEN/LuaFiles514/itemInfo.lua
           if git diff --cached --quiet; then
             echo "Localization pending ve generated ciktilarda degisiklik yok."
             exit 0

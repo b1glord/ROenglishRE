@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.50.0
+# Version: 2.51.0
 # Aciklama: Upstream 2026, Turkce overlay, yardim/unvan/harita/random option/kart/state icon localization ve 2022 client entegrasyon dallarini sabitler
 # Bagimli Oldugu Katman: Config
 
@@ -226,7 +226,9 @@ sync:
     builder: "TurkuazTR/tools/build-iteminfo-profile.py"
     rules: "TurkuazTR/config/iteminfo-rules.json"
     rule_count: 57
-    validated_initial_replacements_per_tr_profile: 113550
+    validated_replacements_per_tr_profile: 128890
+    generated_profiles: "hybrid,full_tr,bilingual"
+    generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
     note: "resource names and technical fields remain unchanged; item names remain canonical"
 policy:
