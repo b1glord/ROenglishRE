@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: Kaynak encodingini decode etmeden korur; item adlarini canonical birakir ve sadece description alanlarinda kurallari uygular
+# Version: 1.0.1
+# Aciklama: Kaynak encodingini decode etmeden korur; item adlarini canonical birakir, kurallari bir kez derler ve sadece description alanlarinda uygular
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -24,25 +24,51 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def prepare_rules(rules: list[dict]) -> list[dict]:
+    prepared: list[dict] = []
+    for rule in rules:
+        rule_id = rule["id"]
+        rule_type = rule["type"]
+
+        if rule_type == "literal":
+            prepared.append(
+                {
+                    "id": rule_id,
+                    "type": rule_type,
+                    "source": rule["source"].encode("ascii"),
+                    "target": rule["translation"].encode("ascii"),
+                }
+            )
+        elif rule_type == "regex":
+            prepared.append(
+                {
+                    "id": rule_id,
+                    "type": rule_type,
+                    "pattern": re.compile(rule["pattern"].encode("ascii")),
+                    "replacement": rule["replacement"].encode("ascii"),
+                }
+            )
+        else:
+            raise ValueError(f"Unsupported rule type: {rule_type}")
+
+    return prepared
+
+
 def apply_rules(line: bytes, rules: list[dict], counts: dict[str, int]) -> bytes:
     result = line
     for rule in rules:
         rule_id = rule["id"]
         if rule["type"] == "literal":
-            source = rule["source"].encode("ascii")
-            target = rule["translation"].encode("ascii")
+            source = rule["source"]
+            target = rule["target"]
             count = result.count(source)
             if count:
                 result = result.replace(source, target)
                 counts[rule_id] = counts.get(rule_id, 0) + count
-        elif rule["type"] == "regex":
-            pattern = re.compile(rule["pattern"].encode("ascii"))
-            replacement = rule["replacement"].encode("ascii")
-            result, count = pattern.subn(replacement, result)
+        else:
+            result, count = rule["pattern"].subn(rule["replacement"], result)
             if count:
                 counts[rule_id] = counts.get(rule_id, 0) + count
-        else:
-            raise ValueError(f"Unsupported rule type: {rule['type']}")
     return result
 
 
@@ -69,7 +95,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         raise ValueError(f"Unsupported item_info mode: {mode}")
 
     target_fields = {field.encode("ascii") for field in config["target_fields"]}
-    rules = config["rules"]
+    rules = prepare_rules(config["rules"])
     counts: dict[str, int] = {}
 
     output: list[bytes] = []
