@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.14.0
-# Aciklama: Translation status, pet pending/recovery ve item gorunur kapsam auditleri, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
+# Version: 1.15.0
+# Aciklama: Translation status, pet pending/recovery, item gorunur kapsam ve legacy item recovery auditleri, line/whole-file overlay source dogrulamasi, Lua structural kontrolleri, questid2display ve OngoingQuests byte-safe validation calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -52,7 +52,8 @@ jobs:
           set -euo pipefail
           git fetch origin \
             '+refs/heads/upstream/latest:refs/remotes/origin/upstream/latest' \
-            '+refs/heads/translation/tr:refs/remotes/origin/translation-tr'
+            '+refs/heads/translation/tr:refs/remotes/origin/translation-tr' \
+            '+refs/heads/archive/tr-2025-10-25:refs/remotes/origin/archive-tr-2025-10-25'
 
       - name: Validate Python syntax
         shell: bash
@@ -72,6 +73,7 @@ jobs:
             TurkuazTR/tools/extract-pettalk-pending.py \
             TurkuazTR/tools/validate-pettalk-recovery.py \
             TurkuazTR/tools/audit-iteminfo-visible.py \
+            TurkuazTR/tools/audit-iteminfo-legacy.py \
             TurkuazTR/tools/extract-skillinfolist-pending.py \
             TurkuazTR/tools/extract-skilldescript-pending.py
 
@@ -101,6 +103,12 @@ jobs:
         run: |
           set -euo pipefail
           python3 TurkuazTR/tools/audit-iteminfo-visible.py --json
+
+      - name: Audit legacy item info recovery
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/audit-iteminfo-legacy.py --json
 
       - name: Validate registered localization overlays
         shell: bash
