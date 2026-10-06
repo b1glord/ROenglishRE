@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.9.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, skill/hasar/refine/grade kaliplari, kutu/servis metinleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
+    "version": "1.10.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, skill/hasar/refine/grade/status kaliplari, servis metinleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -2423,6 +2423,324 @@
       "type": "literal",
       "source": "- Bubble Gum (30 minutes, twice a day)",
       "translation": "- Bubble Gum (30 dakika, gunde iki kez)"
+    },
+    {
+      "id": "for_each_n_refine_entire_set",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each (\\d+) Refine Levels\\^000000 of \\^0000FFentire set\\^000000:",
+      "replacement": "^0000FFTum setin her \\1 Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "grade_generic_per_refine",
+      "type": "regex",
+      "pattern": "(\\[Grade [A-D]\\]: [^\\r\\n]+?) per \\^0000FF(\\d+) Refine Levels\\^000000\\.",
+      "replacement": "\\1, her ^0000FF\\2 Gelistirme Seviyesi^000000 icin."
+    },
+    {
+      "id": "grade_magical_every_element",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Magical Damage (?:with|against enemies of) every [Ee]lement \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum elementlerde Buyu Hasari +%\\2."
+    },
+    {
+      "id": "grade_magical_every_race",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Magical Damage against enemies of every race \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum irklardaki dusmanlara Buyu Hasari +%\\2."
+    },
+    {
+      "id": "grade_physical_colored_size",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) size \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: \\2 boyutundaki dusmanlara Fiziksel Hasar +%\\3."
+    },
+    {
+      "id": "grade_after_skill_delay",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: After Skill Delay -(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Beceri Sonrasi Gecikme -%\\2."
+    },
+    {
+      "id": "base_level_less_than",
+      "type": "regex",
+      "pattern": "\\^CC6600Base Level\\^000000 (?:less than|is) \\^FF0000(\\d+)\\^000000(?: or less)?:",
+      "replacement": "^CC6600Temel Seviye^000000 ^FF0000\\1^000000 veya altindaysa:"
+    },
+    {
+      "id": "skill_cooldown_single_second",
+      "type": "regex",
+      "pattern": "Decreases (\\^009900[^\\r\\n]+?\\^000000) skill cooldown by ([0-9.]+) second\\.",
+      "replacement": "\\1 becerisinin bekleme suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "ranged_physical_damage_taken",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from Ranged Physical Damage by (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "item_drop_rate",
+      "type": "regex",
+      "pattern": "Increases item drop rate by (\\d+)%\\.",
+      "replacement": "Esya dusme oranini %\\1 artirir."
+    },
+    {
+      "id": "generic_equipment_grade_at_least",
+      "type": "regex",
+      "pattern": "If the (\\^990099[^\\r\\n]+?\\^000000)'s Grade is (\\^CC3D3D[A-D]\\^000000) or higher:",
+      "replacement": "\\1 Grade'i \\2 veya daha yuksekse:"
+    },
+    {
+      "id": "generic_equipment_grade_at_least_apostrophe",
+      "type": "regex",
+      "pattern": "If the (\\^990099[^\\r\\n]+?\\^000000)' Grade is (\\^CC3D3D[A-D]\\^000000) or higher:",
+      "replacement": "\\1 Grade'i \\2 veya daha yuksekse:"
+    },
+    {
+      "id": "ignore_physical_defense_every_race",
+      "type": "regex",
+      "pattern": "Ignores physical defense of every race by (\\d+)%\\.",
+      "replacement": "Tum irklarin fiziksel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "physical_ranged_buff_chance",
+      "type": "regex",
+      "pattern": "Physical attacks have a chance to increase Ranged Physical Damage by additional (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "Fiziksel saldirilar belirli bir sansla Menzilli Fiziksel Hasari \\2 saniye boyunca ek %\\1 artirir."
+    },
+    {
+      "id": "resurrect_hp_sp",
+      "type": "regex",
+      "pattern": "Restores HP and SP by (\\d+)% when resurrected\\.",
+      "replacement": "Diriltildiginda HP ve SP'yi %\\1 yeniler."
+    },
+    {
+      "id": "compounded_level_weapon",
+      "type": "regex",
+      "pattern": "When compounded to Level (\\d+) weapon:",
+      "replacement": "Seviye \\1 silaha takildiginda:"
+    },
+    {
+      "id": "contains_one_random",
+      "type": "literal",
+      "source": "Contains one of the following at random:",
+      "translation": "Asagidakilerden birini rastgele icerir:"
+    },
+    {
+      "id": "fixed_cast_skill",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time of (\\^009900[^\\r\\n]+?\\^000000) by ([0-9.]+) seconds\\.",
+      "replacement": "\\1 becerisinin Sabit Kullanma Suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "magical_monsters_every_size",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki canavarlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "physical_monsters_every_race_except_players",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "sp_recovery_amount",
+      "type": "regex",
+      "pattern": "Increases SP Recovery Amount by (\\d+)\\.",
+      "replacement": "SP Yenilenme Miktarini \\1 artirir."
+    },
+    {
+      "id": "upon_opening_rare",
+      "type": "literal",
+      "source": "Upon opening, you can get one of the additional rare items.",
+      "translation": "Acildiginda ek nadir esyalardan birini alabilirsiniz."
+    },
+    {
+      "id": "open_box_shadow_random",
+      "type": "literal",
+      "source": "When you open the box, you can get 1 Shadow Equipment at random.",
+      "translation": "Kutuyu actiginizda rastgele 1 Shadow Equipment alabilirsiniz."
+    },
+    {
+      "id": "magical_element_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element by additional (\\d+)%\\.",
+      "replacement": "\\1 elementiyle Buyu Hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "status_resistance",
+      "type": "regex",
+      "pattern": "Increases resistance against (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status by (\\d+)%\\.",
+      "replacement": "\\1 durumuna direnci %\\2 artirir."
+    },
+    {
+      "id": "colored_status_resistance",
+      "type": "regex",
+      "pattern": "Increases (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) resistance by (\\d+)%\\.",
+      "replacement": "\\1 direncini %\\2 artirir."
+    },
+    {
+      "id": "variable_cast_increase",
+      "type": "regex",
+      "pattern": "Increases Variable Casting Time by (\\d+)%\\.",
+      "replacement": "Degisken Kullanma Suresini %\\1 artirir."
+    },
+    {
+      "id": "physical_chance_absorb_sp",
+      "type": "regex",
+      "pattern": "Physical attacks have a (\\d+)% chance to absorb (\\d+)% of the inflicted damage as SP\\.",
+      "replacement": "Fiziksel saldirilar %\\1 sansla verilen hasarin %\\2 kadarini SP olarak emer."
+    },
+    {
+      "id": "magical_every_class",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every class by (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_every_race",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_every_race_except_players",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki dusmanlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "decrease_magical_every_element",
+      "type": "regex",
+      "pattern": "Decreases Magical Damage with every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini %\\1 azaltir."
+    },
+    {
+      "id": "healing_effect_generic",
+      "type": "regex",
+      "pattern": "Increases (\\^009900Healing\\^000000) effectiveness by additional (\\d+)%\\.",
+      "replacement": "\\1 etkinligini ek %\\2 artirir."
+    },
+    {
+      "id": "damage_every_race",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "rental_items_days",
+      "type": "regex",
+      "pattern": "\\^000088Rental Items for (\\d+) days\\^000000",
+      "replacement": "^000088\\1 Gunluk Kiralik Esyalar^000000"
+    },
+    {
+      "id": "duration_seconds",
+      "type": "regex",
+      "pattern": "\\^0000CCDuration:\\^000000 (\\d+) seconds",
+      "replacement": "^0000CCSure:^000000 \\1 saniye"
+    },
+    {
+      "id": "for_each_refine_equipped",
+      "type": "regex",
+      "pattern": "\\^0000FFFor each Refine Level\\^000000 of equipped (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "Kusanilan \\1'in her ^0000FFGelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "refine_total_threshold",
+      "type": "regex",
+      "pattern": "\\^0000FFIf Refine Level is total \\^0000FF\\+(\\d+) or higher\\^000000:",
+      "replacement": "^0000FFToplam Gelistirme Seviyesi +\\1 veya daha yuksekse^000000:"
+    },
+    {
+      "id": "collectible_sold_merchant",
+      "type": "literal",
+      "source": "A collectible that can be sold to merchant.",
+      "translation": "Tuccara satilabilen bir koleksiyon esyasi."
+    },
+    {
+      "id": "reflected_damage_taken_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from reflected damage by additional (\\d+)%\\.",
+      "replacement": "Yansitilan hasardan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "ranged_physical_damage_decrease",
+      "type": "regex",
+      "pattern": "Decreases Ranged Physical Damage by (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasari %\\1 azaltir."
+    },
+    {
+      "id": "costume_garment_second_slot",
+      "type": "literal",
+      "source": "Gives the following effects when compounded on the 2nd slot of an Costume Garment.",
+      "translation": "Costume Garment'in 2. slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "after_skill_delay_increase",
+      "type": "regex",
+      "pattern": "Increases After Skill Delay by (\\d+)%\\.",
+      "replacement": "Beceri Sonrasi Gecikmeyi %\\1 artirir."
+    },
+    {
+      "id": "damage_monsters_single_map",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 icindeki canavarlara verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "contains_all_following",
+      "type": "literal",
+      "source": "Contains all of the following items:",
+      "translation": "Asagidaki esyalarin tumunu icerir:"
+    },
+    {
+      "id": "fixed_cast_percent_no_period",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by (\\d+)%",
+      "replacement": "Sabit Kullanma Suresini %\\1 azaltir"
+    },
+    {
+      "id": "drain_hp_seconds",
+      "type": "regex",
+      "pattern": "Drains (\\d+) HP every (\\d+) seconds\\.",
+      "replacement": "Her \\2 saniyede \\1 HP tuketir."
+    },
+    {
+      "id": "magical_players_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against (\\^FF0000Players\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 hedeflerine Buyu Hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "item_effect_disappear_plain",
+      "type": "literal",
+      "source": "the item effect will disappear.",
+      "translation": "esya etkisi kaybolur."
+    },
+    {
+      "id": "learned_skill_condition",
+      "type": "regex",
+      "pattern": "When Level (\\d+) (\\^009900[^\\r\\n]+?\\^000000) is learned:",
+      "replacement": "Seviye \\1 \\2 ogrenildiginde:"
+    },
+    {
+      "id": "all_shadow_equipment",
+      "type": "literal",
+      "source": "All 6 Shadow Equipments are included.",
+      "translation": "6 Shadow Equipment'in tamami dahildir."
+    },
+    {
+      "id": "graphics_reflected",
+      "type": "literal",
+      "source": "^0000FFGraphics are reflected in the character.^000000",
+      "translation": "^0000FFGorseller karaktere yansitilir.^000000"
+    },
+    {
+      "id": "rental_duration_day",
+      "type": "literal",
+      "source": "^0000CCRental Duration:^000000 1 day",
+      "translation": "^0000CCKiralama Suresi:^000000 1 gun"
     }
   ]
 }
