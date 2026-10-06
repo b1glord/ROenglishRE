@@ -1,0 +1,483 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/stateiconinfo.intentional.json",
+    "purpose": "State icon localization tamamlandiktan sonra bilerek Ingilizce/canonical tutulan skill, status ve sayisal stat etiketlerini kaydeder",
+    "module": "Translation Intentional - JSON",
+    "version": "1.0.0",
+    "description": "Canonical oyun beceri/status adlari ile dil bagimsiz sayisal stat etiketlerini ceviri disi birakir; kalan gorunur aciklamalar Turkcelestirilmistir",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
+  "source_blob_sha": "93cdb0bd37d37ac9a5a6a28ca0d22b3eedfd8dd4",
+  "intentional_line_count": 77,
+  "intentional_unique_count": 70,
+  "policy": {
+    "canonical_skill_or_status_name": "Oyun/skill kimligini korumak icin canonical ad degistirilmez.",
+    "canonical_skill_list": "Beceri kombinasyonu/listesi canonical adlarla korunur.",
+    "canonical_numeric_stat_label": "Dil bagimsiz sayisal stat etiketi oldugu icin degistirilmez."
+  },
+  "entries": [
+    {
+      "line": 26,
+      "text": "Suffragium",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Suffragium\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 139,
+      "text": "Kaupe",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Kaupe\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 446,
+      "text": "Kaizel",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Kaizel\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 578,
+      "text": "Angelus",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Angelus\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 802,
+      "text": "Magnificat",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Magnificat\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 848,
+      "text": "Kaahi",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Kaahi\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 998,
+      "text": "Impositio Manus",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Impositio Manus\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 1007,
+      "text": "Leech End",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Leech End\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 1079,
+      "text": "Adoramus",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Adoramus\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 1146,
+      "text": "Kyrie Eleison",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Kyrie Eleison\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 1172,
+      "text": "Sacrament",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Sacrament\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 1376,
+      "text": "Signum Crucis",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Signum Crucis\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 2874,
+      "text": "Akaraje",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Akaraje\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 3177,
+      "text": "MIN ATK",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MIN ATK\", COLOR_TITLE_TOGGLE},"
+    },
+    {
+      "line": 3189,
+      "text": "MIN MATK",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MIN MATK\", COLOR_TITLE_TOGGLE},"
+    },
+    {
+      "line": 3251,
+      "text": "Offertorium",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Offertorium\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 3409,
+      "text": "STR +1, VIT +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"STR +1, VIT +1\" },"
+    },
+    {
+      "line": 3410,
+      "text": "MaxHP +30, MaxSP +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +30, MaxSP +10\" }"
+    },
+    {
+      "line": 3416,
+      "text": "INT +1, DEX +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"INT +1, DEX +1\" },"
+    },
+    {
+      "line": 3417,
+      "text": "MaxHP +30, MaxSP +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +30, MaxSP +10\" }"
+    },
+    {
+      "line": 3423,
+      "text": "LUK +1, INT +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"LUK +1, INT +1\" },"
+    },
+    {
+      "line": 3424,
+      "text": "MaxHP +30, MaxSP +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +30, MaxSP +10\" }"
+    },
+    {
+      "line": 3430,
+      "text": "DEX +1, AGI +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"DEX +1, AGI +1\" },"
+    },
+    {
+      "line": 3431,
+      "text": "MaxHP +30, MaxSP +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +30, MaxSP +10\" }"
+    },
+    {
+      "line": 3720,
+      "text": "All Base Stats +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"All Base Stats +1\" }"
+    },
+    {
+      "line": 3819,
+      "text": "Vitata500",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Vitata500\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 3856,
+      "text": "Stasis",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Stasis\", COLOR_TITLE_DEBUFF },"
+    },
+    {
+      "line": 4335,
+      "text": "ASPD +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ASPD +10\" }"
+    },
+    {
+      "line": 4344,
+      "text": "CRIT +30",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"CRIT +30\" }"
+    },
+    {
+      "line": 4390,
+      "text": "FLEE +100",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"FLEE +100\" }"
+    },
+    {
+      "line": 4546,
+      "text": "FLEE +200",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"FLEE +200\" }"
+    },
+    {
+      "line": 4690,
+      "text": "Lauda Ramus",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Lauda Ramus\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 4884,
+      "text": "Nova Explosion + Advent of the Star Emperor",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"Nova Explosion + Advent of the Star Emperor\" },"
+    },
+    {
+      "line": 5137,
+      "text": "ATK +7%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ATK +7%\" }"
+    },
+    {
+      "line": 5146,
+      "text": "MATK +7%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MATK +7%\" }"
+    },
+    {
+      "line": 5270,
+      "text": "Lux Anima Rune Stone: Lux Anima",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Lux Anima Rune Stone: Lux Anima\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5468,
+      "text": "MATK +100",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MATK +100\" }"
+    },
+    {
+      "line": 5478,
+      "text": "All Bloom, Crystal Impact,",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"All Bloom, Crystal Impact,\" },"
+    },
+    {
+      "line": 5479,
+      "text": "Destructive Hurricane,",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"Destructive Hurricane,\" },"
+    },
+    {
+      "line": 5508,
+      "text": "DEF +300",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"DEF +300\" },"
+    },
+    {
+      "line": 5509,
+      "text": "MDEF +100",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MDEF +100\" },"
+    },
+    {
+      "line": 5625,
+      "text": "Oleum Sanctum",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Oleum Sanctum\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5657,
+      "text": "Third Punish/Consecration.",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"Third Punish/Consecration.\" },"
+    },
+    {
+      "line": 5670,
+      "text": "Third Punish/Consecration/Flame Bomb.",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"Third Punish/Consecration/Flame Bomb.\" },"
+    },
+    {
+      "line": 5683,
+      "text": "Third Punish.",
+      "reason": "canonical_skill_list",
+      "source_en": "\t\t{ \"Third Punish.\" },"
+    },
+    {
+      "line": 5750,
+      "text": "Mediale Votum",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Mediale Votum\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5760,
+      "text": "Argutus Vita",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Argutus Vita\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5769,
+      "text": "Argutus Telum",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Argutus Telum\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5778,
+      "text": "Presens Acies",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Presens Acies\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5787,
+      "text": "Competentia",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Competentia\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5796,
+      "text": "Religio",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Religio\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 5805,
+      "text": "Benedictum",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Benedictum\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 6214,
+      "text": "Mandala",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Mandala\", COLOR_TITLE_DEBUFF }, "
+    },
+    {
+      "line": 6300,
+      "text": "Quake",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Quake\", COLOR_TITLE_DEBUFF },"
+    },
+    {
+      "line": 6485,
+      "text": "Hogogong",
+      "reason": "canonical_skill_or_status_name",
+      "source_en": "\t\t{ \"Hogogong\", COLOR_TITLE_BUFF },"
+    },
+    {
+      "line": 6862,
+      "text": "INT +5",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"INT +5\" },"
+    },
+    {
+      "line": 6863,
+      "text": "FLEE +30",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"FLEE +30\" },"
+    },
+    {
+      "line": 6873,
+      "text": "MaxHP +10%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +10%\" },"
+    },
+    {
+      "line": 6874,
+      "text": "MaxSP +5%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxSP +5%\" },"
+    },
+    {
+      "line": 6902,
+      "text": "ASPD +3",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ASPD +3\" },"
+    },
+    {
+      "line": 6903,
+      "text": "Perfect Hit +10%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"Perfect Hit +10%\" }"
+    },
+    {
+      "line": 6922,
+      "text": "DEF +400, MDEF +100",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"DEF +400, MDEF +100\" }"
+    },
+    {
+      "line": 7031,
+      "text": "P.ATK +10, S.MATK +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"P.ATK +10, S.MATK +10\" },"
+    },
+    {
+      "line": 7040,
+      "text": "FLEE +50, ASPD +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"FLEE +50, ASPD +1\" },"
+    },
+    {
+      "line": 7123,
+      "text": "ATK +10%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ATK +10%\" },"
+    },
+    {
+      "line": 7124,
+      "text": "MATK +10%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MATK +10%\" }"
+    },
+    {
+      "line": 7511,
+      "text": "MaxHP +5%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +5%\" },"
+    },
+    {
+      "line": 7512,
+      "text": "MaxSP +5%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxSP +5%\" },"
+    },
+    {
+      "line": 7521,
+      "text": "FLEE +25",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"FLEE +25\" },"
+    },
+    {
+      "line": 7522,
+      "text": "HIT +25",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"HIT +25\" },"
+    },
+    {
+      "line": 7531,
+      "text": "Critical +10",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"Critical +10\" },"
+    },
+    {
+      "line": 7532,
+      "text": "ASPD +1",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ASPD +1\" },"
+    },
+    {
+      "line": 7541,
+      "text": "ATK +7%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ATK +7%\" },"
+    },
+    {
+      "line": 7542,
+      "text": "MATK +7%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MATK +7%\" },"
+    },
+    {
+      "line": 7623,
+      "text": "ATK, MATK +5%.",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ATK, MATK +5%.\" },"
+    },
+    {
+      "line": 7624,
+      "text": "ATK, MATK +50.",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"ATK, MATK +50.\" }"
+    },
+    {
+      "line": 7684,
+      "text": "MaxHP +10%",
+      "reason": "canonical_numeric_stat_label",
+      "source_en": "\t\t{ \"MaxHP +10%\" }"
+    }
+  ]
+}

@@ -3,18 +3,18 @@
     "path": "/ROenglishRE/TurkuazTR/stateiconinfo.tr.json",
     "purpose": "State icon tooltip baslik ve aciklamalarini exact-source overlay ile ASCII Turkce olarak yerellestirir",
     "module": "Translation Patch - JSON",
-    "version": "1.8.0",
-    "description": "stateiconinfo.lub icinde 1711 exact-source kullanici gorunur durum/tooltip satirini ASCII Turkce olarak yerellestirir",
+    "version": "1.9.0",
+    "description": "stateiconinfo.lub icindeki 2108 kullanici gorunur satiri exact-source ASCII Turkce ile yerellestirir; kalan canonical skill/status ve sayisal stat etiketleri intentional olarak korunur",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/luafiles514/lua files/stateicon/stateiconinfo.lub",
   "source_ref": "upstream/latest",
   "source_blob_sha": "93cdb0bd37d37ac9a5a6a28ca0d22b3eedfd8dd4",
   "source_line_count": 7967,
-  "patch_count": 1855,
+  "patch_count": 2108,
   "translated_title_lines": 247,
   "translated_description_lines": 472,
-  "scope": "expanded_fourth_job_and_deep_status_tooltips",
+  "scope": "translated_complete_with_intentional_canonical_numeric_labels",
   "patches": {
     "17": {
       "source_en": "\t\t{ \"Maximum Power Thrust\", COLOR_TITLE_BUFF },",
@@ -1467,6 +1467,14 @@
     "1357": {
       "source_en": "\t\t{ \"Increase resistance against states:\" },",
       "translation_tr": "\t\t{ \"Su durumlara direnci artirir:\" },"
+    },
+    "1358": {
+      "source_en": "\t\t{ \"Stun, Frozen, Stone Curse, Sleep, Silence\" },",
+      "translation_tr": "\t\t{ \"Sersemletme, Donmus, Tas Laneti, Uyku, Sessizlik\" },"
+    },
+    "1359": {
+      "source_en": "\t\t{ \"Blind, Curse, Poison, Bleeding, Confusion\" }",
+      "translation_tr": "\t\t{ \"Korluk, Lanet, Zehir, Kanama, Kargasalik\" }"
     },
     "1366": {
       "source_en": "\t\t{ \"Sinking Melody\", COLOR_TITLE_BUFF },",
@@ -4600,6 +4608,10 @@
       "source_en": "\t\t{ \"Increases physical inflicted damage on\" },",
       "translation_tr": "\t\t{ \"Verilen fiziksel hasari artirir:\" },"
     },
+    "4499": {
+      "source_en": "\t\t{ \"Holy element, Shadow element,\" },",
+      "translation_tr": "\t\t{ \"Kutsal element, Golge elementi,\" },"
+    },
     "4500": {
       "source_en": "\t\t{ \"Angel and Demon monsters by 20%\" }",
       "translation_tr": "\t\t{ \"Angel ve Demon canavarlara karsi %20\" }"
@@ -6588,21 +6600,89 @@
       "source_en": "\t\t{ \"Increases Ranged Physical Damage.\" }",
       "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasari artirir.\" }"
     },
+    "6302": {
+      "source_en": "\t\t{ \"Increases recieved Melee and\" },",
+      "translation_tr": "\t\t{ \"Alinan Yakin Dovus ve\" },"
+    },
     "6303": {
       "source_en": "\t\t{ \"Ranged Physical Damage.\" }",
       "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasar.\" }"
+    },
+    "6310": {
+      "source_en": "\t\t{ \"Rush\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hucum\", COLOR_TITLE_BUFF },"
+    },
+    "6312": {
+      "source_en": "\t\t{ \"Increases Melee and\" },",
+      "translation_tr": "\t\t{ \"Yakin Dovus ve\" },"
     },
     "6313": {
       "source_en": "\t\t{ \"Ranged Physical Damage.\" }",
       "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasar.\" }"
     },
+    "6320": {
+      "source_en": "\t\t{ \"Sunrise\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gundogumu\", COLOR_TITLE_BUFF },"
+    },
+    "6322": {
+      "source_en": "\t\t{ \"Sunrise State\" }",
+      "translation_tr": "\t\t{ \"Gundogumu Durumu\" }"
+    },
+    "6329": {
+      "source_en": "\t\t{ \"Noon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ogle\", COLOR_TITLE_BUFF },"
+    },
+    "6331": {
+      "source_en": "\t\t{ \"Noon State\" }",
+      "translation_tr": "\t\t{ \"Ogle Durumu\" }"
+    },
+    "6338": {
+      "source_en": "\t\t{ \"Sunset\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gunbatimi\", COLOR_TITLE_BUFF },"
+    },
+    "6340": {
+      "source_en": "\t\t{ \"Sunset State\" }",
+      "translation_tr": "\t\t{ \"Gunbatimi Durumu\" }"
+    },
+    "6347": {
+      "source_en": "\t\t{ \"Moonrise\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ay Dogusu\", COLOR_TITLE_BUFF },"
+    },
+    "6349": {
+      "source_en": "\t\t{ \"Moonrise State\" }",
+      "translation_tr": "\t\t{ \"Ay Dogusu Durumu\" }"
+    },
+    "6356": {
+      "source_en": "\t\t{ \"Midnight\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gece Yarisi\", COLOR_TITLE_BUFF },"
+    },
+    "6358": {
+      "source_en": "\t\t{ \"Midnight State\" }",
+      "translation_tr": "\t\t{ \"Gece Yarisi Durumu\" }"
+    },
+    "6365": {
+      "source_en": "\t\t{ \"Dawn\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Safak\", COLOR_TITLE_BUFF },"
+    },
+    "6367": {
+      "source_en": "\t\t{ \"Dawn State\" }",
+      "translation_tr": "\t\t{ \"Safak Durumu\" }"
+    },
     "6374": {
       "source_en": "\t\t{ \"Star Burst\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Yildiz Patlamasi\", COLOR_TITLE_DEBUFF },"
     },
+    "6376": {
+      "source_en": "\t\t{ \"Star Burst State\" }",
+      "translation_tr": "\t\t{ \"Yildiz Patlamasi Durumu\" }"
+    },
     "6383": {
       "source_en": "\t\t{ \"Enchanting Sky\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Buyulu Gok\", COLOR_TITLE_BUFF },"
+    },
+    "6385": {
+      "source_en": "\t\t{ \"Celestial Unity State\" }",
+      "translation_tr": "\t\t{ \"Goksel Birlik Durumu\" }"
     },
     "6392": {
       "source_en": "\t\t{ \"Talisman of Protection\", COLOR_TITLE_BUFF },",
@@ -6636,13 +6716,81 @@
       "source_en": "\t\t{ \"Increases Physical and Magical Damage against\" },",
       "translation_tr": "\t\t{ \"Fiziksel ve Buyusel hasari artirir:\" },"
     },
+    "6422": {
+      "source_en": "\t\t{ \"Water/Wind/Earth/Fire and Neutral elemental enemies.\" }",
+      "translation_tr": "\t\t{ \"Su/Ruzgar/Toprak/Ates ve Notr elementli dusmanlar.\" }"
+    },
+    "6429": {
+      "source_en": "\t\t{ \"Blessing of the East\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dogunun Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6431": {
+      "source_en": "\t\t{ \"Blessing of the East State\" }",
+      "translation_tr": "\t\t{ \"Dogunun Kutsamasi Durumu\" }"
+    },
+    "6438": {
+      "source_en": "\t\t{ \"Blessing of the West\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Batinin Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6440": {
+      "source_en": "\t\t{ \"Blessing of the West State\" }",
+      "translation_tr": "\t\t{ \"Batinin Kutsamasi Durumu\" }"
+    },
+    "6447": {
+      "source_en": "\t\t{ \"Blessing of the South\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Guneyin Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6449": {
+      "source_en": "\t\t{ \"Blessing of the South State\" }",
+      "translation_tr": "\t\t{ \"Guneyin Kutsamasi Durumu\" }"
+    },
+    "6456": {
+      "source_en": "\t\t{ \"Blessing of the North\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kuzeyin Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6458": {
+      "source_en": "\t\t{ \"Blessing of the North State\" }",
+      "translation_tr": "\t\t{ \"Kuzeyin Kutsamasi Durumu\" }"
+    },
+    "6465": {
+      "source_en": "\t\t{ \"Blessing of the Four Directions\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dort Yonun Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "6467": {
+      "source_en": "\t\t{ \"Blessing of the Four Directions State\" }",
+      "translation_tr": "\t\t{ \"Dort Yonun Kutsamasi Durumu\" }"
+    },
+    "6474": {
+      "source_en": "\t\t{ \"Heaven and Earth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Gok ve Yer\", COLOR_TITLE_BUFF },"
+    },
+    "6476": {
+      "source_en": "\t\t{ \"Increases Melee Physical Damage\" },",
+      "translation_tr": "\t\t{ \"Yakin Dovus Fiziksel Hasarini artirir\" },"
+    },
     "6477": {
       "source_en": "\t\t{ \"Increases Ranged Physical Damage\" },",
       "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasari artirir\" },"
     },
+    "6478": {
+      "source_en": "\t\t{ \"Increases Magic Damage with every element\" }",
+      "translation_tr": "\t\t{ \"Tum elementlerde Buyusel Hasari artirir\" }"
+    },
+    "6487": {
+      "source_en": "\t\t{ \"Hogogong State\" }",
+      "translation_tr": "\t\t{ \"Hogogong Durumu\" }"
+    },
+    "6494": {
+      "source_en": "\t\t{ \"Marine Festival\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Deniz Festivali\", COLOR_TITLE_BUFF },"
+    },
     "6496": {
       "source_en": "\t\t{ \"Increases POW, CRT and CON\" }",
       "translation_tr": "\t\t{ \"POW, CRT ve CON'u artirir\" }"
+    },
+    "6503": {
+      "source_en": "\t\t{ \"Sandy Festival\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kum Festivali\", COLOR_TITLE_BUFF },"
     },
     "6505": {
       "source_en": "\t\t{ \"Increases SPL, WIS and STA\" }",
@@ -6659,6 +6807,10 @@
     "6521": {
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6523": {
+      "source_en": "\t\t{ \"Enchants Water elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Su elementi kazandirir:\" },"
     },
     "6524": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
@@ -6680,6 +6832,10 @@
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
     },
+    "6536": {
+      "source_en": "\t\t{ \"Enchants Wind elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Ruzgar elementi kazandirir:\" },"
+    },
     "6537": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
       "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
@@ -6699,6 +6855,10 @@
     "6547": {
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6549": {
+      "source_en": "\t\t{ \"Enchants Earth elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Toprak elementi kazandirir:\" },"
     },
     "6550": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
@@ -6720,6 +6880,10 @@
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
     },
+    "6562": {
+      "source_en": "\t\t{ \"Enchants Fire elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Ates elementi kazandirir:\" },"
+    },
     "6563": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
       "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
@@ -6739,6 +6903,10 @@
     "6573": {
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
+    },
+    "6575": {
+      "source_en": "\t\t{ \"Enchants Shadow elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Golge elementi kazandirir:\" },"
     },
     "6576": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
@@ -6760,6 +6928,10 @@
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
     },
+    "6588": {
+      "source_en": "\t\t{ \"Enchants Holy elemental onto following skills:\" },",
+      "translation_tr": "\t\t{ \"Asagidaki becerilere Kutsal element kazandirir:\" },"
+    },
     "6589": {
       "source_en": "\t\t{ \"Catnip Meteor\" },",
       "translation_tr": "\t\t{ \"Kedi Nanesi Meteoru\" },"
@@ -6780,9 +6952,17 @@
       "source_en": "\t\t{ \"Colors of Hyunrok\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Hyunrok'un Renkleri\", COLOR_TITLE_BUFF },"
     },
+    "6601": {
+      "source_en": "\t\t{ \"Increases Damage of Catnip Meteor\" }",
+      "translation_tr": "\t\t{ \"Catnip Meteor Hasarini artirir\" }"
+    },
     "6608": {
       "source_en": "\t\t{ \"Temporary Communion\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Gecici Uyum\", COLOR_TITLE_BUFF },"
+    },
+    "6610": {
+      "source_en": "\t\t{ \"Increases P.ATK, S.MATK and HEAL PLUS\" }",
+      "translation_tr": "\t\t{ \"P.ATK, S.MATK ve HEAL PLUS'i artirir\" }"
     },
     "6617": {
       "source_en": "\t\t{ \"Blessing of Mystical Creatures\", COLOR_TITLE_BUFF },",
@@ -6791,6 +6971,14 @@
     "6619": {
       "source_en": "\t\t{ \"Increases P.ATK and S.MATK\" }",
       "translation_tr": "\t\t{ \"P.ATK ve S.MATK'yi artirir\" }"
+    },
+    "6626": {
+      "source_en": "\t\t{ \"Blessing of Mystical Creatures Cooldown\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Mistik Yaratiklar Kutsamasi Bekleme Suresi\", COLOR_TITLE_DEBUFF },"
+    },
+    "6628": {
+      "source_en": "\t\t{ \"You can't recieve the Blessing of Mystical Creatures effect again for a certain duration.\" }",
+      "translation_tr": "\t\t{ \"Belirli bir sure boyunca Mistik Yaratiklar Kutsamasi etkisini tekrar alamazsiniz.\" }"
     },
     "6635": {
       "source_en": "\t\t{ \"Intensive Aim\", COLOR_TITLE_BUFF },",
@@ -6804,33 +6992,65 @@
       "source_en": "\t\t{ \"Increases HIT\" },",
       "translation_tr": "\t\t{ \"HIT'i artirir\" },"
     },
+    "6638": {
+      "source_en": "\t\t{ \"Increases CRI\" }",
+      "translation_tr": "\t\t{ \"CRI'yi artirir\" }"
+    },
     "6645": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6647": {
+      "source_en": "\t\t{ \"Enchants Water elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Su elementi kazandirir\" }"
     },
     "6654": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
     },
+    "6656": {
+      "source_en": "\t\t{ \"Enchants Wind elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Ruzgar elementi kazandirir\" }"
+    },
     "6663": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6665": {
+      "source_en": "\t\t{ \"Enchants Earth elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Toprak elementi kazandirir\" }"
     },
     "6672": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
     },
+    "6674": {
+      "source_en": "\t\t{ \"Enchants Fire elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Ates elementi kazandirir\" }"
+    },
     "6681": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
+    },
+    "6683": {
+      "source_en": "\t\t{ \"Enchants Shadow elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Golge elementi kazandirir\" }"
     },
     "6690": {
       "source_en": "\t\t{ \"Grenade Fragment\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Parcasi\", COLOR_TITLE_BUFF },"
     },
+    "6692": {
+      "source_en": "\t\t{ \"Enchants Holy elemental onto Grenades\" }",
+      "translation_tr": "\t\t{ \"El Bombalarina Kutsal element kazandirir\" }"
+    },
     "6699": {
       "source_en": "\t\t{ \"Auto Firing Launcher\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Otomatik Atesleyici\", COLOR_TITLE_BUFF },"
+    },
+    "6701": {
+      "source_en": "\t\t{ \"Auto Firing Launcher is active\" }",
+      "translation_tr": "\t\t{ \"Otomatik Atesleme Firlatma Sistemi aktif\" }"
     },
     "6708": {
       "source_en": "\t\t{ \"Hidden Card\", COLOR_TITLE_BUFF },",
@@ -6848,6 +7068,14 @@
       "source_en": "\t\t{ \"Grenade Mastery\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"El Bombasi Ustaligi\", COLOR_TITLE_BUFF },"
     },
+    "6720": {
+      "source_en": "\t\t{ \"Increases CON\" },",
+      "translation_tr": "\t\t{ \"CON'u artirir\" },"
+    },
+    "6721": {
+      "source_en": "\t\t{ \"Increases Damage of Grenade-type skills\" }",
+      "translation_tr": "\t\t{ \"El Bombasi turu becerilerin hasarini artirir\" }"
+    },
     "6728": {
       "source_en": "\t\t{ \"Shield Chain Rush\", COLOR_TITLE_DEBUFF },",
       "translation_tr": "\t\t{ \"Kalkan Zinciri Hucumu\", COLOR_TITLE_DEBUFF },"
@@ -6863,6 +7091,18 @@
     "6732": {
       "source_en": "\t\t{ \"Increases recieved Magical Damage\" }",
       "translation_tr": "\t\t{ \"Alinan Buyusel Hasari artirir\" }"
+    },
+    "6739": {
+      "source_en": "\t\t{ \"Bitter Cold\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Dondurucu Soguk\", COLOR_TITLE_DEBUFF },"
+    },
+    "6741": {
+      "source_en": "\t\t{ \"Increases Damage recieved from Water elemental attacks by 15%.\" }",
+      "translation_tr": "\t\t{ \"Su elementli saldirilardan alinan hasari %15 artirir.\" }"
+    },
+    "6748": {
+      "source_en": "\t\t{ \"Gravitational Field\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Yercekimi Alani\", COLOR_TITLE_DEBUFF },"
     },
     "6750": {
       "source_en": "\t\t{ \"Decreases Movement Speed\" },",
@@ -6884,13 +7124,37 @@
       "source_en": "\t\t{ \"Increases Damage of certain skills.\" }",
       "translation_tr": "\t\t{ \"Belirli becerilerin hasarini artirir.\" }"
     },
+    "6768": {
+      "source_en": "\t\t{ \"Rule Breaking\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kural Bozma\", COLOR_TITLE_BUFF },"
+    },
     "6770": {
       "source_en": "\t\t{ \"Increases Damage of certain skills.\" }",
       "translation_tr": "\t\t{ \"Belirli becerilerin hasarini artirir.\" }"
     },
+    "6777": {
+      "source_en": "\t\t{ \"Shadow Clock\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Golge Saati\", COLOR_TITLE_BUFF },"
+    },
     "6779": {
       "source_en": "\t\t{ \"Increases Movement Speed\" },",
       "translation_tr": "\t\t{ \"Hareket Hizini artirir\" },"
+    },
+    "6780": {
+      "source_en": "\t\t{ \"Decreases recieved Physical Damage\" },",
+      "translation_tr": "\t\t{ \"Alinan Fiziksel Hasari azaltir\" },"
+    },
+    "6781": {
+      "source_en": "\t\t{ \"Decreases recieved Magical Damage\" }",
+      "translation_tr": "\t\t{ \"Alinan Buyusel Hasari azaltir\" }"
+    },
+    "6788": {
+      "source_en": "\t\t{ \"Nightmare\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Kabus\", COLOR_TITLE_DEBUFF },"
+    },
+    "6790": {
+      "source_en": "\t\t{ \"Nightmare Mark\" }",
+      "translation_tr": "\t\t{ \"Kabus Isareti\" }"
     },
     "6797": {
       "source_en": "\t\t{ \"Increases Movement Speed\", COLOR_TITLE_BUFF },",
@@ -6960,9 +7224,17 @@
       "source_en": "\t\t{ \"Main Character Buff\", COLOR_TITLE_BUFF }, ",
       "translation_tr": "\t\t{ \"Ana Karakter Buff'i\", COLOR_TITLE_BUFF }, "
     },
+    "6875": {
+      "source_en": "\t\t{ \"Increases Recovery of Yellow Herb by 500%.\" }",
+      "translation_tr": "\t\t{ \"Yellow Herb iyilestirmesini %500 artirir.\" }"
+    },
     "6882": {
       "source_en": "\t\t{ \"Main Character Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Ana Karakter Buff'i\", COLOR_TITLE_BUFF },"
+    },
+    "6884": {
+      "source_en": "\t\t{ \"Increases Ranged Physical Damage by 10%.\" }",
+      "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasari %10 artirir.\" }"
     },
     "6891": {
       "source_en": "\t\t{ \"Main Character Buff\", COLOR_TITLE_BUFF },",
@@ -6980,45 +7252,129 @@
       "source_en": "\t\t{ \"Main Character Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Ana Karakter Buff'i\", COLOR_TITLE_BUFF },"
     },
+    "6912": {
+      "source_en": "\t\t{ \"Increases Physical and Magical Damage against enemies of Demi-Human race by 7%.\" },",
+      "translation_tr": "\t\t{ \"Demi-Human irki dusmanlara karsi Fiziksel ve Buyusel Hasari %7 artirir.\" },"
+    },
+    "6913": {
+      "source_en": "\t\t{ \"Decreases damage taken from enemies of Demi-Human race enemies by 7%.\" }",
+      "translation_tr": "\t\t{ \"Demi-Human irki dusmanlardan alinan hasari %7 azaltir.\" }"
+    },
     "6920": {
       "source_en": "\t\t{ \"Main Character Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Ana Karakter Buff'i\", COLOR_TITLE_BUFF },"
+    },
+    "6929": {
+      "source_en": "\t\t{ \"Herosria Purple Herb Jam\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Mor Ot Receli\", COLOR_TITLE_BUFF },"
     },
     "6931": {
       "source_en": "\t\t{ \"Increases all trait stats\" }",
       "translation_tr": "\t\t{ \"Tum Trait Statlarini artirir\" }"
     },
+    "6938": {
+      "source_en": "\t\t{ \"Herosria Red Herb Jam\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Kirmizi Ot Receli\", COLOR_TITLE_BUFF },"
+    },
     "6940": {
       "source_en": "\t\t{ \"Increases P.ATK\" }",
       "translation_tr": "\t\t{ \"P.ATK'yi artirir\" }"
+    },
+    "6947": {
+      "source_en": "\t\t{ \"Herosria Blue Herb Jam\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Mavi Ot Receli\", COLOR_TITLE_BUFF },"
     },
     "6949": {
       "source_en": "\t\t{ \"Increases S.MATK\" }",
       "translation_tr": "\t\t{ \"S.MATK'yi artirir\" }"
     },
+    "6956": {
+      "source_en": "\t\t{ \"Herosria Yellow Herb Jam\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Sari Ot Receli\", COLOR_TITLE_BUFF },"
+    },
+    "6958": {
+      "source_en": "\t\t{ \"Increases C.Rate\" }",
+      "translation_tr": "\t\t{ \"C.Rate'i artirir\" }"
+    },
+    "6965": {
+      "source_en": "\t\t{ \"Herosria White Herb Jam\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Beyaz Ot Receli\", COLOR_TITLE_BUFF },"
+    },
     "6967": {
       "source_en": "\t\t{ \"Increases RES and MRES\" }",
       "translation_tr": "\t\t{ \"RES ve MRES'i artirir\" }"
+    },
+    "6974": {
+      "source_en": "\t\t{ \"Herosria Protection of Castle Lord\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Herosria Kale Lordu Korumasi\", COLOR_TITLE_BUFF },"
     },
     "6976": {
       "source_en": "\t\t{ \"Increases Physical and Magical Damage\" },",
       "translation_tr": "\t\t{ \"Fiziksel ve Buyusel Hasari artirir\" },"
     },
+    "6977": {
+      "source_en": "\t\t{ \"against Herosria dungeon monsters.\" }",
+      "translation_tr": "\t\t{ \"Herosria zindani canavarlarina karsi.\" }"
+    },
+    "6984": {
+      "source_en": "\t\t{ \"Marked Target\", COLOR_TITLE_DEBUFF }, ",
+      "translation_tr": "\t\t{ \"Isaretli Hedef\", COLOR_TITLE_DEBUFF }, "
+    },
+    "6986": {
+      "source_en": "\t\t{ \"I'm keeping an eye on you\" }",
+      "translation_tr": "\t\t{ \"Seni gozlemliyorum\" }"
+    },
+    "6993": {
+      "source_en": "\t\t{ \"Sealed\", COLOR_TITLE_DEBUFF }, ",
+      "translation_tr": "\t\t{ \"Muhurlendi\", COLOR_TITLE_DEBUFF }, "
+    },
     "6995": {
       "source_en": "\t\t{ \"Movement and attacks have been sealed.\" }",
       "translation_tr": "\t\t{ \"Hareket ve saldirilar kilitlandi.\" }"
+    },
+    "7002": {
+      "source_en": "\t\t{ \"Frost Storm\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Ayaz Firtinasi\", COLOR_TITLE_DEBUFF },"
+    },
+    "7004": {
+      "source_en": "\t\t{ \"You will take more damage from Lightning Judgment.\"}",
+      "translation_tr": "\t\t{ \"Lightning Judgment'dan daha fazla hasar alirsiniz.\"}"
+    },
+    "7011": {
+      "source_en": "\t\t{ \"Fainted\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Baygin\", COLOR_TITLE_DEBUFF },"
     },
     "7013": {
       "source_en": "\t\t{ \"No actions possible.\" }",
       "translation_tr": "\t\t{ \"Hicbir islem yapilamaz.\" }"
     },
+    "7020": {
+      "source_en": "\t\t{ \"Warm Shield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sicak Kalkan\", COLOR_TITLE_BUFF },"
+    },
+    "7022": {
+      "source_en": "\t\t{ \"Defends from Frost Field.\" }",
+      "translation_tr": "\t\t{ \"Frost Field'a karsi korur.\" }"
+    },
+    "7029": {
+      "source_en": "\t\t{ \"Force Booster\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Guc Takviyesi\", COLOR_TITLE_BUFF },"
+    },
     "7030": {
       "source_en": "\t\t{ \"All trait stats +5\" },",
       "translation_tr": "\t\t{ \"Tum Trait Statlari +5\" },"
     },
+    "7039": {
+      "source_en": "\t\t{ \"Speed Booster\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hiz Takviyesi\", COLOR_TITLE_BUFF },"
+    },
     "7041": {
       "source_en": "\t\t{ \"Increases Movement Speed.\" },",
       "translation_tr": "\t\t{ \"Hareket Hizini artirir.\" },"
+    },
+    "7049": {
+      "source_en": "\t\t{ \"Inverse Scale Glutinous Rice Cake\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ters Pul Yapiskan Pirinc Keki\", COLOR_TITLE_BUFF },"
     },
     "7051": {
       "source_en": "\t\t{ \"Increases Physical and Magical Damage\" },",
@@ -7027,6 +7383,10 @@
     "7052": {
       "source_en": "\t\t{ \"against enemies of every element.\" }",
       "translation_tr": "\t\t{ \"tum elementlerdeki dusmanlara karsi.\" }"
+    },
+    "7059": {
+      "source_en": "\t\t{ \"New Year Galbi-jjim\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yeni Yil Galbi-jjim\", COLOR_TITLE_BUFF },"
     },
     "7061": {
       "source_en": "\t\t{ \"Increases Melee Physical Damage.\" },",
@@ -7040,9 +7400,33 @@
       "source_en": "\t\t{ \"Increases Magical Damage with every element.\" }",
       "translation_tr": "\t\t{ \"Tum elementlerin Buyusel Hasarini artirir.\" }"
     },
+    "7070": {
+      "source_en": "\t\t{ \"New Year Rice Cake Soup\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yeni Yil Pirinc Keki Corbasi\", COLOR_TITLE_BUFF },"
+    },
+    "7072": {
+      "source_en": "\t\t{ \"Increases ATK %.\" },",
+      "translation_tr": "\t\t{ \"ATK'yi % artirir.\" },"
+    },
+    "7073": {
+      "source_en": "\t\t{ \"Increases MATK %.\" }",
+      "translation_tr": "\t\t{ \"MATK'yi % artirir.\" }"
+    },
+    "7080": {
+      "source_en": "\t\t{ \"Montblanc Cake\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Montblanc Keki\", COLOR_TITLE_BUFF },"
+    },
     "7082": {
       "source_en": "\t\t{ \"Increases Physical and Magical Damage\" },",
       "translation_tr": "\t\t{ \"Fiziksel ve Buyusel Hasari artirir\" },"
+    },
+    "7083": {
+      "source_en": "\t\t{ \"against enemies of every size.\" }",
+      "translation_tr": "\t\t{ \"Her boyuttaki dusmana karsi.\" }"
+    },
+    "7090": {
+      "source_en": "\t\t{ \"Cherry Blossom Rice Cake\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kiraz Cicegi Pirinc Keki\", COLOR_TITLE_BUFF },"
     },
     "7092": {
       "source_en": "\t\t{ \"Increases Physical and Magical Damage\" },",
@@ -7052,6 +7436,10 @@
       "source_en": "\t\t{ \"against enemies of every element.\" }",
       "translation_tr": "\t\t{ \"tum elementlerdeki dusmanlara karsi.\" }"
     },
+    "7100": {
+      "source_en": "\t\t{ \"Sweet Crepe\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Tatli Krep\", COLOR_TITLE_BUFF },"
+    },
     "7102": {
       "source_en": "\t\t{ \"Increases MaxHP.\" },",
       "translation_tr": "\t\t{ \"MaxHP'yi artirir.\" },"
@@ -7059,6 +7447,10 @@
     "7103": {
       "source_en": "\t\t{ \"Increases MaxSP.\" }",
       "translation_tr": "\t\t{ \"MaxSP degerini artirir.\" }"
+    },
+    "7110": {
+      "source_en": "\t\t{ \"Abundant Spray\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Bereketli Sprey\", COLOR_TITLE_BUFF },"
     },
     "7112": {
       "source_en": "\t\t{ \"Increases Melee Physical Damage.\" },",
@@ -7072,17 +7464,125 @@
       "source_en": "\t\t{ \"Increases Magical Damage with every element.\" }",
       "translation_tr": "\t\t{ \"Tum elementlerin Buyusel Hasarini artirir.\" }"
     },
+    "7121": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Attack Power)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Saldiri Gucu)\", COLOR_TITLE_BUFF },"
+    },
+    "7131": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Speed)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Hiz)\", COLOR_TITLE_BUFF },"
+    },
+    "7133": {
+      "source_en": "\t\t{ \"Decreases Variable Casting Time by 10%.\" },",
+      "translation_tr": "\t\t{ \"Degisken kullanma suresini %10 azaltir.\" },"
+    },
     "7134": {
       "source_en": "\t\t{ \"Increases Attack Speed\" },",
       "translation_tr": "\t\t{ \"Saldiri Hizini artirir\" },"
+    },
+    "7135": {
+      "source_en": "\t\t{ \"(decreases After Attack Delay by 10%).\" }",
+      "translation_tr": "\t\t{ \"(Saldiri Sonrasi Gecikmeyi %10 azaltir).\" }"
+    },
+    "7142": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Dragon/Plant)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Dragon/Plant)\", COLOR_TITLE_BUFF },"
+    },
+    "7144": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Dragon race by 15%.\" },",
+      "translation_tr": "\t\t{ \"Dragon irki canavarlara karsi Hasari %15 artirir.\" },"
+    },
+    "7145": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Plant race by 15%.\" }",
+      "translation_tr": "\t\t{ \"Plant irki canavarlara karsi Hasari %15 artirir.\" }"
+    },
+    "7152": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Demon/Undead)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Demon/Undead)\", COLOR_TITLE_BUFF },"
+    },
+    "7154": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Demon race by 15%.\" },",
+      "translation_tr": "\t\t{ \"Demon irki canavarlara karsi Hasari %15 artirir.\" },"
+    },
+    "7155": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Undead race by 15%.\" }",
+      "translation_tr": "\t\t{ \"Undead irki canavarlara karsi Hasari %15 artirir.\" }"
+    },
+    "7162": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Formless/Fish)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Formless/Fish)\", COLOR_TITLE_BUFF },"
+    },
+    "7164": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Formless race by 15%.\" },",
+      "translation_tr": "\t\t{ \"Formless irki canavarlara karsi Hasari %15 artirir.\" },"
+    },
+    "7165": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Fish race by 15%.\" }",
+      "translation_tr": "\t\t{ \"Fish irki canavarlara karsi Hasari %15 artirir.\" }"
+    },
+    "7172": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Brute/Angel)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Brute/Angel)\", COLOR_TITLE_BUFF },"
+    },
+    "7174": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Brute race by 15%.\" },",
+      "translation_tr": "\t\t{ \"Brute irki canavarlara karsi Hasari %15 artirir.\" },"
+    },
+    "7175": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Angel race by 15%.\" }",
+      "translation_tr": "\t\t{ \"Angel irki canavarlara karsi Hasari %15 artirir.\" }"
+    },
+    "7182": {
+      "source_en": "\t\t{ \"Lunaforma's Blessing(Human/Insect)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Lunaforma'nin Kutsamasi(Human/Insect)\", COLOR_TITLE_BUFF },"
+    },
+    "7184": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Human race by 15%.\" },",
+      "translation_tr": "\t\t{ \"Human irki canavarlara karsi Hasari %15 artirir.\" },"
+    },
+    "7185": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Insect race by 15%.\" }",
+      "translation_tr": "\t\t{ \"Insect irki canavarlara karsi Hasari %15 artirir.\" }"
+    },
+    "7192": {
+      "source_en": "\t\t{ \"Cake of Love\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ask Keki\", COLOR_TITLE_BUFF },"
+    },
+    "7194": {
+      "source_en": "\t\t{ \"All normal stats +15\" },",
+      "translation_tr": "\t\t{ \"Tum normal statlar +15\" },"
+    },
+    "7195": {
+      "source_en": "\t\t{ \"All trait stats +10\" }",
+      "translation_tr": "\t\t{ \"Tum trait statlari +10\" }"
+    },
+    "7202": {
+      "source_en": "\t\t{ \"Summer Feast Noodles\", COLOR_TITLE_BUFF}, ",
+      "translation_tr": "\t\t{ \"Yaz Soleni Eriste\", COLOR_TITLE_BUFF}, "
     },
     "7204": {
       "source_en": "\t\t{ \"Increases Damage against monsters\" },",
       "translation_tr": "\t\t{ \"Canavarlara karsi hasari artirir\" },"
     },
+    "7205": {
+      "source_en": "\t\t{ \"of every element.\" }",
+      "translation_tr": "\t\t{ \"her elementten.\" }"
+    },
+    "7212": {
+      "source_en": "\t\t{ \"Grilled whole squid with herbs\", COLOR_TITLE_BUFF},",
+      "translation_tr": "\t\t{ \"Otlu Izgara Butun Kalamar\", COLOR_TITLE_BUFF},"
+    },
     "7214": {
       "source_en": "\t\t{ \"Increases Damage against monsters\" },",
       "translation_tr": "\t\t{ \"Canavarlara karsi hasari artirir\" },"
+    },
+    "7215": {
+      "source_en": "\t\t{ \"of every size.\" }",
+      "translation_tr": "\t\t{ \"her boyuttan.\" }"
+    },
+    "7222": {
+      "source_en": "\t\t{ \"Sweet Watermelon Pudding\", COLOR_TITLE_BUFF},",
+      "translation_tr": "\t\t{ \"Tatli Karpuz Pudingi\", COLOR_TITLE_BUFF},"
     },
     "7224": {
       "source_en": "\t\t{ \"Increases Physical Damage.\" },",
@@ -7091,6 +7591,34 @@
     "7225": {
       "source_en": "\t\t{ \"Increases Magical Damage with every element.\" }",
       "translation_tr": "\t\t{ \"Tum elementlerin Buyusel Hasarini artirir.\" }"
+    },
+    "7232": {
+      "source_en": "\t\t{ \"Cool Watermelon Juice\", COLOR_TITLE_BUFF},",
+      "translation_tr": "\t\t{ \"Serin Karpuz Suyu\", COLOR_TITLE_BUFF},"
+    },
+    "7234": {
+      "source_en": "\t\t{ \"Increases ATK %.\" },",
+      "translation_tr": "\t\t{ \"ATK'yi % artirir.\" },"
+    },
+    "7235": {
+      "source_en": "\t\t{ \"Increases MATK %.\" }",
+      "translation_tr": "\t\t{ \"MATK'yi % artirir.\" }"
+    },
+    "7242": {
+      "source_en": "\t\t{ \"Cool Red Bean Shaved Ice\", COLOR_TITLE_BUFF},",
+      "translation_tr": "\t\t{ \"Serin Kirmizi Fasulyeli Buz Tatlisi\", COLOR_TITLE_BUFF},"
+    },
+    "7244": {
+      "source_en": "\t\t{ \"Increases MaxHP %.\" },",
+      "translation_tr": "\t\t{ \"MaxHP'yi % artirir.\" },"
+    },
+    "7245": {
+      "source_en": "\t\t{ \"Increases MaxSP %.\" }",
+      "translation_tr": "\t\t{ \"MaxSP'yi % artirir.\" }"
+    },
+    "7252": {
+      "source_en": "\t\t{ \"Gourmet Butter Popcorn\", COLOR_TITLE_BUFF},",
+      "translation_tr": "\t\t{ \"Gurme Tereyagli Patlamis Misir\", COLOR_TITLE_BUFF},"
     },
     "7254": {
       "source_en": "\t\t{ \"Decreases Variable Casting Time.\" },",
@@ -7104,6 +7632,62 @@
       "source_en": "\t\t{ \"Mystery Powder\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Gizemli Toz\", COLOR_TITLE_BUFF },"
     },
+    "7264": {
+      "source_en": "\t\t{ \"Dust Explosion available.\" }",
+      "translation_tr": "\t\t{ \"Dust Explosion kullanilabilir.\" }"
+    },
+    "7271": {
+      "source_en": "\t\t{ \"Chasing\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Takip\", COLOR_TITLE_BUFF },"
+    },
+    "7273": {
+      "source_en": "\t\t{ \"Increases damage of Chasing.\" },",
+      "translation_tr": "\t\t{ \"Chasing hasarini artirir.\" },"
+    },
+    "7274": {
+      "source_en": "\t\t{ \"Increases damage of Unlucky Rush.\" },",
+      "translation_tr": "\t\t{ \"Unlucky Rush hasarini artirir.\" },"
+    },
+    "7275": {
+      "source_en": "\t\t{ \"Increases damage of Chain Reaction Shot's secondary damage.\" }",
+      "translation_tr": "\t\t{ \"Chain Reaction Shot ikincil hasarini artirir.\" }"
+    },
+    "7282": {
+      "source_en": "\t\t{ \"Four Colors Charm: Fire\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dort Renk Tilsimi: Ates\", COLOR_TITLE_BUFF },"
+    },
+    "7284": {
+      "source_en": "\t\t{ \"Increases damage of Red Flame Cannon.\" }",
+      "translation_tr": "\t\t{ \"Red Flame Cannon hasarini artirir.\" }"
+    },
+    "7291": {
+      "source_en": "\t\t{ \"Four Colors Charm: Water\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dort Renk Tilsimi: Su\", COLOR_TITLE_BUFF },"
+    },
+    "7293": {
+      "source_en": "\t\t{ \"Increases damage of Cold Blooded Cannon.\" }",
+      "translation_tr": "\t\t{ \"Cold Blooded Cannon hasarini artirir.\" }"
+    },
+    "7300": {
+      "source_en": "\t\t{ \"Four Colors Charm: Wind\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dort Renk Tilsimi: Ruzgar\", COLOR_TITLE_BUFF },"
+    },
+    "7302": {
+      "source_en": "\t\t{ \"Increases damage of Thundering Cannon.\" }",
+      "translation_tr": "\t\t{ \"Thundering Cannon hasarini artirir.\" }"
+    },
+    "7309": {
+      "source_en": "\t\t{ \"Four Colors Charm: Earth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dort Renk Tilsimi: Toprak\", COLOR_TITLE_BUFF },"
+    },
+    "7311": {
+      "source_en": "\t\t{ \"Increases damage of Golden Dragon Cannon.\" }",
+      "translation_tr": "\t\t{ \"Golden Dragon Cannon hasarini artirir.\" }"
+    },
+    "7318": {
+      "source_en": "\t\t{ \"Commemorative Buff\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Anma Buff'i\", COLOR_TITLE_BUFF },"
+    },
     "7320": {
       "source_en": "\t\t{ \"All Basic Stats +15\" },",
       "translation_tr": "\t\t{ \"Tum Temel Statlar +15\" },"
@@ -7112,17 +7696,69 @@
       "source_en": "\t\t{ \"All Trait Stats +15\" },",
       "translation_tr": "\t\t{ \"Tum Trait Statlari +15\" },"
     },
+    "7322": {
+      "source_en": "\t\t{ \"Increases Damage against enemies\" },",
+      "translation_tr": "\t\t{ \"Dusmanlara karsi Hasari artirir\" },"
+    },
+    "7323": {
+      "source_en": "\t\t{ \"of every element by 12%.\" }",
+      "translation_tr": "\t\t{ \"her elementte %12.\" }"
+    },
     "7330": {
       "source_en": "\t\t{ \"Dungeon Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Zindan Buff'i\", COLOR_TITLE_BUFF },"
+    },
+    "7332": {
+      "source_en": "\t\t{ \"Increases Damage against monsters appearing in\" },",
+      "translation_tr": "\t\t{ \"Su alanlarda gorunen canavarlara karsi Hasari artirir:\" },"
+    },
+    "7333": {
+      "source_en": "\t\t{ \"Varmundt's Biosphere: Depth 1st Floor\" }",
+      "translation_tr": "\t\t{ \"Varmundt Biyosferi: Derinlik 1. Kat\" }"
     },
     "7340": {
       "source_en": "\t\t{ \"Dungeon Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Zindan Buff'i\", COLOR_TITLE_BUFF },"
     },
+    "7342": {
+      "source_en": "\t\t{ \"Increases Damage against monsters appearing in\" },",
+      "translation_tr": "\t\t{ \"Su alanlarda gorunen canavarlara karsi Hasari artirir:\" },"
+    },
+    "7343": {
+      "source_en": "\t\t{ \"Garden of Time - Forgotten Time Zone 1\" },",
+      "translation_tr": "\t\t{ \"Zaman Bahcesi - Unutulmus Zaman Bolgesi 1\" },"
+    },
+    "7344": {
+      "source_en": "\t\t{ \"Garden of Time - Forgotten Time Zone 2\" }",
+      "translation_tr": "\t\t{ \"Zaman Bahcesi - Unutulmus Zaman Bolgesi 2\" }"
+    },
     "7351": {
       "source_en": "\t\t{ \"Dungeon Buff\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Zindan Buff'i\", COLOR_TITLE_BUFF },"
+    },
+    "7353": {
+      "source_en": "\t\t{ \"Increases Damage against monsters appearing in\" },",
+      "translation_tr": "\t\t{ \"Su alanlarda gorunen canavarlara karsi Hasari artirir:\" },"
+    },
+    "7354": {
+      "source_en": "\t\t{ \"(Excluding MVP Boss Monsters)\" },",
+      "translation_tr": "\t\t{ \"(MVP Boss Canavarlari Haric)\" },"
+    },
+    "7355": {
+      "source_en": "\t\t{ \"Niflheim Pumpkin Farm\" },",
+      "translation_tr": "\t\t{ \"Niflheim Balkabagi Ciftligi\" },"
+    },
+    "7356": {
+      "source_en": "\t\t{ \"Ancient Shrine Akhet\" }, ",
+      "translation_tr": "\t\t{ \"Antik Tapinak Akhet\" }, "
+    },
+    "7357": {
+      "source_en": "\t\t{ \"Unknown Blue Hole\" }",
+      "translation_tr": "\t\t{ \"Bilinmeyen Mavi Delik\" }"
+    },
+    "7364": {
+      "source_en": "\t\t{ \"Secret Documents of the Academic Festival\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Akademik Festivalin Gizli Belgeleri\", COLOR_TITLE_BUFF },"
     },
     "7366": {
       "source_en": "\t\t{ \"Increases HIT.\" },",
@@ -7132,6 +7768,14 @@
       "source_en": "\t\t{ \"Increases Physical and Magical Damage against\" },",
       "translation_tr": "\t\t{ \"Fiziksel ve Buyusel hasari artirir:\" },"
     },
+    "7368": {
+      "source_en": "\t\t{ \"enemies of every element.\" }",
+      "translation_tr": "\t\t{ \"her elementteki dusmanlar.\" }"
+    },
+    "7375": {
+      "source_en": "\t\t{ \"Academic Festival Rice Cake\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Akademik Festival Pirinc Keki\", COLOR_TITLE_BUFF },"
+    },
     "7377": {
       "source_en": "\t\t{ \"Increases Critical.\" },",
       "translation_tr": "\t\t{ \"Kritigi artirir.\" },"
@@ -7139,6 +7783,14 @@
     "7378": {
       "source_en": "\t\t{ \"Increases Physical and Magical Damage against\" },",
       "translation_tr": "\t\t{ \"Fiziksel ve Buyusel hasari artirir:\" },"
+    },
+    "7379": {
+      "source_en": "\t\t{ \"enemies of every size.\" }",
+      "translation_tr": "\t\t{ \"her boyuttaki dusmanlar.\" }"
+    },
+    "7386": {
+      "source_en": "\t\t{ \"Academic Festival Butter Cookies\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Akademik Festival Tereyagli Kurabiye\", COLOR_TITLE_BUFF },"
     },
     "7388": {
       "source_en": "\t\t{ \"Increases FLEE.\" },",
@@ -7148,13 +7800,49 @@
       "source_en": "\t\t{ \"Increases Physical Damage.\" },",
       "translation_tr": "\t\t{ \"Fiziksel hasari artirir.\" },"
     },
+    "7390": {
+      "source_en": "\t\t{ \"Increases Ranged Damage.\" },",
+      "translation_tr": "\t\t{ \"Uzak Menzilli Hasari artirir.\" },"
+    },
+    "7391": {
+      "source_en": "\t\t{ \"Increases Magical Damage of every element.\" }",
+      "translation_tr": "\t\t{ \"Tum elementlerin Buyusel Hasarini artirir.\" }"
+    },
+    "7398": {
+      "source_en": "\t\t{ \"Academic Festival Coffee Stick\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Akademik Festival Kahve Cubugu\", COLOR_TITLE_BUFF },"
+    },
+    "7400": {
+      "source_en": "\t\t{ \"Increases ATK%.\" },",
+      "translation_tr": "\t\t{ \"ATK'yi % artirir.\" },"
+    },
+    "7401": {
+      "source_en": "\t\t{ \"Increases MATK%.\" },",
+      "translation_tr": "\t\t{ \"MATK'yi % artirir.\" },"
+    },
     "7402": {
       "source_en": "\t\t{ \"Decreases Variable Casting Time.\" }",
       "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir.\" }"
     },
+    "7409": {
+      "source_en": "\t\t{ \"Chuseok Songpyeon\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Chuseok Songpyeon\", COLOR_TITLE_BUFF },"
+    },
+    "7411": {
+      "source_en": "\t\t{ \"Recovers a certain amount of SP per 3 seconds.\" },",
+      "translation_tr": "\t\t{ \"Her 3 saniyede belirli miktarda SP yeniler.\" },"
+    },
+    "7412": {
+      "source_en": "\t\t{ \"No effect during Berserk state.\" }",
+      "translation_tr": "\t\t{ \"Berserk durumunda etkisizdir.\" }"
+    },
     "7419": {
       "source_en": "\t\t{ \"Wild Walk\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Vahsi Yuruyus\", COLOR_TITLE_BUFF },"
+    },
+    "7421": {
+      "source_en": "\t\t{ \"Increases Perfect Dodge.\" },",
+      "translation_tr": "\t\t{ \"Perfect Dodge'u artirir.\" },"
     },
     "7422": {
       "source_en": "\t\t{ \"Increases Movement Speed.\" }",
@@ -7172,6 +7860,22 @@
       "source_en": "\t\t{ \"Increases P.ATK and S.MATK.\" }",
       "translation_tr": "\t\t{ \"P.ATK ve S.MATK'yi artirir.\" }"
     },
+    "7439": {
+      "source_en": "\t\t{ \"Chunky Meat Sandwich\t\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Etli Dolgun Sandvic\t\", COLOR_TITLE_BUFF },"
+    },
+    "7441": {
+      "source_en": "\t\t{ \"Increases Physical and Magical Damage against enemies\" },",
+      "translation_tr": "\t\t{ \"Dusmanlara karsi Fiziksel ve Buyusel Hasari artirir\" },"
+    },
+    "7442": {
+      "source_en": "\t\t{ \"of every size and element.\" }",
+      "translation_tr": "\t\t{ \"her boyut ve elementte.\" }"
+    },
+    "7449": {
+      "source_en": "\t\t{ \"Warm Vin Chaud\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Sicak Vin Chaud\", COLOR_TITLE_BUFF },"
+    },
     "7451": {
       "source_en": "\t\t{ \"Increases ATK and MATK by %.\" },",
       "translation_tr": "\t\t{ \"ATK ve MATK'yi % oraninda artirir.\" },"
@@ -7180,9 +7884,25 @@
       "source_en": "\t\t{ \"Increases Physical Damage.\" },",
       "translation_tr": "\t\t{ \"Fiziksel hasari artirir.\" },"
     },
+    "7453": {
+      "source_en": "\t\t{ \"Increases Magical Damage against enemies of every element.\" }",
+      "translation_tr": "\t\t{ \"Her elementteki dusmanlara karsi Buyusel Hasari artirir.\" }"
+    },
+    "7460": {
+      "source_en": "\t\t{ \"Smooth Eggnog\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yumusak Eggnog\", COLOR_TITLE_BUFF },"
+    },
+    "7462": {
+      "source_en": "\t\t{ \"Increases MaxHP and MaxSP by %.\" },",
+      "translation_tr": "\t\t{ \"MaxHP ve MaxSP'yi % artirir.\" },"
+    },
     "7463": {
       "source_en": "\t\t{ \"Decreases Variable Casting Time.\" }",
       "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir.\" }"
+    },
+    "7470": {
+      "source_en": "\t\t{ \"Festi Cookie\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Festi Kurabiyesi\", COLOR_TITLE_BUFF },"
     },
     "7472": {
       "source_en": "\t\t{ \"Increases Attack Speed (decreases After Attack Delay).\" },",
@@ -7192,6 +7912,10 @@
       "source_en": "\t\t{ \"Increases Critical.\" }",
       "translation_tr": "\t\t{ \"Kritigi artirir.\" }"
     },
+    "7480": {
+      "source_en": "\t\t{ \"Snow Cookie\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Kar Kurabiyesi\", COLOR_TITLE_BUFF },"
+    },
     "7482": {
       "source_en": "\t\t{ \"Increases ATK.\" },",
       "translation_tr": "\t\t{ \"ATK degerini artirir.\" },"
@@ -7200,13 +7924,65 @@
       "source_en": "\t\t{ \"Increases MATK.\" }",
       "translation_tr": "\t\t{ \"MATK degerini artirir.\" }"
     },
+    "7490": {
+      "source_en": "\t\t{ \"Dimensional Magic Resistance (Stage 1)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Boyutsal Buyu Direnci (Asama 1)\", COLOR_TITLE_BUFF },"
+    },
     "7492": {
       "source_en": "\t\t{ \"Granted resistance to dimensional magic\" },",
       "translation_tr": "\t\t{ \"Boyutsal buyuye direnc kazandirir\" },"
     },
+    "7493": {
+      "source_en": "\t\t{ \"from the destroyed Valkyrie Realm area.\" }",
+      "translation_tr": "\t\t{ \"yikilan Valkyrie Realm bolgesinden.\" }"
+    },
+    "7500": {
+      "source_en": "\t\t{ \"Dimensional Magic Resistance (Stage 2)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Boyutsal Buyu Direnci (Asama 2)\", COLOR_TITLE_BUFF },"
+    },
     "7502": {
       "source_en": "\t\t{ \"Granted resistance to dimensional magic\" },",
       "translation_tr": "\t\t{ \"Boyutsal buyuye direnc kazandirir\" },"
+    },
+    "7503": {
+      "source_en": "\t\t{ \"from the Encroached Geffenia area.\" }",
+      "translation_tr": "\t\t{ \"Encroached Geffenia bolgesinden.\" }"
+    },
+    "7510": {
+      "source_en": "\t\t{ \"Anyway, Lucky Card\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Her Neyse, Sans Karti\", COLOR_TITLE_BUFF },"
+    },
+    "7520": {
+      "source_en": "\t\t{ \"Green Lucky Card\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yesil Sans Karti\", COLOR_TITLE_BUFF },"
+    },
+    "7530": {
+      "source_en": "\t\t{ \"Pink Lucky Card\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Pembe Sans Karti\", COLOR_TITLE_BUFF },"
+    },
+    "7540": {
+      "source_en": "\t\t{ \"Purple Lucky Card\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Mor Sans Karti\", COLOR_TITLE_BUFF },"
+    },
+    "7550": {
+      "source_en": "\t\t{ \"Hanmac Masita Burger\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hanmac Masita Burger\", COLOR_TITLE_BUFF },"
+    },
+    "7552": {
+      "source_en": "\t\t{ \"Recovers 5% of MaxHP every 4 seconds for 30 minutes.\" }",
+      "translation_tr": "\t\t{ \"30 dakika boyunca her 4 saniyede MaxHP'nin %5'ini yeniler.\" }"
+    },
+    "7559": {
+      "source_en": "\t\t{ \"Pocket Chicken Onion Cream\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Cep Tavuk Sogan Kremasi\", COLOR_TITLE_BUFF },"
+    },
+    "7561": {
+      "source_en": "\t\t{ \"Restores 3% of MaxSP every 4 seconds for 30 minutes.\" }",
+      "translation_tr": "\t\t{ \"30 dakika boyunca her 4 saniyede MaxSP'nin %3'unu yeniler.\" }"
+    },
+    "7568": {
+      "source_en": "\t\t{ \"Hanmac Double Buck\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Hanmac Double Buck\", COLOR_TITLE_BUFF },"
     },
     "7569": {
       "source_en": "\t\t{ \"All Basic Stats +15\" },",
@@ -7216,6 +7992,10 @@
       "source_en": "\t\t{ \"All Trait Stats +10\" },",
       "translation_tr": "\t\t{ \"Tum Trait Statlari +10\" },"
     },
+    "7578": {
+      "source_en": "\t\t{ \"Blocked\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"Engellendi\", COLOR_TITLE_DEBUFF },"
+    },
     "7580": {
       "source_en": "\t\t{ \"No Experience gained from monsters.\" },",
       "translation_tr": "\t\t{ \"Canavarlardan Deneyim kazanilmaz.\" },"
@@ -7223,6 +8003,34 @@
     "7581": {
       "source_en": "\t\t{ \"No Items are dropped from monsters.\" }",
       "translation_tr": "\t\t{ \"Canavarlardan Esya dusmez.\" }"
+    },
+    "7588": {
+      "source_en": "\t\t{ \"Dimensional Magic Resistance(Level 3)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Boyutsal Buyu Direnci(Seviye 3)\", COLOR_TITLE_BUFF },"
+    },
+    "7590": {
+      "source_en": "\t\t{ \"Granted resistance to the dimensional\" },",
+      "translation_tr": "\t\t{ \"Boyutsal buyuye karsi direnc kazandirir\" },"
+    },
+    "7591": {
+      "source_en": "\t\t{ \"magic of the Zero Cell Zone.\" }",
+      "translation_tr": "\t\t{ \"Zero Cell Zone buyusune.\" }"
+    },
+    "7598": {
+      "source_en": "\t\t{ \"Dimensional Magic Resistance(Level 4)\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Boyutsal Buyu Direnci(Seviye 4)\", COLOR_TITLE_BUFF },"
+    },
+    "7600": {
+      "source_en": "\t\t{ \"Granted resistance to the powerful\" },",
+      "translation_tr": "\t\t{ \"Guclu boyutsal buyuye karsi direnc kazandirir\" },"
+    },
+    "7601": {
+      "source_en": "\t\t{ \"dimensional magic of the Zero Cell Zone.\" }",
+      "translation_tr": "\t\t{ \"Zero Cell Zone'un boyutsal buyusune.\" }"
+    },
+    "7608": {
+      "source_en": "\t\t{ \"ROS Light of Glory\", COLOR_TITLE_DEBUFF },",
+      "translation_tr": "\t\t{ \"ROS Zafer Isigi\", COLOR_TITLE_DEBUFF },"
     },
     "7610": {
       "source_en": "\t\t{ \"Experience gained from monsters +10%\" },",
@@ -7240,6 +8048,18 @@
       "source_en": "\t\t{ \"Magical Damage with every element +10%\" }",
       "translation_tr": "\t\t{ \"Tum elementlerde Buyusel Hasar +10%\" }"
     },
+    "7620": {
+      "source_en": "\t\t{ \"Blessing of First Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Birinci Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "7622": {
+      "source_en": "\t\t{ \"Increases MaxHP and MaxSP.\" },",
+      "translation_tr": "\t\t{ \"MaxHP ve MaxSP'yi artirir.\" },"
+    },
+    "7631": {
+      "source_en": "\t\t{ \"Blessing of Second Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ikinci Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
     "7633": {
       "source_en": "\t\t{ \"Increases Attack Speed (decreases After Attack Delay).\" },",
       "translation_tr": "\t\t{ \"Saldiri Hizini artirir (Saldiri Sonrasi Gecikmeyi azaltir).\" },"
@@ -7247,6 +8067,42 @@
     "7634": {
       "source_en": "\t\t{ \"Decreases Variable Casting Time.\" },",
       "translation_tr": "\t\t{ \"Degisken kullanma suresini azaltir.\" },"
+    },
+    "7635": {
+      "source_en": "\t\t{ \"Decreases After Skill Delay.\" }",
+      "translation_tr": "\t\t{ \"Beceri Sonrasi Gecikmeyi azaltir.\" }"
+    },
+    "7642": {
+      "source_en": "\t\t{ \"Blessing of Third Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ucuncu Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "7644": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of every race (except Players).\" },",
+      "translation_tr": "\t\t{ \"Tum irklardaki canavarlara karsi Hasari artirir (Oyuncular haric).\" },"
+    },
+    "7645": {
+      "source_en": "\t\t{ \"Increases Damage against enemies of every element and size.\" }",
+      "translation_tr": "\t\t{ \"Her element ve boyuttaki dusmanlara karsi Hasari artirir.\" }"
+    },
+    "7652": {
+      "source_en": "\t\t{ \"Blessing of Fourth Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Dorduncu Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "7654": {
+      "source_en": "\t\t{ \"Increased melee and ranged physical damage.\" },",
+      "translation_tr": "\t\t{ \"Yakin dovus ve uzak menzilli fiziksel hasari artirir.\" },"
+    },
+    "7655": {
+      "source_en": "\t\t{ \"Increased critical and hit physical damage.\" },",
+      "translation_tr": "\t\t{ \"Kritik ve isabet fiziksel hasarini artirir.\" },"
+    },
+    "7656": {
+      "source_en": "\t\t{ \"Increased all elemental magic damage.\" }",
+      "translation_tr": "\t\t{ \"Tum element buyulerinin hasarini artirir.\" }"
+    },
+    "7663": {
+      "source_en": "\t\t{ \"Blessing of Fifth Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Besinci Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
     },
     "7665": {
       "source_en": "\t\t{ \"Increases all Trait stats.\" },",
@@ -7260,9 +8116,29 @@
       "source_en": "\t\t{ \"Increases RES and MRES.\" }",
       "translation_tr": "\t\t{ \"RES ve MRES'i artirir.\" }"
     },
+    "7674": {
+      "source_en": "\t\t{ \"Blessing of Sixth Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Altinci Gelisim Kutsamasi\", COLOR_TITLE_BUFF },"
+    },
+    "7676": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Normal class.\" },",
+      "translation_tr": "\t\t{ \"Normal sinif canavarlara karsi Hasari artirir.\" },"
+    },
+    "7677": {
+      "source_en": "\t\t{ \"Increases Damage against monsters of Boss class.\" }",
+      "translation_tr": "\t\t{ \"Boss sinif canavarlara karsi Hasari artirir.\" }"
+    },
     "7683": {
       "source_en": "\t\t{ \"Transformation: Werewolf\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Donusum - Kurtadam\", COLOR_TITLE_BUFF },"
+    },
+    "7691": {
+      "source_en": "\t\t{ \"Enrage: Wolf\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ofke: Kurt\", COLOR_TITLE_BUFF },"
+    },
+    "7693": {
+      "source_en": "\t\t{ \"Increases damage of Wolf skills.\" },",
+      "translation_tr": "\t\t{ \"Kurt becerilerinin hasarini artirir.\" },"
     },
     "7694": {
       "source_en": "\t\t{ \"Increases Melee Physical Damage.\" }",
@@ -7292,6 +8168,14 @@
       "source_en": "\t\t{ \"Increases Movement Speed.\" }",
       "translation_tr": "\t\t{ \"Hareket Hizini artirir.\" }"
     },
+    "7719": {
+      "source_en": "\t\t{ \"Enrage: Raptor\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Ofke: Raptor\", COLOR_TITLE_BUFF },"
+    },
+    "7721": {
+      "source_en": "\t\t{ \"Increases damage of Raptor skills.\" },",
+      "translation_tr": "\t\t{ \"Raptor becerilerinin hasarini artirir.\" },"
+    },
     "7722": {
       "source_en": "\t\t{ \"Increases Ranged Physical Damage.\" }",
       "translation_tr": "\t\t{ \"Uzak Menzilli Fiziksel Hasari artirir.\" }"
@@ -7316,13 +8200,49 @@
       "source_en": "\t\t{ \"Truth of Ice\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Buz Gercegi\", COLOR_TITLE_BUFF },"
     },
+    "7740": {
+      "source_en": "\t\t{ \"Magical Damage with Water element +10%.\" },",
+      "translation_tr": "\t\t{ \"Su elementli Buyusel Hasar +10%.\" },"
+    },
+    "7741": {
+      "source_en": "\t\t{ \"Increases Druid skill damage with Water element.\" }",
+      "translation_tr": "\t\t{ \"Su elementli Druid beceri hasarini artirir.\" }"
+    },
     "7747": {
       "source_en": "\t\t{ \"Truth of Wind\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Ruzgar Gercegi\", COLOR_TITLE_BUFF },"
     },
+    "7748": {
+      "source_en": "\t\t{ \"Magical Damage with Wind element +.\" },",
+      "translation_tr": "\t\t{ \"Ruzgar elementli Buyusel Hasar +.\" },"
+    },
+    "7749": {
+      "source_en": "\t\t{ \"Increases Druid skill damage with Wind element.\" }",
+      "translation_tr": "\t\t{ \"Ruzgar elementli Druid beceri hasarini artirir.\" }"
+    },
     "7755": {
       "source_en": "\t\t{ \"Truth of Earth\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Toprak Gercegi\", COLOR_TITLE_BUFF },"
+    },
+    "7756": {
+      "source_en": "\t\t{ \"Magical Damage with Earth element +10%.\" },",
+      "translation_tr": "\t\t{ \"Toprak elementli Buyusel Hasar +10%.\" },"
+    },
+    "7757": {
+      "source_en": "\t\t{ \"Increases Druid skill damage with Earth element.\" }",
+      "translation_tr": "\t\t{ \"Toprak elementli Druid beceri hasarini artirir.\" }"
+    },
+    "7764": {
+      "source_en": "\t\t{ \"Transform Delay\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Donusum Gecikmesi\", COLOR_TITLE_BUFF },"
+    },
+    "7766": {
+      "source_en": "\t\t{ \"You cannot transform currently.\" }",
+      "translation_tr": "\t\t{ \"Su anda donusemezsiniz.\" }"
+    },
+    "7773": {
+      "source_en": "\t\t{ \"Nature's Shield\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Doganin Kalkani\", COLOR_TITLE_BUFF },"
     },
     "7775": {
       "source_en": "\t\t{ \"Increases DEF and MDEF.\" },",
@@ -7356,6 +8276,38 @@
       "source_en": "\t\t{ \"Ice Pillar\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Buz Sutunu\", COLOR_TITLE_BUFF },"
     },
+    "7804": {
+      "source_en": "\t\t{ \"Increases damage of Ice Totem, Ice Mist,\" },",
+      "translation_tr": "\t\t{ \"Ice Totem, Ice Mist,\" },"
+    },
+    "7805": {
+      "source_en": "\t\t{ \"Ice Pillar and Ice Splash by 15%.\" }",
+      "translation_tr": "\t\t{ \"Ice Pillar ve Ice Splash hasarini %15 artirir.\" }"
+    },
+    "7812": {
+      "source_en": "\t\t{ \"Charge\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Yuk\", COLOR_TITLE_BUFF },"
+    },
+    "7814": {
+      "source_en": "\t\t{ \"Charged with lightning.\" }",
+      "translation_tr": "\t\t{ \"Yildirimla yuklendi.\" }"
+    },
+    "7821": {
+      "source_en": "\t\t{ \"Overcharged\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Asiri Yuklu\", COLOR_TITLE_BUFF },"
+    },
+    "7823": {
+      "source_en": "\t\t{ \"Your next skill with Wind element is enhanced.\" }",
+      "translation_tr": "\t\t{ \"Sonraki Ruzgar elementli beceriniz guclenir.\" }"
+    },
+    "7830": {
+      "source_en": "\t\t{ \"Growth\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Buyume\", COLOR_TITLE_BUFF },"
+    },
+    "7832": {
+      "source_en": "\t\t{ \"The flower buds of the earth are growing.\" }",
+      "translation_tr": "\t\t{ \"Topragin cicek tomurcuklari buyuyor.\" }"
+    },
     "7839": {
       "source_en": "\t\t{ \"Nature Protection\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Doga Korumasi\", COLOR_TITLE_BUFF },"
@@ -7372,13 +8324,33 @@
       "source_en": "\t\t{ \"Pulse of Madness\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Cinnet Nabzi\", COLOR_TITLE_BUFF },"
     },
+    "7851": {
+      "source_en": "\t\t{ \"Madness can be aquired.\" }",
+      "translation_tr": "\t\t{ \"Madness kazanilabilir.\" }"
+    },
     "7858": {
       "source_en": "\t\t{ \"Alpha Phase\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Alfa Evresi\", COLOR_TITLE_BUFF },"
     },
+    "7860": {
+      "source_en": "\t\t{ \"Madness Level 3 applied.\" }",
+      "translation_tr": "\t\t{ \"Madness Seviye 3 uygulandi.\" }"
+    },
     "7867": {
       "source_en": "\t\t{ \"Apex Phase\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Zirve Evresi\", COLOR_TITLE_BUFF },"
+    },
+    "7869": {
+      "source_en": "\t\t{ \"Enhances Pinion Shot.\" },",
+      "translation_tr": "\t\t{ \"Pinion Shot'u guclendirir.\" },"
+    },
+    "7870": {
+      "source_en": "\t\t{ \"Enhances Quill Spear.\" },",
+      "translation_tr": "\t\t{ \"Quill Spear'i guclendirir.\" },"
+    },
+    "7871": {
+      "source_en": "\t\t{ \"Enhances Tempest Flap.\" }",
+      "translation_tr": "\t\t{ \"Tempest Flap'i guclendirir.\" }"
     },
     "7878": {
       "source_en": "\t\t{ \"Flip Flap\", COLOR_TITLE_BUFF },",
@@ -7404,6 +8376,14 @@
       "source_en": "\t\t{ \"Increases Critical.\" }",
       "translation_tr": "\t\t{ \"Kritigi artirir.\" }"
     },
+    "7898": {
+      "source_en": "\t\t{ \"Gale Charge\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Firtina Yuku\", COLOR_TITLE_BUFF },"
+    },
+    "7906": {
+      "source_en": "\t\t{ \"Gale Acceleration\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Firtina Hizlanmasi\", COLOR_TITLE_BUFF },"
+    },
     "7908": {
       "source_en": "\t\t{ \"Increases Melee Physical Damage.\" },",
       "translation_tr": "\t\t{ \"Yakin Dovus Fiziksel Hasarini artirir.\" },"
@@ -7416,13 +8396,45 @@
       "source_en": "\t\t{ \"Increases Magical Damage with every element.\" }",
       "translation_tr": "\t\t{ \"Tum elementlerin Buyusel Hasarini artirir.\" }"
     },
+    "7917": {
+      "source_en": "\t\t{ \"Madness Level 1\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Madness Seviye 1\", COLOR_TITLE_BUFF },"
+    },
+    "7925": {
+      "source_en": "\t\t{ \"Madness Level 2\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Madness Seviye 2\", COLOR_TITLE_BUFF },"
+    },
+    "7933": {
+      "source_en": "\t\t{ \"Madness Level 3\", COLOR_TITLE_BUFF },",
+      "translation_tr": "\t\t{ \"Madness Seviye 3\", COLOR_TITLE_BUFF },"
+    },
     "7941": {
       "source_en": "\t\t{ \"Glacial Monolith\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Buzul Monoliti\", COLOR_TITLE_BUFF },"
     },
+    "7943": {
+      "source_en": "\t\t{ \"I can feel the coldness of the Glacial Monolith.\" }",
+      "translation_tr": "\t\t{ \"Buzul Monolit'in soguklugunu hissedebiliyorum.\" }"
+    },
     "7950": {
       "source_en": "\t\t{ \"Nature Harmony\", COLOR_TITLE_BUFF },",
       "translation_tr": "\t\t{ \"Doga Uyumu\", COLOR_TITLE_BUFF },"
+    },
+    "7952": {
+      "source_en": "\t\t{ \"Increases Magical Damage with Water,\" },",
+      "translation_tr": "\t\t{ \"Su,\" },"
+    },
+    "7953": {
+      "source_en": "\t\t{ \"Wind and Earth element.\" },",
+      "translation_tr": "\t\t{ \"Ruzgar ve Toprak elementlerinde Buyusel Hasari artirir.\" },"
+    },
+    "7954": {
+      "source_en": "\t\t{ \"Increases damage taken from Water,\" },",
+      "translation_tr": "\t\t{ \"Su,\" },"
+    },
+    "7955": {
+      "source_en": "\t\t{ \"Wind and Earth element attacks.\" }",
+      "translation_tr": "\t\t{ \"Ruzgar ve Toprak elementli saldirilardan alinan hasari artirir.\" }"
     },
     "7962": {
       "source_en": "\t\t{ \"Solid Stomp\", COLOR_TITLE_BUFF },",
@@ -7436,5 +8448,6 @@
       "source_en": "\t\t{ \"Increases Magical Damage with Earth element.\" }",
       "translation_tr": "\t\t{ \"Toprak elementli Buyusel Hasari artirir.\" }"
     }
-  }
+  },
+  "translated_final_audit_lines": 253
 }
