@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.5.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade kaliplari, uyari metinleri ve job adlarini koruyan sinif kisitlarini byte-safe cevirir",
+    "version": "1.6.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade/stat kaliplari, element degerleri ve tekrar eden guvenli aciklamalari byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -698,33 +698,33 @@
     },
     {
       "id": "element_water",
-      "type": "literal",
-      "source": "Element:^0000FF Water",
-      "translation": "Element:^0000FF Su"
+      "type": "regex",
+      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Water",
+      "replacement": "\\\\1 Su"
     },
     {
       "id": "element_earth",
-      "type": "literal",
-      "source": "Element:^CC9900 Earth",
-      "translation": "Element:^CC9900 Toprak"
+      "type": "regex",
+      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Earth",
+      "replacement": "\\\\1 Toprak"
     },
     {
       "id": "element_shadow",
-      "type": "literal",
-      "source": "Element:^666666 Shadow",
-      "translation": "Element:^666666 Golge"
+      "type": "regex",
+      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Shadow",
+      "replacement": "\\\\1 Golge"
     },
     {
       "id": "element_ghost",
-      "type": "literal",
-      "source": "Element:^CCCCCC Ghost",
-      "translation": "Element:^CCCCCC Hayalet"
+      "type": "regex",
+      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Ghost",
+      "replacement": "\\\\1 Hayalet"
     },
     {
       "id": "element_poison",
-      "type": "literal",
-      "source": "Element:^993399 Poison",
-      "translation": "Element:^993399 Zehir"
+      "type": "regex",
+      "pattern": "(Element:\\\\^[0-9A-Fa-f]{6}) Poison",
+      "replacement": "\\\\1 Zehir"
     },
     {
       "id": "all_traits",
@@ -1073,6 +1073,66 @@
       "type": "literal",
       "source": "Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes",
       "translation": "Swordsman, Magician, Archer, Merchant, Thief, Soul Linker ve Ninja siniflari"
+    },
+    {
+      "id": "when_enchanted_on",
+      "type": "regex",
+      "pattern": "When enchanted on (\\^990099[^\\r\\n]+?\\^000000):",
+      "replacement": "\\1 uzerine enchant uygulandiginda:"
+    },
+    {
+      "id": "for_each_base_stat",
+      "type": "regex",
+      "pattern": "For each \\^0000FF(\\d+)\\^000000 base (\\^[0-9A-Fa-f]{6}(?:STR|AGI|VIT|INT|DEX|LUK)\\^000000):",
+      "replacement": "Her ^0000FF\\1^000000 temel \\2 icin:"
+    },
+    {
+      "id": "weapon_grade_at_least",
+      "type": "regex",
+      "pattern": "If the (\\^990099Weapon\\^000000)'s Grade is (\\^CC3D3D[A-D]\\^000000) or higher:",
+      "replacement": "\\1 Grade'i \\2 veya daha yuksekse:"
+    },
+    {
+      "id": "prevents_knockback",
+      "type": "literal",
+      "source": "Prevents knock-back effect.",
+      "translation": "Geri itme etkisini onler."
+    },
+    {
+      "id": "enriched_elunium_description",
+      "type": "literal",
+      "source": "Enriched Elunium - Can refine Level 1 Armor and Shadow Armor and increases the refine chance.",
+      "translation": "Enriched Elunium - Seviye 1 Armor ve Shadow Armor gelistirebilir ve gelistirme sansini artirir."
+    },
+    {
+      "id": "costume_hair_description",
+      "type": "literal",
+      "source": "Hair for costumes that makes you feel like you have a different hairstyle when you wear it.",
+      "translation": "Takildiginda farkli bir sac stiline sahipmis gibi hissettiren kostum saci."
+    },
+    {
+      "id": "bard_classes",
+      "type": "literal",
+      "source": "Bard classes",
+      "translation": "Bard siniflari"
+    },
+    {
+      "id": "swordsman_merchant",
+      "type": "literal",
+      "source": "Swordsman and Merchant",
+      "translation": "Swordsman ve Merchant"
+    },
+    {
+      "id": "kagerou_oboro",
+      "type": "literal",
+      "source": "Kagerou and Oboro",
+      "translation": "Kagerou ve Oboro"
+    },
+    {
+      "id": "priest_sage_star_gladiator",
+      "type": "literal",
+      "source": "Priest, Sage and Star Gladiator",
+      "translation": "Priest, Sage ve Star Gladiator"
     }
   ]
 }
