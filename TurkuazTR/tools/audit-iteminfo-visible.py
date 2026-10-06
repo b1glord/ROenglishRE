@@ -47,9 +47,14 @@ def natural_candidate(value: str) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json", action="store_true")
+    parser.add_argument("--source", default=str(SOURCE.relative_to(REPO_ROOT)))
     args = parser.parse_args()
 
-    text = SOURCE.read_text(encoding="utf-8", errors="surrogateescape")
+    source_path = Path(args.source)
+    if not source_path.is_absolute():
+        source_path = REPO_ROOT / source_path
+
+    text = source_path.read_text(encoding="utf-8", errors="surrogateescape")
     lines = text.splitlines()
 
     item_count = 0
@@ -106,8 +111,13 @@ def main() -> int:
         {key: value for key, value in description_counter.items() if natural_candidate(key)}
     )
 
+    try:
+        source_display = str(source_path.relative_to(REPO_ROOT))
+    except ValueError:
+        source_display = str(source_path)
+
     payload = {
-        "source": str(SOURCE.relative_to(REPO_ROOT)),
+        "source": source_display,
         "source_lines": len(lines),
         "item_records": item_count,
         "visible_field_occurrences": visible_field_occurrences,
