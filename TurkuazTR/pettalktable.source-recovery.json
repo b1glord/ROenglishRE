@@ -1,16 +1,26 @@
 {
   "_file_header": {
     "path": "/ROenglishRE/TurkuazTR/pettalktable.source-recovery.json",
-    "purpose": "ASCII gorunmesine ragmen anlami bozuk veya otomatik ceviri izi tasiyan tekrarli pet metinlerini kaynak kurtarma icin ayirir",
+    "purpose": "Guvenle Turkcelestirilemeyen bozuk, kesik veya otomatik ceviri izi tasiyan pet metinlerini kaynak kurtarma icin ayirir",
     "module": "Translation Recovery - JSON",
-    "version": "1.0.0",
-    "description": "Count>=2 kalan ve guvenle Turkcelestirilemeyen pet ifadelerini kaynak/encoding karsilastirmasi icin listeler",
+    "version": "1.1.0",
+    "description": "Readable ASCII havuzunda guvenli ceviri tamamlandiktan sonra kalan tum ifadeleri upstream/dogru kaynak karsilastirmasi icin listeler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/pettalktable.xml",
-  "candidate_count": 71,
-  "candidate_nodes": 294,
+  "source_ref": "upstream/latest",
+  "candidate_count": 122,
+  "candidate_nodes": 345,
+  "policy": "Bu ifadeler anlami belirsiz, kesik veya makine-ceviri izi tasidigi icin dogru kaynak bulunmadan Turkcelestirilmez.",
   "candidates": [
+    {
+      "text": "Hey, welcome back... um, the... I... ugh, I'",
+      "first_line": 1749,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
     {
       "text": "Haargh... If I still fail to become QQ!!",
       "first_line": 3837,
@@ -25,6 +35,14 @@
       "count": 2,
       "tags": [
         "perfor_1",
+        "perfor_3"
+      ]
+    },
+    {
+      "text": "Haha It's been a long time since my blood boiled like",
+      "first_line": 4468,
+      "count": 1,
+      "tags": [
         "perfor_3"
       ]
     },
@@ -341,6 +359,22 @@
       ]
     },
     {
+      "text": "I'm tired, I'm tired, I've read, I've been, I've been, I'm ok?",
+      "first_line": 5441,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Can you give me a gel moxibustion? Is it from the bad luck?",
+      "first_line": 5442,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
       "text": "I like restful rap. Shake shake shake",
       "first_line": 5450,
       "count": 5,
@@ -354,6 +388,350 @@
       "count": 5,
       "tags": [
         "perfor_2"
+      ]
+    },
+    {
+      "text": "My cheekbones are shining, neck is floating...",
+      "first_line": 5454,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "I'm not sure if I'much more than a leaf",
+      "first_line": 5455,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "Dangerous! The tummy tuck!",
+      "first_line": 5458,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Axiom! Axiom! Take it off!",
+      "first_line": 5459,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Squawk, sloppy, shaky, shifting..?",
+      "first_line": 5461,
+      "count": 1,
+      "tags": [
+        "dead"
+      ]
+    },
+    {
+      "text": "Twisted Funken...",
+      "first_line": 5462,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Do you want to go to the bathroom? \"Fan ID\"!",
+      "first_line": 5465,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Do you know the shameless bird of the hip?",
+      "first_line": 5467,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "Very detailed~",
+      "first_line": 5477,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "Don't run out of money in our company!",
+      "first_line": 5478,
+      "count": 1,
+      "tags": [
+        "hunting"
+      ]
+    },
+    {
+      "text": "Ball punch! Thickness is strong!",
+      "first_line": 5479,
+      "count": 1,
+      "tags": [
+        "hunting"
+      ]
+    },
+    {
+      "text": "Snack? It's dangerous.",
+      "first_line": 5480,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "You're shy? You're so cheerful.",
+      "first_line": 5481,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Take a good look at the quantitative analysis of the neck.",
+      "first_line": 5484,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "It's like jumping up and down and down...",
+      "first_line": 5485,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Go, go, go, go, go, go, go! I am here!",
+      "first_line": 5486,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "You are going with who?",
+      "first_line": 5487,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "It's contagious, right?",
+      "first_line": 5488,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "I'm going to get out of here!",
+      "first_line": 5489,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "I got it! I got it! She's moving on to Rebel?",
+      "first_line": 5490,
+      "count": 1,
+      "tags": [
+        "levelup"
+      ]
+    },
+    {
+      "text": "New cute...",
+      "first_line": 5498,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "I'm going to make a lot of rice cake and pork belly, right?",
+      "first_line": 5502,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Rice porridge and rice soup!",
+      "first_line": 5503,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Common hawk hawk!! shhhhhhh~",
+      "first_line": 5504,
+      "count": 1,
+      "tags": [
+        "dead"
+      ]
+    },
+    {
+      "text": "I'm going to be sick and tired. It's going to be a snack.",
+      "first_line": 5505,
+      "count": 1,
+      "tags": [
+        "dead"
+      ]
+    },
+    {
+      "text": "It's not going to explode in a small bowl, can you give me a big rap?",
+      "first_line": 5507,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Awkwardly, wet and squishy?",
+      "first_line": 5509,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Do you have a mole, Ben? Hot! This is the flower cup!",
+      "first_line": 5510,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Put it on! Do it slowly. I'm flattered by the amount of flower petals.",
+      "first_line": 5511,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "You're so slimy!",
+      "first_line": 5512,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "Ta-da! Stir-fried ribs, good! Mix it up!",
+      "first_line": 5513,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "I've met a doll! A doll! A doll with a doll!",
+      "first_line": 5522,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "Are you still here without Shopped out! I'm here to measure up!",
+      "first_line": 5524,
+      "count": 1,
+      "tags": [
+        "hunting"
+      ]
+    },
+    {
+      "text": "Are you going to get hurt quickly?",
+      "first_line": 5525,
+      "count": 1,
+      "tags": [
+        "hunting"
+      ]
+    },
+    {
+      "text": "It's a sleepover! How is it good?",
+      "first_line": 5526,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "Here comes the last time! hot! It's hot! Good job, good luck!",
+      "first_line": 5527,
+      "count": 1,
+      "tags": [
+        "danger"
+      ]
+    },
+    {
+      "text": "I love it, right? I've lost weight and I've been thin...",
+      "first_line": 5529,
+      "count": 1,
+      "tags": [
+        "dead"
+      ]
+    },
+    {
+      "text": "I love this job. Hey, you guys!",
+      "first_line": 5531,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "Thanks to the autumn harvest, the flower bed is full of...",
+      "first_line": 5532,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "I love it! Jump, jump, move, slurping!",
+      "first_line": 5533,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "My neck is cold and wet...",
+      "first_line": 5534,
+      "count": 1,
+      "tags": [
+        "stand"
+      ]
+    },
+    {
+      "text": "For a long time, it's been thin! Are you kidding?",
+      "first_line": 5538,
+      "count": 1,
+      "tags": [
+        "connect"
+      ]
+    },
+    {
+      "text": "There's no such thing as jumping up and down on a cow!",
+      "first_line": 5540,
+      "count": 1,
+      "tags": [
+        "levelup"
       ]
     },
     {
@@ -458,6 +836,22 @@
       "count": 5,
       "tags": [
         "levelup"
+      ]
+    },
+    {
+      "text": "This master has come a long way?",
+      "first_line": 5835,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "Is that right? Someone is about to explode when money is running out.",
+      "first_line": 5853,
+      "count": 1,
+      "tags": [
+        "feeding"
       ]
     },
     {
@@ -578,6 +972,22 @@
       "count": 5,
       "tags": [
         "levelup"
+      ]
+    },
+    {
+      "text": "You're bad luck has come, isn't that dumb?",
+      "first_line": 6026,
+      "count": 1,
+      "tags": [
+        "feeding"
+      ]
+    },
+    {
+      "text": "It's the perfect way to control your family's pain.",
+      "first_line": 6046,
+      "count": 1,
+      "tags": [
+        "feeding"
       ]
     }
   ]
