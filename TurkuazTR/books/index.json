@@ -3,15 +3,15 @@
     "path": "/ROenglishRE/TurkuazTR/books/index.json",
     "purpose": "Renewal data/book dosyalarinin Turkce localization kapsam ve ilerleme durumunu takip eder",
     "module": "Translation Tracking - JSON",
-    "version": "1.17.0",
+    "version": "1.18.0",
     "description": "Eski Kore sunucu bagisci listelerini ceviri kapsamindan ayirir; gercek lore/rehber kitaplarini source-SHA kilitli whole-file overlay olarak takip eder ve registry ile eslestirir",
     "dependency_layer": "Tool"
   },
   "source_root": "Translation/Renewal/data/book",
   "total_source_files": 70,
   "translation_target_count": 46,
-  "translated_count": 44,
-  "pending_count": 2,
+  "translated_count": 45,
+  "pending_count": 1,
   "ignored_count": 24,
   "translated_files": [
     "7127.txt",
@@ -35,6 +35,7 @@
     "7481.txt",
     "7755.txt",
     "11000.txt",
+    "11001.txt",
     "11002.txt",
     "11003.txt",
     "11004.txt",
@@ -60,7 +61,6 @@
     "prontera bible01.txt"
   ],
   "pending_files": [
-    "11001.txt",
     "11017.txt"
   ],
   "ignored_files": [
