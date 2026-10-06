@@ -3,17 +3,17 @@
     "path": "/ROenglishRE/TurkuazTR/pettalktable.tr.json",
     "purpose": "Anlami net ve encoding sorunu olmayan pet konusmalarini exact-source overlay ile ASCII Turkceye cevirir",
     "module": "Translation Patch - JSON",
-    "version": "1.4.0",
-    "description": "pettalktable.xml icindeki 416 guvenli benzersiz ifadeyi 969 exact kaynak satirinda Turkcelestirir; mojibake ve belirsiz metinlere dokunmaz",
+    "version": "1.5.0",
+    "description": "pettalktable.xml icindeki 636 guvenli benzersiz ifadeyi 1189 exact kaynak satirinda Turkcelestirir; mojibake ve belirsiz metinlere dokunmaz",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/pettalktable.xml",
   "source_ref": "upstream/latest",
   "source_blob_sha": "2266d8c48e81befd7a6a03d11a58aad8e5c7b0cb",
   "source_line_count": 7344,
-  "patch_count": 969,
-  "unique_phrase_count": 416,
-  "scope": "safe_readable_ascii_phrases_v5",
+  "patch_count": 1189,
+  "unique_phrase_count": 636,
+  "scope": "safe_readable_ascii_phrases_v6",
   "patches": {
     "5": {
       "source_en": "\t\t\t<feeding>\tNot bad, what else ya got?\t</feeding>",
@@ -522,6 +522,10 @@
     "137": {
       "source_en": "\t\t\t<dead>\tOh no, the world may never know the joy that is you...\t</dead>",
       "translation_tr": "\t\t\t<dead>\tAh hayir, dunya senin verdigin mutlulugu asla bilemeyebilir...\t</dead>"
+    },
+    "138": {
+      "source_en": "\t\t\t<dead>\tOh no!! Player down! Player down! CHHHHRRRRISSSSSTTTYY!!!!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tAh hayir!! Oyuncu dustu! Oyuncu dustu! CHHHHRRRRISSSSSTTTYY!!!!\t</dead>"
     },
     "139": {
       "source_en": "\t\t\t<dead>\tWhere will I go?! What will I do?!\t</dead>",
@@ -1130,6 +1134,882 @@
     "308": {
       "source_en": "\t\t\t<connect>\tYou come timely, it's time to eat.\t</connect>",
       "translation_tr": "\t\t\t<connect>\tTam zamaninda geldin, yemek zamani.\t</connect>"
+    },
+    "309": {
+      "source_en": "\t\t\t<connect>\tHello there, bring any food with you?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSelam, yaninda yiyecek bir sey getirdin mi?\t</connect>"
+    },
+    "310": {
+      "source_en": "\t\t\t<connect>\tYou are the best owner in the world... so don't you think a pet that is owned by the best owner should get breakfast?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSen dunyanin en iyi sahibisin... en iyi sahibin peti de kahvaltiyi hak etmez mi?\t</connect>"
+    },
+    "311": {
+      "source_en": "\t\t\t<levelup>\tNo time to celebrate, I NEED FOOD!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tKutlamaya zaman yok, YEMEK LAZIM!\t</levelup>"
+    },
+    "312": {
+      "source_en": "\t\t\t<levelup>\tBooya! well that was hard work lets go eat!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBooya! Zor isti, hadi yemek yiyelim!\t</levelup>"
+    },
+    "315": {
+      "source_en": "\t\t\t<feeding>\tFood.....food....food\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tYemek.....yemek....yemek\t</feeding>"
+    },
+    "316": {
+      "source_en": "\t\t\t<feeding>\tDid you know that a growing pet like me, needs more food?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBenim gibi buyuyen bir petin daha cok yemege ihtiyaci oldugunu biliyor muydun?\t</feeding>"
+    },
+    "317": {
+      "source_en": "\t\t\t<hunting>\tThat Lunatic dropped a great looking carrot!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tO Lunatic harika gorunen bir havuc dusurdu!\t</hunting>"
+    },
+    "318": {
+      "source_en": "\t\t\t<hunting>\tWhen you kill that thing can we go eat?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOnu oldurdukten sonra yemek yemeye gidebilir miyiz?\t</hunting>"
+    },
+    "319": {
+      "source_en": "\t\t\t<danger>\tNever mind you eating that! What about me!!!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOnu senin yemen bos ver! Ya ben!!!\t</danger>"
+    },
+    "320": {
+      "source_en": "\t\t\t<danger>\tRemember when its red it means you're going to die and you need to feed me.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tUnutma, kirmiziysa oleceksin demektir ve beni beslemelisin.\t</danger>"
+    },
+    "321": {
+      "source_en": "\t\t\t<dead>\tI'll just grab some food from your pocket....\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBen cebinden biraz yemek aliveririm....\t</dead>"
+    },
+    "322": {
+      "source_en": "\t\t\t<dead>\tSo since your napping think we can go get a burger after you wake up? You are waking up right?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tMadem uyuyorsun, uyaninca burger almaya gidebilir miyiz? Uyanacaksin degil mi?\t</dead>"
+    },
+    "323": {
+      "source_en": "\t\t\t<stand>\tI'm so hungry I could eat at Arbys!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tO kadar acim ki Arby's'de bile yiyebilirim!\t</stand>"
+    },
+    "324": {
+      "source_en": "\t\t\t<stand>\tDo you think I look better than the Porings?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSence Poringlerden daha iyi gorunuyor muyum?\t</stand>"
+    },
+    "325": {
+      "source_en": "\t\t\t<stand>\tSince were standing here doing nothing and smelling delicious food.. do you think we can go get some of that delicious food?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBurada bos bos durup guzel yemek kokulari aliyorken... biraz o yemeklerden almaya gidelim mi?\t</stand>"
+    },
+    "326": {
+      "source_en": "\t\t\t<connect>\tI got a yearning' for some food!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tCanim yemek cekiyor!\t</connect>"
+    },
+    "327": {
+      "source_en": "\t\t\t<connect>\tA good breakfast consist of a lot of food and feeding your pet.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tIyi bir kahvalti bol yemek ve petini beslemekten olusur.\t</connect>"
+    },
+    "328": {
+      "source_en": "\t\t\t<levelup>\tDoes that big light above you mean dinner time?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBasinin ustundeki buyuk isik yemek zamani demek mi?\t</levelup>"
+    },
+    "329": {
+      "source_en": "\t\t\t<levelup>\tDid you know that energy comes from food? well I didn't know that, lets go see if that's true.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tEnerjinin yemekten geldigini biliyor muydun? Ben bilmiyordum, dogru mu gidip gorelim.\t</levelup>"
+    },
+    "332": {
+      "source_en": "\t\t\t<feeding>\tTastes like chicken.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTadi tavuk gibi.\t</feeding>"
+    },
+    "333": {
+      "source_en": "\t\t\t<feeding>\tAh, what a refreshment. ^_^\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAh, ne ferahlaticiydi. ^_^\t</feeding>"
+    },
+    "334": {
+      "source_en": "\t\t\t<feeding>\tTummy status, normal. Food incoming, normal. All systems check lets go!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMide durumu normal. Yemek girisi normal. Tum sistemler tamam, hadi gidelim!\t</feeding>"
+    },
+    "335": {
+      "source_en": "\t\t\t<hunting>\tThat lunatic looks good for tonight's BBQ!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tO Lunatic bu aksamki mangal icin iyi gorunuyor!\t</hunting>"
+    },
+    "336": {
+      "source_en": "\t\t\t<hunting>\tI must say that was one of the best battles you had! You were like BOOM and then BAM and then WOOP POW!!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSoylemeden edemem, en iyi savaslarindan biriydi! Once BOOM, sonra BAM, sonra WOOP POW!!\t</hunting>"
+    },
+    "337": {
+      "source_en": "\t\t\t<danger>\tIt's only a flesh wound, just do what I do, EAT!!!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tSadece et yarasi, benim yaptigimi yap, YE!!!\t</danger>"
+    },
+    "338": {
+      "source_en": "\t\t\t<danger>\tExcuse me Mr. Person who I don't know could you share you all so great healing powers with my unfortunate friend over there?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAffedersiniz tanimadigim Bay Kisi, harika iyilestirme gucunuzu su talihsiz arkadasimla paylasir misiniz?\t</danger>"
+    },
+    "339": {
+      "source_en": "\t\t\t<dead>\tYou slept in too long!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCok uzun uyudun!\t</dead>"
+    },
+    "340": {
+      "source_en": "\t\t\t<dead>\tStand up please, the ground is dirty!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tLutfen kalk, yer kirli!\t</dead>"
+    },
+    "341": {
+      "source_en": "\t\t\t<dead>\tBeing alive is the BESTEST!!! Don't you think so *poke* uh oh\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHayatta olmak EN GUZELI!!! Sence de oyle degil mi *durter* eyvah\t</dead>"
+    },
+    "342": {
+      "source_en": "\t\t\t<stand>\tWatcha' lookin' at?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tNeye bakiyorsun?\t</stand>"
+    },
+    "343": {
+      "source_en": "\t\t\t<stand>\tAm I a good Poporing?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBen iyi bir Poporing miyim?\t</stand>"
+    },
+    "344": {
+      "source_en": "\t\t\t<stand>\tOn my birthday can I have a car? I think I can drive without hands.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tDogum gunumde araba alabilir miyim? Ellerim olmadan da surebilirim bence.\t</stand>"
+    },
+    "345": {
+      "source_en": "\t\t\t<connect>\tBing, Bong, Bing, Bong, look I think getting late I think you should go....... JUST KIDDING ^_^\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBing, Bong, Bing, Bong, bak gec oluyor, bence gitmelisin....... SADECE SAKA ^_^\t</connect>"
+    },
+    "346": {
+      "source_en": "\t\t\t<connect>\tI'm ready, let's go!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHazirim, hadi gidelim!\t</connect>"
+    },
+    "347": {
+      "source_en": "\t\t\t<levelup>\tHow many levels until level 99?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t99. levele kac level kaldi?\t</levelup>"
+    },
+    "348": {
+      "source_en": "\t\t\t<levelup>\tBOOYA Grandma... er.... I mean owner =P\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBOOYA Buyukanne... ee.... sahibim diyecektim =P\t</levelup>"
+    },
+    "351": {
+      "source_en": "\t\t\t<feeding>\tAgghhhh heart burn!!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAgghhhh midem yaniyor!!!\t</feeding>"
+    },
+    "352": {
+      "source_en": "\t\t\t<feeding>\tYour just like that cat who always came back but instead you have food.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHep geri donen o kedi gibisin ama sen yemekle geliyorsun.\t</feeding>"
+    },
+    "353": {
+      "source_en": "\t\t\t<hunting>\t*weez* *cough* you look mighty tired won't you *puff* *weez* rest...?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t*hirlama* *oksuruk* cok yorgun gorunuyorsun, biraz *nefes* *hirlama* dinlenmeyecek misin...?\t</hunting>"
+    },
+    "354": {
+      "source_en": "\t\t\t<hunting>\tAre you about to fall to be funny? because I think you should fall down on a bed.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tKomik olmak icin mi duseceksin? Bence bir yataga dusmelisin.\t</hunting>"
+    },
+    "355": {
+      "source_en": "\t\t\t<hunting>\tJust attack, I'll lay a false scent.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSen saldir, ben sahte bir koku izi birakirim.\t</hunting>"
+    },
+    "356": {
+      "source_en": "\t\t\t<danger>\tYou got any antacids?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAntiasit var mi?\t</danger>"
+    },
+    "357": {
+      "source_en": "\t\t\t<danger>\tNo, I don't like red. I prefer green, just take care!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHayir, kirmiziyi sevmem. Yesili tercih ederim, dikkat et!\t</danger>"
+    },
+    "358": {
+      "source_en": "\t\t\t<danger>\tSo as I was saying there was the bee and... I see your going to sleep from my story oh wait that red thing means...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tDedigim gibi bir ari vardi ve... hikayemden uykuya daliyorsun sandim, dur o kirmizi sey demek ki...\t</danger>"
+    },
+    "359": {
+      "source_en": "\t\t\t<dead>\tYou have gas too? Yours must be worse!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSende de gaz mi var? Seninki daha kotu olmali!\t</dead>"
+    },
+    "360": {
+      "source_en": "\t\t\t<dead>\tDoctor, is the heart suppose to move?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tDoktor, kalbin hareket etmesi gerekiyor mu?\t</dead>"
+    },
+    "361": {
+      "source_en": "\t\t\t<stand>\tI shouldn't have eaten that unripe apple...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tO olgunlasmamis elmayi yememeliydim...\t</stand>"
+    },
+    "362": {
+      "source_en": "\t\t\t<stand>\tFood? Did you know that you start losing levels when you eat too much? ( hehe I don't think he's going to know that ^_^ )\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tYemek mi? Cok yiyince level kaybetmeye basladigini biliyor muydun? ( hehe bunu bildigini sanmiyorum ^_^ )\t</stand>"
+    },
+    "363": {
+      "source_en": "\t\t\t<stand>\tA little break is always good.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tKisa bir mola her zaman iyidir.\t</stand>"
+    },
+    "364": {
+      "source_en": "\t\t\t<connect>\tNo more pie...maybe one more piece...Oh welcome back!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tDaha fazla turta yok... belki bir dilim daha... Ah hos geldin!\t</connect>"
+    },
+    "365": {
+      "source_en": "\t\t\t<connect>\tBreakfast? It's only the morning, don't you have breakfast in like another 10 hours or so?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tKahvalti mi? Daha sabah, kahvaltiya daha 10 saat falan yok mu?\t</connect>"
+    },
+    "366": {
+      "source_en": "\t\t\t<levelup>\tI would blow a whistle, but I have no hands!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tDuduk calardim ama ellerim yok!\t</levelup>"
+    },
+    "367": {
+      "source_en": "\t\t\t<levelup>\tCan I choose what to do? Yay! Lets go eat some tofu turkey!!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tNe yapacagimizi ben secebilir miyim? Yasasin! Hadi tofu hindisi yiyelim!!\t</levelup>"
+    },
+    "370": {
+      "source_en": "\t\t\t<feeding>\tIf you feed me at this rate, you'll turn me into a Big Foot!!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBeni bu hizla beslersen Big Foot'a cevireceksin!!!\t</feeding>"
+    },
+    "371": {
+      "source_en": "\t\t\t<feeding>\tDo you want me to grow bigger than you? Well sorry but instead of going up, for some reason it's going sideways.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSenden daha buyuk olmami mi istiyorsun? Uzgunum ama nedense yukari degil yanlara buyuyorum.\t</feeding>"
+    },
+    "372": {
+      "source_en": "\t\t\t<feeding>\tStop it! Soon I can't skip anymore, you'll have to roll me!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDur artik! Yakinda ziplayamayacagim, beni yuvarlaman gerekecek!\t</feeding>"
+    },
+    "373": {
+      "source_en": "\t\t\t<hunting>\tI'm going to hurl all this food on the ground is making me hungry!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tKusacagim, yerdeki tum bu yemekler beni aciktiriyor!\t</hunting>"
+    },
+    "374": {
+      "source_en": "\t\t\t<hunting>\tAHHH! Attack that steak!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tAHHH! O biftege saldir!\t</hunting>"
+    },
+    "375": {
+      "source_en": "\t\t\t<hunting>\tNot that fast, I can't keep pace.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tO kadar hizli degil, yetisemiyorum.\t</hunting>"
+    },
+    "376": {
+      "source_en": "\t\t\t<danger>\tI feel bloated what about you?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tSis hissediyorum, ya sen?\t</danger>"
+    },
+    "377": {
+      "source_en": "\t\t\t<danger>\tBlood? Ketchup? Fries? No not more food!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tKan mi? Kecap mi? Patates mi? Hayir, daha fazla yemek istemiyorum!\t</danger>"
+    },
+    "378": {
+      "source_en": "\t\t\t<danger>\tAt least we're now at the same eye-level.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tEn azindan simdi goz hizamiz ayni.\t</danger>"
+    },
+    "379": {
+      "source_en": "\t\t\t<dead>\tYou have red stuff coming out of your back.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSirtindan kirmizi bir seyler cikiyor.\t</dead>"
+    },
+    "380": {
+      "source_en": "\t\t\t<dead>\tWell Let's see, me over filling with food, plus you closing your eyes, equals me not eating anymore ^_^\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBakalim, benim tikabasa dolmam arti senin gozlerini kapatman esittir artik yemek yiyememem ^_^\t</dead>"
+    },
+    "381": {
+      "source_en": "\t\t\t<stand>\tWhile we're here lets make a Hammock!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBuradayken bir hamak yapalim!\t</stand>"
+    },
+    "382": {
+      "source_en": "\t\t\t<stand>\tI take a nap. Could you give me my green Pajama?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBiraz uyuyacagim. Yesil pijamami verir misin?\t</stand>"
+    },
+    "383": {
+      "source_en": "\t\t\t<stand>\tWell tell me when your going to move, I'm just going to go there and sit my little plump body right there.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHareket edecegin zaman soyle, ben suraya gidip tombul bedenimi oturtacagim.\t</stand>"
+    },
+    "384": {
+      "source_en": "\t\t\t<connect>\tWelcome back, I think I lost weight while you were gone!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHos geldin, sen yokken kilo verdim galiba!\t</connect>"
+    },
+    "385": {
+      "source_en": "\t\t\t<connect>\tWell lets go! Food? What's Food?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHadi gidelim! Yemek mi? Yemek ne ki?\t</connect>"
+    },
+    "386": {
+      "source_en": "\t\t\t<connect>\tI've waited until I was green. At last! ^_^\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tYesil olana kadar bekledim. Sonunda! ^_^\t</connect>"
+    },
+    "387": {
+      "source_en": "\t\t\t<levelup>\tNice One!!! Can you buy me a Stairmaster?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuzel!!! Bana bir StairMaster alabilir misin?\t</levelup>"
+    },
+    "388": {
+      "source_en": "\t\t\t<levelup>\tCongratulations, you're in good form!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tTebrikler, formun cok iyi!\t</levelup>"
+    },
+    "389": {
+      "source_en": "\t\t\t<levelup>\tWell since you achieved something. A diet is what I think I should achieve.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSen bir sey basardin, ben de diyeti basarmaliyim bence.\t</levelup>"
+    },
+    "394": {
+      "source_en": "\t\t\t<feeding>\t*rwar* I want more! Give me more, I'm really hungry!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t*rwar* Daha istiyorum! Daha ver, gercekten acim!\t</feeding>"
+    },
+    "395": {
+      "source_en": "\t\t\t<feeding>\tMmm, more more more! I'm so hungry!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMmm, daha daha daha! Cok acim!\t</feeding>"
+    },
+    "396": {
+      "source_en": "\t\t\t<hunting>\tUgh, why fight? feed me please!.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOff, neden savasiyoruz? Lutfen beni besle!.\t</hunting>"
+    },
+    "397": {
+      "source_en": "\t\t\t<hunting>\tBunny to Rabbit, target sighted, carrots are good to eat, I repeat, carrots are good to eat.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tTavsandan Tavsana, hedef goruldu, havuc yemek iyidir, tekrar ediyorum, havuc yemek iyidir.\t</hunting>"
+    },
+    "398": {
+      "source_en": "\t\t\t<hunting>\tHey, I'm gonna go look around for some carrots, I'm hungry..\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tHey, biraz havuc aramaya gidiyorum, acim..\t</hunting>"
+    },
+    "399": {
+      "source_en": "\t\t\t<danger>\tDon't complain to me about being hurt, I'm starving!!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tYaralandin diye bana yakinma, acliktan oluyorum!!\t</danger>"
+    },
+    "400": {
+      "source_en": "\t\t\t<danger>\tIf you die, would you mind me checking your corpse for carrots?.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOlursen cesedinde havuc aramamin sakincasi olur mu?.\t</danger>"
+    },
+    "401": {
+      "source_en": "\t\t\t<danger>\tEep! Run away! Run away! Keep running!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tIyy! Kac! Kac! Kosmaya devam et!\t</danger>"
+    },
+    "402": {
+      "source_en": "\t\t\t<dead>\tHA! You're dead... can I go now?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHA! Oldun... simdi gidebilir miyim?\t</dead>"
+    },
+    "403": {
+      "source_en": "\t\t\t<dead>\tDoes this mean I'm free to go now?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBu simdi gitmekte ozgur oldugum anlamina mi geliyor?\t</dead>"
+    },
+    "404": {
+      "source_en": "\t\t\t<dead>\t... I'm... so hungry... but, I haven't been fed... in so long... must... go on....\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t... Cok... acim... ama... cok uzun zamandir beslenmedim... devam... etmeliyim....\t</dead>"
+    },
+    "405": {
+      "source_en": "\t\t\t<dead>\tMind if I check your bag for some carrots?... wait, you're dead,\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCantanda havuc aramam sorun olur mu?... dur, sen oldun,\t</dead>"
+    },
+    "406": {
+      "source_en": "\t\t\t<dead>\tTea?... no, you're dead, what're you going to do with tea... ha!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCay mi?... yok, sen oldun, cayla ne yapacaksin ki... ha!\t</dead>"
+    },
+    "407": {
+      "source_en": "\t\t\t<stand>\tHey while you're up, get me some food will you?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey ayaktayken bana biraz yemek alir misin?\t</stand>"
+    },
+    "408": {
+      "source_en": "\t\t\t<stand>\tHey, I'm hungry are we going to find me some food?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey, acim, bana yemek bulmaya gidecek miyiz?\t</stand>"
+    },
+    "409": {
+      "source_en": "\t\t\t<stand>\tI'm hungry!! I want food!! *rwar*\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tAcim!! Yemek istiyorum!! *rwar*\t</stand>"
+    },
+    "410": {
+      "source_en": "\t\t\t<connect>\tOh my gosh, where have you been I'm so hungry!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAman tanrim, neredeydin, cok acim!\t</connect>"
+    },
+    "411": {
+      "source_en": "\t\t\t<connect>\tFeed me or you'll find some nice pebbles in your shoes...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBeni besle yoksa ayakkabinda guzel taslar bulursun...\t</connect>"
+    },
+    "412": {
+      "source_en": "\t\t\t<connect>\t.... you...forgot ...to ...FEED ME!! ...Feed me, feed me, feed me, feed me!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t.... beni... BESLEMEYI... unuttun!! ...Besle beni, besle, besle, besle!\t</connect>"
+    },
+    "413": {
+      "source_en": "\t\t\t<connect>\tI'm a Lunatic, not crazy. I know when I'm hungry and I'M HUNGRY.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBen Lunatic'im, deli degilim. Ne zaman ac oldugumu bilirim ve ACIM.\t</connect>"
+    },
+    "414": {
+      "source_en": "\t\t\t<connect>\tYou know, you look like you're going to have a bad hare day... Why? Because you forgot to feed me, so feed me already!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBiliyor musun, kotu bir tavsan gunu gecireceksin gibi... Neden mi? Beni beslemeyi unuttun, artik besle!\t</connect>"
+    },
+    "415": {
+      "source_en": "\t\t\t<levelup>\tOkay, you leveled... now go get me some food before I start leaving little presents all over the place.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tTamam, level atladin... simdi her yere kucuk hediyeler birakmadan once bana yemek bul.\t</levelup>"
+    },
+    "416": {
+      "source_en": "\t\t\t<levelup>\tOh... yay... you get a level but what do I get? Food? No, well why not? I've been patient!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tAh... yasasin... sen level aldin, ben ne aliyorum? Yemek mi? Hayir mi, neden? Sabirliydim!\t</levelup>"
+    },
+    "417": {
+      "source_en": "\t\t\t<levelup>\tOh joy, now you can get me some carrots, right?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tNe guzel, simdi bana havuc alabilirsin, degil mi?\t</levelup>"
+    },
+    "418": {
+      "source_en": "\t\t\t<levelup>\tSo um, I'm happy you leveled and all, but when do I get to eat?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tEe, level atladigin icin mutluyum ama ben ne zaman yemek yiyecegim?\t</levelup>"
+    },
+    "421": {
+      "source_en": "\t\t\t<feeding>\tHey, don't be stingy, keep it coming!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHey, cimrilik etme, devam et!\t</feeding>"
+    },
+    "422": {
+      "source_en": "\t\t\t<feeding>\tYay, food... now I can lay off the grass for a little...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tYasasin, yemek... simdi biraz ot yemeye ara verebilirim...\t</feeding>"
+    },
+    "423": {
+      "source_en": "\t\t\t<feeding>\tDon't stop, keep it coming, I'm still a bit hungry.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDurma, devam et, hala biraz acim.\t</feeding>"
+    },
+    "424": {
+      "source_en": "\t\t\t<feeding>\tHey, not too bad... almost got me full.. almost.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tHey, fena degil... neredeyse doydum.. neredeyse.\t</feeding>"
+    },
+    "425": {
+      "source_en": "\t\t\t<hunting>\tI may be cute to look at, but really I'm a nibbling machine!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tTatli gorunebilirim ama aslinda kemirme makinesiyim!\t</hunting>"
+    },
+    "426": {
+      "source_en": "\t\t\t<hunting>\t*rwar!* c'mon let's go, you and me I'll take ya on, no problem.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t*rwar!* hadi gel, sen ve ben, seninle kapisirim, sorun yok.\t</hunting>"
+    },
+    "427": {
+      "source_en": "\t\t\t<hunting>\tIf you keep feeding me the carrots, I'll keep bringing on the pain.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBeni havucla beslemeye devam et, ben de aci vermeye devam edeyim.\t</hunting>"
+    },
+    "428": {
+      "source_en": "\t\t\t<hunting>\tIt's alright, I can take care of myself... eek! Killitkillitkillit!.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSorun yok, kendime bakabilirim... iyy! Olduronuolduronuolduronu!.\t</hunting>"
+    },
+    "429": {
+      "source_en": "\t\t\t<hunting>\tIf I help, do I get anything too, perhaps food?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tYardim edersem ben de bir sey alir miyim, mesela yemek?\t</hunting>"
+    },
+    "430": {
+      "source_en": "\t\t\t<danger>\tYeah, like I was going to risk my soft fluffy fur to save you, you haven't fed me lately.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tTabii, yumusacik tuylerimi seni kurtarmak icin riske atacaktim sanki; son zamanlarda beni beslemedin.\t</danger>"
+    },
+    "431": {
+      "source_en": "\t\t\t<danger>\tIf you're going die, would you mind telling me where the food is so I don't starve to death?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOleceksen acliktan olmemem icin yemegin nerede oldugunu soyler misin?\t</danger>"
+    },
+    "432": {
+      "source_en": "\t\t\t<danger>\tYou're about to die, tell me where the food is and I'll think about healing you.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOlmek uzeresin, yemegin nerede oldugunu soyle de seni iyilestirmeyi dusuneyim.\t</danger>"
+    },
+    "433": {
+      "source_en": "\t\t\t<dead>\tIf you had fed me, I might have healed you and you would by lying there dead.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBeni besleseydin belki seni iyilestirirdim ve simdi orada olu yatmazdin.\t</dead>"
+    },
+    "434": {
+      "source_en": "\t\t\t<dead>\tI wonder what you taste like...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tAcaba tadin nasil...\t</dead>"
+    },
+    "435": {
+      "source_en": "\t\t\t<dead>\tHelp! Help! Somebody please resurrect my master please, please pretty please.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tYardim! Yardim! Biri lutfen efendimi diriltsin, lutfen, cok lutfen.\t</dead>"
+    },
+    "436": {
+      "source_en": "\t\t\t<dead>\tI'm going to go find some clover if you're going to just going to lie there.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tSen orada oylece yatacaksan ben biraz yonca bulmaya gidiyorum.\t</dead>"
+    },
+    "437": {
+      "source_en": "\t\t\t<dead>\t*sigh* now why'd you go and do that? Now what am I supposed to do for food?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t*ic ceker* neden gidip bunu yaptin? Simdi yemek icin ne yapacagim?\t</dead>"
+    },
+    "438": {
+      "source_en": "\t\t\t<stand>\tI really don't think the other Lunatics get fed as little as I do.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tDiger Lunaticlerin benim kadar az beslendigini hic sanmiyorum.\t</stand>"
+    },
+    "439": {
+      "source_en": "\t\t\t<stand>\tHey, no, don't stand, I can't reach the food bag if you stand.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey, hayir, ayakta durma, durursan yemek cantasina ulasamiyorum.\t</stand>"
+    },
+    "440": {
+      "source_en": "\t\t\t<stand>\tUm, if you're going to leave, would you mind at least leaving some food for me?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tEe, gideceksen en azindan bana biraz yemek birakir misin?\t</stand>"
+    },
+    "441": {
+      "source_en": "\t\t\t<stand>\tHey! That other Lunatic's eating, how come I'm not?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey! Diger Lunatic yemek yiyor, ben neden yemiyorum?\t</stand>"
+    },
+    "442": {
+      "source_en": "\t\t\t<connect>\tHey welcome back! ... get me food.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHey hos geldin! ... bana yemek getir.\t</connect>"
+    },
+    "443": {
+      "source_en": "\t\t\t<connect>\tI need food... now... please... oh... and um... Hi, welcome back.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tYemek lazim... simdi... lutfen... ah... ve ee... Selam, hos geldin.\t</connect>"
+    },
+    "444": {
+      "source_en": "\t\t\t<connect>\tI was just about to run off and find food, but since you're here. Feed me?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tTam yemek bulmaya kacacaktim ama sen geldin. Beni besler misin?\t</connect>"
+    },
+    "445": {
+      "source_en": "\t\t\t<levelup>\tYay, good job. Let's celebrate by feeding the cute Lunatic!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tYasasin, iyi is. Tatli Lunatic'i besleyerek kutlayalim!\t</levelup>"
+    },
+    "446": {
+      "source_en": "\t\t\t<levelup>\tMaster 1, baddies 0... Lunatic... hungry...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tEfendi 1, kotuler 0... Lunatic... ac...\t</levelup>"
+    },
+    "449": {
+      "source_en": "\t\t\t<feeding>\tMmm, that nearly hit the spot, I think I'm good for a bit, thanks.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tMmm, neredeyse tam oldu, bir sure idare ederim, tesekkurler.\t</feeding>"
+    },
+    "450": {
+      "source_en": "\t\t\t<feeding>\t*rwar* more, more, yum, yum, *munch* *gobble* *burp* aahh... thank you.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t*rwar* daha, daha, nefis, nefis, *ham* *hapur* *gegirir* aahh... tesekkurler.\t</feeding>"
+    },
+    "451": {
+      "source_en": "\t\t\t<feeding>\tOh, that was quite good, thank you very much.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAh, oldukca guzeldi, cok tesekkurler.\t</feeding>"
+    },
+    "452": {
+      "source_en": "\t\t\t<hunting>\tHeadshot! Headshot! Go for the headshot!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tKafadan! Kafadan! Kafayi hedefle!\t</hunting>"
+    },
+    "453": {
+      "source_en": "\t\t\t<hunting>\tGo master go! Kill it for all the other Lunatics who live in fear!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tHadi efendim hadi! Korku icinde yasayan tum Lunaticler icin onu oldur!\t</hunting>"
+    },
+    "454": {
+      "source_en": "\t\t\t<hunting>\tOoh watch it! Duck! Dodge! Attack!! Erm, okay, I'll stop...I'll just watch.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tOoh dikkat! Egil! Kac! Saldir!! Ee, tamam susuyorum... sadece izleyecegim.\t</hunting>"
+    },
+    "455": {
+      "source_en": "\t\t\t<danger>\tOh no! You're bleeding!! Makeitstopmakeitstopmakeitstop! I hate the sight of red...\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAh hayir! Kaniyorsun!! Durdurunodurdurunodurdurun! Kirmizi gormekten nefret ederim...\t</danger>"
+    },
+    "456": {
+      "source_en": "\t\t\t<danger>\tSomeone heal my master please!! He's really hurt, please someone please?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tBiri lutfen efendimi iyilestirsin!! Cok yarali, lutfen biri yardim etsin?\t</danger>"
+    },
+    "457": {
+      "source_en": "\t\t\t<dead>\tDead?! You can't be dead, you were just alive! Oh WHY, WHY GOD-POING WHY-Y-y-y....Zzz....Zzz....\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tOlu mu?! Olamazsin, az once yasiyordun! Ah NEDEN, NEDEN GOD-POING NEDEN-N-n-n....Zzz....Zzz....\t</dead>"
+    },
+    "458": {
+      "source_en": "\t\t\t<dead>\tYou know, I was just starting to enjoy watching you kill everything, but now look at you.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHer seyi oldurmeni izlemekten yeni keyif almaya baslamistim ama simdi haline bak.\t</dead>"
+    },
+    "459": {
+      "source_en": "\t\t\t<dead>\tDon't worry, I'll make sure you get the right burial you deserve.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tEndiselenme, hak ettigin gibi gomulmeni saglayacagim.\t</dead>"
+    },
+    "460": {
+      "source_en": "\t\t\t<dead>\tI swear, if I could bring you back to life, I would. I'm so sorry...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tYemin ederim, seni hayata dondurebilseydim yapardim. Cok uzgunum...\t</dead>"
+    },
+    "461": {
+      "source_en": "\t\t\t<dead>\tAlright, time to get up... c'mon, get up... get.... up...? *poke*... OH NO, WHEN DID YOU DIE?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tTamam, kalkma zamani... hadi, kalk... kalk....? *durter*... AH HAYIR, NE ZAMAN OLDUN?\t</dead>"
+    },
+    "462": {
+      "source_en": "\t\t\t<stand>\tWow, you're tall...when did you get that tall?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tVay, uzunsun... ne zaman bu kadar uzadin?\t</stand>"
+    },
+    "463": {
+      "source_en": "\t\t\t<stand>\tI'm sorry I made those bad jokes about your hare-y legs... they're not that bad... soft like me.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tTavsan tuyleri gibi bacaklarinla dalga gectigim icin uzgunum... o kadar kotu degiller... benim gibi yumusak.\t</stand>"
+    },
+    "464": {
+      "source_en": "\t\t\t<stand>\tDo you... snu... know ... poojamungo...why they call us lunatics? ... smhuma-awia... I don't know why... odd huh?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBiliyor... musun... poojamungo... bize neden Lunatic diyorlar?... smhuma-awia... ben de bilmiyorum... garip degil mi?\t</stand>"
+    },
+    "465": {
+      "source_en": "\t\t\t<stand>\tC'mon, admit you love me... how can you not? I'm so cute n'fluffy!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHadi, beni sevdigini kabul et... nasil sevmezsin? Cok tatli ve tuyliyum!\t</stand>"
+    },
+    "466": {
+      "source_en": "\t\t\t<stand>\tFeathers... come... from birds, right? So why do we drop them?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tTuyler... kuslardan gelir, degil mi? O zaman biz neden dusuruyoruz?\t</stand>"
+    },
+    "467": {
+      "source_en": "\t\t\t<stand>\tOoh, where ya going? Do I get to go too?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tOoh, nereye gidiyorsun? Ben de gelebilir miyim?\t</stand>"
+    },
+    "468": {
+      "source_en": "\t\t\t<connect>\t*grr* ... *rwar*..... *snarl*.... eep! You caught me practicing for our next battle.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\t*grr* ... *rwar*..... *hirlar*.... iyy! Bir sonraki savas icin calisirken yakaladin.\t</connect>"
+    },
+    "469": {
+      "source_en": "\t\t\t<connect>\tI used your money to increase my bunny card collection.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tParani tavsan karti koleksiyonumu buyutmek icin kullandim.\t</connect>"
+    },
+    "470": {
+      "source_en": "\t\t\t<connect>\tGood evening to you, do you have a reservation?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tIyi aksamlar, rezervasyonunuz var mi?\t</connect>"
+    },
+    "471": {
+      "source_en": "\t\t\t<connect>\tI dreamt we found lots of rare items today!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBugun cok nadir esya buldugumuzu gordum ruyamda!\t</connect>"
+    },
+    "472": {
+      "source_en": "\t\t\t<levelup>\tCool, now you can leech off me... or is it the other way around?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuzel, simdi benden leech yapabilirsin... yoksa tam tersi mi?\t</levelup>"
+    },
+    "473": {
+      "source_en": "\t\t\t<levelup>\tYay, we've had a breakthrough, you get a gold star.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tYasasin, ilerleme kaydettik, sana altin yildiz.\t</levelup>"
+    },
+    "474": {
+      "source_en": "\t\t\t<levelup>\tBONG! Nice one dude.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tBONG! Guzeldi dostum.\t</levelup>"
+    },
+    "477": {
+      "source_en": "\t\t\t<feeding>\tOkay, okay, no more carrots...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tTamam, tamam, daha fazla havuc yok...\t</feeding>"
+    },
+    "478": {
+      "source_en": "\t\t\t<feeding>\tOWWWie I bit my tongue...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tAUVVV dilimi isirdim...\t</feeding>"
+    },
+    "479": {
+      "source_en": "\t\t\t<feeding>\t*burp*..... Ah that felt good.....\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t*gegirir*..... Ah iyi geldi.....\t</feeding>"
+    },
+    "480": {
+      "source_en": "\t\t\t<hunting>\tDo I look fat to you from this angle?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBu acidan sana sisman mi gorunuyorum?\t</hunting>"
+    },
+    "481": {
+      "source_en": "\t\t\t<hunting>\tWhy do you always have to kill kill kill, why not plant a flower for once?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tNeden hep oldur oldur oldur, bir kere de cicek eksen olmaz mi?\t</hunting>"
+    },
+    "482": {
+      "source_en": "\t\t\t<hunting>\t*rwar* I'll nibble his ankles off!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\t*rwar* Ayak bileklerini kemirecegim!\t</hunting>"
+    },
+    "483": {
+      "source_en": "\t\t\t<hunting>\tHere I come to save the daaaaay~!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tGunu kurtarmaya geliyooorum~!\t</hunting>"
+    },
+    "484": {
+      "source_en": "\t\t\t<danger>\tDon't start complaining you're about to die, look at me. You think I'm gonna live?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tOlmek uzeresin diye yakinmaya baslama, bana bak. Sence ben yasayacak miyim?\t</danger>"
+    },
+    "485": {
+      "source_en": "\t\t\t<danger>\tAnd.... use a pot... c'mon ... you can do it, you know you want to... c'mon.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tVe.... iksir kullan... hadi... yapabilirsin, istedigini biliyorsun... hadi.\t</danger>"
+    },
+    "486": {
+      "source_en": "\t\t\t<danger>\tAah it's the Knights who say ni, RUN AWAY! RUN AWAY!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tAah 'ni' diyen sovalyeler, KAC! KAC!\t</danger>"
+    },
+    "487": {
+      "source_en": "\t\t\t<danger>\tHey, don't you go bleeding all over my soft white fluffy fur, I just had it groomed for my date tonight.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey, yumusak beyaz tuylerimin ustune kanama, bu geceki bulusmam icin yeni tarattim.\t</danger>"
+    },
+    "488": {
+      "source_en": "\t\t\t<dead>\t*BURP* ...well someone looks a bit dead.\t</dead>",
+      "translation_tr": "\t\t\t<dead>\t*GEGIRIR* ...birisi biraz olu gorunuyor.\t</dead>"
+    },
+    "489": {
+      "source_en": "\t\t\t<dead>\tHow about a dead time story? Would ya like that little fellah?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBir olum zamani hikayesine ne dersin? Ister misin ufaklik?\t</dead>"
+    },
+    "490": {
+      "source_en": "\t\t\t<dead>\tYou know, you really need to stop dying... I worry about you sometimes you know that?\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBiliyor musun, artik olmeyi birakmalisin... bazen senin icin endiseleniyorum.\t</dead>"
+    },
+    "491": {
+      "source_en": "\t\t\t<stand>\t*BURP* Excuse me... all those carrots... I get no protein...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\t*GEGIRIR* Affedersin... tum o havuclar... hic protein alamiyorum...\t</stand>"
+    },
+    "492": {
+      "source_en": "\t\t\t<stand>\tI ...fear... the clowns... and... magicians... keep them away.... *shiver*\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBen... palyacolardan... ve... sihirbazlardan korkarim... uzak tut.... *titreme*\t</stand>"
+    },
+    "493": {
+      "source_en": "\t\t\t<stand>\tHey, psst, down here... STOP STEPPING ON ME!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHey, psst, asagi bak... USTUME BASMAYI BIRAK!!\t</stand>"
+    },
+    "494": {
+      "source_en": "\t\t\t<stand>\tIt's hard to look cute when you're as stuffed fat as I am...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBenim kadar tikabasa sisman olunca tatli gorunmek zor...\t</stand>"
+    },
+    "495": {
+      "source_en": "\t\t\t<stand>\tLook at me! I'm the sexiest Lunatic alive! *squeak*\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBana bak! Yasayan en cekici Lunatic benim! *cik*\t</stand>"
+    },
+    "496": {
+      "source_en": "\t\t\t<connect>\tAh good, you're back, now my minion GO GO GO!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tAh guzel, geri geldin, simdi hizmetkarim HADI HADI HADI!\t</connect>"
+    },
+    "497": {
+      "source_en": "\t\t\t<connect>\tIt's about time you got back, I need a workout, let's go a'huntin'\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tDonmenin zamani gelmisti, egzersize ihtiyacim var, hadi ava!\t</connect>"
+    },
+    "498": {
+      "source_en": "\t\t\t<connect>\tI got a bit greedy and ate all of our stash of carrots...\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tBiraz acgozlu davrandim ve tum havuc stokumuzu yedim...\t</connect>"
+    },
+    "499": {
+      "source_en": "\t\t\t<levelup>\tYay, nice going, now when do I get to?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tYasasin, guzel gidiyor, peki ben ne zaman?\t</levelup>"
+    },
+    "500": {
+      "source_en": "\t\t\t<levelup>\t*berp*... sorry still have gas from last meal...did you just level?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t*gegirir*... uzgunum, son yemekten hala gazim var... az once level mi atladin?\t</levelup>"
+    },
+    "501": {
+      "source_en": "\t\t\t<levelup>\tLet's have a good ol'hip hip hurrah, shall we?\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tGuzel bir hip hip hurra yapalim mi?\t</levelup>"
+    },
+    "502": {
+      "source_en": "\t\t\t<levelup>\tHey, are we within sharing range yet, I really would like to start leeching.\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHey, sharing menziline girdik mi, gercekten leech yapmaya baslamak istiyorum.\t</levelup>"
+    },
+    "505": {
+      "source_en": "\t\t\t<feeding>\tI think I'm going to puke...\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSanirim kusacagim...\t</feeding>"
+    },
+    "506": {
+      "source_en": "\t\t\t<feeding>\tPlease... no more nice surprises... I don't think my little tummy can take anymore.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tLutfen... daha fazla guzel surpriz olmasin... kucuk midem daha fazlasini kaldiramaz.\t</feeding>"
+    },
+    "507": {
+      "source_en": "\t\t\t<feeding>\tNo more please... oh the pain... THE PAIN.....*burp*... don't think I can eat much more.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tDaha fazla olmasin lutfen... ah aci... ACI.....*gegirir*... daha fazla yiyebilecegimi sanmiyorum.\t</feeding>"
+    },
+    "508": {
+      "source_en": "\t\t\t<feeding>\tThat's it, I'm calling cruelty to animals, this is gorging!!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBu kadar, hayvanlara kotu muameleyi ariyorum, bu resmen tikindirma!!\t</feeding>"
+    },
+    "509": {
+      "source_en": "\t\t\t<hunting>\tI think I shall now be sick... *mphf*\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tSanirim simdi kusacagim... *mphf*\t</hunting>"
+    },
+    "510": {
+      "source_en": "\t\t\t<hunting>\tPlease slow down, I have such tiny and cute little legs... see? ^^\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tLutfen yavasla, minicik ve tatli bacaklarim var... goruyor musun? ^^\t</hunting>"
+    },
+    "511": {
+      "source_en": "\t\t\t<hunting>\tWhy can't you carry me in your bag or something?\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tNeden beni cantanda falan tasimiyorsun?\t</hunting>"
+    },
+    "512": {
+      "source_en": "\t\t\t<hunting>\tOh my, I AM getting fat!! Why didn't you tell me!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tAman, GERCEKTEN sismanliyorum!! Neden soylemedin!\t</hunting>"
+    },
+    "513": {
+      "source_en": "\t\t\t<hunting>\tYou're just using me as a fat bunny lure aren't you! AREN'T YOU!!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tBeni sadece sisman tavsan yemi olarak kullaniyorsun, degil mi! DEGIL MI!!\t</hunting>"
+    },
+    "514": {
+      "source_en": "\t\t\t<danger>\tBlood... ewww... ugh... uh... oh... BLARRRRRRRRRRRRRGH... EWWWWW!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tKan... iyy... ugh... ah... oh... BLARRRRRRRRRRRRRGH... IYYYYY!\t</danger>"
+    },
+    "515": {
+      "source_en": "\t\t\t<danger>\tLUNATIC POWER!... ... ... hmm, never mind, it's all yours.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tLUNATIC GUCU!... ... ... hmm, bos ver, hepsi senin.\t</danger>"
+    },
+    "516": {
+      "source_en": "\t\t\t<danger>\tUm, maybe you shouldn't have given me that last carrot, you look like you could use it.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tEe, belki son havucu bana vermemeliydin, senin ihtiyacin var gibi.\t</danger>"
+    },
+    "517": {
+      "source_en": "\t\t\t<danger>\tFEEL THE BURN... or.. is that just straight pain?\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tYANMAYI HISSET... yoksa... bu sadece dogrudan aci mi?\t</danger>"
+    },
+    "518": {
+      "source_en": "\t\t\t<danger>\tIf you hadn't had fed me that last carrot, you'd be able to heal yourself right now, but I love you anyways.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tSon havucu bana vermeseydin simdi kendini iyilestirebilirdin ama seni yine de seviyorum.\t</danger>"
+    },
+    "519": {
+      "source_en": "\t\t\t<dead>\tSo full... can't... Zzz...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tCok tokum... yapamam... Zzz...\t</dead>"
+    },
+    "520": {
+      "source_en": "\t\t\t<dead>\tHey, did you hear the latest news about... oh, when did you die?!? Dang it...\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHey, son haberi duydun mu... ah, ne zaman oldun?!? Kahretsin...\t</dead>"
+    },
+    "521": {
+      "source_en": "\t\t\t<stand>\tNo, no moving... sit...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tHayir, hareket yok... otur...\t</stand>"
+    },
+    "522": {
+      "source_en": "\t\t\t<stand>\tI'm not fat I'm big boned!... with lots of poofy... fur... right?\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSisman degilim, iri kemikliyim!... ve cok kabarik... tuyum var... degil mi?\t</stand>"
+    },
+    "523": {
+      "source_en": "\t\t\t<stand>\tHere is a cup of tea for you, and one for you... and one for you.... WHAT DO YOU MEAN IT'S EMPTY!!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tSana bir fincan cay, sana da... sana da.... BOS NE DEMEK!!\t</stand>"
+    },
+    "524": {
+      "source_en": "\t\t\t<stand>\tPick me up, take me with you, please don't make me walk around, I'm so tired.\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBeni kaldir, yaninda gotur, lutfen yurutme, cok yorgunum.\t</stand>"
+    },
+    "525": {
+      "source_en": "\t\t\t<connect>\tI can't move...my little legs can't move, OH NO, WHAT'S BECOME OF ME!!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHareket edemiyorum... kucuk bacaklarim hareket etmiyor, AH HAYIR, BANA NE OLDU!!\t</connect>"
+    },
+    "526": {
+      "source_en": "\t\t\t<connect>\tSo the other day I met this hot looking Lunatic and told me I was chubby! Do you think I'm chubby?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tGecen gun cok cekici bir Lunatic ile tanistim, bana tombul dedi! Sence tombul muyum?\t</connect>"
+    },
+    "527": {
+      "source_en": "\t\t\t<connect>\tFinally! You haven't been making other accounts have you? Playing other characters?? YOU PROMISED!!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSonunda! Baska hesaplar acmadin degil mi? Baska karakterlerle oynamadin?? SOZ VERMISTIN!!\t</connect>"
+    },
+    "528": {
+      "source_en": "\t\t\t<connect>\tHi... um... Can you give me my exercise machine back now?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tSelam... ee... egzersiz makinemi geri verir misin?\t</connect>"
+    },
+    "529": {
+      "source_en": "\t\t\t<connect>\tMaster!!! I made some tea for you... isn't it great?... what do you mean it's cold, you're the one who left.\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tEfendim!!! Sana cay yaptim... harika degil mi?... soguk ne demek, giden sendin.\t</connect>"
+    },
+    "530": {
+      "source_en": "\t\t\t<connect>\tYou know, I was just thinking, the world would be a better place if people would STOP STEPPING ON ME!!\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tDusunuyordum da, insanlar USTUME BASMAYI BIRAKSA dunya daha iyi bir yer olurdu!!\t</connect>"
+    },
+    "531": {
+      "source_en": "\t\t\t<levelup>\t...I really... need... to... use the... potty...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\t...Gercekten... tuvalete... gitmem... gerekiyor...\t</levelup>"
+    },
+    "532": {
+      "source_en": "\t\t\t<levelup>\tI prepared this little poem for you... shoot, where did it go...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tSenin icin kucuk bir siir hazirladim... kahretsin, nereye gitti...\t</levelup>"
+    },
+    "533": {
+      "source_en": "\t\t\t<levelup>\tCongratulations! Now we can go and do some sit-ups and work on those abs!\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tTebrikler! Simdi mekik cekip karin kaslarina calisabiliriz!\t</levelup>"
+    },
+    "534": {
+      "source_en": "\t\t\t<levelup>\tHey, look at that you're catching up to my level...\t</levelup>",
+      "translation_tr": "\t\t\t<levelup>\tHey, bak seviyeme yetisiyorsun...\t</levelup>"
+    },
+    "539": {
+      "source_en": "\t\t\t<feeding>\t*Tweet* Thank you! But my little birdie tummy isn't full just yet!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\t*Cik cik* Tesekkurler! Ama kucuk kus midem daha doymadi!\t</feeding>"
+    },
+    "540": {
+      "source_en": "\t\t\t<feeding>\tFinally! If you took any longer I thought I'd get smaller from not eating.\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tSonunda! Biraz daha gec kalsan yememekten kuculecegimi sandim.\t</feeding>"
+    },
+    "541": {
+      "source_en": "\t\t\t<feeding>\tCould you bring me more food?\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tBana daha fazla yemek getirir misin?\t</feeding>"
+    },
+    "542": {
+      "source_en": "\t\t\t<feeding>\tI never take food from strangers... but I've seen you around a bit, gimme more please!\t</feeding>",
+      "translation_tr": "\t\t\t<feeding>\tYabancilardan asla yemek almam... ama seni bir suredir goruyorum, biraz daha ver lutfen!\t</feeding>"
+    },
+    "543": {
+      "source_en": "\t\t\t<hunting>\tHey you know, thief bugs sound MIGHTY scrumptious right about now!\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tHey, su anda Thief Buglar COK lezzetli geliyor!\t</hunting>"
+    },
+    "544": {
+      "source_en": "\t\t\t<hunting>\tIf that thing comes near me I'll peck it's eyes out... mmm... eyeballs.\t</hunting>",
+      "translation_tr": "\t\t\t<hunting>\tO sey bana yaklasirsa gozlerini oyacagim... mmm... gozler.\t</hunting>"
+    },
+    "545": {
+      "source_en": "\t\t\t<danger>\tYo, your like...dying and stuff....feed me before that happens.\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey, sen sanki... oluyorsun falan... olmadan once beni besle.\t</danger>"
+    },
+    "546": {
+      "source_en": "\t\t\t<danger>\tHey everyone, come watch. Someone's going to die soon!\t</danger>",
+      "translation_tr": "\t\t\t<danger>\tHey herkes, gelin bakin. Birisi birazdan olecek!\t</danger>"
+    },
+    "547": {
+      "source_en": "\t\t\t<dead>\tNOOOO, now I will starve to death... SOMEONE FEED ME!\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tHAYIIIR, simdi acliktan olecegim... BIRISI BENI BESLESIN!\t</dead>"
+    },
+    "548": {
+      "source_en": "\t\t\t<dead>\tI should look for somebody who will feed me..\t</dead>",
+      "translation_tr": "\t\t\t<dead>\tBeni besleyecek birini aramaliyim..\t</dead>"
+    },
+    "549": {
+      "source_en": "\t\t\t<stand>\tErr....my stomach needs food....please...now...\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tEe....midemin yemege ihtiyaci var....lutfen...simdi...\t</stand>"
+    },
+    "550": {
+      "source_en": "\t\t\t<stand>\tBukaw Bukaw!\t</stand>",
+      "translation_tr": "\t\t\t<stand>\tBukaw Bukaw!\t</stand>"
+    },
+    "551": {
+      "source_en": "\t\t\t<connect>\tHey guy, welcome back...yada yada yada...where's the food?\t</connect>",
+      "translation_tr": "\t\t\t<connect>\tHey dostum, hos geldin... bla bla bla... yemek nerede?\t</connect>"
     },
     "2684": {
       "source_en": "\t\t\t<perfor_1>\tW...What is this?... Whenever I see this picture I get tears in my eyes...\t</perfor_1>",
