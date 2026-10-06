@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.1.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata etiketlerini, tur/konum degerlerini ve ortak sistem metinlerini byte-safe cevirir",
+    "version": "1.2.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata etiketlerini, sistem kosullarini, ortak hasar kaliplarini ve tekrar eden ekipman metinlerini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -359,6 +359,300 @@
       "type": "literal",
       "source": "^0000CCSlots:^000000",
       "translation": "^0000CCSlotlar:^000000"
+    },
+    {
+      "id": "label_enchantable",
+      "type": "literal",
+      "source": "^0000CCEnchantable:^000000",
+      "translation": "^0000CCEnchant Edilebilir:^000000"
+    },
+    {
+      "id": "enchantable_yes",
+      "type": "literal",
+      "source": "Enchant Edilebilir:^000000 Yes",
+      "translation": "Enchant Edilebilir:^000000 Evet"
+    },
+    {
+      "id": "enchantable_no",
+      "type": "literal",
+      "source": "Enchant Edilebilir:^000000 No",
+      "translation": "Enchant Edilebilir:^000000 Hayir"
+    },
+    {
+      "id": "position_garment",
+      "type": "literal",
+      "source": "Konum:^000000 Garment",
+      "translation": "Konum:^000000 Giysi"
+    },
+    {
+      "id": "type_restorative",
+      "type": "literal",
+      "source": "Tur:^000000 Restorative",
+      "translation": "Tur:^000000 Iyilestirici"
+    },
+    {
+      "id": "type_shadow_armor",
+      "type": "literal",
+      "source": "Tur:^000000 Shadow Armor",
+      "translation": "Tur:^000000 Shadow Zirh"
+    },
+    {
+      "id": "type_shadow_shoes",
+      "type": "literal",
+      "source": "Tur:^000000 Shadow Shoes",
+      "translation": "Tur:^000000 Shadow Ayakkabi"
+    },
+    {
+      "id": "type_shadow_weapon",
+      "type": "literal",
+      "source": "Tur:^000000 Shadow Weapon",
+      "translation": "Tur:^000000 Shadow Silah"
+    },
+    {
+      "id": "type_quest",
+      "type": "literal",
+      "source": "Tur:^000000 Quest",
+      "translation": "Tur:^000000 Gorev"
+    },
+    {
+      "id": "type_mace",
+      "type": "literal",
+      "source": "Tur:^000000 Mace",
+      "translation": "Tur:^000000 Topuz"
+    },
+    {
+      "id": "type_shield",
+      "type": "literal",
+      "source": "Tur:^000000 Shield",
+      "translation": "Tur:^000000 Kalkan"
+    },
+    {
+      "id": "heading_enchantable_equipment",
+      "type": "literal",
+      "source": "^000088[Enchantable Equipment]^000000",
+      "translation": "^000088[Enchant Edilebilir Ekipman]^000000"
+    },
+    {
+      "id": "heading_enchantment_effect",
+      "type": "literal",
+      "source": "^000088[Enchantment Effect]^000000",
+      "translation": "^000088[Enchant Etkisi]^000000"
+    },
+    {
+      "id": "heading_obtainable_items",
+      "type": "literal",
+      "source": "[Obtainable Items]",
+      "translation": "[Elde Edilebilir Esyalar]"
+    },
+    {
+      "id": "heading_target_items",
+      "type": "literal",
+      "source": "[Target Items]",
+      "translation": "[Hedef Esyalar]"
+    },
+    {
+      "id": "heading_required_materials",
+      "type": "literal",
+      "source": "[Required Materials]",
+      "translation": "[Gerekli Malzemeler]"
+    },
+    {
+      "id": "heading_description",
+      "type": "literal",
+      "source": "Description:",
+      "translation": "Aciklama:"
+    },
+    {
+      "id": "heading_obtained_from",
+      "type": "literal",
+      "source": "Obtained from:",
+      "translation": "Elde Edilir:"
+    },
+    {
+      "id": "heading_used_by",
+      "type": "literal",
+      "source": "Used by:",
+      "translation": "Kullanan:"
+    },
+    {
+      "id": "equipment_grade_bonus",
+      "type": "literal",
+      "source": "^CC3D3D[Bonus by Equipment's Grade]^000000",
+      "translation": "^CC3D3D[Ekipman Grade'ine Gore Bonus]^000000"
+    },
+    {
+      "id": "all_basic_stats",
+      "type": "regex",
+      "pattern": "All Basic Stats \\+(\\d+)",
+      "replacement": "Tum Temel Statlar +\\1"
+    },
+    {
+      "id": "ranged_physical_damage",
+      "type": "regex",
+      "pattern": "Increases Ranged Physical Damage by (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "melee_physical_damage",
+      "type": "regex",
+      "pattern": "Increases Melee Physical Damage by (\\d+)%\\.",
+      "replacement": "Yakin Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "critical_damage",
+      "type": "regex",
+      "pattern": "Increases Critical Damage by (\\d+)%\\.",
+      "replacement": "Kritik Hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_all_size_damage",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "magical_all_size_damage",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_all_element_damage",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "fixed_cast",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by ([0-9.]+) seconds\\.",
+      "replacement": "Sabit kullanma suresini \\1 saniye azaltir."
+    },
+    {
+      "id": "variable_cast_additional",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time by additional (\\d+)%\\.",
+      "replacement": "Degisken kullanma suresini ek %\\1 azaltir."
+    },
+    {
+      "id": "demi_human_damage_taken",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Demi-Human\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "movement_speed",
+      "type": "literal",
+      "source": "Increases movement speed.",
+      "translation": "Hareket hizini artirir."
+    },
+    {
+      "id": "skill_cast_uninterruptible",
+      "type": "literal",
+      "source": "Skill casting cannot be interrupted.",
+      "translation": "Beceri kullanimi kesintiye ugratlamaz."
+    },
+    {
+      "id": "vip_status_active",
+      "type": "literal",
+      "source": "When ^990099VIP^000000 status active:",
+      "translation": "^990099VIP^000000 durumu aktifken:"
+    },
+    {
+      "id": "pet_incubator_hatch",
+      "type": "literal",
+      "source": "Can be hatched by using a ^0033CCPet Incubator^000000.",
+      "translation": "^0033CCPet Incubator^000000 kullanilarak yumurtadan cikarilabilir."
+    },
+    {
+      "id": "for_each_refine_entire_set",
+      "type": "literal",
+      "source": "^0000FFFor each Refine Level^000000 of ^0000FFentire set^000000:",
+      "translation": "^0000FFTum setin her Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "total_refine_entire_set_at_least",
+      "type": "regex",
+      "pattern": "\\^0000FFTotal Refine Level of entire set\\^000000(?: is)? at least \\^0000FF\\+(\\d+)\\^000000:",
+      "replacement": "^0000FFTum setin toplam Gelistirme Seviyesi^000000 en az ^0000FF+\\1^000000 ise:"
+    },
+    {
+      "id": "base_level_at_least",
+      "type": "regex",
+      "pattern": "\\^CC6600Base Level\\^000000 at least \\^FF0000(\\d+)\\^000000:",
+      "replacement": "^CC6600Temel Seviye^000000 en az ^FF0000\\1^000000 ise:"
+    },
+    {
+      "id": "for_each_n_base_level",
+      "type": "regex",
+      "pattern": "For each \\^0000FF(\\d+) \\^CC6600Base Level\\^000000:",
+      "replacement": "Her ^0000FF\\1 ^CC6600Temel Seviye^000000 icin:"
+    },
+    {
+      "id": "not_tradeable_accounts",
+      "type": "literal",
+      "source": "^ff0000This item cannot be traded with other accounts.^000000",
+      "translation": "^ff0000Bu esya diger hesaplarla takas edilemez.^000000"
+    },
+    {
+      "id": "npc_storage_only",
+      "type": "literal",
+      "source": "^FF0000This item can only be sold to NPCs and moved to storage.^000000",
+      "translation": "^FF0000Bu esya yalnizca NPC'lere satilabilir ve depoya tasinabilir.^000000"
+    },
+    {
+      "id": "shadow_armor_description",
+      "type": "literal",
+      "source": "A suit of armor worn on top of normal armor for additional defense. Needs a complete set to have bonus effect.",
+      "translation": "Ek savunma icin normal zirhin ustune giyilen bir zirh. Bonus etkisi icin setin tamamlanmasi gerekir."
+    },
+    {
+      "id": "shadow_shoes_description",
+      "type": "literal",
+      "source": "A pair of shoes worn on top of normal shoes for additional defense. Needs a complete set to have bonus effect.",
+      "translation": "Ek savunma icin normal ayakkabilarin ustune giyilen ayakkabilar. Bonus etkisi icin setin tamamlanmasi gerekir."
+    },
+    {
+      "id": "shadow_gloves_description",
+      "type": "literal",
+      "source": "A pair of gloves that can draw the wearer's potential ability.",
+      "translation": "Kullananin potansiyel yeteneklerini ortaya cikaran bir cift eldiven."
+    },
+    {
+      "id": "shadow_earring_description",
+      "type": "literal",
+      "source": "A sacred earring which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+      "translation": "Kullanan kisiyi koruduguna inanilan kutsal bir kupe. Ayrica potansiyel yeteneklerini ortaya cikarir."
+    },
+    {
+      "id": "shadow_necklace_description",
+      "type": "literal",
+      "source": "A sacred necklace which is believed to protect its wearer. It also draws the wearer's potential abilities.",
+      "translation": "Kullanan kisiyi koruduguna inanilan kutsal bir kolye. Ayrica potansiyel yeteneklerini ortaya cikarir."
+    },
+    {
+      "id": "shadow_shield_description",
+      "type": "literal",
+      "source": "A small shield worn on the arm for additional defense. Needs a complete set to have bonus effect.",
+      "translation": "Ek savunma icin kola takilan kucuk bir kalkan. Bonus etkisi icin setin tamamlanmasi gerekir."
+    },
+    {
+      "id": "sealed_power_description",
+      "type": "literal",
+      "source": "An engraved item with its power sealed inside.",
+      "translation": "Gucu icine muhurlenmis islemeli bir esya."
+    },
+    {
+      "id": "sealed_power_remains",
+      "type": "literal",
+      "source": "While no longer usable, the item's power remains intact.",
+      "translation": "Artik kullanilamasa da esyanin gucu bozulmadan kalir."
+    },
+    {
+      "id": "random_costume_equipment",
+      "type": "literal",
+      "source": "Any of the following costume equipment will appear at random.^0000FF",
+      "translation": "Asagidaki kostum ekipmanlarindan biri rastgele cikar.^0000FF"
     }
   ]
 }
