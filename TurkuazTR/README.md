@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.18.0
+Version: 2.19.0
 Aciklama: Upstream senkronu, Turkce calisma dali, genisletilmis UI/harita/state icon localization ve 2022 client cikisini birbirinden ayirir
 Bagimli Oldugu Katman: View
 -->
@@ -156,3 +156,14 @@ Bozuk encoding metinleri Turkceye uydurularak sabitlenmez. Temiz Ingilizce blokl
 - English profil orijinal kaynagi; Hybrid, Full TR ve Bilingual profilleri Turkce kitap metnini kullanir.
 - `11064.txt` Korece kaynakli gercek rehberdir ve ceviri hedefidir.
 - `prontera bible01.txt`, `11000.txt` ile ayni Rune-Midgarts lore metnini farkli satir duzeniyle tekrarlar; Turkce metin yeniden kullanilabilir.
+
+
+## Item bilgi localization modeli
+
+Gercek item localization kaynagi `Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua` dosyasidir ve 22 MB uzerindedir.
+
+- `SystemEN/itemInfo.lua` loader/config katmanidir; ceviri hedefi degildir.
+- `SystemEN/itemInfo_C.lua` custom/override template dosyasidir; aktif item metni tasimadigi surece ceviri hedefi degildir.
+- Oyuncuya gorunen kapsam yalnizca `unidentifiedDisplayName`, `unidentifiedDescriptionName`, `identifiedDisplayName` ve `identifiedDescriptionName` alanlaridir.
+- Resource name, slot, class, costume, server/database ayarlari ve merge kodu teknik/internal kabul edilir.
+- Buyuk dosya kapsam sayimi `TurkuazTR/tools/audit-iteminfo-visible.py` ile CI icinde yapilir.
