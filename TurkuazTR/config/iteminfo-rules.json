@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.4.0",
-    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, element/sure degerleri, refine/grade kaliplari ve tekrar eden ekipman metinlerini byte-safe cevirir",
+    "version": "1.5.0",
+    "description": "Item adlarini canonical tutar; description bloklarinda metadata, sistem kosullari, refine/grade kaliplari, uyari metinleri ve job adlarini koruyan sinif kisitlarini byte-safe cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -579,8 +579,8 @@
     {
       "id": "base_level_at_least",
       "type": "regex",
-      "pattern": "\\^CC6600Base Level\\^000000 at least \\^FF0000(\\d+)\\^000000:",
-      "replacement": "^CC6600Temel Seviye^000000 en az ^FF0000\\1^000000 ise:"
+      "pattern": "(\\^CC6600)Base Level(\\^000000 at least \\^[0-9A-Fa-f]{6})(\\d+)(\\^000000:)",
+      "replacement": "\\1Temel Seviye\\2\\3\\4"
     },
     {
       "id": "for_each_n_base_level",
@@ -971,6 +971,108 @@
       "type": "regex",
       "pattern": "\\[Grade ([A-D])\\]: (P\\.ATK|S\\.MATK|ATK|MATK) \\+(\\d+) per \\^0000FF(\\d+) Refine Levels\\^000000\\.",
       "replacement": "[Grade \\1]: \\2 +\\3, her ^0000FF\\4 Gelistirme Seviyesi^000000 icin."
+    },
+    {
+      "id": "higher_level_autocast",
+      "type": "literal",
+      "source": "(If you learned a higher Level, it will auto cast that Level instead.)",
+      "translation": "(Daha yuksek bir Seviye ogrendiysen onun yerine o Seviye otomatik kullanilir.)"
+    },
+    {
+      "id": "job_all_jobs",
+      "type": "literal",
+      "source": "Job: All Jobs",
+      "translation": "Job: Tum Joblar"
+    },
+    {
+      "id": "npc_sell_only",
+      "type": "literal",
+      "source": "^ff0000Can only be sold to NPCs.^000000",
+      "translation": "^ff0000Yalnizca NPC'lere satilabilir.^000000"
+    },
+    {
+      "id": "ignore_physical_defense_all_races_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of all race, except (\\^FF0000Players\\^000000), by additional (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_physical_magical_defense_all_races",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel ve buyusel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "inventory_30000_warning",
+      "type": "literal",
+      "source": "^ff0000\\\"Warning - If you have more than 30.000 items in your inventory, the items may be lost.\\\"^000000 ",
+      "translation": "^ff0000\\\"Uyari - Envanterinizde 30.000'den fazla esya varsa esyalar kaybolabilir.\\\"^000000 "
+    },
+    {
+      "id": "physical_every_element_damage",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "woe_te_effects",
+      "type": "literal",
+      "source": "*Effects in WoE TE area",
+      "translation": "*WoE TE alanindaki etkiler"
+    },
+    {
+      "id": "not_tradeable_accounts_upper",
+      "type": "literal",
+      "source": "^FF0000This item cannot be traded with other accounts.^000000",
+      "translation": "^FF0000Bu esya diger hesaplarla takas edilemez.^000000"
+    },
+    {
+      "id": "swordman_classes",
+      "type": "literal",
+      "source": "Swordman classes",
+      "translation": "Swordman siniflari"
+    },
+    {
+      "id": "swordsman_merchant_thief_classes",
+      "type": "literal",
+      "source": "Swordsman, Merchant and Thief classes",
+      "translation": "Swordsman, Merchant ve Thief siniflari"
+    },
+    {
+      "id": "assassin_classes",
+      "type": "literal",
+      "source": "Assassin classes",
+      "translation": "Assassin siniflari"
+    },
+    {
+      "id": "gunslinger_classes",
+      "type": "literal",
+      "source": "Gunslinger classes",
+      "translation": "Gunslinger siniflari"
+    },
+    {
+      "id": "priest_monk_classes",
+      "type": "literal",
+      "source": "Priest and Monk classes",
+      "translation": "Priest ve Monk siniflari"
+    },
+    {
+      "id": "dancer_classes",
+      "type": "literal",
+      "source": "Dancer classes",
+      "translation": "Dancer siniflari"
+    },
+    {
+      "id": "magician_soul_linker_classes",
+      "type": "literal",
+      "source": "Magician and Soul Linker classes",
+      "translation": "Magician ve Soul Linker siniflari"
+    },
+    {
+      "id": "multi_job_classes",
+      "type": "literal",
+      "source": "Swordsman, Magician, Archer, Merchant, Thief, Soul Linker and Ninja classes",
+      "translation": "Swordsman, Magician, Archer, Merchant, Thief, Soul Linker ve Ninja siniflari"
     }
   ]
 }
