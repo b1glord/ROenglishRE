@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.30.0",
-    "description": "Item adlarini canonical tutar; Damage taken ailesindeki additional, typo, size, player, element ve all-monster varyantlarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.31.0",
+    "description": "Item adlarini canonical tutar; count=2 kuyrugundaki After Skill Delay, Damage taken ve contains varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4409,6 +4409,126 @@
       "type": "regex",
       "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element(?:al)? attacks by (\\d+)%\\.?",
       "replacement": "\\1 element saldirilarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "after_skill_delay_double_space",
+      "type": "regex",
+      "pattern": "Decreases  After Skill Delay by (\\d+)%\\.",
+      "replacement": "Beceri sonrasi gecikmeyi %\\1 azaltir."
+    },
+    {
+      "id": "after_skill_delay_by_by",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by by (\\d+)%\\.",
+      "replacement": "Beceri sonrasi gecikmeyi %\\1 azaltir."
+    },
+    {
+      "id": "after_skill_delay_all_skills_typo",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by of all skills by (\\d+)%\\.",
+      "replacement": "Tum becerilerin beceri sonrasi gecikmesini %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_long_range",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from long range physical attacks by (\\d+)%\\.",
+      "replacement": "Uzun menzilli fiziksel saldirilardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_long_range_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from long range physical attacks by additional (\\d+)%\\.",
+      "replacement": "Uzun menzilli fiziksel saldirilardan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_magical_attacks",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from magical attacks by (\\d+)%\\.",
+      "replacement": "Buyulu saldirilardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_melee_all_elements",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from melee physical attacks of all elements by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki yakin dovus fiziksel saldirilarindan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_monsters_boss_class",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_monsters_race",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_monsters_every_element",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki canavarlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_monsters_every_race_except_players",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_monsters_every_size",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki canavarlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_fron_race",
+      "type": "regex",
+      "pattern": "Decreases Damage taken fron (\\^FF0000[^\\r\\n]+?\\^000000) race by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_enemies_every_race",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_every_class_alt",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from every class by (\\d+)%\\.",
+      "replacement": "Tum siniflardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_elemental_additional",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 elementinden alinan Fiziksel ve Buyu Hasarini ek %\\2 azaltir."
+    },
+    {
+      "id": "contains_all_armor_listed_below",
+      "type": "literal",
+      "source": "Contains all of the armor listed below.",
+      "translation": "Asagida listelenen tum zirhlari icerir."
+    },
+    {
+      "id": "contains_all_costumes_below",
+      "type": "literal",
+      "source": "Contains all of the costumes below.",
+      "translation": "Asagidaki kostumlerin tumunu icerir."
+    },
+    {
+      "id": "contains_following_items_below",
+      "type": "literal",
+      "source": "Contains the following items below.",
+      "translation": "Asagidaki esyalari icerir."
+    },
+    {
+      "id": "contains_useful_growth_items",
+      "type": "literal",
+      "source": "Contains useful items for growing new characters.",
+      "translation": "Yeni karakterleri gelistirmek icin faydali esyalar icerir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
