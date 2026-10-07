@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.27.0",
-    "description": "Item adlarini canonical tutar; element armor, guild summon, teleport, Varmundt rune, direnc, Encroached ve combat-type ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.28.0",
+    "description": "Item adlarini canonical tutar; absorb, OS-device, hunting gear, blessed refine ore, juice, hard-defense ve Battle Manual kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4199,6 +4199,66 @@
       "type": "regex",
       "pattern": "(Combat armor|Combat boots|Combat engine) ([AB]) type improved with the technology of (?:the )?Varmundt's mansion\\.",
       "replacement": "Varmundt's Mansion teknolojisiyle gelistirilmis \\1 Type \\2."
+    },
+    {
+      "id": "adds_absorb_damage_resource",
+      "type": "regex",
+      "pattern": "Adds (\\d+)% chance to absor[bp] (\\d+)% (?:physical )?damage(?: against target)? as (HP|SP)\\.",
+      "replacement": "Hasarin %\\2 kadarini \\3 olarak emmek icin %\\1 sans ekler."
+    },
+    {
+      "id": "os_weapon_modify_device",
+      "type": "regex",
+      "pattern": "An? (?:advanced |highly advanced )?device that can modifiy OS weapons\\.",
+      "replacement": "OS silahlarini modifiye edebilen gelismis bir cihaz."
+    },
+    {
+      "id": "hunting_competition_gear",
+      "type": "regex",
+      "pattern": "An? (armor|manteau|pair of boots) crafted for efficient hunting by hunters participating in hunting competitions\\.",
+      "replacement": "Av yarismalarina katilan avcilar icin verimli avcilik amaciyla yapilmis \\1."
+    },
+    {
+      "id": "blessed_refine_ore_armor",
+      "type": "regex",
+      "pattern": "An elunium which is blessed by the smith God\\. When refining weapon with Refine Lv between \\+(\\d+) and \\+(\\d+), armor won't vanish even if the Refine fails\\.",
+      "replacement": "Smith God tarafindan kutsanmis Elunium. +\\1 ile +\\2 arasinda gelistirme yaparken basarisiz olsa bile zirh kaybolmaz."
+    },
+    {
+      "id": "blessed_refine_ore_weapon",
+      "type": "regex",
+      "pattern": "An oridecon which is blessed by the smith God\\. When refining weapon with Refine Lv between \\+(\\d+) and \\+(\\d+), weapon won't vanish even if the Refine fails\\.",
+      "replacement": "Smith God tarafindan kutsanmis Oridecon. +\\1 ile +\\2 arasinda gelistirme yaparken basarisiz olsa bile silah kaybolmaz."
+    },
+    {
+      "id": "armor_indestructible_except_refine",
+      "type": "literal",
+      "source": "Armor becomes indestructible (except in upgrade attempts).",
+      "translation": "Zirh kirilmaz hale gelir (gelistirme denemeleri haric)."
+    },
+    {
+      "id": "bottled_fruit_juice",
+      "type": "regex",
+      "pattern": "Bottled (apple|banana|carrot|grape) juice that's easy to digest\\.",
+      "replacement": "Sindirimi kolay siselenmis \\1 suyu."
+    },
+    {
+      "id": "hard_defense_normal_boss",
+      "type": "regex",
+      "pattern": "Bypass Hard Defense of monsters of (\\^FF0000Normal\\^000000) and (\\^FF0000Boss\\^000000) class by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 ve \\2 sinifindaki canavarlarin Hard Defense degerini %\\3 yok sayar."
+    },
+    {
+      "id": "battle_manual_exp_duration",
+      "type": "regex",
+      "pattern": "Battle Manual - Experience gained \\+(\\d+)% for (\\d+) minutes\\.",
+      "replacement": "Battle Manual - Kazanilan deneyimi \\2 dakika boyunca +%\\1 artirir."
+    },
+    {
+      "id": "chance_drop_per_refine_over",
+      "type": "regex",
+      "pattern": "Chance to drop increases by (\\d+)% For each Refine Level over (\\d+)\\.",
+      "replacement": "Gelistirme Seviyesi \\2 uzerindeki her seviye icin dusme sansini %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
