@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.32.0",
-    "description": "Count=2 itemInfo kuyrugundaki Critical, casting, After Skill Delay ve Damage taken varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.33.0",
+    "description": "Count=2 itemInfo kuyrugundaki SP tuketimi, casting, cooldown ve Fiziksel/Buyu hasar varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4655,6 +4655,126 @@
       "type": "regex",
       "pattern": "Decreases Physical and Magical Damage from all race by (\\d+)% \\(Except Players\\)\\.",
       "replacement": "Players haric tum irklara Fiziksel ve Buyu Hasarini %\\1 azaltir."
+    },
+    {
+      "id": "fixed_cast_seconds_additional_order",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by ([0-9.]+) additional seconds\\.",
+      "replacement": "Sabit kullanma suresini ek \\1 saniye azaltir."
+    },
+    {
+      "id": "sp_consumption_skill_percent",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) by (\\d+)%\\.",
+      "replacement": "\\1 SP Tuketimini %\\2 azaltir."
+    },
+    {
+      "id": "sp_consumption_skill_prefix_percent",
+      "type": "regex",
+      "pattern": "Decreases (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) SP Consumption by (\\d+)%\\.",
+      "replacement": "\\1 SP Tuketimini %\\2 azaltir."
+    },
+    {
+      "id": "sp_consumption_upgrade_level",
+      "type": "regex",
+      "pattern": "Decreases SP Consumption by (\\d+) with every upgrade above Level (\\d+)\\.",
+      "replacement": "Level \\2 uzerindeki her gelistirmede SP Tuketimini \\1 azaltir."
+    },
+    {
+      "id": "variable_cast_after_skill_delay",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time and After Skill Delay by (\\d+)%\\.",
+      "replacement": "Degisken Kullanma Suresini ve Beceri Sonrasi Gecikmeyi %\\1 azaltir."
+    },
+    {
+      "id": "variable_cast_duration_minutes",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time by (\\d+)% for (\\d+) minutes\\.",
+      "replacement": "Degisken Kullanma Suresini \\2 dakika boyunca %\\1 azaltir."
+    },
+    {
+      "id": "variable_cast_skill_percent_generic",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?:-type skills)?) by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 Degisken Kullanma Suresini %\\2 azaltir."
+    },
+    {
+      "id": "variable_cast_skill_seconds_generic",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by ([0-9.]+) second(?:s)?\\.",
+      "replacement": "\\1 Degisken Kullanma Suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "variable_cast_skill_additional_seconds",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by additional ([0-9.]+) seconds\\.",
+      "replacement": "\\1 Degisken Kullanma Suresini ek \\2 saniye azaltir."
+    },
+    {
+      "id": "skill_cooldown_additional_generic",
+      "type": "regex",
+      "pattern": "Decreases (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) skill cooldown by additional ([0-9.]+) second(?:s)?\\.",
+      "replacement": "\\1 becerisinin bekleme suresini ek \\2 saniye azaltir."
+    },
+    {
+      "id": "skill_cooldown_plain_generic",
+      "type": "regex",
+      "pattern": "Decreases (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000(?: and \\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)?) skill cooldown by ([0-9.]+) second(?:s)?\\.",
+      "replacement": "\\1 becerisinin bekleme suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "physical_magical_taken_three_races",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000), (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1, \\2 ve \\3 irkindan alinan Fiziksel ve Buyu Hasarini %\\4 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_two_sizes",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) size by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundan alinan Fiziksel ve Buyu Hasarini %\\3 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_players",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan Fiziksel ve Buyu Hasarini %\\2 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_all_race_except_players",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from all race by (\\d+)% \\(Except Players\\)\\.",
+      "replacement": "Players haric tum irklardan alinan Fiziksel ve Buyu Hasarini %\\1 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_all_sizes",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from all size enemies by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlardan alinan Fiziksel ve Buyu Hasarini %\\1 azaltir."
+    },
+    {
+      "id": "physical_magical_taken_two_classes",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage taken from monsters of (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) class enemies by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 sinifindaki canavarlardan alinan Fiziksel ve Buyu Hasarini %\\3 azaltir."
+    },
+    {
+      "id": "damage_turtle_island",
+      "type": "regex",
+      "pattern": "Decreases Damage from turtle monsters on Turtle Island by (\\d+)%\\.",
+      "replacement": "Turtle Island'daki turtle canavarlarindan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "hit_base_dex",
+      "type": "literal",
+      "source": "Decreases HIT by a value equal to 1/3 of the character's base DEX.",
+      "translation": "HIT degerini karakterin temel DEX degerinin 1/3'u kadar azaltir."
+    },
+    {
+      "id": "after_skill_delay_amount",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by (\\d+)\\.",
+      "replacement": "Beceri Sonrasi Gecikmeyi \\1 azaltir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
