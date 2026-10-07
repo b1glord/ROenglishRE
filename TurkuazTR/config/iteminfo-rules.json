@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.37.0",
-    "description": "Count=2 itemInfo kuyrugundaki experience, ATK, Critical ve Increases Damage varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.38.0",
+    "description": "Count=2 itemInfo kuyrugundaki Damage of, Damage taken, HP Recovery, Experience ve Item Drop varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5483,6 +5483,144 @@
       "type": "regex",
       "pattern": "Increases Damage against monsters of every size by (\\d+)%,",
       "replacement": "Tum boyutlardaki canavarlara verilen Hasari %\\1 artirir,"
+    },
+    {
+      "id": "damage_two_elements_two_races",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental, (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerine, \\3 ve \\4 irklarina verilen Hasari %\\5 artirir."
+    },
+    {
+      "id": "damage_monsters_two_element_targets",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental targets by an additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementindeki canavar hedeflerine verilen Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_skill_additional_article",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) by an additional (\\d+)%",
+      "replacement": "\\1 hasarini ek %\\2 artirir"
+    },
+    {
+      "id": "damage_skill_twice_refine",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) by additional % by twice the sum of refine level\\.",
+      "replacement": "\\1 hasarini toplam Gelistirme Seviyesinin iki kati kadar ek yuzde artirir."
+    },
+    {
+      "id": "damage_skill_sum_refine",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) by additional \\(the sum of refine level\\)%\\.",
+      "replacement": "\\1 hasarini toplam Gelistirme Seviyesi kadar ek yuzde artirir."
+    },
+    {
+      "id": "damage_skill_timed_plain",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) by (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "\\1 hasarini \\3 saniye boyunca %\\2 artirir."
+    },
+    {
+      "id": "damage_skill_timed_additional",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) by additional (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "\\1 hasarini \\3 saniye boyunca ek %\\2 artirir."
+    },
+    {
+      "id": "damage_skill_element_magic",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental magical damage by additional (\\d+)%\\.",
+      "replacement": "\\1 hasarini ve \\2 elementindeki Buyu Hasarini ek %\\3 artirir."
+    },
+    {
+      "id": "damage_two_skills_sum_refine",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^009900[^\\^\\r\\n]+?\\^000000) and (\\^009900[^\\^\\r\\n]+?\\^000000) by additional \\(the sum of refine level\\)%\\.",
+      "replacement": "\\1 ve \\2 hasarini toplam Gelistirme Seviyesi kadar ek yuzde artirir."
+    },
+    {
+      "id": "damage_on_element_plain",
+      "type": "regex",
+      "pattern": "Increases Damage on (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1 elementine verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_on_element_additional",
+      "type": "regex",
+      "pattern": "Increases Damage on (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 elementine verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_on_race_additional",
+      "type": "regex",
+      "pattern": "Increases Damage on (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by an additional (\\d+)%\\.",
+      "replacement": "\\1 irkina verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_taken_element_plain_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_taken_element_additional_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental attacks by additional (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_taken_two_elements_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 element saldirilarindan alinan hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_taken_class_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindan alinan hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_taken_melee_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from melee physical attacks by (\\d+)%\\.",
+      "replacement": "Yakin dovus fiziksel saldirilarindan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "experience_monsters_capital",
+      "type": "regex",
+      "pattern": "Increases Experience gained from defeating monsters by (\\d+)%\\.",
+      "replacement": "Canavarlari yenerek kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "hp_recovery_restorative_healing",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of Restorative items and Healing skills by (\\d+)%\\.",
+      "replacement": "Restorative esyalar ve Healing becerilerinin HP Yenileme Miktarini %\\1 artirir."
+    },
+    {
+      "id": "hp_recovery_two_items",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) by (\\d+)%",
+      "replacement": "\\1 ve \\2 HP Yenileme Miktarini %\\3 artirir"
+    },
+    {
+      "id": "hp_recovery_healing_items",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of (\\^009900Healing\\^000000) skills and items by (\\d+)%\\.",
+      "replacement": "\\1 becerileri ve esyalarinin HP Yenileme Miktarini %\\2 artirir."
+    },
+    {
+      "id": "healing_potion_recovery",
+      "type": "regex",
+      "pattern": "Increases Healing and Potion Recovery Rate by (\\d+)%\\.",
+      "replacement": "Healing ve Potion Yenilenme Oranini %\\1 artirir."
+    },
+    {
+      "id": "item_drop_defeating",
+      "type": "regex",
+      "pattern": "Increases Item Drop Rate from defeating monsters by (\\d+)%\\.",
+      "replacement": "Canavarlari yenerek elde edilen Esya Dusme Oranini %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
