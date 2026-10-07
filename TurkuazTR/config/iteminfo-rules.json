@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.49.1",
-    "description": "Count=2 itemInfo kuyrugundaki lowercase Boss fiziksel hasar ve status resistance varyantlarini kapatir",
+    "version": "1.50.0",
+    "description": "Count=2 itemInfo kuyrugunda karmasik magical-element, Character Select, refine, envelope ve sistem cumlesi varyantlarini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6317,6 +6317,108 @@
       "type": "regex",
       "pattern": "Increases physical damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
       "replacement": "\\1 sinifindaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "magic_prefixed_two_elements",
+      "type": "regex",
+      "pattern": "Increases ((?:\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000, )+)Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1\\2 ve \\3 elementleriyle Buyu Hasarini %\\4 artirir."
+    },
+    {
+      "id": "magic_prefixed_two_elements_timed",
+      "type": "regex",
+      "pattern": "Increases ((?:\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000, )+)Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element for (\\d+) seconds by (\\d+)%\\.",
+      "replacement": "\\1\\2 ve \\3 elementleriyle Buyu Hasarini \\4 saniye boyunca %\\5 artirir."
+    },
+    {
+      "id": "magic_prefixed_four_elements",
+      "type": "regex",
+      "pattern": "Increases (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000), Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1, \\2, \\3, \\4 ve \\5 elementleriyle Buyu Hasarini %\\6 artirir."
+    },
+    {
+      "id": "open_box_character",
+      "type": "regex",
+      "pattern": "Open the box with the character you want(?: it)? to use(?: it)? on\\.\\^000000",
+      "replacement": "Kutuyu, esyayi kullanmak istediginiz karakterle acin.^000000"
+    },
+    {
+      "id": "refine_level_armor_1_10",
+      "type": "regex",
+      "pattern": "Used for refining level (\\d+) armor from level 1 to level 10\\.",
+      "replacement": "Seviye \\1 zirhi 1. seviyeden 10. seviyeye gelistirmek icin kullanilir."
+    },
+    {
+      "id": "refine_level_weapon_1_10",
+      "type": "regex",
+      "pattern": "Used for refining level (\\d+) weapon from level 1 to level 10\\.",
+      "replacement": "Seviye \\1 silahi 1. seviyeden 10. seviyeye gelistirmek icin kullanilir."
+    },
+    {
+      "id": "refine_level_armor_11_15",
+      "type": "regex",
+      "pattern": "Used for refining level (\\d+) armor with a refine level of 10 or higher from level 11 to level 15\\.",
+      "replacement": "Gelistirme Seviyesi 10 veya uzeri olan Seviye \\1 zirhi 11'den 15'e gelistirmek icin kullanilir."
+    },
+    {
+      "id": "employment_certificate_envelope",
+      "type": "regex",
+      "pattern": "When you open the envelope, you will get Part-time Student (Buyer|Sales)\\((Expert|Normal|Novice)\\) Employment Certificate\\.",
+      "replacement": "Zarfi actiginizda Part-time Student \\1(\\2) Employment Certificate alirsiniz."
+    },
+    {
+      "id": "npc_storage_only_variants",
+      "type": "regex",
+      "pattern": "\\^FF0000Can only be sold to NPC'?s and moved (?:in|into|to) (?:your )?storage\\.\\^?000000",
+      "replacement": "^FF0000Yalnizca NPC'lere satilabilir ve depoya tasinabilir.^000000"
+    },
+    {
+      "id": "future_events_unavailable",
+      "type": "regex",
+      "pattern": "\\^FF0000This item will not be (?:available|used) (?:on|in) future events\\.\\^000000",
+      "replacement": "^FF0000Bu esya gelecekteki etkinliklerde kullanilamayacaktir.^000000"
+    },
+    {
+      "id": "reset_zenny_chance",
+      "type": "regex",
+      "pattern": "It can be reseted for ([0-9,]+) Zenny\\. Reset Chance: (\\d+)%\\.",
+      "replacement": "\\1 Zenny karsiliginda sifirlanabilir. Sifirlama Sansi: %\\2."
+    },
+    {
+      "id": "refine_chance_doubles",
+      "type": "regex",
+      "pattern": "The chance doubles if the Refining Level is over (\\d+)\\.",
+      "replacement": "Gelistirme Seviyesi \\1'in uzerindeyse sans iki katina cikar."
+    },
+    {
+      "id": "cooldown_reduction_not_activated",
+      "type": "regex",
+      "pattern": "The cooldown reduction effect for (\\^009900[^\\^\\r\\n]+?\\^000000) of (\\^990099[^\\^\\r\\n]+?\\^000000) will not be activated\\.",
+      "replacement": "\\2 tarafindan \\1 icin saglanan bekleme suresi azaltma etkisi etkinlesmez."
+    },
+    {
+      "id": "character_select_name",
+      "type": "literal",
+      "source": "Use this item to change your character's name on the Character Select menu.",
+      "translation": "Karakter Secim menusunde karakterinizin adini degistirmek icin bu esyayi kullanin."
+    },
+    {
+      "id": "character_select_slot",
+      "type": "literal",
+      "source": "Use this item to change your character's slot position on the Character Select menu.",
+      "translation": "Karakter Secim menusunde karakterinizin slot konumunu degistirmek icin bu esyayi kullanin."
+    },
+    {
+      "id": "without_refine_magical_option",
+      "type": "literal",
+      "source": "Without changing the Refine Level, one type of magical option is given.",
+      "translation": "Gelistirme Seviyesi degismeden bir tur buyusel option verilir."
+    },
+    {
+      "id": "without_refine_physical_option",
+      "type": "literal",
+      "source": "Without changing the Refine Level, one type of physical option is given.",
+      "translation": "Gelistirme Seviyesi degismeden bir tur fiziksel option verilir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
