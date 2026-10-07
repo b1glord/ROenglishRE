@@ -1,0 +1,13 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-exact-shards.json",
+    "purpose": "itemInfo exact ceviri shard dosyalarini build aracina kaydeder",
+    "module": "Config - JSON",
+    "version": "1.0.0",
+    "description": "Canonical exact dosyasina ek final ceviri shard yollarini merkezi config katmaninda listeler",
+    "dependency_layer": "Tool"
+  },
+  "paths": [
+    "TurkuazTR/config/iteminfo-exact-final.tr.json"
+  ]
+}
