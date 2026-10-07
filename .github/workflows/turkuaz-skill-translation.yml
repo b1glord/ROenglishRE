@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.3.1
+# VERSION: 2.3.2
 # DESCRIPTION: Pending raporlarini yeniler; skill, overlay, kitap, byte-safe itemInfo ve itemInfo lore pending ciktilarini ortak profillerde uretip bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
@@ -19,6 +19,7 @@ on:
       - "TurkuazTR/localization-profiles.json"
       - "TurkuazTR/config/iteminfo-rules.json"
       - "TurkuazTR/iteminfo-exact.tr.json"
+      - "TurkuazTR/iteminfo-lore.source-recovery.json"
       - "TurkuazTR/msgstringtable.tr.json"
       - "TurkuazTR/achievements.tr.json"
       - "TurkuazTR/line-overlays.json"
