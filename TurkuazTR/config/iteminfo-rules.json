@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.18.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda Grade, refine-heading, trait ve case-varyant hasar kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.19.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda refine, Base Level, SP recovery, periodic HP ve kaynak typo kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3551,6 +3551,72 @@
       "type": "regex",
       "pattern": "Grants FLEE \\+(\\d+), ASPD \\+(\\d+) and increases Movement Speed for (\\d+) minutes\\.",
       "replacement": "FLEE +\\1, ASPD +\\2 kazandirir ve Hareket Hizini \\3 dakika boyunca artirir."
+    },
+    {
+      "id": "shabby_nonfunctional_no_article",
+      "type": "regex",
+      "pattern": "([A-Z][A-Za-z -]+) that is shabby and nonfunctional\\.",
+      "replacement": "Yipranmis ve kullanilamaz durumda olan bir \\1."
+    },
+    {
+      "id": "refine_level_above_heading",
+      "type": "regex",
+      "pattern": "For each Refine Level above \\+(\\d+) or higher\\^000000:",
+      "replacement": "+\\1 uzerindeki her Gelistirme Seviyesi icin^000000:"
+    },
+    {
+      "id": "base_level_above_heading",
+      "type": "regex",
+      "pattern": "For each \\^0000FF(\\d+) \\^CC6600Base Level\\^000000 above (\\d+):",
+      "replacement": "\\^CC6600Base Level\\^000000 \\2 uzerindeyken her ^0000FF\\1 seviye icin:"
+    },
+    {
+      "id": "matk_refine_square_half",
+      "type": "literal",
+      "source": "Increases MATK by (Refinelv*Refinelv)/2.",
+      "translation": "MATK'yi (Refinelv*Refinelv)/2 kadar artirir."
+    },
+    {
+      "id": "restore_sp_each_attack",
+      "type": "regex",
+      "pattern": "Restores SP by (\\d+) on each attack\\.",
+      "replacement": "Her saldirida \\1 SP yeniler."
+    },
+    {
+      "id": "decrease_hp_periodic_cooldown",
+      "type": "regex",
+      "pattern": "Decreases (\\d+)HP per (\\d+) seconds\\. Cooldown for (\\d+) minutes\\.",
+      "replacement": "Her \\2 saniyede \\1 HP azaltir. Bekleme suresi \\3 dakikadir."
+    },
+    {
+      "id": "physical_damage_taken_race_typo",
+      "type": "regex",
+      "pattern": "Decreases physical damage taken form (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan fiziksel hasari %\\2 azaltir."
+    },
+    {
+      "id": "ignore_magical_defense_all_enemies_typo",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of all enemies by (\\d+)%\\.",
+      "replacement": "Tum dusmanlarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "refine_material_weapon_levels",
+      "type": "regex",
+      "pattern": "Used as a material to strengthen weapons currently from Refine Levels (\\d+) through (\\d+)\\.",
+      "replacement": "Gelistirme Seviyesi \\1 ile \\2 arasindaki silahlari guclendirmek icin malzeme olarak kullanilir."
+    },
+    {
+      "id": "refine_material_armor_levels",
+      "type": "regex",
+      "pattern": "Used as a material to strengthen armor currently from Refine Levels (\\d+) through (\\d+)\\.",
+      "replacement": "Gelistirme Seviyesi \\1 ile \\2 arasindaki zirhlari guclendirmek icin malzeme olarak kullanilir."
+    },
+    {
+      "id": "base_level_raise_use",
+      "type": "regex",
+      "pattern": "When used, it raises your Base Level by (\\d+)\\.",
+      "replacement": "Kullanildiginda Base Level'inizi \\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
