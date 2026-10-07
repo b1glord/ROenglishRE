@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.3.2
-# DESCRIPTION: Pending raporlarini yeniler; skill, overlay, kitap, byte-safe itemInfo ve itemInfo lore pending ciktilarini ortak profillerde uretip bot commit'i ile saklar.
+# VERSION: 2.4.0
+# DESCRIPTION: Pending raporlarini yeniler; ortak tr_metadata itemInfo cikisini tek build ile Hybrid/Full TR/Bilingual profillerine dagitir ve bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -146,10 +146,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for profile in hybrid full_tr bilingual; do
-            python TurkuazTR/tools/build-iteminfo-profile.py \
-              --profile "$profile" \
-              --output "TurkuazTR/generated/$profile/SystemEN/LuaFiles514/itemInfo.lua"
+          output="TurkuazTR/generated/full_tr/SystemEN/LuaFiles514/itemInfo.lua"
+          python TurkuazTR/tools/build-iteminfo-profile.py \
+            --profile full_tr \
+            --output "$output"
+
+          for profile in hybrid bilingual; do
+            target="TurkuazTR/generated/$profile/SystemEN/LuaFiles514/itemInfo.lua"
+            mkdir -p "$(dirname "$target")"
+            cp "$output" "$target"
+            cmp --silent "$output" "$target"
           done
 
       - name: Generate item info lore pending report
