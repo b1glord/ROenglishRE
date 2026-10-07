@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.13.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda hareket, skill hasari, boss, SP, EXP, recovery, all-size ve all-element kalip ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.14.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda reflection, skill enable, konum hasari, periyodik recovery ve random stat buff kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3131,6 +3131,96 @@
       "type": "regex",
       "pattern": "Increases Physical and Magical Damage against enemies of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
       "replacement": "\\1 haric tum irklardaki dusmanlara Fiziksel ve Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "reflect_magical_attack_chance",
+      "type": "regex",
+      "pattern": "Adds (\\d+)% chance of reflecting magical attack\\.",
+      "replacement": "Buyu saldirisini yansitmak icin %\\1 sans ekler."
+    },
+    {
+      "id": "damage_taken_two_locations",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) monsters by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 canavarlarindan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_reflected_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from reflected attacks by additional (\\d+)%\\.",
+      "replacement": "Yansitilan saldirilardan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "physical_damage_players_decrease",
+      "type": "regex",
+      "pattern": "Decreases Physical Damage against (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 hedeflerine verilen Fiziksel Hasari %\\2 azaltir."
+    },
+    {
+      "id": "enables_colored_skill",
+      "type": "regex",
+      "pattern": "Enables use of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\1 kullanilabilir hale gelir."
+    },
+    {
+      "id": "critical_ranged_physical",
+      "type": "regex",
+      "pattern": "Increases Critical by (\\d+) when dealing Ranged Physical Damage\\.",
+      "replacement": "Menzilli Fiziksel Hasar verirken Critical degerini \\1 artirir."
+    },
+    {
+      "id": "damage_monsters_every_size",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki canavarlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_monsters_every_element",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki canavarlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "random_int_matk_buff_magical",
+      "type": "regex",
+      "pattern": "Random chance to increase INT by (\\d+) and MATK by (\\d+)% for (\\d+) seconds when dealing magical damage\\.",
+      "replacement": "Buyu hasari verirken belirli bir sansla \\3 saniye boyunca INT +\\1 ve MATK +%\\2 kazanir."
+    },
+    {
+      "id": "random_str_atk_buff_physical",
+      "type": "regex",
+      "pattern": "Random chance to increase STR by (\\d+) and ATK by (\\d+)% for (\\d+) seconds when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken belirli bir sansla \\3 saniye boyunca STR +\\1 ve ATK +%\\2 kazanir."
+    },
+    {
+      "id": "recover_maxhp_interval",
+      "type": "regex",
+      "pattern": "Recovers (\\d+)% of MaxHP every (\\d+) seconds for (\\d+) minutes\\.",
+      "replacement": "\\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1 kadarini yeniler."
+    },
+    {
+      "id": "restore_maxhp_interval",
+      "type": "regex",
+      "pattern": "Restores an amount of HP equal of (\\d+)% of your MaxHP every (\\d+) seconds for a (\\d+) minute duration\\.",
+      "replacement": "\\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1 kadar HP yeniler."
+    },
+    {
+      "id": "physical_attack_chance_all_size_buff",
+      "type": "regex",
+      "pattern": "Physical attacks have a chance to increase physical damage against all size enemies by (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "Fiziksel saldirilar belirli bir sansla \\2 saniye boyunca tum boyutlardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_taken_ranged_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from ranged physical attacks by (\\d+)%\\.",
+      "replacement": "Menzilli fiziksel saldirilardan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "ignore_target_physical_defense",
+      "type": "regex",
+      "pattern": "Ignores physical defense of target by (\\d+)%\\.",
+      "replacement": "Hedefin fiziksel savunmasini %\\1 yok sayar."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
