@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/iteminfo-exact.tr.json",
     "purpose": "itemInfo.lua icindeki tekil ve serbest oyuncu-gorunur aciklamalari exact kaynak eslesmesiyle ASCII Turkceye cevirir",
     "module": "Translation Data - JSON",
-    "version": "2.27.0",
-    "description": "Tekrarlanan itemInfo lore kuyrugundaki saglam adaylari tamamlar; bozuk kaynaklar recovery icin ayrilir",
+    "version": "2.27.1",
+    "description": "Tekrarlanan itemInfo lore kuyrugunu tamamlar; bozuk kaynaklar source-recovery katmaninda tutulur",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -2906,6 +2906,7 @@
     "when attacked, has a low chance of auto-casting Lv 5 Hammer Fall.": "saldiri aldiginda dusuk bir sansla Lv 5 Hammer Fall otomatik kullanilir.",
     "when attacking, has a chance of auto-casting Lv 3 Mild Wind": "saldirirken belirli bir sansla Lv 3 Mild Wind otomatik kullanilir.",
     "when defeating monsters, has a low chance of dropping Buche De Noel or Candy Canes.": "canavarlari yenerken dusuk bir sansla Buche De Noel veya Candy Cane dusurur.",
-    "when melee-attacking, has a chance of auto-casting Lv 1 Mild Wind (Earth endow).": "yakin dovus saldirisi yaparken belirli bir sansla Lv 1 Mild Wind (Earth endow) otomatik kullanilir."
+    "when melee-attacking, has a chance of auto-casting Lv 1 Mild Wind (Earth endow).": "yakin dovus saldirisi yaparken belirli bir sansla Lv 1 Mild Wind (Earth endow) otomatik kullanilir.",
+    "Royal Bow-LT, Scarlet Dragon Leather Bow-LT": "Royal Bow-LT ve Scarlet Dragon Leather Bow-LT"
   }
 }
