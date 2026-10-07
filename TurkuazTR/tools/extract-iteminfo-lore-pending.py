@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-iteminfo-lore-pending.py
 # 📌 Amac: itemInfo Turkce profilinde degismeden kalan gercek lore/aciklama cumlelerini canonical teknik metinlerden ayirip pending raporu uretir
 # 📌 Tool - Python
-# Version: 1.2.1
-# Aciklama: Baseline itemInfo ile generated full_tr profilini karsilastirir; source-recovery metinlerini ayirir ve ASCII-safe final ceviri icin ilk 1000 guvenli adayi ayri batch raporuna yazar
+# Version: 1.2.2
+# Aciklama: Source-recovery eslesmesine ek olarak surrogate byte kalintilarini pending ve final batch disinda tutar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -48,7 +48,11 @@ def main() -> int:
     rows = [
         {"text": text, "count": count}
         for text, count in unchanged.items()
-        if audit.lore_candidate(text) and text not in recovery_texts
+        if (
+            audit.lore_candidate(text)
+            and text not in recovery_texts
+            and not any(0xD800 <= ord(char) <= 0xDFFF for char in text)
+        )
     ]
     rows.sort(key=lambda row: (-row["count"], row["text"]))
 
