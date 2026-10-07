@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.16.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda recovery, SP drain/gain, iki-irk savunmasi, scroll ve refine-hammer kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.17.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda job-only, iki-lokasyon, size, boss ve HP recovery kalip ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3377,6 +3377,96 @@
       "type": "regex",
       "pattern": "Has a chance of dropping '([^']+)' when defeating monsters\\.",
       "replacement": "Canavarlari yenerken belirli bir sansla '\\1' duser."
+    },
+    {
+      "id": "wear_job_only",
+      "type": "regex",
+      "pattern": "Can only be worn by ([^.]+)\\.",
+      "replacement": "Yalnizca \\1 tarafindan kullanilabilir."
+    },
+    {
+      "id": "movement_speed_also_minutes",
+      "type": "regex",
+      "pattern": "Also increases Movement Speed for (\\d+) minutes\\.",
+      "replacement": "Ayrica Hareket Hizini \\1 dakika boyunca artirir."
+    },
+    {
+      "id": "stone_increases_damage_type",
+      "type": "regex",
+      "pattern": "A stone that increases (Magical Damage|Melee Physical Damage)\\.",
+      "replacement": "\\1 artiran bir tas."
+    },
+    {
+      "id": "damage_taken_every_size",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_every_size_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from every size by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_every_class",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from enemies of every class by (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "magical_two_locations",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 ve \\2 icindeki canavarlara Buyu Hasarini %\\3 artirir."
+    },
+    {
+      "id": "physical_two_locations_additional",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 icindeki dusmanlara Fiziksel Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_two_sizes_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) size by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki dusmanlara verilen Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_taken_non_race",
+      "type": "regex",
+      "pattern": "Increases Damage taken from non-(\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 disindaki irklardan alinan hasari %\\2 artirir."
+    },
+    {
+      "id": "hp_recovery_colored_target",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 HP Yenileme Miktarini %\\2 artirir."
+    },
+    {
+      "id": "magical_every_race_except_players_no_comma",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every race, except (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki dusmanlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "magical_boss_class_damage_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^FF0000Boss\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Buyu Hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "damage_taken_boss_class_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Boss\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifindan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_race_enemy_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) race enemies by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki dusmanlardan alinan hasari ek %\\2 azaltir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
