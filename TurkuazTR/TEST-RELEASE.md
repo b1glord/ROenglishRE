@@ -2,8 +2,8 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.0.0
-Aciklama: 2026.10.07-test.1 paketinin repo, CI, roadmap ve oyun ici test gate'lerini tek yerde takip eder
+Version: 1.0.1
+Aciklama: 2026.10.07-test.1 paketinin canonical generated metriklerini, repo/CI gate'lerini ve oyun ici smoke-test planini takip eder
 Bagimli Oldugu Katman: View
 -->
 
@@ -34,7 +34,7 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 
 ## Bilinen test-surumu siniri
 
-`itemInfo.lua` serbest lore migration'i devam etmektedir. Guncel generated pending 21022 benzersiz / 21695 occurrence seviyesindedir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
+`itemInfo.lua` serbest lore migration'i devam etmektedir. Guncel generated pending 21020 benzersiz / 21698 occurrence seviyesindedir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
 
 ## Manuel client smoke test
 

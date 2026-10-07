@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.41.0
+Version: 2.41.1
 Aciklama: Upstream senkronu, Turkce calisma dali, test paketleme kati ve guncel itemInfo localization durumunu dokumante eder
 Bagimli Oldugu Katman: View
 -->
