@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.52.1
-# Aciklama: Upstream 2026, Turkce overlay, tamamlanan ceviri kapsami, source-gap ayrimi ve genisletilmis itemInfo metadata/system localization metriklerini sabitler
+# Version: 2.53.0
+# Aciklama: Upstream 2026, Turkce overlay, tamamlanan ceviri kapsami ve itemInfo rule/exact/pending/source-recovery katmanlarini sabitler
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -217,7 +217,7 @@ sync:
     translation_debt: 0
     recovery_policy: "bozuk_kesik_ve_mojibake_kaynak_dogru_kaynak_bulunmadan_cevrilmez"
   item_info:
-    status: metadata_translation_rules_active
+    status: metadata_and_lore_translation_active
     source: "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
     source_size_bytes: 22960500
     source_lines: 632165
@@ -244,15 +244,24 @@ sync:
     legacy_turkish_recovery_fields: 0
     builder: "TurkuazTR/tools/build-iteminfo-profile.py"
     rules: "TurkuazTR/config/iteminfo-rules.json"
-    rule_count: 176
-    validated_replacements_per_tr_profile: 151926
-    validated_applied_rule_count: 161
-    unchanged_natural_description_occurrences: 99472
-    unique_unchanged_natural_description_count: 51743
+    rule_count: 589
+    exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
+    exact_translation_entries: 473
+    lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
+    lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
+    lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
+    lore_source_recovery_candidates: 7
+    last_validated_replacements_per_tr_profile: 151926
+    last_validated_applied_rule_count: 161
+    last_validated_unchanged_natural_description_occurrences: 66947
+    last_validated_unique_unchanged_natural_description_count: 38551
+    last_validated_lore_candidate_occurrences: 31046
+    last_validated_unique_lore_candidate_count: 25428
+    last_validated_metrics_note: "Bu metrikler run 659 / b096cfb sonrasidir; sonraki rule/exact batchleri pending regeneration ile daha da azalir"
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
-    note: "resource names, technical fields, canonical stat/job/item/NAVI adlari korunur; dusuk frekansli serbest item aciklamalari migration backlog olarak devam eder"
+    note: "resource names, technical fields, canonical stat/job/item/NAVI adlari korunur; bozuk kaynak lore source-recovery icinde ayrilir; temiz pending sifira indirilene kadar migration devam eder"
 policy:
   - "Yeni upstream satirlari otomatik Turkcelestirilmez."
   - "Eslesen eski Ingilizce satirlar mevcut Turkce karsiliklariyla korunur."
