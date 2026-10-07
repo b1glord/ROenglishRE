@@ -1,0 +1,21 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/iteminfo-lore.source-recovery.json",
+    "purpose": "Anlami bozuk, kesik veya kaynak kalitesi yetersiz itemInfo lore metinlerini ceviri kuyrugundan ayirir",
+    "module": "Translation Recovery - JSON",
+    "version": "1.0.0",
+    "description": "Dogru upstream veya kaynak metin bulunmadan Turkcelestirilmeyecek itemInfo serbest aciklamalarini exact kaynak metniyle listeler",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "policy": "Bozuk, kesik veya anlami guvenilir bicimde belirlenemeyen kaynak metinler uydurma ceviriyle kapatilmaz.",
+  "candidates": [
+    "The flatter dream life, the legendary master of the three! What it says on the box.",
+    "A special energy was given to the circlet, which was",
+    "The coupon where the person who conveys the sorry be mind is coming to be put in full.",
+    "The adventurers who are brave the item which is provided from the hazard adventurer guild.",
+    "Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513Prontera Hall^000000,",
+    "wearing this armor that has been accumulated for a long time.",
+    "priests who worshiped agility in Odin's power."
+  ]
+}
