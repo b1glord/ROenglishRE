@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.55.0",
-    "description": "Final itemInfo kuyrugundaki blueprint, kitap, Moon Snack, batch kutusu ve skill kosulu ailelerini genellestirir",
+    "version": "1.55.1",
+    "description": "Final itemInfo lore ailelerinde Lua satiri icindeki string eslesmesini garanti eden regex siniri duzeltmesini uygular",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6873,145 +6873,145 @@
     {
       "id": "combination_scroll_craft",
       "type": "regex",
-      "pattern": "^A Combination Scroll that explains how to craft (.+)\\.$",
+      "pattern": "A Combination Scroll that explains how to craft (.+)\\.",
       "replacement": "\\1 uretmeyi aciklayan bir Combination Scroll."
     },
     {
       "id": "combination_scroll_summon",
       "type": "regex",
-      "pattern": "^A Combination Scroll that explains how to summon (.+)\\.$",
+      "pattern": "A Combination Scroll that explains how to summon (.+)\\.",
       "replacement": "\\1 cagirmayi aciklayan bir Combination Scroll."
     },
     {
       "id": "diva_labyrinth_mutation",
       "type": "regex",
-      "pattern": "^A Diva (.+) that has mutated under the influence of the power of the labyrinth\\.$",
+      "pattern": "A Diva (.+) that has mutated under the influence of the power of the labyrinth\\.",
       "replacement": "Labirentin gucunun etkisiyle mutasyona ugramis bir Diva \\1."
     },
     {
       "id": "mjolnir_energy_enhanced",
       "type": "regex",
-      "pattern": "^A (.+) enhanced with Mjolnir's energy\\.$",
+      "pattern": "A (.+) enhanced with Mjolnir's energy\\.",
       "replacement": "Mjolnir'in enerjisiyle guclendirilmis bir \\1."
     },
     {
       "id": "pct_autocast_melee_physical_lv",
       "type": "regex",
-      "pattern": "^(\\d+)% chance to auto-cast (.+) lv\\.(\\d+) when dealing Melee Physical Damage\\.?$",
+      "pattern": "(\\d+)% chance to auto-cast (.+) lv\\.(\\d+) when dealing Melee Physical Damage\\.?",
       "replacement": "Yakin dovus fiziksel hasari verirken %\\1 sansla \\2 Seviye \\3 otomatik kullanilir."
     },
     {
       "id": "pct_transform_physical_timed",
       "type": "regex",
-      "pattern": "^(\\d+)% chance to transform into (.+) when dealing physical damage for (\\d+) seconds\\.$",
+      "pattern": "(\\d+)% chance to transform into (.+) when dealing physical damage for (\\d+) seconds\\.",
       "replacement": "Fiziksel hasar verirken %\\1 sansla \\3 saniye boyunca \\2 donusumu gerceklesir."
     },
     {
       "id": "pct_transform_physical",
       "type": "regex",
-      "pattern": "^(\\d+)% chance to transform into (.+) when dealing physical damage\\.$",
+      "pattern": "(\\d+)% chance to transform into (.+) when dealing physical damage\\.",
       "replacement": "Fiziksel hasar verirken %\\1 sansla \\2 donusumu gerceklesir."
     },
     {
       "id": "pct_transform_magical_timed",
       "type": "regex",
-      "pattern": "^(\\d+)% chance to transform into (.+) when dealing magical damage for (\\d+) seconds\\.$",
+      "pattern": "(\\d+)% chance to transform into (.+) when dealing magical damage for (\\d+) seconds\\.",
       "replacement": "Buyulu hasar verirken %\\1 sansla \\3 saniye boyunca \\2 donusumu gerceklesir."
     },
     {
       "id": "pct_transform_magical",
       "type": "regex",
-      "pattern": "^(\\d+)% chance to transform into (.+) when dealing magical damage\\.$",
+      "pattern": "(\\d+)% chance to transform into (.+) when dealing magical damage\\.",
       "replacement": "Buyulu hasar verirken %\\1 sansla \\2 donusumu gerceklesir."
     },
     {
       "id": "lucky_balloon_overhead",
       "type": "regex",
-      "pattern": "^A (.+) balloon that floating over your head\\. Somehow you feel really lucky just by wearing this\\.$",
+      "pattern": "A (.+) balloon that floating over your head\\. Somehow you feel really lucky just by wearing this\\.",
       "replacement": "Basinizin uzerinde suzulen bir \\1 balonu. Bunu takmak bile kendinizi cok sansli hissettirir."
     },
     {
       "id": "weapon_from_brute",
       "type": "regex",
-      "pattern": "^A (.+) received from suspicious weapon dealer Brute\\.$",
+      "pattern": "A (.+) received from suspicious weapon dealer Brute\\.",
       "replacement": "Supheli silah saticisi Brute'dan alinmis bir \\1."
     },
     {
       "id": "battlefield_regret_forged",
       "type": "regex",
-      "pattern": "^A (.+) forged from the regrets of people whose died in battlefield\\.$",
+      "pattern": "A (.+) forged from the regrets of people whose died in battlefield\\.",
       "replacement": "Savas alaninda olenlerin pismanliklarindan dovulmus bir \\1."
     },
     {
       "id": "adulter_fides_blueprint",
       "type": "regex",
-      "pattern": "^A blueprint required to purify and reassemble the (Adulter Fides .+)\\.$",
+      "pattern": "A blueprint required to purify and reassemble the (Adulter Fides .+)\\.",
       "replacement": "\\1 esyasini aritip yeniden birlestirmek icin gereken bir blueprint."
     },
     {
       "id": "mjolnir_magic_blueprint",
       "type": "regex",
-      "pattern": "^A blueprint for enhancing the magical power of the (.+) found in (?:the )?Mjolnir(?:'s)? Underground Cave\\.$",
+      "pattern": "A blueprint for enhancing the magical power of the (.+) found in (?:the )?Mjolnir(?:'s)? Underground Cave\\.",
       "replacement": "Mjolnir Underground Cave'de bulunan \\1 esyasinin buyu gucunu artirmak icin bir blueprint."
     },
     {
       "id": "moon_snack_chinese_center",
       "type": "regex",
-      "pattern": "^A Moon Snack which has (.+) written in the center in Chinese\\.$",
+      "pattern": "A Moon Snack which has (.+) written in the center in Chinese\\.",
       "replacement": "Ortasinda Cince \\1 yazan bir Moon Snack."
     },
     {
       "id": "book_basics_for_living",
       "type": "regex",
-      "pattern": "^A book with the basics for living as (?:a|an) (.+)\\.$",
+      "pattern": "A book with the basics for living as (?:a|an) (.+)\\.",
       "replacement": "\\1 olarak yasamanin temellerini anlatan bir kitap."
     },
     {
       "id": "book_instructions_creating",
       "type": "regex",
-      "pattern": "^A book with instructions for creating (.+)\\.$",
+      "pattern": "A book with instructions for creating (.+)\\.",
       "replacement": "\\1 yapma talimatlarini iceren bir kitap."
     },
     {
       "id": "book_instructions_catching_bottle",
       "type": "regex",
-      "pattern": "^A book with instructions for catching (.+) and trapping them in bottles\\.$",
+      "pattern": "A book with instructions for catching (.+) and trapping them in bottles\\.",
       "replacement": "\\1 yakalayip siselere hapsetme talimatlarini iceren bir kitap."
     },
     {
       "id": "magical_ingredients_bottle",
       "type": "regex",
-      "pattern": "^A bottle containing magical ingredients extracted from (.+)\\.$",
+      "pattern": "A bottle containing magical ingredients extracted from (.+)\\.",
       "replacement": "\\1 kaynagindan cikarilan buyulu malzemeleri iceren bir sise."
     },
     {
       "id": "attendance_days_box_seal",
       "type": "regex",
-      "pattern": "^'(\\d+)Days attendance' are stamped on seal of this box\\.$",
+      "pattern": "'(\\d+)Days attendance' are stamped on seal of this box\\.",
       "replacement": "Bu kutunun muhrunde '\\1 gunluk katilim' damgasi vardir."
     },
     {
       "id": "activates_if_skill_level_learned",
       "type": "regex",
-      "pattern": "^\\(Activates if (.+) Level (\\d+) or higher is learned\\.\\)$",
+      "pattern": "\\(Activates if (.+) Level (\\d+) or higher is learned\\.\\)",
       "replacement": "(\\1 Seviye \\2 veya uzeri ogrenildiyse etkinlesir.)"
     },
     {
       "id": "must_learn_skill_for_autocast",
       "type": "regex",
-      "pattern": "^\\(Must have learned Level (\\d+) (.+) or higher for auto-casting\\.\\)$",
+      "pattern": "\\(Must have learned Level (\\d+) (.+) or higher for auto-casting\\.\\)",
       "replacement": "(Otomatik kullanim icin Seviye \\1 \\2 veya uzeri ogrenilmis olmalidir.)"
     },
     {
       "id": "user_must_learn_skill_for_autocast",
       "type": "regex",
-      "pattern": "^\\(The user must have learned (.+) at Level (\\d+) or higher for auto-casting\\)\\.$",
+      "pattern": "\\(The user must have learned (.+) at Level (\\d+) or higher for auto-casting\\)\\.",
       "replacement": "(Otomatik kullanim icin \\1 Seviye \\2 veya uzeri ogrenilmis olmalidir.)"
     },
     {
       "id": "skill_centered_on_caster",
       "type": "regex",
-      "pattern": "^\\((\\^[0-9A-Fa-f]{6}.+?\\^000000) is centered around the caster\\.\\)$",
+      "pattern": "\\((\\^[0-9A-Fa-f]{6}.+?\\^000000) is centered around the caster\\.\\)",
       "replacement": "(\\1 kullanan kisinin merkezinde uygulanir.)"
     }
   ],
