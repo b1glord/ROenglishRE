@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.1.2
-# Aciklama: Exact serbest aciklama overlay'i icin string matcher tanimini tamamlar; byte-safe sistem kurallariyla birlikte description alanlarinda uygular
+# Version: 1.1.3
+# Aciklama: Exact ve rule sonucunu tekrar eden description satirlari icin count-safe cache'ler; byte-safe cikti davranisini degistirmeden itemInfo build suresini dusurur
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -132,6 +132,27 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
     exact_translations = prepare_exact_translations(load_json(exact_path))
     rules = prepare_rules(config["rules"])
     counts: dict[str, int] = {}
+    translation_cache: dict[bytes, tuple[bytes, dict[str, int]]] = {}
+
+    def translate_line(line: bytes) -> bytes:
+        cached = translation_cache.get(line)
+        if cached is not None:
+            translated, deltas = cached
+            for key, value in deltas.items():
+                counts[key] = counts.get(key, 0) + value
+            return translated
+
+        local_counts: dict[str, int] = {}
+        translated = apply_exact_translations(
+            line,
+            exact_translations,
+            local_counts,
+        )
+        translated = apply_rules(translated, rules, local_counts)
+        translation_cache[line] = (translated, dict(local_counts))
+        for key, value in local_counts.items():
+            counts[key] = counts.get(key, 0) + value
+        return translated
 
     output: list[bytes] = []
     active_description = False
@@ -143,8 +164,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
             field, value = field_match.groups()
             active_description = field in target_fields
             if active_description:
-                line = apply_exact_translations(line, exact_translations, counts)
-                line = apply_rules(line, rules, counts)
+                line = translate_line(line)
                 brace_depth = value.count(b"{") - value.count(b"}")
                 if brace_depth <= 0:
                     active_description = False
@@ -155,8 +175,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
             continue
 
         if active_description:
-            line = apply_exact_translations(line, exact_translations, counts)
-            line = apply_rules(line, rules, counts)
+            line = translate_line(line)
             brace_depth += line.count(b"{") - line.count(b"}")
             if brace_depth <= 0:
                 active_description = False
@@ -174,6 +193,7 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         "rule_counts": dict(sorted((key, value) for key, value in counts.items() if key != "exact_translation")),
         "input_bytes": len(raw),
         "output_bytes": len(built),
+        "unique_translated_lines": len(translation_cache),
     }
     return built, summary
 
