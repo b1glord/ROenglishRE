@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.53.0",
-    "description": "Final Turkce surum icin random auto-cast, hedef, durum etkisi ve gecici artis cumle ailelerini genellestirir",
+    "version": "1.54.0",
+    "description": "Final itemInfo kuyrugundaki Combination Scroll, Diva, Mjolnir, donusum, auto-cast ve ortak esya lore ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6869,6 +6869,78 @@
       "type": "regex",
       "pattern": "^Random chance to increase (.+) for ([0-9]+) (?:seconds|sec) when receiving physical damage\\.*$",
       "replacement": "Fiziksel hasar alirken rastgele bir sansla \\2 saniye boyunca \\1 artirir."
+    },
+    {
+      "id": "combination_scroll_craft",
+      "type": "regex",
+      "pattern": "^A Combination Scroll that explains how to craft (.+)\\.$",
+      "replacement": "\\1 uretmeyi aciklayan bir Combination Scroll."
+    },
+    {
+      "id": "combination_scroll_summon",
+      "type": "regex",
+      "pattern": "^A Combination Scroll that explains how to summon (.+)\\.$",
+      "replacement": "\\1 cagirmayi aciklayan bir Combination Scroll."
+    },
+    {
+      "id": "diva_labyrinth_mutation",
+      "type": "regex",
+      "pattern": "^A Diva (.+) that has mutated under the influence of the power of the labyrinth\\.$",
+      "replacement": "Labirentin gucunun etkisiyle mutasyona ugramis bir Diva \\1."
+    },
+    {
+      "id": "mjolnir_energy_enhanced",
+      "type": "regex",
+      "pattern": "^A (.+) enhanced with Mjolnir's energy\\.$",
+      "replacement": "Mjolnir'in enerjisiyle guclendirilmis bir \\1."
+    },
+    {
+      "id": "pct_autocast_melee_physical_lv",
+      "type": "regex",
+      "pattern": "^(\\d+)% chance to auto-cast (.+) lv\\.(\\d+) when dealing Melee Physical Damage\\.?$",
+      "replacement": "Yakin dovus fiziksel hasari verirken %\\1 sansla \\2 Seviye \\3 otomatik kullanilir."
+    },
+    {
+      "id": "pct_transform_physical_timed",
+      "type": "regex",
+      "pattern": "^(\\d+)% chance to transform into (.+) when dealing physical damage for (\\d+) seconds\\.$",
+      "replacement": "Fiziksel hasar verirken %\\1 sansla \\3 saniye boyunca \\2 donusumu gerceklesir."
+    },
+    {
+      "id": "pct_transform_physical",
+      "type": "regex",
+      "pattern": "^(\\d+)% chance to transform into (.+) when dealing physical damage\\.$",
+      "replacement": "Fiziksel hasar verirken %\\1 sansla \\2 donusumu gerceklesir."
+    },
+    {
+      "id": "pct_transform_magical_timed",
+      "type": "regex",
+      "pattern": "^(\\d+)% chance to transform into (.+) when dealing magical damage for (\\d+) seconds\\.$",
+      "replacement": "Buyulu hasar verirken %\\1 sansla \\3 saniye boyunca \\2 donusumu gerceklesir."
+    },
+    {
+      "id": "pct_transform_magical",
+      "type": "regex",
+      "pattern": "^(\\d+)% chance to transform into (.+) when dealing magical damage\\.$",
+      "replacement": "Buyulu hasar verirken %\\1 sansla \\2 donusumu gerceklesir."
+    },
+    {
+      "id": "lucky_balloon_overhead",
+      "type": "regex",
+      "pattern": "^A (.+) balloon that floating over your head\\. Somehow you feel really lucky just by wearing this\\.$",
+      "replacement": "Basinizin uzerinde suzulen bir \\1 balonu. Bunu takmak bile kendinizi cok sansli hissettirir."
+    },
+    {
+      "id": "weapon_from_brute",
+      "type": "regex",
+      "pattern": "^A (.+) received from suspicious weapon dealer Brute\\.$",
+      "replacement": "Supheli silah saticisi Brute'dan alinmis bir \\1."
+    },
+    {
+      "id": "battlefield_regret_forged",
+      "type": "regex",
+      "pattern": "^A (.+) forged from the regrets of people whose died in battlefield\\.$",
+      "replacement": "Savas alaninda olenlerin pismanliklarindan dovulmus bir \\1."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
