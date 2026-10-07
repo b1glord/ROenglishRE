@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.39.0",
-    "description": "Count=2 itemInfo kuyrugundaki refine/EXP kosullari ve Magical Damage varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.40.0",
+    "description": "Count=2 itemInfo kuyrugundaki Magical Damage, MaxHP/MaxSP, Melee ve SP Recovery varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5735,6 +5735,120 @@
       "type": "regex",
       "pattern": "Increases Magical Damage against enemies of every size and every element by (\\d+)%\\.",
       "replacement": "Tum boyut ve elementlerdeki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_against_colored_elemental",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1 elementine Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "magical_monsters_element_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element(?:al)? by (\\d+)%\\.",
+      "replacement": "\\1 elementindeki canavarlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "magical_monsters_two_elements_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerindeki canavarlara Buyu Hasarini %\\3 artirir."
+    },
+    {
+      "id": "magical_monsters_four_elements",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1, \\2, \\3 ve \\4 elementlerindeki canavarlara Buyu Hasarini %\\5 artirir."
+    },
+    {
+      "id": "magical_monsters_two_sizes_no_word",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki canavarlara Buyu Hasarini %\\3 artirir."
+    },
+    {
+      "id": "magical_monsters_two_sizes_sized_enemies",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) sized enemies by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki dusmanlara Buyu Hasarini %\\3 artirir."
+    },
+    {
+      "id": "magical_monsters_every_element_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki canavarlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_monsters_every_element_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of every element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki canavarlara Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "magical_monsters_every_race_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki canavarlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_with_every_element_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with every [Ee]lement by (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_with_every_element_timed",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with every element by (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini \\2 saniye boyunca %\\1 artirir."
+    },
+    {
+      "id": "magical_lower_every_size",
+      "type": "regex",
+      "pattern": "Increases Magical damage against monsters of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki canavarlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "maxhp_base_level_mult",
+      "type": "regex",
+      "pattern": "Increases MaxHP by ([0-9.]+)\\*Base Level\\.",
+      "replacement": "MaxHP degerini Base Level * \\1 kadar artirir."
+    },
+    {
+      "id": "maxsp_base_level_mult",
+      "type": "regex",
+      "pattern": "Increases MaxSP by ([0-9.]+)\\*Base Level\\.",
+      "replacement": "MaxSP degerini Base Level * \\1 kadar artirir."
+    },
+    {
+      "id": "melee_every_size",
+      "type": "regex",
+      "pattern": "Increases Melee Physical Damage against enemies of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Yakin Dovus Fiziksel Hasarini %\\1 artirir."
+    },
+    {
+      "id": "melee_with_by_typo",
+      "type": "regex",
+      "pattern": "Increases Melee Physical Damage with by (\\d+)%\\.",
+      "replacement": "Yakin Dovus Fiziksel Hasarini %\\1 artirir."
+    },
+    {
+      "id": "natural_sp_recovery_plain",
+      "type": "regex",
+      "pattern": "Increases Natural SP Recovery Rate by (\\d+)%\\.",
+      "replacement": "Dogal SP Yenilenme Oranini %\\1 artirir."
+    },
+    {
+      "id": "natural_sp_recovery_additional",
+      "type": "regex",
+      "pattern": "Increases Natural SP Recovery Rate by additional (\\d+)%\\.",
+      "replacement": "Dogal SP Yenilenme Oranini ek %\\1 artirir."
+    },
+    {
+      "id": "normal_physical_additional_variant",
+      "type": "regex",
+      "pattern": "Increases Normal Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Normal Fiziksel Hasari ek %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
