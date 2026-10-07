@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.28.0",
-    "description": "Item adlarini canonical tutar; absorb, OS-device, hunting gear, blessed refine ore, juice, hard-defense ve Battle Manual kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.29.0",
+    "description": "Item adlarini canonical tutar; shabby esya, renkli ribbon, special package, Yggdrasil sap ve element spear ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4259,6 +4259,60 @@
       "type": "regex",
       "pattern": "Chance to drop increases by (\\d+)% For each Refine Level over (\\d+)\\.",
       "replacement": "Gelistirme Seviyesi \\2 uzerindeki her seviye icin dusme sansini %\\1 artirir."
+    },
+    {
+      "id": "shabby_nonfunctional_direct_item",
+      "type": "regex",
+      "pattern": "A shabby and nonfunctional ([A-Za-z -]+)\\.",
+      "replacement": "Yipranmis ve kullanilamaz durumda bir \\1."
+    },
+    {
+      "id": "small_blue_ribbon_cute",
+      "type": "literal",
+      "source": "A small Blue ribbon emphasizes one's cuteness while wearing this hairband.",
+      "translation": "Bu sac bandi takildiginda sevimliligi vurgulayan kucuk mavi bir kurdele."
+    },
+    {
+      "id": "small_green_ribbon_cute",
+      "type": "literal",
+      "source": "A small Green ribbon emphasizes one's cuteness while wearing this hairband.",
+      "translation": "Bu sac bandi takildiginda sevimliligi vurgulayan kucuk yesil bir kurdele."
+    },
+    {
+      "id": "small_red_ribbon_cute",
+      "type": "literal",
+      "source": "A small Red ribbon emphasizes one's cuteness while wearing this hairband.",
+      "translation": "Bu sac bandi takildiginda sevimliligi vurgulayan kucuk kirmizi bir kurdele."
+    },
+    {
+      "id": "small_white_ribbon_cute",
+      "type": "literal",
+      "source": "A small White ribbon emphasizes one's cuteness while wearing this hairband.",
+      "translation": "Bu sac bandi takildiginda sevimliligi vurgulayan kucuk beyaz bir kurdele."
+    },
+    {
+      "id": "special_package_containing_item",
+      "type": "regex",
+      "pattern": "A special package containing the (.+?)\\.",
+      "replacement": "\\1 iceren ozel bir paket."
+    },
+    {
+      "id": "special_package_featuring_item",
+      "type": "regex",
+      "pattern": "A special package featuring the (.+?)\\.",
+      "replacement": "\\1 iceren ozel bir paket."
+    },
+    {
+      "id": "sizeable_yggdrasil_sap_healing",
+      "type": "regex",
+      "pattern": "A sizeable bottle of Yggdrasil Tree Sap that is effective (?:in|on) healing wounds\\.",
+      "replacement": "Yaralari iyilestirmede etkili buyuk bir sise Yggdrasil Tree Sap."
+    },
+    {
+      "id": "spear_element_enchanted",
+      "type": "regex",
+      "pattern": "A special spear imbued with the (earth|fire|water|wind) element\\.",
+      "replacement": "\\1 elementiyle doldurulmus ozel bir mizrak."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
