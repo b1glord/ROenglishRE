@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.15.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda shabby/noble ekipman, lokasyon, iki-element, boss ve enchant kalip ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.16.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda recovery, SP drain/gain, iki-irk savunmasi, scroll ve refine-hammer kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3287,6 +3287,96 @@
       "type": "literal",
       "source": "Enriched Oridecon - Increases the probability of the refining weapon.",
       "translation": "Enriched Oridecon - Silah gelistirme basari olasiligini artirir."
+    },
+    {
+      "id": "healing_skills_restorative_items",
+      "type": "regex",
+      "pattern": "Increases HP Recovery Amount of (\\^009900Healing\\^000000) skills and (\\^0033CCRestorative items\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 becerileri ve \\2 icin HP Yenileme Miktarini %\\3 artirir."
+    },
+    {
+      "id": "ignore_animal_demon_defense",
+      "type": "regex",
+      "pattern": "Ignores (\\d+)% physical and magic defense of (\\^FF0000Animal\\^000000) and (\\^FF0000Demon\\^000000) race monsters\\.",
+      "replacement": "\\2 ve \\3 irkindaki canavarlarin fiziksel ve buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_animal_demon_defense_additional",
+      "type": "regex",
+      "pattern": "Ignores additional (\\d+)% physical and magic defense of (\\^FF0000Animal\\^000000) and (\\^FF0000Demon\\^000000) race monsters\\.",
+      "replacement": "\\2 ve \\3 irkindaki canavarlarin fiziksel ve buyusel savunmasini ek %\\1 yok sayar."
+    },
+    {
+      "id": "damage_taken_two_race_monsters",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) race (?:monsters|momnsters) by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki canavarlardan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_two_classes",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 sinifindaki canavarlardan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_single_location",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (?:Memorial Dungeon's )?(\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) monsters by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 canavarlarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "sp_periodic_decrease",
+      "type": "regex",
+      "pattern": "Decreases SP by (\\d+) every (\\d+) seconds\\.",
+      "replacement": "Her \\2 saniyede \\1 SP azaltir."
+    },
+    {
+      "id": "sp_drain_on_unequip",
+      "type": "regex",
+      "pattern": "Drains? (\\d+) SP as the weapon is unequipped\\.",
+      "replacement": "Silah cikarildiginda \\1 SP tuketir."
+    },
+    {
+      "id": "sp_gain_physical_attack",
+      "type": "regex",
+      "pattern": "Gains (\\d+) SP on each physical attack\\.",
+      "replacement": "Her fiziksel saldirida \\1 SP kazanir."
+    },
+    {
+      "id": "damage_taken_players_increase",
+      "type": "regex",
+      "pattern": "Increases Damage taken from (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan hasari %\\2 artirir."
+    },
+    {
+      "id": "all_elemental_magical_damage",
+      "type": "regex",
+      "pattern": "Increases all elemental magical damage by (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "recorded_skill_scroll",
+      "type": "regex",
+      "pattern": "A scroll in which a single use of Level (\\d+) ([^.]+) has been recorded\\.",
+      "replacement": "Seviye \\1 \\2 becerisinin tek kullanimlik kaydini iceren bir parsomendir."
+    },
+    {
+      "id": "specific_hero_weapon_refine_hammer",
+      "type": "regex",
+      "pattern": "A refine hammer that increases the refinement level of a specific (.+?) by \\+1\\.",
+      "replacement": "Belirli bir \\1'in Gelistirme Seviyesini +1 artiran bir gelistirme cekici."
+    },
+    {
+      "id": "magic_defense_normal_class_additional",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of (\\^FF0000Normal\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki dusmanlarin buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "drop_item_when_defeating",
+      "type": "regex",
+      "pattern": "Has a chance of dropping '([^']+)' when defeating monsters\\.",
+      "replacement": "Canavarlari yenerken belirli bir sansla '\\1' duser."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
