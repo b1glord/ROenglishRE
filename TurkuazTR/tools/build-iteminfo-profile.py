@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.2.0
-# Aciklama: Canonical exact dosyasina ek final shard dosyalarini cakisma kontrollu birlestirir; byte-safe satir cache ve regex optimizasyonlarini korur
+# Version: 1.2.1
+# Aciklama: Exact shard yollarini ayri config kaydindan okuyup canonical exact dosyasiyla cakisma kontrollu birlestirir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -16,6 +16,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PROFILE_PATH = REPO_ROOT / "TurkuazTR/localization-profiles.json"
 CONFIG_PATH = REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json"
+EXACT_SHARDS_PATH = REPO_ROOT / "TurkuazTR/config/iteminfo-exact-shards.json"
 
 FIELD_RE = re.compile(rb"^\s*([A-Za-z][A-Za-z0-9_]*)\s*=\s*(.*)$")
 STRING_RE = re.compile(rb'"((?:\\.|[^"\\])*)"')
@@ -160,9 +161,10 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         raise ValueError(f"Unsupported item_info mode: {mode}")
 
     target_fields = {field.encode("ascii") for field in config["target_fields"]}
+    exact_shards = load_json(EXACT_SHARDS_PATH)
     exact_paths = [
         config["exact_translation_path"],
-        *config.get("exact_translation_extra_paths", []),
+        *exact_shards.get("paths", []),
     ]
     exact_translations: dict[bytes, bytes] = {}
     for relative_path in exact_paths:
