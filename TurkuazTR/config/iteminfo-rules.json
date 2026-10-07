@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.26.0",
-    "description": "Item adlarini canonical tutar; shoes deneyim, poison-light, true-faith, random-card, tuning-scroll, element-book ve tekrar eden lore ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.26.1",
+    "description": "Dinamik Ingilizce token sizdiran itemInfo kurallarini kosula ozel byte-safe Turkce literal kurallarla degistirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3859,18 +3859,6 @@
       "replacement": "1 \\1 iceren bir kutu."
     },
     {
-      "id": "mysterious_color_box",
-      "type": "regex",
-      "pattern": "A box that glows with a mysterious, (green|red) color\\. If you open it, something good may be inside\\.",
-      "replacement": "Gizemli \\1 renkte parlayan bir kutu. Acildiginda icinden iyi bir sey cikabilir."
-    },
-    {
-      "id": "lucky_sweet_food",
-      "type": "regex",
-      "pattern": "A (candy cane|candy|cookie) which is rumored to bring luck to whomever eats it\\.",
-      "replacement": "Yiyen kisiye sans getirdigi soylenen bir \\1."
-    },
-    {
       "id": "absorb_physical_damage_resource",
       "type": "regex",
       "pattern": "(\\d+)% chance to absorb (\\d+)% physical damage into (HP|SP)\\.",
@@ -4027,24 +4015,6 @@
       "replacement": "Canavarlari buyulu saldirilarla yenerken \\1 HP ve \\2 SP yeniler."
     },
     {
-      "id": "upgrade_equipment_type",
-      "type": "regex",
-      "pattern": "Used to upgrade (weapon|armor|accessory) equipment\\.",
-      "replacement": "\\1 ekipmanini gelistirmek icin kullanilir."
-    },
-    {
-      "id": "illusion_fragment_stone",
-      "type": "regex",
-      "pattern": "One of the (fragments|stones) imbued with the (?:illusionary |)magic of (illusion|the frontier)\\.",
-      "replacement": "\\2 buyusuyle doldurulmus \\1 arasindan biridir."
-    },
-    {
-      "id": "shoes_accumulated_experience",
-      "type": "regex",
-      "pattern": "A pair of shoes worn by (.+?)\\. All years of experience were accumulated on these shoes\\.",
-      "replacement": "\\1 tarafindan giyilmis ayakkabilar. Yillarin deneyimi bu ayakkabilarda birikmistir."
-    },
-    {
       "id": "weapon_lost_light_poison_magic",
       "type": "regex",
       "pattern": "A ([A-Za-z -]+) that lost its light due to poisonous magic\\.",
@@ -4081,12 +4051,6 @@
       "replacement": "Zararli buyuyu uzaklastiran duzgun bir kurdele seklinde baglanmis uzun \\1 saten parcasi."
     },
     {
-      "id": "movement_speed_potion_direction",
-      "type": "regex",
-      "pattern": "A potion which (increases|decreases) the moving speed of a character for a set duration\\.",
-      "replacement": "Karakterin hareket hizini belirli bir sure \\1."
-    },
-    {
       "id": "relic_after_battle_region",
       "type": "regex",
       "pattern": "A relic discovered after battle in the (.+?) region\\.",
@@ -4097,6 +4061,84 @@
       "type": "regex",
       "pattern": "A (fighter|gunner|magic) helmet made with Thanos' weapon and set\\.",
       "replacement": "Thanos silahi ve setiyle yapilmis \\1 migferi."
+    },
+    {
+      "id": "movement_speed_potion_increase",
+      "type": "literal",
+      "source": "A potion which increases the moving speed of a character for a set duration.",
+      "translation": "Karakterin hareket hizini belirli bir sure artiran bir iksir."
+    },
+    {
+      "id": "movement_speed_potion_decrease",
+      "type": "literal",
+      "source": "A potion which decreases the moving speed of a character for a set duration.",
+      "translation": "Karakterin hareket hizini belirli bir sure azaltan bir iksir."
+    },
+    {
+      "id": "upgrade_weapon_equipment",
+      "type": "literal",
+      "source": "Used to upgrade weapon equipment.",
+      "translation": "Silah ekipmanini gelistirmek icin kullanilir."
+    },
+    {
+      "id": "upgrade_armor_equipment",
+      "type": "literal",
+      "source": "Used to upgrade armor equipment.",
+      "translation": "Zirh ekipmanini gelistirmek icin kullanilir."
+    },
+    {
+      "id": "upgrade_accessory_equipment",
+      "type": "literal",
+      "source": "Used to upgrade accessory equipment.",
+      "translation": "Aksesuar ekipmanini gelistirmek icin kullanilir."
+    },
+    {
+      "id": "illusion_magic_fragment",
+      "type": "literal",
+      "source": "One of the fragments imbued with the magic of illusion.",
+      "translation": "Illuzyon buyusuyle doldurulmus parcalardan biridir."
+    },
+    {
+      "id": "illusion_magic_stone",
+      "type": "literal",
+      "source": "One of the stones imbued with the magic of illusion.",
+      "translation": "Illuzyon buyusuyle doldurulmus taslardan biridir."
+    },
+    {
+      "id": "frontier_illusion_magic_stone",
+      "type": "literal",
+      "source": "One of the stones imbued with the illusionary magic of the frontier.",
+      "translation": "Sinir bolgesinin illuzyon buyusuyle doldurulmus taslardan biridir."
+    },
+    {
+      "id": "mysterious_green_box",
+      "type": "literal",
+      "source": "A box that glows with a mysterious, green color. If you open it, something good may be inside.",
+      "translation": "Gizemli yesil renkte parlayan bir kutu. Acildiginda icinden iyi bir sey cikabilir."
+    },
+    {
+      "id": "mysterious_red_box",
+      "type": "literal",
+      "source": "A box that glows with a mysterious, red color. If you open it, something good may be inside.",
+      "translation": "Gizemli kirmizi renkte parlayan bir kutu. Acildiginda icinden iyi bir sey cikabilir."
+    },
+    {
+      "id": "lucky_candy_cane",
+      "type": "literal",
+      "source": "A candy cane which is rumored to bring luck to whomever eats it.",
+      "translation": "Yiyen kisiye sans getirdigi soylenen bir seker kamisi."
+    },
+    {
+      "id": "lucky_candy",
+      "type": "literal",
+      "source": "A candy which is rumored to bring luck to whomever eats it.",
+      "translation": "Yiyen kisiye sans getirdigi soylenen bir seker."
+    },
+    {
+      "id": "lucky_cookie",
+      "type": "literal",
+      "source": "A cookie which is rumored to bring luck to whomever eats it.",
+      "translation": "Yiyen kisiye sans getirdigi soylenen bir kurabiye."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
