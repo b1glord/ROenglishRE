@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.55.1",
-    "description": "Final itemInfo lore ailelerinde Lua satiri icindeki string eslesmesini garanti eden regex siniri duzeltmesini uygular",
+    "version": "1.56.0",
+    "description": "Final itemInfo kuyrugundaki Eden, skill scroll, ninja boncuk, refine auto-cast ve etkinlik bileti ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7013,6 +7013,48 @@
       "type": "regex",
       "pattern": "\\((\\^[0-9A-Fa-f]{6}.+?\\^000000) is centered around the caster\\.\\)",
       "replacement": "(\\1 kullanan kisinin merkezinde uygulanir.)"
+    },
+    {
+      "id": "eden_group_boots_member",
+      "type": "regex",
+      "pattern": "A boots given to (.+) member of Eden Group\\. It's designed with reinforced durability for a long adventure\\.",
+      "replacement": "Eden Group'un \\1 uyesine verilen botlar. Uzun maceralar icin dayanikliligi guclendirilmistir."
+    },
+    {
+      "id": "level5_powerful_magic_scroll",
+      "type": "regex",
+      "pattern": "A Scroll that can be used to cast Level 5 (\\^[0-9A-Fa-f]{6}.+?\\^000000)\\. Mighty magic is felt on the scroll\\.",
+      "replacement": "Seviye 5 \\1 kullanmak icin kullanilabilen bir Scroll. Uzerinde guclu bir buyu hissedilir."
+    },
+    {
+      "id": "ninja_element_bead_catalyst",
+      "type": "regex",
+      "pattern": "A bead, imbued with the (Fire|Water|Wind) element, that is used as a catalyst by Ninjas when performing some of their skills\\.",
+      "replacement": "Ninjalarin bazi becerilerini kullanirken katalizor olarak kullandigi, \\1 elementiyle yuklenmis bir boncuk."
+    },
+    {
+      "id": "refine_level_half_bolt_autocast",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to auto-cast Level \\(Refine Level/2\\) (\\^[0-9A-Fa-f]{6}.+?\\^000000) when dealing melee physical attacks\\.",
+      "replacement": "Yakin dovus fiziksel saldirisi yaparken %\\1 sansla Gelistirme Seviyesi/2 seviyesinde \\2 otomatik kullanilir."
+    },
+    {
+      "id": "brazilian_cup_ticket",
+      "type": "regex",
+      "pattern": "1st Brazilian Cup Ticket\\. Location: Brazil Olympic Stadium\\. Date: (\\d+) June (\\d+) P\\.M\\.",
+      "replacement": "1. Brazilian Cup Bileti. Konum: Brazil Olympic Stadium. Tarih: \\1 Haziran, saat \\2."
+    },
+    {
+      "id": "eden_twohand_sword_beginner",
+      "type": "regex",
+      "pattern": "A Two-Handed Sword made by the Eden Group for a beginner (.+)\\.",
+      "replacement": "Eden Group tarafindan yeni baslayan \\1 icin yapilmis bir Two-Handed Sword."
+    },
+    {
+      "id": "badge_resembles_star",
+      "type": "regex",
+      "pattern": "A badge that resemble the star of (.+)\\.",
+      "replacement": "\\1 yildizina benzeyen bir rozet."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
