@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.12.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda refine, random proc, hasar, savunma, enchant ve SP kalip ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.13.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda hareket, skill hasari, boss, SP, EXP, recovery, all-size ve all-element kalip ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3041,6 +3041,96 @@
       "type": "literal",
       "source": "Contains one of the following:",
       "translation": "Asagidakilerden birini icerir:"
+    },
+    {
+      "id": "movement_speed_minutes",
+      "type": "regex",
+      "pattern": "Increases movement speed for (\\d+) minutes\\.",
+      "replacement": "Hareket hizini \\1 dakika boyunca artirir."
+    },
+    {
+      "id": "fixed_cast_up_to_refine",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by ([0-9.]+) second \\(up to \\+(\\d+)\\)\\.",
+      "replacement": "Sabit kullanma suresini +\\2'ye kadar \\1 saniye azaltir."
+    },
+    {
+      "id": "skill_damage_additional_colored",
+      "type": "regex",
+      "pattern": "Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "magical_boss_class_damage",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "physical_all_size_damage_alt",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of all size enemies by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_all_size_damage_typo",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of all size enemeies by (?:additional )?(\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_magical_every_element_additional",
+      "type": "regex",
+      "pattern": "Increases Physical Damage and Magical Damage with every element by additional (\\d+)%\\.",
+      "replacement": "Fiziksel Hasari ve tum elementlerle Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "physical_all_elements_typo",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of against enemies of all elements by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "sp_consumption_skill_increase_amount",
+      "type": "regex",
+      "pattern": "Increases SP Consumption of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)\\.",
+      "replacement": "\\1 SP Tuketimini \\2 artirir."
+    },
+    {
+      "id": "experience_gain_race_monsters",
+      "type": "regex",
+      "pattern": "Increases experience gained from defeating (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race monsters by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlari yenerek kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "hp_sp_recovery_rate",
+      "type": "regex",
+      "pattern": "Increases HP and SP Recovery Rate by (\\d+)%\\.",
+      "replacement": "HP ve SP Yenilenme Oranini %\\1 artirir."
+    },
+    {
+      "id": "base_weapon_atk_matk_percent",
+      "type": "regex",
+      "pattern": "Increases base weapon's ATK and MATK by (\\d+)%\\.",
+      "replacement": "Temel silahin ATK ve MATK degerini %\\1 artirir."
+    },
+    {
+      "id": "variable_cast_skills",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of skills by (\\d+)%\\.",
+      "replacement": "Becerilerin Degisken kullanma suresini %\\1 azaltir."
+    },
+    {
+      "id": "magical_all_size_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every size by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "physical_magical_all_races_except_players",
+      "type": "regex",
+      "pattern": "Increases Physical and Magical Damage against enemies of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki dusmanlara Fiziksel ve Buyu Hasarini %\\2 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
