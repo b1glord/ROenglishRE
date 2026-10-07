@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.41.0",
-    "description": "Count=2 itemInfo kuyrugundaki Physical Damage, class/race/element/size ve karma hasar varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.42.0",
+    "description": "Count=2 itemInfo kuyrugundaki SP tuketim/yenilenme, elemental magic, experience ve drop-rate varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5999,6 +5999,174 @@
       "type": "regex",
       "pattern": "Increases Ranged Physical Damage and Magical Damage with every element by (\\d+)%\\.",
       "replacement": "Menzilli Fiziksel Hasari ve tum elementlerle Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "recovery_skill_items",
+      "type": "regex",
+      "pattern": "Increases Recovery Rate of skill and items by (\\d+)%\\.",
+      "replacement": "Beceri ve esyalarin Yenilenme Oranini %\\1 artirir."
+    },
+    {
+      "id": "sp_consume_skill_pct",
+      "type": "regex",
+      "pattern": "Increases SP Consumption of (\\^009900[^\\^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 SP Tuketimini %\\2 artirir."
+    },
+    {
+      "id": "sp_consume_two_skills_add_amt",
+      "type": "regex",
+      "pattern": "Increases SP Consumption of (\\^009900[^\\^\\r\\n]+?\\^000000) and (\\^009900[^\\^\\r\\n]+?\\^000000) by additional (\\d+)\\.",
+      "replacement": "\\1 ve \\2 SP Tuketimini ek \\3 artirir."
+    },
+    {
+      "id": "sp_recovery_add_variant",
+      "type": "regex",
+      "pattern": "Increases SP Recovery Rate by additional (\\d+)%\\.",
+      "replacement": "SP Yenilenme Oranini ek %\\1 artirir."
+    },
+    {
+      "id": "sp_recovery_bonus",
+      "type": "regex",
+      "pattern": "Increases SP Recovery bonus by (\\d+)\\.",
+      "replacement": "SP Yenilenme bonusunu \\1 artirir."
+    },
+    {
+      "id": "str_bonus_base_level",
+      "type": "literal",
+      "source": "Increases STR bonus based on character's base Level",
+      "translation": "STR bonusunu karakterin temel Level degerine gore artirir"
+    },
+    {
+      "id": "three_bolts_add",
+      "type": "regex",
+      "pattern": "Increases (\\^009900Fire Bolt\\^000000), (\\^009900Cold Bolt\\^000000) and (\\^009900Lightning Bolt\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1, \\2 ve \\3 hasarini ek %\\4 artirir."
+    },
+    {
+      "id": "single_skill_add_variant",
+      "type": "regex",
+      "pattern": "Increases (\\^009900[^\\^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "element_magic_plain",
+      "type": "regex",
+      "pattern": "Increases (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental magical damage by (\\d+)%\\.",
+      "replacement": "\\1 element Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "element_magic_add",
+      "type": "regex",
+      "pattern": "Increases (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental magical damage by additional (\\d+)%\\.",
+      "replacement": "\\1 element Buyu Hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "two_element_magic_attacks",
+      "type": "regex",
+      "pattern": "Increases (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental magic attacks by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 element Buyu Saldirilarini %\\3 artirir."
+    },
+    {
+      "id": "natural_hp_colored",
+      "type": "regex",
+      "pattern": "Increases (\\^CC6600Natural HP Recovery\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 degerini %\\2 artirir."
+    },
+    {
+      "id": "after_cast_delay",
+      "type": "regex",
+      "pattern": "Increases after cast delay by (\\d+)%\\.",
+      "replacement": "Kullanim Sonrasi Gecikmeyi %\\1 artirir."
+    },
+    {
+      "id": "all_elemental_magic_add",
+      "type": "regex",
+      "pattern": "Increases all elemental magical damage by additional (\\d+)%\\.",
+      "replacement": "Tum element Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "bow_attack",
+      "type": "regex",
+      "pattern": "Increases attack (\\d+)% by using bow\\.",
+      "replacement": "Bow kullanirken saldiri gucunu %\\1 artirir."
+    },
+    {
+      "id": "continuous_magic",
+      "type": "regex",
+      "pattern": "Increases continuous Magical Damage by (\\d+)%\\.",
+      "replacement": "Surekli Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "damage_lower_element",
+      "type": "regex",
+      "pattern": "Increases damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1 elementine verilen hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_lower_two_elements_add",
+      "type": "regex",
+      "pattern": "Increases damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerine verilen hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_from_every_size_typo",
+      "type": "regex",
+      "pattern": "Increases damage against from every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlara verilen hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_to_all_monsters",
+      "type": "regex",
+      "pattern": "Increases damage to all monsters by (\\d+)%\\.",
+      "replacement": "Tum canavarlara verilen hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_turtle",
+      "type": "regex",
+      "pattern": "Increases damage to turtle monsters on Turtle Island by (\\d+)%\\.",
+      "replacement": "Turtle Island'daki turtle canavarlarina verilen hasari %\\1 artirir."
+    },
+    {
+      "id": "exp_typo_race",
+      "type": "regex",
+      "pattern": "Increases exeperience gained from defeating (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki dusmanlari yenerek kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "exp_timed",
+      "type": "regex",
+      "pattern": "Increases experience gained by (\\d+)% for (\\d+) minutes\\.",
+      "replacement": "Kazanilan deneyimi \\2 dakika boyunca %\\1 artirir."
+    },
+    {
+      "id": "exp_race_add",
+      "type": "regex",
+      "pattern": "Increases experience gained from defeating (\\^FF0000[^\\^\\r\\n]+?\\^000000) race monsters by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlari yenerek kazanilan deneyimi ek %\\2 artirir."
+    },
+    {
+      "id": "exp_monsters_plain",
+      "type": "regex",
+      "pattern": "Increases experience gained from monsters by (\\d+)%\\.",
+      "replacement": "Canavarlardan kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "exp_item_set",
+      "type": "regex",
+      "pattern": "Increases experience gained of item set by (\\d+)%\\.",
+      "replacement": "Item set ile kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "incoming_healing",
+      "type": "regex",
+      "pattern": "Increases incoming (\\^009900Healing\\^000000) effectiveness by (\\d+)%\\.",
+      "replacement": "Alinan \\1 etkisini %\\2 artirir."
+    },
+    {
+      "id": "items_drop_lower",
+      "type": "regex",
+      "pattern": "Increases items drop rate by (\\d+)%\\.",
+      "replacement": "Esya Dusme Oranini %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
