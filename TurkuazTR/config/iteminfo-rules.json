@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.36.1",
-    "description": "Defense-ignore additional varyantinda Turkce ek ifadesini duzeltir ve upgrade sansi kurallarinda Ingilizce grup sizintisini kaldirir",
+    "version": "1.37.0",
+    "description": "Count=2 itemInfo kuyrugundaki experience, ATK, Critical ve Increases Damage varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5285,6 +5285,204 @@
       "type": "regex",
       "pattern": "Ignores magic defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by additional (\\d+)%\\.",
       "replacement": "\\1 sinifinin buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "increase_physical_every_element_typo",
+      "type": "regex",
+      "pattern": "Increase Physical Damage against enemies of every element by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "increase_ranged_additional_typo",
+      "type": "regex",
+      "pattern": "Increase Ranged Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "experience_from_colored_target",
+      "type": "regex",
+      "pattern": "Increases (\\d+)% experience from ([^\\r\\n]+?)\\.",
+      "replacement": "\\2 yenerek kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "aspd_move_speed_timed",
+      "type": "regex",
+      "pattern": "Increases ASPD and Movement Speed drastically for (\\d+) seconds\\.",
+      "replacement": "ASPD ve Hareket Hizini \\1 saniye boyunca buyuk olcude artirir."
+    },
+    {
+      "id": "atk_based_skill",
+      "type": "regex",
+      "pattern": "Increases ATK based on (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) skill [Ll]evel\\.",
+      "replacement": "ATK degerini \\1 beceri seviyesine gore artirir."
+    },
+    {
+      "id": "atk_based_job_level",
+      "type": "literal",
+      "source": "Increases ATK based on the wearer's Job Level.",
+      "translation": "ATK degerini kullananin Job Level degerine gore artirir."
+    },
+    {
+      "id": "atk_ranged_timed",
+      "type": "regex",
+      "pattern": "Increases ATK by (\\d+) and Ranged Physical Damage by (\\d+)% for (\\d+) seconds\\.",
+      "replacement": "\\3 saniye boyunca ATK +\\1 ve Menzilli Fiziksel Hasar +%\\2 verir."
+    },
+    {
+      "id": "after_attack_delay_increase_alt",
+      "type": "regex",
+      "pattern": "Increases After Attack Delay by (\\d+)%\\.",
+      "replacement": "Saldiri Sonrasi Gecikmeyi %\\1 artirir."
+    },
+    {
+      "id": "bolt_magic_additional",
+      "type": "regex",
+      "pattern": "Increases Bolt magic damage by additional (\\d+)%\\.",
+      "replacement": "Bolt buyu hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "critical_physical_damage_combined",
+      "type": "regex",
+      "pattern": "Increases Critical Damage and (Melee|Ranged) Physical Damage by (\\d+)%\\.",
+      "replacement": "Critical Hasari ve \\1 Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "critical_rate_timed",
+      "type": "regex",
+      "pattern": "Increases Critical Rate by (\\d+) for (\\d+) minutes\\.",
+      "replacement": "Critical Rate degerini \\2 dakika boyunca \\1 artirir."
+    },
+    {
+      "id": "damage_colored_element_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 elementine verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_colored_monsters_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) monsters by additional (\\d+)%\\.",
+      "replacement": "\\1 canavarlarina verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_colored_size_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) size by (\\d+)%\\.",
+      "replacement": "\\1 boyutundaki dusmanlara verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_two_elements_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerine verilen Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_two_elements_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerine verilen Hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_enemies_every_size_alt_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_enemies_every_size_alt_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies every size by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara verilen Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "damage_enemies_two_races_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki dusmanlara verilen Hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_enemies_two_sizes_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) size by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki dusmanlara verilen Hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_enemies_every_class_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every class by (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_enemies_every_size_timed",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every size by (\\d+)% for (\\d+) minutes\\.",
+      "replacement": "Tum boyutlardaki dusmanlara verilen Hasari \\2 dakika boyunca %\\1 artirir."
+    },
+    {
+      "id": "damage_enemies_every_size_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of every size by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara verilen Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "damage_monsters_boss_class",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_monsters_two_race_targets",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race targets by an additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki hedeflere verilen Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_monsters_single_target",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 canavarlara verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_monsters_element_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 elementindeki canavarlara verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_monsters_race_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlara verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "damage_monsters_two_races_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki canavarlara verilen Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "damage_monsters_two_sizes",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) size by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki canavarlara verilen Hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_monsters_every_element_size",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of every element and size by (\\d+)%\\.",
+      "replacement": "Tum element ve boyutlardaki canavarlara verilen Hasari %\\1 artirir."
+    },
+    {
+      "id": "damage_monsters_every_race_except_players_plain",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki canavarlara verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "damage_monsters_every_size_comma",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters of every size by (\\d+)%,",
+      "replacement": "Tum boyutlardaki canavarlara verilen Hasari %\\1 artirir,"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
