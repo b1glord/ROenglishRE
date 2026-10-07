@@ -1,0 +1,79 @@
+# 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-test-release.yml
+# 📌 Amac: Generated localization profillerini smoke-test kontrollu indirilebilir test paketlerine donusturur
+# 📌 Tool - YAML
+# Version: 1.0.0
+# Aciklama: Generated profil degisikliklerinde ve manuel calistirmada ZIP, SHA-256 ve paket raporu artifactleri uretir
+# Bagimli Oldugu Katman: Tool
+
+name: Turkuaz Translation Test Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Test paket surumu"
+        required: false
+        default: "2026.10.07-test.1"
+  push:
+    branches:
+      - "translation/tr"
+    paths:
+      - "TurkuazTR/generated/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: turkuaz-test-package-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        profile:
+          - english
+          - hybrid
+          - full_tr
+          - bilingual
+
+    steps:
+      - name: Checkout translation branch
+        uses: actions/checkout@v4
+
+      - name: Resolve test version
+        id: version
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ inputs.version }}"
+          if [ -z "$VERSION" ]; then
+            VERSION="2026.10.07-test.1"
+          fi
+          echo "value=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Validate package tool syntax
+        run: python3 -m py_compile TurkuazTR/tools/build-test-package.py
+
+      - name: Build and smoke-test package
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/build-test-package.py \
+            --profile "${{ matrix.profile }}" \
+            --version "${{ steps.version.outputs.value }}" \
+            --commit "${{ github.sha }}" \
+            --output-dir dist
+
+      - name: Upload test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TurkuazTR-${{ matrix.profile }}-${{ steps.version.outputs.value }}
+          path: |
+            dist/TurkuazTR-${{ matrix.profile }}-${{ steps.version.outputs.value }}.zip
+            dist/TurkuazTR-${{ matrix.profile }}-${{ steps.version.outputs.value }}.sha256
+            dist/TurkuazTR-${{ matrix.profile }}-${{ steps.version.outputs.value }}.json
+          if-no-files-found: error
+          retention-days: 14

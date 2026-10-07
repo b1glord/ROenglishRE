@@ -2,8 +2,8 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/README.md
 📌 Amac: ROenglishRE Turkce ceviri ve client entegrasyon modelini dokumante eder
 📌 Docs - Markdown
-Version: 2.40.0
-Aciklama: Upstream senkronu, Turkce calisma dali, tamamlanan UI/state icon kapsami ve itemInfo metadata/system localization fazini dokumante eder
+Version: 2.41.0
+Aciklama: Upstream senkronu, Turkce calisma dali, test paketleme kati ve guncel itemInfo localization durumunu dokumante eder
 Bagimli Oldugu Katman: View
 -->
 
@@ -178,3 +178,14 @@ Item audit sonucu: 26793 item kaydi icinde 53556 gorunen ad stringi ve 314544 go
 - Yuksek frekansli remainder listesinin ust siralari artik agirlikla `MATK`, `ASPD`, `MDEF`, `MaxHP/MaxSP`, canonical job/item adlari ve NAVI hedeflerinden olusur; bunlar bilincli olarak zorla cevrilmez.
 - Dusuk frekansli serbest item aciklamalari halen buyuk migration backlog'udur; item localization tamamlaniyor olarak degil, guvenli metadata/system fazi genisletilmis olarak takip edilir.
 - Item builder regex/literal kurallarini build basinda bir kez hazirlar; validation ise ayni `full_tr` itemInfo build'ini remainder auditinde tekrar kullanir.
+
+
+## Test surumu paketleme
+
+Test surumu gate ve manuel kontrol listesi `TurkuazTR/TEST-RELEASE.md` dosyasinda tutulur.
+
+- Paketleme araci: `TurkuazTR/tools/build-test-package.py`
+- CI workflow: `.github/workflows/turkuaz-test-release.yml`
+- Generated profil degisikligi sonrasi English, Hybrid, Full TR ve Bilingual icin ayri ZIP artifact uretilir.
+- Her ZIP zorunlu client dosyalari icin smoke-test edilir; SHA-256 ve JSON build raporu ile birlikte yayinlanir.
+- Final release ile test release ayridir. ItemInfo serbest lore backlog'u sifirlanmadan final localization tamamlandi sayilmaz.
