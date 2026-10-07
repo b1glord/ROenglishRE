@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.19.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda refine, Base Level, SP recovery, periodic HP ve kaynak typo kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.20.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda iki-lokasyon, class-weapon compound ve fixed-cast kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3617,6 +3617,42 @@
       "type": "regex",
       "pattern": "When used, it raises your Base Level by (\\d+)\\.",
       "replacement": "Kullanildiginda Base Level'inizi \\1 artirir."
+    },
+    {
+      "id": "physical_two_locations_plain",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 icindeki dusmanlara Fiziksel Hasari %\\3 artirir."
+    },
+    {
+      "id": "compounded_class_weapon_condition",
+      "type": "regex",
+      "pattern": "When compounded on (.+?) class weapon:",
+      "replacement": "\\1 sinifi silaha takildiginda:"
+    },
+    {
+      "id": "entire_set_each_refine_heading",
+      "type": "literal",
+      "source": "^0000FFFor each Refine Levels^000000 of ^0000FFentire set^000000:",
+      "translation": "^0000FFTum setin her Gelistirme Seviyesi^000000 icin:"
+    },
+    {
+      "id": "damage_taken_reflected_plain",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from reflected damage by (\\d+)%\\.",
+      "replacement": "Yansitilan hasardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "fixed_cast_skill_percent",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 Sabit kullanma suresini %\\2 azaltir."
+    },
+    {
+      "id": "fixed_cast_skills_seconds",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time of skills by ([0-9.]+) seconds\\.",
+      "replacement": "Becerilerin Sabit kullanma suresini \\1 saniye azaltir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
