@@ -77,6 +77,13 @@ def lore_candidate(value: str) -> bool:
     if LOOT_RATE_RE.fullmatch(clean):
         return False
     if (
+        CANONICAL_TITLE_RE.fullmatch(clean)
+        or PAREN_CANONICAL_LIST_RE.fullmatch(clean)
+        or JOB_LIST_RE.fullmatch(clean)
+        or (clean.endswith(" Equipment") and "," in clean and len(clean.split(",")) >= 6)
+    ):
+        return False
+    if (
         STAT_ONLY_RE.fullmatch(clean)
         or GRADE_STAT_RE.fullmatch(clean)
         or grade_stat_only(clean)
