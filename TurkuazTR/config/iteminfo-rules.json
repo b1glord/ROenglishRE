@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.22.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda proc, recovery, enchant, iki-skill ve typo hasar kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.23.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda Elunium-gold, Monster Scroll, herb potion, Pet Egg, kutu ve proc kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3821,6 +3821,84 @@
       "type": "regex",
       "pattern": "Recover (\\d+)% of MaxHP every (\\d+) seconds for (\\d+) minutes\\.",
       "replacement": "\\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1 kadarini yeniler."
+    },
+    {
+      "id": "elunium_gold_molded_equipment",
+      "type": "regex",
+      "pattern": "A (Boots|Buckler|Clip|Greave|Guard|Shield) molded out of Elunium and pure gold mixture\\.",
+      "replacement": "Elunium ve saf altin karisimindan kalipla yapilmis bir \\1."
+    },
+    {
+      "id": "elunium_gold_made_equipment",
+      "type": "regex",
+      "pattern": "A (Formal Suit|Mail|Saint Robe|Thief Clothes|Coat|coat) made of mixed elunium and gold\\.",
+      "replacement": "Elunium ve altin karisimindan yapilmis bir \\1."
+    },
+    {
+      "id": "monster_force_scroll",
+      "type": "regex",
+      "pattern": "A Scroll that imbued with great force of Monster ([^.]+)\\.",
+      "replacement": "Monster \\1'in buyuk gucuyle doldurulmus bir Scroll."
+    },
+    {
+      "id": "ground_herb_potion",
+      "type": "regex",
+      "pattern": "A bottle of potion made from ground ([A-Za-z ]+ Herbs)\\.",
+      "replacement": "Ogutulmus \\1 kullanilarak yapilmis bir iksir sisesi."
+    },
+    {
+      "id": "pet_egg_scroll_color",
+      "type": "regex",
+      "pattern": "A (red color|black color|golden color|cat eye like|Colorful) Pet Egg Scroll which is said to have chances to give a Super Pet Egg\\.",
+      "replacement": "Super Pet Egg verme sansi oldugu soylenen \\1 Pet Egg Scroll."
+    },
+    {
+      "id": "box_contains_single_item",
+      "type": "regex",
+      "pattern": "A [Bb]ox (?:that )?contains 1 ([^.]+)\\.?",
+      "replacement": "1 \\1 iceren bir kutu."
+    },
+    {
+      "id": "mysterious_color_box",
+      "type": "regex",
+      "pattern": "A box that glows with a mysterious, (green|red) color\\. If you open it, something good may be inside\\.",
+      "replacement": "Gizemli \\1 renkte parlayan bir kutu. Acildiginda icinden iyi bir sey cikabilir."
+    },
+    {
+      "id": "lucky_sweet_food",
+      "type": "regex",
+      "pattern": "A (candy cane|candy|cookie) which is rumored to bring luck to whomever eats it\\.",
+      "replacement": "Yiyen kisiye sans getirdigi soylenen bir \\1."
+    },
+    {
+      "id": "absorb_physical_damage_resource",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to absorb (\\d+)% physical damage into (HP|SP)\\.",
+      "replacement": "Fiziksel hasarin %\\2 kadarini \\3 olarak emmek icin %\\1 sans verir."
+    },
+    {
+      "id": "reflect_magical_attacks_chance",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to reflect magical attacks\\.",
+      "replacement": "Buyulu saldirilari yansitmak icin %\\1 sans verir."
+    },
+    {
+      "id": "physical_inflict_status_chance",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to inflict (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) status on the target when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken hedefe \\2 durumu uygulamak icin %\\1 sans verir."
+    },
+    {
+      "id": "bargain_catalog_box",
+      "type": "regex",
+      "pattern": "A box with (\\d+) Bargain Hunter's Catalogs\\.",
+      "replacement": "\\1 adet Bargain Hunter's Catalog iceren bir kutu."
+    },
+    {
+      "id": "condensed_potion_weight",
+      "type": "regex",
+      "pattern": "A condensed (Red|yellow|white) potion that weighs significantly less\\.",
+      "replacement": "Agirligi belirgin sekilde azaltirilmis yogunlastirilmis \\1 Potion."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
