@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-test-package.py
 # 📌 Amac: Generated localization profilini client klasorune acilabilir test ZIP paketine donusturur ve checksum/rapor uretir
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: English, Hybrid, Full TR ve Bilingual generated profillerini smoke-test kontrollu test paketleri olarak paketler
+# Version: 1.0.1
+# Aciklama: English profilinde canonical upstream itemInfo fallback'i kullanir; tum profilleri smoke-test kontrollu test paketleri olarak paketler
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -16,6 +16,9 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 GENERATED_ROOT = REPO_ROOT / "TurkuazTR/generated"
+ENGLISH_ITEMINFO_SOURCE = (
+    REPO_ROOT / "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
+)
 SUPPORTED_PROFILES = ("english", "hybrid", "full_tr", "bilingual")
 REQUIRED_FILES = (
     "SystemEN/LuaFiles514/itemInfo.lua",
@@ -52,15 +55,32 @@ def collect_payload_files(profile_root: Path) -> list[tuple[Path, str]]:
         if path.is_file():
             files.append((path, file_name))
 
+    item_info_target = "SystemEN/LuaFiles514/itemInfo.lua"
+    if (
+        profile_root.name == "english"
+        and not (profile_root / item_info_target).is_file()
+    ):
+        if not ENGLISH_ITEMINFO_SOURCE.is_file():
+            raise FileNotFoundError(
+                f"Missing canonical English itemInfo: {ENGLISH_ITEMINFO_SOURCE}"
+            )
+        files.append((ENGLISH_ITEMINFO_SOURCE, item_info_target))
+
     return files
 
 
 def validate_required_files(profile_root: Path) -> None:
-    missing = [
-        relative
-        for relative in REQUIRED_FILES
-        if not (profile_root / relative).is_file()
-    ]
+    missing: list[str] = []
+    for relative in REQUIRED_FILES:
+        if (profile_root / relative).is_file():
+            continue
+        if (
+            profile_root.name == "english"
+            and relative == "SystemEN/LuaFiles514/itemInfo.lua"
+            and ENGLISH_ITEMINFO_SOURCE.is_file()
+        ):
+            continue
+        missing.append(relative)
     if missing:
         raise FileNotFoundError(
             "Missing required generated files: " + ", ".join(missing)
