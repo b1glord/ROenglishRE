@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.1.3
-# Aciklama: Exact ve rule sonucunu tekrar eden description satirlari icin count-safe cache'ler; byte-safe cikti davranisini degistirmeden itemInfo build suresini dusurur
+# Version: 1.1.4
+# Aciklama: Count-safe satir cache'ine ek olarak regex'in kesin literal prefix'i bulunmayan satirlarda regex motorunu atlar; byte-safe cikti semantigini korur
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -23,6 +23,34 @@ STRING_RE = re.compile(rb'"((?:\\.|[^"\\])*)"')
 
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def regex_literal_prefix(pattern: str) -> bytes:
+    index = 1 if pattern.startswith("^") else 0
+    literal: list[str] = []
+    meta = set(".[](){}*+?|$^")
+    escaped_literals = set(r"\\.^$*+?{}[]()|-")
+
+    while index < len(pattern):
+        char = pattern[index]
+        if char == "\\":
+            if (
+                index + 1 < len(pattern)
+                and pattern[index + 1] in escaped_literals
+            ):
+                literal.append(pattern[index + 1])
+                index += 2
+                continue
+            break
+        if char in meta:
+            break
+        literal.append(char)
+        index += 1
+
+    value = "".join(literal)
+    if len(value) < 3:
+        return b""
+    return value.encode("ascii")
 
 
 def prepare_rules(rules: list[dict]) -> list[dict]:
@@ -47,6 +75,7 @@ def prepare_rules(rules: list[dict]) -> list[dict]:
                     "type": rule_type,
                     "pattern": re.compile(rule["pattern"].encode("ascii")),
                     "replacement": rule["replacement"].encode("ascii"),
+                    "needle": regex_literal_prefix(rule["pattern"]),
                 }
             )
         else:
@@ -99,6 +128,9 @@ def apply_rules(line: bytes, rules: list[dict], counts: dict[str, int]) -> bytes
                 result = result.replace(source, target)
                 counts[rule_id] = counts.get(rule_id, 0) + count
         else:
+            needle = rule["needle"]
+            if needle and needle not in result:
+                continue
             result, count = rule["pattern"].subn(rule["replacement"], result)
             if count:
                 counts[rule_id] = counts.get(rule_id, 0) + count
