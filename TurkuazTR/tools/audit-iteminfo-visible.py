@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.8.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; base-stat, Grade/stat, loot-oran ve belirgin canonical title/job listelerini teknik metin olarak eleyip lore adaylarini guvenli bicimde raporlar
+# Version: 1.9.0
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; base-stat, Grade/stat, loot-oran, miktarli item satirlari ve canonical title/job listelerini teknik metin olarak eleyip lore adaylarini guvenli bicimde raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -58,6 +58,8 @@ STAT_ASSIGN_RE = re.compile(
 SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
 LOOT_RATE_RE = re.compile(r"^.+?\s+x\d+\s+\d+(?:\.\d+)?%,?$")
 CANONICAL_TITLE_RE = re.compile(r"^(?:Crown of Good and Evil\(.+\)|VR Book: .+)$")
+QUANTITY_ITEM_RE = re.compile(r"^\d+x\s+.+$")
+COSTUME_TITLE_RE = re.compile(r"^Costume:\s+.+$")
 PAREN_CANONICAL_LIST_RE = re.compile(r"^\([A-Za-z0-9' -]+(?:,\s*[A-Za-z0-9' -]+){2,}\)$")
 JOB_LIST_RE = re.compile(
     r"^(?=.*(?:Swordsman|Magician|Archer|Merchant|Thief|Acolyte|Novice|Rune Knight|Royal Guard|Mechanic|Genetic|Archbishop|Sura|Soul Linker|Ninja))"
@@ -84,6 +86,8 @@ def lore_candidate(value: str) -> bool:
         return False
     if (
         CANONICAL_TITLE_RE.fullmatch(clean)
+        or QUANTITY_ITEM_RE.fullmatch(clean)
+        or COSTUME_TITLE_RE.fullmatch(clean)
         or PAREN_CANONICAL_LIST_RE.fullmatch(clean)
         or JOB_LIST_RE.fullmatch(clean)
         or (clean.endswith(" Equipment") and "," in clean and len(clean.split(",")) >= 6)
