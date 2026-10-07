@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.36.0",
-    "description": "Count=2 itemInfo kuyrugundaki skill-enable, costume-slot, defense-ignore, immunity ve refine kosulu kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.36.1",
+    "description": "Defense-ignore additional varyantinda Turkce ek ifadesini duzeltir ve upgrade sansi kurallarinda Ingilizce grup sizintisini kaldirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4993,10 +4993,16 @@
       "replacement": "Kusanilan silaha \\1x\\2 alan hasari kazandirir."
     },
     {
+      "id": "enhance_armor_upgrade_chance",
+      "type": "literal",
+      "source": "Enhances a chance of successful armor upgrade.",
+      "translation": "Basarili zirh gelistirme sansini artirir."
+    },
+    {
       "id": "enhance_upgrade_chance",
-      "type": "regex",
-      "pattern": "Enhances a chance of successful (armor )?upgrade\\.",
-      "replacement": "Basarili \\1gelistirme sansini artirir."
+      "type": "literal",
+      "source": "Enhances a chance of successful upgrade.",
+      "translation": "Basarili gelistirme sansini artirir."
     },
     {
       "id": "enriched_elunium_success_armor",
@@ -5121,8 +5127,8 @@
     {
       "id": "ignore_magic_class",
       "type": "regex",
-      "pattern": "Ignores magic defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (additional )?(\\d+)%\\.",
-      "replacement": "\\1 sinifinin buyusel savunmasini \\2%\\3 yok sayar."
+      "pattern": "Ignores magic defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifinin buyusel savunmasini %\\2 yok sayar."
     },
     {
       "id": "ignore_magic_all_race",
@@ -5273,6 +5279,12 @@
       "type": "regex",
       "pattern": "If you open the box after (?:the end of the usage period|the usage period ends), nothing (?:will appear|appears)\\.",
       "replacement": "Kullanim suresi bittikten sonra kutuyu acarsaniz hicbir sey cikmaz."
+    },
+    {
+      "id": "ignore_magic_class_additional",
+      "type": "regex",
+      "pattern": "Ignores magic defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifinin buyusel savunmasini ek %\\2 yok sayar."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
