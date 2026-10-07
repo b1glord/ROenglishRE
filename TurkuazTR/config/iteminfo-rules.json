@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.29.0",
-    "description": "Item adlarini canonical tutar; shabby esya, renkli ribbon, special package, Yggdrasil sap ve element spear ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.30.0",
+    "description": "Item adlarini canonical tutar; Damage taken ailesindeki additional, typo, size, player, element ve all-monster varyantlarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4313,6 +4313,102 @@
       "type": "regex",
       "pattern": "A special spear imbued with the (earth|fire|water|wind) element\\.",
       "replacement": "\\1 elementiyle doldurulmus ozel bir mizrak."
+    },
+    {
+      "id": "damage_taken_ranged_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from Ranged Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasardan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "damage_from_colored_race",
+      "type": "regex",
+      "pattern": "Decreases Damage from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_by_colored_race",
+      "type": "regex",
+      "pattern": "Decreases Damage taken by (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_race_additional_generic",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_race_monsters_typo",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) racae monsters by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_race_monstery_typo",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) race monstery by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_two_sizes_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) size by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki dusmanlardan alinan hasari ek %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_players_enemies",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Players\\^000000) enemies by (?:additional )?(\\d+)%\\.",
+      "replacement": "\\1 dusmanlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_all_elements",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all elements by (\\d+)%\\.",
+      "replacement": "Tum elementlerden alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_all_elements_except_two",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all elements except (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 haric tum element saldirilarindan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_all_elemental_except_neutral_plain",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all elemental attacks, except Neutral, by (\\d+)%\\.",
+      "replacement": "Neutral haric tum element saldirilarindan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_all_monster_races_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all monster races by additional (\\d+)%\\.",
+      "replacement": "Tum canavar irklarindan alinan hasari ek %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_all_monsters",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from all monsters by (\\d+)%\\.",
+      "replacement": "Tum canavarlardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_enemy_element",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from enemies of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 elementindeki dusmanlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_two_enemy_races",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from enemies of (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki dusmanlardan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_element_attacks_optional_period",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element(?:al)? attacks by (\\d+)%\\.?",
+      "replacement": "\\1 element saldirilarindan alinan hasari %\\2 azaltir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
