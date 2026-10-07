@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.4.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; baseline remainder icinden canonical/teknik satirlari eleyip lore ceviri adaylarini ayri raporlar
+# Version: 1.5.0
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; Grade/stat listeleri dahil canonical ve teknik satirlari eleyip lore ceviri adaylarini ayri raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -50,7 +50,21 @@ STAT_ONLY_RE = re.compile(
     re.IGNORECASE,
 )
 GRADE_STAT_RE = re.compile(r"^\\[Grade [A-D]\\]:\\s*[A-Z.]+\\s*[+\\-]?[0-9.%]+\\.?$")
+STAT_ASSIGN_RE = re.compile(
+    r"^(?:Max(?:HP|SP)|HP|SP|ATK|MATK|MDEF|DEF|HIT|FLEE|ASPD|Critical|Perfect Dodge|"
+    r"P\\.ATK|S\\.MATK|POW|STA|WIS|SPL|CON|CRT)\\s*[+\\-]?[0-9.]+%?$",
+    re.IGNORECASE,
+)
 SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
+
+
+def grade_stat_only(value: str) -> bool:
+    match = re.fullmatch(r"\\[Grade [A-D]\\]:\\s*(.+?)\\.?", value)
+    if not match:
+        return False
+    body = match.group(1).rstrip(".")
+    parts = [part.strip() for part in body.split(",") if part.strip()]
+    return bool(parts) and all(STAT_ASSIGN_RE.fullmatch(part) for part in parts)
 
 
 def lore_candidate(value: str) -> bool:
@@ -59,7 +73,11 @@ def lore_candidate(value: str) -> bool:
         return False
     if clean.startswith("<NAVI>") or "<INFO>" in clean:
         return False
-    if STAT_ONLY_RE.fullmatch(clean) or GRADE_STAT_RE.fullmatch(clean):
+    if (
+        STAT_ONLY_RE.fullmatch(clean)
+        or GRADE_STAT_RE.fullmatch(clean)
+        or grade_stat_only(clean)
+    ):
         return False
     if SHORT_CANONICAL_RE.fullmatch(clean) and len(clean.split()) <= 4:
         return False
