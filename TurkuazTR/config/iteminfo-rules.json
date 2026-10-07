@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.42.0",
-    "description": "Count=2 itemInfo kuyrugundaki SP tuketim/yenilenme, elemental magic, experience ve drop-rate varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.49.0",
+    "description": "Count=2 itemInfo kuyrugundaki resistance, trigger, cooldown, recovery ve ek-paket sistem kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6167,6 +6167,144 @@
       "type": "regex",
       "pattern": "Increases items drop rate by (\\d+)%\\.",
       "replacement": "Esya Dusme Oranini %\\1 artirir."
+    },
+    {
+      "id": "included_additional_items_sentence",
+      "type": "regex",
+      "pattern": "In addition, ([^\\r\\n]+?) are included\\.",
+      "replacement": "Ek olarak \\1 dahildir."
+    },
+    {
+      "id": "included_additional_get_sentence",
+      "type": "regex",
+      "pattern": "In addition, you can get ([^\\r\\n]+?)\\.",
+      "replacement": "Ek olarak \\1 alabilirsiniz."
+    },
+    {
+      "id": "critical_three_races_additional",
+      "type": "regex",
+      "pattern": "Increases critical chance against (\\^FF0000[^\\^\\r\\n]+?\\^000000), (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)\\.",
+      "replacement": "\\1, \\2 ve \\3 irklarina karsi Critical sansini ek \\4 artirir."
+    },
+    {
+      "id": "long_ranged_targets",
+      "type": "regex",
+      "pattern": "Increases long-ranged damage on the targets by (\\d+)%\\.",
+      "replacement": "Hedeflere verilen uzun menzilli hasari %\\1 artirir."
+    },
+    {
+      "id": "physical_magical_colored_element_all_sizes_additional",
+      "type": "regex",
+      "pattern": "Increases physical and magical (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental damage against all sizes by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlara karsi \\1 elementli fiziksel ve buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "slim_potion_recovery_three",
+      "type": "regex",
+      "pattern": "Increases recovery rate of (\\^990099[^\\^\\r\\n]+?\\^000000), (\\^990099[^\\^\\r\\n]+?\\^000000) and (\\^990099[^\\^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1, \\2 ve \\3 yenilenme oranini %\\4 artirir."
+    },
+    {
+      "id": "plain_status_resistance",
+      "type": "regex",
+      "pattern": "Increases resistance against ([A-Za-z -]+) Status by (\\d+)%\\.",
+      "replacement": "\\1 durumuna direnci %\\2 artirir."
+    },
+    {
+      "id": "element_attack_resistance",
+      "type": "regex",
+      "pattern": "Increases resistance against attacks of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarina direnci %\\2 artirir."
+    },
+    {
+      "id": "status_resistance_to_colored",
+      "type": "regex",
+      "pattern": "Increases resistance to (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 durumuna direnci %\\2 artirir."
+    },
+    {
+      "id": "two_status_resistance_additional",
+      "type": "regex",
+      "pattern": "Increases resistance to (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) status by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 durumlarina direnci ek %\\3 artirir."
+    },
+    {
+      "id": "skill_cooldown_increase",
+      "type": "regex",
+      "pattern": "Increases the Cooldown of (\\^009900[^\\^\\r\\n]+?\\^000000) by ([0-9.]+) seconds\\.",
+      "replacement": "\\1 becerisinin bekleme suresini \\2 saniye artirir."
+    },
+    {
+      "id": "status_chance_area",
+      "type": "regex",
+      "pattern": "Increases the chance of inflicting (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) status to all targets within (\\d+)x(\\d+) cells\\.",
+      "replacement": "\\2x\\3 hucre icindeki tum hedeflere \\1 durumu uygulama sansini artirir."
+    },
+    {
+      "id": "two_status_chance_on_magical_receive",
+      "type": "regex",
+      "pattern": "Increases the chance to inflict (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) status on your enemy when receiving magical damage\\.",
+      "replacement": "Buyu hasari alirken dusmana \\1 ve \\2 durumlarini uygulama sansini artirir."
+    },
+    {
+      "id": "chance_each_refine",
+      "type": "literal",
+      "source": "Increases the chance with each Refine Level.",
+      "translation": "Her Gelistirme Seviyesinde sansi artirir."
+    },
+    {
+      "id": "heal_sanctuary_effectiveness_plain",
+      "type": "regex",
+      "pattern": "Increases the effectiveness of Heal and Sanctuary skills by (\\d+)%",
+      "replacement": "Heal ve Sanctuary becerilerinin etkinligini %\\1 artirir."
+    },
+    {
+      "id": "status_inflict_rate",
+      "type": "regex",
+      "pattern": "Increases the rate of inflicting (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) status\\.",
+      "replacement": "\\1 durumu uygulama oranini artirir."
+    },
+    {
+      "id": "abnormal_status_inflict_rate",
+      "type": "literal",
+      "source": "Increases the rate of inflicting abnormal statuses.",
+      "translation": "Anormal durum uygulama oranini artirir."
+    },
+    {
+      "id": "trigger_chance_further",
+      "type": "literal",
+      "source": "Increases the trigger chance further.",
+      "translation": "Tetiklenme sansini daha da artirir."
+    },
+    {
+      "id": "skill_trigger_chance",
+      "type": "regex",
+      "pattern": "Increases the trigger chance of (\\^009900[^\\^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\1 tetiklenme sansini artirir."
+    },
+    {
+      "id": "trigger_rate_percent",
+      "type": "regex",
+      "pattern": "Increases the trigger rate by (\\d+)%\\.",
+      "replacement": "Tetiklenme oranini %\\1 artirir."
+    },
+    {
+      "id": "restored_sp_total",
+      "type": "regex",
+      "pattern": "Increases total of restored SP by (\\d+)\\.",
+      "replacement": "Yenilenen toplam SP miktarini \\1 artirir."
+    },
+    {
+      "id": "contains_following_items_period",
+      "type": "literal",
+      "source": "It contains the following items.",
+      "translation": "Asagidaki esyalari icerir."
+    },
+    {
+      "id": "helm_faith_refine_range",
+      "type": "regex",
+      "pattern": "It can only be used on Helm of Faith helmets with refine level between \\+(\\d+) and \\+(\\d+)\\.",
+      "replacement": "Yalnizca Gelistirme Seviyesi +\\1 ile +\\2 arasindaki Helm of Faith basliklarinda kullanilabilir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
