@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.33.0",
-    "description": "Count=2 itemInfo kuyrugundaki SP tuketimi, casting, cooldown ve Fiziksel/Buyu hasar varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.34.0",
+    "description": "Count=2 itemInfo kuyrugundaki contains, drain, recovery, skill enable ve seviye bazli sistem kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4775,6 +4775,168 @@
       "type": "regex",
       "pattern": "Decreases After Skill Delay by (\\d+)\\.",
       "replacement": "Beceri Sonrasi Gecikmeyi \\1 azaltir."
+    },
+    {
+      "id": "contains_sentence_generic",
+      "type": "regex",
+      "pattern": "Contains ([^\\r\\n]+?)\\.",
+      "replacement": "\\1 icerir."
+    },
+    {
+      "id": "variable_cast_sp_increase_combined",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time by (\\d+)% and increases SP Consumption by (\\d+)%\\.",
+      "replacement": "Degisken Kullanma Suresini %\\1 azaltir ve SP Tuketimini %\\2 artirir."
+    },
+    {
+      "id": "variable_cast_staff_refine_percentage",
+      "type": "literal",
+      "source": "Decreases Variable Casting Time by a percentage according to the Staff's Refine Level.",
+      "translation": "Staff'in Gelistirme Seviyesine gore Degisken Kullanma Suresini yuzdesel olarak azaltir."
+    },
+    {
+      "id": "variable_cast_skill_plain_percent",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of skill by (\\d+)%\\.",
+      "replacement": "Becerinin Degisken Kullanma Suresini %\\1 azaltir."
+    },
+    {
+      "id": "skill_reuse_delay_seconds",
+      "type": "regex",
+      "pattern": "Decreases (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) re-use delay by ([0-9.]+) seconds\\.",
+      "replacement": "\\1 yeniden kullanim gecikmesini \\2 saniye azaltir."
+    },
+    {
+      "id": "critical_damage_taken_player",
+      "type": "regex",
+      "pattern": "Decreases critical Damage taken from Player by (\\d+)%\\.",
+      "replacement": "Player kaynakli alinan kritik hasari %\\1 azaltir."
+    },
+    {
+      "id": "physical_damage_taken_two_races_plain",
+      "type": "regex",
+      "pattern": "Decreases physical damage taken by (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindan alinan fiziksel hasari %\\3 azaltir."
+    },
+    {
+      "id": "target_def_mdef_physical_attack",
+      "type": "regex",
+      "pattern": "Decreases the target's DEF and MDEF to (\\d+) for (\\d+) seconds on each physical attack\\. \\(This effect does not work with skills\\)",
+      "replacement": "Her fiziksel saldirida hedefin DEF ve MDEF degerini \\2 saniye boyunca \\1'e dusurur. (Bu etki becerilerle calismaz)"
+    },
+    {
+      "id": "target_sp_physical_attack",
+      "type": "regex",
+      "pattern": "Decreases the target's SP by (\\d+)% on each physical attack\\. \\(This effect does not work with skills\\.\\)",
+      "replacement": "Her fiziksel saldirida hedefin SP degerini %\\1 azaltir. (Bu etki becerilerle calismaz.)"
+    },
+    {
+      "id": "variable_cast_typo_variables",
+      "type": "regex",
+      "pattern": "Decreases variables cast time by (\\d+)%\\.",
+      "replacement": "Degisken Kullanma Suresini %\\1 azaltir."
+    },
+    {
+      "id": "recover_hp_sp_defeat_physical_alt",
+      "type": "regex",
+      "pattern": "Defeating monsters with physical attacks recovers (\\d+) HP and (\\d+) SP\\.",
+      "replacement": "Canavarlari fiziksel saldirilarla yenmek \\1 HP ve \\2 SP yeniler."
+    },
+    {
+      "id": "restore_sp_defeat_physical_alt",
+      "type": "regex",
+      "pattern": "Defeating monsters with physical attacks restores (\\d+) SP\\.",
+      "replacement": "Canavarlari fiziksel saldirilarla yenmek \\1 SP yeniler."
+    },
+    {
+      "id": "drain_hp_sp_armor_unequip",
+      "type": "regex",
+      "pattern": "Drains? (\\d+) HP and (\\d+) SP as the Armor is unequipped\\.",
+      "replacement": "Armor cikarildiginda \\1 HP ve \\2 SP tuketir."
+    },
+    {
+      "id": "drain_hp_while_equipped",
+      "type": "regex",
+      "pattern": "Drains (\\d+) HP every (\\d+) seconds while equipped\\.",
+      "replacement": "Kusaniliyken her \\2 saniyede \\1 HP tuketir."
+    },
+    {
+      "id": "drain_sp_compounded_weapon",
+      "type": "regex",
+      "pattern": "Drains (\\d+) SP when compounded weapon is unequipped\\.",
+      "replacement": "Kart takili silah cikarildiginda \\1 SP tuketir."
+    },
+    {
+      "id": "drain_hp_every_second_alt",
+      "type": "regex",
+      "pattern": "Drains HP by (\\d+) every second\\.",
+      "replacement": "Her saniye \\1 HP tuketir."
+    },
+    {
+      "id": "enable_to_use_level_skill",
+      "type": "regex",
+      "pattern": "Enable to use of Level (\\d+) (\\^0000FF[^\\^\\r\\n]+?\\^000000)\\.",
+      "replacement": "Seviye \\1 \\2 kullanmayi saglar."
+    },
+    {
+      "id": "enable_single_cast_greed",
+      "type": "literal",
+      "source": "Enables a single cast of Greed.",
+      "translation": "Greed becerisini bir kez kullanmayi saglar."
+    },
+    {
+      "id": "enable_spells_without_gemstones",
+      "type": "regex",
+      "pattern": "Enables of casting certain spells without gemstones for (\\d+) minutes\\.",
+      "replacement": "Belirli buyuleri \\1 dakika boyunca Gemstone olmadan kullanmayi saglar."
+    },
+    {
+      "id": "enable_single_colored_skill",
+      "type": "regex",
+      "pattern": "Enables the use of (\\^0000FF[^\\^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\1 kullanmayi saglar."
+    },
+    {
+      "id": "enchant_compounded_armor_element",
+      "type": "regex",
+      "pattern": "Enchants compounded Armor with (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental\\.",
+      "replacement": "Kart takili Armor'a \\1 elementi kazandirir."
+    },
+    {
+      "id": "for_each_n_skill_levels_plain",
+      "type": "regex",
+      "pattern": "For each (\\d+) Levels of (\\^009900[^\\^\\r\\n]+?\\^000000):",
+      "replacement": "\\2 becerisinin her \\1 seviyesi icin:"
+    },
+    {
+      "id": "for_each_colored_n_skill_levels",
+      "type": "regex",
+      "pattern": "For each \\^[0-9A-Fa-f]{6}(\\d+)\\^000000 Levels of (\\^009900[^\\^\\r\\n]+?\\^000000):",
+      "replacement": "\\2 becerisinin her \\1 seviyesi icin:"
+    },
+    {
+      "id": "for_each_level_skill_plain",
+      "type": "regex",
+      "pattern": "For each level of ([^\\r\\n]+?) skill:",
+      "replacement": "\\1 becerisinin her seviyesi icin:"
+    },
+    {
+      "id": "following_items_are_in_it",
+      "type": "literal",
+      "source": "Following items are in it.",
+      "translation": "Asagidaki esyalari icerir."
+    },
+    {
+      "id": "for_each_refine_above_plain_uncolored",
+      "type": "regex",
+      "pattern": "For each Refine Level above \\+(\\d+):",
+      "replacement": "+\\1 uzerindeki her Gelistirme Seviyesi icin:"
+    },
+    {
+      "id": "for_each_base_level_above_plain",
+      "type": "regex",
+      "pattern": "For each (\\^CC6600Base Level\\^000000) above (\\^0000FF\\d+\\^000000):",
+      "replacement": "\\2 uzerindeki her \\1 icin:"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
