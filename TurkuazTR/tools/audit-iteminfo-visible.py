@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.6.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; Grade/stat ve loot-oran satirlari dahil canonical teknik metinleri eleyip lore ceviri adaylarini ayri raporlar
+# Version: 1.6.1
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; Grade/stat ve loot-oran satirlari dahil canonical teknik metinleri dogru stat-token eslesmesiyle eleyip lore adaylarini raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -45,14 +45,14 @@ def natural_candidate(value: str) -> bool:
 
 STAT_ONLY_RE = re.compile(
     r"^(?:(?:Max(?:HP|SP)|HP|SP|ATK|MATK|MDEF|DEF|HIT|FLEE|ASPD|Critical|Perfect Dodge|"
-    r"P\\.ATK|S\\.MATK|POW|STA|WIS|SPL|CON|CRT)(?:\\s*[+\\-]?[0-9.%]+)?"
+    r"P\.ATK|S\.MATK|POW|STA|WIS|SPL|CON|CRT)(?:\\s*[+\\-]?[0-9.%]+)?"
     r"(?:,?\\s*)?)+\\.?$",
     re.IGNORECASE,
 )
 GRADE_STAT_RE = re.compile(r"^\\[Grade [A-D]\\]:\\s*[A-Z.]+\\s*[+\\-]?[0-9.%]+\\.?$")
 STAT_ASSIGN_RE = re.compile(
     r"^(?:Max(?:HP|SP)|HP|SP|ATK|MATK|MDEF|DEF|HIT|FLEE|ASPD|Critical|Perfect Dodge|"
-    r"P\\.ATK|S\\.MATK|POW|STA|WIS|SPL|CON|CRT)\\s*[+\\-]?[0-9.]+%?$",
+    r"P\.ATK|S\.MATK|POW|STA|WIS|SPL|CON|CRT)\\s*[+\\-]?[0-9.]+%?$",
     re.IGNORECASE,
 )
 SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
