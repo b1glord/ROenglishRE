@@ -244,20 +244,20 @@ sync:
     legacy_turkish_recovery_fields: 0
     builder: "TurkuazTR/tools/build-iteminfo-profile.py"
     rules: "TurkuazTR/config/iteminfo-rules.json"
-    rule_count: 650
+    rule_count: 670
     exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
-    exact_translation_entries: 1280
+    exact_translation_entries: 1313
     lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
     lore_source_recovery_candidates: 20
     last_validated_replacements_per_tr_profile: 151926
     last_validated_applied_rule_count: 161
-    last_validated_unchanged_natural_description_occurrences: 63568
-    last_validated_unique_unchanged_natural_description_count: 37254
-    last_validated_lore_candidate_occurrences: 27508
-    last_validated_unique_lore_candidate_count: 24112
-    last_validated_metrics_note: "Bu metrikler validation run 679 / b017c56 sonrasidir; 1280 exact ve 650 rule seviyesindeki sonraki batchler tamamlanan Skill regeneration ile daha da azalir"
+    last_validated_unchanged_natural_description_occurrences: 63212
+    last_validated_unique_unchanged_natural_description_count: 37069
+    last_validated_lore_candidate_occurrences: 27152
+    last_validated_unique_lore_candidate_count: 23927
+    last_validated_metrics_note: "Bu metrikler validation run 687 / 961a99c sonrasidir; 1313 exact ve 670 rule seviyesindeki sonraki batchler tamamlanan Skill regeneration ile daha da azalir"
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
