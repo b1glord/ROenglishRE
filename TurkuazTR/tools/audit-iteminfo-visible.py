@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.5.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; Grade/stat listeleri dahil canonical ve teknik satirlari eleyip lore ceviri adaylarini ayri raporlar
+# Version: 1.6.0
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; Grade/stat ve loot-oran satirlari dahil canonical teknik metinleri eleyip lore ceviri adaylarini ayri raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -56,6 +56,7 @@ STAT_ASSIGN_RE = re.compile(
     re.IGNORECASE,
 )
 SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
+LOOT_RATE_RE = re.compile(r"^.+?\s+x\d+\s+\d+(?:\.\d+)?%$")
 
 
 def grade_stat_only(value: str) -> bool:
@@ -72,6 +73,8 @@ def lore_candidate(value: str) -> bool:
     if not natural_candidate(clean):
         return False
     if clean.startswith("<NAVI>") or "<INFO>" in clean:
+        return False
+    if LOOT_RATE_RE.fullmatch(clean):
         return False
     if (
         STAT_ONLY_RE.fullmatch(clean)
