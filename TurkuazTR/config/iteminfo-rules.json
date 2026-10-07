@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.21.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda growth, bereavement, rune, Herosria, Paradise, proc ve stat-window kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.22.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda proc, recovery, enchant, iki-skill ve typo hasar kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3749,6 +3749,78 @@
       "type": "regex",
       "pattern": "A spiritual ([A-Za-z -]+) granted by Freya\\. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr\\.",
       "replacement": "Freya tarafindan verilmis ruhani bir \\1. Cok saglam gorunur ancak sonunda kaybolup Freya'nin diyari Folkvangr'a geri donecektir."
+    },
+    {
+      "id": "damage_taken_two_locations_additional_optional_period",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) monsters by additional (\\d+)%\\.?",
+      "replacement": "\\1 ve \\2 canavarlarindan alinan hasari ek %\\3 azaltir."
+    },
+    {
+      "id": "random_autocast_learned_skill",
+      "type": "regex",
+      "pattern": "Random chance to auto-cast Level (\\d+) (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) if Level \\1 \\2 is learned\\.",
+      "replacement": "Level \\1 \\2 ogrenilmisse belirli bir sansla Level \\1 \\2 otomatik kullanilir."
+    },
+    {
+      "id": "enchant_armor_element",
+      "type": "regex",
+      "pattern": "Enchant Armor with (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental\\.",
+      "replacement": "Zirha \\1 elementi kazandirir."
+    },
+    {
+      "id": "enchant_compounded_weapon_skill",
+      "type": "regex",
+      "pattern": "Enchants compounded weapon with the (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) skill effect\\.",
+      "replacement": "Takili silaha \\1 beceri etkisi kazandirir."
+    },
+    {
+      "id": "restore_maxhp_potions_interval",
+      "type": "regex",
+      "pattern": "These potions restore an amount of HP equal to (\\d+)% of your MaxHP every (\\d+) seconds for a (\\d+) minute duration\\.",
+      "replacement": "Bu iksirler \\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1 kadar HP yeniler."
+    },
+    {
+      "id": "random_after_skill_delay_receive_physical",
+      "type": "regex",
+      "pattern": "Random chance to decrease After Skill Delay by (\\d+)% for (\\d+) seconds when receiving physical damage\\.",
+      "replacement": "Fiziksel hasar alirken belirli bir sansla Beceri Sonrasi Gecikmeyi \\2 saniye boyunca %\\1 azaltir."
+    },
+    {
+      "id": "variable_cast_two_skills",
+      "type": "regex",
+      "pattern": "Decreases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 Degisken kullanma suresini %\\3 azaltir."
+    },
+    {
+      "id": "reflect_melee_physical_damage",
+      "type": "regex",
+      "pattern": "Reflects (\\d+)% of the damage received from melee physical attacks\\.",
+      "replacement": "Yakin dovus fiziksel saldirilarindan alinan hasarin %\\1 kadarini yansitir."
+    },
+    {
+      "id": "recover_hp_sp_interval",
+      "type": "regex",
+      "pattern": "Recovers (\\d+) HP and (\\d+) SP every (\\d+) seconds\\.",
+      "replacement": "Her \\3 saniyede \\1 HP ve \\2 SP yeniler."
+    },
+    {
+      "id": "experience_gain_race_typo_by_by",
+      "type": "regex",
+      "pattern": "Increases experience gained from defeating (\\^FF0000[^\\r\\n]+?\\^000000) race monsters by by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlari yenerek kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "damage_single_location_monsters",
+      "type": "regex",
+      "pattern": "Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) monsters by (\\d+)%\\.",
+      "replacement": "\\1 canavarlarina verilen Hasari %\\2 artirir."
+    },
+    {
+      "id": "recover_maxhp_variant",
+      "type": "regex",
+      "pattern": "Recover (\\d+)% of MaxHP every (\\d+) seconds for (\\d+) minutes\\.",
+      "replacement": "\\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1 kadarini yeniler."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
