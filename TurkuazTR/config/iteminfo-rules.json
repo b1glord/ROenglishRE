@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.35.0",
-    "description": "Count=2 itemInfo kuyrugundaki refine, paket, skill-enable, sureli buff ve deneyim kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.36.0",
+    "description": "Count=2 itemInfo kuyrugundaki skill-enable, costume-slot, defense-ignore, immunity ve refine kosulu kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5075,6 +5075,204 @@
       "type": "regex",
       "pattern": "Gives Ghost element to a character for (\\d+) minute\\.",
       "replacement": "Karaktere \\1 dakika boyunca Ghost elementi verir."
+    },
+    {
+      "id": "enable_learned_skill_level",
+      "type": "regex",
+      "pattern": "Enables the use of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000), skill Level based on learned Level of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\1 kullanmayi saglar; beceri seviyesi ogrenilmis \\2 seviyesine gore belirlenir."
+    },
+    {
+      "id": "grant_bullets_element",
+      "type": "regex",
+      "pattern": "Grants bullets the (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element for (\\d+) minutes\\.",
+      "replacement": "Mermilere \\2 dakika boyunca \\1 elementi kazandirir."
+    },
+    {
+      "id": "grant_form_effects",
+      "type": "regex",
+      "pattern": "Grants following effects while in (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) form:",
+      "replacement": "\\1 formundayken asagidaki etkileri verir:"
+    },
+    {
+      "id": "chance_after_attack_delay_low",
+      "type": "regex",
+      "pattern": "Has a chance of reducing After Attack Delay by (\\d+)% for (\\d+) seconds with low probability when attacking\\.",
+      "replacement": "Saldiri sirasinda dusuk sansla Saldiri Sonrasi Gecikmeyi \\2 saniye boyunca %\\1 azaltir."
+    },
+    {
+      "id": "chance_reflect_magic_mirror",
+      "type": "regex",
+      "pattern": "Has a chance to reflect damage back to the enemy as well as casting (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000)\\.",
+      "replacement": "Hasari dusmana geri yansitma ve \\1 kullanma sansi verir."
+    },
+    {
+      "id": "low_chance_cast_receive_physical",
+      "type": "regex",
+      "pattern": "Has a low chance of casting Level (\\d+) ([A-Za-z0-9 ]+) on your enemy when receiving physical damage\\.",
+      "replacement": "Fiziksel hasar alirken dusmana dusuk sansla Seviye \\1 \\2 uygular."
+    },
+    {
+      "id": "low_chance_drain_hp_sp",
+      "type": "regex",
+      "pattern": "Has low chance to drain (\\d+)% of damage inflicted into HP and SP\\.",
+      "replacement": "Verilen hasarin %\\1 kadarini HP ve SP olarak emmek icin dusuk sans verir."
+    },
+    {
+      "id": "ignore_magic_class",
+      "type": "regex",
+      "pattern": "Ignores magic defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (additional )?(\\d+)%\\.",
+      "replacement": "\\1 sinifinin buyusel savunmasini \\2%\\3 yok sayar."
+    },
+    {
+      "id": "ignore_magic_all_race",
+      "type": "regex",
+      "pattern": "Ignores magic defense of all race by (\\d+)%\\.",
+      "replacement": "Tum irklarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_magical_two_races",
+      "type": "regex",
+      "pattern": "Ignores magical defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkinin buyusel savunmasini %\\3 yok sayar."
+    },
+    {
+      "id": "ignore_magical_enemies_all_race",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of all race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_magical_enemies_every_race_plain",
+      "type": "regex",
+      "pattern": "Ignores magical defense of enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlarin buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_class_additional",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifinin fiziksel ve buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_all_monsters",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of all monsters by (\\d+)%\\.",
+      "replacement": "Tum canavarlarin fiziksel ve buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_all_monsters_except",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of all monsters, except (\\^0033CCPlayers\\^000000), by additional (\\d+)%\\.",
+      "replacement": "\\1 haric tum canavarlarin fiziksel ve buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_every_race_plain",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of every race by (\\d+)%\\.",
+      "replacement": "Tum irklarin fiziksel ve buyusel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_every_race_additional",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of every race by additional (\\d+)%\\.",
+      "replacement": "Tum irklarin fiziksel ve buyusel savunmasini ek %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_physmag_every_race_except_additional",
+      "type": "regex",
+      "pattern": "Ignores physical and magical defense of every race, except (\\^FF0000Players\\^000000), by additional (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel ve buyusel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "ignore_phys_race_no_percent",
+      "type": "regex",
+      "pattern": "Ignores physical defense of (\\^FF0000[^\\^\\r\\n]+?\\^000000) race\\.",
+      "replacement": "\\1 irkinin fiziksel savunmasini yok sayar."
+    },
+    {
+      "id": "ignore_phys_all_monsters_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of all monsters by additional (\\d+)%\\.",
+      "replacement": "Tum canavarlarin fiziksel savunmasini ek %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_phys_every_race_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of every race by additional (\\d+)%\\.",
+      "replacement": "Tum irklarin fiziksel savunmasini ek %\\1 yok sayar."
+    },
+    {
+      "id": "ignore_phys_every_race_except_additional",
+      "type": "regex",
+      "pattern": "Ignores physical defense of every race, except (\\^FF0000Players\\^000000), by additional (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklarin fiziksel savunmasini ek %\\2 yok sayar."
+    },
+    {
+      "id": "immunity_status_duration",
+      "type": "regex",
+      "pattern": "Immunity to (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) for (\\d+) minute(?:s)?\\.",
+      "replacement": "\\2 dakika boyunca \\1 durumuna bagisiklik verir."
+    },
+    {
+      "id": "costume_garment_ability",
+      "type": "literal",
+      "source": "Give ability to costume garment slot.",
+      "translation": "Costume Garment slotuna yetenek kazandirir."
+    },
+    {
+      "id": "costume_lower_enhancement",
+      "type": "literal",
+      "source": "Give enhancement on Costume Lower Headgear equipment slots.",
+      "translation": "Costume Lower Headgear ekipman slotuna gelistirme kazandirir."
+    },
+    {
+      "id": "costume_compounded_slot_ability",
+      "type": "regex",
+      "pattern": "Gives ability when compounded on (middle|upper) slot costume\\.",
+      "replacement": "Costume \\1 slotuna takildiginda yetenek kazandirir."
+    },
+    {
+      "id": "costume_middle_enhancement",
+      "type": "literal",
+      "source": "Gives enhancement to middle costume slot.",
+      "translation": "Costume middle slotuna gelistirme kazandirir."
+    },
+    {
+      "id": "gives_one_random",
+      "type": "literal",
+      "source": "Gives one of the following at random:",
+      "translation": "Asagidakilerden birini rastgele verir:"
+    },
+    {
+      "id": "higher_refine_transform",
+      "type": "literal",
+      "source": "Higher Refine Level will increase the transform duration and magical power.",
+      "translation": "Daha yuksek Gelistirme Seviyesi donusum suresini ve buyu gucunu artirir."
+    },
+    {
+      "id": "holy_armor_scroll",
+      "type": "regex",
+      "pattern": "Holy Armor Scroll - Endows a character with (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element for (\\d+) minutes\\.",
+      "replacement": "Holy Armor Scroll - Karaktere \\2 dakika boyunca \\1 elementi kazandirir."
+    },
+    {
+      "id": "if_item_refine_level_plain",
+      "type": "regex",
+      "pattern": "If (\\^990099[^\\^\\r\\n]+?\\^000000) Refine Level (\\^0000FF\\+\\d+\\^000000):",
+      "replacement": "\\1 Gelistirme Seviyesi \\2 ise:"
+    },
+    {
+      "id": "if_base_stat_at_least",
+      "type": "regex",
+      "pattern": "If base (\\^CC6600[A-Z]+\\^000000) at least (\\^0000FF\\d+\\^000000):",
+      "replacement": "Temel \\1 en az \\2 ise:"
+    },
+    {
+      "id": "if_box_expiry_variant",
+      "type": "regex",
+      "pattern": "If you open the box after (?:the end of the usage period|the usage period ends), nothing (?:will appear|appears)\\.",
+      "replacement": "Kullanim suresi bittikten sonra kutuyu acarsaniz hicbir sey cikmaz."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
