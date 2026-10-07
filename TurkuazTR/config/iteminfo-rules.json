@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.25.0",
-    "description": "Item adlarini canonical tutar; 4-tekrar sistem metinlerinde element, EXP, size, proc, accessory, Shadow Cube, Grade ve upgrade kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.26.0",
+    "description": "Item adlarini canonical tutar; shoes deneyim, poison-light, true-faith, random-card, tuning-scroll, element-book ve tekrar eden lore ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4037,6 +4037,66 @@
       "type": "regex",
       "pattern": "One of the (fragments|stones) imbued with the (?:illusionary |)magic of (illusion|the frontier)\\.",
       "replacement": "\\2 buyusuyle doldurulmus \\1 arasindan biridir."
+    },
+    {
+      "id": "shoes_accumulated_experience",
+      "type": "regex",
+      "pattern": "A pair of shoes worn by (.+?)\\. All years of experience were accumulated on these shoes\\.",
+      "replacement": "\\1 tarafindan giyilmis ayakkabilar. Yillarin deneyimi bu ayakkabilarda birikmistir."
+    },
+    {
+      "id": "weapon_lost_light_poison_magic",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) that lost its light due to poisonous magic\\.",
+      "replacement": "Zehirli buyu nedeniyle isigini kaybetmis bir \\1."
+    },
+    {
+      "id": "weapon_reborn_true_faith",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) reborn with the power of true faith through a ritual of purification\\.",
+      "replacement": "Arinma ritueliyle gercek inancin gucu sayesinde yeniden dogmus bir \\1."
+    },
+    {
+      "id": "random_card_scroll",
+      "type": "regex",
+      "pattern": "A scroll which gives you a random of ([A-Za-z]+) Card\\.",
+      "replacement": "Rastgele bir \\1 Card veren bir scroll."
+    },
+    {
+      "id": "chaotic_magic_tuning_scroll",
+      "type": "regex",
+      "pattern": "A scroll (?:that allows you to adjust|that regulates) the magical energy flow of a (.+?) consumed by chaotic and heterogeneous magical energy\\.",
+      "replacement": "Kaotik ve heterojen buyulu enerjiyle asinmis \\1 icindeki buyulu enerji akisini ayarlayan bir scroll."
+    },
+    {
+      "id": "hardcover_element_book",
+      "type": "regex",
+      "pattern": "A hefty book with a hard cover that has been enchanted with the (earth|fire|water|wind) element\\.",
+      "replacement": "\\1 elementiyle enchant uygulanmis sert kapakli agir bir kitap."
+    },
+    {
+      "id": "satin_ribbon_magic_protection",
+      "type": "regex",
+      "pattern": "A long piece of (black|red|green) satin tied together into a neat little ribbon that wards off harmful magic\\.",
+      "replacement": "Zararli buyuyu uzaklastiran duzgun bir kurdele seklinde baglanmis uzun \\1 saten parcasi."
+    },
+    {
+      "id": "movement_speed_potion_direction",
+      "type": "regex",
+      "pattern": "A potion which (increases|decreases) the moving speed of a character for a set duration\\.",
+      "replacement": "Karakterin hareket hizini belirli bir sure \\1."
+    },
+    {
+      "id": "relic_after_battle_region",
+      "type": "regex",
+      "pattern": "A relic discovered after battle in the (.+?) region\\.",
+      "replacement": "\\1 bolgesindeki savastan sonra kesfedilen bir kalinti."
+    },
+    {
+      "id": "thanos_weapon_set_helmet",
+      "type": "regex",
+      "pattern": "A (fighter|gunner|magic) helmet made with Thanos' weapon and set\\.",
+      "replacement": "Thanos silahi ve setiyle yapilmis \\1 migferi."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
