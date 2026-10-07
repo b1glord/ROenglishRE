@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.38.0",
-    "description": "Count=2 itemInfo kuyrugundaki Damage of, Damage taken, HP Recovery, Experience ve Item Drop varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.39.0",
+    "description": "Count=2 itemInfo kuyrugundaki refine/EXP kosullari ve Magical Damage varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5621,6 +5621,120 @@
       "type": "regex",
       "pattern": "Increases Item Drop Rate from defeating monsters by (\\d+)%\\.",
       "replacement": "Canavarlari yenerek elde edilen Esya Dusme Oranini %\\1 artirir."
+    },
+    {
+      "id": "refine_n_matk_maxsp",
+      "type": "regex",
+      "pattern": "For each (\\d+) Refine Level: MATK \\+(\\d+)%, MaxSP \\+(\\d+)%\\.",
+      "replacement": "Her \\1 Gelistirme Seviyesi icin: MATK +%\\2, MaxSP +%\\3."
+    },
+    {
+      "id": "hp_skill_damage_cap",
+      "type": "regex",
+      "pattern": "For every (\\^[0-9A-Fa-f]{6}\\d+\\^000000) HP, the damage of (\\^009900[^\\^\\r\\n]+?\\^000000)-type skills is increased by (\\d+)%, up to (\\d+)%\\.",
+      "replacement": "Her \\1 HP icin \\2 tipi becerilerin hasari %\\3 artar; en fazla %\\4."
+    },
+    {
+      "id": "lucky_boxes_random",
+      "type": "regex",
+      "pattern": "(.+? Lucky Boxes) contain one of the following at random:",
+      "replacement": "\\1 asagidakilerden birini rastgele icerir:"
+    },
+    {
+      "id": "weapon_type_heading",
+      "type": "regex",
+      "pattern": "If (\\^990099Weapon\\^000000) type is a (\\^990099[^\\^\\r\\n]+?\\^000000) or any (\\^990099Firearm\\^000000) class weapon:",
+      "replacement": "\\1 turu \\2 veya herhangi bir \\3 sinifi silahsa:"
+    },
+    {
+      "id": "higher_skill_learned",
+      "type": "literal",
+      "source": "If higher Level of this skill is learned then it will be cast.",
+      "translation": "Bu becerinin daha yuksek seviyesi ogrenilmisse o seviye kullanilir."
+    },
+    {
+      "id": "death_no_exp_duration",
+      "type": "regex",
+      "pattern": "If the character dies within the (\\d+) minutes duration, no loss of EXP will be made\\.",
+      "replacement": "Karakter \\1 dakikalik sure icinde olurse EXP kaybi olmaz."
+    },
+    {
+      "id": "upgraded_exp_bonus",
+      "type": "regex",
+      "pattern": "If upgraded to \\+(\\d+) or higher\\^000000: Adds (\\d+)% EXP bonus for any monster killed\\.\\^000000",
+      "replacement": "+\\1 veya uzeri gelistirildiginde^000000: Oldurulen her canavar icin %\\2 EXP bonusu verir.^000000"
+    },
+    {
+      "id": "level_over_effect_decreased",
+      "type": "regex",
+      "pattern": "If you over Level (\\d+), the effect will be decreased\\.",
+      "replacement": "Level \\1 uzerindeyseniz etki azalir."
+    },
+    {
+      "id": "select_shadow_parts",
+      "type": "regex",
+      "pattern": "If you select one of the ([A-Za-z/]+) parts, you will get a box containing the Shadow Equipment of the selected part\\.",
+      "replacement": "\\1 parcalarindan birini secerseniz secilen parcaya ait Shadow Equipment iceren bir kutu alirsiniz."
+    },
+    {
+      "id": "shadow_refine_may_drop",
+      "type": "literal",
+      "source": "If you try already refined Shadow Equipment the Refine Level may drop!",
+      "translation": "Onceden gelistirilmis Shadow Equipment uzerinde denerseniz Gelistirme Seviyesi dusebilir!"
+    },
+    {
+      "id": "magic_damage_every_size_typo",
+      "type": "regex",
+      "pattern": "Increases Magic Damage against enemies of every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_all_property",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against all property enemies by (\\d+)%\\.",
+      "replacement": "Tum property turlerindeki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_all_size_enemies_plain",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against all size enemies by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_all_size_enemies_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against all size enemies by additional (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_all_sizes",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against all sizes by (\\d+)%\\.",
+      "replacement": "Tum boyutlara Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_enemy_class",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki dusmanlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "magical_damage_every_class_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every class by additional (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlara Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_every_element_additional",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "magical_damage_every_size_element",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against enemies of every size and every element by (\\d+)%\\.",
+      "replacement": "Tum boyut ve elementlerdeki dusmanlara Buyu Hasarini %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
