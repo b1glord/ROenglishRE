@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.17.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda job-only, iki-lokasyon, size, boss ve HP recovery kalip ailelerini byte-safe ASCII Turkceye cevirir",
+    "version": "1.18.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda Grade, refine-heading, trait ve case-varyant hasar kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3467,6 +3467,90 @@
       "type": "regex",
       "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) race enemies by additional (\\d+)%\\.",
       "replacement": "\\1 irkindaki dusmanlardan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "grade_magical_monsters_every_size",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Magical Damage against monsters of every size \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum boyutlardaki canavarlara Buyu Hasari +%\\2."
+    },
+    {
+      "id": "grade_damage_every_size_alt",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Damage against enemies of (?:every|all) size(?: enemies)? \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Tum boyutlardaki dusmanlara Hasar +%\\2."
+    },
+    {
+      "id": "grade_magical_colored_size",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Magical Damage against enemies of (\\^FF0000[^\\r\\n]+?\\^000000) size \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: \\2 boyutundaki dusmanlara Buyu Hasari +%\\3."
+    },
+    {
+      "id": "grade_atk_fixed_cast",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: ATK \\+(\\d+)%, Fixed Casting Time -([0-9.]+) seconds\\.",
+      "replacement": "[Grade \\1]: ATK +%\\2, Sabit kullanma suresi -\\3 saniye."
+    },
+    {
+      "id": "grade_normal_physical_damage",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Normal Physical Damage \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: Normal Fiziksel Hasar +%\\2."
+    },
+    {
+      "id": "grade_damage_two_races",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Damage against monsters of (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) race \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: \\2 ve \\3 irkindaki canavarlara Hasar +%\\4."
+    },
+    {
+      "id": "grade_damage_two_elements",
+      "type": "regex",
+      "pattern": "\\[Grade ([A-D])\\]: Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element \\+(\\d+)%\\.",
+      "replacement": "[Grade \\1]: \\2 ve \\3 elementindeki canavarlara Hasar +%\\4."
+    },
+    {
+      "id": "compounded_equipment_grade_exact",
+      "type": "regex",
+      "pattern": "When (\\^990099Grade\\^000000) of compounded equipment is (\\^CC3D3D[A-D]\\^000000):",
+      "replacement": "Takili ekipmanin \\1 degeri \\2 ise:"
+    },
+    {
+      "id": "max_refine_level_heading",
+      "type": "regex",
+      "pattern": "\\^0000FFUp to max \\+(\\d+) Refine Level\\^000000:",
+      "replacement": "^0000FFMaksimum +\\1 Gelistirme Seviyesine kadar^000000:"
+    },
+    {
+      "id": "magical_every_element_additional_capital",
+      "type": "regex",
+      "pattern": "Increases Magical Damage with every Element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerle Buyu Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "ignore_physical_defense_from_race",
+      "type": "regex",
+      "pattern": "Ignores physical defense from (\\^FF0000[^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkinin fiziksel savunmasini %\\2 yok sayar."
+    },
+    {
+      "id": "physical_damage_additional_plain",
+      "type": "regex",
+      "pattern": "Increases Physical Damage by additional (\\d+)%\\.",
+      "replacement": "Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "all_trait_statuses_timed",
+      "type": "regex",
+      "pattern": "All Trait Statuses \\+(\\d+), P\\.ATK \\+(\\d+), S\\.MATK \\+(\\d+) for (\\d+) minutes\\.",
+      "replacement": "Tum Trait Statlari +\\1, P.ATK +\\2, S.MATK +\\3, \\4 dakika boyunca."
+    },
+    {
+      "id": "grants_flee_aspd_movement",
+      "type": "regex",
+      "pattern": "Grants FLEE \\+(\\d+), ASPD \\+(\\d+) and increases Movement Speed for (\\d+) minutes\\.",
+      "replacement": "FLEE +\\1, ASPD +\\2 kazandirir ve Hareket Hizini \\3 dakika boyunca artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
