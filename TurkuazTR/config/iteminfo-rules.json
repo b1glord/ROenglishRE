@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.20.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda iki-lokasyon, class-weapon compound ve fixed-cast kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.21.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda growth, bereavement, rune, Herosria, Paradise, proc ve stat-window kaliplarini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3653,6 +3653,102 @@
       "type": "regex",
       "pattern": "Decreases Fixed Casting Time of skills by ([0-9.]+) seconds\\.",
       "replacement": "Becerilerin Sabit kullanma suresini \\1 saniye azaltir."
+    },
+    {
+      "id": "status_bonus_not_overlap_window",
+      "type": "regex",
+      "pattern": "- (ATK|MATK|Critical|FLEE|HIT) does not overlap with other bonus and cannot be checked in the Status window\\.",
+      "replacement": "- \\1 diger bonuslarla birikmez ve Status penceresinde goruntulenemez."
+    },
+    {
+      "id": "refinement_fail_decrease_one_variant",
+      "type": "regex",
+      "pattern": "\\(If the refinement fails, the refine level decreases by (\\d+)\\.\\)",
+      "replacement": "(Gelistirme basarisiz olursa Gelistirme Seviyesi \\1 azalir.)"
+    },
+    {
+      "id": "designed_help_adventurers_grow",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) designed to help adventurers grow\\.",
+      "replacement": "Maceracilarin gelisimine yardim etmek icin tasarlanmis bir \\1."
+    },
+    {
+      "id": "contains_pain_bereavement",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) containing the pain of bereavement\\.",
+      "replacement": "Kayip acisini barindiran bir \\1."
+    },
+    {
+      "id": "imbued_rune_magic",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) imbued with rune magic\\.",
+      "replacement": "Rune buyusuyle doldurulmus bir \\1."
+    },
+    {
+      "id": "herosria_usable_item",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) (?:of [^.]+ )?that can also be used in Herosria\\.",
+      "replacement": "Herosria'da da kullanilabilen bir \\1."
+    },
+    {
+      "id": "paradise_group_made_item",
+      "type": "regex",
+      "pattern": "A ([A-Za-z -]+) made by the Paradise Group\\.",
+      "replacement": "Paradise Group tarafindan yapilmis bir \\1."
+    },
+    {
+      "id": "paradise_group_high_quality",
+      "type": "regex",
+      "pattern": "A high-quality ([A-Za-z -]+) made by the Paradise Group\\.",
+      "replacement": "Paradise Group tarafindan yapilmis yuksek kaliteli bir \\1."
+    },
+    {
+      "id": "battlefield_champion_item",
+      "type": "regex",
+      "pattern": "A (.+?) that only a champion of battlefield can wear\\.",
+      "replacement": "Yalnizca battlefield sampiyonunun kullanabilecegi bir \\1."
+    },
+    {
+      "id": "restore_hp_per_second_magical",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to restore (\\d+) HP per second for (\\d+) seconds when dealing magical attacks\\.",
+      "replacement": "Buyulu saldiri verirken %\\1 sansla \\3 saniye boyunca her saniye \\2 HP yeniler."
+    },
+    {
+      "id": "restore_hp_per_second_physical",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to restore (\\d+) HP per second for (\\d+) seconds when dealing physical attacks\\.",
+      "replacement": "Fiziksel saldiri verirken %\\1 sansla \\3 saniye boyunca her saniye \\2 HP yeniler."
+    },
+    {
+      "id": "absorb_physical_damage_to_sp",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to absorb (\\d+)% physical damage infllicted on the target into SP\\.",
+      "replacement": "Hedefe verilen fiziksel hasarin %\\2 kadarini SP olarak emmek icin %\\1 sans verir."
+    },
+    {
+      "id": "absorb_hp_physical_damage",
+      "type": "regex",
+      "pattern": "(\\d+)% chance to absorb (\\d+)% HP damage when dealing physical damage\\.",
+      "replacement": "Fiziksel hasar verirken verilen hasarin %\\2 kadarini HP olarak emmek icin %\\1 sans verir."
+    },
+    {
+      "id": "stone_increases_damage_generic",
+      "type": "regex",
+      "pattern": "A stone that increases (Ranged Physical Damage|critical damage)\\.",
+      "replacement": "\\1 artiran bir tas."
+    },
+    {
+      "id": "stone_absorb_resource",
+      "type": "regex",
+      "pattern": "A stone that can absorb (HP|SP)\\.",
+      "replacement": "\\1 emebilen bir tas."
+    },
+    {
+      "id": "freya_spiritual_item_return",
+      "type": "regex",
+      "pattern": "A spiritual ([A-Za-z -]+) granted by Freya\\. It appears very sturdy, but it will eventually disappear and return to Freya's realm, Folkvangr\\.",
+      "replacement": "Freya tarafindan verilmis ruhani bir \\1. Cok saglam gorunur ancak sonunda kaybolup Freya'nin diyari Folkvangr'a geri donecektir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
