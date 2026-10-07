@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.26.1",
-    "description": "Dinamik Ingilizce token sizdiran itemInfo kurallarini kosula ozel byte-safe Turkce literal kurallarla degistirir",
+    "version": "1.27.0",
+    "description": "Item adlarini canonical tutar; element armor, guild summon, teleport, Varmundt rune, direnc, Encroached ve combat-type ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4139,6 +4139,66 @@
       "type": "literal",
       "source": "A cookie which is rumored to bring luck to whomever eats it.",
       "translation": "Yiyen kisiye sans getirdigi soylenen bir kurabiye."
+    },
+    {
+      "id": "elemental_armor_suit",
+      "type": "regex",
+      "pattern": "A suit of armor that is enchanted with the (earth|fire|water|wind) elemental\\.",
+      "replacement": "\\1 elementiyle enchant uygulanmis bir zirh."
+    },
+    {
+      "id": "wind_demon_shuriken_attribute",
+      "type": "regex",
+      "pattern": "A wind demon shuriken that has (?:a |the )?(water|wind|fire) attribute\\.",
+      "replacement": "\\1 attribute'a sahip bir wind demon shuriken."
+    },
+    {
+      "id": "guild_member_summon_count",
+      "type": "regex",
+      "pattern": "Able to summon (\\d+) online Guild Member\\. Only applicable for Guild Leader\\.",
+      "replacement": "\\1 online Guild Member cagirabilir. Yalnizca Guild Leader kullanabilir."
+    },
+    {
+      "id": "teleport_destination_list",
+      "type": "regex",
+      "pattern": "Allow character to teleport to (.+?)\\.",
+      "replacement": "Karakterin \\1 konumuna isinlanmasini saglar."
+    },
+    {
+      "id": "varmundt_rune_engraved_equipment",
+      "type": "regex",
+      "pattern": "(Armor|Boots|Manteau) engraved with Varmundt's ([A-Za-z]+) Rune magic\\.",
+      "replacement": "Varmundt'un \\2 Rune buyusu islenmis \\1."
+    },
+    {
+      "id": "magical_attack_resistance_minute",
+      "type": "regex",
+      "pattern": "Adds (\\d+)% resistance to Magical Attacks for (\\d+) minute(?:s)?\\.",
+      "replacement": "\\2 dakika boyunca Buyulu Saldirilara %\\1 direnc kazandirir."
+    },
+    {
+      "id": "physical_attack_resistance_minute",
+      "type": "regex",
+      "pattern": "Adds (\\d+)% resistance to Physical Attacks for (\\d+) minute(?:s)?\\.",
+      "replacement": "\\2 dakika boyunca Fiziksel Saldirilara %\\1 direnc kazandirir."
+    },
+    {
+      "id": "encroached_consume_refined",
+      "type": "regex",
+      "pattern": "Can be used to consume a Encroached ([A-Za-z -]+) refined to \\+(\\d+) or higher\\.",
+      "replacement": "+\\2 veya uzeri gelistirilmis Encroached \\1 tuketmek icin kullanilabilir."
+    },
+    {
+      "id": "combat_illusion_type",
+      "type": "regex",
+      "pattern": "(Combat armor|Combat boots|Combat engine) ([AB]) type (?:born from|created with) Illusion's technology\\.",
+      "replacement": "Illusion teknolojisiyle uretilmis \\1 Type \\2."
+    },
+    {
+      "id": "combat_varmundt_type",
+      "type": "regex",
+      "pattern": "(Combat armor|Combat boots|Combat engine) ([AB]) type improved with the technology of (?:the )?Varmundt's mansion\\.",
+      "replacement": "Varmundt's Mansion teknolojisiyle gelistirilmis \\1 Type \\2."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
