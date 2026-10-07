@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-iteminfo-lore-pending.py
 # 📌 Amac: itemInfo Turkce profilinde degismeden kalan gercek lore/aciklama cumlelerini canonical teknik metinlerden ayirip pending raporu uretir
 # 📌 Tool - Python
-# Version: 1.2.0
-# Aciklama: Baseline itemInfo ile generated full_tr profilini karsilastirir; source-recovery metinlerini ayirir ve final ceviri icin ilk 1000 guvenli adayi ayri batch raporuna yazar
+# Version: 1.2.1
+# Aciklama: Baseline itemInfo ile generated full_tr profilini karsilastirir; source-recovery metinlerini ayirir ve ASCII-safe final ceviri icin ilk 1000 guvenli adayi ayri batch raporuna yazar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -82,7 +82,7 @@ def main() -> int:
             "purpose": "Final itemInfo cevirisi icin siradaki guvenli lore adaylarini kucuk ve kolay islenebilir bir batch halinde listeler",
             "module": "Generated Report - JSON",
             "version": "1.0.0",
-            "description": "Pending kuyruğunun frekans sirali ilk 1000 adayini final exact ceviri calismasi icin ayri raporlar",
+            "description": "Pending kuyrugunun frekans sirali ilk 1000 adayini final exact ceviri calismasi icin ayri raporlar",
             "dependency_layer": "Tool",
         },
         "source_path": str(SOURCE.relative_to(REPO_ROOT)),
