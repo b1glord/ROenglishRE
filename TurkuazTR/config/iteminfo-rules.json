@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.31.0",
-    "description": "Item adlarini canonical tutar; count=2 kuyrugundaki After Skill Delay, Damage taken ve contains varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.32.0",
+    "description": "Count=2 itemInfo kuyrugundaki Critical, casting, After Skill Delay ve Damage taken varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -4529,6 +4529,132 @@
       "type": "literal",
       "source": "Contains useful items for growing new characters.",
       "translation": "Yeni karakterleri gelistirmek icin faydali esyalar icerir."
+    },
+    {
+      "id": "critical_attacking_colored_monster",
+      "type": "regex",
+      "pattern": "Critical \\+(\\d+) when attacking (\\^FF0000[^\\r\\n]+?\\^000000) monster\\.",
+      "replacement": "\\2 canavara saldirirken Critical +\\1."
+    },
+    {
+      "id": "decreased_variable_cast_typo",
+      "type": "regex",
+      "pattern": "Decreased Variable Casting Time by (\\d+)%\\.",
+      "replacement": "Degisken kullanma suresini %\\1 azaltir."
+    },
+    {
+      "id": "after_attack_variable_cast_speed",
+      "type": "regex",
+      "pattern": "Decreases After Attack Delay and Variable Casting Speed by (\\d+)%\\.",
+      "replacement": "Saldiri sonrasi gecikmeyi ve Degisken Kullanma Hizi suresini %\\1 azaltir."
+    },
+    {
+      "id": "after_attack_refine_based",
+      "type": "literal",
+      "source": "Decreases After Attack Delay based on Refine Level.",
+      "translation": "Gelistirme Seviyesine gore Saldiri Sonrasi Gecikmeyi azaltir."
+    },
+    {
+      "id": "after_skill_delay_skill_duration",
+      "type": "regex",
+      "pattern": "Decreases After Skill Delay by (\\d+)% for (\\d+) seconds when using (\\^009900[^\\r\\n]+?\\^000000) skill\\.",
+      "replacement": "\\3 becerisi kullanildiginda Beceri Sonrasi Gecikmeyi \\2 saniye boyunca %\\1 azaltir."
+    },
+    {
+      "id": "damage_from_elemental_attacks",
+      "type": "regex",
+      "pattern": "Decreases Damage from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_two_locations_additional_no_monsters",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 kaynakli alinan hasari ek %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_colored_enemies_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) enemies by additional (\\d+)%\\.",
+      "replacement": "\\1 dusmanlardan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_two_races_monsters_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000[^\\r\\n]+?\\^000000) and (\\^FF0000[^\\r\\n]+?\\^000000) race monsters by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 irkindaki canavarlardan alinan hasari ek %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_players_an_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from (\\^FF0000Players\\^000000) by an additional (\\d+)%\\.",
+      "replacement": "\\1 kaynakli alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_location_monsters",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 icindeki canavarlardan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_monster_race_additional",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of (\\^FF0000[^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki canavarlardan alinan hasari ek %\\2 azaltir."
+    },
+    {
+      "id": "damage_taken_demi_doram_players",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from monsters of (\\^FF0000Demi-Human\\^000000) and (\\^FF0000Doram\\^000000) players by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 oyunculardan alinan hasari %\\3 azaltir."
+    },
+    {
+      "id": "damage_taken_reflected_attacks_plain",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from reflected attacks by (\\d+)%\\.",
+      "replacement": "Yansitilan saldirilardan alinan hasari %\\1 azaltir."
+    },
+    {
+      "id": "damage_taken_elemental_missing_space",
+      "type": "regex",
+      "pattern": "Decreases Damage taken from(\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) elemental attacks by (\\d+)%\\.",
+      "replacement": "\\1 element saldirilarindan alinan hasari %\\2 azaltir."
+    },
+    {
+      "id": "fixed_cast_every_levels_skill",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting Time by ([0-9.]+) seconds for every (\\d+) Levels of (\\^009900[^\\r\\n]+?\\^000000)\\.",
+      "replacement": "\\3 becerisinin her \\2 seviyesi icin Sabit Kullanma Suresini \\1 saniye azaltir."
+    },
+    {
+      "id": "fixed_cast_skill_seconds_lower_time",
+      "type": "regex",
+      "pattern": "Decreases Fixed Casting time of (\\^009900[^\\r\\n]+?\\^000000) by ([0-9.]+) seconds\\.",
+      "replacement": "\\1 becerisinin Sabit Kullanma Suresini \\2 saniye azaltir."
+    },
+    {
+      "id": "magical_damage_two_elements",
+      "type": "regex",
+      "pattern": "Decreases Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementleriyle Buyu Hasarini %\\3 azaltir."
+    },
+    {
+      "id": "physical_magical_players_decrease",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage against (\\^FF0000Players\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 hedeflerine Fiziksel ve Buyu Hasarini %\\2 azaltir."
+    },
+    {
+      "id": "physical_magical_all_elements_typo",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage from against enemies of all elements by (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Fiziksel ve Buyu Hasarini %\\1 azaltir."
+    },
+    {
+      "id": "physical_magical_all_race_except_players_typo",
+      "type": "regex",
+      "pattern": "Decreases Physical and Magical Damage from all race by (\\d+)% \\(Except Players\\)\\.",
+      "replacement": "Players haric tum irklara Fiziksel ve Buyu Hasarini %\\1 azaltir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
