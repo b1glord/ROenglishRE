@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/iteminfo-lore.source-recovery.json",
     "purpose": "Anlami bozuk, kesik veya kaynak kalitesi yetersiz itemInfo lore metinlerini ceviri kuyrugundan ayirir",
     "module": "Translation Recovery - JSON",
-    "version": "1.0.0",
-    "description": "Dogru upstream veya kaynak metin bulunmadan Turkcelestirilmeyecek itemInfo serbest aciklamalarini exact kaynak metniyle listeler",
+    "version": "1.1.0",
+    "description": "Dogru upstream kaynak bulunmadan cevrilmeyecek bozuk, kesik veya yarim itemInfo lore metinlerini listeler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -16,6 +16,16 @@
     "The adventurers who are brave the item which is provided from the hazard adventurer guild.",
     "Take this certificate, do upgradable ^0000FFWeapon^000000 in ^8B4513Prontera Hall^000000,",
     "wearing this armor that has been accumulated for a long time.",
-    "priests who worshiped agility in Odin's power."
+    "priests who worshiped agility in Odin's power.",
+    "A spiritual scarf granted by Freya. It appears very sturdy,",
+    "A spiritual bracelet granted by Freya. It appears very sturdy,",
+    "The pieces are painted something. Although it does not look good.",
+    "The pieces are painted something. Although you don't know further reply.",
+    "element for the potion's active duration.",
+    "Warning - After using it, unless you choose the destination in 1 minute,",
+    "A suit of armor that allows the master to regain his life by taking the enemies",
+    "A box containing 1 egg scroll with the chance of obtaining",
+    "0 weight and cannot be equipped with a Pushcart,",
+    "A box with the phrase \\\"Thank you for pre-registering for"
   ]
 }
