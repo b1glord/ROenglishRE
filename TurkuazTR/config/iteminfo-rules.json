@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.49.0",
-    "description": "Count=2 itemInfo kuyrugundaki resistance, trigger, cooldown, recovery ve ek-paket sistem kaliplarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.49.1",
+    "description": "Count=2 itemInfo kuyrugundaki lowercase Boss fiziksel hasar ve status resistance varyantlarini kapatir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6305,6 +6305,18 @@
       "type": "regex",
       "pattern": "It can only be used on Helm of Faith helmets with refine level between \\+(\\d+) and \\+(\\d+)\\.",
       "replacement": "Yalnizca Gelistirme Seviyesi +\\1 ile +\\2 arasindaki Helm of Faith basliklarinda kullanilabilir."
+    },
+    {
+      "id": "status_resistance_to_colored_status",
+      "type": "regex",
+      "pattern": "Increases resistance to (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) status by (\\d+)%\\.",
+      "replacement": "\\1 durumuna direnci %\\2 artirir."
+    },
+    {
+      "id": "physical_boss_class_damage_lowercase",
+      "type": "regex",
+      "pattern": "Increases physical damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Fiziksel Hasari %\\2 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
