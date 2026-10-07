@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/iteminfo-exact.tr.json",
     "purpose": "itemInfo.lua icindeki tekil ve serbest oyuncu-gorunur aciklamalari exact kaynak eslesmesiyle ASCII Turkceye cevirir",
     "module": "Translation Data - JSON",
-    "version": "1.8.0",
-    "description": "Exact itemInfo lore overlay'ini altinci guvenli serbest aciklama paketiyle genisletir",
+    "version": "1.9.0",
+    "description": "Exact itemInfo lore overlay'ini yedinci guvenli serbest aciklama ve uyari paketiyle genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -540,6 +540,20 @@
     "Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja and Soul Linker classes": "Novice, Swordman, Archer, Thief, Wizard, Merchant, Ninja ve Soul Linker siniflari",
     "It seems difficult to handle unless you are capable.": "Yetenekli degilseniz kullanmasi zor gorunur.",
     "When used, it raises your Base Level by 1.": "Kullanildiginda Base Level'inizi 1 artirir.",
-    "White chocolate which is used to propose to a girl by a boy during White Day.": "White Day sirasinda bir erkegin bir kiza evlenme teklif etmek icin kullandigi beyaz cikolata."
+    "White chocolate which is used to propose to a girl by a boy during White Day.": "White Day sirasinda bir erkegin bir kiza evlenme teklif etmek icin kullandigi beyaz cikolata.",
+    "^ff0000The following special effects will disappear at the end of regular maintenance on December 28, 2012:^000000": "^ff0000Asagidaki ozel etkiler 28 Aralik 2012 tarihindeki duzenli bakimin sonunda kaybolacaktir:^000000",
+    "^ff0000Refining is only possible with the NPC \\\"Doraku Sewing Master\\\".": "^ff0000Gelistirme yalnizca NPC \\\"Doraku Sewing Master\\\" ile yapilabilir.",
+    "When you fail while upgrading defense weapon whose Refine Level is over +10, it won't be destroyed. (When the upgrade fails, Refine Level gets -1)": "+10 uzeri Gelistirme Seviyesine sahip savunma ekipmanini gelistirirken basarisiz olursaniz esya yok olmaz. (Basarisiz gelistirmede Gelistirme Seviyesi 1 azalir.)",
+    "^ff0000Caution! Does not stack with existing movement speed increase effects such as Increase Agility, Authoritative Badge, Moonlight Flower Card and Fantasy Series 001!^000000": "^ff0000Dikkat! Increase Agility, Authoritative Badge, Moonlight Flower Card ve Fantasy Series 001 gibi mevcut hareket hizi artisi etkileriyle birikmez!^000000",
+    "When compounded on ^990099Two-Handed Sword, Two-Handed Spear, Two-Handed Staff, Two-Handed Axe, Katar, Bow, Huuma Shuriken^000000 or any ^990099Firearm^000000 class weapon:": "^990099Two-Handed Sword, Two-Handed Spear, Two-Handed Staff, Two-Handed Axe, Katar, Bow, Huuma Shuriken^000000 veya herhangi bir ^990099Firearm^000000 sinifi silaha takildiginda:",
+    "^FF0000note: Only Blacksmith classes can use this.^000000": "^FF0000Not: Bunu yalnizca Blacksmith siniflari kullanabilir.^000000",
+    "15 Level 10 Increase Agility Scroll, 1 Kafra Card, 1 Token of Siegfried.": "15 adet Level 10 Increase Agility Scroll, 1 Kafra Card, 1 Token of Siegfried.",
+    "30 Level 10 Increase Agility Scroll, 2 Kafra Card, 2 Token of Siegfried.": "30 adet Level 10 Increase Agility Scroll, 2 Kafra Card, 2 Token of Siegfried.",
+    "All of the following items are included.": "Asagidaki esyalarin tamami dahildir.",
+    "Batch deletion at the end of the event.": "Etkinlik sonunda toplu olarak silinecektir.",
+    "Bonus items available with delicious Hanmac Food products.": "Lezzetli Hanmac Food urunleriyle bonus esyalar elde edilebilir.",
+    "Caution! - You cannot select a buff effect or an advanced package that overlaps the buff while it is active.": "Dikkat! Buff aktifken onunla cakisan bir buff etkisi veya gelismis paket secemezsiniz.",
+    "Disables Gemstone requirement of certain skills.": "Belirli becerilerin Gemstone gereksinimini devre disi birakir.",
+    "However, the following are not eligible.": "Ancak asagidakiler uygun degildir."
   }
 }
