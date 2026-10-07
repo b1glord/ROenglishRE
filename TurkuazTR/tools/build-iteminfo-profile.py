@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.1.4
-# Aciklama: Count-safe satir cache'ine ek olarak regex'in kesin literal prefix'i bulunmayan satirlarda regex motorunu atlar; byte-safe cikti semantigini korur
+# Version: 1.2.0
+# Aciklama: Canonical exact dosyasina ek final shard dosyalarini cakisma kontrollu birlestirir; byte-safe satir cache ve regex optimizasyonlarini korur
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -160,8 +160,21 @@ def build(profile: str) -> tuple[bytes, dict[str, object]]:
         raise ValueError(f"Unsupported item_info mode: {mode}")
 
     target_fields = {field.encode("ascii") for field in config["target_fields"]}
-    exact_path = REPO_ROOT / config["exact_translation_path"]
-    exact_translations = prepare_exact_translations(load_json(exact_path))
+    exact_paths = [
+        config["exact_translation_path"],
+        *config.get("exact_translation_extra_paths", []),
+    ]
+    exact_translations: dict[bytes, bytes] = {}
+    for relative_path in exact_paths:
+        exact_path = REPO_ROOT / relative_path
+        shard = prepare_exact_translations(load_json(exact_path))
+        for source_bytes, target_bytes in shard.items():
+            existing = exact_translations.get(source_bytes)
+            if existing is not None and existing != target_bytes:
+                raise ValueError(
+                    f"Conflicting item info exact translation: {source_bytes!r}"
+                )
+            exact_translations[source_bytes] = target_bytes
     rules = prepare_rules(config["rules"])
     counts: dict[str, int] = {}
     translation_cache: dict[bytes, tuple[bytes, dict[str, int]]] = {}
