@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.54.0",
-    "description": "Final itemInfo kuyrugundaki Combination Scroll, Diva, Mjolnir, donusum, auto-cast ve ortak esya lore ailelerini genellestirir",
+    "version": "1.55.0",
+    "description": "Final itemInfo kuyrugundaki blueprint, kitap, Moon Snack, batch kutusu ve skill kosulu ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6941,6 +6941,78 @@
       "type": "regex",
       "pattern": "^A (.+) forged from the regrets of people whose died in battlefield\\.$",
       "replacement": "Savas alaninda olenlerin pismanliklarindan dovulmus bir \\1."
+    },
+    {
+      "id": "adulter_fides_blueprint",
+      "type": "regex",
+      "pattern": "^A blueprint required to purify and reassemble the (Adulter Fides .+)\\.$",
+      "replacement": "\\1 esyasini aritip yeniden birlestirmek icin gereken bir blueprint."
+    },
+    {
+      "id": "mjolnir_magic_blueprint",
+      "type": "regex",
+      "pattern": "^A blueprint for enhancing the magical power of the (.+) found in (?:the )?Mjolnir(?:'s)? Underground Cave\\.$",
+      "replacement": "Mjolnir Underground Cave'de bulunan \\1 esyasinin buyu gucunu artirmak icin bir blueprint."
+    },
+    {
+      "id": "moon_snack_chinese_center",
+      "type": "regex",
+      "pattern": "^A Moon Snack which has (.+) written in the center in Chinese\\.$",
+      "replacement": "Ortasinda Cince \\1 yazan bir Moon Snack."
+    },
+    {
+      "id": "book_basics_for_living",
+      "type": "regex",
+      "pattern": "^A book with the basics for living as (?:a|an) (.+)\\.$",
+      "replacement": "\\1 olarak yasamanin temellerini anlatan bir kitap."
+    },
+    {
+      "id": "book_instructions_creating",
+      "type": "regex",
+      "pattern": "^A book with instructions for creating (.+)\\.$",
+      "replacement": "\\1 yapma talimatlarini iceren bir kitap."
+    },
+    {
+      "id": "book_instructions_catching_bottle",
+      "type": "regex",
+      "pattern": "^A book with instructions for catching (.+) and trapping them in bottles\\.$",
+      "replacement": "\\1 yakalayip siselere hapsetme talimatlarini iceren bir kitap."
+    },
+    {
+      "id": "magical_ingredients_bottle",
+      "type": "regex",
+      "pattern": "^A bottle containing magical ingredients extracted from (.+)\\.$",
+      "replacement": "\\1 kaynagindan cikarilan buyulu malzemeleri iceren bir sise."
+    },
+    {
+      "id": "attendance_days_box_seal",
+      "type": "regex",
+      "pattern": "^'(\\d+)Days attendance' are stamped on seal of this box\\.$",
+      "replacement": "Bu kutunun muhrunde '\\1 gunluk katilim' damgasi vardir."
+    },
+    {
+      "id": "activates_if_skill_level_learned",
+      "type": "regex",
+      "pattern": "^\\(Activates if (.+) Level (\\d+) or higher is learned\\.\\)$",
+      "replacement": "(\\1 Seviye \\2 veya uzeri ogrenildiyse etkinlesir.)"
+    },
+    {
+      "id": "must_learn_skill_for_autocast",
+      "type": "regex",
+      "pattern": "^\\(Must have learned Level (\\d+) (.+) or higher for auto-casting\\.\\)$",
+      "replacement": "(Otomatik kullanim icin Seviye \\1 \\2 veya uzeri ogrenilmis olmalidir.)"
+    },
+    {
+      "id": "user_must_learn_skill_for_autocast",
+      "type": "regex",
+      "pattern": "^\\(The user must have learned (.+) at Level (\\d+) or higher for auto-casting\\)\\.$",
+      "replacement": "(Otomatik kullanim icin \\1 Seviye \\2 veya uzeri ogrenilmis olmalidir.)"
+    },
+    {
+      "id": "skill_centered_on_caster",
+      "type": "regex",
+      "pattern": "^\\((\\^[0-9A-Fa-f]{6}.+?\\^000000) is centered around the caster\\.\\)$",
+      "replacement": "(\\1 kullanan kisinin merkezinde uygulanir.)"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
