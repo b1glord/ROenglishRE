@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.50.0",
-    "description": "Count=2 itemInfo kuyrugunda karmasik magical-element, Character Select, refine, envelope ve sistem cumlesi varyantlarini genellestirir",
+    "version": "1.51.0",
+    "description": "Final Turkce surum icin fiziksel/buyulu saldiri, otomatik skill, stat artisi, durum etkisi ve HP/SP emme-yenileme cumle ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6419,6 +6419,72 @@
       "type": "literal",
       "source": "Without changing the Refine Level, one type of physical option is given.",
       "translation": "Gelistirme Seviyesi degismeden bir tur fiziksel option verilir."
+    },
+    {
+      "id": "phys_attack_chance_increase_stat_duration",
+      "type": "regex",
+      "pattern": "^Physical attacks have a ([0-9.]+)% chance of increasing ([A-Z]+) by ([0-9]+)(%)? for ([0-9]+) seconds?\\.$",
+      "replacement": "Fiziksel saldirilarin %\\1 sansla \\5 saniye boyunca \\2 degerini \\3\\4 artirir."
+    },
+    {
+      "id": "magic_attack_chance_increase_stat_duration",
+      "type": "regex",
+      "pattern": "^Magical attacks have a ([0-9.]+)% chance of increasing ([A-Z]+) by ([0-9]+)(%)? for ([0-9]+) seconds?\\.$",
+      "replacement": "Buyulu saldirilarin %\\1 sansla \\5 saniye boyunca \\2 degerini \\3\\4 artirir."
+    },
+    {
+      "id": "phys_attack_chance_autocast_level",
+      "type": "regex",
+      "pattern": "^Physical attacks have a ([0-9.]+)% chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Fiziksel saldirilarin %\\1 sansla Seviye \\2 \\3 otomatik kullanir."
+    },
+    {
+      "id": "magic_attack_chance_autocast_level",
+      "type": "regex",
+      "pattern": "^Magical attacks have a ([0-9.]+)% chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Buyulu saldirilarin %\\1 sansla Seviye \\2 \\3 otomatik kullanir."
+    },
+    {
+      "id": "random_increase_stat_on_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to increase ([A-Z]+) by ([0-9]+)(%)? for ([0-9]+) seconds? when dealing physical (?:damage|attacks?)\\.*$",
+      "replacement": "Fiziksel hasar verirken rastgele bir sansla \\4 saniye boyunca \\1 degerini \\2\\3 artirir."
+    },
+    {
+      "id": "random_increase_stat_on_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to increase ([A-Z]+) by ([0-9]+)(%)? for ([0-9]+) seconds? when receiving physical damage\\.*$",
+      "replacement": "Fiziksel hasar alirken rastgele bir sansla \\4 saniye boyunca \\1 degerini \\2\\3 artirir."
+    },
+    {
+      "id": "random_inflict_status_on_target_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+?) status on the target when dealing physical damage\\.*$",
+      "replacement": "Fiziksel hasar verirken hedefe rastgele bir sansla \\1 durumu uygular."
+    },
+    {
+      "id": "random_inflict_status_on_target_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+?) status on the target when receiving physical damage\\.*$",
+      "replacement": "Fiziksel hasar alirken hedefe rastgele bir sansla \\1 durumu uygular."
+    },
+    {
+      "id": "phys_attack_absorb_damage_hp",
+      "type": "regex",
+      "pattern": "^Physical attacks have a ([0-9.]+)% chance to absorb ([0-9.]+)% of inflicted damage into HP\\.$",
+      "replacement": "Fiziksel saldirilarin %\\1 sansla verilen hasarin %\\2 kadarini HP olarak emer."
+    },
+    {
+      "id": "phys_attack_absorb_damage_sp",
+      "type": "regex",
+      "pattern": "^Physical attacks have a ([0-9.]+)% chance to absorb ([0-9.]+)% of inflicted damage into SP\\.$",
+      "replacement": "Fiziksel saldirilarin %\\1 sansla verilen hasarin %\\2 kadarini SP olarak emer."
+    },
+    {
+      "id": "magic_attack_chance_recover_per_second",
+      "type": "regex",
+      "pattern": "^Magical attacks have a ([0-9.]+)% chance to recover ([0-9]+) (HP|SP) per second for ([0-9]+) (seconds|times)\\.$",
+      "replacement": "Buyulu saldirilarin %\\1 sansla \\4 \\5 boyunca saniyede \\2 \\3 yeniler."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
