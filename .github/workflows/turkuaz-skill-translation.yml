@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.4.0
-# DESCRIPTION: Pending raporlarini yeniler; ortak tr_metadata itemInfo cikisini tek build ile Hybrid/Full TR/Bilingual profillerine dagitir ve bot commit'i ile saklar.
+# VERSION: 2.5.0
+# DESCRIPTION: Pending ve final batch raporlarini yeniler; ortak tr_metadata itemInfo cikisini tek build ile Hybrid/Full TR/Bilingual profillerine dagitir ve bot commit'i ile saklar.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -169,6 +169,7 @@ jobs:
           git add TurkuazTR/skillinfolist.pending.json
           git add TurkuazTR/skilldescript.pending.json
           git add TurkuazTR/iteminfo-lore.pending.json
+          git add TurkuazTR/iteminfo-lore.batch.json
           git add TurkuazTR/generated/english
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
