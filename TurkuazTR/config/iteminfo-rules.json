@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.52.0",
-    "description": "Final Turkce surum icin race/element/size hasar, SP tuketimi, deneyim, MDEF ve auto-cast cümle ailelerini genellestirir",
+    "version": "1.53.0",
+    "description": "Final Turkce surum icin random auto-cast, hedef, durum etkisi ve gecici artis cumle ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6713,6 +6713,162 @@
       "type": "regex",
       "pattern": "^Physical attacks have a chance to auto-cast Level ([0-9]+) (.+)[\\.,]$",
       "replacement": "Fiziksel saldirilarinda bir sansla Seviye \\1 \\2 otomatik kullanir."
+    },
+    {
+      "id": "random_autocast_on_melee_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to auto-cast (.+) when dealing melee physical attacks?\\.*$",
+      "replacement": "Yakin dovus fiziksel saldirisi yaparken rastgele bir sansla \\1 otomatik kullanir."
+    },
+    {
+      "id": "random_autocast_on_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to auto-cast (.+) when dealing physical (?:damage|attacks?)\\.*$",
+      "replacement": "Fiziksel hasar verirken rastgele bir sansla \\1 otomatik kullanir."
+    },
+    {
+      "id": "random_autocast_on_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to auto-cast (.+) when receiving physical (?:damage|attack)\\.*$",
+      "replacement": "Fiziksel hasar alirken rastgele bir sansla \\1 otomatik kullanir."
+    },
+    {
+      "id": "random_autocast_on_magical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to auto-cast (.+) when dealing magical (?:damage|attacks?)\\.*$",
+      "replacement": "Buyulu hasar verirken rastgele bir sansla \\1 otomatik kullanir."
+    },
+    {
+      "id": "random_autocast_when_attacking",
+      "type": "regex",
+      "pattern": "^Random chance to auto-cast (.+) when attacking\\.*$",
+      "replacement": "Saldirirken rastgele bir sansla \\1 otomatik kullanir."
+    },
+    {
+      "id": "phrase_on_wearer",
+      "type": "literal",
+      "source": " on wearer",
+      "translation": " kullanici uzerinde"
+    },
+    {
+      "id": "phrase_on_the_wearer",
+      "type": "literal",
+      "source": " on the wearer",
+      "translation": " kullanici uzerinde"
+    },
+    {
+      "id": "phrase_on_its_wearer",
+      "type": "literal",
+      "source": " on its wearer",
+      "translation": " kullanici uzerinde"
+    },
+    {
+      "id": "phrase_on_wielder",
+      "type": "literal",
+      "source": " on wielder",
+      "translation": " kullanan uzerinde"
+    },
+    {
+      "id": "phrase_on_the_user",
+      "type": "literal",
+      "source": " on the user",
+      "translation": " kullanici uzerinde"
+    },
+    {
+      "id": "phrase_on_user",
+      "type": "literal",
+      "source": " on user",
+      "translation": " kullanici uzerinde"
+    },
+    {
+      "id": "phrase_on_yourself",
+      "type": "literal",
+      "source": " on yourself",
+      "translation": " kendi uzerinde"
+    },
+    {
+      "id": "phrase_on_attacker",
+      "type": "literal",
+      "source": " on attacker",
+      "translation": " saldirgan uzerinde"
+    },
+    {
+      "id": "phrase_on_the_attacker",
+      "type": "literal",
+      "source": " on the attacker",
+      "translation": " saldirgan uzerinde"
+    },
+    {
+      "id": "phrase_on_the_target",
+      "type": "literal",
+      "source": " on the target",
+      "translation": " hedef uzerinde"
+    },
+    {
+      "id": "phrase_on_target",
+      "type": "literal",
+      "source": " on target",
+      "translation": " hedef uzerinde"
+    },
+    {
+      "id": "phrase_on_the_enemy",
+      "type": "literal",
+      "source": " on the enemy",
+      "translation": " dusman uzerinde"
+    },
+    {
+      "id": "phrase_on_enemy",
+      "type": "literal",
+      "source": " on enemy",
+      "translation": " dusman uzerinde"
+    },
+    {
+      "id": "phrase_on_master",
+      "type": "literal",
+      "source": " on master",
+      "translation": " sahibi uzerinde"
+    },
+    {
+      "id": "random_inflict_target_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+) on the target when dealing physical damage\\.*$",
+      "replacement": "Fiziksel hasar verirken hedefe rastgele bir sansla \\1 uygular."
+    },
+    {
+      "id": "random_inflict_attacker_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+) on attacker when receiving physical damage\\.*$",
+      "replacement": "Fiziksel hasar alirken saldirgana rastgele bir sansla \\1 uygular."
+    },
+    {
+      "id": "random_inflict_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+) when dealing physical damage\\.*$",
+      "replacement": "Fiziksel hasar verirken rastgele bir sansla \\1 uygular."
+    },
+    {
+      "id": "random_inflict_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to inflict (.+) when receiving physical damage\\.*$",
+      "replacement": "Fiziksel hasar alirken rastgele bir sansla \\1 uygular."
+    },
+    {
+      "id": "random_increase_effect_physical_deal",
+      "type": "regex",
+      "pattern": "^Random chance to increase (.+) for ([0-9]+) (?:seconds|sec) when dealing melee physical attacks?\\.*$",
+      "replacement": "Yakin dovus fiziksel saldirisi yaparken rastgele bir sansla \\2 saniye boyunca \\1 artirir."
+    },
+    {
+      "id": "random_increase_effect_physical_deal_general",
+      "type": "regex",
+      "pattern": "^Random chance to increase (.+) for ([0-9]+) (?:seconds|sec) when dealing physical (?:damage|attacks?)\\.*$",
+      "replacement": "Fiziksel hasar verirken rastgele bir sansla \\2 saniye boyunca \\1 artirir."
+    },
+    {
+      "id": "random_increase_effect_physical_receive",
+      "type": "regex",
+      "pattern": "^Random chance to increase (.+) for ([0-9]+) (?:seconds|sec) when receiving physical damage\\.*$",
+      "replacement": "Fiziksel hasar alirken rastgele bir sansla \\2 saniye boyunca \\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
