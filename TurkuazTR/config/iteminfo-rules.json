@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.14.0",
-    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda reflection, skill enable, konum hasari, periyodik recovery ve random stat buff kaliplarini byte-safe ASCII Turkceye cevirir",
+    "version": "1.15.0",
+    "description": "Item adlarini canonical tutar; exact lore overlay'i yaninda shabby/noble ekipman, lokasyon, iki-element, boss ve enchant kalip ailelerini byte-safe ASCII Turkceye cevirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -3221,6 +3221,72 @@
       "type": "regex",
       "pattern": "Ignores physical defense of target by (\\d+)%\\.",
       "replacement": "Hedefin fiziksel savunmasini %\\1 yok sayar."
+    },
+    {
+      "id": "shabby_nonfunctional_item",
+      "type": "regex",
+      "pattern": "A (.+?) that is shabby and nonfunctional\\.",
+      "replacement": "Yipranmis ve kullanilamaz durumda olan bir \\1."
+    },
+    {
+      "id": "noble_rune_midgards_equipment",
+      "type": "regex",
+      "pattern": "Noble (.+?) with the emblem of Rune-Midgards",
+      "replacement": "Rune-Midgards amblemli asil \\1"
+    },
+    {
+      "id": "noble_rune_midgards_engraved",
+      "type": "regex",
+      "pattern": "Noble (.+?) engraved with the emblem of Rune-Midgards",
+      "replacement": "Rune-Midgards amblemi islenmis asil \\1"
+    },
+    {
+      "id": "damage_two_elements",
+      "type": "regex",
+      "pattern": "Increases Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementindeki dusmanlara verilen Hasari %\\3 artirir."
+    },
+    {
+      "id": "damage_location_monsters_additional",
+      "type": "regex",
+      "pattern": "Increases Damage against monsters in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 icindeki canavarlara verilen Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "physical_damage_location_monsters",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters in (\\^[0-9A-Fa-f]{6}[^\\r\\n]+?\\^000000) by (\\d+)%\\.",
+      "replacement": "\\1 icindeki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "physical_boss_class_damage",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "magical_monsters_every_race_except_players",
+      "type": "regex",
+      "pattern": "Increases Magical Damage against monsters of every race, except (\\^FF0000Players\\^000000), by (\\d+)%\\.",
+      "replacement": "\\1 haric tum irklardaki canavarlara Buyu Hasarini %\\2 artirir."
+    },
+    {
+      "id": "costume_slot_compound_effect_generic",
+      "type": "regex",
+      "pattern": "Gives the following effects when compounded on slot of an (Costume (?:Lower|Middle|Upper) Headgear|Costume Garment)\\.",
+      "replacement": "\\1 slotuna takildiginda asagidaki etkileri verir."
+    },
+    {
+      "id": "enriched_elunium_refine_probability",
+      "type": "literal",
+      "source": "Enriched Elunium - Increases the probability of the refining armor.",
+      "translation": "Enriched Elunium - Zirh gelistirme basari olasiligini artirir."
+    },
+    {
+      "id": "enriched_oridecon_refine_probability",
+      "type": "literal",
+      "source": "Enriched Oridecon - Increases the probability of the refining weapon.",
+      "translation": "Enriched Oridecon - Silah gelistirme basari olasiligini artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
