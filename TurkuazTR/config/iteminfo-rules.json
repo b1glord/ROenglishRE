@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.40.0",
-    "description": "Count=2 itemInfo kuyrugundaki Magical Damage, MaxHP/MaxSP, Melee ve SP Recovery varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
+    "version": "1.41.0",
+    "description": "Count=2 itemInfo kuyrugundaki Physical Damage, class/race/element/size ve karma hasar varyantlarini byte-safe ASCII Turkce kurallarla genisletir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -5849,6 +5849,156 @@
       "type": "regex",
       "pattern": "Increases Normal Physical Damage by additional (\\d+)%\\.",
       "replacement": "Normal Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "phys_players_bypass",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against (\\^FF0000Players\\^000000) by (\\d+)% and bypasses (\\d+)% physical defense\\.",
+      "replacement": "\\1 hedeflerine Fiziksel Hasari %\\2 artirir ve fiziksel savunmanin %\\3'unu yok sayar."
+    },
+    {
+      "id": "phys_enemies_in_race_plain",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies in (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindaki dusmanlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "phys_enemies_in_race_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies in (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.?",
+      "replacement": "\\1 irkindaki dusmanlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "phys_named_three",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of Bakonawa, Bangungot and Buwaya by (\\d+)%\\.",
+      "replacement": "Bakonawa, Bangungot ve Buwaya dusmanlarina Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "phys_element_race_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental and (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 elementi ve \\2 irkindaki dusmanlara Fiziksel Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "phys_element_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 elementindeki dusmanlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "phys_two_elements_plain",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) element by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerindeki dusmanlara Fiziksel Hasari %\\3 artirir."
+    },
+    {
+      "id": "phys_two_elements_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) elemental by additional (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 elementlerindeki dusmanlara Fiziksel Hasari ek %\\3 artirir."
+    },
+    {
+      "id": "phys_class_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by additional (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki dusmanlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "phys_race_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by additional (\\d+)%\\.",
+      "replacement": "\\1 irkindaki dusmanlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "phys_two_sizes_sized",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) sized enemies by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 boyutundaki dusmanlara Fiziksel Hasari %\\3 artirir."
+    },
+    {
+      "id": "phys_all_enemies",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of all enemies by (\\d+)%\\.",
+      "replacement": "Tum dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "phys_all_size_monsters",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of all size monsters by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki canavarlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "phys_enemies_every_race_typo",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of enemies of every race by (\\d+)%\\.",
+      "replacement": "Tum irklardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "phys_every_class_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every class by additional (\\d+)%\\.",
+      "replacement": "Tum siniflardaki dusmanlara Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "phys_every_element_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of every element by additional (\\d+)%\\.",
+      "replacement": "Tum elementlerdeki dusmanlara Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "phys_on_every_size_typo",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against enemies of on every size by (\\d+)%\\.",
+      "replacement": "Tum boyutlardaki dusmanlara Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "phys_location_add",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters in (\\^[0-9A-Fa-f]{6}[^\\^\\r\\n]+?\\^000000) by additional (\\d+)%\\.",
+      "replacement": "\\1 icindeki canavarlara Fiziksel Hasari ek %\\2 artirir."
+    },
+    {
+      "id": "phys_two_classes",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) and (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 ve \\2 sinifindaki canavarlara Fiziksel Hasari %\\3 artirir."
+    },
+    {
+      "id": "phys_monster_class",
+      "type": "regex",
+      "pattern": "Increases Physical Damage against monsters of (\\^FF0000[^\\^\\r\\n]+?\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "phys_mag_every_element",
+      "type": "regex",
+      "pattern": "Increases Physical Damage and Magical Damage with every element by (\\d+)%\\.",
+      "replacement": "Fiziksel Hasari ve tum elementlerle Buyu Hasarini %\\1 artirir."
+    },
+    {
+      "id": "phys_mag_every_element_timed_typo",
+      "type": "regex",
+      "pattern": "Increases Physical Damage and Magical Damage with every elemnent by (\\d+)% for (\\d+) minutes\\.",
+      "replacement": "Fiziksel Hasari ve tum elementlerle Buyu Hasarini \\2 dakika boyunca %\\1 artirir."
+    },
+    {
+      "id": "phys_taken_race",
+      "type": "regex",
+      "pattern": "Increases Physical Damage taken from (\\^FF0000[^\\^\\r\\n]+?\\^000000) race by (\\d+)%\\.",
+      "replacement": "\\1 irkindan alinan Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "phys_lower_boss",
+      "type": "regex",
+      "pattern": "Increases Physical damage against monsters of (\\^FF0000Boss\\^000000) class by (\\d+)%\\.",
+      "replacement": "\\1 sinifindaki canavarlara Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "ranged_mag_every_element",
+      "type": "regex",
+      "pattern": "Increases Ranged Physical Damage and Magical Damage with every element by (\\d+)%\\.",
+      "replacement": "Menzilli Fiziksel Hasari ve tum elementlerle Buyu Hasarini %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
