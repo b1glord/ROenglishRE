@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.51.0",
-    "description": "Final Turkce surum icin fiziksel/buyulu saldiri, otomatik skill, stat artisi, durum etkisi ve HP/SP emme-yenileme cumle ailelerini genellestirir",
+    "version": "1.52.0",
+    "description": "Final Turkce surum icin race/element/size hasar, SP tuketimi, deneyim, MDEF ve auto-cast cümle ailelerini genellestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -6485,6 +6485,234 @@
       "type": "regex",
       "pattern": "^Magical attacks have a ([0-9.]+)% chance to recover ([0-9]+) (HP|SP) per second for ([0-9]+) (seconds|times)\\.$",
       "replacement": "Buyulu saldirilarin %\\1 sansla \\4 \\5 boyunca saniyede \\2 \\3 yeniler."
+    },
+    {
+      "id": "inc_phys_enemy_monsters",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) monsters by ([0-9.]+)%\\.$",
+      "replacement": "\\1 canavarlarina karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_enemy_monsters_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) monsters by additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 canavarlarina karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_enemy_race",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) race by ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan dusmanlara karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_enemy_race_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) race by additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan dusmanlara karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_enemy_element",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) element(?:al)? by ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki dusmanlara karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_enemy_element_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against enemies of (.+) element(?:al)? by additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki dusmanlara karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_race",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) race by ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan canavarlara karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_race_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) race by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan canavarlara karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_element",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) element(?:al)? by ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki canavarlara karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_element_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) element(?:al)? by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki canavarlara karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_size",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) size by ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlara karsi Fiziksel Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_phys_monsters_size_add",
+      "type": "regex",
+      "pattern": "^Increases Physical Damage against monsters of (.+) size by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlara karsi Fiziksel Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_race",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) race by ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan canavarlara karsi Buyulu Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_race_add",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) race by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 irkindan canavarlara karsi Buyulu Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_element",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) element(?:al)? by ([0-9.]+)%\\.?$",
+      "replacement": "\\1 elementindeki canavarlara karsi Buyulu Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_element_add",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) element(?:al)? by (?:an )?additional ([0-9.]+)%\\.?$",
+      "replacement": "\\1 elementindeki canavarlara karsi Buyulu Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_size",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) size by ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlara karsi Buyulu Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_magic_monsters_size_add",
+      "type": "regex",
+      "pattern": "^Increases Magical Damage against monsters of (.+) size by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlara karsi Buyulu Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "dec_damage_monsters",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) monsters by ([0-9.]+)%\\.?$",
+      "replacement": "\\1 canavarlarindan alinan Hasari %\\2 azaltir."
+    },
+    {
+      "id": "dec_damage_monsters_add",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) monsters by (?:an )?additional ([0-9.]+)%\\.?$",
+      "replacement": "\\1 canavarlarindan alinan Hasari ek olarak %\\2 azaltir."
+    },
+    {
+      "id": "dec_damage_element_attacks",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) elemental attacks by ([0-9.]+)%\\.$",
+      "replacement": "\\1 element saldirilarindan alinan Hasari %\\2 azaltir."
+    },
+    {
+      "id": "dec_damage_element_attacks_add",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) elemental attacks by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 element saldirilarindan alinan Hasari ek olarak %\\2 azaltir."
+    },
+    {
+      "id": "dec_damage_size_monsters",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) size monsters by ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlardan alinan Hasari %\\2 azaltir."
+    },
+    {
+      "id": "dec_damage_size_monsters_add",
+      "type": "regex",
+      "pattern": "^Decreases Damage taken from (.+) size monsters by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 boyuttaki canavarlardan alinan Hasari ek olarak %\\2 azaltir."
+    },
+    {
+      "id": "inc_damage_monsters_element",
+      "type": "regex",
+      "pattern": "^Increases Damage against monsters of (.+) element by ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki canavarlara karsi Hasari %\\2 artirir."
+    },
+    {
+      "id": "inc_damage_monsters_element_add",
+      "type": "regex",
+      "pattern": "^Increases Damage against monsters of (.+) element by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki canavarlara karsi Hasari ek olarak %\\2 artirir."
+    },
+    {
+      "id": "dec_sp_skill_percent",
+      "type": "regex",
+      "pattern": "^Decreases SP Consumption of (.+) by ([0-9.]+)%\\.$",
+      "replacement": "\\1 icin SP tuketimini %\\2 azaltir."
+    },
+    {
+      "id": "dec_sp_skill_percent_add",
+      "type": "regex",
+      "pattern": "^Decreases SP Consumption of (.+) by (?:an )?additional ([0-9.]+)%\\.$",
+      "replacement": "\\1 icin SP tuketimini ek olarak %\\2 azaltir."
+    },
+    {
+      "id": "inc_exp_race",
+      "type": "regex",
+      "pattern": "^Increases experience gained from (.+) race monsters by ([0-9.]+)%\\.$",
+      "replacement": "\\1 irki canavarlarindan kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "inc_exp_element",
+      "type": "regex",
+      "pattern": "^Increases experience gained from (.+) elemental monsters by ([0-9.]+)%\\.$",
+      "replacement": "\\1 elementindeki canavarlardan kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "ignore_mdef_race",
+      "type": "regex",
+      "pattern": "^Ignores magical defense of enemies of (.+) race by ([0-9.]+)%\\.(?:\\(Except Players\\))?$",
+      "replacement": "\\1 irkindan dusmanlarin buyulu savunmasinin %\\2 kadarini yok sayar."
+    },
+    {
+      "id": "ignore_mdef_race_add",
+      "type": "regex",
+      "pattern": "^Ignores magical defense of enemies of (.+) race by (?:an )?additional ([0-9.]+)%\\.(?:\\(Except Players\\))?$",
+      "replacement": "\\1 irkindan dusmanlarin buyulu savunmasinin ek olarak %\\2 kadarini yok sayar."
+    },
+    {
+      "id": "phys_melee_autocast_pct",
+      "type": "regex",
+      "pattern": "^Physical melee attacks have a ([0-9.]+)% chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Yakin dovus fiziksel saldirilarinin %\\1 sansla Seviye \\2 \\3 otomatik kullanir."
+    },
+    {
+      "id": "phys_melee_autocast_certain",
+      "type": "regex",
+      "pattern": "^Physical melee attacks have a certain chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Yakin dovus fiziksel saldirilarinda rastgele bir sansla Seviye \\1 \\2 otomatik kullanir."
+    },
+    {
+      "id": "phys_melee_autocast_chance",
+      "type": "regex",
+      "pattern": "^Physical melee attacks have a chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Yakin dovus fiziksel saldirilarinda bir sansla Seviye \\1 \\2 otomatik kullanir."
+    },
+    {
+      "id": "phys_melee_autocast_low",
+      "type": "regex",
+      "pattern": "^Physical melee attacks have a low chance to auto-cast Level ([0-9]+) (.+)\\.$",
+      "replacement": "Yakin dovus fiziksel saldirilarinda dusuk bir sansla Seviye \\1 \\2 otomatik kullanir."
+    },
+    {
+      "id": "phys_autocast_certain",
+      "type": "regex",
+      "pattern": "^Physical attacks have a certain chance to auto-cast Level ([0-9]+) (.+)[\\.,]$",
+      "replacement": "Fiziksel saldirilarinda rastgele bir sansla Seviye \\1 \\2 otomatik kullanir."
+    },
+    {
+      "id": "phys_autocast_chance",
+      "type": "regex",
+      "pattern": "^Physical attacks have a chance to auto-cast Level ([0-9]+) (.+)[\\.,]$",
+      "replacement": "Fiziksel saldirilarinda bir sansla Seviye \\1 \\2 otomatik kullanir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
