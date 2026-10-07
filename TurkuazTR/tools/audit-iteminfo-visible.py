@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.7.0
-# Aciklama: Kaynak veya generated itemInfo profilini tarar; base-stat, Grade/stat, loot-oran ve uzun canonical baslik/listeleri teknik metin olarak eleyip lore adaylarini raporlar
+# Version: 1.7.1
+# Aciklama: Kaynak veya generated itemInfo profilini tarar; base-stat, Grade/stat ve loot-oran satirlarini teknik metin olarak eleyip lore adaylarini guvenli bicimde raporlar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -57,8 +57,6 @@ STAT_ASSIGN_RE = re.compile(
 )
 SHORT_CANONICAL_RE = re.compile(r"^[A-Z][A-Za-z0-9'().-]*(?:[ ,/-]+[A-Z][A-Za-z0-9'().-]*){0,3}$")
 LOOT_RATE_RE = re.compile(r"^.+?\s+x\d+\s+\d+(?:\.\d+)?%,?$")
-CANONICAL_CONNECTORS = frozenset({"a", "an", "and", "of", "or", "the"})
-SENTENCE_END_MARKS = (".", "!", "?")
 
 
 def grade_stat_only(value: str) -> bool:
@@ -68,26 +66,6 @@ def grade_stat_only(value: str) -> bool:
     body = match.group(1).rstrip(".")
     parts = [part.strip() for part in body.split(",") if part.strip()]
     return bool(parts) and all(STAT_ASSIGN_RE.fullmatch(part) for part in parts)
-
-
-def canonical_title_like(value: str) -> bool:
-    if any(mark in value for mark in SENTENCE_END_MARKS):
-        return False
-    words = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?|\\d+(?:st|nd|rd|th)?", value)
-    if len(words) < 5:
-        return False
-    content_words = [
-        word for word in words
-        if word.lower() not in CANONICAL_CONNECTORS
-    ]
-    if not content_words:
-        return False
-    title_words = sum(
-        1
-        for word in content_words
-        if word[0].isupper() or word.isupper() or word[0].isdigit()
-    )
-    return title_words / len(content_words) >= 0.8
 
 
 def lore_candidate(value: str) -> bool:
@@ -105,8 +83,6 @@ def lore_candidate(value: str) -> bool:
     ):
         return False
     if SHORT_CANONICAL_RE.fullmatch(clean) and len(clean.split()) <= 4:
-        return False
-    if canonical_title_like(clean):
         return False
     words = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", clean)
     if len(words) < 5:
