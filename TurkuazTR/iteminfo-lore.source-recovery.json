@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/iteminfo-lore.source-recovery.json",
     "purpose": "Anlami bozuk, kesik veya kaynak kalitesi yetersiz itemInfo lore metinlerini ceviri kuyrugundan ayirir",
     "module": "Translation Recovery - JSON",
-    "version": "1.2.1",
-    "description": "Dogru upstream kaynak bulunmadan cevrilmeyecek bozuk, kesik, yarim veya baglamsiz itemInfo lore metinlerini listeler; kesik STOVE satirini recovery'ye ayirir",
+    "version": "1.2.2",
+    "description": "Dogru upstream kaynak bulunmadan cevrilmeyecek bozuk, kesik, yarim veya baglamsiz itemInfo lore metinlerini listeler; yarim Pendant Gemstone kaynagini recovery'ye ayirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -30,6 +30,7 @@
     "'Why doesn't it blink normally?' Let's do not know the question.",
     "... Kiel Hyre's School Entrance Thanatos Tower Entrance The Abyss Lakes Entrance",
     "1 Potion Box, 1 Poison Bottle Box, 1 [NotForSale] Small Life Potion Box,",
-    "the STOVE Channeling service\\\" engraved on the bottom."
+    "the STOVE Channeling service\\\" engraved on the bottom.",
+    "Pendant Gemstone of Force can be obtained from"
   ]
 }
