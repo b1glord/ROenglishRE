@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-iteminfo-lore-pending.py
 # 📌 Amac: itemInfo Turkce profilinde degismeden kalan gercek lore/aciklama cumlelerini canonical teknik metinlerden ayirip pending raporu uretir
 # 📌 Tool - Python
-# Version: 1.0.0
-# Aciklama: Baseline itemInfo ile generated full_tr profilini karsilastirir ve yalniz lore_candidate filtresinden gecen degismemis aciklamalari frekans sirali JSON raporuna yazar
+# Version: 1.1.0
+# Aciklama: Baseline itemInfo ile generated full_tr profilini karsilastirir; source-recovery metinlerini ayirip yalniz guvenli lore adaylarini frekans sirali JSON raporuna yazar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -17,6 +17,7 @@ AUDIT_PATH = REPO_ROOT / "TurkuazTR/tools/audit-iteminfo-visible.py"
 SOURCE = REPO_ROOT / "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
 GENERATED = REPO_ROOT / "TurkuazTR/generated/full_tr/SystemEN/LuaFiles514/itemInfo.lua"
 OUTPUT = REPO_ROOT / "TurkuazTR/iteminfo-lore.pending.json"
+RECOVERY = REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json"
 
 
 def load_audit_module():
@@ -37,10 +38,15 @@ def main() -> int:
         source_data["natural_description"]
         & generated_data["natural_description"]
     )
+    recovery_payload = json.loads(RECOVERY.read_text(encoding="utf-8"))
+    recovery_texts = set(recovery_payload.get("candidates", []))
+    recovery_occurrences = sum(
+        count for text, count in unchanged.items() if text in recovery_texts
+    )
     rows = [
         {"text": text, "count": count}
         for text, count in unchanged.items()
-        if audit.lore_candidate(text)
+        if audit.lore_candidate(text) and text not in recovery_texts
     ]
     rows.sort(key=lambda row: (-row["count"], row["text"]))
 
@@ -55,6 +61,9 @@ def main() -> int:
         },
         "source_path": str(SOURCE.relative_to(REPO_ROOT)),
         "generated_path": str(GENERATED.relative_to(REPO_ROOT)),
+        "source_recovery_path": str(RECOVERY.relative_to(REPO_ROOT)),
+        "source_recovery_candidate_count": len(recovery_texts),
+        "source_recovery_occurrences": recovery_occurrences,
         "candidate_count": len(rows),
         "candidate_occurrences": sum(row["count"] for row in rows),
         "candidates": rows,
