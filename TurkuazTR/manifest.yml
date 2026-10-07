@@ -244,9 +244,9 @@ sync:
     legacy_turkish_recovery_fields: 0
     builder: "TurkuazTR/tools/build-iteminfo-profile.py"
     rules: "TurkuazTR/config/iteminfo-rules.json"
-    rule_count: 732
+    rule_count: 773
     exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
-    exact_translation_entries: 2070
+    exact_translation_entries: 2080
     lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
@@ -259,7 +259,7 @@ sync:
     last_validated_unique_unchanged_natural_description_count: 37069
     last_validated_lore_candidate_occurrences: 27152
     last_validated_unique_lore_candidate_count: 23927
-    last_validated_metrics_note: "Son generated pending Skill Translation run 262 / 8d66c69 sonrasinda 22950 unique / 24608 occurrence; 2070 exact ve 732 rule seviyesindeki yeni batchler regeneration sonrasi bu sayiyi daha da dusurecek"
+    last_validated_metrics_note: "Son generated pending Skill Translation run 262 / 8d66c69 sonrasinda 22950 unique / 24608 occurrence; 2080 exact ve 773 rule seviyesindeki yeni batchler regeneration sonrasi bu sayiyi daha da dusurecek"
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
