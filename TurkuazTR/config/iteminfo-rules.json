@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.65.0",
-    "description": "v1.123.0: experience, size, refine usage, autocast ve ek icerik kaliplari",
+    "version": "1.67.0",
+    "description": "v1.124.0: tipli hasar, healing, status, refine ve auto-cast ceviri kaliplari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8369,6 +8369,84 @@
       "type": "regex",
       "pattern": "\"It also contains ([^\"^]+)\\.(?=\")",
       "replacement": "\"Ayrica \\1 icerir."
+    },
+    {
+      "id": "lore_v1124_physical_enemies_extra",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of ([^\"]+?) by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen fiziksel hasari ek %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_physical_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen fiziksel hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_physical_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen fiziksel hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_enemies_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of ([^\"]+?) by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen buyu hasarini ek %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen buyu hasarini %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_damage_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_damage_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen buyu hasarini %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_received_healing",
+      "type": "regex",
+      "pattern": "\"Increases received (\\^009900[^\"^]*\\^000000) amount by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Alinan \\1 miktarini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1124_status_resistance",
+      "type": "regex",
+      "pattern": "\"Increases resistance against (\\^663399[^\"^]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 durumuna karsi direnci %\\2 artirir."
+    },
+    {
+      "id": "lore_v1124_refine_item",
+      "type": "regex",
+      "pattern": "\"Increases the refine level of a \\+([0-9]+) ([^\"]+?) by \\+([0-9]+)\\.(?=\")",
+      "replacement": "\"+\\1 seviyesindeki \\2 esyasinin Gelistirme Seviyesini +\\3 artirir."
+    },
+    {
+      "id": "lore_v1124_autocast_additional_chance",
+      "type": "regex",
+      "pattern": "\"Increases the chance to auto-cast (\\^009900[^\"^]*\\^000000) by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisini otomatik kullanma sansini ek %\\2 artirir."
+    },
+    {
+      "id": "lore_v1124_inflict_status_chance",
+      "type": "regex",
+      "pattern": "\"Increases the chance of inflicting (\\^663399[^\"^]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 durumu uygulama sansini %\\2 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
