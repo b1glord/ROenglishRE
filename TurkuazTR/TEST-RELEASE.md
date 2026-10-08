@@ -2,12 +2,12 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.1.1
-Aciklama: v1.109.0 icin 2026.10.08-test.2 paketleme ve manuel client kabul kapilarini belgeler
+Version: 1.2.0
+Aciklama: v1.110.0 icin 2026.10.08-test.3 paketleme gate'ini acarken test.2 provenance bilgisini korur
 Bagimli Oldugu Katman: View
 -->
 
-# TurkuazTR 2026.10.08-test.2
+# TurkuazTR 2026.10.08-test.3
 
 Bu surum son kullanici final release'i degildir. Amac, generated localization profillerini gercek client uzerinde guvenli sekilde test etmektir.
 
@@ -34,9 +34,17 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 
 ## Bilinen test-surumu siniri
 
-`itemInfo.lua` serbest lore migration'i devam etmektedir. Yeni v1.109.0 generated snapshot 10273 benzersiz / 10273 occurrence seviyesindedir. Canli degerin kaynagi `TurkuazTR/iteminfo-lore.pending.json` dosyasidir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
+`itemInfo.lua` serbest lore migration'i devam etmektedir. Yeni v1.110.0 generated snapshot 9984 benzersiz / 9984 occurrence seviyesindedir. Canli degerin kaynagi `TurkuazTR/iteminfo-lore.pending.json` dosyasidir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
 
-## v1.109.0 yeni test candidate
+## v1.110.0 yeni test candidate
+
+- Test adayi: `2026.10.08-test.3`.
+- Exact ceviri: ana 2984 + final 9722 = 12706.
+- Lore pending: 9984 benzersiz / 9984 occurrence.
+- Paketleme durumu: yeni ZIP/SHA-256/JSON kontrolu bekliyor; onceki paket sonucu devralinmaz.
+- Gercek 2022 client smoke testi ayrica yapilmalidir.
+
+## Onceki v1.109.0 test candidate
 
 - Test adayi: `2026.10.08-test.2`.
 - Exact ceviri: ana 2984 + final 9433 = 12417.
