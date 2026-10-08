@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.54.1
-# Aciklama: Upstream 2026, Turkce overlay, itemInfo migration ve test release paketleme gate'lerini sabitler
+# Version: 2.54.2
+# Aciklama: v1.106.0 exact shard ve generated pending metriklerini canonical raporla hizalar
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -31,8 +31,8 @@ test_release:
   packaging_tool: "TurkuazTR/tools/build-test-package.py"
   workflow: ".github/workflows/turkuaz-test-release.yml"
   profiles: "english,hybrid,full_tr,bilingual"
-  item_info_pending_unique: 21020
-  item_info_pending_occurrences: 21698
+  item_info_pending_unique: 10672
+  item_info_pending_occurrences: 10672
   item_info_policy: "test_surumunde_ingilizce_fallback_korunur_final_release_gate_degildir"
 
 sync:
@@ -259,20 +259,23 @@ sync:
     rules: "TurkuazTR/config/iteminfo-rules.json"
     rule_count: 1067
     exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
-    exact_translation_entries: 2227
+    exact_translation_entries: 2984
+    final_exact_translation: "TurkuazTR/config/iteminfo-exact-final.tr.json"
+    final_exact_translation_entries: 9034
+    total_exact_translation_entries: 12018
     lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
-    lore_source_recovery_candidates: 32
-    last_generated_lore_pending_candidates: 21022
-    last_generated_lore_pending_occurrences: 21695
+    lore_source_recovery_candidates: 35
+    last_generated_lore_pending_candidates: 10672
+    last_generated_lore_pending_occurrences: 10672
     last_validated_replacements_per_tr_profile: 151926
     last_validated_applied_rule_count: 161
     last_validated_unchanged_natural_description_occurrences: 63212
     last_validated_unique_unchanged_natural_description_count: 37069
     last_validated_lore_candidate_occurrences: 27152
     last_validated_unique_lore_candidate_count: 23927
-    last_validated_metrics_note: "Count=2 It is said/costume ve magical-element/system batchleri sonrasinda generated pending 21022 unique / 21695 occurrence; exact 2227, rule 1067, source-recovery 32"
+    last_validated_metrics_note: "2026-10-08 v1.106.0 sonrasi exact primary 2984, final 9034, total 12018; generated pending 10672 unique / 10672 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
