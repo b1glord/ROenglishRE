@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.20.2
+# Version: 1.20.3
 # Aciklama: En yeni branch head'ini concurrency ile tek gate olarak tutar; translation, itemInfo, overlay, byte-safe ve test-package Python kontrollerini calistirir
 # Bagimli Oldugu Katman: Tool
 
@@ -81,6 +81,7 @@ jobs:
             TurkuazTR/tools/audit-iteminfo-visible.py \
             TurkuazTR/tools/audit-iteminfo-legacy.py \
             TurkuazTR/tools/build-iteminfo-profile.py \
+            TurkuazTR/tools/sync-iteminfo-manifest.py \
             TurkuazTR/tools/build-test-package.py \
             TurkuazTR/tools/extract-skillinfolist-pending.py \
             TurkuazTR/tools/extract-skilldescript-pending.py
