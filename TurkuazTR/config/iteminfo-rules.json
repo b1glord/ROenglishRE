@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.65.0",
-    "description": "v1.123.0: experience, size, refine usage, autocast ve ek icerik kaliplari",
+    "version": "1.66.0",
+    "description": "v1.124.0: fiziksel ve buyulu saldiri hasari aciklamalarini sayi/tag koruyarak Turkcelestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8369,6 +8369,54 @@
       "type": "regex",
       "pattern": "\"It also contains ([^\"^]+)\\.(?=\")",
       "replacement": "\"Ayrica \\1 icerir."
+    },
+    {
+      "id": "lore_v1124_physical_enemies_extra",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of ([^\"]+?) by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen fiziksel hasari ek %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_physical_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen fiziksel hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_physical_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen fiziksel hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_enemies_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of ([^\"]+?) by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen buyu hasarini ek %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen buyu hasarini %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_damage_enemies",
+      "type": "regex",
+      "pattern": "\"Increases Damage against enemies of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 dusmanlarina verilen hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_damage_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen hasari %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1124_magical_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of ([^\"]+?) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen buyu hasarini %\\2 artirir\\3"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
