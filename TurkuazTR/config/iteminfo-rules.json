@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.60.0",
-    "description": "v1.115.0 itemInfo hasar, beceri, irk, element, buyu ve kritik bonusa yonelik korumali regex kurallari",
+    "version": "1.61.0",
+    "description": "v1.116.0 HP recovery, physical/magical defense bypass ve sureli status metinlerini Turkcelestirir",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7397,6 +7397,222 @@
       "type": "regex",
       "pattern": "\"Increases Damage against enemies of every race by additional ([0-9]+)%\\.(?=\")",
       "replacement": "\"Her irktan dusmana verilen hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1116_ignore_magic_element_race",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementinin ve \\2 irkinin buyu savunmasinin %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_element_race_add",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementinin ve \\2 irkinin buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_race_except_two",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\(except players\\) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Oyuncular haric \\1 ve \\2 irklarinin buyu savunmasinin %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_race_except_two_add",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\(except players\\) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Oyuncular haric \\1 ve \\2 irklarinin buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_race_caps_except_two",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\(except Players\\) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Oyuncular haric \\1 ve \\2 irklarinin buyu savunmasinin %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_race_caps_except_two_add",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\(except Players\\) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Oyuncular haric \\1 ve \\2 irklarinin buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_magic_every_race",
+      "type": "regex",
+      "pattern": "\"Ignores physical and magical defense from enemies of every race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum irklardaki dusmanlarin fiziksel ve buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_magic_all_except",
+      "type": "regex",
+      "pattern": "\"Ignores physical and magical defense of all monsters, except (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 haric tum canavarlarin fiziksel ve buyu savunmasinin %\\2'sini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_magic_enemies",
+      "type": "regex",
+      "pattern": "\"Ignores physical and magical defense of enemies by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Dusmanlarin fiziksel ve buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_magic_two_races",
+      "type": "regex",
+      "pattern": "\"Ignores physical and magical defense of monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 irkindeki canavarlarin fiziksel ve buyu savunmasinin %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_magic_two_races_add",
+      "type": "regex",
+      "pattern": "\"Ignores physical and magical defense of monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 irkindeki canavarlarin fiziksel ve buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_single_race",
+      "type": "regex",
+      "pattern": "\"Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlarin fiziksel savunmasinin %\\2'sini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_single_race_add",
+      "type": "regex",
+      "pattern": "\"Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race monsters by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlarin fiziksel savunmasinin ek %\\2'sini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_single_class",
+      "type": "regex",
+      "pattern": "\"Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class enemies by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifindaki dusmanlarin fiziksel savunmasinin %\\2'sini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_single_class_add",
+      "type": "regex",
+      "pattern": "\"Ignores physical defense of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class enemies by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifindaki dusmanlarin fiziksel savunmasinin ek %\\2'sini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_every_race",
+      "type": "regex",
+      "pattern": "\"Ignores physical defense of monsters of every race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her irktan canavarin fiziksel savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magical_every_race",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of every race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum irklarin buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magical_all_monsters",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of enemies of all monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum canavar dusmanlarin buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magic_all_monsters",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of enemies of every class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her siniftaki dusmanin buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_physical_percent_targets",
+      "type": "regex",
+      "pattern": "\"Ignores ([0-9]+)% physical defense of targets\\.(?=\")",
+      "replacement": "\"Hedeflerin fiziksel savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_ignore_magical_percent_targets",
+      "type": "regex",
+      "pattern": "\"Ignores ([0-9]+)% magical defense of targets\\.(?=\")",
+      "replacement": "\"Hedeflerin buyu savunmasinin %\\1'ini yok sayar."
+    },
+    {
+      "id": "v1116_hp_restore",
+      "type": "regex",
+      "pattern": "\"Increases HP Recovery Amount of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 esyasinin HP yenileme miktarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1116_hp_rate",
+      "type": "regex",
+      "pattern": "\"Increases HP Recovery Rate by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"HP yenileme oranini ek %\\1 artirir."
+    },
+    {
+      "id": "v1116_hp_rate_named",
+      "type": "regex",
+      "pattern": "\"Increases HP Recovery Rate of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 esyasinin HP yenileme oranini %\\2 artirir."
+    },
+    {
+      "id": "v1116_hp_healing_skill",
+      "type": "regex",
+      "pattern": "\"Increases HP Recovery Amount of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) skills and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerileri ve \\2 esyalarinin HP yenileme miktarini ek %\\3 artirir."
+    },
+    {
+      "id": "v1116_hp_named_recovery",
+      "type": "regex",
+      "pattern": "\"Increases HP Recovery Amount from (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 kaynakli HP yenileme miktarini %\\2 artirir."
+    },
+    {
+      "id": "v1116_fixed_cast_skill",
+      "type": "regex",
+      "pattern": "\"Increases Fixed Casting Time of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+(?:\\.[0-9]+)?) seconds\\.(?=\")",
+      "replacement": "\"\\1 becerisinin Sabit Kullanim Suresini \\2 saniye artirir."
+    },
+    {
+      "id": "v1116_fixed_cast",
+      "type": "regex",
+      "pattern": "\"Increases Fixed Casting Time by ([0-9]+(?:\\.[0-9]+)?) second\\.(?=\")",
+      "replacement": "\"Sabit Kullanim Suresini \\1 saniye artirir."
+    },
+    {
+      "id": "v1116_aspd_duration",
+      "type": "regex",
+      "pattern": "\"Increases ASPD by ([0-9]+) for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"\\2 saniye boyunca ASPD degerini \\1 artirir."
+    },
+    {
+      "id": "v1116_item_drop",
+      "type": "regex",
+      "pattern": "\"Increases Item Drop Rate by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Esya dusme oranini %\\1 artirir."
+    },
+    {
+      "id": "v1116_item_drop_lower",
+      "type": "regex",
+      "pattern": "\"Increases Item drop rate by ([0-9]+)% for ([0-9]+) minutes\\.(?=\")",
+      "replacement": "\"\\2 dakika boyunca esya dusme oranini %\\1 artirir."
+    },
+    {
+      "id": "v1116_exp_gained",
+      "type": "regex",
+      "pattern": "\"Increases Experience gained from monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Canavarlardan kazanilan deneyimi %\\1 artirir."
+    },
+    {
+      "id": "v1116_critical_by_duration",
+      "type": "regex",
+      "pattern": "\"Increases Critical by ([0-9]+) for ([0-9]+) minutes\\.(?=\")",
+      "replacement": "\"\\2 dakika boyunca Critical degerini \\1 artirir."
+    },
+    {
+      "id": "v1116_critical_bonus_refine",
+      "type": "regex",
+      "pattern": "\"Increases Critical Damage by additional \\(the sum of refine level\\)%\\.(?=\")",
+      "replacement": "\"Toplam Gelistirme Seviyesi kadar yuzde olarak ek Kritik Hasar artisi saglar."
+    },
+    {
+      "id": "v1116_damage_taken_every_race",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from enemies of every race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her irktan dusmandan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1116_damage_taken_magic",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from magical attacks by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Buyulu saldirilardan alinan hasari %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
