@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.56.0",
-    "description": "Final itemInfo kuyrugundaki Eden, skill scroll, ninja boncuk, refine auto-cast ve etkinlik bileti ailelerini genellestirir",
+    "version": "1.57.0",
+    "description": "Casting, auto-cast ve skill seviyeleri icin byte-safe ortak Turkce aciklama kaliplari ekler",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7055,6 +7055,54 @@
       "type": "regex",
       "pattern": "A badge that resemble the star of (.+)\\.",
       "replacement": "\\1 yildizina benzeyen bir rozet."
+    },
+    {
+      "id": "casting_buff_seconds",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) grants additional effects for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda \\2 saniye boyunca ek etkiler saglar."
+    },
+    {
+      "id": "casting_autocast_level",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) has a chance to auto cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda Seviye \\2 \\3 becerisini otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "casting_autocast_pct",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) has a ([0-9]+)% chance to auto cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda %\\2 sansla Seviye \\3 \\4 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "casting_autocast_pct_hyphen",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) has a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda %\\2 sansla Seviye \\3 \\4 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "casting_autocast_hyphen",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) has a chance to auto-cast (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda \\2 becerisini otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "casting_autocast_low",
+      "type": "regex",
+      "pattern": "\"Casting (\\^009900[^\"]+?\\^000000) has a low chance to auto-cast (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda \\2 becerisini otomatik kullanma sansi dusuktur."
+    },
+    {
+      "id": "skill_autocast_level",
+      "type": "regex",
+      "pattern": "\"Auto-cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"Seviye \\1 \\2 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "skill_autocast_using",
+      "type": "regex",
+      "pattern": "\"Auto-cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000) when using (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"\\3 kullanildiginda Seviye \\1 \\2 becerisi otomatik kullanilir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
