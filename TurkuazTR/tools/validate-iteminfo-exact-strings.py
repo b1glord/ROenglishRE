@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.1.0
-# Aciklama: Exact shard Lua guvenligi ile yeni itemInfo kural sayi/renk korunumu testlerini calistirir
+# Version: 1.2.0
+# Aciklama: ItemInfo v1.123.0 ve v1.124.0 regex ile exact cevirileri dogrular
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -124,6 +124,66 @@ class ExactLuaStringTests(unittest.TestCase):
                     sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", actual)),
                 )
                 self.assertIsNotNone(builder.STRING_RE.fullmatch(actual))
+
+
+
+    def test_v1124_combat_rules_preserve_numeric_color_contract(self) -> None:
+        data = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            rule["id"]: rule
+            for rule in data["rules"]
+            if rule["id"].startswith("lore_v1124_")
+        }
+        samples = {
+            "lore_v1124_physical_enemies_extra":
+                "Increases Physical Damage against enemies of ^FF0000Demon^000000 race by additional 10%.",
+            "lore_v1124_physical_enemies":
+                "Increases Physical Damage against enemies of Angel monsters by 5%.",
+            "lore_v1124_physical_monsters":
+                "Increases Physical Damage against monsters of ^777777Holy^000000 and ^777777Neutral^000000 element by 25%.",
+            "lore_v1124_magical_enemies_extra":
+                "Increases Magical Damage against enemies of ^FF0000Boss^000000 class by additional 15%.",
+            "lore_v1124_magical_enemies":
+                "Increases Magical Damage against enemies of ^777777Holy^000000 element by 3%.",
+            "lore_v1124_damage_enemies":
+                "Increases Damage against enemies of Niflheim monsters by 20%.",
+            "lore_v1124_damage_monsters":
+                "Increases Damage against monsters of ^777777Holy^000000 by 10%.",
+            "lore_v1124_magical_monsters":
+                "Increases Magical Damage against monsters of ^FF0000Insect^000000 and ^FF0000Demi-Human^000000 race, except ^FF0000Players^000000, by 10%.",
+            "lore_v1124_received_healing":
+                "Increases received ^009900Healing^000000 amount by 15%.",
+            "lore_v1124_status_resistance":
+                "Increases resistance against ^663399Poison^000000 by 30%.",
+            "lore_v1124_refine_item":
+                "Increases the refine level of a +10 Geoborg armor by +1.",
+            "lore_v1124_autocast_additional_chance":
+                "Increases the chance to auto-cast ^009900Ignition Break^000000 by additional 1%.",
+            "lore_v1124_inflict_status_chance":
+                "Increases the chance of inflicting ^663399Critical Wound^000000 by 5%.",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for rule_id, source in samples.items():
+            with self.subTest(rule=rule_id):
+                prepared = builder.prepare_rules([rules[rule_id]])
+                before = ('"' + source + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(before, prepared, counts)
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(rule_id), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+", before)),
+                    sorted(re.findall(rb"[0-9]+", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
 
 
 
