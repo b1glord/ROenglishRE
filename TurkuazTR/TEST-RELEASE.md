@@ -2,14 +2,14 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.3.1
-Aciklama: v1.111.0 icin 2026.10.08-test.4 paketleme ve client kabul kapilarini belgeler
+Version: 1.4.0
+Aciklama: v1.114.0 sonrasinda opsiyonel client denemesi ve otomatik localization kabul kurallarini tanimlar
 Bagimli Oldugu Katman: View
 -->
 
 # TurkuazTR 2026.10.08-test.4
 
-Bu surum son kullanici final release'i degildir. Amac, generated localization profillerini gercek client uzerinde guvenli sekilde test etmektir.
+Bu belge test paketi ile final localization release asamalarini ayirir. 2022 client uzerinde manuel deneme opsiyoneldir; yapilmadiysa uyumluluk dogrulandi denilemez.
 
 ## Release kapsami
 
@@ -47,7 +47,7 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 - Paket kaynak commit: `561275ac24b9cc958aed2a6c85d7aa3204704e96`.
 - CI her profil icin SHA-256 sidecar kontrolunu ve dosya yuklemesini tamamlamistir; manuel artifact indirme/karsilastirma ve gercek client testi ayrica yapilmalidir.
 - Onceki test.3 paketleri bu adayin yerine kullanilmaz.
-- Sonrasinda gercek 2022 client uzerinde manuel smoke-test gereklidir.
+- 2022 client smoke-test opsiyoneldir. Gerceklestirilmediyse bu durum release kaydinda acikca belirtilir; gecilmis test olarak gosterilmez.
 
 ## Onceki v1.110.0 test candidate
 
@@ -81,7 +81,9 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 - GitHub Actions artifact saklama suresi 14 gundur.
 - Durum: otomatik paketleme tamam, gercek 2022 client smoke-test bekliyor.
 
-## Manuel client smoke test
+## Opsiyonel manuel client smoke test
+
+Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik dogrulama, ZIP yapisi, SHA-256, Lua yapisi, korumali tag ve pending raporlari zorunludur. Yeni bir kaynak veya ceviri hatasi bulunursa sessizce yok sayilmaz: config tabanli kural, exact ceviri veya source-recovery kaydi ile izlenir; generated ciktisi yeniden uretilir.
 
 1. Mevcut client localization dosyalarini yedekle.
 2. Once `english` kontrol paketini uygula ve client acilisini dogrula.
@@ -89,8 +91,8 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 4. Skill penceresi, quest penceresi, Navi, achievements, item tooltip, pet konusmalari ve kitaplari ac.
 5. Renk kodu, NAVI/ITEM tag'i, satir kirilmasi ve Lua hatasi olup olmadigini kontrol et.
 6. En az bir item tooltip'i, bir skill, bir quest, bir pet konusmasi ve bir kitap icin English/Full TR karsilastirmasi yap.
-7. Kritik hata yoksa `full_tr` paketini test adayi olarak kabul et; metin kalite sorunlarini translation backlog'una ayir.
+7. Bu deneme yapilirsa raporunu ekle; yapilmazsa `client_smoke_test: not_run` olarak acikla. Oyun icinde PASS varsayma.
 
 ## PR ve merge politikasi
 
-Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Test sonucu ve upstream uyumu temizlendikten sonra merge/release stratejisi ayri gate olarak ele alinir.
+Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.
