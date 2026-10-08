@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.59.0",
-    "description": "v1.114.0 ek hediye kutusu icerigi icin guvenli item adi korumali kalip",
+    "version": "1.60.0",
+    "description": "v1.115.0 itemInfo hasar, beceri, irk, element, buyu ve kritik bonusa yonelik korumali regex kurallari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7193,6 +7193,210 @@
       "type": "regex",
       "pattern": "\"In addition, ([0-9]+) ([^\"^.]+) is included\\.(?=\")",
       "replacement": "\"\\2 esyasindan \\1 adet de dahildir."
+    },
+    {
+      "id": "v1115_damage_two_elements",
+      "type": "regex",
+      "pattern": "\"Increases Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementindeki canavarlara verilen hasari %\\3 artirir."
+    },
+    {
+      "id": "v1115_damage_single_element",
+      "type": "regex",
+      "pattern": "\"Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementine verilen hasari %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_single_element_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementine verilen buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_two_elements",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementlerine verilen buyu hasarini %\\3 artirir."
+    },
+    {
+      "id": "v1115_magic_two_elements_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementlerine verilen buyu hasarini ek %\\3 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_element_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki canavarlara verilen buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_elemental_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki canavarlara verilen buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_two_elements_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementindeki canavarlara verilen buyu hasarini ek %\\3 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_race_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlara verilen buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_two_classes",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 sinifindaki dusmanlara verilen buyu hasarini %\\3 artirir."
+    },
+    {
+      "id": "v1115_damage_skill_two_add",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 becerilerinin hasarini ek %\\3 artirir."
+    },
+    {
+      "id": "v1115_damage_skill_refine_add",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by \\(the sum of refine level\\)% additionally\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini toplam Gelistirme Seviyesi kadar yuzde olarak ek artirir."
+    },
+    {
+      "id": "v1115_damage_skill_refine",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by \\(the sum of refine level\\)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini toplam Gelistirme Seviyesi kadar yuzde olarak artirir."
+    },
+    {
+      "id": "v1115_damage_skill_refine_percent",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)% per Refine Level\\.(?=\")",
+      "replacement": "\"Her Gelistirme Seviyesi icin \\1 becerisinin hasarini %\\2 artirir."
+    },
+    {
+      "id": "v1115_damage_skill_single",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini %\\2 artirir."
+    },
+    {
+      "id": "v1115_damage_skill_single_add",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "v1115_damage_named_single",
+      "type": "regex",
+      "pattern": "\"Increases Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 hedefine verilen hasari %\\2 artirir."
+    },
+    {
+      "id": "v1115_magic_monster_named_two",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementindeki canavarlara verilen buyu hasarini %\\3 artirir."
+    },
+    {
+      "id": "v1115_critical_additional",
+      "type": "regex",
+      "pattern": "\"Increases Critical Damage by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Kritik Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1115_class_all_additional",
+      "type": "regex",
+      "pattern": "\"Increases Damage against enemies of every class by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum siniflardaki dusmanlara verilen hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_race_target",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 hedeflerinin \\2 irkindeki saldirilarindan alinan hasari %\\3 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_all_elemental",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from all elemental attacks by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum element saldirilarindan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_all_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from all monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum canavarlardan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_all_races",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from all races by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum irklardan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_ranged",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from Ranged Physical Damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Menzilli Fiziksel Hasar kaynakli alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_taken_element",
+      "type": "regex",
+      "pattern": "\"Increases Damage taken from (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementinden alinan hasari %\\2 artirir."
+    },
+    {
+      "id": "v1115_bow_damage",
+      "type": "regex",
+      "pattern": "\"Increases Bow class weapon damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Yay turu silahlarin hasarini %\\1 artirir."
+    },
+    {
+      "id": "v1115_magic_all_size",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against all size monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her boyuttaki canavara verilen buyu hasarini %\\1 artirir."
+    },
+    {
+      "id": "v1115_magic_all_size_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against all size monsters by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her boyuttaki canavara verilen buyu hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "v1115_magic_every_race_add",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against enemies of every race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum irklardan dusmanlara verilen buyu hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "v1115_damage_two_skills_refine",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)% for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 becerilerinin hasarini \\4 saniye boyunca %\\3 artirir."
+    },
+    {
+      "id": "v1115_magic_named_two_class",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 sinifindaki canavarlara verilen buyu hasarini %\\3 artirir."
+    },
+    {
+      "id": "v1115_race_damage_named",
+      "type": "regex",
+      "pattern": "\"Increases Damage on (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkina verilen hasari %\\2 artirir."
+    },
+    {
+      "id": "v1115_all_enemies_class_add",
+      "type": "regex",
+      "pattern": "\"Increases Damage against enemies of every race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her irktan dusmana verilen hasari ek %\\1 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
