@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.3.0
+Version: 1.3.1
 Aciklama: v1.111.0 icin 2026.10.08-test.4 paketleme ve client kabul kapilarini belgeler
 Bagimli Oldugu Katman: View
 -->
@@ -41,7 +41,12 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 - Test adayi: `2026.10.08-test.4`.
 - Exact ceviri: ana 2984 + final 10021 = 13005.
 - Lore pending: 9685 benzersiz / 9685 occurrence.
-- Paketleme: bu aday icin ZIP/SHA-256/JSON sonucu bekleniyor; onceki test.3 paketleri burada kullanilmaz.
+- Paketleme: 4/4 PASS (english, hybrid, full_tr, bilingual); ZIP/SHA-256/JSON artifact olusturuldu.
+- Paketleme CI: https://github.com/b1glord/ROenglishRE/actions/runs/37822207048
+- Genel validation CI: https://github.com/b1glord/ROenglishRE/actions/runs/37822206893 (PASS).
+- Paket kaynak commit: `561275ac24b9cc958aed2a6c85d7aa3204704e96`.
+- CI her profil icin SHA-256 sidecar kontrolunu ve dosya yuklemesini tamamlamistir; manuel artifact indirme/karsilastirma ve gercek client testi ayrica yapilmalidir.
+- Onceki test.3 paketleri bu adayin yerine kullanilmaz.
 - Sonrasinda gercek 2022 client uzerinde manuel smoke-test gereklidir.
 
 ## Onceki v1.110.0 test candidate
