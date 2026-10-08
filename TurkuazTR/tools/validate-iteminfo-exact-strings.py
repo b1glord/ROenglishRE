@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.2.0
-# Aciklama: ItemInfo v1.123.0 ve v1.124.0 regex ile exact cevirileri dogrular
+# Version: 1.3.0
+# Aciklama: ItemInfo v1.123-v1.125 kural ve exact Lua testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -175,6 +175,48 @@ class ExactLuaStringTests(unittest.TestCase):
                 after = builder.apply_rules(before, prepared, counts)
                 self.assertNotEqual(before, after)
                 self.assertEqual(counts.get(rule_id), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+", before)),
+                    sorted(re.findall(rb"[0-9]+", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
+
+
+
+    def test_v1125_recipe_rules_keep_numeric_contract(self) -> None:
+        data = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            r["id"]: r
+            for r in data["rules"] if r["id"].startswith("lore_v1125_")
+        }
+        samples = {
+            "lore_v1125_weapon_difficulty":
+                "It is more difficult to handle than the existing Relapse Axe.",
+            "lore_v1125_shadow_combine_random_can":
+                "If you combine 2 of any of the following Shadow Equipments which are refined to +7 or higher, you can obtain one of these randomly:",
+            "lore_v1125_shadow_combine_random":
+                "If you combine 2 of any of the following Shadow Equipments which are refined to +7 or higher, you obtain one of these randomly.",
+            "lore_v1125_shadow_combine_experience":
+                "If you combine five +7 or higher refined of any of the following Shadow Equipments, you can obtain one Experience Shadow Shield:",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for key, source in samples.items():
+            with self.subTest(rule=key):
+                before = ('"' + source + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(
+                    before, builder.prepare_rules([rules[key]]), counts
+                )
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(key), 1)
                 self.assertEqual(
                     sorted(re.findall(rb"[0-9]+", before)),
                     sorted(re.findall(rb"[0-9]+", after)),
