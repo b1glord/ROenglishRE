@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-test-release.yml
 # 📌 Amac: Generated localization profillerini smoke-test kontrollu indirilebilir test paketlerine donusturur
 # 📌 Tool - YAML
-# Version: 1.0.1
-# Aciklama: Generated profil veya paket workflow degisikliklerinde ve manuel calistirmada ZIP, SHA-256 ve paket raporu artifactleri uretir
+# Version: 1.0.2
+# Aciklama: Test ZIP, SHA-256 sidecar dogrulamasi ve paket raporunu artifact olarak uretir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Test Package
@@ -67,6 +67,13 @@ jobs:
             --version "${{ steps.version.outputs.value }}" \
             --commit "${{ github.sha }}" \
             --output-dir dist
+
+      - name: Verify package SHA-256 sidecar
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd dist
+          sha256sum --check "TurkuazTR-${{ matrix.profile }}-${{ steps.version.outputs.value }}.sha256"
 
       - name: Upload test package
         uses: actions/upload-artifact@v4
