@@ -7107,49 +7107,49 @@
     {
       "id": "grade_requirement",
       "type": "regex",
-      "pattern": "\"If (\\^990099[^\"]+?\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
       "replacement": "\"\\1 esyasinin Grade seviyesi \\2 veya daha yuksekse:"
     },
     {
       "id": "grade_either_requirement",
       "type": "regex",
-      "pattern": "\"If (\\^990099[^\"]+?\\^000000)'s or (\\^990099[^\"]+?\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s or (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
       "replacement": "\"\\1 veya \\2 esyasinin Grade seviyesi \\3 veya daha yuksekse:"
     },
     {
       "id": "grade_dual_requirement",
       "type": "regex",
-      "pattern": "\"If (\\^990099[^\"]+?\\^000000)'s and (\\^990099[^\"]+?\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000):(?=\")",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s and (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000):(?=\")",
       "replacement": "\"\\1 ve \\2 esyalarinin Grade seviyesi \\3 ise:"
     },
     {
       "id": "grade_dual_minimum",
       "type": "regex",
-      "pattern": "\"If the (\\^990099[^\"]+?\\^000000)'s and (\\^990099[^\"]+?\\^000000)'s Grades are (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "pattern": "\"If the (\\^990099[^\"^]*\\^000000)'s and (\\^990099[^\"^]*\\^000000)'s Grades are (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
       "replacement": "\"\\1 ve \\2 esyalarinin Grade seviyeleri \\3 veya daha yuksekse:"
     },
     {
       "id": "magic_ignore_additional_single",
       "type": "regex",
-      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"]+?\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 irkindeki dusmanlarin buyu savunmasinin ek %\\2'sini yok sayar."
     },
     {
       "id": "magic_ignore_additional_dual",
       "type": "regex",
-      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"]+?\\^000000) and (\\^FF0000[^\"]+?\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"^]*\\^000000) and (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 ve \\2 irklarindaki dusmanlarin buyu savunmasinin ek %\\3'unu yok sayar."
     },
     {
       "id": "magic_ignore_additional_race_pair",
       "type": "regex",
-      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"]+?\\^000000) and (\\^FF0000[^\"]+?\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"^]*\\^000000) and (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 ve \\2 irklarinin buyu savunmasinin ek %\\3'unu yok sayar."
     },
     {
       "id": "magic_ignore_boss_class",
       "type": "regex",
-      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"]+?\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"^]*\\^000000) class by ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 sinifinin buyu savunmasinin %\\2'sini yok sayar."
     },
     {
@@ -7161,7 +7161,7 @@
     {
       "id": "magic_ignore_all_except",
       "type": "regex",
-      "pattern": "\"Ignores magic defense of all race, except (\\^FF0000[^\"]+?\\^000000), by ([0-9]+)%\\.(?=\")",
+      "pattern": "\"Ignores magic defense of all race, except (\\^FF0000[^\"^]*\\^000000), by ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 haric tum irklarin buyu savunmasinin %\\2'sini yok sayar."
     },
     {
