@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.57.0",
-    "description": "Casting, auto-cast ve skill seviyeleri icin byte-safe ortak Turkce aciklama kaliplari ekler",
+    "version": "1.58.0",
+    "description": "Grade, refine hata koruma, magic DEF ve seviye odul mesajlari icin ortak byte-safe kurallar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7103,6 +7103,90 @@
       "type": "regex",
       "pattern": "\"Auto-cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000) when using (\\^009900[^\"]+?\\^000000)\\.(?=\")",
       "replacement": "\"\\3 kullanildiginda Seviye \\1 \\2 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "grade_requirement",
+      "type": "regex",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "replacement": "\"\\1 esyasinin Grade seviyesi \\2 veya daha yuksekse:"
+    },
+    {
+      "id": "grade_either_requirement",
+      "type": "regex",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s or (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "replacement": "\"\\1 veya \\2 esyasinin Grade seviyesi \\3 veya daha yuksekse:"
+    },
+    {
+      "id": "grade_dual_requirement",
+      "type": "regex",
+      "pattern": "\"If (\\^990099[^\"^]*\\^000000)'s and (\\^990099[^\"^]*\\^000000)'s Grade is (\\^CC3D3D[A-Z]\\^000000):(?=\")",
+      "replacement": "\"\\1 ve \\2 esyalarinin Grade seviyesi \\3 ise:"
+    },
+    {
+      "id": "grade_dual_minimum",
+      "type": "regex",
+      "pattern": "\"If the (\\^990099[^\"^]*\\^000000)'s and (\\^990099[^\"^]*\\^000000)'s Grades are (\\^CC3D3D[A-Z]\\^000000) or higher:(?=\")",
+      "replacement": "\"\\1 ve \\2 esyalarinin Grade seviyeleri \\3 veya daha yuksekse:"
+    },
+    {
+      "id": "magic_ignore_additional_single",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki dusmanlarin buyu savunmasinin ek %\\2'sini yok sayar."
+    },
+    {
+      "id": "magic_ignore_additional_dual",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of enemies of (\\^FF0000[^\"^]*\\^000000) and (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 irklarindaki dusmanlarin buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "magic_ignore_additional_race_pair",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"^]*\\^000000) and (\\^FF0000[^\"^]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 irklarinin buyu savunmasinin ek %\\3'unu yok sayar."
+    },
+    {
+      "id": "magic_ignore_boss_class",
+      "type": "regex",
+      "pattern": "\"Ignores magical defense of (\\^FF0000[^\"^]*\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifinin buyu savunmasinin %\\2'sini yok sayar."
+    },
+    {
+      "id": "magic_ignore_all_additional",
+      "type": "regex",
+      "pattern": "\"Ignores magic defense of all race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum irklarin buyu savunmasinin ek %\\1'ini yok sayar."
+    },
+    {
+      "id": "magic_ignore_all_except",
+      "type": "regex",
+      "pattern": "\"Ignores magic defense of all race, except (\\^FF0000[^\"^]*\\^000000), by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 haric tum irklarin buyu savunmasinin %\\2'sini yok sayar."
+    },
+    {
+      "id": "refine_failure_protection_single",
+      "type": "regex",
+      "pattern": "\"If he fails on the (\\^006400upgrade when the item to \\+[0-9]+\\^000000),\\s*the item will not break and it will stay at its current Refine Level\\. -A Single Use\\.-(?=\")",
+      "replacement": "\"\\1 islemi basarisiz olursa esya kirilmaz ve mevcut Gelistirme Seviyesinde kalir. -Tek Kullanimlik.-"
+    },
+    {
+      "id": "refine_failure_protection",
+      "type": "regex",
+      "pattern": "\"If he fails on the (\\^006400upgrade when the item to \\+[0-9]+\\^000000),\\s*the item will not break and it will stay at its current Refine Level\\.(?=\")",
+      "replacement": "\"\\1 islemi basarisiz olursa esya kirilmaz ve mevcut Gelistirme Seviyesinde kalir."
+    },
+    {
+      "id": "learned_skill_autocast",
+      "type": "regex",
+      "pattern": "\"If the user has mastered the skill at Level ([0-9]+), it will cast Level ([0-9]+) (\\^009900[^\"]+?\\^000000)\\.(?=\")",
+      "replacement": "\"Kullanici beceride Seviye \\1'e ulasmissa Seviye \\2 \\3 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "open_levelup_bonus",
+      "type": "regex",
+      "pattern": "\"If you open it now, you can also get the Level Up Box\\(([0-9]+)\\)!(?=\")",
+      "replacement": "\"Simdi acarsaniz Level Up Box(\\1) da alabilirsiniz!"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
