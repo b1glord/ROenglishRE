@@ -166,6 +166,13 @@ jobs:
             --top 120 \
             --json
 
+      - name: Validate deterministic itemInfo pending pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/extract-iteminfo-lore-pending.py
+          python3 TurkuazTR/tools/validate-iteminfo-paged-inventory.py
+
       - name: Validate registered localization overlays
         shell: bash
         run: |
