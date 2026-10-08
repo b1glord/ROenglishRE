@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.61.0",
-    "description": "v1.116.0 HP recovery, physical/magical defense bypass ve sureli status metinlerini Turkcelestirir",
+    "version": "1.62.0",
+    "description": "v1.117.0 fiziksel ve buyulu hasar, skill bekleme suresi ve SP tuketimi ortak Turkce kurallari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7613,6 +7613,228 @@
       "type": "regex",
       "pattern": "\"Increases Damage taken from magical attacks by ([0-9]+)%\\.(?=\")",
       "replacement": "\"Buyulu saldirilardan alinan hasari %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_elem",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki canavarlara verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_elem_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki canavarlara verilen fiziksel hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_race_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlara verilen fiziksel hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_class",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifindaki canavarlara verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_class_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifindaki canavarlara verilen fiziksel hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_size",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) size by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 boyutundaki canavarlara verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_size_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) size by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 boyutundaki canavarlara verilen fiziksel hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_race_two_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 irkindeki dusmanlara verilen fiziksel hasari ek %\\3 artirir."
+    },
+    {
+      "id": "v1117_physical_both_enemy_race",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki dusmanlara verilen fiziksel ve buyulu hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_both_enemy_element",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki dusmanlara verilen fiziksel ve buyulu hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_element",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki dusmanlara verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_element_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki dusmanlara verilen fiziksel hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_elemental_comma",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%,(?=\")",
+      "replacement": "\"\\1 elementindeki dusmanlara verilen fiziksel hasari %\\2 artirir,"
+    },
+    {
+      "id": "v1117_physical_enemy_on_elemental",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of on (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementindeki dusmanlara verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 canavarlarina verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_enemy_every_monsters",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against enemies of all monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum canavar dusmanlara verilen fiziksel hasari %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_every_race",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of every race by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her irktan canavara verilen fiziksel hasari %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_monster_every_race_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of every race by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her irktan canavara verilen fiziksel hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_magical_every_element",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of every element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum elementlerden dusmanlara verilen fiziksel ve buyulu hasari %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_magical_every_element_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of every element by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Tum elementlerden dusmanlara verilen fiziksel ve buyulu hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_both_boss",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifindaki canavarlara verilen fiziksel ve buyulu hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_both_refine_boss",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against monsters of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) class by ([0-9]+)% per (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Her \\3 icin \\1 sinifindaki canavarlara verilen fiziksel ve buyulu hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_both_all_size_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of every size by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her boyuttaki dusmanlara verilen fiziksel ve buyulu hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_melee_add",
+      "type": "regex",
+      "pattern": "\"Increases Melee Physical Damage by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Yakin dovus Fiziksel Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_melee",
+      "type": "regex",
+      "pattern": "\"Increases Physical Melee Damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Yakin dovus Fiziksel Hasarini %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_melee_alt_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Melee Damage by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Yakin dovus Fiziksel Hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_ranged",
+      "type": "regex",
+      "pattern": "\"Increases Physical Ranged Damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Menzilli Fiziksel Hasari %\\1 artirir."
+    },
+    {
+      "id": "v1117_physical_ranged_add",
+      "type": "regex",
+      "pattern": "\"Increases Physical Ranged Damage by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Menzilli Fiziksel Hasari ek %\\1 artirir."
+    },
+    {
+      "id": "v1117_sp_extra_skill",
+      "type": "regex",
+      "pattern": "\"Increases SP Consumption of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by additional ([0-9]+)\\.(?=\")",
+      "replacement": "\"\\1 becerisinin SP tuketimini ek \\2 artirir."
+    },
+    {
+      "id": "v1117_cooldown_skill",
+      "type": "regex",
+      "pattern": "\"Increases (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) skill cooldown by ([0-9]+(?:\\.[0-9]+)?) seconds\\.(?=\")",
+      "replacement": "\"\\1 becerisinin bekleme suresini \\2 saniye artirir."
+    },
+    {
+      "id": "v1117_cooldown_skill_secs",
+      "type": "regex",
+      "pattern": "\"Increases (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) skill cooldown by ([0-9]+(?:\\.[0-9]+)?) secs\\.(?=\")",
+      "replacement": "\"\\1 becerisinin bekleme suresini \\2 saniye artirir."
+    },
+    {
+      "id": "v1117_physical_magical_race_except",
+      "type": "regex",
+      "pattern": "\"Increases Physical and Magical Damage against enemies of every race, except (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 haric her irktan dusmana verilen fiziksel ve buyulu hasari ek %\\2 artirir."
+    },
+    {
+      "id": "v1117_physical_damage_on_race",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage on (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race by \\(([0-9]+)\\*Refine Level\\)%\\.(?=\")",
+      "replacement": "\"Her Gelistirme Seviyesinde \\1 irkina verilen fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "v1117_magic_colored_dual",
+      "type": "regex",
+      "pattern": "\"Increases (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental magical damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementlerinin buyulu hasarini %\\3 artirir."
+    },
+    {
+      "id": "v1117_magic_colored_dual_add",
+      "type": "regex",
+      "pattern": "\"Increases (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental magical damage by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 ve \\2 elementlerinin buyulu hasarini ek %\\3 artirir."
+    },
+    {
+      "id": "v1117_magic_colored_single",
+      "type": "regex",
+      "pattern": "\"Increases (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) elemental damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 element hasarini %\\2 artirir."
+    },
+    {
+      "id": "v1117_magic_cooldown_delay",
+      "type": "regex",
+      "pattern": "\"Increases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin Degisken Kullanim Suresini %\\2 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
