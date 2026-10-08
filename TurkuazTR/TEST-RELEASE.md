@@ -2,12 +2,12 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.0.3
-Aciklama: v1.106.0 generated pending snapshot ve test paketi kabul adimlarini belgeler
+Version: 1.1.0
+Aciklama: v1.109.0 icin 2026.10.08-test.2 paketleme ve manuel client kabul kapilarini belgeler
 Bagimli Oldugu Katman: View
 -->
 
-# TurkuazTR 2026.10.07-test.1
+# TurkuazTR 2026.10.08-test.2
 
 Bu surum son kullanici final release'i degildir. Amac, generated localization profillerini gercek client uzerinde guvenli sekilde test etmektir.
 
@@ -34,9 +34,17 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 
 ## Bilinen test-surumu siniri
 
-`itemInfo.lua` serbest lore migration'i devam etmektedir. Son generated snapshot 10672 benzersiz / 10672 occurrence seviyesindedir. Canli degerin kaynagi `TurkuazTR/iteminfo-lore.pending.json` dosyasidir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
+`itemInfo.lua` serbest lore migration'i devam etmektedir. Yeni v1.109.0 generated snapshot 10273 benzersiz / 10273 occurrence seviyesindedir. Canli degerin kaynagi `TurkuazTR/iteminfo-lore.pending.json` dosyasidir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
 
-## Otomatik paketleme sonucu
+## v1.109.0 yeni test candidate
+
+- Test adayi: `2026.10.08-test.2`.
+- Exact ceviri: ana 2984 + final 9433 = 12417.
+- Lore pending: 10273 benzersiz / 10273 occurrence.
+- Durum: bu yeni aday icin ZIP paketleme ve checksum gate'i ayrica calistirilmalidir.
+- Onceki test ZIP'leri v1.109.0 kaynagini temsil etmez.
+
+## Onceki test paketleme sonucu
 
 - CI: https://github.com/b1glord/ROenglishRE/actions/runs/37786392323
 - Kaynak commit: `1b16849db63cbe96f1183dc25470c6b71feae3df`
