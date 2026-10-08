@@ -1,9 +1,9 @@
-# PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
-# PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
-# MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.7.0
-# DESCRIPTION: Tum exact shard degisikliklerini izleyip pending/final batch ve localization profillerini yeniler.
-# DEPENDENCY-LAYER: Tool
+# 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
+# 📌 Amac: Tum localization profillerini uretir, pending sayfalarini denetler ve ana dala kaydeder
+# 📌 Modul - Tool YAML
+# Version: 2.8.0
+# Aciklama: ItemInfo kaynak envanterini tam sayfali, kayipsiz ve deterministik bicimde yeniler
+# Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Skill Translation
 
@@ -18,6 +18,7 @@ on:
       - "TurkuazTR/skill-profiles.json"
       - "TurkuazTR/localization-profiles.json"
       - "TurkuazTR/config/iteminfo-rules.json"
+      - "TurkuazTR/config/iteminfo-inventory.json"
       - "TurkuazTR/config/iteminfo-exact-shards.json"
       - "TurkuazTR/config/iteminfo-exact-*.tr.json"
       - "TurkuazTR/iteminfo-exact.tr.json"
@@ -166,6 +167,9 @@ jobs:
       - name: Generate item info lore pending report
         run: python TurkuazTR/tools/extract-iteminfo-lore-pending.py
 
+      - name: Validate item info pending pages
+        run: python3 TurkuazTR/tools/validate-iteminfo-paged-inventory.py
+
       - name: Synchronize live itemInfo manifest metrics
         shell: bash
         run: |
@@ -182,6 +186,10 @@ jobs:
           git add TurkuazTR/skilldescript.pending.json
           git add TurkuazTR/iteminfo-lore.pending.json
           git add TurkuazTR/iteminfo-lore.batch.json
+          if compgen -G "TurkuazTR/iteminfo-lore.batch.*.json" > /dev/null || \
+             git ls-files -- "TurkuazTR/iteminfo-lore.batch.*.json" | grep -q .; then
+            git add -A -- ':(glob)TurkuazTR/iteminfo-lore.batch.*.json'
+          fi
           git add TurkuazTR/manifest.yml
           git add TurkuazTR/generated/english
           git add TurkuazTR/generated/hybrid

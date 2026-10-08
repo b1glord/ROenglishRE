@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-translation-validation.yml
 # 📌 Amac: Turkce localization takip araclarini ve generated ceviri dosyalarinin byte yapisini CI uzerinde dogrular
 # 📌 Tool - YAML
-# Version: 1.20.3
-# Aciklama: En yeni branch head'ini concurrency ile tek gate olarak tutar; translation, itemInfo, overlay, byte-safe ve test-package Python kontrollerini calistirir
+# Version: 1.21.0
+# Aciklama: En yeni head uzerinde itemInfo batch-validator syntax, overlay ve byte-safe kontrollerini calistirir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Validation
@@ -83,6 +83,7 @@ jobs:
             TurkuazTR/tools/build-iteminfo-profile.py \
             TurkuazTR/tools/sync-iteminfo-manifest.py \
             TurkuazTR/tools/build-test-package.py \
+            TurkuazTR/tools/validate-iteminfo-paged-inventory.py \
             TurkuazTR/tools/extract-skillinfolist-pending.py \
             TurkuazTR/tools/extract-skilldescript-pending.py
 
@@ -164,6 +165,13 @@ jobs:
             --baseline-source Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua \
             --top 120 \
             --json
+
+      - name: Validate deterministic itemInfo pending pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 TurkuazTR/tools/extract-iteminfo-lore-pending.py
+          python3 TurkuazTR/tools/validate-iteminfo-paged-inventory.py
 
       - name: Validate registered localization overlays
         shell: bash

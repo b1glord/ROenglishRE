@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/extract-iteminfo-lore-pending.py
 # 📌 Amac: itemInfo Turkce profilinde degismeden kalan gercek lore/aciklama cumlelerini canonical teknik metinlerden ayirip pending raporu uretir
 # 📌 Tool - Python
-# Version: 1.2.2
-# Aciklama: Source-recovery eslesmesine ek olarak surrogate byte kalintilarini pending ve final batch disinda tutar
+# Version: 1.3.0
+# Aciklama: Tum pending metinlerini config kontrollu deterministik sayfalara ayirir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ SOURCE = REPO_ROOT / "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua"
 GENERATED = REPO_ROOT / "TurkuazTR/generated/full_tr/SystemEN/LuaFiles514/itemInfo.lua"
 OUTPUT = REPO_ROOT / "TurkuazTR/iteminfo-lore.pending.json"
 BATCH_OUTPUT = REPO_ROOT / "TurkuazTR/iteminfo-lore.batch.json"
-BATCH_LIMIT = 1000
+BATCH_CONFIG_PATH = REPO_ROOT / "TurkuazTR/config/iteminfo-inventory.json"
 RECOVERY = REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json"
 
 
@@ -32,6 +32,13 @@ def load_audit_module():
 
 
 def main() -> int:
+    batch_config = json.loads(BATCH_CONFIG_PATH.read_text(encoding="utf-8"))
+    batch_limit = int(batch_config["batch_limit"])
+    if batch_limit <= 0:
+        raise ValueError("Batch limit must be positive")
+    page_pattern = batch_config["page_pattern"]
+    if "{index}" not in page_pattern or "/" in page_pattern or "\\" in page_pattern:
+        raise ValueError("Invalid pending inventory page pattern")
     audit = load_audit_module()
     source_data = audit.collect(SOURCE)
     generated_data = audit.collect(GENERATED)
@@ -79,7 +86,8 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    batch_rows = rows[:BATCH_LIMIT]
+    batch_rows = rows[:batch_limit]
+    total_pages = max(1, (len(rows) + batch_limit - 1) // batch_limit)
     batch_payload = {
         "_file_header": {
             "path": "/ROenglishRE/TurkuazTR/iteminfo-lore.batch.json",
@@ -91,7 +99,10 @@ def main() -> int:
         },
         "source_path": str(SOURCE.relative_to(REPO_ROOT)),
         "pending_path": str(OUTPUT.relative_to(REPO_ROOT)),
-        "batch_limit": BATCH_LIMIT,
+        "batch_limit": batch_limit,
+        "batch_index": 0,
+        "start_offset": 0,
+        "total_batch_pages": total_pages,
         "batch_candidate_count": len(batch_rows),
         "remaining_candidate_count": len(rows),
         "remaining_candidate_occurrences": sum(row["count"] for row in rows),
@@ -101,10 +112,42 @@ def main() -> int:
         json.dumps(batch_payload, ensure_ascii=True, indent=2) + "\n",
         encoding="utf-8",
     )
+    expected_pages = set()
+    exported_count = len(batch_rows)
+    for page_index in range(1, total_pages):
+        start_offset = page_index * batch_limit
+        page_rows = rows[start_offset:start_offset + batch_limit]
+        page_path = BATCH_OUTPUT.with_name(page_pattern.format(index=page_index))
+        page_payload = {
+            **batch_payload,
+            "_file_header": {
+                **batch_payload["_file_header"],
+                "path": "/ROenglishRE/TurkuazTR/" + page_path.name,
+                "description": "Pending itemInfo adaylarinin deterministik sayfasi",
+            },
+            "batch_index": page_index,
+            "start_offset": start_offset,
+            "batch_candidate_count": len(page_rows),
+            "candidates": page_rows,
+        }
+        page_path.write_text(
+            json.dumps(page_payload, ensure_ascii=True, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        expected_pages.add(page_path)
+        exported_count += len(page_rows)
+
+    for stale_page in BATCH_OUTPUT.parent.glob(batch_config["page_glob"]):
+        if stale_page not in expected_pages:
+            stale_page.unlink()
+
+    if exported_count != len(rows):
+        raise AssertionError("Paged inventory does not cover entire pending list")
+
     print(
         f"itemInfo lore pending: {payload['candidate_count']} unique / "
         f"{payload['candidate_occurrences']} occurrences; "
-        f"batch={len(batch_rows)}"
+        f"batch={len(batch_rows)}; pages={total_pages}"
     )
     return 0
 
