@@ -1,9 +1,9 @@
-# PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
-# PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
-# MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.8.0
-# DESCRIPTION: Tum exact shard ve pending batch config degisikliklerinde deterministik tum sayfalari yeniler.
-# DEPENDENCY-LAYER: Tool
+# 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
+# 📌 Amac: Tum localization profillerini uretir, pending sayfalarini denetler ve ana dala kaydeder
+# 📌 Modul - Tool YAML
+# Version: 2.8.0
+# Aciklama: ItemInfo kaynak envanterini tam sayfali, kayipsiz ve deterministik bicimde yeniler
+# Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Skill Translation
 
