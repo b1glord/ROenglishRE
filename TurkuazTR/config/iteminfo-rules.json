@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.63.0",
-    "description": "v1.119.0 sistem uyari ve kullanilabilirlik, seviye, sure ve NPC depolama kosullari icin guvenli renk korumali kurallar",
+    "version": "1.63.1",
+    "description": "v1.119.0 sistem uyari ve sure sinirlarini koruyan kaliplar; takas/depo anlamlari ve baslangic suresi ayrildi",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7879,22 +7879,10 @@
       "replacement": "\"^ff0000Dikkat! - Rastgele Ozellik verildiginde \\1 esyasinin Gelistirme Seviyesi ve kart yuvasi sifirlanir.^000000"
     },
     {
-      "id": "v1119_special_certificate_expire",
-      "type": "regex",
-      "pattern": "\"\\^ff0000(Graduation Certificate|Tiny Ticket|The Special Dungeon Entry Ticket) will (?:automatically disappear|disappear automatically) ([0-9]+) hours after (?:you get it|opening the box)\\.\\^000000(?=\")",
-      "replacement": "\"^ff0000\\1 \\2 saat sonra otomatik kaybolur.^000000"
-    },
-    {
       "id": "v1119_enchant_cannot_apply",
       "type": "regex",
       "pattern": "\"\\^ff0000(Furious Gear Enchantment|Time Gap series enchantment) (?:doesn't|can't) apply to (Furious Shadow|Furious Shield|Time Gap Kurojin \\(B\\)|Time Gap Shadow Dagger \\(B\\))\\.\\^000000(?=\")",
       "replacement": "\"^ff0000\\1, \\2 esyasina uygulanamaz.^000000"
-    },
-    {
-      "id": "v1119_no_use_while",
-      "type": "regex",
-      "pattern": "\"\\^ff0000Cannot be used while (married|mounted)\\.\\^000000(?=\")",
-      "replacement": "\"^ff0000\\1 durumundayken kullanilamaz.^000000"
     },
     {
       "id": "v1119_random_item_equal",
@@ -7933,12 +7921,6 @@
       "replacement": "\"^ff0000Yalnizca NPC'lere satilabilir veya depoya konabilir.^000000"
     },
     {
-      "id": "v1119_no_exchange_no_storage",
-      "type": "regex",
-      "pattern": "\"\\^ff0000Cannot be (traded, stored and placed in a cart|sold and stored)\\.\\^000000(?=\")",
-      "replacement": "\"^ff0000Takas, depo veya araba kisitlamalari bu esya icin gecerlidir.^000000"
-    },
-    {
       "id": "v1119_costume_enchant_warning",
       "type": "regex",
       "pattern": "\"\\^ff0000Caution! - Only different types of (Costume Enchant Stones|cards|items) are accepted as (?:materials|material)\\.?\\^000000(?=\")",
@@ -7949,6 +7931,42 @@
       "type": "regex",
       "pattern": "\"\\^ff0000This item will be available for use until ([^\"\r\n^]+) scheduled maintenance\\.\\^000000(?=\")",
       "replacement": "\"^ff0000Bu esya \\1 tarihinde planlanan bakima kadar kullanilabilir.^000000"
+    },
+    {
+      "id": "v1119_not_sold_or_stored",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be sold and stored\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya satilamaz veya depolanamaz.^000000"
+    },
+    {
+      "id": "v1119_no_trade_cart_storage",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be traded, stored and placed in a cart\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya takas edilemez, depolanamaz ve arabaya konamaz.^000000"
+    },
+    {
+      "id": "v1119_married_not_use",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be used while married\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Evliyken kullanilamaz.^000000"
+    },
+    {
+      "id": "v1119_mounted_not_use",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be used while mounted\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Binek uzerindeyken kullanilamaz.^000000"
+    },
+    {
+      "id": "v1119_expire_after_received",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Graduation Certificate will disappear automatically ([0-9]+) hours after you get it\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Graduation Certificate alindiktan \\1 saat sonra otomatik kaybolur.^000000"
+    },
+    {
+      "id": "v1119_expire_after_opened",
+      "type": "regex",
+      "pattern": "\"\\^ff0000(Tiny Ticket|The Special Dungeon Entry Ticket) will automatically disappear ([0-9]+) hours after opening the box\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000\\1 kutu acildiktan \\2 saat sonra otomatik kaybolur.^000000"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
