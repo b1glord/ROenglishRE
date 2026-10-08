@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.54.3
-# Aciklama: v1.106.0 exact shard ve generated pending metriklerini canonical raporla hizalar
+# Version: 2.54.4
+# Aciklama: v1.109.0 exact verisi ve 2026.10.08-test.2 test candidate paketleme durumunu kaydeder
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -23,19 +23,20 @@ pins:
   old_translation_base_sha: "d336ab454031fda5868e710cbf2435216474bff4"
 
 test_release:
-  version: "2026.10.07-test.1"
-  status: "candidate_awaiting_manual_client_smoke"
+  version: "2026.10.08-test.2"
+  translation_version: "1.109.0"
+  status: "candidate_awaiting_automated_package_gate"
   source_branch: "translation/tr"
   upstream_behind: 0
   open_pull_requests: 0
   packaging_tool: "TurkuazTR/tools/build-test-package.py"
   workflow: ".github/workflows/turkuaz-test-release.yml"
-  package_gate_run: "https://github.com/b1glord/ROenglishRE/actions/runs/37786392323"
-  package_source_commit: "1b16849db63cbe96f1183dc25470c6b71feae3df"
-  package_profiles_passed: 4
+  previous_package_gate_run: "https://github.com/b1glord/ROenglishRE/actions/runs/37786392323"
+  previous_package_source_commit: "1b16849db63cbe96f1183dc25470c6b71feae3df"
+  previous_package_profiles_passed: 4
   profiles: "english,hybrid,full_tr,bilingual"
-  item_info_pending_unique: 10672
-  item_info_pending_occurrences: 10672
+  item_info_pending_unique: 10273
+  item_info_pending_occurrences: 10273
   item_info_policy: "test_surumunde_ingilizce_fallback_korunur_final_release_gate_degildir"
 
 sync:
@@ -264,21 +265,21 @@ sync:
     exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
     exact_translation_entries: 2984
     final_exact_translation: "TurkuazTR/config/iteminfo-exact-final.tr.json"
-    final_exact_translation_entries: 9034
-    total_exact_translation_entries: 12018
+    final_exact_translation_entries: 9433
+    total_exact_translation_entries: 12417
     lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
     lore_source_recovery_candidates: 35
-    last_generated_lore_pending_candidates: 10672
-    last_generated_lore_pending_occurrences: 10672
+    last_generated_lore_pending_candidates: 10273
+    last_generated_lore_pending_occurrences: 10273
     last_validated_replacements_per_tr_profile: 151926
     last_validated_applied_rule_count: 161
     last_validated_unchanged_natural_description_occurrences: 63212
     last_validated_unique_unchanged_natural_description_count: 37069
     last_validated_lore_candidate_occurrences: 27152
     last_validated_unique_lore_candidate_count: 23927
-    last_validated_metrics_note: "2026-10-08 v1.106.0 sonrasi exact primary 2984, final 9034, total 12018; generated pending 10672 unique / 10672 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
+    last_validated_metrics_note: "2026-10-08 v1.109.0 sonrasi exact primary 2984, final 9433, total 12417; generated pending 10273 unique / 10273 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
