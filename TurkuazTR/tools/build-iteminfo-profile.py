@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.2.1
-# Aciklama: Exact shard yollarini ayri config kaydindan okuyup canonical exact dosyasiyla cakisma kontrollu birlestirir
+# Version: 1.2.2
+# Aciklama: Exact shard birlestirmede Lua cift tirnaklarini byte-safe kacis ile korur
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -85,11 +85,30 @@ def prepare_rules(rules: list[dict]) -> list[dict]:
     return prepared
 
 
+def escape_lua_quoted_content(value: bytes) -> bytes:
+    """Keep existing Lua escapes and escape only unescaped double quotes."""
+    escaped = bytearray()
+    preceding_backslashes = 0
+    for char in value:
+        if char == 0x22 and preceding_backslashes % 2 == 0:
+            escaped.append(0x5C)
+        escaped.append(char)
+        if char == 0x5C:
+            preceding_backslashes += 1
+        else:
+            preceding_backslashes = 0
+    if preceding_backslashes % 2:
+        raise ValueError("Exact translation ends with a dangling Lua escape")
+    result = bytes(escaped)
+    if STRING_RE.fullmatch(b'"' + result + b'"') is None:
+        raise ValueError("Exact translation is not a safe Lua quoted string")
+    return result
+
 def prepare_exact_translations(data: dict) -> dict[bytes, bytes]:
     prepared: dict[bytes, bytes] = {}
     for source, translation in data.get("translations", {}).items():
         source_bytes = source.encode("ascii")
-        target_bytes = translation.encode("ascii")
+        target_bytes = escape_lua_quoted_content(translation.encode("ascii"))
         if not source_bytes:
             raise ValueError("Empty item info exact translation source")
         if source_bytes == target_bytes:
