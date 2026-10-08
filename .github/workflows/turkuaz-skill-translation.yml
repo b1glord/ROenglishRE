@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.6.0
+# VERSION: 2.6.1
 # DESCRIPTION: Exact shard config ve final shard degisikliklerini de izler; pending/final batch raporlarini ve localization profillerini yeniler.
 # DEPENDENCY-LAYER: Tool
 
@@ -143,6 +143,9 @@ jobs:
                 --profile "$profile"
             done
           done
+
+      - name: Validate itemInfo exact Lua string safety
+        run: python3 TurkuazTR/tools/validate-iteminfo-exact-strings.py
 
       - name: Build localized item info profiles
         shell: bash
