@@ -1,7 +1,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.54.4
+# Version: 2.54.5
 # Aciklama: v1.109.0 exact verisi ve 2026.10.08-test.2 test candidate paketleme durumunu kaydeder
 # Bagimli Oldugu Katman: Config
 
@@ -25,7 +25,7 @@ pins:
 test_release:
   version: "2026.10.08-test.2"
   translation_version: "1.109.0"
-  status: "candidate_awaiting_automated_package_gate"
+  status: "candidate_awaiting_manual_client_smoke"
   source_branch: "translation/tr"
   upstream_behind: 0
   open_pull_requests: 0
@@ -34,6 +34,9 @@ test_release:
   previous_package_gate_run: "https://github.com/b1glord/ROenglishRE/actions/runs/37786392323"
   previous_package_source_commit: "1b16849db63cbe96f1183dc25470c6b71feae3df"
   previous_package_profiles_passed: 4
+  package_gate_run: "https://github.com/b1glord/ROenglishRE/actions/runs/37810891735"
+  package_source_commit: "7fde262def42a0efa667d87462a7b05f0cf5197c"
+  package_profiles_passed: 4
   profiles: "english,hybrid,full_tr,bilingual"
   item_info_pending_unique: 10273
   item_info_pending_occurrences: 10273
