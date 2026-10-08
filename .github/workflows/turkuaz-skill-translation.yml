@@ -1,8 +1,8 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.6.2
-# DESCRIPTION: Exact shard config ve final shard degisikliklerini de izler; pending/final batch raporlarini ve localization profillerini yeniler.
+# VERSION: 2.7.0
+# DESCRIPTION: Tum exact shard degisikliklerini izleyip pending/final batch ve localization profillerini yeniler.
 # DEPENDENCY-LAYER: Tool
 
 name: Turkuaz Skill Translation
@@ -19,7 +19,7 @@ on:
       - "TurkuazTR/localization-profiles.json"
       - "TurkuazTR/config/iteminfo-rules.json"
       - "TurkuazTR/config/iteminfo-exact-shards.json"
-      - "TurkuazTR/config/iteminfo-exact-final.tr.json"
+      - "TurkuazTR/config/iteminfo-exact-*.tr.json"
       - "TurkuazTR/iteminfo-exact.tr.json"
       - "TurkuazTR/iteminfo-lore.source-recovery.json"
       - "TurkuazTR/msgstringtable.tr.json"
