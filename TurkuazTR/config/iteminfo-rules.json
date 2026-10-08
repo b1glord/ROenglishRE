@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.62.0",
-    "description": "v1.117.0 fiziksel ve buyulu hasar, skill bekleme suresi ve SP tuketimi ortak Turkce kurallari",
+    "version": "1.63.0",
+    "description": "v1.119.0 sistem uyari ve kullanilabilirlik, seviye, sure ve NPC depolama kosullari icin guvenli renk korumali kurallar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7835,6 +7835,120 @@
       "type": "regex",
       "pattern": "\"Increases Variable Casting Time of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) by ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 becerisinin Degisken Kullanim Suresini %\\2 artirir."
+    },
+    {
+      "id": "v1119_min_open_base_level",
+      "type": "regex",
+      "pattern": "\"\\^ff0000It is possible to open when Base Level is ([0-9]+) or higher\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Temel Seviye \\1 veya uzerindeyken acilabilir.^000000"
+    },
+    {
+      "id": "v1119_levelup_expire",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Level Up Box\\(Lv([0-9]+)\\) will disappear automatically ([0-9]+) hours after you get it\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Level Up Box(Lv\\1) alindiktan \\2 saat sonra otomatik kaybolur.^000000"
+    },
+    {
+      "id": "v1119_rental_npc_sale",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Rental Costume ([^^\"\r\n]+?) can only be sold to NPC's\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Kiralik Kostum \\1 yalnizca NPC'lere satilabilir.^000000"
+    },
+    {
+      "id": "v1119_package_oil_expire",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Luxury Oil will automatically disappear ([0-9]+) hours after opening the box\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Luxury Oil kutu acildiktan \\1 saat sonra otomatik kaybolur.^000000"
+    },
+    {
+      "id": "v1119_lapine_warning",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Caution! - The contents of (Lapine Thump Box|Lapine's Thump Box|Lapines Thump Box) are subject to change without notice\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Dikkat! - \\1 icerigi onceden haber verilmeden degistirilebilir.^000000"
+    },
+    {
+      "id": "v1119_random_option_reset_card_slots",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Caution! - When a Random Option is given, Refine Level and card slots of (\\^[A-Fa-f0-9]{6}[^\\^\"\\r\\n]*\\^000000) are reset\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Dikkat! - Rastgele Ozellik verildiginde \\1 esyasinin Gelistirme Seviyesi ve kart yuvalari sifirlanir.^000000"
+    },
+    {
+      "id": "v1119_random_option_reset_card_slot",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Caution! - When a Random Option is given, Refine Level and card slot of (\\^[A-Fa-f0-9]{6}[^\\^\"\\r\\n]*\\^000000) are reset\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Dikkat! - Rastgele Ozellik verildiginde \\1 esyasinin Gelistirme Seviyesi ve kart yuvasi sifirlanir.^000000"
+    },
+    {
+      "id": "v1119_special_certificate_expire",
+      "type": "regex",
+      "pattern": "\"\\^ff0000(Graduation Certificate|Tiny Ticket|The Special Dungeon Entry Ticket) will (?:automatically disappear|disappear automatically) ([0-9]+) hours after (?:you get it|opening the box)\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000\\1 \\2 saat sonra otomatik kaybolur.^000000"
+    },
+    {
+      "id": "v1119_enchant_cannot_apply",
+      "type": "regex",
+      "pattern": "\"\\^ff0000(Furious Gear Enchantment|Time Gap series enchantment) (?:doesn't|can't) apply to (Furious Shadow|Furious Shield|Time Gap Kurojin \\(B\\)|Time Gap Shadow Dagger \\(B\\))\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000\\1, \\2 esyasina uygulanamaz.^000000"
+    },
+    {
+      "id": "v1119_no_use_while",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be used while (married|mounted)\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000\\1 durumundayken kullanilamaz.^000000"
+    },
+    {
+      "id": "v1119_random_item_equal",
+      "type": "regex",
+      "pattern": "\"\\^ff0000The chance for every item is equal\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Her esyanin cikma olasiligi esittir.^000000"
+    },
+    {
+      "id": "v1119_monthly_delete",
+      "type": "regex",
+      "pattern": "\"\\^ff0000The item will be deleted at the first regular maintenance every month\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Esya her ayin ilk duzenli bakiminda silinir.^000000"
+    },
+    {
+      "id": "v1119_unable_trade_account",
+      "type": "regex",
+      "pattern": "\"\\^ff0000This item cannot(?: be)? trad(?:e|ed) (?:to other account|with other accounts)\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya diger hesaplarla takas edilemez.^000000"
+    },
+    {
+      "id": "v1119_cannot_refund_after_open",
+      "type": "regex",
+      "pattern": "\"\\^ff0000This item cannot be cancelled or refunded after it has been opened\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya acildiktan sonra iptal veya iade edilemez.^000000"
+    },
+    {
+      "id": "v1119_can_store_trade_cart",
+      "type": "regex",
+      "pattern": "\"\\^ff0000This item can be traded, stored, and put into a cart\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya takas edilebilir, depoya konabilir ve arabaya yerlestirilebilir^000000"
+    },
+    {
+      "id": "v1119_only_npc_storage",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Can only be sold to NPC(?:'s|s)? (?:and|or) (?:placed in storage|moved to (?:the )?storage|moved into your storage)\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Yalnizca NPC'lere satilabilir veya depoya konabilir.^000000"
+    },
+    {
+      "id": "v1119_no_exchange_no_storage",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Cannot be (traded, stored and placed in a cart|sold and stored)\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Takas, depo veya araba kisitlamalari bu esya icin gecerlidir.^000000"
+    },
+    {
+      "id": "v1119_costume_enchant_warning",
+      "type": "regex",
+      "pattern": "\"\\^ff0000Caution! - Only different types of (Costume Enchant Stones|cards|items) are accepted as (?:materials|material)\\.?\\^000000(?=\")",
+      "replacement": "\"^ff0000Dikkat! - Malzeme olarak yalnizca farkli turde \\1 kabul edilir.^000000"
+    },
+    {
+      "id": "v1119_drop_maintenance_until",
+      "type": "regex",
+      "pattern": "\"\\^ff0000This item will be available for use until ([^\"\r\n^]+) scheduled maintenance\\.\\^000000(?=\")",
+      "replacement": "\"^ff0000Bu esya \\1 tarihinde planlanan bakima kadar kullanilabilir.^000000"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
