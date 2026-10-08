@@ -1,0 +1,13 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-inventory.json",
+    "purpose": "itemInfo pending envanterinin sayfalama sinirini ve adlandirma kurallarini tutar",
+    "module": "Config - JSON",
+    "version": "1.0.0",
+    "description": "Kaynak-koruyan itemInfo ceviri envanteri icin 1000 kayitlik deterministik sayfalar",
+    "dependency_layer": "Tool"
+  },
+  "batch_limit": 1000,
+  "page_pattern": "iteminfo-lore.batch.{index}.json",
+  "page_glob": "iteminfo-lore.batch.*.json"
+}
