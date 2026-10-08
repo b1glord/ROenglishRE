@@ -3,13 +3,14 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-exact-shards.json",
     "purpose": "itemInfo exact ceviri shard dosyalarini build aracina kaydeder",
     "module": "Config - JSON",
-    "version": "1.2.0",
-    "description": "Final, v1.112.0 ve v1.113.0 dogrulanmis exact ceviri shard kaynaklari",
+    "version": "1.3.0",
+    "description": "Final, v1.112.0, v1.113.0 ve v1.114.0 exact ceviri shard kaynaklari",
     "dependency_layer": "Tool"
   },
   "paths": [
     "TurkuazTR/config/iteminfo-exact-final.tr.json",
     "TurkuazTR/config/iteminfo-exact-v1112.tr.json",
-    "TurkuazTR/config/iteminfo-exact-v1113.tr.json"
+    "TurkuazTR/config/iteminfo-exact-v1113.tr.json",
+    "TurkuazTR/config/iteminfo-exact-v1114.tr.json"
   ]
 }
