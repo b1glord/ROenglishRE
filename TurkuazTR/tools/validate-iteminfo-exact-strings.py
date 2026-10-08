@@ -2,14 +2,15 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.0.0
-# Aciklama: Tum exact shard hedeflerinin guvenli oldugunu ve tirnak korumasini test eder
+# Version: 1.1.0
+# Aciklama: Exact shard Lua guvenligi ile yeni itemInfo kural sayi/renk korunumu testlerini calistirir
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
 
 import importlib.util
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -74,6 +75,56 @@ class ExactLuaStringTests(unittest.TestCase):
                 self.assertNotIn(source, combined, msg=f"Duplicate exact key: {source!r}")
                 combined[source] = target
         self.assertGreater(len(combined), 10000)
+
+
+    def test_v1123_rules_keep_numbers_color_tags_and_boundaries(self) -> None:
+        config = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            rule["id"]: rule
+            for rule in config["rules"]
+            if rule["id"].startswith("lore_v1123_")
+        }
+        samples = {
+            "lore_v1123_experience_race":
+                "Increases experience gained from ^FF0000Angel^000000 race monsters by 15%.",
+            "lore_v1123_magic_damage_size":
+                "Increases Magical Damage against monsters of ^FF0000Large^000000 size by 10%.",
+            "lore_v1123_magic_damage_size_extra":
+                "Increases Magical Damage against monsters of ^FF0000Large^000000 size by additional 3%.",
+            "lore_v1123_refine_restricted_items":
+                "It can only be used on Dim Glacier weapons with refine level between +9 and +11.",
+            "lore_v1123_level_restricted_items":
+                "It can only be used from Level 150 to Level 169.",
+            "lore_v1123_autocast_chance_percent":
+                "Increases the chance to auto-cast ^009900Psychic Wave^000000 by 2%.",
+            "lore_v1123_autocast_chance_generic":
+                "Increases the chance to auto-cast ^009900Judex^000000.",
+            "lore_v1123_bonus_contains":
+                "It also contains Kagerou, Oboro, Rebellion and Doram Stone(Garment).",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for rule_id, source in samples.items():
+            with self.subTest(rule=rule_id):
+                prepared = builder.prepare_rules([rules[rule_id]])
+                original = ('"' + source + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                actual = builder.apply_rules(original, prepared, counts)
+                self.assertNotEqual(actual, original)
+                self.assertEqual(counts.get(rule_id), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+", original)),
+                    sorted(re.findall(rb"[0-9]+", actual)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", original)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", actual)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(actual))
+
 
 
 if __name__ == "__main__":

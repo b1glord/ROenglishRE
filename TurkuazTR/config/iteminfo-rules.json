@@ -4,7 +4,7 @@
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
     "version": "1.65.0",
-    "description": "v1.121.0 itemInfo auto-cast, sans, hasar alma, MaxHP/MaxSP yenileme ve canavar dusurme ifadeleri",
+    "description": "v1.123.0: experience, size, refine usage, autocast ve ek icerik kaliplari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8321,6 +8321,54 @@
       "type": "regex",
       "pattern": "\"RIC booster Stat, A box consist ofeach ([0-9]+) kinds those are (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)(?=\")",
       "replacement": "\"RIC Booster Stat, \\1 tur esya iceren kutu: \\2"
+    },
+    {
+      "id": "lore_v1123_experience_race",
+      "type": "regex",
+      "pattern": "\"Increases experience gained from (\\^FF0000[^\"^]*\\^000000) race monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlardan kazanilan deneyimi %\\2 artirir."
+    },
+    {
+      "id": "lore_v1123_magic_damage_size",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^FF0000[^\"^]*\\^000000) size by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 boyutundaki canavarlara verilen buyu hasarini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1123_magic_damage_size_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of (\\^FF0000[^\"^]*\\^000000) size by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 boyutundaki canavarlara verilen buyu hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "lore_v1123_refine_restricted_items",
+      "type": "regex",
+      "pattern": "\"It can only be used on ([^\"^]+?) with refine level between \\+([0-9]+) and \\+([0-9]+)\\.(?=\")",
+      "replacement": "\"Yalnizca gelistirme seviyesi +\\2 ile +\\3 arasinda olan \\1 esyasinda kullanilabilir."
+    },
+    {
+      "id": "lore_v1123_level_restricted_items",
+      "type": "regex",
+      "pattern": "\"It can only be used from Level ([0-9]+) to Level ([0-9]+)\\.(?=\")",
+      "replacement": "\"Yalnizca Seviye \\1 ile Seviye \\2 arasinda kullanilabilir."
+    },
+    {
+      "id": "lore_v1123_autocast_chance_percent",
+      "type": "regex",
+      "pattern": "\"Increases the chance to auto-cast (\\^009900[^\"^]*\\^000000) by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisini otomatik kullanma sansini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1123_autocast_chance_generic",
+      "type": "regex",
+      "pattern": "\"Increases the chance to auto-cast (\\^009900[^\"^]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 becerisini otomatik kullanma sansini artirir."
+    },
+    {
+      "id": "lore_v1123_bonus_contains",
+      "type": "regex",
+      "pattern": "\"It also contains ([^\"^]+)\\.(?=\")",
+      "replacement": "\"Ayrica \\1 icerir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
