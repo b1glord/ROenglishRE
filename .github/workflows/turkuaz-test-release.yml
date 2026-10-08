@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-test-release.yml
 # 📌 Amac: Generated localization profillerini smoke-test kontrollu indirilebilir test paketlerine donusturur
 # 📌 Tool - YAML
-# Version: 1.1.0
-# Aciklama: v1.109.0 localization icin yeni test candidate ZIP paketlerini checksum ile dogrular
+# Version: 1.2.0
+# Aciklama: v1.110.0 itemInfo exact ciktilarini test.3 ZIP ve SHA-256 ile dogrular
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Translation Test Package
@@ -13,7 +13,7 @@ on:
       version:
         description: "Test paket surumu"
         required: false
-        default: "2026.10.08-test.2"
+        default: "2026.10.08-test.3"
   push:
     branches:
       - "translation/tr"
@@ -51,7 +51,7 @@ jobs:
           set -euo pipefail
           VERSION="${{ inputs.version }}"
           if [ -z "$VERSION" ]; then
-            VERSION="2026.10.08-test.2"
+            VERSION="2026.10.08-test.3"
           fi
           echo "value=$VERSION" >> "$GITHUB_OUTPUT"
 
