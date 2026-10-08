@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/manifest.yml
 # 📌 Amac: Guncel upstream ile Turkce localization senkron durumunu takip eder
 # 📌 Config - YAML
-# Version: 2.54.5
-# Aciklama: v1.109.0 exact verisi ve 2026.10.08-test.2 test candidate paketleme durumunu kaydeder
+# Version: 2.54.6
+# Aciklama: Test paketi snapshot degerlerini korur; canli itemInfo exact/pending sayimlarini generated rapordan senkronize eder
 # Bagimli Oldugu Katman: Config
 
 project:
@@ -38,6 +38,7 @@ test_release:
   package_source_commit: "7fde262def42a0efa667d87462a7b05f0cf5197c"
   package_profiles_passed: 4
   profiles: "english,hybrid,full_tr,bilingual"
+  # Paket olusturuldugu andaki snapshot; canli itemInfo sayimi sync.item_info altindadir.
   item_info_pending_unique: 10273
   item_info_pending_occurrences: 10273
   item_info_policy: "test_surumunde_ingilizce_fallback_korunur_final_release_gate_degildir"
@@ -268,21 +269,21 @@ sync:
     exact_translation: "TurkuazTR/iteminfo-exact.tr.json"
     exact_translation_entries: 2984
     final_exact_translation: "TurkuazTR/config/iteminfo-exact-final.tr.json"
-    final_exact_translation_entries: 9433
-    total_exact_translation_entries: 12417
+    final_exact_translation_entries: 9722
+    total_exact_translation_entries: 12706
     lore_pending: "TurkuazTR/iteminfo-lore.pending.json"
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
     lore_source_recovery_candidates: 35
-    last_generated_lore_pending_candidates: 10273
-    last_generated_lore_pending_occurrences: 10273
+    last_generated_lore_pending_candidates: 9984
+    last_generated_lore_pending_occurrences: 9984
     last_validated_replacements_per_tr_profile: 151926
     last_validated_applied_rule_count: 161
     last_validated_unchanged_natural_description_occurrences: 63212
     last_validated_unique_unchanged_natural_description_count: 37069
     last_validated_lore_candidate_occurrences: 27152
     last_validated_unique_lore_candidate_count: 23927
-    last_validated_metrics_note: "2026-10-08 v1.109.0 sonrasi exact primary 2984, final 9433, total 12417; generated pending 10273 unique / 10273 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
+    last_validated_metrics_note: "Generated exact primary 2984, final 9722, total 12706; pending 9984 unique / 9984 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"

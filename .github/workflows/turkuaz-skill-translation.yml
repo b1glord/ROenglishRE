@@ -1,7 +1,7 @@
 # PATH: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # PURPOSE: Skill, line-overlay ve whole-file localization ciktilarini English/Hybrid/Full TR/Bilingual profillerinde dogrular.
 # MODULE-FILETYPE: CI - GitHub Actions YAML
-# VERSION: 2.6.1
+# VERSION: 2.6.2
 # DESCRIPTION: Exact shard config ve final shard degisikliklerini de izler; pending/final batch raporlarini ve localization profillerini yeniler.
 # DEPENDENCY-LAYER: Tool
 
@@ -166,6 +166,13 @@ jobs:
       - name: Generate item info lore pending report
         run: python TurkuazTR/tools/extract-iteminfo-lore-pending.py
 
+      - name: Synchronize live itemInfo manifest metrics
+        shell: bash
+        run: |
+          set -euo pipefail
+          python TurkuazTR/tools/sync-iteminfo-manifest.py
+          python TurkuazTR/tools/sync-iteminfo-manifest.py --check
+
       - name: Commit refreshed localization outputs
         shell: bash
         run: |
@@ -175,6 +182,7 @@ jobs:
           git add TurkuazTR/skilldescript.pending.json
           git add TurkuazTR/iteminfo-lore.pending.json
           git add TurkuazTR/iteminfo-lore.batch.json
+          git add TurkuazTR/manifest.yml
           git add TurkuazTR/generated/english
           git add TurkuazTR/generated/hybrid
           git add TurkuazTR/generated/full_tr
