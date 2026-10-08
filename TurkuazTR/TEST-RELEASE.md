@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.0.2
+Version: 1.0.3
 Aciklama: v1.106.0 generated pending snapshot ve test paketi kabul adimlarini belgeler
 Bagimli Oldugu Katman: View
 -->
@@ -35,6 +35,16 @@ Bu surum son kullanici final release'i degildir. Amac, generated localization pr
 ## Bilinen test-surumu siniri
 
 `itemInfo.lua` serbest lore migration'i devam etmektedir. Son generated snapshot 10672 benzersiz / 10672 occurrence seviyesindedir. Canli degerin kaynagi `TurkuazTR/iteminfo-lore.pending.json` dosyasidir. Anlami guvenli olmayan metinler Turkcelestirilmez; Ingilizce fallback olarak korunur. Bu durum test surumunu engellemez, ancak final localization release gate'i olarak kabul edilmez.
+
+## Otomatik paketleme sonucu
+
+- CI: https://github.com/b1glord/ROenglishRE/actions/runs/37786392323
+- Kaynak commit: `1b16849db63cbe96f1183dc25470c6b71feae3df`
+- `english`, `hybrid`, `full_tr`, `bilingual`: 4/4 paketleme PASS.
+- ZIP ve SHA-256 sidecar dogrulamasi PASS.
+- Her paket icin ZIP, SHA-256 ve JSON build raporu artifact olarak uretildi.
+- GitHub Actions artifact saklama suresi 14 gundur.
+- Durum: otomatik paketleme tamam, gercek 2022 client smoke-test bekliyor.
 
 ## Manuel client smoke test
 
