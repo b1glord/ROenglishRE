@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.58.0",
-    "description": "Grade, refine hata koruma, magic DEF ve seviye odul mesajlari icin ortak byte-safe kurallar",
+    "version": "1.59.0",
+    "description": "v1.114.0 ek hediye kutusu icerigi icin guvenli item adi korumali kalip",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7187,6 +7187,12 @@
       "type": "regex",
       "pattern": "\"If you open it now, you can also get the Level Up Box\\(([0-9]+)\\)!(?=\")",
       "replacement": "\"Simdi acarsaniz Level Up Box(\\1) da alabilirsiniz!"
+    },
+    {
+      "id": "bonus_named_item_included",
+      "type": "regex",
+      "pattern": "\"In addition, ([0-9]+) ([^\"^.]+) is included\\.(?=\")",
+      "replacement": "\"\\2 esyasindan \\1 adet de dahildir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
