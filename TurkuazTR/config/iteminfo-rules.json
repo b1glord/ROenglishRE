@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.63.1",
-    "description": "v1.119.0 sistem uyari ve sure sinirlarini koruyan kaliplar; takas/depo anlamlari ve baslangic suresi ayrildi",
+    "version": "1.64.0",
+    "description": "v1.120.0 Grade A-D ve beceri kombinasyonu/yetenek tetikleme kosullari icin byte-safe kurallar",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -7967,6 +7967,180 @@
       "type": "regex",
       "pattern": "\"\\^ff0000(Tiny Ticket|The Special Dungeon Entry Ticket) will automatically disappear ([0-9]+) hours after opening the box\\.\\^000000(?=\")",
       "replacement": "\"^ff0000\\1 kutu acildiktan \\2 saat sonra otomatik kaybolur.^000000"
+    },
+    {
+      "id": "v1120_when_mastered",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) is mastered:(?=\")",
+      "replacement": "\"\\1 tamamen ogrenildiginde:"
+    },
+    {
+      "id": "v1120_when_level",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) is Level ([0-9]+):(?=\")",
+      "replacement": "\"\\1 Seviye \\2 oldugunda:"
+    },
+    {
+      "id": "v1120_when_learned_level",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) Level ([0-9]+) or higher is learned:(?=\")",
+      "replacement": "\"\\1 Seviye \\2 veya daha yuksek ogrenildiginde:"
+    },
+    {
+      "id": "v1120_when_used",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) is used:(?=\")",
+      "replacement": "\"\\1 kullanildiginda:"
+    },
+    {
+      "id": "v1120_when_using",
+      "type": "regex",
+      "pattern": "\"When using (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"\\1 kullanilirken:"
+    },
+    {
+      "id": "v1120_when_combined_two",
+      "type": "regex",
+      "pattern": "\"When combined with (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"\\1 ve \\2 ile birlestirildiginde:"
+    },
+    {
+      "id": "v1120_when_combined_one",
+      "type": "regex",
+      "pattern": "\"When combined with (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"\\1 ile birlestirildiginde:"
+    },
+    {
+      "id": "v1120_when_compounded",
+      "type": "regex",
+      "pattern": "\"When compounded on a (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"\\1 uzerine kart takildiginda:"
+    },
+    {
+      "id": "v1120_when_casting_autocast",
+      "type": "regex",
+      "pattern": "\"When casting (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), it auto-casts Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 kullanildiginda Seviye \\2 \\3 otomatik kullanilir."
+    },
+    {
+      "id": "v1120_when_mastered_level",
+      "type": "regex",
+      "pattern": "\"When mastered Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"Seviye \\1 \\2 tamamen ogrenildiginde:"
+    },
+    {
+      "id": "v1120_when_refined",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) Refined to \\+([0-9]+):(?=\")",
+      "replacement": "\"\\1 Gelistirme Seviyesi +\\2 oldugunda:"
+    },
+    {
+      "id": "v1120_when_cast_learn",
+      "type": "regex",
+      "pattern": "\"When (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) is learned:(?=\")",
+      "replacement": "\"\\1 ogrenildiginde:"
+    },
+    {
+      "id": "v1120_when_skill_bonus",
+      "type": "regex",
+      "pattern": "\"When you open the box, you will receive a ([0-9]+)-day Premium Buff for all your characters in the server:(?=\")",
+      "replacement": "\"Kutu acildiginda sunucudaki tum karakterleriniz icin \\1 gunluk Premium Buff alirsiniz:"
+    },
+    {
+      "id": "v1120_grade_damage_pair",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 ve \\3 elementindeki dusmanlara verilen hasar +\\4%."
+    },
+    {
+      "id": "v1120_grade_damage_single",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 elementindeki dusmanlara verilen hasar +\\3%."
+    },
+    {
+      "id": "v1120_grade_magic_pair",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 ve \\3 elementlerinin Buyu Hasari +\\4%."
+    },
+    {
+      "id": "v1120_grade_magic_seven",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Magical Damage with (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000), (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2, \\3, \\4, \\5, \\6, \\7 ve \\8 elementlerinin Buyu Hasari +\\9%."
+    },
+    {
+      "id": "v1120_grade_experience_race",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Experience gained from (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race monsters \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 irkindeki canavarlardan kazanilan deneyim +\\3%."
+    },
+    {
+      "id": "v1120_grade_physical_magical_element",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Physical and Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) element \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 elementindeki dusmanlara verilen fiziksel ve buyulu hasar +\\3%."
+    },
+    {
+      "id": "v1120_grade_physical_magical_race",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Physical and Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 irkindeki dusmanlara verilen fiziksel ve buyulu hasar +\\3%."
+    },
+    {
+      "id": "v1120_grade_damage_skill_patk",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\+([0-9]+)%, P\\.ATK \\+([0-9]+)\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 becerisinin hasari +\\3%, P.ATK +\\4."
+    },
+    {
+      "id": "v1120_grade_damage_skill",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Damage of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 becerisinin hasari +\\3%."
+    },
+    {
+      "id": "v1120_grade_physical_damage",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Physical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 irkindeki dusmanlara verilen Fiziksel Hasar +\\3%."
+    },
+    {
+      "id": "v1120_grade_magic_damage",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: Magical Damage against enemies of (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race \\+([0-9]+)%\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 irkindeki dusmanlara verilen Buyu Hasari +\\3%."
+    },
+    {
+      "id": "v1120_grade_fixed_cooldown",
+      "type": "regex",
+      "pattern": "\"\\[Grade ([A-D])\\]: (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) skill cooldown -([0-9]+(?:\\.[0-9]+)?) seconds\\.(?=\")",
+      "replacement": "\"[Grade \\1]: \\2 becerisinin bekleme suresi -\\3 saniye."
+    },
+    {
+      "id": "v1120_word_card_event",
+      "type": "regex",
+      "pattern": "\"This (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) Word Card is dedicated to the event\\.(?=\")",
+      "replacement": "\"Bu \\1 Kelime Karti etkinlige ozeldir."
+    },
+    {
+      "id": "v1120_proc_cast_when_damage",
+      "type": "regex",
+      "pattern": "\"There\\\\'s a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when receiving physical damage\\.(?=\")",
+      "replacement": "\"Fiziksel hasar alindiginda %\\1 sansla Seviye \\2 \\3 otomatik kullanilir."
+    },
+    {
+      "id": "v1120_proc_cast_regular",
+      "type": "regex",
+      "pattern": "\"There\\\\'s a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"%\\1 sansla Seviye \\2 \\3 otomatik kullanilir."
+    },
+    {
+      "id": "v1120_proc_cast_using",
+      "type": "regex",
+      "pattern": "\"There\\\\'s a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when using (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\4 kullanilirken %\\1 sansla Seviye \\2 \\3 otomatik kullanilir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
