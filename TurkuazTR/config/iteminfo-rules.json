@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.67.0",
-    "description": "v1.124.0: tipli hasar, healing, status, refine ve auto-cast ceviri kaliplari",
+    "version": "1.68.0",
+    "description": "v1.125.0: silah kullanim zorlugu ve Shadow Equipment birlestirme tarifleri",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8447,6 +8447,30 @@
       "type": "regex",
       "pattern": "\"Increases the chance of inflicting (\\^663399[^\"^]*\\^000000) by ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 durumu uygulama sansini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1125_weapon_difficulty",
+      "type": "regex",
+      "pattern": "\"It is more difficult to handle than the existing ([^\"]+)\\.(?=\")",
+      "replacement": "\"Mevcut \\1 esyasina gore kullanimi daha zordur."
+    },
+    {
+      "id": "lore_v1125_shadow_combine_random_can",
+      "type": "regex",
+      "pattern": "\"If you combine ([0-9]+) of any of the following Shadow Equipments which are refined to \\+([0-9]+) or higher, you can obtain one of these randomly:(?=\")",
+      "replacement": "\"Asagidaki +\\2 veya uzeri gelistirilmis Shadow Equipment esyalarindan \\1 tanesini birlestirirseniz sunlardan birini rastgele elde edebilirsiniz:"
+    },
+    {
+      "id": "lore_v1125_shadow_combine_random",
+      "type": "regex",
+      "pattern": "\"If you combine ([0-9]+) of any of the following Shadow Equipments which are refined to \\+([0-9]+) or higher, you obtain one of these randomly\\.(?=\")",
+      "replacement": "\"Asagidaki +\\2 veya uzeri gelistirilmis Shadow Equipment esyalarindan \\1 tanesini birlestirirseniz sunlardan birini rastgele elde edebilirsiniz."
+    },
+    {
+      "id": "lore_v1125_shadow_combine_experience",
+      "type": "regex",
+      "pattern": "\"If you combine five \\+([0-9]+) or higher refined of any of the following Shadow Equipments, you can obtain one ([^\"]+):(?=\")",
+      "replacement": "\"Asagidaki +\\1 veya uzeri gelistirilmis Shadow Equipment esyalarindan besini birlestirerek bir \\2 elde edebilirsiniz:"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
