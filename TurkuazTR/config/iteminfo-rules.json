@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.64.0",
-    "description": "v1.120.0 Grade A-D ve beceri kombinasyonu/yetenek tetikleme kosullari icin byte-safe kurallar",
+    "version": "1.65.0",
+    "description": "v1.121.0 itemInfo auto-cast, sans, hasar alma, MaxHP/MaxSP yenileme ve canavar dusurme ifadeleri",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8141,6 +8141,186 @@
       "type": "regex",
       "pattern": "\"There\\\\'s a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when using (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
       "replacement": "\"\\4 kullanilirken %\\1 sansla Seviye \\2 \\3 otomatik kullanilir."
+    },
+    {
+      "id": "v1121_physical_melee_proc",
+      "type": "regex",
+      "pattern": "\"Physical melee attacks have a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Yakin dovus fiziksel saldirilari %\\1 sansla Seviye \\2 \\3 becerisini otomatik kullanir."
+    },
+    {
+      "id": "v1121_melee_physical_proc",
+      "type": "regex",
+      "pattern": "\"Melee physical attacks have a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Yakin dovus fiziksel saldirilari %\\1 sansla Seviye \\2 \\3 becerisini otomatik kullanir."
+    },
+    {
+      "id": "v1121_physical_chance",
+      "type": "regex",
+      "pattern": "\"Physical attacks have a chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Fiziksel saldirilarda Seviye \\1 \\2 becerisini otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_physical_pct",
+      "type": "regex",
+      "pattern": "\"Physical attacks have a ([0-9]+)% chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Fiziksel saldirilarda %\\1 sansla Seviye \\2 \\3 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "v1121_physical_pct_reverse",
+      "type": "regex",
+      "pattern": "\"Physical attacks have a chance ([0-9]+)% to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Fiziksel saldirilarda %\\1 sansla Seviye \\2 \\3 becerisi otomatik kullanilir."
+    },
+    {
+      "id": "v1121_melee_physical_chance",
+      "type": "regex",
+      "pattern": "\"Physical melee attacks have a chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Yakin dovus fiziksel saldirilarinda Seviye \\1 \\2 becerisini otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_melee",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when dealing melee physical attacks\\.(?=\")",
+      "replacement": "\"Yakin dovus fiziksel saldiri yaparken Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_regular",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_physical",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when dealing physical damage(?=\")",
+      "replacement": "\"Fiziksel hasar verirken Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir"
+    },
+    {
+      "id": "v1121_random_auto_both",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when dealing physical or magical attack\\.(?=\")",
+      "replacement": "\"Fiziksel veya buyulu saldirilarda Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_received",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when wearer attacked by physical or magical attack\\.(?=\")",
+      "replacement": "\"Fiziksel veya buyulu saldiri alindiginda Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_magic",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when receiving magical damage\\.(?=\")",
+      "replacement": "\"Buyulu hasar alindiginda Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_using",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when using (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\3 kullanildiginda Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_dealt_each",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) each time the wearer dealing physical attack\\.(?=\")",
+      "replacement": "\"Kullananin her fiziksel saldirisinda Seviye \\1 \\2 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_auto_unleveled",
+      "type": "regex",
+      "pattern": "\"Random chance to auto-cast (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when dealing physical damage\\.(?=\")",
+      "replacement": "\"Fiziksel hasar verildiginde \\1 becerisini rastgele otomatik kullanma sansi vardir."
+    },
+    {
+      "id": "v1121_random_drops_two_races",
+      "type": "regex",
+      "pattern": "\"Random chance to drop (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) when defeating (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) and (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race\\.(?=\")",
+      "replacement": "\"\\2 ve \\3 irkindeki canavarlar yenildiginde rastgele \\1 dusurme sansi vardir."
+    },
+    {
+      "id": "v1121_random_drops_one_race",
+      "type": "regex",
+      "pattern": "\"Random chance a defeated (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000) race monster will drop (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavar yenildiginde \\2 dusurme sansi vardir."
+    },
+    {
+      "id": "v1121_random_drops_generic",
+      "type": "regex",
+      "pattern": "\"Random chance a defeated monster will drop (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)(?=\")",
+      "replacement": "\"Yenilen bir canavardan rastgele \\1 dusme sansi vardir"
+    },
+    {
+      "id": "v1121_random_atk_buff",
+      "type": "regex",
+      "pattern": "\"Random chance to increase ATK by ([0-9]+) for ([0-9]+) seconds when dealing physical damage\\.(?=\")",
+      "replacement": "\"Fiziksel hasar verildiginde \\2 saniyeligine ATK degerini \\1 artirma sansi vardir."
+    },
+    {
+      "id": "v1121_random_matk_buff",
+      "type": "regex",
+      "pattern": "\"Random chance to increase MATK by ([0-9]+) for ([0-9]+) seconds when dealing magical damage\\.(?=\")",
+      "replacement": "\"Buyulu hasar verildiginde \\2 saniyeligine MATK degerini \\1 artirma sansi vardir."
+    },
+    {
+      "id": "v1121_magic_buff_chance",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a chance to increase magical damage against all size enemies by ([0-9]+)% for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda tum boyuttaki dusmanlara verilen buyu hasarini \\2 saniyeligine %\\1 artirma sansi vardir."
+    },
+    {
+      "id": "v1121_restore_maxhp_maxsp",
+      "type": "regex",
+      "pattern": "\"Restores ([0-9]+)% of MaxHP and ([0-9]+)% of MaxSP\\.(?=\")",
+      "replacement": "\"MaxHP degerinin %\\1'ini ve MaxSP degerinin %\\2'sini yeniler."
+    },
+    {
+      "id": "v1121_restore_hp_sp_duration",
+      "type": "regex",
+      "pattern": "\"Restores ([0-9]+) HP and ([0-9]+) SP every ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Her \\3 saniyede \\1 HP ve \\2 SP yeniler."
+    },
+    {
+      "id": "v1121_recover_hp_sp_duration",
+      "type": "regex",
+      "pattern": "\"Recovers ([0-9]+) HP and ([0-9]+) SP additionally every ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Her \\3 saniyede ek \\1 HP ve \\2 SP yeniler."
+    },
+    {
+      "id": "v1121_recover_maxhp_duration",
+      "type": "regex",
+      "pattern": "\"Recovers ([0-9]+)% MaxHP every ([0-9]+) seconds for ([0-9]+) minutes\\.(?=\")",
+      "replacement": "\"\\3 dakika boyunca her \\2 saniyede MaxHP'nin %\\1'ini yeniler."
+    },
+    {
+      "id": "v1121_recover_sp_duration",
+      "type": "regex",
+      "pattern": "\"Recovers additional ([0-9]+) SP every ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Her \\2 saniyede ek \\1 SP yeniler."
+    },
+    {
+      "id": "v1121_absorb_hp_sp",
+      "type": "regex",
+      "pattern": "\"Random chance to absorb ([0-9]+)% of damage inflicted into HP or ([0-9]+)% into SP\\.(?=\")",
+      "replacement": "\"Verilen hasarin %\\1'ini HP veya %\\2'sini SP olarak emme sansi verir."
+    },
+    {
+      "id": "v1121_receiving_magic_active",
+      "type": "regex",
+      "pattern": "\"Receiving physical or magical damage has a chance to activate (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000):(?=\")",
+      "replacement": "\"Fiziksel veya buyulu hasar alindiginda \\1 etkisini etkinlestirme sansi vardir:"
+    },
+    {
+      "id": "v1121_script_summon_scroll",
+      "type": "regex",
+      "pattern": "\"Scroll that has the record of using Level ([0-9]+) (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)\\. It has some mysterious letters written on the scroll\\.(?=\")",
+      "replacement": "\"Seviye \\1 \\2 kullaniminin kaydini tasiyan tomar. Uzerinde gizemli harfler vardir."
+    },
+    {
+      "id": "v1121_ric_stat_box",
+      "type": "regex",
+      "pattern": "\"RIC booster Stat, A box consist ofeach ([0-9]+) kinds those are (\\^[0-9A-Fa-f]{6}[^\\^\"\\r\\n]*\\^000000)(?=\")",
+      "replacement": "\"RIC Booster Stat, \\1 tur esya iceren kutu: \\2"
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
