@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.9.0
+# Version: 1.10.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -62,7 +62,12 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in [*v1155, *v1157]}
+        v1158 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1158.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158]}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -226,6 +231,51 @@ class ExactLuaStringTests(unittest.TestCase):
                 result = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
                 self.assertIsNotNone(builder.STRING_RE.fullmatch(bytes([34]) + result + bytes([34])))
                 self.assertEqual(entry["upstream_source_blob_sha"], provenance["upstream_source_blob_sha"])
+
+    def test_v1158_source_context_provenance(self) -> None:
+        from collections import Counter
+
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1158.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1158.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        source = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        chunks = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", source)
+        by_id = dict(zip(chunks[1::2], chunks[2::2]))
+        entries = evidence["entries"]
+        self.assertEqual(len(entries), evidence["resolved_count"])
+        self.assertEqual(len(entries), 23)
+        self.assertEqual(set(shard), {e["source"] for e in entries})
+        for entry in entries:
+            with self.subTest(item=entry["item_id"], source=entry["source"][:80]):
+                self.assertNotIn(entry["source"], recovery)
+                self.assertIn(entry["source"], by_id[str(entry["item_id"])])
+                self.assertEqual(shard[entry["source"]], entry["translation"])
+                self.assertEqual(
+                    Counter(re.findall(r"\d+(?:\.\d+)?", entry["source"])),
+                    Counter(re.findall(r"\d+(?:\.\d+)?", entry["translation"])),
+                )
+                self.assertEqual(
+                    re.findall(r"\^[0-9A-Fa-f]{6}", entry["source"]),
+                    re.findall(r"\^[0-9A-Fa-f]{6}", entry["translation"]),
+                )
+                entry["translation"].encode("ascii")
+                escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34])))
+                self.assertEqual(entry["upstream_source_blob_sha"], evidence["upstream_source_blob_sha"])
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
