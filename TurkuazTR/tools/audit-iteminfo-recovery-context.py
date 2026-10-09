@@ -49,7 +49,8 @@ def main() -> int:
     for source in recovery:
         found = []
         start = 0
-        literal = '"' + source + '"'
+        normalized = source if source in descriptions else source.replace('"', r'\\"')
+        literal = '"' + normalized + '"'
         while (pos := raw.find(literal, start)) >= 0:
             index = bisect.bisect_right(offsets, pos) - 1
             left = raw.rfind("\n", 0, pos)
@@ -70,7 +71,7 @@ def main() -> int:
             start = pos + len(literal)
         if not found:
             statuses["missing_literal_context"] += 1
-        if source not in descriptions:
+        if source not in descriptions and normalized not in descriptions:
             statuses["missing_visible_description"] += 1
         flags = []
         if any(0xD800 <= ord(c) <= 0xDFFF for c in source):
@@ -83,7 +84,7 @@ def main() -> int:
             statuses[flag] += 1
         rows.append({
             "source": source,
-            "occurrences": descriptions.get(source, 0),
+            "occurrences": descriptions.get(source, descriptions.get(normalized, 0)),
             "flags": flags,
             "contexts": found[:12],
             "context_count": len(found),
