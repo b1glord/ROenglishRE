@@ -224,7 +224,7 @@ class ExactLuaStringTests(unittest.TestCase):
                 )
                 entry["translation"].encode("ascii")
                 result = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
-                self.assertIsNotNone(builder.STRING_RE.fullmatch(b'"' + result + b'))
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(bytes([34]) + result + bytes([34])))
                 self.assertEqual(entry["upstream_source_blob_sha"], provenance["upstream_source_blob_sha"])
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
