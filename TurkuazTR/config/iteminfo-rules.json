@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.68.0",
-    "description": "v1.125.0: silah kullanim zorlugu ve Shadow Equipment birlestirme tarifleri",
+    "version": "1.69.0",
+    "description": "v1.126.0: lore, gizli guc, ekipman uyumlulugu ve ozel koruma kaliplari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8471,6 +8471,36 @@
       "type": "regex",
       "pattern": "\"If you combine five \\+([0-9]+) or higher refined of any of the following Shadow Equipments, you can obtain one ([^\"]+):(?=\")",
       "replacement": "\"Asagidaki +\\1 veya uzeri gelistirilmis Shadow Equipment esyalarindan besini birlestirerek bir \\2 elde edebilirsiniz:"
+    },
+    {
+      "id": "lore_v1126_must_equip_tag",
+      "type": "regex",
+      "pattern": "\"It must be equipped with (\\^990099[^\"^]*\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 ile birlikte kullanilmalidir."
+    },
+    {
+      "id": "lore_v1126_small_power_protection",
+      "type": "regex",
+      "pattern": "\"It is said that the protection of ([^\"]+?) can be obtained by collecting the small power\\.(?=\")",
+      "replacement": "\"Kucuk guclerin biriktirilmesiyle \\1 korumasinin elde edilebilecegi soylenir."
+    },
+    {
+      "id": "lore_v1126_recover_original_power",
+      "type": "regex",
+      "pattern": "\"It is said that the original performance can be demonstrated by regaining the power of ([^\"]+?)\\.(?=\")",
+      "replacement": "\"\\1 gucu yeniden kazanildiginda asil performansini gosterecegi soylenir."
+    },
+    {
+      "id": "lore_v1126_old_magic_resonance",
+      "type": "regex",
+      "pattern": "\"It looks old but has hidden magic, it resonates with ([^\"]+?)\\.(?=\")",
+      "replacement": "\"Eski gorunse de gizli bir buyusu vardir; \\1 ile uyum icindedir."
+    },
+    {
+      "id": "lore_v1126_specialized_combat_power",
+      "type": "regex",
+      "pattern": "\"It is said to be imbued with power specialized for ([^\"]+?) combat\\.(?=\")",
+      "replacement": "\"\\1 savasa ozgu bir gucle dolu oldugu soylenir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
