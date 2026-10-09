@@ -1,0 +1,158 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-v1154-triage.json",
+    "purpose": "Auditable itemInfo final 32 candidate source-exact decision ledger",
+    "module": "Translation Triage - JSON",
+    "version": "1.0.0",
+    "description": "2 real translations, 16 proper-name entries, 14 deferred upstream repairs",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_pending_count": 32,
+  "translation_shard": "TurkuazTR/config/iteminfo-exact-v1154.tr.json",
+  "source_recovery_path": "TurkuazTR/iteminfo-lore.source-recovery.json",
+  "entries": [
+    {
+      "source": "1. ^FF6699SR - C Roda Frog Hood^000000",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "3. ^FF6699SR - C Giant Ribbon (OR)^000000",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "8. 2x Siege White Potion Box (100)",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Alarm Mask, Opera Phantom Mask, Geek Glasses, Machoman's Glasses,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "And when he sees a toy, he wants to be asexual.",
+      "decision": "upstream_source_recovery",
+      "reason": "English meaning is likely corrupted; cannot infer item effect"
+    },
+    {
+      "source": "Apparently, there's an interpretation that there were actually seven of them.\\\"",
+      "decision": "translated"
+    },
+    {
+      "source": "Appropriate For each job group to ride aboard any Halter as mysterious.",
+      "decision": "upstream_source_recovery",
+      "reason": "Unclear job/mount description; grammar not recoverable"
+    },
+    {
+      "source": "Automatic Armor Type A, Automatic Armor Type B,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Automatic Engine Wing Type A, Automatic Engine Wing Type B,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Automatic Leg Type A, Automatic Leg Type B",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Bearer's Shadow Armor, Bearer's Shadow Shield, Bearer's Shadow Weapon, Bearer's Shadow Shoes, Bearer's Shadow Earring, Bearer's Shadow Pendant",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Because of the playful form, it is said that people who can't stop playing with one another continue.",
+      "decision": "upstream_source_recovery",
+      "reason": "Incomplete or mistranslated gameplay/lore statement"
+    },
+    {
+      "source": "Butterfly Mask, Shadow Booster, Fallen Angel Blessing, Elemental Crown,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "C. Crown Cinnamoroll Backpack x 1,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Ears of Ifrit, Chick Hat, Gigantic Majestic Goat, Spirit of Green Maiden,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Fenrir Helm modeled after all is said and swallowed.",
+      "decision": "upstream_source_recovery",
+      "reason": "Fenrir Helm description semantically incomplete"
+    },
+    {
+      "source": "For the time being, it seems that I tried to shine it from my legs.",
+      "decision": "upstream_source_recovery",
+      "reason": "Unknown object and referent; source context required"
+    },
+    {
+      "source": "Grim Reaper Ankou, God of Despair Morocc, Shadow Demon and Morse Necromancer,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Helmet stupid enough electrolytes to legend.",
+      "decision": "upstream_source_recovery",
+      "reason": "Helmet text is garbled and uninterpretable"
+    },
+    {
+      "source": "Increases Damage of ^009900Arrow Storm damage by additional 30%.",
+      "decision": "upstream_source_recovery",
+      "reason": "Arrow Storm skill line lacks closing color marker and is corrupted"
+    },
+    {
+      "source": "Physical Magical Shadow Thump Box.",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Pumpkin Helmet created by the Undead World. Sometimes, Attack becomes reduced to undead. You can go to the kingdom of the Undead when wearing the Helmet.",
+      "decision": "upstream_source_recovery",
+      "reason": "Undead attack interaction is ambiguous; avoid gameplay misinformation"
+    },
+    {
+      "source": "Royal Bow, Shadow Staff, Iron Nail, Narcissus Bow, Mado Sword, Aquatic Spear, Iron Staff, Red Lotus Sword, Avenger, Golden Lord Launcher, Exorcist's Bible, Katar of Shiver, One Sky One Sun, Clarity Huuma Shuriken, Kiri no Tsuyu, Crimson Rose, Meowmeow Foxtail, The Black, Oriental Sword, Master Soul Rifle, Demon Slayer Shot, Spirit Pendulum, Dragonic Slayer, Light Blade, Meteor Striker, Slate Sword, Trumpet Shell, Barbed Wire Whip, Saint Mace, Ray Knuckle, Blade Katar, Fatalist, Scarlet Dragon Leather Bow, Blue Crystal Staff, Chilling Cane, Freedom Stick, Blessed Knife, Ancient Hero's Boots",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Sealed Dark Lord Card, Dark Illusion Card, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Immune Shadow Armor, Costume Sleeping Cat Hat,",
+      "decision": "canonical_proper_name"
+    },
+    {
+      "source": "Steamed fish with ancient lips wrapped in a fresh leaf that is supposedly good for a man's vigor.",
+      "decision": "upstream_source_recovery",
+      "reason": "Fish ingredient ('ancient lips') is unclear; source check required"
+    },
+    {
+      "source": "That cynical atmosphere for a lone user.",
+      "decision": "upstream_source_recovery",
+      "reason": "Detached fragment lacks referent"
+    },
+    {
+      "source": "That govern Mercury's brilliant pitching god Mercury.",
+      "decision": "upstream_source_recovery",
+      "reason": "Mercury sentence incoherent; no trustworthy meaning"
+    },
+    {
+      "source": "The red color indicate the frauds are massive.",
+      "decision": "upstream_source_recovery",
+      "reason": "Red color/fraud assertion lacks trustworthy context"
+    },
+    {
+      "source": "Universal anti-up operation voucher.",
+      "decision": "upstream_source_recovery",
+      "reason": "Anti-up voucher function ambiguous; cannot guess"
+    },
+    {
+      "source": "Using waste has created a potion in vitro.",
+      "decision": "translated"
+    },
+    {
+      "source": "You can get one of serveral items such as Blacksmiths Blessing, Maero/Odium/Despero/Dolor of Thanatos Card, Jeremy Beauty Coupon, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate, Mystical Card Album,",
+      "decision": "upstream_source_recovery",
+      "reason": "Reward list is truncated after comma; need authoritative item listing"
+    },
+    {
+      "source": "sealed beelzebub card, Safe to 11 Weapon Certificate, Safe to 11 Armor Certificate, Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate.",
+      "decision": "canonical_proper_name"
+    }
+  ]
+}
