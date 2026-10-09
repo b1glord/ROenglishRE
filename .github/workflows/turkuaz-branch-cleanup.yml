@@ -1,0 +1,85 @@
+# Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-branch-cleanup.yml
+# Amac: translation/tr uzerine merge edilen gecici PR branch'lerini guvenle temizler
+# Modul - GitHub Actions Workflow
+# Version: 1.0.0
+# Aciklama: PR merge/head SHA/branch korumasi ve acik PR bagimlilik kontrolu yapar
+# Bagimli Oldugu Katman: CI
+
+name: Cleanup Merged Translation PR Branches
+
+on:
+  push:
+    branches:
+      - translation/tr
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  cleanup:
+    if: github.ref == 'refs/heads/translation/tr'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Delete only merged, unchanged temporary branches
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const {owner, repo} = context.repo;
+            const fullName = `${owner}/${repo}`;
+            const allClosed = await github.paginate(github.rest.pulls.list, {
+              owner, repo, state: 'closed', per_page: 100
+            });
+            const allOpen = await github.paginate(github.rest.pulls.list, {
+              owner, repo, state: 'open', per_page: 100
+            });
+            const activeBases = new Set(allOpen.map(pr => pr.base.ref));
+            const deleted = [];
+            const skipped = [];
+
+            for (const pr of allClosed) {
+              if (!pr.merged_at || pr.base.ref !== 'translation/tr') continue;
+              if (pr.head.repo?.full_name !== fullName) continue;
+
+              const name = pr.head.ref;
+              if (!/^(feat|fix|docs)\//.test(name)) continue;
+              if (activeBases.has(name)) {
+                skipped.push({branch: name, reason: 'open PR uses as base'});
+                continue;
+              }
+
+              let current;
+              try {
+                current = (await github.rest.repos.getBranch({
+                  owner, repo, branch: name
+                })).data;
+              } catch (error) {
+                if (error.status === 404) continue;
+                throw error;
+              }
+
+              if (current.protected) {
+                skipped.push({branch: name, reason: 'branch protected'});
+                continue;
+              }
+              if (current.commit.sha !== pr.head.sha) {
+                skipped.push({branch: name, reason: 'branch changed since PR merged'});
+                continue;
+              }
+
+              await github.rest.git.deleteRef({
+                owner, repo, ref: `heads/${name}`
+              });
+              core.info(`Deleted merged PR #${pr.number} branch ${name}`);
+              deleted.push({pr: pr.number, branch: name});
+            }
+
+            core.info(JSON.stringify({deleted, skipped}));
+            await core.summary
+              .addHeading('Translation temporary branch cleanup')
+              .addRaw(`Deleted ${deleted.length} merged temporary branches.\n\n`)
+              .addCodeBlock(JSON.stringify({deleted, skipped}, null, 2), 'json')
+              .write();
