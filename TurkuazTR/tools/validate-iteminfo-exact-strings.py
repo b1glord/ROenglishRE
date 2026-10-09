@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.5.0
-# Aciklama: ItemInfo v1.123-v1.127 kaynak sayi ve tag korunumu, exact Lua testleri
+# Version: 1.6.0
+# Aciklama: v1.128 exact lore, sayi, renk ve 12 yeni kural guvenligi testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -352,6 +352,92 @@ class ExactLuaStringTests(unittest.TestCase):
                 self.assertEqual(
                     sorted(re.findall(rb"[0-9]+", before)),
                     sorted(re.findall(rb"[0-9]+", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
+
+
+
+    def test_v1128_exact_lore_retains_numbers_colors_and_lua_safety(self) -> None:
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1128.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        translations = shard["translations"]
+        self.assertGreaterEqual(len(translations), 300)
+        for source, target in translations.items():
+            with self.subTest(source=source[:65]):
+                self.assertNotEqual(source, target)
+                target.encode("ascii")
+                self.assertEqual(
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", source)),
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", target)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", source)),
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", target)),
+                )
+                escaped = builder.escape_lua_quoted_content(
+                    target.encode("ascii")
+                )
+                self.assertIsNotNone(
+                    builder.STRING_RE.fullmatch(b'"' + escaped + b'"')
+                )
+
+    def test_v1128_lore_rules_preserve_numbers_colors_and_quotes(self) -> None:
+        config = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            r["id"]: r
+            for r in config["rules"]
+            if r["id"].startswith("lore_v1128_")
+        }
+        cases = {
+            "lore_v1128_kafra_buff":
+                "Kafra Buff that increases experience and item drop rate for 7 days.",
+            "lore_v1128_magic_written_element":
+                "It's written about the ^0000BBWater^000000 element magic, ^0000FFJack Frost^000000.",
+            "lore_v1128_fortified_improved":
+                "It supplemented the shortcomings of the existing Fortified Book.",
+            "lore_v1128_bomb_ingredient_list":
+                "List of ingredients required to make an Apple bomb.",
+            "lore_v1128_herb_hair_dye":
+                "Made of Blue Herb, can be used to dye the fabric or hair Blue.",
+            "lore_v1128_charm_element":
+                "It is said that the force of Earth dwelling inside this charm.",
+            "lore_v1128_magic_armor_scroll":
+                "Magic scroll that contains Cold Armor. Those who use it will wear water armor.",
+            "lore_v1128_magic_attacks_int":
+                "Magical attacks have a 3% chance of increasing INT by 120 for 10 seconds.",
+            "lore_v1128_magic_attacks_matk":
+                "Magical attacks have a 3% chance of increasing MATK by 35% for 10 seconds.",
+            "lore_v1128_damage_skill_simple":
+                "Increases Damage of ^009900Bash^000000 by 10%.",
+            "lore_v1128_damage_skill_extra":
+                "Increases Damage of ^009900Bash^000000 by additional 15%.",
+            "lore_v1128_magic_attack_restore_sp":
+                "Magical attacks have a 1% chance to restore 120 SP per 0.4 seconds for 23 times.",
+        }
+        self.assertEqual(set(rules), set(cases))
+        for name, phrase in cases.items():
+            with self.subTest(rule=name):
+                before = ('"' + phrase + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(
+                    before, builder.prepare_rules([rules[name]]), counts
+                )
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(name), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", before)),
+                    sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", after)),
                 )
                 self.assertEqual(
                     sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
