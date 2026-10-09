@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.8.0
+# Version: 1.9.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -111,6 +111,53 @@ class ExactLuaStringTests(unittest.TestCase):
         self.assertFalse(audit.canonical_name_list(
             "Powerful ATK, increases MaxHP and MATK."
         ))
+
+    def test_v1155_source_context_provenance(self) -> None:
+        from collections import Counter
+
+        provenance = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1155.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        records = provenance["entries"]
+        mapping = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1155.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        source = (REPO_ROOT / provenance["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        recovery = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        self.assertEqual(provenance["resolved_count"], len(records))
+        self.assertEqual(set(mapping), {e["source"] for e in records})
+        self.assertEqual(len(recovery), len(set(recovery)))
+        entries = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", source)
+        item_blocks = dict(zip(entries[1::2], entries[2::2]))
+        for e in records:
+            with self.subTest(item=e["item_id"], source=e["source"][:70]):
+                self.assertNotIn(e["source"], recovery)
+                item_block = item_blocks[str(e["item_id"])]
+                self.assertIn(e["source"], item_block)
+                self.assertIn('identifiedDisplayName = "' + e["item_name"] + '"', item_block)
+                self.assertEqual(mapping[e["source"]], e["translation"])
+                self.assertEqual(
+                    Counter(re.findall(r"\d+(?:\.\d+)?", e["source"])),
+                    Counter(re.findall(r"\d+(?:\.\d+)?", e["translation"])),
+                )
+                self.assertEqual(
+                    re.findall(r"\^[0-9A-Fa-f]{6}", e["source"]),
+                    re.findall(r"\^[0-9A-Fa-f]{6}", e["translation"]),
+                )
+                e["translation"].encode("ascii")
+                escaped = builder.escape_lua_quoted_content(e["translation"].encode("ascii"))
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(b'"' + escaped + b'"'))
+                self.assertEqual(e["upstream_source_blob_sha"], provenance["upstream_source_blob_sha"])
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
