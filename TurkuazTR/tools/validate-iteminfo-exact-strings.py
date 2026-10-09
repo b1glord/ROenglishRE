@@ -50,6 +50,14 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["candidates"]
+        # Historical v1.154 triage remains immutable: later evidence-backed
+        # recoveries can graduate from the quarantine into newer exact shards.
+        v1155 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1155.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in v1155}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -81,7 +89,10 @@ class ExactLuaStringTests(unittest.TestCase):
                 self.assertFalse(audit.lore_candidate(source))
                 self.assertNotIn(source, recovery)
             else:
-                self.assertIn(source, recovery)
+                self.assertTrue(
+                    source in recovery or source in resolved_later,
+                    "Deferred source must remain quarantined or have newer provenance",
+                )
                 self.assertTrue(entry.get("reason"))
         self.assertEqual(len(unique_sources), 32)
         self.assertEqual(
