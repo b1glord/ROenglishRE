@@ -1,9 +1,9 @@
-# Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-branch-cleanup.yml
-# Amac: translation/tr uzerine merge edilen gecici PR branch'lerini guvenle temizler
-# Modul - GitHub Actions Workflow
-# Version: 1.2.0
-# Aciklama: translation/tr icin merge edilmis, degismemis gecici PR branch'lerini guvenle temizler
-# Bagimli Oldugu Katman: CI
+# 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-branch-cleanup.yml
+# 📌 Amac: translation/tr dalina merge edilen gecici PR dallarini guvenle temizler
+# 📌 Modul - Tool YAML
+# Version: 1.2.1
+# Aciklama: Sadece merge edilmis ve degismemis versioned translation/tr-vX.Y.Z-* dallarini da temizler
+# Bagimli Oldugu Katman: Tool
 
 name: Cleanup Merged Translation PR Branches
 
@@ -45,7 +45,9 @@ jobs:
               if (pr.head.repo?.full_name !== fullName) continue;
 
               const name = pr.head.ref;
-              if (!/^(feat|fix|docs)\//.test(name)) continue;
+              const isLegacyTemporary = /^(feat|fix|docs)\//.test(name);
+              const isVersionedTranslationBatch = /^translation\/tr-v\d+\.\d+\.\d+-[a-z0-9][a-z0-9-]*$/.test(name);
+              if (!isLegacyTemporary && !isVersionedTranslationBatch) continue;
               if (activeBases.has(name)) {
                 skipped.push({branch: name, reason: 'open PR uses as base'});
                 continue;
