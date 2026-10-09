@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Purpose: source-backed, non-mutating provenance report for unresolved itemInfo descriptions
-# Version: 1.1.0
+# Version: 1.2.0
 from __future__ import annotations
 
 import argparse
@@ -46,19 +46,26 @@ def main() -> int:
         # quarantine first; regenerated pending summaries are committed by
         # the post-merge localization workflow. Do not weaken the inventory
         # check without source-specific proof of exactly that delta.
-        evidence_path = ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1157.json"
-        shard_path = ROOT / "TurkuazTR/config/iteminfo-exact-v1157.tr.json"
-        if not evidence_path.exists() or not shard_path.exists():
-            raise AssertionError("Recovery report and source recovery inventory disagree")
-        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
-        shard = json.loads(shard_path.read_text(encoding="utf-8"))["translations"]
-        resolved = {entry["source"] for entry in evidence["entries"]}
-        if (
-            len(resolved) != evidence["resolved_count"]
-            or resolved != set(shard)
-            or resolved.intersection(recovery)
-            or len(recovery) + len(resolved) != pending["source_recovery_candidate_count"]
-        ):
+        delta = pending["source_recovery_candidate_count"] - len(recovery)
+        proven = False
+        for version in ("1158", "1157"):
+            evidence_path = ROOT / f"TurkuazTR/config/iteminfo-recovery-evidence-v{version}.json"
+            shard_path = ROOT / f"TurkuazTR/config/iteminfo-exact-v{version}.tr.json"
+            if not evidence_path.exists() or not shard_path.exists():
+                continue
+            evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+            shard = json.loads(shard_path.read_text(encoding="utf-8"))["translations"]
+            resolved = {entry["source"] for entry in evidence["entries"]}
+            if (
+                delta > 0
+                and len(resolved) == delta
+                and len(resolved) == evidence["resolved_count"]
+                and resolved == set(shard)
+                and not resolved.intersection(recovery)
+            ):
+                proven = True
+                break
+        if not proven:
             raise AssertionError("Unexplained recovery inventory drift in PR")
 
     rows = []
