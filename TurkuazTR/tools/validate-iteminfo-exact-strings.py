@@ -145,6 +145,14 @@ class ExactLuaStringTests(unittest.TestCase):
                 item_block = item_blocks[str(e["item_id"])]
                 self.assertIn(e["source"], item_block)
                 self.assertIn('identifiedDisplayName = "' + e["item_name"] + '"', item_block)
+                lines = item_block.splitlines()
+                self.assertTrue(any(
+                    i > 0 and i + 1 < len(lines)
+                    and lines[i - 1] == e["previous_source_line"]
+                    and lines[i] == e["exact_source_line"]
+                    and lines[i + 1] == e["next_source_line"]
+                    for i in range(len(lines))
+                ), "source line and adjacent lines must be from the same item")
                 self.assertEqual(mapping[e["source"]], e["translation"])
                 self.assertEqual(
                     Counter(re.findall(r"\d+(?:\.\d+)?", e["source"])),
