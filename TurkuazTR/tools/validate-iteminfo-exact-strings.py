@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.4.0
-# Aciklama: ItemInfo v1.123-v1.126 lore kural ve exact Lua testleri
+# Version: 1.5.0
+# Aciklama: ItemInfo v1.123-v1.127 kaynak sayi ve tag korunumu, exact Lua testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -261,6 +261,94 @@ class ExactLuaStringTests(unittest.TestCase):
                 )
                 self.assertNotEqual(before, after)
                 self.assertEqual(counts.get(rule_id), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+", before)),
+                    sorted(re.findall(rb"[0-9]+", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
+
+
+
+    def test_v1127_exact_batch_keeps_source_numbers_and_colors(self) -> None:
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1127.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        translations = shard["translations"]
+        self.assertGreaterEqual(len(translations), 330)
+        for source, target in translations.items():
+            with self.subTest(source=source[:90]):
+                self.assertNotEqual(source, target)
+                target.encode("ascii")
+                self.assertEqual(
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", source)),
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", target)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", source)),
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", target)),
+                )
+                self.assertIsNotNone(
+                    builder.STRING_RE.fullmatch(
+                        b'"' + builder.escape_lua_quoted_content(target.encode("ascii")) + b'"'
+                    )
+                )
+
+    def test_v1127_combat_patterns_keep_numbers_and_color_tags(self) -> None:
+        data = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            r["id"]: r
+            for r in data["rules"] if r["id"].startswith("lore_v1127_")
+        }
+        samples = {
+            "lore_v1127_damage_thanatos":
+                "Increases damage agaist Thanatos monsters by 10%.",
+            "lore_v1127_damage_element_monsters":
+                "Increases damage against monsters of ^0000BBWater^000000 element by 5%.",
+            "lore_v1127_damage_special_dungeon":
+                "Increases damage against monsters in ^0033CCLarge Bath Meditathio^000000 by 10% for 15 minutes.",
+            "lore_v1127_magical_every_race_extra":
+                "Increases Magical Damage against monsters of every race by additional 10%.",
+            "lore_v1127_magical_every_element_extra":
+                "Increases Magical Damage against monsters of every element by additional 25%",
+            "lore_v1127_magical_every_size_extra":
+                "Increases Magical Damage against monsters of every size by additional 15%.",
+            "lore_v1127_physical_every_element_extra":
+                "Increases Physical Damage against monsters of every element by additional 10%.",
+            "lore_v1127_elemental_spell_damage":
+                "Increases Magical Damage with every element by 15% for 15 minutes.",
+            "lore_v1127_skill_damage_simple":
+                "Increases ^009900Round Trip^000000 damage by 1%.",
+            "lore_v1127_skill_damage_simple_extra":
+                "Increases ^009900Axe Tornado^000000 damage by additional 50%.",
+            "lore_v1127_physical_from_races":
+                "Increases Physical Damage taken from ^FF0000Demon^000000 race monsters by 20%.",
+            "lore_v1127_ranged_additional":
+                "Increases Ranged Physical Damage by an additional 4%.",
+            "lore_v1127_natural_hp_recovery":
+                "Increases Natural HP Recovery Rate by 100%.",
+            "lore_v1127_bow_damage":
+                "Increases ^990099Bow^000000 class weapon damage by 5%.",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for name, phrase in samples.items():
+            with self.subTest(rule=name):
+                before = ('"' + phrase + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(
+                    before, builder.prepare_rules([rules[name]]), counts
+                )
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(name), 1)
                 self.assertEqual(
                     sorted(re.findall(rb"[0-9]+", before)),
                     sorted(re.findall(rb"[0-9]+", after)),

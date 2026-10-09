@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.69.0",
-    "description": "v1.126.0: lore, gizli guc, ekipman uyumlulugu ve ozel koruma kaliplari",
+    "version": "1.70.0",
+    "description": "v1.127.0: savas becerisi, tur, element ve islenebilir item bonusu kurallari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8501,6 +8501,90 @@
       "type": "regex",
       "pattern": "\"It is said to be imbued with power specialized for ([^\"]+?) combat\\.(?=\")",
       "replacement": "\"\\1 savasa ozgu bir gucle dolu oldugu soylenir."
+    },
+    {
+      "id": "lore_v1127_damage_thanatos",
+      "type": "regex",
+      "pattern": "\"Increases damage agaist Thanatos monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Thanatos canavarlarina verilen hasari %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_damage_element_monsters",
+      "type": "regex",
+      "pattern": "\"Increases damage against monsters of (\\^[0-9A-Fa-f]{6}[^\"^]+\\^000000) element by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 elementli canavarlara verilen hasari %\\2 artirir."
+    },
+    {
+      "id": "lore_v1127_damage_special_dungeon",
+      "type": "regex",
+      "pattern": "\"Increases damage against monsters in (\\^0033CC[^\"^]+\\^000000) by ([0-9]+)% for ([0-9]+) minutes\\.(?=\")",
+      "replacement": "\"\\1 bolgesindeki canavarlara verilen hasari \\3 dakika boyunca %\\2 artirir."
+    },
+    {
+      "id": "lore_v1127_magical_every_race_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of every race by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"Her irktan canavara verilen buyu hasarini ek %\\1 artirir\\2"
+    },
+    {
+      "id": "lore_v1127_magical_every_element_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of every element by additional ([0-9]+)%(?=\")",
+      "replacement": "\"Her elementten canavara verilen buyu hasarini ek %\\1 artirir"
+    },
+    {
+      "id": "lore_v1127_magical_every_size_extra",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage against monsters of every size by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her boyuttaki canavara verilen buyu hasarini ek %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_physical_every_element_extra",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage against monsters of every element by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Her elementten canavara verilen fiziksel hasari ek %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_elemental_spell_damage",
+      "type": "regex",
+      "pattern": "\"Increases Magical Damage with every element by ([0-9]+)% for ([0-9]+) minutes\\.(?=\")",
+      "replacement": "\"Her elementten verilen buyu hasarini \\2 dakika boyunca %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_skill_damage_simple",
+      "type": "regex",
+      "pattern": "\"Increases (\\^009900[^\"^]+\\^000000) damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1127_skill_damage_simple_extra",
+      "type": "regex",
+      "pattern": "\"Increases (\\^009900[^\"^]+\\^000000) damage by additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini ek %\\2 artirir."
+    },
+    {
+      "id": "lore_v1127_physical_from_races",
+      "type": "regex",
+      "pattern": "\"Increases Physical Damage taken from (\\^[0-9A-Fa-f]{6}[^\"^]+\\^000000) race monsters by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 irkindeki canavarlardan alinan fiziksel hasari %\\2 artirir."
+    },
+    {
+      "id": "lore_v1127_ranged_additional",
+      "type": "regex",
+      "pattern": "\"Increases Ranged Physical Damage by an additional ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Menzilli fiziksel hasari ek %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_natural_hp_recovery",
+      "type": "regex",
+      "pattern": "\"Increases Natural HP Recovery Rate by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"Dogal HP yenileme oranini %\\1 artirir."
+    },
+    {
+      "id": "lore_v1127_bow_damage",
+      "type": "regex",
+      "pattern": "\"Increases (\\^990099Bow\\^000000) class weapons? damage by ([0-9]+)%\\.(?=\")",
+      "replacement": "\"\\1 sinifi silahlarin hasarini %\\2 artirir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
