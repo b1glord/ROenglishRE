@@ -1,8 +1,8 @@
 # Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-branch-cleanup.yml
 # Amac: translation/tr uzerine merge edilen gecici PR branch'lerini guvenle temizler
 # Modul - GitHub Actions Workflow
-# Version: 1.1.0
-# Aciklama: Merge edilen PR'ler ile iceriği ayni olan iki kalici olmayan eski dali denetleyerek temizler
+# Version: 1.2.0
+# Aciklama: translation/tr icin merge edilmis, degismemis gecici PR branch'lerini guvenle temizler
 # Bagimli Oldugu Katman: CI
 
 name: Cleanup Merged Translation PR Branches
@@ -75,86 +75,6 @@ jobs:
               });
               core.info(`Deleted merged PR #${pr.number} branch ${name}`);
               deleted.push({pr: pr.number, branch: name});
-            }
-
-            // One-off reconciliation for two legacy branches with unique commits,
-            // but no unique translation data remaining in translation/tr.
-            const redundantLegacy = [
-              {
-                name: 'feat/iteminfo-defense-rules-v1.116.0',
-                sha: '0224e4262306e2cf850c7d7a0ed4dcc2eb0a1b79',
-                exact: 'TurkuazTR/config/iteminfo-exact-v1115.tr.json'
-              },
-              {
-                name: 'feat/iteminfo-physical-v1.117.0',
-                sha: 'a9103111d754b25e2ad3ce3b9128302e4cb9c65a',
-                exact: 'TurkuazTR/config/iteminfo-exact-v1116.tr.json'
-              }
-            ];
-
-            for (const stale of redundantLegacy) {
-              const name = stale.name;
-              if (allOpen.some(pr => pr.head.ref === name || pr.base.ref === name)) {
-                skipped.push({branch: name, reason: 'referenced by open PR'});
-                continue;
-              }
-
-              let current;
-              try {
-                current = (await github.rest.repos.getBranch({
-                  owner, repo, branch: name
-                })).data;
-              } catch (error) {
-                if (error.status === 404) continue;
-                throw error;
-              }
-              if (current.protected || current.commit.sha !== stale.sha) {
-                skipped.push({branch: name, reason: 'protected or head changed'});
-                continue;
-              }
-
-              const [mainExact, oldExact, mainRules, oldRules] =
-                await Promise.all([
-                  github.rest.repos.getContent({
-                    owner, repo, path: stale.exact, ref: 'translation/tr'
-                  }),
-                  github.rest.repos.getContent({
-                    owner, repo, path: stale.exact, ref: name
-                  }),
-                  github.rest.repos.getContent({
-                    owner, repo, path: 'TurkuazTR/config/iteminfo-rules.json',
-                    ref: 'translation/tr'
-                  }),
-                  github.rest.repos.getContent({
-                    owner, repo, path: 'TurkuazTR/config/iteminfo-rules.json',
-                    ref: name
-                  })
-                ]);
-
-              if (mainExact.data.sha !== oldExact.data.sha) {
-                skipped.push({branch: name, reason: 'exact translation differs'});
-                continue;
-              }
-              const decodeRules = response => JSON.parse(
-                Buffer.from(response.data.content, 'base64').toString('utf8')
-              ).rules;
-              const currentRules = new Map(
-                decodeRules(mainRules).map(rule => [rule.id, rule])
-              );
-              const legacyRules = decodeRules(oldRules);
-              const allPreserved = legacyRules.every(rule =>
-                JSON.stringify(currentRules.get(rule.id)) === JSON.stringify(rule)
-              );
-              if (!allPreserved) {
-                skipped.push({branch: name, reason: 'unmerged translation rules'});
-                continue;
-              }
-
-              await github.rest.git.deleteRef({
-                owner, repo, ref: `heads/${name}`
-              });
-              core.info(`Deleted redundant verified legacy branch ${name}`);
-              deleted.push({pr: null, branch: name});
             }
 
             core.info(JSON.stringify({deleted, skipped}));
