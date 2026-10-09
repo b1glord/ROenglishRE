@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.7.0
+# Version: 1.8.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -25,6 +25,93 @@ spec.loader.exec_module(builder)
 
 
 class ExactLuaStringTests(unittest.TestCase):
+    def test_v1154_triage_is_complete_and_source_safe(self) -> None:
+        import importlib.util
+
+        audit_path = REPO_ROOT / "TurkuazTR/tools/audit-iteminfo-visible.py"
+        audit_spec = importlib.util.spec_from_file_location("iteminfo_audit_triage", audit_path)
+        self.assertIsNotNone(audit_spec)
+        self.assertIsNotNone(audit_spec.loader)
+        audit = importlib.util.module_from_spec(audit_spec)
+        audit_spec.loader.exec_module(audit)
+
+        ledger = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-v1154-triage.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1154.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        statuses = {
+            "translated": 0,
+            "canonical_proper_name": 0,
+            "upstream_source_recovery": 0,
+        }
+        unique_sources = set()
+        for entry in ledger["entries"]:
+            source, decision = entry["source"], entry["decision"]
+            self.assertNotIn(source, unique_sources)
+            unique_sources.add(source)
+            self.assertIn(decision, statuses)
+            statuses[decision] += 1
+            if decision == "translated":
+                target = shard[source]
+                target.encode("ascii")
+                self.assertNotEqual(source, target)
+                self.assertEqual(
+                    sorted(re.findall(r"\d+(?:\.\d+)?", source)),
+                    sorted(re.findall(r"\d+(?:\.\d+)?", target)),
+                )
+                self.assertEqual(
+                    re.findall(r"\^[0-9a-fA-F]{6}", source),
+                    re.findall(r"\^[0-9a-fA-F]{6}", target),
+                )
+                safe = builder.escape_lua_quoted_content(target.encode("ascii"))
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(b'"' + safe + b'"'))
+            elif decision == "canonical_proper_name":
+                self.assertTrue(audit.canonical_name_list(audit.COLOR_RE.sub("", source).strip()))
+                self.assertFalse(audit.lore_candidate(source))
+                self.assertNotIn(source, recovery)
+            else:
+                self.assertIn(source, recovery)
+                self.assertTrue(entry.get("reason"))
+        self.assertEqual(len(unique_sources), 32)
+        self.assertEqual(
+            statuses,
+            {"translated": 2, "canonical_proper_name": 16, "upstream_source_recovery": 14},
+        )
+        self.assertEqual(set(shard), {
+            e["source"] for e in ledger["entries"] if e["decision"] == "translated"
+        })
+        self.assertEqual(len(recovery), len(set(recovery)))
+
+    def test_v1154_does_not_hide_meaningful_item_lore(self) -> None:
+        import importlib.util
+        audit_path = REPO_ROOT / "TurkuazTR/tools/audit-iteminfo-visible.py"
+        spec = importlib.util.spec_from_file_location("iteminfo_audit_v1154", audit_path)
+        audit = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(audit)
+        self.assertFalse(audit.canonical_name_list(
+            "Increases damage inflicted and Decreases damage taken by 5%."
+        ))
+        self.assertFalse(audit.canonical_name_list(
+            "A Mystery Box, which increases Attack Speed, has been added."
+        ))
+        self.assertFalse(audit.canonical_name_list(
+            "Safe to 9 Weapon Certificate, Safe to 9 Armor Certificate and other items can be found."
+        ))
+        self.assertFalse(audit.canonical_name_list(
+            "Powerful ATK, increases MaxHP and MATK."
+        ))
+
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
             builder.escape_lua_quoted_content(b'Valkyrie "Frist" adi.'),
