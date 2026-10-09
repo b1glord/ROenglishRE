@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.70.0",
-    "description": "v1.127.0: savas becerisi, tur, element ve islenebilir item bonusu kurallari",
+    "version": "1.71.0",
+    "description": "v1.128.0: tekrarli lore, Kafra Buff, skill, renk ve buyulu saldiri kaliplari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8585,6 +8585,78 @@
       "type": "regex",
       "pattern": "\"Increases (\\^990099Bow\\^000000) class weapons? damage by ([0-9]+)%\\.(?=\")",
       "replacement": "\"\\1 sinifi silahlarin hasarini %\\2 artirir."
+    },
+    {
+      "id": "lore_v1128_kafra_buff",
+      "type": "regex",
+      "pattern": "\"Kafra Buff that increases experience and item drop rate for ([0-9]+) (day|days)\\.(?=\")",
+      "replacement": "\"Deneyim ve esya dusme oranini \\1 gun boyunca artiran Kafra Buff."
+    },
+    {
+      "id": "lore_v1128_magic_written_element",
+      "type": "regex",
+      "pattern": "\"It's written about the (\\^[0-9A-Fa-f]{6}[^\"^]+\\^000000) element magic, (\\^[0-9A-Fa-f]{6}[^\"^]+\\^000000)\\.(?=\")",
+      "replacement": "\"\\1 elementi buyusu \\2 hakkinda bilgiler yazilidir."
+    },
+    {
+      "id": "lore_v1128_fortified_improved",
+      "type": "regex",
+      "pattern": "\"It supplemented the shortcomings of the existing (Fortified [^\"]+)\\.(?=\")",
+      "replacement": "\"Mevcut \\1 esyasinin eksik yanlarini giderir."
+    },
+    {
+      "id": "lore_v1128_bomb_ingredient_list",
+      "type": "regex",
+      "pattern": "\"List of ingredients required to make an? ([A-Za-z]+) bomb\\.(?=\")",
+      "replacement": "\"\\1 bombasi yapmak icin gerekli malzemelerin listesi."
+    },
+    {
+      "id": "lore_v1128_herb_hair_dye",
+      "type": "regex",
+      "pattern": "\"Made of (Blue|Green|Red|White|Yellow) Herb, can be used to dye the fabric or hair (Blue|Green|Red|White|Yellow)\\.(?=\")",
+      "replacement": "\"\\1 Herb ile uretilir; kumasi veya saci \\2 renge boyamak icin kullanilir."
+    },
+    {
+      "id": "lore_v1128_charm_element",
+      "type": "regex",
+      "pattern": "\"It is said that the force of (Earth|fire|water|wind) dwelling inside this charm\\.(?=\")",
+      "replacement": "\"Bu muskanin icinde \\1 elementinin gucunun bulundugu soylenir."
+    },
+    {
+      "id": "lore_v1128_magic_armor_scroll",
+      "type": "regex",
+      "pattern": "\"Magic scroll that contains (Cold|Earth|Fire|Wind) Armor\\. Those who use it will wear (water|Earth|fire|wind) armor\\.(?=\")",
+      "replacement": "\"\\1 Armor buyusunu iceren tomar. Kullanani \\2 elementi zirhiyla donatir."
+    },
+    {
+      "id": "lore_v1128_magic_attacks_int",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a ([0-9]+)% chance of increasing INT by ([0-9]+) for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda \\3 saniyeligine INT degerini \\2 artirma sansi %\\1'dir."
+    },
+    {
+      "id": "lore_v1128_magic_attacks_matk",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a ([0-9]+)% chance of increasing MATK by ([0-9]+)% for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda \\3 saniyeligine MATK degerini %\\2 artirma sansi %\\1'dir."
+    },
+    {
+      "id": "lore_v1128_damage_skill_simple",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^009900[^\"^]+\\^000000) by ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1128_damage_skill_extra",
+      "type": "regex",
+      "pattern": "\"Increases Damage of (\\^009900[^\"^]+\\^000000) by additional ([0-9]+)%(\\.?)(?=\")",
+      "replacement": "\"\\1 becerisinin hasarini ek %\\2 artirir\\3"
+    },
+    {
+      "id": "lore_v1128_magic_attack_restore_sp",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a ([0-9]+)% chance to (?:restore|recover) ([0-9]+)\\s?SP per ([0-9]+(?:\\.[0-9]+)?) seconds? for ([0-9]+) times\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda \\3 saniyede bir \\4 kez \\2 SP yenileme sansi %\\1'dir."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
