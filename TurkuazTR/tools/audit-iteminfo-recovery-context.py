@@ -107,6 +107,7 @@ def main() -> int:
         "candidate_count": len(rows),
         "context_covered": sum(bool(row["contexts"]) for row in rows),
         "status_counts": result["status_counts"],
+        "unmatched_sources": [row["source"] for row in rows if not row["contexts"]],
     }, sort_keys=True))
     if statuses["missing_literal_context"] or statuses["missing_visible_description"]:
         raise AssertionError("Source recovery candidates are not fully grounded in original itemInfo")
