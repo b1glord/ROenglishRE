@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/config/iteminfo-rules.json",
     "purpose": "itemInfo.lua aciklama alanlarinda tekrar eden metadata ve sistem cumlelerini byte-safe ASCII Turkceye donusturen kurallari tanimlar",
     "module": "Translation Config - JSON",
-    "version": "1.71.0",
-    "description": "v1.128.0: tekrarli lore, Kafra Buff, skill, renk ve buyulu saldiri kaliplari",
+    "version": "1.72.0",
+    "description": "v1.129.0: ejderha kristalleri, gizemli esyalar, buyulu proc ve shadow tarifi kurallari",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -8657,6 +8657,36 @@
       "type": "regex",
       "pattern": "\"Magical attacks have a ([0-9]+)% chance to (?:restore|recover) ([0-9]+)\\s?SP per ([0-9]+(?:\\.[0-9]+)?) seconds? for ([0-9]+) times\\.(?=\")",
       "replacement": "\"Buyulu saldirilarda \\3 saniyede bir \\4 kez \\2 SP yenileme sansi %\\1'dir."
+    },
+    {
+      "id": "lore_v1129_mystical_dragon_crystal",
+      "type": "regex",
+      "pattern": "\"Mystical crystal with the power of the (blue|gold|green|purple|red|silver) dragon(\\.?)(?=\")",
+      "replacement": "\"\\1 ejderhasinin gucunu tasiyan gizemli kristal\\2"
+    },
+    {
+      "id": "lore_v1129_unknown_mysterious_item",
+      "type": "regex",
+      "pattern": "\"Not much is known about the mysterious ([^\"^.]+)\\.\\.\\.(?=\")",
+      "replacement": "\"Gizemli \\1 hakkinda fazla bilgi yok..."
+    },
+    {
+      "id": "lore_v1129_magic_certain_hp_sp_recovery",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a certain chance to recover ([0-9]+) (HP|SP) (?:per|every) second for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda \\3 saniye boyunca her saniye \\1 \\2 yenileme sansi vardir."
+    },
+    {
+      "id": "lore_v1129_magic_random_int_increase",
+      "type": "regex",
+      "pattern": "\"Magical attacks have a random chance to increase INT by ([0-9]+) for ([0-9]+) seconds\\.(?=\")",
+      "replacement": "\"Buyulu saldirilarda \\2 saniye boyunca INT degerini \\1 artirma sansi vardir."
+    },
+    {
+      "id": "lore_v1129_shadow_combine_refined",
+      "type": "regex",
+      "pattern": "\"If you combine ([0-9]+) of either ([^\"]+?) which are refined to \\+([0-9]+) or higher, you can obtain ([0-9]+) ([^\"]+?)\\.(?=\")",
+      "replacement": "\"En az +\\3 gelistirilmis \\2 esyalarindan \\1 tanesini birlestirerek \\4 \\5 elde edebilirsiniz."
     }
   ],
   "exact_translation_path": "TurkuazTR/iteminfo-exact.tr.json"

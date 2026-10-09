@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.6.0
-# Aciklama: v1.128 exact lore, sayi, renk ve 12 yeni kural guvenligi testleri
+# Version: 1.7.0
+# Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -435,6 +435,75 @@ class ExactLuaStringTests(unittest.TestCase):
                 )
                 self.assertNotEqual(before, after)
                 self.assertEqual(counts.get(name), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", before)),
+                    sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
+
+
+
+    def test_v1129_exact_batch_preserves_numbers_colors_and_lua(self) -> None:
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1129.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        translations = shard["translations"]
+        self.assertEqual(len(translations), 305)
+        for source, target in translations.items():
+            with self.subTest(source=source[:90]):
+                self.assertNotEqual(source, target)
+                target.encode("ascii")
+                self.assertEqual(
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", source)),
+                    sorted(re.findall(r"[0-9]+(?:[.,][0-9]+)?", target)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", source)),
+                    sorted(re.findall(r"\^[0-9A-Fa-f]{6}", target)),
+                )
+                escaped = builder.escape_lua_quoted_content(target.encode("ascii"))
+                self.assertIsNotNone(
+                    builder.STRING_RE.fullmatch(b'"' + escaped + b'"')
+                )
+
+    def test_v1129_lore_rules_preserve_numbers_colors_and_lua(self) -> None:
+        config = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            r["id"]: r for r in config["rules"]
+            if r["id"].startswith("lore_v1129_")
+        }
+        samples = {
+            "lore_v1129_mystical_dragon_crystal":
+                "Mystical crystal with the power of the blue dragon.",
+            "lore_v1129_unknown_mysterious_item":
+                "Not much is known about the mysterious Golden Axe...",
+            "lore_v1129_magic_certain_hp_sp_recovery":
+                "Magical attacks have a certain chance to recover 150 SP per second for 4 seconds.",
+            "lore_v1129_magic_random_int_increase":
+                "Magical attacks have a random chance to increase INT by 175 for 10 seconds.",
+            "lore_v1129_shadow_combine_refined":
+                "If you combine 2 of either Athena Shadow Shield/Earring and Immune Shadow Armor which are refined to +7 or higher, you can obtain 1 Immune Athena Shadow Shield.",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for rule_id, source in samples.items():
+            with self.subTest(rule=rule_id):
+                before = ('"' + source + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(
+                    before, builder.prepare_rules([rules[rule_id]]), counts
+                )
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(rule_id), 1)
                 self.assertEqual(
                     sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", before)),
                     sorted(re.findall(rb"[0-9]+(?:[.,][0-9]+)?", after)),
