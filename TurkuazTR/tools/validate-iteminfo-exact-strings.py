@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.3.0
-# Aciklama: ItemInfo v1.123-v1.125 kural ve exact Lua testleri
+# Version: 1.4.0
+# Aciklama: ItemInfo v1.123-v1.126 lore kural ve exact Lua testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -217,6 +217,50 @@ class ExactLuaStringTests(unittest.TestCase):
                 )
                 self.assertNotEqual(before, after)
                 self.assertEqual(counts.get(key), 1)
+                self.assertEqual(
+                    sorted(re.findall(rb"[0-9]+", before)),
+                    sorted(re.findall(rb"[0-9]+", after)),
+                )
+                self.assertEqual(
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", before)),
+                    sorted(re.findall(rb"\^[0-9A-Fa-f]{6}", after)),
+                )
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(after))
+
+
+
+    def test_v1126_lore_rules_preserve_lua_and_color_tags(self) -> None:
+        config = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-rules.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        rules = {
+            r["id"]: r
+            for r in config["rules"] if r["id"].startswith("lore_v1126_")
+        }
+        samples = {
+            "lore_v1126_must_equip_tag":
+                "It must be equipped with ^990099Flush Metal Detector Mk47^000000.",
+            "lore_v1126_small_power_protection":
+                "It is said that the protection of crabs can be obtained by collecting the small power.",
+            "lore_v1126_recover_original_power":
+                "It is said that the original performance can be demonstrated by regaining the power of ^0000CCEarth^000000.",
+            "lore_v1126_old_magic_resonance":
+                "It looks old but has hidden magic, it resonates with Ancient Hero's Boots.",
+            "lore_v1126_specialized_combat_power":
+                "It is said to be imbued with power specialized for magical combat.",
+        }
+        self.assertEqual(set(rules), set(samples))
+        for rule_id, src in samples.items():
+            with self.subTest(rule=rule_id):
+                before = ('"' + src + '"').encode("ascii")
+                counts: dict[str, int] = {}
+                after = builder.apply_rules(
+                    before, builder.prepare_rules([rules[rule_id]]), counts
+                )
+                self.assertNotEqual(before, after)
+                self.assertEqual(counts.get(rule_id), 1)
                 self.assertEqual(
                     sorted(re.findall(rb"[0-9]+", before)),
                     sorted(re.findall(rb"[0-9]+", after)),
