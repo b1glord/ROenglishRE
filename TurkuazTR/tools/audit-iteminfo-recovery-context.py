@@ -49,7 +49,7 @@ def main() -> int:
     for source in recovery:
         found = []
         start = 0
-        normalized = source if source in descriptions else source.replace('"', r'\\"')
+        normalized = source if source in descriptions else source.replace('"', chr(92) + '"')
         literal = '"' + normalized + '"'
         while (pos := raw.find(literal, start)) >= 0:
             index = bisect.bisect_right(offsets, pos) - 1
