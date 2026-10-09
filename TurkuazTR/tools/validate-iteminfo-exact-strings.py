@@ -57,7 +57,12 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in v1155}
+        v1157 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1157.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in [*v1155, *v1157]}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -177,6 +182,50 @@ class ExactLuaStringTests(unittest.TestCase):
                 escaped = builder.escape_lua_quoted_content(e["translation"].encode("ascii"))
                 self.assertIsNotNone(builder.STRING_RE.fullmatch(b'"' + escaped + b'"'))
                 self.assertEqual(e["upstream_source_blob_sha"], provenance["upstream_source_blob_sha"])
+
+    def test_v1157_source_context_provenance(self) -> None:
+        from collections import Counter
+
+        provenance = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1157.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        records = provenance["entries"]
+        mapping = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1157.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        source = (REPO_ROOT / provenance["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        quarantine = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        self.assertEqual(len(records), provenance["resolved_count"])
+        self.assertEqual(set(mapping), {entry["source"] for entry in records})
+        blocks = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", source)
+        by_id = dict(zip(blocks[1::2], blocks[2::2]))
+        for entry in records:
+            with self.subTest(item=entry["item_id"], source=entry["source"][:80]):
+                self.assertNotIn(entry["source"], quarantine)
+                self.assertIn(entry["source"], by_id[str(entry["item_id"])])
+                self.assertEqual(mapping[entry["source"]], entry["translation"])
+                self.assertEqual(
+                    Counter(re.findall(r"\d+(?:\.\d+)?", entry["source"])),
+                    Counter(re.findall(r"\d+(?:\.\d+)?", entry["translation"])),
+                )
+                self.assertEqual(
+                    re.findall(r"\^[0-9A-Fa-f]{6}", entry["source"]),
+                    re.findall(r"\^[0-9A-Fa-f]{6}", entry["translation"]),
+                )
+                entry["translation"].encode("ascii")
+                result = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
+                self.assertIsNotNone(builder.STRING_RE.fullmatch(b'"' + result + b'))
+                self.assertEqual(entry["upstream_source_blob_sha"], provenance["upstream_source_blob_sha"])
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
