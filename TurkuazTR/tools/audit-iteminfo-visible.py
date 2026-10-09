@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-visible.py
 # 📌 Amac: Buyuk itemInfo.lua dosyasindaki oyuncuya gorunen item ad/aciklama alanlarini teknik alanlardan ayirip ceviri kapsamini ve tekrar frekanslarini raporlar
 # 📌 Tool - Python
-# Version: 1.9.0
+# Version: 1.10.0
 # Aciklama: Kaynak veya generated itemInfo profilini tarar; base-stat, Grade/stat, loot-oran, miktarli item satirlari ve canonical title/job listelerini teknik metin olarak eleyip lore adaylarini guvenli bicimde raporlar
 # Bagimli Oldugu Katman: Tool
 
@@ -76,11 +76,34 @@ def grade_stat_only(value: str) -> bool:
     return bool(parts) and all(STAT_ASSIGN_RE.fullmatch(part) for part in parts)
 
 
+def canonical_name_list(value: str) -> bool:
+    """Exclude pure proper-name item and location lists, not real descriptions."""
+    parts = [part.strip(" -.\t") for part in value.split(",")]
+    if len(parts) < 3 or re.search(
+        r"\b(?:etc|chance|randomly|obtain|can|will|added|contains|including|"
+        r"available|increases|decreases|among|have been)\b",
+        value,
+        re.IGNORECASE,
+    ):
+        return False
+    connectors = {"of", "the", "and", "in", "to", "for", "under", "on", "with", "de", "a", "or"}
+    for part in parts:
+        without_counts = re.sub(r"\([^)]*\)|\[[^]]*\]|\b\d+(?:\.\d+)?\b", "", part)
+        words = re.findall(r"[A-Za-z]+", without_counts)
+        if not words or not all(
+            word[0].isupper() or word.lower() in connectors for word in words
+        ):
+            return False
+    return True
+
+
 def lore_candidate(value: str) -> bool:
     clean = COLOR_RE.sub("", value).strip()
     if not natural_candidate(clean):
         return False
     if clean.startswith("<NAVI>") or "<INFO>" in clean:
+        return False
+    if canonical_name_list(clean):
         return False
     if LOOT_RATE_RE.fullmatch(clean):
         return False
