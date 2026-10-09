@@ -272,15 +272,15 @@ sync:
     lore_pending_extractor: "TurkuazTR/tools/extract-iteminfo-lore-pending.py"
     lore_source_recovery: "TurkuazTR/iteminfo-lore.source-recovery.json"
     lore_source_recovery_candidates: 35
-    last_generated_lore_pending_candidates: 6011
-    last_generated_lore_pending_occurrences: 6011
+    last_generated_lore_pending_candidates: 5693
+    last_generated_lore_pending_occurrences: 5693
     last_validated_replacements_per_tr_profile: 151926
     last_validated_applied_rule_count: 161
     last_validated_unchanged_natural_description_occurrences: 63212
     last_validated_unique_unchanged_natural_description_count: 37069
     last_validated_lore_candidate_occurrences: 27152
     last_validated_unique_lore_candidate_count: 23927
-    last_validated_metrics_note: "Generated exact primary 2984, final 10021, total 13005; pending 6011 unique / 6011 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
+    last_validated_metrics_note: "Generated exact primary 2984, final 10021, total 13005; pending 5693 unique / 5693 occurrence; source-recovery 35. Tam item audit onceki checkpoint verisidir."
     generated_profiles: "hybrid,full_tr,bilingual"
     generated_output: "SystemEN/LuaFiles514/itemInfo.lua"
     profile_field: "item_info"
