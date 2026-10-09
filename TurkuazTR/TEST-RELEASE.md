@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.4.0
+Version: 1.5.0
 Aciklama: v1.114.0 sonrasinda opsiyonel client denemesi ve otomatik localization kabul kurallarini tanimlar
 Bagimli Oldugu Katman: View
 -->
@@ -92,6 +92,21 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 5. Renk kodu, NAVI/ITEM tag'i, satir kirilmasi ve Lua hatasi olup olmadigini kontrol et.
 6. En az bir item tooltip'i, bir skill, bir quest, bir pet konusmasi ve bir kitap icin English/Full TR karsilastirmasi yap.
 7. Bu deneme yapilirsa raporunu ekle; yapilmazsa `client_smoke_test: not_run` olarak acikla. Oyun icinde PASS varsayma.
+
+
+## v1.158.0 - canli itemInfo / 2022 client kabul kapisi
+
+> Bu bolum bir test prosedurudur. **Gercek oyun ici test yapilmadi**; PASS sonucu varsayilmaz. Guvenli olmayan oyun mekanigi ve belirsiz sayisal bonus metinleri kaynak onariminda tutulur.
+
+- Dal: `translation/tr`; yeni shard: `TurkuazTR/config/iteminfo-exact-v1158.tr.json`. Hedeflenen source-recovery: **103 -> 80**; temiz pending **0**. Gercek degerler generated `TurkuazTR/iteminfo-lore.pending.json` raporundan dogrulanir.
+- Paket: `.github/workflows/turkuaz-test-release.yml` is akisinin `english`, `hybrid`, `full_tr`, `bilingual` ZIP, SHA-256 ve JSON sonucunu kullan. `source_commit` alanini yeni generated `translation/tr` commit'iyle eslestir; eski `test.4` paketini guncel paket sanma.
+- Once ayri bir **2022 Ragnarok client kopyasi** olustur. 2015 RagnarokClient/Thor dosyalarini, farkli patcher'lari ve ozel GRF'leri degistirme. Aktif `SystemEN` ve `data` yukleme onceligini istemci konfigurasyonundan kontrol et.
+- Windows PowerShell dogrulamasi: `Get-FileHash .\TurkuazTR-full_tr-<version>.zip -Algorithm SHA256`; dosyanin .sha256 degeriyle karsilastir. ZIP'i ayri test klasorune ac.
+- `english` ile giris, karakter secimi, harita yuklemesini test et; sonra `full_tr` ve ayrica `hybrid`/`bilingual` profilleriyle tekrar et.
+- Tooltip ornekleri: item ID `14601` (5 dakika, MATK/HIT/FLEE), `15398` (iki satirin anlami), `15400`, `15401`, `15402`, `15399` (stat turleri), `31854` (firinci aciklamasi), `11589` ve `6769` (yiyecek). English karsiligi, satir birlesmesi ve beceri sayilari kontrol edilmeli.
+- Skill penceresi, quest/NAVI penceresi, pet diyalogu ve kitap sayfalarinda UTF-8, renk etiketleri, `<NAVI>`/`<INFO>` kodlari, metin tasmasi ve Lua yukleme hatalarina bak.
+- Test kaydinda tarih, client PACKETVER, profil, yukleme dizini, item ID, beklenen/gorulen metin, ekran goruntusu, sonuc (PASS/FAIL/NOT_RUN) ve varsa hata logu bulunsun. FAIL varsa kod kaydi ac; otomatik CI PASS tek basina gercek oyun ici kabul degildir.
+- Geri alma: temiz client kopyasina don veya `SystemEN` ve `data` yedegini geri yukle. Oyun ici test yoksa `client_smoke_test: not_run` ve `client_visual_acceptance: not_verified`.
 
 ## PR ve merge politikasi
 
