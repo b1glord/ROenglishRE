@@ -14,8 +14,8 @@
   "start_offset": 0,
   "total_batch_pages": 4,
   "batch_candidate_count": 1000,
-  "remaining_candidate_count": 3400,
-  "remaining_candidate_occurrences": 3400,
+  "remaining_candidate_count": 3102,
+  "remaining_candidate_occurrences": 3102,
   "candidates": [
     {
       "text": "- Dark Lord, Stormy Knight, Beelzebub, Kiel-D-01, Gloom Under Night, Fallen Bishop, Ifrit, Turtle General, White Lady, Pharaoh, Moonlight Flower, Boss Egnigem, Vesper, Dracula, Sniper, Queen Scaraba, Baphoment, Maya, Clown, Professor, Champion, Creator, Stalker, Paladin, Gypsy, General Daehyon, Gioia, Fallen Pyuriel, Guardian Kades, Time Holder, Edgar, MasterSmith, High Priest, Orc Lord, Incantation Samurai, Lady Tanee, Orc Hero, Mistress, Ktullanux, Tao Gunka",
@@ -3502,19 +3502,7 @@
       "count": 1
     },
     {
-      "text": "Random chance to auto-cast Level 1 ^009900Heal^000000 and/or Level 1 ^009900Increase AGI^000000 to the wearereach time the wearer receives melee physical attacks.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to auto-cast Level 1 ^009900Sight^000000 or ^990099Sight Trasher^000000 when wearer receiving physical or magical attack.",
-      "count": 1
-    },
-    {
       "text": "Random chance to auto-cast Level 10 ^009900Endure^000000 or Level ^0000FF10 Angelus^000000 when receiving physical or magical attack.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to auto-cast Level 2 ^009900Deluge^000000 or Level 3 ^009900Waterball^000000 with each attack.",
       "count": 1
     },
     {
@@ -3558,14 +3546,6 @@
       "count": 1
     },
     {
-      "text": "Random chance to increase FLEE by 20 for 10 seconds when wielder receiving physical attack.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to increase Healing skills by 20% for 5 sec on when using Healing skills.",
-      "count": 1
-    },
-    {
       "text": "Random chance to increase MATK +100 and Magical damage against all size monsters by 30% for 10 sec when dealing physical attacks.",
       "count": 1
     },
@@ -3575,10 +3555,6 @@
     },
     {
       "text": "Random chance to increase Magical Damage with ^777777Holy^000000 element by 10% for 3 seconds when dealing magical attacks.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to increase damage of ^009900Fire Bolt^000000, ^009900Cold Bolt^000000, ^009900Lightning Bolt^000000 and ^009900Earth Spike^000000 by 100% for 10 seconds when receiving physical damage.",
       "count": 1
     },
     {
@@ -3598,43 +3574,11 @@
       "count": 1
     },
     {
-      "text": "Random chance to receive the following effect for 10 seconds when revieving physical damage:",
-      "count": 1
-    },
-    {
-      "text": "Random chance to recover 350 HP and 20 SP per second for 10 seconds when dealing damage.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to restore 150 HP per second for 5 seconds when dealing physical or magical attack",
-      "count": 1
-    },
-    {
       "text": "Random chance to restore some HP and SP when dealing magical damage.",
       "count": 1
     },
     {
-      "text": "Random chance to revieve the following effect for 10 seconds when receiving physical damage:",
-      "count": 1
-    },
-    {
-      "text": "Random chance to revieve the following effect for 10 seconds when receiving physical or magical damage:",
-      "count": 1
-    },
-    {
       "text": "Random chance to transform into a Golem for 5 seconds when receiving Melee Physical Damage.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to transform user into Awaken Pere for 6 seconds when dealing physical or magical attack.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to transform user into YSF01 spirit for 5 seconds wearer when receiving physical damage.",
-      "count": 1
-    },
-    {
-      "text": "Random chance to transform user to Demon Baphomet for 5 seconds when dealing physical attacks.",
       "count": 1
     },
     {
@@ -4015,6 +3959,62 @@
     },
     {
       "text": "Recovers 3% of MaxSP every 4 seconds for 30 minutes.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 40% of MaxHP/MaxSP when used. Grants Level 5 Blessing. FLEE +10 for 30 seconds.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 5 SP for each defeated enemy.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 5% HP and 5% SP upon consumption, and retains the original purchase price.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 5% HP, ATK +3% for 10 minutes.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 5% SP every 5 seconds for 60 minutes.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 50 HP and 3 SP when defeating monsters with physical attacks.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 50 HP and 5 SP when defeating monsters.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 50 HP time a monster is defeated by melee attack.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 50 HP when a monster is killed by magical attack.",
+      "count": 1
+    },
+    {
+      "text": "Recovers 50HP when defeating monsters.",
+      "count": 1
+    },
+    {
+      "text": "Recovers HP and SP fully, Grants Level 10 ^009900Kyrie Eleison^000000.",
+      "count": 1
+    },
+    {
+      "text": "Recovers SP and increases SP Recovery Rate by 20%.",
+      "count": 1
+    },
+    {
+      "text": "Recovers SP by 5 every 5 second for 30 seconds.",
+      "count": 1
+    },
+    {
+      "text": "Recovers a small amount of HP and SP.",
       "count": 1
     }
   ]
