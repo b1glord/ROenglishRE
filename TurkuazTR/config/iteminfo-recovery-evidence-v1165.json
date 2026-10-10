@@ -1,0 +1,55 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1165.json",
+    "purpose": "Record raw byte presence, exact Lua literal keys, source items, and safe localized labels",
+    "module": "Source Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "v1.165.0 three quarantined invalid source byte fragments, six occurrences; no original file mutation",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_translation_sha": "cec674127fe214a9b52d811f2126da744be311f3",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38011199534/artifacts/11653875220",
+  "resolved_count": 3,
+  "source_occurrence_count": 6,
+  "entries": [
+    {
+      "item_id": 7686,
+      "matching_item_ids": [
+        7686,
+        7688
+      ],
+      "source": "\udc81If you show it to the NPC \"Nekorin\" at coordinates (64 183), you can join the Polin Group immediately.",
+      "literal_source": "\udc81If you show it to the NPC \\\"Nekorin\\\" at coordinates (64 183), you can join the Polin Group immediately.",
+      "translation": "(64 183) koordinatlarindaki \"Nekorin\" NPC'sine bu esyayi gostererek Polin Group'a hemen katilabilirsiniz.",
+      "expected_occurrences": 2,
+      "previous_source_line": "\"^000088Classroom Building B(ac_cl_area)\",",
+      "next_source_line": "\"\udc81\udcb7Poring Group Secret Base (poring_ad)\","
+    },
+    {
+      "item_id": 7688,
+      "matching_item_ids": [
+        7688,
+        7856
+      ],
+      "source": "\udc81\udcb7 Jobs with can change into a Guillotine Cross",
+      "translation": "- Guillotine Cross sinifina gecis yapabilen meslekler",
+      "expected_occurrences": 2,
+      "previous_source_line": "\"^FF0000Corresponding Job\",",
+      "next_source_line": "\"However, the following are not eligible.\","
+    },
+    {
+      "item_id": 7686,
+      "matching_item_ids": [
+        7686,
+        7687
+      ],
+      "source": "\udc81\udcb7 Jobs with can change into a Rune Knight",
+      "translation": "- Rune Knight sinifina gecis yapabilen meslekler",
+      "expected_occurrences": 2,
+      "previous_source_line": "\"^FF0000Corresponding Job\",",
+      "next_source_line": "\"However, the following are not eligible.\","
+    }
+  ]
+}

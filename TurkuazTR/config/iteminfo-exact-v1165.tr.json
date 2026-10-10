@@ -1,0 +1,16 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-exact-v1165.tr.json",
+    "purpose": "Translate three byte-corrupt source descriptions without editing original client English bytes",
+    "module": "Translation Data - JSON",
+    "version": "1.0.0",
+    "description": "Surrogateescaped exact source keys preserve CP949-ambiguous raw bytes and Lua-escaped quotes",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "translations": {
+    "\udc81If you show it to the NPC \\\"Nekorin\\\" at coordinates (64 183), you can join the Polin Group immediately.": "(64 183) koordinatlarindaki \"Nekorin\" NPC'sine bu esyayi gostererek Polin Group'a hemen katilabilirsiniz.",
+    "\udc81\udcb7 Jobs with can change into a Guillotine Cross": "- Guillotine Cross sinifina gecis yapabilen meslekler",
+    "\udc81\udcb7 Jobs with can change into a Rune Knight": "- Rune Knight sinifina gecis yapabilen meslekler"
+  }
+}

@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/build-iteminfo-profile.py
 # 📌 Amac: itemInfo.lua dosyasinin gorunur aciklama bloklarina config tabanli byte-safe Turkce metadata kurallarini uygular
 # 📌 Tool - Python
-# Version: 1.2.2
-# Aciklama: Exact shard birlestirmede Lua cift tirnaklarini byte-safe kacis ile korur
+# Version: 1.3.0
+# Aciklama: Kaynak anahtarlarinda surrogateescape ile kayipsiz bozuk bayt eslestirmesi saglar
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -107,7 +107,7 @@ def escape_lua_quoted_content(value: bytes) -> bytes:
 def prepare_exact_translations(data: dict) -> dict[bytes, bytes]:
     prepared: dict[bytes, bytes] = {}
     for source, translation in data.get("translations", {}).items():
-        source_bytes = source.encode("ascii")
+        source_bytes = source.encode("ascii", errors="surrogateescape")
         target_bytes = escape_lua_quoted_content(translation.encode("ascii"))
         if not source_bytes:
             raise ValueError("Empty item info exact translation source")
