@@ -1,8 +1,8 @@
 # File Path: /ROenglishRE/.github/workflows/turkuaz-rpatchur-hybrid-test.yml
 # Purpose: Build 2022 Hybrid THOR and test-only rPatchur GitHub prerelease
 # Module - Tool YAML
-# Version: 1.0.0
-# Description: PR smoke test only, publish from translation/tr without modifying legacy patches
+# Version: 1.0.1
+# Description: Fix HTML MIME for Windows webview; publish only validated test-only patch launcher
 # Dependency Layer: Tool
 name: TurkuazTR 2022 Hybrid rPatchur Test
 on:
@@ -142,6 +142,23 @@ jobs:
           print("Published test patches:",len(found))
           PY
           gh release upload "$TEST_TAG" dist/plist.txt --clobber --repo "$TARGET_REPO"
+      - name: Verify launcher HTML HTTP MIME and source content
+        shell: bash
+        run: |
+          set -euo pipefail
+          UI_URL="https://rawcdn.githack.com/b1glord/ROenglishRE/$GITHUB_SHA/rpatchur/2022/hybrid/index.html"
+          curl --fail --location --retry 4 --retry-delay 3 --silent --show-error \
+            --dump-header "$RUNNER_TEMP/ui-headers.txt" \
+            --output "$RUNNER_TEMP/ui-page.html" "$UI_URL"
+          grep -Eiq '^content-type:[[:space:]]*text/html' "$RUNNER_TEMP/ui-headers.txt" || {
+            echo 'Patcher UI endpoint is not served as text/html'
+            cat "$RUNNER_TEMP/ui-headers.txt"
+            exit 1
+          }
+          grep -iq '<!doctype html>' "$RUNNER_TEMP/ui-page.html"
+          grep -q 'patchingStatusReady()' "$RUNNER_TEMP/ui-page.html"
+          grep -q "send('start_update')" "$RUNNER_TEMP/ui-page.html"
+
       - name: Bundle upstream rPatchur Windows EXE and live test config
         shell: bash
         run: |
@@ -166,7 +183,7 @@ jobs:
             height: 510
             resizable: false
           play:
-            path: "Ragnar Ragnarok Online.exe"
+            path: "Ragnarok.exe"
             arguments: []
             exit_on_success: false
           setup:
@@ -174,7 +191,7 @@ jobs:
             arguments: []
             exit_on_success: false
           web:
-            index_url: "https://cdn.jsdelivr.net/gh/b1glord/ROenglishRE@$GITHUB_SHA/rpatchur/2022/hybrid/index.html"
+            index_url: "https://rawcdn.githack.com/b1glord/ROenglishRE/$GITHUB_SHA/rpatchur/2022/hybrid/index.html"
             preferred_patch_server: "TurkuazTR 2022 Hybrid TEST"
             patch_servers:
               - name: "TurkuazTR 2022 Hybrid TEST"
