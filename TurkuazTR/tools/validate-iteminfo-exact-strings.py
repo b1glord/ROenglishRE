@@ -619,7 +619,7 @@ class ExactLuaStringTests(unittest.TestCase):
                 self.assertEqual(mapping[src], target)
                 self.assertTrue(entry["reference_urls"])
                 self.assertEqual(entry["expected_occurrences"], source_text.count('"' + src + '",'))
-                self.assertEqual(entry["item_id"] in (13834, 13835) or entry["item_id"] in by_id, True)
+                self.assertIn(str(entry["item_id"]), by_id)
                 for item_id in entry.get("matching_item_ids", [entry["item_id"]]):
                     lines = [s.strip() for s in by_id[str(item_id)].splitlines()]
                     src_literal = '"' + src + '",'
