@@ -1,0 +1,201 @@
+# File Path: /ROenglishRE/.github/workflows/turkuaz-rpatchur-hybrid-test.yml
+# Purpose: Build 2022 Hybrid THOR and test-only rPatchur GitHub prerelease
+# Module - Tool YAML
+# Version: 1.0.0
+# Description: PR smoke test only, publish from translation/tr without modifying legacy patches
+# Dependency Layer: Tool
+name: TurkuazTR 2022 Hybrid rPatchur Test
+on:
+  pull_request:
+    branches: [translation/tr]
+    paths:
+      - ".github/workflows/turkuaz-rpatchur-hybrid-test.yml"
+      - "TurkuazTR/tools/prepare-rpatchur-hybrid-test.py"
+      - "rpatchur/2022/hybrid/**"
+  push:
+    branches: [translation/tr]
+    paths:
+      - ".github/workflows/turkuaz-rpatchur-hybrid-test.yml"
+      - "TurkuazTR/tools/prepare-rpatchur-hybrid-test.py"
+      - "rpatchur/2022/hybrid/**"
+      - "TurkuazTR/generated/hybrid/**"
+  workflow_dispatch:
+concurrency:
+  group: rpatchur-2022-hybrid-test-feed
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage and verify Hybrid client payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m py_compile TurkuazTR/tools/prepare-rpatchur-hybrid-test.py
+          python3 TurkuazTR/tools/prepare-rpatchur-hybrid-test.py \
+            --stage "$RUNNER_TEMP/hybrid-stage" --manifest dist/hybrid-source-manifest.json \
+            --source-sha "$GITHUB_SHA"
+      - name: Build upstream mkpatch at pinned commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git clone --quiet https://github.com/L1nkZ/rpatchur.git "$RUNNER_TEMP/rpatchur-src"
+          git -C "$RUNNER_TEMP/rpatchur-src" checkout --detach 21a548277189fecf1c24f61565337158c4ab19a9
+          cargo build --release --locked -p mkpatch --manifest-path "$RUNNER_TEMP/rpatchur-src/Cargo.toml"
+      - name: Package THOR, validate header and SHA256
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > "$RUNNER_TEMP/hybrid.yml" <<'YAML'
+          include_checksums: true
+          use_grf_merging: false
+          target_grf_name: null
+          entries:
+            - relative_path: "."
+          YAML
+          SHORT_SHA="$(printf %.12s "$GITHUB_SHA")"
+          PATCH="turkuaz-2022-hybrid-$SHORT_SHA.thor"
+          "$RUNNER_TEMP/rpatchur-src/target/release/mkpatch" \
+            "$RUNNER_TEMP/hybrid.yml" \
+            --patch-data-directory "$RUNNER_TEMP/hybrid-stage" \
+            --output-file "dist/$PATCH"
+          python3 TurkuazTR/tools/prepare-rpatchur-hybrid-test.py \
+            --manifest dist/hybrid-source-manifest.json --verify-thor "dist/$PATCH"
+          (cd dist && sha256sum "$PATCH" > "$PATCH.sha256")
+          (cd dist && sha256sum --check "$PATCH.sha256")
+          echo "$((10000 + GITHUB_RUN_NUMBER)) $PATCH" > dist/plist.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: turkuaz-rpatchur-2022-hybrid-test
+          path: |
+            dist/*.thor
+            dist/*.sha256
+            dist/hybrid-source-manifest.json
+            dist/plist.txt
+          if-no-files-found: error
+          retention-days: 30
+  publish:
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/translation/tr'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      TEST_TAG: rpatchur-2022-hybrid-test
+      TARGET_REPO: b1glord/ROenglishRE
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: turkuaz-rpatchur-2022-hybrid-test
+          path: dist
+      - name: Reject out-of-date CI outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          REMOTE_SHA="$(git ls-remote origin refs/heads/translation/tr | cut -f1)"
+          test "$REMOTE_SHA" = "$GITHUB_SHA" || { echo "Source moved; refusing stale patch release"; exit 1; }
+          SHORT_SHA="$(printf %.12s "$GITHUB_SHA")"
+          (cd dist && sha256sum --check "turkuaz-2022-hybrid-$SHORT_SHA.thor.sha256")
+      - name: Publish new THOR before exposing updated plist
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TEST_TAG" --repo "$TARGET_REPO" >/dev/null 2>&1; then
+            gh release create "$TEST_TAG" --repo "$TARGET_REPO" \
+              --title "TurkuazTR 2022 Hybrid rPatchur TEST" \
+              --notes "Experimental 2022 localization channel. GRF and game EXE unchanged. Test only on backed-up copy." \
+              --target "$GITHUB_SHA" --prerelease
+          fi
+          SHORT_SHA="$(printf %.12s "$GITHUB_SHA")"
+          gh release upload "$TEST_TAG" \
+            "dist/turkuaz-2022-hybrid-$SHORT_SHA.thor" \
+            "dist/turkuaz-2022-hybrid-$SHORT_SHA.thor.sha256" \
+            --repo "$TARGET_REPO"
+      - name: Publish monotonic test patch list
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL="https://github.com/$TARGET_REPO/releases/download/$TEST_TAG/plist.txt"
+          curl --location --fail --silent --show-error -H 'Cache-Control: no-cache' \
+            "$URL" -o "$RUNNER_TEMP/old-plist.txt" || : > "$RUNNER_TEMP/old-plist.txt"
+          python3 - "$RUNNER_TEMP/old-plist.txt" dist/plist.txt "$GITHUB_RUN_NUMBER" "$GITHUB_SHA" <<'PY'
+          import pathlib,re,sys
+          old,out=map(pathlib.Path,sys.argv[1:3])
+          index=10000+int(sys.argv[3])
+          name=f"turkuaz-2022-hybrid-{sys.argv[4][:12]}.thor"
+          found={}
+          for line in old.read_text(encoding="ascii").splitlines():
+              if not line.strip(): continue
+              m=re.fullmatch(r"(\d+) (turkuaz-2022-hybrid-[0-9a-f]{12}\.thor)",line)
+              if not m: raise SystemExit("Unexpected legacy/non-test patch in remote plist")
+              key=int(m.group(1))
+              if key in found and found[key]!=m.group(2): raise SystemExit("Duplicate patch index")
+              found[key]=m.group(2)
+          if index in found and found[index]!=name: raise SystemExit("Index reused")
+          found[index]=name
+          out.write_text("".join(f"{k} {v}\n" for k,v in sorted(found.items())),encoding="ascii")
+          print("Published test patches:",len(found))
+          PY
+          gh release upload "$TEST_TAG" dist/plist.txt --clobber --repo "$TARGET_REPO"
+      - name: Bundle upstream rPatchur Windows EXE and live test config
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist/launcher
+          URL="https://github.com/L1nkZ/rpatchur/releases/download/v0.3.0/rpatchur-v0.3.0-i686-pc-windows-msvc.zip"
+          curl --fail --location --retry 3 --silent --show-error "$URL" -o "$RUNNER_TEMP/official-rpatchur.zip"
+          EXE="$(unzip -Z -1 "$RUNNER_TEMP/official-rpatchur.zip" | grep -Ei '(^|/)rpatchur\.exe$' | head -1)"
+          test -n "$EXE"
+          unzip -p "$RUNNER_TEMP/official-rpatchur.zip" "$EXE" > dist/launcher/TurkuazHybridTest.exe
+          test -s dist/launcher/TurkuazHybridTest.exe
+          cat > dist/launcher/TurkuazHybridTest.yml <<YAML
+          # File Path: /test-client/TurkuazHybridTest.yml
+          # Purpose: Dedicated 2022 Hybrid remote THOR channel
+          # Module - Config YAML
+          # Version: 1.0.0
+          # Description: Keep old 2015 patch list and GRFs unchanged
+          # Dependency Layer: Tool | View
+          window:
+            title: "TurkuazTR 2022 Hybrid TEST"
+            width: 760
+            height: 510
+            resizable: false
+          play:
+            path: "Ragnar Ragnarok Online.exe"
+            arguments: []
+            exit_on_success: false
+          setup:
+            path: "Setup.exe"
+            arguments: []
+            exit_on_success: false
+          web:
+            index_url: "https://cdn.jsdelivr.net/gh/b1glord/ROenglishRE@$GITHUB_SHA/rpatchur/2022/hybrid/index.html"
+            preferred_patch_server: "TurkuazTR 2022 Hybrid TEST"
+            patch_servers:
+              - name: "TurkuazTR 2022 Hybrid TEST"
+                plist_url: "https://github.com/$TARGET_REPO/releases/download/$TEST_TAG/plist.txt"
+                patch_url: "https://github.com/$TARGET_REPO/releases/download/$TEST_TAG/"
+          client:
+            default_grf_name: "ragnardata.grf"
+          patching:
+            in_place: true
+            check_integrity: true
+            create_grf: false
+          YAML
+          cp rpatchur/2022/hybrid/README.md dist/launcher/TEST-README.md
+          cp dist/hybrid-source-manifest.json dist/launcher/hybrid-source-manifest.json
+          (cd dist/launcher && sha256sum TurkuazHybridTest.exe > EXE-SHA256.txt)
+          (cd dist/launcher && zip -q -9 -r ../Turkuaz2022HybridTest-Launcher.zip .)
+          unzip -tq dist/Turkuaz2022HybridTest-Launcher.zip
+          gh release upload "$TEST_TAG" dist/Turkuaz2022HybridTest-Launcher.zip \
+            --clobber --repo "$TARGET_REPO"
+      - name: Show download links
+        shell: bash
+        run: |
+          echo "https://github.com/$TARGET_REPO/releases/tag/$TEST_TAG"
+          echo "https://github.com/$TARGET_REPO/releases/download/$TEST_TAG/Turkuaz2022HybridTest-Launcher.zip"
