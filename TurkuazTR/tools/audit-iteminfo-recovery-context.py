@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Purpose: source-backed, non-mutating provenance report for unresolved itemInfo descriptions
-# Version: 1.4.0
+# Version: 1.5.0
 from __future__ import annotations
 
 import argparse
@@ -17,6 +17,23 @@ RECOVERY = ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json"
 PENDING = ROOT / "TurkuazTR/iteminfo-lore.pending.json"
 AUDIT = ROOT / "TurkuazTR/tools/audit-iteminfo-visible.py"
 ENTRY_RE = re.compile(r"^\s*\[(\d+)\]\s*=\s*\{", re.MULTILINE)
+
+
+
+def source_integrity_flags(source: str) -> list[str]:
+    """Triage hints only; never invent missing gameplay numbers or source text."""
+    flags = []
+    if any(0xDC80 <= ord(ch) <= 0xDCFF for ch in source):
+        flags.append("invalid_source_bytes")
+    if re.search(r"\^[0-9a-fA-F]{6}\^000000", source):
+        flags.append("empty_color_span")
+    if re.search(r"\b(?:by|of)\s*%", source, flags=re.IGNORECASE):
+        flags.append("missing_percent_value")
+    if re.search(r"\^[0-9a-fA-F]{5}[a-fA-F](?=[a-z])", source):
+        flags.append("suspected_color_marker_text_overlap")
+    if re.search(r"\^[0-9a-fA-F]{6}\+\s*or\s+higher", source, flags=re.IGNORECASE):
+        flags.append("missing_refine_threshold")
+    return flags
 
 
 def main() -> int:
@@ -48,7 +65,7 @@ def main() -> int:
         # check without source-specific proof of exactly that delta.
         delta = pending["source_recovery_candidate_count"] - len(recovery)
         proven = False
-        for version in ("1160", "1158", "1157"):
+        for version in ("1161", "1160", "1158", "1157"):
             evidence_path = ROOT / f"TurkuazTR/config/iteminfo-recovery-evidence-v{version}.json"
             shard_path = ROOT / f"TurkuazTR/config/iteminfo-exact-v{version}.tr.json"
             if not evidence_path.exists() or not shard_path.exists():
@@ -76,6 +93,7 @@ def main() -> int:
 
     rows = []
     statuses = Counter()
+    source_risks = Counter()
     for source in recovery:
         found = []
         start = 0
@@ -112,8 +130,12 @@ def main() -> int:
             flags.append("semantic_source_review")
         for flag in flags:
             statuses[flag] += 1
+        detected = source_integrity_flags(source)
+        source_risks.update(detected)
         rows.append({
             "source": source,
+            "integrity_flags": detected,
+            "triage_priority": "source_repair_required" if detected else "semantic_upstream_review",
             "occurrences": descriptions.get(source, descriptions.get(normalized, 0)),
             "flags": flags,
             "contexts": found[:12],
@@ -123,12 +145,14 @@ def main() -> int:
     result = {
         "_file_header": {
             "purpose": "Source-evidenced report, not a Turkish translation or approved text fix",
-            "version": "1.0.0",
+            "version": "1.1.0",
         },
         "source_path": str(SOURCE.relative_to(ROOT)),
         "recovery_path": str(RECOVERY.relative_to(ROOT)),
         "candidate_count": len(rows),
         "status_counts": dict(sorted(statuses.items())),
+        "integrity_risk_counts": dict(sorted(source_risks.items())),
+        "high_risk_candidate_count": sum(bool(row["integrity_flags"]) for row in rows),
         "candidates": rows,
     }
     if args.output:
@@ -138,6 +162,8 @@ def main() -> int:
         "candidate_count": len(rows),
         "context_covered": sum(bool(row["contexts"]) for row in rows),
         "status_counts": result["status_counts"],
+        "integrity_risk_counts": result["integrity_risk_counts"],
+        "high_risk_candidate_count": result["high_risk_candidate_count"],
         "unmatched_sources": [row["source"] for row in rows if not row["contexts"]],
     }, sort_keys=True))
     if statuses["missing_literal_context"] or statuses["missing_visible_description"]:
