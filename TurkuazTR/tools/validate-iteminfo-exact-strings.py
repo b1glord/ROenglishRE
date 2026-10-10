@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.13.0
-# Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
+# Version: 1.14.0
+# Aciklama: v1.162 Harici kanitli eksik yuzde onarimi ve regresyon testleri
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -77,7 +77,12 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160, *v1161]}
+        v1162 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1162.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162]}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -424,6 +429,66 @@ class ExactLuaStringTests(unittest.TestCase):
         self.assertEqual(
             source_text.count('"' + entry["source"] + '",'),
             evidence["expected_source_occurrences"],
+        )
+        escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
+        self.assertIsNotNone(
+            builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
+        )
+
+    def test_v1162_herosria_verified_missing_percent(self) -> None:
+        """Only the independently evidenced percent may bridge broken source numbers."""
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1162.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1162.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        quarantine = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        entry = evidence["entries"][0]
+        self.assertEqual(evidence["resolved_count"], len(evidence["entries"]))
+        self.assertEqual(evidence["expected_source_occurrences"], 1)
+        self.assertEqual(entry["item_id"], 400338)
+        self.assertEqual(entry["verified_missing_percent"], 5)
+        self.assertEqual(entry["source_integrity_flag"], "missing_percent_value")
+        self.assertEqual(len(entry["reference_urls"]), 2)
+        self.assertEqual(set(shard), {entry["source"]})
+        self.assertEqual(shard[entry["source"]], entry["translation"])
+        self.assertNotIn(entry["source"], quarantine)
+        self.assertIn("by%.", entry["source"])
+        self.assertIn("%" + str(entry["verified_missing_percent"]), entry["translation"])
+        without_color_source = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["source"])
+        without_color_translation = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["translation"])
+        self.assertEqual(re.findall(r"\d+(?:\.\d+)?", without_color_source), [])
+        self.assertEqual(
+            re.findall(r"\d+(?:\.\d+)?", without_color_translation),
+            [str(entry["verified_missing_percent"])],
+        )
+        self.assertEqual(
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["source"]),
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["translation"]),
+        )
+        original = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        blocks = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", original)
+        by_id = dict(zip(blocks[1::2], blocks[2::2]))
+        item_lines = [line.strip() for line in by_id[str(entry["item_id"])].splitlines()]
+        needle = '"' + entry["source"] + '",'
+        self.assertEqual(item_lines.count(needle), 1)
+        index = item_lines.index(needle)
+        self.assertEqual(item_lines[index - 1], entry["previous_source_line"])
+        self.assertEqual(item_lines[index + 1], entry["next_source_line"])
+        self.assertEqual(original.count(needle), evidence["expected_source_occurrences"])
+        self.assertEqual(
+            evidence["upstream_source_blob_sha"], entry["upstream_source_blob_sha"]
         )
         escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
         self.assertIsNotNone(
