@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.6.0
+Version: 1.8.0
 Aciklama: v1.114.0 sonrasinda opsiyonel client denemesi ve otomatik localization kabul kurallarini tanimlar
 Bagimli Oldugu Katman: View
 -->
@@ -117,6 +117,15 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - CI dort paket icin `.sha256` checksum, ZIP bozulma kontrolu, gerekli client dosyalarini, `smoke_test: pass` ve birebir kaynak commit eslesmesini dogrular. Eksik dosya veya eski SHA hata kabul edilir.
 - Manuel `turkuaz-test-release.yml` baslatilirken version alani bos birakilirsa `test-<github_sha12>` kullanilir; tarihsel test.4 etiketi otomatik yeniden uretilmez.
 - ZIP'in PASS olmasi oyunda acilis, karakter secimi veya tooltip'in gorsel ve anlamsal kabul testini **kanitlamaz**. Client kabul alani test gercekten yapilana dek `NOT_RUN` / `not_verified` kalir.
+
+
+## v1.160.0 - kaynak kanitli cift satir itemInfo aciklamalari
+
+- Temporal Circlet item #19474 ve ayni metni kullanan diger Temporal Circlet'ler: Hugin ile ilgili iki Ingilizce satir **ayni anda** Turkcelestirilir; yarisi Ingilizce yarisi Turkce metin olusmamasi icin bitisik satir sozlesmesi CI'da denetlenir. Referans: https://divine-pride.net/database/item/19474/circlet-of-timerune-knight-1
+- Steamed Ancient Lips item #12069: fis veya tarif isimleri tahmin edilmez, `Ancient Lips` ifadesi korunur. Bagimsiz kaynak: https://db.irowiki.org/db/item-info/12069/
+- Odin guc cubbesi item #15397: aciklamanin iki kaynak satiri birlikte cevrilir.
+- Toplam 3 **yeni** exact satir kaynak onarim listesinden cikarilir. Iki tamamlayici satir zaten onceki exact config dosyalarinda cevrilmistir; bunlara tekrar kayit eklenmez, mevcut Turkce ifadelerle uyum saglanir. Normal pending 0 kalir; kaynak onarim hedefi **80 -> 77**.
+- Sayisal etkisi eksik metinler veya bozuk renk kodlari bu pakette tahminen duzeltilmez. Gercek Ragnarok 2022 istemcisi acilis ve gorsel tooltip kabul testi: `NOT_RUN / not_verified`.
 
 ## PR ve merge politikasi
 

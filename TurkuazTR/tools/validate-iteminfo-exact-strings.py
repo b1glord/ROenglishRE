@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.10.0
+# Version: 1.12.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -67,7 +67,12 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158]}
+        v1160 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1160.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160]}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -276,6 +281,79 @@ class ExactLuaStringTests(unittest.TestCase):
                 escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
                 self.assertIsNotNone(builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34])))
                 self.assertEqual(entry["upstream_source_blob_sha"], evidence["upstream_source_blob_sha"])
+
+    def test_v1160_paired_lore_source_provenance(self) -> None:
+        from collections import Counter
+
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1160.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1160.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = set(json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"])
+        raw = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        parts = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", raw)
+        by_id = dict(zip(parts[1::2], parts[2::2]))
+        self.assertEqual(evidence["resolved_count"], 3)
+        self.assertEqual(evidence["adjacent_translation_count"], 0)
+        self.assertEqual(evidence["reused_existing_adjacent_count"], 2)
+        self.assertEqual(evidence["total_translations"], 3)
+        self.assertEqual(len(shard), 3)
+        keys = set()
+        for entry in evidence["entries"]:
+            with self.subTest(item_id=entry["item_id"]):
+                self.assertIn(str(entry["item_id"]), by_id)
+                self.assertIn(entry["source"], by_id[str(entry["item_id"])])
+                self.assertNotIn(entry["source"], recovery)
+                self.assertEqual(shard[entry["source"]], entry["translation"])
+                keys.add(entry["source"])
+                if "adjacent_source" in entry:
+                    neighbor = entry["adjacent_source"]
+                    self.assertNotIn(neighbor, shard)
+                    prior_path = REPO_ROOT / entry["adjacent_translation_path"]
+                    prior_mapping = json.loads(prior_path.read_text(encoding="utf-8"))["translations"]
+                    self.assertEqual(prior_mapping[neighbor], entry["adjacent_translation"])
+                    # Every use of the opening fragment must be followed by
+                    # its proven continuation in the SAME item, not another item.
+                    pair_count = 0
+                    for block in by_id.values():
+                        lines = [line.strip() for line in block.splitlines()]
+                        first = '"' + entry["source"] + '",'
+                        second = '"' + neighbor + '",'
+                        for index in range(len(lines) - 1):
+                            if lines[index] == first:
+                                self.assertEqual(lines[index + 1], second)
+                                pair_count += 1
+                    self.assertGreaterEqual(pair_count, entry["expected_contexts"])
+                for key in (entry["source"], entry.get("adjacent_source")):
+                    if key is None:
+                        continue
+                    target = shard[key] if key in shard else entry["adjacent_translation"]
+                    self.assertEqual(
+                        Counter(re.findall(r"\d+(?:\.\d+)?", key)),
+                        Counter(re.findall(r"\d+(?:\.\d+)?", target)),
+                    )
+                    self.assertEqual(
+                        re.findall(r"\^[0-9A-Fa-f]{6}", key),
+                        re.findall(r"\^[0-9A-Fa-f]{6}", target),
+                    )
+                    target.encode("ascii")
+                    escaped = builder.escape_lua_quoted_content(target.encode("ascii"))
+                    self.assertIsNotNone(
+                        builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
+                    )
+        self.assertEqual(keys, set(shard))
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
