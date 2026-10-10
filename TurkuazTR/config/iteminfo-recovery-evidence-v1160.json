@@ -1,0 +1,46 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1160.json",
+    "purpose": "English original-context and upstream validation evidence for v1.160",
+    "module": "Translation Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "Two separated English description pairs translated together; manual client test still not verified",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "base_translation_sha": "fd28ce2a7248658f570778273a98fe2268671be3",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38007198828",
+  "resolved_count": 3,
+  "adjacent_translation_count": 2,
+  "total_translations": 5,
+  "entries": [
+    {
+      "item_id": 19474,
+      "source": "A special energy was given to the circlet, which was",
+      "translation": "Hugin'in zaman araliklarindan gelen cevher ve degerli taslarla yaptigi taca",
+      "adjacent_source": "made of ores and gemstones from the gaps of time by Hugin.",
+      "adjacent_translation": "ozel bir enerji yuklenmistir.",
+      "reference_url": "https://divine-pride.net/database/item/19474/circlet-of-timerune-knight-1",
+      "expected_contexts": 19,
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    },
+    {
+      "item_id": 12069,
+      "source": "Steamed fish with ancient lips wrapped in a fresh leaf that is supposedly good for a man's vigor.",
+      "translation": "Taze bir yapraga sarilarak buharda pisirilmis Ancient Lips baligi. Erkeklere guc verdigine inanilir.",
+      "reference_url": "https://db.irowiki.org/db/item-info/12069/",
+      "expected_contexts": 1,
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    },
+    {
+      "item_id": 15397,
+      "source": "There is a blessing to increase the robes worn by",
+      "translation": "Odin'in gucune tapan rahiplerin giydigi cubbede",
+      "adjacent_source": "priests who worshiped power in Odin's power.",
+      "adjacent_translation": "gucu artiran bir kutsama bulunur.",
+      "expected_contexts": 1,
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    }
+  ]
+}
