@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Purpose: source-backed, non-mutating provenance report for unresolved itemInfo descriptions
-# Version: 1.2.0
+# Version: 1.3.0
 from __future__ import annotations
 
 import argparse
@@ -48,7 +48,7 @@ def main() -> int:
         # check without source-specific proof of exactly that delta.
         delta = pending["source_recovery_candidate_count"] - len(recovery)
         proven = False
-        for version in ("1158", "1157"):
+        for version in ("1160", "1158", "1157"):
             evidence_path = ROOT / f"TurkuazTR/config/iteminfo-recovery-evidence-v{version}.json"
             shard_path = ROOT / f"TurkuazTR/config/iteminfo-exact-v{version}.tr.json"
             if not evidence_path.exists() or not shard_path.exists():
@@ -56,12 +56,18 @@ def main() -> int:
             evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
             shard = json.loads(shard_path.read_text(encoding="utf-8"))["translations"]
             resolved = {entry["source"] for entry in evidence["entries"]}
+            companions = {
+                entry["adjacent_source"]
+                for entry in evidence["entries"]
+                if entry.get("adjacent_source")
+            }
             if (
                 delta > 0
                 and len(resolved) == delta
                 and len(resolved) == evidence["resolved_count"]
-                and resolved == set(shard)
+                and resolved.union(companions) == set(shard)
                 and not resolved.intersection(recovery)
+                and (version != "1160" or len(companions) == evidence["adjacent_translation_count"])
             ):
                 proven = True
                 break
