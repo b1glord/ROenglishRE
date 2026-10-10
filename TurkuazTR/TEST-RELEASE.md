@@ -154,6 +154,17 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Kaynak onarim kuyrugu **75 -> 74**, yuksek riskli kaynak adaylari **6 -> 5** beklenir. Normal pending 0 kalir.
 - Orijinal `Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua` degistirilmez. Gercek 2022 istemcide acilis ve gorsel kabul testi NOT_RUN / not_verified.
 
+## v1.164.0 - baglam denetimli kaynak kurtarma dilimi
+
+- Tamamen dogrulanmis 6 farkli itemInfo kaynak metni kuyruktan cikarildi (7 kaynak gorunumu). Original `itemInfo.lua` SHA `5bc5f92edd8f08ebd57ff0991f0297bc51026058` degistirilmez.
+- 13834/13835 Dungeon Teleport Scroll II kutularinin `Kiel Hyre / Thanatos / Abyss Lakes` giris satiri cevrildi. Diger iki bitisik satir onceki exact shard icinde zaten bulundugundan tekrar kaydedilmedi.
+- 12725 Nosiege Runestone icin `Marsh of Abyss` ve `Mandragora Howling` beceri adlari oldugu gibi korunarak baglac cevrildi. Renk etiketi aynen kalir.
+- 22614 Premium Manual satirindaki baslangic `30Increases` bozuk tekrarindan sonra yalniz bir defa `30 dakika` gosterilir. %50 EXP ve %100 drop degerleri degismez; bagimsiz item ve item script kanitlidir.
+- 18190 Bolt Shooter ve 32303 Bolt Revolver icin Einbech madenindeki civi disinda muhimmat atma aciklamasinin iki satiri birlikte cevrildi. Iki farkli parcali kaynakta ayni Turkce sonuc cikartilir, mevcut oyun mekaniği sayilarina dokunulmaz.
+- Bagimsiz kaynaklar: https://ratemyserver.net/index.php?item_id=22614&page=re_item_db ; https://ragnaplace.com/en/iro/item/12725/nosiege-runestone ; https://db.pservero.com/item/32303/Ein_1HGUN ; https://ratemyserver.net/index.php?item_type=5&page=re_item_db&page_num=28
+- Normal pending: 0. Kaynak kurtarma: **74 -> 68**. Source-integrity risk: **5** (1 bos renkli metin, 1 eksik refine esigi, 3 bozuk bayt). Bu kayitlara dogrulanmamis sayi/skill atanmadi.
+- Dort profilin CI ZIP paketleri gercek 2022 client testinin yerine gecmez. Client smoke test NOT_RUN, gorsel kabul not_verified.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.

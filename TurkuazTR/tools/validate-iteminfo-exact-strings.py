@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.15.0
-# Aciklama: v1.163 Ramen Hat Box kaynak kanitli beceri ve renk testi
+# Version: 1.16.0
+# Aciklama: v1.164 Kaynak ve komsu satir dogrulama, ozel sayisal test
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -87,9 +87,14 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
+        v1164 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1164.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
         resolved_later = {
             entry["source"]
-            for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162, *v1163]
+            for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162, *v1163, *v1164]
         }
         statuses = {
             "translated": 0,
@@ -569,6 +574,97 @@ class ExactLuaStringTests(unittest.TestCase):
             {},
         )
         self.assertEqual(translated, ('"' + entry["translation"] + '",').encode("ascii"))
+
+    def test_v1164_external_source_provenance_and_adjacent_context(self) -> None:
+        from collections import Counter
+
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1164.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        mapping = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1164.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = set(json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"])
+        source_text = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        chunks = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", source_text)
+        by_id = dict(zip(chunks[1::2], chunks[2::2]))
+        rows = evidence["entries"]
+        self.assertEqual(evidence["resolved_count"], 6)
+        self.assertEqual(len({x["source"] for x in rows}), 6)
+        self.assertEqual(len(mapping), 7)
+        self.assertEqual(evidence["adjacent_translation_count"], 1)
+        self.assertEqual(evidence["source_occurrence_count"], 7)
+        self.assertEqual(len(recovery), 68)
+        expected = {x["source"] for x in rows}
+        companions = {x["adjacent_source"] for x in rows if x.get("adjacent_source")}
+        self.assertEqual(set(mapping), expected | companions)
+        self.assertEqual(companions, {"It was modified to launch other objects"})
+        self.assertEqual(
+            evidence["upstream_source_blob_sha"], "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+        )
+        for entry in rows:
+            with self.subTest(item=entry["item_id"], source=entry["source"][:64]):
+                src, target = entry["source"], entry["translation"]
+                self.assertNotIn(src, recovery)
+                self.assertEqual(mapping[src], target)
+                self.assertTrue(entry["reference_urls"])
+                self.assertEqual(entry["expected_occurrences"], source_text.count('"' + src + '",'))
+                self.assertIn(str(entry["item_id"]), by_id)
+                for item_id in entry.get("matching_item_ids", [entry["item_id"]]):
+                    lines = [s.strip() for s in by_id[str(item_id)].splitlines()]
+                    src_literal = '"' + src + '",'
+                    self.assertEqual(lines.count(src_literal), 1)
+                    pos = lines.index(src_literal)
+                    self.assertEqual(lines[pos - 1], entry["previous_source_line"])
+                    self.assertEqual(lines[pos + 1], entry["next_source_line"])
+                old_colors = re.findall(r"\^[0-9a-fA-F]{6}", src)
+                new_colors = re.findall(r"\^[0-9a-fA-F]{6}", target)
+                self.assertEqual(old_colors, new_colors)
+                old_numbers = Counter(re.findall(
+                    r"\d+(?:\.\d+)?", re.sub(r"\^[0-9a-fA-F]{6}", "", src)
+                ))
+                new_numbers = Counter(re.findall(
+                    r"\d+(?:\.\d+)?", re.sub(r"\^[0-9a-fA-F]{6}", "", target)
+                ))
+                if "removed_duplicate_duration" in entry:
+                    # Original source starts with a stray "30" and repeats "30 minutes".
+                    self.assertEqual(entry["item_id"], 22614)
+                    self.assertEqual(entry["removed_duplicate_duration"], 30)
+                    self.assertEqual(old_numbers - new_numbers, Counter({"30": 1}))
+                    self.assertEqual(new_numbers - old_numbers, Counter())
+                else:
+                    self.assertEqual(old_numbers, new_numbers)
+                target.encode("ascii")
+                escaped = builder.escape_lua_quoted_content(target.encode("ascii"))
+                self.assertIsNotNone(
+                    builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
+                )
+                if entry.get("adjacent_source"):
+                    companion = entry["adjacent_source"]
+                    self.assertEqual(mapping[companion], entry["adjacent_translation"])
+                    self.assertNotIn(companion, recovery)
+                    lines = [s.strip() for s in by_id[str(entry["item_id"])].splitlines()]
+                    src_idx = lines.index('"' + src + '",')
+                    self.assertEqual(lines[src_idx - 1], '"' + companion + '",')
+        # Pairing for Bolt Revolver must be complete in one same item block.
+        self.assertEqual(
+            mapping["It was modified to launch other objects than"],
+            mapping["It was modified to launch other objects"],
+        )
+        self.assertEqual(
+            mapping["the nails used to in the Einbech mine."],
+            mapping["than the nails used to in the Einbech mine."],
+        )
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(

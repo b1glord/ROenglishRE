@@ -1,0 +1,97 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1164.json",
+    "purpose": "Source occurrence, item ID, adjacent context, and independent references for six recovered strings",
+    "module": "Source Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "v1.164.0 six unique recovery mappings and one necessary adjacent source translation",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_translation_sha": "3b259ab24283b4483f7caab8edcee4c81d130d08",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38011199534/artifacts/11653875220",
+  "resolved_count": 6,
+  "adjacent_translation_count": 1,
+  "source_occurrence_count": 7,
+  "entries": [
+    {
+      "item_id": 13834,
+      "matching_item_ids": [
+        13834,
+        13835
+      ],
+      "source": "... Kiel Hyre's School Entrance Thanatos Tower Entrance The Abyss Lakes Entrance",
+      "translation": "... Kiel Hyre Akademisi Girisi, Thanatos Kulesi Girisi, Abyss Golleri Girisi",
+      "expected_occurrences": 2,
+      "previous_source_line": "\"Thor's Volcano Dungeon F2 Ice Dungeon Entrance ... Niflheim Labyrinth Juperos\",",
+      "next_source_line": "\"Rachel Temple Entrance Odin Temple Entrance.\",",
+      "reference_urls": [
+        "https://ratemyserver.net/index.php?ij%5B+%5D=23&isearch=Search&itype=-1&page=item_db&page_num=62"
+      ]
+    },
+    {
+      "item_id": 12725,
+      "source": "Marsh of Abyss and Mandragora Howling^000000.",
+      "translation": "Marsh of Abyss ve Mandragora Howling^000000.",
+      "expected_occurrences": 1,
+      "previous_source_line": "\"Guillotine Cross Poisons\",",
+      "next_source_line": "\"_______________________\",",
+      "reference_urls": [
+        "https://ragnaplace.com/en/iro/item/12725/nosiege-runestone",
+        "https://criatura-academy.com/items/12725-nosiege-runestone/"
+      ]
+    },
+    {
+      "item_id": 22614,
+      "source": "^00008830Increases experience by 50% and item drop rate by 100% for 30 minutes.^000000",
+      "translation": "^00008830 dakika boyunca kazanilan deneyim %50 ve esya dusme orani %100 artar.^000000",
+      "expected_occurrences": 1,
+      "removed_duplicate_duration": 30,
+      "previous_source_line": "\"_______________________\",",
+      "next_source_line": "\"Warning - The battle manual and gum don't add to their effect in this book.\",",
+      "reference_urls": [
+        "https://ratemyserver.net/index.php?item_id=22614&page=re_item_db"
+      ]
+    },
+    {
+      "item_id": 18190,
+      "source": "than the nails used to in the Einbech mine.",
+      "translation": "degistirilmistir.",
+      "expected_occurrences": 1,
+      "adjacent_source": "It was modified to launch other objects",
+      "adjacent_translation": "Einbech madenindeki civiler yerine farkli muhimmat atabilecek sekilde",
+      "adjacent_position": "previous",
+      "previous_source_line": "\"It was modified to launch other objects\",",
+      "next_source_line": "\"_______________________\",",
+      "reference_urls": [
+        "https://ratemyserver.net/index.php?item_type=5&page=re_item_db&page_num=28",
+        "https://wiki.gemstonero.com/equipment/muhro/einbech"
+      ]
+    },
+    {
+      "item_id": 32303,
+      "source": "It was modified to launch other objects than",
+      "translation": "Einbech madenindeki civiler yerine farkli muhimmat atabilecek sekilde",
+      "expected_occurrences": 1,
+      "previous_source_line": "identifiedDescriptionName = {",
+      "next_source_line": "\"the nails used to in the Einbech mine.\",",
+      "reference_urls": [
+        "https://db.pservero.com/item/32303/Ein_1HGUN",
+        "https://ragnarok-db.com/items/info/?item=Ein_1HGUN"
+      ]
+    },
+    {
+      "item_id": 32303,
+      "source": "the nails used to in the Einbech mine.",
+      "translation": "degistirilmistir.",
+      "expected_occurrences": 1,
+      "previous_source_line": "\"It was modified to launch other objects than\",",
+      "next_source_line": "\"_______________________\",",
+      "reference_urls": [
+        "https://db.pservero.com/item/32303/Ein_1HGUN",
+        "https://ragnarok-db.com/items/info/?item=Ein_1HGUN"
+      ]
+    }
+  ]
+}
