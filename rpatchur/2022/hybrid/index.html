@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TurkuazTR Hybrid Test</title>
+<style>
+/* File Path: /ROenglishRE/rpatchur/2022/hybrid/index.html
+   Purpose: Minimal rPatchur web UI for isolated 2022 hybrid translation tests
+   Module - View HTML
+   Version: 1.0.0
+   Description: Offline-tolerant buttons; no login, analytics or third-party scripts
+   Dependency Layer: View */
+body { margin:0; background:#101d2c; font-family:Arial,sans-serif; color:#edf4fa; }
+main { max-width:650px; margin:35px auto; padding:22px; border:1px solid #41627a; border-radius:10px; }
+h1 { margin:0 0 8px; font-size:26px; } p { line-height:1.5; color:#c0d4e2; }
+button { display:inline-block; margin:6px 5px 7px 0; padding:11px 17px; border:0; border-radius:5px; color:white; background:#1676bc; cursor:pointer; }
+button:disabled { opacity:.5; cursor:default; } button.secondary { background:#38566c; }
+#status { margin:16px 0; padding:14px; background:#20354a; border-radius:6px; min-height:25px; }
+small { color:#96b0c3; }
+</style>
+</head>
+<body>
+<main>
+<h1>TurkuazTR — Hybrid Test</h1>
+<p>2022 istemci icin. Skill adlari orijinal Ingilizce, aciklamalari Turkce. Yalnizca test istemcisinin kopyasinda kullanin.</p>
+<div id="status" role="status">Hazir. Test guncellemesini baslatabilirsiniz.</div>
+<button id="update" onclick="send('start_update')">Guncelle</button>
+<button class="secondary" onclick="send('cancel_update')">Iptal</button>
+<button class="secondary" onclick="send('manual_patch')">Elle THOR Sec</button>
+<button class="secondary" onclick="send('play')">Oyunu Ac</button>
+<button class="secondary" onclick="send('exit')">Cikis</button>
+<p><small>Bu test 2015 patchlerini, EXE veya GRF arsivlerini guncellemez. SistemEN ve data klasorlerine Hybrid ceviri uygular.</small></p>
+</main>
+<script>
+function send(command) {
+  if (window.external && window.external.invoke) window.external.invoke(command);
+  else setStatus("RPatchur icinden acilmadi.");
+}
+function setStatus(msg) { document.getElementById("status").textContent=msg; }
+function patchingStatusReady() { setStatus("Patcher hazir. Guncellemeler tamamlanmis olabilir."); }
+function patchingStatusError(msg) { setStatus("Hata: " + String(msg)); }
+function patchingStatusDownloading(done,total,speed) {
+  setStatus("Indiriliyor: " + done + "/" + total + " (" + Math.round(speed/1024) + " KB/s)");
+}
+function patchingStatusInstalling(done,total) { setStatus("Kuruluyor: " + done + "/" + total); }
+function patchingStatusPatchApplied(name) { setStatus("Elle uygulandi: " + String(name)); }
+function notificationInProgress() { setStatus("Bir guncelleme zaten suruyor."); }
+</script>
+</body>
+</html>
