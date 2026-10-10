@@ -4,7 +4,7 @@
     "purpose": "English original-context and upstream validation evidence for v1.160",
     "module": "Translation Recovery Provenance - JSON",
     "version": "1.0.0",
-    "description": "Two separated English description pairs translated together; manual client test still not verified",
+    "description": "Three new Turkish source mappings reuse two previously translated adjacent lines; no duplicate source exact keys",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
@@ -12,18 +12,19 @@
   "base_translation_sha": "fd28ce2a7248658f570778273a98fe2268671be3",
   "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38007198828",
   "resolved_count": 3,
-  "adjacent_translation_count": 2,
-  "total_translations": 5,
+  "adjacent_translation_count": 0,
+  "total_translations": 3,
   "entries": [
     {
       "item_id": 19474,
       "source": "A special energy was given to the circlet, which was",
-      "translation": "Hugin'in zaman araliklarindan gelen cevher ve degerli taslarla yaptigi taca",
+      "translation": "Taca ozel bir enerji yuklenmistir. Bu tac,",
       "adjacent_source": "made of ores and gemstones from the gaps of time by Hugin.",
-      "adjacent_translation": "ozel bir enerji yuklenmistir.",
+      "adjacent_translation": "Hugin tarafindan zaman yariklarindan cikarilan cevher ve degerli taslarla yapilmistir.",
       "reference_url": "https://divine-pride.net/database/item/19474/circlet-of-timerune-knight-1",
       "expected_contexts": 19,
-      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+      "adjacent_translation_path": "TurkuazTR/iteminfo-exact.tr.json"
     },
     {
       "item_id": 12069,
@@ -36,11 +37,13 @@
     {
       "item_id": 15397,
       "source": "There is a blessing to increase the robes worn by",
-      "translation": "Odin'in gucune tapan rahiplerin giydigi cubbede",
+      "translation": "Gucu artiran bir kutsama tasiyan cubbe, su kisilerce giyilir:",
       "adjacent_source": "priests who worshiped power in Odin's power.",
-      "adjacent_translation": "gucu artiran bir kutsama bulunur.",
+      "adjacent_translation": "Odin'in gucune tapan rahipler.",
       "expected_contexts": 1,
-      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+      "adjacent_translation_path": "TurkuazTR/config/iteminfo-exact-v1119.tr.json"
     }
-  ]
+  ],
+  "reused_existing_adjacent_count": 2
 }
