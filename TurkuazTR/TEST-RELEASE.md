@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.8.0
+Version: 1.9.0
 Aciklama: v1.114.0 sonrasinda opsiyonel client denemesi ve otomatik localization kabul kurallarini tanimlar
 Bagimli Oldugu Katman: View
 -->
@@ -126,6 +126,15 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Odin guc cubbesi item #15397: aciklamanin iki kaynak satiri birlikte cevrilir.
 - Toplam 3 **yeni** exact satir kaynak onarim listesinden cikarilir. Iki tamamlayici satir zaten onceki exact config dosyalarinda cevrilmistir; bunlara tekrar kayit eklenmez, mevcut Turkce ifadelerle uyum saglanir. Normal pending 0 kalir; kaynak onarim hedefi **80 -> 77**.
 - Sayisal etkisi eksik metinler veya bozuk renk kodlari bu pakette tahminen duzeltilmez. Gercek Ragnarok 2022 istemcisi acilis ve gorsel tooltip kabul testi: `NOT_RUN / not_verified`.
+
+
+## v1.161.0 - kaynak butunlugu triage ve korumali ceviri
+
+- Kaynak onarimi kuyrugu **77 -> 76**: iki item (23014, 23200) icin ayni `Potion Box` / `Poison Bottle Box` listesindeki miktarlar ve item adlari aynen korunarak tek kaynak satiri Turkcelestirildi.
+- CI `audit-iteminfo-recovery-context.py` dosyasinin `integrity_flags` ve `integrity_risk_counts` alanlari ile kaynak bozuk baytlarini (`invalid_source_bytes`), bos renkli yazi dizisini (`empty_color_span`), eksik yuzde degerini (`missing_percent_value`), olasi renk kodu/metin cakismasini (`suspected_color_marker_text_overlap`) ve belirtilmemis refine esigini (`missing_refine_threshold`) ayri bildirir. Bunlar **kaynak inceleme uyarilaridir**; otomatik iyilestirme veya ceviri anlamina gelmez.
+- Kaynak tarafinda bozuk rune/renk/beceri ya da eksik sayisal oyun etkisi varsa `itemInfo.lua` sessizce degistirilmez, yeni sayi/skill uydurulmaz. Bu durumlar 76 adaylik kaynak kurtarma listesinde yer almaya devam eder.
+- Yeni regresyon testi her iki item ID'sindeki exact satir kimligini, rakamlari, renk tag'lerini ve Lua guvenligini dogrular. Bilinen kaynak risklerinin belirlenme kurallarini da kilitler.
+- Gercek 2022 client uzerinde gorsel/senaryo kabul durumu halen `client_smoke_test: not_run`, `client_visual_acceptance: not_verified`.
 
 ## PR ve merge politikasi
 
