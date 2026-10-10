@@ -1,0 +1,14 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-exact-v1163.tr.json",
+    "purpose": "Translate the proven Ramen Hat Box auto-cast effect and repair split skill color prefix",
+    "module": "Translation Data - JSON",
+    "version": "1.0.0",
+    "description": "v1.163.0 preserves Level 1 Decrease AGI, fixes color marker in Turkish display only",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "translations": {
+    "Has a chance to auto-cast Level 1 ^00990Decrease AGI^000000 each time the wearer is attacked.": "Kullanici saldiriya ugradiginda Seviye 1 ^009900Decrease AGI^000000 becerisinin otomatik kullanilma sansi vardir."
+  }
+}

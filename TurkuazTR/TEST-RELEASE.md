@@ -144,6 +144,16 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Source recovery sayaci **76 -> 75**, kaynak butunlugu yuksek riskli sayac **7 -> 6** olmali. Diger alti kaynak kusuru onarilmadan ve kanitsiz deger atanilmadan kuyrukta kalir.
 - Gercek 2022 client tooltip ve acilis kabul testi halen **NOT_RUN / not_verified**.
 
+## v1.163.0 - Ramen Hat Box beceri rengi kaynak onarimi
+
+- Item ID 13725 (Ramen Hat Box) icinde `^00990Decrease AGI^000000` seklinde bozuk kaynak renk etiketi var. Ilk D harfi hex rengin parcasiymis gibi okunuyordu. Kaynak metin aynen kalir; yalniz Turkce profilde `^009900Decrease AGI^000000` gosterilir.
+- Oyun mekanigi bagimsiz item 5293 Ramen Hat aciklamasi ve `AL_DECAGI` item betigiyle dogrulandi: kullanici saldiriya ugradiginda Seviye 1 Decrease AGI otomatik etkinlesebilir. Sansa ait sayisal oran, kaynak aciklamasinda verilmedigi icin ceviriye eklenmedi.
+- Kanit: https://ratemyserver.net/index.php?item_id=5293&page=item_db ; https://www.divine-pride.net/database/item/5293/ramen-hat
+- Item 28342 Critical Anklet icin ikincil aciklamalar +7 verirken bazi item betiklerinde `.@r > 7` bulunuyor. Bolgesel istemci/betik eslesmesi netlesmeden rafine seviyesi **onarilmadi**.
+- Item 590003 icin bos renkli bolumun hangi yetenegi ifade ettigi kesinlestirilmediginden silinmedi. Bozuk kaynak baytlarini iceren 3 aday da aynen korundu.
+- Kaynak onarim kuyrugu **75 -> 74**, yuksek riskli kaynak adaylari **6 -> 5** beklenir. Normal pending 0 kalir.
+- Orijinal `Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua` degistirilmez. Gercek 2022 istemcide acilis ve gorsel kabul testi NOT_RUN / not_verified.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.

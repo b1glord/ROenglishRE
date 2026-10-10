@@ -1,0 +1,39 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1163.json",
+    "purpose": "Identify item and source context and verify Ramen Hat Box skill effect against Ramen Hat",
+    "module": "Source Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "v1.163.0 one damaged color marker without invented chance or magic number",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_translation_sha": "96c3a2117ef2908159822254a9c98b84c73d8b02",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38010170070/artifacts/11652983047",
+  "resolved_count": 1,
+  "expected_source_occurrences": 1,
+  "entries": [
+    {
+      "item_id": 13725,
+      "item_name": "Ramen Hat Box",
+      "related_equipment_item_id": 5293,
+      "source": "Has a chance to auto-cast Level 1 ^00990Decrease AGI^000000 each time the wearer is attacked.",
+      "translation": "Kullanici saldiriya ugradiginda Seviye 1 ^009900Decrease AGI^000000 becerisinin otomatik kullanilma sansi vardir.",
+      "source_integrity_flag": "suspected_color_marker_text_overlap",
+      "malformed_color_prefix": "^00990D",
+      "repaired_color_prefix": "^009900",
+      "source_skill": "Decrease AGI",
+      "verified_skill_level": 1,
+      "previous_source_line": "\"DEX +4.\",",
+      "next_source_line": "\"_______________________\",",
+      "external_evidence": [
+        "https://ratemyserver.net/index.php?item_id=5293&page=item_db",
+        "https://www.divine-pride.net/database/item/5293/ramen-hat",
+        "https://ratemyserver.net/index.php?iname=ramen+hat&isearch=Search&page=item_db&quick=1"
+      ],
+      "source_recovery_note": "Source mistakenly uses D as sixth hexadecimal digit of color, consuming first character of Decrease; only Turkish output color repair is applied. No chance percent added.",
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    }
+  ]
+}
