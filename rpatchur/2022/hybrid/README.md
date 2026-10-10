@@ -3,8 +3,8 @@
 File Path: /ROenglishRE/rpatchur/2022/hybrid/README.md
 Purpose: Explain isolated patch testing over HTTPS via GitHub Releases
 Module: Documentation - Markdown
-Version: 1.0.0
-Description: Keep legacy 2015 patches, game executable and GRF files untouched
+Version: 1.0.1
+Description: Explain corrected HTML hosting for Windows WebView and native Ragnarok.exe launcher
 Dependency Layer: View
 
 Bu kanal **testtir**, canli oyuncularin eski 2015 patch listesiyle birlestirilmez.
@@ -28,3 +28,11 @@ RPatchur kaynagi: https://github.com/L1nkZ/rpatchur
 RPatchur binary: official v0.3.0 Windows i686 release; yapimciya ait executable'i degistirmeyiz.
 
 Bilinen sinirlar: RPatchur launcher exe self-update yapamaz. Windows ve oyunun acilmasi test edilmedi. Kodlama ve tooltipler gercek 2022 istemcide dogrulanmalidir.
+
+## Windows WebView HTML goruntuleme duzeltmesi (v1.167.1)
+
+Eski launcher `cdn.jsdelivr.net/gh/.../index.html` uzerinden HTML'i `text/plain` gibi gosterdigi icin tarayici kaynak kodunu ekrana basabilir. Yeni test launcher `rawcdn.githack.com/<owner>/<repo>/<commit>/rpatchur/2022/hybrid/index.html` adresini kullanir ve CI sunucunun `Content-Type: text/html` cevabini dogrular. Bu, ucuncu taraf bir test CDN'idir; daha kalici cozum ilk taraf GitHub Pages ya da HTTPS statik host olacaktir.
+
+**Eski ZIP'i indirdiyseniz:** yalnız `TurkuazHybridTest.yml` dosyasinda `web.index_url` satirini yeni SHA-pinned rawcdn.githack.com adresiyle degistirmek yeterlidir. `TurkuazHybridTest.exe` dosyasini yeniden kurmak veya oyunu degistirmek gerekmez.
+
+Windows 2022 ornek klasorde `Ragnarok.exe` goruldugu icin yeni default `play.path` bu isme donusturuldu. Istemcinin gercek baslaticisi farkliysa once `play.path` kontrol edilmelidir.
