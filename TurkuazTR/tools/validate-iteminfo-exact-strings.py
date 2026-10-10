@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.11.0
+# Version: 1.12.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -306,9 +306,10 @@ class ExactLuaStringTests(unittest.TestCase):
         parts = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", raw)
         by_id = dict(zip(parts[1::2], parts[2::2]))
         self.assertEqual(evidence["resolved_count"], 3)
-        self.assertEqual(evidence["adjacent_translation_count"], 2)
-        self.assertEqual(evidence["total_translations"], 5)
-        self.assertEqual(len(shard), 5)
+        self.assertEqual(evidence["adjacent_translation_count"], 0)
+        self.assertEqual(evidence["reused_existing_adjacent_count"], 2)
+        self.assertEqual(evidence["total_translations"], 3)
+        self.assertEqual(len(shard), 3)
         keys = set()
         for entry in evidence["entries"]:
             with self.subTest(item_id=entry["item_id"]):
@@ -319,8 +320,10 @@ class ExactLuaStringTests(unittest.TestCase):
                 keys.add(entry["source"])
                 if "adjacent_source" in entry:
                     neighbor = entry["adjacent_source"]
-                    self.assertEqual(shard[neighbor], entry["adjacent_translation"])
-                    keys.add(neighbor)
+                    self.assertNotIn(neighbor, shard)
+                    prior_path = REPO_ROOT / entry["adjacent_translation_path"]
+                    prior_mapping = json.loads(prior_path.read_text(encoding="utf-8"))["translations"]
+                    self.assertEqual(prior_mapping[neighbor], entry["adjacent_translation"])
                     # Every use of the opening fragment must be followed by
                     # its proven continuation in the SAME item, not another item.
                     pair_count = 0
@@ -336,7 +339,7 @@ class ExactLuaStringTests(unittest.TestCase):
                 for key in (entry["source"], entry.get("adjacent_source")):
                     if key is None:
                         continue
-                    target = shard[key]
+                    target = shard[key] if key in shard else entry["adjacent_translation"]
                     self.assertEqual(
                         Counter(re.findall(r"\d+(?:\.\d+)?", key)),
                         Counter(re.findall(r"\d+(?:\.\d+)?", target)),
