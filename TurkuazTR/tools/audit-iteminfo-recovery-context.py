@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-recovery-context.py
 # 📌 Amac: Kurtarilamayan itemInfo kaynaklarini kimlik ve risk sinifina gore denetler
 # 📌 Modul - Tool Python
-# Version: 1.8.0
-# Aciklama: v1.164.0 alti kanitli onarim ve bitisik satir muhasebesi
+# Version: 1.9.0
+# Aciklama: v1.165.0 ham bayt ve Lua kacis dizisi kanitli envanter onarimi
 # Bagimli Oldugu Katman: Tool
 from __future__ import annotations
 
@@ -69,7 +69,7 @@ def main() -> int:
         # check without source-specific proof of exactly that delta.
         delta = pending["source_recovery_candidate_count"] - len(recovery)
         proven = False
-        for version in ("1164", "1163", "1162", "1161", "1160", "1158", "1157"):
+        for version in ("1165", "1164", "1163", "1162", "1161", "1160", "1158", "1157"):
             evidence_path = ROOT / f"TurkuazTR/config/iteminfo-recovery-evidence-v{version}.json"
             shard_path = ROOT / f"TurkuazTR/config/iteminfo-exact-v{version}.tr.json"
             if not evidence_path.exists() or not shard_path.exists():
@@ -77,6 +77,10 @@ def main() -> int:
             evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
             shard = json.loads(shard_path.read_text(encoding="utf-8"))["translations"]
             resolved = {entry["source"] for entry in evidence["entries"]}
+            mapped_sources = {
+                entry.get("literal_source", entry["source"])
+                for entry in evidence["entries"]
+            }
             companions = {
                 entry["adjacent_source"]
                 for entry in evidence["entries"]
@@ -86,7 +90,7 @@ def main() -> int:
                 delta > 0
                 and len(resolved) == delta
                 and len(resolved) == evidence["resolved_count"]
-                and resolved.union(companions) == set(shard)
+                and mapped_sources.union(companions) == set(shard)
                 and not resolved.intersection(recovery)
                 and (version != "1160" or len(companions) == evidence["adjacent_translation_count"])
             ):

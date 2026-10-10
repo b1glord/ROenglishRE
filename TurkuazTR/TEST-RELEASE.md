@@ -165,6 +165,15 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Normal pending: 0. Kaynak kurtarma: **74 -> 68**. Source-integrity risk: **5** (1 bos renkli metin, 1 eksik refine esigi, 3 bozuk bayt). Bu kayitlara dogrulanmamis sayi/skill atanmadi.
 - Dort profilin CI ZIP paketleri gercek 2022 client testinin yerine gecmez. Client smoke test NOT_RUN, gorsel kabul not_verified.
 
+## v1.165.0 - surrogateescape ham bayt kaynak onarimi
+
+- Source `itemInfo.lua` dosyasinin ham baytlari SHA-1 Git blob sozlesmesiyle aynen korunur. `0x81` ve `0x81 0xB7` onekleri Unicode tahminiyle silinmez veya CP949 metnine donusturulmez.
+- Uc gorunur aciklama sadece Turkce profilde ASCII sinirli exact byte map ile onarilir: ID 7686/7688 icin Nekorin NPC koordinatlari (64 183) ve Polin Group; ID 7688/7856 icin Guillotine Cross; ID 7686/7687 icin Rune Knight.
+- Lua icindeki `\\\"Nekorin\\\"` kacis dizisi birebir korunarak anahtar olusturulur; ceviri hedefindeki `"Nekorin"` karakterleri builder tarafinda guvenli kacirilir. Ham source anahtari surrogateescape ile ASCII disi baytlarini kayipsiz temsil eder.
+- Regresyon testleri byte-donusum round-trip, Lua string siniri, item ID, komsu satirlar, rakamlar, isimler, source SHA ve original English profili denetler.
+- Source recovery **68 -> 65**, integrity-risk **5 -> 2** olmasi beklenir. 590003 bos renkli metin ve 28342 Bloody Muffler refinman seviyesindeki kaynak/betik uyusmazligi cozulmedi: oyun kurali uydurulmez.
+- Gercek 2022 istemci smoke/tooltip kabul testi NOT_RUN / not_verified.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.

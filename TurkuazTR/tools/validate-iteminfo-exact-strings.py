@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.16.0
-# Aciklama: v1.164 Kaynak ve komsu satir dogrulama, ozel sayisal test
+# Version: 1.17.0
+# Aciklama: v1.165 Ham kaynak baytlari, Lua kacisi ve uc menu metni regresyon testi
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -92,9 +92,16 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
+        v1165 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1165.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
         resolved_later = {
             entry["source"]
-            for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162, *v1163, *v1164]
+            for entry in [
+                *v1155, *v1157, *v1158, *v1160, *v1161, *v1162, *v1163, *v1164, *v1165
+            ]
         }
         statuses = {
             "translated": 0,
@@ -665,6 +672,105 @@ class ExactLuaStringTests(unittest.TestCase):
             mapping["the nails used to in the Einbech mine."],
             mapping["than the nails used to in the Einbech mine."],
         )
+
+    def test_v1165_corrupted_source_bytes_translate_without_mutating_english(self) -> None:
+        import hashlib
+        from collections import Counter
+
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1165.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        mapping = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1165.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        pending = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.pending.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        quarantine = set(json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"])
+        file_bytes = (REPO_ROOT / evidence["source_path"]).read_bytes()
+        source_sha = hashlib.sha1(
+            b"blob " + str(len(file_bytes)).encode("ascii") + b"\0" + file_bytes
+        ).hexdigest()
+        self.assertEqual(source_sha, evidence["upstream_source_blob_sha"])
+        raw = file_bytes.decode("utf-8", errors="surrogateescape")
+        chunks = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", raw)
+        by_id = dict(zip(chunks[1::2], chunks[2::2]))
+        self.assertEqual(evidence["resolved_count"], len(evidence["entries"]))
+        self.assertEqual(evidence["source_occurrence_count"], 6)
+        self.assertEqual(len(quarantine), 65)
+        self.assertEqual(len(mapping), 3)
+        self.assertEqual(set(mapping), {
+            e.get("literal_source", e["source"]) for e in evidence["entries"]
+        })
+        self.assertIn(pending["source_recovery_candidate_count"], (65, 68))
+        self.assertEqual(pending["candidate_count"], 0)
+
+        for entry in evidence["entries"]:
+            with self.subTest(item=entry["item_id"]):
+                original, literal, target = (
+                    entry["source"], entry.get("literal_source", entry["source"]),
+                    entry["translation"]
+                )
+                self.assertNotIn(original, quarantine)
+                self.assertEqual(mapping[literal], target)
+                self.assertIn(chr(0xDC81), original)
+                self.assertTrue(entry["matching_item_ids"])
+                self.assertEqual(raw.count('"' + literal + '",'), entry["expected_occurrences"])
+                encoded = literal.encode("ascii", errors="surrogateescape")
+                self.assertIn(b"\x81", encoded)
+                self.assertEqual(encoded.decode("ascii", errors="surrogateescape"), literal)
+                for item in entry["matching_item_ids"]:
+                    self.assertIn(str(item), by_id)
+                    lines = [l.strip() for l in by_id[str(item)].splitlines()]
+                    needle = '"' + literal + '",'
+                    self.assertEqual(lines.count(needle), 1)
+                    n = lines.index(needle)
+                    self.assertEqual(lines[n - 1], entry["previous_source_line"])
+                    self.assertEqual(lines[n + 1], entry["next_source_line"])
+                source_numbers = Counter(re.findall(r"\d+", original))
+                target_numbers = Counter(re.findall(r"\d+", target))
+                self.assertEqual(source_numbers, target_numbers)
+                if entry["item_id"] == 7686 and "Nekorin" in original:
+                    for name in ("Nekorin", "Polin Group"):
+                        self.assertIn(name, target)
+                    self.assertIn(r"\"Nekorin\"", literal)
+                else:
+                    self.assertIn("Guillotine Cross" if entry["item_id"] == 7688 else "Rune Knight", target)
+                target.encode("ascii")
+                mapped = builder.prepare_exact_translations({"translations": {literal: target}})
+                self.assertEqual(set(mapped), {encoded})
+                raw_line = ('"' + literal + '",').encode(
+                    "ascii", errors="surrogateescape"
+                )
+                expected_target = ('"' + target + '",')
+                expected_target_bytes = b'"' + builder.escape_lua_quoted_content(
+                    target.encode("ascii")
+                ) + b'",'
+                counts = {}
+                self.assertEqual(
+                    builder.apply_exact_translations(raw_line, mapped, counts),
+                    expected_target_bytes
+                )
+                self.assertEqual(counts["exact_translation"], 1)
+
+        # Reject invented arbitrary Unicode, and do not alter source bytes in English mode.
+        with self.assertRaises(UnicodeEncodeError):
+            builder.prepare_exact_translations({
+                "translations": {"yanlis Türkce": "Test"}
+            })
+        english_bytes, summary = builder.build("english")
+        self.assertEqual(summary["mode"], "original")
+        self.assertEqual(english_bytes, file_bytes)
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(
