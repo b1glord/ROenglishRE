@@ -1,0 +1,34 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1162.json",
+    "purpose": "Record exact source provenance and independent proof for formerly missing item-effect percentage",
+    "module": "Source Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "v1.162.0 resolves one numerical source defect without asserting that English original has been repaired",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_translation_sha": "813a1a8aff8f32065c66bb5d74657eda0d8572e6",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38009499431/artifacts/11652247650",
+  "resolved_count": 1,
+  "expected_source_occurrences": 1,
+  "entries": [
+    {
+      "item_id": 400338,
+      "item_name": "Herosria Mage Hat",
+      "source": "Increases Damage taken from ^FF0000Players^000000 by%.",
+      "translation": "^FF0000Oyunculardan^000000 alinan hasar %5 artar.",
+      "source_integrity_flag": "missing_percent_value",
+      "verified_missing_percent": 5,
+      "verified_effect": "damage taken from Players",
+      "previous_source_line": "\"Increases Magical Damage against ^FF0000Players^000000 by 10%.\",",
+      "next_source_line": "\"_______________________\",",
+      "reference_urls": [
+        "https://www.divine-pride.net/database/item/400338",
+        "https://ratemyserver.net/index.php?ird=1&item_id=400338&page=re_item_db"
+      ],
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    }
+  ]
+}

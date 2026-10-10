@@ -136,6 +136,14 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Yeni regresyon testi her iki item ID'sindeki exact satir kimligini, rakamlari, renk tag'lerini ve Lua guvenligini dogrular. Bilinen kaynak risklerinin belirlenme kurallarini da kilitler.
 - Gercek 2022 client uzerinde gorsel/senaryo kabul durumu halen `client_smoke_test: not_run`, `client_visual_acceptance: not_verified`.
 
+## v1.162.0 - Herosria Mage Hat kaynak kanitli yuzde onarimi
+
+- Item #400338 (Herosria Mage Hat) icin kaynakta eksik olan alinmis oyuncu hasari yuzdesi, Korece esya aciklamasi ve bagimsiz esya betigi aciklamasiyla **%5** olarak dogrulandi. Bu bir tahmin degil; yalniz dogrulanmis etkide yapilan Turkce exact ceviridir.
+- Ingilizce `itemInfo.lua` degistirilmez. Eski bozuk `by%.` kaynak satiri, profile ait exact mapping ile `%5` olarak gosterilir. Renk etiketleri `^FF0000` ve `^000000` korunur.
+- Kanit: https://www.divine-pride.net/database/item/400338 ; https://ratemyserver.net/index.php?ird=1&item_id=400338&page=re_item_db
+- Source recovery sayaci **76 -> 75**, kaynak butunlugu yuksek riskli sayac **7 -> 6** olmali. Diger alti kaynak kusuru onarilmadan ve kanitsiz deger atanilmadan kuyrukta kalir.
+- Gercek 2022 client tooltip ve acilis kabul testi halen **NOT_RUN / not_verified**.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.
