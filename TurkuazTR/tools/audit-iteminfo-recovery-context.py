@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Purpose: source-backed, non-mutating provenance report for unresolved itemInfo descriptions
-# Version: 1.3.0
+# Version: 1.4.0
 from __future__ import annotations
 
 import argparse
@@ -59,7 +59,7 @@ def main() -> int:
             companions = {
                 entry["adjacent_source"]
                 for entry in evidence["entries"]
-                if entry.get("adjacent_source")
+                if entry.get("adjacent_source") and not entry.get("adjacent_translation_path")
             }
             if (
                 delta > 0
