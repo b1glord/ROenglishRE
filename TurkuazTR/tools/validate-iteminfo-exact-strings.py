@@ -464,9 +464,11 @@ class ExactLuaStringTests(unittest.TestCase):
         self.assertNotIn(entry["source"], quarantine)
         self.assertIn("by%.", entry["source"])
         self.assertIn("%" + str(entry["verified_missing_percent"]), entry["translation"])
-        self.assertEqual(re.findall(r"\d+(?:\.\d+)?", entry["source"]), [])
+        without_color_source = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["source"])
+        without_color_translation = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["translation"])
+        self.assertEqual(re.findall(r"\d+(?:\.\d+)?", without_color_source), [])
         self.assertEqual(
-            re.findall(r"\d+(?:\.\d+)?", entry["translation"]),
+            re.findall(r"\d+(?:\.\d+)?", without_color_translation),
             [str(entry["verified_missing_percent"])],
         )
         self.assertEqual(
