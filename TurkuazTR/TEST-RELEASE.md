@@ -174,6 +174,16 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Source recovery **68 -> 65**, integrity-risk **5 -> 2** olmasi beklenir. 590003 bos renkli metin ve 28342 Bloody Muffler refinman seviyesindeki kaynak/betik uyusmazligi cozulmedi: oyun kurali uydurulmez.
 - Gercek 2022 istemci smoke/tooltip kabul testi NOT_RUN / not_verified.
 
+## v1.166.0 - 2025 eski ceviri arsivi ile kaynak karsilastirmasi
+
+- 2025 `archive/tr-2025-10-25` dali ile guncel `translation/tr` itemInfo gorunur alanlari ayni item ID ve field uzerinden karsilastirildi.
+- **26.647** ortak item ID, **100.149** eslesik gorunur alan ve **6.438** degismis gorunur alan mevcut. Eski-versiyon metninde farkli olup Turkce karakter iceren alan sayisi **0**. Bu sayi ASCII ile yazilmis Turkceyi tek basina kapsamaz.
+- Acik kaynak onarimi kuyrugundaki **65** bagimsiz metnin tamami guncel itemInfo icinde bulundu. Eski arsivde **110** ayni/kaynak gibi Ingilizce metin gorunumu vardir; **1** gorunum, item ID 450252 arsivde olmadigi icin kiyaslanamaz.
+- Kalan **65** metinden eski arsivde dogrudan kullanilabilecek kanitli Turkce satir sayisi **0**. Dikkatsiz toplu eski metin kopyalamak, yenilenen Ingilizce kaynak ve sayisal etkileri geriye goturebilir.
+- CI `iteminfo-legacy-recovery-comparison` artefakti baglam, komsu satir, item ID, eksik eski item, sayisal ve renk tag uyumlulugunu kalici raporlar. Bu rapor bir ceviri onayi degildir.
+- Kaynak onarim sayaci **65** olarak kalir; otomatik ceviri veya eski kaynak metne geri donus yapilmaz. Eksik kaynak oyun mekanigi, renk, ve refine degerleri yalniz guvenilir bagimsiz kanitla onarilir.
+- Gercek Ragnarok 2022 istemcisinde full TR veya Hybrid gorsel kabul: `NOT_RUN / not_verified`.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.
