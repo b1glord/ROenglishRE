@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.14.0
-# Aciklama: v1.162 Harici kanitli eksik yuzde onarimi ve regresyon testleri
+# Version: 1.15.0
+# Aciklama: v1.163 Ramen Hat Box kaynak kanitli beceri ve renk testi
 # Bagimli Oldugu Katman: Tool
 
 from __future__ import annotations
@@ -82,7 +82,15 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162]}
+        v1163 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1163.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {
+            entry["source"]
+            for entry in [*v1155, *v1157, *v1158, *v1160, *v1161, *v1162, *v1163]
+        }
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -494,6 +502,73 @@ class ExactLuaStringTests(unittest.TestCase):
         self.assertIsNotNone(
             builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
         )
+
+    def test_v1163_ramen_hat_box_color_and_skill_provenance(self) -> None:
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1163.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        mapping = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1163.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        entry = evidence["entries"][0]
+        self.assertEqual(evidence["resolved_count"], len(evidence["entries"]))
+        self.assertEqual(evidence["expected_source_occurrences"], 1)
+        self.assertEqual(entry["item_id"], 13725)
+        self.assertEqual(entry["related_equipment_item_id"], 5293)
+        self.assertEqual(entry["source_skill"], "Decrease AGI")
+        self.assertEqual(entry["verified_skill_level"], 1)
+        self.assertEqual(entry["source_integrity_flag"], "suspected_color_marker_text_overlap")
+        self.assertEqual(len(entry["external_evidence"]), 3)
+        self.assertEqual(set(mapping), {entry["source"]})
+        self.assertEqual(mapping[entry["source"]], entry["translation"])
+        self.assertNotIn(entry["source"], recovery)
+        self.assertIn(entry["malformed_color_prefix"] + "ecrease AGI", entry["source"])
+        self.assertIn(entry["repaired_color_prefix"] + entry["source_skill"], entry["translation"])
+        self.assertEqual(
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["source"]),
+            [entry["malformed_color_prefix"], "^000000"],
+        )
+        self.assertEqual(
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["translation"]),
+            [entry["repaired_color_prefix"], "^000000"],
+        )
+        without_color_before = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["source"])
+        without_color_after = re.sub(r"\^[0-9a-fA-F]{6}", "", entry["translation"])
+        self.assertEqual(re.findall(r"\d+(?:\.\d+)?", without_color_before), ["1"])
+        self.assertEqual(re.findall(r"\d+(?:\.\d+)?", without_color_after), ["1"])
+        self.assertNotIn("%", entry["translation"])
+        raw = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        parts = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", raw)
+        by_id = dict(zip(parts[1::2], parts[2::2]))
+        item_lines = [line.strip() for line in by_id[str(entry["item_id"])].splitlines()]
+        needle = '"' + entry["source"] + '",'
+        self.assertEqual(item_lines.count(needle), 1)
+        i = item_lines.index(needle)
+        self.assertEqual(item_lines[i - 1], entry["previous_source_line"])
+        self.assertEqual(item_lines[i + 1], entry["next_source_line"])
+        self.assertEqual(raw.count(needle), evidence["expected_source_occurrences"])
+        self.assertEqual(evidence["upstream_source_blob_sha"], entry["upstream_source_blob_sha"])
+        escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
+        self.assertIsNotNone(
+            builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
+        )
+        translated = builder.apply_exact_translations(
+            needle.encode("ascii"),
+            builder.prepare_exact_translations({"translations": mapping}),
+            {},
+        )
+        self.assertEqual(translated, ('"' + entry["translation"] + '",').encode("ascii"))
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(

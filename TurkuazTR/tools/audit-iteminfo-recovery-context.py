@@ -2,8 +2,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/audit-iteminfo-recovery-context.py
 # 📌 Amac: Kurtarilamayan itemInfo kaynaklarini kimlik ve risk sinifina gore denetler
 # 📌 Modul - Tool Python
-# Version: 1.6.0
-# Aciklama: Kaynak kanitli v1.162.0 yuzde onarim muhasebesi ve risk raporu
+# Version: 1.7.0
+# Aciklama: v1.163.0 source-backed skill color onarimi icin kanit sayaci
 # Bagimli Oldugu Katman: Tool
 from __future__ import annotations
 
@@ -69,7 +69,7 @@ def main() -> int:
         # check without source-specific proof of exactly that delta.
         delta = pending["source_recovery_candidate_count"] - len(recovery)
         proven = False
-        for version in ("1162", "1161", "1160", "1158", "1157"):
+        for version in ("1163", "1162", "1161", "1160", "1158", "1157"):
             evidence_path = ROOT / f"TurkuazTR/config/iteminfo-recovery-evidence-v{version}.json"
             shard_path = ROOT / f"TurkuazTR/config/iteminfo-exact-v{version}.tr.json"
             if not evidence_path.exists() or not shard_path.exists():
