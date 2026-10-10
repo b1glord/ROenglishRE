@@ -2,7 +2,7 @@
 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/TEST-RELEASE.md
 📌 Amac: Turkce localization test surumu kabul kriterlerini, bilinen aciklari ve client smoke-test planini tanimlar
 📌 Docs - Markdown
-Version: 1.5.0
+Version: 1.6.0
 Aciklama: v1.114.0 sonrasinda opsiyonel client denemesi ve otomatik localization kabul kurallarini tanimlar
 Bagimli Oldugu Katman: View
 -->
@@ -107,6 +107,16 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Skill penceresi, quest/NAVI penceresi, pet diyalogu ve kitap sayfalarinda UTF-8, renk etiketleri, `<NAVI>`/`<INFO>` kodlari, metin tasmasi ve Lua yukleme hatalarina bak.
 - Test kaydinda tarih, client PACKETVER, profil, yukleme dizini, item ID, beklenen/gorulen metin, ekran goruntusu, sonuc (PASS/FAIL/NOT_RUN) ve varsa hata logu bulunsun. FAIL varsa kod kaydi ac; otomatik CI PASS tek basina gercek oyun ici kabul degildir.
 - Geri alma: temiz client kopyasina don veya `SystemEN` ve `data` yedegini geri yukle. Oyun ici test yoksa `client_smoke_test: not_run` ve `client_visual_acceptance: not_verified`.
+
+
+## v1.159.0 - otomatik guncel test paketi provenansi
+
+- Onceki `2026.10.08-test.4` tarihsel checkpoint'tir. Yeni TurkuazTR ceviri testleri icin guncel artifact'leri kullan.
+- `turkuaz-skill-translation.yml` ceviri profillerini yeniler, degisiklik varsa `translation/tr` dalina commit'ler, sonra **ayni run icinde** dort istemci test paketini hazirlar. GitHub `GITHUB_TOKEN` bot commit'i tek basina yeni `push` paket is akisinin calismasini tetiklemedigi icin bunu ayri bot-push workflow'una birakmiyoruz.
+- Paketler `english`, `hybrid`, `full_tr`, `bilingual` profilleri icin ayri ZIP + SHA-256 sidecar + JSON raporuyla artifact olarak yuklenir. Surum etiketi `test-<guncel_commit_ilk_12>` ve `source_commit` degeri generated profillerin son commit'ine ait olmalidir.
+- CI dort paket icin `.sha256` checksum, ZIP bozulma kontrolu, gerekli client dosyalarini, `smoke_test: pass` ve birebir kaynak commit eslesmesini dogrular. Eksik dosya veya eski SHA hata kabul edilir.
+- Manuel `turkuaz-test-release.yml` baslatilirken version alani bos birakilirsa `test-<github_sha12>` kullanilir; tarihsel test.4 etiketi otomatik yeniden uretilmez.
+- ZIP'in PASS olmasi oyunda acilis, karakter secimi veya tooltip'in gorsel ve anlamsal kabul testini **kanitlamaz**. Client kabul alani test gercekten yapilana dek `NOT_RUN` / `not_verified` kalir.
 
 ## PR ve merge politikasi
 
