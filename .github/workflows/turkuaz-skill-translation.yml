@@ -1,8 +1,8 @@
 # 📄 Dosya Yolu: /ROenglishRE/.github/workflows/turkuaz-skill-translation.yml
 # 📌 Amac: Tum localization profillerini uretir, pending sayfalarini denetler ve ana dala kaydeder
 # 📌 Modul - Tool YAML
-# Version: 2.8.0
-# Aciklama: ItemInfo kaynak envanterini tam sayfali, kayipsiz ve deterministik bicimde yeniler
+# Version: 2.9.0
+# Aciklama: Generated profillerden dogrudan SHA'ya bagli 4 client test paketi de uretir
 # Bagimli Oldugu Katman: Tool
 
 name: Turkuaz Skill Translation
@@ -205,3 +205,87 @@ jobs:
           git commit -m "chore: refresh generated localization profiles"
           git pull --rebase origin translation/tr
           git push origin HEAD:translation/tr
+
+      - name: Produce current-head client test packages
+        id: current_packages
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_SHA="$(git rev-parse HEAD)"
+          SHORT_SHA="$(git rev-parse --short=12 HEAD)"
+          VERSION="test-$SHORT_SHA"
+          echo "source_sha=$SOURCE_SHA" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          mkdir -p dist
+          for profile in english hybrid full_tr bilingual; do
+            python3 TurkuazTR/tools/build-test-package.py \
+              --profile "$profile" \
+              --version "$VERSION" \
+              --commit "$SOURCE_SHA" \
+              --output-dir dist
+            (cd dist && sha256sum -c "TurkuazTR-$profile-$VERSION.sha256")
+          done
+          python3 - "$SOURCE_SHA" "$VERSION" <<'PY'
+          import json
+          import sys
+          import zipfile
+          from pathlib import Path
+
+          source_sha, version = sys.argv[1:]
+          for profile in ("english", "hybrid", "full_tr", "bilingual"):
+              path = Path("dist") / f"TurkuazTR-{profile}-{version}"
+              meta = json.loads(path.with_suffix(".json").read_text(encoding="ascii"))
+              assert meta["profile"] == profile, f"Wrong profile: {profile}"
+              assert meta["source_commit"] == source_sha, f"Stale source commit: {profile}"
+              assert meta["release_version"] == version, f"Stale version: {profile}"
+              assert meta["smoke_test"] == "pass", f"Smoke test did not pass: {profile}"
+              with zipfile.ZipFile(path.with_suffix(".zip")) as archive:
+                  assert archive.testzip() is None, f"ZIP damaged: {profile}"
+                  assert set(meta["required_files"]).issubset(archive.namelist())
+          print(f"All four current-head packages validated: {source_sha}")
+          PY
+
+
+      - name: Upload english current-head client test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TurkuazTR-english-${{ steps.current_packages.outputs.version }}
+          path: |
+            dist/TurkuazTR-english-${{ steps.current_packages.outputs.version }}.zip
+            dist/TurkuazTR-english-${{ steps.current_packages.outputs.version }}.sha256
+            dist/TurkuazTR-english-${{ steps.current_packages.outputs.version }}.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload hybrid current-head client test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TurkuazTR-hybrid-${{ steps.current_packages.outputs.version }}
+          path: |
+            dist/TurkuazTR-hybrid-${{ steps.current_packages.outputs.version }}.zip
+            dist/TurkuazTR-hybrid-${{ steps.current_packages.outputs.version }}.sha256
+            dist/TurkuazTR-hybrid-${{ steps.current_packages.outputs.version }}.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload full_tr current-head client test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TurkuazTR-full_tr-${{ steps.current_packages.outputs.version }}
+          path: |
+            dist/TurkuazTR-full_tr-${{ steps.current_packages.outputs.version }}.zip
+            dist/TurkuazTR-full_tr-${{ steps.current_packages.outputs.version }}.sha256
+            dist/TurkuazTR-full_tr-${{ steps.current_packages.outputs.version }}.json
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload bilingual current-head client test package
+        uses: actions/upload-artifact@v4
+        with:
+          name: TurkuazTR-bilingual-${{ steps.current_packages.outputs.version }}
+          path: |
+            dist/TurkuazTR-bilingual-${{ steps.current_packages.outputs.version }}.zip
+            dist/TurkuazTR-bilingual-${{ steps.current_packages.outputs.version }}.sha256
+            dist/TurkuazTR-bilingual-${{ steps.current_packages.outputs.version }}.json
+          if-no-files-found: error
+          retention-days: 14
