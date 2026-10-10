@@ -2,7 +2,7 @@
 # 📄 Dosya Yolu: /ROenglishRE/TurkuazTR/tools/validate-iteminfo-exact-strings.py
 # 📌 Amac: itemInfo exact cevirilerinde Lua string kacisini ve shard guvenligini dogrular
 # 📌 Modul - Tool Python
-# Version: 1.12.0
+# Version: 1.13.0
 # Aciklama: v1.129 exact esya, buyulu saldiri ve yeni kural testleri
 # Bagimli Oldugu Katman: Tool
 
@@ -72,7 +72,12 @@ class ExactLuaStringTests(unittest.TestCase):
                 encoding="utf-8"
             )
         )["entries"]
-        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160]}
+        v1161 = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1161.json").read_text(
+                encoding="utf-8"
+            )
+        )["entries"]
+        resolved_later = {entry["source"] for entry in [*v1155, *v1157, *v1158, *v1160, *v1161]}
         statuses = {
             "translated": 0,
             "canonical_proper_name": 0,
@@ -354,6 +359,76 @@ class ExactLuaStringTests(unittest.TestCase):
                         builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
                     )
         self.assertEqual(keys, set(shard))
+
+    def test_v1161_integrity_triage_and_safe_box_list(self) -> None:
+        from collections import Counter
+
+        path = REPO_ROOT / "TurkuazTR/tools/audit-iteminfo-recovery-context.py"
+        triage_spec = importlib.util.spec_from_file_location("iteminfo_source_integrity", path)
+        self.assertIsNotNone(triage_spec)
+        self.assertIsNotNone(triage_spec.loader)
+        triage = importlib.util.module_from_spec(triage_spec)
+        triage_spec.loader.exec_module(triage)
+
+        fixtures = {
+            "bad" + chr(0xdc81) + " byte": "invalid_source_bytes",
+            "Decreases by ^009900^000000 0.5 seconds": "empty_color_span",
+            "Increases Damage taken by%.": "missing_percent_value",
+            "Level 1 ^00990Decrease AGI^000000": "suspected_color_marker_text_overlap",
+            "^0000FF+ or higher^000000": "missing_refine_threshold",
+        }
+        for raw, expected in fixtures.items():
+            with self.subTest(flag=expected):
+                self.assertIn(expected, triage.source_integrity_flags(raw))
+        evidence = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-recovery-evidence-v1161.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        shard = json.loads(
+            (REPO_ROOT / "TurkuazTR/config/iteminfo-exact-v1161.tr.json").read_text(
+                encoding="utf-8"
+            )
+        )["translations"]
+        recovery = json.loads(
+            (REPO_ROOT / "TurkuazTR/iteminfo-lore.source-recovery.json").read_text(
+                encoding="utf-8"
+            )
+        )["candidates"]
+        self.assertEqual(evidence["resolved_count"], 1)
+        self.assertEqual(evidence["expected_source_occurrences"], 2)
+        self.assertEqual(len(shard), 1)
+        entry = evidence["entries"][0]
+        self.assertEqual(set(shard), {entry["source"]})
+        self.assertEqual(shard[entry["source"]], entry["translation"])
+        self.assertNotIn(entry["source"], recovery)
+        self.assertEqual(triage.source_integrity_flags(entry["source"]), [])
+        entry["translation"].encode("ascii")
+        self.assertEqual(
+            Counter(re.findall(r"\d+(?:\.\d+)?", entry["source"])),
+            Counter(re.findall(r"\d+(?:\.\d+)?", entry["translation"])),
+        )
+        self.assertEqual(
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["source"]),
+            re.findall(r"\^[0-9a-fA-F]{6}", entry["translation"]),
+        )
+        source_text = (REPO_ROOT / evidence["source_path"]).read_text(
+            encoding="utf-8", errors="surrogateescape"
+        )
+        sections = re.split(r"(?m)^\s*\[(\d+)\]\s*=\s*\{", source_text)
+        by_id = dict(zip(sections[1::2], sections[2::2]))
+        self.assertEqual(len(entry["matching_item_ids"]), 2)
+        for item_id in entry["matching_item_ids"]:
+            with self.subTest(item_id=item_id):
+                self.assertIn(entry["source"], by_id[str(item_id)])
+        self.assertEqual(
+            source_text.count('"' + entry["source"] + '",'),
+            evidence["expected_source_occurrences"],
+        )
+        escaped = builder.escape_lua_quoted_content(entry["translation"].encode("ascii"))
+        self.assertIsNotNone(
+            builder.STRING_RE.fullmatch(bytes([34]) + escaped + bytes([34]))
+        )
 
     def test_unescaped_double_quote_becomes_lua_escape(self) -> None:
         self.assertEqual(

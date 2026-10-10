@@ -1,0 +1,28 @@
+{
+  "_file_header": {
+    "path": "/ROenglishRE/TurkuazTR/config/iteminfo-recovery-evidence-v1161.json",
+    "purpose": "Source location and item ID evidence for safe item list source-recovery translation",
+    "module": "Source Recovery Provenance - JSON",
+    "version": "1.0.0",
+    "description": "One source string occurs in two item list descriptions, no numerical terms or item names changed",
+    "dependency_layer": "Tool"
+  },
+  "source_path": "Translation/Renewal/SystemEN/LuaFiles514/itemInfo.lua",
+  "base_translation_sha": "4599b9f7b49eb926a7e32fc926e33212c14c2f79",
+  "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058",
+  "source_context_artifact": "https://github.com/b1glord/ROenglishRE/actions/runs/38008879489/artifacts/11652486564",
+  "resolved_count": 1,
+  "expected_source_occurrences": 2,
+  "entries": [
+    {
+      "item_id": 23014,
+      "matching_item_ids": [
+        23014,
+        23200
+      ],
+      "source": "1 Potion Box, 1 Poison Bottle Box, 1 [NotForSale] Small Life Potion Box,",
+      "translation": "1 adet Potion Box, 1 adet Poison Bottle Box, 1 adet [NotForSale] Small Life Potion Box,",
+      "upstream_source_blob_sha": "5bc5f92edd8f08ebd57ff0991f0297bc51026058"
+    }
+  ]
+}
