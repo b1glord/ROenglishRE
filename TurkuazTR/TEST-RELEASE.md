@@ -184,6 +184,17 @@ Manuel oyun ici deneme, bu localization gelistirme akisini engellemez. Otomatik 
 - Kaynak onarim sayaci **65** olarak kalir; otomatik ceviri veya eski kaynak metne geri donus yapilmaz. Eksik kaynak oyun mekanigi, renk, ve refine degerleri yalniz guvenilir bagimsiz kanitla onarilir.
 - Gercek Ragnarok 2022 istemcisinde full TR veya Hybrid gorsel kabul: `NOT_RUN / not_verified`.
 
+## v1.166.0 - 2022-04-06 eski Turkce arayuz cevirisi kontrolu
+
+- `integration/2022-04-06-tr` dalindaki `Renewal/tipoftheday.txt`, `Renewal/GuildTip.txt`, `Renewal/data/ba_frostjoke.txt`, `Renewal/data/dc_scream.txt` ve `Renewal/data/msgstringtable.txt`, yeni `TurkuazTR/generated/full_tr` profiliyle kiyaslandi.
+- Tip of the day, Frost Joke ve Scream satirlarindaki tarihi Turkce karakterler, aktif profilin tercih ettigi ASCII Turkceye cevirmis; metinler genellikle ayni anlami tasir. Client encoding dogrulanmadan eski Unicode baytlarini dogrudan kopyalamiyoruz.
+- Msgstringtable 2022 dosyasi 3971 satir, guncel kaynak 4023 satir; satirlar **global indisle kaydirilarak** yeniden kullanilamaz.
+- Kaynak satirinin kimligi bagimsiz `upstream/latest` ile dogrulanan **satir 276**, `/snap /skillsnap /itemsnap` yardim aciklamasi, eskiden Turkce iken guncel profilin Ingilizce gosterdigi bir regresyondur.
+- Bu tek satir `TurkuazTR/msgstringtable.tr.json` tam kaynak eslemesine eklendi: `3499 -> 3500` ceviri kaydi. Tum kaynak komutlari ayni kaldi; oyunun protokolu, placeholder ve sayisal ifadeleri degistirilmedi.
+- `/q1`, `/q2` ve `/nt` seceneklerindeki `ON/OFF` teknik durumlari guncel surumde tutularak, eski `AC/KAPALI` kodlarini tahminle geri getirmiyoruz.
+- 2025 itemInfo arsivinde kalan 65 kayit icin yeniden kullanilabilir eski Turkce ceviri bulunmadi. O kayitlar kaynak onarim listesinde kalir.
+- Full TR cikisi main merge sonrasi generated profil workflow'uyla yeniden uretilir. Gercek 2022 istemci testi yapilmadikca `NOT_RUN / not_verified`.
+
 ## PR ve merge politikasi
 
 Test paketi `translation/tr` dalindan uretilir. Varsayilan `master` dalina test amaciyla toplu merge yapilmaz. Final release karari, gercek pending/quality backlog'u, upstream uyumu, otomatik CI ve artifact butunlugu kapilarina gore verilir. Manuel client smoke-test zorunlu degildir; yapilmadiysa uyumluluk durumu acikca `not_verified` kalir.

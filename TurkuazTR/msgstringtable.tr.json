@@ -3,8 +3,8 @@
     "path": "/ROenglishRE/TurkuazTR/msgstringtable.tr.json",
     "purpose": "Renewal msgstringtable icin upstream Ingilizce kaynaga uygulanan ASCII Turkce satir overlay'i",
     "module": "Translation Patch - JSON",
-    "version": "1.0.0",
-    "description": "upstream/latest msgstringtable kaynagindaki 3499 exact satiri Turkce karsiliklariyla esler",
+    "version": "1.0.1",
+    "description": "3500 upstream exact entries; restore lost 2022 snap command Turkish help",
     "dependency_layer": "Tool"
   },
   "source_path": "Translation/Renewal/data/msgstringtable.txt",
@@ -1092,6 +1092,10 @@
     "275": {
       "source_en": "Skill Snap Off#",
       "translation_tr": "Yetenek Snap Kapali#"
+    },
+    "276": {
+      "source_en": "/snap: Turns snap On | Off for fights, /skillsnap: Turns snap On | Off for skills. /itemsnap: Turns snap On | Off for items on the ground.#",
+      "translation_tr": "/snap: Saldiri icin snap ac/kapat. /skillsnap: Yetenek snap ac/kapat. /itemsnap: Yerdeki esyalar icin snap ac/kapat.#"
     },
     "277": {
       "source_en": "Item Snap On#",
