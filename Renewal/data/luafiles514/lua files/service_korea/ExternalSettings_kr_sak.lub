@@ -1,3 +1,11 @@
+-- Dosya Yolu: /Renewal/data/luafiles514/lua files/service_korea/ExternalSettings_kr_sak.lub
+-- Amac: 20220406 Renewal client icin native rAthena web-server adreslerini ve client seviye tablolarini tanimlamak
+-- ClientConfig - Lua
+-- Version: 1.0.1
+-- Aciklama: 20220406 snapshot degerlerini korur; userconfig ve emblem endpointlerini localhost web-server 8888 portuna baglar
+-- Bagimli Oldugu Katman: Config
+-- Upstream snapshot: b1glord/ROenglishRE client/2022-04-06 @ 4b8cc693b6491bc9edea70b7622364ba0750acf0
+
 MaxLevelTable = {
 	BaseLevel = 99,
 	BaseLevel3rd = 200,
@@ -16,8 +24,32 @@ MaxLevelTable = {
 	JobLevelUpperJob = 70,
 	JobLevelDoram = 60
 }
+
 MakeableRace = { Doram = true }
-AssistAddr = "0.0.0.0:3000"
+
+-- Local S2 native web-server test endpoint.
+-- Production builds must replace this host with the public HTTPS endpoint.
+AssistAddr = "127.0.0.1:8888"
+
+-- Compatibility tables required by older clients that do not derive
+-- userconfig and emblem URLs from AssistAddr automatically.
+Url = { TwitterUrl = 'http://'..AssistAddr }
+
+AccountLinkedUserDataUrl = {
+	Save = 'http://'..AssistAddr..'/userconfig/save',
+	Load = 'http://'..AssistAddr..'/userconfig/load'
+}
+
+TwitterDataUrl = {
+	Auth = 'http://'..AssistAddr..'/twitter/user-auth',
+	Upload = 'http://'..AssistAddr..'/twitter/upload'
+}
+
+EmblemDataUrl = {
+	Upload = 'http://'..AssistAddr..'/emblem/upload',
+	Download = 'http://'..AssistAddr..'/emblem/download'
+}
+
 LEVELAURA = {}
 LEVELAURA.EF_NONE = -1
 LEVELAURA.EF_LEVEL99 = 200
@@ -31,6 +63,7 @@ LEVELAURA.EF_LEVEL185 = 1226
 LEVELAURA.EF_LEVEL185_SUB = 1227
 LEVELAURA.EF_LEVEL4TH = 2275
 LEVELAURA.EF_LEVEL4TH_SUB = 2276
+
 Level99AuraTable = {
 	Default99LvAura = LEVELAURA.EF_LEVEL99,
 	Default99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB1,
@@ -42,6 +75,7 @@ Level99AuraTable = {
 	Homun99LvAura_sub = 0,
 	Boss99LvAura_sub = LEVELAURA.EF_LEVEL99_ORB1
 }
+
 MaxLevelAuraTable = {
 	Default150LvAura = LEVELAURA.EF_LEVEL150,
 	Default150LvAura_sub = LEVELAURA.EF_LEVEL150_SUB,
