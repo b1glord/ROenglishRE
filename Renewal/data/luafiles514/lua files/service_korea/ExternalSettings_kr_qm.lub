@@ -1,7 +1,7 @@
 -- Dosya Yolu: /Renewal/data/luafiles514/lua files/service_korea/ExternalSettings_kr_qm.lub
 -- Amac: 20220406 Renewal client icin native rAthena web-server adreslerini ve client seviye tablolarini tanimlamak
 -- ClientConfig - Lua
--- Version: 1.0.0
+-- Version: 1.0.1
 -- Aciklama: 20220406 snapshot degerlerini korur; userconfig ve emblem endpointlerini localhost web-server 8888 portuna baglar
 -- Bagimli Oldugu Katman: Config
 -- Upstream snapshot: b1glord/ROenglishRE client/2022-04-06 @ 4b8cc693b6491bc9edea70b7622364ba0750acf0
@@ -88,7 +88,7 @@ MaxLevelAuraTable = {
 	UpperJobMaxLvAura = LEVELAURA.EF_LEVEL185,
 	UpperJobMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB,
 	HomunMaxLvAura = LEVELAURA.EF_LEVEL185,
-	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185
+	HomunMaxLvAura_sub = LEVELAURA.EF_LEVEL185_SUB
 }
 
 function GetTableIntValueForC(tableName, keyName)
